@@ -111,7 +111,7 @@ $(document).ready(function(){initNavTree('pageInstallEclipse.html','');});
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
 <ul><li class="level1"><a href="#secInstallEclipseDownload">Download Eclipse</a></li>
-<li class="level1"><a href="#secInstallEclipseUG4Download">Download ug4 via Eclipse/SVN</a></li>
+<li class="level1"><a href="#secUG4AndEclipse">Generating Eclipse Project-Files</a></li>
 <li class="level1"><a href="#secInstallEclipseUseMakefiles">Build in Eclipse using external Makefiles</a></li>
 <li class="level1"><a href="#secInstallEclipseRunExecutable">Run ug-executable via Eclipse</a></li>
 <li class="level1"><a href="#secInstallEclipsePathSymbols">Path and Symbols</a></li>
@@ -123,74 +123,25 @@ $(document).ready(function(){initNavTree('pageInstallEclipse.html','');});
 </ul>
 </div>
 <div class="textblock"><p>The page is an install guide for the usage of Eclipse for ug.</p>
-<p>For any questions, contact <a href="#" onclick="location.href='mai'+'lto:'+'and'+'re'+'as.'+'vo'+'gel'+'@g'+'csc'+'.u'+'ni-'+'fr'+'ank'+'fu'+'rt.'+'de'; return false;">andre<span style="display: none;">.nosp@m.</span>as.v<span style="display: none;">.nosp@m.</span>ogel@<span style="display: none;">.nosp@m.</span>gcsc<span style="display: none;">.nosp@m.</span>.uni-<span style="display: none;">.nosp@m.</span>fran<span style="display: none;">.nosp@m.</span>kfurt<span style="display: none;">.nosp@m.</span>.de</a> .</p>
 <dl class="section note"><dt>Note</dt><dd>If you're working at the G-CSC, there is a preconfigured Eclipse download available. Ask for "software server".</dd></dl>
 <hr/>
  <h1><a class="anchor" id="secInstallEclipseDownload"></a>
 Download Eclipse</h1>
 <ul>
 <li>
-Download <em>Eclipse</em> from <a href="http://www.eclipse.org/downloads/packages/eclipse-ide-cc-developers/keplersr1">http://www.eclipse.org/downloads/packages/eclipse-ide-cc-developers/keplersr1</a> : <em>Eclipse IDE for C/C++ Developers</em>  </li>
+Download the latest release of <em>Eclipse</em> from <a href="http://www.eclipse.org/downloads/packages/eclipse-ide-cc-developers/neonm4a">http://www.eclipse.org/downloads/packages/eclipse-ide-cc-developers/neonm4a</a> : <em>Eclipse IDE for C/C++ Developers</em>  </li>
 <li>
-Unzip <em>Eclipse</em> and move it to your "Application" folder </li>
+Unzip <em>Eclipse</em> and move it to your "Application" folder (MAC only) </li>
 <li>
 Start <em>Eclipse</em>. On startup you are requested to choose a workspace. This is the location, where your projects will be placed. Specially, <b>ug4</b> will be placed here. So, choose an folder where you want <b>ug4</b> to be downloaded to. (e.g. <code>home/projects/</code>)  </li>
 <li>
-Install a <em>Subversion</em> plugin: <ol>
-<li>
-<em>Help</em> -&gt; <em>Install new Software</em> </li>
-<li>
-On Eclipse Kepler, type <code>Work with: <a href="http://download.eclipse.org/releases/kepler">http://download.eclipse.org/releases/kepler</a></code> </li>
-<li>
-Choose the plugin <em>Collaboration</em> by setting checking the box </li>
-<li>
-Click <em>Next</em>  </li>
-<li>
-Click <em>Next</em>  </li>
-<li>
-Accept license </li>
-<li>
-Click <em>Finish</em>  </li>
-<li>
-Installation begins. Restart <em>Eclipse</em> when finished.  </li>
-<li>
-Choose latest release of <em>SVN Kit *.*.*</em>. Click <em>Finish</em>.  </li>
-<li>
-Choose all items to be installed. Click <em>Next</em>.  </li>
-<li>
-Click <em>Next</em>  </li>
-<li>
-Accept license. Click <em>Finish</em>. Install begins. Restart <em>Eclipse</em> when finished.  </li>
-</ol>
-</li>
+Make sure that the Eclipse-git Plugin 'EGit' is installed. </li>
 </ul>
 <hr/>
- <h1><a class="anchor" id="secInstallEclipseUG4Download"></a>
-Download ug4 via Eclipse/SVN</h1>
-<ul>
-<li>
-In Eclipse's Menu, choose <em>File</em> -&gt; <em>New</em> -&gt; <em>Other ...</em>, and there <em>SVN</em> -&gt; <em>Project from SVN</em>  </li>
-<li>
-URL is: <code>svn://fuji.gcsc.uni-frankfurt.de/ug4/trunk</code> </li>
-<li>
-Choose <em>Use a custom label</em>: <code>ug4-trunk</code> </li>
-<li>
-Fill in your <em>User</em> and <em>Password</em> as received by (currently) Sebastian Reiter.  </li>
-<li>
-Disable <em>Advanced</em> -&gt; <em>Detect repository structure</em> </li>
-<li>
-Click <em>Next</em> (Click always yes when problems occure) </li>
-<li>
-Choose <em>Head Revision</em> </li>
-<li>
-Click <em>Finish</em>  </li>
-<li>
-Choose <em>Check out as a project configured using the the New Project Wizard</em>. Click <em>Finish</em>.  </li>
-<li>
-Choose <em>C/C++</em> -&gt; <em>C++ Project</em>. Click <em>Next</em>.  </li>
-<li>
-Choose <em>Project name</em>: <code>ug4</code> and <em>Empty Project</em>. Click <em>Finish</em>  </li>
-</ul>
+ <h1><a class="anchor" id="secUG4AndEclipse"></a>
+Generating Eclipse Project-Files</h1>
+<p>In order work with UG4 in Eclipse, please download and install UG4 as usual through UG4's package-manager (see <a href="https://github.com/UG4/ughub/wiki">https://github.com/UG4/ughub/wiki</a>).</p>
+<p>You'll find detailed instructions on how to generate and import UG4 project-files for Eclipse here: <a href="https://github.com/UG4/ughub/wiki#importing-ug4-into-your-ide">https://github.com/UG4/ughub/wiki#importing-ug4-into-your-ide</a></p>
 <hr/>
  <h1><a class="anchor" id="secInstallEclipseUseMakefiles"></a>
 Build in Eclipse using external Makefiles</h1>
@@ -360,7 +311,7 @@ Troubleshooting</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="index.html">ug4 - Documentation</a></li><li class="navelem"><a class="el" href="pageUG4Setup.html">Setup and Installation</a></li><li class="navelem"><a class="el" href="pageUG4Install.html">Prerequisites and Recommended Tools</a></li>
-    <li class="footer">Generated on Wed Jan 13 2016 12:42:54 for ug4 by
+    <li class="footer">Generated on Wed Jan 13 2016 14:45:44 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -1,6 +1,5 @@
 var NAVTREEINDEX99 =
 {
-"math__tensor__functions_8h.html#ga5cb62d1cfafe4b50de3e0404291a7931":[4,0,2,2,1,0,8,13],
 "math__tensor__functions_8h.html#ga809a901aeb48f63bd19d2f7d1fb62ee6":[4,0,2,2,1,0,8,0],
 "math__tensor__functions_8h.html#ga9ab6b45e329aafe7d62797796d6e1bf9":[4,0,2,2,1,0,8,2],
 "math__tensor__functions_8h.html#gab82f2619f7178e13a4ae0ebba88b832c":[4,0,2,2,1,0,8,4],
@@ -249,5 +248,6 @@ var NAVTREEINDEX99 =
 "math__vector__functions__common__impl_8hpp.html#ga482e30d81445e7428d79d4d1a6285748":[4,0,2,2,1,0,13,26],
 "math__vector__functions__common__impl_8hpp.html#ga53ae2dda87330ab64fb2a5901606b3e4":[4,0,2,2,1,0,13,25],
 "math__vector__functions__common__impl_8hpp.html#ga5be9ee257bccce9d31593bbb39f337e8":[4,0,2,2,1,0,13,1],
-"math__vector__functions__common__impl_8hpp.html#ga5c7eda5aeb4cd0d53ce04f682d0a0058":[4,0,2,2,1,0,13,37]
+"math__vector__functions__common__impl_8hpp.html#ga5c7eda5aeb4cd0d53ce04f682d0a0058":[4,0,2,2,1,0,13,37],
+"math__vector__functions__common__impl_8hpp.html#ga72675fc6a1fb7de27f74e64cb1ad9388":[4,0,2,2,1,0,13,7]
 };

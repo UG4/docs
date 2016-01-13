@@ -32,7 +32,6 @@ var searchData=
   ['geom_5fobj_5futil_2eh',['geom_obj_util.h',['../geom__obj__util_8h.html',1,'']]],
   ['geom_5fprovider_2eh',['geom_provider.h',['../geom__provider_8h.html',1,'']]],
   ['geometry_5futil_2eh',['geometry_util.h',['../geometry__util_8h.html',1,'']]],
-  ['git_2edoxygen',['git.doxygen',['../git_8doxygen.html',1,'']]],
   ['global_5fattachments_2eh',['global_attachments.h',['../global__attachments_8h.html',1,'']]],
   ['global_5ffractured_5fmedia_5frefiner_2ecpp',['global_fractured_media_refiner.cpp',['../global__fractured__media__refiner_8cpp.html',1,'']]],
   ['global_5ffractured_5fmedia_5frefiner_2eh',['global_fractured_media_refiner.h',['../global__fractured__media__refiner_8h.html',1,'']]],

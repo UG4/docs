@@ -112,11 +112,14 @@ $(document).ready(function(){initNavTree('pageUG4OnWindows.html','');});
 <div class="toc"><h3>Table of Contents</h3>
 <ul><li class="level1"><a href="#secWindowsCompiler">Compiler</a></li>
 <li class="level1"><a href="#secInstallWindowsCMake">Install CMake on Windows</a></li>
-<li class="level1"><a href="#secInstallWindowsSVN">Checkout ug4 on Windows</a></li>
 <li class="level1"><a href="#secWindowsBuild">Building</a></li>
 </ul>
 </div>
 <div class="textblock"><hr/>
+ <h1><a class="anchor" id="secInstallUg"></a>
+Installation of UG4</h1>
+<p>Please follow the description at <a href="https://github.com/UG4/ughub/wiki">https://github.com/UG4/ughub/wiki</a> to obtain a copy of <b>ug4</b>. Below you'll find hints on how to obtain additional software which is required to build <b>ug4</b>.</p>
+<hr/>
  <h1><a class="anchor" id="secWindowsCompiler"></a>
 Compiler</h1>
 <p>The Microsoft Visual C++ 2013 compiler is recommended for compilation of <b>ug4</b> on windows. It can be downloaded as part of the free "Express 2013 for Windows Desktop" edition of Visual Studio (<a href="https://www.visualstudio.com/en-us/products/visual-studio-express-vs.aspx">https://www.visualstudio.com/en-us/products/visual-studio-express-vs.aspx</a>).</p>
@@ -126,12 +129,6 @@ Compiler</h1>
 Install CMake on Windows</h1>
 <p>Compilation of <b>ug4</b> furthermore requires the installation of <em>CMake</em>, which can be obtained from here <a href="http://www.cmake.org/cmake/resources/software.html">http://www.cmake.org/cmake/resources/software.html</a> (min Release 2.6).</p>
 <p>If the option is presented to you by the installer, you should choose to install the command-line tools, too.</p>
-<hr/>
- <h1><a class="anchor" id="secInstallWindowsSVN"></a>
-Checkout ug4 on Windows</h1>
-<p>In order to checkout <b>ug4</b> from its svn repository you'll either have to follow the instructions on how to setup <em>Eclipse</em> with svn capabilities or you'll have to install <em>Tortoise SVN</em> (<a href="http://tortoisesvn.net/">http://tortoisesvn.net/</a>), depending on whether you want to develop with <b>ug4</b> or just compile it. <em>Tortoise SVN</em> is an extension to the Windows Explorer and allows to perform checkouts and commits through the right-click-menu directly in the explorer.</p>
-<p>If the option is presented to you by the installer, you should choose to install the command-line tools, too.</p>
-<p>If you're using <em>Tortoise SVN</em>, then open the explorer and navigate to the folder in which you want to install <b>ug4</b>. Create a new folder called <code>ug4</code>, perform a right click on it and choose <em>svn checkout</em> from the menu. Enter the repository adress (e.g. <code>svn://fuji.gcsc.uni-frankfurt.de/ug4/trunk</code>), your username and password.</p>
 <hr/>
  <h1><a class="anchor" id="secWindowsBuild"></a>
 Building</h1>
@@ -153,7 +150,7 @@ If you want to compile directly using the VisualStudio IDE, you should specify a
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="index.html">ug4 - Documentation</a></li><li class="navelem"><a class="el" href="pageUG4Setup.html">Setup and Installation</a></li><li class="navelem"><a class="el" href="pageUG4Install.html">Prerequisites and Recommended Tools</a></li>
-    <li class="footer">Generated on Wed Jan 13 2016 12:42:54 for ug4 by
+    <li class="footer">Generated on Wed Jan 13 2016 14:45:44 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

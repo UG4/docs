@@ -8,6 +8,7 @@ var pageUG4Install =
       [ "Installation BLAS/LAPACK (optional)", "pageAdditionalSoftware.html#secInstallLAPACK", null ]
     ] ],
     [ "Prerequisites on Linux / Unix", "pageUG4OnLinux.html", [
+      [ "Installation of UG4", "pageUG4OnLinux.html#secInstallUg", null ],
       [ "CMake", "pageUG4OnLinux.html#secInstallLinuxCMake", null ],
       [ "MPI", "pageUG4OnLinux.html#secInstallLinuxMPI", null ],
       [ "Installation BLAS/LAPACK (optional)", "pageUG4OnLinux.html#secInstallLinuxLAPACK", null ],
@@ -22,13 +23,12 @@ var pageUG4Install =
     [ "Prerequisites on Windows", "pageUG4OnWindows.html", [
       [ "Compiler", "pageUG4OnWindows.html#secWindowsCompiler", null ],
       [ "Install CMake on Windows", "pageUG4OnWindows.html#secInstallWindowsCMake", null ],
-      [ "Checkout ug4 on Windows", "pageUG4OnWindows.html#secInstallWindowsSVN", null ],
       [ "Building", "pageUG4OnWindows.html#secWindowsBuild", null ]
     ] ],
     [ "Installation on Parallel Computers", "pageUG4SetupParallel.html", "pageUG4SetupParallel" ],
     [ "Developing with the Eclipse IDE", "pageInstallEclipse.html", [
       [ "Download Eclipse", "pageInstallEclipse.html#secInstallEclipseDownload", null ],
-      [ "Download ug4 via Eclipse/SVN", "pageInstallEclipse.html#secInstallEclipseUG4Download", null ],
+      [ "Generating Eclipse Project-Files", "pageInstallEclipse.html#secUG4AndEclipse", null ],
       [ "Build in Eclipse using external Makefiles", "pageInstallEclipse.html#secInstallEclipseUseMakefiles", null ],
       [ "Run ug-executable via Eclipse", "pageInstallEclipse.html#secInstallEclipseRunExecutable", null ],
       [ "Path and Symbols", "pageInstallEclipse.html#secInstallEclipsePathSymbols", null ],

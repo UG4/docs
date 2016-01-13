@@ -2,7 +2,7 @@ var pageUG4DevTipsGuides =
 [
     [ "Developing with the Eclipse IDE", "pageInstallEclipse.html", [
       [ "Download Eclipse", "pageInstallEclipse.html#secInstallEclipseDownload", null ],
-      [ "Download ug4 via Eclipse/SVN", "pageInstallEclipse.html#secInstallEclipseUG4Download", null ],
+      [ "Generating Eclipse Project-Files", "pageInstallEclipse.html#secUG4AndEclipse", null ],
       [ "Build in Eclipse using external Makefiles", "pageInstallEclipse.html#secInstallEclipseUseMakefiles", null ],
       [ "Run ug-executable via Eclipse", "pageInstallEclipse.html#secInstallEclipseRunExecutable", null ],
       [ "Path and Symbols", "pageInstallEclipse.html#secInstallEclipsePathSymbols", null ],
@@ -54,53 +54,11 @@ var pageUG4DevTipsGuides =
         [ "Using Multiple Caches", "pageUG4CompilationOptimization.html#secCCACHEMultiCache", null ]
       ] ]
     ] ],
-    [ "Using Git Locally Instead of SVN", "pageUsingGit.html", [
-      [ "Warning on Usage", "pageUsingGit.html#secGitSVNWarning", null ],
-      [ "General Remarks on Git-SVN over Git-Only", "pageUsingGit.html#secGitSVNGeneral", null ],
-      [ "Cloning SVN Repository", "pageUsingGit.html#secGitSVNClone", [
-        [ "Configuring Git", "pageUsingGit.html#secGitConfig", [
-          [ "Ignoring Files", "pageUsingGit.html#secGitConfigGitignore", null ],
-          [ "Credentials", "pageUsingGit.html#secGitConfigCredentials", null ]
-        ] ]
-      ] ],
-      [ "Committing Work", "pageUsingGit.html#secGitSVNCommit", null ],
-      [ "The Full Workflow", "pageUsingGit.html#secGitSVNCommitExample", null ],
-      [ "Further Notes", "pageUsingGit.html#secGitSVNNotes", null ]
-    ] ],
     [ "SSH", "pageUG4SSH.html", [
       [ "Exchanging SSH Keys", "pageUG4SSH.html#secSSHKeys", null ],
       [ "SSH Controlmaster", "pageUG4SSH.html#secSSHControlmaster", null ],
       [ "SSH Hopping", "pageUG4SSH.html#secSSHHopping", null ],
       [ "FUSE/SSHFS", "pageUG4SSH.html#secSSHFS", null ],
       [ "SSHFS + Eclipse", "pageUG4SSH.html#secSSH_Eclipse", null ]
-    ] ],
-    [ "SVN", "pageUG4SVN.html", [
-      [ "SVN Basics", "pageUG4SVN.html#secSVNBasics", null ],
-      [ "SVN Repositories", "pageUG4SVN.html#secSVNRepository", null ],
-      [ "SVN Users", "pageUG4SVN.html#secSVNUsers", null ],
-      [ "Download the source code (checkout)", "pageUG4SVN.html#secSVNCheckout", null ],
-      [ "Upload/check in changes (commit)", "pageUG4SVN.html#secSVNCommit", null ],
-      [ "Download changes others uploaded (update)", "pageUG4SVN.html#secSVNUpdate", null ],
-      [ "Add, delete or rename files or directories", "pageUG4SVN.html#secSVNFiles", null ],
-      [ "Knowing what you have to check in", "pageUG4SVN.html#secSVNStatus", null ],
-      [ "Reverting your changes", "pageUG4SVN.html#secSVNRevert", null ],
-      [ "Conflicts", "pageUG4SVN.html#secSVNConflicts", null ],
-      [ "Error, other conflicts, troubleshooting", "pageUG4SVN.html#secSVNOtherConflicts", [
-        [ "Incompatible SVN Versions", "pageUG4SVN.html#secSSH_outdatedSVN", null ]
-      ] ],
-      [ "SVN/SSH Tunneling", "pageUG4SVN.html#secSVNSSHTunneling", [
-        [ "More", "pageUG4SVN.html#secSVNMore", [
-          [ "SVN Revision number", "pageUG4SVN.html#secSVNRevisionNumber", null ],
-          [ "ug4 or ug4's revision number", "pageUG4SVN.html#update", null ],
-          [ "Other Usernames", "pageUG4SVN.html#secSVNMoreUsername", null ],
-          [ "Log or History", "pageUG4SVN.html#secSVNMoreHistory", null ],
-          [ "diff", "pageUG4SVN.html#secSVNMoreDiff", null ],
-          [ "Other Examples", "pageUG4SVN.html#secSVNMoreExample", null ]
-        ] ]
-      ] ],
-      [ "SVN in Eclipse", "pageUG4SVN.html#secSVNEclipse", null ],
-      [ "Some Warnings", "pageUG4SVN.html#secSVNWarnings", null ],
-      [ "SVN Troubleshooting", "pageUG4SVN.html#secSVNTroubleshooting", null ],
-      [ "Partial Checkout", "pageUG4SVN.html#secSVNPartialCheckout", null ]
     ] ]
 ];

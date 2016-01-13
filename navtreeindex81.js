@@ -3,7 +3,6 @@ var NAVTREEINDEX81 =
 "geometry__util_8h.html#ae726b586dab86d63c6ac3ed2d28b3bd5":[4,0,2,5,0,2,17],
 "geometry__util_8h.html#af0170645121fcb2b892f20548517d3fa":[4,0,2,5,0,2,18],
 "geometry__util_8h_source.html":[4,0,2,5,0,2],
-"git_8doxygen.html":[4,0,0,3,0,0,1,3],
 "global__attachments_8h.html":[4,0,2,6,12],
 "global__attachments_8h_source.html":[4,0,2,6,12],
 "global__fractured__media__refiner_8cpp.html":[4,0,2,6,0,4,6],
@@ -40,8 +39,8 @@ var NAVTREEINDEX81 =
 "global__multi__grid__refiner_8cpp.html#ad7edd03061aa471b2406e0110c718f0d":[4,0,2,6,0,4,8,3],
 "global__multi__grid__refiner_8h.html":[4,0,2,6,0,4,9],
 "global__multi__grid__refiner_8h_source.html":[4,0,2,6,0,4,9],
-"globals.html":[4,1,0,0],
 "globals.html":[4,1,0],
+"globals.html":[4,1,0,0],
 "globals_0x7e.html":[4,1,0,25],
 "globals_a.html":[4,1,0,1],
 "globals_b.html":[4,1,0,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX81 =
 "grid__bridges_8h.html#a559ad8ea14692ddb3f96e791b736187c":[4,0,2,1,3,5,8],
 "grid__bridges_8h.html#a5785bfe267b0df9c3312833f22aa2db2":[4,0,2,1,3,5,6],
 "grid__bridges_8h.html#a64a6baf4bbdacf38c3cddee1a12f68ad":[4,0,2,1,3,5,3],
-"grid__bridges_8h.html#ab242c3f22046d533e6d247ad7f11a4e4":[4,0,2,1,3,5,1]
+"grid__bridges_8h.html#ab242c3f22046d533e6d247ad7f11a4e4":[4,0,2,1,3,5,1],
+"grid__bridges_8h.html#ae5f6ba696e780b075baf8fab057d4d79":[4,0,2,1,3,5,7]
 };
