@@ -1,0 +1,4 @@
+var classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function_gradient_component_data =
+[
+    [ "GridFunctionGradientComponentData", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function_gradient_component_data.html#ad885536aa624c2d31480010e288e5d46", null ]
+];

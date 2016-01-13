@@ -1,0 +1,26 @@
+var vertex__util_8cpp =
+[
+    [ "CalculateVertexNormals", "vertex__util_8cpp.html#gabe72050ecf543aeda3950e6bd039e402", null ],
+    [ "CalculateVertexNormals", "vertex__util_8cpp.html#ga95754779ac568465423ab030b6421c7f", null ],
+    [ "CollectSurfaceNeighborsSorted", "vertex__util_8cpp.html#ga5221e89301cf0272f1a19cfe2ba9bab3", null ],
+    [ "FindVertexByCoordiante", "vertex__util_8cpp.html#ga36a7060c2aa222b64f3bd37c81e7863d", null ],
+    [ "GetConnectedEdge", "vertex__util_8cpp.html#ga3462fadc3d0f59d6a4177d60e647a2e8", null ],
+    [ "GetConnectedVertex", "vertex__util_8cpp.html#ga0bae9d4d5288bbf36d46a8546209aca8", null ],
+    [ "GetConnectedVertex", "vertex__util_8cpp.html#gaee1128b8bc4a8fed99814b0126b9b454", null ],
+    [ "GetConnectedVertexIndex", "vertex__util_8cpp.html#gaab444e4d5c443af5fabba6b0104c7a87", null ],
+    [ "GetSharedVertex", "vertex__util_8cpp.html#ga0d4ce919a5c578ed819e67058723d332", null ],
+    [ "GetSharedVertices", "vertex__util_8cpp.html#ga7dfe766ecd522261dd33e5e8e5a41a1b", null ],
+    [ "GetVertexIndex", "vertex__util_8cpp.html#ga48792c2aba7f3a2a37275b90b9ac8b9d", null ],
+    [ "GetVertexIndex", "vertex__util_8cpp.html#gaaf616966d82226b6c9af1b072d2e482c", null ],
+    [ "GetVertexIndex", "vertex__util_8cpp.html#ga5151cea6aa053c8932b2977d99272a4d", null ],
+    [ "IsBoundaryVertex1D", "vertex__util_8cpp.html#ga278ac166fa59ab8608bee3e4a7b5c1fa", null ],
+    [ "IsBoundaryVertex2D", "vertex__util_8cpp.html#ga2027583d2c14c0b7ac9379df4c988ccf", null ],
+    [ "IsBoundaryVertex3D", "vertex__util_8cpp.html#ga7e2bc9e8f5f8133db8ac2939f6ba178b", null ],
+    [ "IsRegularSurfaceVertex", "vertex__util_8cpp.html#ga0cbefc9fc997763a231d0f910376d3c1", null ],
+    [ "LiesOnBoundary", "vertex__util_8cpp.html#ga968ae16e440ac72e9fb2760ef15cc28b", null ],
+    [ "MarkFixedCreaseVertices", "vertex__util_8cpp.html#gaf44b3bf9a26a6ad362eae2e1b6345a3f", null ],
+    [ "MergeVertices", "vertex__util_8cpp.html#ga756bb139ffc1dd1ef5725086d83f2522", null ],
+    [ "NumAssociatedEdges", "vertex__util_8cpp.html#ga307a8879682aad14b24df172ada00342", null ],
+    [ "NumAssociatedFaces", "vertex__util_8cpp.html#ga3a826eba40e1813aa2f6866d59ed1926", null ],
+    [ "NumSharedVertices", "vertex__util_8cpp.html#ga4b31afe8e8a41c95568826dfbfd0dd7a", null ]
+];

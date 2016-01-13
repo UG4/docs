@@ -1,0 +1,25 @@
+var classug_1_1_assembled_transforming_smoother =
+[
+    [ "algebra_type", "classug_1_1_assembled_transforming_smoother.html#ac5898cfb19fda72b7073f44f2926ef45", null ],
+    [ "domain_type", "classug_1_1_assembled_transforming_smoother.html#ae067ce6967bcf8009c67aa3ce0efb7c4", null ],
+    [ "matrix_type", "classug_1_1_assembled_transforming_smoother.html#a4c119bb811db6d3ad822fecf5122e6fa", null ],
+    [ "vector_type", "classug_1_1_assembled_transforming_smoother.html#addcbfff582ab327e86942ee13f8b6c45", null ],
+    [ "AssembledTransformingSmoother", "classug_1_1_assembled_transforming_smoother.html#a518a0e068740653bf94021f4a3d957ef", null ],
+    [ "apply_transformed", "classug_1_1_assembled_transforming_smoother.html#a99fc742df494bac6c48575cc61ba5db8", null ],
+    [ "clone", "classug_1_1_assembled_transforming_smoother.html#a0f1a0f4a4ef476bcd4d0da9f69e6c46d", null ],
+    [ "init", "classug_1_1_assembled_transforming_smoother.html#a6d48f31e63ca786e8e694a3bab9bc30d", null ],
+    [ "init", "classug_1_1_assembled_transforming_smoother.html#a7684f7ff8a31e2a70bd77983c97a650b", null ],
+    [ "name", "classug_1_1_assembled_transforming_smoother.html#ae1f2dcd73c98b3acc3724712559d88b5", null ],
+    [ "original_operator", "classug_1_1_assembled_transforming_smoother.html#a6dc8ed725b05875c04c73c557d215af7", null ],
+    [ "supports_parallel", "classug_1_1_assembled_transforming_smoother.html#a5ef1e8b2cd911ccc93ee28efdd480a32", null ],
+    [ "transform_defect", "classug_1_1_assembled_transforming_smoother.html#a69bd491a50d07e9243d89db4ccff50e7", null ],
+    [ "untransform_correction", "classug_1_1_assembled_transforming_smoother.html#abe47222a7c3a2bbdf24fb70b6473153d", null ],
+    [ "m_spAuxCorrection", "classug_1_1_assembled_transforming_smoother.html#a6a42f7654060d7cfaadb7af0dd5db793", null ],
+    [ "m_spAuxMatrixOperator", "classug_1_1_assembled_transforming_smoother.html#af6b276294e10a2f40b1e5b7dc19367d0", null ],
+    [ "m_spAuxSmoother", "classug_1_1_assembled_transforming_smoother.html#aa7450d945013b285da340cb87d225199", null ],
+    [ "m_spAuxSystemAss", "classug_1_1_assembled_transforming_smoother.html#a2252d6ec96449297341a3d0268de80a9", null ],
+    [ "m_spOriginalSystemOp", "classug_1_1_assembled_transforming_smoother.html#a0a32f475e6f1b1499c3284df75cbc8ed", null ],
+    [ "m_spRightTrafoAss", "classug_1_1_assembled_transforming_smoother.html#a0f1848dcedc6da32d8ee073a218df329", null ],
+    [ "m_spRightTrafoMat", "classug_1_1_assembled_transforming_smoother.html#ad76bdbd3c26b9ff01fdbb5bc751fa25c", null ],
+    [ "m_spRightTrafoSmoother", "classug_1_1_assembled_transforming_smoother.html#a160fee934cdd0b6e2f008db4c93a2b8d", null ]
+];

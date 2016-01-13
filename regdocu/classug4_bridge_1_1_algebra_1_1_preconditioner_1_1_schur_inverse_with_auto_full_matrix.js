@@ -1,0 +1,4 @@
+var classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_schur_inverse_with_auto_full_matrix =
+[
+    [ "SchurInverseWithAutoFullMatrix", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_schur_inverse_with_auto_full_matrix.html#a6c3b3aec5e66ab6a1068dd97839a8c88", null ]
+];

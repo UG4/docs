@@ -1,0 +1,36 @@
+var classug_1_1_com_pol___attachment_reduce =
+[
+    [ "art", "classug_1_1_com_pol___attachment_reduce.html#a6cc4ef6e2f1cdaf1a1c86287e4dee21a", null ],
+    [ "Element", "classug_1_1_com_pol___attachment_reduce.html#adae06bee05eac1d784773732fd9e4de3", null ],
+    [ "GeomObj", "classug_1_1_com_pol___attachment_reduce.html#a639a42667817e87d7c7a1e86e304e4b5", null ],
+    [ "iiter_t", "classug_1_1_com_pol___attachment_reduce.html#abe8b63da6379031baa3d231692b31038", null ],
+    [ "Interface", "classug_1_1_com_pol___attachment_reduce.html#abba7042e9ff642b438eea82b69dad236", null ],
+    [ "Layout", "classug_1_1_com_pol___attachment_reduce.html#aa36f1d756118d9b0c8f837133bbdcde9", null ],
+    [ "Value", "classug_1_1_com_pol___attachment_reduce.html#aa5c31b2a27fb2c48ad21ab33e04e84d3", null ],
+    [ "ReduceOperation", "classug_1_1_com_pol___attachment_reduce.html#a61ea7f758a2921895d2a56b57b1e89fd", [
+      [ "NONE", "classug_1_1_com_pol___attachment_reduce.html#a61ea7f758a2921895d2a56b57b1e89fda6ee13330927a9143e0f99367d8b6f732", null ],
+      [ "MAX", "classug_1_1_com_pol___attachment_reduce.html#a61ea7f758a2921895d2a56b57b1e89fdabb30a0bba51a1d065454af936025944e", null ],
+      [ "MIN", "classug_1_1_com_pol___attachment_reduce.html#a61ea7f758a2921895d2a56b57b1e89fda39e2d00140438ab99ff2bbe176fd858c", null ],
+      [ "SUM", "classug_1_1_com_pol___attachment_reduce.html#a61ea7f758a2921895d2a56b57b1e89fda164c899d9c43d4ae3657897b7fe79d16", null ],
+      [ "PROD", "classug_1_1_com_pol___attachment_reduce.html#a61ea7f758a2921895d2a56b57b1e89fda48f9c1bed77747eb1fe5cc5fe965774f", null ],
+      [ "LAND", "classug_1_1_com_pol___attachment_reduce.html#a61ea7f758a2921895d2a56b57b1e89fda0aadee0c59fe4b3397da3f705f2a0924", null ],
+      [ "BAND", "classug_1_1_com_pol___attachment_reduce.html#a61ea7f758a2921895d2a56b57b1e89fda6a80050c6a146bbde01531fce13d006f", null ],
+      [ "LOR", "classug_1_1_com_pol___attachment_reduce.html#a61ea7f758a2921895d2a56b57b1e89fda7d1df49d620c95449c8a6f0af71f931a", null ],
+      [ "BOR", "classug_1_1_com_pol___attachment_reduce.html#a61ea7f758a2921895d2a56b57b1e89fdac3231b06bf1d0342669b35a69de3ad1c", null ]
+    ] ],
+    [ "ComPol_AttachmentReduce", "classug_1_1_com_pol___attachment_reduce.html#a31cb10f27309a751d2bcba65b248885d", null ],
+    [ "ComPol_AttachmentReduce", "classug_1_1_com_pol___attachment_reduce.html#a4fc34cf2a67c8cc83b03e0ce5c68b3a8", null ],
+    [ "collect", "classug_1_1_com_pol___attachment_reduce.html#a0382251813bd124f4fd49b58bafd2497", null ],
+    [ "extract", "classug_1_1_com_pol___attachment_reduce.html#a42d38a3e95abcc2905e0090c867741f6", null ],
+    [ "extract_band", "classug_1_1_com_pol___attachment_reduce.html#aa85935af91b07eaa380488e0477acf67", null ],
+    [ "extract_bor", "classug_1_1_com_pol___attachment_reduce.html#abcb924f6ac4183be78f827b0ad52dcad", null ],
+    [ "extract_land", "classug_1_1_com_pol___attachment_reduce.html#ae7e8772736ec77bafc51e87f0c649816", null ],
+    [ "extract_lor", "classug_1_1_com_pol___attachment_reduce.html#a499c446e9c559230e684b5e50d47a9b8", null ],
+    [ "extract_max", "classug_1_1_com_pol___attachment_reduce.html#abd5026af591ff3bf966be1e8a419022c", null ],
+    [ "extract_min", "classug_1_1_com_pol___attachment_reduce.html#ad5b34a8a3d1d51ed55657ed732340ecd", null ],
+    [ "extract_prod", "classug_1_1_com_pol___attachment_reduce.html#a774274ca60ae06ae515b130283e2a9e1", null ],
+    [ "extract_sum", "classug_1_1_com_pol___attachment_reduce.html#a9392440b22d35024a3467cac1bbdd40a", null ],
+    [ "m_aa", "classug_1_1_com_pol___attachment_reduce.html#aad96743b8abd42618c8a73a4e56123f0", null ],
+    [ "m_grid", "classug_1_1_com_pol___attachment_reduce.html#a3e60a37c8124543d48b8832f872e4e57", null ],
+    [ "m_op", "classug_1_1_com_pol___attachment_reduce.html#ac7313f56f07ac41027fcac7f211161c1", null ]
+];

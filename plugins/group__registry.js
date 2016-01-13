@@ -1,0 +1,26 @@
+var group__registry =
+[
+    [ "FuncRegistryChanged", "../group__registry.html#ga7cdc310027b2c0bb3b0636017872fc20", null ],
+    [ "CastAndDelete", "../group__registry.html#gac109398e6d69c8395590f197fe9f155b", null ],
+    [ "CastAndDelete< void >", "../group__registry.html#ga93c05c1226da5a1dee50fce6ef1c5513", null ],
+    [ "ClassHierarchyString", "../group__registry.html#ga8170a6fe6ee91d671970290dc73a411d", null ],
+    [ "ClassInfo", "../group__registry.html#ga776a2d97b0c2a4b67fd08fb1d298fe10", null ],
+    [ "ClassInfo", "../group__registry.html#ga490775438e4d7a04ed544a4f4221bfe0", null ],
+    [ "ClassNameTreeContains", "../group__registry.html#ga95e37e144435d152223de67b7878a882", null ],
+    [ "ClassNameTreeWay", "../group__registry.html#gae70b5f8cbd0a2462a56147e494bbed8d", null ],
+    [ "ClassNameVecContains", "../group__registry.html#gac86c618700144dddaebffa4bc699df47", null ],
+    [ "ClassUsageExact", "../group__registry.html#gad04c18dd7de62b79150b6a444d3d0da2", null ],
+    [ "ConstructorInfo", "../group__registry.html#ga9b3e1a125b43481b47e0f91df247343f", null ],
+    [ "DestructorProxy", "../group__registry.html#gaaf9b1223add38cf839eef233976a7872", null ],
+    [ "ExtractClassNameVec", "../group__registry.html#gae16f3af474106398b413dfb62768c099", null ],
+    [ "FindFunction", "../group__registry.html#ga96a4c5bf9baeb2d970b7055e1dfd3166", null ],
+    [ "FunctionInfo", "../group__registry.html#gacb05b962c365961d8d9c00da94ca4114", null ],
+    [ "FunctionInfo", "../group__registry.html#ga37acde2c5cf3eb7e06745ebb458d7fc1", null ],
+    [ "GetClassHierarchy", "../group__registry.html#ga0393617baa93152a3bb93c802ffda5a6", null ],
+    [ "GetClassName", "../group__registry.html#ga359777603c466596151991045ab34578", null ],
+    [ "GetRegistryIdentifierMessage", "../group__registry.html#gadeb642f80b80e5763b96cf3951014840", null ],
+    [ "IsClassInParameters", "../group__registry.html#ga8beb1a88cc050604eb4cdeccb82d479a", null ],
+    [ "IsValidRegistryIdentifier", "../group__registry.html#gad29327afd8bbd3eb5f128a98f1c2b36b", null ],
+    [ "ParameterToString", "../group__registry.html#gaa0d9693b9bd5ae5e9afd583a8b405dee", null ],
+    [ "StaticVoidCast", "../group__registry.html#ga73d4f25ef4c0206d3312a41ab2ba27b0", null ]
+];

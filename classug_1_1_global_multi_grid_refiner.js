@@ -1,0 +1,27 @@
+var classug_1_1_global_multi_grid_refiner =
+[
+    [ "GlobalMultiGridRefiner", "classug_1_1_global_multi_grid_refiner.html#a31a9152c02d300295ad1aae909c37314", null ],
+    [ "GlobalMultiGridRefiner", "classug_1_1_global_multi_grid_refiner.html#a762bc1fffd261d29a18d0e7694bd624b", null ],
+    [ "~GlobalMultiGridRefiner", "classug_1_1_global_multi_grid_refiner.html#a42b12ab159830f13da88c231818d89e5", null ],
+    [ "adaptivity_supported", "classug_1_1_global_multi_grid_refiner.html#ab2b5aa7ac1844cd8747acb180235f0c7", null ],
+    [ "assign_grid", "classug_1_1_global_multi_grid_refiner.html#a2c9c47584dd4a0148145c8ff66977cd8", null ],
+    [ "assign_grid", "classug_1_1_global_multi_grid_refiner.html#abab773003fe989b070c95b82ed13bb41", null ],
+    [ "coarsening_supported", "classug_1_1_global_multi_grid_refiner.html#ad432a795bf9d7c8cc8cdf3335acfdfce", null ],
+    [ "get_associated_grid", "classug_1_1_global_multi_grid_refiner.html#a3e9c903cea2de0d904e23011f7bbeca0", null ],
+    [ "grid", "classug_1_1_global_multi_grid_refiner.html#ae06239bd80907477f4cab700dbd1bb50", null ],
+    [ "grid_to_be_destroyed", "classug_1_1_global_multi_grid_refiner.html#a8d62e7b9729fb6cf5d98448be2b85386", null ],
+    [ "multi_grid", "classug_1_1_global_multi_grid_refiner.html#ac78205a96fd79ddf97478b3e123a3430", null ],
+    [ "num_marked_edges_local", "classug_1_1_global_multi_grid_refiner.html#a824bcd75046e1b552d2507a9bbd7baf6", null ],
+    [ "num_marked_elems", "classug_1_1_global_multi_grid_refiner.html#a28da7fe575fe0ba9d600abf862049594", null ],
+    [ "num_marked_faces_local", "classug_1_1_global_multi_grid_refiner.html#a529a11868162ae85179748cac33c8fd0", null ],
+    [ "num_marked_volumes_local", "classug_1_1_global_multi_grid_refiner.html#a9d105e3d64adbaab23b556494afe9a35", null ],
+    [ "perform_refinement", "classug_1_1_global_multi_grid_refiner.html#a4f3761358facb0a6a25252dd54b926a7", null ],
+    [ "refinement_is_allowed", "classug_1_1_global_multi_grid_refiner.html#a405d1636c7e1be640fcd798797c6ada8", null ],
+    [ "refinement_is_allowed", "classug_1_1_global_multi_grid_refiner.html#a2511b4893e33ea3b99d2cd3423cb83c3", null ],
+    [ "refinement_is_allowed", "classug_1_1_global_multi_grid_refiner.html#a588d7f71e6ca573f63d2aac8cd9a29fa", null ],
+    [ "refinement_is_allowed", "classug_1_1_global_multi_grid_refiner.html#ab160f3048cec006d07a6ccd0ffd9441c", null ],
+    [ "refinement_step_begins", "classug_1_1_global_multi_grid_refiner.html#af9ef54e63f01fcf79daa8600cd5eee9f", null ],
+    [ "refinement_step_ends", "classug_1_1_global_multi_grid_refiner.html#ac610d141b1f8a7d0a1938c80bf7145db", null ],
+    [ "save_marks_to_file", "classug_1_1_global_multi_grid_refiner.html#a1666338823759a02a38f7b926947ddcd", null ],
+    [ "m_pMG", "classug_1_1_global_multi_grid_refiner.html#a46b78e291c56da5dcb671a3c767c9a00", null ]
+];

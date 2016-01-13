@@ -1,0 +1,5 @@
+var structug_1_1bridge_1_1constructor__traits_3_01_t_00_01_type_list_3_01_t1_00_01_t2_00_01_t3_00_01_t4_01_4_01_4 =
+[
+    [ "params_type", "structug_1_1bridge_1_1constructor__traits_3_01_t_00_01_type_list_3_01_t1_00_01_t2_00_01_t3_00_01_t4_01_4_01_4.html#ae8a1d28a5f57b568bf9871badc8ff857", null ],
+    [ "apply", "structug_1_1bridge_1_1constructor__traits_3_01_t_00_01_type_list_3_01_t1_00_01_t2_00_01_t3_00_01_t4_01_4_01_4.html#a89ab6338457320f035c1d6183ec83a26", null ]
+];

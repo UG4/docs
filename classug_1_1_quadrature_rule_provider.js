@@ -1,0 +1,26 @@
+var classug_1_1_quadrature_rule_provider =
+[
+    [ "QuadratureRuleProvider", "classug_1_1_quadrature_rule_provider.html#a8656b39dc38d0985f83c96fe04e6668d", null ],
+    [ "QuadratureRuleProvider", "classug_1_1_quadrature_rule_provider.html#aa642e6e31185aa0e71608b1f2a660c1a", null ],
+    [ "~QuadratureRuleProvider", "classug_1_1_quadrature_rule_provider.html#a6a80a0b2dd7f32aa16f204f84c6b218c", null ],
+    [ "create_gauss_legendre_rule", "classug_1_1_quadrature_rule_provider.html#a475fe8ba04abee24b200689c274c6e16", null ],
+    [ "create_gauss_legendre_rule", "classug_1_1_quadrature_rule_provider.html#aca55d935b34948cd1cf4688e604e3137", null ],
+    [ "create_gauss_legendre_rule", "classug_1_1_quadrature_rule_provider.html#a9bd793f460aebf44a045a3fc92d21633", null ],
+    [ "create_gauss_legendre_rule", "classug_1_1_quadrature_rule_provider.html#a4087ed7619008d71ece3e2662405e862", null ],
+    [ "create_gauss_legendre_rule", "classug_1_1_quadrature_rule_provider.html#aad92f1c5db6bb00fd4695e1910912184", null ],
+    [ "create_gauss_rule", "classug_1_1_quadrature_rule_provider.html#ab35bb0e8f35e1a90593c334a3ae05df5", null ],
+    [ "create_gauss_rule", "classug_1_1_quadrature_rule_provider.html#afe2d65a7519718a51396b959a30e84f0", null ],
+    [ "create_gauss_rule", "classug_1_1_quadrature_rule_provider.html#af3aba23cae513290014576c8d45dbfa1", null ],
+    [ "create_gauss_rule", "classug_1_1_quadrature_rule_provider.html#a9b212d0f6e91a96f397e4be2a6df3a64", null ],
+    [ "create_gauss_rule", "classug_1_1_quadrature_rule_provider.html#ab19759359b5e93e615e8b82c7686320d", null ],
+    [ "create_newton_cotes_rule", "classug_1_1_quadrature_rule_provider.html#ab9e6558c27e56c76e1038b912e6ca000", null ],
+    [ "create_newton_cotes_rule", "classug_1_1_quadrature_rule_provider.html#ad7d3632fa1ad0cbe36cee06753e53663", null ],
+    [ "create_rule", "classug_1_1_quadrature_rule_provider.html#afc26aa129f8ed538de9077489f2af587", null ],
+    [ "get", "classug_1_1_quadrature_rule_provider.html#ab49e02e40c7421655a49d381c24e3cb6", null ],
+    [ "get", "classug_1_1_quadrature_rule_provider.html#a78f3aea8d5e11423dbe3fc34d8d09193", null ],
+    [ "get_quad_rule", "classug_1_1_quadrature_rule_provider.html#a615f99982a821bbae52acd8715096fe7", null ],
+    [ "instance", "classug_1_1_quadrature_rule_provider.html#a92c5e02fd2519e3ceedf029247fc7f0d", null ],
+    [ "operator=", "classug_1_1_quadrature_rule_provider.html#af47e05901e2f8d2cddacac9cd05ae006", null ],
+    [ "dim", "classug_1_1_quadrature_rule_provider.html#a0dd2dae1d600e2cf554dc0195faef651", null ],
+    [ "m_vRule", "classug_1_1_quadrature_rule_provider.html#a1c5aca1869dea5a48aabbb51d5434600", null ]
+];

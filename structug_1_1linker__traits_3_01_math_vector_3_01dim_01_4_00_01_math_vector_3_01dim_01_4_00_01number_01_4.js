@@ -1,0 +1,4 @@
+var structug_1_1linker__traits_3_01_math_vector_3_01dim_01_4_00_01_math_vector_3_01dim_01_4_00_01number_01_4 =
+[
+    [ "mult_add", "structug_1_1linker__traits_3_01_math_vector_3_01dim_01_4_00_01_math_vector_3_01dim_01_4_00_01number_01_4.html#ac23533cd1b1cd80dee56d488ad4ff2c9", null ]
+];

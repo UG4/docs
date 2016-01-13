@@ -1,0 +1,6 @@
+var searchData=
+[
+  ['t_5fgrid_5fobject_5fmark',['t_grid_object_mark',['../../classug_1_1_degenerated_layer_manager.html#a58d6f9b7a067aff5782b62506e38b00e',1,'ug::DegeneratedLayerManager']]],
+  ['traversalstates',['TraversalStates',['../../namespaceug.html#a5fddfc6e4ce10eef53ba75dc15f6a5ad',1,'ug']]],
+  ['type',['Type',['../../classug_1_1_algebra_type.html#ab3a264146f087f78d70761091f5520e8',1,'ug::AlgebraType::Type()'],['../../classug_1_1_matrix_file_type.html#ad126b94fd6d4a38d98625412e26e43ed',1,'ug::MatrixFileType::Type()'],['../../classug_1_1_variant.html#a773c534397bc5ba5fbef1080a232922c',1,'ug::Variant::Type()']]]
+];

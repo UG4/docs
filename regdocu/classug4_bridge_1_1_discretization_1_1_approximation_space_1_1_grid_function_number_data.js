@@ -1,0 +1,4 @@
+var classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function_number_data =
+[
+    [ "GridFunctionNumberData", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function_number_data.html#a6acdc95cab5513ac268458c32ba6cdab", null ]
+];

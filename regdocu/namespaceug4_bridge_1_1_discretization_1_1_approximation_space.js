@@ -1,0 +1,12 @@
+var namespaceug4_bridge_1_1_discretization_1_1_approximation_space =
+[
+    [ "ApproximationSpace", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_approximation_space.html", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_approximation_space" ],
+    [ "ExplicitGridFunctionGradient", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_explicit_grid_function_gradient.html", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_explicit_grid_function_gradient" ],
+    [ "ExplicitGridFunctionValue", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_explicit_grid_function_value.html", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_explicit_grid_function_value" ],
+    [ "GlobalGridFunctionNumberData", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_global_grid_function_number_data.html", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_global_grid_function_number_data" ],
+    [ "GridFunction", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function.html", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function" ],
+    [ "GridFunctionGradientComponentData", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function_gradient_component_data.html", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function_gradient_component_data" ],
+    [ "GridFunctionGradientData", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function_gradient_data.html", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function_gradient_data" ],
+    [ "GridFunctionNumberData", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function_number_data.html", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function_number_data" ],
+    [ "GridFunctionVectorData", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function_vector_data.html", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function_vector_data" ]
+];

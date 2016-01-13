@@ -1,0 +1,25 @@
+var structug_1_1_m_g_edge_info =
+[
+    [ "MGEdgeInfo", "structug_1_1_m_g_edge_info.html#a9d4a1a7f64d4f3d9f03c8fa5dad0f566", null ],
+    [ "add_child", "structug_1_1_m_g_edge_info.html#a261519036042817bd892464f247c734c", null ],
+    [ "add_child", "structug_1_1_m_g_edge_info.html#aa936ee0b915f9d1ff44f1b4a96f00803", null ],
+    [ "add_child", "structug_1_1_m_g_edge_info.html#abc7971538dc574643990e7a2fc9be011", null ],
+    [ "add_child", "structug_1_1_m_g_edge_info.html#a102b04e76b4cb674389150b327ebc392", null ],
+    [ "child_edge", "structug_1_1_m_g_edge_info.html#aaea5fa1164aa4bad44579925ce8eceda", null ],
+    [ "child_vertex", "structug_1_1_m_g_edge_info.html#a6fbb0de5760b81d17a2ae2f86f843397", null ],
+    [ "clear_children", "structug_1_1_m_g_edge_info.html#a9a8636af5e3cb22fc54a51c3a8459e37", null ],
+    [ "has_children", "structug_1_1_m_g_edge_info.html#a2258f833604315c30b04d6cdfad2ee1d", null ],
+    [ "num_child_edges", "structug_1_1_m_g_edge_info.html#a7e688f9a00361851b8ea9f357f9f1a11", null ],
+    [ "num_child_vertices", "structug_1_1_m_g_edge_info.html#aa73afe8ca11fa9709bf790186175f9bf", null ],
+    [ "remove_child", "structug_1_1_m_g_edge_info.html#a542f8b37d71a8336863a51ca571b9bbd", null ],
+    [ "remove_child", "structug_1_1_m_g_edge_info.html#a7fbe9c0b6d4019b52e65a6a8229afc08", null ],
+    [ "remove_child", "structug_1_1_m_g_edge_info.html#ab9ec3ad6fd61ed5cf7439b6902dfc18c", null ],
+    [ "remove_child", "structug_1_1_m_g_edge_info.html#a3610632b79ee5ebc105e865ede25c2ed", null ],
+    [ "replace_child", "structug_1_1_m_g_edge_info.html#ae6dcba0fb3294a946c08cec09dfa6e68", null ],
+    [ "replace_child", "structug_1_1_m_g_edge_info.html#ad9ca1b5c77bc4d5d3a31a7915babb165", null ],
+    [ "unregister_from_children", "structug_1_1_m_g_edge_info.html#a91a99a8b7f8a158242295595c51efdf7", null ],
+    [ "m_numEdgeChildren", "structug_1_1_m_g_edge_info.html#a4e813802f3a39231ef8f3999542752be", null ],
+    [ "m_pEdgeChild", "structug_1_1_m_g_edge_info.html#a93e9b2cc95f3208941a94ff5165dea40", null ],
+    [ "m_pParent", "structug_1_1_m_g_edge_info.html#a507c2ec515fff0a8c23a8ea074e9ad4f", null ],
+    [ "m_pVrtChild", "structug_1_1_m_g_edge_info.html#af1709d29c4308a27e1d672c6c6efd201", null ]
+];

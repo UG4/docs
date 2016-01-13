@@ -1,0 +1,26 @@
+var classug_1_1_s_d_i_r_k =
+[
+    [ "algebra_type", "classug_1_1_s_d_i_r_k.html#a08fe296b161345fc78429834a1caf340", null ],
+    [ "domain_discretization_type", "classug_1_1_s_d_i_r_k.html#a73cfc42df32c57653add4f520336f0a4", null ],
+    [ "matrix_type", "classug_1_1_s_d_i_r_k.html#af2baf330cd2d182afc2219ee6735baec", null ],
+    [ "vector_type", "classug_1_1_s_d_i_r_k.html#a4476dfaa8d614de750df518ba1d89469", null ],
+    [ "SDIRK", "classug_1_1_s_d_i_r_k.html#a4ec49e7f3ab33d05a62d63173fae614c", null ],
+    [ "SDIRK", "classug_1_1_s_d_i_r_k.html#a65c56c274f2c894d446b11c120f49219", null ],
+    [ "~SDIRK", "classug_1_1_s_d_i_r_k.html#a7fe64efe4ebff6b9e64d70a3ecd80cec", null ],
+    [ "adjust_solution", "classug_1_1_s_d_i_r_k.html#a890f536361bb7111be1c77e4665f7d5e", null ],
+    [ "assemble_defect", "classug_1_1_s_d_i_r_k.html#a7c6f68f8d6439f7260039aecf1245647", null ],
+    [ "assemble_jacobian", "classug_1_1_s_d_i_r_k.html#a1e7871eb0fa0dceb66af34c6bf207016", null ],
+    [ "assemble_linear", "classug_1_1_s_d_i_r_k.html#a5166430edd6442abc07329e78f5aa1b0", null ],
+    [ "assemble_rhs", "classug_1_1_s_d_i_r_k.html#a5376820741bc9a0ce6f47a528b796567", null ],
+    [ "assemble_rhs", "classug_1_1_s_d_i_r_k.html#a4766ece4ad7a4d71e7a7efca6dbf9999", null ],
+    [ "num_stages", "classug_1_1_s_d_i_r_k.html#aac9b4020a6d15372df4243b23ec007b3", null ],
+    [ "prepare_step", "classug_1_1_s_d_i_r_k.html#a58596b56257e701dc8d9df7594ba66eb", null ],
+    [ "set_order", "classug_1_1_s_d_i_r_k.html#ac405595f1ba65736acd1d4b22bfe15c1", null ],
+    [ "set_stage", "classug_1_1_s_d_i_r_k.html#a60e64e8bd86078af16349cfff730e620", null ],
+    [ "update_scaling", "classug_1_1_s_d_i_r_k.html#ab9370533cccd03bc91f4317e5b9345de", null ],
+    [ "update_scaling", "classug_1_1_s_d_i_r_k.html#ac1215de792d898eccc00027ec91a0679", null ],
+    [ "m_lastTime", "classug_1_1_s_d_i_r_k.html#a03962a0cad14172233428db4e8a30470", null ],
+    [ "m_order", "classug_1_1_s_d_i_r_k.html#a6b0c3eb7d2b34ad4f3d4d63a616cefbd", null ],
+    [ "m_stage", "classug_1_1_s_d_i_r_k.html#a8bfe390ad9b0e2c7e1920ddc3d6aa2a4", null ],
+    [ "m_Time0", "classug_1_1_s_d_i_r_k.html#a129e27c8020496b83f120523b8336c12", null ]
+];

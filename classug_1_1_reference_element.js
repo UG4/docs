@@ -1,0 +1,26 @@
+var classug_1_1_reference_element =
+[
+    [ "POINT", "classug_1_1_reference_element.html#a5d867bc7f75994687dffdab712f844fea9b918f2796c43efeb153e820230609a2", null ],
+    [ "EDGE", "classug_1_1_reference_element.html#a5d867bc7f75994687dffdab712f844fea7ed3bdfedc86d948d4ee218e41b26439", null ],
+    [ "FACE", "classug_1_1_reference_element.html#a5d867bc7f75994687dffdab712f844feae8f260a5049e070cc9bf7bb5e18ab253", null ],
+    [ "VOLUME", "classug_1_1_reference_element.html#a5d867bc7f75994687dffdab712f844fea5cbbe65a2c152d0f50689e5e23a37606", null ],
+    [ "MAXOBJECTS", "classug_1_1_reference_element.html#abf0df41ab82d3536970a5ef73ab0d61baf29b7108aac5fc2ffca0b59d258865fd", null ],
+    [ "MAXDIM", "classug_1_1_reference_element.html#a024667800bd3251af1a37f99f28f3435a9cc625067747add35ace7910e5414da7", null ],
+    [ "ReferenceElement", "classug_1_1_reference_element.html#a0df9167dd6908a319802080a17c68b52", null ],
+    [ "dimension", "classug_1_1_reference_element.html#a3722151f72c21f89bf2f04c981856054", null ],
+    [ "id", "classug_1_1_reference_element.html#ac09b9b3cec46bec53888c79739cf77ea", null ],
+    [ "num", "classug_1_1_reference_element.html#a594516c43adf886ce2c674a38dd09504", null ],
+    [ "num", "classug_1_1_reference_element.html#a9f0c84dc91fb811ea7c797164cb59b4f", null ],
+    [ "num", "classug_1_1_reference_element.html#a68a119fd4733815d3ed713d570d25ae9", null ],
+    [ "print_info", "classug_1_1_reference_element.html#af293fbc37b205885efb61ae3fd7545f7", null ],
+    [ "roid", "classug_1_1_reference_element.html#a6f979a91a8e3fbbf2874d316972d1c89", null ],
+    [ "roid", "classug_1_1_reference_element.html#a0aa309e174b63546e7a6054ab3512e98", null ],
+    [ "size", "classug_1_1_reference_element.html#a02d50bae0881b8851212e32e23145e91", null ],
+    [ "m_dim", "classug_1_1_reference_element.html#ab26b4319d9e0ed5f4b5549ce4cf54e04", null ],
+    [ "m_id", "classug_1_1_reference_element.html#ad5bfcbb62d0e6ae1806adcfcdc24650c", null ],
+    [ "m_size", "classug_1_1_reference_element.html#a0a4489f22124d906fa6adc6b57c1603e", null ],
+    [ "m_vNum", "classug_1_1_reference_element.html#ab3b004529c4ebc3da2bf24b3e7a27c48", null ],
+    [ "m_vNumRefElem", "classug_1_1_reference_element.html#a6ea44561b89c604e441a58070eb836bf", null ],
+    [ "m_vRefElemType", "classug_1_1_reference_element.html#aadfe581a078c397e151698a592bd27f0", null ],
+    [ "m_vSubNum", "classug_1_1_reference_element.html#a38df403bc58fb8b95d836b2f50e175ee", null ]
+];

@@ -1,0 +1,27 @@
+var classug_1_1_fixed_convergence_check =
+[
+    [ "FixedConvergenceCheck", "classug_1_1_fixed_convergence_check.html#aa9b36c11f3166ad2dfacc5002ffb2f2b", null ],
+    [ "~FixedConvergenceCheck", "classug_1_1_fixed_convergence_check.html#adb5454fac8a5a1cbcfc8a6b10a491b20", null ],
+    [ "avg_rate", "classug_1_1_fixed_convergence_check.html#ab8b39e3d4056c84e297abeff4b0b477c", null ],
+    [ "clone", "classug_1_1_fixed_convergence_check.html#af47e26219a0bea6346e1c62b3ba39a07", null ],
+    [ "config_string", "classug_1_1_fixed_convergence_check.html#a276aa63efa96109f9085bb84588e8fcc", null ],
+    [ "defect", "classug_1_1_fixed_convergence_check.html#aadf9655bb99c1622f669a4ee373c88e3", null ],
+    [ "get_offset", "classug_1_1_fixed_convergence_check.html#a160b7fbf735f74d7beded9e7833fee22", null ],
+    [ "iteration_ended", "classug_1_1_fixed_convergence_check.html#a524e33f7595290f5396a9ea6489f5a91", null ],
+    [ "post", "classug_1_1_fixed_convergence_check.html#a0ab2679c51679c515e2f8dafa60c5aec", null ],
+    [ "print_line", "classug_1_1_fixed_convergence_check.html#a3fa588547984e94868655a17a1ffe364", null ],
+    [ "rate", "classug_1_1_fixed_convergence_check.html#a8388843edf419a75b108d024aa66194e", null ],
+    [ "reduction", "classug_1_1_fixed_convergence_check.html#a68d8c5de7563822e928bdfd9d41904e6", null ],
+    [ "set_info", "classug_1_1_fixed_convergence_check.html#a12d06cbc8f4665b1a11c13a09de57d77", null ],
+    [ "set_name", "classug_1_1_fixed_convergence_check.html#ae08e702cf60b161b70d7bc42d5d28993", null ],
+    [ "set_offset", "classug_1_1_fixed_convergence_check.html#ab5e4beb589ff84db697e0e9d4490219f", null ],
+    [ "set_symbol", "classug_1_1_fixed_convergence_check.html#ae9277c5f3d40f15a159c5067be68973b", null ],
+    [ "start", "classug_1_1_fixed_convergence_check.html#a395e1fbeccadde5ca92ce2d0f1936c34", null ],
+    [ "start_defect", "classug_1_1_fixed_convergence_check.html#aacb09da86f684ea2ae6f131bc465cfab", null ],
+    [ "step", "classug_1_1_fixed_convergence_check.html#a35c9ffa64ea378a4a7a1e8b7977237b0", null ],
+    [ "update", "classug_1_1_fixed_convergence_check.html#a26370df5680d3668f389d5c316566ae3", null ],
+    [ "update_defect", "classug_1_1_fixed_convergence_check.html#a0a4e7d8a8d9fe95572b36cb3e3683647", null ],
+    [ "m_currentStep", "classug_1_1_fixed_convergence_check.html#ae3290b7e2bc17315cbdd95dd16cd3cf2", null ],
+    [ "m_numIterations", "classug_1_1_fixed_convergence_check.html#aebd504b00a628b4f7728f15a958b99e4", null ],
+    [ "m_offset", "classug_1_1_fixed_convergence_check.html#aa97024e4464b36c26497eb582a31f887", null ]
+];

@@ -1,0 +1,25 @@
+var topology__tools_8h =
+[
+    [ "AdjustEdgeOrientation", "topology__tools_8h.html#gafd55d253028627dd335bcd72df1a9abf", null ],
+    [ "CollapseEdge", "topology__tools_8h.html#gacfc9a7208dee05060f98b7b14d626c40", null ],
+    [ "EraseSelectedElements", "topology__tools_8h.html#gad7e8fd9c89f1048f5e326115147f0a04", null ],
+    [ "FixFaceOrientation", "topology__tools_8h.html#gab664568489e16a7668769a38285e83e3", null ],
+    [ "FixFaceSubsetOrientations", "topology__tools_8h.html#ga06df82d699cca96364999c32b9afa4b4", null ],
+    [ "FixVolumeOrientation", "topology__tools_8h.html#ga0531b0f195e2c8aa854ea94bee47438f", null ],
+    [ "IntersectCloseEdges", "topology__tools_8h.html#ga9c82200d9dba170a711721c22849f3ba", null ],
+    [ "InvertFaceOrientation", "topology__tools_8h.html#gaf8d85e81e06fabe6637d288902708fe2", null ],
+    [ "MergeAtCenter", "topology__tools_8h.html#ga7769104749a885c2764ee1d3ac58a1a1", null ],
+    [ "MergeAtFirst", "topology__tools_8h.html#ga7c6bf3af17fe70b627cc1a3123441abe", null ],
+    [ "MergeAtLast", "topology__tools_8h.html#ga87ee3745de7d4b842484b6f70db890ed", null ],
+    [ "PlaneCut", "topology__tools_8h.html#ga2a7ce576b808c4d9dea354a2cf765f0a", null ],
+    [ "ProjectVerticesToCloseEdges", "topology__tools_8h.html#ga63aabbde94d644f8a3a636b4565350e0", null ],
+    [ "ProjectVerticesToCloseFaces", "topology__tools_8h.html#gaaccb03ce348e58ee462142f87e24604d", null ],
+    [ "RemoveDoubleEdges", "topology__tools_8h.html#ga4b11843f3762dcbd74556c614d18a076", null ],
+    [ "RemoveDoubleFaces", "topology__tools_8h.html#ga239ab223a17010490772964c45d37a85", null ],
+    [ "RemoveDoubles", "topology__tools_8h.html#ga4f4a2af96071d900ae53f2160fa76886", null ],
+    [ "ResolveEdgeIntersection", "topology__tools_8h.html#gaf4a75e1c3d3c979105f6f8b85d88b13e", null ],
+    [ "ResolveSelfIntersections", "topology__tools_8h.html#gae59b79663cdd2942f48b7b571006af45", null ],
+    [ "ResolveTriangleIntersections", "topology__tools_8h.html#gad1c45abf38a36bccb4e4fe43fe727186", null ],
+    [ "SplitEdge", "topology__tools_8h.html#ga0e4d97851cf3eb8ded4ae5956d10b3ec", null ],
+    [ "SwapEdge", "topology__tools_8h.html#ga110b2c31f7ac6a490f6687cf1b722fd2", null ]
+];

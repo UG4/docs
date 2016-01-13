@@ -1,0 +1,26 @@
+var classug_1_1_com_pol___interface_status =
+[
+    [ "Element", "classug_1_1_com_pol___interface_status.html#a42b978cd23607a883ce3641692569807", null ],
+    [ "GeomObj", "classug_1_1_com_pol___interface_status.html#a66616c827efe213559bb86bb573bab8f", null ],
+    [ "Interface", "classug_1_1_com_pol___interface_status.html#a36bfbec66e31794af41845873e0118f0", null ],
+    [ "InterfaceIter", "classug_1_1_com_pol___interface_status.html#aeb277f31c163a6445681aa913673b2ad", null ],
+    [ "Layout", "classug_1_1_com_pol___interface_status.html#a2a21c779c51523a0b4d0340032f121fa", null ],
+    [ "VecMap", "classug_1_1_com_pol___interface_status.html#a1d73e9002992dd47d5ce7fa8e4b2672a", null ],
+    [ "ComPol_InterfaceStatus", "classug_1_1_com_pol___interface_status.html#ada80f6ef1030726c35dcc0cdd7c2cf04", null ],
+    [ "ComPol_InterfaceStatus", "classug_1_1_com_pol___interface_status.html#a2a481c9434c1337ef2fe9453515e1a17", null ],
+    [ "begin_layout_extraction", "classug_1_1_com_pol___interface_status.html#adc5834f3cce276fc2949ed3e5cf301a6", null ],
+    [ "begin_level_extraction", "classug_1_1_com_pol___interface_status.html#a90f353f2b884d11bd605bd1560c7e094", null ],
+    [ "collect", "classug_1_1_com_pol___interface_status.html#af44790eecc960d12c26d3424253813db", null ],
+    [ "extract", "classug_1_1_com_pol___interface_status.html#afe2c26cb1a3ca0d36b1337c4546b8668", null ],
+    [ "get_required_buffer_size", "classug_1_1_com_pol___interface_status.html#a73aebd2f46f8c9ee4c800d8e9f4872ef", null ],
+    [ "get_result_map", "classug_1_1_com_pol___interface_status.html#aa5ebec5ea4b878094f0f3f62c2f00cfb", null ],
+    [ "get_result_vec", "classug_1_1_com_pol___interface_status.html#aad9739478ce2b1688e03f0f3f014c7cb", null ],
+    [ "get_status", "classug_1_1_com_pol___interface_status.html#ae178def0244a91d091b4373e2808d798", null ],
+    [ "set_distributed_grid_manager", "classug_1_1_com_pol___interface_status.html#a7fc739d818baf357ea01681111c8b98f", null ],
+    [ "set_status", "classug_1_1_com_pol___interface_status.html#a229df337de285108bac5113eeb405957", null ],
+    [ "m_curLevel", "classug_1_1_com_pol___interface_status.html#aacf0ca572f8eab5a393b2fbac7c4daee", null ],
+    [ "m_distGridMgr", "classug_1_1_com_pol___interface_status.html#ab61789039bf17988e6bbafd6e28705ff", null ],
+    [ "m_pLayout", "classug_1_1_com_pol___interface_status.html#a6227e3faaf56bebfe21ae7c63d93b44b", null ],
+    [ "m_status", "classug_1_1_com_pol___interface_status.html#a4b0a44ca852f67f6880e597ab0c112da", null ],
+    [ "m_vecMaps", "classug_1_1_com_pol___interface_status.html#aa7df6a3bfddd581ce4aad88afbad5612", null ]
+];

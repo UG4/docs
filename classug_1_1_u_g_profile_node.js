@@ -1,0 +1,26 @@
+var classug_1_1_u_g_profile_node =
+[
+    [ "call_tree", "classug_1_1_u_g_profile_node.html#a8ce2077417c5402bab16537df85a557d", null ],
+    [ "call_tree", "classug_1_1_u_g_profile_node.html#ad81bbd073185ec6548ae4a4276f04f3e", null ],
+    [ "CheckForTooSmallNodes", "classug_1_1_u_g_profile_node.html#a0f118704ba375e56366f6cc83183144e", null ],
+    [ "child_self_memory_sorted", "classug_1_1_u_g_profile_node.html#a1534fcde8054dca03ae032d3b8d21186", null ],
+    [ "child_self_memory_sorted", "classug_1_1_u_g_profile_node.html#a646f416434437b3873f1aa60f5b8c982", null ],
+    [ "child_self_time_sorted", "classug_1_1_u_g_profile_node.html#ad5af74cfaf23f5c0934406c1d05f070b", null ],
+    [ "child_self_time_sorted", "classug_1_1_u_g_profile_node.html#a4282b6ac335956142f18b67d7858514c", null ],
+    [ "entry_count_sorted", "classug_1_1_u_g_profile_node.html#a8ee8e3169785ed0f326fd3b764644dba", null ],
+    [ "entry_count_sorted", "classug_1_1_u_g_profile_node.html#a1e999f6fcd1dca0f9966242bc7f3c51a", null ],
+    [ "get_avg_entry_count", "classug_1_1_u_g_profile_node.html#a7c4a82f901ca43c0e62fcc8975994b39", null ],
+    [ "get_avg_self_time", "classug_1_1_u_g_profile_node.html#a126400f77ba820394aeca67f8ac27bc6", null ],
+    [ "get_avg_self_time_ms", "classug_1_1_u_g_profile_node.html#a47b05a1cd38f0630f1f56e835eb9fdb5", null ],
+    [ "get_avg_total_time", "classug_1_1_u_g_profile_node.html#aeff0ab2b781d8ecfb9fc9028c5133a0f", null ],
+    [ "get_avg_total_time_ms", "classug_1_1_u_g_profile_node.html#aac59934b80ea0e473acb049bfbd4ff3d", null ],
+    [ "get_root", "classug_1_1_u_g_profile_node.html#aad4ed432565e71b8e9ed374b306be429", null ],
+    [ "get_self_mem", "classug_1_1_u_g_profile_node.html#a30a36663c76327c6af333da4e5010932", null ],
+    [ "get_total_mem", "classug_1_1_u_g_profile_node.html#a40f96afd4a176eb1e2f167cf1c3d8a92", null ],
+    [ "groups", "classug_1_1_u_g_profile_node.html#ac73e1ec016422071051599089a6b0b25", null ],
+    [ "total_memory_sorted", "classug_1_1_u_g_profile_node.html#a6038aed7e126c29913bf2d923c418d7a", null ],
+    [ "total_memory_sorted", "classug_1_1_u_g_profile_node.html#a23ababa7eb6c6413a6ffaa2ca5668515", null ],
+    [ "total_time_sorted", "classug_1_1_u_g_profile_node.html#ab10ce5d7352df84b62f5f38862433a58", null ],
+    [ "total_time_sorted", "classug_1_1_u_g_profile_node.html#af60d075dd9a1cd005c23d6932e8f5a9c", null ],
+    [ "valid", "classug_1_1_u_g_profile_node.html#a6adc5edbc7ceb7b6c89bd7a02c939308", null ]
+];

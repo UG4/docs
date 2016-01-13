@@ -1,0 +1,4 @@
+var structug_1_1block__multiply__traits_3_01_dense_matrix_3_01_t1_01_4_00_01_dense_vector_3_01_t2_01_4_01_4 =
+[
+    [ "ReturnType", "structug_1_1block__multiply__traits_3_01_dense_matrix_3_01_t1_01_4_00_01_dense_vector_3_01_t2_01_4_01_4.html#afde206b3625b1d29bbbe48fa18bc3c0c", null ]
+];
