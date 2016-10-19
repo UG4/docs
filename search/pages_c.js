@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['releases',['Releases',['../pageUG4Releases.html',1,'']]]
+  ['releases',['Releases',['../page_u_g4_releases.html',1,'']]]
 ];

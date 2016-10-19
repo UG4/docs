@@ -8,10 +8,7 @@ var dir_e5fc79a01ff7c227d04145d738937e68 =
     [ "math_util.cpp", "math__util_8cpp.html", "math__util_8cpp" ],
     [ "math_util.h", "math__util_8h.html", "math__util_8h" ],
     [ "math_util_impl.hpp", "math__util__impl_8hpp.html", "math__util__impl_8hpp" ],
-    [ "shapes.h", "shapes_8h.html", [
-      [ "AABox", "structug_1_1_a_a_box.html", "structug_1_1_a_a_box" ],
-      [ "Sphere", "classug_1_1_sphere.html", "classug_1_1_sphere" ]
-    ] ],
+    [ "shapes.h", "shapes_8h.html", "shapes_8h" ],
     [ "shapes_impl.h", "shapes__impl_8h.html", null ],
     [ "tri_box.cpp", "tri__box_8cpp.html", "tri__box_8cpp" ],
     [ "tritri.cpp", "tritri_8cpp.html", "tritri_8cpp" ]

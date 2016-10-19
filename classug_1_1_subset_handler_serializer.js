@@ -7,10 +7,10 @@ var classug_1_1_subset_handler_serializer =
     [ "read_data", "classug_1_1_subset_handler_serializer.html#a1c936ba6158a72515160d9c970187371", null ],
     [ "read_data", "classug_1_1_subset_handler_serializer.html#aca5af58a36e305b5c85ba0edfa2638d8", null ],
     [ "read_info", "classug_1_1_subset_handler_serializer.html#a6d27e12c46aa8e27caab30429704b01a", null ],
-    [ "write_data", "classug_1_1_subset_handler_serializer.html#a29af3dd4e895a002b4873d71bba5cafb", null ],
-    [ "write_data", "classug_1_1_subset_handler_serializer.html#a9b692979c7a9cb652d074067ad794a8d", null ],
-    [ "write_data", "classug_1_1_subset_handler_serializer.html#a7f2bb4f93f345fdf5e6283215d3b075c", null ],
-    [ "write_data", "classug_1_1_subset_handler_serializer.html#a3ed30194bcadd99d02d747ad7a970d99", null ],
-    [ "write_info", "classug_1_1_subset_handler_serializer.html#a409aafa2af731cecf01ff2961348e941", null ],
+    [ "write_data", "classug_1_1_subset_handler_serializer.html#af798a93f18df62828a61d1c80c3cb3c8", null ],
+    [ "write_data", "classug_1_1_subset_handler_serializer.html#a5429a9c0eac84252e416d60a826958ab", null ],
+    [ "write_data", "classug_1_1_subset_handler_serializer.html#a37c144305c386e539dc84590ac3a85c7", null ],
+    [ "write_data", "classug_1_1_subset_handler_serializer.html#ac3659bbb0ff080f98e1d3593b09f8a64", null ],
+    [ "write_info", "classug_1_1_subset_handler_serializer.html#a1ffef3f61bd4451b438724db418485f4", null ],
     [ "m_sh", "classug_1_1_subset_handler_serializer.html#ac0be64ad46330adcfcf541036845abd6", null ]
 ];

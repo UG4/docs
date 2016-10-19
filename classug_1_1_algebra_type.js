@@ -9,8 +9,8 @@ var classug_1_1_algebra_type =
     [ "AlgebraType", "classug_1_1_algebra_type.html#a39713595875e6df3b86ee158bb25d122", null ],
     [ "AlgebraType", "classug_1_1_algebra_type.html#ad963e8eec3000245b8be9ba62cc31d80", null ],
     [ "AlgebraType", "classug_1_1_algebra_type.html#abd1437ab604ef554f564568f6a5facc7", null ],
-    [ "blocksize", "classug_1_1_algebra_type.html#a60d9251a8bb21414a331081c9d2e9aa7", null ],
-    [ "type", "classug_1_1_algebra_type.html#ae298998d2b1778cd8cca1e71037d6f49", null ],
+    [ "blocksize", "classug_1_1_algebra_type.html#a340e0522dbcf9a7d5351c5e397ac5ab3", null ],
+    [ "type", "classug_1_1_algebra_type.html#ae7dcf988eee29454b91c76c09c797019", null ],
     [ "m_blockSize", "classug_1_1_algebra_type.html#a61731f8bf6ba19cd0dc331579bc7cb67", null ],
     [ "m_type", "classug_1_1_algebra_type.html#a3fb4e059b7fcfd97d2eae2384cfa53ae", null ]
 ];

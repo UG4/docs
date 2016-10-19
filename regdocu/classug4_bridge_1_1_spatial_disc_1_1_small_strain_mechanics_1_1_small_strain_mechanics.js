@@ -1,7 +1,7 @@
 var classug4_bridge_1_1_spatial_disc_1_1_small_strain_mechanics_1_1_small_strain_mechanics =
 [
     [ "SmallStrainMechanics", "classug4_bridge_1_1_spatial_disc_1_1_small_strain_mechanics_1_1_small_strain_mechanics.html#a4357653c7adaa9befe26006b48dca40e", null ],
-    [ "config_string", "classug4_bridge_1_1_spatial_disc_1_1_small_strain_mechanics_1_1_small_strain_mechanics.html#af33718b55f2409dbdeb31ef64cf09470", null ],
+    [ "config_string", "classug4_bridge_1_1_spatial_disc_1_1_small_strain_mechanics_1_1_small_strain_mechanics.html#abb473d7b54bd75e82bd6a87cdfbea5c3", null ],
     [ "displacement", "classug4_bridge_1_1_spatial_disc_1_1_small_strain_mechanics_1_1_small_strain_mechanics.html#a562cea0a27629ef21106011d0a571a30", null ],
     [ "divergence", "classug4_bridge_1_1_spatial_disc_1_1_small_strain_mechanics_1_1_small_strain_mechanics.html#a8c745d9455fd629660d3d1fb8f241c7c", null ],
     [ "get_material_law", "classug4_bridge_1_1_spatial_disc_1_1_small_strain_mechanics_1_1_small_strain_mechanics.html#a30de94af9d041175e711e413cd8d48c5", null ],

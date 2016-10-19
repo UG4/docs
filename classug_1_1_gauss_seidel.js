@@ -7,6 +7,6 @@ var classug_1_1_gauss_seidel =
     [ "GaussSeidel", "classug_1_1_gauss_seidel.html#ae56dbf049f7bdef2fe7735cb105be79c", null ],
     [ "GaussSeidel", "classug_1_1_gauss_seidel.html#a01026c702e2103c95dcf581b86fed20d", null ],
     [ "clone", "classug_1_1_gauss_seidel.html#a71abb45586214155f368a7d50599ded5", null ],
-    [ "name", "classug_1_1_gauss_seidel.html#a12cb239a445bab2492f26ac3952a55ad", null ],
+    [ "name", "classug_1_1_gauss_seidel.html#a8f394e2e098e39c808398c17311981c3", null ],
     [ "step", "classug_1_1_gauss_seidel.html#aef9592646b438ef64e423e27d99f3b38", null ]
 ];

@@ -1,5 +1,6 @@
 var group__misc__bridge =
 [
+    [ "errlog", "../group__misc__bridge.html#ga1ca11bddcb82b4a76c0a9afe0c2d8e97", null ],
     [ "FilenameStringEscape", "../group__misc__bridge.html#gaf622e5f382edd7a17132bf3ec87b0b01", null ],
     [ "GetBuildHostname", "../group__misc__bridge.html#ga46bb4a55100beb7e58dfa23039eaaefd", null ],
     [ "GetClockS", "../group__misc__bridge.html#ga6e1622c55780af718a6ee80d8a2b53f5", null ],
@@ -18,6 +19,7 @@ var group__misc__bridge =
     [ "IsDefinedUG_CPU_3", "../group__misc__bridge.html#ga46a242f6963422b4d57f3c78458d7ea2", null ],
     [ "IsDefinedUG_CPU_4", "../group__misc__bridge.html#gaeef5822def612eb0882c08362f54a9d7", null ],
     [ "IsDefinedUG_CPU_5", "../group__misc__bridge.html#gacd002b627fe0f969d0fc658128c5913f", null ],
+    [ "IsDefinedUG_CPU_6", "../group__misc__bridge.html#ga44ad2f35ccb86a20aa86251da41153b9", null ],
     [ "IsDefinedUG_CPU_VAR", "../group__misc__bridge.html#gad2c3519132f19b60759d173f2f27e1a7", null ],
     [ "IsDefinedUG_DEBUG", "../group__misc__bridge.html#ga576f7125bd33412e48d12a6e83e02a10", null ],
     [ "IsDefinedUG_DIM_1", "../group__misc__bridge.html#ga662c0a9719bbc98efb3503822f97b545", null ],

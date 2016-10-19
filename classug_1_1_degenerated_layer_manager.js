@@ -16,7 +16,7 @@ var classug_1_1_degenerated_layer_manager =
     [ "assign_middle_subset", "classug_1_1_degenerated_layer_manager.html#a8299814799938a828859be76a9ed2214", null ],
     [ "close", "classug_1_1_degenerated_layer_manager.html#a0c2ea3723654c4f920522c908ebaf889", null ],
     [ "contains", "classug_1_1_degenerated_layer_manager.html#a78e9aac44ccdfb769a1d1f407329af90", null ],
-    [ "get_layer_sides", "classug_1_1_degenerated_layer_manager.html#a96e8920e356b28c3be39ff0b55f21608", null ],
+    [ "get_layer_sides", "classug_1_1_degenerated_layer_manager.html#ab1170f9bd8e1b94ae385b0f6d407d84c", null ],
     [ "grid_adaption_callback", "classug_1_1_degenerated_layer_manager.html#a5e02a6757f977164162a21276dc1ac5b", null ],
     [ "grid_distribution_callback", "classug_1_1_degenerated_layer_manager.html#a20af7f9330f6e8ba5d1703477b116365", null ],
     [ "init_refiner", "classug_1_1_degenerated_layer_manager.html#adc40d9ed4ed9dc11b9e974ce034e6382", null ],

@@ -9,7 +9,7 @@ var classug_1_1_p_i_l_u_t_preconditioner =
     [ "~PILUTPreconditioner", "classug_1_1_p_i_l_u_t_preconditioner.html#a5ffa2a52acbe2ce7bae45a468b739a3d", null ],
     [ "clone", "classug_1_1_p_i_l_u_t_preconditioner.html#a7ae5f643ba1ee9c3942782c34931cb25", null ],
     [ "eliminate_row", "classug_1_1_p_i_l_u_t_preconditioner.html#a871afc9116aace60080ff2bf2faf124b", null ],
-    [ "name", "classug_1_1_p_i_l_u_t_preconditioner.html#a8d180102fe9aa8f561ca2ec41ab093ce", null ],
+    [ "name", "classug_1_1_p_i_l_u_t_preconditioner.html#aba3e0d39bc4e1cad1bf433bc55257fd2", null ],
     [ "postprocess", "classug_1_1_p_i_l_u_t_preconditioner.html#afe277d1f2aef6a4d9663745217efbfcc", null ],
     [ "preprocess", "classug_1_1_p_i_l_u_t_preconditioner.html#a407988841dd99ed7aa78daea1be7bec3", null ],
     [ "set_info", "classug_1_1_p_i_l_u_t_preconditioner.html#a5cff425544a4f8190ebc8b3e1854eb8b", null ],

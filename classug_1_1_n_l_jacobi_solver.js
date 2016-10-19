@@ -7,7 +7,7 @@ var classug_1_1_n_l_jacobi_solver =
     [ "NLJacobiSolver", "classug_1_1_n_l_jacobi_solver.html#a41671c10f23f604b821a16e4dac8573a", null ],
     [ "NLJacobiSolver", "classug_1_1_n_l_jacobi_solver.html#aeb8e995b4f4528b563f4b8271e50ef51", null ],
     [ "apply", "classug_1_1_n_l_jacobi_solver.html#a21544e3e00fa1fe9a1b3f238992ab978", null ],
-    [ "config_string", "classug_1_1_n_l_jacobi_solver.html#ab0695629c0fb540d5b7d9a9a6efaca38", null ],
+    [ "config_string", "classug_1_1_n_l_jacobi_solver.html#a2faf29cf0be5e07d524a952e1d3dcc8a", null ],
     [ "init", "classug_1_1_n_l_jacobi_solver.html#ac2dc0dcf1ee9f8ef438ba72a44a8073a", null ],
     [ "prepare", "classug_1_1_n_l_jacobi_solver.html#adf0635a5e1b48a3d648b0fd7c5ee1c28", null ],
     [ "set_convergence_check", "classug_1_1_n_l_jacobi_solver.html#ad26c0b325b9e4ec3d67a98691baba4e9", null ],

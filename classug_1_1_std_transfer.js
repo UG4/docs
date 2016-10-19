@@ -20,7 +20,7 @@ var classug_1_1_std_transfer =
     [ "do_restrict", "classug_1_1_std_transfer.html#a630efcaa4b130ac2f371b3bbf9add868", null ],
     [ "enable_p1_lagrange_optimization", "classug_1_1_std_transfer.html#a99fc3a54af376349d344897082530bd6", null ],
     [ "init", "classug_1_1_std_transfer.html#a8751f119ce34e200e9cccf340bb91cb9", null ],
-    [ "p1_lagrange_optimization_enabled", "classug_1_1_std_transfer.html#acd4a4b8f284c1a210d6b59676b6b75bf", null ],
+    [ "p1_lagrange_optimization_enabled", "classug_1_1_std_transfer.html#ab7c39b29e77c777cd542962e0f0599af", null ],
     [ "prolongate", "classug_1_1_std_transfer.html#aa9dbf78e5be5bc45a351da90fc2a2091", null ],
     [ "prolongate", "classug_1_1_std_transfer.html#a260f0387f239404feda34377798a104e", null ],
     [ "prolongation", "classug_1_1_std_transfer.html#a60ff0fcdbdafd29821c1bd03c6821e20", null ],

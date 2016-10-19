@@ -8,12 +8,12 @@ var classug_1_1_diag_vanka =
     [ "DiagVanka", "classug_1_1_diag_vanka.html#a5ae92eff2937cd45f9e0dc7cfb228400", null ],
     [ "~DiagVanka", "classug_1_1_diag_vanka.html#a0ef0a77401545a57e82cb920ab118764", null ],
     [ "clone", "classug_1_1_diag_vanka.html#ac7f5e5126488eab58b5b9fb8dc5c2525", null ],
-    [ "name", "classug_1_1_diag_vanka.html#af56490a58dabd9862380fe3bf5f0d20f", null ],
+    [ "name", "classug_1_1_diag_vanka.html#aec708ab8db22d1f1a9831bed4918c8ce", null ],
     [ "postprocess", "classug_1_1_diag_vanka.html#aee68d32574afd7aabfb63e5d6ee3b580", null ],
     [ "preprocess", "classug_1_1_diag_vanka.html#a50a9ca10e12f95878f8774f2d72bda16", null ],
     [ "set_relax", "classug_1_1_diag_vanka.html#ad1e93ec874bb7c52d62dcaf4334cab0a", null ],
     [ "step", "classug_1_1_diag_vanka.html#a9f28953ba484513615e24578ad64a282", null ],
-    [ "supports_parallel", "classug_1_1_diag_vanka.html#a2013f0dc68716ef97575013e74cd746e", null ],
+    [ "supports_parallel", "classug_1_1_diag_vanka.html#ae15e8d300feb634c6b55ae7575381597", null ],
     [ "m_A", "classug_1_1_diag_vanka.html#ad5d1daefcf17620d8c24dce7572b5cde", null ],
     [ "m_relax", "classug_1_1_diag_vanka.html#a0b923a0316934be2b0ca0f6e9ca7644e", null ]
 ];

@@ -1,6 +1,6 @@
 var regular__refinement_8cpp =
 [
     [ "AdjustSelection", "regular__refinement_8cpp.html#af5c2c621e6bc018f909472a5a84051cb", null ],
-    [ "Refine", "regular__refinement_8cpp.html#gaa06f7d644ec43368c730535ea41c9749", null ],
-    [ "Refine", "regular__refinement_8cpp.html#ga6bb51f279deb017b2668b0151b8e26f5", null ]
+    [ "Refine", "regular__refinement_8cpp.html#gab98f7a6e7eef37be3d6f18c88c64562e", null ],
+    [ "Refine", "regular__refinement_8cpp.html#ga513fee55d18afaa35651a60d9fe052bb", null ]
 ];

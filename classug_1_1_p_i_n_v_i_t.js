@@ -13,7 +13,7 @@ var classug_1_1_p_i_n_v_i_t =
     [ "B_norm", "classug_1_1_p_i_n_v_i_t.html#a1479e62a9b1d9cf9f47df3693c85970d", null ],
     [ "calculate_correction", "classug_1_1_p_i_n_v_i_t.html#a50ae98831dce8d0f07e2a84403dd885b", null ],
     [ "compute_rayleigh_and_defect", "classug_1_1_p_i_n_v_i_t.html#aed70c2b88ad60909a50e33c19d39b30d", null ],
-    [ "config_string", "classug_1_1_p_i_n_v_i_t.html#a5192bdcaf2e8c84bb4885676b7e0906e", null ],
+    [ "config_string", "classug_1_1_p_i_n_v_i_t.html#ab3af1cf6e271a41548f019aaa82adcf2", null ],
     [ "create_approximation_vector", "classug_1_1_p_i_n_v_i_t.html#aeaf36feeaca29dcb96ae5d881f18b617", null ],
     [ "debug_calc_projected_eigenvalues", "classug_1_1_p_i_n_v_i_t.html#abf2ba53fe4d2cbd0ca45e1700a47310c", null ],
     [ "get_defect", "classug_1_1_p_i_n_v_i_t.html#ae86e330fda35998e7195587841845e57", null ],

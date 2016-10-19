@@ -5,6 +5,6 @@ var classug_1_1_i_discretization_item =
     [ "~IDiscretizationItem", "classug_1_1_i_discretization_item.html#a88252dd0053feb45a939d2972401eed2", null ],
     [ "constraint", "classug_1_1_i_discretization_item.html#ac3b89893e78d87d6b9cd4ff2cdb17c43", null ],
     [ "elem_disc", "classug_1_1_i_discretization_item.html#a78bde26ef5ec61705e206bf78e4648e8", null ],
-    [ "num_constraint", "classug_1_1_i_discretization_item.html#a8933df222560f0f464b32ceb966ae5f3", null ],
-    [ "num_elem_disc", "classug_1_1_i_discretization_item.html#a28c40d10013f66f1f7af9c0552d5e676", null ]
+    [ "num_constraint", "classug_1_1_i_discretization_item.html#af8f5028bba91f5a3ee91d09a7f79f075", null ],
+    [ "num_elem_disc", "classug_1_1_i_discretization_item.html#a538ec873f5c68c30f69fc783428f6d09", null ]
 ];

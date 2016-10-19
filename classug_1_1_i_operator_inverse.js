@@ -4,7 +4,7 @@ var classug_1_1_i_operator_inverse =
     [ "domain_function_type", "classug_1_1_i_operator_inverse.html#a36175491c32b4bb544c6cc77c1a6c3e9", null ],
     [ "~IOperatorInverse", "classug_1_1_i_operator_inverse.html#ab2379c3d3249fa61c42020c7672f6027", null ],
     [ "apply", "classug_1_1_i_operator_inverse.html#a0be87a83a468d73d239f2713ce22624c", null ],
-    [ "config_string", "classug_1_1_i_operator_inverse.html#a72c46514539dc55d525c3390b2dd9425", null ],
+    [ "config_string", "classug_1_1_i_operator_inverse.html#a945ed556de4aac0d34390c73567693ed", null ],
     [ "init", "classug_1_1_i_operator_inverse.html#a69a1e034ca95a2bff64696d5a49d7635", null ],
     [ "prepare", "classug_1_1_i_operator_inverse.html#a1106b6be949e2acf41ffd2efb61d2b80", null ]
 ];

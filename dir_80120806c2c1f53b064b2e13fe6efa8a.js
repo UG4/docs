@@ -1,7 +1,9 @@
 var dir_80120806c2c1f53b064b2e13fe6efa8a =
 [
+    [ "detail", "dir_08ad1ad9fe254deea5960ae4f070d4f9.html", "dir_08ad1ad9fe254deea5960ae4f070d4f9" ],
     [ "loader", "dir_4d005123ba6b0fc168fc74d06b9a6795.html", "dir_4d005123ba6b0fc168fc74d06b9a6795" ],
     [ "os_dependent_impl", "dir_196992405c83efd0f366e55aebd3e5f4.html", "dir_196992405c83efd0f366e55aebd3e5f4" ],
+    [ "archivar.h", "archivar_8h.html", "archivar_8h" ],
     [ "array_util.h", "array__util_8h.html", "array__util_8h" ],
     [ "base64_file_writer.cpp", "base64__file__writer_8cpp.html", "base64__file__writer_8cpp" ],
     [ "base64_file_writer.h", "base64__file__writer_8h.html", null ],
@@ -21,6 +23,7 @@ var dir_80120806c2c1f53b064b2e13fe6efa8a =
       [ "end_boost_list", "structug_1_1end__boost__list.html", null ]
     ] ],
     [ "endian_detection.h", "endian__detection_8h.html", "endian__detection_8h" ],
+    [ "factory.h", "factory_8h.html", "factory_8h" ],
     [ "field.h", "field_8h.html", [
       [ "Field", "classug_1_1_field.html", "classug_1_1_field" ]
     ] ],
@@ -62,6 +65,12 @@ var dir_80120806c2c1f53b064b2e13fe6efa8a =
     [ "pointer_const_array.h", "pointer__const__array_8h.html", null ],
     [ "pointer_const_array_impl.hpp", "pointer__const__array__impl_8hpp.html", null ],
     [ "provider.h", "provider_8h.html", null ],
+    [ "raster.h", "raster_8h.html", [
+      [ "Coordinate", "classug_1_1_raster_1_1_coordinate.html", "classug_1_1_raster_1_1_coordinate" ],
+      [ "MultiIndex", "classug_1_1_raster_1_1_multi_index.html", "classug_1_1_raster_1_1_multi_index" ],
+      [ "Raster", "classug_1_1_raster.html", "classug_1_1_raster" ]
+    ] ],
+    [ "raster_impl.hpp", "raster__impl_8hpp.html", "raster__impl_8hpp" ],
     [ "section_container.h", "section__container_8h.html", [
       [ "Section", "structug_1_1_section_container_1_1_section.html", "structug_1_1_section_container_1_1_section" ]
     ] ],

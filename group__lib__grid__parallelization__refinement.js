@@ -1,7 +1,7 @@
 var group__lib__grid__parallelization__refinement =
 [
     [ "ParallelGlobalFracturedMediaRefiner", "classug_1_1_parallel_global_fractured_media_refiner.html", [
-      [ "ParallelGlobalFracturedMediaRefiner", "classug_1_1_parallel_global_fractured_media_refiner.html#a065b2d68a708ae9fb467116c41be127f", null ],
+      [ "ParallelGlobalFracturedMediaRefiner", "classug_1_1_parallel_global_fractured_media_refiner.html#adb4f6ee3e97c7a7b3f15481f817dc23d", null ],
       [ "~ParallelGlobalFracturedMediaRefiner", "classug_1_1_parallel_global_fractured_media_refiner.html#a608f40a841366429b725b7b74db916f2", null ],
       [ "communicate_marks", "classug_1_1_parallel_global_fractured_media_refiner.html#a362db2f6fc7e420c702baf6e3ee285f5", null ],
       [ "refinement_is_allowed", "classug_1_1_parallel_global_fractured_media_refiner.html#a8920e32382faf945b2c607550d75e27d", null ],
@@ -16,8 +16,8 @@ var group__lib__grid__parallelization__refinement =
     ] ],
     [ "ParallelHangingNodeRefiner_MultiGrid", "classug_1_1_parallel_hanging_node_refiner___multi_grid.html", [
       [ "BaseClass", "classug_1_1_parallel_hanging_node_refiner___multi_grid.html#ac9ceb0b5004b4149f05236aff8f83cea", null ],
-      [ "ParallelHangingNodeRefiner_MultiGrid", "classug_1_1_parallel_hanging_node_refiner___multi_grid.html#a51753739d1f1d5f193a562fbb916a619", null ],
-      [ "ParallelHangingNodeRefiner_MultiGrid", "classug_1_1_parallel_hanging_node_refiner___multi_grid.html#a2d192ace1bb794663d42488298a42158", null ],
+      [ "ParallelHangingNodeRefiner_MultiGrid", "classug_1_1_parallel_hanging_node_refiner___multi_grid.html#a044507c871a975d233cc9d3f9face341", null ],
+      [ "ParallelHangingNodeRefiner_MultiGrid", "classug_1_1_parallel_hanging_node_refiner___multi_grid.html#aaec279feb8054c65a731f62fb2628c09", null ],
       [ "~ParallelHangingNodeRefiner_MultiGrid", "classug_1_1_parallel_hanging_node_refiner___multi_grid.html#a75af546704fae810c108d939e273b570", null ],
       [ "assign_hnode_marks", "classug_1_1_parallel_hanging_node_refiner___multi_grid.html#a28a08cfb19fd65a0460ee0f27c6be425", null ],
       [ "broadcast_marks_horizontally", "classug_1_1_parallel_hanging_node_refiner___multi_grid.html#a695b7854be948f616f7a013d7ed4e2cf", null ],
@@ -50,7 +50,7 @@ var group__lib__grid__parallelization__refinement =
       [ "m_procCom", "classug_1_1_parallel_hanging_node_refiner___multi_grid.html#a30c4490fa6b57824e899a323ca96dd67", null ]
     ] ],
     [ "TParallelGlobalRefiner", "classug_1_1_t_parallel_global_refiner.html", [
-      [ "TParallelGlobalRefiner", "classug_1_1_t_parallel_global_refiner.html#affa3b26b8602357ce62e3d036e5c3c61", null ],
+      [ "TParallelGlobalRefiner", "classug_1_1_t_parallel_global_refiner.html#a689e74f96cc344bee43b443348fce2da", null ],
       [ "~TParallelGlobalRefiner", "classug_1_1_t_parallel_global_refiner.html#a7b4799dedc8011ed8ad8d321671e1f24", null ],
       [ "refinement_is_allowed", "classug_1_1_t_parallel_global_refiner.html#aca57720c3632e318301d5f35ced8322d", null ],
       [ "refinement_is_allowed", "classug_1_1_t_parallel_global_refiner.html#ad2c7f864fa252f2954acd0a248d63eb4", null ],

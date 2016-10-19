@@ -1,11 +1,11 @@
 var classug_1_1_sub_local_do_f_set =
 [
     [ "SubLocalDoFSet", "classug_1_1_sub_local_do_f_set.html#a95a9c4cfe4b7acf27d958f9610064dd4", null ],
-    [ "exact_position_available", "classug_1_1_sub_local_do_f_set.html#a5a985408401a1bf78be63cf3144525fc", null ],
-    [ "local_dof", "classug_1_1_sub_local_do_f_set.html#ab090eb386836f9d7514d00fa155c24f0", null ],
-    [ "num_dof", "classug_1_1_sub_local_do_f_set.html#a4eb6ca8b281d7cfbc1f33885a19ba061", null ],
-    [ "position", "classug_1_1_sub_local_do_f_set.html#aca4e024acae2a898e96d59da93e4288e", null ],
-    [ "roid", "classug_1_1_sub_local_do_f_set.html#aea2330da5565c08a4a465a90a071cfb9", null ],
+    [ "exact_position_available", "classug_1_1_sub_local_do_f_set.html#a69aa416e8f25364d18a70a7d7aa9b456", null ],
+    [ "local_dof", "classug_1_1_sub_local_do_f_set.html#a103cb939d552aba6c3dc2bad66db089a", null ],
+    [ "num_dof", "classug_1_1_sub_local_do_f_set.html#a67b78f65b0e8b52b7685c9ad915be9e2", null ],
+    [ "position", "classug_1_1_sub_local_do_f_set.html#a876064f07b404187f251c7e76d7c31c3", null ],
+    [ "roid", "classug_1_1_sub_local_do_f_set.html#a47366c66d55b885e42a47a89d6f070cf", null ],
     [ "set", "classug_1_1_sub_local_do_f_set.html#a6647bc2ffaa6d812640a60f2c2d08fbf", null ],
     [ "dim", "classug_1_1_sub_local_do_f_set.html#ac2c1f9f5a5f242f6f661c0dfba25b48b", null ],
     [ "m_bExactPos", "classug_1_1_sub_local_do_f_set.html#a1ca72228eaf40a3204c8ab69ea1e2ba6", null ],

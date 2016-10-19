@@ -106,7 +106,28 @@ var dir_3ad4976311e8b20f14d54d5a6abc93f8 =
       [ "GaussQuadrature< ReferenceTriangle, 8 >", "classug_1_1_gauss_quadrature_3_01_reference_triangle_00_018_01_4.html", null ],
       [ "GaussQuadrature< ReferenceTriangle, 9 >", "classug_1_1_gauss_quadrature_3_01_reference_triangle_00_019_01_4.html", null ]
     ] ],
+    [ "gauss_quad_vertex.cpp", "gauss__quad__vertex_8cpp.html", null ],
     [ "gauss_quad_vertex.h", "gauss__quad__vertex_8h.html", [
+      [ "GaussQuadrature< ReferenceVertex, 0 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_010_01_4.html", null ],
+      [ "GaussQuadrature< ReferenceVertex, 1 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_011_01_4.html", null ],
+      [ "GaussQuadrature< ReferenceVertex, 10 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_0110_01_4.html", null ],
+      [ "GaussQuadrature< ReferenceVertex, 11 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_0111_01_4.html", null ],
+      [ "GaussQuadrature< ReferenceVertex, 12 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_0112_01_4.html", null ],
+      [ "GaussQuadrature< ReferenceVertex, 13 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_0113_01_4.html", null ],
+      [ "GaussQuadrature< ReferenceVertex, 14 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_0114_01_4.html", null ],
+      [ "GaussQuadrature< ReferenceVertex, 15 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_0115_01_4.html", null ],
+      [ "GaussQuadrature< ReferenceVertex, 16 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_0116_01_4.html", null ],
+      [ "GaussQuadrature< ReferenceVertex, 17 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_0117_01_4.html", null ],
+      [ "GaussQuadrature< ReferenceVertex, 18 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_0118_01_4.html", null ],
+      [ "GaussQuadrature< ReferenceVertex, 19 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_0119_01_4.html", null ],
+      [ "GaussQuadrature< ReferenceVertex, 2 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_012_01_4.html", null ],
+      [ "GaussQuadrature< ReferenceVertex, 3 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_013_01_4.html", null ],
+      [ "GaussQuadrature< ReferenceVertex, 4 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_014_01_4.html", null ],
+      [ "GaussQuadrature< ReferenceVertex, 5 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_015_01_4.html", null ],
+      [ "GaussQuadrature< ReferenceVertex, 6 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_016_01_4.html", null ],
+      [ "GaussQuadrature< ReferenceVertex, 7 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_017_01_4.html", null ],
+      [ "GaussQuadrature< ReferenceVertex, 8 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_018_01_4.html", null ],
+      [ "GaussQuadrature< ReferenceVertex, 9 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_019_01_4.html", null ],
       [ "GaussQuadratureVertex", "classug_1_1_gauss_quadrature_vertex.html", "classug_1_1_gauss_quadrature_vertex" ]
     ] ]
 ];

@@ -13,5 +13,5 @@ var classug4_bridge_1_1_grid_1_1_parallel_hanging_node_refiner___multi_grid =
     [ "refine", "classug4_bridge_1_1_grid_1_1_parallel_hanging_node_refiner___multi_grid.html#abd1562affe186e62a245d91f90d1ed10", null ],
     [ "save_marks_to_file", "classug4_bridge_1_1_grid_1_1_parallel_hanging_node_refiner___multi_grid.html#a96288281502e4f426f328854c6fb288f", null ],
     [ "set_adjusted_marks_debug_filename", "classug4_bridge_1_1_grid_1_1_parallel_hanging_node_refiner___multi_grid.html#a0b4af1f3cdff73937eb26abbf3b47343", null ],
-    [ "set_refinement_callback", "classug4_bridge_1_1_grid_1_1_parallel_hanging_node_refiner___multi_grid.html#adc950cb077758c37bd0e3fb3c7aecfbe", null ]
+    [ "set_projector", "classug4_bridge_1_1_grid_1_1_parallel_hanging_node_refiner___multi_grid.html#afbc3d5680eefa2929d8e4b65e6ebd106", null ]
 ];

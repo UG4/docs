@@ -8,7 +8,7 @@ var classug_1_1_theta_time_step =
     [ "ThetaTimeStep", "classug_1_1_theta_time_step.html#a9c5cc17966e7f7f740d7bd8e18b5b238", null ],
     [ "ThetaTimeStep", "classug_1_1_theta_time_step.html#abbbe34551745028a2bfe06b6e53b4448", null ],
     [ "~ThetaTimeStep", "classug_1_1_theta_time_step.html#a901728844a652f9eda43973193f1207f", null ],
-    [ "num_stages", "classug_1_1_theta_time_step.html#a4d6c46ce7912464be9b48b938dde9cad", null ],
+    [ "num_stages", "classug_1_1_theta_time_step.html#a1bc8a29ecfa5b91f1d23eab98b9b205a", null ],
     [ "set_scheme", "classug_1_1_theta_time_step.html#a5d18ca63bf038ff06cb4480812b435ac", null ],
     [ "set_stage", "classug_1_1_theta_time_step.html#a1a4efd5107a1de74eb88d387337e3c2f", null ],
     [ "set_theta", "classug_1_1_theta_time_step.html#ac72939a80e92e0268eb959f6bdf4a51d", null ],

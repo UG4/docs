@@ -1,6 +1,6 @@
 var classug_1_1_data_evaluator =
 [
-    [ "DataEvaluator", "classug_1_1_data_evaluator.html#adaf56a8f8e8de05bf4a6d7d1fb9b51ff", null ],
+    [ "DataEvaluator", "classug_1_1_data_evaluator.html#add0e3f08d28efe672fd5e8b5d084f384", null ],
     [ "add_data_to_eval_data", "classug_1_1_data_evaluator.html#a1b849660caa3917963574c58a2ad4819", null ],
     [ "add_def_A_elem", "classug_1_1_data_evaluator.html#af6808e0946f3f0b77194a0e4ac1312dc", null ],
     [ "add_def_A_expl_elem", "classug_1_1_data_evaluator.html#afc3ce5c54f89d7ef7e41d9309a7b4887", null ],
@@ -25,8 +25,8 @@ var classug_1_1_data_evaluator =
     [ "prepare_timestep", "classug_1_1_data_evaluator.html#a8ed71de8577a00fe47a5b4b591d6c2a7", null ],
     [ "prepare_timestep_elem", "classug_1_1_data_evaluator.html#adbd2c1c5ebc269c4ea5de882c0b741e4", null ],
     [ "set_time_point", "classug_1_1_data_evaluator.html#a2ef647c68e0e954993964fd2fb162857", null ],
-    [ "time_series_needed", "classug_1_1_data_evaluator.html#a96452d458d11863abc813b379a194ecc", null ],
-    [ "use_hanging", "classug_1_1_data_evaluator.html#a89c17b486d8942fc5b6b75caf5cf07d1", null ],
+    [ "time_series_needed", "classug_1_1_data_evaluator.html#af84de6930984217efcfd0251fc273cd7", null ],
+    [ "use_hanging", "classug_1_1_data_evaluator.html#a9a6a11124018b82842bda06e2d34d29c", null ],
     [ "dim", "classug_1_1_data_evaluator.html#a4cf982fade7268b11067f46d8e3160e7", null ],
     [ "m_bNeedLocTimeSeries", "classug_1_1_data_evaluator.html#a1f867f039754eab970a64a0bd7918119", null ],
     [ "m_bUseHanging", "classug_1_1_data_evaluator.html#af7cc418ad43d73cd8a00ed6bf9e041e7", null ],

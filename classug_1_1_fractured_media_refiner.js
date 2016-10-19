@@ -1,8 +1,8 @@
 var classug_1_1_fractured_media_refiner =
 [
     [ "BaseClass", "classug_1_1_fractured_media_refiner.html#a1842152f4f448cb35dc46966722c06ab", null ],
-    [ "FracturedMediaRefiner", "classug_1_1_fractured_media_refiner.html#a45c567f891bf38746f0137f1b26d19a9", null ],
-    [ "FracturedMediaRefiner", "classug_1_1_fractured_media_refiner.html#a7e23d5c9ca2c1bc2a762a75d5b89c5dc", null ],
+    [ "FracturedMediaRefiner", "classug_1_1_fractured_media_refiner.html#a34138790a73fad6684b5793cd79c9799", null ],
+    [ "FracturedMediaRefiner", "classug_1_1_fractured_media_refiner.html#a13f028da05d9ef4ce9608ce26d789b01", null ],
     [ "~FracturedMediaRefiner", "classug_1_1_fractured_media_refiner.html#a5293f2d2d81727bc7f0d9c4911aa0a01", null ],
     [ "aspect_ratio", "classug_1_1_fractured_media_refiner.html#a55a77856c20851eb4482b644c53286d7", null ],
     [ "collect_objects_for_refine", "classug_1_1_fractured_media_refiner.html#a7c963b9282b4db1f54c93bdffa5dbe51", null ],

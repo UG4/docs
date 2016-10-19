@@ -1,6 +1,5 @@
 var grid__bridges_2misc__bridge_8cpp =
 [
-    [ "CreateFractal", "grid__bridges_2misc__bridge_8cpp.html#aed76e36482a0b4b6cb8df12802938358", null ],
     [ "RegisterGridBridge_Misc", "grid__bridges_2misc__bridge_8cpp.html#a0a3905966b073ef63fb01cdd7368a0ee", null ],
     [ "TestNTree", "grid__bridges_2misc__bridge_8cpp.html#a6d805353cf3c71402734897ef188fc97", null ]
 ];

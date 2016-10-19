@@ -11,5 +11,6 @@ var reference__mapping_8h =
     [ "ReferenceMapping< ReferenceTetrahedron, TWorldDim >", "classug_1_1_reference_mapping_3_01_reference_tetrahedron_00_01_t_world_dim_01_4.html", "classug_1_1_reference_mapping_3_01_reference_tetrahedron_00_01_t_world_dim_01_4" ],
     [ "ReferenceMapping< ReferenceTriangle, TWorldDim >", "classug_1_1_reference_mapping_3_01_reference_triangle_00_01_t_world_dim_01_4.html", "classug_1_1_reference_mapping_3_01_reference_triangle_00_01_t_world_dim_01_4" ],
     [ "ReferenceMapping< ReferenceVertex, TWorldDim >", "classug_1_1_reference_mapping_3_01_reference_vertex_00_01_t_world_dim_01_4.html", "classug_1_1_reference_mapping_3_01_reference_vertex_00_01_t_world_dim_01_4" ],
-    [ "DID_REFERENCE_MAPPING", "reference__mapping_8h.html#a1364ab04863f9ab58967e3d7054d32db", null ]
+    [ "DID_REFERENCE_MAPPING", "reference__mapping_8h.html#a1364ab04863f9ab58967e3d7054d32db", null ],
+    [ "DID_REFERENCE_MAPPING_GLOB_TO_LOC", "reference__mapping_8h.html#a2c09957add494ecdad7dfaeb0b3e706c", null ]
 ];

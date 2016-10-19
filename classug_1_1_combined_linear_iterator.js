@@ -9,7 +9,7 @@ var classug_1_1_combined_linear_iterator =
     [ "clone", "classug_1_1_combined_linear_iterator.html#a4547c174ac9b318fc0b1bc6f5b6aefae", null ],
     [ "init", "classug_1_1_combined_linear_iterator.html#a6d015d5c3251e5beb3c43696d2ea1eb2", null ],
     [ "init", "classug_1_1_combined_linear_iterator.html#a68467cd6da4e97c58ff6bceb95092a26", null ],
-    [ "name", "classug_1_1_combined_linear_iterator.html#a085aa4b1b7670bf2c52dee343e9076f8", null ],
-    [ "supports_parallel", "classug_1_1_combined_linear_iterator.html#ad10071077e8d97bc72cda9dc500a7aee", null ],
+    [ "name", "classug_1_1_combined_linear_iterator.html#a59dcda0da2d46c07b74633f9e8c16102", null ],
+    [ "supports_parallel", "classug_1_1_combined_linear_iterator.html#ae600111ba69302310c468c67f0a7bc45", null ],
     [ "m_vIterator", "classug_1_1_combined_linear_iterator.html#ae4e5cc1ae6b7e5ffe5bec77276beff95", null ]
 ];

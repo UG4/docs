@@ -7,6 +7,6 @@ var classug_1_1_symmetric_gauss_seidel =
     [ "SymmetricGaussSeidel", "classug_1_1_symmetric_gauss_seidel.html#a49a31f28ea66be6a3b2db80e19b977ff", null ],
     [ "SymmetricGaussSeidel", "classug_1_1_symmetric_gauss_seidel.html#a15af165fa4621a77cd5666d751fc7f50", null ],
     [ "clone", "classug_1_1_symmetric_gauss_seidel.html#a0710d12a2ce616de6a9248a6a4276ba8", null ],
-    [ "name", "classug_1_1_symmetric_gauss_seidel.html#ad1c501c540364995fe8d3d13bff2b731", null ],
+    [ "name", "classug_1_1_symmetric_gauss_seidel.html#a9ee2e228c1027eb29ab8a96a11654477", null ],
     [ "step", "classug_1_1_symmetric_gauss_seidel.html#a4adccca33326a7ab759ddef58dadfde6", null ]
 ];

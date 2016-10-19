@@ -18,7 +18,7 @@ var classug_1_1_parallel_dual_graph =
     [ "num_graph_edges", "classug_1_1_parallel_dual_graph.html#ad4cd0d1a9d672eeea4b1073593e6b319", null ],
     [ "num_graph_vertices", "classug_1_1_parallel_dual_graph.html#a8e8cef019a90e0daae87548554373569", null ],
     [ "parallel_offset_map", "classug_1_1_parallel_dual_graph.html#a768de2b3d7087e20fe95cbea31a3545d", null ],
-    [ "process_communicator", "classug_1_1_parallel_dual_graph.html#a795e7ca693b82356c30b9ee1b296f137", null ],
+    [ "process_communicator", "classug_1_1_parallel_dual_graph.html#ad1c3571ad286f8b5e287cdfa243300fa", null ],
     [ "set_grid", "classug_1_1_parallel_dual_graph.html#ae9a974df3b1a8ad33e7262a17ccda686", null ],
     [ "was_considered", "classug_1_1_parallel_dual_graph.html#a8309fe5d35a22a89eab3f4d2172e82ba", null ],
     [ "m_aaElemIndex", "classug_1_1_parallel_dual_graph.html#a92d718aa3710c0dbe9d4a7461727b099", null ],

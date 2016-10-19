@@ -1,9 +1,9 @@
 var classug_1_1_face_vertices =
 [
     [ "~FaceVertices", "classug_1_1_face_vertices.html#aaa8ca282a84ff33228f847b1f9220cf3", null ],
-    [ "num_vertices", "classug_1_1_face_vertices.html#abc50d408763b0e4ac3fd92b905d2b00f", null ],
-    [ "operator[]", "classug_1_1_face_vertices.html#aa9c43ad5ceafcbc13517a7dc087f38ab", null ],
-    [ "size", "classug_1_1_face_vertices.html#ad4d04eb3f57fe484920fc4ac0be59f1b", null ],
-    [ "vertex", "classug_1_1_face_vertices.html#a0598d783b07caed314e5552b9eb54548", null ],
-    [ "vertices", "classug_1_1_face_vertices.html#a2977338d1a30f3fbe6796c3285c0da29", null ]
+    [ "num_vertices", "classug_1_1_face_vertices.html#a91c22d6b5fcc4c90e359685aafe2aa19", null ],
+    [ "operator[]", "classug_1_1_face_vertices.html#aa761cad7e434706396a32da7d8ee6a4b", null ],
+    [ "size", "classug_1_1_face_vertices.html#a49362e75b4986cce9876ff6f77379bdf", null ],
+    [ "vertex", "classug_1_1_face_vertices.html#a8f18cc58d9b6142a2d3728cfe55159d1", null ],
+    [ "vertices", "classug_1_1_face_vertices.html#a6b0da4dcacca2cec9869b7a87ad6381b", null ]
 ];

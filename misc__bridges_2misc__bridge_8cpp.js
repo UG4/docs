@@ -1,6 +1,7 @@
 var misc__bridges_2misc__bridge_8cpp =
 [
     [ "ADD_DEFINED_FUNC", "misc__bridges_2misc__bridge_8cpp.html#a03cb2f02f1fc98e195ecef39248037ad", null ],
+    [ "errlog", "misc__bridges_2misc__bridge_8cpp.html#ga1ca11bddcb82b4a76c0a9afe0c2d8e97", null ],
     [ "FilenameStringEscape", "misc__bridges_2misc__bridge_8cpp.html#gaf622e5f382edd7a17132bf3ec87b0b01", null ],
     [ "GetBuildHostname", "misc__bridges_2misc__bridge_8cpp.html#ga46bb4a55100beb7e58dfa23039eaaefd", null ],
     [ "GetClockS", "misc__bridges_2misc__bridge_8cpp.html#ga6e1622c55780af718a6ee80d8a2b53f5", null ],
@@ -19,6 +20,7 @@ var misc__bridges_2misc__bridge_8cpp =
     [ "IsDefinedUG_CPU_3", "misc__bridges_2misc__bridge_8cpp.html#ga46a242f6963422b4d57f3c78458d7ea2", null ],
     [ "IsDefinedUG_CPU_4", "misc__bridges_2misc__bridge_8cpp.html#gaeef5822def612eb0882c08362f54a9d7", null ],
     [ "IsDefinedUG_CPU_5", "misc__bridges_2misc__bridge_8cpp.html#gacd002b627fe0f969d0fc658128c5913f", null ],
+    [ "IsDefinedUG_CPU_6", "misc__bridges_2misc__bridge_8cpp.html#ga44ad2f35ccb86a20aa86251da41153b9", null ],
     [ "IsDefinedUG_CPU_VAR", "misc__bridges_2misc__bridge_8cpp.html#gad2c3519132f19b60759d173f2f27e1a7", null ],
     [ "IsDefinedUG_DEBUG", "misc__bridges_2misc__bridge_8cpp.html#ga576f7125bd33412e48d12a6e83e02a10", null ],
     [ "IsDefinedUG_DIM_1", "misc__bridges_2misc__bridge_8cpp.html#ga662c0a9719bbc98efb3503822f97b545", null ],

@@ -1,6 +1,0 @@
-var structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_t1_00_01_t2_00_01_t3_08_01const_01_01_4 =
-[
-    [ "params_type", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_t1_00_01_t2_00_01_t3_08_01const_01_01_4.html#ac6658e88cab3c4ad5b403e60ab0a865c", null ],
-    [ "apply", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_t1_00_01_t2_00_01_t3_08_01const_01_01_4.html#a80c7c31f8d0b1593223be6ddaf0be28f", null ],
-    [ "FUNC_TRAITS_GENERAL_CONST_MEMBER", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_t1_00_01_t2_00_01_t3_08_01const_01_01_4.html#acb3075fbc7b4f8f355e144b24a0fe5aa", null ]
-];

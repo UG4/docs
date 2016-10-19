@@ -7,7 +7,7 @@ var classug_1_1_i_d_w_user_data =
     [ "~IDWUserData", "classug_1_1_i_d_w_user_data.html#a53f7a9335898ec811570dc9ea3dc2a82", null ],
     [ "append", "classug_1_1_i_d_w_user_data.html#a082baef070bf7b0850f4aa8e9a67868f", null ],
     [ "clear", "classug_1_1_i_d_w_user_data.html#a1dc684e69a990080942200d7db909553", null ],
-    [ "evaluate", "classug_1_1_i_d_w_user_data.html#a6a51654182561b1663b54434dbba3e45", null ],
+    [ "evaluate", "classug_1_1_i_d_w_user_data.html#a8903059e77d464c9ddc3a781b9e6d962", null ],
     [ "load_data_from", "classug_1_1_i_d_w_user_data.html#a4599fadeab10db92a614c94a151ef059", null ],
     [ "load_data_from", "classug_1_1_i_d_w_user_data.html#a78e1828e64e0529844a2099b4c33aff7", null ],
     [ "set_order", "classug_1_1_i_d_w_user_data.html#a8b4de63e9a427b6812e08a1f81d1e265", null ],

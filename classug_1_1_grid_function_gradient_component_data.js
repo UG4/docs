@@ -1,8 +1,8 @@
 var classug_1_1_grid_function_gradient_component_data =
 [
     [ "GridFunctionGradientComponentData", "classug_1_1_grid_function_gradient_component_data.html#aa673375561a65328c9e8acdb7006b16d", null ],
-    [ "continuous", "classug_1_1_grid_function_gradient_component_data.html#afaa17a04555f9e87697d4e1bd73e08ef", null ],
-    [ "eval_and_deriv", "classug_1_1_grid_function_gradient_component_data.html#a9b436d33abe5c1d7597ca03649f96157", null ],
+    [ "continuous", "classug_1_1_grid_function_gradient_component_data.html#acf31707d66c2bee04c602b412a3cc994", null ],
+    [ "eval_and_deriv", "classug_1_1_grid_function_gradient_component_data.html#a846f5a7ebb6553968388a6dca072f878", null ],
     [ "dim", "classug_1_1_grid_function_gradient_component_data.html#a11cd79b80ae6dce85114a673a7018228", null ],
     [ "m_component", "classug_1_1_grid_function_gradient_component_data.html#aa5e4c3f600ef70cb84022021f5132d89", null ],
     [ "m_fct", "classug_1_1_grid_function_gradient_component_data.html#a220ae3ed3d44eecc368f6ebc7545be43", null ],

@@ -16,5 +16,8 @@ var dir_b905f3cf2498319840fd876fd569320d =
     ] ],
     [ "rotating_velocity.h", "rotating__velocity_8h.html", [
       [ "RotatingVelocity2d", "classug_1_1_rotating_velocity2d.html", "classug_1_1_rotating_velocity2d" ]
+    ] ],
+    [ "subset_indicator_user_data.h", "subset__indicator__user__data_8h.html", [
+      [ "SubsetIndicatorUserData", "classug_1_1_subset_indicator_user_data.html", "classug_1_1_subset_indicator_user_data" ]
     ] ]
 ];

@@ -13,7 +13,7 @@ var classug_1_1_i_proj_gauss_seidel =
     [ "apply", "classug_1_1_i_proj_gauss_seidel.html#af9d757ab90145ff8d67b55ae2d8144eb", null ],
     [ "apply_update_defect", "classug_1_1_i_proj_gauss_seidel.html#ace8ed7b625c74465b3c57e0525556406", null ],
     [ "init", "classug_1_1_i_proj_gauss_seidel.html#a05ab50172d3354d48012f6fdf7e23a71", null ],
-    [ "name", "classug_1_1_i_proj_gauss_seidel.html#a67a3024b1524dd1dcc995756380ae9f0", null ],
+    [ "name", "classug_1_1_i_proj_gauss_seidel.html#a92795df03f26854aa3d2893e01e8f197", null ],
     [ "project_correction", "classug_1_1_i_proj_gauss_seidel.html#a741c9502de93787b98351d81ad82ff27", null ],
     [ "step", "classug_1_1_i_proj_gauss_seidel.html#a215144a93ed4d3672b5132d8f8db6b39", null ],
     [ "truncateMat", "classug_1_1_i_proj_gauss_seidel.html#a533b2d70a25092525cf094b869ba3ce3", null ],

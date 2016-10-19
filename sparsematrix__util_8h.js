@@ -30,9 +30,9 @@ var sparsematrix__util_8h =
     [ "ScaleSparseMatrixCommon", "sparsematrix__util_8h.html#gaf1ebe41ef745874c5bd31f77ec75a94e", null ],
     [ "SerializeMatrix", "sparsematrix__util_8h.html#gafff5f870be2d5be78c9488565d81abb7", null ],
     [ "SetCol", "sparsematrix__util_8h.html#gad0759e26a47118ebfb07eb9cab776e36", null ],
+    [ "SetDirichletRow", "sparsematrix__util_8h.html#gaa8517cb090f40832480c0dd692b0471b", null ],
     [ "SetDirichletRow", "sparsematrix__util_8h.html#ga01ed3ff58ad516c4d6ef6b761f54ba29", null ],
     [ "SetDirichletRow", "sparsematrix__util_8h.html#ga5386eec244c7ae060f05b81fc56674f4", null ],
-    [ "SetDirichletRow", "sparsematrix__util_8h.html#gaa8517cb090f40832480c0dd692b0471b", null ],
     [ "SetRow", "sparsematrix__util_8h.html#gabf276745a13b918814ff59f9a9607eca", null ],
     [ "SetRow", "sparsematrix__util_8h.html#gab76efa38a80f081ba03e58e0a2385a38", null ]
 ];

@@ -16,6 +16,9 @@ var dir_fb610924cf5d54adc79f1150f5e0edab =
     [ "distributed_grid_impl.hpp", "distributed__grid__impl_8hpp.html", null ],
     [ "distribution.cpp", "distribution_8cpp.html", "distribution_8cpp" ],
     [ "distribution.h", "distribution_8h.html", "distribution_8h" ],
+    [ "distro_adjuster.h", "distro__adjuster_8h.html", [
+      [ "DistroAdjuster", "classug_1_1_distro_adjuster.html", "classug_1_1_distro_adjuster" ]
+    ] ],
     [ "grid_object_id.h", "grid__object__id_8h.html", "grid__object__id_8h" ],
     [ "load_balancer.cpp", "load__balancer_8cpp.html", null ],
     [ "load_balancer.h", "load__balancer_8h.html", "load__balancer_8h" ],

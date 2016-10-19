@@ -5,7 +5,7 @@ var tetrahedron__rules_8h =
       [ "HYBRID_TET_OCT", "tetrahedron__rules_8h.html#a76aaa0d3db72d7532893684a989d38eead23b107a795aa68259651ae52dbf8dd1", null ]
     ] ],
     [ "GetRefinementRule", "tetrahedron__rules_8h.html#a9f7c36db5d2ca9ff6d1bb3e3c4cca91d", null ],
-    [ "Refine", "tetrahedron__rules_8h.html#ab490661956c2734195d93f05d961b52c", null ],
+    [ "Refine", "tetrahedron__rules_8h.html#a3c86c46dc04aa4188846ea7a88ece6cd", null ],
     [ "SetRefinementRule", "tetrahedron__rules_8h.html#a1dab2c9e3961c63fe112e40421c450e8", null ],
     [ "EDGE_FROM_VRTS", "tetrahedron__rules_8h.html#a6b45d48a4172cf156cef7243778a6bc6", null ],
     [ "EDGE_VRT_INDS", "tetrahedron__rules_8h.html#ae8e2e877c0514cc085b81223a498d4a7", null ],

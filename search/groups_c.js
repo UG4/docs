@@ -13,6 +13,7 @@ var searchData=
   ['pcl',['PCL',['../group__pcl.html',1,'']]],
   ['pcl_20bridge',['PCL Bridge',['../group__pcl__bridge.html',1,'']]],
   ['periodic_20bounadry_20bridge',['Periodic Bounadry Bridge',['../group__periodic__bridge.html',1,'']]],
+  ['plugin_20template',['Plugin Template',['../../plugins/group__plugin__template.html',1,'']]],
   ['plugins',['Plugins',['../../plugins/group__plugins.html',1,'']]],
   ['preconditioner_20bridge',['Preconditioner Bridge',['../group__precond__bridge.html',1,'']]],
   ['profiler_20bridge',['Profiler Bridge',['../group__profiler__bridge.html',1,'']]],

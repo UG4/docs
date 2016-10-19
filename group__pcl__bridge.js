@@ -9,5 +9,5 @@ var group__pcl__bridge =
     [ "PclAllProcsTrue", "group__pcl__bridge.html#gac76062c750e985d7e340d922de2afe57", null ],
     [ "PclDebugBarrierAll", "group__pcl__bridge.html#gae1ca4689d6f3bc285698b12e348a0a32", null ],
     [ "PclDebugBarrierEnabled", "group__pcl__bridge.html#ga89ac2ae5fa7e2383cb794347f7a478a7", null ],
-    [ "RegisterBridge_PCL", "../plugins/group__pcl__bridge.html#gad10352be15884043646b7036d89a59f0", null ]
+    [ "RegisterBridge_PCL", "group__pcl__bridge.html#gad10352be15884043646b7036d89a59f0", null ]
 ];

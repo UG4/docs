@@ -22,6 +22,7 @@ var dir_2377bdc3bce2db83d3a95ac44ec5f4e1 =
     [ "grid_function.cpp", "grid__function_8cpp.html", null ],
     [ "grid_function.h", "grid__function_8h.html", "grid__function_8h" ],
     [ "grid_function_global_user_data.h", "grid__function__global__user__data_8h.html", [
+      [ "GlobalGridFunctionGradientData", "classug_1_1_global_grid_function_gradient_data.html", "classug_1_1_global_grid_function_gradient_data" ],
       [ "GlobalGridFunctionNumberData", "classug_1_1_global_grid_function_number_data.html", "classug_1_1_global_grid_function_number_data" ]
     ] ],
     [ "grid_function_impl.h", "grid__function__impl_8h.html", null ],

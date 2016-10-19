@@ -2,8 +2,8 @@ var structug_1_1_subset_info =
 [
     [ "PropertyMap", "structug_1_1_subset_info.html#a3086ad74dde7635662e8013a8bdaebc6", null ],
     [ "SubsetInfo", "structug_1_1_subset_info.html#aa44e964d5d143003e365fa7f1cf5c032", null ],
-    [ "get_property", "structug_1_1_subset_info.html#a83bc0194fea8c0675b93edcdeea52076", null ],
-    [ "get_property", "structug_1_1_subset_info.html#af9a4be3397ecf819164906c99a0fb1a2", null ],
+    [ "get_property", "structug_1_1_subset_info.html#a34abdd7e29de5e37d679703e4005421c", null ],
+    [ "get_property", "structug_1_1_subset_info.html#a9aeaa76387d8014b5564af6ba747a9f5", null ],
     [ "set_property", "structug_1_1_subset_info.html#a6d98d9f1b549786b0a07adcf82fcb7d4", null ],
     [ "set_property", "structug_1_1_subset_info.html#ab8f59f673ea873e0dcfa20509eeb87cc", null ],
     [ "color", "structug_1_1_subset_info.html#a4c7c96a20b79ff588ad83733e53547cc", null ],

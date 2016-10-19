@@ -12,12 +12,12 @@ var classug_1_1_jacobi =
     [ "~Jacobi", "classug_1_1_jacobi.html#ae05c8bcab61a739079256e946f2b2b1f", null ],
     [ "apply", "classug_1_1_jacobi.html#a48cb97f73b0cd33aa3ca1734b5aa320a", null ],
     [ "clone", "classug_1_1_jacobi.html#af16ba53b276fa8dd62aa9fc32bf1b0a1", null ],
-    [ "name", "classug_1_1_jacobi.html#a1fb9fed639be770bd5c436bcecf3a9b3", null ],
+    [ "name", "classug_1_1_jacobi.html#a4b596435b56c7a7653be830b969418f2", null ],
     [ "postprocess", "classug_1_1_jacobi.html#a0c73bb8361351fc0fe2fb59fbfbd5002", null ],
     [ "preprocess", "classug_1_1_jacobi.html#a21ae9838ef346913df755ecda1b24254", null ],
     [ "set_block", "classug_1_1_jacobi.html#aea86e25cf514607f98961e3ebb1f7686", null ],
     [ "step", "classug_1_1_jacobi.html#a3a990f2bdad4e610b836689766369a43", null ],
-    [ "supports_parallel", "classug_1_1_jacobi.html#ae5c26da2e904f69da2d2798970c1b29c", null ],
+    [ "supports_parallel", "classug_1_1_jacobi.html#aa4fd58f85ac1143ac062f96f10b79e6a", null ],
     [ "m_bBlock", "classug_1_1_jacobi.html#a09ac2b04d0209ee4ffe5808579f93ca8", null ],
     [ "m_diagInv", "classug_1_1_jacobi.html#a98f8bf5099af369fbd829cc15ae0f728", null ]
 ];

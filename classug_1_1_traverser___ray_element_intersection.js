@@ -7,7 +7,7 @@ var classug_1_1_traverser___ray_element_intersection =
     [ "Traverser_RayElementIntersection", "classug_1_1_traverser___ray_element_intersection.html#a05052d5b9fef735ee71a972eca2ec0b6", null ],
     [ "begin_traversal", "classug_1_1_traverser___ray_element_intersection.html#af3eb742d94b4fdc515e5eb1575db6786", null ],
     [ "end_traversal", "classug_1_1_traverser___ray_element_intersection.html#aaeb2631cbf9d86d6d1912bee607ba912", null ],
-    [ "result", "classug_1_1_traverser___ray_element_intersection.html#af8a45dd8f0476ddce7fb32ec276c70e4", null ],
+    [ "result", "classug_1_1_traverser___ray_element_intersection.html#a8997ba3a176a3f60d5d9023d2f973a6c", null ],
     [ "visit_down", "classug_1_1_traverser___ray_element_intersection.html#ac795227c46f25f057db8d1dc3dc36cd6", null ],
     [ "visit_up", "classug_1_1_traverser___ray_element_intersection.html#af28383209074682938e7e51bf8136fda", null ],
     [ "m_intersections", "classug_1_1_traverser___ray_element_intersection.html#ab54a8ae2092b79c1e860c05d063d3e5c", null ],

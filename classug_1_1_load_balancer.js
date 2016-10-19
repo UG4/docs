@@ -12,7 +12,7 @@ var classug_1_1_load_balancer =
     [ "estimate_distribution_quality", "classug_1_1_load_balancer.html#a6c1108199d719c1c76ebda01c8598a85", null ],
     [ "estimate_distribution_quality", "classug_1_1_load_balancer.html#a1ea03fd0772ba2a61270c9ff600415d5", null ],
     [ "estimate_distribution_quality_impl", "classug_1_1_load_balancer.html#a57b4a64c857aa4514e3691d88cc0b711", null ],
-    [ "print_quality_records", "classug_1_1_load_balancer.html#ac96c02bc0dbeddfcbc3c0e4950e17d0b", null ],
+    [ "print_quality_records", "classug_1_1_load_balancer.html#accd181d33df3f77a464f92d3940276d9", null ],
     [ "problems_occurred", "classug_1_1_load_balancer.html#a90a74306e3389c7b3079cc48cf1b17a4", null ],
     [ "rebalance", "classug_1_1_load_balancer.html#aa3f314d03c649e5cd91d9ffb28a23579", null ],
     [ "set_balance_threshold", "classug_1_1_load_balancer.html#a3ca269633c5a97fc4f376eeb368916ba", null ],

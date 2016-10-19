@@ -1,9 +1,9 @@
 var classug_1_1_reference_vertex =
 [
     [ "ReferenceVertex", "classug_1_1_reference_vertex.html#a6960ff7ad116b1574bce03e389c61b5c", null ],
-    [ "dimension", "classug_1_1_reference_vertex.html#a9b0a09e42f4008a0333c2993e8570a71", null ],
-    [ "reference_object_id", "classug_1_1_reference_vertex.html#a408f4fafa45641bbec6486cf1e498730", null ],
-    [ "size", "classug_1_1_reference_vertex.html#acc7a6e8b9bcf966b1220a101474d141a", null ],
+    [ "dimension", "classug_1_1_reference_vertex.html#a73d4729381dd9026f7377780e769e41e", null ],
+    [ "reference_object_id", "classug_1_1_reference_vertex.html#a62203ac52b1cfca91614cdd1e6fdddef", null ],
+    [ "size", "classug_1_1_reference_vertex.html#aec06494525accfad67a05e19fa248c25", null ],
     [ "dim", "classug_1_1_reference_vertex.html#a6941fccc0ed455f1af19f03db65cbbf9", null ],
     [ "numCorners", "classug_1_1_reference_vertex.html#a08050721f3b2177121d645ef7c4714c1", null ],
     [ "numEdges", "classug_1_1_reference_vertex.html#af8cbcaa1e35775097f51c97f31606298", null ],

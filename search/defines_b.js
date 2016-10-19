@@ -1,6 +1,8 @@
 var searchData=
 [
   ['lerp',['LERP',['../tri__box_8cpp.html#af78981389c15d3d3df0b6b3a02ee9dce',1,'tri_box.cpp']]],
+  ['lfa_5fcheck_5fdim',['LFA_CHECK_DIM',['../raster__impl_8hpp.html#a86e37956141e14d535ea817fdad00f0d',1,'raster_impl.hpp']]],
+  ['lfa_5ferr_5fwhere',['LFA_ERR_WHERE',['../raster__impl_8hpp.html#adbe857d06752a0a3d57ea6865197322b',1,'raster_impl.hpp']]],
   ['lg_5fend_5ffor',['lg_end_for',['../lg__for__each_8h.html#ae2a0b1e127e668468b449221039b47e7',1,'lg_for_each.h']]],
   ['lg_5ffor_5feach',['lg_for_each',['../lg__for__each_8h.html#adfd673aeb3e3dc2596e8950162b600bc',1,'lg_for_each.h']]],
   ['lg_5ffor_5feach_5fconst',['lg_for_each_const',['../lg__for__each_8h.html#ac2d756d3796dfb7ab59a7a0283b44595',1,'lg_for_each.h']]],

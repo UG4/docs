@@ -8,10 +8,10 @@ var classug_1_1_math_tensor =
     [ "operator=", "classug_1_1_math_tensor.html#ae33520581c598092633da6d324d38bb6", null ],
     [ "operator=", "classug_1_1_math_tensor.html#aa2e9076c64703d22216153387cf07691", null ],
     [ "operator[]", "classug_1_1_math_tensor.html#a949a7473f793baba89eb61a4a7c9c58a", null ],
-    [ "operator[]", "classug_1_1_math_tensor.html#a2cac6062ebf7bd7c37c43dfd4bab6686", null ],
-    [ "rank", "classug_1_1_math_tensor.html#a3078590346ef2bd7a83449b25867b584", null ],
+    [ "operator[]", "classug_1_1_math_tensor.html#abebd5fe80611104f4d243c798b8ce8a0", null ],
+    [ "rank", "classug_1_1_math_tensor.html#a869e65472bb267da32299061c8701934", null ],
     [ "set", "classug_1_1_math_tensor.html#a77f4f804d7fe6dd097fc8391426f5a2b", null ],
-    [ "size", "classug_1_1_math_tensor.html#ac7a61490182b0877d69824e1bd3c138d", null ],
+    [ "size", "classug_1_1_math_tensor.html#a31501479e534aeab94a7015ec7e31d02", null ],
     [ "Dimension", "classug_1_1_math_tensor.html#ab33a00fa0b00934510bf04d26bb583bd", null ],
     [ "m_data", "classug_1_1_math_tensor.html#a792c96ae024d4486d8dbbc6f28de94df", null ],
     [ "Rank", "classug_1_1_math_tensor.html#ac10a1c675935edb14c1080a65d01550d", null ]

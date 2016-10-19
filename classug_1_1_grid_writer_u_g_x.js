@@ -10,6 +10,7 @@ var classug_1_1_grid_writer_u_g_x =
     [ "add_attachment", "classug_1_1_grid_writer_u_g_x.html#a6fff684237e0776093188d723caf6d53", null ],
     [ "add_elements_to_node", "classug_1_1_grid_writer_u_g_x.html#a568644ffb5e83bf11c626106292616ea", null ],
     [ "add_grid", "classug_1_1_grid_writer_u_g_x.html#af5c5af15f00dbf537a5427435c042291", null ],
+    [ "add_projection_handler", "classug_1_1_grid_writer_u_g_x.html#a842d4b8f8db347832ef9bfa115f85b30", null ],
     [ "add_selector", "classug_1_1_grid_writer_u_g_x.html#a18491f99c01218aeeca8f402b9a7d74f", null ],
     [ "add_subset_attributes", "classug_1_1_grid_writer_u_g_x.html#a35e2c832fd9dade11c31629a0667874c", null ],
     [ "add_subset_handler", "classug_1_1_grid_writer_u_g_x.html#af8de87e30c08cc0401005f9dd612f69b", null ],

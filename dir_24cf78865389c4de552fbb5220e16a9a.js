@@ -3,6 +3,7 @@ var dir_24cf78865389c4de552fbb5220e16a9a =
     [ "algebra_bridge.doxygen", "algebra__bridge_8doxygen.html", null ],
     [ "bridge_mat_vec_operations.h", "bridge__mat__vec__operations_8h.html", "bridge__mat__vec__operations_8h" ],
     [ "common_bridge.cpp", "algebra__bridges_2common__bridge_8cpp.html", "algebra__bridges_2common__bridge_8cpp" ],
+    [ "constrained_linear_iterator_bridge.cpp", "constrained__linear__iterator__bridge_8cpp.html", "constrained__linear__iterator__bridge_8cpp" ],
     [ "domain_dependent_preconditioner_bridge.cpp", "domain__dependent__preconditioner__bridge_8cpp.html", "domain__dependent__preconditioner__bridge_8cpp" ],
     [ "eigensolver_bridge.cpp", "eigensolver__bridge_8cpp.html", "eigensolver__bridge_8cpp" ],
     [ "gpu_bridge.cpp", "gpu__bridge_8cpp.html", "gpu__bridge_8cpp" ],

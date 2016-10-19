@@ -8,7 +8,7 @@ var classug_1_1_debug_writing_object =
     [ "DebugWritingObject", "classug_1_1_debug_writing_object.html#aab4a65529fb049fab5823fa318a1e683", null ],
     [ "~DebugWritingObject", "classug_1_1_debug_writing_object.html#a350d362ef0365f2215b591682d75e458", null ],
     [ "debug_writer", "classug_1_1_debug_writing_object.html#a947b41828b12248936a9bc1e9b7463ae", null ],
-    [ "debug_writer", "classug_1_1_debug_writing_object.html#ad34cd95ff6fd869aa282b65e30f5f04c", null ],
+    [ "debug_writer", "classug_1_1_debug_writing_object.html#a6cea3c323fc2709edef0ebc3d6367136", null ],
     [ "set_debug", "classug_1_1_debug_writing_object.html#a182b95496411d505fcb29b5381419131", null ],
     [ "write_debug", "classug_1_1_debug_writing_object.html#a0ec4e0b8cd9f6da46aeea9adb6eccdeb", null ],
     [ "m_spDebugWriter", "classug_1_1_debug_writing_object.html#a93abf5b82b5f2d560bcf8a307783567e", null ]

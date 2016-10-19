@@ -13,7 +13,7 @@ var classug_1_1_n_l_gauss_seidel_solver =
     [ "NLGaussSeidelSolver", "classug_1_1_n_l_gauss_seidel_solver.html#a1b3188ab30a9025ce4f11b7c5e705153", null ],
     [ "NLGaussSeidelSolver", "classug_1_1_n_l_gauss_seidel_solver.html#afc8babfc13a7f8120b3c211a18b58813", null ],
     [ "apply", "classug_1_1_n_l_gauss_seidel_solver.html#a9a366b01233acc84498bb65f66fde49d", null ],
-    [ "config_string", "classug_1_1_n_l_gauss_seidel_solver.html#a772bede41cb7b4c3b04bd02693d27b97", null ],
+    [ "config_string", "classug_1_1_n_l_gauss_seidel_solver.html#ac06247fac35b94544553906ca4a665f9", null ],
     [ "init", "classug_1_1_n_l_gauss_seidel_solver.html#a1a2f59733d8f87313e9f95ca52c207cb", null ],
     [ "prepare", "classug_1_1_n_l_gauss_seidel_solver.html#a00ce02959c68849b1ef16df001c7be81", null ],
     [ "set_approximation_space", "classug_1_1_n_l_gauss_seidel_solver.html#a0af806a1a113628c63f6479ca28a62e7", null ],

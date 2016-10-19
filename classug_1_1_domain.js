@@ -8,12 +8,14 @@ var classug_1_1_domain =
     [ "subset_handler_type", "group__lib__disc__domain.html#gad95671fee63c92411f3594a049b425ad", null ],
     [ "Domain", "group__lib__disc__domain.html#ga33ea717e5cb1419d212b7f5d0eb695eb", null ],
     [ "~Domain", "group__lib__disc__domain.html#gabfea7e9c73f32d728c331b10b90b4804", null ],
-    [ "get_dim", "group__lib__disc__domain.html#ga0db44c89e0cec39103d6e084fdb9f565", null ],
+    [ "geometry3d", "group__lib__disc__domain.html#ga8fa75c52a20331b3d785563afd4ab15f", null ],
+    [ "get_dim", "group__lib__disc__domain.html#ga3c70d3675dc19b419b8079f5bb9c35d1", null ],
     [ "position_accessor", "group__lib__disc__domain.html#ga9d834a7e9f6abc07a90b8cea07d03c8f", null ],
-    [ "position_accessor", "group__lib__disc__domain.html#gaaad9ab05fff1163a2d76d4238135874e", null ],
+    [ "position_accessor", "group__lib__disc__domain.html#gaa113a12cf00772d83ba9f4f7761f71d3", null ],
     [ "position_attachment", "group__lib__disc__domain.html#ga731702fab190605bce350b422b5e1603", null ],
-    [ "position_attachment", "group__lib__disc__domain.html#gaa09d6ad38a6125002ffaffe81e5003ba", null ],
+    [ "position_attachment", "group__lib__disc__domain.html#ga0e05a85140de4c77f496539ab1d7ec60", null ],
     [ "dim", "group__lib__disc__domain.html#gaade1bc529aade0f7ae20efc0c8b27057", null ],
     [ "m_aaPos", "group__lib__disc__domain.html#gaed56514465837dcc801ffea2f2ae53f4", null ],
-    [ "m_aPos", "group__lib__disc__domain.html#gadfb464254dcef22c09a90a6e06619ac3", null ]
+    [ "m_aPos", "group__lib__disc__domain.html#gadfb464254dcef22c09a90a6e06619ac3", null ],
+    [ "m_geometry3d", "group__lib__disc__domain.html#gacdbbe493eacf478f08944b428d4785e2", null ]
 ];

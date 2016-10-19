@@ -11,7 +11,7 @@ var classug_1_1_hanging_node_refiner_base =
       [ "HNRM_TO_CONSTRAINING", "classug_1_1_hanging_node_refiner_base.html#ae6a781d23bbf38304bea3986bfda54a4af5d28828b7591066a8338f6c87a8d13f", null ],
       [ "HNRM_MAX", "classug_1_1_hanging_node_refiner_base.html#ae6a781d23bbf38304bea3986bfda54a4a2b9ae212d95159db3ec49a6acffca652", null ]
     ] ],
-    [ "HangingNodeRefinerBase", "classug_1_1_hanging_node_refiner_base.html#a7a865cb14ccd9d2573446fd27ace194e", null ],
+    [ "HangingNodeRefinerBase", "classug_1_1_hanging_node_refiner_base.html#a6030f9fe8ab4dbc0417e8f12dbc3c150", null ],
     [ "~HangingNodeRefinerBase", "classug_1_1_hanging_node_refiner_base.html#a1dbdb42cee8b6dcbb1267ef542e18311", null ],
     [ "HangingNodeRefinerBase", "classug_1_1_hanging_node_refiner_base.html#a28317177dbdc405543c8a8b6da7b3d6e", null ],
     [ "add_hmark", "classug_1_1_hanging_node_refiner_base.html#a6ddb2a2ba0cb328d6244477a01ec7450", null ],
@@ -42,6 +42,7 @@ var classug_1_1_hanging_node_refiner_base =
     [ "marked_anisotropic", "classug_1_1_hanging_node_refiner_base.html#a43bfb7b9cfa34d0849033819418b5c4f", null ],
     [ "marked_coarsen", "classug_1_1_hanging_node_refiner_base.html#acb04e33403787df5c69fb608e7634674", null ],
     [ "marked_copy", "classug_1_1_hanging_node_refiner_base.html#ae94de0c105a2c981e4f56b9e75926e18", null ],
+    [ "marked_refine", "classug_1_1_hanging_node_refiner_base.html#a9578a2be44fc75d9e366659369cf2bce", null ],
     [ "marked_refine", "classug_1_1_hanging_node_refiner_base.html#aa7c1208e23c8e60d1ce1c9c5a9ada410", null ],
     [ "marked_regular", "classug_1_1_hanging_node_refiner_base.html#ada8b7f0756790c37f458d62bdfaa3c8b", null ],
     [ "marked_to_constrained", "classug_1_1_hanging_node_refiner_base.html#a91e4355f2942b11f6f2d243e7bcfeb90", null ],

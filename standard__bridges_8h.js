@@ -10,6 +10,8 @@ var standard__bridges_8h =
     [ "RegisterBridge_PCL", "standard__bridges_8h.html#gaf83b797d5d85935b49cf108334cb98bc", null ],
     [ "RegisterBridge_PeriodicBoundary", "standard__bridges_8h.html#ga657f2b59b938624151f43a1d8baeedbe", null ],
     [ "RegisterBridge_Profiler", "standard__bridges_8h.html#gaafc4628883e244e7496eb38d0da6f96a", null ],
+    [ "RegisterBridge_Raster", "standard__bridges_8h.html#gad0f78c2362ac1c3cab7e4ff377fdc91a", null ],
+    [ "RegisterBridge_ReferenceMappingTest", "standard__bridges_8h.html#gac9f911ccbe5e6751b734d881f0288faf", null ],
     [ "RegisterBridge_Refinement", "standard__bridges_8h.html#gafb07aa5000f0acfdae8c9f5b05d4619f", null ],
     [ "RegisterBridge_Selection", "standard__bridges_8h.html#gac49efaf1d65ad3c10d4664f3e519240a", null ],
     [ "RegisterBridge_Test", "standard__bridges_8h.html#ga7cfda7dfde147f558ad427c4ce43b66a", null ],

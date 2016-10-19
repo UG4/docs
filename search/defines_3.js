@@ -12,7 +12,7 @@ var searchData=
   ['connection_5fviewer_5fversion',['CONNECTION_VIEWER_VERSION',['../connection__viewer__output_8h.html#a24535dd216851a9d935a94a4472fcfb8',1,'connection_viewer_output.h']]],
   ['cpu_5ffreq_5fbegin_5fauto_5fend',['CPU_FREQ_BEGIN_AUTO_END',['../profiler_8h.html#ac31d02b2ba7f201cff7cf5e802dbf4b7',1,'profiler.h']]],
   ['cpu_5ffreq_5fend',['CPU_FREQ_END',['../profiler_8h.html#ad922472cbe0da6e4e3d1733473a15163',1,'profiler.h']]],
-  ['cross',['CROSS',['../tri__box_8cpp.html#a536deac15d685e802664b8c175def492',1,'CROSS():&#160;tri_box.cpp'],['../tritri_8cpp.html#abb8992b536a96dbd30a9642a8fcac5ab',1,'CROSS():&#160;tritri.cpp']]],
+  ['cross',['CROSS',['../tri__box_8cpp.html#a536deac15d685e802664b8c175def492',1,'CROSS():&#160;tri_box.cpp'],['../tritri_8cpp.html#a275587ce22080c4c09deb818b1ce3564',1,'CROSS():&#160;tritri.cpp']]],
   ['cuda_5fcheck_5fstatus',['CUDA_CHECK_STATUS',['../cuda__manager_8h.html#aa0458a6fd410903d04f716cced1d6075',1,'cuda_manager.h']]],
   ['cuda_5fcheck_5fsuccess',['CUDA_CHECK_SUCCESS',['../cuda__manager_8h.html#a6dd60dab82b9588eab635fed62ada7b1',1,'cuda_manager.h']]]
 ];

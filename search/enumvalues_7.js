@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['h1_5ferror_5ftype',['H1_ERROR_TYPE',['../classug_1_1_side_and_elem_err_est_data.html#ac2004682b7800c2bf411773323eae175a15005d44c788af4a86ea8731a8512eb4',1,'ug::SideAndElemErrEstData']]],
   ['harwell_5fboing',['HARWELL_BOING',['../classug_1_1_matrix_file_type.html#ad126b94fd6d4a38d98625412e26e43edae4cf95f9bd819c9df53de482acc57b71',1,'ug::MatrixFileType']]],
   ['has_5fparent',['HAS_PARENT',['../namespaceug.html#a5e5bbb984fa69d71c847b774f1bc6f99a16ad339362f628bde26fab5c7cac8a70',1,'ug']]],
   ['hermitian',['HERMITIAN',['../classug_1_1_m_m_type_code.html#a8326ecdcc2dd7e314a0a0252a69c7850a47c6e5b27a86a49a85604d99db7bd936',1,'ug::MMTypeCode']]],

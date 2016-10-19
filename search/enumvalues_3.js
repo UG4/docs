@@ -4,7 +4,6 @@ var searchData=
   ['d_5flayer_5fouter',['D_LAYER_OUTER',['../classug_1_1_degenerated_layer_manager.html#a58d6f9b7a067aff5782b62506e38b00ea18ee4fde146b81d6deafca166e27b2c4',1,'ug::DegeneratedLayerManager']]],
   ['d_5flayer_5funknown',['D_LAYER_UNKNOWN',['../classug_1_1_degenerated_layer_manager.html#a58d6f9b7a067aff5782b62506e38b00ea596d87fde32060dd567439fd11aeb5fd',1,'ug::DegeneratedLayerManager']]],
   ['dart',['DART',['../classug_1_1_delaunay_info.html#a64b5d4bc49515af4e4fa812d2d1110d0ace6cb8f72ce1a73f318157b4bd8b7b9e',1,'ug::DelaunayInfo']]],
-  ['data_5fpath',['DATA_PATH',['../group__ugbase__common__util.html#gga72a67cfeae3e674ed54d159e32af7622a55b0db0c649e7b92c29f8c3e6a3cdaab',1,'ug']]],
   ['debug_5fcontinue',['DEBUG_CONTINUE',['../namespaceug_1_1script.html#a926bb28ce5c33ddcbb373a017038a000a6f5991595b388dda7e29dc5d649738a8',1,'ug::script']]],
   ['debug_5fexit',['DEBUG_EXIT',['../namespaceug_1_1script.html#a926bb28ce5c33ddcbb373a017038a000ac16f29c5a17efac6335220cea5ffb688',1,'ug::script']]],
   ['debug_5ffinish',['DEBUG_FINISH',['../namespaceug_1_1script.html#a926bb28ce5c33ddcbb373a017038a000a45c9cc582c23da0e3f72fd358428a14c',1,'ug::script']]],

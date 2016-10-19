@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['traverser',['Traverser',['../classug_1_1node__tree_1_1_node.html#a4ed369a6ee2b54f1b68897a0e9c859a2',1,'ug::node_tree::Node']]]
+  ['smartptr_3c_20void_20_3e',['SmartPtr&lt; void &gt;',['../class_smart_ptr.html#a4f3c5a597a14d6f9daeb6c32c4e0d6f6',1,'SmartPtr']]],
+  ['surfaceview',['SurfaceView',['../classug_1_1_surface_view_1_1_surface_view_element_iterator.html#a81c4a01e4f57d60c078f9dca58096d98',1,'ug::SurfaceView::SurfaceViewElementIterator::SurfaceView()'],['../classug_1_1_surface_view_1_1_const_surface_view_element_iterator.html#a81c4a01e4f57d60c078f9dca58096d98',1,'ug::SurfaceView::ConstSurfaceViewElementIterator::SurfaceView()']]]
 ];

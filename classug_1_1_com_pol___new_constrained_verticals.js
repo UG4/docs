@@ -6,7 +6,7 @@ var classug_1_1_com_pol___new_constrained_verticals =
     [ "Interface", "classug_1_1_com_pol___new_constrained_verticals.html#aa462a88bece11bf40d62837da1e073a0", null ],
     [ "InterfaceIter", "classug_1_1_com_pol___new_constrained_verticals.html#a5ae7f74ad5c9e85c340910aa36238e63", null ],
     [ "Layout", "classug_1_1_com_pol___new_constrained_verticals.html#a2897d2ce5479f939824eadc60851197f", null ],
-    [ "ComPol_NewConstrainedVerticals", "classug_1_1_com_pol___new_constrained_verticals.html#a8d93e4fdf66eeb8f1657997ea3d233e1", null ],
+    [ "ComPol_NewConstrainedVerticals", "classug_1_1_com_pol___new_constrained_verticals.html#a241be71128e36f0faf293216398a8a87", null ],
     [ "~ComPol_NewConstrainedVerticals", "classug_1_1_com_pol___new_constrained_verticals.html#a77f90d803652f297b7a74df16e4c4064", null ],
     [ "collect", "classug_1_1_com_pol___new_constrained_verticals.html#a4d69234235db0c20e6ab8e4a56aa7895", null ],
     [ "create_initial_hash_entry", "classug_1_1_com_pol___new_constrained_verticals.html#a40d299f86d4bd62937d20d93025a51e9", null ],

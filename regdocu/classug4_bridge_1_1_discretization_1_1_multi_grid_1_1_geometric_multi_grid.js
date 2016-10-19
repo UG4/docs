@@ -1,10 +1,12 @@
 var classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_geometric_multi_grid =
 [
     [ "GeometricMultiGrid", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_geometric_multi_grid.html#a29130b88ab3ad7dc1bc57a396fdde75c", null ],
+    [ "GeometricMultiGrid", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_geometric_multi_grid.html#a55f734fbf2c576578ebe7319cddbe5cd", null ],
     [ "add_prolongation_post_process", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_geometric_multi_grid.html#a8ba15b9da929b2df6c2628a74af4cd6d", null ],
     [ "add_restriction_post_process", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_geometric_multi_grid.html#a1995e435d92c20efaef5d9bd83f87dc9", null ],
     [ "ignore_init_for_base_solver", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_geometric_multi_grid.html#a6e7eef77aff31387614a4aee7e1e5c4b", null ],
-    [ "ignore_init_for_base_solver", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_geometric_multi_grid.html#a1068ca1ca544dca8d132bf954f1c9c70", null ],
+    [ "ignore_init_for_base_solver", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_geometric_multi_grid.html#ae56011f5c81e88420f866fadddbb06be", null ],
+    [ "set_approximation_space", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_geometric_multi_grid.html#a3dc64dc6b40dfec7e9c9d261def31ab6", null ],
     [ "set_base_level", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_geometric_multi_grid.html#a5a64088c2f8dad5398e33de45c7c3bc9", null ],
     [ "set_base_solver", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_geometric_multi_grid.html#a59ee92220a59d940f9455b1a7b76eeaf", null ],
     [ "set_comm_comp_overlap", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_geometric_multi_grid.html#a82babc4139856b751a71e478f1ef1d4d", null ],

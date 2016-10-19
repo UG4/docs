@@ -2,11 +2,11 @@ var debug__util_8h =
 [
     [ "CheckDistributedObjectConstraintTypes", "debug__util_8h.html#gad5615b17dcc9ac76f1e82e2ac221e253", null ],
     [ "CheckDistributedParentTypes", "debug__util_8h.html#ga882a5409e2ae42a5fe46b6cc2c770441", null ],
+    [ "CheckElementConsistency", "debug__util_8h.html#gac6e3c8d0b803095ed0733d951f00092e", null ],
     [ "CheckElementConsistency", "debug__util_8h.html#gaafdf9045ba0e2f83f68e26e49f32be01", null ],
     [ "CheckElementConsistency", "debug__util_8h.html#gad997502b504f3e66a9ba3fa6a7eaa4c3", null ],
-    [ "CheckElementConsistency", "debug__util_8h.html#gac6e3c8d0b803095ed0733d951f00092e", null ],
-    [ "CheckHangingNodeConsistency", "debug__util_8h.html#ga5f86c20d2e67d76714dc02e9fd5f8fee", null ],
     [ "CheckHangingNodeConsistency", "debug__util_8h.html#ga7a626ed1ff8f0a62a94dddf323c25a4f", null ],
+    [ "CheckHangingNodeConsistency", "debug__util_8h.html#ga5f86c20d2e67d76714dc02e9fd5f8fee", null ],
     [ "CheckMultiGridConsistency", "debug__util_8h.html#gaad3df1648911967f3405ceae90f022cb", null ],
     [ "ElementDebugInfo", "debug__util_8h.html#ga7d4cd1db6dab051312ac9561c2481ec9", null ],
     [ "GetGridObjectCenter", "debug__util_8h.html#gafb5821529cb49d3cb6a050ae0e1253ce", null ],

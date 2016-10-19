@@ -13,7 +13,7 @@ var classug_1_1_s_d_i_r_k =
     [ "assemble_linear", "classug_1_1_s_d_i_r_k.html#a5166430edd6442abc07329e78f5aa1b0", null ],
     [ "assemble_rhs", "classug_1_1_s_d_i_r_k.html#a5376820741bc9a0ce6f47a528b796567", null ],
     [ "assemble_rhs", "classug_1_1_s_d_i_r_k.html#a4766ece4ad7a4d71e7a7efca6dbf9999", null ],
-    [ "num_stages", "classug_1_1_s_d_i_r_k.html#aac9b4020a6d15372df4243b23ec007b3", null ],
+    [ "num_stages", "classug_1_1_s_d_i_r_k.html#ae5e8d49686fee8676a4df712528333ea", null ],
     [ "prepare_step", "classug_1_1_s_d_i_r_k.html#a58596b56257e701dc8d9df7594ba66eb", null ],
     [ "set_order", "classug_1_1_s_d_i_r_k.html#ac405595f1ba65736acd1d4b22bfe15c1", null ],
     [ "set_stage", "classug_1_1_s_d_i_r_k.html#a60e64e8bd86078af16349cfff730e620", null ],

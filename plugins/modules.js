@@ -1,9 +1,11 @@
 var modules =
 [
     [ "Plugins", "group__plugins.html", "group__plugins" ],
+    [ "Plugin Template", "group__plugin__template.html", "group__plugin__template" ],
     [ "Apps_ugdocu", "group__apps__ugdocu.html", "group__apps__ugdocu" ],
     [ "DocuGen", "group___docu_gen.html", null ],
     [ "Algebra Bridge", "../group__algebra__bridge.html", null ],
+    [ "Constrained linear iterator bridge", "../group__constr__lin__it__bridge.html", null ],
     [ "Domain Dependend Preconditioner Bridge", "../group__domdepprecond__bridge.html", null ],
     [ "Eigensolver Bridge", "../group__eigensolver__bridge.html", null ],
     [ "Preconditioner Bridge", "../group__precond__bridge.html", "group__precond__bridge" ],

@@ -23,8 +23,8 @@ var subset__util_8cpp =
     [ "GetFirstFreeSubset", "subset__util_8cpp.html#gafdf3c180b8928416bb095d806f35ab14", null ],
     [ "GetSmallestLocalSubsetDimension", "subset__util_8cpp.html#a057255359229c9a160c670a6d3f418d6", null ],
     [ "NbrIsInSubset", "subset__util_8cpp.html#a982fe0e45a2d903a15b96fc5077c298a", null ],
-    [ "SeparateFaceSubsetsByNormal", "subset__util_8cpp.html#ga5b76231c8d53b10ec852d19b7fe66266", null ],
     [ "SeparateFaceSubsetsByNormal", "subset__util_8cpp.html#gab4ff9fcf87ef92ab95ce3f2772c45eb1", null ],
+    [ "SeparateFaceSubsetsByNormal", "subset__util_8cpp.html#ga5b76231c8d53b10ec852d19b7fe66266", null ],
     [ "SeparateRegions", "subset__util_8cpp.html#ga6324c2d9db7c8e072908dd0872f05ceb", null ],
     [ "SplitIrregularManifoldSubset", "subset__util_8cpp.html#ga483667d062ae38ffc2e553f2c0054db1", null ]
 ];

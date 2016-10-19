@@ -10,5 +10,6 @@ var classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_standard_line_search =
     [ "set_maximum_steps", "classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_standard_line_search.html#aa5eb531267ddda897fc68a42dfd25e3f", null ],
     [ "set_offset", "classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_standard_line_search.html#a3a4ceb1bc7ec06a8cd5b5a7615d6fa42", null ],
     [ "set_reduce_factor", "classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_standard_line_search.html#aa44e49125214a8d7ac3dc1a7a882e58e", null ],
+    [ "set_suff_descent_factor", "classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_standard_line_search.html#add435a63cb3c800be6cc0ec673ba3236", null ],
     [ "set_verbose", "classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_standard_line_search.html#a41c1e198516a610bf672cf8d2272c4cc", null ]
 ];

@@ -2,7 +2,7 @@ var prism__rules_8h =
 [
     [ "CollapseEdge", "prism__rules_8h.html#a4e402d1504601e8d1f92a9396fae4200", null ],
     [ "ConvertToTetrahedra", "prism__rules_8h.html#a94eef012e6e9005719dca5e7567f0308", null ],
-    [ "Refine", "prism__rules_8h.html#a20e15f39d1acbc8021452e63706cc3ca", null ],
+    [ "Refine", "prism__rules_8h.html#a57bc08be636f9025945a4e16bdc42ac9", null ],
     [ "BOTTOM_FACE", "prism__rules_8h.html#a01a219154616b8cf03be0fe114798de4", null ],
     [ "EDGE_FROM_VRTS", "prism__rules_8h.html#ac4923532a30bda74b71b10d6e29d4ee3", null ],
     [ "EDGE_VRT_INDS", "prism__rules_8h.html#a69ff49967aaefeb3f20d2c5f5dd0088b", null ],

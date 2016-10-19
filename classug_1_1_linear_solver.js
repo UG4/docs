@@ -7,8 +7,8 @@ var classug_1_1_linear_solver =
     [ "LinearSolver", "classug_1_1_linear_solver.html#a72b9c723bfad256da961e1f8f139ec05", null ],
     [ "apply_return_defect", "classug_1_1_linear_solver.html#a8ff4853c85ab6ef2cb09f07fd614d157", null ],
     [ "compute_correction", "classug_1_1_linear_solver.html#a0ca63ba5d74c338c658fbf0dbf6a9dec", null ],
-    [ "name", "classug_1_1_linear_solver.html#af6cf44ff720c3f6b713e473b021ab566", null ],
+    [ "name", "classug_1_1_linear_solver.html#a10d32215b956e66cba57ebb08791110f", null ],
     [ "prepare_conv_check", "classug_1_1_linear_solver.html#affcd4ee68a0e686c1c78bdd2ec98bf16", null ],
-    [ "supports_parallel", "classug_1_1_linear_solver.html#aea50b74ba0a064f5fab93a4ec6128680", null ],
+    [ "supports_parallel", "classug_1_1_linear_solver.html#a5b199ee89d913c0c64a8ce017a52f976", null ],
     [ "write_debugXCD", "classug_1_1_linear_solver.html#a165136e9760fe4662cd96ffa99471f81", null ]
 ];

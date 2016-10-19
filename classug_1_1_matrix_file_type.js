@@ -7,7 +7,7 @@ var classug_1_1_matrix_file_type =
     ] ],
     [ "MatrixFileType", "classug_1_1_matrix_file_type.html#af4d3ad8c03daa6454bd461910ac42dc9", null ],
     [ "MatrixFileType", "classug_1_1_matrix_file_type.html#ac603e6f828b31b807723c181249a35bb", null ],
-    [ "is_hb", "classug_1_1_matrix_file_type.html#a190d63e26fd58f37c644136bb63d569d", null ],
-    [ "is_mm", "classug_1_1_matrix_file_type.html#aaa1c1af095e5c01bc8237e982ad6f46b", null ],
+    [ "is_hb", "classug_1_1_matrix_file_type.html#a098bb2b98b42044cce3c371d67ec531f", null ],
+    [ "is_mm", "classug_1_1_matrix_file_type.html#a14c5105e32774fd390a57d75d2af2d2a", null ],
     [ "m_type", "classug_1_1_matrix_file_type.html#a594dffb5998c712fdbf6ad42a2ae6420", null ]
 ];

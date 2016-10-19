@@ -9,7 +9,7 @@ var classug_1_1_assembled_operator =
     [ "apply", "classug_1_1_assembled_operator.html#a469e24d794ee16a93ef9ce01e939d548", null ],
     [ "discretization", "classug_1_1_assembled_operator.html#afe1a2e5946e4364b3bbfd08dac1f5285", null ],
     [ "init", "classug_1_1_assembled_operator.html#a9a67ce156ef732b4f1e6276e7a2898c4", null ],
-    [ "level", "classug_1_1_assembled_operator.html#a734d594b75dc5bea0a7c9ecb8265b424", null ],
+    [ "level", "classug_1_1_assembled_operator.html#ae29c52d6c79bbd9f566a6b8d5c8be462", null ],
     [ "prepare", "classug_1_1_assembled_operator.html#a2c1082f0d642214adc34802ba4d48d65", null ],
     [ "set_discretization", "classug_1_1_assembled_operator.html#ab7c5cd401b6fdf3df7c301eb11aa9363", null ],
     [ "set_level", "classug_1_1_assembled_operator.html#aec8389c86479f6928ed8eac266b8d882", null ],

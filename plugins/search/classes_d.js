@@ -15,8 +15,8 @@ var searchData=
   ['neumannboundaryfe',['NeumannBoundaryFE',['../../classug_1_1_neumann_boundary_f_e.html',1,'ug']]],
   ['neumannboundaryfv',['NeumannBoundaryFV',['../../classug_1_1_neumann_boundary_f_v.html',1,'ug']]],
   ['neumannboundaryfv1',['NeumannBoundaryFV1',['../../classug_1_1_neumann_boundary_f_v1.html',1,'ug']]],
-  ['newedgeinfo',['NewEdgeInfo',['../../structug_1_1_h_f_v1_geometry_1_1_new_edge_info.html',1,'ug::HFV1Geometry']]],
   ['newedgeinfo',['NewEdgeInfo',['../../structug_1_1_h_f_v1_manifold_geometry_1_1_new_edge_info.html',1,'ug::HFV1ManifoldGeometry']]],
+  ['newedgeinfo',['NewEdgeInfo',['../../structug_1_1_h_f_v1_geometry_1_1_new_edge_info.html',1,'ug::HFV1Geometry']]],
   ['newedgeinfo',['NewEdgeInfo',['../../structug_1_1_dim_h_f_v1_geometry_1_1_new_edge_info.html',1,'ug::DimHFV1Geometry']]],
   ['newlayoutcreator',['NewLayoutCreator',['../../classug_1_1_new_layout_creator.html',1,'ug']]],
   ['newslavenotification',['NewSlaveNotification',['../../structug_1_1_parallel_nodes_1_1_new_slave_notification.html',1,'ug::ParallelNodes']]],
@@ -52,9 +52,9 @@ var searchData=
   ['ntreegriddata_3c_20dim_20_3e',['NTreeGridData&lt; dim &gt;',['../../classug_1_1_n_tree_grid_data.html',1,'ug']]],
   ['nullsmartptr',['NullSmartPtr',['../../class_null_smart_ptr.html',1,'']]],
   ['numberarray',['NumberArray',['../../classug_1_1vrl_1_1_number_array.html',1,'ug::vrl']]],
-  ['numberdata',['NumberData',['../../structug_1_1_neumann_boundary_f_v1_1_1_number_data.html',1,'ug::NeumannBoundaryFV1']]],
-  ['numberdata',['NumberData',['../../structug_1_1_neumann_boundary_f_v_1_1_number_data.html',1,'ug::NeumannBoundaryFV']]],
-  ['numberdata',['NumberData',['../../structug_1_1_i_obstacle_constraint_1_1_number_data.html',1,'ug::IObstacleConstraint']]],
   ['numberdata',['NumberData',['../../structug_1_1_neumann_boundary_f_e_1_1_number_data.html',1,'ug::NeumannBoundaryFE']]],
+  ['numberdata',['NumberData',['../../structug_1_1_neumann_boundary_f_v1_1_1_number_data.html',1,'ug::NeumannBoundaryFV1']]],
+  ['numberdata',['NumberData',['../../structug_1_1_i_obstacle_constraint_1_1_number_data.html',1,'ug::IObstacleConstraint']]],
+  ['numberdata',['NumberData',['../../structug_1_1_neumann_boundary_f_v_1_1_number_data.html',1,'ug::NeumannBoundaryFV']]],
   ['numberdata',['NumberData',['../../structug_1_1_dirichlet_boundary_1_1_number_data.html',1,'ug::DirichletBoundary']]]
 ];

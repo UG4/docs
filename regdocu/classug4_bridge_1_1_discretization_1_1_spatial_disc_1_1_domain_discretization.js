@@ -17,8 +17,6 @@ var classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_domain_discretizatio
     [ "calc_error", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_domain_discretization.html#af28ca4f2b7879b4a2935f115a501cffe", null ],
     [ "invalidate_error", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_domain_discretization.html#a4528d036c79c9891771f612233de706d", null ],
     [ "is_error_valid", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_domain_discretization.html#ab310bbafba51fc33bf730bb0c4cdfbb9", null ],
-    [ "mark_for_coarsening", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_domain_discretization.html#a4839a0763a347da2af9052eb339a1b99", null ],
-    [ "mark_for_refinement", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_domain_discretization.html#a48fca970a309cf0b20d2b881ddebbdd0", null ],
     [ "mark_with_strategy", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_domain_discretization.html#a101723522b59c67e58e6a4bf8aee7b8b", null ],
     [ "remove", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_domain_discretization.html#a758c152a1fa031f9fb978b04595f3bcf", null ]
 ];

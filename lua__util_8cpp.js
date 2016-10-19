@@ -15,7 +15,7 @@ var lua__util_8cpp =
     [ "RegisterDefaultLuaBridge", "lua__util_8cpp.html#a81114c95c44e3006081768f92fc59d50", null ],
     [ "RegisterStdLUAFunctions", "lua__util_8cpp.html#a3e4559c462802e4b808bc461e8d0fc5c", null ],
     [ "ReleaseDefaultLuaState", "lua__util_8cpp.html#a3e8960127677779ad49436e1511ed442", null ],
-    [ "SetLuaUGArgs", "lua__util_8cpp.html#a59be9742667bba7aac1fed3463e91fa4", null ],
+    [ "SetLuaUGArgs", "lua__util_8cpp.html#a864fdcc0c723aa68d4fc5c1f309bc5b3", null ],
     [ "UGAlgebraCompiled", "lua__util_8cpp.html#a38d64954383275bf534ed7a9db7962e6", null ],
     [ "UGDimCompiled", "lua__util_8cpp.html#afc71b3783fcc4faae81c65d8425c73bd", null ],
     [ "UGGetClassGroup", "lua__util_8cpp.html#adb675eb262c091c44c4b376627641924", null ],

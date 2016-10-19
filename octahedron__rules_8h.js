@@ -1,6 +1,6 @@
 var octahedron__rules_8h =
 [
-    [ "Refine", "octahedron__rules_8h.html#a9e5c3d4cbb9598c0f01e695ac426b9e0", null ],
+    [ "Refine", "octahedron__rules_8h.html#a75b9b75ce0d920bc9c98107916e214ac", null ],
     [ "BOTTOM_VERTEX", "octahedron__rules_8h.html#a38dd68f029f1b7162f73a5dda9c65d9c", null ],
     [ "EDGE_FROM_VRTS", "octahedron__rules_8h.html#a1d8f5d4aa3252baf55c9240d452d194b", null ],
     [ "EDGE_VRT_INDS", "octahedron__rules_8h.html#ae7d2979e29a083b96203eb782fa60665", null ],

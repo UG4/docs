@@ -13,7 +13,7 @@ var searchData=
   ['neumann_5fboundary_5ffv1_2eh',['neumann_boundary_fv1.h',['../neumann__boundary__fv1_8h.html',1,'']]],
   ['new_5fgraph_2eh',['new_graph.h',['../new__graph_8h.html',1,'']]],
   ['new_5flayout_5fcreator_2eh',['new_layout_creator.h',['../new__layout__creator_8h.html',1,'']]],
-  ['new_5ftools_2eh',['new_tools.h',['../../plugins/new__tools_8h.html',1,'']]],
+  ['new_5ftools_2eh',['new_tools.h',['../../plugins/new____tools__8h.html',1,'']]],
   ['newton_2eh',['newton.h',['../newton_8h.html',1,'']]],
   ['newton_5fcotes_2ecpp',['newton_cotes.cpp',['../newton__cotes_8cpp.html',1,'']]],
   ['newton_5fcotes_2eh',['newton_cotes.h',['../newton__cotes_8h.html',1,'']]],

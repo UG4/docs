@@ -7,8 +7,9 @@ var classug_1_1_math_vector =
     [ "MathVector", "classug_1_1_math_vector.html#a05863e31203c15ffde569f4ee67a48f6", null ],
     [ "assign", "classug_1_1_math_vector.html#ae0d3021fc55de17dc71980f4be1e4ceb", null ],
     [ "coord", "classug_1_1_math_vector.html#acbd6441630a8f8505674383f9fa0028e", null ],
-    [ "coord", "classug_1_1_math_vector.html#a6d6a953a8ce12823823b0c29203572b7", null ],
-    [ "operator*", "classug_1_1_math_vector.html#aecbcbfa0f651404148a8f57f3c9f5b14", null ],
+    [ "coord", "classug_1_1_math_vector.html#a965b5709b929e2dbd3280c4d33d4ce59", null ],
+    [ "from", "classug_1_1_math_vector.html#ab590179ddfa30c323ca539416d2f286e", null ],
+    [ "operator*", "classug_1_1_math_vector.html#a6b8830d8445875f84fa03fb56cdde4b5", null ],
     [ "operator*=", "classug_1_1_math_vector.html#a184b0af3b7e0ab5ab50e9bbbaec748a3", null ],
     [ "operator+=", "classug_1_1_math_vector.html#a60378a489530b832094820009dd7ff67", null ],
     [ "operator+=", "classug_1_1_math_vector.html#ab4565eba565010c1c14c010665c64db5", null ],
@@ -18,8 +19,8 @@ var classug_1_1_math_vector =
     [ "operator=", "classug_1_1_math_vector.html#a4a3562758a49d3d1afc1fc22bcda8414", null ],
     [ "operator=", "classug_1_1_math_vector.html#ac0802b0b0c06a50d52c12560dad467a5", null ],
     [ "operator[]", "classug_1_1_math_vector.html#ad0a9de42ceeffa7391bf2b6987a7bddd", null ],
-    [ "operator[]", "classug_1_1_math_vector.html#ad736391b899247fa808c90f64af84cd4", null ],
-    [ "size", "classug_1_1_math_vector.html#ab26ae9cfff8553a3e80ebb3f827c685e", null ],
+    [ "operator[]", "classug_1_1_math_vector.html#ae107cb01eab74d0aeb2ff745514ad786", null ],
+    [ "size", "classug_1_1_math_vector.html#af8577f620c2d37f4422fbf2417d441c5", null ],
     [ "m_data", "classug_1_1_math_vector.html#a24be242bd993d27dc5a51803801a8f46", null ],
     [ "Size", "classug_1_1_math_vector.html#af246c112871f076b6f3d235e8408f509", null ]
 ];

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['how_20to_20build_20ug_20for_20vrl',['How to build UG for VRL',['../pageCompiling_UG4_for_VRL.html',1,'pageUG4Setup']]],
-  ['hermit',['Hermit',['../pageUG4ParallelHermit.html',1,'pageUG4SetupParallel']]],
-  ['how_20to_20build_20ug_20for_20vrl_20for_20windows',['How to build UG for VRL for Windows',['../pageUG4SetupUG_VRL.html',1,'']]]
+  ['how_20to_20build_20ug_20for_20vrl',['How to build UG for VRL',['../page_compiling__u_g4_for__v_r_l.html',1,'pageUG4Setup']]],
+  ['hermit',['Hermit',['../page_u_g4_parallel_hermit.html',1,'pageUG4SetupParallel']]],
+  ['how_20to_20build_20ug_20for_20vrl_20for_20windows',['How to build UG for VRL for Windows',['../page_u_g4_setup_u_g__v_r_l.html',1,'']]]
 ];

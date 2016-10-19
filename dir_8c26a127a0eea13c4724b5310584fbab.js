@@ -9,6 +9,8 @@ var dir_8c26a127a0eea13c4724b5310584fbab =
     [ "assert.cpp", "assert_8cpp.html", "assert_8cpp" ],
     [ "assert.h", "assert_8h.html", "assert_8h" ],
     [ "authors.h", "authors_8h.html", "authors_8h" ],
+    [ "boost_serialization.h", "boost__serialization_8h.html", "boost__serialization_8h" ],
+    [ "boost_serialization_routines.h", "boost__serialization__routines_8h.html", "boost__serialization__routines_8h" ],
     [ "catch_std.h", "catch__std_8h.html", null ],
     [ "common.h", "common_8h.html", "common_8h" ],
     [ "cuthill_mckee.cpp", "common_2cuthill__mckee_8cpp.html", "common_2cuthill__mckee_8cpp" ],

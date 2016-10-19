@@ -1,5 +1,5 @@
 var regular__refinement_8h =
 [
-    [ "Refine", "regular__refinement_8h.html#gaa06f7d644ec43368c730535ea41c9749", null ],
-    [ "Refine", "regular__refinement_8h.html#ga6bb51f279deb017b2668b0151b8e26f5", null ]
+    [ "Refine", "regular__refinement_8h.html#gab98f7a6e7eef37be3d6f18c88c64562e", null ],
+    [ "Refine", "regular__refinement_8h.html#ga513fee55d18afaa35651a60d9fe052bb", null ]
 ];

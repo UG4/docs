@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['globalboundaryrefinementrule',['GlobalBoundaryRefinementRule',['../../namespaceug.html#ae007d420cac486c84b27bd8c7eed8074',1,'ug']]],
   ['globalrefinementrule',['GlobalRefinementRule',['../../namespaceug_1_1tet__rules.html#a76aaa0d3db72d7532893684a989d38ee',1,'ug::tet_rules']]],
   ['gpu_5fstate',['GPU_STATE',['../../classug_1_1_g_p_u_vector.html#af65064c1583668461c563b7b842b74ad',1,'ug::GPUVector']]],
   ['gridbaseobjectid',['GridBaseObjectId',['../../namespaceug.html#aa6080d1386c107c8bd602be84495c13c',1,'ug']]],

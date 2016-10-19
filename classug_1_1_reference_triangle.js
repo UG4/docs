@@ -2,9 +2,9 @@ var classug_1_1_reference_triangle =
 [
     [ "ReferenceTriangle", "classug_1_1_reference_triangle.html#aed5ecaabace9eece634c99ea0c9281ac", null ],
     [ "check_position", "classug_1_1_reference_triangle.html#ab4c27f7ae76ba32f705a289de3d1b808", null ],
-    [ "dimension", "classug_1_1_reference_triangle.html#a29b0f927b2043e483458990fcf80bf9a", null ],
-    [ "reference_object_id", "classug_1_1_reference_triangle.html#a397611a25ca91f494779b379dfd2ab64", null ],
-    [ "size", "classug_1_1_reference_triangle.html#af1a0c70871fbc33bac93d673f30c31da", null ],
+    [ "dimension", "classug_1_1_reference_triangle.html#ae2ecff1a180dbd6f8ad9783d73869e31", null ],
+    [ "reference_object_id", "classug_1_1_reference_triangle.html#a12ae48f3e0853d1a913cb7df59293fd0", null ],
+    [ "size", "classug_1_1_reference_triangle.html#a632ed6f8d586be7181fc2d87d52ea38c", null ],
     [ "dim", "classug_1_1_reference_triangle.html#ac7b280ceab7de9d2d4a1fa59a8cb263d", null ],
     [ "numCorners", "classug_1_1_reference_triangle.html#af6f797580b6e8d76b100e240838b4597", null ],
     [ "numEdges", "classug_1_1_reference_triangle.html#a50b85262b7fe58310ab81b00e1d4eaf8", null ],

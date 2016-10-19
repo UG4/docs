@@ -38,6 +38,7 @@ var classug4_bridge_1_1promesh_1_1_mesh =
     [ "octahedron_subset_end", "classug4_bridge_1_1promesh_1_1_mesh.html#a2daf7256dd0f31146bbc1030468e3bfe", null ],
     [ "pivot", "classug4_bridge_1_1promesh_1_1_mesh.html#a99b0c6726c4000c1456e041e74dad26f", null ],
     [ "position", "classug4_bridge_1_1promesh_1_1_mesh.html#a4f91c4ec804d71782cd7d50719e071cd", null ],
+    [ "position_attachment", "classug4_bridge_1_1promesh_1_1_mesh.html#ab5477ff1e0d6ca787f679288da0a7273", null ],
     [ "prism_begin", "classug4_bridge_1_1promesh_1_1_mesh.html#a7ba06220ec493f4c11311ee8fbe40715", null ],
     [ "prism_end", "classug4_bridge_1_1promesh_1_1_mesh.html#a5696442ea8f7ff393f5f32275804d0e9", null ],
     [ "prism_selection_begin", "classug4_bridge_1_1promesh_1_1_mesh.html#ae8f2409f423d85f13552eaa94f90eebb", null ],

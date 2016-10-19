@@ -3,12 +3,8 @@ var domain__bridges_2refinement__bridge_8cpp =
     [ "AddHorizontalAnisotropyAdjuster", "domain__bridges_2refinement__bridge_8cpp.html#gaad4e9a328c62f412bf8990d5f00565fd", null ],
     [ "CreateAdaptiveRegularDomainRefiner", "domain__bridges_2refinement__bridge_8cpp.html#ga7c91670e8344e926ef8bb206a74ca1e8", null ],
     [ "CreateGlobalFracturedDomainRefiner", "domain__bridges_2refinement__bridge_8cpp.html#ga20e21c87d07e22fcf4f45246aa86ed69", null ],
-    [ "CylinderProjectorFactory", "domain__bridges_2refinement__bridge_8cpp.html#ab098f6e3cb2183051cef7b3168e5cbc0", null ],
-    [ "CylindricalFalloffProjectorFactory", "domain__bridges_2refinement__bridge_8cpp.html#abb60b078e04fd6ec8a54a1385673830c", null ],
-    [ "DomainRefinementProjectionHandler", "domain__bridges_2refinement__bridge_8cpp.html#aacd61234b97fc1efd6e457226e35efa8", null ],
     [ "GlobalDomainRefiner", "domain__bridges_2refinement__bridge_8cpp.html#ga34888b25fa66825e5b89aa176aacabd0", null ],
     [ "HangingNodeDomainRefiner", "domain__bridges_2refinement__bridge_8cpp.html#gad965ceddafeca379ef2695213f555e2e", null ],
-    [ "LinearProjectorFactory", "domain__bridges_2refinement__bridge_8cpp.html#a0abf47c5ee1dbf444f701ef3c7c5dfbd", null ],
     [ "MarkAnisotropic_LongEdges", "domain__bridges_2refinement__bridge_8cpp.html#ga914e0ae696b7298934f79bda9336ace1", null ],
     [ "MarkForAdaption_ElementsContainingPoint", "domain__bridges_2refinement__bridge_8cpp.html#ga529ef75374b032ec8fbbf00862b9997c", null ],
     [ "MarkForAdaption_ElementsTouchingSubset", "domain__bridges_2refinement__bridge_8cpp.html#ga3e5bf6bd7e4eb70710c7cc07accb9aab", null ],
@@ -27,10 +23,7 @@ var domain__bridges_2refinement__bridge_8cpp =
     [ "MarkNeighborsForAnisotropicRefinement", "domain__bridges_2refinement__bridge_8cpp.html#gae36e1caec5e6e9dc737f7931c03dc930", null ],
     [ "MarkNeighborsForFullRefinement", "domain__bridges_2refinement__bridge_8cpp.html#ga4170b03d241ad1f92e40ffa59aabdff9", null ],
     [ "RegisterBridge_Refinement", "domain__bridges_2refinement__bridge_8cpp.html#aa47b6781a638afc25910aabdc196f2cd", null ],
+    [ "SetSmoothSubdivisionVolumesBoundaryRefinementRule", "domain__bridges_2refinement__bridge_8cpp.html#a5444c8365cd41db7880641c74825973b", null ],
     [ "SetTetRefinementRule", "domain__bridges_2refinement__bridge_8cpp.html#ad79f8fee3e2472773499c16a3d0f672f", null ],
-    [ "SphereProjectorFactory", "domain__bridges_2refinement__bridge_8cpp.html#a0fb12c183489caab4138ea355ab67757", null ],
-    [ "SphericalFalloffProjectorFactory", "domain__bridges_2refinement__bridge_8cpp.html#afaf4f08edbc458510b49fa1732270ea2", null ],
-    [ "StdVecToMathVec", "domain__bridges_2refinement__bridge_8cpp.html#a3e3f87c49636c96ba324808622115313", null ],
-    [ "StringToRefinementMark", "domain__bridges_2refinement__bridge_8cpp.html#gaaf6e78c3dc108cd65553e1b2e2ac651f", null ],
-    [ "SubdivisionLoopProjectorFactory", "domain__bridges_2refinement__bridge_8cpp.html#a8c6030db36b44d70ada3a92128f6c3b7", null ]
+    [ "StringToRefinementMark", "domain__bridges_2refinement__bridge_8cpp.html#gaaf6e78c3dc108cd65553e1b2e2ac651f", null ]
 ];

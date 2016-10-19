@@ -21,13 +21,13 @@ var face__util_8h =
     [ "IsBoundaryFace3D", "face__util_8h.html#ga13333d7cf4577f562d1a92d1b3fc4c5e", null ],
     [ "IsDegenerated", "face__util_8h.html#ga07103928668c01fbc9a92a670a9ba9e4", null ],
     [ "IsVolumeBoundaryFace", "face__util_8h.html#gafd8032868d5b1b81c1d0171156ce7acd", null ],
-    [ "IsVolumeBoundaryFace", "face__util_8h.html#ga4e9dfa154c5ab46e2f77c4a48a8ee98c", null ],
     [ "IsVolumeBoundaryFace", "face__util_8h.html#ga6612d9dd1c1ccd191d67a1a1e6718156", null ],
+    [ "IsVolumeBoundaryFace", "face__util_8h.html#ga4e9dfa154c5ab46e2f77c4a48a8ee98c", null ],
     [ "LiesOnBoundary", "face__util_8h.html#ga546524dbafff353c160a8e52acb90260", null ],
     [ "PointFaceTest", "face__util_8h.html#ga9ed3a8995006d786f63e318b7f6c358f", null ],
     [ "ProjectPointToSurface", "face__util_8h.html#gabe4b069038c2eb0c0284efde3a3bd64b", null ],
     [ "TriangleQuality", "face__util_8h.html#gae772e4fd343550a940e172b770faaf1b", null ],
-    [ "Triangulate", "face__util_8h.html#gac5dd5ed95ed5f64fd5d29133769324be", null ],
     [ "Triangulate", "face__util_8h.html#ga5e830eb2ca680c580b9309aa4f9c445e", null ],
+    [ "Triangulate", "face__util_8h.html#gac5dd5ed95ed5f64fd5d29133769324be", null ],
     [ "Triangulate", "face__util_8h.html#ga2b4fdf52742a3186bfd3473b2f028926", null ]
 ];

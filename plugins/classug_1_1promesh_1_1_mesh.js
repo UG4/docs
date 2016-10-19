@@ -30,6 +30,8 @@ var classug_1_1promesh_1_1_mesh =
     [ "create_triangle", "classug_1_1promesh_1_1_mesh.html#a8e000a11050e4951b6a380f523bdf5b3", null ],
     [ "create_vertex", "classug_1_1promesh_1_1_mesh.html#abf295dcacdc5ac7c7ef210239ec7e209", null ],
     [ "end", "classug_1_1promesh_1_1_mesh.html#ae144cec7d642b5fc1b18c99763ba999e", null ],
+    [ "geometry", "classug_1_1promesh_1_1_mesh.html#a3c4eb6831e9216aa6f3e91f91e2b1d61", null ],
+    [ "geometry", "classug_1_1promesh_1_1_mesh.html#a23f0a73dd2fb512cc8bde9725417c668", null ],
     [ "grid", "classug_1_1promesh_1_1_mesh.html#a297f95f1e52bc2cb0f01bdcf938323a0", null ],
     [ "init", "classug_1_1promesh_1_1_mesh.html#ae53c1a5ca4949dc01be2bf93fe1b7b65", null ],
     [ "normal_accessor", "classug_1_1promesh_1_1_mesh.html#add62658c155c4b170b290dc261e50a9f", null ],
@@ -38,6 +40,7 @@ var classug_1_1promesh_1_1_mesh =
     [ "position", "classug_1_1promesh_1_1_mesh.html#a526bc10b179e00142f1f3bdaa4bb8392", null ],
     [ "position_accessor", "classug_1_1promesh_1_1_mesh.html#a08319f26fe4aa59d7c25e943d0f66cf4", null ],
     [ "position_attachment", "classug_1_1promesh_1_1_mesh.html#aa6e43c74ce148742e04ee3257b7f3bfd", null ],
+    [ "projection_handler", "classug_1_1promesh_1_1_mesh.html#a300af29c7eb72170d05ee9d9abd66203", null ],
     [ "selection_begin", "classug_1_1promesh_1_1_mesh.html#ae86fd275f04086d8e777bc6be2555685", null ],
     [ "selection_end", "classug_1_1promesh_1_1_mesh.html#ad1409ed59c8aff84ccf75ea2fd00e5a2", null ],
     [ "selector", "classug_1_1promesh_1_1_mesh.html#af4897e2816512c402e75ea9b89352aa4", null ],
@@ -54,8 +57,10 @@ var classug_1_1promesh_1_1_mesh =
     [ "m_aaVolumeConstraint", "classug_1_1promesh_1_1_mesh.html#a59d68f9cfbf9ec9ca2aaaf45497d803f", null ],
     [ "m_aVolumeConstraint", "classug_1_1promesh_1_1_mesh.html#a414ef6012469293e1342b955ea3c378a", null ],
     [ "m_creaseHandler", "classug_1_1promesh_1_1_mesh.html#a18e77b7810d7981562fec41e781d3fc4", null ],
+    [ "m_geometry", "classug_1_1promesh_1_1_mesh.html#a0fe2cfff2928bec412a46093a705de02", null ],
     [ "m_grid", "classug_1_1promesh_1_1_mesh.html#a051a8eed83664f0e4b966090d3a375dc", null ],
     [ "m_pivot", "classug_1_1promesh_1_1_mesh.html#abe28b5812dfe08b8bee14586b1c34f17", null ],
+    [ "m_projectionHandler", "classug_1_1promesh_1_1_mesh.html#ab59a25f798977f334f4fba6056c649df", null ],
     [ "m_selector", "classug_1_1promesh_1_1_mesh.html#a8ff70b78e1192cc2b7de40726feb60e4", null ],
     [ "m_subsetHandler", "classug_1_1promesh_1_1_mesh.html#a8d7377fc31f108a97b2b5d4792d3212f", null ]
 ];

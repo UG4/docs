@@ -68,5 +68,6 @@ var dir_9d052ea71984eecf228fc5a259e19cfe =
     [ "reference_mapping_provider.h", "reference__mapping__provider_8h.html", [
       [ "DimReferenceMapping", "classug_1_1_dim_reference_mapping.html", "classug_1_1_dim_reference_mapping" ],
       [ "ReferenceMappingProvider", "classug_1_1_reference_mapping_provider.html", "classug_1_1_reference_mapping_provider" ]
-    ] ]
+    ] ],
+    [ "reference_mapping_test.h", "reference__mapping__test_8h.html", "reference__mapping__test_8h" ]
 ];

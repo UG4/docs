@@ -10,7 +10,7 @@ var classug_1_1bridge_1_1_algebra_common_1_1_vec_scale_add_class =
     [ "VecScaleAddClass", "classug_1_1bridge_1_1_algebra_common_1_1_vec_scale_add_class.html#abeb0b32e93c11d2abba3adc142783fe1", null ],
     [ "assign", "classug_1_1bridge_1_1_algebra_common_1_1_vec_scale_add_class.html#a36d97844ae55b5d677cd126b1ca267f2", null ],
     [ "eval", "classug_1_1bridge_1_1_algebra_common_1_1_vec_scale_add_class.html#aab9d52366bdcf5550f11710ebd3e1aee", null ],
-    [ "size", "classug_1_1bridge_1_1_algebra_common_1_1_vec_scale_add_class.html#a80c78596c87d9cd442fe4c28f66c35cf", null ],
+    [ "size", "classug_1_1bridge_1_1_algebra_common_1_1_vec_scale_add_class.html#ae708e70ef286478fd2ae537947c55512", null ],
     [ "scaling", "classug_1_1bridge_1_1_algebra_common_1_1_vec_scale_add_class.html#a4e13d71d9ac01dddadd2c00b6659c291", null ],
     [ "vecs", "classug_1_1bridge_1_1_algebra_common_1_1_vec_scale_add_class.html#a0a796e3c9797aa4fbf07b83913972703", null ]
 ];

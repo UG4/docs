@@ -29,8 +29,9 @@ var classug_1_1_f_v1_inner_boundary_elem_disc =
     [ "prepare_setting", "classug_1_1_f_v1_inner_boundary_elem_disc.html#a9a878cdf3b4359517c0293e66b67d81b", null ],
     [ "register_all_fv1_funcs", "classug_1_1_f_v1_inner_boundary_elem_disc.html#adcd1aceb190e78bd735c4d6642fab8d3", null ],
     [ "register_fv1_func", "classug_1_1_f_v1_inner_boundary_elem_disc.html#a2053e3f9bee977ecf14876a71b47a0b5", null ],
-    [ "use_hanging", "classug_1_1_f_v1_inner_boundary_elem_disc.html#a28e47d51ca596feeac70ee6682d27a81", null ],
+    [ "use_hanging", "classug_1_1_f_v1_inner_boundary_elem_disc.html#a2a89493f3d3d3c708469a6f67d5785d7", null ],
     [ "dim", "classug_1_1_f_v1_inner_boundary_elem_disc.html#aea5991c0a933eaa2c30778ab38d84011", null ],
+    [ "m_bCurrElemIsHSlave", "classug_1_1_f_v1_inner_boundary_elem_disc.html#af6b5a3c567789eb92a981faa7d573e3c", null ],
     [ "m_bNonRegularGrid", "classug_1_1_f_v1_inner_boundary_elem_disc.html#a2b3c94e7350de34f2f55b244797f3690", null ],
     [ "m_shapeValues", "classug_1_1_f_v1_inner_boundary_elem_disc.html#ab6a45187272f17d3da7689b08d255fe3", null ]
 ];

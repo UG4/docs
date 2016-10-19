@@ -18,8 +18,7 @@ var NAVTREE =
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", "namespacemembers_dup" ],
         [ "Functions", "namespacemembers_func.html", "namespacemembers_func" ],
-        [ "Variables", "namespacemembers_vars.html", "namespacemembers_vars" ],
-        [ "Typedefs", "namespacemembers_type.html", null ],
+        [ "Variables", "namespacemembers_vars.html", null ],
         [ "Enumerations", "namespacemembers_enum.html", null ],
         [ "Enumerator", "namespacemembers_eval.html", null ]
       ] ]
@@ -49,20 +48,20 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../apps/group__apps.html",
-"classug_1_1_docu_gen_1_1_cpp_generator.html#ad2421d4254232da1dab29029ae06da7e",
-"classug_1_1promesh_1_1_mesh_object.html#a2b5ebeb5c5be3399759ccded32999a9f",
-"globals_defs_t.html",
-"group__lib__disc__assemble.html",
-"group__lib__grid__algorithms__neighborhood__util.html#ga18acefb0e553b59d54897a6e3abbf4e7",
-"group__lib__grid__algorithms__volume__calculation.html#ga144baee103c4b95916c8e812e00bb0a4",
-"group__multigrid__bridge.html",
-"group__promesh.html#ga97ac0151c1788fabae6c9b7b811a160b",
-"group__small__strain__mechanics.html#ga6bf58d330b85d220cb19d3d04ce3b44a",
-"group__ugbase__common__io.html#ga3d8e61f5606455d39852563501b783d1",
-"group__util__bridge.html#gacd40307966e11e8925f980a1044bc9e3",
-"namespaceug_1_1_small_strain_mechanics.html",
-"structug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1_1_1_shape_values.html#ab99bb7155a56f4b78e9fe31736f71497",
-"ugdocu__misc_8cpp.html#ga71ca76ebb60234eade9d4252d55e9598"
+"classug_1_1_docu_gen_1_1_cpp_generator.html#ab2c95e4db883db25e7e678fe0d58e196",
+"classug_1_1promesh_1_1_mesh.html#ad1409ed59c8aff84ccf75ea2fd00e5a2",
+"functions_k.html",
+"group__lib__algebra__parallelization.html#gad2e106a1a11b3d94250becdabf196f65",
+"group__lib__grid__algorithms__grid__generation.html#ga858e041729edbcf360b9a5c0ee8999c4",
+"group__lib__grid__algorithms__vertex__util.html#ga48792c2aba7f3a2a37275b90b9ac8b9d",
+"group__misc__bridge.html#ga2e3d09a57d4d391a2cd6e38464f70abc",
+"group__promesh.html#ga6c29368dfe49bbd573c570a6d8b92699",
+"group__small__strain__mechanics.html#ga425548c7b0fe054612f37d1f3a4826b6",
+"group__ugbase__common.html#gad2d486c46c1d42de439861456691ba13",
+"group__ugbase__mathutil.html#gaf47a43cc8cfcd47929eb7622c612d306",
+"namespaceug_1_1_template_plugin.html",
+"structug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_e_1_1_shape_values.html#aab1a2120770bb3c26157d4cf4abf9fe3",
+"ugdocu_8css_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

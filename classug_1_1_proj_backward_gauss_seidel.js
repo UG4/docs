@@ -7,6 +7,6 @@ var classug_1_1_proj_backward_gauss_seidel =
     [ "ProjBackwardGaussSeidel", "classug_1_1_proj_backward_gauss_seidel.html#aa6cc4aacdb765cea8812c4804f837d57", null ],
     [ "ProjBackwardGaussSeidel", "classug_1_1_proj_backward_gauss_seidel.html#a3f08ec58a530cf24434fc5d7248f1c21", null ],
     [ "clone", "classug_1_1_proj_backward_gauss_seidel.html#a4bd86c747974d64a2cb5421d6bd8fbb4", null ],
-    [ "name", "classug_1_1_proj_backward_gauss_seidel.html#ade1383238927512a6d019c767171ae2c", null ],
+    [ "name", "classug_1_1_proj_backward_gauss_seidel.html#a70cfc727ca7a5ceb41cc835da4da6018", null ],
     [ "step", "classug_1_1_proj_backward_gauss_seidel.html#ae148d8baaa8b2c2ca38b552a346c7bac", null ]
 ];

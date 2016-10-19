@@ -15,14 +15,14 @@ var group__lib__algebra__parallelization__scheme =
     [ "StdArrayCommunicationScheme", "classug_1_1_std_array_communication_scheme.html", [
       [ "value_type", "classug_1_1_std_array_communication_scheme.html#a230931c89be0a071e14ae9995897341f", null ],
       [ "StdArrayCommunicationScheme", "classug_1_1_std_array_communication_scheme.html#a0b994a4fb9a183664593ca4e752ec8ad", null ],
-      [ "get_element_size", "classug_1_1_std_array_communication_scheme.html#a005324fe161e490a01434a10a965e0e0", null ],
+      [ "get_element_size", "classug_1_1_std_array_communication_scheme.html#a2a6167bc9b4c27dd5c48cb1754644842", null ],
       [ "receive", "classug_1_1_std_array_communication_scheme.html#ab6f8a50960aa94e0f340401a79777e2e", null ],
-      [ "send", "classug_1_1_std_array_communication_scheme.html#a0ad35229a7332a1958435162b09c183f", null ],
+      [ "send", "classug_1_1_std_array_communication_scheme.html#a6bba86eee70b456036bc6056e216f5d8", null ],
       [ "m_arr", "classug_1_1_std_array_communication_scheme.html#a8ad1362ca0cd24992c3e0a03adeaac43", null ]
     ] ],
-    [ "CommunicateFromMasterToSlave", "../plugins/group__lib__algebra__parallelization__scheme.html#ga761ce80ce29deb69a70360ca1f3d381f", null ],
-    [ "CommunicateFromSlaveToMaster", "../plugins/group__lib__algebra__parallelization__scheme.html#gae5f16581d3034f11058a6e0162875986", null ],
-    [ "CommunicateOnInterfaces", "../plugins/group__lib__algebra__parallelization__scheme.html#ga42fc159ebc025f6ed82a10d411e98980", null ],
-    [ "ReceiveOnInterfaces", "../plugins/group__lib__algebra__parallelization__scheme.html#ga5aad3f86e8a9e2c70b0968a6d5124b78", null ],
-    [ "SendOnInterfaces", "../plugins/group__lib__algebra__parallelization__scheme.html#ga18f49154cc1a2df44d3f3a05f7fe4553", null ]
+    [ "CommunicateFromMasterToSlave", "group__lib__algebra__parallelization__scheme.html#ga761ce80ce29deb69a70360ca1f3d381f", null ],
+    [ "CommunicateFromSlaveToMaster", "group__lib__algebra__parallelization__scheme.html#gae5f16581d3034f11058a6e0162875986", null ],
+    [ "CommunicateOnInterfaces", "group__lib__algebra__parallelization__scheme.html#ga42fc159ebc025f6ed82a10d411e98980", null ],
+    [ "ReceiveOnInterfaces", "group__lib__algebra__parallelization__scheme.html#ga5aad3f86e8a9e2c70b0968a6d5124b78", null ],
+    [ "SendOnInterfaces", "group__lib__algebra__parallelization__scheme.html#ga18f49154cc1a2df44d3f3a05f7fe4553", null ]
 ];

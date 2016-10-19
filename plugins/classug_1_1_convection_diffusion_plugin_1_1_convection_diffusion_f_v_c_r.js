@@ -27,7 +27,7 @@ var classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v_c_r =
     [ "register_all_funcs", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v_c_r.html#a0e6da0c90b9b921094689fe7dc467231", null ],
     [ "register_func", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v_c_r.html#af5ea507032ca4dba7cfae3cb0c637ad7", null ],
     [ "set_upwind", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v_c_r.html#a965a6d32239a047dd36b56f94f2c7e5c", null ],
-    [ "use_hanging", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v_c_r.html#a2eb07e377d7fe0d930f1a6203cbce332", null ],
+    [ "use_hanging", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v_c_r.html#a757154bf758fdd9f9926cfd1f9be1eef", null ],
     [ "_C_", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v_c_r.html#a4d68e6bdfdd1e8b9de04c86149563921", null ],
     [ "dim", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v_c_r.html#ad1e34f5b75b9cc5a0d92a397bf64309c", null ],
     [ "m_bNonRegularGrid", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v_c_r.html#adb4f3d502120a1b5387837f6f6bff0b8", null ],

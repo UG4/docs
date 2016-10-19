@@ -2,9 +2,9 @@ var classug_1_1_reference_hexahedron =
 [
     [ "ReferenceHexahedron", "classug_1_1_reference_hexahedron.html#a4014f8a771313826246e9af95834dae5", null ],
     [ "check_position", "classug_1_1_reference_hexahedron.html#a71a8516af9aa918fbc7677cb4038d085", null ],
-    [ "dimension", "classug_1_1_reference_hexahedron.html#ad4e5472d1c25b21cb1898c9e731705a5", null ],
-    [ "reference_object_id", "classug_1_1_reference_hexahedron.html#a4293816b71c6ab8398451e549ca503cf", null ],
-    [ "size", "classug_1_1_reference_hexahedron.html#a41f2e075d6bd9ac72772f5fc14c01a1c", null ],
+    [ "dimension", "classug_1_1_reference_hexahedron.html#a2bb7ed890fd49bdd001ae047ba7cd273", null ],
+    [ "reference_object_id", "classug_1_1_reference_hexahedron.html#a1aaeda262d34c6d0e9df2369a4369a63", null ],
+    [ "size", "classug_1_1_reference_hexahedron.html#a8e14eea688aee6e59f7e89b565147977", null ],
     [ "dim", "classug_1_1_reference_hexahedron.html#a0ab5e080b9792e7a5ad24ef6d3e05dc9", null ],
     [ "numCorners", "classug_1_1_reference_hexahedron.html#ad1499663132693673d488b31b5094add", null ],
     [ "numEdges", "classug_1_1_reference_hexahedron.html#ad15bfa026a440aa18d391b9966cad97c", null ],

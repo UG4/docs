@@ -1,6 +1,6 @@
 var classug_1_1_t_parallel_global_refiner =
 [
-    [ "TParallelGlobalRefiner", "classug_1_1_t_parallel_global_refiner.html#affa3b26b8602357ce62e3d036e5c3c61", null ],
+    [ "TParallelGlobalRefiner", "classug_1_1_t_parallel_global_refiner.html#a689e74f96cc344bee43b443348fce2da", null ],
     [ "~TParallelGlobalRefiner", "classug_1_1_t_parallel_global_refiner.html#a7b4799dedc8011ed8ad8d321671e1f24", null ],
     [ "refinement_is_allowed", "classug_1_1_t_parallel_global_refiner.html#aca57720c3632e318301d5f35ced8322d", null ],
     [ "refinement_is_allowed", "classug_1_1_t_parallel_global_refiner.html#ad2c7f864fa252f2954acd0a248d63eb4", null ],

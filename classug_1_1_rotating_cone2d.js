@@ -1,7 +1,7 @@
 var classug_1_1_rotating_cone2d =
 [
     [ "RotatingCone2d", "classug_1_1_rotating_cone2d.html#ada214a0635a6f466dbb589ee960a842f", null ],
-    [ "evaluate", "classug_1_1_rotating_cone2d.html#ad6fd7210e3333fa49cef2c7376dc7e6d", null ],
+    [ "evaluate", "classug_1_1_rotating_cone2d.html#a6070025ccbe9025b8793af881bed8eb5", null ],
     [ "ax", "classug_1_1_rotating_cone2d.html#a648392bc0dfdec166ad05ce461402eff", null ],
     [ "ay", "classug_1_1_rotating_cone2d.html#a5a2b040b71f87785f66e0c5e941fa70e", null ],
     [ "cx", "classug_1_1_rotating_cone2d.html#aeb8cbc50c34506baf918b405fd1c5bdc", null ],

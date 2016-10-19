@@ -45,6 +45,7 @@ var searchData=
   ['distributed_5fgrid_5fimpl_2ehpp',['distributed_grid_impl.hpp',['../distributed__grid__impl_8hpp.html',1,'']]],
   ['distribution_2ecpp',['distribution.cpp',['../distribution_8cpp.html',1,'']]],
   ['distribution_2eh',['distribution.h',['../distribution_8h.html',1,'']]],
+  ['distro_5fadjuster_2eh',['distro_adjuster.h',['../distro__adjuster_8h.html',1,'']]],
   ['dof_5fcount_2ecpp',['dof_count.cpp',['../dof__count_8cpp.html',1,'']]],
   ['dof_5fcount_2eh',['dof_count.h',['../dof__count_8h.html',1,'']]],
   ['dof_5fdistribution_2ecpp',['dof_distribution.cpp',['../dof__distribution_8cpp.html',1,'']]],

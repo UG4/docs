@@ -12,7 +12,7 @@ var classug_1_1_local_schur_complement =
     [ "get_total_itercnt_of_inner_solvers", "classug_1_1_local_schur_complement.html#a3134c2acd6a1e0ea43d1532607168f43", null ],
     [ "init", "classug_1_1_local_schur_complement.html#a0ae2338baefd057c8e15e62cac91c68d", null ],
     [ "init", "classug_1_1_local_schur_complement.html#ac4935df507c68796543ab97f51fd76e4", null ],
-    [ "name", "classug_1_1_local_schur_complement.html#a05862cabef3565aaba2cb881452ddff2", null ],
+    [ "name", "classug_1_1_local_schur_complement.html#a70fa434f0a516a2c9e984ff96745e2af", null ],
     [ "print_statistic_of_inner_solver", "classug_1_1_local_schur_complement.html#a61f76c9a2b2bc254fbc54eadd60f70fe", null ],
     [ "set_dirichlet_solver", "classug_1_1_local_schur_complement.html#ae0b0c19755f6eae333d7b2295f902e33", null ],
     [ "set_feti_layouts", "classug_1_1_local_schur_complement.html#ac327b841a5dc8ee4da50c10d4260e90d", null ],

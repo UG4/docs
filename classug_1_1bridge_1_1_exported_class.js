@@ -8,9 +8,9 @@ var classug_1_1bridge_1_1_exported_class =
     [ "add_constructor", "classug_1_1bridge_1_1_exported_class.html#a8939ac73d88c100e5c67aeeb8a1d0dc2", null ],
     [ "add_constructor", "classug_1_1bridge_1_1_exported_class.html#a8ee2db42f0650dc55cffa3b5c58e34d1", null ],
     [ "add_method", "classug_1_1bridge_1_1_exported_class.html#a35f72702a3d9797343465df59d7947fa", null ],
-    [ "class_name_node", "classug_1_1bridge_1_1_exported_class.html#ae11319a744c938a2e8662e60914ac41b", null ],
-    [ "class_names", "classug_1_1bridge_1_1_exported_class.html#a1571be0c1c200de21be13fa915cc1a7e", null ],
-    [ "get_delete_function", "classug_1_1bridge_1_1_exported_class.html#a648ca08e55583da027cdaaf0e56020f0", null ],
-    [ "group", "classug_1_1bridge_1_1_exported_class.html#a2720cef02c39519bd822caa52eeda52d", null ],
-    [ "name", "classug_1_1bridge_1_1_exported_class.html#a75e8f21bb1d9d071c0b09e4f647dc401", null ]
+    [ "class_name_node", "classug_1_1bridge_1_1_exported_class.html#a845d32844309c26c56ab4c89b37a0104", null ],
+    [ "class_names", "classug_1_1bridge_1_1_exported_class.html#afea2f998f19cc6fe0e9fe35bd3b15ab0", null ],
+    [ "get_delete_function", "classug_1_1bridge_1_1_exported_class.html#a469964b47e018162777b7f5565e39c9a", null ],
+    [ "group", "classug_1_1bridge_1_1_exported_class.html#a7037669062b95a6d5b55aed0561edb5b", null ],
+    [ "name", "classug_1_1bridge_1_1_exported_class.html#a557fecc304d901ff2a75146ea8a8d0ad", null ]
 ];

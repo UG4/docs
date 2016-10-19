@@ -10,7 +10,6 @@ var namespaceug4_bridge =
     [ "Periodic", "namespaceug4_bridge_1_1_periodic.html", "namespaceug4_bridge_1_1_periodic" ],
     [ "promesh", "namespaceug4_bridge_1_1promesh.html", "namespaceug4_bridge_1_1promesh" ],
     [ "RayTracing", "namespaceug4_bridge_1_1_ray_tracing.html", "namespaceug4_bridge_1_1_ray_tracing" ],
-    [ "Refinement", "namespaceug4_bridge_1_1_refinement.html", "namespaceug4_bridge_1_1_refinement" ],
     [ "SpatialDisc", "namespaceug4_bridge_1_1_spatial_disc.html", "namespaceug4_bridge_1_1_spatial_disc" ],
     [ "Util", "namespaceug4_bridge_1_1_util.html", "namespaceug4_bridge_1_1_util" ],
     [ "APosition1", "classug4_bridge_1_1_a_position1.html", "classug4_bridge_1_1_a_position1" ],
@@ -37,5 +36,6 @@ var namespaceug4_bridge =
     [ "LuaUserMatrix", "classug4_bridge_1_1_lua_user_matrix.html", "classug4_bridge_1_1_lua_user_matrix" ],
     [ "LuaUserNumber", "classug4_bridge_1_1_lua_user_number.html", "classug4_bridge_1_1_lua_user_number" ],
     [ "LuaUserNumberNumberFunction", "classug4_bridge_1_1_lua_user_number_number_function.html", "classug4_bridge_1_1_lua_user_number_number_function" ],
-    [ "LuaUserVector", "classug4_bridge_1_1_lua_user_vector.html", "classug4_bridge_1_1_lua_user_vector" ]
+    [ "LuaUserVector", "classug4_bridge_1_1_lua_user_vector.html", "classug4_bridge_1_1_lua_user_vector" ],
+    [ "NumberRaster", "classug4_bridge_1_1_number_raster.html", "classug4_bridge_1_1_number_raster" ]
 ];

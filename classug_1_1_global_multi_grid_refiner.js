@@ -1,12 +1,12 @@
 var classug_1_1_global_multi_grid_refiner =
 [
-    [ "GlobalMultiGridRefiner", "classug_1_1_global_multi_grid_refiner.html#a31a9152c02d300295ad1aae909c37314", null ],
-    [ "GlobalMultiGridRefiner", "classug_1_1_global_multi_grid_refiner.html#a762bc1fffd261d29a18d0e7694bd624b", null ],
+    [ "GlobalMultiGridRefiner", "classug_1_1_global_multi_grid_refiner.html#a19fe9b11bebf9116ab6cfe4fa1639a13", null ],
+    [ "GlobalMultiGridRefiner", "classug_1_1_global_multi_grid_refiner.html#a9c43c9918c031ce7d72064e0f9ea514e", null ],
     [ "~GlobalMultiGridRefiner", "classug_1_1_global_multi_grid_refiner.html#a42b12ab159830f13da88c231818d89e5", null ],
-    [ "adaptivity_supported", "classug_1_1_global_multi_grid_refiner.html#ab2b5aa7ac1844cd8747acb180235f0c7", null ],
+    [ "adaptivity_supported", "classug_1_1_global_multi_grid_refiner.html#ab387f87cb508759bc89451321e5a9d38", null ],
     [ "assign_grid", "classug_1_1_global_multi_grid_refiner.html#a2c9c47584dd4a0148145c8ff66977cd8", null ],
     [ "assign_grid", "classug_1_1_global_multi_grid_refiner.html#abab773003fe989b070c95b82ed13bb41", null ],
-    [ "coarsening_supported", "classug_1_1_global_multi_grid_refiner.html#ad432a795bf9d7c8cc8cdf3335acfdfce", null ],
+    [ "coarsening_supported", "classug_1_1_global_multi_grid_refiner.html#a432c520dbe8c4bb82edf6204dc164e00", null ],
     [ "get_associated_grid", "classug_1_1_global_multi_grid_refiner.html#a3e9c903cea2de0d904e23011f7bbeca0", null ],
     [ "grid", "classug_1_1_global_multi_grid_refiner.html#ae06239bd80907477f4cab700dbd1bb50", null ],
     [ "grid_to_be_destroyed", "classug_1_1_global_multi_grid_refiner.html#a8d62e7b9729fb6cf5d98448be2b85386", null ],

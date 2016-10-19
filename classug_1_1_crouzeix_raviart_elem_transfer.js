@@ -6,7 +6,7 @@ var classug_1_1_crouzeix_raviart_elem_transfer =
     [ "perform_restriction_on", "classug_1_1_crouzeix_raviart_elem_transfer.html#a5a0d652292c479b2f5abc16eedd3c7a2", null ],
     [ "prolongate", "classug_1_1_crouzeix_raviart_elem_transfer.html#a88507c9885606e7ab62eb0c81e22a234", null ],
     [ "prolongate", "classug_1_1_crouzeix_raviart_elem_transfer.html#afe6492a71a132e4b1b95d324f3ee3bfd", null ],
-    [ "prolongate", "classug_1_1_crouzeix_raviart_elem_transfer.html#a64ee706c2594fa3a6db99dda173ef1e3", null ],
+    [ "prolongate", "classug_1_1_crouzeix_raviart_elem_transfer.html#a61a3fd3ea73a629c4a9f4e8220fa0bf5", null ],
     [ "dim", "classug_1_1_crouzeix_raviart_elem_transfer.html#ad981bb163f3ea55d86d42105b8524443", null ],
     [ "m_lfeid", "classug_1_1_crouzeix_raviart_elem_transfer.html#a8b17285795112f4310dd626913e96f85", null ]
 ];

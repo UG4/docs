@@ -15,7 +15,7 @@ var classug_1_1_i_preconditioner =
     [ "init", "classug_1_1_i_preconditioner.html#ab270850ca0aff285fc7123e0910cd3a0", null ],
     [ "init", "classug_1_1_i_preconditioner.html#ac836667be5390f005d148763c78a6eec", null ],
     [ "init", "classug_1_1_i_preconditioner.html#a73bbe67968231650d9c66393f89dc458", null ],
-    [ "name", "classug_1_1_i_preconditioner.html#a59fac6e3048531abdadf438b468a76e1", null ],
+    [ "name", "classug_1_1_i_preconditioner.html#a5cca7259fe1f277f8136c88cedcea482", null ],
     [ "postprocess", "classug_1_1_i_preconditioner.html#a4be40dd9fe7b509e7176d6d8145e1128", null ],
     [ "preprocess", "classug_1_1_i_preconditioner.html#aa775369ea894dbe3f59f7cac7cf6a836", null ],
     [ "set_approximation", "classug_1_1_i_preconditioner.html#aa9c0be1ae03b34f018dd09ce5d311272", null ],

@@ -2,9 +2,9 @@ var classug_1_1_darcy_velocity_linker =
 [
     [ "base_type", "classug_1_1_darcy_velocity_linker.html#ab38dee3dd2d2ce379418fbc5739626f5", null ],
     [ "DarcyVelocityLinker", "classug_1_1_darcy_velocity_linker.html#aee1d5b2b339f4f00dfbbeeb22fdde418", null ],
-    [ "eval_and_deriv", "classug_1_1_darcy_velocity_linker.html#a5641467fd4b23d1e2bd56eea9893d8f2", null ],
-    [ "evaluate", "classug_1_1_darcy_velocity_linker.html#a4d35b8bb8291a7cc2869cd4ab85bcc29", null ],
-    [ "evaluate", "classug_1_1_darcy_velocity_linker.html#add07de2c9617e1808e75553c6b4c879b", null ],
+    [ "eval_and_deriv", "classug_1_1_darcy_velocity_linker.html#adcaf482d2d82979e2d7e93824a593fb2", null ],
+    [ "evaluate", "classug_1_1_darcy_velocity_linker.html#a72195fb41329f5a1a241af68016cacf9", null ],
+    [ "evaluate", "classug_1_1_darcy_velocity_linker.html#a46733be1b14aac9ad8dd173903ce2bb9", null ],
     [ "set_density", "classug_1_1_darcy_velocity_linker.html#add78a603a0b47c1388562eb62c27ae3d", null ],
     [ "set_density", "classug_1_1_darcy_velocity_linker.html#a09be7ec0341df07a62f98793a0a16419", null ],
     [ "set_gravity", "classug_1_1_darcy_velocity_linker.html#ac2dc6c84836cebd2831bf060d100ff22", null ],

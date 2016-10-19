@@ -19,7 +19,7 @@ var classug_1_1_neumann_boundary_base =
     [ "add_inner_subsets", "classug_1_1_neumann_boundary_base.html#ad5b0a3bc6c42a55b78722f1cf5874faa", null ],
     [ "add_jac_A_elem", "classug_1_1_neumann_boundary_base.html#a1ece10ebcf674c2bb98c03b97326cd48", null ],
     [ "add_jac_M_elem", "classug_1_1_neumann_boundary_base.html#ae686084dbf3c19b2d77aa1fea142f6ba", null ],
-    [ "type", "classug_1_1_neumann_boundary_base.html#a3cb51cd61666c83840827f1271142a76", null ],
+    [ "type", "classug_1_1_neumann_boundary_base.html#a913968dcc696b5591ffbcec126763d05", null ],
     [ "update_subset_groups", "classug_1_1_neumann_boundary_base.html#ac99c8670184429f2ff1746be50bc45b5", null ],
     [ "dim", "classug_1_1_neumann_boundary_base.html#a8786ed267f166699df4096d22da40ba8", null ]
 ];

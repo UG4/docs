@@ -1,5 +1,8 @@
 var dir_56e2ae5e1f636b1619b1af0757b00c03 =
 [
+    [ "constrained_linear_iterator.h", "constrained__linear__iterator_8h.html", [
+      [ "ConstrainedLinearIterator", "classug_1_1_constrained_linear_iterator.html", "classug_1_1_constrained_linear_iterator" ]
+    ] ],
     [ "linear_iterator.h", "linear__iterator_8h.html", [
       [ "ILinearIterator", "classug_1_1_i_linear_iterator.html", "classug_1_1_i_linear_iterator" ]
     ] ],

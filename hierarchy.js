@@ -1,6 +1,7 @@
 var hierarchy =
 [
     [ "ug::AABox< vector_t >", "structug_1_1_a_a_box.html", null ],
+    [ "ug::AABox< ug::MathVector< dim > >", "structug_1_1_a_a_box.html", null ],
     [ "ug::ActiveSet< TDomain, TAlgebra >", "classug_1_1_active_set.html", null ],
     [ "ug::AdjustEdgeLengthDesc", "structug_1_1_adjust_edge_length_desc.html", null ],
     [ "ug::AlgebraicConnection< T >", "classug_1_1_algebraic_connection.html", null ],
@@ -13,9 +14,10 @@ var hierarchy =
     [ "ug::AlphaMat_Expression< R >", "classug_1_1_alpha_mat___expression.html", null ],
     [ "ug::element_list_traits< ElemList >::mfc_num_corners_of_elem::apply< TElem >", "classug_1_1element__list__traits_1_1mfc__num__corners__of__elem_1_1apply.html", null ],
     [ "ug::element_list_traits< ElemList >::mfc_num_edges_of_elem::apply< TElem >", "classug_1_1element__list__traits_1_1mfc__num__edges__of__elem_1_1apply.html", null ],
-    [ "ug::element_list_traits< ElemList >::mfc_num_faces_of_elem::apply< TElem >", "classug_1_1element__list__traits_1_1mfc__num__faces__of__elem_1_1apply.html", null ],
     [ "ug::element_list_traits< ElemList >::mfc_num_volumes_of_elem::apply< TElem >", "classug_1_1element__list__traits_1_1mfc__num__volumes__of__elem_1_1apply.html", null ],
     [ "ug::element_list_traits< ElemList >::mfc_num_sides_of_elem::apply< TElem >", "classug_1_1element__list__traits_1_1mfc__num__sides__of__elem_1_1apply.html", null ],
+    [ "ug::element_list_traits< ElemList >::mfc_num_faces_of_elem::apply< TElem >", "classug_1_1element__list__traits_1_1mfc__num__faces__of__elem_1_1apply.html", null ],
+    [ "ug::Archivar< TArchive, TBase, TPairSeq >", "classug_1_1_archivar.html", null ],
     [ "ug::AssemblingTuner< TAlgebra >", "classug_1_1_assembling_tuner.html", null ],
     [ "ug::AttachedElementList< TAttachmentPipe >", "classug_1_1_attached_element_list.html", null ],
     [ "ug::attachment_info_traits< TAttachment >", "structug_1_1attachment__info__traits.html", null ],
@@ -37,353 +39,313 @@ var hierarchy =
     [ "ug::attachment_value_traits< TValue >", "structug_1_1attachment__value__traits.html", null ],
     [ "ug::attachment_value_traits< bool >", "structug_1_1attachment__value__traits_3_01bool_01_4.html", null ],
     [ "ug::AttachmentAccessor< TElem, TAttachment, TElemHandler >", "classug_1_1_attachment_accessor.html", null ],
-    [ "ug::AttachmentAccessor< Edge::grid_base_object *, ADoF, traits< Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< Edge ::grid_base_object *, ADoF, traits< Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< Edge, ADoF >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< Edge::grid_base_object *, Attachment< EdgeInfo >, traits< Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< Edge ::grid_base_object *, Attachment< EdgeInfo >, traits< Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< Edge, Attachment< EdgeInfo > >", "classug_1_1_grid_1_1_attachment_accessor.html", [
         [ "ug::Grid::EdgeAttachmentAccessor< Attachment< EdgeInfo > >", "classug_1_1_grid_1_1_edge_attachment_accessor.html", null ]
       ] ]
     ] ],
-    [ "ug::AttachmentAccessor< Edge::grid_base_object *, Attachment< ElemInfoEdge >, traits< Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< Edge ::grid_base_object *, Attachment< ElemInfoEdge >, traits< Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< Edge, Attachment< ElemInfoEdge > >", "classug_1_1_grid_1_1_attachment_accessor.html", [
         [ "ug::Grid::EdgeAttachmentAccessor< Attachment< ElemInfoEdge > >", "classug_1_1_grid_1_1_edge_attachment_accessor.html", null ]
       ] ]
     ] ],
-    [ "ug::AttachmentAccessor< Edge::grid_base_object *, Attachment< int >, traits< Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< Edge ::grid_base_object *, Attachment< int >, traits< Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< Edge, Attachment< int > >", "classug_1_1_grid_1_1_attachment_accessor.html", [
         [ "ug::Grid::EdgeAttachmentAccessor< Attachment< int > >", "classug_1_1_grid_1_1_edge_attachment_accessor.html", null ]
       ] ]
     ] ],
-    [ "ug::AttachmentAccessor< Edge::grid_base_object *, TAttachment, traits< Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< Edge ::grid_base_object *, TAttachment, traits< Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< Edge, TAttachment >", "classug_1_1_grid_1_1_attachment_accessor.html", [
         [ "ug::Grid::EdgeAttachmentAccessor< TAttachment >", "classug_1_1_grid_1_1_edge_attachment_accessor.html", null ]
       ] ]
     ] ],
-    [ "ug::AttachmentAccessor< Edge::grid_base_object *, ug::Attachment, traits< Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< Edge ::grid_base_object *, ug::Attachment, traits< Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< Edge, ug::Attachment >", "classug_1_1_grid_1_1_attachment_accessor.html", [
         [ "ug::Grid::EdgeAttachmentAccessor< ug::Attachment >", "classug_1_1_grid_1_1_edge_attachment_accessor.html", null ]
       ] ]
     ] ],
     [ "ug::AttachmentAccessor< element, AEntry, ElemHandler >", "classug_1_1_attachment_accessor.html", null ],
-    [ "ug::AttachmentAccessor< Face::grid_base_object *, ADoF, traits< Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< Face ::grid_base_object *, ADoF, traits< Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< Face, ADoF >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< Face::grid_base_object *, Attachment< ElemInfoFace >, traits< Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< Face ::grid_base_object *, Attachment< ElemInfoFace >, traits< Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< Face, Attachment< ElemInfoFace > >", "classug_1_1_grid_1_1_attachment_accessor.html", [
         [ "ug::Grid::FaceAttachmentAccessor< Attachment< ElemInfoFace > >", "classug_1_1_grid_1_1_face_attachment_accessor.html", null ]
       ] ]
     ] ],
-    [ "ug::AttachmentAccessor< Face::grid_base_object *, Attachment< FaceInfo * >, traits< Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
-      [ "ug::Grid::AttachmentAccessor< Face, Attachment< FaceInfo * > >", "classug_1_1_grid_1_1_attachment_accessor.html", [
-        [ "ug::Grid::FaceAttachmentAccessor< Attachment< FaceInfo * > >", "classug_1_1_grid_1_1_face_attachment_accessor.html", null ]
-      ] ]
-    ] ],
-    [ "ug::AttachmentAccessor< Face::grid_base_object *, Attachment< GridObject * >, traits< Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
-      [ "ug::Grid::AttachmentAccessor< Face, Attachment< GridObject * > >", "classug_1_1_grid_1_1_attachment_accessor.html", [
-        [ "ug::Grid::FaceAttachmentAccessor< Attachment< GridObject * > >", "classug_1_1_grid_1_1_face_attachment_accessor.html", null ]
-      ] ]
-    ] ],
-    [ "ug::AttachmentAccessor< Face::grid_base_object *, Attachment< int >, traits< Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< Face ::grid_base_object *, Attachment< int >, traits< Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< Face, Attachment< int > >", "classug_1_1_grid_1_1_attachment_accessor.html", [
         [ "ug::Grid::FaceAttachmentAccessor< Attachment< int > >", "classug_1_1_grid_1_1_face_attachment_accessor.html", null ]
       ] ]
     ] ],
-    [ "ug::AttachmentAccessor< Face::grid_base_object *, normal_attachment_t, traits< Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< Face ::grid_base_object *, normal_attachment_t, traits< Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< Face, normal_attachment_t >", "classug_1_1_grid_1_1_attachment_accessor.html", [
         [ "ug::Grid::FaceAttachmentAccessor< normal_attachment_t >", "classug_1_1_grid_1_1_face_attachment_accessor.html", null ]
       ] ]
     ] ],
-    [ "ug::AttachmentAccessor< Face::grid_base_object *, TAttachment, traits< Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< Face ::grid_base_object *, TAttachment, traits< Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< Face, TAttachment >", "classug_1_1_grid_1_1_attachment_accessor.html", [
         [ "ug::Grid::FaceAttachmentAccessor< TAttachment >", "classug_1_1_grid_1_1_face_attachment_accessor.html", null ]
       ] ]
     ] ],
-    [ "ug::AttachmentAccessor< Face::grid_base_object *, ug::Attachment, traits< Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< Face ::grid_base_object *, ug::Attachment, traits< Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< Face, ug::Attachment >", "classug_1_1_grid_1_1_attachment_accessor.html", [
         [ "ug::Grid::FaceAttachmentAccessor< ug::Attachment >", "classug_1_1_grid_1_1_face_attachment_accessor.html", null ]
       ] ]
     ] ],
-    [ "ug::AttachmentAccessor< GeomObj::grid_base_object *, TAttachment, traits< GeomObj >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< GeomObj ::grid_base_object *, TAttachment, traits< GeomObj >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< GeomObj, TAttachment >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< TBaseElem::grid_base_object *, AElemData, traits< TBaseElem >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< TBaseElem ::grid_base_object *, AElemData, traits< TBaseElem >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< TBaseElem, AElemData >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< TConnectingObj::grid_base_object *, Attachment< std::vector< int > >, traits< TConnectingObj >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< TConnectingObj ::grid_base_object *, Attachment< std::vector< int > >, traits< TConnectingObj >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< TConnectingObj, Attachment< std::vector< int > > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
     [ "ug::AttachmentAccessor< TElem::grid_base_object *, TAttachment, traits< TElem >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< TElem, TAttachment >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< TGeomBaseObj::grid_base_object *, Attachment< int >, traits< TGeomBaseObj >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< TGeomBaseObj ::grid_base_object *, Attachment< int >, traits< TGeomBaseObj >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< TGeomBaseObj, Attachment< int > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< TGeomObj::grid_base_object *, TAttachment, traits< TGeomObj >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< TGeomObj ::grid_base_object *, TAttachment, traits< TGeomObj >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< TGeomObj, TAttachment >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Edge::grid_base_object *, Attachment< bool >, traits< ug::Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Edge ::grid_base_object *, Attachment< bool >, traits< ug::Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Edge, Attachment< bool > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Edge::grid_base_object *, Attachment< char >, traits< ug::Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Edge ::grid_base_object *, Attachment< char >, traits< ug::Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Edge, Attachment< char > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Edge::grid_base_object *, Attachment< EdgeContainer >, traits< ug::Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Edge ::grid_base_object *, Attachment< EdgeContainer >, traits< ug::Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Edge, Attachment< EdgeContainer > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Edge::grid_base_object *, Attachment< FaceContainer >, traits< ug::Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Edge ::grid_base_object *, Attachment< FaceContainer >, traits< ug::Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Edge, Attachment< FaceContainer > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Edge::grid_base_object *, Attachment< SurfaceState >, traits< ug::Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Edge ::grid_base_object *, Attachment< SurfaceState >, traits< ug::Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Edge, Attachment< SurfaceState > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Edge::grid_base_object *, Attachment< unsigned char >, traits< ug::Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Edge ::grid_base_object *, Attachment< unsigned char >, traits< ug::Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Edge, Attachment< unsigned char > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Edge::grid_base_object *, Attachment< Values >, traits< ug::Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Edge ::grid_base_object *, Attachment< Values >, traits< ug::Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Edge, Attachment< Values > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Edge::grid_base_object *, Attachment< vector< TargetProcInfo > >, traits< ug::Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Edge ::grid_base_object *, Attachment< vector< TargetProcInfo > >, traits< ug::Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Edge, Attachment< vector< TargetProcInfo > > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Edge::grid_base_object *, Attachment< VolumeContainer >, traits< ug::Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Edge ::grid_base_object *, Attachment< VolumeContainer >, traits< ug::Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Edge, Attachment< VolumeContainer > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Edge::grid_base_object *, TAttachment, traits< ug::Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Edge ::grid_base_object *, TAttachment, traits< ug::Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Edge, TAttachment >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Edge::grid_base_object *, ug::Attachment, traits< ug::Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Edge ::grid_base_object *, ug::Attachment, traits< ug::Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Edge, ug::Attachment >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Edge::grid_base_object *, ug::Attachment< PeriodicStatus >, traits< ug::Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Edge ::grid_base_object *, ug::Attachment< PeriodicStatus >, traits< ug::Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Edge, ug::Attachment< PeriodicStatus > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Edge::grid_base_object *, ug::Attachment< ug::PeriodicBoundaryManager::Group< ug::Edge > * >, traits< ug::Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Edge ::grid_base_object *, ug::Attachment< ug::PeriodicBoundaryManager::Group< ug::Edge > *>, traits< ug::Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Edge, ug::Attachment< ug::PeriodicBoundaryManager::Group< ug::Edge > * > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Edge::grid_base_object *, ug::SurfaceView::ASurfaceState, traits< ug::Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
-      [ "ug::Grid::AttachmentAccessor< ug::Edge, ug::SurfaceView::ASurfaceState >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
-    ] ],
-    [ "ug::AttachmentAccessor< ug::Face::grid_base_object *, Attachment< bool >, traits< ug::Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Face ::grid_base_object *, Attachment< bool >, traits< ug::Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Face, Attachment< bool > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Face::grid_base_object *, Attachment< char >, traits< ug::Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Face ::grid_base_object *, Attachment< char >, traits< ug::Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Face, Attachment< char > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Face::grid_base_object *, Attachment< EdgeContainer >, traits< ug::Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Face ::grid_base_object *, Attachment< EdgeContainer >, traits< ug::Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Face, Attachment< EdgeContainer > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Face::grid_base_object *, Attachment< FaceContainer >, traits< ug::Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Face ::grid_base_object *, Attachment< FaceContainer >, traits< ug::Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Face, Attachment< FaceContainer > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Face::grid_base_object *, Attachment< FaceInfo * >, traits< ug::Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
-      [ "ug::Grid::AttachmentAccessor< ug::Face, Attachment< FaceInfo * > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
-    ] ],
-    [ "ug::AttachmentAccessor< ug::Face::grid_base_object *, Attachment< SurfaceState >, traits< ug::Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Face ::grid_base_object *, Attachment< SurfaceState >, traits< ug::Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Face, Attachment< SurfaceState > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Face::grid_base_object *, Attachment< unsigned char >, traits< ug::Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Face ::grid_base_object *, Attachment< unsigned char >, traits< ug::Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Face, Attachment< unsigned char > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Face::grid_base_object *, Attachment< Values >, traits< ug::Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Face ::grid_base_object *, Attachment< Values >, traits< ug::Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Face, Attachment< Values > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Face::grid_base_object *, Attachment< vector< TargetProcInfo > >, traits< ug::Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Face ::grid_base_object *, Attachment< vector< TargetProcInfo > >, traits< ug::Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Face, Attachment< vector< TargetProcInfo > > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Face::grid_base_object *, Attachment< VolumeContainer >, traits< ug::Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Face ::grid_base_object *, Attachment< VolumeContainer >, traits< ug::Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Face, Attachment< VolumeContainer > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Face::grid_base_object *, TAttachment, traits< ug::Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Face ::grid_base_object *, TAttachment, traits< ug::Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Face, TAttachment >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Face::grid_base_object *, ug::Attachment, traits< ug::Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Face ::grid_base_object *, ug::Attachment, traits< ug::Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Face, ug::Attachment >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Face::grid_base_object *, ug::Attachment< PeriodicStatus >, traits< ug::Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Face ::grid_base_object *, ug::Attachment< PeriodicStatus >, traits< ug::Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Face, ug::Attachment< PeriodicStatus > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Face::grid_base_object *, ug::Attachment< ug::PeriodicBoundaryManager::Group< ug::Face > * >, traits< ug::Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Face ::grid_base_object *, ug::Attachment< ug::PeriodicBoundaryManager::Group< ug::Face > *>, traits< ug::Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Face, ug::Attachment< ug::PeriodicBoundaryManager::Group< ug::Face > * > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Face::grid_base_object *, ug::SurfaceView::ASurfaceState, traits< ug::Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
-      [ "ug::Grid::AttachmentAccessor< ug::Face, ug::SurfaceView::ASurfaceState >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
-    ] ],
-    [ "ug::AttachmentAccessor< ug::Vertex::grid_base_object *, Attachment< bool >, traits< ug::Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Vertex ::grid_base_object *, Attachment< bool >, traits< ug::Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Vertex, Attachment< bool > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Vertex::grid_base_object *, Attachment< char >, traits< ug::Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Vertex ::grid_base_object *, Attachment< char >, traits< ug::Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Vertex, Attachment< char > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Vertex::grid_base_object *, Attachment< EdgeContainer >, traits< ug::Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Vertex ::grid_base_object *, Attachment< EdgeContainer >, traits< ug::Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Vertex, Attachment< EdgeContainer > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Vertex::grid_base_object *, Attachment< FaceContainer >, traits< ug::Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Vertex ::grid_base_object *, Attachment< FaceContainer >, traits< ug::Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Vertex, Attachment< FaceContainer > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Vertex::grid_base_object *, Attachment< SurfaceState >, traits< ug::Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Vertex ::grid_base_object *, Attachment< SurfaceState >, traits< ug::Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Vertex, Attachment< SurfaceState > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Vertex::grid_base_object *, Attachment< unsigned char >, traits< ug::Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Vertex ::grid_base_object *, Attachment< unsigned char >, traits< ug::Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Vertex, Attachment< unsigned char > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Vertex::grid_base_object *, Attachment< Values >, traits< ug::Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Vertex ::grid_base_object *, Attachment< Values >, traits< ug::Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Vertex, Attachment< Values > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Vertex::grid_base_object *, Attachment< vector< TargetProcInfo > >, traits< ug::Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Vertex ::grid_base_object *, Attachment< vector< TargetProcInfo > >, traits< ug::Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Vertex, Attachment< vector< TargetProcInfo > > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Vertex::grid_base_object *, Attachment< VolumeContainer >, traits< ug::Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Vertex ::grid_base_object *, Attachment< VolumeContainer >, traits< ug::Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Vertex, Attachment< VolumeContainer > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Vertex::grid_base_object *, TAttachment, traits< ug::Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Vertex ::grid_base_object *, TAttachment, traits< ug::Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Vertex, TAttachment >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Vertex::grid_base_object *, ug::Attachment, traits< ug::Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Vertex ::grid_base_object *, ug::Attachment, traits< ug::Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Vertex, ug::Attachment >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Vertex::grid_base_object *, ug::Attachment< PeriodicStatus >, traits< ug::Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Vertex ::grid_base_object *, ug::Attachment< PeriodicStatus >, traits< ug::Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Vertex, ug::Attachment< PeriodicStatus > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Vertex::grid_base_object *, ug::Attachment< ug::PeriodicBoundaryManager::Group< ug::Vertex > * >, traits< ug::Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Vertex ::grid_base_object *, ug::Attachment< ug::PeriodicBoundaryManager::Group< ug::Vertex > *>, traits< ug::Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Vertex, ug::Attachment< ug::PeriodicBoundaryManager::Group< ug::Vertex > * > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Vertex::grid_base_object *, ug::SurfaceView::ASurfaceState, traits< ug::Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
-      [ "ug::Grid::AttachmentAccessor< ug::Vertex, ug::SurfaceView::ASurfaceState >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
-    ] ],
-    [ "ug::AttachmentAccessor< ug::Volume::grid_base_object *, Attachment< bool >, traits< ug::Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Volume ::grid_base_object *, Attachment< bool >, traits< ug::Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Volume, Attachment< bool > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Volume::grid_base_object *, Attachment< char >, traits< ug::Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Volume ::grid_base_object *, Attachment< char >, traits< ug::Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Volume, Attachment< char > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Volume::grid_base_object *, Attachment< EdgeContainer >, traits< ug::Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Volume ::grid_base_object *, Attachment< EdgeContainer >, traits< ug::Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Volume, Attachment< EdgeContainer > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Volume::grid_base_object *, Attachment< FaceContainer >, traits< ug::Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Volume ::grid_base_object *, Attachment< FaceContainer >, traits< ug::Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Volume, Attachment< FaceContainer > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Volume::grid_base_object *, Attachment< SurfaceState >, traits< ug::Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Volume ::grid_base_object *, Attachment< SurfaceState >, traits< ug::Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Volume, Attachment< SurfaceState > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Volume::grid_base_object *, Attachment< unsigned char >, traits< ug::Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Volume ::grid_base_object *, Attachment< unsigned char >, traits< ug::Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Volume, Attachment< unsigned char > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Volume::grid_base_object *, Attachment< Values >, traits< ug::Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Volume ::grid_base_object *, Attachment< Values >, traits< ug::Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Volume, Attachment< Values > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Volume::grid_base_object *, Attachment< vector< TargetProcInfo > >, traits< ug::Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Volume ::grid_base_object *, Attachment< vector< TargetProcInfo > >, traits< ug::Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Volume, Attachment< vector< TargetProcInfo > > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Volume::grid_base_object *, Attachment< VolumeContainer >, traits< ug::Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Volume ::grid_base_object *, Attachment< VolumeContainer >, traits< ug::Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Volume, Attachment< VolumeContainer > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Volume::grid_base_object *, TAttachment, traits< ug::Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Volume ::grid_base_object *, TAttachment, traits< ug::Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Volume, TAttachment >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Volume::grid_base_object *, ug::Attachment, traits< ug::Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< ug::Volume ::grid_base_object *, ug::Attachment, traits< ug::Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< ug::Volume, ug::Attachment >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< ug::Volume::grid_base_object *, ug::SurfaceView::ASurfaceState, traits< ug::Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
-      [ "ug::Grid::AttachmentAccessor< ug::Volume, ug::SurfaceView::ASurfaceState >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
-    ] ],
-    [ "ug::AttachmentAccessor< Vertex::grid_base_object *, ADoF, traits< Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< Vertex ::grid_base_object *, ADoF, traits< Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< Vertex, ADoF >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< Vertex::grid_base_object *, apos_t, traits< Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< Vertex ::grid_base_object *, apos_t, traits< Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< Vertex, apos_t >", "classug_1_1_grid_1_1_attachment_accessor.html", [
         [ "ug::Grid::VertexAttachmentAccessor< apos_t >", "classug_1_1_grid_1_1_vertex_attachment_accessor.html", null ]
       ] ]
     ] ],
-    [ "ug::AttachmentAccessor< Vertex::grid_base_object *, APosition, traits< Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
-      [ "ug::Grid::AttachmentAccessor< Vertex, APosition >", "classug_1_1_grid_1_1_attachment_accessor.html", [
-        [ "ug::Grid::VertexAttachmentAccessor< APosition >", "classug_1_1_grid_1_1_vertex_attachment_accessor.html", null ]
-      ] ]
-    ] ],
-    [ "ug::AttachmentAccessor< Vertex::grid_base_object *, Attachment< ElemInfoVrt >, traits< Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< Vertex ::grid_base_object *, Attachment< ElemInfoVrt >, traits< Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< Vertex, Attachment< ElemInfoVrt > >", "classug_1_1_grid_1_1_attachment_accessor.html", [
         [ "ug::Grid::VertexAttachmentAccessor< Attachment< ElemInfoVrt > >", "classug_1_1_grid_1_1_vertex_attachment_accessor.html", null ]
       ] ]
     ] ],
-    [ "ug::AttachmentAccessor< Vertex::grid_base_object *, Attachment< int >, traits< Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< Vertex ::grid_base_object *, Attachment< int >, traits< Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< Vertex, Attachment< int > >", "classug_1_1_grid_1_1_attachment_accessor.html", [
         [ "ug::Grid::VertexAttachmentAccessor< Attachment< int > >", "classug_1_1_grid_1_1_vertex_attachment_accessor.html", null ]
       ] ]
     ] ],
-    [ "ug::AttachmentAccessor< Vertex::grid_base_object *, Attachment< VertexInfo >, traits< Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< Vertex ::grid_base_object *, Attachment< VertexInfo >, traits< Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< Vertex, Attachment< VertexInfo > >", "classug_1_1_grid_1_1_attachment_accessor.html", [
         [ "ug::Grid::VertexAttachmentAccessor< Attachment< VertexInfo > >", "classug_1_1_grid_1_1_vertex_attachment_accessor.html", null ]
       ] ]
     ] ],
-    [ "ug::AttachmentAccessor< Vertex::grid_base_object *, position_attachment_t, traits< Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< Vertex ::grid_base_object *, position_attachment_t, traits< Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< Vertex, position_attachment_t >", "classug_1_1_grid_1_1_attachment_accessor.html", [
         [ "ug::Grid::VertexAttachmentAccessor< position_attachment_t >", "classug_1_1_grid_1_1_vertex_attachment_accessor.html", null ]
       ] ]
     ] ],
-    [ "ug::AttachmentAccessor< Vertex::grid_base_object *, position_attachment_type, traits< Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< Vertex ::grid_base_object *, position_attachment_type, traits< Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< Vertex, position_attachment_type >", "classug_1_1_grid_1_1_attachment_accessor.html", [
         [ "ug::Grid::VertexAttachmentAccessor< position_attachment_type >", "classug_1_1_grid_1_1_vertex_attachment_accessor.html", null ]
       ] ]
     ] ],
-    [ "ug::AttachmentAccessor< Vertex::grid_base_object *, TAPosition, traits< Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< Vertex ::grid_base_object *, TAPosition, traits< Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< Vertex, TAPosition >", "classug_1_1_grid_1_1_attachment_accessor.html", [
         [ "ug::Grid::VertexAttachmentAccessor< TAPosition >", "classug_1_1_grid_1_1_vertex_attachment_accessor.html", null ]
       ] ]
     ] ],
-    [ "ug::AttachmentAccessor< Vertex::grid_base_object *, TAttachment, traits< Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< Vertex ::grid_base_object *, TAttachment, traits< Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< Vertex, TAttachment >", "classug_1_1_grid_1_1_attachment_accessor.html", [
         [ "ug::Grid::VertexAttachmentAccessor< TAttachment >", "classug_1_1_grid_1_1_vertex_attachment_accessor.html", null ]
       ] ]
     ] ],
-    [ "ug::AttachmentAccessor< Vertex::grid_base_object *, TAVrtPos, traits< Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< Vertex ::grid_base_object *, TAVrtPos, traits< Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< Vertex, TAVrtPos >", "classug_1_1_grid_1_1_attachment_accessor.html", [
         [ "ug::Grid::VertexAttachmentAccessor< TAVrtPos >", "classug_1_1_grid_1_1_vertex_attachment_accessor.html", null ]
       ] ]
     ] ],
-    [ "ug::AttachmentAccessor< Vertex::grid_base_object *, TPositionAttachment, traits< Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< Vertex ::grid_base_object *, TPositionAttachment, traits< Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< Vertex, TPositionAttachment >", "classug_1_1_grid_1_1_attachment_accessor.html", [
         [ "ug::Grid::VertexAttachmentAccessor< TPositionAttachment >", "classug_1_1_grid_1_1_vertex_attachment_accessor.html", null ]
       ] ]
     ] ],
-    [ "ug::AttachmentAccessor< Vertex::grid_base_object *, ug::Attachment, traits< Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< Vertex ::grid_base_object *, ug::Attachment, traits< Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< Vertex, ug::Attachment >", "classug_1_1_grid_1_1_attachment_accessor.html", [
         [ "ug::Grid::VertexAttachmentAccessor< ug::Attachment >", "classug_1_1_grid_1_1_vertex_attachment_accessor.html", null ]
       ] ]
     ] ],
-    [ "ug::AttachmentAccessor< Volume::grid_base_object *, ADoF, traits< Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< Volume ::grid_base_object *, ADoF, traits< Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< Volume, ADoF >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
-    [ "ug::AttachmentAccessor< Volume::grid_base_object *, Attachment< ElemInfoVol >, traits< Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< Volume ::grid_base_object *, Attachment< ElemInfoVol >, traits< Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< Volume, Attachment< ElemInfoVol > >", "classug_1_1_grid_1_1_attachment_accessor.html", [
         [ "ug::Grid::VolumeAttachmentAccessor< Attachment< ElemInfoVol > >", "classug_1_1_grid_1_1_volume_attachment_accessor.html", null ]
       ] ]
     ] ],
-    [ "ug::AttachmentAccessor< Volume::grid_base_object *, Attachment< GridObject * >, traits< Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
-      [ "ug::Grid::AttachmentAccessor< Volume, Attachment< GridObject * > >", "classug_1_1_grid_1_1_attachment_accessor.html", [
-        [ "ug::Grid::VolumeAttachmentAccessor< Attachment< GridObject * > >", "classug_1_1_grid_1_1_volume_attachment_accessor.html", null ]
-      ] ]
-    ] ],
-    [ "ug::AttachmentAccessor< Volume::grid_base_object *, Attachment< int >, traits< Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< Volume ::grid_base_object *, Attachment< int >, traits< Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< Volume, Attachment< int > >", "classug_1_1_grid_1_1_attachment_accessor.html", [
         [ "ug::Grid::VolumeAttachmentAccessor< Attachment< int > >", "classug_1_1_grid_1_1_volume_attachment_accessor.html", null ]
       ] ]
     ] ],
-    [ "ug::AttachmentAccessor< Volume::grid_base_object *, Attachment< VolumeInfo * >, traits< Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
-      [ "ug::Grid::AttachmentAccessor< Volume, Attachment< VolumeInfo * > >", "classug_1_1_grid_1_1_attachment_accessor.html", [
-        [ "ug::Grid::VolumeAttachmentAccessor< Attachment< VolumeInfo * > >", "classug_1_1_grid_1_1_volume_attachment_accessor.html", null ]
-      ] ]
-    ] ],
-    [ "ug::AttachmentAccessor< Volume::grid_base_object *, TAttachment, traits< Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< Volume ::grid_base_object *, TAttachment, traits< Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< Volume, TAttachment >", "classug_1_1_grid_1_1_attachment_accessor.html", [
         [ "ug::Grid::VolumeAttachmentAccessor< TAttachment >", "classug_1_1_grid_1_1_volume_attachment_accessor.html", null ]
       ] ]
     ] ],
-    [ "ug::AttachmentAccessor< Volume::grid_base_object *, ug::Attachment, traits< Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< Volume ::grid_base_object *, ug::Attachment, traits< Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< Volume, ug::Attachment >", "classug_1_1_grid_1_1_attachment_accessor.html", [
         [ "ug::Grid::VolumeAttachmentAccessor< ug::Attachment >", "classug_1_1_grid_1_1_volume_attachment_accessor.html", null ]
       ] ]
     ] ],
-    [ "ug::AttachmentAccessor< Volume::grid_base_object *, volume_constraint_attachment_t, traits< Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
+    [ "ug::AttachmentAccessor< Volume ::grid_base_object *, volume_constraint_attachment_t, traits< Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", [
       [ "ug::Grid::AttachmentAccessor< Volume, volume_constraint_attachment_t >", "classug_1_1_grid_1_1_attachment_accessor.html", [
         [ "ug::Grid::VolumeAttachmentAccessor< volume_constraint_attachment_t >", "classug_1_1_grid_1_1_volume_attachment_accessor.html", null ]
       ] ]
@@ -559,10 +521,10 @@ var hierarchy =
     [ "ug::FV1IBGeometry< TElem, TWorldDim >::BF", "classug_1_1_f_v1_i_b_geometry_1_1_b_f.html", null ],
     [ "ug::DimFV1IBGeometry< TDim, TWorldDim >::BF", "classug_1_1_dim_f_v1_i_b_geometry_1_1_b_f.html", null ],
     [ "ug::DimCRFVGeometry< TDim, TWorldDim >::BF", "classug_1_1_dim_c_r_f_v_geometry_1_1_b_f.html", null ],
-    [ "ug::CRFVGeometry< TElem, TWorldDim >::BF", "classug_1_1_c_r_f_v_geometry_1_1_b_f.html", null ],
-    [ "ug::DimFVGeometry< TWorldDim, TDim >::BF", "classug_1_1_dim_f_v_geometry_1_1_b_f.html", null ],
     [ "ug::FVGeometry< TOrder, TElem, TWorldDim, TQuadOrder >::BF", "classug_1_1_f_v_geometry_1_1_b_f.html", null ],
+    [ "ug::DimFVGeometry< TWorldDim, TDim >::BF", "classug_1_1_dim_f_v_geometry_1_1_b_f.html", null ],
     [ "ug::HFV1ManifoldGeometry< TElem, TWorldDim >::BF", "classug_1_1_h_f_v1_manifold_geometry_1_1_b_f.html", null ],
+    [ "ug::CRFVGeometry< TElem, TWorldDim >::BF", "classug_1_1_c_r_f_v_geometry_1_1_b_f.html", null ],
     [ "binary_function", null, [
       [ "std::less< SmartPtr< T, TFreePolicy > >", "structstd_1_1less_3_01_smart_ptr_3_01_t_00_01_t_free_policy_01_4_01_4.html", null ]
     ] ],
@@ -612,8 +574,10 @@ var hierarchy =
     [ "ug::bridge::ClassCastProvider", "classug_1_1bridge_1_1_class_cast_provider.html", null ],
     [ "ug::bridge::ClassGroupDesc", "classug_1_1bridge_1_1_class_group_desc.html", null ],
     [ "ug::bridge::ClassHierarchy", "classug_1_1bridge_1_1_class_hierarchy.html", null ],
+    [ "ug::Factory< TBase, TPairSeq >::ClassInfo", "structug_1_1_factory_1_1_class_info.html", null ],
     [ "ug::bridge::ClassNameNode", "classug_1_1bridge_1_1_class_name_node.html", null ],
     [ "ug::bridge::ClassNameProvider< TClass >", "classug_1_1bridge_1_1_class_name_provider.html", null ],
+    [ "ug::bridge::CLI_Functionality", "structug_1_1bridge_1_1_c_l_i___functionality.html", null ],
     [ "ug::CompositeConvCheck< TVector, TDomain >::CmpInfo", "structug_1_1_composite_conv_check_1_1_cmp_info.html", null ],
     [ "ug::AlgebraicConvCheck< TVector >::CmpInfo", "structug_1_1_algebraic_conv_check_1_1_cmp_info.html", null ],
     [ "ug::CmpVrtsByHash< TElem >", "classug_1_1_cmp_vrts_by_hash.html", null ],
@@ -633,8 +597,6 @@ var hierarchy =
     [ "ug::ConnectedToOneMarkedVrt", "structug_1_1_connected_to_one_marked_vrt.html", null ],
     [ "ug::MapSparseMatrix< TValueType >::connection", "structug_1_1_map_sparse_matrix_1_1connection.html", null ],
     [ "conNodeType", "structcon_node_type.html", null ],
-    [ "ug::ConsiderAll", "classug_1_1_consider_all.html", null ],
-    [ "ug::ConsiderNone", "classug_1_1_consider_none.html", null ],
     [ "ug::ConsistencyCheckClassSend< TVec, TValue >", "classug_1_1_consistency_check_class_send.html", [
       [ "ug::ConsistencyCheckClass< TVec, TValue >", "classug_1_1_consistency_check_class.html", null ]
     ] ],
@@ -705,6 +667,7 @@ var hierarchy =
     [ "ConstSmartPtr< void >", "class_const_smart_ptr_3_01void_01_4.html", null ],
     [ "ug::SurfaceView::ConstSurfaceViewElementIterator< TElem >", "classug_1_1_surface_view_1_1_const_surface_view_element_iterator.html", null ],
     [ "ug::GridObjectCollection::ContainerCollection", "structug_1_1_grid_object_collection_1_1_container_collection.html", null ],
+    [ "ug::Raster< T, TDIM >::Coordinate", "classug_1_1_raster_1_1_coordinate.html", null ],
     [ "ug::CPUAlgebra", "structug_1_1_c_p_u_algebra.html", null ],
     [ "ug::CPUBlockAlgebra< TBlockSize >", "structug_1_1_c_p_u_block_algebra.html", null ],
     [ "ug::CPUVariableBlockAlgebra", "structug_1_1_c_p_u_variable_block_algebra.html", null ],
@@ -785,6 +748,7 @@ var hierarchy =
       [ "ug::DimReferenceMappingWrapper< TRefMapping >", "classug_1_1_dim_reference_mapping_wrapper.html", null ]
     ] ],
     [ "ug::DistInfoSupplier", "classug_1_1_dist_info_supplier.html", null ],
+    [ "ug::DistroAdjuster", "classug_1_1_distro_adjuster.html", null ],
     [ "ug::DoFDistributionInfoProvider", "classug_1_1_do_f_distribution_info_provider.html", [
       [ "ug::DoFCount", "classug_1_1_do_f_count.html", null ],
       [ "ug::DoFDistribution", "classug_1_1_do_f_distribution.html", null ],
@@ -799,6 +763,20 @@ var hierarchy =
     [ "ug::DomainRayTracer", "classug_1_1_domain_ray_tracer.html", null ],
     [ "ug::KDTree< point_t, data_t, real_t >::Element", "classug_1_1_k_d_tree_1_1_element.html", null ],
     [ "ug::element_list_traits< ElemList >", "classug_1_1element__list__traits.html", null ],
+    [ "ug::ElementCallback", "classug_1_1_element_callback.html", [
+      [ "ug::ConsiderAll", "classug_1_1_consider_all.html", null ],
+      [ "ug::ConsiderNone", "classug_1_1_consider_none.html", null ],
+      [ "ug::IsBoundaryOrManifodFace", "classug_1_1_is_boundary_or_manifod_face.html", null ],
+      [ "ug::IsInSubset", "classug_1_1_is_in_subset.html", null ],
+      [ "ug::IsMarked", "classug_1_1_is_marked.html", null ],
+      [ "ug::IsNotBoundaryOrManifodFace", "classug_1_1_is_not_boundary_or_manifod_face.html", null ],
+      [ "ug::IsNotInSubset", "classug_1_1_is_not_in_subset.html", null ],
+      [ "ug::IsNotMarked", "classug_1_1_is_not_marked.html", null ],
+      [ "ug::IsNotOnBoundary", "classug_1_1_is_not_on_boundary.html", null ],
+      [ "ug::IsNotSelected", "classug_1_1_is_not_selected.html", null ],
+      [ "ug::IsOnBoundary", "classug_1_1_is_on_boundary.html", null ],
+      [ "ug::IsSelected", "classug_1_1_is_selected.html", null ]
+    ] ],
     [ "ug::DistributedGridManager::ElementInfo< TGeomObj >", "classug_1_1_distributed_grid_manager_1_1_element_info.html", null ],
     [ "ug::ElementSideRayIntersectionWrapper< TRefElem, TWorldDim, TRefDim >", "structug_1_1_element_side_ray_intersection_wrapper.html", null ],
     [ "ug::ElementSideRayIntersectionWrapper< TRefElem, 2, 2 >", "structug_1_1_element_side_ray_intersection_wrapper_3_01_t_ref_elem_00_012_00_012_01_4.html", null ],
@@ -844,6 +822,7 @@ var hierarchy =
     [ "ug::DelaunayInfo< TAAPos >::FaceInfo", "structug_1_1_delaunay_info_1_1_face_info.html", null ],
     [ "ug::Factorial< n >", "structug_1_1_factorial.html", null ],
     [ "ug::Factorial< 1 >", "structug_1_1_factorial_3_011_01_4.html", null ],
+    [ "ug::Factory< TBase, TPairSeq >", "classug_1_1_factory.html", null ],
     [ "ug::DoFDistributionInfo::FctInfo", "structug_1_1_do_f_distribution_info_1_1_fct_info.html", null ],
     [ "ug::FEGeometry< TElem, TWorldDim, TTrialSpace, TQuadratureRule >", "classug_1_1_f_e_geometry.html", null ],
     [ "ug::FetiLayouts< TAlgebra >", "classug_1_1_feti_layouts.html", null ],
@@ -884,25 +863,25 @@ var hierarchy =
     [ "ug::bridge::func_traits< TRet(*)(T1, T2, T3, T4, T5, T6, T7, T8, T9)>", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_5_08_07_t1_00_01_t2_00_01_t3_00_01_t4_00_01_t5_312a89e74fe37a07f5d2242e493c11d2.html", null ],
     [ "ug::bridge::func_traits< TRet(*)(T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)>", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_5_08_07_t1_00_01_t2_00_01_t3_00_01_t4_00_01_t5_1e5b0c3e2207dbbbb465b67c34ddffff.html", null ],
     [ "ug::bridge::func_traits< TRet(*)(T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11)>", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_5_08_07_t1_00_01_t2_00_01_t3_00_01_t4_00_01_t5_578e72df3570d3fe969e1f67a6d22f65.html", null ],
-    [ "ug::bridge::func_traits< TRet(TClass::*)() const  >", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_08_01const_01_01_4.html", null ],
+    [ "ug::bridge::func_traits< TRet(TClass::*)() const >", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_08_01const_01_4.html", null ],
     [ "ug::bridge::func_traits< TRet(TClass::*)()>", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_08_4.html", null ],
-    [ "ug::bridge::func_traits< TRet(TClass::*)(P1) const  >", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_p1_08_01const_01_01_4.html", null ],
+    [ "ug::bridge::func_traits< TRet(TClass::*)(P1) const >", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_p1_08_01const_01_4.html", null ],
     [ "ug::bridge::func_traits< TRet(TClass::*)(P1)>", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_p1_08_4.html", null ],
-    [ "ug::bridge::func_traits< TRet(TClass::*)(T1, T2) const  >", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_t1_00_01_t2_08_01const_01_01_4.html", null ],
+    [ "ug::bridge::func_traits< TRet(TClass::*)(T1, T2) const >", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_t1_00_01_t2_08_01const_01_4.html", null ],
     [ "ug::bridge::func_traits< TRet(TClass::*)(T1, T2)>", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_t1_00_01_t2_08_4.html", null ],
-    [ "ug::bridge::func_traits< TRet(TClass::*)(T1, T2, T3) const  >", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_t1_00_01_t2_00_01_t3_08_01const_01_01_4.html", null ],
+    [ "ug::bridge::func_traits< TRet(TClass::*)(T1, T2, T3) const >", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_t1_00_01_t2_00_01_t3_08_01const_01_4.html", null ],
     [ "ug::bridge::func_traits< TRet(TClass::*)(T1, T2, T3)>", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_t1_00_01_t2_00_01_t3_08_4.html", null ],
-    [ "ug::bridge::func_traits< TRet(TClass::*)(T1, T2, T3, T4) const  >", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_t1_00_01_t2_00_01_t3_00_01_t4_08_01const_01_01_4.html", null ],
+    [ "ug::bridge::func_traits< TRet(TClass::*)(T1, T2, T3, T4) const >", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_t1_00_01_t2_00_01_t3_00_01_t4_08_01const_01_4.html", null ],
     [ "ug::bridge::func_traits< TRet(TClass::*)(T1, T2, T3, T4)>", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_t1_00_01_t2_00_01_t3_00_01_t4_08_4.html", null ],
-    [ "ug::bridge::func_traits< TRet(TClass::*)(T1, T2, T3, T4, T5) const  >", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_t1_00_01_t2_00_01_t3_00_01_t4_00_01_t5_08_01const_01_01_4.html", null ],
+    [ "ug::bridge::func_traits< TRet(TClass::*)(T1, T2, T3, T4, T5) const >", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_t1_00_01_t2_00_01_t3_00_01_t4_00_01_t5_08_01const_01_4.html", null ],
     [ "ug::bridge::func_traits< TRet(TClass::*)(T1, T2, T3, T4, T5)>", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_t1_00_01_t2_00_01_t3_00_01_t4_00_01_t5_08_4.html", null ],
-    [ "ug::bridge::func_traits< TRet(TClass::*)(T1, T2, T3, T4, T5, T6) const  >", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_t1_00_01_t2_00_01_t3_00_01_ab9b45370d4a68268e5b5a961c42f191.html", null ],
+    [ "ug::bridge::func_traits< TRet(TClass::*)(T1, T2, T3, T4, T5, T6) const >", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_t1_00_01_t2_00_01_t3_00_01_6c7ee419dca27a705cab3f0b5cd713e7.html", null ],
     [ "ug::bridge::func_traits< TRet(TClass::*)(T1, T2, T3, T4, T5, T6)>", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_t1_00_01_t2_00_01_t3_00_01_t4_00_01_t5_00_01_t6_08_4.html", null ],
-    [ "ug::bridge::func_traits< TRet(TClass::*)(T1, T2, T3, T4, T5, T6, T7) const  >", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_t1_00_01_t2_00_01_t3_00_01_5674b0e39e4c04460edec85dde39e920.html", null ],
+    [ "ug::bridge::func_traits< TRet(TClass::*)(T1, T2, T3, T4, T5, T6, T7) const >", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_t1_00_01_t2_00_01_t3_00_01_6ca37b771f43f6acfae21057c11e2c47.html", null ],
     [ "ug::bridge::func_traits< TRet(TClass::*)(T1, T2, T3, T4, T5, T6, T7)>", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_t1_00_01_t2_00_01_t3_00_01_52ef2d15f2c1f5b632be8ef1b53c4689.html", null ],
-    [ "ug::bridge::func_traits< TRet(TClass::*)(T1, T2, T3, T4, T5, T6, T7, T8) const  >", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_t1_00_01_t2_00_01_t3_00_01_96f1b29868743d5977c3d42d389f3344.html", null ],
+    [ "ug::bridge::func_traits< TRet(TClass::*)(T1, T2, T3, T4, T5, T6, T7, T8) const >", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_t1_00_01_t2_00_01_t3_00_01_1c91dfac9b1931146ee45e252b0f5eef.html", null ],
     [ "ug::bridge::func_traits< TRet(TClass::*)(T1, T2, T3, T4, T5, T6, T7, T8)>", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_t1_00_01_t2_00_01_t3_00_01_0e3578a5dd3f9087b31c3aa66d61a30a.html", null ],
-    [ "ug::bridge::func_traits< TRet(TClass::*)(T1, T2, T3, T4, T5, T6, T7, T8, T9) const  >", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_t1_00_01_t2_00_01_t3_00_01_32606d2ec1ee7ef9ae8cfff9265b6d66.html", null ],
+    [ "ug::bridge::func_traits< TRet(TClass::*)(T1, T2, T3, T4, T5, T6, T7, T8, T9) const >", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_t1_00_01_t2_00_01_t3_00_01_06b709940731231bc894959460b0f916.html", null ],
     [ "ug::bridge::func_traits< TRet(TClass::*)(T1, T2, T3, T4, T5, T6, T7, T8, T9)>", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_t1_00_01_t2_00_01_t3_00_01_3956875bc4b0ef6c488e0d651ee0f185.html", null ],
     [ "ug::FunctionPattern::Function", "structug_1_1_function_pattern_1_1_function.html", null ],
     [ "ug::bridge::LuaUserData::Functionality", "structug_1_1bridge_1_1_lua_user_data_1_1_functionality.html", null ],
@@ -920,21 +899,21 @@ var hierarchy =
     [ "ug::bridge::DomainDisc::Functionality", "structug_1_1bridge_1_1_domain_disc_1_1_functionality.html", null ],
     [ "ug::bridge::ElemDiscs::Functionality", "structug_1_1bridge_1_1_elem_discs_1_1_functionality.html", null ],
     [ "ug::bridge::Evaluate::Functionality", "structug_1_1bridge_1_1_evaluate_1_1_functionality.html", null ],
-    [ "ug::bridge::GridFunction::Functionality", "structug_1_1bridge_1_1_grid_function_1_1_functionality.html", null ],
     [ "ug::bridge::FiniteVolume::Functionality", "structug_1_1bridge_1_1_finite_volume_1_1_functionality.html", null ],
+    [ "ug::bridge::GridFunction::Functionality", "structug_1_1bridge_1_1_grid_function_1_1_functionality.html", null ],
     [ "ug::bridge::Integrate::Functionality", "structug_1_1bridge_1_1_integrate_1_1_functionality.html", null ],
     [ "ug::bridge::Interpolate::Functionality", "structug_1_1bridge_1_1_interpolate_1_1_functionality.html", null ],
-    [ "ug::bridge::MaxError::Functionality", "structug_1_1bridge_1_1_max_error_1_1_functionality.html", null ],
     [ "ug::bridge::Functionality", "structug_1_1bridge_1_1_functionality.html", null ],
+    [ "ug::bridge::MaxError::Functionality", "structug_1_1bridge_1_1_max_error_1_1_functionality.html", null ],
     [ "ug::bridge::MultiGrid::Functionality", "structug_1_1bridge_1_1_multi_grid_1_1_functionality.html", null ],
     [ "ug::bridge::Ordering::Functionality", "structug_1_1bridge_1_1_ordering_1_1_functionality.html", null ],
     [ "ug::bridge::Output::Functionality", "structug_1_1bridge_1_1_output_1_1_functionality.html", null ],
-    [ "ug::bridge::UserDataBridge::Functionality", "structug_1_1bridge_1_1_user_data_bridge_1_1_functionality.html", null ],
     [ "ug::bridge::Domain::Functionality", "structug_1_1bridge_1_1_domain_1_1_functionality.html", null ],
+    [ "ug::bridge::UserDataBridge::Functionality", "structug_1_1bridge_1_1_user_data_bridge_1_1_functionality.html", null ],
     [ "ug::bridge::LoadBalancing::Functionality", "structug_1_1bridge_1_1_load_balancing_1_1_functionality.html", null ],
     [ "ug::bridge::periodicBoundary::Functionality", "structug_1_1bridge_1_1periodic_boundary_1_1_functionality.html", null ],
-    [ "ug::bridge::Refinement::Functionality", "structug_1_1bridge_1_1_refinement_1_1_functionality.html", null ],
     [ "ug::bridge::domain_ray_tracing::Functionality", "structug_1_1bridge_1_1domain__ray__tracing_1_1_functionality.html", null ],
+    [ "ug::bridge::Refinement::Functionality", "structug_1_1bridge_1_1_refinement_1_1_functionality.html", null ],
     [ "ug::bridge::Selection::Functionality", "structug_1_1bridge_1_1_selection_1_1_functionality.html", null ],
     [ "ug::bridge::Transform::Functionality", "structug_1_1bridge_1_1_transform_1_1_functionality.html", null ],
     [ "ug::bridge::Domain::Functionality2d3d", "structug_1_1bridge_1_1_domain_1_1_functionality2d3d.html", null ],
@@ -1001,6 +980,7 @@ var hierarchy =
       [ "ug::HFV1Geometry< TElem, TWorldDim >", "classug_1_1_h_f_v1_geometry.html", null ]
     ] ],
     [ "ug::fvho_traits< TOrder, TRefElem, TWorldDim >", "structug_1_1fvho__traits.html", null ],
+    [ "ug::FVSingularSourcesAndSinks< dim, TPointData, TLineData >", "classug_1_1_f_v_singular_sources_and_sinks.html", null ],
     [ "ug::GaussQuadBase< TImpl, TDim, TOrder, TNip >", "classug_1_1_gauss_quad_base.html", null ],
     [ "ug::GaussQuadBase< GaussQuadrature< ReferenceEdge, 1 >, 1, 1, 1 >", "classug_1_1_gauss_quad_base.html", [
       [ "ug::GaussQuadrature< ReferenceEdge, 1 >", "classug_1_1_gauss_quadrature_3_01_reference_edge_00_011_01_4.html", [
@@ -1205,6 +1185,29 @@ var hierarchy =
     ] ],
     [ "ug::GaussQuadBase< GaussQuadrature< ReferenceTriangle, 9 >, 2, 9, 19 >", "classug_1_1_gauss_quad_base.html", [
       [ "ug::GaussQuadrature< ReferenceTriangle, 9 >", "classug_1_1_gauss_quadrature_3_01_reference_triangle_00_019_01_4.html", null ]
+    ] ],
+    [ "ug::GaussQuadBase< GaussQuadrature< ReferenceVertex, 0 >, 0, 0, 1 >", "classug_1_1_gauss_quad_base.html", [
+      [ "ug::GaussQuadrature< ReferenceVertex, 0 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_010_01_4.html", [
+        [ "ug::GaussQuadrature< ReferenceVertex, 1 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_011_01_4.html", null ],
+        [ "ug::GaussQuadrature< ReferenceVertex, 10 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_0110_01_4.html", null ],
+        [ "ug::GaussQuadrature< ReferenceVertex, 11 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_0111_01_4.html", null ],
+        [ "ug::GaussQuadrature< ReferenceVertex, 12 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_0112_01_4.html", null ],
+        [ "ug::GaussQuadrature< ReferenceVertex, 13 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_0113_01_4.html", null ],
+        [ "ug::GaussQuadrature< ReferenceVertex, 14 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_0114_01_4.html", null ],
+        [ "ug::GaussQuadrature< ReferenceVertex, 15 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_0115_01_4.html", null ],
+        [ "ug::GaussQuadrature< ReferenceVertex, 16 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_0116_01_4.html", null ],
+        [ "ug::GaussQuadrature< ReferenceVertex, 17 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_0117_01_4.html", null ],
+        [ "ug::GaussQuadrature< ReferenceVertex, 18 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_0118_01_4.html", null ],
+        [ "ug::GaussQuadrature< ReferenceVertex, 19 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_0119_01_4.html", null ],
+        [ "ug::GaussQuadrature< ReferenceVertex, 2 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_012_01_4.html", null ],
+        [ "ug::GaussQuadrature< ReferenceVertex, 3 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_013_01_4.html", null ],
+        [ "ug::GaussQuadrature< ReferenceVertex, 4 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_014_01_4.html", null ],
+        [ "ug::GaussQuadrature< ReferenceVertex, 5 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_015_01_4.html", null ],
+        [ "ug::GaussQuadrature< ReferenceVertex, 6 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_016_01_4.html", null ],
+        [ "ug::GaussQuadrature< ReferenceVertex, 7 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_017_01_4.html", null ],
+        [ "ug::GaussQuadrature< ReferenceVertex, 8 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_018_01_4.html", null ],
+        [ "ug::GaussQuadrature< ReferenceVertex, 9 >", "classug_1_1_gauss_quadrature_3_01_reference_vertex_00_019_01_4.html", null ]
+      ] ]
     ] ],
     [ "ug::GaussQuadrature< TRefElem, order >", "classug_1_1_gauss_quadrature.html", null ],
     [ "ug::GenerateOverlapClass< matrix_type >", "classug_1_1_generate_overlap_class.html", null ],
@@ -1488,9 +1491,9 @@ var hierarchy =
         [ "ug::EnergyConvCheck< TVector >", "classug_1_1_energy_conv_check.html", null ]
       ] ]
     ] ],
-    [ "ug::IConvergenceCheck< algebra_type::vector_type >", "classug_1_1_i_convergence_check.html", null ],
+    [ "ug::IConvergenceCheck< algebra_type ::vector_type >", "classug_1_1_i_convergence_check.html", null ],
+    [ "ug::IConvergenceCheck< ParallelVector< Vector< double > > >", "classug_1_1_i_convergence_check.html", null ],
     [ "ug::IConvergenceCheck< TAlgebra::vector_type >", "classug_1_1_i_convergence_check.html", null ],
-    [ "ug::IConvergenceCheck< ug::CPUAlgebra::vector_type >", "classug_1_1_i_convergence_check.html", null ],
     [ "ug::IConvergenceCheck< vector_type >", "classug_1_1_i_convergence_check.html", null ],
     [ "ug::IConvergenceCheck< X >", "classug_1_1_i_convergence_check.html", null ],
     [ "ug::IDamping< X, Y >", "classug_1_1_i_damping.html", [
@@ -1498,10 +1501,11 @@ var hierarchy =
       [ "ug::MinimalEnergyDamping< X, Y >", "classug_1_1_minimal_energy_damping.html", null ],
       [ "ug::MinimalResiduumDamping< X, Y >", "classug_1_1_minimal_residuum_damping.html", null ]
     ] ],
-    [ "ug::IDamping< algebra_type::vector_type, algebra_type::vector_type >", "classug_1_1_i_damping.html", null ],
+    [ "ug::IDamping< algebra_type ::vector_type, algebra_type ::vector_type >", "classug_1_1_i_damping.html", null ],
+    [ "ug::IDamping< ParallelVector< Vector< double > >, ParallelVector< Vector< double > > >", "classug_1_1_i_damping.html", null ],
     [ "ug::IDamping< TAlgebra::vector_type, TAlgebra::vector_type >", "classug_1_1_i_damping.html", null ],
     [ "ug::IDamping< TVector, TVector >", "classug_1_1_i_damping.html", null ],
-    [ "ug::IDamping< ug::CPUAlgebra::vector_type, ug::CPUAlgebra::vector_type >", "classug_1_1_i_damping.html", null ],
+    [ "ug::IDamping< ug::CPUAlgebra ::vector_type, ug::CPUAlgebra ::vector_type >", "classug_1_1_i_damping.html", null ],
     [ "ug::IDamping< vector_type, vector_type >", "classug_1_1_i_damping.html", null ],
     [ "ug::IDamping< X, X >", "classug_1_1_i_damping.html", null ],
     [ "ug::IDataImport< dim >", "classug_1_1_i_data_import.html", [
@@ -1521,6 +1525,9 @@ var hierarchy =
     [ "pcl::IDomainDecompositionInfo", "classpcl_1_1_i_domain_decomposition_info.html", [
       [ "pcl::StandardDomainDecompositionInfo", "classpcl_1_1_standard_domain_decomposition_info.html", null ]
     ] ],
+    [ "ug::IDualGraphNeighborCollector", "classug_1_1_i_dual_graph_neighbor_collector.html", [
+      [ "ug::DualGraphNeighborCollector< TBaseElem >", "classug_1_1_dual_graph_neighbor_collector.html", null ]
+    ] ],
     [ "ug::IDWInterpolation< WDim, TPntIterator, TData >", "classug_1_1_i_d_w_interpolation.html", null ],
     [ "ug::IEigensolver< X, Y >", "classug_1_1_i_eigensolver.html", null ],
     [ "ug::IElemDisc< TDomain >", "classug_1_1_i_elem_disc.html", [
@@ -1535,9 +1542,11 @@ var hierarchy =
     [ "ug::IElementMarkingStrategy< TDomain >", "structug_1_1_i_element_marking_strategy.html", [
       [ "ug::AbsoluteMarking< TDomain >", "classug_1_1_absolute_marking.html", null ],
       [ "ug::EquilibrationMarkingStrategy< TDomain >", "classug_1_1_equilibration_marking_strategy.html", null ],
+      [ "ug::GlobalMarking< TDomain >", "classug_1_1_global_marking.html", null ],
       [ "ug::MaximumMarking< TDomain >", "classug_1_1_maximum_marking.html", null ],
       [ "ug::MeanValueMarking< TDomain >", "classug_1_1_mean_value_marking.html", null ],
-      [ "ug::StdMarkingStrategy< TDomain >", "classug_1_1_std_marking_strategy.html", null ],
+      [ "ug::StdCoarseningMarkingStrategy< TDomain >", "classug_1_1_std_coarsening_marking_strategy.html", null ],
+      [ "ug::StdRefinementMarkingStrategy< TDomain >", "classug_1_1_std_refinement_marking_strategy.html", null ],
       [ "ug::VarianceMarking< TDomain >", "classug_1_1_variance_marking.html", null ],
       [ "ug::VarianceMarkingEta< TDomain >", "classug_1_1_variance_marking_eta.html", null ]
     ] ],
@@ -1594,6 +1603,10 @@ var hierarchy =
     [ "ug::GlobalAttachments::IFunctionEntry", "structug_1_1_global_attachments_1_1_i_function_entry.html", [
       [ "ug::GlobalAttachments::FunctionEntry< TElem, TAttachment >", "structug_1_1_global_attachments_1_1_function_entry.html", null ]
     ] ],
+    [ "ug::IGeometry< dim >", "classug_1_1_i_geometry.html", [
+      [ "ug::Geometry< 3, 3 >", "classug_1_1_geometry.html", null ],
+      [ "ug::Geometry< dim, attachmentDim >", "classug_1_1_geometry.html", null ]
+    ] ],
     [ "ug::IGridFunction", "classug_1_1_i_grid_function.html", [
       [ "ug::GridFunction< TDomain, TAlgebra >", "classug_1_1_grid_function.html", null ]
     ] ],
@@ -1638,14 +1651,21 @@ var hierarchy =
         [ "ug::IMatrixOperatorInverse< M, X, Y >", "classug_1_1_i_matrix_operator_inverse.html", null ]
       ] ]
     ] ],
-    [ "ug::ILinearIterator< algebra_type::vector_type >", "classug_1_1_i_linear_iterator.html", [
+    [ "ug::ILinearIterator< algebra_type ::vector_type >", "classug_1_1_i_linear_iterator.html", [
       [ "ug::IPreconditioner< algebra_type >", "classug_1_1_i_preconditioner.html", [
         [ "ug::ILUTScalarPreconditioner< algebra_type >", "classug_1_1_i_l_u_t_scalar_preconditioner.html", null ]
       ] ]
     ] ],
-    [ "ug::ILinearIterator< algebra_type::vector_type, algebra_type::vector_type >", "classug_1_1_i_linear_iterator.html", [
-      [ "ug::ILinearOperatorInverse< algebra_type::vector_type, algebra_type::vector_type >", "classug_1_1_i_linear_operator_inverse.html", [
+    [ "ug::ILinearIterator< algebra_type ::vector_type, algebra_type ::vector_type >", "classug_1_1_i_linear_iterator.html", [
+      [ "ug::ILinearOperatorInverse< algebra_type ::vector_type, algebra_type ::vector_type >", "classug_1_1_i_linear_operator_inverse.html", [
         [ "ug::PrimalSubassembledMatrixInverse< algebra_type >", "classug_1_1_primal_subassembled_matrix_inverse.html", null ]
+      ] ]
+    ] ],
+    [ "ug::ILinearIterator< ParallelVector< Vector< double > >, ParallelVector< Vector< double > > >", "classug_1_1_i_linear_iterator.html", [
+      [ "ug::ILinearOperatorInverse< ParallelVector< Vector< double > > >", "classug_1_1_i_linear_operator_inverse.html", [
+        [ "ug::IPreconditionedLinearOperatorInverse< ParallelVector< Vector< double > > >", "classug_1_1_i_preconditioned_linear_operator_inverse.html", [
+          [ "ug::LinearSolver< ParallelVector< Vector< double > > >", "classug_1_1_linear_solver.html", null ]
+        ] ]
       ] ]
     ] ],
     [ "ug::ILinearIterator< TAlgebra::vector_type >", "classug_1_1_i_linear_iterator.html", [
@@ -1717,16 +1737,9 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
-    [ "ug::ILinearIterator< ug::CPUAlgebra::vector_type >", "classug_1_1_i_linear_iterator.html", [
+    [ "ug::ILinearIterator< ug::CPUAlgebra ::vector_type >", "classug_1_1_i_linear_iterator.html", [
       [ "ug::IPreconditioner< ug::CPUAlgebra >", "classug_1_1_i_preconditioner.html", [
         [ "ug::ILUTPreconditioner< ug::CPUAlgebra >", "classug_1_1_i_l_u_t_preconditioner.html", null ]
-      ] ]
-    ] ],
-    [ "ug::ILinearIterator< ug::CPUAlgebra::vector_type, ug::CPUAlgebra::vector_type >", "classug_1_1_i_linear_iterator.html", [
-      [ "ug::ILinearOperatorInverse< ug::CPUAlgebra::vector_type >", "classug_1_1_i_linear_operator_inverse.html", [
-        [ "ug::IPreconditionedLinearOperatorInverse< ug::CPUAlgebra::vector_type >", "classug_1_1_i_preconditioned_linear_operator_inverse.html", [
-          [ "ug::LinearSolver< ug::CPUAlgebra::vector_type >", "classug_1_1_linear_solver.html", null ]
-        ] ]
       ] ]
     ] ],
     [ "ug::ILinearIterator< vector_type >", "classug_1_1_i_linear_iterator.html", null ],
@@ -1778,16 +1791,21 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
-    [ "ug::IOperator< algebra_type::vector_type >", "classug_1_1_i_operator.html", [
+    [ "ug::IOperator< algebra_type ::vector_type >", "classug_1_1_i_operator.html", [
       [ "ug::AssembledOperator< algebra_type >", "classug_1_1_assembled_operator.html", null ]
     ] ],
-    [ "ug::IOperator< algebra_type::vector_type, algebra_type::vector_type >", "classug_1_1_i_operator.html", [
-      [ "ug::ILinearOperator< algebra_type::vector_type, algebra_type::vector_type >", "classug_1_1_i_linear_operator.html", [
+    [ "ug::IOperator< algebra_type ::vector_type, algebra_type ::vector_type >", "classug_1_1_i_operator.html", [
+      [ "ug::ILinearOperator< algebra_type ::vector_type, algebra_type ::vector_type >", "classug_1_1_i_linear_operator.html", [
         [ "ug::LocalSchurComplement< algebra_type >", "classug_1_1_local_schur_complement.html", null ],
-        [ "ug::MatrixOperator< algebra_type::matrix_type, algebra_type::vector_type >", "classug_1_1_matrix_operator.html", [
+        [ "ug::MatrixOperator< algebra_type ::matrix_type, algebra_type ::vector_type >", "classug_1_1_matrix_operator.html", [
           [ "ug::AssembledLinearOperator< algebra_type >", "classug_1_1_assembled_linear_operator.html", null ]
         ] ],
         [ "ug::SchurComplementOperator< algebra_type >", "classug_1_1_schur_complement_operator.html", null ]
+      ] ]
+    ] ],
+    [ "ug::IOperator< ParallelVector< Vector< double > >, ParallelVector< Vector< double > > >", "classug_1_1_i_operator.html", [
+      [ "ug::ILinearOperator< ParallelVector< Vector< double > >, ParallelVector< Vector< double > > >", "classug_1_1_i_linear_operator.html", [
+        [ "ug::MatrixOperator< ug::ParallelMatrix, ParallelVector< Vector< double > > >", "classug_1_1_matrix_operator.html", null ]
       ] ]
     ] ],
     [ "ug::IOperator< TAlgebra::vector_type >", "classug_1_1_i_operator.html", [
@@ -1805,11 +1823,6 @@ var hierarchy =
     [ "ug::IOperator< TVector, TVector >", "classug_1_1_i_operator.html", [
       [ "ug::ILinearOperator< TVector >", "classug_1_1_i_linear_operator.html", null ],
       [ "ug::ILinearOperator< TVector, TVector >", "classug_1_1_i_linear_operator.html", null ]
-    ] ],
-    [ "ug::IOperator< ug::CPUAlgebra::vector_type, ug::CPUAlgebra::vector_type >", "classug_1_1_i_operator.html", [
-      [ "ug::ILinearOperator< ug::CPUAlgebra::vector_type, ug::CPUAlgebra::vector_type >", "classug_1_1_i_linear_operator.html", [
-        [ "ug::MatrixOperator< ug::CPUAlgebra::matrix_type, ug::CPUAlgebra::vector_type >", "classug_1_1_matrix_operator.html", null ]
-      ] ]
     ] ],
     [ "ug::IOperator< vector_type, vector_type >", "classug_1_1_i_operator.html", [
       [ "ug::ILinearOperator< vector_type >", "classug_1_1_i_linear_operator.html", null ],
@@ -1846,22 +1859,6 @@ var hierarchy =
     [ "ug::IPositionProvider< TGridFunction::domain_type::dim >", "classug_1_1_i_position_provider.html", [
       [ "ug::GridFunctionPositionProvider< TGridFunction >", "classug_1_1_grid_function_position_provider.html", null ]
     ] ],
-    [ "ug::IRefinementCallback", "classug_1_1_i_refinement_callback.html", [
-      [ "ug::RefinementCallbackLinear< APosition >", "classug_1_1_refinement_callback_linear.html", [
-        [ "ug::FractalProjector", "classug_1_1_fractal_projector.html", null ],
-        [ "ug::RefinementCallback_IntersectCylinder", "classug_1_1_refinement_callback___intersect_cylinder.html", null ],
-        [ "ug::RefinementCallbackEdgePlaneCut", "classug_1_1_refinement_callback_edge_plane_cut.html", null ]
-      ] ],
-      [ "ug::CylinderProjector< TAPosition >", "classug_1_1_cylinder_projector.html", null ],
-      [ "ug::CylindricalFalloffProjector< TAPosition >", "classug_1_1_cylindrical_falloff_projector.html", null ],
-      [ "ug::RefinementCallbackLinear< TAPosition >", "classug_1_1_refinement_callback_linear.html", [
-        [ "ug::SubdivisionLoopBoundaryProjector< TAPosition >", "classug_1_1_subdivision_loop_boundary_projector.html", null ],
-        [ "ug::SubdivisionLoopProjector< TAPosition >", "classug_1_1_subdivision_loop_projector.html", null ]
-      ] ],
-      [ "ug::RefinementProjectionHandler< TAPosition >", "classug_1_1_refinement_projection_handler.html", null ],
-      [ "ug::SphereProjector< TAPosition >", "classug_1_1_sphere_projector.html", null ],
-      [ "ug::SphericalFalloffProjector< TAPosition >", "classug_1_1_spherical_falloff_projector.html", null ]
-    ] ],
     [ "ug::IRefiner", "classug_1_1_i_refiner.html", [
       [ "ug::HangingNodeRefinerBase< MGSelector >", "classug_1_1_hanging_node_refiner_base.html", null ],
       [ "ug::HangingNodeRefinerBase< Selector >", "classug_1_1_hanging_node_refiner_base.html", null ],
@@ -1882,27 +1879,24 @@ var hierarchy =
       [ "ug::SchurInverseWithFullMatrix< TAlgebra >", "classug_1_1_schur_inverse_with_full_matrix.html", null ],
       [ "ug::SchurInverseWithOperator< TAlgebra >", "classug_1_1_schur_inverse_with_operator.html", null ]
     ] ],
-    [ "ug::IsInSubset", "classug_1_1_is_in_subset.html", null ],
-    [ "ug::IsMarked", "classug_1_1_is_marked.html", null ],
-    [ "ug::IsNotInSubset", "classug_1_1_is_not_in_subset.html", null ],
-    [ "ug::IsNotMarked", "classug_1_1_is_not_marked.html", null ],
-    [ "ug::IsNotOnBoundary", "classug_1_1_is_not_on_boundary.html", null ],
-    [ "ug::IsNotSelected", "classug_1_1_is_not_selected.html", null ],
-    [ "ug::IsOnBoundary", "classug_1_1_is_on_boundary.html", null ],
+    [ "ug::IsInSubGrid", "classug_1_1_is_in_sub_grid.html", null ],
+    [ "ug::IsNotInSubGrid", "classug_1_1_is_not_in_sub_grid.html", null ],
     [ "ug::IsRegularSurfaceElem", "classug_1_1_is_regular_surface_elem.html", null ],
-    [ "ug::IsSelected", "classug_1_1_is_selected.html", null ],
-    [ "ug::SliceIndexView< index_type >::iterator", "structug_1_1_slice_index_view_1_1iterator.html", null ],
-    [ "ug::BlockSliceIndexView< index_type >::iterator", "structug_1_1_block_slice_index_view_1_1iterator.html", null ],
-    [ "iterator", null, [
-      [ "ug::AssocElemIter< TElem, TAssocElem, VSorted >", "classug_1_1_assoc_elem_iter.html", null ],
-      [ "ug::AttachedElementListIterator< TAAEntry >", "classug_1_1_attached_element_list_iterator.html", null ],
-      [ "ug::ConstAttachedElementListIterator< TAAEntry >", "classug_1_1_const_attached_element_list_iterator.html", null ]
+    [ "ug::ISubGrid", "classug_1_1_i_sub_grid.html", [
+      [ "ug::SubGrid< TCallbackCls >", "classug_1_1_sub_grid.html", null ]
     ] ],
+    [ "ug::BlockSliceIndexView< index_type >::iterator", "structug_1_1_block_slice_index_view_1_1iterator.html", null ],
+    [ "ug::SliceIndexView< index_type >::iterator", "structug_1_1_slice_index_view_1_1iterator.html", null ],
     [ "iterator", null, [
       [ "ug::SparseVector< T >::iterator", "classug_1_1_sparse_vector_1_1iterator.html", null ]
     ] ],
     [ "iterator", null, [
       [ "ug::MapSparseMatrix< TValueType >::row_iterator", "classug_1_1_map_sparse_matrix_1_1row__iterator.html", null ]
+    ] ],
+    [ "iterator", null, [
+      [ "ug::AssocElemIter< TElem, TAssocElem, VSorted >", "classug_1_1_assoc_elem_iter.html", null ],
+      [ "ug::AttachedElementListIterator< TAAEntry >", "classug_1_1_attached_element_list_iterator.html", null ],
+      [ "ug::ConstAttachedElementListIterator< TAAEntry >", "classug_1_1_const_attached_element_list_iterator.html", null ]
     ] ],
     [ "ug::IteratorProvider< T >", "structug_1_1_iterator_provider.html", null ],
     [ "ug::IteratorProvider< MGSubsetHandler >", "structug_1_1_iterator_provider_3_01_m_g_subset_handler_01_4.html", null ],
@@ -1916,7 +1910,7 @@ var hierarchy =
       [ "ug::AverageComponent< TDomain, TAlgebra >", "classug_1_1_average_component.html", null ]
     ] ],
     [ "ug::IVectorDebugWriter< TVector >", "classug_1_1_i_vector_debug_writer.html", null ],
-    [ "ug::IVectorDebugWriter< algebra_type::vector_type >", "classug_1_1_i_vector_debug_writer.html", [
+    [ "ug::IVectorDebugWriter< algebra_type ::vector_type >", "classug_1_1_i_vector_debug_writer.html", [
       [ "ug::IDebugWriter< algebra_type >", "classug_1_1_i_debug_writer.html", [
         [ "ug::AlgebraDebugWriter< algebra_type >", "classug_1_1_algebra_debug_writer.html", null ]
       ] ]
@@ -1978,6 +1972,7 @@ var hierarchy =
     [ "ug::lg_ntree_traits_base< 3, 3, elem_t, NTreeGridData< 3 > >", "structug_1_1lg__ntree__traits__base.html", [
       [ "ug::ntree_traits< 3, 3, elem_t, NTreeGridData< 3 > >", "structug_1_1ntree__traits_3_013_00_013_00_01elem__t_00_01_n_tree_grid_data_3_013_01_4_01_4.html", null ]
     ] ],
+    [ "ug::FVSingularSourcesAndSinks< dim, TPointData, TLineData >::line_iterator< TElem, TAAPos, TFVGeom >", "classug_1_1_f_v_singular_sources_and_sinks_1_1line__iterator.html", null ],
     [ "ug::LineSourceOrSink< dim, non >", "classug_1_1_line_source_or_sink.html", null ],
     [ "ug::linker_traits< TData, TDataIn, TRet >", "structug_1_1linker__traits.html", null ],
     [ "ug::linker_traits< MathMatrix< dim, dim >, number >", "structug_1_1linker__traits_3_01_math_matrix_3_01dim_00_01dim_01_4_00_01number_01_4.html", null ],
@@ -2156,14 +2151,14 @@ var hierarchy =
     [ "ug::matrix_algebra_type_traits< ParallelMatrix< T > >", "structug_1_1matrix__algebra__type__traits_3_01_parallel_matrix_3_01_t_01_4_01_4.html", null ],
     [ "ug::matrix_algebra_type_traits< SparseMatrix< T > >", "structug_1_1matrix__algebra__type__traits_3_01_sparse_matrix_3_01_t_01_4_01_4.html", null ],
     [ "matrix_type", null, [
-      [ "ug::MatrixOperator< algebra_type::matrix_type, algebra_type::vector_type >", "classug_1_1_matrix_operator.html", null ]
+      [ "ug::MatrixOperator< matrix_type, vector_type >", "classug_1_1_matrix_operator.html", null ],
+      [ "ug::MatrixOperator< matrix_type, vector_type, vector_type >", "classug_1_1_matrix_operator.html", null ]
+    ] ],
+    [ "matrix_type", null, [
+      [ "ug::MatrixOperator< algebra_type ::matrix_type, algebra_type ::vector_type >", "classug_1_1_matrix_operator.html", null ]
     ] ],
     [ "matrix_type", null, [
       [ "ug::MatrixOperator< TAlgebra::matrix_type, TAlgebra::vector_type >", "classug_1_1_matrix_operator.html", null ]
-    ] ],
-    [ "matrix_type", null, [
-      [ "ug::MatrixOperator< matrix_type, vector_type >", "classug_1_1_matrix_operator.html", null ],
-      [ "ug::MatrixOperator< matrix_type, vector_type, vector_type >", "classug_1_1_matrix_operator.html", null ]
     ] ],
     [ "ug::MatrixFileType", "classug_1_1_matrix_file_type.html", null ],
     [ "ug::MatrixIO", "classug_1_1_matrix_i_o.html", [
@@ -2197,11 +2192,11 @@ var hierarchy =
     [ "ug::MGWrapper< TGrid >", "classug_1_1_m_g_wrapper.html", null ],
     [ "ug::MGWrapper< Grid >", "classug_1_1_m_g_wrapper_3_01_grid_01_4.html", null ],
     [ "ug::MGWrapper< MultiGrid >", "classug_1_1_m_g_wrapper_3_01_multi_grid_01_4.html", null ],
-    [ "ug::HFV1ManifoldGeometry< TElem, TWorldDim >::MidID", "structug_1_1_h_f_v1_manifold_geometry_1_1_mid_i_d.html", null ],
     [ "ug::FV1ManifoldGeometry< TElem, TWorldDim >::MidID", "structug_1_1_f_v1_manifold_geometry_1_1_mid_i_d.html", null ],
     [ "ug::MidID", "structug_1_1_mid_i_d.html", null ],
-    [ "ug::HFV1Geometry< TElem, TWorldDim >::MidID", "structug_1_1_h_f_v1_geometry_1_1_mid_i_d.html", null ],
     [ "ug::DimHFV1Geometry< TDim, TWorldDim >::MidID", "structug_1_1_dim_h_f_v1_geometry_1_1_mid_i_d.html", null ],
+    [ "ug::HFV1Geometry< TElem, TWorldDim >::MidID", "structug_1_1_h_f_v1_geometry_1_1_mid_i_d.html", null ],
+    [ "ug::HFV1ManifoldGeometry< TElem, TWorldDim >::MidID", "structug_1_1_h_f_v1_manifold_geometry_1_1_mid_i_d.html", null ],
     [ "ug::MiniBubbleLSFS< TRefElem >", "classug_1_1_mini_bubble_l_s_f_s.html", null ],
     [ "ug::MMTypeCode", "classug_1_1_m_m_type_code.html", null ],
     [ "pcl::layout_tags::multi_level_layout_tag", "classpcl_1_1layout__tags_1_1multi__level__layout__tag.html", null ],
@@ -2210,7 +2205,7 @@ var hierarchy =
     [ "ug::MultiElementAttachmentAccessor< Attachment< SurfaceState > >", "classug_1_1_multi_element_attachment_accessor.html", null ],
     [ "ug::MultiElementAttachmentAccessor< Attachment< Values > >", "classug_1_1_multi_element_attachment_accessor.html", null ],
     [ "ug::MultiElementAttachmentAccessor< ug::Attachment >", "classug_1_1_multi_element_attachment_accessor.html", null ],
-    [ "ug::MultiElementAttachmentAccessor< ug::SurfaceView::ASurfaceState >", "classug_1_1_multi_element_attachment_accessor.html", null ],
+    [ "ug::Raster< T, TDIM >::MultiIndex", "classug_1_1_raster_1_1_multi_index.html", null ],
     [ "ug::MultiIndex< N, TSingleIndexType >", "classug_1_1_multi_index.html", null ],
     [ "ug::MultiIndex< 1, size_t >", "classug_1_1_multi_index_3_011_00_01size__t_01_4.html", null ],
     [ "ug::MultiIndex< 2, size_t >", "classug_1_1_multi_index_3_012_00_01size__t_01_4.html", null ],
@@ -2230,13 +2225,13 @@ var hierarchy =
     [ "ug::NedelecLSFS< TRefElement >", "classug_1_1_nedelec_l_s_f_s.html", null ],
     [ "ug::SubdivRules_PLoop::NeighborInfo", "structug_1_1_subdiv_rules___p_loop_1_1_neighbor_info.html", null ],
     [ "ug::DimHFV1Geometry< TDim, TWorldDim >::NewEdgeInfo", "structug_1_1_dim_h_f_v1_geometry_1_1_new_edge_info.html", null ],
-    [ "ug::HFV1Geometry< TElem, TWorldDim >::NewEdgeInfo", "structug_1_1_h_f_v1_geometry_1_1_new_edge_info.html", null ],
     [ "ug::HFV1ManifoldGeometry< TElem, TWorldDim >::NewEdgeInfo", "structug_1_1_h_f_v1_manifold_geometry_1_1_new_edge_info.html", null ],
+    [ "ug::HFV1Geometry< TElem, TWorldDim >::NewEdgeInfo", "structug_1_1_h_f_v1_geometry_1_1_new_edge_info.html", null ],
     [ "ug::NewLayoutCreator", "classug_1_1_new_layout_creator.html", null ],
     [ "ug::NewLayoutCreator::NewSlaveNotification", "structug_1_1_new_layout_creator_1_1_new_slave_notification.html", null ],
     [ "ug::ParallelNodes::NewSlaveNotification", "structug_1_1_parallel_nodes_1_1_new_slave_notification.html", null ],
-    [ "ug::ntree< tree_dim, world_dim, TElem, TCommonData >::Node", "structug_1_1ntree_1_1_node.html", null ],
     [ "ug::KDTree< point_t, data_t, real_t >::Node", "structug_1_1_k_d_tree_1_1_node.html", null ],
+    [ "ug::ntree< tree_dim, world_dim, TElem, TCommonData >::Node", "structug_1_1ntree_1_1_node.html", null ],
     [ "ug::KDTreeStatic< TPositionAttachment, numDimensions, TVector >::Node", "classug_1_1_k_d_tree_static_1_1_node.html", null ],
     [ "nodeType", "structnode_type.html", null ],
     [ "ug::bridge::NonAllowedName1", "classug_1_1bridge_1_1_non_allowed_name1.html", null ],
@@ -2260,7 +2255,6 @@ var hierarchy =
     [ "ug::vrl::NumberArray", "classug_1_1vrl_1_1_number_array.html", null ],
     [ "ug::DirichletBoundary< TDomain, TAlgebra >::NumberData", "structug_1_1_dirichlet_boundary_1_1_number_data.html", null ],
     [ "ug::IObstacleConstraint< TDomain, TAlgebra >::NumberData", "structug_1_1_i_obstacle_constraint_1_1_number_data.html", null ],
-    [ "ug::LoaderObj::Object", "classug_1_1_loader_obj_1_1_object.html", null ],
     [ "ug::node_tree::Object", "classug_1_1node__tree_1_1_object.html", [
       [ "ug::node_tree::Node", "classug_1_1node__tree_1_1_node.html", [
         [ "ug::node_tree::CollisionEdgesNode", "classug_1_1node__tree_1_1_collision_edges_node.html", null ],
@@ -2272,6 +2266,7 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
+    [ "ug::LoaderObj::Object", "classug_1_1_loader_obj_1_1_object.html", null ],
     [ "ug::OBJMaterial", "structug_1_1_o_b_j_material.html", null ],
     [ "ug::ObstacleInNormalDir< TDomain, TAlgebra >::obsDoFData", "structug_1_1_obstacle_in_normal_dir_1_1obs_do_f_data.html", null ],
     [ "ug::OctahedronClass", "classug_1_1_octahedron_class.html", null ],
@@ -2309,6 +2304,9 @@ var hierarchy =
     [ "ug::DoFCount::Cnt::PCnt", "structug_1_1_do_f_count_1_1_cnt_1_1_p_cnt.html", null ],
     [ "ug::PeriodicAttachmentAccessor< TElem, TAttachment >", "classug_1_1_periodic_attachment_accessor.html", null ],
     [ "ug::bridge::Piece", "classug_1_1bridge_1_1_piece.html", null ],
+    [ "ug::FVSingularSourcesAndSinks< dim, TPointData, TLineData >::point_iterator< TElem, TAAPos, TFVGeom >", "classug_1_1_f_v_singular_sources_and_sinks_1_1point__iterator.html", null ],
+    [ "boost::pointee< ConstSmartPtr< T > >", "structboost_1_1pointee_3_01_const_smart_ptr_3_01_t_01_4_01_4.html", null ],
+    [ "boost::pointee< SmartPtr< T > >", "structboost_1_1pointee_3_01_smart_ptr_3_01_t_01_4_01_4.html", null ],
     [ "ug::Pointer2Value< T >", "structug_1_1_pointer2_value.html", null ],
     [ "ug::Pointer2Value< T * >", "structug_1_1_pointer2_value_3_01_t_01_5_01_4.html", null ],
     [ "ug::PointerConstArray< TPtr >", "classug_1_1_pointer_const_array.html", null ],
@@ -2320,10 +2318,10 @@ var hierarchy =
       [ "ug::TruncatedEquidistantLagrange1D", "classug_1_1_truncated_equidistant_lagrange1_d.html", null ]
     ] ],
     [ "ug::PosAndIndex< dim >", "structug_1_1_pos_and_index.html", null ],
-    [ "ug::Pow< n, d >", "structug_1_1_pow.html", null ],
     [ "ug::ntree< tree_dim, world_dim, TElem, TCommonData >::pow< n, exponent >", "structug_1_1ntree_1_1pow.html", null ],
-    [ "ug::ntree< tree_dim, world_dim, TElem, TCommonData >::pow< n, 0 >", "structug_1_1ntree_1_1pow_3_01n_00_010_01_4.html", null ],
+    [ "ug::Pow< n, d >", "structug_1_1_pow.html", null ],
     [ "ug::Pow< n, 0 >", "structug_1_1_pow_3_01n_00_010_01_4.html", null ],
+    [ "ug::ntree< tree_dim, world_dim, TElem, TCommonData >::pow< n, 0 >", "structug_1_1ntree_1_1pow_3_01n_00_010_01_4.html", null ],
     [ "ug::PrimalConnection< TValue >", "structug_1_1_primal_connection.html", null ],
     [ "ug::vrl::PrintCondUserData2d< TData >", "classug_1_1vrl_1_1_print_cond_user_data2d.html", null ],
     [ "ug::vrl::PrintUserData2d< TData >", "classug_1_1vrl_1_1_print_user_data2d.html", null ],
@@ -2344,32 +2342,32 @@ var hierarchy =
     [ "ug::PtrToValueType< Volume * >", "structug_1_1_ptr_to_value_type_3_01_volume_01_5_01_4.html", null ],
     [ "ug::bridge::ParameterStack::PushType< T >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type.html", null ],
     [ "ug::bridge::ParameterInfo::PushType< T >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type.html", null ],
-    [ "ug::bridge::ParameterInfo::PushType< bool >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01bool_01_4.html", null ],
     [ "ug::bridge::ParameterStack::PushType< bool >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01bool_01_4.html", null ],
-    [ "ug::bridge::ParameterInfo::PushType< const char * >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01char_01_5_01_4.html", null ],
+    [ "ug::bridge::ParameterInfo::PushType< bool >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01bool_01_4.html", null ],
     [ "ug::bridge::ParameterStack::PushType< const char * >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01char_01_5_01_4.html", null ],
+    [ "ug::bridge::ParameterInfo::PushType< const char * >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01char_01_5_01_4.html", null ],
     [ "ug::bridge::ParameterStack::PushType< const std::string & >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1string_01_6_01_4.html", null ],
     [ "ug::bridge::ParameterInfo::PushType< const std::string & >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1string_01_6_01_4.html", null ],
-    [ "ug::bridge::ParameterStack::PushType< const std::vector< bool > & >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01bool_01_4_01_6_01_4.html", null ],
     [ "ug::bridge::ParameterInfo::PushType< const std::vector< bool > & >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01bool_01_4_01_6_01_4.html", null ],
-    [ "ug::bridge::ParameterStack::PushType< const std::vector< const char * > & >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01const_01char_01_5_01_4_01_6_01_4.html", null ],
+    [ "ug::bridge::ParameterStack::PushType< const std::vector< bool > &>", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01bool_01_4_01_6_4.html", null ],
     [ "ug::bridge::ParameterInfo::PushType< const std::vector< const char * > & >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01const_01char_01_5_01_4_01_6_01_4.html", null ],
+    [ "ug::bridge::ParameterStack::PushType< const std::vector< const char * > &>", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01const_01char_01_5_01_4_01_6_4.html", null ],
     [ "ug::bridge::ParameterStack::PushType< const std::vector< const T * > & >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01const_01_t_01_5_01_4_01_6_01_4.html", null ],
     [ "ug::bridge::ParameterInfo::PushType< const std::vector< const TClass * > & >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01const_01_t_class_01_5_01_4_01_6_01_4.html", null ],
     [ "ug::bridge::ParameterStack::PushType< const std::vector< ConstSmartPtr< T > > & >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01_const_smart_ptr_3_01_t_01_4_01_4_01_6_01_4.html", null ],
     [ "ug::bridge::ParameterInfo::PushType< const std::vector< ConstSmartPtr< TClass > > & >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01_const_smart_p4a5aa0b384e9330b6831793f642ec39c.html", null ],
-    [ "ug::bridge::ParameterStack::PushType< const std::vector< double > & >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01double_01_4_01_6_01_4.html", null ],
     [ "ug::bridge::ParameterInfo::PushType< const std::vector< double > & >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01double_01_4_01_6_01_4.html", null ],
+    [ "ug::bridge::ParameterStack::PushType< const std::vector< double > &>", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01double_01_4_01_6_4.html", null ],
     [ "ug::bridge::ParameterInfo::PushType< const std::vector< float > & >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01float_01_4_01_6_01_4.html", null ],
-    [ "ug::bridge::ParameterStack::PushType< const std::vector< float > & >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01float_01_4_01_6_01_4.html", null ],
-    [ "ug::bridge::ParameterStack::PushType< const std::vector< int > & >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01int_01_4_01_6_01_4.html", null ],
+    [ "ug::bridge::ParameterStack::PushType< const std::vector< float > &>", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01float_01_4_01_6_4.html", null ],
     [ "ug::bridge::ParameterInfo::PushType< const std::vector< int > & >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01int_01_4_01_6_01_4.html", null ],
+    [ "ug::bridge::ParameterStack::PushType< const std::vector< int > &>", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01int_01_4_01_6_4.html", null ],
     [ "ug::bridge::ParameterInfo::PushType< const std::vector< size_t > & >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01size__t_01_4_01_6_01_4.html", null ],
-    [ "ug::bridge::ParameterStack::PushType< const std::vector< size_t > & >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01size__t_01_4_01_6_01_4.html", null ],
+    [ "ug::bridge::ParameterStack::PushType< const std::vector< size_t > &>", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01size__t_01_4_01_6_4.html", null ],
     [ "ug::bridge::ParameterStack::PushType< const std::vector< SmartPtr< T > > & >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01_smart_ptr_3_01_t_01_4_01_4_01_6_01_4.html", null ],
     [ "ug::bridge::ParameterInfo::PushType< const std::vector< SmartPtr< TClass > > & >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01_smart_ptr_3_01_t_class_01_4_01_4_01_6_01_4.html", null ],
     [ "ug::bridge::ParameterInfo::PushType< const std::vector< std::string > & >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01std_1_1string_01_4_01_6_01_4.html", null ],
-    [ "ug::bridge::ParameterStack::PushType< const std::vector< std::string > & >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01std_1_1string_01_4_01_6_01_4.html", null ],
+    [ "ug::bridge::ParameterStack::PushType< const std::vector< std::string > &>", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01std_1_1string_01_4_01_6_4.html", null ],
     [ "ug::bridge::ParameterStack::PushType< const std::vector< T * > & >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01_t_01_5_01_4_01_6_01_4.html", null ],
     [ "ug::bridge::ParameterInfo::PushType< const std::vector< TClass * > & >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01_t_class_01_5_01_4_01_6_01_4.html", null ],
     [ "ug::bridge::ParameterStack::PushType< const T & >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01_t_01_6_01_4.html", null ],
@@ -2378,34 +2376,34 @@ var hierarchy =
     [ "ug::bridge::ParameterInfo::PushType< const TClass * >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01_t_class_01_5_01_4.html", null ],
     [ "ug::bridge::ParameterStack::PushType< ConstSmartPtr< T > >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01_const_smart_ptr_3_01_t_01_4_01_4.html", null ],
     [ "ug::bridge::ParameterInfo::PushType< ConstSmartPtr< TClass > >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01_const_smart_ptr_3_01_t_class_01_4_01_4.html", null ],
-    [ "ug::bridge::ParameterInfo::PushType< double >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01double_01_4.html", null ],
     [ "ug::bridge::ParameterStack::PushType< double >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01double_01_4.html", null ],
-    [ "ug::bridge::ParameterInfo::PushType< float >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01float_01_4.html", null ],
+    [ "ug::bridge::ParameterInfo::PushType< double >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01double_01_4.html", null ],
     [ "ug::bridge::ParameterStack::PushType< float >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01float_01_4.html", null ],
-    [ "ug::bridge::ParameterInfo::PushType< int >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01int_01_4.html", null ],
+    [ "ug::bridge::ParameterInfo::PushType< float >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01float_01_4.html", null ],
     [ "ug::bridge::ParameterStack::PushType< int >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01int_01_4.html", null ],
-    [ "ug::bridge::ParameterInfo::PushType< size_t >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01size__t_01_4.html", null ],
+    [ "ug::bridge::ParameterInfo::PushType< int >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01int_01_4.html", null ],
     [ "ug::bridge::ParameterStack::PushType< size_t >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01size__t_01_4.html", null ],
+    [ "ug::bridge::ParameterInfo::PushType< size_t >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01size__t_01_4.html", null ],
     [ "ug::bridge::ParameterStack::PushType< SmartPtr< T > >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01_smart_ptr_3_01_t_01_4_01_4.html", null ],
     [ "ug::bridge::ParameterInfo::PushType< SmartPtr< TClass > >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01_smart_ptr_3_01_t_class_01_4_01_4.html", null ],
     [ "ug::bridge::ParameterStack::PushType< std::string >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01std_1_1string_01_4.html", null ],
     [ "ug::bridge::ParameterInfo::PushType< std::string >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01std_1_1string_01_4.html", null ],
     [ "ug::bridge::ParameterStack::PushType< std::vector< bool > >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01std_1_1vector_3_01bool_01_4_01_4.html", null ],
     [ "ug::bridge::ParameterInfo::PushType< std::vector< bool > >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01std_1_1vector_3_01bool_01_4_01_4.html", null ],
-    [ "ug::bridge::ParameterInfo::PushType< std::vector< const char * > >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01std_1_1vector_3_01const_01char_01_5_01_4_01_4.html", null ],
     [ "ug::bridge::ParameterStack::PushType< std::vector< const char * > >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01std_1_1vector_3_01const_01char_01_5_01_4_01_4.html", null ],
+    [ "ug::bridge::ParameterInfo::PushType< std::vector< const char * > >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01std_1_1vector_3_01const_01char_01_5_01_4_01_4.html", null ],
     [ "ug::bridge::ParameterStack::PushType< std::vector< const T * > >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01std_1_1vector_3_01const_01_t_01_5_01_4_01_4.html", null ],
     [ "ug::bridge::ParameterInfo::PushType< std::vector< const TClass * > >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01std_1_1vector_3_01const_01_t_class_01_5_01_4_01_4.html", null ],
     [ "ug::bridge::ParameterStack::PushType< std::vector< ConstSmartPtr< T > > >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01std_1_1vector_3_01_const_smart_ptr_3_01_t_01_4_01_4_01_4.html", null ],
     [ "ug::bridge::ParameterInfo::PushType< std::vector< ConstSmartPtr< TClass > > >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01std_1_1vector_3_01_const_smart_ptr_3_01_t_class_01_4_01_4_01_4.html", null ],
-    [ "ug::bridge::ParameterInfo::PushType< std::vector< double > >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01std_1_1vector_3_01double_01_4_01_4.html", null ],
     [ "ug::bridge::ParameterStack::PushType< std::vector< double > >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01std_1_1vector_3_01double_01_4_01_4.html", null ],
-    [ "ug::bridge::ParameterInfo::PushType< std::vector< float > >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01std_1_1vector_3_01float_01_4_01_4.html", null ],
+    [ "ug::bridge::ParameterInfo::PushType< std::vector< double > >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01std_1_1vector_3_01double_01_4_01_4.html", null ],
     [ "ug::bridge::ParameterStack::PushType< std::vector< float > >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01std_1_1vector_3_01float_01_4_01_4.html", null ],
+    [ "ug::bridge::ParameterInfo::PushType< std::vector< float > >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01std_1_1vector_3_01float_01_4_01_4.html", null ],
     [ "ug::bridge::ParameterStack::PushType< std::vector< int > >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01std_1_1vector_3_01int_01_4_01_4.html", null ],
     [ "ug::bridge::ParameterInfo::PushType< std::vector< int > >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01std_1_1vector_3_01int_01_4_01_4.html", null ],
-    [ "ug::bridge::ParameterInfo::PushType< std::vector< size_t > >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01std_1_1vector_3_01size__t_01_4_01_4.html", null ],
     [ "ug::bridge::ParameterStack::PushType< std::vector< size_t > >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01std_1_1vector_3_01size__t_01_4_01_4.html", null ],
+    [ "ug::bridge::ParameterInfo::PushType< std::vector< size_t > >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01std_1_1vector_3_01size__t_01_4_01_4.html", null ],
     [ "ug::bridge::ParameterStack::PushType< std::vector< SmartPtr< T > > >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01std_1_1vector_3_01_smart_ptr_3_01_t_01_4_01_4_01_4.html", null ],
     [ "ug::bridge::ParameterInfo::PushType< std::vector< SmartPtr< TClass > > >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01std_1_1vector_3_01_smart_ptr_3_01_t_class_01_4_01_4_01_4.html", null ],
     [ "ug::bridge::ParameterStack::PushType< std::vector< std::string > >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01std_1_1vector_3_01std_1_1string_01_4_01_4.html", null ],
@@ -2447,6 +2445,7 @@ var hierarchy =
     ] ],
     [ "ug::QuadratureRuleProvider< TDim >", "classug_1_1_quadrature_rule_provider.html", null ],
     [ "ug::QuadrilateralDescriptor", "classug_1_1_quadrilateral_descriptor.html", null ],
+    [ "ug::Raster< T, TDIM >", "classug_1_1_raster.html", null ],
     [ "ug::RasterLayerDesc", "structug_1_1_raster_layer_desc.html", null ],
     [ "ug::RasterLayers", "classug_1_1_raster_layers.html", null ],
     [ "ug::RayElemIntersectionRecord< TElem >", "structug_1_1_ray_elem_intersection_record.html", null ],
@@ -2498,10 +2497,19 @@ var hierarchy =
     [ "ug::ReferenceMapping< TRefElem, TWorldDim >", "classug_1_1_reference_mapping.html", null ],
     [ "ug::ReferenceMapping< ref_elem_type, worldDim >", "classug_1_1_reference_mapping.html", null ],
     [ "ug::ReferenceMappingProvider", "classug_1_1_reference_mapping_provider.html", null ],
+    [ "ug::RefinementProjector", "classug_1_1_refinement_projector.html", [
+      [ "ug::CylinderCutProjector", "classug_1_1_cylinder_cut_projector.html", null ],
+      [ "ug::CylinderProjector", "classug_1_1_cylinder_projector.html", null ],
+      [ "ug::PlaneCutProjector", "classug_1_1_plane_cut_projector.html", null ],
+      [ "ug::ProjectionHandler", "classug_1_1_projection_handler.html", null ],
+      [ "ug::SmoothProjector", "classug_1_1_smooth_projector.html", null ],
+      [ "ug::SphereProjector", "classug_1_1_sphere_projector.html", null ],
+      [ "ug::SubdivisionProjector", "classug_1_1_subdivision_projector.html", null ]
+    ] ],
     [ "ug::bridge::RegisterDomainAlgebraDependent< Functionality, DomainList, AlgebraList >::RegAlgebra< CurrAlgebraList >", "structug_1_1bridge_1_1_register_domain_algebra_dependent_1_1_reg_algebra.html", null ],
-    [ "ug::bridge::AlgebraTypeIDProvider::RegisterAlgebraIndices< List >::RegEnd", "structug_1_1bridge_1_1_algebra_type_i_d_provider_1_1_register_algebra_indices_1_1_reg_end.html", null ],
-    [ "ug::bridge::RegisterAlgebraDependent< Functionality, List >::RegEnd", "structug_1_1bridge_1_1_register_algebra_dependent_1_1_reg_end.html", null ],
     [ "ug::bridge::RegisterDomainAlgebraDependent< Functionality, DomainList, AlgebraList >::RegEnd", "structug_1_1bridge_1_1_register_domain_algebra_dependent_1_1_reg_end.html", null ],
+    [ "ug::bridge::RegisterAlgebraDependent< Functionality, List >::RegEnd", "structug_1_1bridge_1_1_register_algebra_dependent_1_1_reg_end.html", null ],
+    [ "ug::bridge::AlgebraTypeIDProvider::RegisterAlgebraIndices< List >::RegEnd", "structug_1_1bridge_1_1_algebra_type_i_d_provider_1_1_register_algebra_indices_1_1_reg_end.html", null ],
     [ "ug::bridge::RegisterDomainDependent< Functionality, List >::RegEnd", "structug_1_1bridge_1_1_register_domain_dependent_1_1_reg_end.html", null ],
     [ "ug::CopyAttachmentHandler< TElem, TAttachment >::register_as_observer< TObserverElem, Dummy >", "structug_1_1_copy_attachment_handler_1_1register__as__observer.html", null ],
     [ "ug::CopyAttachmentHandler< TElem, TAttachment >::register_as_observer< Edge, Dummy >", "structug_1_1_copy_attachment_handler_1_1register__as__observer_3_01_edge_00_01_dummy_01_4.html", null ],
@@ -2517,19 +2525,20 @@ var hierarchy =
     [ "ug::bridge::RegisterDomainAlgebraDependent< Functionality, DomainList, AlgebraList >", "structug_1_1bridge_1_1_register_domain_algebra_dependent.html", null ],
     [ "ug::bridge::RegisterDomainDependent< Functionality, List >", "structug_1_1bridge_1_1_register_domain_dependent.html", null ],
     [ "ug::FV1InnerBoundaryElemDisc< TDomain >::RegisterFV1", "structug_1_1_f_v1_inner_boundary_elem_disc_1_1_register_f_v1.html", null ],
+    [ "ug::detail::RegisterTypePairFunctor< TRegistry >", "structug_1_1detail_1_1_register_type_pair_functor.html", null ],
     [ "ug::bridge::Registry", "classug_1_1bridge_1_1_registry.html", null ],
     [ "ug::bridge::RegisterAlgebraDependent< Functionality, List >::RegNext", "structug_1_1bridge_1_1_register_algebra_dependent_1_1_reg_next.html", null ],
-    [ "ug::bridge::RegisterDomainDependent< Functionality, List >::RegNext", "structug_1_1bridge_1_1_register_domain_dependent_1_1_reg_next.html", null ],
     [ "ug::bridge::AlgebraTypeIDProvider::RegisterAlgebraIndices< List >::RegNext", "structug_1_1bridge_1_1_algebra_type_i_d_provider_1_1_register_algebra_indices_1_1_reg_next.html", null ],
+    [ "ug::bridge::RegisterDomainDependent< Functionality, List >::RegNext", "structug_1_1bridge_1_1_register_domain_dependent_1_1_reg_next.html", null ],
     [ "ug::bridge::RegisterDomainAlgebraDependent< Functionality, DomainList, AlgebraList >::RegNextDomain", "structug_1_1bridge_1_1_register_domain_algebra_dependent_1_1_reg_next_domain.html", null ],
     [ "ug::bridge::RegisterDomainAlgebraDependent< Functionality, DomainList, AlgebraList >::RegNextDomainAlgebra< CurrAlgebraList >", "structug_1_1bridge_1_1_register_domain_algebra_dependent_1_1_reg_next_domain_algebra.html", null ],
     [ "ug::StringTableStream::RepeatedCol", "structug_1_1_string_table_stream_1_1_repeated_col.html", null ],
     [ "ug::ReservableArray2< T, T_ordering >", "classug_1_1_reservable_array2.html", null ],
     [ "ug::RevisionCounter", "classug_1_1_revision_counter.html", null ],
-    [ "ug::SparseMatrix< TValueType >::row_iterator", "classug_1_1_sparse_matrix_1_1row__iterator.html", null ],
-    [ "ScalarSubMatrixAdapter< AT, ST, R, C >::row_iterator", "class_scalar_sub_matrix_adapter_1_1row__iterator.html", null ],
     [ "ug::GPUSparseMatrix< TValueType >::row_iterator", "classug_1_1_g_p_u_sparse_matrix_1_1row__iterator.html", null ],
     [ "ScalarMatrixAdapter< AT, ST >::row_iterator", "class_scalar_matrix_adapter_1_1row__iterator.html", null ],
+    [ "ScalarSubMatrixAdapter< AT, ST, R, C >::row_iterator", "class_scalar_sub_matrix_adapter_1_1row__iterator.html", null ],
+    [ "ug::SparseMatrix< TValueType >::row_iterator", "classug_1_1_sparse_matrix_1_1row__iterator.html", null ],
     [ "ug::RowSendingScheme< matrix_type >", "classug_1_1_row_sending_scheme.html", null ],
     [ "ScalarMatrixAdapter< AT, ST >", "class_scalar_matrix_adapter.html", null ],
     [ "ScalarSubMatrixAdapter< AT, ST, R, C >", "class_scalar_sub_matrix_adapter.html", null ],
@@ -2537,27 +2546,27 @@ var hierarchy =
     [ "ScalarVectorAdapter< AT, ST >", "class_scalar_vector_adapter.html", null ],
     [ "ug::DistributedGridManager::ScheduledElement", "structug_1_1_distributed_grid_manager_1_1_scheduled_element.html", null ],
     [ "ug::DimFV1IBGeometry< TDim, TWorldDim >::SCV", "classug_1_1_dim_f_v1_i_b_geometry_1_1_s_c_v.html", null ],
+    [ "ug::HFV1Geometry< TElem, TWorldDim >::SCV", "classug_1_1_h_f_v1_geometry_1_1_s_c_v.html", null ],
     [ "ug::FV1Geometry< TElem, TWorldDim >::SCV", "classug_1_1_f_v1_geometry_1_1_s_c_v.html", null ],
     [ "ug::DimFV1Geometry< TDim, TWorldDim >::SCV", "classug_1_1_dim_f_v1_geometry_1_1_s_c_v.html", null ],
-    [ "ug::CRFVGeometry< TElem, TWorldDim >::SCV", "classug_1_1_c_r_f_v_geometry_1_1_s_c_v.html", null ],
-    [ "ug::FV1IBGeometry< TElem, TWorldDim >::SCV", "classug_1_1_f_v1_i_b_geometry_1_1_s_c_v.html", null ],
+    [ "ug::FVGeometry< TOrder, TElem, TWorldDim, TQuadOrder >::SCV", "classug_1_1_f_v_geometry_1_1_s_c_v.html", null ],
+    [ "ug::DimFVGeometry< TWorldDim, TDim >::SCV", "classug_1_1_dim_f_v_geometry_1_1_s_c_v.html", null ],
     [ "ug::DimCRFVGeometry< TDim, TWorldDim >::SCV", "classug_1_1_dim_c_r_f_v_geometry_1_1_s_c_v.html", null ],
     [ "ug::DimHFV1Geometry< TDim, TWorldDim >::SCV", "classug_1_1_dim_h_f_v1_geometry_1_1_s_c_v.html", null ],
     [ "ug::HCRFVGeometry< TElem, TWorldDim >::SCV", "classug_1_1_h_c_r_f_v_geometry_1_1_s_c_v.html", null ],
-    [ "ug::HFV1Geometry< TElem, TWorldDim >::SCV", "classug_1_1_h_f_v1_geometry_1_1_s_c_v.html", null ],
-    [ "ug::DimFVGeometry< TWorldDim, TDim >::SCV", "classug_1_1_dim_f_v_geometry_1_1_s_c_v.html", null ],
-    [ "ug::FVGeometry< TOrder, TElem, TWorldDim, TQuadOrder >::SCV", "classug_1_1_f_v_geometry_1_1_s_c_v.html", null ],
-    [ "ug::DimCRFVGeometry< TDim, TWorldDim >::SCVF", "classug_1_1_dim_c_r_f_v_geometry_1_1_s_c_v_f.html", null ],
+    [ "ug::CRFVGeometry< TElem, TWorldDim >::SCV", "classug_1_1_c_r_f_v_geometry_1_1_s_c_v.html", null ],
+    [ "ug::FV1IBGeometry< TElem, TWorldDim >::SCV", "classug_1_1_f_v1_i_b_geometry_1_1_s_c_v.html", null ],
     [ "ug::DimHFV1Geometry< TDim, TWorldDim >::SCVF", "classug_1_1_dim_h_f_v1_geometry_1_1_s_c_v_f.html", null ],
-    [ "ug::FV1IBGeometry< TElem, TWorldDim >::SCVF", "classug_1_1_f_v1_i_b_geometry_1_1_s_c_v_f.html", null ],
     [ "ug::DimFV1IBGeometry< TDim, TWorldDim >::SCVF", "classug_1_1_dim_f_v1_i_b_geometry_1_1_s_c_v_f.html", null ],
-    [ "ug::FVGeometry< TOrder, TElem, TWorldDim, TQuadOrder >::SCVF", "classug_1_1_f_v_geometry_1_1_s_c_v_f.html", null ],
-    [ "ug::CRFVGeometry< TElem, TWorldDim >::SCVF", "classug_1_1_c_r_f_v_geometry_1_1_s_c_v_f.html", null ],
     [ "ug::DimFV1Geometry< TDim, TWorldDim >::SCVF", "classug_1_1_dim_f_v1_geometry_1_1_s_c_v_f.html", null ],
-    [ "ug::HCRFVGeometry< TElem, TWorldDim >::SCVF", "classug_1_1_h_c_r_f_v_geometry_1_1_s_c_v_f.html", null ],
     [ "ug::HFV1Geometry< TElem, TWorldDim >::SCVF", "classug_1_1_h_f_v1_geometry_1_1_s_c_v_f.html", null ],
     [ "ug::DimFVGeometry< TWorldDim, TDim >::SCVF", "classug_1_1_dim_f_v_geometry_1_1_s_c_v_f.html", null ],
+    [ "ug::FVGeometry< TOrder, TElem, TWorldDim, TQuadOrder >::SCVF", "classug_1_1_f_v_geometry_1_1_s_c_v_f.html", null ],
+    [ "ug::DimCRFVGeometry< TDim, TWorldDim >::SCVF", "classug_1_1_dim_c_r_f_v_geometry_1_1_s_c_v_f.html", null ],
+    [ "ug::HCRFVGeometry< TElem, TWorldDim >::SCVF", "classug_1_1_h_c_r_f_v_geometry_1_1_s_c_v_f.html", null ],
     [ "ug::FV1Geometry< TElem, TWorldDim >::SCVF", "classug_1_1_f_v1_geometry_1_1_s_c_v_f.html", null ],
+    [ "ug::CRFVGeometry< TElem, TWorldDim >::SCVF", "classug_1_1_c_r_f_v_geometry_1_1_s_c_v_f.html", null ],
+    [ "ug::FV1IBGeometry< TElem, TWorldDim >::SCVF", "classug_1_1_f_v1_i_b_geometry_1_1_s_c_v_f.html", null ],
     [ "ug::SCVFofSCVRayIntersectionWrapper< TDim, TWorldDim >", "structug_1_1_s_c_v_fof_s_c_v_ray_intersection_wrapper.html", null ],
     [ "ug::SCVFofSCVRayIntersectionWrapper< 2, 2 >", "structug_1_1_s_c_v_fof_s_c_v_ray_intersection_wrapper_3_012_00_012_01_4.html", null ],
     [ "ug::SectionContainer< TValue, TContainer >::Section", "structug_1_1_section_container_1_1_section.html", null ],
@@ -2592,12 +2601,15 @@ var hierarchy =
     [ "SmartPtr< T, FreePolicy >", "class_smart_ptr.html", null ],
     [ "SmartPtr< CallbackId >", "class_smart_ptr.html", null ],
     [ "SmartPtr< CommWrapper >", "class_smart_ptr.html", null ],
+    [ "SmartPtr< ElementCallback >", "class_smart_ptr.html", null ],
     [ "SmartPtr< IBalanceWeights >", "class_smart_ptr.html", null ],
+    [ "SmartPtr< IGeometry3d >", "class_smart_ptr.html", null ],
     [ "SmartPtr< IPartitioner >", "class_smart_ptr.html", null ],
     [ "SmartPtr< IPartitionPostProcessor >", "class_smart_ptr.html", null ],
     [ "SmartPtr< IPreconditionedLinearOperatorInverse< vector_type > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< MessageHub >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ProcessHierarchy >", "class_smart_ptr.html", null ],
+    [ "SmartPtr< RefinementProjector >", "class_smart_ptr.html", null ],
     [ "SmartPtr< TDomain >", "class_smart_ptr.html", null ],
     [ "SmartPtr< TGrid >", "class_smart_ptr.html", null ],
     [ "SmartPtr< TGridFunction >", "class_smart_ptr.html", null ],
@@ -2624,10 +2636,12 @@ var hierarchy =
     [ "SmartPtr< ug::DependentUserData< TData, dim > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::DependentUserData< ug::MathMatrix< dim, dim >, dim > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::DependentUserData< ug::MathVector< dim >, dim > >", "class_smart_ptr.html", null ],
+    [ "SmartPtr< ug::DistroAdjuster >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::DoFDistribution >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::DoFDistributionInfo >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::DoFIndexStorage >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::Field< number > >", "class_smart_ptr.html", null ],
+    [ "SmartPtr< ug::Geometry< 3, 3 > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::GridFunction >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::GridFunctionDebugWriter< TDomain, TAlgebra > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::GridSubsetHandler >", "class_smart_ptr.html", null ],
@@ -2635,17 +2649,18 @@ var hierarchy =
     [ "SmartPtr< ug::IAssemble< TAlgebra > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::IConstraint< algebra_type > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::IConvectionShapes< dim > >", "class_smart_ptr.html", null ],
-    [ "SmartPtr< ug::IConvergenceCheck< algebra_type::vector_type > >", "class_smart_ptr.html", null ],
+    [ "SmartPtr< ug::IConvergenceCheck< algebra_type ::vector_type > >", "class_smart_ptr.html", null ],
+    [ "SmartPtr< ug::IConvergenceCheck< ParallelVector< Vector< double > > > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::IConvergenceCheck< TAlgebra::vector_type > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::IConvergenceCheck< TVector > >", "class_smart_ptr.html", null ],
-    [ "SmartPtr< ug::IConvergenceCheck< ug::CPUAlgebra::vector_type > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::IConvergenceCheck< vector_type > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::IConvergenceCheck< X > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::ICplUserData< dim > >", "class_smart_ptr.html", null ],
-    [ "SmartPtr< ug::IDamping< algebra_type::vector_type, algebra_type::vector_type > >", "class_smart_ptr.html", null ],
+    [ "SmartPtr< ug::IDamping< algebra_type ::vector_type, algebra_type ::vector_type > >", "class_smart_ptr.html", null ],
+    [ "SmartPtr< ug::IDamping< ParallelVector< Vector< double > >, ParallelVector< Vector< double > > > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::IDamping< TAlgebra::vector_type, TAlgebra::vector_type > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::IDamping< TVector, TVector > >", "class_smart_ptr.html", null ],
-    [ "SmartPtr< ug::IDamping< ug::CPUAlgebra::vector_type, ug::CPUAlgebra::vector_type > >", "class_smart_ptr.html", null ],
+    [ "SmartPtr< ug::IDamping< ug::CPUAlgebra ::vector_type, ug::CPUAlgebra ::vector_type > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::IDamping< vector_type, vector_type > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::IDamping< X, X > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::IDamping< X, Y > >", "class_smart_ptr.html", null ],
@@ -2655,16 +2670,16 @@ var hierarchy =
     [ "SmartPtr< ug::IErrEstData< TDomain > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::ILagrangeMultiplierDisc< TDomain, ug::GridFunction > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::ILinearIterator >", "class_smart_ptr.html", null ],
+    [ "SmartPtr< ug::ILinearIterator< ParallelVector< Vector< double > >, ParallelVector< Vector< double > > > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::ILinearIterator< TVector, TVector > >", "class_smart_ptr.html", null ],
-    [ "SmartPtr< ug::ILinearIterator< ug::CPUAlgebra::vector_type, ug::CPUAlgebra::vector_type > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::ILinearIterator< vector_type > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::ILinearIterator< vector_type, vector_type > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::ILinearIterator< X, X > >", "class_smart_ptr.html", null ],
-    [ "SmartPtr< ug::ILinearOperator< algebra_type::vector_type, algebra_type::vector_type > >", "class_smart_ptr.html", null ],
+    [ "SmartPtr< ug::ILinearOperator< algebra_type ::vector_type, algebra_type ::vector_type > >", "class_smart_ptr.html", null ],
+    [ "SmartPtr< ug::ILinearOperator< ParallelVector< Vector< double > >, ParallelVector< Vector< double > > > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::ILinearOperator< TAlgebra::vector_type, TAlgebra::vector_type > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::ILinearOperator< TVector > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::ILinearOperator< TVector, TVector > >", "class_smart_ptr.html", null ],
-    [ "SmartPtr< ug::ILinearOperator< ug::CPUAlgebra::vector_type, ug::CPUAlgebra::vector_type > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::ILinearOperator< vector_type > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::ILinearOperator< vector_type, vector_type > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::ILinearOperator< X, X > >", "class_smart_ptr.html", null ],
@@ -2676,7 +2691,6 @@ var hierarchy =
     [ "SmartPtr< ug::ILUTPreconditioner< ug::CPUAlgebra > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::ILUTScalarPreconditioner< algebra_type > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::IPreconditionedLinearOperatorInverse< vector_type > >", "class_smart_ptr.html", null ],
-    [ "SmartPtr< ug::IRefinementCallback >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::ISchurComplementInverse< TAlgebra > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::ISubsetHandler >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::ITransferOperator< TDomain, TAlgebra > >", "class_smart_ptr.html", null ],
@@ -2684,9 +2698,10 @@ var hierarchy =
     [ "SmartPtr< ug::MathTensor4< dim, dim, dim, dim > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::MatrixOperator >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::MatrixOperator< matrix_type, vector_type > >", "class_smart_ptr.html", null ],
-    [ "SmartPtr< ug::MatrixOperator< ug::CPUAlgebra::matrix_type, ug::CPUAlgebra::vector_type > >", "class_smart_ptr.html", null ],
+    [ "SmartPtr< ug::MatrixOperator< ug::ParallelMatrix, ParallelVector< Vector< double > > > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::MultiGrid >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::MultiGridSubsetHandler >", "class_smart_ptr.html", null ],
+    [ "SmartPtr< ug::RefinementProjector >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::SchurComplementMatrixOperator< TAlgebra, matrix_type, vector_type > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::SchurComplementOperator< algebra_type > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::SchurComplementOperator< TAlgebra > >", "class_smart_ptr.html", null ],
@@ -2711,11 +2726,11 @@ var hierarchy =
     [ "ug::bridge::SmartTest", "classug_1_1bridge_1_1_smart_test.html", [
       [ "ug::bridge::SmartTestDerived", "classug_1_1bridge_1_1_smart_test_derived.html", null ]
     ] ],
-    [ "ug::sortStruct< T >", "structug_1_1sort_struct.html", null ],
     [ "SortStruct< TIndex, TValue >", "struct_sort_struct.html", null ],
+    [ "ug::sortStruct< T >", "structug_1_1sort_struct.html", null ],
     [ "ug::SortVertexPos< dim >", "structug_1_1_sort_vertex_pos.html", null ],
-    [ "SparseMatrix< T >", "class_sparse_matrix.html", null ],
     [ "ug::SparseMatrix< TValueType >", "classug_1_1_sparse_matrix.html", null ],
+    [ "SparseMatrix< T >", "class_sparse_matrix.html", null ],
     [ "ug::SparseVector< T >", "classug_1_1_sparse_vector.html", null ],
     [ "ug::Sphere< vector_t >", "classug_1_1_sphere.html", null ],
     [ "ug::static_type", "structug_1_1static__type.html", null ],
@@ -2728,8 +2743,8 @@ var hierarchy =
     [ "ug::StdLinConsistentGravity< refDim >", "classug_1_1_std_lin_consistent_gravity.html", [
       [ "ug::StdLinConsistentGravityX< refDim >", "classug_1_1_std_lin_consistent_gravity_x.html", null ]
     ] ],
-    [ "ug::LocalSchurComplement< TAlgebra >::StepConv", "structug_1_1_local_schur_complement_1_1_step_conv.html", null ],
     [ "ug::PrimalSubassembledMatrixInverse< TAlgebra >::StepConv", "structug_1_1_primal_subassembled_matrix_inverse_1_1_step_conv.html", null ],
+    [ "ug::LocalSchurComplement< TAlgebra >::StepConv", "structug_1_1_local_schur_complement_1_1_step_conv.html", null ],
     [ "ug::Stopwatch", "classug_1_1_stopwatch.html", null ],
     [ "ug::storage_traits1< TStorage >", "structug_1_1storage__traits1.html", null ],
     [ "ug::storage_traits1< FixedArray1< T, N > >", "structug_1_1storage__traits1_3_01_fixed_array1_3_01_t_00_01_n_01_4_01_4.html", null ],
@@ -2743,10 +2758,10 @@ var hierarchy =
     [ "ug::StringTableStream", "classug_1_1_string_table_stream.html", null ],
     [ "ug::StrongNegativeConnectionsByBlockNorm", "classug_1_1_strong_negative_connections_by_block_norm.html", null ],
     [ "ug::SubdivRules_PLoop", "classug_1_1_subdiv_rules___p_loop.html", null ],
-    [ "ug::DimFVGeometry< TWorldDim, TDim >::SubElement", "structug_1_1_dim_f_v_geometry_1_1_sub_element.html", null ],
     [ "ug::FVGeometry< TOrder, TElem, TWorldDim, TQuadOrder >::SubElement", "structug_1_1_f_v_geometry_1_1_sub_element.html", null ],
-    [ "ug::MultiGridSubsetHandler::Subset", "structug_1_1_multi_grid_subset_handler_1_1_subset.html", null ],
+    [ "ug::DimFVGeometry< TWorldDim, TDim >::SubElement", "structug_1_1_dim_f_v_geometry_1_1_sub_element.html", null ],
     [ "ug::GridSubsetHandler::Subset", "structug_1_1_grid_subset_handler_1_1_subset.html", null ],
+    [ "ug::MultiGridSubsetHandler::Subset", "structug_1_1_multi_grid_subset_handler_1_1_subset.html", null ],
     [ "ug::SubsetGroup", "classug_1_1_subset_group.html", null ],
     [ "ug::GridReaderVTU::SubsetHandlerEntry", "structug_1_1_grid_reader_v_t_u_1_1_subset_handler_entry.html", null ],
     [ "ug::GridReaderUGX::SubsetHandlerEntry", "structug_1_1_grid_reader_u_g_x_1_1_subset_handler_entry.html", null ],
@@ -2776,6 +2791,11 @@ var hierarchy =
     [ "TConstBaseIterator", null, [
       [ "ug::ConstGenericGridObjectIterator< TValue, TBaseIterator, TConstBaseIterator >", "classug_1_1_const_generic_grid_object_iterator.html", null ]
     ] ],
+    [ "TData", null, [
+      [ "ug::FVLineSourceOrSink< dim, TData >", "classug_1_1_f_v_line_source_or_sink.html", null ],
+      [ "ug::FVLineSourceOrSink< 1, TData >", "classug_1_1_f_v_line_source_or_sink_3_011_00_01_t_data_01_4.html", null ],
+      [ "ug::FVPointSourceOrSink< dim, TData >", "classug_1_1_f_v_point_source_or_sink.html", null ]
+    ] ],
     [ "ug::TE_AlphaVec< T >", "classug_1_1_t_e___alpha_vec.html", null ],
     [ "ug::TE_AlphaVec< TE_VecScale< T > >", "classug_1_1_t_e___alpha_vec.html", [
       [ "ug::TE_VecScale< T >", "classug_1_1_t_e___vec_scale.html", null ]
@@ -2800,8 +2820,8 @@ var hierarchy =
     [ "ug::TE_AMV_X< MatVec_Expression< L, R > >", "classug_1_1_t_e___a_m_v___x.html", [
       [ "ug::MatVec_Expression< L, R >", "classug_1_1_mat_vec___expression.html", null ]
     ] ],
-    [ "TE_TRANSPOSED< T >", "class_t_e___t_r_a_n_s_p_o_s_e_d.html", null ],
     [ "ug::TE_TRANSPOSED< T >", "classug_1_1_t_e___t_r_a_n_s_p_o_s_e_d.html", null ],
+    [ "TE_TRANSPOSED< T >", "class_t_e___t_r_a_n_s_p_o_s_e_d.html", null ],
     [ "ug::TE_VecAdd2< T >", "classug_1_1_t_e___vec_add2.html", null ],
     [ "ug::TE_VecAdd3< T >", "classug_1_1_t_e___vec_add3.html", null ],
     [ "ug::bridge::Test", "classug_1_1bridge_1_1_test.html", null ],
@@ -2817,9 +2837,12 @@ var hierarchy =
     [ "TImpl", null, [
       [ "ug::LocalShapeFunctionSetWrapper< TImpl >", "classug_1_1_local_shape_function_set_wrapper.html", null ]
     ] ],
+    [ "TLinIt", null, [
+      [ "ug::ConstrainedLinearIterator< TDomain, TAlgebra, TLinIt >", "classug_1_1_constrained_linear_iterator.html", null ]
+    ] ],
     [ "TMatrix", null, [
       [ "ug::ParallelMatrix< TMatrix >", "classug_1_1_parallel_matrix.html", [
-        [ "ug::MatrixOperator< ug::CPUAlgebra::matrix_type, ug::CPUAlgebra::vector_type >", "classug_1_1_matrix_operator.html", null ]
+        [ "ug::MatrixOperator< ug::ParallelMatrix, ParallelVector< Vector< double > > >", "classug_1_1_matrix_operator.html", null ]
       ] ]
     ] ],
     [ "ug::ToElementPosition< TElem, TAVrtPos >", "classug_1_1_to_element_position.html", null ],
@@ -2871,16 +2894,16 @@ var hierarchy =
     [ "TPartitioner", null, [
       [ "ug::DomainPartitioner< TDomain, TPartitioner >", "classug_1_1_domain_partitioner.html", null ]
     ] ],
-    [ "ug::GridObjectCollection::traits< TElem >", "structug_1_1_grid_object_collection_1_1traits.html", null ],
-    [ "ug::MGSelector::traits< TElem >", "structug_1_1_m_g_selector_1_1traits.html", null ],
     [ "ug::SurfaceView::traits< TElem >", "structug_1_1_surface_view_1_1traits.html", null ],
-    [ "ug::IteratorProvider< T >::traits< TElem >", "structug_1_1_iterator_provider_1_1traits.html", null ],
-    [ "ug::IteratorProvider< MGSubsetHandler >::traits< TElem >", "structug_1_1_iterator_provider_3_01_m_g_subset_handler_01_4_1_1traits.html", null ],
-    [ "ug::ISubsetHandler::traits< TElem >", "structug_1_1_i_subset_handler_1_1traits.html", null ],
-    [ "ug::Grid::traits< TElem >", "structug_1_1_grid_1_1traits.html", null ],
-    [ "ug::Selector::traits< TElem >", "structug_1_1_selector_1_1traits.html", null ],
-    [ "ug::GridFunction< TDomain, TAlgebra >::traits< TElem >", "structug_1_1_grid_function_1_1traits.html", null ],
     [ "ug::DoFDistribution::traits< TElem >", "structug_1_1_do_f_distribution_1_1traits.html", null ],
+    [ "ug::MGSelector::traits< TElem >", "structug_1_1_m_g_selector_1_1traits.html", null ],
+    [ "ug::ISubsetHandler::traits< TElem >", "structug_1_1_i_subset_handler_1_1traits.html", null ],
+    [ "ug::Selector::traits< TElem >", "structug_1_1_selector_1_1traits.html", null ],
+    [ "ug::IteratorProvider< T >::traits< TElem >", "structug_1_1_iterator_provider_1_1traits.html", null ],
+    [ "ug::GridObjectCollection::traits< TElem >", "structug_1_1_grid_object_collection_1_1traits.html", null ],
+    [ "ug::Grid::traits< TElem >", "structug_1_1_grid_1_1traits.html", null ],
+    [ "ug::GridFunction< TDomain, TAlgebra >::traits< TElem >", "structug_1_1_grid_function_1_1traits.html", null ],
+    [ "ug::IteratorProvider< MGSubsetHandler >::traits< TElem >", "structug_1_1_iterator_provider_3_01_m_g_subset_handler_01_4_1_1traits.html", null ],
     [ "ug::Grid::traits< Edge >", "structug_1_1_grid_1_1traits.html", null ],
     [ "ug::Grid::traits< Face >", "structug_1_1_grid_1_1traits.html", null ],
     [ "ug::Grid::traits< TAssocElem >", "structug_1_1_grid_1_1traits.html", null ],
@@ -2949,6 +2972,7 @@ var hierarchy =
     [ "ug::UGXFileInfo", "classug_1_1_u_g_x_file_info.html", null ],
     [ "ug::UID", "classug_1_1_u_i_d.html", [
       [ "ug::IAttachment", "classug_1_1_i_attachment.html", [
+        [ "ug::Attachment< attached_vector_t >", "classug_1_1_attachment.html", null ],
         [ "ug::Attachment< bool >", "classug_1_1_attachment.html", null ],
         [ "ug::Attachment< byte >", "classug_1_1_attachment.html", null ],
         [ "ug::Attachment< char >", "classug_1_1_attachment.html", null ],
@@ -3070,6 +3094,11 @@ var hierarchy =
             [ "ug::StdExplicitGridFunctionData< ExplicitGridFunctionGradient< TGridFunction >, MathVector< TGridFunction::dim >, TGridFunction >", "classug_1_1_std_explicit_grid_function_data.html", [
               [ "ug::ExplicitGridFunctionGradient< TGridFunction >", "classug_1_1_explicit_grid_function_gradient.html", null ]
             ] ]
+          ] ],
+          [ "ug::StdUserData< StdGlobPosData< GlobalGridFunctionGradientData< TGridFunction >, MathVector< TGridFunction::dim >, dim, void >, MathVector< TGridFunction::dim >, dim, void >", "classug_1_1_std_user_data.html", [
+            [ "ug::StdGlobPosData< GlobalGridFunctionGradientData< TGridFunction >, MathVector< TGridFunction::dim >, TGridFunction::dim >", "classug_1_1_std_glob_pos_data.html", [
+              [ "ug::GlobalGridFunctionGradientData< TGridFunction >", "classug_1_1_global_grid_function_gradient_data.html", null ]
+            ] ]
           ] ]
         ] ],
         [ "ug::CplUserData< number, 2, bool >", "classug_1_1_cpl_user_data.html", null ],
@@ -3120,9 +3149,9 @@ var hierarchy =
               [ "ug::ExplicitGridFunctionValue< TGridFunction >", "classug_1_1_explicit_grid_function_value.html", null ]
             ] ]
           ] ],
-          [ "ug::StdUserData< StdGlobPosData< GlobalGridFunctionNumberData< TGridFunction >, number, dim, void >, number, dim, void >", "classug_1_1_std_user_data.html", [
-            [ "ug::StdGlobPosData< GlobalGridFunctionNumberData< TGridFunction >, number, TGridFunction::dim >", "classug_1_1_std_glob_pos_data.html", [
-              [ "ug::GlobalGridFunctionNumberData< TGridFunction >", "classug_1_1_global_grid_function_number_data.html", null ]
+          [ "ug::StdUserData< StdGlobPosData< GlobalGridFunctionNumberData< TGridFunction, elemDim >, number, dim, void >, number, dim, void >", "classug_1_1_std_user_data.html", [
+            [ "ug::StdGlobPosData< GlobalGridFunctionNumberData< TGridFunction, elemDim >, number, TGridFunction::dim >", "classug_1_1_std_glob_pos_data.html", [
+              [ "ug::GlobalGridFunctionNumberData< TGridFunction, elemDim >", "classug_1_1_global_grid_function_number_data.html", null ]
             ] ]
           ] ],
           [ "ug::StdUserData< StdGlobPosData< RotatingCone2d, number, dim, void >, number, dim, void >", "classug_1_1_std_user_data.html", [
@@ -3242,6 +3271,11 @@ var hierarchy =
         [ "ug::CplUserData< number, dim, void >", "classug_1_1_cpl_user_data.html", null ]
       ] ],
       [ "ug::UserData< number, domain_type::dim >", "classug_1_1_user_data.html", null ],
+      [ "ug::UserData< number, TDomain::dim, void >", "classug_1_1_user_data.html", [
+        [ "ug::StdUserData< SubsetIndicatorUserData< TDomain >, number, TDomain::dim, void, UserData< number, TDomain::dim, void > >", "classug_1_1_std_user_data.html", [
+          [ "ug::SubsetIndicatorUserData< TDomain >", "classug_1_1_subset_indicator_user_data.html", null ]
+        ] ]
+      ] ],
       [ "ug::UserData< number, worldDim >", "classug_1_1_user_data.html", null ],
       [ "ug::UserData< TData, dim, void >", "classug_1_1_user_data.html", [
         [ "ug::CplUserData< TData, 2 >", "classug_1_1_cpl_user_data.html", null ],
@@ -3273,7 +3307,7 @@ var hierarchy =
       [ "ug::DenseVector< ug::VariableArray1< double > >", "classug_1_1_dense_vector.html", null ]
     ] ],
     [ "ug::VariableArray2< T, T_ordering >", "classug_1_1_variable_array2.html", null ],
-    [ "ug::VariableArray2< LocalCplMatrix * >", "classug_1_1_variable_array2.html", [
+    [ "ug::VariableArray2< LocalCplMatrix *>", "classug_1_1_variable_array2.html", [
       [ "ug::DenseMatrix< VariableArray2< LocalCplMatrix * > >", "classug_1_1_dense_matrix.html", null ]
     ] ],
     [ "ug::VariableArray2< LocalCplMatrix >", "classug_1_1_variable_array2.html", [
@@ -3284,7 +3318,7 @@ var hierarchy =
     [ "vector", null, [
       [ "ug::SmartPtrVector< vector_type >", "classug_1_1_smart_ptr_vector.html", null ],
       [ "ug::stdvector< int >", "classug_1_1stdvector.html", null ],
-      [ "ug::stdvector< size_t * >", "classug_1_1stdvector.html", null ],
+      [ "ug::stdvector< size_t *>", "classug_1_1stdvector.html", null ],
       [ "ug::stdvector< size_t >", "classug_1_1stdvector.html", null ],
       [ "ug::stdvector< ug::stdvector< size_t > >", "classug_1_1stdvector.html", null ],
       [ "ug::bridge::ExpandLayersDesc", "classug_1_1bridge_1_1_expand_layers_desc.html", null ],
@@ -3320,12 +3354,15 @@ var hierarchy =
     [ "ug::VectorDebugWritingObject< TVector >", "classug_1_1_vector_debug_writing_object.html", [
       [ "ug::IPreconditionedLinearOperatorInverse< TVector >", "classug_1_1_i_preconditioned_linear_operator_inverse.html", null ]
     ] ],
-    [ "ug::VectorDebugWritingObject< algebra_type::vector_type >", "classug_1_1_vector_debug_writing_object.html", [
+    [ "ug::VectorDebugWritingObject< algebra_type ::vector_type >", "classug_1_1_vector_debug_writing_object.html", [
       [ "ug::DebugWritingObject< algebra_type >", "classug_1_1_debug_writing_object.html", [
         [ "ug::IPreconditioner< algebra_type >", "classug_1_1_i_preconditioner.html", null ],
         [ "ug::LocalSchurComplement< algebra_type >", "classug_1_1_local_schur_complement.html", null ],
         [ "ug::PrimalSubassembledMatrixInverse< algebra_type >", "classug_1_1_primal_subassembled_matrix_inverse.html", null ]
       ] ]
+    ] ],
+    [ "ug::VectorDebugWritingObject< ParallelVector< Vector< double > > >", "classug_1_1_vector_debug_writing_object.html", [
+      [ "ug::IPreconditionedLinearOperatorInverse< ParallelVector< Vector< double > > >", "classug_1_1_i_preconditioned_linear_operator_inverse.html", null ]
     ] ],
     [ "ug::VectorDebugWritingObject< TAlgebra::vector_type >", "classug_1_1_vector_debug_writing_object.html", [
       [ "ug::DebugIterator< TAlgebra >", "classug_1_1_debug_iterator.html", null ],
@@ -3343,11 +3380,10 @@ var hierarchy =
       ] ],
       [ "ug::IExternalSolver< TAlgebra >", "classug_1_1_i_external_solver.html", null ]
     ] ],
-    [ "ug::VectorDebugWritingObject< ug::CPUAlgebra::vector_type >", "classug_1_1_vector_debug_writing_object.html", [
+    [ "ug::VectorDebugWritingObject< ug::CPUAlgebra ::vector_type >", "classug_1_1_vector_debug_writing_object.html", [
       [ "ug::DebugWritingObject< ug::CPUAlgebra >", "classug_1_1_debug_writing_object.html", [
         [ "ug::IPreconditioner< ug::CPUAlgebra >", "classug_1_1_i_preconditioner.html", null ]
-      ] ],
-      [ "ug::IPreconditionedLinearOperatorInverse< ug::CPUAlgebra::vector_type >", "classug_1_1_i_preconditioned_linear_operator_inverse.html", null ]
+      ] ]
     ] ],
     [ "ug::VectorDebugWritingObject< vector_type >", "classug_1_1_vector_debug_writing_object.html", [
       [ "ug::IPreconditionedLinearOperatorInverse< vector_type >", "classug_1_1_i_preconditioned_linear_operator_inverse.html", null ]

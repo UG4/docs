@@ -17,14 +17,16 @@ var classug_1_1_debug_iterator =
     [ "init", "classug_1_1_debug_iterator.html#a8b4096a95a03f8d7573be63f7edda82a", null ],
     [ "init", "classug_1_1_debug_iterator.html#a29f7674ae5194a5b4011517d22c98a23", null ],
     [ "init", "classug_1_1_debug_iterator.html#af7f96d749c5eceb3f908d183722fd695", null ],
-    [ "name", "classug_1_1_debug_iterator.html#afb245b8a65bea71ae4805ece70031b2f", null ],
+    [ "name", "classug_1_1_debug_iterator.html#a52afd12f0c0123f77a024e15a127a9b5", null ],
     [ "set_preconditioner", "classug_1_1_debug_iterator.html#a09d9b8fa10aa98a8913686717bf5bdfc", null ],
     [ "set_random_bounds", "classug_1_1_debug_iterator.html#a8d8a6b3d88020f90e8e3f93a20f1047b", null ],
+    [ "set_solution", "classug_1_1_debug_iterator.html#a92c117c209f5cb0f64c4ebd5f610d769", null ],
     [ "set_solver", "classug_1_1_debug_iterator.html#a0cbbbc5613bf279a91e6c0283291847b", null ],
-    [ "supports_parallel", "classug_1_1_debug_iterator.html#a7714f336c7e6ce6031805d6bd916b637", null ],
+    [ "supports_parallel", "classug_1_1_debug_iterator.html#a31969ddb6647de1d403cd25880d2ffb9", null ],
     [ "from", "classug_1_1_debug_iterator.html#a9d081f050f96bc7eeba609d1f726b876", null ],
     [ "m_pOperator", "classug_1_1_debug_iterator.html#a44cb67563177cf94ddea24249cde645e", null ],
     [ "m_pprecond", "classug_1_1_debug_iterator.html#ae61f216388faf725d3940fc298db74d6", null ],
     [ "m_solver", "classug_1_1_debug_iterator.html#a93520fc900a7449a56b058e67b8b74d2", null ],
+    [ "m_spSolVector", "classug_1_1_debug_iterator.html#af720cd3cdf1904ab090c00f2cbbc213c", null ],
     [ "to", "classug_1_1_debug_iterator.html#a7b542b165341b3e257824468a60a9e3a", null ]
 ];

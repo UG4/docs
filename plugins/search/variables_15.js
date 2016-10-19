@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['ug4_5fdim',['UG4_DIM',['../../namespaceug_1_1bridge.html#a0c69e506c69dc525372acf495815d8e1',1,'ug::bridge']]],
   ['ug4_5fgrp',['UG4_GRP',['../../group__bridge.html#ga6d56e110f06abb1f7dd2c2095b9eb2ff',1,'ug::bridge::UG4_GRP()'],['../../group__bridge.html#ga6d56e110f06abb1f7dd2c2095b9eb2ff',1,'UG4_GRP()(Global Namespace)']]],
   ['ug_5fauthors',['UG_AUTHORS',['../../group__ugbase__common.html#ga1c08562e167f36c077ed00873467d148',1,'ug::UG_AUTHORS()'],['../../group__ugbase__common.html#ga1c08562e167f36c077ed00873467d148',1,'UG_AUTHORS()(Global Namespace)']]],
   ['ug_5fbinary_5flicense',['UG_BINARY_LICENSE',['../../group__ugbase__common.html#gaab5c0a7bba577c5255b72f2b4cd9a361',1,'ug::UG_BINARY_LICENSE()'],['../../group__ugbase__common.html#gaab5c0a7bba577c5255b72f2b4cd9a361',1,'UG_BINARY_LICENSE()(Global Namespace)']]],

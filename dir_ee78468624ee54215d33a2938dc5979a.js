@@ -17,5 +17,6 @@ var dir_ee78468624ee54215d33a2938dc5979a =
     [ "multigrid_bridge.cpp", "multigrid__bridge_8cpp.html", "multigrid__bridge_8cpp" ],
     [ "ordering_bridge.cpp", "ordering__bridge_8cpp.html", "ordering__bridge_8cpp" ],
     [ "output_bridge.cpp", "output__bridge_8cpp.html", "output__bridge_8cpp" ],
+    [ "reference_mapping_test_bridge.cpp", "reference__mapping__test__bridge_8cpp.html", "reference__mapping__test__bridge_8cpp" ],
     [ "user_data_bridge.cpp", "user__data__bridge_8cpp.html", "user__data__bridge_8cpp" ]
 ];

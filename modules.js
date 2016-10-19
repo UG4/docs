@@ -12,8 +12,8 @@ var modules =
     [ "UGRegistry Documentation", "../plugins/group___u_g_docu.html", "group___u_g_docu" ],
     [ "Lua Shell", "../plugins/group__lua__shell.html", null ],
     [ "ProMesh", "../plugins/group__promesh.html", "group__promesh" ],
-    [ "Sample", "../plugins/group__sample__plugin.html", "group__sample__plugin" ],
     [ "Small Strain Mechanics", "../plugins/group__small__strain__mechanics.html", "group__small__strain__mechanics" ],
+    [ "Plugin Template", "../plugins/group__plugin__template.html", null ],
     [ "Apps_ugdocu", "../plugins/group__apps__ugdocu.html", "group__apps__ugdocu" ],
     [ "DocuGen", "../plugins/group___docu_gen.html", null ]
 ];

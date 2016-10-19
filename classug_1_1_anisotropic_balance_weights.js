@@ -13,7 +13,7 @@ var classug_1_1_anisotropic_balance_weights =
     [ "refresh_weights", "classug_1_1_anisotropic_balance_weights.html#abebb0a282a177934318b3ec2c9860949", null ],
     [ "set_grid", "classug_1_1_anisotropic_balance_weights.html#a5d611fa5af7cc2723e0f764f49d858ab", null ],
     [ "set_weight_factor", "classug_1_1_anisotropic_balance_weights.html#aa95eb6f91f9340c71c950742081831c4", null ],
-    [ "weight_factor", "classug_1_1_anisotropic_balance_weights.html#a04db6e81ab38333396c65e0814014c06", null ],
+    [ "weight_factor", "classug_1_1_anisotropic_balance_weights.html#ab2fb888928bcb8dff989f64e87673d24", null ],
     [ "m_aaPos", "classug_1_1_anisotropic_balance_weights.html#a05cd9952d9a0b3888469bdc4f679d6eb", null ],
     [ "m_weightFactor", "classug_1_1_anisotropic_balance_weights.html#aa3442354ef474c26cf7161880d04de0a", null ]
 ];

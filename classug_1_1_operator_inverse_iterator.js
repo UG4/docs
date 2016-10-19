@@ -12,8 +12,8 @@ var classug_1_1_operator_inverse_iterator =
     [ "clone", "classug_1_1_operator_inverse_iterator.html#a9416c9a1976767431f0eedb2d03661d6", null ],
     [ "init", "classug_1_1_operator_inverse_iterator.html#a51356fc31ffde95d563fca76a6b1e554", null ],
     [ "init", "classug_1_1_operator_inverse_iterator.html#ad563d8a7553bb8746258d849fd2af74d", null ],
-    [ "name", "classug_1_1_operator_inverse_iterator.html#a1ffcb6ef0d4120664d473da6e2156b39", null ],
-    [ "supports_parallel", "classug_1_1_operator_inverse_iterator.html#a8659f55a4e8543062905fffa8c7c0c82", null ],
+    [ "name", "classug_1_1_operator_inverse_iterator.html#a900e7f067f394a8e881acfd6bc8cc225", null ],
+    [ "supports_parallel", "classug_1_1_operator_inverse_iterator.html#a34a5f6fbb44aec1dd1f97b6fd009ed2a", null ],
     [ "m_name", "classug_1_1_operator_inverse_iterator.html#a243919b70e4cbdb0959428a764d24ac5", null ],
     [ "m_opInv", "classug_1_1_operator_inverse_iterator.html#a5a7289e7f4be9c322e3f45afc3f00942", null ]
 ];

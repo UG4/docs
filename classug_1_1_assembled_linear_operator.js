@@ -14,7 +14,7 @@ var classug_1_1_assembled_linear_operator =
     [ "init", "classug_1_1_assembled_linear_operator.html#a269e8927d3b96a320909db29792c6066", null ],
     [ "init", "classug_1_1_assembled_linear_operator.html#a7766c644c497fe057bfbcb0d97f321e7", null ],
     [ "init_op_and_rhs", "classug_1_1_assembled_linear_operator.html#a3e13811cc7a1d07753b0a3523b5ecbbd", null ],
-    [ "level", "classug_1_1_assembled_linear_operator.html#aa8306526912da19c58afe6b01d35083b", null ],
+    [ "level", "classug_1_1_assembled_linear_operator.html#a656a6c0ed1d67994053c54ac8c4dde95", null ],
     [ "set_dirichlet_values", "classug_1_1_assembled_linear_operator.html#abdf48275892618e2be2a3cf95049d57e", null ],
     [ "set_discretization", "classug_1_1_assembled_linear_operator.html#a7d6e05b5b99c06e5df10d12ae6f6f959", null ],
     [ "set_level", "classug_1_1_assembled_linear_operator.html#a6453948124d1f471598964eeb6b77dca", null ],

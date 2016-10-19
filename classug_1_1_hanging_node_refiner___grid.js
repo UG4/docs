@@ -1,12 +1,12 @@
 var classug_1_1_hanging_node_refiner___grid =
 [
     [ "BaseClass", "classug_1_1_hanging_node_refiner___grid.html#a7ad3efb5f4d5c1d52578411bad3e7240", null ],
-    [ "HangingNodeRefiner_Grid", "classug_1_1_hanging_node_refiner___grid.html#af014175a8b18c03344ab9382dc9f9bf4", null ],
-    [ "HangingNodeRefiner_Grid", "classug_1_1_hanging_node_refiner___grid.html#a0c9082c9b109f4f0a9ca52b29b9c2f87", null ],
+    [ "HangingNodeRefiner_Grid", "classug_1_1_hanging_node_refiner___grid.html#a62a5d85a954df8ad0846733e28326c0f", null ],
+    [ "HangingNodeRefiner_Grid", "classug_1_1_hanging_node_refiner___grid.html#a0a60224b6027a6f20bf01923e8bab506", null ],
     [ "~HangingNodeRefiner_Grid", "classug_1_1_hanging_node_refiner___grid.html#ab7f424f4b203da0220fb0b66efa386fa", null ],
-    [ "adaptivity_supported", "classug_1_1_hanging_node_refiner___grid.html#af0cd5a6ae3f48a9f1d30b26b6ac89579", null ],
+    [ "adaptivity_supported", "classug_1_1_hanging_node_refiner___grid.html#a740fdac759f2735e118743e63f1405c4", null ],
     [ "assign_grid", "classug_1_1_hanging_node_refiner___grid.html#af42bc40a363b0316df9e9d724b5e3b97", null ],
-    [ "coarsening_supported", "classug_1_1_hanging_node_refiner___grid.html#a887aa3730ccfdf4a4db1ed027a732302", null ],
+    [ "coarsening_supported", "classug_1_1_hanging_node_refiner___grid.html#ab1377eb4d9ce2b985425869a310bd75f", null ],
     [ "get_associated_grid", "classug_1_1_hanging_node_refiner___grid.html#a6acb4da727165c2fa2dfe47b994ea6b6", null ],
     [ "get_center_vertex", "classug_1_1_hanging_node_refiner___grid.html#afd9b285473e7eba9565a01554ef5d2b6", null ],
     [ "get_center_vertex", "classug_1_1_hanging_node_refiner___grid.html#a1136e6d30c6e94a2e2f3c84c84da1f7f", null ],

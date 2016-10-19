@@ -39,8 +39,6 @@ var group__ugbase__common__util =
     [ "UnloadPlugins", "../group__ugbase__common__util.html#gabaa2764f7fcc7c56525874a20efc6f0a", null ],
     [ "APPS_PATH", "../group__ugbase__common__util.html#gga72a67cfeae3e674ed54d159e32af7622a7467da5ea17a5d7cbaee1a50be390cae", null ],
     [ "BIN_PATH", "../group__ugbase__common__util.html#gga72a67cfeae3e674ed54d159e32af7622adda399c0c6c5675025f0e86f1320b0e0", null ],
-    [ "DATA_PATH", "../group__ugbase__common__util.html#gga72a67cfeae3e674ed54d159e32af7622a55b0db0c649e7b92c29f8c3e6a3cdaab", null ],
-    [ "GRID_PATH", "../group__ugbase__common__util.html#gga72a67cfeae3e674ed54d159e32af7622a8e8b5888aa7bb82a4c051462164ca3fb", null ],
     [ "MAX_PATH_CONSTANT", "../group__ugbase__common__util.html#gga72a67cfeae3e674ed54d159e32af7622a5e0d7f4d25bf389a8a978c54ad6f8619", null ],
     [ "PLUGIN_PATH", "../group__ugbase__common__util.html#gga72a67cfeae3e674ed54d159e32af7622a920e54f01cf6d7e8990f2e600638f978", null ],
     [ "ROOT_PATH", "../group__ugbase__common__util.html#gga72a67cfeae3e674ed54d159e32af7622a49e4a515fdc1e03653c1c27506178a4c", null ],

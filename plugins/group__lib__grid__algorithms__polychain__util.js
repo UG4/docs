@@ -1,7 +1,7 @@
 var group__lib__grid__algorithms__polychain__util =
 [
     [ "PolyChainTypes", "../group__lib__grid__algorithms__polychain__util.html#gaed934cbb2fbb8eec0e5d7ac21f825089", null ],
-    [ "CreatePolyChain", "../group__lib__grid__algorithms__polychain__util.html#gaf931eaa7c43bd6777b19c2d8e624bc0f", null ],
+    [ "CreatePolyChain", "../group__lib__grid__algorithms__polychain__util.html#gaffb1b457523705a4a7b2114bbfa25861", null ],
     [ "GetFirstSectionOfPolyChain", "../group__lib__grid__algorithms__polychain__util.html#ga3169521f903204a5df10d043005aa1be", null ],
     [ "GetNextSectionOfPolyChain", "../group__lib__grid__algorithms__polychain__util.html#ga62c755743eeea86198da2e6346d90ac2", null ],
     [ "GetPolyChainType", "../group__lib__grid__algorithms__polychain__util.html#ga14dfab30fa174708124ff9d604695ce1", null ],

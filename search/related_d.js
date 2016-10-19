@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['smartptr_3c_20void_20_3e',['SmartPtr&lt; void &gt;',['../class_smart_ptr.html#a4f3c5a597a14d6f9daeb6c32c4e0d6f6',1,'SmartPtr']]],
-  ['surfaceview',['SurfaceView',['../classug_1_1_surface_view_1_1_surface_view_element_iterator.html#a81c4a01e4f57d60c078f9dca58096d98',1,'ug::SurfaceView::SurfaceViewElementIterator::SurfaceView()'],['../classug_1_1_surface_view_1_1_const_surface_view_element_iterator.html#a81c4a01e4f57d60c078f9dca58096d98',1,'ug::SurfaceView::ConstSurfaceViewElementIterator::SurfaceView()']]]
+  ['profilenodemanager',['ProfileNodeManager',['../class_auto_profile_node.html#a4cf0382d5109889d4957a7aa3bbf5696',1,'AutoProfileNode']]],
+  ['propagate_3c_20telem_2c_20void_20_3e',['propagate&lt; TElem, void &gt;',['../classug_1_1_copy_attachment_handler.html#a9067b07760fa34edd8a0eadb4b3d7aec',1,'ug::CopyAttachmentHandler']]]
 ];

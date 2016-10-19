@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['constrained_20linear_20iterator_20bridge',['Constrained linear iterator bridge',['../../group__constr__lin__it__bridge.html',1,'']]],
   ['constraints_20bridge',['Constraints Bridge',['../../group__constraints__bridge.html',1,'']]],
   ['convection_20diffusion',['Convection Diffusion',['../group__convection__diffusion.html',1,'']]],
   ['cpu_20algebra',['CPU Algebra',['../../group__cpu__algebra.html',1,'']]],

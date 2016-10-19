@@ -17,12 +17,12 @@ var group__lib__grid__algorithms__trees =
       [ "create_from_grid", "classug_1_1_k_d_tree_static.html#abd9044d6d735caacab7f25cd0b6652d7", null ],
       [ "create_from_grid", "classug_1_1_k_d_tree_static.html#a99029aef71ec8a1d115fefd2ab331d8d", null ],
       [ "get_largest_dimension", "classug_1_1_k_d_tree_static.html#aeb2877b709556b81a3d257ebd2573c7f", null ],
-      [ "get_leafs", "classug_1_1_k_d_tree_static.html#a1e128168d04830c288c80b84395de2db", null ],
-      [ "get_leafs_recursive", "classug_1_1_k_d_tree_static.html#a264af2d65cbd6c116909e36ea955d5b2", null ],
-      [ "get_neighbourhood", "classug_1_1_k_d_tree_static.html#aaf8136387abac4080f4a8b59eab6e5e6", null ],
+      [ "get_leafs", "classug_1_1_k_d_tree_static.html#ae6c13e5931e82187a3c7cc9398f8796e", null ],
+      [ "get_leafs_recursive", "classug_1_1_k_d_tree_static.html#abba22e5738a6ce35cfd5ba61ac3697bf", null ],
+      [ "get_neighbourhood", "classug_1_1_k_d_tree_static.html#ab165c1cb1850474027329041aad80dbe", null ],
       [ "get_next_split_dimension", "classug_1_1_k_d_tree_static.html#acdd89db846498731b22770e7a59bf4fc", null ],
-      [ "get_points_in_box", "classug_1_1_k_d_tree_static.html#ab559bcbcb7379af83f53924c2da8b5af", null ],
-      [ "get_points_in_box", "classug_1_1_k_d_tree_static.html#abb1af080054a86ba664b60b91c702b32", null ],
+      [ "get_points_in_box", "classug_1_1_k_d_tree_static.html#a73654cfc8a0fa37719ee74d3f12b3f56", null ],
+      [ "get_points_in_box", "classug_1_1_k_d_tree_static.html#adf25c32fcac61c39ed980cf330346940", null ],
       [ "get_root", "classug_1_1_k_d_tree_static.html#a0c46bfb564ced6fca41662c2e18ec894", null ],
       [ "neighbourhood", "classug_1_1_k_d_tree_static.html#ab577710843787be4641977b472547058", null ],
       [ "m_aaPos", "classug_1_1_k_d_tree_static.html#aafa6dea03aa87c7e0be35c87f73140ec", null ],
@@ -39,11 +39,11 @@ var group__lib__grid__algorithms__trees =
       [ "distSQ", "classug_1_1_k_d_vertex_distance.html#a822ab8f47993866a31254e72f43ff1fa", null ],
       [ "vertex", "classug_1_1_k_d_vertex_distance.html#a9e81cadc443d39e469f050f7c2901357", null ]
     ] ],
-    [ "KDVertexDistanceList", "group__lib__grid__algorithms__trees.html#gaed445b223dcf5c57670883103f306109", null ],
+    [ "KDVertexDistanceList", "group__lib__grid__algorithms__trees.html#ga6f2817b7c01ff108b49d057573a8c784", null ],
     [ "SPOctree", "group__lib__grid__algorithms__trees.html#ga476867f956eacdc75a78480acaa77a53", null ],
     [ "KDSplitDimension", "group__lib__grid__algorithms__trees.html#gac7c3d5a00e1647b0ce7e2b00d57fe0da", [
       [ "KDSD_CIRCULAR", "group__lib__grid__algorithms__trees.html#ggac7c3d5a00e1647b0ce7e2b00d57fe0daabf86d51db754776172fd6f497b830b49", null ],
       [ "KDSD_LARGEST", "group__lib__grid__algorithms__trees.html#ggac7c3d5a00e1647b0ce7e2b00d57fe0daa7693dffed6ac342c0725e9c9f60d3e7e", null ]
     ] ],
-    [ "CreateOctree", "../plugins/group__lib__grid__algorithms__trees.html#ga98d93a94588c08bb271ecc4e75edd9af", null ]
+    [ "CreateOctree", "group__lib__grid__algorithms__trees.html#ga98d93a94588c08bb271ecc4e75edd9af", null ]
 ];

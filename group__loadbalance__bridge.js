@@ -12,7 +12,7 @@ var group__loadbalance__bridge =
       [ "get_weight", "classug_1_1_balance_weights_lua_callback.html#ae9430da9290f31011f57c4c34dcc652a", null ],
       [ "get_weight_impl", "classug_1_1_balance_weights_lua_callback.html#a5b62b68965cac3a431d60998405211a6", null ],
       [ "set_time", "classug_1_1_balance_weights_lua_callback.html#ab4a4b73e4e1978bf374e6e6e389815b1", null ],
-      [ "time", "classug_1_1_balance_weights_lua_callback.html#aea36634d5716b750383e51a25cbc658d", null ],
+      [ "time", "classug_1_1_balance_weights_lua_callback.html#ac14fdf9adb3e5e26c539db071aadd3f5", null ],
       [ "m_aaPos", "classug_1_1_balance_weights_lua_callback.html#a2507070c2ed7b802b57db1e2af93c112", null ],
       [ "m_callback", "classug_1_1_balance_weights_lua_callback.html#a29524f045eead68bd5171aa53379f347", null ],
       [ "m_pmg", "classug_1_1_balance_weights_lua_callback.html#a8789a73871f94e19ff52c32169a66d82", null ],

@@ -42,7 +42,6 @@ var searchData=
   ['goid_5fvertex',['GOID_VERTEX',['../namespaceug.html#a02785d5fd4cf2dd569d72cfac0197574ab139b32e4f920bbe80fcedd75acc55e0',1,'ug']]],
   ['got_5fone',['GOT_ONE',['../classug_1_1node__tree_1_1_traverser___project_point.html#af04c2adb4924c9187a28d285f607e430a57863d6c160bfdc4da054caced5b89f3',1,'ug::node_tree::Traverser_ProjectPoint']]],
   ['gpu',['GPU',['../classug_1_1_algebra_type.html#ab3a264146f087f78d70761091f5520e8aafd37365290e1ccab251d25ff1f4d8fe',1,'ug::AlgebraType']]],
-  ['grid_5fpath',['GRID_PATH',['../group__ugbase__common__util.html#gga72a67cfeae3e674ed54d159e32af7622a8e8b5888aa7bb82a4c051462164ca3fb',1,'ug']]],
   ['gridopt_5fautogenerate_5fsides',['GRIDOPT_AUTOGENERATE_SIDES',['../group__lib__grid.html#gga724c038eb958956818bf64b9d7c70cebabbbbaa1ed9dc73d4d28f7199659e31d2',1,'ug']]],
   ['gridopt_5fdefault',['GRIDOPT_DEFAULT',['../group__lib__grid.html#gga724c038eb958956818bf64b9d7c70cebafb34d9d1dcaeb43d1fa0c99046d82b01',1,'ug']]],
   ['gridopt_5ffull_5finterconnection',['GRIDOPT_FULL_INTERCONNECTION',['../group__lib__grid.html#gga724c038eb958956818bf64b9d7c70ceba0adf799be954eefbf5d56c2018625ae5',1,'ug']]],

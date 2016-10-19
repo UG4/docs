@@ -2,8 +2,8 @@ var searchData=
 [
   ['h1diffintegrand',['H1DiffIntegrand',['../../classug_1_1_h1_diff_integrand.html',1,'ug']]],
   ['h1errorintegrand',['H1ErrorIntegrand',['../../classug_1_1_h1_error_integrand.html',1,'ug']]],
-  ['handlededge',['HandledEdge',['../../classug_1_1_dim_c_r_f_v_geometry_1_1_handled_edge.html',1,'ug::DimCRFVGeometry']]],
   ['handlededge',['HandledEdge',['../../classug_1_1_h_c_r_f_v_geometry_1_1_handled_edge.html',1,'ug::HCRFVGeometry']]],
+  ['handlededge',['HandledEdge',['../../classug_1_1_dim_c_r_f_v_geometry_1_1_handled_edge.html',1,'ug::DimCRFVGeometry']]],
   ['hangingnoderefiner_5fgrid',['HangingNodeRefiner_Grid',['../../classug_1_1_hanging_node_refiner___grid.html',1,'ug']]],
   ['hangingnoderefiner_5fmultigrid',['HangingNodeRefiner_MultiGrid',['../../classug_1_1_hanging_node_refiner___multi_grid.html',1,'ug']]],
   ['hangingnoderefinerbase',['HangingNodeRefinerBase',['../../classug_1_1_hanging_node_refiner_base.html',1,'ug']]],

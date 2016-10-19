@@ -1,8 +1,8 @@
 var classug_1_1_parallel_hanging_node_refiner___multi_grid =
 [
     [ "BaseClass", "classug_1_1_parallel_hanging_node_refiner___multi_grid.html#ac9ceb0b5004b4149f05236aff8f83cea", null ],
-    [ "ParallelHangingNodeRefiner_MultiGrid", "classug_1_1_parallel_hanging_node_refiner___multi_grid.html#a51753739d1f1d5f193a562fbb916a619", null ],
-    [ "ParallelHangingNodeRefiner_MultiGrid", "classug_1_1_parallel_hanging_node_refiner___multi_grid.html#a2d192ace1bb794663d42488298a42158", null ],
+    [ "ParallelHangingNodeRefiner_MultiGrid", "classug_1_1_parallel_hanging_node_refiner___multi_grid.html#a044507c871a975d233cc9d3f9face341", null ],
+    [ "ParallelHangingNodeRefiner_MultiGrid", "classug_1_1_parallel_hanging_node_refiner___multi_grid.html#aaec279feb8054c65a731f62fb2628c09", null ],
     [ "~ParallelHangingNodeRefiner_MultiGrid", "classug_1_1_parallel_hanging_node_refiner___multi_grid.html#a75af546704fae810c108d939e273b570", null ],
     [ "assign_hnode_marks", "classug_1_1_parallel_hanging_node_refiner___multi_grid.html#a28a08cfb19fd65a0460ee0f27c6be425", null ],
     [ "broadcast_marks_horizontally", "classug_1_1_parallel_hanging_node_refiner___multi_grid.html#a695b7854be948f616f7a013d7ed4e2cf", null ],
