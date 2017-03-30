@@ -141,7 +141,7 @@ Installation/Usage in ug4 (Unix only)</h1>
 <p class="startli">Script code for testing HLibPro is provided in</p>
 <p>scripts/hlibtest.lua</p>
 <p>Execute this script by running e.g.</p>
-<div class="fragment"><div class="line">% mpirun -n 4 ./ugshell -ex scripts/hlibtest.lua</div></div><!-- fragment --><p class="endli">For (preliminary) tests for systems of pdes see scripts/systemlaplace_hlib.lua scripts/navierstokes_hlib.lua </p>
+<div class="fragment"><div class="line">% mpirun -n 4 ./ugshell -<a class="code" href="command__line__util_8lua.html#a340d3719e63a0a3a4f4429ef8c8b55ea">ex</a> scripts/hlibtest.lua</div></div><!-- fragment --><p class="endli">For (preliminary) tests for systems of pdes see scripts/systemlaplace_hlib.lua scripts/navierstokes_hlib.lua </p>
 </li>
 </ol>
 <h1><a class="anchor" id="secCouplingUG4HLibPro_InstallationHLibPro"></a>
@@ -200,7 +200,7 @@ Known problems</h2>
 <p class="endli"></p>
 </li>
 <li>
-<p class="startli">Independent of (but obviously directly related to) the problem above you may run in a similar problem when attempting to start 'ugshell' compiled with HLibPro: </p><div class="fragment"><div class="line">% ugshell -ex ../scripts/laplace.lua</div><div class="line">% ugshell: symbol lookup error: ugshell: undefined symbol: slamch_</div></div><!-- fragment --><p> This may happen even if the stand-alone examples of HLibPro work properly - which is the case if HLibPro is linked against CLAPACK, but ug4's configuration via 'cmake' has automatically chosen the (too old) version of LAPACK installed on your system!</p>
+<p class="startli">Independent of (but obviously directly related to) the problem above you may run in a similar problem when attempting to start 'ugshell' compiled with HLibPro: </p><div class="fragment"><div class="line">% ugshell -<a class="code" href="command__line__util_8lua.html#a340d3719e63a0a3a4f4429ef8c8b55ea">ex</a> ../scripts/laplace.lua</div><div class="line">% ugshell: symbol lookup error: ugshell: undefined symbol: slamch_</div></div><!-- fragment --><p> This may happen even if the stand-alone examples of HLibPro work properly - which is the case if HLibPro is linked against CLAPACK, but ug4's configuration via 'cmake' has automatically chosen the (too old) version of LAPACK installed on your system!</p>
 <p>Remedy: Link ug4 also against the "LAPACK substitute", 'libclapack.a'!</p>
 <p>To achieve this, add also 'libclapack.a' to the 'UG_LIBRARIES', i.e., edit the appropriate part in 'cmake/ug_includes.cmake': </p><div class="fragment"><div class="line"><span class="keywordflow">if</span>(HLIBPRO AND HLIBPROLIB_DIR)</div><div class="line">   <span class="keyword">set</span>(UG_LIBRARIES ${UG_LIBRARIES} ${HLIBPROLIB_DIR}/libhpro.a ${HLIBPROLIB_DIR}/libclapack.a) # <span class="stringliteral">&#39;libclapack.a&#39;</span> added</div></div><!-- fragment --><p class="endli">(Perhaps/probably there exists a more elegant way, but it works ...) </p>
 </li>
@@ -213,7 +213,7 @@ Known problems</h2>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="index.html">ug4 - Documentation</a></li><li class="navelem"><a class="el" href="page_u_g4_setup.html">Setup and Installation</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:17:53 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:11 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

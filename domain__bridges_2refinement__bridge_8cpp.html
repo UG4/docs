@@ -112,6 +112,7 @@ $(document).ready(function(){initNavTree('domain__bridges_2refinement__bridge_8c
 <code>#include &quot;<a class="el" href="horizontal__anisotropy__adjuster_8h_source.html">lib_grid/refinement/ref_mark_adjusters/horizontal_anisotropy_adjuster.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="subdivision__volumes_8h_source.html">lib_grid/algorithms/subdivision/subdivision_volumes.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="tetrahedron__rules_8h_source.html">lib_grid/grid_objects/tetrahedron_rules.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="attachment__operations_8hpp_source.html">lib_grid/parallelization/util/attachment_operations.hpp</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -132,10 +133,10 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gaad4e9a328c62f412bf8990d5f00565fd"><td class="memTemplParams" colspan="2">template&lt;class TDomain &gt; </td></tr>
-<tr class="memitem:gaad4e9a328c62f412bf8990d5f00565fd"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__refinement__bridge.html#gaad4e9a328c62f412bf8990d5f00565fd">ug::AddHorizontalAnisotropyAdjuster</a> (IRefiner *ref, TDomain *dom)</td></tr>
-<tr class="memdesc:gaad4e9a328c62f412bf8990d5f00565fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a horizontal-anisotropy-adjuster to the given refiner.  <a href="group__refinement__bridge.html#gaad4e9a328c62f412bf8990d5f00565fd">More...</a><br /></td></tr>
-<tr class="separator:gaad4e9a328c62f412bf8990d5f00565fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2372a370ac70e830a433d8159fcd6ced"><td class="memTemplParams" colspan="2">template&lt;class TDomain &gt; </td></tr>
+<tr class="memitem:ga2372a370ac70e830a433d8159fcd6ced"><td class="memTemplItemLeft" align="right" valign="top">static SPIRefMarkAdjuster&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__refinement__bridge.html#ga2372a370ac70e830a433d8159fcd6ced">ug::AddHorizontalAnisotropyAdjuster</a> (IRefiner *ref, TDomain *dom)</td></tr>
+<tr class="memdesc:ga2372a370ac70e830a433d8159fcd6ced"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a horizontal-anisotropy-adjuster to the given refiner.  <a href="group__refinement__bridge.html#ga2372a370ac70e830a433d8159fcd6ced">More...</a><br /></td></tr>
+<tr class="separator:ga2372a370ac70e830a433d8159fcd6ced"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7c91670e8344e926ef8bb206a74ca1e8"><td class="memTemplParams" colspan="2">template&lt;typename TDomain &gt; </td></tr>
 <tr class="memitem:ga7c91670e8344e926ef8bb206a74ca1e8"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; IRefiner &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__refinement__bridge.html#ga7c91670e8344e926ef8bb206a74ca1e8">ug::CreateAdaptiveRegularDomainRefiner</a> (TDomain *dom)</td></tr>
 <tr class="memdesc:ga7c91670e8344e926ef8bb206a74ca1e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an adaptive regular domain refiner.  <a href="group__refinement__bridge.html#ga7c91670e8344e926ef8bb206a74ca1e8">More...</a><br /></td></tr>
@@ -179,6 +180,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gaa064c021beca7575d99da6f728f91573"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__refinement__bridge.html#gaa064c021beca7575d99da6f728f91573">ug::MarkForRefinement_All</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; IRefiner &gt; ref)</td></tr>
 <tr class="memdesc:gaa064c021beca7575d99da6f728f91573"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks all elements from refinement.  <a href="group__refinement__bridge.html#gaa064c021beca7575d99da6f728f91573">More...</a><br /></td></tr>
 <tr class="separator:gaa064c021beca7575d99da6f728f91573"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3b851cdf4a7ecfbba1e677b589f1efc6"><td class="memTemplParams" colspan="2">template&lt;class TElem &gt; </td></tr>
+<tr class="memitem:ga3b851cdf4a7ecfbba1e677b589f1efc6"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__refinement__bridge.html#ga3b851cdf4a7ecfbba1e677b589f1efc6">ug::MarkForRefinement_AllAnisotropic</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; IRefiner &gt; ref)</td></tr>
+<tr class="separator:ga3b851cdf4a7ecfbba1e677b589f1efc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga37c9d51b22b5bb97416a5db83c193ed5"><td class="memTemplParams" colspan="2">template&lt;class TDomain &gt; </td></tr>
 <tr class="memitem:ga37c9d51b22b5bb97416a5db83c193ed5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__refinement__bridge.html#ga37c9d51b22b5bb97416a5db83c193ed5">ug::MarkForRefinement_AnisotropicDirection</a> (TDomain &amp;dom, IRefiner &amp;refiner, MathVector&lt; <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#ga425548c7b0fe054612f37d1f3a4826b6">TDomain::dim</a> &gt; &amp;dir, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> minEdgeRatio)</td></tr>
 <tr class="separator:ga37c9d51b22b5bb97416a5db83c193ed5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -195,6 +199,12 @@ Functions</h2></td></tr>
 <tr class="memitem:gaa27d7b3ed47cbde01248426c809747c2"><td class="memTemplParams" colspan="2">template&lt;class TDomain , class TSubsetHandler , class TElem &gt; </td></tr>
 <tr class="memitem:gaa27d7b3ed47cbde01248426c809747c2"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__refinement__bridge.html#gaa27d7b3ed47cbde01248426c809747c2">ug::MarkForRefinement_ElementsInSubset</a> (TDomain &amp;dom, IRefiner &amp;refiner, TSubsetHandler &amp;sh, int subsetIndex)</td></tr>
 <tr class="separator:gaa27d7b3ed47cbde01248426c809747c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga53b3fed204cfe7cc8fc732878e6b2209"><td class="memTemplParams" colspan="2">template&lt;class elem_t &gt; </td></tr>
+<tr class="memitem:ga53b3fed204cfe7cc8fc732878e6b2209"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__refinement__bridge.html#ga53b3fed204cfe7cc8fc732878e6b2209">ug::MarkForRefinement_SubsetInterfaceElements</a> (IRefiner &amp;refiner, ISubsetHandler &amp;sh)</td></tr>
+<tr class="separator:ga53b3fed204cfe7cc8fc732878e6b2209"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1207dd3a40bc504a0b64143d232dfe21"><td class="memTemplParams" colspan="2">template&lt;class TDomain , class TElem &gt; </td></tr>
+<tr class="memitem:ga1207dd3a40bc504a0b64143d232dfe21"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__refinement__bridge.html#ga1207dd3a40bc504a0b64143d232dfe21">ug::MarkForRefinement_SubsetInterfaceElements</a> (TDomain &amp;dom, IRefiner &amp;refiner)</td></tr>
+<tr class="separator:ga1207dd3a40bc504a0b64143d232dfe21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa7b2f11a1d602c7194c03e4aed357389"><td class="memTemplParams" colspan="2">template&lt;class TDomain &gt; </td></tr>
 <tr class="memitem:gaa7b2f11a1d602c7194c03e4aed357389"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__refinement__bridge.html#gaa7b2f11a1d602c7194c03e4aed357389">ug::MarkForRefinement_VerticesInCube</a> (TDomain &amp;dom, <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; IRefiner &gt; refiner, const typename TDomain::position_type &amp;min, const typename TDomain::position_type &amp;max)</td></tr>
 <tr class="separator:gaa7b2f11a1d602c7194c03e4aed357389"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -221,7 +231,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_b0538a14208cacfdb4f78355b238afd2.html">bridge</a></li><li class="navelem"><a class="el" href="dir_d8126e48ed99575cdc53fdea54acb50d.html">domain_bridges</a></li><li class="navelem"><a class="el" href="domain__bridges_2refinement__bridge_8cpp.html">refinement_bridge.cpp</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:17:52 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:09 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

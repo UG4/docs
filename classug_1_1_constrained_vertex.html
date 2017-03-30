@@ -138,6 +138,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5bc4ba90345a07032deb701f08b25540"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a1a7603e4363fa05c6bc75132e797b3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceug.html#a1f0e19a0ec74b2ebb64238aeb498c51b">ReferenceObjectID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_vertex.html#a4a1a7603e4363fa05c6bc75132e797b3">reference_object_id</a> () const</td></tr>
 <tr class="separator:a4a1a7603e4363fa05c6bc75132e797b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c1319cfb808de43bb93456aab69a00a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_vertex.html#a6c1319cfb808de43bb93456aab69a00a">remove_constraint_link</a> (const <a class="el" href="classug_1_1_edge.html">Edge</a> *e)</td></tr>
+<tr class="memdesc:a6c1319cfb808de43bb93456aab69a00a"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes a constraint link to the grid object.  <a href="#a6c1319cfb808de43bb93456aab69a00a">More...</a><br /></td></tr>
+<tr class="separator:a6c1319cfb808de43bb93456aab69a00a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaad88b40fc1663afbc50302ecd1bccd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_vertex.html#aeaad88b40fc1663afbc50302ecd1bccd">remove_constraint_link</a> (const <a class="el" href="classug_1_1_face.html">Face</a> *f)</td></tr>
+<tr class="memdesc:aeaad88b40fc1663afbc50302ecd1bccd"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes a constraint link to the grid object.  <a href="#aeaad88b40fc1663afbc50302ecd1bccd">More...</a><br /></td></tr>
+<tr class="separator:aeaad88b40fc1663afbc50302ecd1bccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e1c4862e9dec625ad8ad5cd96aa523a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_vertex.html#a6e1c4862e9dec625ad8ad5cd96aa523a">set_constraining_object</a> (<a class="el" href="classug_1_1_grid_object.html">GridObject</a> *constrObj)</td></tr>
 <tr class="separator:a6e1c4862e9dec625ad8ad5cd96aa523a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afea061efd63ccf83cc555c7191f4ff75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_vertex.html#afea061efd63ccf83cc555c7191f4ff75">set_local_coordinate_1</a> (<a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> coord)</td></tr>
@@ -171,6 +177,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a33bc1afcaac0b8a504c3f18509faec8f inherit pub_methods_classug_1_1_grid_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a680bc151e2e9ec6f11823c9a63d06adb inherit pub_methods_classug_1_1_grid_object"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_grid_object.html#a680bc151e2e9ec6f11823c9a63d06adb">~GridObject</a> ()</td></tr>
 <tr class="separator:a680bc151e2e9ec6f11823c9a63d06adb inherit pub_methods_classug_1_1_grid_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7cba6e939e102c73334af2b5de1d120 inherit pub_methods_classug_1_1_grid_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_grid_object.html#aa7cba6e939e102c73334af2b5de1d120">remove_constraint_link</a> (const <a class="el" href="classug_1_1_vertex.html">Vertex</a> *vrt)</td></tr>
+<tr class="memdesc:aa7cba6e939e102c73334af2b5de1d120 inherit pub_methods_classug_1_1_grid_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes a constraint link to the grid object.  <a href="classug_1_1_grid_object.html#aa7cba6e939e102c73334af2b5de1d120">More...</a><br /></td></tr>
+<tr class="separator:aa7cba6e939e102c73334af2b5de1d120 inherit pub_methods_classug_1_1_grid_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -537,6 +546,68 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a6c1319cfb808de43bb93456aab69a00a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c1319cfb808de43bb93456aab69a00a">&sect;&nbsp;</a></span>remove_constraint_link() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ug::ConstrainedVertex::remove_constraint_link </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classug_1_1_edge.html">Edge</a> *&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>removes a constraint link to the grid object. </p>
+<p>This method is e.g. called on the constraining edges of a constrained vertex as soon as the constrained vertex is deleted. </p>
+
+<p>Reimplemented from <a class="el" href="classug_1_1_grid_object.html#a4cf06cf93c0a2a9f3f201de2743dfabd">ug::GridObject</a>.</p>
+
+</div>
+</div>
+<a id="aeaad88b40fc1663afbc50302ecd1bccd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaad88b40fc1663afbc50302ecd1bccd">&sect;&nbsp;</a></span>remove_constraint_link() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ug::ConstrainedVertex::remove_constraint_link </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classug_1_1_face.html">Face</a> *&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>removes a constraint link to the grid object. </p>
+<p>This method is e.g. called on the constraining edges of a constrained vertex as soon as the constrained vertex is deleted. </p>
+
+<p>Reimplemented from <a class="el" href="classug_1_1_grid_object.html#a6fb24b85c24a682c0e46e833f12a87c6">ug::GridObject</a>.</p>
+
+</div>
+</div>
 <a id="a6e1c4862e9dec625ad8ad5cd96aa523a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6e1c4862e9dec625ad8ad5cd96aa523a">&sect;&nbsp;</a></span>set_constraining_object()</h2>
 
@@ -563,7 +634,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>References <a class="el" href="classug_1_1_grid_object.html#ac1886ed847ec434a68eaf60ed9381f05">ug::GridObject::base_object_id()</a>.</p>
 
-<p>Referenced by <a class="el" href="group__lib__grid__algorithms__serialization.html#gafbf4b8285d9e464502c0807bcfcdbd54">ug::DeserializeMultiGridElements()</a>, <a class="el" href="namespaceug.html#a2f0d6a6a6c86e392285e3463ab2ea9a5">ug::DistributeGrid()</a>, <a class="el" href="classug_1_1_grid_reader_u_g_x.html#af717062fd9807b39457c1cf1ab25f1bf">ug::GridReaderUGX::grid()</a>, <a class="el" href="classug_1_1_hanging_node_refiner___multi_grid.html#a483e995012167857b6eabaab05dc4213">ug::HangingNodeRefiner_MultiGrid::perform_coarsening()</a>, and <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a3a6895f22279cb1f1b8ba685b5aa2028">ug::HangingNodeRefinerBase&lt; Selector &gt;::refine_face_with_hanging_vertex()</a>.</p>
+<p>Referenced by <a class="el" href="group__lib__grid__algorithms__serialization.html#gafbf4b8285d9e464502c0807bcfcdbd54">ug::DeserializeMultiGridElements()</a>, <a class="el" href="classug_1_1_grid_reader_u_g_x.html#af717062fd9807b39457c1cf1ab25f1bf">ug::GridReaderUGX::grid()</a>, <a class="el" href="classug_1_1_hanging_node_refiner___multi_grid.html#a483e995012167857b6eabaab05dc4213">ug::HangingNodeRefiner_MultiGrid::perform_coarsening()</a>, and <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a3a6895f22279cb1f1b8ba685b5aa2028">ug::HangingNodeRefinerBase&lt; Selector &gt;::refine_face_with_hanging_vertex()</a>.</p>
 
 </div>
 </div>
@@ -842,7 +913,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_constrained_vertex.html">ConstrainedVertex</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:17:59 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:18 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

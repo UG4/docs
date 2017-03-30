@@ -139,13 +139,16 @@ Typedefs</h2></td></tr>
 Enumerations</h2></td></tr>
 <tr class="memitem:gaca4c9dab184a59fc18ae86d72288c209"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__refinement.html#gaca4c9dab184a59fc18ae86d72288c209">ug::RefinementMark</a> { <br />
 &#160;&#160;<a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a5c0f80b28d241dad1e52009c668fdf7d">ug::RM_NONE</a> = 0, 
-<a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a760de9af21fe64131c9c334f9ee2699e">ug::RM_COPY</a> = 1, 
-<a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a9576036df7bb01faba85bd7f7f90fd05">ug::RM_CLOSURE</a> = 1 &lt;&lt; 1, 
-<a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209abefa6bbea02a794135acedbccd2f632b">ug::RM_ANISOTROPIC</a> = 1 &lt;&lt; 2, 
+<a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a9576036df7bb01faba85bd7f7f90fd05">ug::RM_CLOSURE</a> = 1, 
+<a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a760de9af21fe64131c9c334f9ee2699e">ug::RM_COPY</a> = RM_CLOSURE, 
+<a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209abefa6bbea02a794135acedbccd2f632b">ug::RM_ANISOTROPIC</a> = RM_CLOSURE, 
 <br />
-&#160;&#160;<a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a84ff78cd530af7d6e3d7662f46c9a618">ug::RM_REFINE</a> = 1 &lt;&lt; 3, 
-<a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a50301491217ed84dc6d905f1f67f80af">ug::RM_COARSEN</a> = 1 &lt;&lt; 4, 
-<a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209ac7e688792c8fb622048ca1a56d6c9c47">ug::RM_DUMMY</a> = 1 &lt;&lt; 5, 
+&#160;&#160;<a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209abfbe361e331349a95320a92c2e084324">ug::RM_LOCAL</a> = 1 &lt;&lt; 1, 
+<a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209ae770e8d311024d9bdf52189e4c80ed9a">ug::RM_FULL</a> = 1 &lt;&lt; 2, 
+<a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a84ff78cd530af7d6e3d7662f46c9a618">ug::RM_REFINE</a> = RM_FULL, 
+<a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a50301491217ed84dc6d905f1f67f80af">ug::RM_COARSEN</a> = 1 &lt;&lt; 3, 
+<br />
+&#160;&#160;<a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209ac7e688792c8fb622048ca1a56d6c9c47">ug::RM_DUMMY</a> = 1 &lt;&lt; 4, 
 <a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209abd66ec37a9f71b006a798342cd84863d">ug::RM_MAX</a>
 <br />
  }<tr class="memdesc:gaca4c9dab184a59fc18ae86d72288c209"><td class="mdescLeft">&#160;</td><td class="mdescRight">refinement-marks allow to specify how an element shall be processed during refinement.  <a href="group__lib__grid__algorithms__refinement.html#gaca4c9dab184a59fc18ae86d72288c209">More...</a><br /></td></tr>
@@ -195,16 +198,21 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>refinement-marks allow to specify how an element shall be processed during refinement. </p>
+<p>&lt; Fully refines an element and all associated sides and edges </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggaca4c9dab184a59fc18ae86d72288c209a5c0f80b28d241dad1e52009c668fdf7d"></a>RM_NONE&#160;</td><td class="fielddoc"><p>no refinement is performed </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ggaca4c9dab184a59fc18ae86d72288c209a760de9af21fe64131c9c334f9ee2699e"></a>RM_COPY&#160;</td><td class="fielddoc"><p>EXPERIMENTAL! Copy-elements are copied to the next level during refinement. Ignored during coarsening. </p>
+<tr><td class="fieldname"><a id="ggaca4c9dab184a59fc18ae86d72288c209a9576036df7bb01faba85bd7f7f90fd05"></a>RM_CLOSURE&#160;</td><td class="fielddoc"><p>Refines elements according to associated marked edges. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ggaca4c9dab184a59fc18ae86d72288c209a9576036df7bb01faba85bd7f7f90fd05"></a>RM_CLOSURE&#160;</td><td class="fielddoc"><p>EXPERIMENTAL! refines the element so that only marked edges are refined. </p>
+<tr><td class="fieldname"><a id="ggaca4c9dab184a59fc18ae86d72288c209a760de9af21fe64131c9c334f9ee2699e"></a>RM_COPY&#160;</td><td class="fielddoc"><p>DEPRECATED. Use RM_CLOSURE or RM_LOCAL with localMark = 0 instead. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ggaca4c9dab184a59fc18ae86d72288c209abefa6bbea02a794135acedbccd2f632b"></a>RM_ANISOTROPIC&#160;</td><td class="fielddoc"><p>EXPERIMENTAL! anisotropic refinement is performed. </p>
+<tr><td class="fieldname"><a id="ggaca4c9dab184a59fc18ae86d72288c209abefa6bbea02a794135acedbccd2f632b"></a>RM_ANISOTROPIC&#160;</td><td class="fielddoc"><p>DEPRECATED. Use RM_CLOSURE instead. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ggaca4c9dab184a59fc18ae86d72288c209a84ff78cd530af7d6e3d7662f46c9a618"></a>RM_REFINE&#160;</td><td class="fielddoc"><p>regular refinement is performed </p>
+<tr><td class="fieldname"><a id="ggaca4c9dab184a59fc18ae86d72288c209abfbe361e331349a95320a92c2e084324"></a>RM_LOCAL&#160;</td><td class="fielddoc"><p>Refines elements according to a local refinement mark (use 'mark_local') </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggaca4c9dab184a59fc18ae86d72288c209ae770e8d311024d9bdf52189e4c80ed9a"></a>RM_FULL&#160;</td><td class="fielddoc"><p>Fully refines an element and all associated sides and edges. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggaca4c9dab184a59fc18ae86d72288c209a84ff78cd530af7d6e3d7662f46c9a618"></a>RM_REFINE&#160;</td><td class="fielddoc"><p>DEPRECATED. Use RM_FULL instead. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="ggaca4c9dab184a59fc18ae86d72288c209a50301491217ed84dc6d905f1f67f80af"></a>RM_COARSEN&#160;</td><td class="fielddoc"><p>the element is coarsened (only valid for adaptive multi-grid refinement) </p>
 </td></tr>
@@ -328,7 +336,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Oct 19 2016 12:17:54 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:12 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

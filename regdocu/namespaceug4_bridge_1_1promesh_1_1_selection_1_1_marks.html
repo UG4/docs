@@ -101,6 +101,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a65861d29ee0703f677e1e0f86ded8b56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_marks.html#a65861d29ee0703f677e1e0f86ded8b56">MarkCornersOfMarkedEdges</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, double min_angle)</td></tr>
 <tr class="memdesc:a65861d29ee0703f677e1e0f86ded8b56"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_marks.html">Marks</a> selected vertices as fixed, if they lie at a sharp corner of a marked path or if they are at endpoints or at junctions of marked edges.  <a href="#a65861d29ee0703f677e1e0f86ded8b56">More...</a><br /></td></tr>
 <tr class="separator:a65861d29ee0703f677e1e0f86ded8b56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2950cb48b3cd2eb4f665c2e9e76184e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_marks.html#a2950cb48b3cd2eb4f665c2e9e76184e7">MarkCreaseEdges</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, double min_angle, bool clear_marks)</td></tr>
+<tr class="memdesc:a2950cb48b3cd2eb4f665c2e9e76184e7"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_marks.html">Marks</a> edges whose associated faces have a certain angle as crease-edge.  <a href="#a2950cb48b3cd2eb4f665c2e9e76184e7">More...</a><br /></td></tr>
+<tr class="separator:a2950cb48b3cd2eb4f665c2e9e76184e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:accce91ad227e079ff765a0353c0b1e76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_marks.html#accce91ad227e079ff765a0353c0b1e76">MarkSelection</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh)</td></tr>
 <tr class="memdesc:accce91ad227e079ff765a0353c0b1e76"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_marks.html">Marks</a> selected vertices and edges.  <a href="#accce91ad227e079ff765a0353c0b1e76">More...</a><br /></td></tr>
 <tr class="separator:accce91ad227e079ff765a0353c0b1e76"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -176,6 +179,52 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a2950cb48b3cd2eb4f665c2e9e76184e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2950cb48b3cd2eb4f665c2e9e76184e7">&sect;&nbsp;</a></span>MarkCreaseEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug4Bridge::promesh::Selection::Marks::MarkCreaseEdges </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>min_angle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>clear_marks</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_marks.html">Marks</a> edges whose associated faces have a certain angle as crease-edge. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">min_angle</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">clear_marks</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#gad259fa6be34711f5e3c2edfa190ca267">MarkCreaseEdges()</a>.</p>
+
+</div>
+</div>
 <a id="accce91ad227e079ff765a0353c0b1e76"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#accce91ad227e079ff765a0353c0b1e76">&sect;&nbsp;</a></span>MarkSelection()</h2>
 
@@ -238,7 +287,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug4_bridge.html">ug4Bridge</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh.html">promesh</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection.html">Selection</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_marks.html">Marks</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:16:59 for Registry by
+    <li class="footer">Generated on Thu Mar 30 2017 18:42:57 for Registry by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

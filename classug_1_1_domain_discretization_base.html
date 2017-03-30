@@ -167,6 +167,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1153bc87dcbcb65b8ec7b9b7ee081665"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_domain_discretization_base.html#a1153bc87dcbcb65b8ec7b9b7ee081665">add</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_discretization_item.html">IDiscretizationItem</a>&lt; TDomain, TAlgebra &gt; &gt; di)</td></tr>
 <tr class="memdesc:a1153bc87dcbcb65b8ec7b9b7ee081665"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds a disc item to the assembling process  <a href="#a1153bc87dcbcb65b8ec7b9b7ee081665">More...</a><br /></td></tr>
 <tr class="separator:a1153bc87dcbcb65b8ec7b9b7ee081665"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02fbf2d1dd55380385dd7df40cc2049b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_domain_discretization_base.html#a02fbf2d1dd55380385dd7df40cc2049b">add_elem_error_indicator</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_elem_error.html">IElemError</a>&lt; TDomain &gt; &gt; elem)</td></tr>
+<tr class="memdesc:a02fbf2d1dd55380385dd7df40cc2049b"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds an element error indicator to the assembling process  <a href="#a02fbf2d1dd55380385dd7df40cc2049b">More...</a><br /></td></tr>
+<tr class="separator:a02fbf2d1dd55380385dd7df40cc2049b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af63d0c557563f6c6e38125ac63cdcebe"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_domain_discretization_base.html#af63d0c557563f6c6e38125ac63cdcebe">adjust_solution</a> (<a class="el" href="classug_1_1_i_assemble.html#a25b9e510a47737e725c2251e04410704">vector_type</a> &amp;u, <a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_do_f_distribution.html">DoFDistribution</a> &gt; <a class="el" href="classug_1_1_domain_discretization_base.html#aa1933301371e9c92844094151725c5e3">dd</a>)</td></tr>
 <tr class="memdesc:af63d0c557563f6c6e38125ac63cdcebe"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets dirichlet values in solution vector  <a href="#af63d0c557563f6c6e38125ac63cdcebe">More...</a><br /></td></tr>
 <tr class="separator:af63d0c557563f6c6e38125ac63cdcebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -285,11 +288,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1d1782710a24a1f82cba304911438b3b"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_domain_discretization_base.html#a1d1782710a24a1f82cba304911438b3b">num_constraints</a> () const</td></tr>
 <tr class="memdesc:a1d1782710a24a1f82cba304911438b3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns number of registered constraints  <a href="#a1d1782710a24a1f82cba304911438b3b">More...</a><br /></td></tr>
 <tr class="separator:a1d1782710a24a1f82cba304911438b3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a361ee852e80eebff50e2a15c2049ea4c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_domain_discretization_base.html#a361ee852e80eebff50e2a15c2049ea4c">prepare_timestep</a> (<a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_vector_time_series.html">VectorTimeSeries</a>&lt; <a class="el" href="classug_1_1_i_assemble.html#a25b9e510a47737e725c2251e04410704">vector_type</a> &gt; &gt; vSol, <a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_do_f_distribution.html">DoFDistribution</a> &gt; <a class="el" href="classug_1_1_domain_discretization_base.html#aa1933301371e9c92844094151725c5e3">dd</a>)</td></tr>
-<tr class="memdesc:a361ee852e80eebff50e2a15c2049ea4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepares time step  <a href="#a361ee852e80eebff50e2a15c2049ea4c">More...</a><br /></td></tr>
-<tr class="separator:a361ee852e80eebff50e2a15c2049ea4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa70b656d6699fe54f9d66b07d32b8a98"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_domain_discretization_base.html#aa70b656d6699fe54f9d66b07d32b8a98">prepare_timestep</a> (<a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_vector_time_series.html">VectorTimeSeries</a>&lt; <a class="el" href="classug_1_1_i_assemble.html#a25b9e510a47737e725c2251e04410704">vector_type</a> &gt; &gt; vSol, const <a class="el" href="classug_1_1_grid_level.html">GridLevel</a> &amp;gl)</td></tr>
-<tr class="separator:aa70b656d6699fe54f9d66b07d32b8a98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cc62510436811d7c6c685b0ad63641d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_domain_discretization_base.html#a4cc62510436811d7c6c685b0ad63641d">prepare_timestep</a> (<a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_vector_time_series.html">VectorTimeSeries</a>&lt; <a class="el" href="classug_1_1_i_assemble.html#a25b9e510a47737e725c2251e04410704">vector_type</a> &gt; &gt; vSol, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> future_time, <a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_do_f_distribution.html">DoFDistribution</a> &gt; <a class="el" href="classug_1_1_domain_discretization_base.html#aa1933301371e9c92844094151725c5e3">dd</a>)</td></tr>
+<tr class="memdesc:a4cc62510436811d7c6c685b0ad63641d"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepares time step  <a href="#a4cc62510436811d7c6c685b0ad63641d">More...</a><br /></td></tr>
+<tr class="separator:a4cc62510436811d7c6c685b0ad63641d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6be2e2554f98f6663da59ad2e458d324"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_domain_discretization_base.html#a6be2e2554f98f6663da59ad2e458d324">prepare_timestep</a> (<a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_vector_time_series.html">VectorTimeSeries</a>&lt; <a class="el" href="classug_1_1_i_assemble.html#a25b9e510a47737e725c2251e04410704">vector_type</a> &gt; &gt; vSol, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> future_time, const <a class="el" href="classug_1_1_grid_level.html">GridLevel</a> &amp;gl)</td></tr>
+<tr class="separator:a6be2e2554f98f6663da59ad2e458d324"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43f562269d83afdde03407e024bcfefb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_domain_discretization_base.html#a43f562269d83afdde03407e024bcfefb">prepare_timestep_elem</a> (<a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_vector_time_series.html">VectorTimeSeries</a>&lt; <a class="el" href="classug_1_1_i_assemble.html#a25b9e510a47737e725c2251e04410704">vector_type</a> &gt; &gt; vSol, <a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_do_f_distribution.html">DoFDistribution</a> &gt; <a class="el" href="classug_1_1_domain_discretization_base.html#aa1933301371e9c92844094151725c5e3">dd</a>)</td></tr>
 <tr class="memdesc:a43f562269d83afdde03407e024bcfefb"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepares time step element-wise  <a href="#a43f562269d83afdde03407e024bcfefb">More...</a><br /></td></tr>
 <tr class="separator:a43f562269d83afdde03407e024bcfefb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -301,6 +304,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a68bf1b6bd473550e4b43b3c436e3a65c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_domain_discretization_base.html#a68bf1b6bd473550e4b43b3c436e3a65c">remove</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_domain_constraint.html">IDomainConstraint</a>&lt; TDomain, TAlgebra &gt; &gt; pp)</td></tr>
 <tr class="memdesc:a68bf1b6bd473550e4b43b3c436e3a65c"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes a constraint from the assembling process  <a href="#a68bf1b6bd473550e4b43b3c436e3a65c">More...</a><br /></td></tr>
 <tr class="separator:a68bf1b6bd473550e4b43b3c436e3a65c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3008f08164aa86b9df78c8477d67fe1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_domain_discretization_base.html#a3008f08164aa86b9df78c8477d67fe1a">remove_elem_error_indicator</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_elem_error.html">IElemError</a>&lt; TDomain &gt; &gt; elem)</td></tr>
+<tr class="memdesc:a3008f08164aa86b9df78c8477d67fe1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes a element discretization from the assembling process  <a href="#a3008f08164aa86b9df78c8477d67fe1a">More...</a><br /></td></tr>
+<tr class="separator:a3008f08164aa86b9df78c8477d67fe1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa29af9bb96002bf61af03feb84ec150d"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_domain_discretization_base.html#aa29af9bb96002bf61af03feb84ec150d">~DomainDiscretizationBase</a> ()</td></tr>
 <tr class="memdesc:aa29af9bb96002bf61af03feb84ec150d"><td class="mdescLeft">&#160;</td><td class="mdescRight">virtual destructor  <a href="#aa29af9bb96002bf61af03feb84ec150d">More...</a><br /></td></tr>
 <tr class="separator:aa29af9bb96002bf61af03feb84ec150d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -343,8 +349,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aadf048b4519f2ecf1f66bd52b8b9c174 inherit pub_methods_classug_1_1_i_domain_discretization"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_domain_discretization.html#aadf048b4519f2ecf1f66bd52b8b9c174">finish_timestep_elem</a> (<a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_vector_time_series.html">VectorTimeSeries</a>&lt; <a class="el" href="classug_1_1_i_assemble.html#a25b9e510a47737e725c2251e04410704">vector_type</a> &gt; &gt; vSol)</td></tr>
 <tr class="memdesc:aadf048b4519f2ecf1f66bd52b8b9c174 inherit pub_methods_classug_1_1_i_domain_discretization"><td class="mdescLeft">&#160;</td><td class="mdescRight">finishes timestep on surface level  <a href="classug_1_1_i_domain_discretization.html#aadf048b4519f2ecf1f66bd52b8b9c174">More...</a><br /></td></tr>
 <tr class="separator:aadf048b4519f2ecf1f66bd52b8b9c174 inherit pub_methods_classug_1_1_i_domain_discretization"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6165fb0ec19ea1284ff3267a5c0d330f inherit pub_methods_classug_1_1_i_domain_discretization"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_domain_discretization.html#a6165fb0ec19ea1284ff3267a5c0d330f">prepare_timestep</a> (<a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_vector_time_series.html">VectorTimeSeries</a>&lt; <a class="el" href="classug_1_1_i_assemble.html#a25b9e510a47737e725c2251e04410704">vector_type</a> &gt; &gt; vSol)</td></tr>
-<tr class="separator:a6165fb0ec19ea1284ff3267a5c0d330f inherit pub_methods_classug_1_1_i_domain_discretization"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35c71ea714c462bb36aeeba24858f18f inherit pub_methods_classug_1_1_i_domain_discretization"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_domain_discretization.html#a35c71ea714c462bb36aeeba24858f18f">prepare_timestep</a> (<a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_vector_time_series.html">VectorTimeSeries</a>&lt; <a class="el" href="classug_1_1_i_assemble.html#a25b9e510a47737e725c2251e04410704">vector_type</a> &gt; &gt; vSol, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> future_time)</td></tr>
+<tr class="separator:a35c71ea714c462bb36aeeba24858f18f inherit pub_methods_classug_1_1_i_domain_discretization"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6aea20d0ceff23c573359308027e11a7 inherit pub_methods_classug_1_1_i_domain_discretization"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_domain_discretization.html#a6aea20d0ceff23c573359308027e11a7">prepare_timestep_elem</a> (<a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_vector_time_series.html">VectorTimeSeries</a>&lt; <a class="el" href="classug_1_1_i_assemble.html#a25b9e510a47737e725c2251e04410704">vector_type</a> &gt; &gt; vSol)</td></tr>
 <tr class="memdesc:a6aea20d0ceff23c573359308027e11a7 inherit pub_methods_classug_1_1_i_domain_discretization"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepares timestep on surface level  <a href="classug_1_1_i_domain_discretization.html#a6aea20d0ceff23c573359308027e11a7">More...</a><br /></td></tr>
 <tr class="separator:a6aea20d0ceff23c573359308027e11a7 inherit pub_methods_classug_1_1_i_domain_discretization"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -396,6 +402,10 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a1343e7459c44bc96d927589df862eab3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_domain_discretization_base.html#a1343e7459c44bc96d927589df862eab3">update_elem_discs</a> ()</td></tr>
 <tr class="memdesc:a1343e7459c44bc96d927589df862eab3"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the approximation space in the elem discs and extract IElemDiscs  <a href="#a1343e7459c44bc96d927589df862eab3">More...</a><br /></td></tr>
 <tr class="separator:a1343e7459c44bc96d927589df862eab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5775ae2aa2408e7ea653171882f42c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_domain_discretization_base.html#af5775ae2aa2408e7ea653171882f42c6">update_elem_errors</a> ()</td></tr>
+<tr class="separator:af5775ae2aa2408e7ea653171882f42c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeeb8631b3497e60e33ee64ba26cdb089"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_domain_discretization_base.html#aeeb8631b3497e60e33ee64ba26cdb089">update_error_items</a> ()</td></tr>
+<tr class="separator:aeeb8631b3497e60e33ee64ba26cdb089"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -418,9 +428,15 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a11238acef9de24bd950dfa636f80361e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_elem_disc.html">IElemDisc</a>&lt; TDomain &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_domain_discretization_base.html#a11238acef9de24bd950dfa636f80361e">m_vDomainElemDisc</a></td></tr>
 <tr class="memdesc:a11238acef9de24bd950dfa636f80361e"><td class="mdescLeft">&#160;</td><td class="mdescRight">vector holding all registered elem discs  <a href="#a11238acef9de24bd950dfa636f80361e">More...</a><br /></td></tr>
 <tr class="separator:a11238acef9de24bd950dfa636f80361e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88c0d68cce739e58de7cf84dffcc989d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_elem_error.html">IElemError</a>&lt; TDomain &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_domain_discretization_base.html#a88c0d68cce739e58de7cf84dffcc989d">m_vDomainElemError</a></td></tr>
+<tr class="memdesc:a88c0d68cce739e58de7cf84dffcc989d"><td class="mdescLeft">&#160;</td><td class="mdescRight">vector holding all registered elem discs  <a href="#a88c0d68cce739e58de7cf84dffcc989d">More...</a><br /></td></tr>
+<tr class="separator:a88c0d68cce739e58de7cf84dffcc989d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a281663f0693e01ad3676e5e7208c60e4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classug_1_1_i_elem_disc.html">IElemDisc</a>&lt; TDomain &gt; * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_domain_discretization_base.html#a281663f0693e01ad3676e5e7208c60e4">m_vElemDisc</a></td></tr>
 <tr class="memdesc:a281663f0693e01ad3676e5e7208c60e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">vector holding all registered elem discs  <a href="#a281663f0693e01ad3676e5e7208c60e4">More...</a><br /></td></tr>
 <tr class="separator:a281663f0693e01ad3676e5e7208c60e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5077778f8280e975230b82ff8c12fe7"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classug_1_1_i_elem_error.html">IElemError</a>&lt; TDomain &gt; * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_domain_discretization_base.html#aa5077778f8280e975230b82ff8c12fe7">m_vElemError</a></td></tr>
+<tr class="memdesc:aa5077778f8280e975230b82ff8c12fe7"><td class="mdescLeft">&#160;</td><td class="mdescRight">vector holding all registered elem discs  <a href="#aa5077778f8280e975230b82ff8c12fe7">More...</a><br /></td></tr>
+<tr class="separator:aa5077778f8280e975230b82ff8c12fe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
 Private Types</h2></td></tr>
@@ -436,12 +452,12 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:adee94998ed56d4fcf35f3283fa6fb423"><td class="memTemplParams" colspan="2">template&lt;typename TElem &gt; </td></tr>
 <tr class="memitem:adee94998ed56d4fcf35f3283fa6fb423"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_domain_discretization_base.html#adee94998ed56d4fcf35f3283fa6fb423">AssembleDefect</a> (const std::vector&lt; <a class="el" href="classug_1_1_i_elem_disc.html">IElemDisc</a>&lt; <a class="el" href="classug_1_1_domain_discretization_base.html#a1e4a1b82056e07b0fc42e4230bb47a0c">domain_type</a> &gt; *&gt; &amp;vElemDisc, <a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_do_f_distribution.html">DoFDistribution</a> &gt; <a class="el" href="classug_1_1_domain_discretization_base.html#aa1933301371e9c92844094151725c5e3">dd</a>, int si, bool bNonRegularGrid, <a class="el" href="classug_1_1_i_assemble.html#a25b9e510a47737e725c2251e04410704">vector_type</a> &amp;d, <a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_vector_time_series.html">VectorTimeSeries</a>&lt; <a class="el" href="classug_1_1_i_assemble.html#a25b9e510a47737e725c2251e04410704">vector_type</a> &gt; &gt; vSol, const std::vector&lt; <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> &gt; &amp;vScaleMass, const std::vector&lt; <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> &gt; &amp;vScaleStiff)</td></tr>
 <tr class="separator:adee94998ed56d4fcf35f3283fa6fb423"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1dfab28418b6f21392d2ecbdbc35e52"><td class="memTemplParams" colspan="2">template&lt;typename TElem &gt; </td></tr>
-<tr class="memitem:ad1dfab28418b6f21392d2ecbdbc35e52"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_domain_discretization_base.html#ad1dfab28418b6f21392d2ecbdbc35e52">AssembleErrorEstimator</a> (const std::vector&lt; <a class="el" href="classug_1_1_i_elem_disc.html">IElemDisc</a>&lt; <a class="el" href="classug_1_1_domain_discretization_base.html#a1e4a1b82056e07b0fc42e4230bb47a0c">domain_type</a> &gt; *&gt; &amp;vElemDisc, <a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_do_f_distribution.html">DoFDistribution</a> &gt; <a class="el" href="classug_1_1_domain_discretization_base.html#aa1933301371e9c92844094151725c5e3">dd</a>, int si, bool bNonRegularGrid, const <a class="el" href="classug_1_1_i_assemble.html#a25b9e510a47737e725c2251e04410704">vector_type</a> &amp;u)</td></tr>
-<tr class="separator:ad1dfab28418b6f21392d2ecbdbc35e52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91d8fd807fd2a33f6114002036db1a19"><td class="memTemplParams" colspan="2">template&lt;typename TElem &gt; </td></tr>
-<tr class="memitem:a91d8fd807fd2a33f6114002036db1a19"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_domain_discretization_base.html#a91d8fd807fd2a33f6114002036db1a19">AssembleErrorEstimator</a> (const std::vector&lt; <a class="el" href="classug_1_1_i_elem_disc.html">IElemDisc</a>&lt; <a class="el" href="classug_1_1_domain_discretization_base.html#a1e4a1b82056e07b0fc42e4230bb47a0c">domain_type</a> &gt; *&gt; &amp;vElemDisc, <a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_do_f_distribution.html">DoFDistribution</a> &gt; <a class="el" href="classug_1_1_domain_discretization_base.html#aa1933301371e9c92844094151725c5e3">dd</a>, int si, bool bNonRegularGrid, std::vector&lt; <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> &gt; vScaleMass, std::vector&lt; <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> &gt; vScaleStiff, <a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_vector_time_series.html">VectorTimeSeries</a>&lt; <a class="el" href="classug_1_1_i_assemble.html#a25b9e510a47737e725c2251e04410704">vector_type</a> &gt; &gt; vSol)</td></tr>
-<tr class="separator:a91d8fd807fd2a33f6114002036db1a19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4aa0239b21731c75bc48e0a2fd38ace"><td class="memTemplParams" colspan="2">template&lt;typename TElem &gt; </td></tr>
+<tr class="memitem:af4aa0239b21731c75bc48e0a2fd38ace"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_domain_discretization_base.html#af4aa0239b21731c75bc48e0a2fd38ace">AssembleErrorEstimator</a> (const std::vector&lt; <a class="el" href="classug_1_1_i_elem_error.html">IElemError</a>&lt; <a class="el" href="classug_1_1_domain_discretization_base.html#a1e4a1b82056e07b0fc42e4230bb47a0c">domain_type</a> &gt; *&gt; &amp;vElemDisc, <a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_do_f_distribution.html">DoFDistribution</a> &gt; <a class="el" href="classug_1_1_domain_discretization_base.html#aa1933301371e9c92844094151725c5e3">dd</a>, int si, bool bNonRegularGrid, const <a class="el" href="classug_1_1_i_assemble.html#a25b9e510a47737e725c2251e04410704">vector_type</a> &amp;u)</td></tr>
+<tr class="separator:af4aa0239b21731c75bc48e0a2fd38ace"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3377013a6cdfef45cee4876372d815b8"><td class="memTemplParams" colspan="2">template&lt;typename TElem &gt; </td></tr>
+<tr class="memitem:a3377013a6cdfef45cee4876372d815b8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_domain_discretization_base.html#a3377013a6cdfef45cee4876372d815b8">AssembleErrorEstimator</a> (const std::vector&lt; <a class="el" href="classug_1_1_i_elem_error.html">IElemError</a>&lt; <a class="el" href="classug_1_1_domain_discretization_base.html#a1e4a1b82056e07b0fc42e4230bb47a0c">domain_type</a> &gt; *&gt; &amp;vElemDisc, <a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_do_f_distribution.html">DoFDistribution</a> &gt; <a class="el" href="classug_1_1_domain_discretization_base.html#aa1933301371e9c92844094151725c5e3">dd</a>, int si, bool bNonRegularGrid, std::vector&lt; <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> &gt; vScaleMass, std::vector&lt; <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> &gt; vScaleStiff, <a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_vector_time_series.html">VectorTimeSeries</a>&lt; <a class="el" href="classug_1_1_i_assemble.html#a25b9e510a47737e725c2251e04410704">vector_type</a> &gt; &gt; vSol)</td></tr>
+<tr class="separator:a3377013a6cdfef45cee4876372d815b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca336b401e6f4784abb654e584475be7"><td class="memTemplParams" colspan="2">template&lt;typename TElem &gt; </td></tr>
 <tr class="memitem:aca336b401e6f4784abb654e584475be7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_domain_discretization_base.html#aca336b401e6f4784abb654e584475be7">AssembleJacobian</a> (const std::vector&lt; <a class="el" href="classug_1_1_i_elem_disc.html">IElemDisc</a>&lt; <a class="el" href="classug_1_1_domain_discretization_base.html#a1e4a1b82056e07b0fc42e4230bb47a0c">domain_type</a> &gt; *&gt; &amp;vElemDisc, <a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_do_f_distribution.html">DoFDistribution</a> &gt; <a class="el" href="classug_1_1_domain_discretization_base.html#aa1933301371e9c92844094151725c5e3">dd</a>, int si, bool bNonRegularGrid, <a class="el" href="classug_1_1_i_assemble.html#add5a987bed710f8b17426b599f9f8a21">matrix_type</a> &amp;J, const <a class="el" href="classug_1_1_i_assemble.html#a25b9e510a47737e725c2251e04410704">vector_type</a> &amp;u)</td></tr>
 <tr class="separator:aca336b401e6f4784abb654e584475be7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -821,6 +837,43 @@ template&lt;typename TDomain, typename TAlgebra, typename TGlobAssembler&gt; </d
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">di</td><td>Disc Item </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a02fbf2d1dd55380385dd7df40cc2049b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02fbf2d1dd55380385dd7df40cc2049b">&sect;&nbsp;</a></span>add_elem_error_indicator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TDomain, typename TAlgebra, typename TGlobAssembler&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_domain_discretization_base.html">ug::DomainDiscretizationBase</a>&lt; TDomain, TAlgebra, TGlobAssembler &gt;::add_elem_error_indicator </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_elem_error.html">IElemError</a>&lt; TDomain &gt; &gt;&#160;</td>
+          <td class="paramname"><em>elem</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>adds an element error indicator to the assembling process </p>
+<p>This function adds an Element Discretization to the assembling. During the assembling process the elem disc will assemble a given group of subsets and add the output to the passed vectors and matrices. For each Elem Disc one loop over all elements of the subset will be performed.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">elem</td><td>Element error indicator to be added </td></tr>
   </table>
   </dd>
 </dl>
@@ -2060,7 +2113,7 @@ template&lt;typename TDomain , typename TAlgebra , typename TGlobAssembler &gt; 
 
 <p>Implements <a class="el" href="classug_1_1_i_domain_discretization.html#a6507e9ee606fd2b88424ef2d0111f34a">ug::IDomainDiscretization&lt; TAlgebra &gt;</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_domain_discretization_base.html#a76257e0213fe5dac21f8cbc3d90c1196">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::assemble_mass_matrix()</a>, <a class="el" href="classug_1_1_domain_discretization_base.html#abc5f9dd5ec49fa591e2ebce2f767633f">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::finish_timestep_elem()</a>, and <a class="el" href="classug_1_1_domain_discretization_base.html#a52af936b470fcedccc64077a64640572">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::update_disc_items()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_domain_discretization_base.html#a76257e0213fe5dac21f8cbc3d90c1196">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::assemble_mass_matrix()</a>, <a class="el" href="classug_1_1_domain_discretization_base.html#abc5f9dd5ec49fa591e2ebce2f767633f">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::finish_timestep_elem()</a>, and <a class="el" href="classug_1_1_domain_discretization_base.html#aeeb8631b3497e60e33ee64ba26cdb089">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::update_error_items()</a>.</p>
 
 </div>
 </div>
@@ -2745,8 +2798,8 @@ template&lt;typename TElem &gt; </div>
 
 </div>
 </div>
-<a id="ad1dfab28418b6f21392d2ecbdbc35e52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1dfab28418b6f21392d2ecbdbc35e52">&sect;&nbsp;</a></span>AssembleErrorEstimator() <span class="overload">[1/2]</span></h2>
+<a id="af4aa0239b21731c75bc48e0a2fd38ace"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4aa0239b21731c75bc48e0a2fd38ace">&sect;&nbsp;</a></span>AssembleErrorEstimator() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2761,7 +2814,7 @@ template&lt;typename TElem &gt; </div>
         <tr>
           <td class="memname">void <a class="el" href="classug_1_1_domain_discretization_base.html">ug::DomainDiscretizationBase</a>&lt; TDomain, TAlgebra, TGlobAssembler &gt;::AssembleErrorEstimator </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="classug_1_1_i_elem_disc.html">IElemDisc</a>&lt; <a class="el" href="classug_1_1_domain_discretization_base.html#a1e4a1b82056e07b0fc42e4230bb47a0c">domain_type</a> &gt; *&gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classug_1_1_i_elem_error.html">IElemError</a>&lt; <a class="el" href="classug_1_1_domain_discretization_base.html#a1e4a1b82056e07b0fc42e4230bb47a0c">domain_type</a> &gt; *&gt; &amp;&#160;</td>
           <td class="paramname"><em>vElemDisc</em>, </td>
         </tr>
         <tr>
@@ -2816,8 +2869,8 @@ template&lt;typename TElem &gt; </div>
 
 </div>
 </div>
-<a id="a91d8fd807fd2a33f6114002036db1a19"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91d8fd807fd2a33f6114002036db1a19">&sect;&nbsp;</a></span>AssembleErrorEstimator() <span class="overload">[2/2]</span></h2>
+<a id="a3377013a6cdfef45cee4876372d815b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3377013a6cdfef45cee4876372d815b8">&sect;&nbsp;</a></span>AssembleErrorEstimator() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2832,7 +2885,7 @@ template&lt;typename TElem &gt; </div>
         <tr>
           <td class="memname">void <a class="el" href="classug_1_1_domain_discretization_base.html">ug::DomainDiscretizationBase</a>&lt; TDomain, TAlgebra, TGlobAssembler &gt;::AssembleErrorEstimator </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="classug_1_1_i_elem_disc.html">IElemDisc</a>&lt; <a class="el" href="classug_1_1_domain_discretization_base.html#a1e4a1b82056e07b0fc42e4230bb47a0c">domain_type</a> &gt; *&gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classug_1_1_i_elem_error.html">IElemError</a>&lt; <a class="el" href="classug_1_1_domain_discretization_base.html#a1e4a1b82056e07b0fc42e4230bb47a0c">domain_type</a> &gt; *&gt; &amp;&#160;</td>
           <td class="paramname"><em>vElemDisc</em>, </td>
         </tr>
         <tr>
@@ -3604,7 +3657,7 @@ template&lt;typename TDomain , typename TAlgebra , typename TGlobAssembler &gt; 
 
 <p>Implements <a class="el" href="classug_1_1_i_domain_discretization.html#a9bb2305fbe0509a09af55166fa48628a">ug::IDomainDiscretization&lt; TAlgebra &gt;</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_domain_discretization_base.html#af63d0c557563f6c6e38125ac63cdcebe">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::adjust_solution()</a>, <a class="el" href="classug_1_1_domain_discretization_base.html#a824a08ed1763955010ae2f639d189f7d">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::assemble_stiffness_matrix()</a>, and <a class="el" href="classug_1_1_domain_discretization_base.html#ad6af0493aabf6a8867e7783b7573ac38">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::calc_error()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_domain_discretization_base.html#a824a08ed1763955010ae2f639d189f7d">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::assemble_stiffness_matrix()</a>, <a class="el" href="classug_1_1_domain_discretization_base.html#af4aa0239b21731c75bc48e0a2fd38ace">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::AssembleErrorEstimator()</a>, <a class="el" href="classug_1_1_domain_discretization_base.html#ad6af0493aabf6a8867e7783b7573ac38">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::calc_error()</a>, and <a class="el" href="namespaceug.html#a34552c1ba176791eefdb6677261872ff">ug::CollectIErrEstData()</a>.</p>
 
 </div>
 </div>
@@ -3906,7 +3959,7 @@ template&lt;typename TDomain, typename TAlgebra, typename TGlobAssembler&gt; </d
 
 <p>returns the level dof distribution </p>
 
-<p>Referenced by <a class="el" href="classug_1_1_domain_discretization_base.html#a77e39e22a33496e3134fa4e798d176e5">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::adjust_solution()</a>, <a class="el" href="classug_1_1_domain_discretization_base.html#afea421cbbf039b699538fdfad6eec356">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::assemble_defect()</a>, <a class="el" href="classug_1_1_domain_discretization_base.html#acc96077d7d893cceae6178eafc4bd06d">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::assemble_jacobian()</a>, <a class="el" href="classug_1_1_domain_discretization_base.html#a823c007e65a0bd6e2b03846b04126053">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::assemble_linear()</a>, <a class="el" href="classug_1_1_domain_discretization_base.html#a76257e0213fe5dac21f8cbc3d90c1196">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::assemble_mass_matrix()</a>, <a class="el" href="classug_1_1_domain_discretization_base.html#a51a807f3cb31a97c6a2f8fefa5fcc82d">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::assemble_rhs()</a>, <a class="el" href="classug_1_1_domain_discretization_base.html#a824a08ed1763955010ae2f639d189f7d">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::assemble_stiffness_matrix()</a>, <a class="el" href="classug_1_1_domain_discretization_base.html#ad6af0493aabf6a8867e7783b7573ac38">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::calc_error()</a>, <a class="el" href="classug_1_1_domain_discretization_base.html#aff3b70b005b4428996805f5343d1b440">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::finish_timestep()</a>, <a class="el" href="classug_1_1_domain_discretization_base.html#abc5f9dd5ec49fa591e2ebce2f767633f">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::finish_timestep_elem()</a>, <a class="el" href="classug_1_1_domain_discretization_base.html#aa70b656d6699fe54f9d66b07d32b8a98">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::prepare_timestep()</a>, <a class="el" href="classug_1_1_domain_discretization_base.html#add3de637662257b1b1769287012111ae">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::prepare_timestep_elem()</a>, and <a class="el" href="classug_1_1_domain_discretization_base.html#aa29af9bb96002bf61af03feb84ec150d">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::~DomainDiscretizationBase()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_domain_discretization_base.html#a77e39e22a33496e3134fa4e798d176e5">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::adjust_solution()</a>, <a class="el" href="classug_1_1_domain_discretization_base.html#afea421cbbf039b699538fdfad6eec356">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::assemble_defect()</a>, <a class="el" href="classug_1_1_domain_discretization_base.html#acc96077d7d893cceae6178eafc4bd06d">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::assemble_jacobian()</a>, <a class="el" href="classug_1_1_domain_discretization_base.html#a823c007e65a0bd6e2b03846b04126053">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::assemble_linear()</a>, <a class="el" href="classug_1_1_domain_discretization_base.html#a76257e0213fe5dac21f8cbc3d90c1196">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::assemble_mass_matrix()</a>, <a class="el" href="classug_1_1_domain_discretization_base.html#a51a807f3cb31a97c6a2f8fefa5fcc82d">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::assemble_rhs()</a>, <a class="el" href="classug_1_1_domain_discretization_base.html#a824a08ed1763955010ae2f639d189f7d">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::assemble_stiffness_matrix()</a>, <a class="el" href="classug_1_1_domain_discretization_base.html#ad6af0493aabf6a8867e7783b7573ac38">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::calc_error()</a>, <a class="el" href="classug_1_1_domain_discretization_base.html#aff3b70b005b4428996805f5343d1b440">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::finish_timestep()</a>, <a class="el" href="classug_1_1_domain_discretization_base.html#abc5f9dd5ec49fa591e2ebce2f767633f">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::finish_timestep_elem()</a>, <a class="el" href="classug_1_1_domain_discretization_base.html#a6be2e2554f98f6663da59ad2e458d324">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::prepare_timestep()</a>, <a class="el" href="classug_1_1_domain_discretization_base.html#add3de637662257b1b1769287012111ae">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::prepare_timestep_elem()</a>, and <a class="el" href="classug_1_1_domain_discretization_base.html#aa29af9bb96002bf61af03feb84ec150d">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::~DomainDiscretizationBase()</a>.</p>
 
 </div>
 </div>
@@ -4276,7 +4329,7 @@ template&lt;typename TDomain, typename TAlgebra , typename TGlobAssembler &gt; <
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classug_1_1_domain_discretization_base.html#a91d8fd807fd2a33f6114002036db1a19">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::AssembleErrorEstimator()</a>, and <a class="el" href="classug_1_1_domain_discretization_base.html#ace076366f56f7622a992a8a8a9c5bf3c">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::calc_error()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_domain_discretization_base.html#a3377013a6cdfef45cee4876372d815b8">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::AssembleErrorEstimator()</a>, and <a class="el" href="classug_1_1_domain_discretization_base.html#ace076366f56f7622a992a8a8a9c5bf3c">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::calc_error()</a>.</p>
 
 </div>
 </div>
@@ -4311,8 +4364,8 @@ template&lt;typename TDomain, typename TAlgebra, typename TGlobAssembler&gt; </d
 
 </div>
 </div>
-<a id="a361ee852e80eebff50e2a15c2049ea4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a361ee852e80eebff50e2a15c2049ea4c">&sect;&nbsp;</a></span>prepare_timestep() <span class="overload">[1/2]</span></h2>
+<a id="a4cc62510436811d7c6c685b0ad63641d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cc62510436811d7c6c685b0ad63641d">&sect;&nbsp;</a></span>prepare_timestep() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4327,6 +4380,12 @@ template&lt;typename TDomain , typename TAlgebra , typename TGlobAssembler &gt; 
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_vector_time_series.html">VectorTimeSeries</a>&lt; <a class="el" href="classug_1_1_i_assemble.html#a25b9e510a47737e725c2251e04410704">vector_type</a> &gt; &gt;&#160;</td>
           <td class="paramname"><em>vSol</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td>
+          <td class="paramname"><em>future_time</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -4357,14 +4416,14 @@ template&lt;typename TDomain , typename TAlgebra , typename TGlobAssembler &gt; 
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="classug_1_1_i_domain_discretization.html#a8fd304e4b85d6e2a14139b09d2b354b6">ug::IDomainDiscretization&lt; TAlgebra &gt;</a>.</p>
+<p>Implements <a class="el" href="classug_1_1_i_domain_discretization.html#a3d108251efa0718f0b6e94068d94ae4f">ug::IDomainDiscretization&lt; TAlgebra &gt;</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_domain_discretization_base.html#a455a215f51b35b6c42058ebbacc2587c">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::adjust_solution()</a>, <a class="el" href="classug_1_1_domain_discretization_base.html#ad1dfab28418b6f21392d2ecbdbc35e52">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::AssembleErrorEstimator()</a>, and <a class="el" href="classug_1_1_domain_discretization_base.html#aa70b656d6699fe54f9d66b07d32b8a98">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::prepare_timestep()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_domain_discretization_base.html#a455a215f51b35b6c42058ebbacc2587c">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::adjust_solution()</a>, and <a class="el" href="classug_1_1_domain_discretization_base.html#a6be2e2554f98f6663da59ad2e458d324">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::prepare_timestep()</a>.</p>
 
 </div>
 </div>
-<a id="aa70b656d6699fe54f9d66b07d32b8a98"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa70b656d6699fe54f9d66b07d32b8a98">&sect;&nbsp;</a></span>prepare_timestep() <span class="overload">[2/2]</span></h2>
+<a id="a6be2e2554f98f6663da59ad2e458d324"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6be2e2554f98f6663da59ad2e458d324">&sect;&nbsp;</a></span>prepare_timestep() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4379,6 +4438,12 @@ template&lt;typename TDomain, typename TAlgebra, typename TGlobAssembler&gt; </d
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_vector_time_series.html">VectorTimeSeries</a>&lt; <a class="el" href="classug_1_1_i_assemble.html#a25b9e510a47737e725c2251e04410704">vector_type</a> &gt; &gt;&#160;</td>
           <td class="paramname"><em>vSol</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td>
+          <td class="paramname"><em>future_time</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -4399,7 +4464,7 @@ template&lt;typename TDomain, typename TAlgebra, typename TGlobAssembler&gt; </d
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classug_1_1_i_domain_discretization.html#ae27b0907133df0bdad22e5306ce4d9aa">ug::IDomainDiscretization&lt; TAlgebra &gt;</a>.</p>
+<p>Implements <a class="el" href="classug_1_1_i_domain_discretization.html#aee9753441ecbea96df4b6749446eb61b">ug::IDomainDiscretization&lt; TAlgebra &gt;</a>.</p>
 
 </div>
 </div>
@@ -4451,7 +4516,7 @@ template&lt;typename TDomain , typename TAlgebra , typename TGlobAssembler &gt; 
 
 <p>Implements <a class="el" href="classug_1_1_i_domain_discretization.html#a8d35d08f7bff80dd5f390b48962604db">ug::IDomainDiscretization&lt; TAlgebra &gt;</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_domain_discretization_base.html#aa70b656d6699fe54f9d66b07d32b8a98">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::prepare_timestep()</a>, and <a class="el" href="classug_1_1_domain_discretization_base.html#add3de637662257b1b1769287012111ae">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::prepare_timestep_elem()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_domain_discretization_base.html#a6be2e2554f98f6663da59ad2e458d324">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::prepare_timestep()</a>, and <a class="el" href="classug_1_1_domain_discretization_base.html#add3de637662257b1b1769287012111ae">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::prepare_timestep_elem()</a>.</p>
 
 </div>
 </div>
@@ -4593,7 +4658,7 @@ template&lt;typename TDomain, typename TAlgebra, typename TGlobAssembler&gt; </d
 </div><div class="memdoc">
 
 <p>removes a element discretization from the assembling process </p>
-<p>This function removes a previously added <a class="el" href="classug_1_1_i_elem_disc.html" title="base class for all element-wise discretizations ">IElemDisc</a> from the assembling. The element-wise assemblings are no longer called.</p>
+<p>This function removes a previously added <a class="el" href="classug_1_1_i_elem_disc.html">IElemDisc</a> from the assembling. The element-wise assemblings are no longer called.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">elem</td><td>elem disc to be removed </td></tr>
@@ -4634,6 +4699,43 @@ template&lt;typename TDomain, typename TAlgebra, typename TGlobAssembler&gt; </d
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">pp</td><td>constraint to be removed </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a3008f08164aa86b9df78c8477d67fe1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3008f08164aa86b9df78c8477d67fe1a">&sect;&nbsp;</a></span>remove_elem_error_indicator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TDomain, typename TAlgebra, typename TGlobAssembler&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_domain_discretization_base.html">ug::DomainDiscretizationBase</a>&lt; TDomain, TAlgebra, TGlobAssembler &gt;::remove_elem_error_indicator </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_elem_error.html">IElemError</a>&lt; TDomain &gt; &gt;&#160;</td>
+          <td class="paramname"><em>elem</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>removes a element discretization from the assembling process </p>
+<p>This function removes a previously added <a class="el" href="classug_1_1_i_elem_disc.html">IElemDisc</a> from the assembling. The element-wise assemblings are no longer called.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">elem</td><td>elem disc to be removed </td></tr>
   </table>
   </dd>
 </dl>
@@ -4724,6 +4826,64 @@ template&lt;typename TDomain , typename TAlgebra , typename TGlobAssembler &gt; 
 </div><div class="memdoc">
 
 <p>set the approximation space in the elem discs and extract IElemDiscs </p>
+
+<p>Referenced by <a class="el" href="classug_1_1_domain_discretization_base.html#ae9849894fdea952b9dda3ed99f03551f">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::constraint()</a>.</p>
+
+</div>
+</div>
+<a id="af5775ae2aa2408e7ea653171882f42c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5775ae2aa2408e7ea653171882f42c6">&sect;&nbsp;</a></span>update_elem_errors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TDomain , typename TAlgebra , typename TGlobAssembler &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_domain_discretization_base.html">ug::DomainDiscretizationBase</a>&lt; TDomain, TAlgebra, TGlobAssembler &gt;::update_elem_errors </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classug_1_1_domain_discretization_base.html#ae9849894fdea952b9dda3ed99f03551f">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::constraint()</a>.</p>
+
+</div>
+</div>
+<a id="aeeb8631b3497e60e33ee64ba26cdb089"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeeb8631b3497e60e33ee64ba26cdb089">&sect;&nbsp;</a></span>update_error_items()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TDomain , typename TAlgebra , typename TGlobAssembler &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_domain_discretization_base.html">ug::DomainDiscretizationBase</a>&lt; TDomain, TAlgebra, TGlobAssembler &gt;::update_error_items </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 <p>Referenced by <a class="el" href="classug_1_1_domain_discretization_base.html#ae9849894fdea952b9dda3ed99f03551f">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::constraint()</a>.</p>
 
@@ -4876,7 +5036,7 @@ template&lt;typename TDomain, typename TAlgebra, typename TGlobAssembler&gt; </d
 
 <p>current approximation space </p>
 
-<p>Referenced by <a class="el" href="classug_1_1_domain_discretization_base.html#a86fac148eee0fb98954199c246760c28">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::add()</a>, and <a class="el" href="classug_1_1_domain_discretization_base.html#aa1933301371e9c92844094151725c5e3">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::dd()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_domain_discretization_base.html#a86fac148eee0fb98954199c246760c28">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::add()</a>, <a class="el" href="classug_1_1_domain_discretization_base.html#a02fbf2d1dd55380385dd7df40cc2049b">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::add_elem_error_indicator()</a>, and <a class="el" href="classug_1_1_domain_discretization_base.html#aa1933301371e9c92844094151725c5e3">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::dd()</a>.</p>
 
 </div>
 </div>
@@ -4962,6 +5122,34 @@ template&lt;typename TDomain, typename TAlgebra, typename TGlobAssembler&gt; </d
 
 </div>
 </div>
+<a id="a88c0d68cce739e58de7cf84dffcc989d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88c0d68cce739e58de7cf84dffcc989d">&sect;&nbsp;</a></span>m_vDomainElemError</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TDomain, typename TAlgebra, typename TGlobAssembler&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt;<a class="el" href="classug_1_1_i_elem_error.html">IElemError</a>&lt;TDomain&gt; &gt; &gt; <a class="el" href="classug_1_1_domain_discretization_base.html">ug::DomainDiscretizationBase</a>&lt; TDomain, TAlgebra, TGlobAssembler &gt;::m_vDomainElemError</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>vector holding all registered elem discs </p>
+
+<p>Referenced by <a class="el" href="classug_1_1_domain_discretization_base.html#a02fbf2d1dd55380385dd7df40cc2049b">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::add_elem_error_indicator()</a>, and <a class="el" href="classug_1_1_domain_discretization_base.html#a3008f08164aa86b9df78c8477d67fe1a">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::remove_elem_error_indicator()</a>.</p>
+
+</div>
+</div>
 <a id="a281663f0693e01ad3676e5e7208c60e4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a281663f0693e01ad3676e5e7208c60e4">&sect;&nbsp;</a></span>m_vElemDisc</h2>
 
@@ -4988,6 +5176,32 @@ template&lt;typename TDomain, typename TAlgebra, typename TGlobAssembler&gt; </d
 
 </div>
 </div>
+<a id="aa5077778f8280e975230b82ff8c12fe7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5077778f8280e975230b82ff8c12fe7">&sect;&nbsp;</a></span>m_vElemError</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TDomain, typename TAlgebra, typename TGlobAssembler&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classug_1_1_i_elem_error.html">IElemError</a>&lt;TDomain&gt;*&gt; <a class="el" href="classug_1_1_domain_discretization_base.html">ug::DomainDiscretizationBase</a>&lt; TDomain, TAlgebra, TGlobAssembler &gt;::m_vElemError</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>vector holding all registered elem discs </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>ugbase/lib_disc/spatial_disc/<a class="el" href="domain__disc_8h_source.html">domain_disc.h</a></li>
 <li>ugbase/lib_disc/spatial_disc/<a class="el" href="domain__disc__impl_8h_source.html">domain_disc_impl.h</a></li>
@@ -4998,7 +5212,7 @@ template&lt;typename TDomain, typename TAlgebra, typename TGlobAssembler&gt; </d
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_domain_discretization_base.html">DomainDiscretizationBase</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:18:02 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:21 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

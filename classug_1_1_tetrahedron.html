@@ -160,17 +160,26 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4edf8f293115d48c7d41c0689e25c2b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaaf2fa38c46d099e7bf6b90f5201a138"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_tetrahedron.html#aaaf2fa38c46d099e7bf6b90f5201a138">face_desc</a> (int index, <a class="el" href="classug_1_1_face_descriptor.html">FaceDescriptor</a> &amp;fdOut) const</td></tr>
 <tr class="separator:aaaf2fa38c46d099e7bf6b90f5201a138"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1204230bf5f20fa16b7891737b8293b5"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_tetrahedron.html#a1204230bf5f20fa16b7891737b8293b5">get_edge_index_from_vertices</a> (const size_t vi0, const size_t vi1) const</td></tr>
+<tr class="memdesc:a1204230bf5f20fa16b7891737b8293b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the local index of the edge which connects the two vertex indices.  <a href="#a1204230bf5f20fa16b7891737b8293b5">More...</a><br /></td></tr>
+<tr class="separator:a1204230bf5f20fa16b7891737b8293b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa958952bc96cd38f17ddefd8ba3381f"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_tetrahedron.html#aaa958952bc96cd38f17ddefd8ba3381f">get_face_edge_index</a> (const size_t faceInd, const size_t faceEdgeInd) const</td></tr>
+<tr class="memdesc:aaa958952bc96cd38f17ddefd8ba3381f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the local index of the j-th edge of the i-th face of the volume  <a href="#aaa958952bc96cd38f17ddefd8ba3381f">More...</a><br /></td></tr>
+<tr class="separator:aaa958952bc96cd38f17ddefd8ba3381f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a131ab26a89b96432c16dc9f13818c252"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_tetrahedron.html#a131ab26a89b96432c16dc9f13818c252">get_flipped_orientation</a> (<a class="el" href="classug_1_1_volume_descriptor.html">VolumeDescriptor</a> &amp;vdOut) const</td></tr>
 <tr class="separator:a131ab26a89b96432c16dc9f13818c252"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9d0c6196eae36064d05943b6345082b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_tetrahedron.html#ae9d0c6196eae36064d05943b6345082b">get_local_vertex_indices_of_edge</a> (size_t &amp;ind1Out, size_t &amp;ind2Out, size_t edgeInd) const</td></tr>
-<tr class="memdesc:ae9d0c6196eae36064d05943b6345082b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the local indices of an edge of the volume.  <a href="#ae9d0c6196eae36064d05943b6345082b">More...</a><br /></td></tr>
-<tr class="separator:ae9d0c6196eae36064d05943b6345082b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a849ac8d0cf1301f419e8a4bb3ef53509"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_tetrahedron.html#a849ac8d0cf1301f419e8a4bb3ef53509">get_local_vertex_indices_of_face</a> (std::vector&lt; size_t &gt; &amp;indsOut, size_t <a class="el" href="classug_1_1_volume.html#a305d6981a0891991e814e2f796c2a64e">side</a>) const</td></tr>
-<tr class="memdesc:a849ac8d0cf1301f419e8a4bb3ef53509"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the local indices of a face of the volume.  <a href="#a849ac8d0cf1301f419e8a4bb3ef53509">More...</a><br /></td></tr>
-<tr class="separator:a849ac8d0cf1301f419e8a4bb3ef53509"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3426a59817706ae6c61dae279c8dda0f"><td class="memItemLeft" align="right" valign="top">virtual std::pair&lt; <a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13c">GridBaseObjectId</a>, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_tetrahedron.html#a3426a59817706ae6c61dae279c8dda0f">get_opposing_object</a> (<a class="el" href="classug_1_1_vertex.html">Vertex</a> *vrt) const</td></tr>
 <tr class="memdesc:a3426a59817706ae6c61dae279c8dda0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns an index to the obbject, which lies on the opposite side of the volume to the given vertex.  <a href="#a3426a59817706ae6c61dae279c8dda0f">More...</a><br /></td></tr>
 <tr class="separator:a3426a59817706ae6c61dae279c8dda0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a583d9328d16a8ce9159ba280fba7eea7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_tetrahedron.html#a583d9328d16a8ce9159ba280fba7eea7">get_vertex_indices_of_edge</a> (size_t &amp;ind1Out, size_t &amp;ind2Out, size_t edgeInd) const</td></tr>
+<tr class="memdesc:a583d9328d16a8ce9159ba280fba7eea7"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the local indices of an edge of the volume.  <a href="#a583d9328d16a8ce9159ba280fba7eea7">More...</a><br /></td></tr>
+<tr class="separator:a583d9328d16a8ce9159ba280fba7eea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5d0013b50851c338aeb039254ae136d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_tetrahedron.html#ac5d0013b50851c338aeb039254ae136d">get_vertex_indices_of_face</a> (std::vector&lt; size_t &gt; &amp;indsOut, size_t <a class="el" href="classug_1_1_volume.html#a305d6981a0891991e814e2f796c2a64e">side</a>) const</td></tr>
+<tr class="memdesc:ac5d0013b50851c338aeb039254ae136d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the local indices of a face of the volume.  <a href="#ac5d0013b50851c338aeb039254ae136d">More...</a><br /></td></tr>
+<tr class="separator:ac5d0013b50851c338aeb039254ae136d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fb009d102ff780423e48a3a99bba1e4"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_tetrahedron.html#a1fb009d102ff780423e48a3a99bba1e4">is_regular_ref_rule</a> (int edgeMarks) const</td></tr>
+<tr class="memdesc:a1fb009d102ff780423e48a3a99bba1e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the specified edgeMarks would lead to a regular refinement  <a href="#a1fb009d102ff780423e48a3a99bba1e4">More...</a><br /></td></tr>
+<tr class="separator:a1fb009d102ff780423e48a3a99bba1e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a851a384b128c627cecff271541d9a93b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__ugbase__common.html#ga91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_tetrahedron.html#a851a384b128c627cecff271541d9a93b">num_edges</a> () const</td></tr>
 <tr class="separator:a851a384b128c627cecff271541d9a93b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4d614dcdcdbcc387096fbb0676a51ec"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__ugbase__common.html#ga91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_tetrahedron.html#ab4d614dcdcdbcc387096fbb0676a51ec">num_faces</a> () const</td></tr>
@@ -217,6 +226,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a33bc1afcaac0b8a504c3f18509faec8f inherit pub_methods_classug_1_1_grid_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a680bc151e2e9ec6f11823c9a63d06adb inherit pub_methods_classug_1_1_grid_object"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_grid_object.html#a680bc151e2e9ec6f11823c9a63d06adb">~GridObject</a> ()</td></tr>
 <tr class="separator:a680bc151e2e9ec6f11823c9a63d06adb inherit pub_methods_classug_1_1_grid_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7cba6e939e102c73334af2b5de1d120 inherit pub_methods_classug_1_1_grid_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_grid_object.html#aa7cba6e939e102c73334af2b5de1d120">remove_constraint_link</a> (const <a class="el" href="classug_1_1_vertex.html">Vertex</a> *vrt)</td></tr>
+<tr class="memdesc:aa7cba6e939e102c73334af2b5de1d120 inherit pub_methods_classug_1_1_grid_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes a constraint link to the grid object.  <a href="classug_1_1_grid_object.html#aa7cba6e939e102c73334af2b5de1d120">More...</a><br /></td></tr>
+<tr class="separator:aa7cba6e939e102c73334af2b5de1d120 inherit pub_methods_classug_1_1_grid_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cf06cf93c0a2a9f3f201de2743dfabd inherit pub_methods_classug_1_1_grid_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_grid_object.html#a4cf06cf93c0a2a9f3f201de2743dfabd">remove_constraint_link</a> (const <a class="el" href="classug_1_1_edge.html">Edge</a> *e)</td></tr>
+<tr class="memdesc:a4cf06cf93c0a2a9f3f201de2743dfabd inherit pub_methods_classug_1_1_grid_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes a constraint link to the grid object.  <a href="classug_1_1_grid_object.html#a4cf06cf93c0a2a9f3f201de2743dfabd">More...</a><br /></td></tr>
+<tr class="separator:a4cf06cf93c0a2a9f3f201de2743dfabd inherit pub_methods_classug_1_1_grid_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fb24b85c24a682c0e46e833f12a87c6 inherit pub_methods_classug_1_1_grid_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_grid_object.html#a6fb24b85c24a682c0e46e833f12a87c6">remove_constraint_link</a> (const <a class="el" href="classug_1_1_face.html">Face</a> *f)</td></tr>
+<tr class="memdesc:a6fb24b85c24a682c0e46e833f12a87c6 inherit pub_methods_classug_1_1_grid_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes a constraint link to the grid object.  <a href="classug_1_1_grid_object.html#a6fb24b85c24a682c0e46e833f12a87c6">More...</a><br /></td></tr>
+<tr class="separator:a6fb24b85c24a682c0e46e833f12a87c6 inherit pub_methods_classug_1_1_grid_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classug_1_1_volume_vertices"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classug_1_1_volume_vertices')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classug_1_1_volume_vertices.html">ug::VolumeVertices</a></td></tr>
 <tr class="memitem:a375ad266b97362a9cd5cb0e9473fb63c inherit pub_methods_classug_1_1_volume_vertices"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_vertex.html">Vertex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_volume_vertices.html#a375ad266b97362a9cd5cb0e9473fb63c">operator[]</a> (size_t index) const</td></tr>
 <tr class="memdesc:a375ad266b97362a9cd5cb0e9473fb63c inherit pub_methods_classug_1_1_volume_vertices"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the i-th vertex.  <a href="classug_1_1_volume_vertices.html#a375ad266b97362a9cd5cb0e9473fb63c">More...</a><br /></td></tr>
@@ -426,10 +444,10 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>The collapse_edge method creates new geometric objects by collapsing the specified edge. The user that calls this function is responsible to either register the new faces with a grid (the grid from which the vertices are), or to take responsibility for deletion of the acquired memory (delete each element in vNewFacesOut).</p><ul>
+<p>The collapse_edge method creates new geometric objects by collapsing the specified edge. The user that calls this function is responsible to either register the new volumes with a grid (the grid from which the vertices are), or to take responsibility for deletion of the acquired memory (delete each element in vNewFacesOut).</p><ul>
 <li>edgeIndex specifies the edge which shall be collapsed. edgeIndex has to lie between 0 and this-&gt;<a class="el" href="classug_1_1_tetrahedron.html#a851a384b128c627cecff271541d9a93b">num_edges()</a>.</li>
 <li>Vertices adjacent to the collapsed edge will be replaced by newVertex.</li>
-<li>If you specify pvSubstituteVertices, the created faces will reference the vertices in pvSubstituteVertices. Note that pvSubstituteVertices has to contain exactly as many vertices as the face in which you collapse the edge. Vertices with the same index correlate. </li>
+<li>If you specify pvSubstituteVertices, the created volumes will reference the vertices in pvSubstituteVertices. Note that pvSubstituteVertices has to contain exactly as many vertices as the volume in which you collapse the edge. Vertices with the same index correlate. </li>
 </ul>
 
 <p>Reimplemented from <a class="el" href="classug_1_1_volume.html#aeb5bff348d40deb9fad69053f34d9363">ug::Volume</a>.</p>
@@ -695,6 +713,92 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a1204230bf5f20fa16b7891737b8293b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1204230bf5f20fa16b7891737b8293b5">&sect;&nbsp;</a></span>get_edge_index_from_vertices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ug::Tetrahedron::get_edge_index_from_vertices </td>
+          <td>(</td>
+          <td class="paramtype">const size_t&#160;</td>
+          <td class="paramname"><em>vi0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const size_t&#160;</td>
+          <td class="paramname"><em>vi1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the local index of the edge which connects the two vertex indices. </p>
+<p>Default implementation throws a <a class="el" href="classug_1_1_u_g_error.html" title="Instances of this class or of derived classes are thrown if errors arise. ">UGError</a> </p>
+
+<p>Reimplemented from <a class="el" href="classug_1_1_volume.html#a86191e2786e810b2ebdee1075b99809f">ug::Volume</a>.</p>
+
+<p>References <a class="el" href="namespaceug_1_1hex__rules.html#a1c1c4b41a8cade27ccaa9262525519df">ug::hex_rules::EDGE_FROM_VRTS</a>.</p>
+
+</div>
+</div>
+<a id="aaa958952bc96cd38f17ddefd8ba3381f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa958952bc96cd38f17ddefd8ba3381f">&sect;&nbsp;</a></span>get_face_edge_index()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ug::Tetrahedron::get_face_edge_index </td>
+          <td>(</td>
+          <td class="paramtype">const size_t&#160;</td>
+          <td class="paramname"><em>faceInd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const size_t&#160;</td>
+          <td class="paramname"><em>faceEdgeInd</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the local index of the j-th edge of the i-th face of the volume </p>
+<p>Default implementation throws a <a class="el" href="classug_1_1_u_g_error.html" title="Instances of this class or of derived classes are thrown if errors arise. ">UGError</a> </p>
+
+<p>Reimplemented from <a class="el" href="classug_1_1_volume.html#ab032630d6bd627b55fcdd6e92f9a1d3c">ug::Volume</a>.</p>
+
+<p>References <a class="el" href="namespaceug_1_1hex__rules.html#a01a34b96cb6ff67fdf0c66b658a8f345">ug::hex_rules::FACE_EDGE_INDS</a>.</p>
+
+</div>
+</div>
 <a id="a131ab26a89b96432c16dc9f13818c252"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a131ab26a89b96432c16dc9f13818c252">&sect;&nbsp;</a></span>get_flipped_orientation()</h2>
 
@@ -724,98 +828,6 @@ Protected Attributes</h2></td></tr>
 <p>Reimplemented from <a class="el" href="classug_1_1_volume.html#a7ac145ed86a7dab59c525d991b5b255b">ug::Volume</a>.</p>
 
 <p>References <a class="el" href="classug_1_1_volume_descriptor.html#ab60768126bb470249334fc56a5c6b331">ug::VolumeDescriptor::set_num_vertices()</a>, and <a class="el" href="classug_1_1_volume_descriptor.html#a1a18dbc15bbcd8624fe98e99ef049d59">ug::VolumeDescriptor::set_vertex()</a>.</p>
-
-</div>
-</div>
-<a id="ae9d0c6196eae36064d05943b6345082b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9d0c6196eae36064d05943b6345082b">&sect;&nbsp;</a></span>get_local_vertex_indices_of_edge()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ug::Tetrahedron::get_local_vertex_indices_of_edge </td>
-          <td>(</td>
-          <td class="paramtype">size_t &amp;&#160;</td>
-          <td class="paramname"><em>ind1Out</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t &amp;&#160;</td>
-          <td class="paramname"><em>ind2Out</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>edgeInd</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>returns the local indices of an edge of the volume. </p>
-<p>Default implementation throws an instance of int. This should be changed by making the method pure virtual. </p>
-
-<p>Reimplemented from <a class="el" href="classug_1_1_volume.html#a7e09c223b75328642509cc74a15ccee0">ug::Volume</a>.</p>
-
-<p>References <a class="el" href="namespaceug_1_1hex__rules.html#ad18ab2591f6303dfaae4b56206f253c0">ug::hex_rules::EDGE_VRT_INDS</a>.</p>
-
-</div>
-</div>
-<a id="a849ac8d0cf1301f419e8a4bb3ef53509"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a849ac8d0cf1301f419e8a4bb3ef53509">&sect;&nbsp;</a></span>get_local_vertex_indices_of_face()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ug::Tetrahedron::get_local_vertex_indices_of_face </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; size_t &gt; &amp;&#160;</td>
-          <td class="paramname"><em>indsOut</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>side</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>returns the local indices of a face of the volume. </p>
-<p>Default implementation throws an instance of int. This should be changed by making the method pure virtual. </p>
-
-<p>Reimplemented from <a class="el" href="classug_1_1_volume.html#a79b6d41edeaa16cd863315e73866c397">ug::Volume</a>.</p>
-
-<p>References <a class="el" href="namespaceug_1_1hex__rules.html#a8548d5a189ba45b7d650651c1223e19c">ug::hex_rules::FACE_VRT_INDS</a>.</p>
 
 </div>
 </div>
@@ -849,6 +861,138 @@ Protected Attributes</h2></td></tr>
 <p>Reimplemented from <a class="el" href="classug_1_1_volume.html#ab89bab26e93f45b855ff63d251f4c995">ug::Volume</a>.</p>
 
 <p>References <a class="el" href="namespaceug_1_1hex__rules.html#ad7748741db3dd1df76d70b06db1a612e">ug::hex_rules::NUM_VERTICES</a>, <a class="el" href="namespaceug_1_1hex__rules.html#ad0ff863ade29ce567ff0fd5ddd3bca60">ug::hex_rules::OPPOSED_OBJECT</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
+
+</div>
+</div>
+<a id="a583d9328d16a8ce9159ba280fba7eea7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a583d9328d16a8ce9159ba280fba7eea7">&sect;&nbsp;</a></span>get_vertex_indices_of_edge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug::Tetrahedron::get_vertex_indices_of_edge </td>
+          <td>(</td>
+          <td class="paramtype">size_t &amp;&#160;</td>
+          <td class="paramname"><em>ind1Out</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t &amp;&#160;</td>
+          <td class="paramname"><em>ind2Out</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>edgeInd</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the local indices of an edge of the volume. </p>
+<p>Default implementation throws a <a class="el" href="classug_1_1_u_g_error.html" title="Instances of this class or of derived classes are thrown if errors arise. ">UGError</a> </p>
+
+<p>Reimplemented from <a class="el" href="classug_1_1_volume.html#a09a74111f2f95f80fad1a05aec02abad">ug::Volume</a>.</p>
+
+<p>References <a class="el" href="namespaceug_1_1hex__rules.html#ad18ab2591f6303dfaae4b56206f253c0">ug::hex_rules::EDGE_VRT_INDS</a>.</p>
+
+</div>
+</div>
+<a id="ac5d0013b50851c338aeb039254ae136d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5d0013b50851c338aeb039254ae136d">&sect;&nbsp;</a></span>get_vertex_indices_of_face()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug::Tetrahedron::get_vertex_indices_of_face </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>indsOut</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>side</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the local indices of a face of the volume. </p>
+<p>Default implementation throws a <a class="el" href="classug_1_1_u_g_error.html" title="Instances of this class or of derived classes are thrown if errors arise. ">UGError</a> </p>
+
+<p>Reimplemented from <a class="el" href="classug_1_1_volume.html#a5e8701513f1e101f35014d406e468fb7">ug::Volume</a>.</p>
+
+<p>References <a class="el" href="namespaceug_1_1hex__rules.html#a8548d5a189ba45b7d650651c1223e19c">ug::hex_rules::FACE_VRT_INDS</a>.</p>
+
+</div>
+</div>
+<a id="a1fb009d102ff780423e48a3a99bba1e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fb009d102ff780423e48a3a99bba1e4">&sect;&nbsp;</a></span>is_regular_ref_rule()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ug::Tetrahedron::is_regular_ref_rule </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>edgeMarks</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns true if the specified edgeMarks would lead to a regular refinement </p>
+<p>A regular refinement leads to new elements which are all similar to the original element. I.e. which are of the same type and which have similar angles.</p>
+<dl class="section note"><dt>Note</dt><dd>this method does not perform refinement. Use 'refine' with the specified edges instead.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">edgeMarks</td><td>If the i-th edge shall be refined, the expression 'edgeMarks &amp; (1&lt;&lt;i) != 0' has to be true. You can specify multiple refine-edges using or-combinations: 'edgeMarks = (1&lt;&lt;i) | (1&lt;&lt;j)' would indicate that the i-th and the j-th edge shall be refined. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented from <a class="el" href="classug_1_1_volume.html#a061991a8c01aea24d95ea49a03f8e88f">ug::Volume</a>.</p>
+
+<p>References <a class="el" href="namespaceug_1_1hex__rules.html#abd70c541a2387d2d8bc49becaa1daaf0">ug::hex_rules::IsRegularRefRule()</a>.</p>
 
 </div>
 </div>
@@ -1139,7 +1283,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classug_1_1_volume_vertices.html#a3ba78eccd3b42fb57565d072de0e99e7">ug::VolumeVertices</a>.</p>
 
-<p>Referenced by <a class="el" href="group__lib__grid__algorithms__volume__util.html#ga439e8124095ed0540b516dfaff7959bf">ug::CalculateMinVolumeHeight()</a>, <a class="el" href="group__lib__grid__algorithms__volume__calculation.html#ga8a55c4a6fa81b800a1df8f3ff3c2f170">ug::CalculateVolume()</a>, <a class="el" href="namespaceug.html#aba45f8de74e1d9aabc78c1934457890c">ug::ExportGridToTETGEN()</a>, <a class="el" href="namespaceug.html#a30ff726636e29d201dd822794bbcff79">ug::PerformRetetrahedralization()</a>, <a class="el" href="group__lib__grid__algorithms__volume__util.html#ga6ea924ff924ff7fd5c36089a6f51b383">ug::PointIsInsideTetrahedron()</a>, <a class="el" href="namespaceug.html#afacadfe1cd13ba2cd77db1b9d245bfb7">ug::SaveGridToNCDF()</a>, <a class="el" href="group__lib__grid__algorithms__serialization.html#gab140a9d72d6c7eaddfbc2ff220da3f71">ug::SerializeGridElements()</a>, and <a class="el" href="group__lib__grid__algorithms__serialization.html#gafa817ce1f4bb02def9a91be802cf05f2">ug::SerializeMultiGridElements()</a>.</p>
+<p>Referenced by <a class="el" href="group__lib__grid__algorithms__volume__util.html#ga439e8124095ed0540b516dfaff7959bf">ug::CalculateMinVolumeHeight()</a>, <a class="el" href="group__lib__grid__algorithms__volume__util.html#ga298da598a9dbce8d5539d3658a261fe1">ug::CalculateTetrahedronVolToRMSFaceAreaRatio()</a>, <a class="el" href="group__lib__grid__algorithms__volume__calculation.html#ga8a55c4a6fa81b800a1df8f3ff3c2f170">ug::CalculateVolume()</a>, <a class="el" href="namespaceug.html#aba45f8de74e1d9aabc78c1934457890c">ug::ExportGridToTETGEN()</a>, <a class="el" href="namespaceug.html#a30ff726636e29d201dd822794bbcff79">ug::PerformRetetrahedralization()</a>, <a class="el" href="group__lib__grid__algorithms__volume__util.html#ga6ea924ff924ff7fd5c36089a6f51b383">ug::PointIsInsideTetrahedron()</a>, <a class="el" href="namespaceug.html#afacadfe1cd13ba2cd77db1b9d245bfb7">ug::SaveGridToNCDF()</a>, <a class="el" href="group__lib__grid__algorithms__serialization.html#gab140a9d72d6c7eaddfbc2ff220da3f71">ug::SerializeGridElements()</a>, and <a class="el" href="group__lib__grid__algorithms__serialization.html#gafa817ce1f4bb02def9a91be802cf05f2">ug::SerializeMultiGridElements()</a>.</p>
 
 </div>
 </div>
@@ -1225,7 +1369,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_tetrahedron.html">Tetrahedron</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:18:27 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:48 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

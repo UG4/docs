@@ -1,6 +1,6 @@
 var domain__bridges_2refinement__bridge_8cpp =
 [
-    [ "AddHorizontalAnisotropyAdjuster", "domain__bridges_2refinement__bridge_8cpp.html#gaad4e9a328c62f412bf8990d5f00565fd", null ],
+    [ "AddHorizontalAnisotropyAdjuster", "domain__bridges_2refinement__bridge_8cpp.html#ga2372a370ac70e830a433d8159fcd6ced", null ],
     [ "CreateAdaptiveRegularDomainRefiner", "domain__bridges_2refinement__bridge_8cpp.html#ga7c91670e8344e926ef8bb206a74ca1e8", null ],
     [ "CreateGlobalFracturedDomainRefiner", "domain__bridges_2refinement__bridge_8cpp.html#ga20e21c87d07e22fcf4f45246aa86ed69", null ],
     [ "GlobalDomainRefiner", "domain__bridges_2refinement__bridge_8cpp.html#ga34888b25fa66825e5b89aa176aacabd0", null ],
@@ -13,11 +13,14 @@ var domain__bridges_2refinement__bridge_8cpp =
     [ "MarkForAdaption_VerticesInSphere", "domain__bridges_2refinement__bridge_8cpp.html#ga443febb940d31136e143e582662972ee", null ],
     [ "MarkForCoarsen_ElementsByLuaCallback", "domain__bridges_2refinement__bridge_8cpp.html#gac7f7853e583eac879646fcce82dcf2c1", null ],
     [ "MarkForRefinement_All", "domain__bridges_2refinement__bridge_8cpp.html#gaa064c021beca7575d99da6f728f91573", null ],
+    [ "MarkForRefinement_AllAnisotropic", "domain__bridges_2refinement__bridge_8cpp.html#ga3b851cdf4a7ecfbba1e677b589f1efc6", null ],
     [ "MarkForRefinement_AnisotropicDirection", "domain__bridges_2refinement__bridge_8cpp.html#ga37c9d51b22b5bb97416a5db83c193ed5", null ],
     [ "MarkForRefinement_AnisotropicElements", "domain__bridges_2refinement__bridge_8cpp.html#gaf9b562c68ed9377ab88023a0de6f336c", null ],
     [ "MarkForRefinement_ElementsByLuaCallback", "domain__bridges_2refinement__bridge_8cpp.html#ga2758abecc140da62e0af3f825c048871", null ],
     [ "MarkForRefinement_ElementsInSphere", "domain__bridges_2refinement__bridge_8cpp.html#ga88f7a3b3a3565b89a7dcf5533c939f2e", null ],
     [ "MarkForRefinement_ElementsInSubset", "domain__bridges_2refinement__bridge_8cpp.html#gaa27d7b3ed47cbde01248426c809747c2", null ],
+    [ "MarkForRefinement_SubsetInterfaceElements", "domain__bridges_2refinement__bridge_8cpp.html#ga53b3fed204cfe7cc8fc732878e6b2209", null ],
+    [ "MarkForRefinement_SubsetInterfaceElements", "domain__bridges_2refinement__bridge_8cpp.html#ga1207dd3a40bc504a0b64143d232dfe21", null ],
     [ "MarkForRefinement_VerticesInCube", "domain__bridges_2refinement__bridge_8cpp.html#gaa7b2f11a1d602c7194c03e4aed357389", null ],
     [ "MarkForRefinement_VerticesInSphere", "domain__bridges_2refinement__bridge_8cpp.html#ga8ee1433f1831d88208a94a50d377a425", null ],
     [ "MarkNeighborsForAnisotropicRefinement", "domain__bridges_2refinement__bridge_8cpp.html#gae36e1caec5e6e9dc737f7931c03dc930", null ],

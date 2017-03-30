@@ -7,6 +7,7 @@ var edge__util_8cpp =
     [ "CutEdgesWithPlane", "edge__util_8cpp.html#ga8d08da8a4c117456ba10f1e2809ffee7", null ],
     [ "EdgeCollapseIsValid", "edge__util_8cpp.html#ga9f7b8169cfae5eb50fc502401c9d8fde", null ],
     [ "GetAssociatedFaces", "edge__util_8cpp.html#ga6530a13a5990c960cfd2f1f066e0be8c", null ],
+    [ "GetConnectingEdge", "edge__util_8cpp.html#gac8adcbaa5a7de0382231d8d2a058a362", null ],
     [ "GetEdgeIndex", "edge__util_8cpp.html#ga1630d8ea9135b8305a86bdece82d93f0", null ],
     [ "GetEdgeIndex", "edge__util_8cpp.html#ga7c5fb5c0a5f5a045c6a3a6fa54efd4c0", null ],
     [ "IsBoundaryEdge", "edge__util_8cpp.html#gac0565ea76771097bfbd142f02cea7adb", null ],

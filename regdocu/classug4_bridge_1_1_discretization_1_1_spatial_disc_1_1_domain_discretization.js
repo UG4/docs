@@ -2,6 +2,7 @@ var classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_domain_discretizatio
 [
     [ "DomainDiscretization", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_domain_discretization.html#a16a30b79fdbf414d668f7633bd5502a2", null ],
     [ "add", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_domain_discretization.html#a1512626c968859ddc466363f5a75b84b", null ],
+    [ "add_elem_error_indicator", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_domain_discretization.html#a7d3187421b37b387c55273836fd7ce72", null ],
     [ "adjust_solution", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_domain_discretization.html#ad63bc9ee8a60f6a5e3810988141be2ea", null ],
     [ "adjust_solution", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_domain_discretization.html#a03b149176ffd335b3b1faeea5b3b29dd", null ],
     [ "ass_tuner", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_domain_discretization.html#a9b031aca95fed96b837f84d7d89c4976", null ],
@@ -18,5 +19,6 @@ var classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_domain_discretizatio
     [ "invalidate_error", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_domain_discretization.html#a4528d036c79c9891771f612233de706d", null ],
     [ "is_error_valid", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_domain_discretization.html#ab310bbafba51fc33bf730bb0c4cdfbb9", null ],
     [ "mark_with_strategy", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_domain_discretization.html#a101723522b59c67e58e6a4bf8aee7b8b", null ],
-    [ "remove", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_domain_discretization.html#a758c152a1fa031f9fb978b04595f3bcf", null ]
+    [ "remove", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_domain_discretization.html#a758c152a1fa031f9fb978b04595f3bcf", null ],
+    [ "remove_elem_error_indicator", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_domain_discretization.html#ae10f7f773c4f01d89889199d09e08c91", null ]
 ];

@@ -1,6 +1,17 @@
 var searchData=
 [
   ['_5f_5ftostring',['__tostring',['../../regdocu/classug4_bridge_1_1_util_1_1_string_table.html#a55f1fd131464facce41597c7d5c293d8',1,'ug4Bridge::Util::StringTable']]],
+  ['_5f_5fug_5f_5fcheckuserdataargtype',['__ug__CheckUserDataArgType',['../group__scripts__util__userdata.html#ga4c5a2adb82375de16e7a2ce548e17ec7',1,'user_data_util.lua']]],
+  ['_5f_5fug_5f_5ftemplateexpressions_5fadd',['__ug__TemplateExpressions_add',['../vec__util_8lua.html#ab450502b7be6a2cb78d05ac35ac2bfca',1,'vec_util.lua']]],
+  ['_5f_5fug_5f_5ftemplateexpressions_5fdiv',['__ug__TemplateExpressions_div',['../vec__util_8lua.html#a9088e4dd0a4ef8c7449031245f6a4371',1,'vec_util.lua']]],
+  ['_5f_5fug_5f_5ftemplateexpressions_5fmul',['__ug__TemplateExpressions_mul',['../vec__util_8lua.html#aa606253b74e89b3931308e3f9b0411cd',1,'vec_util.lua']]],
+  ['_5f_5fug_5f_5ftemplateexpressions_5fsub',['__ug__TemplateExpressions_sub',['../vec__util_8lua.html#acfb6ce35e6e9768a47455bd3eeaa9b95',1,'vec_util.lua']]],
+  ['_5f_5fug_5f_5fusernumber_5fadd',['__ug__UserNumber_add',['../group__scripts__util__userdata.html#ga86fb2142e46231f6a45f69ade355a6eb',1,'user_data_util.lua']]],
+  ['_5f_5fug_5f_5fusernumber_5fdiv',['__ug__UserNumber_div',['../group__scripts__util__userdata.html#ga2fe17691982124170a4111f53997179d',1,'user_data_util.lua']]],
+  ['_5f_5fug_5f_5fusernumber_5fmul',['__ug__UserNumber_mul',['../group__scripts__util__userdata.html#gad26c3f48d2fcb71eb1b25c4ee17d5ab3',1,'user_data_util.lua']]],
+  ['_5f_5fug_5f_5fusernumber_5fpow',['__ug__UserNumber_pow',['../group__scripts__util__userdata.html#ga8b204fe99f73cb7dfaa8c62628593c6e',1,'user_data_util.lua']]],
+  ['_5f_5fug_5f_5fusernumber_5fsub',['__ug__UserNumber_sub',['../group__scripts__util__userdata.html#ga5b569d5aed6605abc6227837bf9cddb2',1,'user_data_util.lua']]],
+  ['_5f_5fug_5f_5fusernumber_5fsum',['__ug__UserNumber_sum',['../group__scripts__util__userdata.html#ga6c15c2ce237446e2bfb57cd07ce434e3',1,'user_data_util.lua']]],
   ['_5falgebra_5findices',['_algebra_indices',['../classug_1_1_do_f_distribution.html#a108ac49c97459a8736874c385cfdd0eb',1,'ug::DoFDistribution']]],
   ['_5fdof_5findices',['_dof_indices',['../classug_1_1_do_f_distribution.html#a81a0c4fa6ec08ac93b4fc801c2430d4a',1,'ug::DoFDistribution']]],
   ['_5findices',['_indices',['../classug_1_1_do_f_distribution.html#a1bf270ea18a9c4a02473c4c63213f9ed',1,'ug::DoFDistribution']]],

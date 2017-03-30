@@ -109,6 +109,9 @@ Functions</h2></td></tr>
 <tr class="separator:a9f7c36db5d2ca9ff6d1bb3e3c4cca91d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af10518055aa3246e6443fb9d6fdc558e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug_1_1tet__rules.html#af10518055aa3246e6443fb9d6fdc558e">InverseTetTransform</a> (int *indsOut, const int *transformedInds)</td></tr>
 <tr class="separator:af10518055aa3246e6443fb9d6fdc558e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab1f521241774105d4bad174a580e5f7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug_1_1tet__rules.html#aab1f521241774105d4bad174a580e5f7">IsRegularRefRule</a> (const int edgeMarks)</td></tr>
+<tr class="memdesc:aab1f521241774105d4bad174a580e5f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the specified edgeMarks would lead to a regular refinement  <a href="#aab1f521241774105d4bad174a580e5f7">More...</a><br /></td></tr>
+<tr class="separator:aab1f521241774105d4bad174a580e5f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c86c46dc04aa4188846ea7a88ece6cd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug_1_1tet__rules.html#a3c86c46dc04aa4188846ea7a88ece6cd">Refine</a> (int *newIndsOut, int *newEdgeVrts, bool &amp;newCenterOut, <a class="el" href="group__vectors.html#ga894cdb8af74f7a563a94fb49c220fdcd">vector3</a> *corners, bool *)</td></tr>
 <tr class="separator:a3c86c46dc04aa4188846ea7a88ece6cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1dab2c9e3961c63fe112e40421c450e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug_1_1tet__rules.html#a1dab2c9e3961c63fe112e40421c450e8">SetRefinementRule</a> (<a class="el" href="namespaceug_1_1tet__rules.html#a76aaa0d3db72d7532893684a989d38ee">GlobalRefinementRule</a> refRule)</td></tr>
@@ -200,7 +203,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="namespaceug_1_1tet__rules.html#a5e3a3b2ebed66f8b89877adc044440d7">g_refinementRule</a>.</p>
 
-<p>Referenced by <a class="el" href="namespaceug.html#a4e1a7ad2f4ce1ac7d7ee8ce05078bb18">ug::ApplySmoothSubdivisionVolumesToTopLevel()</a>.</p>
+<p>Referenced by <a class="el" href="namespaceug.html#a256980ede6c682924494e9bfa08125f3">ug::ApplySmoothSubdivisionVolumesToTopLevel()</a>.</p>
 
 </div>
 </div>
@@ -233,6 +236,34 @@ Variables</h2></td></tr>
 <p>References <a class="el" href="namespaceug_1_1tet__rules.html#a566c1e0b22e0abe654049abf3249a483">NUM_VERTICES</a>, and <a class="el" href="group__ugbase__common.html#ga0b928ef153b78f1b5e025638cf28f841">UG_ASSERT</a>.</p>
 
 <p>Referenced by <a class="el" href="namespaceug_1_1tet__rules.html#a3c86c46dc04aa4188846ea7a88ece6cd">Refine()</a>.</p>
+
+</div>
+</div>
+<a id="aab1f521241774105d4bad174a580e5f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab1f521241774105d4bad174a580e5f7">&sect;&nbsp;</a></span>IsRegularRefRule()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ug::tet_rules::IsRegularRefRule </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>edgeMarks</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns true if the specified edgeMarks would lead to a regular refinement </p>
+<p>A regular refinement leads to new elements which are all similar to the original element. I.e. which are of the same type and which have similar angles.</p>
+<dl class="section note"><dt>Note</dt><dd>this method does not perform refinement. Use 'Refine' with the specified edges instead.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">edgeMarks</td><td>If the i-th edge shall be refined, the expression 'edgeMarks &amp; (1&lt;&lt;i) != 0' has to be true. You can specify multiple refine-edges using or-combinations. E.g., 'edgeMarks = (1&lt;&lt;i) | (1&lt;&lt;j)' would indicate that the i-th and the j-th edge shall be refined. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -642,7 +673,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="namespaceug_1_1tet__rules.html">tet_rules</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:18:29 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:50 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -9,8 +9,10 @@ var dir_edda3caf1bbed84cb8404cc171aeae8f =
     [ "plane_cut_projector.h", "plane__cut__projector_8h.html", [
       [ "PlaneCutProjector", "classug_1_1_plane_cut_projector.html", "classug_1_1_plane_cut_projector" ]
     ] ],
+    [ "projection_handler.cpp", "projection__handler_8cpp.html", null ],
     [ "projection_handler.h", "projection__handler_8h.html", "projection__handler_8h" ],
     [ "projectors.h", "projectors_8h.html", "projectors_8h" ],
+    [ "raster_layers_projector.h", "raster__layers__projector_8h.html", "raster__layers__projector_8h" ],
     [ "refinement_projector.h", "refinement__projector_8h.html", "refinement__projector_8h" ],
     [ "smooth_projector.cpp", "smooth__projector_8cpp.html", null ],
     [ "smooth_projector.h", "smooth__projector_8h.html", [

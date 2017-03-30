@@ -86,17 +86,342 @@ $(document).ready(function(){initNavTree('checkpoint__util_8lua.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">checkpoint_util.lua File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>This provides restart/checkpointing functions.  
+<a href="#details">More...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ae251116e3925ae808c0fe7ecd9b05579"><td class="memItemLeft" align="right" valign="top">function util&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="checkpoint__util_8lua.html#ae251116e3925ae808c0fe7ecd9b05579">CheckCheckpointData</a> (cp)</td></tr>
+<tr class="separator:ae251116e3925ae808c0fe7ecd9b05579"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a947c59019b5dba308d69415a6fba70c9"><td class="memItemLeft" align="right" valign="top">function util&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="checkpoint__util_8lua.html#a947c59019b5dba308d69415a6fba70c9">GetStdCheckpointData</a> ()</td></tr>
+<tr class="separator:a947c59019b5dba308d69415a6fba70c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad38069c6f8c1455f95465b934e7ff29c"><td class="memItemLeft" align="right" valign="top">function util&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="checkpoint__util_8lua.html#ad38069c6f8c1455f95465b934e7ff29c">nilstr</a> (s)</td></tr>
+<tr class="separator:ad38069c6f8c1455f95465b934e7ff29c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75202615606f777010c1de7920c9ebcd"><td class="memItemLeft" align="right" valign="top">function util&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="checkpoint__util_8lua.html#a75202615606f777010c1de7920c9ebcd">ReadCheckpoint</a> (u, name)</td></tr>
+<tr class="separator:a75202615606f777010c1de7920c9ebcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba66340d15b93b9eebd0bd1b58e55d5b"><td class="memItemLeft" align="right" valign="top">function util&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="checkpoint__util_8lua.html#aba66340d15b93b9eebd0bd1b58e55d5b">ReadStateCheckpoint</a> (gf_names, id, name)</td></tr>
+<tr class="separator:aba66340d15b93b9eebd0bd1b58e55d5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e537833fc30f2392260d6a4470d4981"><td class="memItemLeft" align="right" valign="top">function util&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="checkpoint__util_8lua.html#a5e537833fc30f2392260d6a4470d4981">WriteCheckpoint</a> (u, id, myData, name)</td></tr>
+<tr class="separator:a5e537833fc30f2392260d6a4470d4981"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a462d0d1ef43230bdac6ff2c0322e480b"><td class="memItemLeft" align="right" valign="top">function util&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="checkpoint__util_8lua.html#a462d0d1ef43230bdac6ff2c0322e480b">WriteCheckpointIntervallic</a> (u, id, myData, name, IntervalMS)</td></tr>
+<tr class="separator:a462d0d1ef43230bdac6ff2c0322e480b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d68f894dad121b744af8164a91bfd04"><td class="memItemLeft" align="right" valign="top">function util&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="checkpoint__util_8lua.html#a0d68f894dad121b744af8164a91bfd04">WriteStateCheckpoint</a> (gf_names, id, myData, name)</td></tr>
+<tr class="separator:a0d68f894dad121b744af8164a91bfd04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>This provides restart/checkpointing functions. </p>
+<dl class="section author"><dt>Author</dt><dd>Martin Rupp example writing a checkpoint (std is every 10s) util.WriteCheckpointIntervallic(u, time, {time=time, step=step})</dd></dl>
+<p>example reading a checkpoint local restart = util.HasParamOption("-restart") if restart then cp = util.ReadCheckpoint(u)</p>
+<p>&ndash; re-get our additional data time = cp.myData.time step = cp.myData.step end</p>
+<p>Note: The used SaveToFile/ReadFromFile functions for u assume that u has exactly the same structure as in the checkpoint. That means approxSpace, grid and so on have to be the same This will normally exclude adaptive calculations from restarting, unless you add code which also reads/writes the adapted grid. See also util.GetStdCheckpointData for variables which are automatically checked to be the same between runs. </p>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="ae251116e3925ae808c0fe7ecd9b05579"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae251116e3925ae808c0fe7ecd9b05579">&sect;&nbsp;</a></span>CheckCheckpointData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util CheckCheckpointData </td>
+          <td>(</td>
+          <td class="paramtype">cp&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>check that the stdData is same in file and current run </p><dl class="section see"><dt>See also</dt><dd>util.GetStdCheckpointData</dd></dl>
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="checkpoint__util_8lua.html" title="This provides restart/checkpointing functions. ">checkpoint_util.lua</a> :88-114 </p>
+
+</div>
+</div>
+<a id="a947c59019b5dba308d69415a6fba70c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a947c59019b5dba308d69415a6fba70c9">&sect;&nbsp;</a></span>GetStdCheckpointData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util GetStdCheckpointData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the standard checkpoint data data in this table will be checked between loaded checkpoints and the current run. e.g. numRefs and numCores should be the same note that values which are nil are NOT saved in the table so it is OK to add values here which are not defined in every script</p>
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="checkpoint__util_8lua.html" title="This provides restart/checkpointing functions. ">checkpoint_util.lua</a> :72-79 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.GetStdCheckpointData()</div><div class="line">  <span class="keywordflow">return</span> {</div><div class="line">    numRefs=numRefs, </div><div class="line">    numPreRefs=numPreRefs,</div><div class="line">    <a class="codeRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#gad04fbd00dd872375c4863bd1d4621237">dim</a>=<a class="codeRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#gad04fbd00dd872375c4863bd1d4621237">dim</a>,</div><div class="line">    numCores=<a class="code" href="group__pcl.html#ga7a09a2eab069305ca735847eed023d2f">NumProcs</a>()</div><div class="line">  }</div><div class="line">end</div></div><!-- fragment --> 
+</div>
+</div>
+<a id="ad38069c6f8c1455f95465b934e7ff29c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad38069c6f8c1455f95465b934e7ff29c">&sect;&nbsp;</a></span>nilstr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util nilstr </td>
+          <td>(</td>
+          <td class="paramtype">s&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="checkpoint__util_8lua.html" title="This provides restart/checkpointing functions. ">checkpoint_util.lua</a> :81-83 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.nilstr(s)</div><div class="line">  <span class="keywordflow">if</span> s == nil then <span class="keywordflow">return</span> <span class="stringliteral">&quot;(nil)&quot;</span> <span class="keywordflow">else</span> <span class="keywordflow">return</span> s end</div><div class="line">end</div></div><!-- fragment --> 
+</div>
+</div>
+<a id="a75202615606f777010c1de7920c9ebcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75202615606f777010c1de7920c9ebcd">&sect;&nbsp;</a></span>ReadCheckpoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util ReadCheckpoint </td>
+          <td>(</td>
+          <td class="paramtype">u&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">name&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>util.ReadCheckpoint</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">u</td><td>the GridFunction to read into </td></tr>
+    <tr><td class="paramname">name</td><td>name to use when writing the checkpoint. may be nil. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the checkpoint data cp. (see util.WriteCheckpoint) myData will be saved cp.myData.</dd></dl>
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="checkpoint__util_8lua.html" title="This provides restart/checkpointing functions. ">checkpoint_util.lua</a> :177-202 </p>
+
+</div>
+</div>
+<a id="aba66340d15b93b9eebd0bd1b58e55d5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba66340d15b93b9eebd0bd1b58e55d5b">&sect;&nbsp;</a></span>ReadStateCheckpoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util ReadStateCheckpoint </td>
+          <td>(</td>
+          <td class="paramtype">gf_names&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">id&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">name&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>util.ReadStateCheckpoint</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gf_names</td><td>a table of names of grid functions to save (e.g. {u=u, lsf=lsf}) </td></tr>
+    <tr><td class="paramname">id</td><td>the id for the current solution (e.g. the current time) </td></tr>
+    <tr><td class="paramname">name</td><td>name used when writing the checkpoint (may be nil).</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="checkpoint__util_8lua.html" title="This provides restart/checkpointing functions. ">checkpoint_util.lua</a> :267-300 </p>
+
+</div>
+</div>
+<a id="a5e537833fc30f2392260d6a4470d4981"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e537833fc30f2392260d6a4470d4981">&sect;&nbsp;</a></span>WriteCheckpoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util WriteCheckpoint </td>
+          <td>(</td>
+          <td class="paramtype">u&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">id&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">myData&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">name&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>util.WriteCheckpoint</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">u</td><td>current solution to write (a GridFunction) </td></tr>
+    <tr><td class="paramname">id</td><td>the id for the current solution (like, the current time) </td></tr>
+    <tr><td class="paramname">myData</td><td>additional Data in Form of a table. Will be available as cp.myData when loading the checkpoint Can contain all LUA types (tables, arrays, strings, numbers etc.), but no userdata! Can also be nil. </td></tr>
+    <tr><td class="paramname">name</td><td>name to use when writing the checkpoint. may be nil.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="checkpoint__util_8lua.html" title="This provides restart/checkpointing functions. ">checkpoint_util.lua</a> :125-152 </p>
+
+</div>
+</div>
+<a id="a462d0d1ef43230bdac6ff2c0322e480b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a462d0d1ef43230bdac6ff2c0322e480b">&sect;&nbsp;</a></span>WriteCheckpointIntervallic()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util WriteCheckpointIntervallic </td>
+          <td>(</td>
+          <td class="paramtype">u&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">id&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">myData&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">name&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntervalMS&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>util.WriteCheckpointIntervallic </p><dl class="section see"><dt>See also</dt><dd>util.WriteCheckpoint use this function to <a class="el" href="group__scripts__util.html#ga484ed067e87b02a3e17e7d5ac7f1c96c">write</a> checkpoint data in time intervals </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">IntervalMS</td><td>write checkpoint every IntervalMS milliseconds. can be null, then defaults to util.checkpoint.stdIntervalMS</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="checkpoint__util_8lua.html" title="This provides restart/checkpointing functions. ">checkpoint_util.lua</a> :159-169 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.WriteCheckpointIntervallic(u, <span class="keywordtype">id</span>, myData, name, IntervalMS)</div><div class="line">  local timeMS = <a class="code" href="group__misc__bridge.html#ga6e1622c55780af718a6ee80d8a2b53f5">GetClockS</a>()*1000</div><div class="line">  </div><div class="line">  <span class="keywordflow">if</span> IntervalMS == nil then IntervalMS = util.checkpoint.stdIntervalMS end</div><div class="line">  <span class="keywordflow">if</span> util.checkpoint.lastCheckpointTimeMS == nil </div><div class="line">    or timeMS -util.checkpoint.lastCheckpointTimeMS &gt; IntervalMS then</div><div class="line">    </div><div class="line">    util.WriteCheckpoint(u, <span class="keywordtype">id</span>, myData, name)</div><div class="line">    util.checkpoint.lastCheckpointTimeMS = timeMS</div><div class="line">  end </div><div class="line">end</div></div><!-- fragment --> 
+</div>
+</div>
+<a id="a0d68f894dad121b744af8164a91bfd04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d68f894dad121b744af8164a91bfd04">&sect;&nbsp;</a></span>WriteStateCheckpoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util WriteStateCheckpoint </td>
+          <td>(</td>
+          <td class="paramtype">gf_names&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">id&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">myData&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">name&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>util.WriteStateCheckpoint</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gf_names</td><td>a table of names of grid functions to save (e.g. {u=u, lsf=lsf}) </td></tr>
+    <tr><td class="paramname">id</td><td>the id for the current solution (e.g. the current time) </td></tr>
+    <tr><td class="paramname">myData</td><td>additional Data in Form of a table. Will be available as cp.myData when loading the checkpoint Can contain all LUA types (tables, arrays, strings, numbers etc.), but no userdata! Can also be nil. </td></tr>
+    <tr><td class="paramname">name</td><td>name to use when writing the checkpoint (may be nil).</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="checkpoint__util_8lua.html" title="This provides restart/checkpointing functions. ">checkpoint_util.lua</a> :213-260 </p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_53e6fa9553ac22a5646d2a2b2d7b97a1.html">scripts</a></li><li class="navelem"><a class="el" href="dir_46f23659e18aa5fa06de6ff2c04a1a12.html">util</a></li><li class="navelem"><a class="el" href="checkpoint__util_8lua.html">checkpoint_util.lua</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:17:52 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:09 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

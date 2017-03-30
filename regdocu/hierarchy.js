@@ -1,7 +1,9 @@
 var hierarchy =
 [
     [ "ActiveSet", "classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_active_set.html", null ],
+    [ "AInt", "classug4_bridge_1_1_a_int.html", null ],
     [ "AlgebraType", "classug4_bridge_1_1_init_1_1_algebra_type.html", null ],
+    [ "ANumber", "classug4_bridge_1_1_a_number.html", null ],
     [ "APosition1", "classug4_bridge_1_1_a_position1.html", null ],
     [ "APosition2", "classug4_bridge_1_1_a_position2.html", null ],
     [ "APosition3", "classug4_bridge_1_1_a_position3.html", null ],
@@ -94,6 +96,11 @@ var hierarchy =
       [ "Volume", "classug4_bridge_1_1_grid_1_1_volume.html", null ]
     ] ],
     [ "Heightfield", "classug4_bridge_1_1_grid_1_1_heightfield.html", null ],
+    [ "IAssemble", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_i_assemble.html", [
+      [ "IDomainDiscretization", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_i_domain_discretization.html", [
+        [ "DomainDiscretization", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_domain_discretization.html", null ]
+      ] ]
+    ] ],
     [ "IAssemble", null, [
       [ "ITimeDiscretization", "classug4_bridge_1_1_discretization_1_1_time_disc_1_1_i_time_discretization.html", [
         [ "MultiStepTimeDiscretization", "classug4_bridge_1_1_discretization_1_1_time_disc_1_1_multi_step_time_discretization.html", [
@@ -101,11 +108,6 @@ var hierarchy =
           [ "SDIRK", "classug4_bridge_1_1_discretization_1_1_time_disc_1_1_s_d_i_r_k.html", null ],
           [ "ThetaTimeStep", "classug4_bridge_1_1_discretization_1_1_time_disc_1_1_theta_time_step.html", null ]
         ] ]
-      ] ]
-    ] ],
-    [ "IAssemble", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_i_assemble.html", [
-      [ "IDomainDiscretization", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_i_domain_discretization.html", [
-        [ "DomainDiscretization", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_domain_discretization.html", null ]
       ] ]
     ] ],
     [ "IBalanceWeights", "classug4_bridge_1_1_load_balancing_1_1_i_balance_weights.html", [
@@ -154,20 +156,6 @@ var hierarchy =
       [ "StandardDomainDecompositionInfo", "classug4_bridge_1_1_discretization_1_1_standard_domain_decomposition_info.html", null ]
     ] ],
     [ "IDualGraphNeighborCollector", "classug4_bridge_1_1_grid_1_1_i_dual_graph_neighbor_collector.html", null ],
-    [ "IElemDisc", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_i_elem_disc.html", [
-      [ "ConvectionDiffusionBase", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_base.html", [
-        [ "ConvectionDiffusionFE", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_e.html", null ],
-        [ "ConvectionDiffusionFV", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_v.html", null ],
-        [ "ConvectionDiffusionFV1", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_v1.html", null ],
-        [ "ConvectionDiffusionFVCR", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_v_c_r.html", null ]
-      ] ],
-      [ "FV1InnerBoundary", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_f_v1_inner_boundary.html", null ],
-      [ "NeumannBoundaryBase", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_neumann_boundary_base.html", [
-        [ "NeumannBoundaryFE", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_neumann_boundary_f_e.html", null ],
-        [ "NeumannBoundaryFV", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_neumann_boundary_f_v.html", null ],
-        [ "NeumannBoundaryFV1", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_neumann_boundary_f_v1.html", null ]
-      ] ]
-    ] ],
     [ "IElemDisc", null, [
       [ "SmallStrainMechanics", "classug4_bridge_1_1_spatial_disc_1_1_small_strain_mechanics_1_1_small_strain_mechanics.html", null ]
     ] ],
@@ -182,6 +170,22 @@ var hierarchy =
       [ "StdRefinementMarking", "classug4_bridge_1_1_discretization_1_1_adaptive_1_1_std_refinement_marking.html", null ],
       [ "VarianceMarking", "classug4_bridge_1_1_discretization_1_1_adaptive_1_1_variance_marking.html", null ],
       [ "VarianceMarkingEta", "classug4_bridge_1_1_discretization_1_1_adaptive_1_1_variance_marking_eta.html", null ]
+    ] ],
+    [ "IElemError", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_i_elem_error.html", [
+      [ "IElemDisc", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_i_elem_disc.html", [
+        [ "ConvectionDiffusionBase", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_base.html", [
+          [ "ConvectionDiffusionFE", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_e.html", null ],
+          [ "ConvectionDiffusionFV", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_v.html", null ],
+          [ "ConvectionDiffusionFV1", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_v1.html", null ],
+          [ "ConvectionDiffusionFVCR", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_v_c_r.html", null ]
+        ] ],
+        [ "FV1InnerBoundary", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_f_v1_inner_boundary.html", null ],
+        [ "NeumannBoundaryBase", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_neumann_boundary_base.html", [
+          [ "NeumannBoundaryFE", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_neumann_boundary_f_e.html", null ],
+          [ "NeumannBoundaryFV", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_neumann_boundary_f_v.html", null ],
+          [ "NeumannBoundaryFV1", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_neumann_boundary_f_v1.html", null ]
+        ] ]
+      ] ]
     ] ],
     [ "IFunctionNumber", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_i_function_number.html", null ],
     [ "IFunctionNumber", null, [
@@ -261,6 +265,9 @@ var hierarchy =
       [ "PrandtlReuss", "classug4_bridge_1_1_spatial_disc_1_1_small_strain_mechanics_1_1_prandtl_reuss.html", null ]
     ] ],
     [ "INewtonUpdate", "classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_i_newton_update.html", null ],
+    [ "IOperator", null, [
+      [ "AssembledOperator", "classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_assembled_operator.html", null ]
+    ] ],
     [ "IOperator", "classug4_bridge_1_1_algebra_1_1_i_operator.html", [
       [ "ILinearOperator", "classug4_bridge_1_1_algebra_1_1_i_linear_operator.html", [
         [ "MatrixDiagonal", "classug4_bridge_1_1_algebra_1_1_matrix_diagonal.html", null ],
@@ -268,9 +275,6 @@ var hierarchy =
         [ "MatrixOperator", "classug4_bridge_1_1_algebra_1_1_matrix_operator.html", null ],
         [ "LocalSchurComplement", "classug4_bridge_1_1_algebra_1_1_solver_1_1_local_schur_complement.html", null ]
       ] ]
-    ] ],
-    [ "IOperator", null, [
-      [ "AssembledOperator", "classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_assembled_operator.html", null ]
     ] ],
     [ "IOperatorInverse", "classug4_bridge_1_1_algebra_1_1_i_operator_inverse.html", null ],
     [ "IOperatorInverse", null, [
@@ -287,10 +291,10 @@ var hierarchy =
       [ "ClusterElementStacks", "classug4_bridge_1_1_load_balancing_1_1_cluster_element_stacks.html", null ],
       [ "SmoothPartitionBounds", "classug4_bridge_1_1_load_balancing_1_1_smooth_partition_bounds.html", null ]
     ] ],
-    [ "IPositionProvider", "classug4_bridge_1_1_algebra_1_1_i_position_provider.html", null ],
     [ "IPositionProvider", null, [
       [ "GridFunctionPositionProvider", "classug4_bridge_1_1_discretization_1_1_output_1_1_grid_function_position_provider.html", null ]
     ] ],
+    [ "IPositionProvider", "classug4_bridge_1_1_algebra_1_1_i_position_provider.html", null ],
     [ "IPreconditioner", null, [
       [ "ComponentGaussSeidel", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_component_gauss_seidel.html", null ],
       [ "ElementGaussSeidel", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_element_gauss_seidel.html", null ]
@@ -304,6 +308,7 @@ var hierarchy =
         [ "ParallelHangingNodeRefiner_MultiGrid", "classug4_bridge_1_1_grid_1_1_parallel_hanging_node_refiner___multi_grid.html", null ]
       ] ]
     ] ],
+    [ "IRefMarkAdjuster", "classug4_bridge_1_1_grid_1_1_i_ref_mark_adjuster.html", null ],
     [ "ISchurComplementInverse", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_i_schur_complement_inverse.html", [
       [ "SchurInverseWithAGammaGamma", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_schur_inverse_with_a_gamma_gamma.html", null ],
       [ "SchurInverseWithAutoFullMatrix", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_schur_inverse_with_auto_full_matrix.html", null ],
@@ -327,11 +332,11 @@ var hierarchy =
     [ "IVectorDebugWriter", "classug4_bridge_1_1_algebra_1_1_i_vector_debug_writer.html", [
       [ "IDebugWriter", "classug4_bridge_1_1_algebra_1_1_i_debug_writer.html", null ]
     ] ],
-    [ "IVectorWriter", "classug4_bridge_1_1_algebra_1_1_i_vector_writer.html", null ],
     [ "IVectorWriter", null, [
       [ "GridFunctionVectorWriter", "classug4_bridge_1_1_discretization_1_1_output_1_1_grid_function_vector_writer.html", null ],
       [ "GridFunctionVectorWriterDirichlet0", "classug4_bridge_1_1_discretization_1_1_output_1_1_grid_function_vector_writer_dirichlet0.html", null ]
     ] ],
+    [ "IVectorWriter", "classug4_bridge_1_1_algebra_1_1_i_vector_writer.html", null ],
     [ "LFEID", "classug4_bridge_1_1_discretization_1_1_l_f_e_i_d.html", null ],
     [ "LoadBalancer", "classug4_bridge_1_1_load_balancing_1_1_load_balancer.html", [
       [ "DomainLoadBalancer", "classug4_bridge_1_1_load_balancing_1_1_domain_load_balancer.html", null ]

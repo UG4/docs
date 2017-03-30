@@ -160,11 +160,26 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab792b3e1d4524d90f53886ce19fa8cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3a1198441444200a1c1f4a3a31e1714"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_pyramid.html#aa3a1198441444200a1c1f4a3a31e1714">face_desc</a> (int index, <a class="el" href="classug_1_1_face_descriptor.html">FaceDescriptor</a> &amp;fdOut) const</td></tr>
 <tr class="separator:aa3a1198441444200a1c1f4a3a31e1714"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a775bceef80367976de6aba2ecf3efbac"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_pyramid.html#a775bceef80367976de6aba2ecf3efbac">get_edge_index_from_vertices</a> (const size_t vi0, const size_t vi1) const</td></tr>
+<tr class="memdesc:a775bceef80367976de6aba2ecf3efbac"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the local index of the edge which connects the two vertex indices.  <a href="#a775bceef80367976de6aba2ecf3efbac">More...</a><br /></td></tr>
+<tr class="separator:a775bceef80367976de6aba2ecf3efbac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e68f53a944de00e735ce9a5acc7ce70"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_pyramid.html#a0e68f53a944de00e735ce9a5acc7ce70">get_face_edge_index</a> (const size_t faceInd, const size_t faceEdgeInd) const</td></tr>
+<tr class="memdesc:a0e68f53a944de00e735ce9a5acc7ce70"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the local index of the j-th edge of the i-th face of the volume  <a href="#a0e68f53a944de00e735ce9a5acc7ce70">More...</a><br /></td></tr>
+<tr class="separator:a0e68f53a944de00e735ce9a5acc7ce70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6561a6d7b5f93d726114b026e9c0dbda"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_pyramid.html#a6561a6d7b5f93d726114b026e9c0dbda">get_flipped_orientation</a> (<a class="el" href="classug_1_1_volume_descriptor.html">VolumeDescriptor</a> &amp;vdOut) const</td></tr>
 <tr class="separator:a6561a6d7b5f93d726114b026e9c0dbda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93e1c9bc17a405bca76a26a0db0b23ed"><td class="memItemLeft" align="right" valign="top">virtual std::pair&lt; <a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13c">GridBaseObjectId</a>, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_pyramid.html#a93e1c9bc17a405bca76a26a0db0b23ed">get_opposing_object</a> (<a class="el" href="classug_1_1_vertex.html">Vertex</a> *vrt) const</td></tr>
 <tr class="memdesc:a93e1c9bc17a405bca76a26a0db0b23ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns an index to the obbject, which lies on the opposite side of the volume to the given vertex.  <a href="#a93e1c9bc17a405bca76a26a0db0b23ed">More...</a><br /></td></tr>
 <tr class="separator:a93e1c9bc17a405bca76a26a0db0b23ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaa973b2dbbabb5e969dd0a471e271b4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_pyramid.html#abaa973b2dbbabb5e969dd0a471e271b4">get_vertex_indices_of_edge</a> (size_t &amp;ind1Out, size_t &amp;ind2Out, size_t edgeInd) const</td></tr>
+<tr class="memdesc:abaa973b2dbbabb5e969dd0a471e271b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the local indices of an edge of the volume.  <a href="#abaa973b2dbbabb5e969dd0a471e271b4">More...</a><br /></td></tr>
+<tr class="separator:abaa973b2dbbabb5e969dd0a471e271b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb912052d46c14e364308b7f2c21dd8e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_pyramid.html#adb912052d46c14e364308b7f2c21dd8e">get_vertex_indices_of_face</a> (std::vector&lt; size_t &gt; &amp;indsOut, size_t <a class="el" href="classug_1_1_volume.html#a305d6981a0891991e814e2f796c2a64e">side</a>) const</td></tr>
+<tr class="memdesc:adb912052d46c14e364308b7f2c21dd8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the local indices of a face of the volume.  <a href="#adb912052d46c14e364308b7f2c21dd8e">More...</a><br /></td></tr>
+<tr class="separator:adb912052d46c14e364308b7f2c21dd8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a637ca378b641169f6f074341a2522a06"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_pyramid.html#a637ca378b641169f6f074341a2522a06">is_regular_ref_rule</a> (int edgeMarks) const</td></tr>
+<tr class="memdesc:a637ca378b641169f6f074341a2522a06"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the specified edgeMarks would lead to a regular refinement  <a href="#a637ca378b641169f6f074341a2522a06">More...</a><br /></td></tr>
+<tr class="separator:a637ca378b641169f6f074341a2522a06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a479eca25576a08bffe132edbb44fdfa0"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__ugbase__common.html#ga91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_pyramid.html#a479eca25576a08bffe132edbb44fdfa0">num_edges</a> () const</td></tr>
 <tr class="separator:a479eca25576a08bffe132edbb44fdfa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe3640194024585b6bba7fef379895b7"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__ugbase__common.html#ga91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_pyramid.html#afe3640194024585b6bba7fef379895b7">num_faces</a> () const</td></tr>
@@ -192,12 +207,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a164a8f5e6d87048a523983d877699042 inherit pub_methods_classug_1_1_volume"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_volume.html#a164a8f5e6d87048a523983d877699042">get_local_side_index</a> (<a class="el" href="classug_1_1_face_vertices.html">FaceVertices</a> *f) const</td></tr>
 <tr class="memdesc:a164a8f5e6d87048a523983d877699042 inherit pub_methods_classug_1_1_volume"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the local index of the given face or -1, if the face is not part of the volume.  <a href="classug_1_1_volume.html#a164a8f5e6d87048a523983d877699042">More...</a><br /></td></tr>
 <tr class="separator:a164a8f5e6d87048a523983d877699042 inherit pub_methods_classug_1_1_volume"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e09c223b75328642509cc74a15ccee0 inherit pub_methods_classug_1_1_volume"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_volume.html#a7e09c223b75328642509cc74a15ccee0">get_local_vertex_indices_of_edge</a> (size_t &amp;ind1Out, size_t &amp;ind2Out, size_t edgeInd) const</td></tr>
-<tr class="memdesc:a7e09c223b75328642509cc74a15ccee0 inherit pub_methods_classug_1_1_volume"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the local indices of an edge of the volume.  <a href="classug_1_1_volume.html#a7e09c223b75328642509cc74a15ccee0">More...</a><br /></td></tr>
-<tr class="separator:a7e09c223b75328642509cc74a15ccee0 inherit pub_methods_classug_1_1_volume"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79b6d41edeaa16cd863315e73866c397 inherit pub_methods_classug_1_1_volume"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_volume.html#a79b6d41edeaa16cd863315e73866c397">get_local_vertex_indices_of_face</a> (std::vector&lt; size_t &gt; &amp;indsOut, size_t <a class="el" href="classug_1_1_volume.html#a305d6981a0891991e814e2f796c2a64e">side</a>) const</td></tr>
-<tr class="memdesc:a79b6d41edeaa16cd863315e73866c397 inherit pub_methods_classug_1_1_volume"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the local indices of a face of the volume.  <a href="classug_1_1_volume.html#a79b6d41edeaa16cd863315e73866c397">More...</a><br /></td></tr>
-<tr class="separator:a79b6d41edeaa16cd863315e73866c397 inherit pub_methods_classug_1_1_volume"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a447e263438331ffca613aae50cab9f94 inherit pub_methods_classug_1_1_volume"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_volume.html#a447e263438331ffca613aae50cab9f94">get_opposing_side</a> (<a class="el" href="classug_1_1_face_vertices.html">FaceVertices</a> *f, <a class="el" href="classug_1_1_face_descriptor.html">FaceDescriptor</a> &amp;fdOut) const</td></tr>
 <tr class="memdesc:a447e263438331ffca613aae50cab9f94 inherit pub_methods_classug_1_1_volume"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieves the face-descriptor for the opposing side to the specified one.  <a href="classug_1_1_volume.html#a447e263438331ffca613aae50cab9f94">More...</a><br /></td></tr>
 <tr class="separator:a447e263438331ffca613aae50cab9f94 inherit pub_methods_classug_1_1_volume"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -217,6 +226,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a33bc1afcaac0b8a504c3f18509faec8f inherit pub_methods_classug_1_1_grid_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a680bc151e2e9ec6f11823c9a63d06adb inherit pub_methods_classug_1_1_grid_object"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_grid_object.html#a680bc151e2e9ec6f11823c9a63d06adb">~GridObject</a> ()</td></tr>
 <tr class="separator:a680bc151e2e9ec6f11823c9a63d06adb inherit pub_methods_classug_1_1_grid_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7cba6e939e102c73334af2b5de1d120 inherit pub_methods_classug_1_1_grid_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_grid_object.html#aa7cba6e939e102c73334af2b5de1d120">remove_constraint_link</a> (const <a class="el" href="classug_1_1_vertex.html">Vertex</a> *vrt)</td></tr>
+<tr class="memdesc:aa7cba6e939e102c73334af2b5de1d120 inherit pub_methods_classug_1_1_grid_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes a constraint link to the grid object.  <a href="classug_1_1_grid_object.html#aa7cba6e939e102c73334af2b5de1d120">More...</a><br /></td></tr>
+<tr class="separator:aa7cba6e939e102c73334af2b5de1d120 inherit pub_methods_classug_1_1_grid_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cf06cf93c0a2a9f3f201de2743dfabd inherit pub_methods_classug_1_1_grid_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_grid_object.html#a4cf06cf93c0a2a9f3f201de2743dfabd">remove_constraint_link</a> (const <a class="el" href="classug_1_1_edge.html">Edge</a> *e)</td></tr>
+<tr class="memdesc:a4cf06cf93c0a2a9f3f201de2743dfabd inherit pub_methods_classug_1_1_grid_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes a constraint link to the grid object.  <a href="classug_1_1_grid_object.html#a4cf06cf93c0a2a9f3f201de2743dfabd">More...</a><br /></td></tr>
+<tr class="separator:a4cf06cf93c0a2a9f3f201de2743dfabd inherit pub_methods_classug_1_1_grid_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fb24b85c24a682c0e46e833f12a87c6 inherit pub_methods_classug_1_1_grid_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_grid_object.html#a6fb24b85c24a682c0e46e833f12a87c6">remove_constraint_link</a> (const <a class="el" href="classug_1_1_face.html">Face</a> *f)</td></tr>
+<tr class="memdesc:a6fb24b85c24a682c0e46e833f12a87c6 inherit pub_methods_classug_1_1_grid_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes a constraint link to the grid object.  <a href="classug_1_1_grid_object.html#a6fb24b85c24a682c0e46e833f12a87c6">More...</a><br /></td></tr>
+<tr class="separator:a6fb24b85c24a682c0e46e833f12a87c6 inherit pub_methods_classug_1_1_grid_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classug_1_1_volume_vertices"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classug_1_1_volume_vertices')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classug_1_1_volume_vertices.html">ug::VolumeVertices</a></td></tr>
 <tr class="memitem:a375ad266b97362a9cd5cb0e9473fb63c inherit pub_methods_classug_1_1_volume_vertices"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_vertex.html">Vertex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_volume_vertices.html#a375ad266b97362a9cd5cb0e9473fb63c">operator[]</a> (size_t index) const</td></tr>
 <tr class="memdesc:a375ad266b97362a9cd5cb0e9473fb63c inherit pub_methods_classug_1_1_volume_vertices"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the i-th vertex.  <a href="classug_1_1_volume_vertices.html#a375ad266b97362a9cd5cb0e9473fb63c">More...</a><br /></td></tr>
@@ -432,10 +450,10 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>The collapse_edge method creates new geometric objects by collapsing the specified edge. The user that calls this function is responsible to either register the new faces with a grid (the grid from which the vertices are), or to take responsibility for deletion of the acquired memory (delete each element in vNewFacesOut).</p><ul>
+<p>The collapse_edge method creates new geometric objects by collapsing the specified edge. The user that calls this function is responsible to either register the new volumes with a grid (the grid from which the vertices are), or to take responsibility for deletion of the acquired memory (delete each element in vNewFacesOut).</p><ul>
 <li>edgeIndex specifies the edge which shall be collapsed. edgeIndex has to lie between 0 and this-&gt;<a class="el" href="classug_1_1_pyramid.html#a479eca25576a08bffe132edbb44fdfa0">num_edges()</a>.</li>
 <li>Vertices adjacent to the collapsed edge will be replaced by newVertex.</li>
-<li>If you specify pvSubstituteVertices, the created faces will reference the vertices in pvSubstituteVertices. Note that pvSubstituteVertices has to contain exactly as many vertices as the face in which you collapse the edge. Vertices with the same index correlate. </li>
+<li>If you specify pvSubstituteVertices, the created volumes will reference the vertices in pvSubstituteVertices. Note that pvSubstituteVertices has to contain exactly as many vertices as the volume in which you collapse the edge. Vertices with the same index correlate. </li>
 </ul>
 
 <p>Reimplemented from <a class="el" href="classug_1_1_volume.html#aeb5bff348d40deb9fad69053f34d9363">ug::Volume</a>.</p>
@@ -703,6 +721,92 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a775bceef80367976de6aba2ecf3efbac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a775bceef80367976de6aba2ecf3efbac">&sect;&nbsp;</a></span>get_edge_index_from_vertices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ug::Pyramid::get_edge_index_from_vertices </td>
+          <td>(</td>
+          <td class="paramtype">const size_t&#160;</td>
+          <td class="paramname"><em>vi0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const size_t&#160;</td>
+          <td class="paramname"><em>vi1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the local index of the edge which connects the two vertex indices. </p>
+<p>Default implementation throws a <a class="el" href="classug_1_1_u_g_error.html" title="Instances of this class or of derived classes are thrown if errors arise. ">UGError</a> </p>
+
+<p>Reimplemented from <a class="el" href="classug_1_1_volume.html#a86191e2786e810b2ebdee1075b99809f">ug::Volume</a>.</p>
+
+<p>References <a class="el" href="namespaceug_1_1hex__rules.html#a1c1c4b41a8cade27ccaa9262525519df">ug::hex_rules::EDGE_FROM_VRTS</a>.</p>
+
+</div>
+</div>
+<a id="a0e68f53a944de00e735ce9a5acc7ce70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e68f53a944de00e735ce9a5acc7ce70">&sect;&nbsp;</a></span>get_face_edge_index()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ug::Pyramid::get_face_edge_index </td>
+          <td>(</td>
+          <td class="paramtype">const size_t&#160;</td>
+          <td class="paramname"><em>faceInd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const size_t&#160;</td>
+          <td class="paramname"><em>faceEdgeInd</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the local index of the j-th edge of the i-th face of the volume </p>
+<p>Default implementation throws a <a class="el" href="classug_1_1_u_g_error.html" title="Instances of this class or of derived classes are thrown if errors arise. ">UGError</a> </p>
+
+<p>Reimplemented from <a class="el" href="classug_1_1_volume.html#ab032630d6bd627b55fcdd6e92f9a1d3c">ug::Volume</a>.</p>
+
+<p>References <a class="el" href="namespaceug_1_1hex__rules.html#a01a34b96cb6ff67fdf0c66b658a8f345">ug::hex_rules::FACE_EDGE_INDS</a>.</p>
+
+</div>
+</div>
 <a id="a6561a6d7b5f93d726114b026e9c0dbda"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6561a6d7b5f93d726114b026e9c0dbda">&sect;&nbsp;</a></span>get_flipped_orientation()</h2>
 
@@ -765,6 +869,138 @@ Protected Attributes</h2></td></tr>
 <p>Reimplemented from <a class="el" href="classug_1_1_volume.html#ab89bab26e93f45b855ff63d251f4c995">ug::Volume</a>.</p>
 
 <p>References <a class="el" href="namespaceug_1_1hex__rules.html#ad7748741db3dd1df76d70b06db1a612e">ug::hex_rules::NUM_VERTICES</a>, <a class="el" href="namespaceug_1_1hex__rules.html#ad0ff863ade29ce567ff0fd5ddd3bca60">ug::hex_rules::OPPOSED_OBJECT</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
+
+</div>
+</div>
+<a id="abaa973b2dbbabb5e969dd0a471e271b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abaa973b2dbbabb5e969dd0a471e271b4">&sect;&nbsp;</a></span>get_vertex_indices_of_edge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug::Pyramid::get_vertex_indices_of_edge </td>
+          <td>(</td>
+          <td class="paramtype">size_t &amp;&#160;</td>
+          <td class="paramname"><em>ind1Out</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t &amp;&#160;</td>
+          <td class="paramname"><em>ind2Out</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>edgeInd</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the local indices of an edge of the volume. </p>
+<p>Default implementation throws a <a class="el" href="classug_1_1_u_g_error.html" title="Instances of this class or of derived classes are thrown if errors arise. ">UGError</a> </p>
+
+<p>Reimplemented from <a class="el" href="classug_1_1_volume.html#a09a74111f2f95f80fad1a05aec02abad">ug::Volume</a>.</p>
+
+<p>References <a class="el" href="namespaceug_1_1hex__rules.html#ad18ab2591f6303dfaae4b56206f253c0">ug::hex_rules::EDGE_VRT_INDS</a>, and <a class="el" href="namespaceug_1_1hex__rules.html#ac09a91bdbee0f0baf15926104cb0c2c5">ug::hex_rules::NUM_EDGES</a>.</p>
+
+</div>
+</div>
+<a id="adb912052d46c14e364308b7f2c21dd8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb912052d46c14e364308b7f2c21dd8e">&sect;&nbsp;</a></span>get_vertex_indices_of_face()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug::Pyramid::get_vertex_indices_of_face </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>indsOut</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>side</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the local indices of a face of the volume. </p>
+<p>Default implementation throws a <a class="el" href="classug_1_1_u_g_error.html" title="Instances of this class or of derived classes are thrown if errors arise. ">UGError</a> </p>
+
+<p>Reimplemented from <a class="el" href="classug_1_1_volume.html#a5e8701513f1e101f35014d406e468fb7">ug::Volume</a>.</p>
+
+<p>References <a class="el" href="namespaceug_1_1hex__rules.html#a8548d5a189ba45b7d650651c1223e19c">ug::hex_rules::FACE_VRT_INDS</a>, and <a class="el" href="namespaceug_1_1hex__rules.html#a21a69790bea73fdd6e057b5d20a0ee1b">ug::hex_rules::NUM_FACES</a>.</p>
+
+</div>
+</div>
+<a id="a637ca378b641169f6f074341a2522a06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a637ca378b641169f6f074341a2522a06">&sect;&nbsp;</a></span>is_regular_ref_rule()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ug::Pyramid::is_regular_ref_rule </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>edgeMarks</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns true if the specified edgeMarks would lead to a regular refinement </p>
+<p>A regular refinement leads to new elements which are all similar to the original element. I.e. which are of the same type and which have similar angles.</p>
+<dl class="section note"><dt>Note</dt><dd>this method does not perform refinement. Use 'refine' with the specified edges instead.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">edgeMarks</td><td>If the i-th edge shall be refined, the expression 'edgeMarks &amp; (1&lt;&lt;i) != 0' has to be true. You can specify multiple refine-edges using or-combinations: 'edgeMarks = (1&lt;&lt;i) | (1&lt;&lt;j)' would indicate that the i-th and the j-th edge shall be refined. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented from <a class="el" href="classug_1_1_volume.html#a061991a8c01aea24d95ea49a03f8e88f">ug::Volume</a>.</p>
+
+<p>References <a class="el" href="namespaceug_1_1hex__rules.html#abd70c541a2387d2d8bc49becaa1daaf0">ug::hex_rules::IsRegularRefRule()</a>.</p>
 
 </div>
 </div>
@@ -1140,7 +1376,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_pyramid.html">Pyramid</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:18:21 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:42 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

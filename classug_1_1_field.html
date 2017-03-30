@@ -90,6 +90,7 @@ $(document).ready(function(){initNavTree('classug_1_1_field.html','');});
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="classug_1_1_field-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ug::Field&lt; T &gt; Class Template Reference</div>  </div>
@@ -143,6 +144,12 @@ Public Member Functions</h2></td></tr>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a9d370aab0be4375ccb5e43d2d9cd3c75"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_field.html#a9d370aab0be4375ccb5e43d2d9cd3c75">array_index</a> (size_t x, size_t y) const</td></tr>
 <tr class="separator:a9d370aab0be4375ccb5e43d2d9cd3c75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af06712c4dec70d0334bd0b3a4bb5dc9d"><td class="memTemplParams" colspan="2">template&lt;class Archive &gt; </td></tr>
+<tr class="memitem:af06712c4dec70d0334bd0b3a4bb5dc9d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_field.html#af06712c4dec70d0334bd0b3a4bb5dc9d">load</a> (Archive &amp;ar, const unsigned int version)</td></tr>
+<tr class="separator:af06712c4dec70d0334bd0b3a4bb5dc9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e09ddf47d3699a6f424de02b4b23286"><td class="memTemplParams" colspan="2">template&lt;class Archive &gt; </td></tr>
+<tr class="memitem:a7e09ddf47d3699a6f424de02b4b23286"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_field.html#a7e09ddf47d3699a6f424de02b4b23286">save</a> (Archive &amp;ar, const unsigned int version) const</td></tr>
+<tr class="separator:a7e09ddf47d3699a6f424de02b4b23286"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -154,6 +161,11 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a4705e7aa778d82e80b79f89ee516089e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa50ce67cf5c2d7c548b353564f9c0b55"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_field.html#aa50ce67cf5c2d7c548b353564f9c0b55">m_width</a></td></tr>
 <tr class="separator:aa50ce67cf5c2d7c548b353564f9c0b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:ac98d07dd8f7b70e16ccb9a01abf56b9c"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_field.html#ac98d07dd8f7b70e16ccb9a01abf56b9c">boost::serialization::access</a></td></tr>
+<tr class="separator:ac98d07dd8f7b70e16ccb9a01abf56b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad6703d6f055cf1921e8526d638dc93f2"></a>
@@ -357,7 +369,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classug_1_1_file_reader_a_s_c.html#a953460daee5553c3dcd1a72dbcba2f61">ug::FileReaderASC::at()</a>, <a class="el" href="namespaceug.html#a2a576db7b05c793d51f80b5cd85db610">ug::BlurField()</a>, <a class="el" href="classug_1_1_field.html#a999f38da9104f4dd08629f0d000872a4">ug::Field&lt; number &gt;::copy()</a>, <a class="el" href="namespaceug.html#a72cb8c1380acee7fbd7982ab8c171586">ug::CreateGridFromField()</a>, <a class="el" href="namespaceug.html#adb66935ad24e7491f4daed8fe3b30217">ug::CreateGridFromFieldBoundary()</a>, <a class="el" href="namespaceug.html#a45cb8b55f20ac062629f0e052920cd46">ug::EliminateInvalidCells()</a>, <a class="el" href="classug_1_1_heightfield.html#a8cf848f752ae2c61bc156a1be43c051b">ug::Heightfield::interpolate()</a>, <a class="el" href="classug_1_1_raster_layers.html#a7bb5a04c070720f5c7cf7c289665e7c3">ug::RasterLayers::invalidate_flat_cells()</a>, <a class="el" href="namespaceug.html#a565a251806ab09e37a518b8db0d53a90">ug::InvalidateSmallLenses()</a>, <a class="el" href="classug_1_1_file_reader_a_s_c.html#acf46369a4741960ab7b1dc1288a9a3a6">ug::FileReaderASC::load_file()</a>, <a class="el" href="classug_1_1_raster_layers.html#a65d121b2c4723186e05f3ccdc5ad525b">ug::RasterLayers::remove_small_holes()</a>, and <a class="el" href="classug_1_1_raster_layers.html#ab2eb50e33f7dbbd9a063404286fede47">ug::RasterLayers::snap_cells_to_higher_layers()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_file_reader_a_s_c.html#a953460daee5553c3dcd1a72dbcba2f61">ug::FileReaderASC::at()</a>, <a class="el" href="namespaceug.html#a2a576db7b05c793d51f80b5cd85db610">ug::BlurField()</a>, <a class="el" href="classug_1_1_raster_layers.html#a4b0dfaa953287e21176900862a8f9370">ug::RasterLayers::construct_relative_to_global_height_table()</a>, <a class="el" href="classug_1_1_field.html#a999f38da9104f4dd08629f0d000872a4">ug::Field&lt; number &gt;::copy()</a>, <a class="el" href="namespaceug.html#a72cb8c1380acee7fbd7982ab8c171586">ug::CreateGridFromField()</a>, <a class="el" href="namespaceug.html#adb66935ad24e7491f4daed8fe3b30217">ug::CreateGridFromFieldBoundary()</a>, <a class="el" href="namespaceug.html#a45cb8b55f20ac062629f0e052920cd46">ug::EliminateInvalidCells()</a>, <a class="el" href="classug_1_1_heightfield.html#a8cf848f752ae2c61bc156a1be43c051b">ug::Heightfield::interpolate()</a>, <a class="el" href="classug_1_1_raster_layers.html#a7bb5a04c070720f5c7cf7c289665e7c3">ug::RasterLayers::invalidate_flat_cells()</a>, <a class="el" href="namespaceug.html#a565a251806ab09e37a518b8db0d53a90">ug::InvalidateSmallLenses()</a>, <a class="el" href="classug_1_1_file_reader_a_s_c.html#acf46369a4741960ab7b1dc1288a9a3a6">ug::FileReaderASC::load_file()</a>, <a class="el" href="classug_1_1_raster_layers.html#a65d121b2c4723186e05f3ccdc5ad525b">ug::RasterLayers::remove_small_holes()</a>, <a class="el" href="classug_1_1_raster_layers.html#ab2eb50e33f7dbbd9a063404286fede47">ug::RasterLayers::snap_cells_to_higher_layers()</a>, and <a class="el" href="classug_1_1_raster_layers.html#a153df567cee18ad62ab34a851a48e606">ug::RasterLayers::upper_lower_dist_relation()</a>.</p>
 
 </div>
 </div>
@@ -617,7 +629,47 @@ template&lt;class T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="namespaceug.html#a2a576db7b05c793d51f80b5cd85db610">ug::BlurField()</a>, <a class="el" href="classug_1_1_field.html#a999f38da9104f4dd08629f0d000872a4">ug::Field&lt; number &gt;::copy()</a>, <a class="el" href="namespaceug.html#a72cb8c1380acee7fbd7982ab8c171586">ug::CreateGridFromField()</a>, <a class="el" href="namespaceug.html#adb66935ad24e7491f4daed8fe3b30217">ug::CreateGridFromFieldBoundary()</a>, <a class="el" href="namespaceug.html#a45cb8b55f20ac062629f0e052920cd46">ug::EliminateInvalidCells()</a>, <a class="el" href="classug_1_1_heightfield.html#aea536fae083979a757b75816e60fe1b9">ug::Heightfield::extent()</a>, <a class="el" href="classug_1_1_field.html#a66334c25258e8be5ea87512855afe0d2">ug::Field&lt; number &gt;::Field()</a>, <a class="el" href="classug_1_1_heightfield.html#a8cf848f752ae2c61bc156a1be43c051b">ug::Heightfield::interpolate()</a>, <a class="el" href="classug_1_1_raster_layers.html#a7bb5a04c070720f5c7cf7c289665e7c3">ug::RasterLayers::invalidate_flat_cells()</a>, <a class="el" href="namespaceug.html#a565a251806ab09e37a518b8db0d53a90">ug::InvalidateSmallLenses()</a>, <a class="el" href="classug_1_1_file_reader_a_s_c.html#aa4690df05994fb57c0dc15b0489a387b">ug::FileReaderASC::num_rows()</a>, <a class="el" href="classug_1_1_raster_layers.html#a65d121b2c4723186e05f3ccdc5ad525b">ug::RasterLayers::remove_small_holes()</a>, and <a class="el" href="classug_1_1_raster_layers.html#ab2eb50e33f7dbbd9a063404286fede47">ug::RasterLayers::snap_cells_to_higher_layers()</a>.</p>
+<p>Referenced by <a class="el" href="namespaceug.html#a2a576db7b05c793d51f80b5cd85db610">ug::BlurField()</a>, <a class="el" href="classug_1_1_raster_layers.html#a4b0dfaa953287e21176900862a8f9370">ug::RasterLayers::construct_relative_to_global_height_table()</a>, <a class="el" href="classug_1_1_field.html#a999f38da9104f4dd08629f0d000872a4">ug::Field&lt; number &gt;::copy()</a>, <a class="el" href="namespaceug.html#a72cb8c1380acee7fbd7982ab8c171586">ug::CreateGridFromField()</a>, <a class="el" href="namespaceug.html#adb66935ad24e7491f4daed8fe3b30217">ug::CreateGridFromFieldBoundary()</a>, <a class="el" href="namespaceug.html#a45cb8b55f20ac062629f0e052920cd46">ug::EliminateInvalidCells()</a>, <a class="el" href="classug_1_1_heightfield.html#aea536fae083979a757b75816e60fe1b9">ug::Heightfield::extent()</a>, <a class="el" href="classug_1_1_field.html#a66334c25258e8be5ea87512855afe0d2">ug::Field&lt; number &gt;::Field()</a>, <a class="el" href="classug_1_1_heightfield.html#a8cf848f752ae2c61bc156a1be43c051b">ug::Heightfield::interpolate()</a>, <a class="el" href="classug_1_1_raster_layers.html#a7bb5a04c070720f5c7cf7c289665e7c3">ug::RasterLayers::invalidate_flat_cells()</a>, <a class="el" href="namespaceug.html#a565a251806ab09e37a518b8db0d53a90">ug::InvalidateSmallLenses()</a>, <a class="el" href="classug_1_1_file_reader_a_s_c.html#aa4690df05994fb57c0dc15b0489a387b">ug::FileReaderASC::num_rows()</a>, <a class="el" href="classug_1_1_raster_layers.html#a65d121b2c4723186e05f3ccdc5ad525b">ug::RasterLayers::remove_small_holes()</a>, and <a class="el" href="classug_1_1_raster_layers.html#ab2eb50e33f7dbbd9a063404286fede47">ug::RasterLayers::snap_cells_to_higher_layers()</a>.</p>
+
+</div>
+</div>
+<a id="af06712c4dec70d0334bd0b3a4bb5dc9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af06712c4dec70d0334bd0b3a4bb5dc9d">&sect;&nbsp;</a></span>load()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<div class="memtemplate">
+template&lt;class Archive &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_field.html">ug::Field</a>&lt; T &gt;::load </td>
+          <td>(</td>
+          <td class="paramtype">Archive &amp;&#160;</td>
+          <td class="paramname"><em>ar</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const unsigned int&#160;</td>
+          <td class="paramname"><em>version</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -670,6 +722,46 @@ template&lt;class T &gt; </div>
 </div><div class="memdoc">
 
 <p>Referenced by <a class="el" href="classug_1_1_file_reader_a_s_c.html#acf46369a4741960ab7b1dc1288a9a3a6">ug::FileReaderASC::load_file()</a>, and <a class="el" href="classug_1_1_raster_layers.html#a65d121b2c4723186e05f3ccdc5ad525b">ug::RasterLayers::remove_small_holes()</a>.</p>
+
+</div>
+</div>
+<a id="a7e09ddf47d3699a6f424de02b4b23286"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e09ddf47d3699a6f424de02b4b23286">&sect;&nbsp;</a></span>save()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<div class="memtemplate">
+template&lt;class Archive &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_field.html">ug::Field</a>&lt; T &gt;::save </td>
+          <td>(</td>
+          <td class="paramtype">Archive &amp;&#160;</td>
+          <td class="paramname"><em>ar</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const unsigned int&#160;</td>
+          <td class="paramname"><em>version</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -749,7 +841,32 @@ template&lt;class T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="namespaceug.html#a2a576db7b05c793d51f80b5cd85db610">ug::BlurField()</a>, <a class="el" href="classug_1_1_field.html#a999f38da9104f4dd08629f0d000872a4">ug::Field&lt; number &gt;::copy()</a>, <a class="el" href="namespaceug.html#a72cb8c1380acee7fbd7982ab8c171586">ug::CreateGridFromField()</a>, <a class="el" href="namespaceug.html#adb66935ad24e7491f4daed8fe3b30217">ug::CreateGridFromFieldBoundary()</a>, <a class="el" href="namespaceug.html#a45cb8b55f20ac062629f0e052920cd46">ug::EliminateInvalidCells()</a>, <a class="el" href="classug_1_1_heightfield.html#aea536fae083979a757b75816e60fe1b9">ug::Heightfield::extent()</a>, <a class="el" href="classug_1_1_field.html#a66334c25258e8be5ea87512855afe0d2">ug::Field&lt; number &gt;::Field()</a>, <a class="el" href="classug_1_1_heightfield.html#a8cf848f752ae2c61bc156a1be43c051b">ug::Heightfield::interpolate()</a>, <a class="el" href="classug_1_1_raster_layers.html#a7bb5a04c070720f5c7cf7c289665e7c3">ug::RasterLayers::invalidate_flat_cells()</a>, <a class="el" href="namespaceug.html#a565a251806ab09e37a518b8db0d53a90">ug::InvalidateSmallLenses()</a>, <a class="el" href="classug_1_1_file_reader_a_s_c.html#a8915486c78d9549657916ebdc55acb6f">ug::FileReaderASC::num_columns()</a>, <a class="el" href="classug_1_1_raster_layers.html#a65d121b2c4723186e05f3ccdc5ad525b">ug::RasterLayers::remove_small_holes()</a>, and <a class="el" href="classug_1_1_raster_layers.html#ab2eb50e33f7dbbd9a063404286fede47">ug::RasterLayers::snap_cells_to_higher_layers()</a>.</p>
+<p>Referenced by <a class="el" href="namespaceug.html#a2a576db7b05c793d51f80b5cd85db610">ug::BlurField()</a>, <a class="el" href="classug_1_1_raster_layers.html#a4b0dfaa953287e21176900862a8f9370">ug::RasterLayers::construct_relative_to_global_height_table()</a>, <a class="el" href="classug_1_1_field.html#a999f38da9104f4dd08629f0d000872a4">ug::Field&lt; number &gt;::copy()</a>, <a class="el" href="namespaceug.html#a72cb8c1380acee7fbd7982ab8c171586">ug::CreateGridFromField()</a>, <a class="el" href="namespaceug.html#adb66935ad24e7491f4daed8fe3b30217">ug::CreateGridFromFieldBoundary()</a>, <a class="el" href="namespaceug.html#a45cb8b55f20ac062629f0e052920cd46">ug::EliminateInvalidCells()</a>, <a class="el" href="classug_1_1_heightfield.html#aea536fae083979a757b75816e60fe1b9">ug::Heightfield::extent()</a>, <a class="el" href="classug_1_1_field.html#a66334c25258e8be5ea87512855afe0d2">ug::Field&lt; number &gt;::Field()</a>, <a class="el" href="classug_1_1_heightfield.html#a8cf848f752ae2c61bc156a1be43c051b">ug::Heightfield::interpolate()</a>, <a class="el" href="classug_1_1_raster_layers.html#a7bb5a04c070720f5c7cf7c289665e7c3">ug::RasterLayers::invalidate_flat_cells()</a>, <a class="el" href="namespaceug.html#a565a251806ab09e37a518b8db0d53a90">ug::InvalidateSmallLenses()</a>, <a class="el" href="classug_1_1_file_reader_a_s_c.html#a8915486c78d9549657916ebdc55acb6f">ug::FileReaderASC::num_columns()</a>, <a class="el" href="classug_1_1_raster_layers.html#a65d121b2c4723186e05f3ccdc5ad525b">ug::RasterLayers::remove_small_holes()</a>, and <a class="el" href="classug_1_1_raster_layers.html#ab2eb50e33f7dbbd9a063404286fede47">ug::RasterLayers::snap_cells_to_higher_layers()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="ac98d07dd8f7b70e16ccb9a01abf56b9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac98d07dd8f7b70e16ccb9a01abf56b9c">&sect;&nbsp;</a></span>boost::serialization::access</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class boost::serialization::access</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -868,7 +985,7 @@ template&lt;class T&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_field.html">Field</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:18:03 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:21 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

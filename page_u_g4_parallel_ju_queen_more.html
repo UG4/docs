@@ -193,7 +193,7 @@ A nice introduction to LoadLeveler command file syntax is given e.g.
 </li>
 <li>
 <p class="startli"><b>Jobs are actually started</b> by the <code>runjob</code> command (this replaces the <code>mpirun</code> command used on JuGene).</p>
-<p><b>Example</b>: </p><div class="fragment"><div class="line">runjob --np 64 --ranks-per-node 16 --mapping ABCDET --verbose 3 : ./ugshell -ex ../apps/conv_diff/laplace.lua</div></div><!-- fragment --><p> This starts a job with 64 MPI processes, running on 4 CN's, where on each CN one process per core is executed.</p>
+<p><b>Example</b>: </p><div class="fragment"><div class="line">runjob --np 64 --ranks-per-node 16 --mapping ABCDET --verbose 3 : ./ugshell -<a class="code" href="command__line__util_8lua.html#a340d3719e63a0a3a4f4429ef8c8b55ea">ex</a> ../apps/conv_diff/laplace.lua</div></div><!-- fragment --><p> This starts a job with 64 MPI processes, running on 4 CN's, where on each CN one process per core is executed.</p>
 <p>Some explanations to te <code>runjob</code> parameters used above: </p><ul>
 <li>
 The <code>runjob</code> parameter <code>&ndash;np &lt;n&gt;</code> specifies the number <code>&lt;n&gt;</code> of MPI processes of the entire job.  </li>
@@ -320,7 +320,7 @@ see &lt;a href="<a href="http://apps.fz-juelich.de/unite/index.php/Main_Page">ht
 </ol>
 <p><b>Example session</b>: </p><ol>
 <li>
-<p class="startli">Start the debugger: </p><div class="fragment"><div class="line">lltv -n 1 : -default_parallel_attach_subset=0-15 runjob -a --np 16 --ranks-per-node 16 --mapping ABCDET --verbose 3 : ./ugshell -ex scaling_tests/modular_scalability_test.lua -<a class="codeRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#gad04fbd00dd872375c4863bd1d4621237">dim</a> 2 -grid unit_square_01/unit_square_01_quads_8x8.ugx -lsMaxIter 100 -numPreRefs 3 -lsType feti -ds famg -ns famg -numPPSD 4 -numRefs 4</div></div><!-- fragment --><p>I.e., to get the corresponding interactive debug job one can (to the authors experience so far) just add the <code>runjob</code> line of a batch job definition (as written in a LoadLeveler script; see above) after the colon of the <code>lltv</code> command <b>PLUS add the option <code>-a</code> to the <code>runjob</code> command</b>!</p>
+<p class="startli">Start the debugger: </p><div class="fragment"><div class="line">lltv -n 1 : -default_parallel_attach_subset=0-15 runjob -a --np 16 --ranks-per-node 16 --mapping ABCDET --verbose 3 : ./ugshell -<a class="code" href="command__line__util_8lua.html#a340d3719e63a0a3a4f4429ef8c8b55ea">ex</a> scaling_tests/modular_scalability_test.lua -<a class="codeRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#gad04fbd00dd872375c4863bd1d4621237">dim</a> 2 -grid unit_square_01/unit_square_01_quads_8x8.ugx -lsMaxIter 100 -numPreRefs 3 -lsType feti -ds famg -ns famg -numPPSD 4 -numRefs 4</div></div><!-- fragment --><p>I.e., to get the corresponding interactive debug job one can (to the authors experience so far) just add the <code>runjob</code> line of a batch job definition (as written in a LoadLeveler script; see above) after the colon of the <code>lltv</code> command <b>PLUS add the option <code>-a</code> to the <code>runjob</code> command</b>!</p>
 <p>The system answers with something like </p><div class="fragment"><div class="line">Creating LoadLeveler Job</div><div class="line">Submiting LoadLeveler Interactive Job <span class="keywordflow">for</span> TotalView</div><div class="line"> Wait <span class="keywordflow">for</span> job juqueen1c1.49410.0 to be started:......</div></div><!-- fragment --><p>Additionally <em>TotalView</em> displays three windows (and a few temporary windows) after the job has started:</p><ul>
 <li>a shell-like window titled "totalview" (with black background, which will later display the output of the executable to be debugged),</li>
 <li>the "root window", titled "TotalView &lt;Version number&gt;" (which will contain the list of attached processes), and (typically a bit later)</li>
@@ -381,7 +381,7 @@ Click on "Run and Debug a Program" in the "Welcome" dialog box </li>
 <p class="endli"></p>
 </li>
 </ol>
-<p><b>Example <em>DDT</em> session</b> (directly specifying the executable to debug on the command line): </p><div class="fragment"><div class="line">ddt</div></div><!-- fragment --><p>Specification of executable and parameters should also work &mdash; </p><div class="fragment"><div class="line">ddt ./ugshell_debug -ex ../apps/scaling_tests/modular_scalability_test.lua -numRefs  7</div></div><!-- fragment --><p>The mpirun parameters, e.g. <code>-mapfile TXYZ -verbose 2</code> can be placed in the fields accessible after clicking on the "Advanced" button.</p>
+<p><b>Example <em>DDT</em> session</b> (directly specifying the executable to debug on the command line): </p><div class="fragment"><div class="line">ddt</div></div><!-- fragment --><p>Specification of executable and parameters should also work &mdash; </p><div class="fragment"><div class="line">ddt ./ugshell_debug -<a class="code" href="command__line__util_8lua.html#a340d3719e63a0a3a4f4429ef8c8b55ea">ex</a> ../apps/scaling_tests/modular_scalability_test.lua -numRefs  7</div></div><!-- fragment --><p>The mpirun parameters, e.g. <code>-mapfile TXYZ -verbose 2</code> can be placed in the fields accessible after clicking on the "Advanced" button.</p>
 <h3><a class="anchor" id="secAnalysOfCorefiles"></a>
 Analysis of corefiles with the Coreprocessor tool</h3>
 <p>If a job crashes normally one or more corefiles are created. Corefiles are plain text files (stored in the "Parallel Tools Consortium Lightweight Corefile Format") and named like <code>core.0</code>, <code>core.1</code>, <code>core.2</code>, ...</p>
@@ -409,7 +409,7 @@ Optional: Save the trace in a file for later analysis. </li>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="index.html">ug4 - Documentation</a></li><li class="navelem"><a class="el" href="page_u_g4_setup.html">Setup and Installation</a></li><li class="navelem"><a class="el" href="page_u_g4_install.html">Prerequisites and Recommended Tools</a></li><li class="navelem"><a class="el" href="page_u_g4_setup_parallel.html">Installation on Parallel Computers</a></li><li class="navelem"><a class="el" href="page_u_g4_parallel_ju_gene.html">JuGene</a></li><li class="navelem"><a class="el" href="page_u_g4_parallel_ju_queen.html">JuQueen</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:17:53 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:11 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

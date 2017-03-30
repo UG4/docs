@@ -86,17 +86,174 @@ $(document).ready(function(){initNavTree('debug__util_8lua.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">debug_util.lua File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a355b6625fa16be99b66c083152083557"><td class="memItemLeft" align="right" valign="top">function util&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debug__util_8lua.html#a355b6625fa16be99b66c083152083557">GetLUAFileAndLine</a> (backtraceLevel)</td></tr>
+<tr class="separator:a355b6625fa16be99b66c083152083557"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f4bb62e4f0dc89b8c09f249e80c4ad7"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debug__util_8lua.html#a2f4bb62e4f0dc89b8c09f249e80c4ad7">ug_assert</a> (condition, msg)</td></tr>
+<tr class="separator:a2f4bb62e4f0dc89b8c09f249e80c4ad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50e62102e6e5f9ede13dde9e8f053c9d"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debug__util_8lua.html#a50e62102e6e5f9ede13dde9e8f053c9d">ug_cond_warning</a> (condition, text)</td></tr>
+<tr class="separator:a50e62102e6e5f9ede13dde9e8f053c9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9e8bcf8fe60db5790a206861ac91397"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debug__util_8lua.html#aa9e8bcf8fe60db5790a206861ac91397">ug_error</a> (msg, otherMsg, backtraceSkipLevel)</td></tr>
+<tr class="separator:aa9e8bcf8fe60db5790a206861ac91397"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8839e087667b6a694e51590418414210"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debug__util_8lua.html#a8839e087667b6a694e51590418414210">ug_warning</a> (t)</td></tr>
+<tr class="separator:a8839e087667b6a694e51590418414210"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a355b6625fa16be99b66c083152083557"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a355b6625fa16be99b66c083152083557">&sect;&nbsp;</a></span>GetLUAFileAndLine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util GetLUAFileAndLine </td>
+          <td>(</td>
+          <td class="paramtype">backtraceLevel&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">backtraceLevel</td><td>the number of levels to go up for backtraceLevel = 0, it returns file and line of the calling function. for backtraceLevel = 1 the file and line of the caller of the calling function and so on.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="debug__util_8lua.html">debug_util.lua</a> :82-91 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.GetLUAFileAndLine (backtraceLevel)</div><div class="line">  local level = 2+backtraceLevel</div><div class="line">  local info = debug.getinfo(level, <span class="stringliteral">&quot;Sl&quot;</span>)</div><div class="line">  <span class="keywordflow">if</span> not info then <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span> end</div><div class="line">  <span class="keywordflow">if</span> info.what == <span class="stringliteral">&quot;C&quot;</span> then   -- is a C <span class="keyword">function</span>?</div><div class="line">    <span class="keywordflow">return</span> <span class="stringliteral">&quot;C function&quot;</span></div><div class="line">  <span class="keywordflow">else</span></div><div class="line">    <span class="keywordflow">return</span> <span class="keywordtype">string</span>.format(<span class="stringliteral">&quot;[%s]:%d&quot;</span>, info.short_src, info.currentline)</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
+</div>
+</div>
+<a id="a2f4bb62e4f0dc89b8c09f249e80c4ad7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f4bb62e4f0dc89b8c09f249e80c4ad7">&sect;&nbsp;</a></span>ug_assert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function ug_assert </td>
+          <td>(</td>
+          <td class="paramtype">condition&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">msg&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>use it like ug_assert(numPreRefs &lt;= numRefs, "It must be choosen: numPreRefs &lt;= numRefs") </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">condition</td><td>the condition to assert </td></tr>
+    <tr><td class="paramname">msg</td><td>(optional) message to be printed if condition is not fulfilled</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="debug__util_8lua.html">debug_util.lua</a> :57-63 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="debug__util_8lua.html#a2f4bb62e4f0dc89b8c09f249e80c4ad7">ug_assert</a>(condition, msg)</div><div class="line">  <span class="keywordflow">if</span> condition then</div><div class="line">    <span class="keywordflow">return</span></div><div class="line">  <span class="keywordflow">else</span></div><div class="line">    <a class="code" href="debug__util_8lua.html#aa9e8bcf8fe60db5790a206861ac91397">ug_error</a>(msg, <span class="stringliteral">&quot;ASSERTION FAILED:&quot;</span>)    </div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
+</div>
+</div>
+<a id="a50e62102e6e5f9ede13dde9e8f053c9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50e62102e6e5f9ede13dde9e8f053c9d">&sect;&nbsp;</a></span>ug_cond_warning()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function ug_cond_warning </td>
+          <td>(</td>
+          <td class="paramtype">condition&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">text&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="debug__util_8lua.html">debug_util.lua</a> :70-74 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="debug__util_8lua.html#a50e62102e6e5f9ede13dde9e8f053c9d">ug_cond_warning</a>(condition, text)</div><div class="line">  <span class="keywordflow">if</span> condition then</div><div class="line">    <a class="code" href="debug__util_8lua.html#a8839e087667b6a694e51590418414210">ug_warning</a>(text)</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
+</div>
+</div>
+<a id="aa9e8bcf8fe60db5790a206861ac91397"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9e8bcf8fe60db5790a206861ac91397">&sect;&nbsp;</a></span>ug_error()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function ug_error </td>
+          <td>(</td>
+          <td class="paramtype">msg&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">otherMsg&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">backtraceSkipLevel&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="debug__util_8lua.html">debug_util.lua</a> :31-52 </p>
+
+</div>
+</div>
+<a id="a8839e087667b6a694e51590418414210"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8839e087667b6a694e51590418414210">&sect;&nbsp;</a></span>ug_warning()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function ug_warning </td>
+          <td>(</td>
+          <td class="paramtype">t&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="debug__util_8lua.html">debug_util.lua</a> :65-68 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="debug__util_8lua.html#a8839e087667b6a694e51590418414210">ug_warning</a>(t)</div><div class="line">  <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(t)</div><div class="line">  err_log(t)</div><div class="line">end</div></div><!-- fragment --> 
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_53e6fa9553ac22a5646d2a2b2d7b97a1.html">scripts</a></li><li class="navelem"><a class="el" href="dir_46f23659e18aa5fa06de6ff2c04a1a12.html">util</a></li><li class="navelem"><a class="el" href="debug__util_8lua.html">debug_util.lua</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:17:52 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:09 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

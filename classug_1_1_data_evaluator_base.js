@@ -1,0 +1,28 @@
+var classug_1_1_data_evaluator_base =
+[
+    [ "DataEvaluatorBase", "classug_1_1_data_evaluator_base.html#afc561bfb64d3e9b96f0568d67346b7d6", null ],
+    [ "add_data_to_eval_data", "classug_1_1_data_evaluator_base.html#a6ebca95fe10ac8e4de4127b9ebf5b6b1", null ],
+    [ "clear_extracted_data_and_mappings", "classug_1_1_data_evaluator_base.html#a4b706f7d1b297ccf9cb1aea29f5d4382", null ],
+    [ "clear_positions_in_user_data", "classug_1_1_data_evaluator_base.html#a36fbc722667d0675af22e49ca7263bf0", null ],
+    [ "compute_err_est_A_elem", "classug_1_1_data_evaluator_base.html#af76a84241cbb86fa102dd9b56911eefc", null ],
+    [ "compute_err_est_M_elem", "classug_1_1_data_evaluator_base.html#ab98a5980e45853a5812acb1eb6a653ef", null ],
+    [ "compute_err_est_rhs_elem", "classug_1_1_data_evaluator_base.html#aa56e5b0ba35932906f6519b4ad762ae6", null ],
+    [ "extract_imports_and_userdata", "classug_1_1_data_evaluator_base.html#a9c4aba2cde42fffa0fbb21998ef88ca7", null ],
+    [ "finish_err_est_elem_loop", "classug_1_1_data_evaluator_base.html#ac7c8e5e4f1bc76198c11eb3ce3d12918", null ],
+    [ "prepare_err_est_elem", "classug_1_1_data_evaluator_base.html#a6edbb1ce290abadc32ab2efbfb7d5cd7", null ],
+    [ "prepare_err_est_elem_loop", "classug_1_1_data_evaluator_base.html#a0d15db9cdbf330b534f8fe943a313914", null ],
+    [ "set_time_point", "classug_1_1_data_evaluator_base.html#a993dacf531b81eafe3b10bb434e826a5", null ],
+    [ "time_series_needed", "classug_1_1_data_evaluator_base.html#a85492eb2890fc138b5a2008b59502530", null ],
+    [ "use_hanging", "classug_1_1_data_evaluator_base.html#ab258642fa7d3e119fe321aae259de4d7", null ],
+    [ "dim", "classug_1_1_data_evaluator_base.html#a3863725cb5d00d01df07a987453ca8c5", null ],
+    [ "m_bNeedLocTimeSeries", "classug_1_1_data_evaluator_base.html#a148162615ddbcb992ea07ea4fa2ea2da", null ],
+    [ "m_bUseHanging", "classug_1_1_data_evaluator_base.html#a06f35933a937b67eb7d728723b1155ba", null ],
+    [ "m_discPart", "classug_1_1_data_evaluator_base.html#a681f5c4df47af8582548acecfcfb6e37", null ],
+    [ "m_pLocTimeSeries", "classug_1_1_data_evaluator_base.html#a17ba7b0ec5ec5f09aebeae759ad2c3dc", null ],
+    [ "m_spFctPattern", "classug_1_1_data_evaluator_base.html#aaa974c144cb14af98b2af2abc372c7eb", null ],
+    [ "m_vConstData", "classug_1_1_data_evaluator_base.html#ac7b1524501ba6d80345c71ab7928e0f2", null ],
+    [ "m_vDependentData", "classug_1_1_data_evaluator_base.html#a2ed8b1b08592b5be51ad255f6550dd72", null ],
+    [ "m_vElemDisc", "classug_1_1_data_evaluator_base.html#a2a3fbb3f96eb2a9a10793d6fecd721fb", null ],
+    [ "m_vImport", "classug_1_1_data_evaluator_base.html#a5aee782b15387551d758ee5219385398", null ],
+    [ "m_vPosData", "classug_1_1_data_evaluator_base.html#a9f567b2d1f7c8826ecc36dd1b6d5e2fe", null ]
+];

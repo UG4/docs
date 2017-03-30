@@ -12,6 +12,8 @@ var namespaceug4_bridge =
     [ "RayTracing", "namespaceug4_bridge_1_1_ray_tracing.html", "namespaceug4_bridge_1_1_ray_tracing" ],
     [ "SpatialDisc", "namespaceug4_bridge_1_1_spatial_disc.html", "namespaceug4_bridge_1_1_spatial_disc" ],
     [ "Util", "namespaceug4_bridge_1_1_util.html", "namespaceug4_bridge_1_1_util" ],
+    [ "AInt", "classug4_bridge_1_1_a_int.html", "classug4_bridge_1_1_a_int" ],
+    [ "ANumber", "classug4_bridge_1_1_a_number.html", "classug4_bridge_1_1_a_number" ],
     [ "APosition1", "classug4_bridge_1_1_a_position1.html", "classug4_bridge_1_1_a_position1" ],
     [ "APosition2", "classug4_bridge_1_1_a_position2.html", "classug4_bridge_1_1_a_position2" ],
     [ "APosition3", "classug4_bridge_1_1_a_position3.html", "classug4_bridge_1_1_a_position3" ],

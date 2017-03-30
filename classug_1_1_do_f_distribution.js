@@ -101,11 +101,11 @@ var classug_1_1_do_f_distribution =
     [ "m_gridLevel", "classug_1_1_do_f_distribution.html#adc48c8bc3f72fe5e5db3ea00ae11eb5a", null ],
     [ "m_numIndex", "classug_1_1_do_f_distribution.html#a8a33f89ab5a66ea65594a1cc15436326", null ],
     [ "m_pMG", "classug_1_1_do_f_distribution.html#a1a63cd9f1b352ccb5f991db947f01e9c", null ],
+    [ "m_spAlgebraLayouts", "classug_1_1_do_f_distribution.html#a134f1cfefc2e109f29fcfd449330dc27", null ],
     [ "m_spDoFIndexStorage", "classug_1_1_do_f_distribution.html#afea2ce75b20631eb353563870291b540", null ],
     [ "m_spMG", "classug_1_1_do_f_distribution.html#a4e67990ae0ce8b9f1ef0a38b487643db", null ],
     [ "m_spMGSH", "classug_1_1_do_f_distribution.html#ae6e38f7181d69692759137fc10f383ac", null ],
     [ "m_spSurfView", "classug_1_1_do_f_distribution.html#ad8a4f43857c12d79b4fae5648782c7ce", null ],
     [ "m_vNumIndexOnSubset", "classug_1_1_do_f_distribution.html#a0af2ff67469f278c744508a0452b77d7", null ],
-    [ "m_vpGridFunction", "classug_1_1_do_f_distribution.html#af95b0ae0f28f02fe2978938d73ff896c", null ],
-    [ "spAlgebraLayouts", "classug_1_1_do_f_distribution.html#ab5e1fda91dd0c7f3585b72b7f7e30246", null ]
+    [ "m_vpGridFunction", "classug_1_1_do_f_distribution.html#af95b0ae0f28f02fe2978938d73ff896c", null ]
 ];

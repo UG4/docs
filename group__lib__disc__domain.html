@@ -162,12 +162,18 @@ Functions</h2></td></tr>
 <tr class="memitem:ga699c7c3b9d1077f1f54a0d08bb9a630a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga699c7c3b9d1077f1f54a0d08bb9a630a">ug::CollectCornerCoordinates</a> (std::vector&lt; typename TDomain::position_type &gt; &amp;vCornerCoordsOut, const TElem &amp;elem, const TDomain &amp;domain, bool clearContainer=true)</td></tr>
 <tr class="memdesc:ga699c7c3b9d1077f1f54a0d08bb9a630a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the corner coordinates of a geometric object  <a href="group__lib__disc__domain.html#ga699c7c3b9d1077f1f54a0d08bb9a630a">More...</a><br /></td></tr>
 <tr class="separator:ga699c7c3b9d1077f1f54a0d08bb9a630a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa5f6f2d4e3c8ac3de2cce67d76818dd0"><td class="memTemplParams" colspan="2">template&lt;typename TDomain &gt; </td></tr>
+<tr class="memitem:gaa5f6f2d4e3c8ac3de2cce67d76818dd0"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#gaa5f6f2d4e3c8ac3de2cce67d76818dd0">ug::CollectCornerCoordinates</a> (int base_object_id, std::vector&lt; typename TDomain::position_type &gt; &amp;vCornerCoordsOut, <a class="el" href="classug_1_1_grid_object.html">GridObject</a> &amp;elem, const TDomain &amp;domain, bool clearContainer)</td></tr>
+<tr class="memdesc:gaa5f6f2d4e3c8ac3de2cce67d76818dd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the corner coordinates of a geometric object  <a href="group__lib__disc__domain.html#gaa5f6f2d4e3c8ac3de2cce67d76818dd0">More...</a><br /></td></tr>
+<tr class="separator:gaa5f6f2d4e3c8ac3de2cce67d76818dd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga309291fa809335b2a41743ff92f832b5"><td class="memTemplParams" colspan="2">template&lt;class TElem &gt; </td></tr>
 <tr class="memitem:ga309291fa809335b2a41743ff92f832b5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga309291fa809335b2a41743ff92f832b5">ug::IDomain&lt; TGrid, TSubsetHandler &gt;::count_ghosts</a> (std::vector&lt; int &gt; &amp;numGhostsOnLvlOut)</td></tr>
 <tr class="separator:ga309291fa809335b2a41743ff92f832b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaafc466ad12fd72ef04d75865cf8a13e3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#gaafc466ad12fd72ef04d75865cf8a13e3">ug::IDomain&lt; TGrid, TSubsetHandler &gt;::create_additional_subset_handler</a> (std::string name)</td></tr>
 <tr class="memdesc:gaafc466ad12fd72ef04d75865cf8a13e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates an additional subset-handler with the given name  <a href="#gaafc466ad12fd72ef04d75865cf8a13e3">More...</a><br /></td></tr>
 <tr class="separator:gaafc466ad12fd72ef04d75865cf8a13e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6d37e5a30e53d0c562b1f116b1e00f22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceug.html#a1a220d9b7f4057bf059723a8c0dc056d">SPRefinementProjector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga6d37e5a30e53d0c562b1f116b1e00f22">ug::IDomain&lt; TGrid, TSubsetHandler &gt;::deserialize_projector</a> (<a class="el" href="classug_1_1_binary_buffer.html">BinaryBuffer</a> &amp;buf)</td></tr>
+<tr class="separator:ga6d37e5a30e53d0c562b1f116b1e00f22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga324a880d3df67710d7e7fe00b17fa4d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_distributed_grid_manager.html">DistributedGridManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga324a880d3df67710d7e7fe00b17fa4d0">ug::IDomain&lt; TGrid, TSubsetHandler &gt;::distributed_grid_manager</a> ()</td></tr>
 <tr class="memdesc:ga324a880d3df67710d7e7fe00b17fa4d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns Distributed <a class="el" href="classug_1_1_grid.html" title="Manages the elements of a grid and their interconnection. ">Grid</a> Manager  <a href="#ga324a880d3df67710d7e7fe00b17fa4d0">More...</a><br /></td></tr>
 <tr class="separator:ga324a880d3df67710d7e7fe00b17fa4d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -279,6 +285,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ga2403c9653c1e59616deeab52792abc55"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga2403c9653c1e59616deeab52792abc55">ug::SaveDomain</a> (TDomain &amp;domain, const char *filename)</td></tr>
 <tr class="memdesc:ga2403c9653c1e59616deeab52792abc55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the domain to a grid-file.  <a href="group__lib__disc__domain.html#ga2403c9653c1e59616deeab52792abc55">More...</a><br /></td></tr>
 <tr class="separator:ga2403c9653c1e59616deeab52792abc55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6343fde825fd36dd03b13157d17b64e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga6343fde825fd36dd03b13157d17b64e4">ug::IDomain&lt; TGrid, TSubsetHandler &gt;::serialize_projector</a> (<a class="el" href="classug_1_1_binary_buffer.html">BinaryBuffer</a> &amp;bufOut, <a class="el" href="namespaceug.html#a1a220d9b7f4057bf059723a8c0dc056d">SPRefinementProjector</a> proj)</td></tr>
+<tr class="separator:ga6343fde825fd36dd03b13157d17b64e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga83aacf0e65cfaac27638f506c2dcd109"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga83aacf0e65cfaac27638f506c2dcd109">ug::DomainInfo::set_info</a> (<a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13c">GridBaseObjectId</a> elemType, const std::vector&lt; int &gt; &amp;numElems, const std::vector&lt; int &gt; &amp;numLocalElems, const std::vector&lt; int &gt; &amp;minNumLocalElems, const std::vector&lt; int &gt; &amp;maxNumLocalElems, const std::vector&lt; int &gt; &amp;numLocalGhosts, const std::vector&lt; int &gt; &amp;subsetDims)</td></tr>
 <tr class="separator:ga83aacf0e65cfaac27638f506c2dcd109"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga12fedb231836a957a88d788d46f7cbc6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga12fedb231836a957a88d788d46f7cbc6">ug::IDomain&lt; TGrid, TSubsetHandler &gt;::set_refinement_projector</a> (<a class="el" href="namespaceug.html#a1a220d9b7f4057bf059723a8c0dc056d">SPRefinementProjector</a> proj)</td></tr>
@@ -636,6 +644,9 @@ template&lt;typename TGrid , typename TSubsetHandler &gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename TGrid , typename TSubsetHandler &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="namespaceug.html#a1a220d9b7f4057bf059723a8c0dc056d">SPRefinementProjector</a> <a class="el" href="classug_1_1_i_domain.html">ug::IDomain</a>&lt; TGrid, TSubsetHandler &gt;::broadcast_refinement_projector </td>
@@ -667,6 +678,11 @@ template&lt;typename TGrid , typename TSubsetHandler &gt; </div>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>helper method to broadcast ug::RefinementProjectors to different processes </p>
@@ -674,7 +690,7 @@ template&lt;typename TGrid , typename TSubsetHandler &gt; </div>
 </div>
 </div>
 <a id="gaff7229b5d622bfe7df1d58134ff7cef9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaff7229b5d622bfe7df1d58134ff7cef9">&sect;&nbsp;</a></span>CollectCornerCoordinates() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaff7229b5d622bfe7df1d58134ff7cef9">&sect;&nbsp;</a></span>CollectCornerCoordinates() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -731,7 +747,7 @@ template&lt;typename TElem , typename TAAPos &gt; </div>
 </div>
 </div>
 <a id="ga699c7c3b9d1077f1f54a0d08bb9a630a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga699c7c3b9d1077f1f54a0d08bb9a630a">&sect;&nbsp;</a></span>CollectCornerCoordinates() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga699c7c3b9d1077f1f54a0d08bb9a630a">&sect;&nbsp;</a></span>CollectCornerCoordinates() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -787,6 +803,70 @@ template&lt;typename TElem , typename TDomain &gt; </div>
 
 </div>
 </div>
+<a id="gaa5f6f2d4e3c8ac3de2cce67d76818dd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa5f6f2d4e3c8ac3de2cce67d76818dd0">&sect;&nbsp;</a></span>CollectCornerCoordinates() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TDomain &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug::CollectCornerCoordinates </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>base_object_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; typename TDomain::position_type &gt; &amp;&#160;</td>
+          <td class="paramname"><em>vCornerCoordsOut</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classug_1_1_grid_object.html">GridObject</a> &amp;&#160;</td>
+          <td class="paramname"><em>elem</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const TDomain &amp;&#160;</td>
+          <td class="paramname"><em>domain</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>clearContainer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns the corner coordinates of a geometric object </p>
+<p>Returns the corner coordinates for a given geometric object in a vector</p>
+<p>This function calls CollectCornerCoordinates based on the base object id</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">vCornerCoordsOut</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">base_object_id</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">elem</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">domain</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">clearContainer</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>References <a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13cad44f88a0fdcb9e7708ce0980b8e200ba">ug::EDGE</a>, <a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13caf19e27843c818933471265612910299c">ug::FACE</a>, <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>, <a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13ca82c85a54f294f9a7576aedbffafbbe38">ug::VERTEX</a>, and <a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13ca144073d8bdeb81d71cf89e7bd6bbda58">ug::VOLUME</a>.</p>
+
+</div>
+</div>
 <a id="ga309291fa809335b2a41743ff92f832b5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga309291fa809335b2a41743ff92f832b5">&sect;&nbsp;</a></span>count_ghosts()</h2>
 
@@ -838,6 +918,34 @@ template&lt;typename TGrid , typename TSubsetHandler &gt; </div>
 
 <p>creates an additional subset-handler with the given name </p>
 <p>If this subset-handler is created before the domain is loaded from a file, the contents of the handler will be filled with the contents of the file's subset-handler-node with the same name. </p>
+
+</div>
+</div>
+<a id="ga6d37e5a30e53d0c562b1f116b1e00f22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6d37e5a30e53d0c562b1f116b1e00f22">&sect;&nbsp;</a></span>deserialize_projector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TGrid , typename TSubsetHandler &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceug.html#a1a220d9b7f4057bf059723a8c0dc056d">SPRefinementProjector</a> <a class="el" href="classug_1_1_i_domain.html">ug::IDomain</a>&lt; TGrid, TSubsetHandler &gt;::deserialize_projector </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_binary_buffer.html">BinaryBuffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>buf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -2051,6 +2159,44 @@ template&lt;typename TDomain &gt; </div>
 
 </div>
 </div>
+<a id="ga6343fde825fd36dd03b13157d17b64e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6343fde825fd36dd03b13157d17b64e4">&sect;&nbsp;</a></span>serialize_projector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TGrid , typename TSubsetHandler &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_i_domain.html">ug::IDomain</a>&lt; TGrid, TSubsetHandler &gt;::serialize_projector </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_binary_buffer.html">BinaryBuffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>bufOut</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceug.html#a1a220d9b7f4057bf059723a8c0dc056d">SPRefinementProjector</a>&#160;</td>
+          <td class="paramname"><em>proj</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ga83aacf0e65cfaac27638f506c2dcd109"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga83aacf0e65cfaac27638f506c2dcd109">&sect;&nbsp;</a></span>set_info()</h2>
 
@@ -2374,6 +2520,8 @@ template&lt;int d, typename TGrid = MultiGrid, typename TSubsetHandler = MGSubse
 </div><div class="memdoc">
 
 <p>World dimension. </p>
+
+<p>Referenced by <a class="el" href="namespaceug.html#a03359f3a66fa95b344e3aa57c88d0d0c">ug::OrderDownwind()</a>.</p>
 
 </div>
 </div>
@@ -2874,7 +3022,7 @@ template&lt;typename TGrid = MultiGrid, typename TSubsetHandler = MGSubsetHandle
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Oct 19 2016 12:17:54 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:12 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

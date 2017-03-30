@@ -87,12 +87,18 @@ $(document).ready(function(){initNavTree('namespaceug4_bridge_1_1promesh_1_1_sel
 
 <div class="header">
   <div class="summary">
+<a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">ug4Bridge::promesh::Selection::Edges Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespaceug4_bridge_1_1promesh_1_1_selection_1_1_edges_1_1_coordinate_based"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_edges_1_1_coordinate_based.html">CoordinateBased</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ae4a6f8b4f58c9e2d71a32dd8afece704"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_edges.html#ae4a6f8b4f58c9e2d71a32dd8afece704">DeselectAllEdges</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh)</td></tr>
@@ -113,24 +119,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a83cb67510e553a6977ec890ff1ad5014"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_edges.html#a83cb67510e553a6977ec890ff1ad5014">SelectCreaseEdges</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, double min_angle)</td></tr>
 <tr class="memdesc:a83cb67510e553a6977ec890ff1ad5014"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects edges that at which triangles meet in a given angle.  <a href="#a83cb67510e553a6977ec890ff1ad5014">More...</a><br /></td></tr>
 <tr class="separator:a83cb67510e553a6977ec890ff1ad5014"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae43b60e2c92f79788db3ff0bce7fe1ea"><td class="memItemLeft" align="right" valign="top">Edge *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_edges.html#ae43b60e2c92f79788db3ff0bce7fe1ea">SelectEdgeByCoordinate</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, const Vec3d *coordinate)</td></tr>
-<tr class="memdesc:ae43b60e2c92f79788db3ff0bce7fe1ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects the edge whose center is closest to the specified coordinate.  <a href="#ae43b60e2c92f79788db3ff0bce7fe1ea">More...</a><br /></td></tr>
-<tr class="separator:ae43b60e2c92f79788db3ff0bce7fe1ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e72ecb2fb818f791cd44bfe2b7941c7"><td class="memItemLeft" align="right" valign="top">Edge *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_edges.html#a8e72ecb2fb818f791cd44bfe2b7941c7">SelectEdgeByCylindricalCoordinate</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, double rho, double phi, double z)</td></tr>
-<tr class="memdesc:a8e72ecb2fb818f791cd44bfe2b7941c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects the edge whose center is closest to the specified cylindrical coordinate.  <a href="#a8e72ecb2fb818f791cd44bfe2b7941c7">More...</a><br /></td></tr>
-<tr class="separator:a8e72ecb2fb818f791cd44bfe2b7941c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e9d9cb8810ef397886a24811dcfc8ab"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_edges.html#a8e9d9cb8810ef397886a24811dcfc8ab">SelectEdgeByIndex</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, int index)</td></tr>
 <tr class="memdesc:a8e9d9cb8810ef397886a24811dcfc8ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects a edge given its index.  <a href="#a8e9d9cb8810ef397886a24811dcfc8ab">More...</a><br /></td></tr>
 <tr class="separator:a8e9d9cb8810ef397886a24811dcfc8ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65b6c94ebf83cf5e98bc8600d6c9a24b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_edges.html#a65b6c94ebf83cf5e98bc8600d6c9a24b">SelectEdgesByDirection</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, const Vec3d *direction, double min_deviation_angle, double max_deviation_angle, bool select_flipped_edges)</td></tr>
 <tr class="memdesc:a65b6c94ebf83cf5e98bc8600d6c9a24b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects all edges which do not deviate further from the specified direction than the given angle. A minimal required deviation angle can also be specified.  <a href="#a65b6c94ebf83cf5e98bc8600d6c9a24b">More...</a><br /></td></tr>
 <tr class="separator:a65b6c94ebf83cf5e98bc8600d6c9a24b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae936ea6ab39213394a81543c08134b78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_edges.html#ae936ea6ab39213394a81543c08134b78">SelectEdgesInBox</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, const Vec3d *min, const Vec3d *max)</td></tr>
-<tr class="memdesc:ae936ea6ab39213394a81543c08134b78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects all edges in the given box.  <a href="#ae936ea6ab39213394a81543c08134b78">More...</a><br /></td></tr>
-<tr class="separator:ae936ea6ab39213394a81543c08134b78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4722b9f98e73c5d3039d36aadc54dbc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_edges.html#aa4722b9f98e73c5d3039d36aadc54dbc">SelectEdgesInCylinder</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, const Vec3d *base, const Vec3d *top, double radius)</td></tr>
-<tr class="memdesc:aa4722b9f98e73c5d3039d36aadc54dbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects all edges in the given cylinder.  <a href="#aa4722b9f98e73c5d3039d36aadc54dbc">More...</a><br /></td></tr>
-<tr class="separator:aa4722b9f98e73c5d3039d36aadc54dbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7269025eff535bcafa91efc5a4e61258"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_edges.html#a7269025eff535bcafa91efc5a4e61258">SelectInnerEdges</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh)</td></tr>
 <tr class="memdesc:a7269025eff535bcafa91efc5a4e61258"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects edges that do not lie on the boundary of the geometry.  <a href="#a7269025eff535bcafa91efc5a4e61258">More...</a><br /></td></tr>
 <tr class="separator:a7269025eff535bcafa91efc5a4e61258"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -342,102 +336,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae43b60e2c92f79788db3ff0bce7fe1ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae43b60e2c92f79788db3ff0bce7fe1ea">&sect;&nbsp;</a></span>SelectEdgeByCoordinate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Edge* ug4Bridge::promesh::Selection::Edges::SelectEdgeByCoordinate </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *&#160;</td>
-          <td class="paramname"><em>mesh</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Vec3d *&#160;</td>
-          <td class="paramname"><em>coordinate</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Selects the edge whose center is closest to the specified coordinate. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td></td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">coordinate</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>References <a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_edges.html#ae43b60e2c92f79788db3ff0bce7fe1ea">SelectEdgeByCoordinate()</a>.</p>
-
-<p>Referenced by <a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_edges.html#ae43b60e2c92f79788db3ff0bce7fe1ea">SelectEdgeByCoordinate()</a>.</p>
-
-</div>
-</div>
-<a id="a8e72ecb2fb818f791cd44bfe2b7941c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e72ecb2fb818f791cd44bfe2b7941c7">&sect;&nbsp;</a></span>SelectEdgeByCylindricalCoordinate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Edge* ug4Bridge::promesh::Selection::Edges::SelectEdgeByCylindricalCoordinate </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *&#160;</td>
-          <td class="paramname"><em>mesh</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>rho</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>phi</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>z</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Selects the edge whose center is closest to the specified cylindrical coordinate. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td></td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">rho</td><td></td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">phi</td><td></td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">z</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>References <a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_edges.html#a8e72ecb2fb818f791cd44bfe2b7941c7">SelectEdgeByCylindricalCoordinate()</a>.</p>
-
-<p>Referenced by <a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_edges.html#a8e72ecb2fb818f791cd44bfe2b7941c7">SelectEdgeByCylindricalCoordinate()</a>.</p>
-
-</div>
-</div>
 <a id="a8e9d9cb8810ef397886a24811dcfc8ab"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8e9d9cb8810ef397886a24811dcfc8ab">&sect;&nbsp;</a></span>SelectEdgeByIndex()</h2>
 
@@ -534,109 +432,6 @@ Functions</h2></td></tr>
 </dl>
 
 <p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga606d6bcb9902239a8f9db3bd69a7c07a">SelectEdgesByDirection()</a>.</p>
-
-</div>
-</div>
-<a id="ae936ea6ab39213394a81543c08134b78"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae936ea6ab39213394a81543c08134b78">&sect;&nbsp;</a></span>SelectEdgesInBox()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ug4Bridge::promesh::Selection::Edges::SelectEdgesInBox </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *&#160;</td>
-          <td class="paramname"><em>mesh</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Vec3d *&#160;</td>
-          <td class="paramname"><em>min</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Vec3d *&#160;</td>
-          <td class="paramname"><em>max</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Selects all edges in the given box. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td></td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">min</td><td></td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">max</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>References <a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_edges.html#ae936ea6ab39213394a81543c08134b78">SelectEdgesInBox()</a>.</p>
-
-<p>Referenced by <a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_edges.html#ae936ea6ab39213394a81543c08134b78">SelectEdgesInBox()</a>.</p>
-
-</div>
-</div>
-<a id="aa4722b9f98e73c5d3039d36aadc54dbc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa4722b9f98e73c5d3039d36aadc54dbc">&sect;&nbsp;</a></span>SelectEdgesInCylinder()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ug4Bridge::promesh::Selection::Edges::SelectEdgesInCylinder </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *&#160;</td>
-          <td class="paramname"><em>mesh</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Vec3d *&#160;</td>
-          <td class="paramname"><em>base</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Vec3d *&#160;</td>
-          <td class="paramname"><em>top</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>radius</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Selects all edges in the given cylinder. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td></td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">base</td><td></td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">top</td><td></td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">radius</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>References <a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_edges.html#aa4722b9f98e73c5d3039d36aadc54dbc">SelectEdgesInCylinder()</a>.</p>
-
-<p>Referenced by <a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_edges.html#aa4722b9f98e73c5d3039d36aadc54dbc">SelectEdgesInCylinder()</a>.</p>
 
 </div>
 </div>
@@ -1017,7 +812,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug4_bridge.html">ug4Bridge</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh.html">promesh</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection.html">Selection</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_edges.html">Edges</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:16:59 for Registry by
+    <li class="footer">Generated on Thu Mar 30 2017 18:42:57 for Registry by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

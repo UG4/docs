@@ -17,6 +17,7 @@ var classug_1_1_face =
     [ "get_local_side_index", "classug_1_1_face.html#a70e271603f5ff107a8d92758a954d222", null ],
     [ "get_opposing_object", "classug_1_1_face.html#a18287fc79485bda38ad40c632d52ef81", null ],
     [ "get_opposing_side", "classug_1_1_face.html#ab2a403e5436ff3f5f43d46f974c101bc", null ],
+    [ "is_regular_ref_rule", "classug_1_1_face.html#a9ac65347ec14b748b1c94f6be307305b", null ],
     [ "num_edges", "classug_1_1_face.html#ab2a35640fa0837cabc630c7287cd4340", null ],
     [ "num_sides", "classug_1_1_face.html#abeecffdd8770d3a32117739c415b5241", null ],
     [ "reference_object_id", "classug_1_1_face.html#a3e6c6efec0f600d575e7548c4fae896f", null ],

@@ -110,13 +110,14 @@ $(document).ready(function(){initNavTree('classug_1_1_refinement_projector.html'
  <div class="center">
   <img src="classug_1_1_refinement_projector.png" usemap="#ug::RefinementProjector_map" alt=""/>
   <map id="ug::RefinementProjector_map" name="ug::RefinementProjector_map">
-<area href="classug_1_1_cylinder_cut_projector.html" title="Refines linearily except for when a refined edge intersects the given cylinder. " alt="ug::CylinderCutProjector" shape="rect" coords="0,56,151,80"/>
-<area href="classug_1_1_cylinder_projector.html" title="Projects new vertices onto a sphere during refinement. " alt="ug::CylinderProjector" shape="rect" coords="161,56,312,80"/>
-<area href="classug_1_1_plane_cut_projector.html" title="calculates new positions by cutting parent edges with a plane " alt="ug::PlaneCutProjector" shape="rect" coords="322,56,473,80"/>
-<area href="classug_1_1_projection_handler.html" title="Associates different projectors with individual subsets. " alt="ug::ProjectionHandler" shape="rect" coords="483,56,634,80"/>
-<area href="classug_1_1_smooth_projector.html" title="Smoothes vertices during refinement. " alt="ug::SmoothProjector" shape="rect" coords="644,56,795,80"/>
-<area href="classug_1_1_sphere_projector.html" title="Projects new vertices onto a sphere during refinement. " alt="ug::SphereProjector" shape="rect" coords="805,56,956,80"/>
-<area href="classug_1_1_subdivision_projector.html" title="Applies piecewise smooth loop subdivision rules. " alt="ug::SubdivisionProjector" shape="rect" coords="966,56,1117,80"/>
+<area href="classug_1_1_cylinder_cut_projector.html" title="Refines linearily except for when a refined edge intersects the given cylinder. " alt="ug::CylinderCutProjector" shape="rect" coords="169,56,328,80"/>
+<area href="classug_1_1_cylinder_projector.html" title="Projects new vertices onto a sphere during refinement. " alt="ug::CylinderProjector" shape="rect" coords="169,112,328,136"/>
+<area href="classug_1_1_plane_cut_projector.html" title="calculates new positions by cutting parent edges with a plane " alt="ug::PlaneCutProjector" shape="rect" coords="169,168,328,192"/>
+<area href="classug_1_1_projection_handler.html" title="Associates different projectors with individual subsets. " alt="ug::ProjectionHandler" shape="rect" coords="169,224,328,248"/>
+<area href="classug_1_1_raster_layers_projector.html" alt="ug::RasterLayersProjector" shape="rect" coords="169,280,328,304"/>
+<area href="classug_1_1_smooth_projector.html" title="Smoothes vertices during refinement. " alt="ug::SmoothProjector" shape="rect" coords="169,336,328,360"/>
+<area href="classug_1_1_sphere_projector.html" title="Projects new vertices onto a sphere during refinement. " alt="ug::SphereProjector" shape="rect" coords="169,392,328,416"/>
+<area href="classug_1_1_subdivision_projector.html" title="Applies piecewise smooth loop subdivision rules. " alt="ug::SubdivisionProjector" shape="rect" coords="169,448,328,472"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -360,7 +361,7 @@ Friends</h2></td></tr>
 
 <p>References <a class="el" href="classug_1_1_refinement_projector.html#a484d55235653db458101dad920299558">m_geometry</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_refinement_projector.html#adc54c6565b7163854897a1175b873aff">new_vertex()</a>, <a class="el" href="classug_1_1_projection_handler.html#ae08be7a8ff4d18f73aaf1fd3fce920e7">ug::ProjectionHandler::refinement_begins()</a>, and <a class="el" href="classug_1_1_smooth_projector.html#acc5673135d3f270ff00f58eb813f7db0">ug::SmoothProjector::refinement_ends()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_raster_layers_projector.html#aa634c95db5a6a7bb1fb224b5556f9a2b">ug::RasterLayersProjector::add_attachments()</a>, <a class="el" href="classug_1_1_refinement_projector.html#adc54c6565b7163854897a1175b873aff">new_vertex()</a>, <a class="el" href="classug_1_1_raster_layers_projector.html#a665c0fdef39077670a249e4b9cb5ab3b">ug::RasterLayersProjector::new_vertex_impl()</a>, <a class="el" href="classug_1_1_projection_handler.html#a96b05197925e18af4a1e6ffe62bdce6a">ug::ProjectionHandler::refinement_begins()</a>, <a class="el" href="classug_1_1_smooth_projector.html#acc5673135d3f270ff00f58eb813f7db0">ug::SmoothProjector::refinement_ends()</a>, and <a class="el" href="classug_1_1_raster_layers_projector.html#a48d28468d1fa92e4668ae8cab35ef9e0">ug::RasterLayersProjector::remove_attachments()</a>.</p>
 
 </div>
 </div>
@@ -416,7 +417,7 @@ Friends</h2></td></tr>
 
 <p>References <a class="el" href="classug_1_1_refinement_projector.html#a484d55235653db458101dad920299558">m_geometry</a>.</p>
 
-<p>Referenced by <a class="el" href="group__lib__grid__algorithms__refinement.html#ga513fee55d18afaa35651a60d9fe052bb">ug::Refine()</a>, <a class="el" href="classug_1_1_projection_handler.html#ae08be7a8ff4d18f73aaf1fd3fce920e7">ug::ProjectionHandler::refinement_begins()</a>, <a class="el" href="classug_1_1_refinement_projector.html#ab7d9d8c124b605fba64e6153acef7d1d">set_geometry()</a>, and <a class="el" href="classug_1_1_projection_handler.html#a5f62d7b2fad6804dcbf57a70bb6c6124">ug::ProjectionHandler::set_projector()</a>.</p>
+<p>Referenced by <a class="el" href="group__lib__grid__algorithms__refinement.html#ga513fee55d18afaa35651a60d9fe052bb">ug::Refine()</a>, <a class="el" href="classug_1_1_projection_handler.html#a96b05197925e18af4a1e6ffe62bdce6a">ug::ProjectionHandler::refinement_begins()</a>, <a class="el" href="classug_1_1_raster_layers_projector.html#a48d28468d1fa92e4668ae8cab35ef9e0">ug::RasterLayersProjector::remove_attachments()</a>, <a class="el" href="classug_1_1_raster_layers_projector.html#a1e94b26ab9aad0618953a76bdf4ed05f">ug::RasterLayersProjector::set_geometry()</a>, <a class="el" href="classug_1_1_refinement_projector.html#ab7d9d8c124b605fba64e6153acef7d1d">set_geometry()</a>, and <a class="el" href="classug_1_1_projection_handler.html#a5f62d7b2fad6804dcbf57a70bb6c6124">ug::ProjectionHandler::set_projector()</a>.</p>
 
 </div>
 </div>
@@ -486,11 +487,11 @@ template&lt;class TElem &gt; </div>
 
 <p>called when a new vertex was created from an old vertex. </p>
 
-<p>Reimplemented in <a class="el" href="classug_1_1_projection_handler.html#a3376f537f583c2e2b7e946f640fbedab">ug::ProjectionHandler</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_projection_handler.html#a848ea130baab2b1751db7b1ab4a96c7a">ug::ProjectionHandler</a>, and <a class="el" href="classug_1_1_raster_layers_projector.html#aa7d825d8cbafc7a9e4e68c1a52eef2ca">ug::RasterLayersProjector</a>.</p>
 
 <p>References <a class="el" href="classug_1_1_refinement_projector.html#aba68f1926a22535380b4fdcc88dfcce5">pos()</a>, and <a class="el" href="classug_1_1_refinement_projector.html#a578460cb717ea2f2cc835175bb3fcb50">set_pos()</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_projection_handler.html#ad44bd868b0ea56e7a58957155e58b082">ug::ProjectionHandler::handle_new_vertex()</a>, <a class="el" href="classug_1_1_plane_cut_projector.html#a669d71fc12e566a37e31b815326ae303">ug::PlaneCutProjector::new_vertex()</a>, <a class="el" href="classug_1_1_smooth_projector.html#a2a945fac77b1cf4cc761d7c41ef9824c">ug::SmoothProjector::new_vertex()</a>, <a class="el" href="classug_1_1_cylinder_cut_projector.html#afbf7e7657efa8eea641fdf2d16a30247">ug::CylinderCutProjector::new_vertex()</a>, and <a class="el" href="group__lib__grid__algorithms__refinement.html#ga513fee55d18afaa35651a60d9fe052bb">ug::Refine()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_plane_cut_projector.html#a669d71fc12e566a37e31b815326ae303">ug::PlaneCutProjector::new_vertex()</a>, <a class="el" href="classug_1_1_smooth_projector.html#a2a945fac77b1cf4cc761d7c41ef9824c">ug::SmoothProjector::new_vertex()</a>, <a class="el" href="classug_1_1_cylinder_cut_projector.html#afbf7e7657efa8eea641fdf2d16a30247">ug::CylinderCutProjector::new_vertex()</a>, and <a class="el" href="group__lib__grid__algorithms__refinement.html#ga513fee55d18afaa35651a60d9fe052bb">ug::Refine()</a>.</p>
 
 </div>
 </div>
@@ -530,7 +531,7 @@ template&lt;class TElem &gt; </div>
 
 <p>called when a new vertex was created from an old edge. </p>
 
-<p>Reimplemented in <a class="el" href="classug_1_1_projection_handler.html#afd7f48953fbcb6029338e89b54089dd9">ug::ProjectionHandler</a>, <a class="el" href="classug_1_1_sphere_projector.html#a3de1d62a4597d9ec0a5783a4079e6b22">ug::SphereProjector</a>, <a class="el" href="classug_1_1_cylinder_projector.html#ab14ed5c38126f9e854e7c51dea26fdcb">ug::CylinderProjector</a>, <a class="el" href="classug_1_1_subdivision_projector.html#afb7bb52886b5f1ce474cf0882224426a">ug::SubdivisionProjector</a>, <a class="el" href="classug_1_1_cylinder_cut_projector.html#afbf7e7657efa8eea641fdf2d16a30247">ug::CylinderCutProjector</a>, <a class="el" href="classug_1_1_smooth_projector.html#a2a945fac77b1cf4cc761d7c41ef9824c">ug::SmoothProjector</a>, and <a class="el" href="classug_1_1_plane_cut_projector.html#a669d71fc12e566a37e31b815326ae303">ug::PlaneCutProjector</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_projection_handler.html#a0e4e72a8f086e6a1c1230cadf3c1fc43">ug::ProjectionHandler</a>, <a class="el" href="classug_1_1_sphere_projector.html#a3de1d62a4597d9ec0a5783a4079e6b22">ug::SphereProjector</a>, <a class="el" href="classug_1_1_cylinder_projector.html#ab14ed5c38126f9e854e7c51dea26fdcb">ug::CylinderProjector</a>, <a class="el" href="classug_1_1_raster_layers_projector.html#a8481ed872c089eec87c13a7bd0e40e9f">ug::RasterLayersProjector</a>, <a class="el" href="classug_1_1_subdivision_projector.html#afb7bb52886b5f1ce474cf0882224426a">ug::SubdivisionProjector</a>, <a class="el" href="classug_1_1_cylinder_cut_projector.html#afbf7e7657efa8eea641fdf2d16a30247">ug::CylinderCutProjector</a>, <a class="el" href="classug_1_1_smooth_projector.html#a2a945fac77b1cf4cc761d7c41ef9824c">ug::SmoothProjector</a>, and <a class="el" href="classug_1_1_plane_cut_projector.html#a669d71fc12e566a37e31b815326ae303">ug::PlaneCutProjector</a>.</p>
 
 <p>References <a class="el" href="classug_1_1_refinement_projector.html#a6d836f2cf8b72377be3e5b58a1a34c5e">geom()</a>, and <a class="el" href="classug_1_1_refinement_projector.html#a578460cb717ea2f2cc835175bb3fcb50">set_pos()</a>.</p>
 
@@ -572,7 +573,7 @@ template&lt;class TElem &gt; </div>
 
 <p>called when a new vertex was created from an old face. </p>
 
-<p>Reimplemented in <a class="el" href="classug_1_1_projection_handler.html#a07c9194bebe67dce7373b6b0aae882d4">ug::ProjectionHandler</a>, <a class="el" href="classug_1_1_sphere_projector.html#a21ff46e8b48c6a1b29223fc24e82788b">ug::SphereProjector</a>, <a class="el" href="classug_1_1_cylinder_projector.html#a8f4a7ec5e200cfc43399c733d52ffd91">ug::CylinderProjector</a>, and <a class="el" href="classug_1_1_smooth_projector.html#af3e5e8e34f0051e9183aea0d239da9bf">ug::SmoothProjector</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_projection_handler.html#a819d5674267a11125a5a5a3fde4a480c">ug::ProjectionHandler</a>, <a class="el" href="classug_1_1_sphere_projector.html#a21ff46e8b48c6a1b29223fc24e82788b">ug::SphereProjector</a>, <a class="el" href="classug_1_1_cylinder_projector.html#a8f4a7ec5e200cfc43399c733d52ffd91">ug::CylinderProjector</a>, <a class="el" href="classug_1_1_raster_layers_projector.html#ac49fb4764f9ee2cce3e5387500c934b9">ug::RasterLayersProjector</a>, and <a class="el" href="classug_1_1_smooth_projector.html#af3e5e8e34f0051e9183aea0d239da9bf">ug::SmoothProjector</a>.</p>
 
 <p>References <a class="el" href="classug_1_1_refinement_projector.html#a6d836f2cf8b72377be3e5b58a1a34c5e">geom()</a>, and <a class="el" href="classug_1_1_refinement_projector.html#a578460cb717ea2f2cc835175bb3fcb50">set_pos()</a>.</p>
 
@@ -614,7 +615,7 @@ template&lt;class TElem &gt; </div>
 
 <p>called when a new vertex was created from an old volume. </p>
 
-<p>Reimplemented in <a class="el" href="classug_1_1_projection_handler.html#a8ed0951722f150127f63c78a59fcba5a">ug::ProjectionHandler</a>, <a class="el" href="classug_1_1_sphere_projector.html#a6f6c696f1003fb1db8ea7c5d5ac46685">ug::SphereProjector</a>, <a class="el" href="classug_1_1_cylinder_projector.html#a02fc754af84c074b8424ac6e87d7a51f">ug::CylinderProjector</a>, and <a class="el" href="classug_1_1_smooth_projector.html#a6281f9ee5226346004f9802802deb026">ug::SmoothProjector</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_projection_handler.html#aa14ada6b39cdfc5f9e42452d35fcb310">ug::ProjectionHandler</a>, <a class="el" href="classug_1_1_sphere_projector.html#a6f6c696f1003fb1db8ea7c5d5ac46685">ug::SphereProjector</a>, <a class="el" href="classug_1_1_cylinder_projector.html#a02fc754af84c074b8424ac6e87d7a51f">ug::CylinderProjector</a>, <a class="el" href="classug_1_1_raster_layers_projector.html#a2890a72dfd58425721f6a1004fd7a0ef">ug::RasterLayersProjector</a>, and <a class="el" href="classug_1_1_smooth_projector.html#a6281f9ee5226346004f9802802deb026">ug::SmoothProjector</a>.</p>
 
 <p>References <a class="el" href="classug_1_1_refinement_projector.html#a6d836f2cf8b72377be3e5b58a1a34c5e">geom()</a>, and <a class="el" href="classug_1_1_refinement_projector.html#a578460cb717ea2f2cc835175bb3fcb50">set_pos()</a>.</p>
 
@@ -646,7 +647,7 @@ template&lt;class TElem &gt; </div>
 
 <p>References <a class="el" href="classug_1_1_refinement_projector.html#a484d55235653db458101dad920299558">m_geometry</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_projection_handler.html#ad44bd868b0ea56e7a58957155e58b082">ug::ProjectionHandler::handle_new_vertex()</a>, <a class="el" href="classug_1_1_plane_cut_projector.html#a669d71fc12e566a37e31b815326ae303">ug::PlaneCutProjector::new_vertex()</a>, <a class="el" href="classug_1_1_cylinder_cut_projector.html#afbf7e7657efa8eea641fdf2d16a30247">ug::CylinderCutProjector::new_vertex()</a>, <a class="el" href="classug_1_1_refinement_projector.html#a8bf5ffdb08a311cc6cf95c83df8ebc0a">new_vertex()</a>, <a class="el" href="classug_1_1_cylinder_projector.html#ad609c14a676e5a2705e69e3fc7efe477">ug::CylinderProjector::perform_projection()</a>, <a class="el" href="classug_1_1_sphere_projector.html#a085a823f3f4307797ca17516a44dd654">ug::SphereProjector::perform_projection()</a>, and <a class="el" href="classug_1_1_smooth_projector.html#acc5673135d3f270ff00f58eb813f7db0">ug::SmoothProjector::refinement_ends()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_projection_handler.html#ad44bd868b0ea56e7a58957155e58b082">ug::ProjectionHandler::handle_new_vertex()</a>, <a class="el" href="classug_1_1_plane_cut_projector.html#a669d71fc12e566a37e31b815326ae303">ug::PlaneCutProjector::new_vertex()</a>, <a class="el" href="classug_1_1_cylinder_cut_projector.html#afbf7e7657efa8eea641fdf2d16a30247">ug::CylinderCutProjector::new_vertex()</a>, <a class="el" href="classug_1_1_raster_layers_projector.html#aa7d825d8cbafc7a9e4e68c1a52eef2ca">ug::RasterLayersProjector::new_vertex()</a>, <a class="el" href="classug_1_1_refinement_projector.html#a8bf5ffdb08a311cc6cf95c83df8ebc0a">new_vertex()</a>, <a class="el" href="classug_1_1_cylinder_projector.html#ad609c14a676e5a2705e69e3fc7efe477">ug::CylinderProjector::perform_projection()</a>, <a class="el" href="classug_1_1_sphere_projector.html#a085a823f3f4307797ca17516a44dd654">ug::SphereProjector::perform_projection()</a>, and <a class="el" href="classug_1_1_smooth_projector.html#acc5673135d3f270ff00f58eb813f7db0">ug::SmoothProjector::refinement_ends()</a>.</p>
 
 </div>
 </div>
@@ -678,11 +679,11 @@ template&lt;class TElem &gt; </div>
 <p>if not NULL, the specified sub-grid will contains all elements that will be refined and are affected by the given projector.</p>
 <p>If the specialized implementation of refinement_begins requires this subgrid, the method 'refinement_begins_requires_subgrid' should be specialized and should return 'true'. In this case the subgrid should always be provided by the caller. If you call 'RefinementProjector::refinement_begins(sg);' at the beginning of your specialization, an error will be thrown if this is not the case. </p>
 
-<p>Reimplemented in <a class="el" href="classug_1_1_projection_handler.html#ae08be7a8ff4d18f73aaf1fd3fce920e7">ug::ProjectionHandler</a>, <a class="el" href="classug_1_1_subdivision_projector.html#a732bf4e0f3fd63e0c4f82dfe4d01296f">ug::SubdivisionProjector</a>, and <a class="el" href="classug_1_1_smooth_projector.html#a752c0a168ac49d2512d1fee8130c1ad4">ug::SmoothProjector</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_projection_handler.html#a96b05197925e18af4a1e6ffe62bdce6a">ug::ProjectionHandler</a>, <a class="el" href="classug_1_1_subdivision_projector.html#a732bf4e0f3fd63e0c4f82dfe4d01296f">ug::SubdivisionProjector</a>, and <a class="el" href="classug_1_1_smooth_projector.html#a752c0a168ac49d2512d1fee8130c1ad4">ug::SmoothProjector</a>.</p>
 
 <p>References <a class="el" href="class_smart_ptr.html#aef72a5d2f077520fc9b0b145a74bed3d">SmartPtr&lt; T, FreePolicy &gt;::invalid()</a>, <a class="el" href="classug_1_1_refinement_projector.html#a484d55235653db458101dad920299558">m_geometry</a>, <a class="el" href="classug_1_1_refinement_projector.html#a78745003869c3cfc134d1bd0efd58de6">refinement_begins_requires_subgrid()</a>, and <a class="el" href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>.</p>
 
-<p>Referenced by <a class="el" href="group__lib__grid__algorithms__refinement.html#ga513fee55d18afaa35651a60d9fe052bb">ug::Refine()</a>, <a class="el" href="classug_1_1_smooth_projector.html#a752c0a168ac49d2512d1fee8130c1ad4">ug::SmoothProjector::refinement_begins()</a>, and <a class="el" href="classug_1_1_projection_handler.html#ae08be7a8ff4d18f73aaf1fd3fce920e7">ug::ProjectionHandler::refinement_begins()</a>.</p>
+<p>Referenced by <a class="el" href="group__lib__grid__algorithms__refinement.html#ga513fee55d18afaa35651a60d9fe052bb">ug::Refine()</a>, <a class="el" href="classug_1_1_smooth_projector.html#a752c0a168ac49d2512d1fee8130c1ad4">ug::SmoothProjector::refinement_begins()</a>, and <a class="el" href="classug_1_1_projection_handler.html#a96b05197925e18af4a1e6ffe62bdce6a">ug::ProjectionHandler::refinement_begins()</a>.</p>
 
 </div>
 </div>
@@ -711,9 +712,9 @@ template&lt;class TElem &gt; </div>
 <p>returns 'true' if a specialized projector requires the subgrid during its 'refinement_begins' method.</p>
 <dl class="section note"><dt>Note</dt><dd>Implementers of derived classes should overload this method and return 'true' if their 'refinement_begins' method requires a subgrid. Please have a look at the documentation of '<a class="el" href="classug_1_1_refinement_projector.html#ab31df9758e569066582d17fe0eb98865" title="called before refinement begins ">RefinementProjector::refinement_begins</a>' for more information. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classug_1_1_projection_handler.html#af5e8e42bda61e36f29121a595ea9014a">ug::ProjectionHandler</a>, and <a class="el" href="classug_1_1_subdivision_projector.html#af8f4e033303bef7eb1f8e1ed16c155dc">ug::SubdivisionProjector</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_projection_handler.html#a25b0fb9cbdc2ea3c1fec60ec453d02a5">ug::ProjectionHandler</a>, and <a class="el" href="classug_1_1_subdivision_projector.html#af8f4e033303bef7eb1f8e1ed16c155dc">ug::SubdivisionProjector</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_refinement_projector.html#ab31df9758e569066582d17fe0eb98865">refinement_begins()</a>, and <a class="el" href="classug_1_1_projection_handler.html#ae08be7a8ff4d18f73aaf1fd3fce920e7">ug::ProjectionHandler::refinement_begins()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_refinement_projector.html#ab31df9758e569066582d17fe0eb98865">refinement_begins()</a>, and <a class="el" href="classug_1_1_projection_handler.html#a96b05197925e18af4a1e6ffe62bdce6a">ug::ProjectionHandler::refinement_begins()</a>.</p>
 
 </div>
 </div>
@@ -742,9 +743,9 @@ template&lt;class TElem &gt; </div>
 
 <p>called when refinement is done </p>
 
-<p>Reimplemented in <a class="el" href="classug_1_1_projection_handler.html#accf01a4a3e13f4f60d99524d9c560680">ug::ProjectionHandler</a>, <a class="el" href="classug_1_1_subdivision_projector.html#a0c2285ac3d7382c685190a848f16ca8f">ug::SubdivisionProjector</a>, and <a class="el" href="classug_1_1_smooth_projector.html#acc5673135d3f270ff00f58eb813f7db0">ug::SmoothProjector</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_projection_handler.html#a9862a9531796ccc9403bc454f9d5bd84">ug::ProjectionHandler</a>, <a class="el" href="classug_1_1_subdivision_projector.html#a0c2285ac3d7382c685190a848f16ca8f">ug::SubdivisionProjector</a>, and <a class="el" href="classug_1_1_smooth_projector.html#acc5673135d3f270ff00f58eb813f7db0">ug::SmoothProjector</a>.</p>
 
-<p>Referenced by <a class="el" href="group__lib__grid__algorithms__refinement.html#ga513fee55d18afaa35651a60d9fe052bb">ug::Refine()</a>, and <a class="el" href="classug_1_1_projection_handler.html#accf01a4a3e13f4f60d99524d9c560680">ug::ProjectionHandler::refinement_ends()</a>.</p>
+<p>Referenced by <a class="el" href="group__lib__grid__algorithms__refinement.html#ga513fee55d18afaa35651a60d9fe052bb">ug::Refine()</a>, and <a class="el" href="classug_1_1_projection_handler.html#a9862a9531796ccc9403bc454f9d5bd84">ug::ProjectionHandler::refinement_ends()</a>.</p>
 
 </div>
 </div>
@@ -814,7 +815,7 @@ template&lt;class Archive &gt; </div>
 
 <p>References <a class="el" href="classug_1_1_refinement_projector.html#abb6b370908c3f74541c03bfb59323b47">m_concernedElementsCallback</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_projection_handler.html#ae08be7a8ff4d18f73aaf1fd3fce920e7">ug::ProjectionHandler::refinement_begins()</a>, <a class="el" href="classug_1_1_subdivision_projector.html#a25c976924e60ecc0b7cf7e1d84e5cf88">ug::SubdivisionProjector::set_concerned_elements()</a>, and <a class="el" href="classug_1_1_subdivision_projector.html#ad3625a88c5abba425ccf659eabf6437f">ug::SubdivisionProjector::set_geometry()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_projection_handler.html#a96b05197925e18af4a1e6ffe62bdce6a">ug::ProjectionHandler::refinement_begins()</a>, <a class="el" href="classug_1_1_subdivision_projector.html#a25c976924e60ecc0b7cf7e1d84e5cf88">ug::SubdivisionProjector::set_concerned_elements()</a>, and <a class="el" href="classug_1_1_subdivision_projector.html#ad3625a88c5abba425ccf659eabf6437f">ug::SubdivisionProjector::set_geometry()</a>.</p>
 
 </div>
 </div>
@@ -842,11 +843,11 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classug_1_1_projection_handler.html#a24052c28948b4da196d41b03c38bec29">ug::ProjectionHandler</a>, and <a class="el" href="classug_1_1_subdivision_projector.html#ad3625a88c5abba425ccf659eabf6437f">ug::SubdivisionProjector</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_projection_handler.html#a77478191cb23422a08a15a5cfd44e177">ug::ProjectionHandler</a>, <a class="el" href="classug_1_1_subdivision_projector.html#ad3625a88c5abba425ccf659eabf6437f">ug::SubdivisionProjector</a>, and <a class="el" href="classug_1_1_raster_layers_projector.html#a1e94b26ab9aad0618953a76bdf4ed05f">ug::RasterLayersProjector</a>.</p>
 
 <p>References <a class="el" href="classug_1_1_refinement_projector.html#ad5eb00f28535e519bb758d8f70d5f436">geometry()</a>, and <a class="el" href="classug_1_1_refinement_projector.html#a484d55235653db458101dad920299558">m_geometry</a>.</p>
 
-<p>Referenced by <a class="el" href="group__lib__grid__algorithms__refinement.html#ga513fee55d18afaa35651a60d9fe052bb">ug::Refine()</a>, <a class="el" href="classug_1_1_projection_handler.html#ae08be7a8ff4d18f73aaf1fd3fce920e7">ug::ProjectionHandler::refinement_begins()</a>, <a class="el" href="classug_1_1_subdivision_projector.html#ad3625a88c5abba425ccf659eabf6437f">ug::SubdivisionProjector::set_geometry()</a>, and <a class="el" href="classug_1_1_projection_handler.html#a24052c28948b4da196d41b03c38bec29">ug::ProjectionHandler::set_geometry()</a>.</p>
+<p>Referenced by <a class="el" href="group__lib__grid__algorithms__refinement.html#ga513fee55d18afaa35651a60d9fe052bb">ug::Refine()</a>, <a class="el" href="classug_1_1_projection_handler.html#a96b05197925e18af4a1e6ffe62bdce6a">ug::ProjectionHandler::refinement_begins()</a>, <a class="el" href="classug_1_1_raster_layers_projector.html#a1e94b26ab9aad0618953a76bdf4ed05f">ug::RasterLayersProjector::set_geometry()</a>, <a class="el" href="classug_1_1_subdivision_projector.html#ad3625a88c5abba425ccf659eabf6437f">ug::SubdivisionProjector::set_geometry()</a>, and <a class="el" href="classug_1_1_projection_handler.html#a77478191cb23422a08a15a5cfd44e177">ug::ProjectionHandler::set_geometry()</a>.</p>
 
 </div>
 </div>
@@ -886,7 +887,7 @@ template&lt;class Archive &gt; </div>
 
 <p>References <a class="el" href="classug_1_1_refinement_projector.html#a484d55235653db458101dad920299558">m_geometry</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_projection_handler.html#ad44bd868b0ea56e7a58957155e58b082">ug::ProjectionHandler::handle_new_vertex()</a>, <a class="el" href="classug_1_1_plane_cut_projector.html#a669d71fc12e566a37e31b815326ae303">ug::PlaneCutProjector::new_vertex()</a>, <a class="el" href="classug_1_1_cylinder_cut_projector.html#afbf7e7657efa8eea641fdf2d16a30247">ug::CylinderCutProjector::new_vertex()</a>, <a class="el" href="classug_1_1_refinement_projector.html#a8bf5ffdb08a311cc6cf95c83df8ebc0a">new_vertex()</a>, <a class="el" href="classug_1_1_cylinder_projector.html#ad609c14a676e5a2705e69e3fc7efe477">ug::CylinderProjector::perform_projection()</a>, <a class="el" href="classug_1_1_sphere_projector.html#a085a823f3f4307797ca17516a44dd654">ug::SphereProjector::perform_projection()</a>, and <a class="el" href="classug_1_1_smooth_projector.html#acc5673135d3f270ff00f58eb813f7db0">ug::SmoothProjector::refinement_ends()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_projection_handler.html#ad44bd868b0ea56e7a58957155e58b082">ug::ProjectionHandler::handle_new_vertex()</a>, <a class="el" href="classug_1_1_plane_cut_projector.html#a669d71fc12e566a37e31b815326ae303">ug::PlaneCutProjector::new_vertex()</a>, <a class="el" href="classug_1_1_cylinder_cut_projector.html#afbf7e7657efa8eea641fdf2d16a30247">ug::CylinderCutProjector::new_vertex()</a>, <a class="el" href="classug_1_1_raster_layers_projector.html#aa7d825d8cbafc7a9e4e68c1a52eef2ca">ug::RasterLayersProjector::new_vertex()</a>, <a class="el" href="classug_1_1_refinement_projector.html#a8bf5ffdb08a311cc6cf95c83df8ebc0a">new_vertex()</a>, <a class="el" href="classug_1_1_raster_layers_projector.html#a665c0fdef39077670a249e4b9cb5ab3b">ug::RasterLayersProjector::new_vertex_impl()</a>, <a class="el" href="classug_1_1_cylinder_projector.html#ad609c14a676e5a2705e69e3fc7efe477">ug::CylinderProjector::perform_projection()</a>, <a class="el" href="classug_1_1_sphere_projector.html#a085a823f3f4307797ca17516a44dd654">ug::SphereProjector::perform_projection()</a>, and <a class="el" href="classug_1_1_smooth_projector.html#acc5673135d3f270ff00f58eb813f7db0">ug::SmoothProjector::refinement_ends()</a>.</p>
 
 </div>
 </div>
@@ -971,7 +972,7 @@ template&lt;class Archive &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_refinement_projector.html">RefinementProjector</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:18:22 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:42 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

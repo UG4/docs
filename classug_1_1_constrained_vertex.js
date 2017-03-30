@@ -11,6 +11,8 @@ var classug_1_1_constrained_vertex =
     [ "get_parent_base_object_id", "classug_1_1_constrained_vertex.html#a7c3f632147b74428a918b1e0f3f0bf54", null ],
     [ "is_constrained", "classug_1_1_constrained_vertex.html#a5bc4ba90345a07032deb701f08b25540", null ],
     [ "reference_object_id", "classug_1_1_constrained_vertex.html#a4a1a7603e4363fa05c6bc75132e797b3", null ],
+    [ "remove_constraint_link", "classug_1_1_constrained_vertex.html#a6c1319cfb808de43bb93456aab69a00a", null ],
+    [ "remove_constraint_link", "classug_1_1_constrained_vertex.html#aeaad88b40fc1663afbc50302ecd1bccd", null ],
     [ "set_constraining_object", "classug_1_1_constrained_vertex.html#a6e1c4862e9dec625ad8ad5cd96aa523a", null ],
     [ "set_local_coordinate_1", "classug_1_1_constrained_vertex.html#afea061efd63ccf83cc555c7191f4ff75", null ],
     [ "set_local_coordinate_2", "classug_1_1_constrained_vertex.html#a0673be940805a8e018c411157ac78d19", null ],

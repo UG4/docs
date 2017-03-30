@@ -12,6 +12,8 @@ var classug_1_1_constrained_edge =
     [ "reference_object_id", "classug_1_1_constrained_edge.html#a63956226a7ce653f8210ac3c938aef47", null ],
     [ "refine", "classug_1_1_constrained_edge.html#a7c9d59245cce71c19e2dbd675d02140b", null ],
     [ "refine", "classug_1_1_constrained_edge.html#abcdac4546743e1f88bc7c3c93774b9ff", null ],
+    [ "remove_constraint_link", "classug_1_1_constrained_edge.html#a38b2860cc8b6c7e3a1e8c91eca9a631e", null ],
+    [ "remove_constraint_link", "classug_1_1_constrained_edge.html#a84739739a9152c3a713496dddefaaf6d", null ],
     [ "set_constraining_object", "classug_1_1_constrained_edge.html#ae6d292ebbfe6715e20cb0f0caca31525", null ],
     [ "set_parent_base_object_id", "classug_1_1_constrained_edge.html#a73d62e7a0d08718575a50596f4e16a89", null ],
     [ "type_match", "classug_1_1_constrained_edge.html#a0d7bd977f3b35d8b31d385a40a3d4214", null ],

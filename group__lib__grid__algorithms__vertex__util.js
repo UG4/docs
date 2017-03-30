@@ -19,6 +19,7 @@ var group__lib__grid__algorithms__vertex__util =
     [ "GetConnectedVertex", "group__lib__grid__algorithms__vertex__util.html#gaee1128b8bc4a8fed99814b0126b9b454", null ],
     [ "GetConnectedVertex", "group__lib__grid__algorithms__vertex__util.html#ga0bae9d4d5288bbf36d46a8546209aca8", null ],
     [ "GetConnectedVertexIndex", "group__lib__grid__algorithms__vertex__util.html#gaab444e4d5c443af5fabba6b0104c7a87", null ],
+    [ "GetConnectedVertexIndex", "group__lib__grid__algorithms__vertex__util.html#ga80dfafb1e562579e406b94c6c50ee9b2", null ],
     [ "GetSharedVertex", "group__lib__grid__algorithms__vertex__util.html#ga0d4ce919a5c578ed819e67058723d332", null ],
     [ "GetSharedVertices", "group__lib__grid__algorithms__vertex__util.html#ga7dfe766ecd522261dd33e5e8e5a41a1b", null ],
     [ "GetVertex", "group__lib__grid__algorithms__vertex__util.html#gafc46f829211dc8ddd5cff1001178f765", null ],

@@ -19,7 +19,7 @@ var dir_67de3ae5db4b037e4dbbf65db91d4b1f =
     [ "grid_object_collection_impl.hpp", "grid__object__collection__impl_8hpp.html", null ],
     [ "grid_observer.h", "grid__observer_8h.html", "grid__observer_8h" ],
     [ "grid_util.cpp", "grid__util_8cpp.html", "grid__util_8cpp" ],
-    [ "grid_util.h", "grid__util_8h.html", "grid__util_8h" ],
+    [ "grid_util.h", "grid_2grid__util_8h.html", "grid_2grid__util_8h" ],
     [ "grid_util_impl.hpp", "grid__util__impl_8hpp.html", "grid__util__impl_8hpp" ],
     [ "neighborhood.cpp", "neighborhood_8cpp.html", "neighborhood_8cpp" ],
     [ "neighborhood.h", "neighborhood_8h.html", "neighborhood_8h" ],

@@ -10,5 +10,6 @@ var searchData=
   ['small_20algebra',['Small Algebra',['../group__small__algebra.html',1,'']]],
   ['small_20strain_20mechanics',['Small Strain Mechanics',['../../plugins/group__small__strain__mechanics.html',1,'']]],
   ['solver_20bridge',['Solver Bridge',['../group__solver__bridge.html',1,'']]],
+  ['solver_20util',['Solver Util',['../group__solver__util.html',1,'']]],
   ['string_20utilities',['String Utilities',['../group__ugbase__common__util__strings.html',1,'']]]
 ];

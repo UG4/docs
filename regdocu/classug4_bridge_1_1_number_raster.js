@@ -15,7 +15,7 @@ var classug4_bridge_1_1_number_raster =
     [ "set_cursor", "classug4_bridge_1_1_number_raster.html#af0c5b97949cc2d77152550cad912ee6c", null ],
     [ "set_extension", "classug4_bridge_1_1_number_raster.html#ab2b9f1f3833d121e1bc170b6d1ed5041", null ],
     [ "set_min_corner", "classug4_bridge_1_1_number_raster.html#a8f9c2895608f022295fb8ddbb6912896", null ],
-    [ "set_no_data_value", "classug4_bridge_1_1_number_raster.html#a592d73a7b1b68ff7a2d32dc90cbb251e", null ],
+    [ "set_no_data_value", "classug4_bridge_1_1_number_raster.html#a444951f26181391934508b3ab7cbbea0", null ],
     [ "set_num_nodes", "classug4_bridge_1_1_number_raster.html#ab14e01d99009450c8945cbcbd5f97ad9", null ],
     [ "set_selected_node_value", "classug4_bridge_1_1_number_raster.html#a335afad21ae574f11a8be2a89238d170", null ]
 ];

@@ -103,6 +103,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a94eef012e6e9005719dca5e7567f0308"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug_1_1prism__rules.html#a94eef012e6e9005719dca5e7567f0308">ConvertToTetrahedra</a> (int *newIndsOut, TCmp cmp)</td></tr>
 <tr class="memdesc:a94eef012e6e9005719dca5e7567f0308"><td class="mdescLeft">&#160;</td><td class="mdescRight">fills an array of integers describing tetrahedra that shall replace the prism  <a href="#a94eef012e6e9005719dca5e7567f0308">More...</a><br /></td></tr>
 <tr class="separator:a94eef012e6e9005719dca5e7567f0308"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af172bb9eafa2d2de5fb084dd031c3acd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug_1_1prism__rules.html#af172bb9eafa2d2de5fb084dd031c3acd">IsRegularRefRule</a> (const int edgeMarks)</td></tr>
+<tr class="memdesc:af172bb9eafa2d2de5fb084dd031c3acd"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the specified edgeMarks would lead to a regular refinement  <a href="#af172bb9eafa2d2de5fb084dd031c3acd">More...</a><br /></td></tr>
+<tr class="separator:af172bb9eafa2d2de5fb084dd031c3acd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57bc08be636f9025945a4e16bdc42ac9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug_1_1prism__rules.html#a57bc08be636f9025945a4e16bdc42ac9">Refine</a> (int *newIndsOut, int *newEdgeVrts, bool &amp;newCenterOut, <a class="el" href="group__vectors.html#ga894cdb8af74f7a563a94fb49c220fdcd">vector3</a> *, bool *isSnapPoint)</td></tr>
 <tr class="separator:a57bc08be636f9025945a4e16bdc42ac9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69acce1fc6e705932edca4157f89477c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug_1_1prism__rules.html#a69acce1fc6e705932edca4157f89477c">RotatePrism</a> (int vrtsOut[<a class="el" href="namespaceug_1_1prism__rules.html#a013c9dfc63bb6a464e93c43d3a04e555">NUM_VERTICES</a>], int steps)</td></tr>
@@ -259,6 +262,34 @@ template&lt;class TCmp &gt; </div>
 <p>References <a class="el" href="namespaceug.html#a02785d5fd4cf2dd569d72cfac0197574a6bd5ada865770fc6a5ab730446242999">ug::GOID_TETRAHEDRON</a>.</p>
 
 <p>Referenced by <a class="el" href="group__lib__grid__algorithms__volume__util.html#ga091a48c6244029acd671f4e23309799a">ug::ConvertToTetrahedra()</a>.</p>
+
+</div>
+</div>
+<a id="af172bb9eafa2d2de5fb084dd031c3acd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af172bb9eafa2d2de5fb084dd031c3acd">&sect;&nbsp;</a></span>IsRegularRefRule()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ug::prism_rules::IsRegularRefRule </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>edgeMarks</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns true if the specified edgeMarks would lead to a regular refinement </p>
+<p>A regular refinement leads to new elements which are all similar to the original element. I.e. which are of the same type and which have similar angles.</p>
+<dl class="section note"><dt>Note</dt><dd>this method does not perform refinement. Use 'Refine' with the specified edges instead.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">edgeMarks</td><td>If the i-th edge shall be refined, the expression 'edgeMarks &amp; (1&lt;&lt;i) != 0' has to be true. You can specify multiple refine-edges using or-combinations. E.g., 'edgeMarks = (1&lt;&lt;i) | (1&lt;&lt;j)' would indicate that the i-th and the j-th edge shall be refined. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -748,7 +779,7 @@ template&lt;class TCmp &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="namespaceug_1_1prism__rules.html">prism_rules</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:18:29 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:50 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

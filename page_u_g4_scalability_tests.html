@@ -128,7 +128,7 @@ Hierarchical Redistribution</h2>
 <p>The approach of (re)distributing the grid to all MPI processes involved in a simulation run in a hierarchical fashion turned out to be essential for a good performance of large jobs (running with &gt;= 1024 PE) on <em>JuGene</em> (see <a class="el" href="page_u_g4_parallel_ju_gene.html#secWorking_with_ug4_on_JuGene">Working with ug4 on JuGene</a>).</p>
 <ul>
 <li>
-Example (applicable in a <em>LoadLeveler</em> script on <em>JuGene</em>): <div class="fragment"><div class="line">mpirun -np   1024 -exe ./ugshell -mode VN -mapfile TXYZ -args <span class="stringliteral">&quot;&lt;other ug4 args&gt; -numPreRefs 3 -numRefs 10 -hRedistFirstLevel 5 -hRedistStepSize 100 -hRedistNewProcsPerStep  16&quot;</span></div></div><!-- fragment --> Or (a smaller, not very reasonable one) on <em>cekon:</em> <div class="fragment"><div class="line">salloc -n 64 mpirun ./ugshell -ex ../apps/scaling_tests/modular_scalability_test.lua -numPreRefs 1 -hRedistFirstLevel 4 -hRedistStepSize 2 -hRedistNewProcsPerStep  4 -numRefs 8</div></div><!-- fragment -->  </li>
+Example (applicable in a <em>LoadLeveler</em> script on <em>JuGene</em>): <div class="fragment"><div class="line">mpirun -np   1024 -exe ./ugshell -mode VN -mapfile TXYZ -args <span class="stringliteral">&quot;&lt;other ug4 args&gt; -numPreRefs 3 -numRefs 10 -hRedistFirstLevel 5 -hRedistStepSize 100 -hRedistNewProcsPerStep  16&quot;</span></div></div><!-- fragment --> Or (a smaller, not very reasonable one) on <em>cekon:</em> <div class="fragment"><div class="line">salloc -n 64 mpirun ./ugshell -<a class="code" href="command__line__util_8lua.html#a340d3719e63a0a3a4f4429ef8c8b55ea">ex</a> ../apps/scaling_tests/modular_scalability_test.lua -numPreRefs 1 -hRedistFirstLevel 4 -hRedistStepSize 2 -hRedistNewProcsPerStep  4 -numRefs 8</div></div><!-- fragment -->  </li>
 <li>
 Parameters that control hierarchical redistribution: <ul>
 <li>
@@ -177,7 +177,7 @@ at level(s) <code>hRedistFirstLevel + i * hRedistStepSize</code><br />
 <p class="endli"></p>
 </li>
 <li>
-A test of the paramaters for hierarchical redistribution can be performed with the LUA script <code>parameter_test.lua</code>, e.g. <div class="fragment"><div class="line">./ugshell -ex ../apps/scaling_tests/parameter_test.lua -numPreRefs 3 -numRefs 10 -hRedistFirstLevel 5 -hRedistStepSize 100 -hRedistNewProcsPerStep 16 -numProcs 1024</div></div><!-- fragment --> Or the dry run for the smaller job on <em>cekon</em> above: <div class="fragment"><div class="line">./ugshell -ex ../apps/scaling_tests/parameter_test.lua -numPreRefs 1 -hRedistFirstLevel 4 -hRedistStepSize 2 -hRedistNewProcsPerStep  4 -numRefs 8 -numProcs 64</div></div><!-- fragment --> I.e. since the run is a serial run one has just to specify the number of MPI processes in addition to the distribution parameters.  </li>
+A test of the paramaters for hierarchical redistribution can be performed with the LUA script <code>parameter_test.lua</code>, e.g. <div class="fragment"><div class="line">./ugshell -<a class="code" href="command__line__util_8lua.html#a340d3719e63a0a3a4f4429ef8c8b55ea">ex</a> ../apps/scaling_tests/parameter_test.lua -numPreRefs 3 -numRefs 10 -hRedistFirstLevel 5 -hRedistStepSize 100 -hRedistNewProcsPerStep 16 -numProcs 1024</div></div><!-- fragment --> Or the dry run for the smaller job on <em>cekon</em> above: <div class="fragment"><div class="line">./ugshell -<a class="code" href="command__line__util_8lua.html#a340d3719e63a0a3a4f4429ef8c8b55ea">ex</a> ../apps/scaling_tests/parameter_test.lua -numPreRefs 1 -hRedistFirstLevel 4 -hRedistStepSize 2 -hRedistNewProcsPerStep  4 -numRefs 8 -numProcs 64</div></div><!-- fragment --> I.e. since the run is a serial run one has just to specify the number of MPI processes in addition to the distribution parameters.  </li>
 <li>
 Please note that this is only a "dry run": The script basically processes the same algorithm (<code>ddu.PrintSteps()</code>) as the one that actually carries out the (re)distribution (<code>ddu.RefineAndDistributeDomain()</code>; cf. <code><a class="el" href="domain__distribution__util_8lua.html">domain_distribution_util.lua</a></code>).  </li>
 </ul>
@@ -203,7 +203,7 @@ For the Elder problem: <code>apps/d3f/elder_scalability_test.lua</code>.  </li>
 </ul>
 </li>
 <li>
-For a (quiet convenient) <b>analysis</b> of the profiling results of several simulation runs there also exist a special <b>analyzer script</b>: <code><a class="el" href="scaling__analyzer_8lua.html">scripts/tools/scaling_analyzer.lua</a></code>. <ol>
+For a (quiet convenient) <b>analysis</b> of the profiling results of several simulation runs there also exist a special <b>analyzer script</b>: <code><a class="el" href="scaling__analyzer_8lua.html" title="lua script to compare profiling outputs from different runs of one problem ">scripts/tools/scaling_analyzer.lua</a></code>. <ol>
 <li>
 To get log files of your simulation runs use the <code>-ugshell</code> parameter <code>-logtofile</code>. This is of course not necessary if logfiles are automatically created by the resource manager (e.g., on <a class="el" href="page_u_g4_parallel_ju_gene.html#secJuGene">General Information about JuGene</a>).  </li>
 <li>
@@ -221,7 +221,7 @@ See also the <code>util.printStats(stats)</code> functionality, e.g. in <code>ap
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="index.html">ug4 - Documentation</a></li><li class="navelem"><a class="el" href="page_u_g4_usage.html">Usage</a></li><li class="navelem"><a class="el" href="page_tutorials.html">Tutorials</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:17:53 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:11 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

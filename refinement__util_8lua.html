@@ -86,17 +86,76 @@ $(document).ready(function(){initNavTree('refinement__util_8lua.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">refinement_util.lua File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a2ebfa80ef37cf012bfb09117b58444c9"><td class="memItemLeft" align="right" valign="top">function util refinement&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="refinement__util_8lua.html#a2ebfa80ef37cf012bfb09117b58444c9">CreateRegularHierarchy</a> (dom, numRefs, verbose, balancerDesc)</td></tr>
+<tr class="separator:a2ebfa80ef37cf012bfb09117b58444c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a2ebfa80ef37cf012bfb09117b58444c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ebfa80ef37cf012bfb09117b58444c9">&sect;&nbsp;</a></span>CreateRegularHierarchy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util refinement CreateRegularHierarchy </td>
+          <td>(</td>
+          <td class="paramtype">dom&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">numRefs&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">verbose&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">balancerDesc&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Creates a regular hierarchy through global refinement. Redistribution is handled through '<a class="el" href="load__balancing__util__2_8lua.html">load_balancing_util_2.lua</a>'. To this end a balancerDesc may optionally be specified, which is used to create the invloved balancer.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dom</td><td>(Domain) the domain on which a hierarchy shall be created </td></tr>
+    <tr><td class="paramname">numRefs</td><td>(integer) the number of refinements that shall be performed </td></tr>
+    <tr><td class="paramname">verbose</td><td>(boolean)(optional) if 'true', information on refinements and distribution-qualities are printed. </td></tr>
+    <tr><td class="paramname">balancerDesc</td><td>(string or table)(optional) a descriptor according to "load_balancing_util_2.lua"</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="refinement__util_8lua.html">refinement_util.lua</a> :45-63 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.refinement.CreateRegularHierarchy(dom, numRefs, verbose, balancerDesc)</div><div class="line">  local ref = <a class="code" href="group__refinement__bridge.html#ga34888b25fa66825e5b89aa176aacabd0">GlobalDomainRefiner</a>(dom)</div><div class="line">  local bal = util.balancer.CreateLoadBalancer(dom, balancerDesc)</div><div class="line"></div><div class="line">  bal.rebalance()</div><div class="line"></div><div class="line">  <span class="keywordflow">for</span> i = 1, numRefs <span class="keywordflow">do</span></div><div class="line">    <span class="keywordflow">if</span> verbose then</div><div class="line">      <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(<span class="stringliteral">&quot;- refining level &quot;</span> .. i-1)</div><div class="line">    end</div><div class="line">    ref:refine()</div><div class="line">    bal.rebalance(&quot;adaption-&quot;..i)</div><div class="line">  end</div><div class="line"></div><div class="line">  <a class="code" href="lexer_8cpp.html#ad4a65b873df5c05570846b5413b41dfd">if</a> verbose and <a class="code" href="group__pcl.html#ga7a09a2eab069305ca735847eed023d2f">NumProcs</a>() &gt; 1 then</div><div class="line">    <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(&quot;\nDistribution quality statistics:&quot;)</div><div class="line">    bal.<a class="code" href="load__balancing__util__2_8lua.html#ae12062a3c2debb0f7fa321bcbbb5be01">print_quality_records</a>()</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_53e6fa9553ac22a5646d2a2b2d7b97a1.html">scripts</a></li><li class="navelem"><a class="el" href="dir_46f23659e18aa5fa06de6ff2c04a1a12.html">util</a></li><li class="navelem"><a class="el" href="refinement__util_8lua.html">refinement_util.lua</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:17:52 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:09 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

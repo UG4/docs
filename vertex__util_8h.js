@@ -18,6 +18,7 @@ var vertex__util_8h =
     [ "GetConnectedVertex", "vertex__util_8h.html#gaee1128b8bc4a8fed99814b0126b9b454", null ],
     [ "GetConnectedVertex", "vertex__util_8h.html#ga0bae9d4d5288bbf36d46a8546209aca8", null ],
     [ "GetConnectedVertexIndex", "vertex__util_8h.html#gaab444e4d5c443af5fabba6b0104c7a87", null ],
+    [ "GetConnectedVertexIndex", "vertex__util_8h.html#ga80dfafb1e562579e406b94c6c50ee9b2", null ],
     [ "GetSharedVertex", "vertex__util_8h.html#ga0d4ce919a5c578ed819e67058723d332", null ],
     [ "GetSharedVertices", "vertex__util_8h.html#ga7dfe766ecd522261dd33e5e8e5a41a1b", null ],
     [ "GetVertexIndex", "vertex__util_8h.html#gaaf616966d82226b6c9af1b072d2e482c", null ],

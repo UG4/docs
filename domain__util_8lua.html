@@ -86,17 +86,213 @@ $(document).ready(function(){initNavTree('domain__util_8lua.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">domain_util.lua File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ad13fcaa29c26b8c99b70b1bc774963f8"><td class="memItemLeft" align="right" valign="top">function util&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="domain__util_8lua.html#ad13fcaa29c26b8c99b70b1bc774963f8">CheckSubsets</a> (dom, neededSubsets)</td></tr>
+<tr class="separator:ad13fcaa29c26b8c99b70b1bc774963f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7487c8ab26484f7061c52c1dcf41b080"><td class="memItemLeft" align="right" valign="top">function util&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="domain__util_8lua.html#a7487c8ab26484f7061c52c1dcf41b080">CreateAndDistributeDomain</a> (gridName, numRefs, numPreRefs, neededSubsets, distributionMethod, verticalInterfaces, numTargetProcs, distributionLevel, wFct, noIntegrityCheck)</td></tr>
+<tr class="separator:a7487c8ab26484f7061c52c1dcf41b080"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d060561c84868bf4fc8f4d4a5d2045a"><td class="memItemLeft" align="right" valign="top">function util&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="domain__util_8lua.html#a0d060561c84868bf4fc8f4d4a5d2045a">CreateDomain</a> (gridName, numRefs, neededSubsets, noIntegrityCheck)</td></tr>
+<tr class="separator:a0d060561c84868bf4fc8f4d4a5d2045a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ad13fcaa29c26b8c99b70b1bc774963f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad13fcaa29c26b8c99b70b1bc774963f8">&sect;&nbsp;</a></span>CheckSubsets()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util CheckSubsets </td>
+          <td>(</td>
+          <td class="paramtype">dom&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">neededSubsets&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>util.CheckSubsets checks if all required subsets are contained in the SubsetHandler </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dom</td><td>Domain </td></tr>
+    <tr><td class="paramname">neededSubsets</td><td>List of subsets the SubsetHandler must contain </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if all subsets are contained, false else</dd></dl>
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="domain__util_8lua.html">domain_util.lua</a> :42-52 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.CheckSubsets(dom, neededSubsets)</div><div class="line">  sh = dom:subset_handler()</div><div class="line">  <a class="code" href="parser_8cpp.html#ab352f63e4dbefc447c3fd0eba3fa120f">for</a> i, tval in ipairs(neededSubsets) do</div><div class="line">    <a class="code" href="lexer_8cpp.html#ad4a65b873df5c05570846b5413b41dfd">if</a> sh:get_subset_index(tval) == -1 then</div><div class="line">      <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(&quot;Domain does not contain subset &#39;&quot;..tval..&quot;&#39;.&quot;)</div><div class="line">      return false</div><div class="line">    end</div><div class="line">  end</div><div class="line">  </div><div class="line">  return true</div><div class="line">end</div></div><!-- fragment --> 
+</div>
+</div>
+<a id="a7487c8ab26484f7061c52c1dcf41b080"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7487c8ab26484f7061c52c1dcf41b080">&sect;&nbsp;</a></span>CreateAndDistributeDomain()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util CreateAndDistributeDomain </td>
+          <td>(</td>
+          <td class="paramtype">gridName&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">numRefs&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">numPreRefs&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">neededSubsets&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">distributionMethod&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">verticalInterfaces&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">numTargetProcs&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">distributionLevel&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">wFct&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">noIntegrityCheck&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Creates a new domain and loads the specified grid. The method then performs numPreRefs refinements before it distributes the domain onto the available processes. The partitioning method can be chosen through distributionMethod. After distribution the domain is refined until a total of numRefs refinement steps has been performed (including numPreRefs). A list of subset-names can be specified. After distribution the methods checks Whether all processes received the required subsets. The method returns the created domain. </p><dl class="section note"><dt>Note</dt><dd>Some paramters are optional. nil is a valid value for each optional parameter. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>(Domain) the created domain </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gridName</td><td>(string) The filename of the grid which shall be loaded. The grid is searched in a path relative to the current path first. If it isn't found there, the path is interpreted as an absolute path. If the grid still can't be found, the method tries to load it from UG_BASE/data/grids. </td></tr>
+    <tr><td class="paramname">numRefs</td><td>(int) The total number of global refinements </td></tr>
+    <tr><td class="paramname">numPreRefs</td><td>(int) The number of refinements that are performed before distribution. </td></tr>
+    <tr><td class="paramname">neededSubsets</td><td>(optional, list of strings) The subsets that are required by the simulation. If not all those subsets are present, the method aborts. Default is an empty list. </td></tr>
+    <tr><td class="paramname">distributionMethod</td><td>(optional, string) The distribution method. Either "bisection" or "metis". Default is "bisection". See util.DistributeDomain for more information (in UG_BASE/scripts/util/domain_distribution.lua) </td></tr>
+    <tr><td class="paramname">verticalInterfaces</td><td>(optional, bool) Vertical interfaces are required by multi-grid solvers. Default is true. See util.DistributeDomain for more information (in UG_BASE/scripts/util/domain_distribution.lua) </td></tr>
+    <tr><td class="paramname">numTargetProcs</td><td>(optional, int) The number of target processes to which the domain shall be distributed. Make sure that the number of target processes is not higher than the number of elements in the distributionLevel. Default is <a class="el" href="group__pcl.html#ga7a09a2eab069305ca735847eed023d2f" title="returns the number of processes ">NumProcs()</a> See util.DistributeDomain for more information (in UG_BASE/scripts/util/domain_distribution.lua) </td></tr>
+    <tr><td class="paramname">distributionLevel</td><td>(optional, int) The level on which the distribution is performed. Default is the domains top-level after pre-refinement. See util.DistributeDomain for more information (in UG_BASE/scripts/util/domain_distribution.lua) </td></tr>
+    <tr><td class="paramname">wFct</td><td>(optional <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt;EdgeWeighting&gt;) Sets the weighting function for the 'metisReweigh' partitioning method. </td></tr>
+    <tr><td class="paramname">noIntegrityCheck</td><td>(optional, bool) Disables integrity check if 'true'.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="domain__util_8lua.html">domain_util.lua</a> :167-242 </p>
+
+</div>
+</div>
+<a id="a0d060561c84868bf4fc8f4d4a5d2045a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d060561c84868bf4fc8f4d4a5d2045a">&sect;&nbsp;</a></span>CreateDomain()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util CreateDomain </td>
+          <td>(</td>
+          <td class="paramtype">gridName&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">numRefs&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">neededSubsets&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">noIntegrityCheck&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Creates a new domain and loads the specified grid. The method then performs numRefs global refinements. A list of subset-names can be specified which have to be present in the loaded grid. The method returns the created domain. </p><dl class="section note"><dt>Note</dt><dd>Some paramters are optional. nil is a valid value for each optional parameter. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>(Domain) the created domain </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gridName</td><td>(string) The filename of the grid which shall be loaded. The grid is searched in a path relative to the current path first. If it isn't found there, the path is interpreted as an absolute path. If the grid still can't be found, the method tries to load it from UG_BASE/data/grids. </td></tr>
+    <tr><td class="paramname">numRefs</td><td>(int) The total number of global refinements </td></tr>
+    <tr><td class="paramname">numPreRefs</td><td>(int) The number of refinements that are performed before distribution. </td></tr>
+    <tr><td class="paramname">neededSubsets</td><td>(optional, list of strings) The subsets that are required by the simulation. If not all those subsets are present, the method aborts. Default is an empty list. </td></tr>
+    <tr><td class="paramname">noIntegrityCheck</td><td>(optional, bool) Disables integrity check if 'true'.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="domain__util_8lua.html">domain_util.lua</a> :73-117 </p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_53e6fa9553ac22a5646d2a2b2d7b97a1.html">scripts</a></li><li class="navelem"><a class="el" href="dir_46f23659e18aa5fa06de6ff2c04a1a12.html">util</a></li><li class="navelem"><a class="el" href="domain__util_8lua.html">domain_util.lua</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:17:52 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:09 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

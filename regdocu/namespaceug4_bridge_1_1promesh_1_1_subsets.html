@@ -107,6 +107,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ac5a640b8c7e047db1068134da4d7c3ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_subsets.html#ac5a640b8c7e047db1068134da4d7c3ea">AdjustSubsetsForUG4</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, bool preserve_existing_subsets)</td></tr>
 <tr class="memdesc:ac5a640b8c7e047db1068134da4d7c3ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adjusts subsets for simulation with ug4.  <a href="#ac5a640b8c7e047db1068134da4d7c3ea">More...</a><br /></td></tr>
 <tr class="separator:ac5a640b8c7e047db1068134da4d7c3ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a370af417eab6dfd4bc3ad6da68564d43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_subsets.html#a370af417eab6dfd4bc3ad6da68564d43">AssignNewSubset</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, const char *name, bool assign_vertices, bool assign_edges, bool assign_faces, bool assign_volumes)</td></tr>
+<tr class="memdesc:a370af417eab6dfd4bc3ad6da68564d43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns selected elements to a new subset.  <a href="#a370af417eab6dfd4bc3ad6da68564d43">More...</a><br /></td></tr>
+<tr class="separator:a370af417eab6dfd4bc3ad6da68564d43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74941f9a5c5d6e668444e4021f03ebd9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_subsets.html#a74941f9a5c5d6e668444e4021f03ebd9">AssignSubset</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, int subset_index)</td></tr>
 <tr class="memdesc:a74941f9a5c5d6e668444e4021f03ebd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns the selected elements to a subset.  <a href="#a74941f9a5c5d6e668444e4021f03ebd9">More...</a><br /></td></tr>
 <tr class="separator:a74941f9a5c5d6e668444e4021f03ebd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -133,6 +136,9 @@ Functions</h2></td></tr>
 <tr class="memitem:aeb1442e53e3169744fb539a1ff61878a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_subsets.html#aeb1442e53e3169744fb539a1ff61878a">SwapSubsets</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, int subset_index_1, int subset_index_2)</td></tr>
 <tr class="memdesc:aeb1442e53e3169744fb539a1ff61878a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swaps two subsets.  <a href="#aeb1442e53e3169744fb539a1ff61878a">More...</a><br /></td></tr>
 <tr class="separator:aeb1442e53e3169744fb539a1ff61878a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3962d032119d7e79fd2ebcbfa1172ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_subsets.html#ac3962d032119d7e79fd2ebcbfa1172ca">UnassignSubsets</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, bool unassign_vertices, bool unassign_edges, bool unassign_faces, bool unassign_volumes)</td></tr>
+<tr class="memdesc:ac3962d032119d7e79fd2ebcbfa1172ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unassigns selected elements from any subset.  <a href="#ac3962d032119d7e79fd2ebcbfa1172ca">More...</a><br /></td></tr>
+<tr class="separator:ac3962d032119d7e79fd2ebcbfa1172ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a17ae7188cd87f0440a48b35797db549c"></a>
@@ -210,6 +216,73 @@ Functions</h2></td></tr>
 </dl>
 
 <p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga6d6ca75c9142d1e00b346ec78adf87e7">AdjustSubsetsForUG4()</a>.</p>
+
+</div>
+</div>
+<a id="a370af417eab6dfd4bc3ad6da68564d43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a370af417eab6dfd4bc3ad6da68564d43">&sect;&nbsp;</a></span>AssignNewSubset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug4Bridge::promesh::Subsets::AssignNewSubset </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>assign_vertices</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>assign_edges</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>assign_faces</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>assign_volumes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Assigns selected elements to a new subset. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">assign_vertices</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">assign_edges</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">assign_faces</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">assign_volumes</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#gaf0af0e6b9c863dbefa4edb13d5b1cb39">AssignNewSubset()</a>.</p>
 
 </div>
 </div>
@@ -607,13 +680,73 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ac3962d032119d7e79fd2ebcbfa1172ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3962d032119d7e79fd2ebcbfa1172ca">&sect;&nbsp;</a></span>UnassignSubsets()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug4Bridge::promesh::Subsets::UnassignSubsets </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>unassign_vertices</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>unassign_edges</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>unassign_faces</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>unassign_volumes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Unassigns selected elements from any subset. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">unassign_vertices</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">unassign_edges</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">unassign_faces</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">unassign_volumes</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#gadcef1d98ff45fce809f678cc5fe0c2c3">UnassignSubsets()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug4_bridge.html">ug4Bridge</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh.html">promesh</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_subsets.html">Subsets</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:16:59 for Registry by
+    <li class="footer">Generated on Thu Mar 30 2017 18:42:57 for Registry by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

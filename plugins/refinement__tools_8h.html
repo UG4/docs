@@ -88,12 +88,14 @@ $(document).ready(function(){initNavTree('refinement__tools_8h.html','');});
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">refinement_tools.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="mesh_8h_source.html">../mesh.h</a>&quot;</code><br />
+<code>#include &quot;<a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../edge____util__8h.html">lib_grid/algorithms/geom_obj_util/edge_util.h</a>&quot;</code><br />
 <code>#include &quot;<a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../regular____refinement__8h.html">lib_grid/refinement/regular_refinement.h</a>&quot;</code><br />
 <code>#include &quot;<a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../hanging____node____refiner____grid__8h.html">lib_grid/refinement/hanging_node_refiner_grid.h</a>&quot;</code><br />
 <code>#include &quot;<a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../sphere____projector__8h.html">lib_grid/refinement/projectors/sphere_projector.h</a>&quot;</code><br />
@@ -109,24 +111,196 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceug_1_1promesh"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug_1_1promesh.html">ug::promesh</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a6349dc09a3787e61d3f0e67da991d0c6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="refinement__tools_8h.html#a6349dc09a3787e61d3f0e67da991d0c6">TOOLTIP_CREATE_FRACTAL</a>&#160;&#160;&#160;&quot;Refines the whole geometry using a fractal-refinement scheme-&quot;</td></tr>
+<tr class="separator:a6349dc09a3787e61d3f0e67da991d0c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3af1bf7eadcf1780815d9c71beb6206c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="refinement__tools_8h.html#a3af1bf7eadcf1780815d9c71beb6206c">TOOLTIP_FRACTURED_MEDIA_REFINE</a>&#160;&#160;&#160;&quot;Refines selected elements using hanging nodes. Fractures are refined anisotropic.&quot;</td></tr>
+<tr class="separator:a3af1bf7eadcf1780815d9c71beb6206c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c7c5e5350f36f920dc1ff6c17e1663d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="refinement__tools_8h.html#a4c7c5e5350f36f920dc1ff6c17e1663d">TOOLTIP_HANGING_NODE_REFINE</a>&#160;&#160;&#160;&quot;Refines selected elements using hanging nodes&quot;</td></tr>
+<tr class="separator:a4c7c5e5350f36f920dc1ff6c17e1663d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00b1811fcca4dd75fdf3273159a8fa79"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="refinement__tools_8h.html#a00b1811fcca4dd75fdf3273159a8fa79">TOOLTIP_INSERT_CENTER</a>&#160;&#160;&#160;&quot;Inserts a central vertex in all selected elements.&quot;</td></tr>
+<tr class="separator:a00b1811fcca4dd75fdf3273159a8fa79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeef94689c640a109b864c42a2201f702"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="refinement__tools_8h.html#aeef94689c640a109b864c42a2201f702">TOOLTIP_REFINE</a>&#160;&#160;&#160;&quot;Refines selected elements and builds a regular closure.&quot;</td></tr>
+<tr class="separator:aeef94689c640a109b864c42a2201f702"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42a87ce0c50f6dc906c6c248a45d8ec6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="refinement__tools_8h.html#a42a87ce0c50f6dc906c6c248a45d8ec6">TOOLTIP_REFINE_SMOOTH</a>&#160;&#160;&#160;&quot;Refines selected elements using piecewise smooth refinement.&quot;</td></tr>
+<tr class="separator:a42a87ce0c50f6dc906c6c248a45d8ec6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9db88a30a7057fdcaeb04d5b0caf412d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="refinement__tools_8h.html#a9db88a30a7057fdcaeb04d5b0caf412d">TOOLTIP_REFINE_SMOOTH_BOUNDARY_2D</a>&#160;&#160;&#160;&quot;Refines selected elements using smooth subdivision rules on the boundary edges.&quot;</td></tr>
+<tr class="separator:a9db88a30a7057fdcaeb04d5b0caf412d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3be579ee3c2017be0beac23f2114f2ea"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="refinement__tools_8h.html#a3be579ee3c2017be0beac23f2114f2ea">TOOLTIP_REFINE_WITH_SNAP_POINTS</a>&#160;&#160;&#160;&quot;Refines selected elements so that new edges are built between midpoints of selected edges and selected vertices, <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../parser_8cpp.html#ab3454b1e7e7c4c0b732dfeb74a0c040f">if</a> possible.&quot;</td></tr>
+<tr class="separator:a3be579ee3c2017be0beac23f2114f2ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af188036785ab61dbf51ebb5959fbd6ec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="refinement__tools_8h.html#af188036785ab61dbf51ebb5959fbd6ec">TOOLTIP_REGULARIZING_REFINEMENT</a>&#160;&#160;&#160;&quot;Marks and refines elements with small aspect ratios, trying <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> improves said aspect ratios.&quot;</td></tr>
+<tr class="separator:af188036785ab61dbf51ebb5959fbd6ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga96da1aee9c8ff5fa45501f60df1e2846"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga96da1aee9c8ff5fa45501f60df1e2846">ug::promesh::HangingNodeRefine</a> (Mesh *obj, bool strictSubsetInheritance, bool anisotropic)</td></tr>
 <tr class="separator:ga96da1aee9c8ff5fa45501f60df1e2846"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaba0deb0164224a910c2920f6871ccd1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#gaba0deb0164224a910c2920f6871ccd1a">ug::promesh::HangingNodeRefine</a> (Mesh *obj, bool anisotropic)</td></tr>
+<tr class="separator:gaba0deb0164224a910c2920f6871ccd1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1a6f1f3eaca1b85d922d0affa5813e6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga1a6f1f3eaca1b85d922d0affa5813e6e">ug::promesh::InsertCenter</a> (Mesh *obj, bool strictSubsetInheritance)</td></tr>
 <tr class="separator:ga1a6f1f3eaca1b85d922d0affa5813e6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabff4f0f10bed40d0b067caa52e3b6593"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#gabff4f0f10bed40d0b067caa52e3b6593">ug::promesh::InsertCenter</a> (Mesh *obj)</td></tr>
+<tr class="separator:gabff4f0f10bed40d0b067caa52e3b6593"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4e6e50ab2bd0d7827f055b5cef8cd4b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga4e6e50ab2bd0d7827f055b5cef8cd4b9">ug::promesh::Refine</a> (Mesh *obj, bool strictSubsetInheritance, bool useSnapPoints)</td></tr>
 <tr class="separator:ga4e6e50ab2bd0d7827f055b5cef8cd4b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga745841fa8e641710400c2777c59e42b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga745841fa8e641710400c2777c59e42b8">ug::promesh::Refine</a> (Mesh *obj)</td></tr>
+<tr class="separator:ga745841fa8e641710400c2777c59e42b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf65e06146f29d06c2a7d9d74705e0af0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#gaf65e06146f29d06c2a7d9d74705e0af0">ug::promesh::RefineSmooth</a> (Mesh *obj, bool strictSubsetInheritance)</td></tr>
 <tr class="separator:gaf65e06146f29d06c2a7d9d74705e0af0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadf2f1f1d3fd09f3d04053797ac32c5f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#gadf2f1f1d3fd09f3d04053797ac32c5f5">ug::promesh::RefineSmooth</a> (Mesh *obj)</td></tr>
+<tr class="separator:gadf2f1f1d3fd09f3d04053797ac32c5f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf4a6ef8170e85a32c2e086fa8ef335f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#gaf4a6ef8170e85a32c2e086fa8ef335f2">ug::promesh::RefineWithSnapPoints</a> (Mesh *obj)</td></tr>
+<tr class="separator:gaf4a6ef8170e85a32c2e086fa8ef335f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga28d4a840d57b0f0ca3ef38b22e5dd155"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga28d4a840d57b0f0ca3ef38b22e5dd155">ug::promesh::RegularizingRefinement</a> (Mesh *obj, const <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> aspectRatio)</td></tr>
+<tr class="separator:ga28d4a840d57b0f0ca3ef38b22e5dd155"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a6349dc09a3787e61d3f0e67da991d0c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6349dc09a3787e61d3f0e67da991d0c6">&sect;&nbsp;</a></span>TOOLTIP_CREATE_FRACTAL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TOOLTIP_CREATE_FRACTAL&#160;&#160;&#160;&quot;Refines the whole geometry using a fractal-refinement scheme-&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3af1bf7eadcf1780815d9c71beb6206c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3af1bf7eadcf1780815d9c71beb6206c">&sect;&nbsp;</a></span>TOOLTIP_FRACTURED_MEDIA_REFINE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TOOLTIP_FRACTURED_MEDIA_REFINE&#160;&#160;&#160;&quot;Refines selected elements using hanging nodes. Fractures are refined anisotropic.&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4c7c5e5350f36f920dc1ff6c17e1663d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c7c5e5350f36f920dc1ff6c17e1663d">&sect;&nbsp;</a></span>TOOLTIP_HANGING_NODE_REFINE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TOOLTIP_HANGING_NODE_REFINE&#160;&#160;&#160;&quot;Refines selected elements using hanging nodes&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="namespaceug_1_1promesh.html#aed55c9ae2af02b81a6486bf5a28c451c">ug::promesh::RegisterMeshingTools()</a>.</p>
+
+</div>
+</div>
+<a id="a00b1811fcca4dd75fdf3273159a8fa79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00b1811fcca4dd75fdf3273159a8fa79">&sect;&nbsp;</a></span>TOOLTIP_INSERT_CENTER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TOOLTIP_INSERT_CENTER&#160;&#160;&#160;&quot;Inserts a central vertex in all selected elements.&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="namespaceug_1_1promesh.html#aed55c9ae2af02b81a6486bf5a28c451c">ug::promesh::RegisterMeshingTools()</a>.</p>
+
+</div>
+</div>
+<a id="aeef94689c640a109b864c42a2201f702"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeef94689c640a109b864c42a2201f702">&sect;&nbsp;</a></span>TOOLTIP_REFINE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TOOLTIP_REFINE&#160;&#160;&#160;&quot;Refines selected elements and builds a regular closure.&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="namespaceug_1_1promesh.html#aed55c9ae2af02b81a6486bf5a28c451c">ug::promesh::RegisterMeshingTools()</a>.</p>
+
+</div>
+</div>
+<a id="a42a87ce0c50f6dc906c6c248a45d8ec6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42a87ce0c50f6dc906c6c248a45d8ec6">&sect;&nbsp;</a></span>TOOLTIP_REFINE_SMOOTH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TOOLTIP_REFINE_SMOOTH&#160;&#160;&#160;&quot;Refines selected elements using piecewise smooth refinement.&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="namespaceug_1_1promesh.html#aed55c9ae2af02b81a6486bf5a28c451c">ug::promesh::RegisterMeshingTools()</a>.</p>
+
+</div>
+</div>
+<a id="a9db88a30a7057fdcaeb04d5b0caf412d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9db88a30a7057fdcaeb04d5b0caf412d">&sect;&nbsp;</a></span>TOOLTIP_REFINE_SMOOTH_BOUNDARY_2D</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TOOLTIP_REFINE_SMOOTH_BOUNDARY_2D&#160;&#160;&#160;&quot;Refines selected elements using smooth subdivision rules on the boundary edges.&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3be579ee3c2017be0beac23f2114f2ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3be579ee3c2017be0beac23f2114f2ea">&sect;&nbsp;</a></span>TOOLTIP_REFINE_WITH_SNAP_POINTS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TOOLTIP_REFINE_WITH_SNAP_POINTS&#160;&#160;&#160;&quot;Refines selected elements so that new edges are built between midpoints of selected edges and selected vertices, <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../parser_8cpp.html#ab3454b1e7e7c4c0b732dfeb74a0c040f">if</a> possible.&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="namespaceug_1_1promesh.html#aed55c9ae2af02b81a6486bf5a28c451c">ug::promesh::RegisterMeshingTools()</a>.</p>
+
+</div>
+</div>
+<a id="af188036785ab61dbf51ebb5959fbd6ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af188036785ab61dbf51ebb5959fbd6ec">&sect;&nbsp;</a></span>TOOLTIP_REGULARIZING_REFINEMENT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TOOLTIP_REGULARIZING_REFINEMENT&#160;&#160;&#160;&quot;Marks and refines elements with small aspect ratios, trying <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> improves said aspect ratios.&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="namespaceug_1_1promesh.html#aed55c9ae2af02b81a6486bf5a28c451c">ug::promesh::RegisterMeshingTools()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_38c8d24aef3972a7f87b834274e76e31.html">plugins</a></li><li class="navelem"><a class="el" href="dir_763ed3e91742c64da7339b855c065f8b.html">ProMesh</a></li><li class="navelem"><a class="el" href="dir_90c8b690e559459740b0e677eab7f4d2.html">tools</a></li><li class="navelem"><a class="el" href="refinement__tools_8h.html">refinement_tools.h</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:15:42 for Plugins by
+    <li class="footer">Generated on Thu Mar 30 2017 18:41:19 for Plugins by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

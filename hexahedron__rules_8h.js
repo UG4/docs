@@ -1,5 +1,6 @@
 var hexahedron__rules_8h =
 [
+    [ "IsRegularRefRule", "hexahedron__rules_8h.html#abd70c541a2387d2d8bc49becaa1daaf0", null ],
     [ "Refine", "hexahedron__rules_8h.html#a80fbed640143ecc0f713a5edd57ead30", null ],
     [ "EDGE_FROM_VRTS", "hexahedron__rules_8h.html#a1c1c4b41a8cade27ccaa9262525519df", null ],
     [ "EDGE_VRT_INDS", "hexahedron__rules_8h.html#ad18ab2591f6303dfaae4b56206f253c0", null ],

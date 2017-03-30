@@ -106,6 +106,9 @@ $(document).ready(function(){initNavTree('functions_vars_d.html','');});
 , <a class="el" href="classug_1_1_point_source_or_sink.html#a4caa6304203ccfbe80e4279563fac08f">ug::PointSourceOrSink&lt; dim, non &gt;</a>
 , <a class="el" href="classug_1_1_sparse_vector.html#a2a89937e80ec68d81fede63c2eb163c6">ug::SparseVector&lt; T &gt;</a>
 </li>
+<li>declareFunc
+: <a class="el" href="structug_1_1_global_attachments_1_1_i_attachment_type.html#a3a0670539c4ed5b7b063b37a30c38ec0">ug::GlobalAttachments::IAttachmentType</a>
+</li>
 <li>deleted
 : <a class="el" href="classug_1_1_dim_c_r_f_v_geometry.html#a4ad52abe191e348102fc1caa2caaa23a">ug::DimCRFVGeometry&lt; TDim, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_h_c_r_f_v_geometry.html#a51c759c41b67de099f9efd5aabca892b">ug::HCRFVGeometry&lt; TElem, TWorldDim &gt;</a>
@@ -165,7 +168,7 @@ $(document).ready(function(){initNavTree('functions_vars_d.html','');});
 , <a class="el" href="classug_1_1_crouzeix_raviart_l_s_f_s_3_01_reference_quadrilateral_01_4.html#ae12c22292be543e0f9931b8bdefe6211">ug::CrouzeixRaviartLSFS&lt; ReferenceQuadrilateral &gt;</a>
 , <a class="el" href="classug_1_1_crouzeix_raviart_l_s_f_s_3_01_reference_tetrahedron_01_4.html#a309df1dec83fff44a4ffacaff455db4f">ug::CrouzeixRaviartLSFS&lt; ReferenceTetrahedron &gt;</a>
 , <a class="el" href="classug_1_1_crouzeix_raviart_l_s_f_s_3_01_reference_triangle_01_4.html#af519fd333294f00f7e43cbb17d59cd2e">ug::CrouzeixRaviartLSFS&lt; ReferenceTriangle &gt;</a>
-, <a class="el" href="classug_1_1_data_evaluator.html#a4cf982fade7268b11067f46d8e3160e7">ug::DataEvaluator&lt; TDomain &gt;</a>
+, <a class="el" href="classug_1_1_data_evaluator_base.html#a3863725cb5d00d01df07a987453ca8c5">ug::DataEvaluatorBase&lt; TDomain, TElemDisc &gt;</a>
 , <a class="el" href="classug_1_1_dim_c_r_f_v_geometry.html#a5e0641c43a5fddd23f690bffa8b137b5">ug::DimCRFVGeometry&lt; TDim, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_dim_f_e_geometry.html#a69148aced14503afda68cfeacd1c7a38">ug::DimFEGeometry&lt; TWorldDim, TRefDim &gt;</a>
 , <a class="el" href="classug_1_1_dim_f_v1_geometry.html#a22cbdb6d3da2429f227d4979682041ce">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;</a>
@@ -218,9 +221,13 @@ $(document).ready(function(){initNavTree('functions_vars_d.html','');});
 , <a class="el" href="structug_1_1_h_f_v1_manifold_geometry_1_1_mid_i_d.html#a533073ae6689c756af1a356d68f3479a">ug::HFV1ManifoldGeometry&lt; TElem, TWorldDim &gt;::MidID</a>
 , <a class="el" href="classug_1_1_i_d_w_interpolation.html#a4bf2dcdff5d002723f9948098f3ac12f">ug::IDWInterpolation&lt; WDim, TPntIterator, TData &gt;</a>
 , <a class="el" href="classug_1_1_i_d_w_user_data.html#a09124307f2d5c823f86677f94f21c12b">ug::IDWUserData&lt; WDim, TData &gt;</a>
+, <a class="el" href="classug_1_1_i_elem_assemble_funcs.html#ad5ed46541b220e546379aa4b56088250">ug::IElemAssembleFuncs&lt; TLeaf, TDomain &gt;</a>
 , <a class="el" href="classug_1_1_i_elem_disc.html#a85c295182381abdf589a01ffe24dfe1a">ug::IElemDisc&lt; TDomain &gt;</a>
+, <a class="el" href="classug_1_1_i_elem_disc_base.html#aec674340e667449ac16774e985e77759">ug::IElemDiscBase&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_i_elem_disc_modifier.html#ab7b7f79c13f31f694abb696ecd3b32e0">ug::IElemDiscModifier&lt; TDomain &gt;</a>
 , <a class="el" href="structug_1_1_i_element_marking_strategy.html#a15fa2c7d49b7d7496befabbe03910f9a">ug::IElementMarkingStrategy&lt; TDomain &gt;</a>
+, <a class="el" href="classug_1_1_i_elem_error.html#a0876439c504da2a8ed2adc9dd88ac8e8">ug::IElemError&lt; TDomain &gt;</a>
+, <a class="el" href="classug_1_1_i_elem_estimator_funcs.html#a36555ee7e19ff8d57ad50c9d4a079cae">ug::IElemEstimatorFuncs&lt; TLeaf, TDomain &gt;</a>
 , <a class="el" href="classug_1_1_i_err_est_data.html#a4f6a2b67389027ec8c8a0a5f5751dfbf">ug::IErrEstData&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_i_lagrange_multiplier_disc.html#a1e3aa00d726e2be62010bdad0f538502">ug::ILagrangeMultiplierDisc&lt; TDomain, TGridFunction &gt;</a>
 , <a class="el" href="classug_1_1_i_obstacle_constraint.html#a156d1c82f121113bbbeebef6c5a3d28b">ug::IObstacleConstraint&lt; TDomain, TAlgebra &gt;</a>
@@ -301,6 +308,9 @@ $(document).ready(function(){initNavTree('functions_vars_d.html','');});
 , <a class="el" href="classug_1_1_math_tensor_3_011_00_01_n_00_01_t_01_4.html#ac60d9e34190dee8c8a33c8fac0b25911">ug::MathTensor&lt; 1, N, T &gt;</a>
 , <a class="el" href="classug_1_1_math_tensor_x.html#ae2e468c2068847ac45a5b178bcf7542f">ug::MathTensorX&lt; TEntry, N &gt;</a>
 </li>
+<li>distanceSq
+: <a class="el" href="structug_1_1impl_1_1_project_vertices_to_close_edges_1_1_record.html#adf6cfb1fa887414b8ebe9b61814f649a">ug::impl::ProjectVerticesToCloseEdges::Record</a>
+</li>
 <li>distSQ
 : <a class="el" href="classug_1_1_k_d_vertex_distance.html#a822ab8f47993866a31254e72f43ff1fa">ug::KDVertexDistance</a>
 </li>
@@ -322,7 +332,7 @@ $(document).ready(function(){initNavTree('functions_vars_d.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Oct 19 2016 12:18:31 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:52 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

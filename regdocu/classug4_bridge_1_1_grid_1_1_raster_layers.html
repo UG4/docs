@@ -102,6 +102,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a22346065068bcdfa92e0f8767a523130"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug4_bridge_1_1_grid_1_1_raster_layers.html#a22346065068bcdfa92e0f8767a523130">blur_layers</a> (double <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#ga8ff3c16c0fe165cbcce8e09e4eb4c61f">alpha</a>, size_t num_iterations)</td></tr>
 <tr class="memdesc:a22346065068bcdfa92e0f8767a523130"><td class="mdescLeft">&#160;</td><td class="mdescRight">Blurs the values in each layer by averaging between neighbored cells on the same layer.  <a href="#a22346065068bcdfa92e0f8767a523130">More...</a><br /></td></tr>
 <tr class="separator:a22346065068bcdfa92e0f8767a523130"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e731325be00f9fb796ee5caad63b7cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug4_bridge_1_1_grid_1_1_raster_layers.html#a7e731325be00f9fb796ee5caad63b7cc">construct_relative_to_global_height_table</a> (size_t iterations, double <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#ga8ff3c16c0fe165cbcce8e09e4eb4c61f">alpha</a>)</td></tr>
+<tr class="memdesc:a7e731325be00f9fb796ee5caad63b7cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepares a table for improved height value reconstructions in no-data-regions.  <a href="#a7e731325be00f9fb796ee5caad63b7cc">More...</a><br /></td></tr>
+<tr class="separator:a7e731325be00f9fb796ee5caad63b7cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac08c45ff87061169e77fa1f4a9b4b0b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug4_bridge_1_1_grid_1_1_raster_layers.html#ac08c45ff87061169e77fa1f4a9b4b0b1">eliminate_invalid_cells</a> ()</td></tr>
 <tr class="separator:ac08c45ff87061169e77fa1f4a9b4b0b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8249460f68ed97f40943fe0b9ee25a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug4_bridge_1_1_grid_1_1_raster_layers.html#af8249460f68ed97f40943fe0b9ee25a0">invalidate_flat_cells</a> ()</td></tr>
@@ -187,6 +190,53 @@ Public Member Functions</h2></td></tr>
 </dl>
 
 <p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../classug_1_1_raster_layers.html#aa2ce4153c0713e1130d9ec3832f3ecd0">RasterLayers::blur_layers()</a>.</p>
+
+</div>
+</div>
+<a id="a7e731325be00f9fb796ee5caad63b7cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e731325be00f9fb796ee5caad63b7cc">&sect;&nbsp;</a></span>construct_relative_to_global_height_table()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void construct_relative_to_global_height_table </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>iterations</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>alpha</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Prepares a table for improved height value reconstructions in no-data-regions. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iterations</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">alpha</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../classug_1_1_raster_layers.html#a4b0dfaa953287e21176900862a8f9370">RasterLayers::construct_relative_to_global_height_table()</a>.</p>
 
 </div>
 </div>
@@ -410,7 +460,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug4_bridge.html">ug4Bridge</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1_grid.html">Grid</a></li><li class="navelem"><a class="el" href="classug4_bridge_1_1_grid_1_1_raster_layers.html">RasterLayers</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:16:59 for Registry by
+    <li class="footer">Generated on Thu Mar 30 2017 18:42:57 for Registry by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

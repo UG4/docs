@@ -96,6 +96,9 @@ $(document).ready(function(){initNavTree('namespaceug_1_1oct__rules.html','');})
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:aac0b2ea698322079486cadcf624a552a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug_1_1oct__rules.html#aac0b2ea698322079486cadcf624a552a">IsRegularRefRule</a> (const int edgeMarks)</td></tr>
+<tr class="memdesc:aac0b2ea698322079486cadcf624a552a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the specified edgeMarks would lead to a regular refinement  <a href="#aac0b2ea698322079486cadcf624a552a">More...</a><br /></td></tr>
+<tr class="separator:aac0b2ea698322079486cadcf624a552a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75b9b75ce0d920bc9c98107916e214ac"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug_1_1oct__rules.html#a75b9b75ce0d920bc9c98107916e214ac">Refine</a> (int *newIndsOut, int *newEdgeVrts, bool &amp;newCenterOut, <a class="el" href="group__vectors.html#ga894cdb8af74f7a563a94fb49c220fdcd">vector3</a> *corners, bool *)</td></tr>
 <tr class="separator:a75b9b75ce0d920bc9c98107916e214ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fa78a16a31544797c38f8a4c066d80e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug_1_1oct__rules.html#a5fa78a16a31544797c38f8a4c066d80e">RotateOctahedron</a> (int vrtsOut[<a class="el" href="namespaceug_1_1oct__rules.html#a713c1b1da15107e38f0153fb9ff5dc63">NUM_VERTICES</a>], int steps)</td></tr>
@@ -147,6 +150,34 @@ Variables</h2></td></tr>
 <tr class="separator:aa999226ab0f09ba2a9115f1b8d5d8e3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="aac0b2ea698322079486cadcf624a552a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac0b2ea698322079486cadcf624a552a">&sect;&nbsp;</a></span>IsRegularRefRule()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ug::oct_rules::IsRegularRefRule </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>edgeMarks</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns true if the specified edgeMarks would lead to a regular refinement </p>
+<p>A regular refinement leads to new elements which are all similar to the original element. I.e. which are of the same type and which have similar angles.</p>
+<dl class="section note"><dt>Note</dt><dd>this method does not perform refinement. Use 'Refine' with the specified edges instead.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">edgeMarks</td><td>If the i-th edge shall be refined, the expression 'edgeMarks &amp; (1&lt;&lt;i) != 0' has to be true. You can specify multiple refine-edges using or-combinations. E.g., 'edgeMarks = (1&lt;&lt;i) | (1&lt;&lt;j)' would indicate that the i-th and the j-th edge shall be refined. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a75b9b75ce0d920bc9c98107916e214ac"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a75b9b75ce0d920bc9c98107916e214ac">&sect;&nbsp;</a></span>Refine()</h2>
 
@@ -501,7 +532,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="namespaceug_1_1oct__rules.html">oct_rules</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:18:29 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:50 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

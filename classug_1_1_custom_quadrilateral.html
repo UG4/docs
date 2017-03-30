@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ug4: ug::CustomQuadrilateral&lt; ConcreteQuadrilateralType, BaseClass &gt; Class Template Reference</title>
+<title>ug4: ug::CustomQuadrilateral&lt; ConcreteQuadrilateralType, BaseClass, RefTriType, RefQuadType &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -93,7 +93,7 @@ $(document).ready(function(){initNavTree('classug_1_1_custom_quadrilateral.html'
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classug_1_1_custom_quadrilateral-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">ug::CustomQuadrilateral&lt; ConcreteQuadrilateralType, BaseClass &gt; Class Template Reference</div>  </div>
+<div class="title">ug::CustomQuadrilateral&lt; ConcreteQuadrilateralType, BaseClass, RefTriType, RefQuadType &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -102,88 +102,91 @@ $(document).ready(function(){initNavTree('classug_1_1_custom_quadrilateral.html'
 
 <p><code>#include &lt;<a class="el" href="grid__objects__2d_8h_source.html">grid_objects_2d.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for ug::CustomQuadrilateral&lt; ConcreteQuadrilateralType, BaseClass &gt;:</div>
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for ug::CustomQuadrilateral&lt; ConcreteQuadrilateralType, BaseClass, RefTriType, RefQuadType &gt;:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
  <div class="center">
-  <img src="classug_1_1_custom_quadrilateral.png" usemap="#ug::CustomQuadrilateral_3C_20ConcreteQuadrilateralType_2C_20BaseClass_20_3E_map" alt=""/>
-  <map id="ug::CustomQuadrilateral_3C_20ConcreteQuadrilateralType_2C_20BaseClass_20_3E_map" name="ug::CustomQuadrilateral&lt; ConcreteQuadrilateralType, BaseClass &gt;_map">
+  <img src="classug_1_1_custom_quadrilateral.png" usemap="#ug::CustomQuadrilateral_3C_20ConcreteQuadrilateralType_2C_20BaseClass_2C_20RefTriType_2C_20RefQuadType_20_3E_map" alt=""/>
+  <map id="ug::CustomQuadrilateral_3C_20ConcreteQuadrilateralType_2C_20BaseClass_2C_20RefTriType_2C_20RefQuadType_20_3E_map" name="ug::CustomQuadrilateral&lt; ConcreteQuadrilateralType, BaseClass, RefTriType, RefQuadType &gt;_map">
 </map>
  </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5258350b16ed4396979187bcb812380f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#a5258350b16ed4396979187bcb812380f">collapse_edge</a> (std::vector&lt; <a class="el" href="classug_1_1_face.html">Face</a> *&gt; &amp;vNewFacesOut, int edgeIndex, <a class="el" href="classug_1_1_vertex.html">Vertex</a> *newVertex, <a class="el" href="classug_1_1_vertex.html">Vertex</a> **pSubstituteVertices=NULL)</td></tr>
-<tr class="separator:a5258350b16ed4396979187bcb812380f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b7f59dbac90dda5c5a01e296649ac04"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#a5b7f59dbac90dda5c5a01e296649ac04">collapse_edges</a> (std::vector&lt; <a class="el" href="classug_1_1_face.html">Face</a> *&gt; &amp;vNewFacesOut, std::vector&lt; <a class="el" href="classug_1_1_vertex.html">Vertex</a> *&gt; &amp;vNewEdgeVertices, <a class="el" href="classug_1_1_vertex.html">Vertex</a> **pSubstituteVertices=NULL)</td></tr>
-<tr class="separator:a5b7f59dbac90dda5c5a01e296649ac04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0d17843c22f5a418cdf94838af4eec7"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classug_1_1_grid_object.html">GridObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#aa0d17843c22f5a418cdf94838af4eec7">create_empty_instance</a> () const</td></tr>
-<tr class="separator:aa0d17843c22f5a418cdf94838af4eec7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81a05af895a3e08bc8ff9464ef89240f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#a81a05af895a3e08bc8ff9464ef89240f">create_faces_by_edge_split</a> (int splitEdgeIndex, <a class="el" href="classug_1_1_vertex.html">Vertex</a> *newVertex, std::vector&lt; <a class="el" href="classug_1_1_face.html">Face</a> *&gt; &amp;vNewFacesOut, <a class="el" href="classug_1_1_vertex.html">Vertex</a> **pSubstituteVertices=NULL)</td></tr>
-<tr class="separator:a81a05af895a3e08bc8ff9464ef89240f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8b99a09ee348ee44bd17e2242d2a1ec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#ac8b99a09ee348ee44bd17e2242d2a1ec">CustomQuadrilateral</a> ()</td></tr>
-<tr class="separator:ac8b99a09ee348ee44bd17e2242d2a1ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a511da23510c940a68793ad7eeda6524f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#a511da23510c940a68793ad7eeda6524f">CustomQuadrilateral</a> (const <a class="el" href="classug_1_1_quadrilateral_descriptor.html">QuadrilateralDescriptor</a> &amp;qd)</td></tr>
-<tr class="separator:a511da23510c940a68793ad7eeda6524f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd8755650313a91880aa6e0c37225d92"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#acd8755650313a91880aa6e0c37225d92">CustomQuadrilateral</a> (<a class="el" href="classug_1_1_vertex.html">Vertex</a> *v1, <a class="el" href="classug_1_1_vertex.html">Vertex</a> *v2, <a class="el" href="classug_1_1_vertex.html">Vertex</a> *v3, <a class="el" href="classug_1_1_vertex.html">Vertex</a> *v4)</td></tr>
-<tr class="separator:acd8755650313a91880aa6e0c37225d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c077e2a9a26b81255c6eed1bcb9a261"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classug_1_1_edge_descriptor.html">EdgeDescriptor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#a6c077e2a9a26b81255c6eed1bcb9a261">edge_desc</a> (int index) const</td></tr>
-<tr class="separator:a6c077e2a9a26b81255c6eed1bcb9a261"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47d7d869aecfd86f4fa2b281516a46f2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#a47d7d869aecfd86f4fa2b281516a46f2">edge_desc</a> (int index, <a class="el" href="classug_1_1_edge_descriptor.html">EdgeDescriptor</a> &amp;edOut) const</td></tr>
-<tr class="separator:a47d7d869aecfd86f4fa2b281516a46f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3ad061f337ca9288d6eb8d2181122f1"><td class="memItemLeft" align="right" valign="top">virtual std::pair&lt; <a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13c">GridBaseObjectId</a>, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#ad3ad061f337ca9288d6eb8d2181122f1">get_opposing_object</a> (<a class="el" href="classug_1_1_vertex.html">Vertex</a> *vrt) const</td></tr>
-<tr class="separator:ad3ad061f337ca9288d6eb8d2181122f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a425c96e76200ae4a7fea9d76c00e7735"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#a425c96e76200ae4a7fea9d76c00e7735">get_opposing_side</a> (<a class="el" href="classug_1_1_edge_vertices.html">EdgeVertices</a> *e, <a class="el" href="classug_1_1_edge_descriptor.html">EdgeDescriptor</a> &amp;edOut) const</td></tr>
-<tr class="memdesc:a425c96e76200ae4a7fea9d76c00e7735"><td class="mdescLeft">&#160;</td><td class="mdescRight">fills the edge-descriptor with the edge that lies opposed to the specified one  <a href="#a425c96e76200ae4a7fea9d76c00e7735">More...</a><br /></td></tr>
-<tr class="separator:a425c96e76200ae4a7fea9d76c00e7735"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a897678ade558dcf86dded499b74c70e3"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#a897678ade558dcf86dded499b74c70e3">num_vertices</a> () const</td></tr>
-<tr class="separator:a897678ade558dcf86dded499b74c70e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad67c6706dc8a35081b53a608c5961697"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceug.html#a1f0e19a0ec74b2ebb64238aeb498c51b">ReferenceObjectID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#ad67c6706dc8a35081b53a608c5961697">reference_object_id</a> () const</td></tr>
-<tr class="separator:ad67c6706dc8a35081b53a608c5961697"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a5cdf4651555272adc4897b15943cf7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#a5a5cdf4651555272adc4897b15943cf7">refine</a> (std::vector&lt; <a class="el" href="classug_1_1_face.html">Face</a> *&gt; &amp;vNewFacesOut, <a class="el" href="classug_1_1_vertex.html">Vertex</a> **newFaceVertexOut, <a class="el" href="classug_1_1_vertex.html">Vertex</a> **newEdgeVertices, <a class="el" href="classug_1_1_vertex.html">Vertex</a> *newFaceVertex=NULL, <a class="el" href="classug_1_1_vertex.html">Vertex</a> **pSubstituteVertices=NULL, int snapPointIndex=-1)</td></tr>
-<tr class="memdesc:a5a5cdf4651555272adc4897b15943cf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refines a <a class="el" href="classug_1_1_quadrilateral.html" title="a face with four points. ">Quadrilateral</a> by inserting new vertices.  <a href="#a5a5cdf4651555272adc4897b15943cf7">More...</a><br /></td></tr>
-<tr class="separator:a5a5cdf4651555272adc4897b15943cf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6171d66f69745ebd9d527c5495541d30"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classug_1_1_vertex.html">Vertex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#a6171d66f69745ebd9d527c5495541d30">vertex</a> (size_t index) const</td></tr>
-<tr class="separator:a6171d66f69745ebd9d527c5495541d30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd477d17a76f439eefd4677a6db13e3d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classug_1_1_i_vertex_group.html#a607f96b533c074bb5391d16bc089548e">Face::ConstVertexArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#acd477d17a76f439eefd4677a6db13e3d">vertices</a> () const</td></tr>
-<tr class="separator:acd477d17a76f439eefd4677a6db13e3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfb78b69fee95f1c33183488b69979bd"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#acfb78b69fee95f1c33183488b69979bd">collapse_edge</a> (std::vector&lt; <a class="el" href="classug_1_1_face.html">Face</a> *&gt; &amp;vNewFacesOut, int edgeIndex, <a class="el" href="classug_1_1_vertex.html">Vertex</a> *newVertex, <a class="el" href="classug_1_1_vertex.html">Vertex</a> **pSubstituteVertices=NULL)</td></tr>
+<tr class="separator:acfb78b69fee95f1c33183488b69979bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd142185d325747a83b02e862e39ee8c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#abd142185d325747a83b02e862e39ee8c">collapse_edges</a> (std::vector&lt; <a class="el" href="classug_1_1_face.html">Face</a> *&gt; &amp;vNewFacesOut, std::vector&lt; <a class="el" href="classug_1_1_vertex.html">Vertex</a> *&gt; &amp;vNewEdgeVertices, <a class="el" href="classug_1_1_vertex.html">Vertex</a> **pSubstituteVertices=NULL)</td></tr>
+<tr class="separator:abd142185d325747a83b02e862e39ee8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af47a067b4ab2e6f94887198d173a65ad"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classug_1_1_grid_object.html">GridObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#af47a067b4ab2e6f94887198d173a65ad">create_empty_instance</a> () const</td></tr>
+<tr class="separator:af47a067b4ab2e6f94887198d173a65ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3896302447ddfc62657dbfb40191f656"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#a3896302447ddfc62657dbfb40191f656">create_faces_by_edge_split</a> (int splitEdgeIndex, <a class="el" href="classug_1_1_vertex.html">Vertex</a> *newVertex, std::vector&lt; <a class="el" href="classug_1_1_face.html">Face</a> *&gt; &amp;vNewFacesOut, <a class="el" href="classug_1_1_vertex.html">Vertex</a> **pSubstituteVertices=NULL)</td></tr>
+<tr class="separator:a3896302447ddfc62657dbfb40191f656"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a41d05b20cd61f1409633bbb348585e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#a4a41d05b20cd61f1409633bbb348585e">CustomQuadrilateral</a> ()</td></tr>
+<tr class="separator:a4a41d05b20cd61f1409633bbb348585e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8d4b3b6d8db17cd5ecce22d669bdd79"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#ab8d4b3b6d8db17cd5ecce22d669bdd79">CustomQuadrilateral</a> (const <a class="el" href="classug_1_1_quadrilateral_descriptor.html">QuadrilateralDescriptor</a> &amp;qd)</td></tr>
+<tr class="separator:ab8d4b3b6d8db17cd5ecce22d669bdd79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79bfb0cd7150abb18273cd0df036754e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#a79bfb0cd7150abb18273cd0df036754e">CustomQuadrilateral</a> (<a class="el" href="classug_1_1_vertex.html">Vertex</a> *v1, <a class="el" href="classug_1_1_vertex.html">Vertex</a> *v2, <a class="el" href="classug_1_1_vertex.html">Vertex</a> *v3, <a class="el" href="classug_1_1_vertex.html">Vertex</a> *v4)</td></tr>
+<tr class="separator:a79bfb0cd7150abb18273cd0df036754e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3acfae5bb559c00f9a9919b6fdba354b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classug_1_1_edge_descriptor.html">EdgeDescriptor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#a3acfae5bb559c00f9a9919b6fdba354b">edge_desc</a> (int index) const</td></tr>
+<tr class="separator:a3acfae5bb559c00f9a9919b6fdba354b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c245685d4561a6ccbfa153f28ff373e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#a0c245685d4561a6ccbfa153f28ff373e">edge_desc</a> (int index, <a class="el" href="classug_1_1_edge_descriptor.html">EdgeDescriptor</a> &amp;edOut) const</td></tr>
+<tr class="separator:a0c245685d4561a6ccbfa153f28ff373e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88b663c83573d5fd8e6c559a720c9f71"><td class="memItemLeft" align="right" valign="top">virtual std::pair&lt; <a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13c">GridBaseObjectId</a>, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#a88b663c83573d5fd8e6c559a720c9f71">get_opposing_object</a> (<a class="el" href="classug_1_1_vertex.html">Vertex</a> *vrt) const</td></tr>
+<tr class="separator:a88b663c83573d5fd8e6c559a720c9f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab4ecd888c499119df552413d27a44fc"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#aab4ecd888c499119df552413d27a44fc">get_opposing_side</a> (<a class="el" href="classug_1_1_edge_vertices.html">EdgeVertices</a> *e, <a class="el" href="classug_1_1_edge_descriptor.html">EdgeDescriptor</a> &amp;edOut) const</td></tr>
+<tr class="memdesc:aab4ecd888c499119df552413d27a44fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">fills the edge-descriptor with the edge that lies opposed to the specified one  <a href="#aab4ecd888c499119df552413d27a44fc">More...</a><br /></td></tr>
+<tr class="separator:aab4ecd888c499119df552413d27a44fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc154ac896f0f89a9697adcf6b27c685"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#abc154ac896f0f89a9697adcf6b27c685">is_regular_ref_rule</a> (int edgeMarks) const</td></tr>
+<tr class="separator:abc154ac896f0f89a9697adcf6b27c685"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad87050dd6cb3d840dc94b90ef45887ba"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#ad87050dd6cb3d840dc94b90ef45887ba">num_vertices</a> () const</td></tr>
+<tr class="separator:ad87050dd6cb3d840dc94b90ef45887ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a034e36cb0dc8b218cb4964c42f535d1a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceug.html#a1f0e19a0ec74b2ebb64238aeb498c51b">ReferenceObjectID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#a034e36cb0dc8b218cb4964c42f535d1a">reference_object_id</a> () const</td></tr>
+<tr class="separator:a034e36cb0dc8b218cb4964c42f535d1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a376855070bc2f7add8a915fb1ce5f1"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#a9a376855070bc2f7add8a915fb1ce5f1">refine</a> (std::vector&lt; <a class="el" href="classug_1_1_face.html">Face</a> *&gt; &amp;vNewFacesOut, <a class="el" href="classug_1_1_vertex.html">Vertex</a> **newFaceVertexOut, <a class="el" href="classug_1_1_vertex.html">Vertex</a> **newEdgeVertices, <a class="el" href="classug_1_1_vertex.html">Vertex</a> *newFaceVertex=NULL, <a class="el" href="classug_1_1_vertex.html">Vertex</a> **pSubstituteVertices=NULL, int snapPointIndex=-1)</td></tr>
+<tr class="memdesc:a9a376855070bc2f7add8a915fb1ce5f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refines a <a class="el" href="classug_1_1_quadrilateral.html" title="a face with four points. ">Quadrilateral</a> by inserting new vertices.  <a href="#a9a376855070bc2f7add8a915fb1ce5f1">More...</a><br /></td></tr>
+<tr class="separator:a9a376855070bc2f7add8a915fb1ce5f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2325071c2f34dfa7889ca019b56cf809"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classug_1_1_vertex.html">Vertex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#a2325071c2f34dfa7889ca019b56cf809">vertex</a> (size_t index) const</td></tr>
+<tr class="separator:a2325071c2f34dfa7889ca019b56cf809"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad07138f7921b75d35daf4f0633d6a592"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classug_1_1_i_vertex_group.html#a607f96b533c074bb5391d16bc089548e">Face::ConstVertexArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#ad07138f7921b75d35daf4f0633d6a592">vertices</a> () const</td></tr>
+<tr class="separator:ad07138f7921b75d35daf4f0633d6a592"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a4b16b194750675e74f57a6f7de4f731f"><td class="memItemLeft" align="right" valign="top">static const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#a4b16b194750675e74f57a6f7de4f731f">NUM_VERTICES</a> = 4</td></tr>
-<tr class="separator:a4b16b194750675e74f57a6f7de4f731f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7101a9d34273e3f4bc2894f4f51e083"><td class="memItemLeft" align="right" valign="top">static const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#aa7101a9d34273e3f4bc2894f4f51e083">NUM_VERTICES</a> = 4</td></tr>
+<tr class="separator:aa7101a9d34273e3f4bc2894f4f51e083"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:ab7b53c91f1f7b15705f2e2f2f45fdb28"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#ab7b53c91f1f7b15705f2e2f2f45fdb28">set_vertex</a> (<a class="el" href="group__ugbase__common.html#ga91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> index, <a class="el" href="classug_1_1_vertex.html">Vertex</a> *pVrt)</td></tr>
-<tr class="separator:ab7b53c91f1f7b15705f2e2f2f45fdb28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a031af27e906fc2839643ad42c259f4a8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#a031af27e906fc2839643ad42c259f4a8">set_vertex</a> (<a class="el" href="group__ugbase__common.html#ga91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> index, <a class="el" href="classug_1_1_vertex.html">Vertex</a> *pVrt)</td></tr>
+<tr class="separator:a031af27e906fc2839643ad42c259f4a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a998a74a2ed957c4c4b0341e9ac6269ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_vertex.html">Vertex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#a998a74a2ed957c4c4b0341e9ac6269ad">m_vertices</a> [4]</td></tr>
-<tr class="separator:a998a74a2ed957c4c4b0341e9ac6269ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd2ced1432b4650133546f0984d128df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_vertex.html">Vertex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_custom_quadrilateral.html#afd2ced1432b4650133546f0984d128df">m_vertices</a> [4]</td></tr>
+<tr class="separator:afd2ced1432b4650133546f0984d128df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;class ConcreteQuadrilateralType, class BaseClass&gt;<br />
-class ug::CustomQuadrilateral&lt; ConcreteQuadrilateralType, BaseClass &gt;</h3>
+<div class="textblock"><h3>template&lt;class ConcreteQuadrilateralType, class BaseClass, class RefTriType, class RefQuadType&gt;<br />
+class ug::CustomQuadrilateral&lt; ConcreteQuadrilateralType, BaseClass, RefTriType, RefQuadType &gt;</h3>
 
 <p>Concrete types share this base-type. It is not intended for direct use. </p>
-<p>BaseClass has to be derived from <a class="el" href="classug_1_1_face.html" title="Faces are 2-dimensional objects. ">Face</a> (or simply should be <a class="el" href="classug_1_1_face.html" title="Faces are 2-dimensional objects. ">Face</a>). The ConcreteQuadrilateralType is used in methods like refine, etc. as the type of newly created objects. </p>
+<p>BaseClass has to be derived from <a class="el" href="classug_1_1_face.html" title="Faces are 2-dimensional objects. ">Face</a> (or simply should be <a class="el" href="classug_1_1_face.html" title="Faces are 2-dimensional objects. ">Face</a>). The ConcreteQuadrilateralType is used in methods like refine, etc. as the type of newly created objects.</p>
+<p>RefTriType and RefQuadType are used to create new elements during refinement operations. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ac8b99a09ee348ee44bd17e2242d2a1ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac8b99a09ee348ee44bd17e2242d2a1ec">&sect;&nbsp;</a></span>CustomQuadrilateral() <span class="overload">[1/3]</span></h2>
+<a id="a4a41d05b20cd61f1409633bbb348585e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a41d05b20cd61f1409633bbb348585e">&sect;&nbsp;</a></span>CustomQuadrilateral() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ConcreteQuadrilateralType, class BaseClass&gt; </div>
+template&lt;class ConcreteQuadrilateralType, class BaseClass, class RefTriType, class RefQuadType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass &gt;::<a class="el" href="classug_1_1_custom_quadrilateral.html">CustomQuadrilateral</a> </td>
+          <td class="memname"><a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass, RefTriType, RefQuadType &gt;::<a class="el" href="classug_1_1_custom_quadrilateral.html">CustomQuadrilateral</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -198,16 +201,16 @@ template&lt;class ConcreteQuadrilateralType, class BaseClass&gt; </div>
 
 </div>
 </div>
-<a id="a511da23510c940a68793ad7eeda6524f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a511da23510c940a68793ad7eeda6524f">&sect;&nbsp;</a></span>CustomQuadrilateral() <span class="overload">[2/3]</span></h2>
+<a id="ab8d4b3b6d8db17cd5ecce22d669bdd79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8d4b3b6d8db17cd5ecce22d669bdd79">&sect;&nbsp;</a></span>CustomQuadrilateral() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ConcreteQuadrilateralType , class BaseClass &gt; </div>
+template&lt;class ConcreteQuadrilateralType , class BaseClass , class RefTriType , class RefQuadType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass &gt;::<a class="el" href="classug_1_1_custom_quadrilateral.html">CustomQuadrilateral</a> </td>
+          <td class="memname"><a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass, RefTriType, RefQuadType &gt;::<a class="el" href="classug_1_1_custom_quadrilateral.html">CustomQuadrilateral</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classug_1_1_quadrilateral_descriptor.html">QuadrilateralDescriptor</a> &amp;&#160;</td>
           <td class="paramname"><em>qd</em></td><td>)</td>
@@ -218,16 +221,16 @@ template&lt;class ConcreteQuadrilateralType , class BaseClass &gt; </div>
 
 </div>
 </div>
-<a id="acd8755650313a91880aa6e0c37225d92"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd8755650313a91880aa6e0c37225d92">&sect;&nbsp;</a></span>CustomQuadrilateral() <span class="overload">[3/3]</span></h2>
+<a id="a79bfb0cd7150abb18273cd0df036754e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79bfb0cd7150abb18273cd0df036754e">&sect;&nbsp;</a></span>CustomQuadrilateral() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ConcreteQuadrilateralType , class BaseClass &gt; </div>
+template&lt;class ConcreteQuadrilateralType , class BaseClass , class RefTriType , class RefQuadType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass &gt;::<a class="el" href="classug_1_1_custom_quadrilateral.html">CustomQuadrilateral</a> </td>
+          <td class="memname"><a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass, RefTriType, RefQuadType &gt;::<a class="el" href="classug_1_1_custom_quadrilateral.html">CustomQuadrilateral</a> </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classug_1_1_vertex.html">Vertex</a> *&#160;</td>
           <td class="paramname"><em>v1</em>, </td>
@@ -261,19 +264,19 @@ template&lt;class ConcreteQuadrilateralType , class BaseClass &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a5258350b16ed4396979187bcb812380f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5258350b16ed4396979187bcb812380f">&sect;&nbsp;</a></span>collapse_edge()</h2>
+<a id="acfb78b69fee95f1c33183488b69979bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfb78b69fee95f1c33183488b69979bd">&sect;&nbsp;</a></span>collapse_edge()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ConcreteQuadrilateralType , class BaseClass &gt; </div>
+template&lt;class ConcreteQuadrilateralType , class BaseClass , class RefTriType , class RefQuadType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass &gt;::collapse_edge </td>
+          <td class="memname">bool <a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass, RefTriType, RefQuadType &gt;::collapse_edge </td>
           <td>(</td>
           <td class="paramtype">std::vector&lt; <a class="el" href="classug_1_1_face.html">Face</a> *&gt; &amp;&#160;</td>
           <td class="paramname"><em>vNewFacesOut</em>, </td>
@@ -311,19 +314,19 @@ template&lt;class ConcreteQuadrilateralType , class BaseClass &gt; </div>
 
 </div>
 </div>
-<a id="a5b7f59dbac90dda5c5a01e296649ac04"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b7f59dbac90dda5c5a01e296649ac04">&sect;&nbsp;</a></span>collapse_edges()</h2>
+<a id="abd142185d325747a83b02e862e39ee8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd142185d325747a83b02e862e39ee8c">&sect;&nbsp;</a></span>collapse_edges()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ConcreteQuadrilateralType , class BaseClass &gt; </div>
+template&lt;class ConcreteQuadrilateralType , class BaseClass , class RefTriType , class RefQuadType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass &gt;::collapse_edges </td>
+          <td class="memname">bool <a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass, RefTriType, RefQuadType &gt;::collapse_edges </td>
           <td>(</td>
           <td class="paramtype">std::vector&lt; <a class="el" href="classug_1_1_face.html">Face</a> *&gt; &amp;&#160;</td>
           <td class="paramname"><em>vNewFacesOut</em>, </td>
@@ -355,19 +358,19 @@ template&lt;class ConcreteQuadrilateralType , class BaseClass &gt; </div>
 
 </div>
 </div>
-<a id="aa0d17843c22f5a418cdf94838af4eec7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0d17843c22f5a418cdf94838af4eec7">&sect;&nbsp;</a></span>create_empty_instance()</h2>
+<a id="af47a067b4ab2e6f94887198d173a65ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af47a067b4ab2e6f94887198d173a65ad">&sect;&nbsp;</a></span>create_empty_instance()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ConcreteQuadrilateralType, class BaseClass&gt; </div>
+template&lt;class ConcreteQuadrilateralType, class BaseClass, class RefTriType, class RefQuadType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="classug_1_1_grid_object.html">GridObject</a>* <a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass &gt;::create_empty_instance </td>
+          <td class="memname">virtual <a class="el" href="classug_1_1_grid_object.html">GridObject</a>* <a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass, RefTriType, RefQuadType &gt;::create_empty_instance </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -382,19 +385,19 @@ template&lt;class ConcreteQuadrilateralType, class BaseClass&gt; </div>
 
 </div>
 </div>
-<a id="a81a05af895a3e08bc8ff9464ef89240f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81a05af895a3e08bc8ff9464ef89240f">&sect;&nbsp;</a></span>create_faces_by_edge_split()</h2>
+<a id="a3896302447ddfc62657dbfb40191f656"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3896302447ddfc62657dbfb40191f656">&sect;&nbsp;</a></span>create_faces_by_edge_split()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ConcreteQuadrilateralType , class BaseClass &gt; </div>
+template&lt;class ConcreteQuadrilateralType , class BaseClass , class RefTriType , class RefQuadType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass &gt;::create_faces_by_edge_split </td>
+          <td class="memname">void <a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass, RefTriType, RefQuadType &gt;::create_faces_by_edge_split </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>splitEdgeIndex</em>, </td>
@@ -432,19 +435,19 @@ template&lt;class ConcreteQuadrilateralType , class BaseClass &gt; </div>
 
 </div>
 </div>
-<a id="a6c077e2a9a26b81255c6eed1bcb9a261"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c077e2a9a26b81255c6eed1bcb9a261">&sect;&nbsp;</a></span>edge_desc() <span class="overload">[1/2]</span></h2>
+<a id="a3acfae5bb559c00f9a9919b6fdba354b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3acfae5bb559c00f9a9919b6fdba354b">&sect;&nbsp;</a></span>edge_desc() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ConcreteQuadrilateralType, class BaseClass&gt; </div>
+template&lt;class ConcreteQuadrilateralType, class BaseClass, class RefTriType, class RefQuadType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="classug_1_1_edge_descriptor.html">EdgeDescriptor</a> <a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass &gt;::edge_desc </td>
+          <td class="memname">virtual <a class="el" href="classug_1_1_edge_descriptor.html">EdgeDescriptor</a> <a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass, RefTriType, RefQuadType &gt;::edge_desc </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>index</em></td><td>)</td>
@@ -460,19 +463,19 @@ template&lt;class ConcreteQuadrilateralType, class BaseClass&gt; </div>
 
 </div>
 </div>
-<a id="a47d7d869aecfd86f4fa2b281516a46f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47d7d869aecfd86f4fa2b281516a46f2">&sect;&nbsp;</a></span>edge_desc() <span class="overload">[2/2]</span></h2>
+<a id="a0c245685d4561a6ccbfa153f28ff373e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c245685d4561a6ccbfa153f28ff373e">&sect;&nbsp;</a></span>edge_desc() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ConcreteQuadrilateralType, class BaseClass&gt; </div>
+template&lt;class ConcreteQuadrilateralType, class BaseClass, class RefTriType, class RefQuadType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void <a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass &gt;::edge_desc </td>
+          <td class="memname">virtual void <a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass, RefTriType, RefQuadType &gt;::edge_desc </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>index</em>, </td>
@@ -498,19 +501,19 @@ template&lt;class ConcreteQuadrilateralType, class BaseClass&gt; </div>
 
 </div>
 </div>
-<a id="ad3ad061f337ca9288d6eb8d2181122f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3ad061f337ca9288d6eb8d2181122f1">&sect;&nbsp;</a></span>get_opposing_object()</h2>
+<a id="a88b663c83573d5fd8e6c559a720c9f71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88b663c83573d5fd8e6c559a720c9f71">&sect;&nbsp;</a></span>get_opposing_object()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ConcreteQuadrilateralType , class BaseClass &gt; </div>
+template&lt;class ConcreteQuadrilateralType , class BaseClass , class RefTriType , class RefQuadType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::pair&lt; <a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13c">GridBaseObjectId</a>, int &gt; <a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass &gt;::get_opposing_object </td>
+          <td class="memname">std::pair&lt; <a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13c">GridBaseObjectId</a>, int &gt; <a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass, RefTriType, RefQuadType &gt;::get_opposing_object </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classug_1_1_vertex.html">Vertex</a> *&#160;</td>
           <td class="paramname"><em>vrt</em></td><td>)</td>
@@ -526,19 +529,19 @@ template&lt;class ConcreteQuadrilateralType , class BaseClass &gt; </div>
 
 </div>
 </div>
-<a id="a425c96e76200ae4a7fea9d76c00e7735"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a425c96e76200ae4a7fea9d76c00e7735">&sect;&nbsp;</a></span>get_opposing_side()</h2>
+<a id="aab4ecd888c499119df552413d27a44fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab4ecd888c499119df552413d27a44fc">&sect;&nbsp;</a></span>get_opposing_side()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ConcreteQuadrilateralType , class BaseClass &gt; </div>
+template&lt;class ConcreteQuadrilateralType , class BaseClass , class RefTriType , class RefQuadType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass &gt;::get_opposing_side </td>
+          <td class="memname">bool <a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass, RefTriType, RefQuadType &gt;::get_opposing_side </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classug_1_1_edge_vertices.html">EdgeVertices</a> *&#160;</td>
           <td class="paramname"><em>e</em>, </td>
@@ -567,19 +570,47 @@ template&lt;class ConcreteQuadrilateralType , class BaseClass &gt; </div>
 
 </div>
 </div>
-<a id="a897678ade558dcf86dded499b74c70e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a897678ade558dcf86dded499b74c70e3">&sect;&nbsp;</a></span>num_vertices()</h2>
+<a id="abc154ac896f0f89a9697adcf6b27c685"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc154ac896f0f89a9697adcf6b27c685">&sect;&nbsp;</a></span>is_regular_ref_rule()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ConcreteQuadrilateralType, class BaseClass&gt; </div>
+template&lt;class ConcreteQuadrilateralType , class BaseClass , class RefTriType , class RefQuadType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual size_t <a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass &gt;::num_vertices </td>
+          <td class="memname">bool <a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass, RefTriType, RefQuadType &gt;::is_regular_ref_rule </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>edgeMarks</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad87050dd6cb3d840dc94b90ef45887ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad87050dd6cb3d840dc94b90ef45887ba">&sect;&nbsp;</a></span>num_vertices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ConcreteQuadrilateralType, class BaseClass, class RefTriType, class RefQuadType&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual size_t <a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass, RefTriType, RefQuadType &gt;::num_vertices </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -594,19 +625,19 @@ template&lt;class ConcreteQuadrilateralType, class BaseClass&gt; </div>
 
 </div>
 </div>
-<a id="ad67c6706dc8a35081b53a608c5961697"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad67c6706dc8a35081b53a608c5961697">&sect;&nbsp;</a></span>reference_object_id()</h2>
+<a id="a034e36cb0dc8b218cb4964c42f535d1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a034e36cb0dc8b218cb4964c42f535d1a">&sect;&nbsp;</a></span>reference_object_id()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ConcreteQuadrilateralType, class BaseClass&gt; </div>
+template&lt;class ConcreteQuadrilateralType, class BaseClass, class RefTriType, class RefQuadType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespaceug.html#a1f0e19a0ec74b2ebb64238aeb498c51b">ReferenceObjectID</a> <a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass &gt;::reference_object_id </td>
+          <td class="memname">virtual <a class="el" href="namespaceug.html#a1f0e19a0ec74b2ebb64238aeb498c51b">ReferenceObjectID</a> <a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass, RefTriType, RefQuadType &gt;::reference_object_id </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -621,19 +652,19 @@ template&lt;class ConcreteQuadrilateralType, class BaseClass&gt; </div>
 
 </div>
 </div>
-<a id="a5a5cdf4651555272adc4897b15943cf7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a5cdf4651555272adc4897b15943cf7">&sect;&nbsp;</a></span>refine()</h2>
+<a id="a9a376855070bc2f7add8a915fb1ce5f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a376855070bc2f7add8a915fb1ce5f1">&sect;&nbsp;</a></span>refine()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ConcreteQuadrilateralType , class BaseClass &gt; </div>
+template&lt;class ConcreteQuadrilateralType , class BaseClass , class RefTriType , class RefQuadType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass &gt;::refine </td>
+          <td class="memname">bool <a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass, RefTriType, RefQuadType &gt;::refine </td>
           <td>(</td>
           <td class="paramtype">std::vector&lt; <a class="el" href="classug_1_1_face.html">Face</a> *&gt; &amp;&#160;</td>
           <td class="paramname"><em>vNewFacesOut</em>, </td>
@@ -686,19 +717,19 @@ template&lt;class ConcreteQuadrilateralType , class BaseClass &gt; </div>
 
 </div>
 </div>
-<a id="ab7b53c91f1f7b15705f2e2f2f45fdb28"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7b53c91f1f7b15705f2e2f2f45fdb28">&sect;&nbsp;</a></span>set_vertex()</h2>
+<a id="a031af27e906fc2839643ad42c259f4a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a031af27e906fc2839643ad42c259f4a8">&sect;&nbsp;</a></span>set_vertex()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ConcreteQuadrilateralType, class BaseClass&gt; </div>
+template&lt;class ConcreteQuadrilateralType, class BaseClass, class RefTriType, class RefQuadType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void <a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass &gt;::set_vertex </td>
+          <td class="memname">virtual void <a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass, RefTriType, RefQuadType &gt;::set_vertex </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="group__ugbase__common.html#ga91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td>
           <td class="paramname"><em>index</em>, </td>
@@ -724,19 +755,19 @@ template&lt;class ConcreteQuadrilateralType, class BaseClass&gt; </div>
 
 </div>
 </div>
-<a id="a6171d66f69745ebd9d527c5495541d30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6171d66f69745ebd9d527c5495541d30">&sect;&nbsp;</a></span>vertex()</h2>
+<a id="a2325071c2f34dfa7889ca019b56cf809"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2325071c2f34dfa7889ca019b56cf809">&sect;&nbsp;</a></span>vertex()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ConcreteQuadrilateralType, class BaseClass&gt; </div>
+template&lt;class ConcreteQuadrilateralType, class BaseClass, class RefTriType, class RefQuadType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="classug_1_1_vertex.html">Vertex</a>* <a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass &gt;::vertex </td>
+          <td class="memname">virtual <a class="el" href="classug_1_1_vertex.html">Vertex</a>* <a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass, RefTriType, RefQuadType &gt;::vertex </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>index</em></td><td>)</td>
@@ -754,19 +785,19 @@ template&lt;class ConcreteQuadrilateralType, class BaseClass&gt; </div>
 
 </div>
 </div>
-<a id="acd477d17a76f439eefd4677a6db13e3d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd477d17a76f439eefd4677a6db13e3d">&sect;&nbsp;</a></span>vertices()</h2>
+<a id="ad07138f7921b75d35daf4f0633d6a592"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad07138f7921b75d35daf4f0633d6a592">&sect;&nbsp;</a></span>vertices()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ConcreteQuadrilateralType, class BaseClass&gt; </div>
+template&lt;class ConcreteQuadrilateralType, class BaseClass, class RefTriType, class RefQuadType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="classug_1_1_i_vertex_group.html#a607f96b533c074bb5391d16bc089548e">Face::ConstVertexArray</a> <a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass &gt;::vertices </td>
+          <td class="memname">virtual <a class="el" href="classug_1_1_i_vertex_group.html#a607f96b533c074bb5391d16bc089548e">Face::ConstVertexArray</a> <a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass, RefTriType, RefQuadType &gt;::vertices </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -782,19 +813,19 @@ template&lt;class ConcreteQuadrilateralType, class BaseClass&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a998a74a2ed957c4c4b0341e9ac6269ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a998a74a2ed957c4c4b0341e9ac6269ad">&sect;&nbsp;</a></span>m_vertices</h2>
+<a id="afd2ced1432b4650133546f0984d128df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd2ced1432b4650133546f0984d128df">&sect;&nbsp;</a></span>m_vertices</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ConcreteQuadrilateralType, class BaseClass&gt; </div>
+template&lt;class ConcreteQuadrilateralType, class BaseClass, class RefTriType, class RefQuadType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classug_1_1_vertex.html">Vertex</a>* <a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass &gt;::m_vertices[4]</td>
+          <td class="memname"><a class="el" href="classug_1_1_vertex.html">Vertex</a>* <a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass, RefTriType, RefQuadType &gt;::m_vertices[4]</td>
         </tr>
       </table>
   </td>
@@ -806,19 +837,19 @@ template&lt;class ConcreteQuadrilateralType, class BaseClass&gt; </div>
 
 </div>
 </div>
-<a id="a4b16b194750675e74f57a6f7de4f731f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b16b194750675e74f57a6f7de4f731f">&sect;&nbsp;</a></span>NUM_VERTICES</h2>
+<a id="aa7101a9d34273e3f4bc2894f4f51e083"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7101a9d34273e3f4bc2894f4f51e083">&sect;&nbsp;</a></span>NUM_VERTICES</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ConcreteQuadrilateralType, class BaseClass&gt; </div>
+template&lt;class ConcreteQuadrilateralType, class BaseClass, class RefTriType, class RefQuadType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const size_t <a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass &gt;::NUM_VERTICES = 4</td>
+          <td class="memname">const size_t <a class="el" href="classug_1_1_custom_quadrilateral.html">ug::CustomQuadrilateral</a>&lt; ConcreteQuadrilateralType, BaseClass, RefTriType, RefQuadType &gt;::NUM_VERTICES = 4</td>
         </tr>
       </table>
   </td>
@@ -840,7 +871,7 @@ template&lt;class ConcreteQuadrilateralType, class BaseClass&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_custom_quadrilateral.html">CustomQuadrilateral</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:18:00 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:19 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -110,6 +110,8 @@ $(document).ready(function(){initNavTree('classug4_bridge_1_1_discretization_1_1
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a1512626c968859ddc466363f5a75b84b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_domain_discretization.html#a1512626c968859ddc466363f5a75b84b">add</a> (<a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_i_domain_constraint.html">IDomainConstraint</a> &gt; Post_Process)</td></tr>
 <tr class="separator:a1512626c968859ddc466363f5a75b84b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d3187421b37b387c55273836fd7ce72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_domain_discretization.html#a7d3187421b37b387c55273836fd7ce72">add_elem_error_indicator</a> (<a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../class_smart_ptr.html">SmartPtr</a>&lt; IElemError &gt; OPTIONAL:_Add_element-wise_error_indicator)</td></tr>
+<tr class="separator:a7d3187421b37b387c55273836fd7ce72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad63bc9ee8a60f6a5e3810988141be2ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_domain_discretization.html#ad63bc9ee8a60f6a5e3810988141be2ea">adjust_solution</a> (GridFunction *unnamed)</td></tr>
 <tr class="separator:ad63bc9ee8a60f6a5e3810988141be2ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03b149176ffd335b3b1faeea5b3b29dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_i_assemble.html#a03b149176ffd335b3b1faeea5b3b29dd">adjust_solution</a> (<a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../class_vector.html">Vector</a> *unnamed)</td></tr>
@@ -153,6 +155,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a101723522b59c67e58e6a4bf8aee7b8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a758c152a1fa031f9fb978b04595f3bcf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_domain_discretization.html#a758c152a1fa031f9fb978b04595f3bcf">remove</a> (<a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_i_domain_constraint.html">IDomainConstraint</a> &gt; Post_Process)</td></tr>
 <tr class="separator:a758c152a1fa031f9fb978b04595f3bcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae10f7f773c4f01d89889199d09e08c91"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_domain_discretization.html#ae10f7f773c4f01d89889199d09e08c91">remove_elem_error_indicator</a> (<a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../class_smart_ptr.html">SmartPtr</a>&lt; IElemError &gt; OPTIONAL:_Remove_element-wise_error_indicator)</td></tr>
+<tr class="separator:ae10f7f773c4f01d89889199d09e08c91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section note"><dt>Note</dt><dd>default specialization is DomainDiscretization2dCPU1 </dd></dl>
@@ -214,6 +218,40 @@ Public Member Functions</h2></td></tr>
 </dl>
 
 <p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../classug_1_1_domain_discretization_base.html#a86fac148eee0fb98954199c246760c28">DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::add()</a>.</p>
+
+</div>
+</div>
+<a id="a7d3187421b37b387c55273836fd7ce72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d3187421b37b387c55273836fd7ce72">&sect;&nbsp;</a></span>add_elem_error_indicator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void add_elem_error_indicator </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../class_smart_ptr.html">SmartPtr</a>&lt; IElemError &gt; OPTIONAL:_Add_element-&#160;</td>
+          <td class="paramname"><em>wise_error_indicator</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">OPTIONAL:_Add_element-wise_error_indicator</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../classug_1_1_domain_discretization_base.html#a02fbf2d1dd55380385dd7df40cc2049b">DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::add_elem_error_indicator()</a>.</p>
 
 </div>
 </div>
@@ -906,13 +944,47 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ae10f7f773c4f01d89889199d09e08c91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae10f7f773c4f01d89889199d09e08c91">&sect;&nbsp;</a></span>remove_elem_error_indicator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void remove_elem_error_indicator </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../class_smart_ptr.html">SmartPtr</a>&lt; IElemError &gt; OPTIONAL:_Remove_element-&#160;</td>
+          <td class="paramname"><em>wise_error_indicator</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">OPTIONAL:_Remove_element-wise_error_indicator</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../classug_1_1_domain_discretization_base.html#a3008f08164aa86b9df78c8477d67fe1a">DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::remove_elem_error_indicator()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug4_bridge.html">ug4Bridge</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1_discretization.html">Discretization</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1_discretization_1_1_spatial_disc.html">SpatialDisc</a></li><li class="navelem"><a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_domain_discretization.html">DomainDiscretization</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:16:58 for Registry by
+    <li class="footer">Generated on Thu Mar 30 2017 18:42:56 for Registry by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

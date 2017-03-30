@@ -1,0 +1,28 @@
+var group__crs__algebra =
+[
+    [ "matrix_type", "../group__crs__algebra.html#gacba1690bd8bc1995e7ba15a3e37f60c5", null ],
+    [ "matrix_type", "../group__crs__algebra.html#gac121225b63507dac706185277ad0dd0c", null ],
+    [ "matrix_type", "../group__crs__algebra.html#ga4389e43ca3fcecdcb952d18be25c665a", null ],
+    [ "vector_type", "../group__crs__algebra.html#gacda89bea90b8880e5a5ca4285dfd73ca", null ],
+    [ "vector_type", "../group__crs__algebra.html#gaa14d543f940bd90ab1c6546528fe7c50", null ],
+    [ "vector_type", "../group__crs__algebra.html#ga086b48a8b803cded9d3697f00ec2649b", null ],
+    [ "clone", "../group__crs__algebra.html#ga50f4fd6d6b1c6ecee0c4d77dd175cd7f", null ],
+    [ "clone_without_values", "../group__crs__algebra.html#ga60bdc58d6d5d7176e51a5833c71bff59", null ],
+    [ "get_type", "../group__crs__algebra.html#ga5bc988f0477f99de70be3b8737834c61", null ],
+    [ "print", "../group__crs__algebra.html#ga886b144cf5ddb42f9f1666191d2d6895", null ],
+    [ "printrow", "../group__crs__algebra.html#gad193784692e95535f9194be5dd59e18a", null ],
+    [ "printtype", "../group__crs__algebra.html#ga73668bb17e072c069adad53dade82be7", null ],
+    [ "VecAssign", "../group__crs__algebra.html#gaf1f295892d9277b8dd9800d4134467de", null ],
+    [ "VecNormSquared", "../group__crs__algebra.html#ga027c2be2dc147bb1634656a75d866571", null ],
+    [ "VecNormSquaredAdd", "../group__crs__algebra.html#gab8b1b2b5d4214f8b7740d7593171bccc", null ],
+    [ "VecProd", "../group__crs__algebra.html#ga4d0bf7218466c5fb320d8b7edc9a08e7", null ],
+    [ "VecProd", "../group__crs__algebra.html#ga2b26957f17d62c9d0a65414176caa356", null ],
+    [ "VecScaleAdd", "../group__crs__algebra.html#ga39d70c4a1a4372de092ffaf29137b844", null ],
+    [ "VecScaleAdd", "../group__crs__algebra.html#gafdaae9c534edf0eb98007d82c60b1071", null ],
+    [ "VecScaleAssign", "../group__crs__algebra.html#gafd154529303ed96b4b78a8842192bec1", null ],
+    [ "virtual_clone", "../group__crs__algebra.html#gab53b58eda01af4d8190c24577254fbd1", null ],
+    [ "virtual_clone_without_values", "../group__crs__algebra.html#ga70d8a47ff86a920c3e37d59c4478e476", null ],
+    [ "blockSize", "../group__crs__algebra.html#gaaff28aac9b8202a371946cf6a5de8f03", null ],
+    [ "blockSize", "../group__crs__algebra.html#gafc4d37fc7143821b98ac330210e0515c", null ],
+    [ "blockSize", "../group__crs__algebra.html#ga4d7f80791f8c1f80cee8b8c3eab981d3", null ]
+];

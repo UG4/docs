@@ -87,8 +87,10 @@ $(document).ready(function(){initNavTree('boost__serialization_8h.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a>  </div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle">
 <div class="title">boost_serialization.h File Reference</div>  </div>
 </div><!--header-->
@@ -101,6 +103,12 @@ $(document).ready(function(){initNavTree('boost__serialization_8h.html','');});
 </div>
 <p><a href="boost__serialization_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1_archive_info.html">ug::ArchiveInfo&lt; TArchive &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides custom information for different archives.  <a href="structug_1_1_archive_info.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceug"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html">ug</a></td></tr>
@@ -111,6 +119,14 @@ Namespaces</h2></td></tr>
 Macros</h2></td></tr>
 <tr class="memitem:a997db3a50f357b579a4faa4649bc37d9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost__serialization_8h.html#a997db3a50f357b579a4faa4649bc37d9">UG_EMPTY_BASE_CLASS_SERIALIZATION</a>(clsDerived,  clsBase)</td></tr>
 <tr class="separator:a997db3a50f357b579a4faa4649bc37d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a7101aa0f9defd0985ecf2bf9e06ff49e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a7101aa0f9defd0985ecf2bf9e06ff49e">ug::ArchiveType</a> { <a class="el" href="namespaceug.html#a7101aa0f9defd0985ecf2bf9e06ff49eaaa47d6583e411ea9049a1e4aa8e97889">ug::AT_DATA</a>, 
+<a class="el" href="namespaceug.html#a7101aa0f9defd0985ecf2bf9e06ff49ea582977d53c70947b5e8d16c7de99e6c4">ug::AT_GUI</a>
+ }<tr class="memdesc:a7101aa0f9defd0985ecf2bf9e06ff49e"><td class="mdescLeft">&#160;</td><td class="mdescRight">different types of archives  <a href="namespaceug.html#a7101aa0f9defd0985ecf2bf9e06ff49e">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a7101aa0f9defd0985ecf2bf9e06ff49e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a997db3a50f357b579a4faa4649bc37d9"></a>
@@ -139,7 +155,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">boost::serialization::void_cast_register&lt;clsDerived, clsBase&gt;(\</div><div class="line">        static_cast&lt;clsDerived *&gt;(NULL), static_cast&lt;clsBase *&gt;(NULL));</div></div><!-- fragment -->
-<p>Referenced by <a class="el" href="classug_1_1_plane_cut_projector.html#a62eb5f92d20c578507ae72c7827fb0f9">ug::PlaneCutProjector::serialize()</a>, <a class="el" href="classug_1_1_smooth_projector.html#a6d5b780d2b57d6b711df1958a3692508">ug::SmoothProjector::serialize()</a>, <a class="el" href="classug_1_1_subdivision_projector.html#abeda683a854b6664a2aba1521e099039">ug::SubdivisionProjector::serialize()</a>, <a class="el" href="classug_1_1_cylinder_cut_projector.html#a7a37241afa6b7fce4085201fc7ba649b">ug::CylinderCutProjector::serialize()</a>, <a class="el" href="classug_1_1_cylinder_projector.html#a53c8c9ca93ae51dc2021cb4e9f59fd29">ug::CylinderProjector::serialize()</a>, and <a class="el" href="classug_1_1_sphere_projector.html#aeed2bedc76509a7936ef83cebcdbb69b">ug::SphereProjector::serialize()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_plane_cut_projector.html#a62eb5f92d20c578507ae72c7827fb0f9">ug::PlaneCutProjector::serialize()</a>, <a class="el" href="classug_1_1_smooth_projector.html#a6d5b780d2b57d6b711df1958a3692508">ug::SmoothProjector::serialize()</a>, <a class="el" href="classug_1_1_subdivision_projector.html#abeda683a854b6664a2aba1521e099039">ug::SubdivisionProjector::serialize()</a>, <a class="el" href="classug_1_1_cylinder_cut_projector.html#a7a37241afa6b7fce4085201fc7ba649b">ug::CylinderCutProjector::serialize()</a>, <a class="el" href="classug_1_1_raster_layers_projector.html#ab3834be2856db1b8297bf255e6017975">ug::RasterLayersProjector::serialize()</a>, <a class="el" href="classug_1_1_cylinder_projector.html#a53c8c9ca93ae51dc2021cb4e9f59fd29">ug::CylinderProjector::serialize()</a>, and <a class="el" href="classug_1_1_sphere_projector.html#aeed2bedc76509a7936ef83cebcdbb69b">ug::SphereProjector::serialize()</a>.</p>
 
 </div>
 </div>
@@ -149,7 +165,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_8c26a127a0eea13c4724b5310584fbab.html">common</a></li><li class="navelem"><a class="el" href="boost__serialization_8h.html">boost_serialization.h</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:17:52 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:09 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

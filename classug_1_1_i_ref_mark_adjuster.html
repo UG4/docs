@@ -105,9 +105,10 @@ $(document).ready(function(){initNavTree('classug_1_1_i_ref_mark_adjuster.html',
   <img src="classug_1_1_i_ref_mark_adjuster.png" usemap="#ug::IRefMarkAdjuster_map" alt=""/>
   <map id="ug::IRefMarkAdjuster_map" name="ug::IRefMarkAdjuster_map">
 <area href="classug_1_1_horizontal_anisotropy_adjuster.html" title="Selects additional edges to preserve layers in a grid with horizontal anisotropies. " alt="ug::HorizontalAnisotropyAdjuster&lt; TAPos &gt;" shape="rect" coords="0,56,258,80"/>
-<area href="classug_1_1_m_g_h_node_adjuster.html" title="Makes sure that that hierarchical dependencies are considered during hnode refinement. " alt="ug::MGHNodeAdjuster" shape="rect" coords="268,56,526,80"/>
-<area href="classug_1_1_parallel_h_node_adjuster.html" title="Makes sure that that marks are propagated over process interfaces. " alt="ug::ParallelHNodeAdjuster" shape="rect" coords="536,56,794,80"/>
-<area href="classug_1_1_std_h_node_adjuster.html" title="Makes sure that elements are marked correctly so that hnode-refinement produces a valid grid..." alt="ug::StdHNodeAdjuster" shape="rect" coords="804,56,1062,80"/>
+<area href="classug_1_1_local_mark_adjuster.html" title="Use this adjuster on top of StdHNodeAdjuster if local-marks are present. " alt="ug::LocalMarkAdjuster" shape="rect" coords="268,56,526,80"/>
+<area href="classug_1_1_m_g_h_node_adjuster.html" title="Makes sure that that hierarchical dependencies are considered during hnode refinement. " alt="ug::MGHNodeAdjuster" shape="rect" coords="536,56,794,80"/>
+<area href="classug_1_1_parallel_h_node_adjuster.html" title="Makes sure that that marks are propagated over process interfaces. " alt="ug::ParallelHNodeAdjuster" shape="rect" coords="804,56,1062,80"/>
+<area href="classug_1_1_std_h_node_adjuster.html" title="Makes sure that elements are marked correctly so that hnode-refinement produces a valid grid..." alt="ug::StdHNodeAdjuster" shape="rect" coords="1072,56,1330,80"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -115,6 +116,10 @@ $(document).ready(function(){initNavTree('classug_1_1_i_ref_mark_adjuster.html',
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5e09c8fa175443f74a4a68338ab6774d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_ref_mark_adjuster.html#a5e09c8fa175443f74a4a68338ab6774d">coarsen_marks_changed</a> (<a class="el" href="classug_1_1_i_refiner.html">IRefiner</a> &amp;ref, const std::vector&lt; <a class="el" href="classug_1_1_vertex.html">Vertex</a> *&gt; &amp;vrts, const std::vector&lt; <a class="el" href="classug_1_1_edge.html">Edge</a> *&gt; &amp;edges, const std::vector&lt; <a class="el" href="classug_1_1_face.html">Face</a> *&gt; &amp;faces, const std::vector&lt; <a class="el" href="classug_1_1_volume.html">Volume</a> *&gt; &amp;vols)</td></tr>
 <tr class="separator:a5e09c8fa175443f74a4a68338ab6774d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b45eb76a8b22d9942fb46e75e88f5e8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_ref_mark_adjuster.html#a3b45eb76a8b22d9942fb46e75e88f5e8">enable</a> (bool enable)</td></tr>
+<tr class="separator:a3b45eb76a8b22d9942fb46e75e88f5e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cb356e385a468b9d732d6d1b48d8437"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_ref_mark_adjuster.html#a2cb356e385a468b9d732d6d1b48d8437">enabled</a> () const</td></tr>
+<tr class="separator:a2cb356e385a468b9d732d6d1b48d8437"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57616d983b571696907973763db82692"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_ref_mark_adjuster.html#a57616d983b571696907973763db82692">IRefMarkAdjuster</a> ()</td></tr>
 <tr class="separator:a57616d983b571696907973763db82692"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5f616a62c7999d83806c29595c7f7c4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_ref_mark_adjuster.html#ae5f616a62c7999d83806c29595c7f7c4">ref_marks_changed</a> (<a class="el" href="classug_1_1_i_refiner.html">IRefiner</a> &amp;ref, const std::vector&lt; <a class="el" href="classug_1_1_vertex.html">Vertex</a> *&gt; &amp;vrts, const std::vector&lt; <a class="el" href="classug_1_1_edge.html">Edge</a> *&gt; &amp;edges, const std::vector&lt; <a class="el" href="classug_1_1_face.html">Face</a> *&gt; &amp;faces, const std::vector&lt; <a class="el" href="classug_1_1_volume.html">Volume</a> *&gt; &amp;vols)</td></tr>
@@ -131,12 +136,14 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:afeec59f483cddde711e28b5349244113"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_ref_mark_adjuster.html#afeec59f483cddde711e28b5349244113">m_enabled</a></td></tr>
+<tr class="separator:afeec59f483cddde711e28b5349244113"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfa5843a9fd1e2cba05b01dfdb4acb20"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_ref_mark_adjuster.html#acfa5843a9fd1e2cba05b01dfdb4acb20">m_nodeDependencyOrder1</a></td></tr>
 <tr class="separator:acfa5843a9fd1e2cba05b01dfdb4acb20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Used to steer the mark-adjustment process in classes derived from <a class="el" href="classug_1_1_i_refiner.html" title="The refiner interface allows to mark elements for refinement and to call refine. ">IRefiner</a>. Instances can be registered at <a class="el" href="classug_1_1_i_refiner.html" title="The refiner interface allows to mark elements for refinement and to call refine. ">IRefiner</a> and are then used to mark new elements based on already marked elements. Different specializations can thereby implement different rules (e.g. for parallel refinement or anisotropic refinement). The different specialization should be constructed orthogonal to each other, so that they can be chained.</p>
-<p>The callback-methods 'ref_marks_changed' and 'coarsen_marks_changed' are called with lists of elements which have been marked since the last adjustment-round. The callbacks can then use <a class="el" href="classug_1_1_i_refiner.html#a0e36b035b5a6c6ded54d41c4504f3ba4" title="Marks a element for refinement. Default implementation is empty. ">IRefiner::mark</a> to adjust marks as required. If a callback changes a ref-mark on an element, this will automatically trigger a new round of adjustments (then only considering elements which have been marked in the current round).</p>
+<p>The callback-methods 'ref_marks_changed' and 'coarsen_marks_changed' are called with lists of elements which have been marked since the last adjustment-round. The callbacks can then use <a class="el" href="classug_1_1_i_refiner.html#a0e36b035b5a6c6ded54d41c4504f3ba4" title="Marks an element for refinement. Default implementation is empty. ">IRefiner::mark</a> to adjust marks as required. If a callback changes a ref-mark on an element, this will automatically trigger a new round of adjustments (then only considering elements which have been marked in the current round).</p>
 <p>Adjustment normally stops as soon as no adjuster marked any new elements. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a57616d983b571696907973763db82692"></a>
@@ -244,6 +251,36 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a3b45eb76a8b22d9942fb46e75e88f5e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b45eb76a8b22d9942fb46e75e88f5e8">&sect;&nbsp;</a></span>enable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ug::IRefMarkAdjuster::enable </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classug_1_1_i_ref_mark_adjuster.html#a3b45eb76a8b22d9942fb46e75e88f5e8">enable()</a>, and <a class="el" href="classug_1_1_i_ref_mark_adjuster.html#afeec59f483cddde711e28b5349244113">m_enabled</a>.</p>
+
+<p>Referenced by <a class="el" href="classug_1_1_i_ref_mark_adjuster.html#a3b45eb76a8b22d9942fb46e75e88f5e8">enable()</a>.</p>
+
+</div>
+</div>
 <a id="a0ef7b0757fa039b0e8a34617b48df9dd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0ef7b0757fa039b0e8a34617b48df9dd">&sect;&nbsp;</a></span>enable_node_dependency_order_1()</h2>
 
@@ -273,6 +310,33 @@ Private Attributes</h2></td></tr>
 <p>Enabled by default. </p>
 
 <p>References <a class="el" href="classug_1_1_i_ref_mark_adjuster.html#acfa5843a9fd1e2cba05b01dfdb4acb20">m_nodeDependencyOrder1</a>.</p>
+
+</div>
+</div>
+<a id="a2cb356e385a468b9d732d6d1b48d8437"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cb356e385a468b9d732d6d1b48d8437">&sect;&nbsp;</a></span>enabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool ug::IRefMarkAdjuster::enabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classug_1_1_i_ref_mark_adjuster.html#afeec59f483cddde711e28b5349244113">m_enabled</a>.</p>
 
 </div>
 </div>
@@ -361,11 +425,35 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classug_1_1_horizontal_anisotropy_adjuster.html#a24fa41f54166a915890009c668089386">ug::HorizontalAnisotropyAdjuster&lt; TAPos &gt;</a>, <a class="el" href="classug_1_1_parallel_h_node_adjuster.html#aa48647b3c24f59ca97d49bbe38e0bbde">ug::ParallelHNodeAdjuster</a>, <a class="el" href="classug_1_1_m_g_h_node_adjuster.html#ae40bf0003919c42644cf03ffbc3e252c">ug::MGHNodeAdjuster</a>, and <a class="el" href="classug_1_1_std_h_node_adjuster.html#a49aca8a3f95ea9b497605d684efe9f8b">ug::StdHNodeAdjuster</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_horizontal_anisotropy_adjuster.html#a24fa41f54166a915890009c668089386">ug::HorizontalAnisotropyAdjuster&lt; TAPos &gt;</a>, <a class="el" href="classug_1_1_parallel_h_node_adjuster.html#aa48647b3c24f59ca97d49bbe38e0bbde">ug::ParallelHNodeAdjuster</a>, <a class="el" href="classug_1_1_local_mark_adjuster.html#a00b29488f6c2f534e828bd8be138c049">ug::LocalMarkAdjuster</a>, <a class="el" href="classug_1_1_m_g_h_node_adjuster.html#ae40bf0003919c42644cf03ffbc3e252c">ug::MGHNodeAdjuster</a>, and <a class="el" href="classug_1_1_std_h_node_adjuster.html#a49aca8a3f95ea9b497605d684efe9f8b">ug::StdHNodeAdjuster</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="afeec59f483cddde711e28b5349244113"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afeec59f483cddde711e28b5349244113">&sect;&nbsp;</a></span>m_enabled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ug::IRefMarkAdjuster::m_enabled</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classug_1_1_i_ref_mark_adjuster.html#a3b45eb76a8b22d9942fb46e75e88f5e8">enable()</a>, and <a class="el" href="classug_1_1_i_ref_mark_adjuster.html#a2cb356e385a468b9d732d6d1b48d8437">enabled()</a>.</p>
+
+</div>
+</div>
 <a id="acfa5843a9fd1e2cba05b01dfdb4acb20"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acfa5843a9fd1e2cba05b01dfdb4acb20">&sect;&nbsp;</a></span>m_nodeDependencyOrder1</h2>
 
@@ -399,7 +487,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_i_ref_mark_adjuster.html">IRefMarkAdjuster</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:18:12 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:31 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

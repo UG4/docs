@@ -89,6 +89,8 @@ $(document).ready(function(){initNavTree('structug_1_1_raster_layers_1_1layer__t
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="structug_1_1_raster_layers_1_1layer__t-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ug::RasterLayers::layer_t Struct Reference</div>  </div>
@@ -108,6 +110,17 @@ Public Attributes</h2></td></tr>
 <tr class="separator:acbad1b740802cb18e046c2bb9dadf667"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac566c7b7fa6e1f033854dd04172dab6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1_raster_layers_1_1layer__t.html#ac566c7b7fa6e1f033854dd04172dab6b">minHeight</a></td></tr>
 <tr class="separator:ac566c7b7fa6e1f033854dd04172dab6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a62570407481bc193919e83f54c2969ce"><td class="memTemplParams" colspan="2">template&lt;class Archive &gt; </td></tr>
+<tr class="memitem:a62570407481bc193919e83f54c2969ce"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structug_1_1_raster_layers_1_1layer__t.html#a62570407481bc193919e83f54c2969ce">serialize</a> (Archive &amp;ar, const unsigned int version)</td></tr>
+<tr class="separator:a62570407481bc193919e83f54c2969ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:ac98d07dd8f7b70e16ccb9a01abf56b9c"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1_raster_layers_1_1layer__t.html#ac98d07dd8f7b70e16ccb9a01abf56b9c">boost::serialization::access</a></td></tr>
+<tr class="separator:ac98d07dd8f7b70e16ccb9a01abf56b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5337d4b6dae7e5e9f8c6ff6e7f7fc8d9"></a>
@@ -135,6 +148,68 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a62570407481bc193919e83f54c2969ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62570407481bc193919e83f54c2969ce">&sect;&nbsp;</a></span>serialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Archive &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug::RasterLayers::layer_t::serialize </td>
+          <td>(</td>
+          <td class="paramtype">Archive &amp;&#160;</td>
+          <td class="paramname"><em>ar</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const unsigned int&#160;</td>
+          <td class="paramname"><em>version</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="ac98d07dd8f7b70e16ccb9a01abf56b9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac98d07dd8f7b70e16ccb9a01abf56b9c">&sect;&nbsp;</a></span>boost::serialization::access</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class boost::serialization::access</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="acbad1b740802cb18e046c2bb9dadf667"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acbad1b740802cb18e046c2bb9dadf667">&sect;&nbsp;</a></span>heightfield</h2>
@@ -148,7 +223,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="namespaceug.html#af4b4e7a1bbeccc141042c4162bbd45e5">ug::ExtrudeLayers()</a>.</p>
+<p>Referenced by <a class="el" href="namespaceug.html#a12b454f96e5779591a62ea52bdd80955">ug::ExtrudeLayers()</a>, and <a class="el" href="namespaceug.html#afd8e3503ac518da6db3a766432a9827c">ug::SnapToHorizontalRaster()</a>.</p>
 
 </div>
 </div>
@@ -175,7 +250,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_raster_layers.html">RasterLayers</a></li><li class="navelem"><a class="el" href="structug_1_1_raster_layers_1_1layer__t.html">layer_t</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:18:21 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:42 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

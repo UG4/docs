@@ -117,6 +117,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a9f273ad6446903fe3c4d8f8aae6add59"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_coordinate_transform.html#a9f273ad6446903fe3c4d8f8aae6add59">FlattenBentQuadrilaterals</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, double step_size, int num_iterations)</td></tr>
 <tr class="memdesc:a9f273ad6446903fe3c4d8f8aae6add59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flattens bent quadrilaterals using an iterative flattening scheme.  <a href="#a9f273ad6446903fe3c4d8f8aae6add59">More...</a><br /></td></tr>
 <tr class="separator:a9f273ad6446903fe3c4d8f8aae6add59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55baef828fb74b83f3ce7595809f496d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_coordinate_transform.html#a55baef828fb74b83f3ce7595809f496d">Mirror</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, const Vec3d *axis, const Vec3d *origin)</td></tr>
+<tr class="memdesc:a55baef828fb74b83f3ce7595809f496d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mirrors the geometry at the given point along the given axis.  <a href="#a55baef828fb74b83f3ce7595809f496d">More...</a><br /></td></tr>
+<tr class="separator:a55baef828fb74b83f3ce7595809f496d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a339071d81c8c84f692bfda19f5f14bfc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_coordinate_transform.html#a339071d81c8c84f692bfda19f5f14bfc">ProjectToPlane</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, const Vec3d *plane_point, const Vec3d *plane_normal)</td></tr>
+<tr class="memdesc:a339071d81c8c84f692bfda19f5f14bfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Projects all selected elements to the specified plane.  <a href="#a339071d81c8c84f692bfda19f5f14bfc">More...</a><br /></td></tr>
+<tr class="separator:a339071d81c8c84f692bfda19f5f14bfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d3e7e25c4ee7bdba28024571845bb1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_coordinate_transform.html#a3d3e7e25c4ee7bdba28024571845bb1e">SnapVerticesToVertices</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, <a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *targetMesh)</td></tr>
 <tr class="memdesc:a3d3e7e25c4ee7bdba28024571845bb1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Snaps the selected vertices of the specified mesh to the selected vertices of the target mesh.  <a href="#a3d3e7e25c4ee7bdba28024571845bb1e">More...</a><br /></td></tr>
 <tr class="separator:a3d3e7e25c4ee7bdba28024571845bb1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -221,6 +227,98 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a55baef828fb74b83f3ce7595809f496d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55baef828fb74b83f3ce7595809f496d">&sect;&nbsp;</a></span>Mirror()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug4Bridge::promesh::CoordinateTransform::Mirror </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vec3d *&#160;</td>
+          <td class="paramname"><em>axis</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vec3d *&#160;</td>
+          <td class="paramname"><em>origin</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Mirrors the geometry at the given point along the given axis. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">axis</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">origin</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#gadc3d7dab10a8f331a6b0a24b33304d8d">Mirror()</a>.</p>
+
+</div>
+</div>
+<a id="a339071d81c8c84f692bfda19f5f14bfc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a339071d81c8c84f692bfda19f5f14bfc">&sect;&nbsp;</a></span>ProjectToPlane()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug4Bridge::promesh::CoordinateTransform::ProjectToPlane </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vec3d *&#160;</td>
+          <td class="paramname"><em>plane_point</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vec3d *&#160;</td>
+          <td class="paramname"><em>plane_normal</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Projects all selected elements to the specified plane. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">plane_point</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">plane_normal</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga2fe388089de1c83104a6329d679fa016">ProjectToPlane()</a>.</p>
+
+</div>
+</div>
 <a id="a3d3e7e25c4ee7bdba28024571845bb1e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3d3e7e25c4ee7bdba28024571845bb1e">&sect;&nbsp;</a></span>SnapVerticesToVertices()</h2>
 
@@ -266,7 +364,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug4_bridge.html">ug4Bridge</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh.html">promesh</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_coordinate_transform.html">CoordinateTransform</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:16:59 for Registry by
+    <li class="footer">Generated on Thu Mar 30 2017 18:42:57 for Registry by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

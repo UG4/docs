@@ -2,7 +2,6 @@ var searchData=
 [
   ['raw_5fpointer',['RAW_POINTER',['../namespaceug_1_1bridge_1_1lua.html#a926d1e96b32543aade05ffee5b6e7a28a7dc64d581dece3442f388c86d599fa33',1,'ug::bridge::lua']]],
   ['real',['REAL',['../classug_1_1_m_m_type_code.html#a82b56c890f1261190b468b7c95bb2088a9795728dff2d286a9d6be9a6accbde59',1,'ug::MMTypeCode']]],
-  ['regular',['REGULAR',['../classug_1_1_regular_refiner___multi_grid.html#a4d3e410c432da78165ce37863f00032ca588ce98525b6e0ddc4228f562d79a621',1,'ug::RegularRefiner_MultiGrid']]],
   ['rem_5fcrease',['REM_CREASE',['../group__lib__grid__algorithms__remeshing.html#ggaf3fb9da5ed2bab172aa4b403915443aba88ee6930fe7e01bb68169d47640ccc70',1,'ug']]],
   ['rem_5ffixed',['REM_FIXED',['../group__lib__grid__algorithms__remeshing.html#ggaf3fb9da5ed2bab172aa4b403915443aba66dd4c32564dbb532d56761a95674d98',1,'ug']]],
   ['rem_5fnone',['REM_NONE',['../group__lib__grid__algorithms__remeshing.html#ggaf3fb9da5ed2bab172aa4b403915443aba36a69dc9a1dc5f3331f66b7ba3c6fd2c',1,'ug']]],
@@ -13,6 +12,8 @@ var searchData=
   ['rm_5fcoarsen',['RM_COARSEN',['../group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a50301491217ed84dc6d905f1f67f80af',1,'ug']]],
   ['rm_5fcopy',['RM_COPY',['../group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a760de9af21fe64131c9c334f9ee2699e',1,'ug']]],
   ['rm_5fdummy',['RM_DUMMY',['../group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209ac7e688792c8fb622048ca1a56d6c9c47',1,'ug']]],
+  ['rm_5ffull',['RM_FULL',['../group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209ae770e8d311024d9bdf52189e4c80ed9a',1,'ug']]],
+  ['rm_5flocal',['RM_LOCAL',['../group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209abfbe361e331349a95320a92c2e084324',1,'ug']]],
   ['rm_5fmax',['RM_MAX',['../group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209abd66ec37a9f71b006a798342cd84863d',1,'ug']]],
   ['rm_5fnone',['RM_NONE',['../group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a5c0f80b28d241dad1e52009c668fdf7d',1,'ug']]],
   ['rm_5frefine',['RM_REFINE',['../group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a84ff78cd530af7d6e3d7662f46c9a618',1,'ug']]],

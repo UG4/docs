@@ -36,8 +36,8 @@ var selection__util_8cpp =
     [ "SelectionFill< Edge >", "selection__util_8cpp.html#a4fd5001f29daaede3e1d692e6f3d2c3c", null ],
     [ "SelectionFill< Face >", "selection__util_8cpp.html#a546b78345fa2ec6ab98bddb1583017f7", null ],
     [ "SelectionFill< Volume >", "selection__util_8cpp.html#afa375ae67cc3e2924b74fd5fc4b85525", null ],
-    [ "SelectLinkedFlatAndDegeneratedFaces", "selection__util_8cpp.html#gaafa0d18694890f574666ea30c229f187", null ],
-    [ "SelectLinkedFlatFaces", "selection__util_8cpp.html#ga244045e61035e629f23ddbbb33fe9e29", null ],
+    [ "SelectLinkedFlatAndDegeneratedFaces", "selection__util_8cpp.html#gab092504c1ee2d0d4df3318ff2c2ed5b5", null ],
+    [ "SelectLinkedFlatFaces", "selection__util_8cpp.html#gaac300df1c0fb7b0931fa6847727afeae", null ],
     [ "SelectParents", "selection__util_8cpp.html#a484a950062c69d05c95ff4a86999006f", null ],
     [ "SelectSmoothEdgePath", "selection__util_8cpp.html#gaddeb745d2f782ee3727f8129d0281a08", null ]
 ];

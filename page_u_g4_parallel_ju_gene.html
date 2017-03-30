@@ -280,7 +280,7 @@ Start TotalView by adding the <code>-tv</code> flag to your <code>llrun</code> c
 </ol>
 <p><b>Example debug sessions</b>: </p><ol>
 <li>
-<p class="startli">Start a <em>DDT</em> debugging session (immediately specifying the executable to debug): </p><div class="fragment"><div class="line">ddt</div></div><!-- fragment --><p>Specification of executable and parameters should also work - parameters are written in the appropriate field, but not recognised .... </p><div class="fragment"><div class="line">ddt ./ugshell_debug -ex ../apps/scaling_tests/modular_scalability_test.lua -numRefs  7</div></div><!-- fragment --><p class="endli">The mpirun parameters, e.g. <code>-mapfile TXYZ -verbose 2</code> can be placed in the fields accessible after clicking on the "Advanced" button.  </p>
+<p class="startli">Start a <em>DDT</em> debugging session (immediately specifying the executable to debug): </p><div class="fragment"><div class="line">ddt</div></div><!-- fragment --><p>Specification of executable and parameters should also work - parameters are written in the appropriate field, but not recognised .... </p><div class="fragment"><div class="line">ddt ./ugshell_debug -<a class="code" href="command__line__util_8lua.html#a340d3719e63a0a3a4f4429ef8c8b55ea">ex</a> ../apps/scaling_tests/modular_scalability_test.lua -numRefs  7</div></div><!-- fragment --><p class="endli">The mpirun parameters, e.g. <code>-mapfile TXYZ -verbose 2</code> can be placed in the fields accessible after clicking on the "Advanced" button.  </p>
 </li>
 <li>
 <p class="startli">Start a <em>TotalView</em> debugging session: </p><div class="fragment"><div class="line">llrun -tv -np 4 -mode VN -mapfile TXYZ -verbose 2 -exe ./ugshell_debug -args <span class="stringliteral">&quot;-ex ../apps/scaling_tests/modular_scalability_test.lua -numPreRefs 3 -numRefs  7&quot;</span></div></div><!-- fragment --><p> Use the <code>llrun</code> option <code> -w &lt;hh:mm:ss&gt;</code> to specify a (hopefully) appropriate wall time to do all your debugging work.</p>
@@ -294,7 +294,7 @@ Start TotalView by adding the <code>-tv</code> flag to your <code>llrun</code> c
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="index.html">ug4 - Documentation</a></li><li class="navelem"><a class="el" href="page_u_g4_setup.html">Setup and Installation</a></li><li class="navelem"><a class="el" href="page_u_g4_install.html">Prerequisites and Recommended Tools</a></li><li class="navelem"><a class="el" href="page_u_g4_setup_parallel.html">Installation on Parallel Computers</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:17:53 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:11 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

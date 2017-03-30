@@ -1,5 +1,9 @@
 var NAVTREEINDEX1 =
 {
+"classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_block_gauss_seidel.html#a8c76daa2056dfac2eb30dd0fab41e171":[3,0,0,0,1,5,3],
+"classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_block_gauss_seidel.html#a921403f604eb7717c43ae0ae88f35f14":[3,0,0,0,1,5,2],
+"classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_block_gauss_seidel.html#abb473d7b54bd75e82bd6a87cdfbea5c3":[3,0,0,0,1,5,5],
+"classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_block_gauss_seidel.html#ae4b6a2fac5111a3c300b07096056939d":[3,0,0,0,1,5,4],
 "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_block_gauss_seidel.html#afa7e5aee2146b8909a7c33b75be3c033":[3,0,0,0,1,5,6],
 "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_block_gauss_seidel_iterative.html":[3,0,0,0,1,6],
 "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_block_gauss_seidel_iterative.html#a0b85805f6431b3dfb7c7157353c8bdc9":[3,0,0,0,1,6,9],
@@ -245,9 +249,5 @@ var NAVTREEINDEX1 =
 "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_sparse_symmetric_block_gauss_seidel.html#a921403f604eb7717c43ae0ae88f35f14":[3,0,0,0,1,31,2],
 "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_sparse_symmetric_block_gauss_seidel.html#abb473d7b54bd75e82bd6a87cdfbea5c3":[3,0,0,0,1,31,5],
 "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_sparse_symmetric_block_gauss_seidel.html#ae4b6a2fac5111a3c300b07096056939d":[3,0,0,0,1,31,4],
-"classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_sparse_symmetric_block_gauss_seidel.html#afa7e5aee2146b8909a7c33b75be3c033":[3,0,0,0,1,31,6],
-"classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_symmetric_block_gauss_seidel.html":[3,0,0,0,1,32],
-"classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_symmetric_block_gauss_seidel.html#a0b85805f6431b3dfb7c7157353c8bdc9":[3,0,0,0,1,32,9],
-"classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_symmetric_block_gauss_seidel.html#a743dff7cc16a9f625734026c36369278":[3,0,0,0,1,32,8],
-"classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_symmetric_block_gauss_seidel.html#a8c4da4b626748f746b1f9fdbe885edfb":[3,0,0,0,1,32,7]
+"classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_sparse_symmetric_block_gauss_seidel.html#afa7e5aee2146b8909a7c33b75be3c033":[3,0,0,0,1,31,6]
 };

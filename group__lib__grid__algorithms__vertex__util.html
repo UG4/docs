@@ -152,6 +152,8 @@ Functions</h2></td></tr>
 <tr class="memitem:gaab444e4d5c443af5fabba6b0104c7a87"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__vertex__util.html#gaab444e4d5c443af5fabba6b0104c7a87">ug::GetConnectedVertexIndex</a> (<a class="el" href="classug_1_1_face.html">Face</a> *f, const <a class="el" href="classug_1_1_edge_descriptor.html">EdgeDescriptor</a> &amp;ed)</td></tr>
 <tr class="memdesc:gaab444e4d5c443af5fabba6b0104c7a87"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the index of the first vertex that is contained in the specified face and is not contained in the given edge.  <a href="group__lib__grid__algorithms__vertex__util.html#gaab444e4d5c443af5fabba6b0104c7a87">More...</a><br /></td></tr>
 <tr class="separator:gaab444e4d5c443af5fabba6b0104c7a87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga80dfafb1e562579e406b94c6c50ee9b2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__vertex__util.html#ga80dfafb1e562579e406b94c6c50ee9b2">ug::GetConnectedVertexIndex</a> (<a class="el" href="classug_1_1_face.html">Face</a> *f, const <a class="el" href="classug_1_1_edge_vertices.html">EdgeVertices</a> *e)</td></tr>
+<tr class="separator:ga80dfafb1e562579e406b94c6c50ee9b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0d4ce919a5c578ed819e67058723d332"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_vertex.html">Vertex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__vertex__util.html#ga0d4ce919a5c578ed819e67058723d332">ug::GetSharedVertex</a> (<a class="el" href="classug_1_1_i_vertex_group.html">IVertexGroup</a> *vrts0, <a class="el" href="classug_1_1_i_vertex_group.html">IVertexGroup</a> *vrts1)</td></tr>
 <tr class="memdesc:ga0d4ce919a5c578ed819e67058723d332"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the first vertex of vrts0 that is also contained in vrts1 (or NULL if no such vertex exists)  <a href="group__lib__grid__algorithms__vertex__util.html#ga0d4ce919a5c578ed819e67058723d332">More...</a><br /></td></tr>
 <tr class="separator:ga0d4ce919a5c578ed819e67058723d332"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -972,7 +974,7 @@ template&lt;size_t dim&gt; </div>
 
 <p>References <a class="el" href="classug_1_1_edge_vertices.html#a0f2ec2644877a1354489544f43c71206">ug::EdgeVertices::vertex()</a>.</p>
 
-<p>Referenced by <a class="el" href="group__lib__grid__algorithms__remeshing.html#gaa6cdff940793032a9dac5582b475ee86">ug::AdaptSurfaceGridToCylinder()</a>, <a class="el" href="namespaceug.html#ae15ce630e647dcbfe7529a501f6e1656">ug::CalculateSmoothManifoldPosInParentLevelLoopScheme()</a>, <a class="el" href="group__lib__grid__algorithms__edge__util.html#ga2c12f2972755f9635e2834b0d954ead2">ug::CollapseEdge()</a>, <a class="el" href="namespaceug.html#ad487c1fab1793df6bad5d6ad0dc8dfb5">ug::CollectConstraining()</a>, <a class="el" href="group__lib__grid__algorithms__neighborhood__util.html#gada8aee34f6f23920bac25802273647e1">ug::CollectNeighbors()</a>, <a class="el" href="group__lib__grid__algorithms__polychain__util.html#gaffb1b457523705a4a7b2114bbfa25861">ug::CreatePolyChain()</a>, <a class="el" href="namespaceug.html#ae4bdfe829dadd19a65c8258630862e45">ug::ExportGridToUG_2D()</a>, <a class="el" href="namespaceug.html#af4b4e7a1bbeccc141042c4162bbd45e5">ug::ExtrudeLayers()</a>, <a class="el" href="group__lib__grid__algorithms__polychain__util.html#ga62c755743eeea86198da2e6346d90ac2">ug::GetNextSectionOfPolyChain()</a>, <a class="el" href="classug_1_1_delaunay_info.html#a0c7aa0b1f44d37ed3f3767f12420b54c">ug::DelaunayInfo&lt; TAAPos &gt;::init_marks()</a>, <a class="el" href="namespaceug.html#af0346339b646c98da4aba9fc967e729f">ug::LaplacianSmooth()</a>, <a class="el" href="namespaceug.html#a1f9980d74102b0d13df6658e3d76cd45">ug::MakeDelaunay()</a>, <a class="el" href="namespaceug.html#af675b6e2e448ac20b24a1189664c3c05">ug::MarkCorners()</a>, <a class="el" href="group__lib__grid__algorithms__edge__util.html#gac3b57a4884e3ced247edc35a1ce3cd30">ug::MinimizeEdgeLength_SwapsOnly()</a>, <a class="el" href="namespaceug.html#af32c1177e1b1acd0784c8a9fd42153d9">ug::MultiEdgeSplit()</a>, <a class="el" href="classug_1_1_subdivision_projector.html#afb7bb52886b5f1ce474cf0882224426a">ug::SubdivisionProjector::new_vertex()</a>, <a class="el" href="group__lib__grid__algorithms__refinement__subdivision.html#gaf938e924ef3fa6118391b370b2c3349f">ug::ProjectToLimitPLoop()</a>, <a class="el" href="group__lib__grid__algorithms__refinement__subdivision.html#gae0d3fd849c0dbdf64f258be46c646354">ug::ProjectToLimitSubdivBoundary()</a>, <a class="el" href="namespaceug.html#ad9b0103faf0eb6055d28275af533bcf8">ug::QualityGridGeneration()</a>, <a class="el" href="classug_1_1_subdivision_projector.html#a732bf4e0f3fd63e0c4f82dfe4d01296f">ug::SubdivisionProjector::refinement_begins()</a>, <a class="el" href="namespaceug.html#a4bcdf37160ed5fe2770def62671534d6">ug::SelectKinkVertices()</a>, <a class="el" href="group__lib__grid__algorithms__selection__util.html#gaddeb745d2f782ee3727f8129d0281a08">ug::SelectSmoothEdgePath()</a>, <a class="el" href="namespaceug.html#a6d95ea88313c70843660707a79133274">ug::SimplifyPolylines()</a>, <a class="el" href="namespaceug.html#a05cd8e208a02e98281f7d824acd9bd5f">ug::SlopeSmooth()</a>, <a class="el" href="group__lib__grid__algorithms__polychain__util.html#ga75568f0b7fca5283caf4bd72371eaeac">ug::SplitIrregularPolyChain()</a>, <a class="el" href="namespaceug.html#a42dc806fbc8c63f5fe430fda32bfa471">ug::WeightedEdgeSmooth()</a>, and <a class="el" href="namespaceug.html#a6db1169a622721210a01277c9920fbab">ug::WeightedNormalSmooth()</a>.</p>
+<p>Referenced by <a class="el" href="group__lib__grid__algorithms__remeshing.html#gaa6cdff940793032a9dac5582b475ee86">ug::AdaptSurfaceGridToCylinder()</a>, <a class="el" href="namespaceug.html#ae15ce630e647dcbfe7529a501f6e1656">ug::CalculateSmoothManifoldPosInParentLevelLoopScheme()</a>, <a class="el" href="group__lib__grid__algorithms__edge__util.html#ga2c12f2972755f9635e2834b0d954ead2">ug::CollapseEdge()</a>, <a class="el" href="namespaceug.html#ad487c1fab1793df6bad5d6ad0dc8dfb5">ug::CollectConstraining()</a>, <a class="el" href="group__lib__grid__algorithms__neighborhood__util.html#gada8aee34f6f23920bac25802273647e1">ug::CollectNeighbors()</a>, <a class="el" href="group__lib__grid__algorithms__polychain__util.html#gaffb1b457523705a4a7b2114bbfa25861">ug::CreatePolyChain()</a>, <a class="el" href="namespaceug.html#a8ff8a352f8a8ca629bb6db200b22f099">ug::CreateQuadrilateral_NoRegistration()</a>, <a class="el" href="namespaceug.html#ae4bdfe829dadd19a65c8258630862e45">ug::ExportGridToUG_2D()</a>, <a class="el" href="namespaceug.html#a12b454f96e5779591a62ea52bdd80955">ug::ExtrudeLayers()</a>, <a class="el" href="group__lib__grid__algorithms__polychain__util.html#ga62c755743eeea86198da2e6346d90ac2">ug::GetNextSectionOfPolyChain()</a>, <a class="el" href="classug_1_1_delaunay_info.html#a0c7aa0b1f44d37ed3f3767f12420b54c">ug::DelaunayInfo&lt; TAAPos &gt;::init_marks()</a>, <a class="el" href="namespaceug.html#af0346339b646c98da4aba9fc967e729f">ug::LaplacianSmooth()</a>, <a class="el" href="namespaceug.html#a1f9980d74102b0d13df6658e3d76cd45">ug::MakeDelaunay()</a>, <a class="el" href="namespaceug.html#af675b6e2e448ac20b24a1189664c3c05">ug::MarkCorners()</a>, <a class="el" href="group__lib__grid__algorithms__edge__util.html#gac3b57a4884e3ced247edc35a1ce3cd30">ug::MinimizeEdgeLength_SwapsOnly()</a>, <a class="el" href="namespaceug.html#af32c1177e1b1acd0784c8a9fd42153d9">ug::MultiEdgeSplit()</a>, <a class="el" href="classug_1_1_subdivision_projector.html#afb7bb52886b5f1ce474cf0882224426a">ug::SubdivisionProjector::new_vertex()</a>, <a class="el" href="group__lib__grid__algorithms__refinement__subdivision.html#gaf938e924ef3fa6118391b370b2c3349f">ug::ProjectToLimitPLoop()</a>, <a class="el" href="group__lib__grid__algorithms__refinement__subdivision.html#gae0d3fd849c0dbdf64f258be46c646354">ug::ProjectToLimitSubdivBoundary()</a>, <a class="el" href="namespaceug.html#ad9b0103faf0eb6055d28275af533bcf8">ug::QualityGridGeneration()</a>, <a class="el" href="classug_1_1_subdivision_projector.html#a732bf4e0f3fd63e0c4f82dfe4d01296f">ug::SubdivisionProjector::refinement_begins()</a>, <a class="el" href="namespaceug.html#a1542104ac2ce93ffd11d323508e03f52">ug::ReplaceByQuadrilaterals_EdgeBased()</a>, <a class="el" href="namespaceug.html#a4bcdf37160ed5fe2770def62671534d6">ug::SelectKinkVertices()</a>, <a class="el" href="group__lib__grid__algorithms__selection__util.html#gaddeb745d2f782ee3727f8129d0281a08">ug::SelectSmoothEdgePath()</a>, <a class="el" href="namespaceug.html#a6d95ea88313c70843660707a79133274">ug::SimplifyPolylines()</a>, <a class="el" href="namespaceug.html#a05cd8e208a02e98281f7d824acd9bd5f">ug::SlopeSmooth()</a>, <a class="el" href="group__lib__grid__algorithms__polychain__util.html#ga75568f0b7fca5283caf4bd72371eaeac">ug::SplitIrregularPolyChain()</a>, <a class="el" href="namespaceug.html#a42dc806fbc8c63f5fe430fda32bfa471">ug::WeightedEdgeSmooth()</a>, and <a class="el" href="namespaceug.html#a6db1169a622721210a01277c9920fbab">ug::WeightedNormalSmooth()</a>.</p>
 
 </div>
 </div>
@@ -1011,7 +1013,7 @@ template&lt;size_t dim&gt; </div>
 </div>
 </div>
 <a id="gaab444e4d5c443af5fabba6b0104c7a87"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaab444e4d5c443af5fabba6b0104c7a87">&sect;&nbsp;</a></span>GetConnectedVertexIndex()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaab444e4d5c443af5fabba6b0104c7a87">&sect;&nbsp;</a></span>GetConnectedVertexIndex() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1038,7 +1040,41 @@ template&lt;size_t dim&gt; </div>
 
 <p>returns the index of the first vertex that is contained in the specified face and is not contained in the given edge. </p>
 
+<p>References <a class="el" href="group__lib__grid__algorithms__vertex__util.html#ga80dfafb1e562579e406b94c6c50ee9b2">ug::GetConnectedVertexIndex()</a>.</p>
+
+<p>Referenced by <a class="el" href="namespaceug.html#a1542104ac2ce93ffd11d323508e03f52">ug::ReplaceByQuadrilaterals_EdgeBased()</a>.</p>
+
+</div>
+</div>
+<a id="ga80dfafb1e562579e406b94c6c50ee9b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga80dfafb1e562579e406b94c6c50ee9b2">&sect;&nbsp;</a></span>GetConnectedVertexIndex() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__ugbase__common.html#ga6a442be2e75e98247f82d1aa90a06aac">UG_API</a> int ug::GetConnectedVertexIndex </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_face.html">Face</a> *&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classug_1_1_edge_vertices.html">EdgeVertices</a> *&#160;</td>
+          <td class="paramname"><em>e</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 <p>References <a class="el" href="classug_1_1_face_vertices.html#a91c22d6b5fcc4c90e359685aafe2aa19">ug::FaceVertices::num_vertices()</a>, <a class="el" href="classug_1_1_edge_vertices.html#a0f2ec2644877a1354489544f43c71206">ug::EdgeVertices::vertex()</a>, and <a class="el" href="classug_1_1_face_vertices.html#a8f18cc58d9b6142a2d3728cfe55159d1">ug::FaceVertices::vertex()</a>.</p>
+
+<p>Referenced by <a class="el" href="group__lib__grid__algorithms__vertex__util.html#gaab444e4d5c443af5fabba6b0104c7a87">ug::GetConnectedVertexIndex()</a>.</p>
 
 </div>
 </div>
@@ -1189,7 +1225,7 @@ template&lt;size_t dim&gt; </div>
 
 <p>References <a class="el" href="classug_1_1_edge_vertices.html#a0f2ec2644877a1354489544f43c71206">ug::EdgeVertices::vertex()</a>.</p>
 
-<p>Referenced by <a class="el" href="namespaceug.html#a6edcd4586750683a6e147dc0e10cea83">ug::CalculateSmoothVolumePosInTopLevel()</a>, <a class="el" href="namespaceug.html#abb032cb93fdc9683f704ff56475c007f">ug::ComputeOrientationOffsetLagrange()</a>, <a class="el" href="namespaceug.html#a22c44c68da507544d3aa6d9394769665">ug::FaceIsOnRightSide()</a>, <a class="el" href="group__lib__grid__algorithms__edge__util.html#gab71f0105ef482356bab57a65bc535624">ug::FixEdgeOrientation()</a>, <a class="el" href="namespaceug.html#adeff1790eedba598dcfb5bf5d616fc1a">ug::GetRightLeftUnitIndex()</a>, <a class="el" href="namespaceug.html#a4fb92158b445d7c4bb702d51f0443b0a">ug::ReplaceLowValenceVertices()</a>, <a class="el" href="namespaceug.html#a0f353c86d4eb3dde7d50d112ad2bb44d">ug::ReplaceValence3Vertices()</a>, and <a class="el" href="namespaceug.html#ac59cfae14833394225e59b5dee1e9014">ug::WriteNG()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_hanging_node_refiner_base.html#aeec7f03c6905a87e02f7bed0411b597b">ug::HangingNodeRefinerBase&lt; Selector &gt;::assign_hnode_marks()</a>, <a class="el" href="namespaceug.html#a88a63ea340431040114cccb99d619144">ug::CalculateConstrainedSmoothVolumePosInTopLevel()</a>, <a class="el" href="namespaceug.html#a6edcd4586750683a6e147dc0e10cea83">ug::CalculateSmoothVolumePosInTopLevel()</a>, <a class="el" href="namespaceug.html#abb032cb93fdc9683f704ff56475c007f">ug::ComputeOrientationOffsetLagrange()</a>, <a class="el" href="namespaceug.html#a8ff8a352f8a8ca629bb6db200b22f099">ug::CreateQuadrilateral_NoRegistration()</a>, <a class="el" href="namespaceug.html#a22c44c68da507544d3aa6d9394769665">ug::FaceIsOnRightSide()</a>, <a class="el" href="group__lib__grid__algorithms__edge__util.html#gab71f0105ef482356bab57a65bc535624">ug::FixEdgeOrientation()</a>, <a class="el" href="classug_1_1_i_refiner.html#a615aa48d59030c11599609b775e4c4cc">ug::IRefiner::get_local_face_mark()</a>, <a class="el" href="namespaceug.html#adeff1790eedba598dcfb5bf5d616fc1a">ug::GetRightLeftUnitIndex()</a>, <a class="el" href="namespaceug.html#a4fb92158b445d7c4bb702d51f0443b0a">ug::ReplaceLowValenceVertices()</a>, <a class="el" href="namespaceug.html#a0f353c86d4eb3dde7d50d112ad2bb44d">ug::ReplaceValence3Vertices()</a>, and <a class="el" href="namespaceug.html#ac59cfae14833394225e59b5dee1e9014">ug::WriteNG()</a>.</p>
 
 </div>
 </div>
@@ -2017,7 +2053,7 @@ template&lt;class TAAPos &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Oct 19 2016 12:17:54 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:12 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

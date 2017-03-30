@@ -26,6 +26,7 @@ var classug_1_1_grid_writer_u_g_x =
     [ "create_hexahedron_node", "classug_1_1_grid_writer_u_g_x.html#a484a0850476aedc9572f2609ffd79f72", null ],
     [ "create_octahedron_node", "classug_1_1_grid_writer_u_g_x.html#a7bc1bfa9f96964349cabad46f13648e8", null ],
     [ "create_prism_node", "classug_1_1_grid_writer_u_g_x.html#a55755daa2160fbb09f3a99f3fc4a503c", null ],
+    [ "create_projector_node", "classug_1_1_grid_writer_u_g_x.html#a02fe5cff5ec9fe29b4b35435952802ce", null ],
     [ "create_pyramid_node", "classug_1_1_grid_writer_u_g_x.html#a84040a1eb3191605b237bc0b04c0ebc2", null ],
     [ "create_quadrilateral_node", "classug_1_1_grid_writer_u_g_x.html#a1e462422828d0e5716a117ee0fa90ef2", null ],
     [ "create_selector_element_node", "classug_1_1_grid_writer_u_g_x.html#aa91133fe417130cc9483b76e82795343", null ],

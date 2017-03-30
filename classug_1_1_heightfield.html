@@ -88,7 +88,9 @@ $(document).ready(function(){initNavTree('classug_1_1_heightfield.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="classug_1_1_heightfield-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ug::Heightfield Class Reference</div>  </div>
@@ -148,6 +150,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a618fa1c6971e8b9cd93a46f961eb6026"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the interpolated value at the given location.  <a href="#a618fa1c6971e8b9cd93a46f961eb6026">More...</a><br /></td></tr>
 <tr class="separator:a618fa1c6971e8b9cd93a46f961eb6026"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ac53bdb848ff618c5985452423faef89b"><td class="memTemplParams" colspan="2">template&lt;class Archive &gt; </td></tr>
+<tr class="memitem:ac53bdb848ff618c5985452423faef89b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_heightfield.html#ac53bdb848ff618c5985452423faef89b">serialize</a> (Archive &amp;ar, const unsigned int version)</td></tr>
+<tr class="separator:ac53bdb848ff618c5985452423faef89b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a25afea83dcd09287510369dfaeb29463"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__vectors.html#ga0a32414068406bfb5c0742cccf8bb6f1">vector2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_heightfield.html#a25afea83dcd09287510369dfaeb29463">m_cellSize</a></td></tr>
@@ -158,6 +166,11 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a44744504c4622287adb7d70aab575925"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e8405b8dda588c816c23a14a062abd0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__vectors.html#ga0a32414068406bfb5c0742cccf8bb6f1">vector2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_heightfield.html#a3e8405b8dda588c816c23a14a062abd0">m_offset</a></td></tr>
 <tr class="separator:a3e8405b8dda588c816c23a14a062abd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:ac98d07dd8f7b70e16ccb9a01abf56b9c"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_heightfield.html#ac98d07dd8f7b70e16ccb9a01abf56b9c">boost::serialization::access</a></td></tr>
+<tr class="separator:ac98d07dd8f7b70e16ccb9a01abf56b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A heightfield represents a grid of number-values together with descriptors for the cell dimensions and the total offset. You can manually create heightfields or load them from a file. Given a heightfield you may create a quad/tri grid or extract the heightfields boundary into a grid. Have a look at <a class="el" href="field__util_8h.html">field_util.h</a>, too, which declares some useful functions (e.g. blurring). </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="namespaceug.html#a0d7b0f49b2119e45c49ef683924a148f">LoadHeightfieldFromASC</a>, <a class="el" href="namespaceug.html#a72cb8c1380acee7fbd7982ab8c171586">CreateGridFromField</a>, <a class="el" href="namespaceug.html#adb66935ad24e7491f4daed8fe3b30217">CreateGridFromFieldBoundary</a> </dd></dl>
@@ -351,7 +364,7 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="classug_1_1_heightfield.html#a771416861f14f23038c3770c29628ea9">m_field</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_heightfield.html#ad914e80fdc13b8e03b245a0a067ce6bc">blur()</a>, <a class="el" href="namespaceug.html#a1a34420699151ded9c5614a7541e7edd">ug::CreateGridFromField()</a>, <a class="el" href="namespaceug.html#ade7603c7e44bf354a9d78b50afb097f8">ug::CreateGridFromFieldBoundary()</a>, <a class="el" href="classug_1_1_heightfield.html#a24cffe7c61c3d02a9cbe370d90d61a3f">eliminate_invalid_cells()</a>, <a class="el" href="classug_1_1_raster_layers.html#a0c621f8688406b6689a89cd48404afce">ug::RasterLayers::eliminate_invalid_cells()</a>, <a class="el" href="classug_1_1_raster_layers.html#a7bb5a04c070720f5c7cf7c289665e7c3">ug::RasterLayers::invalidate_flat_cells()</a>, <a class="el" href="classug_1_1_raster_layers.html#adb552dac2849a3047fe65e90323c93a0">ug::RasterLayers::invalidate_small_lenses()</a>, <a class="el" href="namespaceug.html#a0d7b0f49b2119e45c49ef683924a148f">ug::LoadHeightfieldFromASC()</a>, <a class="el" href="classug_1_1_raster_layers.html#a65d121b2c4723186e05f3ccdc5ad525b">ug::RasterLayers::remove_small_holes()</a>, and <a class="el" href="classug_1_1_raster_layers.html#ab2eb50e33f7dbbd9a063404286fede47">ug::RasterLayers::snap_cells_to_higher_layers()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_heightfield.html#ad914e80fdc13b8e03b245a0a067ce6bc">blur()</a>, <a class="el" href="classug_1_1_raster_layers.html#a4b0dfaa953287e21176900862a8f9370">ug::RasterLayers::construct_relative_to_global_height_table()</a>, <a class="el" href="namespaceug.html#a1a34420699151ded9c5614a7541e7edd">ug::CreateGridFromField()</a>, <a class="el" href="namespaceug.html#ade7603c7e44bf354a9d78b50afb097f8">ug::CreateGridFromFieldBoundary()</a>, <a class="el" href="classug_1_1_heightfield.html#a24cffe7c61c3d02a9cbe370d90d61a3f">eliminate_invalid_cells()</a>, <a class="el" href="classug_1_1_raster_layers.html#a0c621f8688406b6689a89cd48404afce">ug::RasterLayers::eliminate_invalid_cells()</a>, <a class="el" href="classug_1_1_raster_layers.html#a7bb5a04c070720f5c7cf7c289665e7c3">ug::RasterLayers::invalidate_flat_cells()</a>, <a class="el" href="classug_1_1_raster_layers.html#adb552dac2849a3047fe65e90323c93a0">ug::RasterLayers::invalidate_small_lenses()</a>, <a class="el" href="namespaceug.html#a0d7b0f49b2119e45c49ef683924a148f">ug::LoadHeightfieldFromASC()</a>, <a class="el" href="classug_1_1_raster_layers.html#a65d121b2c4723186e05f3ccdc5ad525b">ug::RasterLayers::remove_small_holes()</a>, and <a class="el" href="classug_1_1_raster_layers.html#ab2eb50e33f7dbbd9a063404286fede47">ug::RasterLayers::snap_cells_to_higher_layers()</a>.</p>
 
 </div>
 </div>
@@ -412,7 +425,7 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="classug_1_1_heightfield.html#a25afea83dcd09287510369dfaeb29463">m_cellSize</a>, and <a class="el" href="classug_1_1_heightfield.html#a3e8405b8dda588c816c23a14a062abd0">m_offset</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_heightfield.html#a618fa1c6971e8b9cd93a46f961eb6026">interpolate()</a>, <a class="el" href="classug_1_1_raster_layers.html#a7bb5a04c070720f5c7cf7c289665e7c3">ug::RasterLayers::invalidate_flat_cells()</a>, <a class="el" href="classug_1_1_raster_layers.html#a65d121b2c4723186e05f3ccdc5ad525b">ug::RasterLayers::remove_small_holes()</a>, and <a class="el" href="classug_1_1_raster_layers.html#ab2eb50e33f7dbbd9a063404286fede47">ug::RasterLayers::snap_cells_to_higher_layers()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_raster_layers.html#a4b0dfaa953287e21176900862a8f9370">ug::RasterLayers::construct_relative_to_global_height_table()</a>, <a class="el" href="classug_1_1_heightfield.html#a618fa1c6971e8b9cd93a46f961eb6026">interpolate()</a>, <a class="el" href="classug_1_1_raster_layers.html#a7bb5a04c070720f5c7cf7c289665e7c3">ug::RasterLayers::invalidate_flat_cells()</a>, <a class="el" href="classug_1_1_raster_layers.html#a65d121b2c4723186e05f3ccdc5ad525b">ug::RasterLayers::remove_small_holes()</a>, and <a class="el" href="classug_1_1_raster_layers.html#ab2eb50e33f7dbbd9a063404286fede47">ug::RasterLayers::snap_cells_to_higher_layers()</a>.</p>
 
 </div>
 </div>
@@ -453,11 +466,11 @@ Private Attributes</h2></td></tr>
 <li>0: piecewise constant (nearest entry)</li>
 <li>1: linear</li>
 </ul>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>: add a method 'set_interpolation_method' to also support bilinear- or spline-interpolation </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>: add a method 'set_interpolation_method' to also support bilinear- or spline-interpolation </dd></dl>
 
 <p>References <a class="el" href="classug_1_1_field.html#a62272943219deaebf8f4f860f27580d1">ug::Field&lt; T &gt;::at()</a>, <a class="el" href="classug_1_1_heightfield.html#a132001e9a3ae5a625d6da88154884d31">coordinate_to_index()</a>, <a class="el" href="classug_1_1_field.html#ac10a2501ef5b89ea0e179d40fb1528d4">ug::Field&lt; T &gt;::height()</a>, <a class="el" href="classug_1_1_heightfield.html#a25afea83dcd09287510369dfaeb29463">m_cellSize</a>, <a class="el" href="classug_1_1_heightfield.html#a771416861f14f23038c3770c29628ea9">m_field</a>, <a class="el" href="classug_1_1_heightfield.html#a44744504c4622287adb7d70aab575925">m_noDataValue</a>, <a class="el" href="classug_1_1_heightfield.html#a3e8405b8dda588c816c23a14a062abd0">m_offset</a>, <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>, and <a class="el" href="classug_1_1_field.html#a13093edbeb34891bf4355edc31c538d9">ug::Field&lt; T &gt;::width()</a>.</p>
 
-<p>Referenced by <a class="el" href="namespaceug.html#af4b4e7a1bbeccc141042c4162bbd45e5">ug::ExtrudeLayers()</a>, <a class="el" href="classug_1_1_heightfield.html#a834371c91383992bec304bbeb1079e86">Heightfield()</a>, <a class="el" href="classug_1_1_heightfield.html#a07a1faceb91406ed8eb5827e20ba071e">interpolate()</a>, <a class="el" href="classug_1_1_raster_layers.html#a7bb5a04c070720f5c7cf7c289665e7c3">ug::RasterLayers::invalidate_flat_cells()</a>, and <a class="el" href="classug_1_1_raster_layers.html#ab2eb50e33f7dbbd9a063404286fede47">ug::RasterLayers::snap_cells_to_higher_layers()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_heightfield.html#a834371c91383992bec304bbeb1079e86">Heightfield()</a>, <a class="el" href="classug_1_1_heightfield.html#a07a1faceb91406ed8eb5827e20ba071e">interpolate()</a>, <a class="el" href="classug_1_1_raster_layers.html#a7bb5a04c070720f5c7cf7c289665e7c3">ug::RasterLayers::invalidate_flat_cells()</a>, and <a class="el" href="classug_1_1_raster_layers.html#ab2eb50e33f7dbbd9a063404286fede47">ug::RasterLayers::snap_cells_to_higher_layers()</a>.</p>
 
 </div>
 </div>
@@ -500,7 +513,7 @@ Private Attributes</h2></td></tr>
 <li>0: piecewise constant (nearest entry)</li>
 <li>1: linear</li>
 </ul>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>: add a method 'set_interpolation_method' to also support bilinear- or spline-interpolation </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>: add a method 'set_interpolation_method' to also support bilinear- or spline-interpolation </dd></dl>
 
 <p>References <a class="el" href="classug_1_1_heightfield.html#a8cf848f752ae2c61bc156a1be43c051b">interpolate()</a>.</p>
 
@@ -545,7 +558,7 @@ Private Attributes</h2></td></tr>
 <li>0: piecewise constant (nearest entry)</li>
 <li>1: linear</li>
 </ul>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>: add a method 'set_interpolation_method' to also support bilinear- or spline-interpolation </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>: add a method 'set_interpolation_method' to also support bilinear- or spline-interpolation </dd></dl>
 
 <p>References <a class="el" href="classug_1_1_heightfield.html#a8cf848f752ae2c61bc156a1be43c051b">interpolate()</a>.</p>
 
@@ -580,7 +593,7 @@ Private Attributes</h2></td></tr>
 <li>0: piecewise constant (nearest entry)</li>
 <li>1: linear</li>
 </ul>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>: add a method 'set_interpolation_method' to also support bilinear- or spline-interpolation </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>: add a method 'set_interpolation_method' to also support bilinear- or spline-interpolation </dd></dl>
 
 <p>References <a class="el" href="classug_1_1_heightfield.html#a132001e9a3ae5a625d6da88154884d31">coordinate_to_index()</a>, <a class="el" href="classug_1_1_heightfield.html#aea536fae083979a757b75816e60fe1b9">extent()</a>, <a class="el" href="classug_1_1_heightfield.html#ab3388c459d7936bcd607675019ea1a66">index_to_coordinate()</a>, and <a class="el" href="classug_1_1_heightfield.html#a8cf848f752ae2c61bc156a1be43c051b">interpolate()</a>.</p>
 
@@ -639,7 +652,7 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="classug_1_1_heightfield.html#a44744504c4622287adb7d70aab575925">m_noDataValue</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_heightfield.html#ad914e80fdc13b8e03b245a0a067ce6bc">blur()</a>, <a class="el" href="namespaceug.html#a1a34420699151ded9c5614a7541e7edd">ug::CreateGridFromField()</a>, <a class="el" href="namespaceug.html#ade7603c7e44bf354a9d78b50afb097f8">ug::CreateGridFromFieldBoundary()</a>, <a class="el" href="classug_1_1_heightfield.html#a24cffe7c61c3d02a9cbe370d90d61a3f">eliminate_invalid_cells()</a>, <a class="el" href="classug_1_1_raster_layers.html#a0c621f8688406b6689a89cd48404afce">ug::RasterLayers::eliminate_invalid_cells()</a>, <a class="el" href="namespaceug.html#af4b4e7a1bbeccc141042c4162bbd45e5">ug::ExtrudeLayers()</a>, <a class="el" href="classug_1_1_raster_layers.html#a7bb5a04c070720f5c7cf7c289665e7c3">ug::RasterLayers::invalidate_flat_cells()</a>, <a class="el" href="classug_1_1_raster_layers.html#a65d121b2c4723186e05f3ccdc5ad525b">ug::RasterLayers::remove_small_holes()</a>, and <a class="el" href="classug_1_1_raster_layers.html#ab2eb50e33f7dbbd9a063404286fede47">ug::RasterLayers::snap_cells_to_higher_layers()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_heightfield.html#ad914e80fdc13b8e03b245a0a067ce6bc">blur()</a>, <a class="el" href="classug_1_1_raster_layers.html#a4b0dfaa953287e21176900862a8f9370">ug::RasterLayers::construct_relative_to_global_height_table()</a>, <a class="el" href="namespaceug.html#a1a34420699151ded9c5614a7541e7edd">ug::CreateGridFromField()</a>, <a class="el" href="namespaceug.html#ade7603c7e44bf354a9d78b50afb097f8">ug::CreateGridFromFieldBoundary()</a>, <a class="el" href="classug_1_1_heightfield.html#a24cffe7c61c3d02a9cbe370d90d61a3f">eliminate_invalid_cells()</a>, <a class="el" href="classug_1_1_raster_layers.html#a0c621f8688406b6689a89cd48404afce">ug::RasterLayers::eliminate_invalid_cells()</a>, <a class="el" href="namespaceug.html#a12b454f96e5779591a62ea52bdd80955">ug::ExtrudeLayers()</a>, <a class="el" href="classug_1_1_raster_layers.html#a7bb5a04c070720f5c7cf7c289665e7c3">ug::RasterLayers::invalidate_flat_cells()</a>, <a class="el" href="classug_1_1_raster_layers.html#a65d121b2c4723186e05f3ccdc5ad525b">ug::RasterLayers::remove_small_holes()</a>, and <a class="el" href="classug_1_1_raster_layers.html#ab2eb50e33f7dbbd9a063404286fede47">ug::RasterLayers::snap_cells_to_higher_layers()</a>.</p>
 
 </div>
 </div>
@@ -669,6 +682,46 @@ Private Attributes</h2></td></tr>
 <p>References <a class="el" href="classug_1_1_heightfield.html#a3e8405b8dda588c816c23a14a062abd0">m_offset</a>.</p>
 
 <p>Referenced by <a class="el" href="namespaceug.html#a1a34420699151ded9c5614a7541e7edd">ug::CreateGridFromField()</a>, and <a class="el" href="namespaceug.html#ade7603c7e44bf354a9d78b50afb097f8">ug::CreateGridFromFieldBoundary()</a>.</p>
+
+</div>
+</div>
+<a id="ac53bdb848ff618c5985452423faef89b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac53bdb848ff618c5985452423faef89b">&sect;&nbsp;</a></span>serialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Archive &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug::Heightfield::serialize </td>
+          <td>(</td>
+          <td class="paramtype">Archive &amp;&#160;</td>
+          <td class="paramname"><em>ar</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const unsigned int&#160;</td>
+          <td class="paramname"><em>version</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classug_1_1_heightfield.html#a25afea83dcd09287510369dfaeb29463">m_cellSize</a>, <a class="el" href="classug_1_1_heightfield.html#a771416861f14f23038c3770c29628ea9">m_field</a>, <a class="el" href="classug_1_1_heightfield.html#a44744504c4622287adb7d70aab575925">m_noDataValue</a>, and <a class="el" href="classug_1_1_heightfield.html#a3e8405b8dda588c816c23a14a062abd0">m_offset</a>.</p>
 
 </div>
 </div>
@@ -762,6 +815,29 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="ac98d07dd8f7b70e16ccb9a01abf56b9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac98d07dd8f7b70e16ccb9a01abf56b9c">&sect;&nbsp;</a></span>boost::serialization::access</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class boost::serialization::access</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a25afea83dcd09287510369dfaeb29463"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a25afea83dcd09287510369dfaeb29463">&sect;&nbsp;</a></span>m_cellSize</h2>
@@ -783,7 +859,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classug_1_1_heightfield.html#a10ca64c957bd4980916cbb3bbae43fcc">cell_size()</a>, <a class="el" href="classug_1_1_heightfield.html#a132001e9a3ae5a625d6da88154884d31">coordinate_to_index()</a>, <a class="el" href="classug_1_1_heightfield.html#aea536fae083979a757b75816e60fe1b9">extent()</a>, <a class="el" href="classug_1_1_heightfield.html#ab3388c459d7936bcd607675019ea1a66">index_to_coordinate()</a>, <a class="el" href="classug_1_1_heightfield.html#a8cf848f752ae2c61bc156a1be43c051b">interpolate()</a>, and <a class="el" href="classug_1_1_heightfield.html#aea2fa405367a394a3de374cc9476281a">set_cell_size()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_heightfield.html#a10ca64c957bd4980916cbb3bbae43fcc">cell_size()</a>, <a class="el" href="classug_1_1_heightfield.html#a132001e9a3ae5a625d6da88154884d31">coordinate_to_index()</a>, <a class="el" href="classug_1_1_heightfield.html#aea536fae083979a757b75816e60fe1b9">extent()</a>, <a class="el" href="classug_1_1_heightfield.html#ab3388c459d7936bcd607675019ea1a66">index_to_coordinate()</a>, <a class="el" href="classug_1_1_heightfield.html#a8cf848f752ae2c61bc156a1be43c051b">interpolate()</a>, <a class="el" href="classug_1_1_heightfield.html#ac53bdb848ff618c5985452423faef89b">serialize()</a>, and <a class="el" href="classug_1_1_heightfield.html#aea2fa405367a394a3de374cc9476281a">set_cell_size()</a>.</p>
 
 </div>
 </div>
@@ -807,7 +883,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classug_1_1_heightfield.html#aea536fae083979a757b75816e60fe1b9">extent()</a>, <a class="el" href="classug_1_1_heightfield.html#a1cd570be996e681061a33cec6b825378">field()</a>, and <a class="el" href="classug_1_1_heightfield.html#a8cf848f752ae2c61bc156a1be43c051b">interpolate()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_heightfield.html#aea536fae083979a757b75816e60fe1b9">extent()</a>, <a class="el" href="classug_1_1_heightfield.html#a1cd570be996e681061a33cec6b825378">field()</a>, <a class="el" href="classug_1_1_heightfield.html#a8cf848f752ae2c61bc156a1be43c051b">interpolate()</a>, and <a class="el" href="classug_1_1_heightfield.html#ac53bdb848ff618c5985452423faef89b">serialize()</a>.</p>
 
 </div>
 </div>
@@ -831,7 +907,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classug_1_1_heightfield.html#a8cf848f752ae2c61bc156a1be43c051b">interpolate()</a>, <a class="el" href="classug_1_1_heightfield.html#ac8d26467a137a8b0fe5c303314ea7e5b">no_data_value()</a>, and <a class="el" href="classug_1_1_heightfield.html#a5d6e7b6f3d87be6888fe6d726d3e9011">set_no_data_value()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_heightfield.html#a8cf848f752ae2c61bc156a1be43c051b">interpolate()</a>, <a class="el" href="classug_1_1_heightfield.html#ac8d26467a137a8b0fe5c303314ea7e5b">no_data_value()</a>, <a class="el" href="classug_1_1_heightfield.html#ac53bdb848ff618c5985452423faef89b">serialize()</a>, and <a class="el" href="classug_1_1_heightfield.html#a5d6e7b6f3d87be6888fe6d726d3e9011">set_no_data_value()</a>.</p>
 
 </div>
 </div>
@@ -855,7 +931,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classug_1_1_heightfield.html#a132001e9a3ae5a625d6da88154884d31">coordinate_to_index()</a>, <a class="el" href="classug_1_1_heightfield.html#ab3388c459d7936bcd607675019ea1a66">index_to_coordinate()</a>, <a class="el" href="classug_1_1_heightfield.html#a8cf848f752ae2c61bc156a1be43c051b">interpolate()</a>, <a class="el" href="classug_1_1_heightfield.html#a596b9067208942f4ab7a63a04e01fb73">move()</a>, <a class="el" href="classug_1_1_heightfield.html#a314b5cd4e81f8f43d8ff25efd6f3e1f8">offset()</a>, and <a class="el" href="classug_1_1_heightfield.html#a280b7b5caac4a333f37b2bca2428a6b4">set_offset()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_heightfield.html#a132001e9a3ae5a625d6da88154884d31">coordinate_to_index()</a>, <a class="el" href="classug_1_1_heightfield.html#ab3388c459d7936bcd607675019ea1a66">index_to_coordinate()</a>, <a class="el" href="classug_1_1_heightfield.html#a8cf848f752ae2c61bc156a1be43c051b">interpolate()</a>, <a class="el" href="classug_1_1_heightfield.html#a596b9067208942f4ab7a63a04e01fb73">move()</a>, <a class="el" href="classug_1_1_heightfield.html#a314b5cd4e81f8f43d8ff25efd6f3e1f8">offset()</a>, <a class="el" href="classug_1_1_heightfield.html#ac53bdb848ff618c5985452423faef89b">serialize()</a>, and <a class="el" href="classug_1_1_heightfield.html#a280b7b5caac4a333f37b2bca2428a6b4">set_offset()</a>.</p>
 
 </div>
 </div>
@@ -869,7 +945,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_heightfield.html">Heightfield</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:18:08 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:27 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -2,6 +2,7 @@ var integrate_8h =
 [
     [ "H1DiffIntegrand", "classug_1_1_h1_diff_integrand.html", "classug_1_1_h1_diff_integrand" ],
     [ "H1ErrorIntegrand", "classug_1_1_h1_error_integrand.html", "classug_1_1_h1_error_integrand" ],
+    [ "H1SemiNormIntegrand", "classug_1_1_h1_semi_norm_integrand.html", "classug_1_1_h1_semi_norm_integrand" ],
     [ "IIntegrand", "classug_1_1_i_integrand.html", "classug_1_1_i_integrand" ],
     [ "L2DiffIntegrand", "classug_1_1_l2_diff_integrand.html", "classug_1_1_l2_diff_integrand" ],
     [ "L2ErrorIntegrand", "classug_1_1_l2_error_integrand.html", "classug_1_1_l2_error_integrand" ],
@@ -13,6 +14,8 @@ var integrate_8h =
     [ "H1Error", "integrate_8h.html#a6cf09f41ba04023cdbaf7572ab7842df", null ],
     [ "H1Error", "integrate_8h.html#af71f26f0a45a99a204a4d612e82c03cb", null ],
     [ "H1Error", "integrate_8h.html#a7abbe035865d56cdca4612727dd39698", null ],
+    [ "H1SemiNorm", "integrate_8h.html#a418004720b678d9a6cf422e2f0381de2", null ],
+    [ "H1SemiNorm", "integrate_8h.html#ad11c5fffd30fec01b9a7bf9578deb0de", null ],
     [ "Integral", "integrate_8h.html#a58bb3cffcb009171db5121300180a17e", null ],
     [ "Integral", "integrate_8h.html#a9fcdd6719a24d3bc7808af71c586e2c0", null ],
     [ "Integral", "integrate_8h.html#aed2b33a839e04678e58d26b66d098547", null ],

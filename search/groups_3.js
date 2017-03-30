@@ -6,5 +6,7 @@ var searchData=
   ['domain_20bridge',['Domain Bridge',['../group__domain__bridge.html',1,'']]],
   ['domain_20discretization_20bridge',['Domain Discretization Bridge',['../group__domaindisc__bridge.html',1,'']]],
   ['domain_20dependend_20preconditioner_20bridge',['Domain Dependend Preconditioner Bridge',['../group__domdepprecond__bridge.html',1,'']]],
-  ['domain',['Domain',['../group__lib__disc__domain.html',1,'']]]
+  ['domain',['Domain',['../group__lib__disc__domain.html',1,'']]],
+  ['domain_20discretization_20utility',['Domain Discretization Utility',['../group__scripts__util__domaindisc.html',1,'']]],
+  ['domain_20distribution_20utility',['Domain Distribution Utility',['../group__scripts__util__domaindistribution.html',1,'']]]
 ];

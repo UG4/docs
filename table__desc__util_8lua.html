@@ -86,17 +86,94 @@ $(document).ready(function(){initNavTree('table__desc__util_8lua.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">table_desc_util.lua File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a59ddb31240a0b25f726468ae8de1a516"><td class="memItemLeft" align="right" valign="top">function util tableDesc&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table__desc__util_8lua.html#a59ddb31240a0b25f726468ae8de1a516">CondAbort</a> (condition, <a class="el" href="group__scripts__util__test.html#gab01173c9c178b0a1f6a8c61955b0c2dd">message</a>)</td></tr>
+<tr class="separator:a59ddb31240a0b25f726468ae8de1a516"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3946d4c8cef08e7e4a2fef07a0ef5a4d"><td class="memItemLeft" align="right" valign="top">function util tableDesc&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table__desc__util_8lua.html#a3946d4c8cef08e7e4a2fef07a0ef5a4d">IsPreset</a> (desc)</td></tr>
+<tr class="separator:a3946d4c8cef08e7e4a2fef07a0ef5a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae405dc92c00b044c9d788592ef6d4a4"><td class="memItemLeft" align="right" valign="top">function util tableDesc&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table__desc__util_8lua.html#aae405dc92c00b044c9d788592ef6d4a4">ToNameAndDesc</a> (descOrName)</td></tr>
+<tr class="separator:aae405dc92c00b044c9d788592ef6d4a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a59ddb31240a0b25f726468ae8de1a516"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59ddb31240a0b25f726468ae8de1a516">&sect;&nbsp;</a></span>CondAbort()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util tableDesc CondAbort </td>
+          <td>(</td>
+          <td class="paramtype">condition&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__scripts__util__test.html#gab01173c9c178b0a1f6a8c61955b0c2dd">message</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="table__desc__util_8lua.html">table_desc_util.lua</a> :37-42 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.tableDesc.CondAbort(condition, <a class="code" href="group__scripts__util__test.html#gab01173c9c178b0a1f6a8c61955b0c2dd">message</a>)</div><div class="line">  <span class="keywordflow">if</span> condition == <span class="keyword">true</span> then</div><div class="line">    <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(<span class="stringliteral">&quot;ERROR in util.tableDesc: &quot;</span> .. <a class="code" href="group__scripts__util__test.html#gab01173c9c178b0a1f6a8c61955b0c2dd">message</a>)</div><div class="line">    <a class="codeRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/regdocu.tags:../regdocu/" href="../regdocu/namespaceug4_bridge_1_1_util.html#aa299a7c490029a3ae0846ccfe4233c9d">exit</a>()</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
+</div>
+</div>
+<a id="a3946d4c8cef08e7e4a2fef07a0ef5a4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3946d4c8cef08e7e4a2fef07a0ef5a4d">&sect;&nbsp;</a></span>IsPreset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util tableDesc IsPreset </td>
+          <td>(</td>
+          <td class="paramtype">desc&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="table__desc__util_8lua.html">table_desc_util.lua</a> :44-50 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.tableDesc.IsPreset(desc)</div><div class="line">  <span class="keywordflow">if</span> type(desc) == <span class="stringliteral">&quot;userdata&quot;</span> then</div><div class="line">    <span class="keywordflow">return</span> <span class="keyword">true</span></div><div class="line">  <span class="keywordflow">else</span></div><div class="line">    <span class="keywordflow">return</span> <span class="keyword">false</span></div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
+</div>
+</div>
+<a id="aae405dc92c00b044c9d788592ef6d4a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae405dc92c00b044c9d788592ef6d4a4">&sect;&nbsp;</a></span>ToNameAndDesc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util tableDesc ToNameAndDesc </td>
+          <td>(</td>
+          <td class="paramtype">descOrName&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="table__desc__util_8lua.html">table_desc_util.lua</a> :52-70 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.tableDesc.ToNameAndDesc(descOrName)</div><div class="line">  <span class="keywordflow">if</span> type(descOrName) == <span class="stringliteral">&quot;string&quot;</span> then</div><div class="line">    <span class="keywordflow">return</span> descOrName, nil</div><div class="line">  elseif type(descOrName) == <span class="stringliteral">&quot;table&quot;</span> then</div><div class="line">    <span class="keywordflow">if</span> descOrName.type then</div><div class="line">      util.tableDesc.CondAbort(type(descOrName.type) ~= <span class="stringliteral">&quot;string&quot;</span>,</div><div class="line">                   <span class="stringliteral">&quot;&#39;type&#39; entry in table has to be of type &#39;string&#39;&quot;</span>)</div><div class="line">      <span class="keywordflow">return</span> descOrName.type, descOrName</div><div class="line">    elseif descOrName.name then</div><div class="line">      util.tableDesc.CondAbort(type(descOrName.name) ~= <span class="stringliteral">&quot;string&quot;</span>,</div><div class="line">                   <span class="stringliteral">&quot;&#39;name&#39; entry in table has to be of type &#39;string&#39;&quot;</span>)</div><div class="line">      <span class="keywordflow">return</span> descOrName.name, descOrName</div><div class="line">    <span class="keywordflow">else</span></div><div class="line">      <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(<span class="stringliteral">&quot;Either &#39;type&#39; or &#39;name&#39; have to be specified in a descriptor-table&quot;</span>)</div><div class="line">      exit()</div><div class="line">    end</div><div class="line">  end</div><div class="line">  util.tableDesc.<a class="code" href="load__balancing__util__2_8lua.html#a7e4ed70b13157dd354d6338efeb74a11">CondAbort</a>(true, &quot;Invalid name or descriptor specified!&quot;)</div><div class="line">end</div></div><!-- fragment --> 
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_53e6fa9553ac22a5646d2a2b2d7b97a1.html">scripts</a></li><li class="navelem"><a class="el" href="dir_46f23659e18aa5fa06de6ff2c04a1a12.html">util</a></li><li class="navelem"><a class="el" href="table__desc__util_8lua.html">table_desc_util.lua</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:17:52 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:09 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

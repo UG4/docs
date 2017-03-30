@@ -98,12 +98,24 @@ Functions</h2></td></tr>
 <tr class="memitem:aa93be6fdc5cdf66cb4f0a4b6bb5b0eea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_raster_layers.html#aa93be6fdc5cdf66cb4f0a4b6bb5b0eea">ExtrudeLayers</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, RasterLayers *layers, bool allow_for_tets_and_pyras)</td></tr>
 <tr class="memdesc:aa93be6fdc5cdf66cb4f0a4b6bb5b0eea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates volumes for a given stack of raster-layers and an initial triangulation of the surface.  <a href="#aa93be6fdc5cdf66cb4f0a4b6bb5b0eea">More...</a><br /></td></tr>
 <tr class="separator:aa93be6fdc5cdf66cb4f0a4b6bb5b0eea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ea393b8e1226b60b45161ad718378d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_raster_layers.html#a3ea393b8e1226b60b45161ad718378d7">ExtrudeLayersAndAddProjector</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../class_smart_ptr.html">SmartPtr</a>&lt; RasterLayers &gt; layers, bool allow_for_tets_and_pyras)</td></tr>
+<tr class="memdesc:a3ea393b8e1226b60b45161ad718378d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates volumes for a given stack of raster-layers and an initial triangulation of the surface. It also generates a raster-based refinement-projector for the whole geometry.  <a href="#a3ea393b8e1226b60b45161ad718378d7">More...</a><br /></td></tr>
+<tr class="separator:a3ea393b8e1226b60b45161ad718378d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a568abec7f87fea2cdafbffebb6887390"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_raster_layers.html#a568abec7f87fea2cdafbffebb6887390">MeshLayerBoundaries</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, const RasterLayers *layers)</td></tr>
 <tr class="memdesc:a568abec7f87fea2cdafbffebb6887390"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates boundary grids for the given raster-layers.  <a href="#a568abec7f87fea2cdafbffebb6887390">More...</a><br /></td></tr>
 <tr class="separator:a568abec7f87fea2cdafbffebb6887390"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0cf3bf695f4be8afd425dbb9e184705"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_raster_layers.html#ad0cf3bf695f4be8afd425dbb9e184705">MeshLayers</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, const RasterLayers *layers)</td></tr>
 <tr class="memdesc:ad0cf3bf695f4be8afd425dbb9e184705"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates triangle/quadrilateral grids for the given raster-layers.  <a href="#ad0cf3bf695f4be8afd425dbb9e184705">More...</a><br /></td></tr>
 <tr class="separator:ad0cf3bf695f4be8afd425dbb9e184705"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24455c20134bc082f0dd72e6ef6aec51"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_raster_layers.html#a24455c20134bc082f0dd72e6ef6aec51">ProjectToLayer</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, RasterLayers *layers, int layer_index)</td></tr>
+<tr class="memdesc:a24455c20134bc082f0dd72e6ef6aec51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Projects a (surface-)mesh to the specified raster-layer. Only height values in valid regions are adjusted.  <a href="#a24455c20134bc082f0dd72e6ef6aec51">More...</a><br /></td></tr>
+<tr class="separator:a24455c20134bc082f0dd72e6ef6aec51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa656bbb45ddfae8b8aa354453caa6718"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_raster_layers.html#aa656bbb45ddfae8b8aa354453caa6718">ProjectToTopLayer</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, RasterLayers *layers)</td></tr>
+<tr class="memdesc:aa656bbb45ddfae8b8aa354453caa6718"><td class="mdescLeft">&#160;</td><td class="mdescRight">Projects a (surface-)mesh to the top-layer of the specified raster-stack. Only height values in valid regions are adjusted.  <a href="#aa656bbb45ddfae8b8aa354453caa6718">More...</a><br /></td></tr>
+<tr class="separator:aa656bbb45ddfae8b8aa354453caa6718"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac153a9e7b953244521f4f518092baf1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_raster_layers.html#ac153a9e7b953244521f4f518092baf1e">SnapToHorizontalRaster</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../class_smart_ptr.html">SmartPtr</a>&lt; RasterLayers &gt; layers)</td></tr>
+<tr class="memdesc:ac153a9e7b953244521f4f518092baf1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Snaps all vertices of the given (surface) grid horizontally to the closest raster-node.  <a href="#ac153a9e7b953244521f4f518092baf1e">More...</a><br /></td></tr>
+<tr class="separator:ac153a9e7b953244521f4f518092baf1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="aa93be6fdc5cdf66cb4f0a4b6bb5b0eea"></a>
@@ -149,6 +161,52 @@ Functions</h2></td></tr>
 </dl>
 
 <p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#gaf6f24f6d680280a27ec82b95bb9d08d2">ExtrudeLayers()</a>.</p>
+
+</div>
+</div>
+<a id="a3ea393b8e1226b60b45161ad718378d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ea393b8e1226b60b45161ad718378d7">&sect;&nbsp;</a></span>ExtrudeLayersAndAddProjector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug4Bridge::promesh::RasterLayers::ExtrudeLayersAndAddProjector </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../class_smart_ptr.html">SmartPtr</a>&lt; RasterLayers &gt;&#160;</td>
+          <td class="paramname"><em>layers</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>allow_for_tets_and_pyras</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates volumes for a given stack of raster-layers and an initial triangulation of the surface. It also generates a raster-based refinement-projector for the whole geometry. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">layers</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">allow_for_tets_and_pyras</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#gac9aad1ae66069362cd5ebb06fa88d753">ExtrudeLayersAndAddProjector()</a>.</p>
 
 </div>
 </div>
@@ -230,13 +288,137 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a24455c20134bc082f0dd72e6ef6aec51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24455c20134bc082f0dd72e6ef6aec51">&sect;&nbsp;</a></span>ProjectToLayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug4Bridge::promesh::RasterLayers::ProjectToLayer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RasterLayers *&#160;</td>
+          <td class="paramname"><em>layers</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>layer_index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Projects a (surface-)mesh to the specified raster-layer. Only height values in valid regions are adjusted. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">layers</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">layer_index</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga656afa31b2bcb63391d7fac865bf23ee">ProjectToLayer()</a>.</p>
+
+</div>
+</div>
+<a id="aa656bbb45ddfae8b8aa354453caa6718"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa656bbb45ddfae8b8aa354453caa6718">&sect;&nbsp;</a></span>ProjectToTopLayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug4Bridge::promesh::RasterLayers::ProjectToTopLayer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RasterLayers *&#160;</td>
+          <td class="paramname"><em>layers</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Projects a (surface-)mesh to the top-layer of the specified raster-stack. Only height values in valid regions are adjusted. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">layers</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga157af357181a0ea771919070bef40714">ProjectToTopLayer()</a>.</p>
+
+</div>
+</div>
+<a id="ac153a9e7b953244521f4f518092baf1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac153a9e7b953244521f4f518092baf1e">&sect;&nbsp;</a></span>SnapToHorizontalRaster()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug4Bridge::promesh::RasterLayers::SnapToHorizontalRaster </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../class_smart_ptr.html">SmartPtr</a>&lt; RasterLayers &gt;&#160;</td>
+          <td class="paramname"><em>layers</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Snaps all vertices of the given (surface) grid horizontally to the closest raster-node. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">layers</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#gaaccbde7e1de132def1e087afe6710f7c">SnapToHorizontalRaster()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug4_bridge.html">ug4Bridge</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh.html">promesh</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_raster_layers.html">RasterLayers</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:16:59 for Registry by
+    <li class="footer">Generated on Thu Mar 30 2017 18:42:57 for Registry by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

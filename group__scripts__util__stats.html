@@ -86,10 +86,37 @@ $(document).ready(function(){initNavTree('group__scripts__util__stats.html','');
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Statistics Utility</div>  </div>
+<div class="title">Statistics Utility<div class="ingroups"><a class="el" href="group__scripts.html">Scripts</a> &raquo; <a class="el" href="group__scripts__util.html">Lua Utility Scripts</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:gaa7e2de7b61ddf1fb1e874763874a9703"><td class="memItemLeft" align="right" valign="top">function util&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__scripts__util__stats.html#gaa7e2de7b61ddf1fb1e874763874a9703">adjuststring</a> (str, len, type)</td></tr>
+<tr class="separator:gaa7e2de7b61ddf1fb1e874763874a9703"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga19a86e038b6958c3b736c64a569de7ae"><td class="memItemLeft" align="right" valign="top">function util&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__scripts__util__stats.html#ga19a86e038b6958c3b736c64a569de7ae">fill</a> (N, c)</td></tr>
+<tr class="separator:ga19a86e038b6958c3b736c64a569de7ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5f0917077bd928def5ce0ba186724c44"><td class="memItemLeft" align="right" valign="top">function util&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__scripts__util__stats.html#ga5f0917077bd928def5ce0ba186724c44">flattenTable</a> (tab, name, resTable)</td></tr>
+<tr class="separator:ga5f0917077bd928def5ce0ba186724c44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga224503f33aca3114a18081c458e33535"><td class="memItemLeft" align="right" valign="top">function util&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__scripts__util__stats.html#ga224503f33aca3114a18081c458e33535">getStats</a> (stats, bHeader, seperator, bStats, seperator2)</td></tr>
+<tr class="separator:ga224503f33aca3114a18081c458e33535"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3c7fbf3e05c9cb1d271cf6bf967d77da"><td class="memItemLeft" align="right" valign="top">function util&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__scripts__util__stats.html#ga3c7fbf3e05c9cb1d271cf6bf967d77da">printFormattedTable</a> (tab, bNumbers, type, header)</td></tr>
+<tr class="separator:ga3c7fbf3e05c9cb1d271cf6bf967d77da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3351b2ac2c1dcc2e3f3fdf191c72ea95"><td class="memItemLeft" align="right" valign="top">function util&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__scripts__util__stats.html#ga3351b2ac2c1dcc2e3f3fdf191c72ea95">printFormattedTableSideways</a> (tab, bNumbers, header)</td></tr>
+<tr class="separator:ga3351b2ac2c1dcc2e3f3fdf191c72ea95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2f600bedbc3e6a4012d9a12a79590418"><td class="memItemLeft" align="right" valign="top">function util&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__scripts__util__stats.html#ga2f600bedbc3e6a4012d9a12a79590418">printStats</a> (stats)</td></tr>
+<tr class="separator:ga2f600bedbc3e6a4012d9a12a79590418"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad5a2740e0dc6da085842043826b8429b"><td class="memItemLeft" align="right" valign="top">function util&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__scripts__util__stats.html#gad5a2740e0dc6da085842043826b8429b">statsUtilGetHeader</a> (header, tab)</td></tr>
+<tr class="separator:gad5a2740e0dc6da085842043826b8429b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabdc69a3c58edf52b6edbc56c0af74fcd"><td class="memItemLeft" align="right" valign="top">function util&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__scripts__util__stats.html#gabdc69a3c58edf52b6edbc56c0af74fcd">StringTableFromTable</a> (tab, header, s)</td></tr>
+<tr class="separator:gabdc69a3c58edf52b6edbc56c0af74fcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7d4f3ce67c265c9239396cd0fe88e078"><td class="memItemLeft" align="right" valign="top">function util&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__scripts__util__stats.html#ga7d4f3ce67c265c9239396cd0fe88e078">writeFileStats</a> (stats, filename, seperator)</td></tr>
+<tr class="separator:ga7d4f3ce67c265c9239396cd0fe88e078"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <dl class="section author"><dt>Author</dt><dd>Martin Rupp</dd></dl>
 <p>This file and the comments are intended to make your life easier when you want to do several runs of a script and you need to evaluate data from the runs, like compare solution times for different number of refinements. First you need to know, what statistics you want to output and compare. Imagine you want to run laplace.lua for several different numRefs or even num procs, and results should be saved in a file "stats.txt", so that you can use in a spreadsheet. The stats format is as follows: it is an array, consisting of entries {description, content} So we need to add to our laplace.lua file the following lines: </p><div class="fragment"><div class="line">stats = { {<span class="stringliteral">&quot;procs&quot;</span>, GetNumProcesses()}, {<span class="stringliteral">&quot;numRefs&quot;</span>, numRefs}, {<span class="stringliteral">&quot;steps&quot;</span>, convCheck:step()}, {<span class="stringliteral">&quot;SVN Revision&quot;</span>, <a class="code" href="group__misc__bridge.html#ga2e3d09a57d4d391a2cd6e38464f70abc">GetSVNRevision</a>()} }</div><div class="line">     util.writeFileStats(stats, <span class="stringliteral">&quot;stats.txt&quot;</span>)</div></div><!-- fragment --><p> after 2 runs, the file stats.txt looks as follows </p><pre class="fragment">procs   numRefs   steps   SVN Revision
 4   8   6   4459M
@@ -99,13 +126,397 @@ $(document).ready(function(){initNavTree('group__scripts__util__stats.html','');
   steps: 6
   SVN Revision: 4459M
   to the console
-</pre><p>For boolean values, use <code>tostring(bExternalCoarsening)</code> -&gt; "true" / "false". You can seperate your runs by date with the following example bash script: </p><div class="fragment"><div class="line">mydate=`date +%Y-%m-%d-%H.%M.%S`</div><div class="line">mkdir $mydate</div><div class="line"><span class="keywordflow">for</span> i in {3..6}</div><div class="line"><span class="keywordflow">do</span></div><div class="line">   ./ugshell -ex mycheck.lua -outdir $mydate/ -logtofile $mydate/mycheck${i} -numRefs $i</div><div class="line">done</div></div><!-- fragment --><p> and in you lua-file, you could use <code>util.writeFileStats(stats, util.GetParam("-outdir", "").."stats.txt")</code>. Instead of defining -logtofile from the shell, you could also make something like <code><a class="el" href="group__ugbase__common.html#ga196c4cf75549d65de84def6692f4fd43">GetLogAssistant()</a>:enable_file_output(true, util.GetParam("-outdir". "").."check_numRefs"..numRefs.."_procs"..procs..".txt")</code> </p>
+</pre><p>For boolean values, use <code>tostring(bExternalCoarsening)</code> -&gt; "true" / "false". You can seperate your runs by date with the following example bash script: </p><div class="fragment"><div class="line">mydate=`date +%Y-%m-%d-%H.%M.%S`</div><div class="line">mkdir $mydate</div><div class="line"><span class="keywordflow">for</span> i in {3..6}</div><div class="line"><span class="keywordflow">do</span></div><div class="line">   ./ugshell -<a class="code" href="command__line__util_8lua.html#a340d3719e63a0a3a4f4429ef8c8b55ea">ex</a> mycheck.lua -outdir $mydate/ -<a class="code" href="command__line__util_8lua.html#a5fb406e096fcd276a52add3deb58920b">logtofile</a> $mydate/mycheck${i} -numRefs $i</div><div class="line">done</div></div><!-- fragment --><p> and in you lua-file, you could use <code>util.writeFileStats(stats, util.GetParam("-outdir", "").."stats.txt")</code>. Instead of defining -logtofile from the shell, you could also make something like <code><a class="el" href="group__ugbase__common.html#ga196c4cf75549d65de84def6692f4fd43">GetLogAssistant()</a>:enable_file_output(true, util.GetParam("-outdir". "").."check_numRefs"..numRefs.."_procs"..procs..".txt")</code> </p>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="gaa7e2de7b61ddf1fb1e874763874a9703"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa7e2de7b61ddf1fb1e874763874a9703">&sect;&nbsp;</a></span>adjuststring()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util adjuststring </td>
+          <td>(</td>
+          <td class="paramtype">str&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">len&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">type&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>util.adjuststring returns a string with whitespace left and right so that total string length is len </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>string used </td></tr>
+    <tr><td class="paramname">len</td><td>total length of resulting string </td></tr>
+    <tr><td class="paramname">type</td><td>padding type: "l" = string is on left, "c" = centered, "r" = right. default "l"</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="stats__util_8lua.html">stats_util.lua</a> :99-111 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.adjuststring(str, len, type)</div><div class="line">  <span class="keywordflow">if</span> type == nil then</div><div class="line">    type = <span class="stringliteral">&quot;l&quot;</span></div><div class="line">  end</div><div class="line">  local l=<span class="keywordtype">string</span>.len(str)</div><div class="line">  local m=0</div><div class="line">  <span class="keywordflow">if</span> type == <span class="stringliteral">&quot;c&quot;</span> then</div><div class="line">    m=math.ceil((len-l)/2)</div><div class="line">  elseif type == <span class="stringliteral">&quot;r&quot;</span> then</div><div class="line">    m=len-l</div><div class="line">  end</div><div class="line">  <span class="keywordflow">return</span> util.fill(m)..str..util.fill(len-m-l)</div><div class="line">end</div></div><!-- fragment --> 
+</div>
+</div>
+<a id="ga19a86e038b6958c3b736c64a569de7ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga19a86e038b6958c3b736c64a569de7ae">&sect;&nbsp;</a></span>fill()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util fill </td>
+          <td>(</td>
+          <td class="paramtype">N&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">c&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>util.fill returns a string consisting of N times the character c </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">N</td><td>number of times c is to be repeated </td></tr>
+    <tr><td class="paramname">c</td><td>character to repeat (if omitted, " ")</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="stats__util_8lua.html">stats_util.lua</a> :84-91 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.fill(N, c)</div><div class="line">  local s=<span class="stringliteral">&quot;&quot;</span></div><div class="line">  <span class="keywordflow">if</span> c == nil then c = <span class="stringliteral">&quot; &quot;</span> end</div><div class="line">  <span class="keywordflow">for</span> i=1,N <span class="keywordflow">do</span></div><div class="line">    s=s..c</div><div class="line">  end</div><div class="line">  <span class="keywordflow">return</span> s</div><div class="line">end</div></div><!-- fragment --> 
+<p>Referenced by <a class="el" href="classug_1_1_field.html#afcf4e15adcbc4b0031bd2adf4c9511ed">ug::Field&lt; number &gt;::at()</a>.</p>
+
+</div>
+</div>
+<a id="ga5f0917077bd928def5ce0ba186724c44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5f0917077bd928def5ce0ba186724c44">&sect;&nbsp;</a></span>flattenTable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util flattenTable </td>
+          <td>(</td>
+          <td class="paramtype">tab&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">name&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">resTable&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>inserts the table tab into resTable in a "flat" way that means, subtables are getting indices so that the resulting table has no subtables example: tab = {a=2, b="hi", c={word=3, nose=4} } res = {} flattenTable(tab, "tab", res) res = { {"tab.a", 2}, {"tab.b", "hi"}, {"tab.c.word", 3}, {"tab.c.nose", 4} } especially usefull for util.writeFileStats note: syntax {name, value} used instead of name=value because this way the order is stable</p>
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="stats__util_8lua.html">stats_util.lua</a> :361-374 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.flattenTable(tab, name, resTable)</div><div class="line">  local tName = <span class="stringliteral">&quot;&quot;</span></div><div class="line">  <span class="keywordflow">if</span> name ~= nil then</div><div class="line">    tName = name..<span class="stringliteral">&quot;.&quot;</span></div><div class="line">  end</div><div class="line">  <span class="keywordflow">if</span> type(tab) == <span class="stringliteral">&quot;table&quot;</span> then</div><div class="line">    <span class="keywordflow">for</span> i, v in pairs(tab) <span class="keywordflow">do</span></div><div class="line">      util.flattenTable(v, tName..i, resTable)</div><div class="line">    end</div><div class="line">  elseif type(tab) ~= <span class="stringliteral">&quot;userdata&quot;</span> then   </div><div class="line">    table.insert(resTable, {name, tab})</div><div class="line">  end</div><div class="line">  <span class="keywordflow">return</span> resTable</div><div class="line">end</div></div><!-- fragment --> 
+</div>
+</div>
+<a id="ga224503f33aca3114a18081c458e33535"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga224503f33aca3114a18081c458e33535">&sect;&nbsp;</a></span>getStats()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util getStats </td>
+          <td>(</td>
+          <td class="paramtype">stats&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bHeader&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">seperator&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bStats&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">seperator2&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>util.getStats internal method</p>
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="stats__util_8lua.html">stats_util.lua</a> :39-54 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.getStats(stats, bHeader, seperator, bStats, seperator2)</div><div class="line">  local output=<span class="stringliteral">&quot;&quot;</span></div><div class="line">  <span class="keywordflow">for</span> i,v in ipairs(stats) <span class="keywordflow">do</span></div><div class="line">    <span class="keywordflow">if</span> bHeader then output = output..v[1]..seperator end</div><div class="line">    <span class="keywordflow">if</span> bStats then</div><div class="line">      <span class="keywordflow">if</span> v[2] == nil then</div><div class="line">        <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(<span class="stringliteral">&quot;value for item &quot;</span>..v[1]..<span class="stringliteral">&quot; is nil!&quot;</span>)</div><div class="line">        output = output..<span class="stringliteral">&quot; &quot;</span>..seperator2</div><div class="line">      <span class="keywordflow">else</span>        </div><div class="line">        output = output..<a class="code" href="output__util_8lua.html#af0f8937e19fdbf7df4cc701d1c288fb7">tostring</a>(v[2])..seperator2</div><div class="line">      end</div><div class="line">    end</div><div class="line">  end</div><div class="line">  output = output..<span class="stringliteral">&quot;\n&quot;</span></div><div class="line">  <span class="keywordflow">return</span> output</div><div class="line">end</div></div><!-- fragment --> 
+</div>
+</div>
+<a id="ga3c7fbf3e05c9cb1d271cf6bf967d77da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3c7fbf3e05c9cb1d271cf6bf967d77da">&sect;&nbsp;</a></span>printFormattedTable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util printFormattedTable </td>
+          <td>(</td>
+          <td class="paramtype">tab&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bNumbers&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">type&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">header&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>util.printFormattedTable prints stats to the console </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tab</td><td>table in the form t={{["colA" </td></tr>
+    <tr><td class="paramname">bNumbers</td><td>if true, print a colum with the key of the table (default false) </td></tr>
+    <tr><td class="paramname">type</td><td>type of column padding ("r", "l" or "c", default "l") </td></tr>
+    <tr><td class="paramname">header</td><td>colums to be printed, like {"colA", "colB"}. if nil, all. location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="stats__util_8lua.html">stats_util.lua</a> :170-231 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga3351b2ac2c1dcc2e3f3fdf191c72ea95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3351b2ac2c1dcc2e3f3fdf191c72ea95">&sect;&nbsp;</a></span>printFormattedTableSideways()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util printFormattedTableSideways </td>
+          <td>(</td>
+          <td class="paramtype">tab&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bNumbers&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">header&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>util.printFormattedTableSideways prints stats to the console, sideways </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tab</td><td>table in the form t={{["colA" </td></tr>
+    <tr><td class="paramname">type</td><td>type of row padding ("r", "l" or "c", default "l") </td></tr>
+    <tr><td class="paramname">bNumbers</td><td>if true, print a colum with the number of the table (default false) </td></tr>
+    <tr><td class="paramname">header</td><td>colums to be printed, like {"colA", "colB"}, if nil: all</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="stats__util_8lua.html">stats_util.lua</a> :254-304 </p>
+
+</div>
+</div>
+<a id="ga2f600bedbc3e6a4012d9a12a79590418"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2f600bedbc3e6a4012d9a12a79590418">&sect;&nbsp;</a></span>printStats()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util printStats </td>
+          <td>(</td>
+          <td class="paramtype">stats&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>util.printStats prints stats to the console </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">stats</td><td>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="stats__util_8lua.html">stats_util.lua</a> :116-125 <div class="fragment"><div class="line"><span class="keyword">function</span> util.printStats(stats)</div><div class="line">  local maxlen=2</div><div class="line">  <span class="keywordflow">for</span> i,v in ipairs(stats) <span class="keywordflow">do</span></div><div class="line">    maxlen = math.max(maxlen, <span class="keywordtype">string</span>.len(v[1]))   </div><div class="line">  end</div><div class="line"></div><div class="line">  <span class="keywordflow">for</span> i,v in ipairs(stats) <span class="keywordflow">do</span></div><div class="line">    <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(util.adjuststring(v[1], maxlen)..<span class="stringliteral">&quot;: &quot;</span>..<a class="code" href="output__util_8lua.html#af0f8937e19fdbf7df4cc701d1c288fb7">tostring</a>(v[2]))    </div><div class="line">  end </div><div class="line">end</div></div><!-- fragment --> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gad5a2740e0dc6da085842043826b8429b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad5a2740e0dc6da085842043826b8429b">&sect;&nbsp;</a></span>statsUtilGetHeader()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util statsUtilGetHeader </td>
+          <td>(</td>
+          <td class="paramtype">header&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">tab&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="stats__util_8lua.html">stats_util.lua</a> :128-142 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.statsUtilGetHeader(header, tab)</div><div class="line">  <span class="keywordflow">if</span> header == nil then</div><div class="line">    local h = {}</div><div class="line">    header = {}   </div><div class="line">    <span class="keywordflow">for</span> i, v in pairs(tab) <span class="keywordflow">do</span></div><div class="line">      <span class="keywordflow">for</span> j, col in pairs(v) <span class="keywordflow">do</span></div><div class="line">        <span class="keywordflow">if</span> h[j] == nil then</div><div class="line">          h[j] = j    </div><div class="line">          table.insert(header, j)</div><div class="line">        end    </div><div class="line">      end</div><div class="line">    end</div><div class="line">  end</div><div class="line">  <span class="keywordflow">return</span> header</div><div class="line">end</div></div><!-- fragment --> 
+</div>
+</div>
+<a id="gabdc69a3c58edf52b6edbc56c0af74fcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabdc69a3c58edf52b6edbc56c0af74fcd">&sect;&nbsp;</a></span>StringTableFromTable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util StringTableFromTable </td>
+          <td>(</td>
+          <td class="paramtype">tab&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">header&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">s&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="stats__util_8lua.html">stats_util.lua</a> :307-341 </p>
+
+</div>
+</div>
+<a id="ga7d4f3ce67c265c9239396cd0fe88e078"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7d4f3ce67c265c9239396cd0fe88e078">&sect;&nbsp;</a></span>writeFileStats()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util writeFileStats </td>
+          <td>(</td>
+          <td class="paramtype">stats&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">filename&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">seperator&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>util.writeFileStats writes stats to a file </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">stats</td><td></td></tr>
+    <tr><td class="paramname">filename</td><td></td></tr>
+    <tr><td class="paramname">seperator</td><td>(default " \t")</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="stats__util_8lua.html">stats_util.lua</a> :62-77 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.writeFileStats(stats, filename, seperator)</div><div class="line">  <span class="keywordflow">if</span> seperator == nil then</div><div class="line">    seperator = <span class="stringliteral">&quot; \t&quot;</span></div><div class="line">  end</div><div class="line">  local output = io.open(filename, <span class="stringliteral">&quot;a&quot;</span>)</div><div class="line">  </div><div class="line">  <span class="keywordflow">if</span> output == null then </div><div class="line">     <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(<span class="stringliteral">&quot;Could not open&quot;</span>..filename)</div><div class="line">  <span class="keywordflow">else</span></div><div class="line">    <span class="keywordflow">if</span> <a class="code" href="group__scripts__util.html#gaea9b82be0d17afc06bd2019609905d5a">fsize</a>(output) == 0 then</div><div class="line">      output:<a class="code" href="group__scripts__util.html#ga484ed067e87b02a3e17e7d5ac7f1c96c">write</a>(<span class="stringliteral">&quot;#&quot;</span>..util.getStats(stats, <span class="keyword">true</span>, seperator, <span class="keyword">false</span>, seperator))    </div><div class="line">    end</div><div class="line">    output:<a class="code" href="group__scripts__util.html#ga484ed067e87b02a3e17e7d5ac7f1c96c">write</a>(util.getStats(stats, <span class="keyword">false</span>, seperator, <span class="keyword">true</span>, seperator))</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Oct 19 2016 12:17:55 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:12 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

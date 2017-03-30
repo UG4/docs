@@ -2,6 +2,7 @@ var pyramid__rules_8h =
 [
     [ "CollapseEdge", "pyramid__rules_8h.html#af228d3a6a3a6b79cdb7198b6ba04f934", null ],
     [ "ConvertToTetrahedra", "pyramid__rules_8h.html#a8e8eca2c7bc173d6d0d5ece7413359ea", null ],
+    [ "IsRegularRefRule", "pyramid__rules_8h.html#a2c406f8469a03f83624df8aff56b2052", null ],
     [ "Refine", "pyramid__rules_8h.html#ad36abdf76960dac984fa3ac08098a556", null ],
     [ "BOTTOM_EDGE_INDS", "pyramid__rules_8h.html#aba6efcfc9734609feeb2312366030ad3", null ],
     [ "EDGE_FROM_VRTS", "pyramid__rules_8h.html#a346e903ab22146d01ec0d39a95e692a3", null ],

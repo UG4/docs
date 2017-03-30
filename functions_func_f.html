@@ -261,7 +261,7 @@ $(document).ready(function(){initNavTree('functions_func_f.html','');});
 , <a class="el" href="classug_1_1_neumann_boundary_f_v.html#a36d059862b67f395b6b97233623c8373">ug::NeumannBoundaryFV&lt; TDomain &gt;</a>
 </li>
 <li>finish_err_est_elem_loop()
-: <a class="el" href="classug_1_1_data_evaluator.html#abd9ff37d4c971e4e4fb6c4f89d2b6ea6">ug::DataEvaluator&lt; TDomain &gt;</a>
+: <a class="el" href="classug_1_1_data_evaluator_base.html#ac7c8e5e4f1bc76198c11eb3ce3d12918">ug::DataEvaluatorBase&lt; TDomain, TElemDisc &gt;</a>
 </li>
 <li>finish_step()
 : <a class="el" href="classug_1_1_i_time_discretization.html#a1104884e51d50640c01fc306629671a0">ug::ITimeDiscretization&lt; TAlgebra &gt;</a>
@@ -440,19 +440,19 @@ $(document).ready(function(){initNavTree('functions_func_f.html','');});
 </li>
 <li>fsh_elem_loop()
 : <a class="el" href="classug_1_1_f_v1_inner_boundary_elem_disc.html#a87cc5c1470efe364f11cb1a9538ed186">ug::FV1InnerBoundaryElemDisc&lt; TDomain &gt;</a>
-, <a class="el" href="classug_1_1_i_elem_disc.html#a6b50cdb650858f1b0f74952a7c363a4f">ug::IElemDisc&lt; TDomain &gt;</a>
+, <a class="el" href="classug_1_1_i_elem_assemble_funcs.html#a936145b3264fbfbd8b1a64bd69ccfcb6">ug::IElemAssembleFuncs&lt; TLeaf, TDomain &gt;</a>
 , <a class="el" href="classug_1_1_neumann_boundary_f_v1.html#aad6cc6698fbe42a486167c2d9a11a703">ug::NeumannBoundaryFV1&lt; TDomain &gt;</a>
 </li>
 <li>fsh_err_est_elem_loop()
 : <a class="el" href="classug_1_1_f_v1_inner_boundary_elem_disc.html#a87742d949a578ff23fb838ed07e25bed">ug::FV1InnerBoundaryElemDisc&lt; TDomain &gt;</a>
-, <a class="el" href="classug_1_1_i_elem_disc.html#a74f5de5e3c71b5ce2b2e959020565a05">ug::IElemDisc&lt; TDomain &gt;</a>
+, <a class="el" href="classug_1_1_i_elem_estimator_funcs.html#a20c15618def81d351f73633a97dc3ed0">ug::IElemEstimatorFuncs&lt; TLeaf, TDomain &gt;</a>
 , <a class="el" href="classug_1_1_neumann_boundary_f_v1.html#ace18bb26389c7e6eed59fb66e521d745">ug::NeumannBoundaryFV1&lt; TDomain &gt;</a>
 </li>
 <li>fsh_timestep()
-: <a class="el" href="classug_1_1_i_elem_disc.html#aaa52c4ab20b12ae5735799500819cae0">ug::IElemDisc&lt; TDomain &gt;</a>
+: <a class="el" href="classug_1_1_i_elem_assemble_funcs.html#a1e006517816760bf8794c36dabe66f63">ug::IElemAssembleFuncs&lt; TLeaf, TDomain &gt;</a>
 </li>
 <li>fsh_timestep_elem()
-: <a class="el" href="classug_1_1_i_elem_disc.html#a7e5d69535628cca70d8ffc35b35cb7eb">ug::IElemDisc&lt; TDomain &gt;</a>
+: <a class="el" href="classug_1_1_i_elem_assemble_funcs.html#ae4a4077a4db951d896ee15c366c76661">ug::IElemAssembleFuncs&lt; TLeaf, TDomain &gt;</a>
 </li>
 <li>Function()
 : <a class="el" href="structug_1_1_function_pattern_1_1_function.html#a1f4de18cd4e31d31cd1e3915cc976aaf">ug::FunctionPattern::Function</a>
@@ -464,13 +464,13 @@ $(document).ready(function(){initNavTree('functions_func_f.html','');});
 : <a class="el" href="classug_1_1_global_attachments.html#ac5c1df83e1e0b7fb176d6de9267e6f0d">ug::GlobalAttachments</a>
 </li>
 <li>function_group()
-: <a class="el" href="classug_1_1_i_elem_disc.html#a3e0a5d2d8b7394f504e949509b7a9b65">ug::IElemDisc&lt; TDomain &gt;</a>
+: <a class="el" href="classug_1_1_i_elem_disc_base.html#a0059417503ddd46dc35bc6180289a2c6">ug::IElemDiscBase&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_user_data_info.html#a5a2f6aaf9fcc70ba36d47a53d48117c6">ug::UserDataInfo</a>
 </li>
 <li>function_pattern()
 : <a class="el" href="classug_1_1_do_f_distribution_info_provider.html#ae7e44e940f8687fd8e9b84a368bd32b9">ug::DoFDistributionInfoProvider</a>
 , <a class="el" href="classug_1_1_function_group.html#a3d03f461ba3566f7b41bcf534f5c220e">ug::FunctionGroup</a>
-, <a class="el" href="classug_1_1_i_elem_disc.html#a2dc61c1f580e98a59d827e7e344489d5">ug::IElemDisc&lt; TDomain &gt;</a>
+, <a class="el" href="classug_1_1_i_elem_disc_base.html#ab095010f61297f2c3508c36fd3cb0d92">ug::IElemDiscBase&lt; TDomain &gt;</a>
 </li>
 <li>FunctionEntry()
 : <a class="el" href="structug_1_1_global_attachments_1_1_function_entry.html#ac9df90a235d30d8908252682049a3fda">ug::GlobalAttachments::FunctionEntry&lt; TElem, TAttachment &gt;</a>
@@ -488,7 +488,7 @@ $(document).ready(function(){initNavTree('functions_func_f.html','');});
 : <a class="el" href="classug_1_1_global_attachments.html#a0e28a451a6673c6eae61940330ee1ac0">ug::GlobalAttachments</a>
 </li>
 <li>Functor()
-: <a class="el" href="classug_1_1_data_export_1_1_functor.html#af96a2a6a933993a765a268d3cbbff4e5">ug::DataExport&lt; TData, dim &gt;::Functor&lt; refDim &gt;</a>
+: <a class="el" href="classug_1_1_data_export_1_1_functor.html#a6f01071fc30383dd5dae01ab78524fb2">ug::DataExport&lt; TData, dim &gt;::Functor&lt; refDim &gt;</a>
 </li>
 <li>future_time()
 : <a class="el" href="classug_1_1_i_time_discretization.html#ab8e9d811d6d1c7033a08e940a0ac2303">ug::ITimeDiscretization&lt; TAlgebra &gt;</a>
@@ -511,10 +511,10 @@ $(document).ready(function(){initNavTree('functions_func_f.html','');});
 </li>
 <li>FVLineSourceOrSink()
 : <a class="el" href="classug_1_1_f_v_line_source_or_sink.html#a0c573ea4484b3855f3e7b1606bb79221">ug::FVLineSourceOrSink&lt; dim, TData &gt;</a>
-, <a class="el" href="classug_1_1_f_v_line_source_or_sink_3_011_00_01_t_data_01_4.html#a4caebc2c2833dfaa0afef0285f6edc05">ug::FVLineSourceOrSink&lt; 1, TData &gt;</a>
+, <a class="el" href="classug_1_1_f_v_line_source_or_sink_3_011_00_01_t_data_01_4.html#ae6e011715abf6ef47a693eb9dd2eb039">ug::FVLineSourceOrSink&lt; 1, TData &gt;</a>
 </li>
 <li>FVPointSourceOrSink()
-: <a class="el" href="classug_1_1_f_v_point_source_or_sink.html#aa956381cea31372b46c8a0ec3fbed097">ug::FVPointSourceOrSink&lt; dim, TData &gt;</a>
+: <a class="el" href="classug_1_1_f_v_point_source_or_sink.html#a40b29bb944a08a651ee4e9b6b995c62d">ug::FVPointSourceOrSink&lt; dim, TData &gt;</a>
 </li>
 <li>FVSingularSourcesAndSinks()
 : <a class="el" href="classug_1_1_f_v_singular_sources_and_sinks.html#acd5672bc75ca711a066c358216d888ad">ug::FVSingularSourcesAndSinks&lt; dim, TPointData, TLineData &gt;</a>
@@ -525,7 +525,7 @@ $(document).ready(function(){initNavTree('functions_func_f.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Oct 19 2016 12:18:31 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:52 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

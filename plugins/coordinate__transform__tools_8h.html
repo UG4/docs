@@ -125,6 +125,8 @@ Macros</h2></td></tr>
 <tr class="separator:a942c8eb7bffdb7e2bd1a83d6c385eb34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ddf9407e9c467ee6bbcae2535e8eef6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="coordinate__transform__tools_8h.html#a2ddf9407e9c467ee6bbcae2535e8eef6">TOOLTIP_LAPLACIAN_SMOOTH</a>&#160;&#160;&#160;&quot;Smoothes vertices in a grid.&quot;</td></tr>
 <tr class="separator:a2ddf9407e9c467ee6bbcae2535e8eef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a169ca92510cec9692c00a24e3f41b730"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="coordinate__transform__tools_8h.html#a169ca92510cec9692c00a24e3f41b730">TOOLTIP_MIRROR</a>&#160;&#160;&#160;&quot;Mirrors the geometry at the given point along the given axis&quot;</td></tr>
+<tr class="separator:a169ca92510cec9692c00a24e3f41b730"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88d25982bb6fa81fccdc920dd8128ed7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="coordinate__transform__tools_8h.html#a88d25982bb6fa81fccdc920dd8128ed7">TOOLTIP_MOVE</a>&#160;&#160;&#160;&quot;Moves selected vertices.&quot;</td></tr>
 <tr class="separator:a88d25982bb6fa81fccdc920dd8128ed7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b22e4b17cdf092e7ec483619b997016"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="coordinate__transform__tools_8h.html#a8b22e4b17cdf092e7ec483619b997016">TOOLTIP_MOVE_ALONG_NORMAL</a>&#160;&#160;&#160;&quot;Moves selected vertices along their <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__io.html#gga6a82612c01d3d1a74ef7c21feb1d3577a940e1736cb82fb7bcacdc88c67705d75">normal</a> by the specified offset.&quot;</td></tr>
@@ -155,6 +157,8 @@ Macros</h2></td></tr>
 <tr class="separator:a3d796a814646ba17f375d7b217858b11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c822ebfd6fe30fd634c270286357ee5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="coordinate__transform__tools_8h.html#a9c822ebfd6fe30fd634c270286357ee5">TOOLTIP_SCALE_AROUND_PIVOT</a>&#160;&#160;&#160;&quot;Scales the selected elements around the pivot of the mesh.&quot;</td></tr>
 <tr class="separator:a9c822ebfd6fe30fd634c270286357ee5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cbd14438218bebca330e238a3464f33"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="coordinate__transform__tools_8h.html#a4cbd14438218bebca330e238a3464f33">TOOLTIP_SCALE_AROUND_POINT</a>&#160;&#160;&#160;&quot;Scales the selected geometry around the given point&quot;</td></tr>
+<tr class="separator:a4cbd14438218bebca330e238a3464f33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82c7774bab44fe86a53674bf3e23ee13"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="coordinate__transform__tools_8h.html#a82c7774bab44fe86a53674bf3e23ee13">TOOLTIP_SET_PIVOT</a>&#160;&#160;&#160;&quot;Sets the pivot point of the selected object.&quot;</td></tr>
 <tr class="separator:a82c7774bab44fe86a53674bf3e23ee13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4f312972b71a0fd5d8d5987f4c551bd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="coordinate__transform__tools_8h.html#ac4f312972b71a0fd5d8d5987f4c551bd">TOOLTIP_SET_PIVOT_TO_MESH_CENTER</a>&#160;&#160;&#160;&quot;Sets the pivot <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> the center of the active mesh.&quot;</td></tr>
@@ -186,10 +190,10 @@ Functions</h2></td></tr>
 <tr class="separator:ga78767a7b04ba263cc595ffdb500d391e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga97ac0151c1788fabae6c9b7b811a160b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga97ac0151c1788fabae6c9b7b811a160b">ug::promesh::LaplacianSmooth</a> (Mesh *obj, <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> alpha, int numIterations)</td></tr>
 <tr class="separator:ga97ac0151c1788fabae6c9b7b811a160b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadc3d7dab10a8f331a6b0a24b33304d8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#gadc3d7dab10a8f331a6b0a24b33304d8d">ug::promesh::Mirror</a> (Mesh *obj, const <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__vectors.html#ga894cdb8af74f7a563a94fb49c220fdcd">vector3</a> &amp;axisOrig, const <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__vectors.html#ga894cdb8af74f7a563a94fb49c220fdcd">vector3</a> &amp;origin)</td></tr>
+<tr class="separator:gadc3d7dab10a8f331a6b0a24b33304d8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gafff27f8aff2a7bb5a97583ff244c3ba3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#gafff27f8aff2a7bb5a97583ff244c3ba3">ug::promesh::Move</a> (Mesh *obj, const <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__vectors.html#ga894cdb8af74f7a563a94fb49c220fdcd">vector3</a> &amp;offset)</td></tr>
 <tr class="separator:gafff27f8aff2a7bb5a97583ff244c3ba3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga19bf9144266627477f044cff1c2be515"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga19bf9144266627477f044cff1c2be515">ug::promesh::MoveAlongNormal</a> (Mesh *obj, <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> offset, bool usePrecalculatedNormals)</td></tr>
-<tr class="separator:ga19bf9144266627477f044cff1c2be515"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5d7585f737fba9e7de4e6355ddeca3f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga5d7585f737fba9e7de4e6355ddeca3f0">ug::promesh::MoveAlongNormal</a> (Mesh *obj, <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> offset)</td></tr>
 <tr class="separator:ga5d7585f737fba9e7de4e6355ddeca3f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac0c2eeec2594e04ec8754c187cbcf300"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#gac0c2eeec2594e04ec8754c187cbcf300">ug::promesh::MoveMeshTo</a> (Mesh *obj, const <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__vectors.html#ga894cdb8af74f7a563a94fb49c220fdcd">vector3</a> &amp;newPos)</td></tr>
@@ -204,14 +208,16 @@ Functions</h2></td></tr>
 <tr class="separator:ga5895ae3ade4e13965fcbdae0686e300d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2fe388089de1c83104a6329d679fa016"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga2fe388089de1c83104a6329d679fa016">ug::promesh::ProjectToPlane</a> (Mesh *obj, const <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__vectors.html#ga894cdb8af74f7a563a94fb49c220fdcd">vector3</a> &amp;planeCenter, const <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__vectors.html#ga894cdb8af74f7a563a94fb49c220fdcd">vector3</a> &amp;planeNormal)</td></tr>
 <tr class="separator:ga2fe388089de1c83104a6329d679fa016"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab1d076467a645a1fe1f07991650ccf8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#gab1d076467a645a1fe1f07991650ccf8f">ug::promesh::RotateAroundCenter</a> (Mesh *obj, const <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__vectors.html#ga894cdb8af74f7a563a94fb49c220fdcd">vector3</a> &amp;<a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../namespaceug.html#ab986097033b172501fba961eed5104dc">rot</a>)</td></tr>
-<tr class="separator:gab1d076467a645a1fe1f07991650ccf8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8d611c8e9bde89245876479d413c8168"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga8d611c8e9bde89245876479d413c8168">ug::promesh::RotateAroundPivot</a> (Mesh *obj, const <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__vectors.html#ga894cdb8af74f7a563a94fb49c220fdcd">vector3</a> &amp;<a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../namespaceug.html#ab986097033b172501fba961eed5104dc">rot</a>)</td></tr>
-<tr class="separator:ga8d611c8e9bde89245876479d413c8168"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga55017c187ae0c907646913f0fd27d1e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga55017c187ae0c907646913f0fd27d1e4">ug::promesh::RotateAroundCenter</a> (Mesh *obj, const <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__vectors.html#ga894cdb8af74f7a563a94fb49c220fdcd">vector3</a> &amp;rotRad)</td></tr>
+<tr class="separator:ga55017c187ae0c907646913f0fd27d1e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9056a46ee9bcfae95ec885c86e6d611c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga9056a46ee9bcfae95ec885c86e6d611c">ug::promesh::RotateAroundPivot</a> (Mesh *obj, const <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__vectors.html#ga894cdb8af74f7a563a94fb49c220fdcd">vector3</a> &amp;rotRad)</td></tr>
+<tr class="separator:ga9056a46ee9bcfae95ec885c86e6d611c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2372c55252e38a62b64dbf52003f5d91"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga2372c55252e38a62b64dbf52003f5d91">ug::promesh::ScaleAroundCenter</a> (Mesh *obj, const <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__vectors.html#ga894cdb8af74f7a563a94fb49c220fdcd">vector3</a> &amp;scale)</td></tr>
 <tr class="separator:ga2372c55252e38a62b64dbf52003f5d91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gafdd3b7b8200330e6587989555bb90acd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#gafdd3b7b8200330e6587989555bb90acd">ug::promesh::ScaleAroundPivot</a> (Mesh *obj, const <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__vectors.html#ga894cdb8af74f7a563a94fb49c220fdcd">vector3</a> &amp;scale)</td></tr>
 <tr class="separator:gafdd3b7b8200330e6587989555bb90acd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga024c72a666ec61120d46b23de301e69a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga024c72a666ec61120d46b23de301e69a">ug::promesh::ScaleAroundPoint</a> (Mesh *obj, const <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__vectors.html#ga894cdb8af74f7a563a94fb49c220fdcd">vector3</a> &amp;scale, const <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__vectors.html#ga894cdb8af74f7a563a94fb49c220fdcd">vector3</a> &amp;point)</td></tr>
+<tr class="separator:ga024c72a666ec61120d46b23de301e69a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga69e980816116b57958d4843d19ef5f24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga69e980816116b57958d4843d19ef5f24">ug::promesh::SetPivot</a> (Mesh *obj, const <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__vectors.html#ga894cdb8af74f7a563a94fb49c220fdcd">vector3</a> &amp;pos)</td></tr>
 <tr class="separator:ga69e980816116b57958d4843d19ef5f24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4be36cc9fff1ab3849c8c766f119cfda"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga4be36cc9fff1ab3849c8c766f119cfda">ug::promesh::SetPivotToMeshCenter</a> (Mesh *obj)</td></tr>
@@ -316,6 +322,22 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define TOOLTIP_LAPLACIAN_SMOOTH&#160;&#160;&#160;&quot;Smoothes vertices in a grid.&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="namespaceug_1_1promesh.html#a0318c791f4786fd13553736b59a9c144">ug::promesh::RegisterCoordinateTransformTools()</a>.</p>
+
+</div>
+</div>
+<a id="a169ca92510cec9692c00a24e3f41b730"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a169ca92510cec9692c00a24e3f41b730">&sect;&nbsp;</a></span>TOOLTIP_MIRROR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TOOLTIP_MIRROR&#160;&#160;&#160;&quot;Mirrors the geometry at the given point along the given axis&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -508,6 +530,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Referenced by <a class="el" href="namespaceug_1_1promesh.html#a0318c791f4786fd13553736b59a9c144">ug::promesh::RegisterCoordinateTransformTools()</a>.</p>
+
 </div>
 </div>
 <a id="a25a2ecc8431deea253b99e789912bbee"></a>
@@ -548,6 +572,22 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define TOOLTIP_SCALE_AROUND_PIVOT&#160;&#160;&#160;&quot;Scales the selected elements around the pivot of the mesh.&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="namespaceug_1_1promesh.html#a0318c791f4786fd13553736b59a9c144">ug::promesh::RegisterCoordinateTransformTools()</a>.</p>
+
+</div>
+</div>
+<a id="a4cbd14438218bebca330e238a3464f33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cbd14438218bebca330e238a3464f33">&sect;&nbsp;</a></span>TOOLTIP_SCALE_AROUND_POINT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TOOLTIP_SCALE_AROUND_POINT&#160;&#160;&#160;&quot;Scales the selected geometry around the given point&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -714,7 +754,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_38c8d24aef3972a7f87b834274e76e31.html">plugins</a></li><li class="navelem"><a class="el" href="dir_763ed3e91742c64da7339b855c065f8b.html">ProMesh</a></li><li class="navelem"><a class="el" href="dir_90c8b690e559459740b0e677eab7f4d2.html">tools</a></li><li class="navelem"><a class="el" href="coordinate__transform__tools_8h.html">coordinate_transform_tools.h</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:15:42 for Plugins by
+    <li class="footer">Generated on Thu Mar 30 2017 18:41:19 for Plugins by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

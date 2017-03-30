@@ -18,6 +18,8 @@ var math__vector__functions_8h =
     [ "VecDistance", "math__vector__functions_8h.html#ga92e42e49d0d212e50fc214803cf06e78", null ],
     [ "VecDistanceSq", "math__vector__functions_8h.html#ga7da70ab2d2c942a82b582f1cc7888069", null ],
     [ "VecDot", "math__vector__functions_8h.html#gae9174d47662deb0ba119e0e21f28ec71", null ],
+    [ "VecElemProd", "math__vector__functions_8h.html#acf0d7011405db1c9fe4e66aa36a6d593", null ],
+    [ "VecElemSqrt", "math__vector__functions_8h.html#af2d5439ada724109438ac34334472bf9", null ],
     [ "VecInftyNorm", "math__vector__functions_8h.html#gaf2a76e41d7de66eee216ad1ad0eaa447", null ],
     [ "VecInterpolateLinear", "math__vector__functions_8h.html#gae4e5784610945b34f533db1efc9b474d", null ],
     [ "VecLength", "math__vector__functions_8h.html#ga017412e0fb3129d2584d77125e692faf", null ],

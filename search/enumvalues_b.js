@@ -10,7 +10,6 @@ var searchData=
   ['lgbc_5fpos2d',['LGBC_POS2D',['../namespaceug.html#a6251263fc1ced97818cf7bd75a78b611abd9be47cd349cfa56346e81102a566e6',1,'ug']]],
   ['lgbc_5fpos3d',['LGBC_POS3D',['../namespaceug.html#a6251263fc1ced97818cf7bd75a78b611a0ed7bca9d607af65b1a4fc5472d5643c',1,'ug']]],
   ['lgbc_5fsubset_5fhandler',['LGBC_SUBSET_HANDLER',['../namespaceug.html#a6251263fc1ced97818cf7bd75a78b611a94939491069308f4797d00659ad0fe03',1,'ug']]],
-  ['lift',['LIFT',['../classug_1_1_regular_refiner___multi_grid.html#a4d3e410c432da78165ce37863f00032ca41ac3b6ad08a636dcd2a743baa295a77',1,'ug::RegularRefiner_MultiGrid']]],
   ['linear',['LINEAR',['../namespaceug.html#ae007d420cac486c84b27bd8c7eed8074a6b5f70c7d203cf4765e257a8ff1b337c',1,'ug']]],
   ['lor',['LOR',['../classug_1_1_com_pol___attachment_reduce.html#a61ea7f758a2921895d2a56b57b1e89fda7d1df49d620c95449c8a6f0af71f931a',1,'ug::ComPol_AttachmentReduce']]],
   ['luaparser_5fand',['LUAPARSER_AND',['../parser_8cpp.html#a15c9f7bd2f0e9686df5d9df4f3314aa9ac2b32a5ba5c7a9d94f10f22e9c5da8c2',1,'LUAPARSER_AND():&#160;parser.cpp'],['../parser_8hpp.html#a15c9f7bd2f0e9686df5d9df4f3314aa9ac2b32a5ba5c7a9d94f10f22e9c5da8c2',1,'LUAPARSER_AND():&#160;parser.hpp']]],

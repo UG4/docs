@@ -86,17 +86,61 @@ $(document).ready(function(){initNavTree('mac__util_8lua.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">mac_util.lua File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:adb93db5b0487efd5b066195f57267370"><td class="memItemLeft" align="right" valign="top">function util&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mac__util_8lua.html#adb93db5b0487efd5b066195f57267370">createMacRAMDisk</a> (name, sizeMB)</td></tr>
+<tr class="separator:adb93db5b0487efd5b066195f57267370"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="adb93db5b0487efd5b066195f57267370"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb93db5b0487efd5b066195f57267370">&sect;&nbsp;</a></span>createMacRAMDisk()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util createMacRAMDisk </td>
+          <td>(</td>
+          <td class="paramtype">name&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">sizeMB&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>this function creates a RAM disk on Mac. it can be used for debug output, in case you want to have it faster or don't want to stress your SSD if the volume is already there, nothing is created keep in mind that RAM disks disappear after sleep or power off, so only use it as a debug output. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>a std filename (don't use special characters or whitespace) </td></tr>
+    <tr><td class="paramname">sizeMB</td><td>the size of the RAM Disk in MB</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="mac__util_8lua.html">mac_util.lua</a> :38-49 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.createMacRAMDisk(name, sizeMB)</div><div class="line">  <a class="code" href="debug__util_8lua.html#a2f4bb62e4f0dc89b8c09f249e80c4ad7">ug_assert</a>(<a class="code" href="group__misc__bridge.html#gac21124964e445cb7d5c0299019b4f839">GetOperatingSystem</a>() == <span class="stringliteral">&quot;apple&quot;</span>, <span class="stringliteral">&quot;only on apple systems&quot;</span>)</div><div class="line">  <a class="code" href="lexer_8cpp.html#ad4a65b873df5c05570846b5413b41dfd">if</a> <a class="code" href="group__pcl.html#ga319e84518e2b596fc9f9b40b4383ec36">ProcRank</a>() == 0 then</div><div class="line">    os.execute(&quot;<a class="code" href="lexer_8cpp.html#ad4a65b873df5c05570846b5413b41dfd">if</a> [ ! -e \&quot;/Volumes/&quot;..name..&quot;\&quot; ]; then\n&quot;..</div><div class="line">      &quot;echo \&quot;Creating ug4 RAM Disk with &quot;..sizeMB..&quot; MB..\&quot;\n&quot;.. </div><div class="line">      &quot;diskutil erasevolume HFS+ &#39;&quot;..name..&quot;&#39; `hdiutil attach -nomount ram:<span class="comment">//&quot;..(1024*1024*sizeMB/512)..&quot;`\n&quot;..</span></div><div class="line">      &quot;echo \&quot;Access the RamDisk in /Volumes/&quot;..name..&quot;\&quot;\n&quot;..</div><div class="line">      &quot;fi\n&quot;)</div><div class="line">  end</div><div class="line">  <a class="code" href="group__pcl.html#ga17bfa7a217567699e0646832a8505776">SynchronizeProcesses</a>()</div><div class="line">  return &quot;/Volumes/&quot;..name  </div><div class="line">end</div></div><!-- fragment --> 
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_53e6fa9553ac22a5646d2a2b2d7b97a1.html">scripts</a></li><li class="navelem"><a class="el" href="dir_46f23659e18aa5fa06de6ff2c04a1a12.html">util</a></li><li class="navelem"><a class="el" href="mac__util_8lua.html">mac_util.lua</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:17:52 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:09 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['schur_5fmod',['SCHUR_MOD',['../element__gauss__seidel_8h.html#ac3224ed712e566aa5076a7a38ceb3ded',1,'element_gauss_seidel.h']]],
   ['schur_5fprofile_5fbegin',['SCHUR_PROFILE_BEGIN',['../schur_8h.html#af2ac4486add8bdfcd45496f1368dad9b',1,'SCHUR_PROFILE_BEGIN():&#160;schur.h'],['../schur__precond_8h.html#af2ac4486add8bdfcd45496f1368dad9b',1,'SCHUR_PROFILE_BEGIN():&#160;schur_precond.h']]],
   ['schur_5fprofile_5fend_5f',['SCHUR_PROFILE_END_',['../schur_8h.html#aeb4e2866b3463a8cf9e7a79fae1d80ee',1,'SCHUR_PROFILE_END_():&#160;schur.h'],['../schur__precond_8h.html#aeb4e2866b3463a8cf9e7a79fae1d80ee',1,'SCHUR_PROFILE_END_():&#160;schur_precond.h']]],
   ['schur_5fprofile_5ffunc',['SCHUR_PROFILE_FUNC',['../schur_8h.html#ab73e2cf3b8e89ce1834cbb711cbb0519',1,'SCHUR_PROFILE_FUNC():&#160;schur.h'],['../schur__precond_8h.html#ab73e2cf3b8e89ce1834cbb711cbb0519',1,'SCHUR_PROFILE_FUNC():&#160;schur_precond.h']]],

@@ -103,8 +103,8 @@ Installation of UG4</h1>
 <hr/>
  <h1><a class="anchor" id="secWindowsCompiler"></a>
 Compiler</h1>
-<p>The Microsoft Visual C++ 2013 compiler is recommended for compilation of <b>ug4</b> on windows. It can be downloaded as part of the free "Express 2013 for Windows Desktop" edition of Visual Studio (<a href="https://www.visualstudio.com/en-us/products/visual-studio-express-vs.aspx">https://www.visualstudio.com/en-us/products/visual-studio-express-vs.aspx</a>).</p>
-<p>To allow for parallel compilation in the terminal one can use the tool "jom" (<a href="https://wiki.qt.io/Jom">https://wiki.qt.io/Jom</a>). Extract it and add the path in which the executable lies to your path environment variable.</p>
+<p>The Microsoft Visual C++ 2015 compiler is recommended for compilation of <b>ug4</b> on windows. It can be downloaded as part of the free "Express 2015 for Windows Desktop" edition of Visual Studio (<a href="https://www.visualstudio.com/downloads/#visual-studio-express-2015-for-windows-desktop">https://www.visualstudio.com/downloads/#visual-studio-express-2015-for-windows-desktop</a>).</p>
+<p>To allow for parallel compilation in the terminal one can optionally use the tool "jom" (<a href="https://wiki.qt.io/Jom">https://wiki.qt.io/Jom</a>). Extract it and add the path in which the executable lies to your path environment variable.</p>
 <hr/>
  <h1><a class="anchor" id="secInstallWindowsCMake"></a>
 Install CMake on Windows</h1>
@@ -114,7 +114,7 @@ Install CMake on Windows</h1>
  <h1><a class="anchor" id="secWindowsBuild"></a>
 Building</h1>
 <ul>
-<li>Open 'VS2013 x64 Cross Tools-Eingabeaufforderung' (Start -&gt; All Programs -&gt; Visual Studio 2013 -&gt; Visual Studio-Tools) if you want to compile a 64bit version of <b>ug4</b>. If you only want to compile for 32bit, use 'VS2013 x86 Native Tools-Eingabeaufforderung'.</li>
+<li>Open 'VS2015 x64 Cross Tools Command Prompt' (Start -&gt; All Programs -&gt; Visual Studio 2015) if you want to compile a 64bit version of <b>ug4</b>. If you only want to compile for 32bit, use 'VS2015 x86 Native Tools Command Prompt'.</li>
 <li>Navigate to your ug4-source-code root folder</li>
 <li>create a new directory called 'build' ('mkdir build').</li>
 <li>Before cmake can be run and before jom can be executed one hast to initialize Visual Studios environment variables.</li>
@@ -122,16 +122,16 @@ Building</h1>
 <li>You may enable or disable other plugins using cmake, e.g.: 'cmake .. -DSmallStrainMechanics=OFF'</li>
 <li>to execute a build, type 'jom'</li>
 </ul>
-<dl class="section note"><dt>Note</dt><dd>If you want to embed the build-process in your favorite IDE (e.g. Eclipse or Sublime) you most likely have to initialize the build environment before executing jom. You can do this by calling '"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\vcvarsall.bat" x86_amd64' before calling jom.</dd>
+<dl class="section note"><dt>Note</dt><dd>If you want to embed the build-process in your favorite IDE (e.g. Eclipse or Sublime) you most likely have to initialize the build environment before executing jom. You can do this by calling, e.g. '"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\vcvarsall.bat" x86_amd64' before calling jom.</dd>
 <dd>
-If you want to compile directly using the VisualStudio IDE, you should specify another builder for cmake. Create a new build directory and call 'cmake -G"Visual Studio 2013" ...' (rest as above). This creates a visual-studio project which you can edit and compile using the Visual Studio IDE. </dd></dl>
+If you want to compile directly using the VisualStudio IDE, you should specify another builder for cmake. Create a new build directory and call, e.g. 'cmake -G"Visual Studio 2013" ...' (rest as above). This creates a visual-studio project which you can edit and compile using the Visual Studio IDE. </dd></dl>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="index.html">ug4 - Documentation</a></li><li class="navelem"><a class="el" href="page_u_g4_setup.html">Setup and Installation</a></li><li class="navelem"><a class="el" href="page_u_g4_install.html">Prerequisites and Recommended Tools</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:17:53 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:11 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

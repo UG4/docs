@@ -570,14 +570,20 @@ $(document).ready(function(){initNavTree('functions_0x7e.html','');});
 <li>~IDWUserData()
 : <a class="el" href="classug_1_1_i_d_w_user_data.html#a53f7a9335898ec811570dc9ea3dc2a82">ug::IDWUserData&lt; WDim, TData &gt;</a>
 </li>
-<li>~IElemDisc()
-: <a class="el" href="classug_1_1_i_elem_disc.html#a1fa42684b494ecef3c0580ecd491cb74">ug::IElemDisc&lt; TDomain &gt;</a>
+<li>~IElemAssembleFuncs()
+: <a class="el" href="classug_1_1_i_elem_assemble_funcs.html#a9963866382240bcf87cacdc4b684930c">ug::IElemAssembleFuncs&lt; TLeaf, TDomain &gt;</a>
+</li>
+<li>~IElemDiscBase()
+: <a class="el" href="classug_1_1_i_elem_disc_base.html#a81205ae91eb8fe6aa490152767612e5b">ug::IElemDiscBase&lt; TDomain &gt;</a>
 </li>
 <li>~IElemDiscModifier()
 : <a class="el" href="classug_1_1_i_elem_disc_modifier.html#a6656fd5f7932172ad591cbd1379313fd">ug::IElemDiscModifier&lt; TDomain &gt;</a>
 </li>
 <li>~IElementMarkingStrategy()
 : <a class="el" href="structug_1_1_i_element_marking_strategy.html#ab67aa1dcfff1f47c59db698b1de2affd">ug::IElementMarkingStrategy&lt; TDomain &gt;</a>
+</li>
+<li>~IElemEstimatorFuncs()
+: <a class="el" href="classug_1_1_i_elem_estimator_funcs.html#afc6ec40aacbd371bca83944f44b710f1">ug::IElemEstimatorFuncs&lt; TLeaf, TDomain &gt;</a>
 </li>
 <li>~IElemProlongation()
 : <a class="el" href="classug_1_1_i_elem_prolongation.html#a2d0bf8004ce2688b6322f2d3fc991e2a">ug::IElemProlongation&lt; TDomain &gt;</a>
@@ -738,6 +744,9 @@ $(document).ready(function(){initNavTree('functions_0x7e.html','');});
 </li>
 <li>~LocalFiniteElementProvider()
 : <a class="el" href="classug_1_1_local_finite_element_provider.html#a876e38903e4b21663b6d9bc18f47f66f">ug::LocalFiniteElementProvider</a>
+</li>
+<li>~LocalMarkAdjuster()
+: <a class="el" href="classug_1_1_local_mark_adjuster.html#ac6340b499eacc5e49290a2c074ff13d9">ug::LocalMarkAdjuster</a>
 </li>
 <li>~localMatrix_from_mat_and_array()
 : <a class="el" href="classug_1_1local_matrix__from__mat__and__array.html#acbe3b74128017e9372fccc660ef7b28c">ug::localMatrix_from_mat_and_array&lt; M &gt;</a>
@@ -900,7 +909,7 @@ $(document).ready(function(){initNavTree('functions_0x7e.html','');});
 : <a class="el" href="classug_1_1_progress.html#a306843337b5b995460c3e1ad3112447d">ug::Progress</a>
 </li>
 <li>~ProjectionHandler()
-: <a class="el" href="classug_1_1_projection_handler.html#a9f5fb5f61fb5b4a34e4c46d2cf28a0ef">ug::ProjectionHandler</a>
+: <a class="el" href="classug_1_1_projection_handler.html#a975970ee6462af8fcd500ea6cc8d8529">ug::ProjectionHandler</a>
 </li>
 <li>~ProtectSubsetPartitionWeighting()
 : <a class="el" href="classug_1_1_protect_subset_partition_weighting.html#ad230b0f7083ba1d5ce016144cd1a9bfc">ug::ProtectSubsetPartitionWeighting</a>
@@ -1097,7 +1106,7 @@ $(document).ready(function(){initNavTree('functions_0x7e.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Oct 19 2016 12:18:31 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:51 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

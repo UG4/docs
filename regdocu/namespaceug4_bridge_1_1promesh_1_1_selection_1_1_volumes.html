@@ -87,12 +87,18 @@ $(document).ready(function(){initNavTree('namespaceug4_bridge_1_1promesh_1_1_sel
 
 <div class="header">
   <div class="summary">
+<a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">ug4Bridge::promesh::Selection::Volumes Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes_1_1_coordinate_based"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes_1_1_coordinate_based.html">CoordinateBased</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:acea5b8464a72cef5a535564fece40624"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes.html#acea5b8464a72cef5a535564fece40624">DeselectAllVolumes</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh)</td></tr>
@@ -101,9 +107,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a86b3df298ecaf5d0604f065d35ef7e75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes.html#a86b3df298ecaf5d0604f065d35ef7e75">SelectAllVolumes</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh)</td></tr>
 <tr class="memdesc:a86b3df298ecaf5d0604f065d35ef7e75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects all volumes of the current grid.  <a href="#a86b3df298ecaf5d0604f065d35ef7e75">More...</a><br /></td></tr>
 <tr class="separator:a86b3df298ecaf5d0604f065d35ef7e75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55b9d2a9e8537f850ebc3a98d2f71015"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes.html#a55b9d2a9e8537f850ebc3a98d2f71015">SelectAnisotropicVolumes</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, double minEdgeRation)</td></tr>
-<tr class="memdesc:a55b9d2a9e8537f850ebc3a98d2f71015"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects elements and associated long edges wich have a shortest-to-longest edge ratio smaller than the specified one.  <a href="#a55b9d2a9e8537f850ebc3a98d2f71015">More...</a><br /></td></tr>
-<tr class="separator:a55b9d2a9e8537f850ebc3a98d2f71015"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bcf31dfe1a927a770779dfe4eee8a79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes.html#a2bcf31dfe1a927a770779dfe4eee8a79">SelectAnisotropicVolumes</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, double min_edge_ratio)</td></tr>
+<tr class="memdesc:a2bcf31dfe1a927a770779dfe4eee8a79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects elements and associated long edges wich have a shortest-to-longest edge ratio smaller than the specified one.  <a href="#a2bcf31dfe1a927a770779dfe4eee8a79">More...</a><br /></td></tr>
+<tr class="separator:a2bcf31dfe1a927a770779dfe4eee8a79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28b355eae7aa59a8d820351d80e5e871"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes.html#a28b355eae7aa59a8d820351d80e5e871">SelectLinkedVolumes</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh)</td></tr>
 <tr class="memdesc:a28b355eae7aa59a8d820351d80e5e871"><td class="mdescLeft">&#160;</td><td class="mdescRight">Repeatedly selects all volumes which are face-neighbors of selected volumes.  <a href="#a28b355eae7aa59a8d820351d80e5e871">More...</a><br /></td></tr>
 <tr class="separator:a28b355eae7aa59a8d820351d80e5e871"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -113,21 +119,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a7ad0cb19f795e4fe6cb37da5834fd9fe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes.html#a7ad0cb19f795e4fe6cb37da5834fd9fe">SelectUnorientableVolumes</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh)</td></tr>
 <tr class="memdesc:a7ad0cb19f795e4fe6cb37da5834fd9fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects all volumes whose orientation can not be determined.  <a href="#a7ad0cb19f795e4fe6cb37da5834fd9fe">More...</a><br /></td></tr>
 <tr class="separator:a7ad0cb19f795e4fe6cb37da5834fd9fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b811826a4d50c2f92b491e86dfcfa21"><td class="memItemLeft" align="right" valign="top">Volume *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes.html#a8b811826a4d50c2f92b491e86dfcfa21">SelectVolumeByCoordinate</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, const Vec3d *coordinate)</td></tr>
-<tr class="memdesc:a8b811826a4d50c2f92b491e86dfcfa21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects the volume whose center is closest to the specified coordinate.  <a href="#a8b811826a4d50c2f92b491e86dfcfa21">More...</a><br /></td></tr>
-<tr class="separator:a8b811826a4d50c2f92b491e86dfcfa21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb192d215f5471542715e4facefe6067"><td class="memItemLeft" align="right" valign="top">Volume *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes.html#abb192d215f5471542715e4facefe6067">SelectVolumeByCylindricalCoordinate</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, double rho, double phi, double z)</td></tr>
-<tr class="memdesc:abb192d215f5471542715e4facefe6067"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects the volume whose center is closest to the specified cylindrical coordinate.  <a href="#abb192d215f5471542715e4facefe6067">More...</a><br /></td></tr>
-<tr class="separator:abb192d215f5471542715e4facefe6067"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab40d80f263e425b3b7e335cbbd33671a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes.html#ab40d80f263e425b3b7e335cbbd33671a">SelectVolumeByIndex</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, int index)</td></tr>
 <tr class="memdesc:ab40d80f263e425b3b7e335cbbd33671a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects a volume given its index.  <a href="#ab40d80f263e425b3b7e335cbbd33671a">More...</a><br /></td></tr>
 <tr class="separator:ab40d80f263e425b3b7e335cbbd33671a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a418881d9bead7b8f5f5762907e97f982"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes.html#a418881d9bead7b8f5f5762907e97f982">SelectVolumesInBox</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, const Vec3d *min, const Vec3d *max)</td></tr>
-<tr class="memdesc:a418881d9bead7b8f5f5762907e97f982"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects all volumes in the given box.  <a href="#a418881d9bead7b8f5f5762907e97f982">More...</a><br /></td></tr>
-<tr class="separator:a418881d9bead7b8f5f5762907e97f982"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f5c024d11caa0e01330232d7f4a8a35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes.html#a3f5c024d11caa0e01330232d7f4a8a35">SelectVolumesInCylinder</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, const Vec3d *base, const Vec3d *top, double radius)</td></tr>
-<tr class="memdesc:a3f5c024d11caa0e01330232d7f4a8a35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects all volumes in the given cylinder.  <a href="#a3f5c024d11caa0e01330232d7f4a8a35">More...</a><br /></td></tr>
-<tr class="separator:a3f5c024d11caa0e01330232d7f4a8a35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdc141595835b506957feff5c75ddda1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes.html#acdc141595835b506957feff5c75ddda1">VolumeSelectionFill</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh)</td></tr>
 <tr class="memdesc:acdc141595835b506957feff5c75ddda1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects neighbours of selected volumes over non-selected faces.  <a href="#acdc141595835b506957feff5c75ddda1">More...</a><br /></td></tr>
 <tr class="separator:acdc141595835b506957feff5c75ddda1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -189,8 +183,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a55b9d2a9e8537f850ebc3a98d2f71015"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a55b9d2a9e8537f850ebc3a98d2f71015">&sect;&nbsp;</a></span>SelectAnisotropicVolumes()</h2>
+<a id="a2bcf31dfe1a927a770779dfe4eee8a79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bcf31dfe1a927a770779dfe4eee8a79">&sect;&nbsp;</a></span>SelectAnisotropicVolumes()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -205,7 +199,7 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>minEdgeRation</em>&#160;</td>
+          <td class="paramname"><em>min_edge_ratio</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -219,14 +213,14 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td></td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">minEdgeRation</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">min_edge_ratio</td><td></td></tr>
   </table>
   </dd>
 </dl>
 
-<p>References <a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes.html#a55b9d2a9e8537f850ebc3a98d2f71015">SelectAnisotropicVolumes()</a>.</p>
+<p>References <a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes.html#a2bcf31dfe1a927a770779dfe4eee8a79">SelectAnisotropicVolumes()</a>.</p>
 
-<p>Referenced by <a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes.html#a55b9d2a9e8537f850ebc3a98d2f71015">SelectAnisotropicVolumes()</a>.</p>
+<p>Referenced by <a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes.html#a2bcf31dfe1a927a770779dfe4eee8a79">SelectAnisotropicVolumes()</a>.</p>
 
 </div>
 </div>
@@ -327,102 +321,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8b811826a4d50c2f92b491e86dfcfa21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b811826a4d50c2f92b491e86dfcfa21">&sect;&nbsp;</a></span>SelectVolumeByCoordinate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Volume* ug4Bridge::promesh::Selection::Volumes::SelectVolumeByCoordinate </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *&#160;</td>
-          <td class="paramname"><em>mesh</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Vec3d *&#160;</td>
-          <td class="paramname"><em>coordinate</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Selects the volume whose center is closest to the specified coordinate. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td></td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">coordinate</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>References <a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes.html#a8b811826a4d50c2f92b491e86dfcfa21">SelectVolumeByCoordinate()</a>.</p>
-
-<p>Referenced by <a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes.html#a8b811826a4d50c2f92b491e86dfcfa21">SelectVolumeByCoordinate()</a>.</p>
-
-</div>
-</div>
-<a id="abb192d215f5471542715e4facefe6067"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb192d215f5471542715e4facefe6067">&sect;&nbsp;</a></span>SelectVolumeByCylindricalCoordinate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Volume* ug4Bridge::promesh::Selection::Volumes::SelectVolumeByCylindricalCoordinate </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *&#160;</td>
-          <td class="paramname"><em>mesh</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>rho</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>phi</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>z</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Selects the volume whose center is closest to the specified cylindrical coordinate. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td></td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">rho</td><td></td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">phi</td><td></td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">z</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>References <a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes.html#abb192d215f5471542715e4facefe6067">SelectVolumeByCylindricalCoordinate()</a>.</p>
-
-<p>Referenced by <a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes.html#abb192d215f5471542715e4facefe6067">SelectVolumeByCylindricalCoordinate()</a>.</p>
-
-</div>
-</div>
 <a id="ab40d80f263e425b3b7e335cbbd33671a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab40d80f263e425b3b7e335cbbd33671a">&sect;&nbsp;</a></span>SelectVolumeByIndex()</h2>
 
@@ -462,109 +360,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a418881d9bead7b8f5f5762907e97f982"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a418881d9bead7b8f5f5762907e97f982">&sect;&nbsp;</a></span>SelectVolumesInBox()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ug4Bridge::promesh::Selection::Volumes::SelectVolumesInBox </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *&#160;</td>
-          <td class="paramname"><em>mesh</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Vec3d *&#160;</td>
-          <td class="paramname"><em>min</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Vec3d *&#160;</td>
-          <td class="paramname"><em>max</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Selects all volumes in the given box. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td></td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">min</td><td></td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">max</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>References <a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes.html#a418881d9bead7b8f5f5762907e97f982">SelectVolumesInBox()</a>.</p>
-
-<p>Referenced by <a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes.html#a418881d9bead7b8f5f5762907e97f982">SelectVolumesInBox()</a>.</p>
-
-</div>
-</div>
-<a id="a3f5c024d11caa0e01330232d7f4a8a35"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f5c024d11caa0e01330232d7f4a8a35">&sect;&nbsp;</a></span>SelectVolumesInCylinder()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ug4Bridge::promesh::Selection::Volumes::SelectVolumesInCylinder </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *&#160;</td>
-          <td class="paramname"><em>mesh</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Vec3d *&#160;</td>
-          <td class="paramname"><em>base</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Vec3d *&#160;</td>
-          <td class="paramname"><em>top</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>radius</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Selects all volumes in the given cylinder. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td></td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">base</td><td></td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">top</td><td></td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">radius</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>References <a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes.html#a3f5c024d11caa0e01330232d7f4a8a35">SelectVolumesInCylinder()</a>.</p>
-
-<p>Referenced by <a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes.html#a3f5c024d11caa0e01330232d7f4a8a35">SelectVolumesInCylinder()</a>.</p>
-
-</div>
-</div>
 <a id="acdc141595835b506957feff5c75ddda1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acdc141595835b506957feff5c75ddda1">&sect;&nbsp;</a></span>VolumeSelectionFill()</h2>
 
@@ -599,7 +394,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug4_bridge.html">ug4Bridge</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh.html">promesh</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection.html">Selection</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes.html">Volumes</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:16:59 for Registry by
+    <li class="footer">Generated on Thu Mar 30 2017 18:42:57 for Registry by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

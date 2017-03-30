@@ -96,7 +96,7 @@ $(document).ready(function(){initNavTree('namespaceug4_bridge_1_1promesh_1_1_rem
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a0a2fce46b6f11699d863d5044eefa1df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_remeshing_1_1_tetrahedra.html#a0a2fce46b6f11699d863d5044eefa1df">AssignVolumeConstraints</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, double volume_constraint)</td></tr>
-<tr class="memdesc:a0a2fce46b6f11699d863d5044eefa1df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns volume constraints to selected tetrahedrons.  <a href="#a0a2fce46b6f11699d863d5044eefa1df">More...</a><br /></td></tr>
+<tr class="memdesc:a0a2fce46b6f11699d863d5044eefa1df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns volume constraints to selected tetrahedra.  <a href="#a0a2fce46b6f11699d863d5044eefa1df">More...</a><br /></td></tr>
 <tr class="separator:a0a2fce46b6f11699d863d5044eefa1df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f555951ff42961fd4a8e33c33e8ae4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_remeshing_1_1_tetrahedra.html#a1f555951ff42961fd4a8e33c33e8ae4c">ClearVolumeConstraints</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh)</td></tr>
 <tr class="memdesc:a1f555951ff42961fd4a8e33c33e8ae4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears all assigned volume constraints.  <a href="#a1f555951ff42961fd4a8e33c33e8ae4c">More...</a><br /></td></tr>
@@ -105,13 +105,13 @@ Functions</h2></td></tr>
 <tr class="memdesc:ab587aa89e665629c3c29e78178cfd391"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts selected volume elements to tetrahedra.  <a href="#ab587aa89e665629c3c29e78178cfd391">More...</a><br /></td></tr>
 <tr class="separator:ab587aa89e665629c3c29e78178cfd391"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdf83035e5fb4ac1056971b85b104ddd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_remeshing_1_1_tetrahedra.html#afdf83035e5fb4ac1056971b85b104ddd">ExtrudeFacesWithTets</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, int from_subset, int to_subset, double factor)</td></tr>
-<tr class="memdesc:afdf83035e5fb4ac1056971b85b104ddd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Experimental function to create 'plaque'-like geometry based on extruding faces with tetrahedrons.  <a href="#afdf83035e5fb4ac1056971b85b104ddd">More...</a><br /></td></tr>
+<tr class="memdesc:afdf83035e5fb4ac1056971b85b104ddd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Experimental function to create 'plaque'-like geometry based on extruding faces with tetrahedra.  <a href="#afdf83035e5fb4ac1056971b85b104ddd">More...</a><br /></td></tr>
 <tr class="separator:afdf83035e5fb4ac1056971b85b104ddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a909860f7803e1800d80a4401b31fcdc8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_remeshing_1_1_tetrahedra.html#a909860f7803e1800d80a4401b31fcdc8">Retetrahedralize</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, double quality, bool preserve_outer, bool preserve_all, bool apply_volume_constraint, int verbosity)</td></tr>
-<tr class="memdesc:a909860f7803e1800d80a4401b31fcdc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given a tetrahedralization and volume constraints, this method adapts the tetrahedrons using TetGen.  <a href="#a909860f7803e1800d80a4401b31fcdc8">More...</a><br /></td></tr>
+<tr class="memdesc:a909860f7803e1800d80a4401b31fcdc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given a tetrahedralization and volume constraints, this method adapts the tetrahedra using TetGen.  <a href="#a909860f7803e1800d80a4401b31fcdc8">More...</a><br /></td></tr>
 <tr class="separator:a909860f7803e1800d80a4401b31fcdc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e35179b7b90d7fab13be14873c428d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_remeshing_1_1_tetrahedra.html#a2e35179b7b90d7fab13be14873c428d0">Tetrahedralize</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, double quality, bool preserve_outer, bool preserve_all, bool separate_volumes, bool append_subsets_at_end, int verbosity)</td></tr>
-<tr class="memdesc:a2e35179b7b90d7fab13be14873c428d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills a closed surface with tetrahedrons using TetGen.  <a href="#a2e35179b7b90d7fab13be14873c428d0">More...</a><br /></td></tr>
+<tr class="memdesc:a2e35179b7b90d7fab13be14873c428d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills a closed surface with tetrahedra using TetGen.  <a href="#a2e35179b7b90d7fab13be14873c428d0">More...</a><br /></td></tr>
 <tr class="separator:a2e35179b7b90d7fab13be14873c428d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -141,7 +141,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Assigns volume constraints to selected tetrahedrons. </p>
+<p>Assigns volume constraints to selected tetrahedra. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td></td></tr>
@@ -248,7 +248,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Experimental function to create 'plaque'-like geometry based on extruding faces with tetrahedrons. </p>
+<p>Experimental function to create 'plaque'-like geometry based on extruding faces with tetrahedra. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td></td></tr>
@@ -313,7 +313,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Given a tetrahedralization and volume constraints, this method adapts the tetrahedrons using TetGen. </p>
+<p>Given a tetrahedralization and volume constraints, this method adapts the tetrahedra using TetGen. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td></td></tr>
@@ -386,7 +386,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Fills a closed surface with tetrahedrons using TetGen. </p>
+<p>Fills a closed surface with tetrahedra using TetGen. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td></td></tr>
@@ -410,7 +410,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug4_bridge.html">ug4Bridge</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh.html">promesh</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_remeshing.html">Remeshing</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_remeshing_1_1_tetrahedra.html">Tetrahedra</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:16:59 for Registry by
+    <li class="footer">Generated on Thu Mar 30 2017 18:42:57 for Registry by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

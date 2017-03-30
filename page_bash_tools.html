@@ -148,7 +148,7 @@ all parameters found for example in <code>myfile.lua</code> when you entered som
  <h1><a class="anchor" id="bashToolsXprun"></a>
 xprun</h1>
 <p>xprun is a easy script to put each MPI process in its own console. You can even do simple parallel debugging with it. The opens e.g. 4 xterm windows and adjusts size &amp; position so that they fit on the screen inside the windows, a mpi program is started. To adjust window position and max size, see xtermrun. You can access your PID by the variable $PID Example: xprun 4 echo 'hello, world! i am processor $PID'</p>
-<p>For debugging, use e.g. </p><div class="fragment"><div class="line">xprun 4 gdb --args ugshell -ex conv_diff/laplace.lua -outproc -1</div></div><!-- fragment --><p>With outproc -1 you ensure that every process will put out data.</p>
+<p>For debugging, use e.g. </p><div class="fragment"><div class="line">xprun 4 gdb --args ugshell -<a class="code" href="command__line__util_8lua.html#a340d3719e63a0a3a4f4429ef8c8b55ea">ex</a> conv_diff/laplace.lua -<a class="code" href="command__line__util_8lua.html#a67255100b813cf67d945ccc568c164c7">outproc</a> -1</div></div><!-- fragment --><p>With outproc -1 you ensure that every process will put out data.</p>
 <p>For more complex programs, you will need a real parallel debugger like DDT. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
@@ -156,7 +156,7 @@ xprun</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="index.html">ug4 - Documentation</a></li><li class="navelem"><a class="el" href="page_u_g4_usage.html">Usage</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:17:53 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:11 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

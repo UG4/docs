@@ -101,6 +101,7 @@ $(document).ready(function(){initNavTree('projectors_8h.html','');});
 <code>#include &quot;<a class="el" href="cylinder__projector_8h_source.html">cylinder_projector.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="plane__cut__projector_8h_source.html">plane_cut_projector.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="projection__handler_8h_source.html">projection_handler.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="raster__layers__projector_8h_source.html">raster_layers_projector.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="smooth__projector_8h_source.html">smooth_projector.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sphere__projector_8h_source.html">sphere_projector.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="subdivision__projector_8h_source.html">subdivision_projector.h</a>&quot;</code><br />
@@ -121,9 +122,9 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ae38a3fbd71ce0298951e81b34a3023dd"><td class="memItemLeft" align="right" valign="top">typedef vector&lt; pair&lt; <a class="el" href="classug_1_1_refinement_projector.html">ug::RefinementProjector</a>, string&lt; 'defa', 'ult'&gt; &gt;, pair&lt; <a class="el" href="classug_1_1_cylinder_projector.html">ug::CylinderProjector</a>, string&lt; 'cyli', 'nder'&gt; &gt;, pair&lt; <a class="el" href="classug_1_1_sphere_projector.html">ug::SphereProjector</a>, string&lt; 'sphe', 're'&gt; &gt;, pair&lt; <a class="el" href="classug_1_1_subdivision_projector.html">ug::SubdivisionProjector</a>, string&lt; 'subd', 'ivis', 'ion'&gt; &gt;, pair&lt; <a class="el" href="classug_1_1_smooth_projector.html">ug::SmoothProjector</a>, string&lt; 'smoo', 'th'&gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceboost_1_1mpl_1_1tmp.html#ae38a3fbd71ce0298951e81b34a3023dd">boost::mpl::tmp::ProjectorTypes</a></td></tr>
-<tr class="separator:ae38a3fbd71ce0298951e81b34a3023dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39c11c10a2efff1ddf6d32c293ed2b45"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="namespaceboost_1_1mpl_1_1tmp.html#ae38a3fbd71ce0298951e81b34a3023dd">boost::mpl::tmp::ProjectorTypes</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a39c11c10a2efff1ddf6d32c293ed2b45">ug::ProjectorTypes</a></td></tr>
+<tr class="memitem:a4acff1baa95065a51fb77a9b2ed5ff1e"><td class="memItemLeft" align="right" valign="top">typedef vector&lt; pair&lt; <a class="el" href="classug_1_1_refinement_projector.html">ug::RefinementProjector</a>, string&lt; 'defa', 'ult'&gt; &gt;, pair&lt; <a class="el" href="classug_1_1_cylinder_projector.html">ug::CylinderProjector</a>, string&lt; 'cyli', 'nder'&gt; &gt;, pair&lt; <a class="el" href="classug_1_1_sphere_projector.html">ug::SphereProjector</a>, string&lt; 'sphe', 're'&gt; &gt;, pair&lt; <a class="el" href="classug_1_1_subdivision_projector.html">ug::SubdivisionProjector</a>, string&lt; 'subd', 'ivis', 'ion'&gt; &gt;, pair&lt; <a class="el" href="classug_1_1_smooth_projector.html">ug::SmoothProjector</a>, string&lt; 'smoo', 'th'&gt; &gt;, pair&lt; <a class="el" href="classug_1_1_raster_layers_projector.html">ug::RasterLayersProjector</a>, string&lt; 'rast', 'er'&gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceboost_1_1mpl_1_1tmp.html#a4acff1baa95065a51fb77a9b2ed5ff1e">boost::mpl::tmp::ProjectorTypes</a></td></tr>
+<tr class="separator:a4acff1baa95065a51fb77a9b2ed5ff1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39c11c10a2efff1ddf6d32c293ed2b45"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="namespaceboost_1_1mpl_1_1tmp.html#a4acff1baa95065a51fb77a9b2ed5ff1e">boost::mpl::tmp::ProjectorTypes</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a39c11c10a2efff1ddf6d32c293ed2b45">ug::ProjectorTypes</a></td></tr>
 <tr class="separator:a39c11c10a2efff1ddf6d32c293ed2b45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
@@ -132,7 +133,7 @@ Typedefs</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_9cb5fcd0cbd108e4de7ac968a9e51f3d.html">lib_grid</a></li><li class="navelem"><a class="el" href="dir_c7c655306aff28a5e61a1dd2da898541.html">refinement</a></li><li class="navelem"><a class="el" href="dir_edda3caf1bbed84cb8404cc171aeae8f.html">projectors</a></li><li class="navelem"><a class="el" href="projectors_8h.html">projectors.h</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:17:53 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:11 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

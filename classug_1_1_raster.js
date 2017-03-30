@@ -35,7 +35,7 @@ var classug_1_1_raster =
     [ "set_extension", "classug_1_1_raster.html#a785c4ab5e2375aefb6fa07aeb62717b6", null ],
     [ "set_min_corner", "classug_1_1_raster.html#a896d30901c6ad9c1fede0b727b2f748e", null ],
     [ "set_min_corner", "classug_1_1_raster.html#adb4aa8edcbaae3891ae54c5c53fdc4f1", null ],
-    [ "set_no_data_value", "classug_1_1_raster.html#a1ac744678e4f8feff82ddccb955c346b", null ],
+    [ "set_no_data_value", "classug_1_1_raster.html#aa5f8984508c58f2a4dd230d18901bbb0", null ],
     [ "set_num_nodes", "classug_1_1_raster.html#a2d93da8cc6291d60deffc23d0900d3c3", null ],
     [ "set_num_nodes", "classug_1_1_raster.html#abe2ceb5a08ddba0708b530607389e44c", null ],
     [ "set_selected_node_value", "classug_1_1_raster.html#af4e6e7280d352c4943d447ef5abe0769", null ],

@@ -110,7 +110,7 @@ $(document).ready(function(){initNavTree('todo.html','');});
 </dd>
 <dt><a class="anchor" id="_todo000063"></a>Member <a class="el" href="classug_1_1bridge_1_1_exported_method.html#aae5be84645caea9a4d58ee439b51c530">ug::bridge::ExportedMethod::create_parameter_stack</a>  ()</dt>
 <dd>: replace this method with a better integrated way.  </dd>
-<dt><a class="anchor" id="_todo000027"></a>Member <a class="el" href="group__lib__grid__algorithms__volume__util.html#gae95111a99dbf7c60d1099f7190bf6566">ug::CheckOrientation</a>  (<a class="el" href="classug_1_1_volume.html" title="Volumes are 3-dimensional objects. ">Volume</a> *vol, TAAPosVRT &amp;aaPosVRT)</dt>
+<dt><a class="anchor" id="_todo000028"></a>Member <a class="el" href="namespaceug.html#a1945715f3a56b2bfa9e5c041c8787a03">ug::CheckOrientation</a>  (<a class="el" href="classug_1_1_volume.html" title="Volumes are 3-dimensional objects. ">Volume</a> *vol, TAAPosVRT &amp;aaPosVRT)</dt>
 <dd>this method could be improved by adding specialised versions for the different volume types.  </dd>
 <dt><a class="anchor" id="_todo000015"></a>Member <a class="el" href="group__lib__algebra__parallelization__util.html#gad7aff107c35514a47f19ce2ddb8586f1">ug::CommunicateConnections</a>  (std::vector&lt; std::vector&lt; int &gt; &gt; &amp;connectionsToProcsOut, std::vector&lt; std::vector&lt; int &gt; &gt; &amp;connectionsToSubDomsOut, IndexLayout &amp;masterLayout, IndexLayout &amp;slaveLayout, int highestReferencedIndex, <a class="el" href="classpcl_1_1_i_domain_decomposition_info.html">pcl::IDomainDecompositionInfo</a> &amp;ddinfo)</dt>
 <dd>The method should probably automatically find the highestReferencedIndex, to avoid misuse.  </dd>
@@ -148,7 +148,7 @@ $(document).ready(function(){initNavTree('todo.html','');});
 <dd>: Avoid the removal of refinement marks during coarsening and of coarsening marks during refinement. </dd>
 <dt><a class="anchor" id="_todo000052"></a>Member <a class="el" href="group__lib__grid__parallelization.html#ga435886362f9d12bf7c7c1ba63c303c14">ug::hash_key&lt; GeomObjID &gt;</a>  (const GeomObjID &amp;key)</dt>
 <dd>Check distribution quality.  </dd>
-<dt><a class="anchor" id="_todo000028"></a>Member <a class="el" href="classug_1_1_heightfield.html#a8cf848f752ae2c61bc156a1be43c051b">ug::Heightfield::interpolate</a>  (number x, number y, int interpOrder) const</dt>
+<dt><a class="anchor" id="_todo000027"></a>Member <a class="el" href="classug_1_1_heightfield.html#a8cf848f752ae2c61bc156a1be43c051b">ug::Heightfield::interpolate</a>  (number x, number y, int interpOrder) const</dt>
 <dd>: add a method 'set_interpolation_method' to also support bilinear- or spline-interpolation  </dd>
 <dt><a class="anchor" id="_todo000037"></a>Member <a class="el" href="namespaceug.html#ab381625ea3610cd62253f7f635c1319b">ug::IntersectCloseEdges</a>  (<a class="el" href="classug_1_1_grid.html" title="Manages the elements of a grid and their interconnection. ">Grid</a> &amp;grid, TObjectCollection &amp;elems, TAAPosVRT &amp;aaPos, number snapThreshold)</dt>
 <dd>: speed up through octree (use MultiEdgeSplit)  </dd>
@@ -189,10 +189,10 @@ $(document).ready(function(){initNavTree('todo.html','');});
 <dd><p class="startdd">: Add iterators </p>
 <p class="enddd">: Implement analogous PointerArray with additional resize method, which allows to change existing entries.  </p>
 </dd>
-<dt><a class="anchor" id="_todo000031"></a>Member <a class="el" href="namespaceug.html#a964abee56de8bce8da10ecc48dd44fba">ug::RayElementIntersection</a>  (number &amp;sminOut, number &amp;smaxOut, const vector3 &amp;from, const vector3 &amp;dir, <a class="el" href="classug_1_1_face.html" title="Faces are 2-dimensional objects. ">Face</a> *f, <a class="el" href="classug_1_1_grid.html" title="Manages the elements of a grid and their interconnection. ">Grid</a> &amp;g, Grid::VertexAttachmentAccessor&lt; AVector3 &gt; aaPos, number sml=SMALL)</dt>
-<dd>if a ray lies in the plane of a face, sminOut and smaxOut are currently not correctly computed (see note).  </dd>
 <dt><a class="anchor" id="_todo000030"></a>Member <a class="el" href="namespaceug.html#afad13d928d3bf4f18cc1aa20ef99cde4">ug::RayElementIntersection</a>  (number &amp;sminOut, number &amp;smaxOut, const vector2 &amp;from, const vector2 &amp;dir, <a class="el" href="classug_1_1_edge.html" title="Base-class for edges. ">Edge</a> *e, <a class="el" href="classug_1_1_grid.html" title="Manages the elements of a grid and their interconnection. ">Grid</a> &amp;g, Grid::VertexAttachmentAccessor&lt; AVector2 &gt; aaPos, number sml=SMALL)</dt>
 <dd>if a ray lies in the plane of an edge, sminOut and smaxOut are currently not correctly computed (see note).  </dd>
+<dt><a class="anchor" id="_todo000031"></a>Member <a class="el" href="namespaceug.html#a964abee56de8bce8da10ecc48dd44fba">ug::RayElementIntersection</a>  (number &amp;sminOut, number &amp;smaxOut, const vector3 &amp;from, const vector3 &amp;dir, <a class="el" href="classug_1_1_face.html" title="Faces are 2-dimensional objects. ">Face</a> *f, <a class="el" href="classug_1_1_grid.html" title="Manages the elements of a grid and their interconnection. ">Grid</a> &amp;g, Grid::VertexAttachmentAccessor&lt; AVector3 &gt; aaPos, number sml=SMALL)</dt>
+<dd>if a ray lies in the plane of a face, sminOut and smaxOut are currently not correctly computed (see note).  </dd>
 <dt><a class="anchor" id="_todo000026"></a>Member <a class="el" href="group__lib__grid__algorithms__vertex__util.html#ga0ef4b61a6c2f18a940efa1cf74d7e47d">ug::RemoveDoubles</a>  (<a class="el" href="classug_1_1_grid.html" title="Manages the elements of a grid and their interconnection. ">Grid</a> &amp;grid, const TVrtIterator &amp;iterBegin, const TVrtIterator &amp;iterEnd, <a class="el" href="classug_1_1_attachment.html" title="A generic specialization of IAttachment. ">Attachment</a>&lt; <a class="el" href="classug_1_1_math_vector.html">MathVector&lt; dim &gt;</a> &gt; &amp;aPos, number threshold)</dt>
 <dd>remove container restrictions as described above.  </dd>
 <dt><a class="anchor" id="_todo000034"></a>Member <a class="el" href="namespaceug.html#ab49bd7b2589650c86c2e3c5354ab23a7">ug::ResolveEdgeFaceIntersection</a>  (<a class="el" href="classug_1_1_grid.html" title="Manages the elements of a grid and their interconnection. ">Grid</a> &amp;grid, <a class="el" href="classug_1_1_edge.html" title="Base-class for edges. ">Edge</a> *e, <a class="el" href="classug_1_1_face.html" title="Faces are 2-dimensional objects. ">Face</a> *f, TAAPosVRT &amp;aaPos, number snapThreshold)</dt>
@@ -237,7 +237,7 @@ $(document).ready(function(){initNavTree('todo.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Oct 19 2016 12:17:54 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:11 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

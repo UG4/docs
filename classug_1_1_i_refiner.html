@@ -113,7 +113,6 @@ $(document).ready(function(){initNavTree('classug_1_1_i_refiner.html','');});
 <area href="classug_1_1_global_fractured_media_refiner.html" alt="ug::GlobalFracturedMediaRefiner" shape="rect" coords="1116,56,1385,80"/>
 <area href="classug_1_1_global_multi_grid_refiner.html" alt="ug::GlobalMultiGridRefiner" shape="rect" coords="1395,56,1664,80"/>
 <area href="classug_1_1_hanging_node_refiner_base.html" title="Base class for a hanging-node refiner. " alt="ug::HangingNodeRefinerBase&lt; TSelector &gt;" shape="rect" coords="1674,56,1943,80"/>
-<area href="classug_1_1_regular_refiner___multi_grid.html" alt="ug::RegularRefiner_MultiGrid" shape="rect" coords="1953,56,2222,80"/>
 <area href="classug_1_1_hanging_node_refiner___multi_grid.html" title="Specialization of ug::HangingNodeRefiner for ug::MultiGrid. " alt="ug::HangingNodeRefiner_MultiGrid" shape="rect" coords="279,112,548,136"/>
 <area href="classug_1_1_hanging_node_refiner___grid.html" title="Specialization of ug::HangingNodeRefiner for ug::Grid. " alt="ug::HangingNodeRefiner_Grid" shape="rect" coords="837,112,1106,136"/>
 <area href="classug_1_1_parallel_global_fractured_media_refiner.html" title="Adds parallel support to GlobalFracturedMediaRefiner. " alt="ug::ParallelGlobalFracturedMediaRefiner" shape="rect" coords="1116,112,1385,136"/>
@@ -145,14 +144,26 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab135cef129b81cff0ecc7e8ea8e9f5ed"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classug_1_1_grid.html">Grid</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_refiner.html#ab135cef129b81cff0ecc7e8ea8e9f5ed">get_associated_grid</a> ()=0</td></tr>
 <tr class="memdesc:ab135cef129b81cff0ecc7e8ea8e9f5ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">DEPRECIATED! Use <a class="el" href="classug_1_1_i_refiner.html#a67168da36adb124192e18b0cf7a1baa2" title="Returns the grid associated with the refiner. ">grid()</a>. Has to return the associated grid. Pure virtual.  <a href="#ab135cef129b81cff0ecc7e8ea8e9f5ed">More...</a><br /></td></tr>
 <tr class="separator:ab135cef129b81cff0ecc7e8ea8e9f5ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab14e83e714c3caa97efc8a6df64dccf4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__lib__grid__algorithms__refinement.html#gaca4c9dab184a59fc18ae86d72288c209">RefinementMark</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_refiner.html#ab14e83e714c3caa97efc8a6df64dccf4">get_mark</a> (<a class="el" href="classug_1_1_grid_object.html">GridObject</a> *o)</td></tr>
-<tr class="memdesc:ab14e83e714c3caa97efc8a6df64dccf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the mark of the specified geometric object  <a href="#ab14e83e714c3caa97efc8a6df64dccf4">More...</a><br /></td></tr>
-<tr class="separator:ab14e83e714c3caa97efc8a6df64dccf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afca9c7b29b5d5e50d8b84ec8791d4f7e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_refiner.html#afca9c7b29b5d5e50d8b84ec8791d4f7e">get_local_edge_mark</a> (<a class="el" href="classug_1_1_face.html">Face</a> *f, <a class="el" href="classug_1_1_edge.html">Edge</a> *e) const</td></tr>
+<tr class="memdesc:afca9c7b29b5d5e50d8b84ec8791d4f7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the local mark of the specified edge of the given face  <a href="#afca9c7b29b5d5e50d8b84ec8791d4f7e">More...</a><br /></td></tr>
+<tr class="separator:afca9c7b29b5d5e50d8b84ec8791d4f7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33059b7930db64dce89ecc81381ea058"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_refiner.html#a33059b7930db64dce89ecc81381ea058">get_local_edge_mark</a> (<a class="el" href="classug_1_1_volume.html">Volume</a> *vol, <a class="el" href="classug_1_1_edge.html">Edge</a> *e) const</td></tr>
+<tr class="memdesc:a33059b7930db64dce89ecc81381ea058"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the local mark of the specified edge of the given volume  <a href="#a33059b7930db64dce89ecc81381ea058">More...</a><br /></td></tr>
+<tr class="separator:a33059b7930db64dce89ecc81381ea058"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a615aa48d59030c11599609b775e4c4cc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_refiner.html#a615aa48d59030c11599609b775e4c4cc">get_local_face_mark</a> (<a class="el" href="classug_1_1_volume.html">Volume</a> *vol, <a class="el" href="classug_1_1_face.html">Face</a> *f) const</td></tr>
+<tr class="memdesc:a615aa48d59030c11599609b775e4c4cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the local mark of the specified face of the given volume  <a href="#a615aa48d59030c11599609b775e4c4cc">More...</a><br /></td></tr>
+<tr class="separator:a615aa48d59030c11599609b775e4c4cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78905bc1227774ae05fd61c076cc4520"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__lib__grid__algorithms__refinement.html#gaca4c9dab184a59fc18ae86d72288c209">RefinementMark</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_refiner.html#a78905bc1227774ae05fd61c076cc4520">get_mark</a> (<a class="el" href="classug_1_1_grid_object.html">GridObject</a> *o) const</td></tr>
+<tr class="memdesc:a78905bc1227774ae05fd61c076cc4520"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the mark of the specified geometric object  <a href="#a78905bc1227774ae05fd61c076cc4520">More...</a><br /></td></tr>
+<tr class="separator:a78905bc1227774ae05fd61c076cc4520"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67168da36adb124192e18b0cf7a1baa2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classug_1_1_grid.html">Grid</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_refiner.html#a67168da36adb124192e18b0cf7a1baa2">grid</a> ()=0</td></tr>
 <tr class="memdesc:a67168da36adb124192e18b0cf7a1baa2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the grid associated with the refiner.  <a href="#a67168da36adb124192e18b0cf7a1baa2">More...</a><br /></td></tr>
 <tr class="separator:a67168da36adb124192e18b0cf7a1baa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4d63767fc3292e81502f2059076239f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_refiner.html#ab4d63767fc3292e81502f2059076239f">IRefiner</a> (<a class="el" href="namespaceug.html#a1a220d9b7f4057bf059723a8c0dc056d">SPRefinementProjector</a> <a class="el" href="classug_1_1_i_refiner.html#a7186523b823d2ee3d91b61b86d393366">projector</a>=<a class="el" href="group__ugbase__common__util.html#gaaf72bcd4f74729e4a43694267e8590d8">SPNULL</a>)</td></tr>
 <tr class="separator:ab4d63767fc3292e81502f2059076239f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a5e214348d8e6a8adc5aff1e8e877fc"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_refiner.html#a0a5e214348d8e6a8adc5aff1e8e877fc">local_marks_supported</a> () const</td></tr>
+<tr class="memdesc:a0a5e214348d8e6a8adc5aff1e8e877fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true, if the refiner supports local marks.  <a href="#a0a5e214348d8e6a8adc5aff1e8e877fc">More...</a><br /></td></tr>
+<tr class="separator:a0a5e214348d8e6a8adc5aff1e8e877fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23900c3478fed1436eb7a13d67fe5780"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_refiner.html#a23900c3478fed1436eb7a13d67fe5780">mark</a> (<a class="el" href="classug_1_1_grid_object.html">GridObject</a> *o, <a class="el" href="group__lib__grid__algorithms__refinement.html#gaca4c9dab184a59fc18ae86d72288c209">RefinementMark</a> refMark=<a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a84ff78cd530af7d6e3d7662f46c9a618">RM_REFINE</a>)</td></tr>
 <tr class="memdesc:a23900c3478fed1436eb7a13d67fe5780"><td class="mdescLeft">&#160;</td><td class="mdescRight">marks the specified geometric object  <a href="#a23900c3478fed1436eb7a13d67fe5780">More...</a><br /></td></tr>
 <tr class="separator:a23900c3478fed1436eb7a13d67fe5780"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -166,6 +177,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a61bba691c0fcfa00421e12663f6cfa50"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_refiner.html#a61bba691c0fcfa00421e12663f6cfa50">mark_neighborhood</a> (size_t numIterations, <a class="el" href="group__lib__grid__algorithms__refinement.html#gaca4c9dab184a59fc18ae86d72288c209">RefinementMark</a> refMark, bool sideNbrsOnly)</td></tr>
 <tr class="memdesc:a61bba691c0fcfa00421e12663f6cfa50"><td class="mdescLeft">&#160;</td><td class="mdescRight">marks the neighborhood of currently marked elements.  <a href="#a61bba691c0fcfa00421e12663f6cfa50">More...</a><br /></td></tr>
 <tr class="separator:a61bba691c0fcfa00421e12663f6cfa50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a823ceadffe2a5ec42767932407c9ca80"><td class="memTemplParams" colspan="2">template&lt;class TElem &gt; </td></tr>
+<tr class="memitem:a823ceadffe2a5ec42767932407c9ca80"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_i_refiner.html#a823ceadffe2a5ec42767932407c9ca80">marked_closure</a> (TElem *elem) const</td></tr>
+<tr class="separator:a823ceadffe2a5ec42767932407c9ca80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafdd2205e15f54d4ec76aed98a478b86"><td class="memTemplParams" colspan="2">template&lt;class TElem &gt; </td></tr>
+<tr class="memitem:aafdd2205e15f54d4ec76aed98a478b86"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_i_refiner.html#aafdd2205e15f54d4ec76aed98a478b86">marked_full</a> (TElem *elem) const</td></tr>
+<tr class="separator:aafdd2205e15f54d4ec76aed98a478b86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70f2a59320e7e14cf6a60a9ef8a6577b"><td class="memTemplParams" colspan="2">template&lt;class TElem &gt; </td></tr>
+<tr class="memitem:a70f2a59320e7e14cf6a60a9ef8a6577b"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_i_refiner.html#a70f2a59320e7e14cf6a60a9ef8a6577b">marked_local</a> (TElem *elem) const</td></tr>
+<tr class="separator:a70f2a59320e7e14cf6a60a9ef8a6577b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3668bf0ad22ddb0b22ad2c98d31e6290"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_refiner.html#a3668bf0ad22ddb0b22ad2c98d31e6290">num_marked_edges</a> (std::vector&lt; int &gt; &amp;numMarkedEdgesOut)</td></tr>
 <tr class="memdesc:a3668bf0ad22ddb0b22ad2c98d31e6290"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of (globally) marked edges on all levels of the hierarchy  <a href="#a3668bf0ad22ddb0b22ad2c98d31e6290">More...</a><br /></td></tr>
 <tr class="separator:a3668bf0ad22ddb0b22ad2c98d31e6290"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -207,30 +227,44 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae26d39e9d107db9877ef102b89cf8229"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
 <tr class="memitem:a0e36b035b5a6c6ded54d41c4504f3ba4"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_refiner.html#a0e36b035b5a6c6ded54d41c4504f3ba4">mark</a> (<a class="el" href="classug_1_1_vertex.html">Vertex</a> *v, <a class="el" href="group__lib__grid__algorithms__refinement.html#gaca4c9dab184a59fc18ae86d72288c209">RefinementMark</a> refMark=<a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a84ff78cd530af7d6e3d7662f46c9a618">RM_REFINE</a>)</td></tr>
-<tr class="memdesc:a0e36b035b5a6c6ded54d41c4504f3ba4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks a element for refinement. Default implementation is empty.  <a href="#a0e36b035b5a6c6ded54d41c4504f3ba4">More...</a><br /></td></tr>
+<tr class="memdesc:a0e36b035b5a6c6ded54d41c4504f3ba4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks an element for refinement. Default implementation is empty.  <a href="#a0e36b035b5a6c6ded54d41c4504f3ba4">More...</a><br /></td></tr>
 <tr class="separator:a0e36b035b5a6c6ded54d41c4504f3ba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac351e798307130b9293fa8f1812a77ed"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_refiner.html#ac351e798307130b9293fa8f1812a77ed">mark</a> (<a class="el" href="classug_1_1_edge.html">Edge</a> *e, <a class="el" href="group__lib__grid__algorithms__refinement.html#gaca4c9dab184a59fc18ae86d72288c209">RefinementMark</a> refMark=<a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a84ff78cd530af7d6e3d7662f46c9a618">RM_REFINE</a>)</td></tr>
-<tr class="memdesc:ac351e798307130b9293fa8f1812a77ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks a element for refinement. Default implementation is empty.  <a href="#ac351e798307130b9293fa8f1812a77ed">More...</a><br /></td></tr>
+<tr class="memdesc:ac351e798307130b9293fa8f1812a77ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks an element for refinement. Default implementation is empty.  <a href="#ac351e798307130b9293fa8f1812a77ed">More...</a><br /></td></tr>
 <tr class="separator:ac351e798307130b9293fa8f1812a77ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cde4219db5da77681fbb1e290837dd1"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_refiner.html#a6cde4219db5da77681fbb1e290837dd1">mark</a> (<a class="el" href="classug_1_1_face.html">Face</a> *f, <a class="el" href="group__lib__grid__algorithms__refinement.html#gaca4c9dab184a59fc18ae86d72288c209">RefinementMark</a> refMark=<a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a84ff78cd530af7d6e3d7662f46c9a618">RM_REFINE</a>)</td></tr>
-<tr class="memdesc:a6cde4219db5da77681fbb1e290837dd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks a element for refinement. Default implementation is empty.  <a href="#a6cde4219db5da77681fbb1e290837dd1">More...</a><br /></td></tr>
+<tr class="memdesc:a6cde4219db5da77681fbb1e290837dd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks an element for refinement. Default implementation is empty.  <a href="#a6cde4219db5da77681fbb1e290837dd1">More...</a><br /></td></tr>
 <tr class="separator:a6cde4219db5da77681fbb1e290837dd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5804b707798b64bcdafbf063dcb0587"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_refiner.html#ad5804b707798b64bcdafbf063dcb0587">mark</a> (<a class="el" href="classug_1_1_volume.html">Volume</a> *v, <a class="el" href="group__lib__grid__algorithms__refinement.html#gaca4c9dab184a59fc18ae86d72288c209">RefinementMark</a> refMark=<a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a84ff78cd530af7d6e3d7662f46c9a618">RM_REFINE</a>)</td></tr>
-<tr class="memdesc:ad5804b707798b64bcdafbf063dcb0587"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks a element for refinement. Default implementation is empty.  <a href="#ad5804b707798b64bcdafbf063dcb0587">More...</a><br /></td></tr>
+<tr class="memdesc:ad5804b707798b64bcdafbf063dcb0587"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks an element for refinement. Default implementation is empty.  <a href="#ad5804b707798b64bcdafbf063dcb0587">More...</a><br /></td></tr>
 <tr class="separator:ad5804b707798b64bcdafbf063dcb0587"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
-<tr class="memitem:a3e321359f42038775c5cd66c109dff14"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__lib__grid__algorithms__refinement.html#gaca4c9dab184a59fc18ae86d72288c209">RefinementMark</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_refiner.html#a3e321359f42038775c5cd66c109dff14">get_mark</a> (<a class="el" href="classug_1_1_vertex.html">Vertex</a> *v)</td></tr>
-<tr class="memdesc:a3e321359f42038775c5cd66c109dff14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the mark of a given element. Default returns RM_REFINE.  <a href="#a3e321359f42038775c5cd66c109dff14">More...</a><br /></td></tr>
-<tr class="separator:a3e321359f42038775c5cd66c109dff14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40bffacc5f65e6850e3e7244a7047b62"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__lib__grid__algorithms__refinement.html#gaca4c9dab184a59fc18ae86d72288c209">RefinementMark</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_refiner.html#a40bffacc5f65e6850e3e7244a7047b62">get_mark</a> (<a class="el" href="classug_1_1_edge.html">Edge</a> *e)</td></tr>
-<tr class="memdesc:a40bffacc5f65e6850e3e7244a7047b62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the mark of a given element. Default returns RM_REFINE.  <a href="#a40bffacc5f65e6850e3e7244a7047b62">More...</a><br /></td></tr>
-<tr class="separator:a40bffacc5f65e6850e3e7244a7047b62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa75e4ea0ebc8de0b85b61c19f7255449"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__lib__grid__algorithms__refinement.html#gaca4c9dab184a59fc18ae86d72288c209">RefinementMark</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_refiner.html#aa75e4ea0ebc8de0b85b61c19f7255449">get_mark</a> (<a class="el" href="classug_1_1_face.html">Face</a> *f)</td></tr>
-<tr class="memdesc:aa75e4ea0ebc8de0b85b61c19f7255449"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the mark of a given element. Default returns RM_REFINE.  <a href="#aa75e4ea0ebc8de0b85b61c19f7255449">More...</a><br /></td></tr>
-<tr class="separator:aa75e4ea0ebc8de0b85b61c19f7255449"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d0934087add63a9d6027ba3536be635"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__lib__grid__algorithms__refinement.html#gaca4c9dab184a59fc18ae86d72288c209">RefinementMark</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_refiner.html#a7d0934087add63a9d6027ba3536be635">get_mark</a> (<a class="el" href="classug_1_1_volume.html">Volume</a> *v)</td></tr>
-<tr class="memdesc:a7d0934087add63a9d6027ba3536be635"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the mark of a given element. Default returns RM_REFINE.  <a href="#a7d0934087add63a9d6027ba3536be635">More...</a><br /></td></tr>
-<tr class="separator:a7d0934087add63a9d6027ba3536be635"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a776ac7ab08aa56d593cebb996e49650a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_refiner.html#a776ac7ab08aa56d593cebb996e49650a">mark_local</a> (<a class="el" href="classug_1_1_face.html">Face</a> *e, int <a class="el" href="classug_1_1_i_refiner.html#a0e36b035b5a6c6ded54d41c4504f3ba4">mark</a>)</td></tr>
+<tr class="memdesc:a776ac7ab08aa56d593cebb996e49650a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks a face or volume for local refinement.  <a href="#a776ac7ab08aa56d593cebb996e49650a">More...</a><br /></td></tr>
+<tr class="separator:a776ac7ab08aa56d593cebb996e49650a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4d50e7dcb1f723d39588fd8752d2d73"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_refiner.html#aa4d50e7dcb1f723d39588fd8752d2d73">mark_local</a> (<a class="el" href="classug_1_1_volume.html">Volume</a> *e, int <a class="el" href="classug_1_1_i_refiner.html#a0e36b035b5a6c6ded54d41c4504f3ba4">mark</a>)</td></tr>
+<tr class="memdesc:aa4d50e7dcb1f723d39588fd8752d2d73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks a face or volume for local refinement.  <a href="#aa4d50e7dcb1f723d39588fd8752d2d73">More...</a><br /></td></tr>
+<tr class="separator:aa4d50e7dcb1f723d39588fd8752d2d73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:a9c3453c42fade99de31aa267d25e9e34"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_refiner.html#a9c3453c42fade99de31aa267d25e9e34">get_local_mark</a> (<a class="el" href="classug_1_1_face.html">Face</a> *e) const</td></tr>
+<tr class="memdesc:a9c3453c42fade99de31aa267d25e9e34"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the local mark of the specified face or volume.  <a href="#a9c3453c42fade99de31aa267d25e9e34">More...</a><br /></td></tr>
+<tr class="separator:a9c3453c42fade99de31aa267d25e9e34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82c5d83944be232c4f6317161f66af05"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_refiner.html#a82c5d83944be232c4f6317161f66af05">get_local_mark</a> (<a class="el" href="classug_1_1_volume.html">Volume</a> *e) const</td></tr>
+<tr class="memdesc:a82c5d83944be232c4f6317161f66af05"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the local mark of the specified face or volume.  <a href="#a82c5d83944be232c4f6317161f66af05">More...</a><br /></td></tr>
+<tr class="separator:a82c5d83944be232c4f6317161f66af05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:afa35acc01f60036ea35980c66ee0304c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__lib__grid__algorithms__refinement.html#gaca4c9dab184a59fc18ae86d72288c209">RefinementMark</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_refiner.html#afa35acc01f60036ea35980c66ee0304c">get_mark</a> (<a class="el" href="classug_1_1_vertex.html">Vertex</a> *v) const</td></tr>
+<tr class="memdesc:afa35acc01f60036ea35980c66ee0304c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the mark of a given element. Default returns RM_REFINE.  <a href="#afa35acc01f60036ea35980c66ee0304c">More...</a><br /></td></tr>
+<tr class="separator:afa35acc01f60036ea35980c66ee0304c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0a4b6a4b01108931894426ad842e4d0"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__lib__grid__algorithms__refinement.html#gaca4c9dab184a59fc18ae86d72288c209">RefinementMark</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_refiner.html#af0a4b6a4b01108931894426ad842e4d0">get_mark</a> (<a class="el" href="classug_1_1_edge.html">Edge</a> *e) const</td></tr>
+<tr class="memdesc:af0a4b6a4b01108931894426ad842e4d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the mark of a given element. Default returns RM_REFINE.  <a href="#af0a4b6a4b01108931894426ad842e4d0">More...</a><br /></td></tr>
+<tr class="separator:af0a4b6a4b01108931894426ad842e4d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8eca705d3a7d98b75b0bb97b2a2a9aa5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__lib__grid__algorithms__refinement.html#gaca4c9dab184a59fc18ae86d72288c209">RefinementMark</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_refiner.html#a8eca705d3a7d98b75b0bb97b2a2a9aa5">get_mark</a> (<a class="el" href="classug_1_1_face.html">Face</a> *f) const</td></tr>
+<tr class="memdesc:a8eca705d3a7d98b75b0bb97b2a2a9aa5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the mark of a given element. Default returns RM_REFINE.  <a href="#a8eca705d3a7d98b75b0bb97b2a2a9aa5">More...</a><br /></td></tr>
+<tr class="separator:a8eca705d3a7d98b75b0bb97b2a2a9aa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af165c75a822fd47d1dc7f3fa7509534e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__lib__grid__algorithms__refinement.html#gaca4c9dab184a59fc18ae86d72288c209">RefinementMark</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_refiner.html#af165c75a822fd47d1dc7f3fa7509534e">get_mark</a> (<a class="el" href="classug_1_1_volume.html">Volume</a> *v) const</td></tr>
+<tr class="memdesc:af165c75a822fd47d1dc7f3fa7509534e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the mark of a given element. Default returns RM_REFINE.  <a href="#af165c75a822fd47d1dc7f3fa7509534e">More...</a><br /></td></tr>
+<tr class="separator:af165c75a822fd47d1dc7f3fa7509534e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
 <tr class="memitem:a4ec94621cc47b5e83a769cecfbad23d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_refiner.html#a4ec94621cc47b5e83a769cecfbad23d3">adaption_begins</a> ()</td></tr>
 <tr class="memdesc:a4ec94621cc47b5e83a769cecfbad23d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">notifies all listeners of the associated message-hub, that adaption begins / ends.  <a href="#a4ec94621cc47b5e83a769cecfbad23d3">More...</a><br /></td></tr>
@@ -405,7 +439,7 @@ Protected Attributes</h2></td></tr>
 <p>returns whether the refiner is able to perform adaptive refinement </p>
 <p>pure virtual! </p>
 
-<p>Implemented in <a class="el" href="classug_1_1_global_fractured_media_refiner.html#aa230eec54cc13becb763b1a5749e9b5a">ug::GlobalFracturedMediaRefiner</a>, <a class="el" href="classug_1_1_hanging_node_refiner___multi_grid.html#a9d239f094f8486aaa2fd8df9ba7a76db">ug::HangingNodeRefiner_MultiGrid</a>, <a class="el" href="classug_1_1_hanging_node_refiner___grid.html#a740fdac759f2735e118743e63f1405c4">ug::HangingNodeRefiner_Grid</a>, <a class="el" href="classug_1_1_global_multi_grid_refiner.html#ab387f87cb508759bc89451321e5a9d38">ug::GlobalMultiGridRefiner</a>, and <a class="el" href="classug_1_1_regular_refiner___multi_grid.html#adb48dc2abe9755869ee926fbaa413af3">ug::RegularRefiner_MultiGrid</a>.</p>
+<p>Implemented in <a class="el" href="classug_1_1_global_fractured_media_refiner.html#aa230eec54cc13becb763b1a5749e9b5a">ug::GlobalFracturedMediaRefiner</a>, <a class="el" href="classug_1_1_hanging_node_refiner___multi_grid.html#a9d239f094f8486aaa2fd8df9ba7a76db">ug::HangingNodeRefiner_MultiGrid</a>, <a class="el" href="classug_1_1_hanging_node_refiner___grid.html#a740fdac759f2735e118743e63f1405c4">ug::HangingNodeRefiner_Grid</a>, and <a class="el" href="classug_1_1_global_multi_grid_refiner.html#ab387f87cb508759bc89451321e5a9d38">ug::GlobalMultiGridRefiner</a>.</p>
 
 <p>Referenced by <a class="el" href="classug_1_1_i_refiner.html#a4ec94621cc47b5e83a769cecfbad23d3">adaption_begins()</a>, <a class="el" href="classug_1_1_i_refiner.html#a5444b836177546e613eb54885878b52c">adaption_ends()</a>, and <a class="el" href="classug_1_1_i_refiner.html#a19b5448497adfc7d4b39c9fed4444727">clear_marks()</a>.</p>
 
@@ -494,7 +528,7 @@ Protected Attributes</h2></td></tr>
 <p>returns true, if the refiner supports coarsening. </p>
 <p>pure virtual! </p>
 
-<p>Implemented in <a class="el" href="classug_1_1_global_fractured_media_refiner.html#ab2b57e0c7b5d103cbe74616f86902236">ug::GlobalFracturedMediaRefiner</a>, <a class="el" href="classug_1_1_hanging_node_refiner___multi_grid.html#a7b1cfd7f3c7d4b8eb6b24b975b3c4d87">ug::HangingNodeRefiner_MultiGrid</a>, <a class="el" href="classug_1_1_hanging_node_refiner___grid.html#ab1377eb4d9ce2b985425869a310bd75f">ug::HangingNodeRefiner_Grid</a>, <a class="el" href="classug_1_1_global_multi_grid_refiner.html#a432c520dbe8c4bb82edf6204dc164e00">ug::GlobalMultiGridRefiner</a>, and <a class="el" href="classug_1_1_regular_refiner___multi_grid.html#a38035e114ea4f33828c8056f73ef702c">ug::RegularRefiner_MultiGrid</a>.</p>
+<p>Implemented in <a class="el" href="classug_1_1_global_fractured_media_refiner.html#ab2b57e0c7b5d103cbe74616f86902236">ug::GlobalFracturedMediaRefiner</a>, <a class="el" href="classug_1_1_hanging_node_refiner___multi_grid.html#a7b1cfd7f3c7d4b8eb6b24b975b3c4d87">ug::HangingNodeRefiner_MultiGrid</a>, <a class="el" href="classug_1_1_hanging_node_refiner___grid.html#ab1377eb4d9ce2b985425869a310bd75f">ug::HangingNodeRefiner_Grid</a>, and <a class="el" href="classug_1_1_global_multi_grid_refiner.html#a432c520dbe8c4bb82edf6204dc164e00">ug::GlobalMultiGridRefiner</a>.</p>
 
 <p>Referenced by <a class="el" href="classug_1_1_i_refiner.html#a19b5448497adfc7d4b39c9fed4444727">clear_marks()</a>, and <a class="el" href="classug_1_1_i_refiner.html#a0789fb98ead351f663502563657599a8">coarsen()</a>.</p>
 
@@ -582,14 +616,183 @@ Protected Attributes</h2></td></tr>
 
 <p>DEPRECIATED! Use <a class="el" href="classug_1_1_i_refiner.html#a67168da36adb124192e18b0cf7a1baa2" title="Returns the grid associated with the refiner. ">grid()</a>. Has to return the associated grid. Pure virtual. </p>
 
-<p>Implemented in <a class="el" href="classug_1_1_global_fractured_media_refiner.html#a531bd2a70e94b9370449390e23ccdc10">ug::GlobalFracturedMediaRefiner</a>, <a class="el" href="classug_1_1_hanging_node_refiner___multi_grid.html#a566a7aa342b0b8d5cb34ec94fd85bdc8">ug::HangingNodeRefiner_MultiGrid</a>, <a class="el" href="classug_1_1_hanging_node_refiner___grid.html#a6acb4da727165c2fa2dfe47b994ea6b6">ug::HangingNodeRefiner_Grid</a>, <a class="el" href="classug_1_1_global_multi_grid_refiner.html#a3e9c903cea2de0d904e23011f7bbeca0">ug::GlobalMultiGridRefiner</a>, and <a class="el" href="classug_1_1_regular_refiner___multi_grid.html#a455d435bd3b2d6fdfeba9b49b840abde">ug::RegularRefiner_MultiGrid</a>.</p>
+<p>Implemented in <a class="el" href="classug_1_1_global_fractured_media_refiner.html#a531bd2a70e94b9370449390e23ccdc10">ug::GlobalFracturedMediaRefiner</a>, <a class="el" href="classug_1_1_hanging_node_refiner___multi_grid.html#a566a7aa342b0b8d5cb34ec94fd85bdc8">ug::HangingNodeRefiner_MultiGrid</a>, <a class="el" href="classug_1_1_hanging_node_refiner___grid.html#a6acb4da727165c2fa2dfe47b994ea6b6">ug::HangingNodeRefiner_Grid</a>, and <a class="el" href="classug_1_1_global_multi_grid_refiner.html#a3e9c903cea2de0d904e23011f7bbeca0">ug::GlobalMultiGridRefiner</a>.</p>
 
 <p>Referenced by <a class="el" href="group__refinement__bridge.html#ga914e0ae696b7298934f79bda9336ace1">ug::MarkAnisotropic_LongEdges()</a>, and <a class="el" href="classug_1_1_i_refiner.html#a7186523b823d2ee3d91b61b86d393366">projector()</a>.</p>
 
 </div>
 </div>
-<a id="a3e321359f42038775c5cd66c109dff14"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e321359f42038775c5cd66c109dff14">&sect;&nbsp;</a></span>get_mark() <span class="overload">[1/5]</span></h2>
+<a id="afca9c7b29b5d5e50d8b84ec8791d4f7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afca9c7b29b5d5e50d8b84ec8791d4f7e">&sect;&nbsp;</a></span>get_local_edge_mark() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ug::IRefiner::get_local_edge_mark </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_face.html">Face</a> *&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classug_1_1_edge.html">Edge</a> *&#160;</td>
+          <td class="paramname"><em>e</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns the local mark of the specified edge of the given face </p>
+<p>Note that this is not necessarily the mark of the edge itself. Instead the mark of the edge as induced by the local mark of the face is returned. The method also considers marks RM_FULL and RM_CLOSURE. </p>
+
+<p>References <a class="el" href="classug_1_1_i_refiner.html#a9c3453c42fade99de31aa267d25e9e34">get_local_mark()</a>, <a class="el" href="group__lib__grid__algorithms__edge__util.html#ga1630d8ea9135b8305a86bdece82d93f0">ug::GetEdgeIndex()</a>, <a class="el" href="classug_1_1_i_refiner.html#a823ceadffe2a5ec42767932407c9ca80">marked_closure()</a>, <a class="el" href="classug_1_1_i_refiner.html#aafdd2205e15f54d4ec76aed98a478b86">marked_full()</a>, <a class="el" href="classug_1_1_i_refiner.html#a70f2a59320e7e14cf6a60a9ef8a6577b">marked_local()</a>, and <a class="el" href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>.</p>
+
+<p>Referenced by <a class="el" href="classug_1_1_i_refiner.html#a82c5d83944be232c4f6317161f66af05">get_local_mark()</a>, <a class="el" href="classug_1_1_local_mark_adjuster.html#a00b29488f6c2f534e828bd8be138c049">ug::LocalMarkAdjuster::ref_marks_changed()</a>, and <a class="el" href="classug_1_1_i_refiner.html#a8883cf45b0fd1b3485996ea7d2b586ca">set_adjusted_marks_debug_filename()</a>.</p>
+
+</div>
+</div>
+<a id="a33059b7930db64dce89ecc81381ea058"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33059b7930db64dce89ecc81381ea058">&sect;&nbsp;</a></span>get_local_edge_mark() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ug::IRefiner::get_local_edge_mark </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_volume.html">Volume</a> *&#160;</td>
+          <td class="paramname"><em>vol</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classug_1_1_edge.html">Edge</a> *&#160;</td>
+          <td class="paramname"><em>e</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns the local mark of the specified edge of the given volume </p>
+<p>Note that this is not necessarily the mark of the edge itself. Instead the mark of the edge as induced by the local mark of the volume is returned. The method also considers marks RM_FULL and RM_CLOSURE. </p>
+
+<p>References <a class="el" href="classug_1_1_i_refiner.html#a615aa48d59030c11599609b775e4c4cc">get_local_face_mark()</a>, <a class="el" href="classug_1_1_i_refiner.html#a9c3453c42fade99de31aa267d25e9e34">get_local_mark()</a>, <a class="el" href="group__lib__grid__algorithms__edge__util.html#ga1630d8ea9135b8305a86bdece82d93f0">ug::GetEdgeIndex()</a>, <a class="el" href="classug_1_1_i_refiner.html#a823ceadffe2a5ec42767932407c9ca80">marked_closure()</a>, <a class="el" href="classug_1_1_i_refiner.html#aafdd2205e15f54d4ec76aed98a478b86">marked_full()</a>, <a class="el" href="classug_1_1_i_refiner.html#a70f2a59320e7e14cf6a60a9ef8a6577b">marked_local()</a>, and <a class="el" href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>.</p>
+
+</div>
+</div>
+<a id="a615aa48d59030c11599609b775e4c4cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a615aa48d59030c11599609b775e4c4cc">&sect;&nbsp;</a></span>get_local_face_mark()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ug::IRefiner::get_local_face_mark </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_volume.html">Volume</a> *&#160;</td>
+          <td class="paramname"><em>vol</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classug_1_1_face.html">Face</a> *&#160;</td>
+          <td class="paramname"><em>f</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns the local mark of the specified face of the given volume </p>
+<p>Note that this is not necessarily the mark of the face itself. Instead the mark of the face as induced by the local mark of the volume is returned. The method also considers marks RM_FULL and RM_CLOSURE. </p>
+
+<p>References <a class="el" href="classug_1_1_volume.html#a86191e2786e810b2ebdee1075b99809f">ug::Volume::get_edge_index_from_vertices()</a>, <a class="el" href="classug_1_1_i_refiner.html#a9c3453c42fade99de31aa267d25e9e34">get_local_mark()</a>, <a class="el" href="group__lib__grid__algorithms__face__util.html#gad06618d95786eda8fbc7030319075608">ug::GetFaceIndex()</a>, <a class="el" href="group__lib__grid__algorithms__vertex__util.html#gaaf616966d82226b6c9af1b072d2e482c">ug::GetVertexIndex()</a>, <a class="el" href="classug_1_1_i_refiner.html#a67168da36adb124192e18b0cf7a1baa2">grid()</a>, <a class="el" href="classug_1_1_i_refiner.html#a823ceadffe2a5ec42767932407c9ca80">marked_closure()</a>, <a class="el" href="classug_1_1_i_refiner.html#aafdd2205e15f54d4ec76aed98a478b86">marked_full()</a>, <a class="el" href="classug_1_1_i_refiner.html#a70f2a59320e7e14cf6a60a9ef8a6577b">marked_local()</a>, <a class="el" href="namespaceug.html#a515fd5ee0e08608a52b08a76896b7b76">ug::MAX_FACE_VERTICES</a>, <a class="el" href="classug_1_1_face.html#ab2a35640fa0837cabc630c7287cd4340">ug::Face::num_edges()</a>, <a class="el" href="classug_1_1_face_vertices.html#a91c22d6b5fcc4c90e359685aafe2aa19">ug::FaceVertices::num_vertices()</a>, <a class="el" href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>, and <a class="el" href="classug_1_1_face_vertices.html#a6b0da4dcacca2cec9869b7a87ad6381b">ug::FaceVertices::vertices()</a>.</p>
+
+<p>Referenced by <a class="el" href="classug_1_1_i_refiner.html#a33059b7930db64dce89ecc81381ea058">get_local_edge_mark()</a>, <a class="el" href="classug_1_1_i_refiner.html#a82c5d83944be232c4f6317161f66af05">get_local_mark()</a>, and <a class="el" href="classug_1_1_local_mark_adjuster.html#a00b29488f6c2f534e828bd8be138c049">ug::LocalMarkAdjuster::ref_marks_changed()</a>.</p>
+
+</div>
+</div>
+<a id="a9c3453c42fade99de31aa267d25e9e34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c3453c42fade99de31aa267d25e9e34">&sect;&nbsp;</a></span>get_local_mark() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int ug::IRefiner::get_local_mark </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_face.html">Face</a> *&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the local mark of the specified face or volume. </p>
+<p>If the i-th edge of the element shall be refined, it holds true: 'get_local_mark(e) &amp; 1&lt;&lt;i != 0' </p>
+
+<p>Reimplemented in <a class="el" href="classug_1_1_hanging_node_refiner___grid.html#a54eb55a2e1c064ec0b4aaabb475fbd81">ug::HangingNodeRefiner_Grid</a>.</p>
+
+<p>Referenced by <a class="el" href="classug_1_1_i_refiner.html#afca9c7b29b5d5e50d8b84ec8791d4f7e">get_local_edge_mark()</a>, <a class="el" href="classug_1_1_i_refiner.html#a615aa48d59030c11599609b775e4c4cc">get_local_face_mark()</a>, and <a class="el" href="classug_1_1_local_mark_adjuster.html#a00b29488f6c2f534e828bd8be138c049">ug::LocalMarkAdjuster::ref_marks_changed()</a>.</p>
+
+</div>
+</div>
+<a id="a82c5d83944be232c4f6317161f66af05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82c5d83944be232c4f6317161f66af05">&sect;&nbsp;</a></span>get_local_mark() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int ug::IRefiner::get_local_mark </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_volume.html">Volume</a> *&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the local mark of the specified face or volume. </p>
+<p>If the i-th edge of the element shall be refined, it holds true: 'get_local_mark(e) &amp; 1&lt;&lt;i != 0' </p>
+
+<p>Reimplemented in <a class="el" href="classug_1_1_hanging_node_refiner___grid.html#a449542c3ec89c645acd4788ba4651b70">ug::HangingNodeRefiner_Grid</a>.</p>
+
+<p>References <a class="el" href="classug_1_1_i_refiner.html#afca9c7b29b5d5e50d8b84ec8791d4f7e">get_local_edge_mark()</a>, and <a class="el" href="classug_1_1_i_refiner.html#a615aa48d59030c11599609b775e4c4cc">get_local_face_mark()</a>.</p>
+
+</div>
+</div>
+<a id="afa35acc01f60036ea35980c66ee0304c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa35acc01f60036ea35980c66ee0304c">&sect;&nbsp;</a></span>get_mark() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -602,7 +805,7 @@ Protected Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classug_1_1_vertex.html">Vertex</a> *&#160;</td>
           <td class="paramname"><em>v</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -614,16 +817,16 @@ Protected Attributes</h2></td></tr>
 
 <p>Returns the mark of a given element. Default returns RM_REFINE. </p>
 
-<p>Reimplemented in <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a7b26288bbea223895e48ecb63f58e68d">ug::HangingNodeRefinerBase&lt; TSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a7b26288bbea223895e48ecb63f58e68d">ug::HangingNodeRefinerBase&lt; MGSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a7b26288bbea223895e48ecb63f58e68d">ug::HangingNodeRefinerBase&lt; Selector &gt;</a>, and <a class="el" href="classug_1_1_regular_refiner___multi_grid.html#adf7b425abdb38aeabfe82056575abbdb">ug::RegularRefiner_MultiGrid</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a8032c630472f0fd00f00cca9ef77a0c1">ug::HangingNodeRefinerBase&lt; TSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a8032c630472f0fd00f00cca9ef77a0c1">ug::HangingNodeRefinerBase&lt; MGSelector &gt;</a>, and <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a8032c630472f0fd00f00cca9ef77a0c1">ug::HangingNodeRefinerBase&lt; Selector &gt;</a>.</p>
 
 <p>References <a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a84ff78cd530af7d6e3d7662f46c9a618">ug::RM_REFINE</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_com_pol___broadcast_refine_marks.html#a5e2fcfd8b84cec84e78071a8ce98049f">ug::ComPol_BroadcastRefineMarks&lt; TLayout &gt;::collect()</a>, <a class="el" href="classug_1_1_balance_weights_ref_marks.html#a55c4570a46a6b8c539d8b783445d0d60">ug::BalanceWeightsRefMarks::consider_in_level_above_impl()</a>, <a class="el" href="classug_1_1_com_pol___broadcast_refine_marks.html#aad548873a3a2838d924c48a083112a40">ug::ComPol_BroadcastRefineMarks&lt; TLayout &gt;::extract()</a>, <a class="el" href="classug_1_1_i_refiner.html#ab14e83e714c3caa97efc8a6df64dccf4">get_mark()</a>, <a class="el" href="classug_1_1_balance_weights_ref_marks.html#ab40cfa59c86eab0e128d0a029e05d023">ug::BalanceWeightsRefMarks::get_refined_weight()</a>, <a class="el" href="namespaceug.html#a9963c6ae7173a569413fc9ac096e5ff7">ug::mark_if_periodic()</a>, <a class="el" href="namespaceug.html#a6710349b7e89f38c4c9e2bb63e0d8535">ug::MarkElementsForCoarsening()</a>, <a class="el" href="namespaceug.html#ad49a40cf0d6f047e2e7f7e05e2af8b2e">ug::MarkForAdaption_ResidualErrorP1Absolute()</a>, <a class="el" href="classug_1_1_m_g_h_node_adjuster.html#ae40bf0003919c42644cf03ffbc3e252c">ug::MGHNodeAdjuster::ref_marks_changed()</a>, <a class="el" href="classug_1_1_std_h_node_adjuster.html#a49aca8a3f95ea9b497605d684efe9f8b">ug::StdHNodeAdjuster::ref_marks_changed()</a>, and <a class="el" href="classug_1_1_horizontal_anisotropy_adjuster.html#a24fa41f54166a915890009c668089386">ug::HorizontalAnisotropyAdjuster&lt; TAPos &gt;::ref_marks_changed()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_com_pol___broadcast_refine_marks.html#a5e2fcfd8b84cec84e78071a8ce98049f">ug::ComPol_BroadcastRefineMarks&lt; TLayout &gt;::collect()</a>, <a class="el" href="classug_1_1_balance_weights_ref_marks.html#a55c4570a46a6b8c539d8b783445d0d60">ug::BalanceWeightsRefMarks::consider_in_level_above_impl()</a>, <a class="el" href="classug_1_1_com_pol___broadcast_refine_marks.html#aad548873a3a2838d924c48a083112a40">ug::ComPol_BroadcastRefineMarks&lt; TLayout &gt;::extract()</a>, <a class="el" href="classug_1_1_i_refiner.html#a78905bc1227774ae05fd61c076cc4520">get_mark()</a>, <a class="el" href="classug_1_1_balance_weights_ref_marks.html#ab40cfa59c86eab0e128d0a029e05d023">ug::BalanceWeightsRefMarks::get_refined_weight()</a>, <a class="el" href="namespaceug.html#a9963c6ae7173a569413fc9ac096e5ff7">ug::mark_if_periodic()</a>, <a class="el" href="classug_1_1_i_refiner.html#a823ceadffe2a5ec42767932407c9ca80">marked_closure()</a>, <a class="el" href="classug_1_1_i_refiner.html#aafdd2205e15f54d4ec76aed98a478b86">marked_full()</a>, <a class="el" href="classug_1_1_i_refiner.html#a70f2a59320e7e14cf6a60a9ef8a6577b">marked_local()</a>, <a class="el" href="namespaceug.html#a6710349b7e89f38c4c9e2bb63e0d8535">ug::MarkElementsForCoarsening()</a>, <a class="el" href="namespaceug.html#ad49a40cf0d6f047e2e7f7e05e2af8b2e">ug::MarkForAdaption_ResidualErrorP1Absolute()</a>, <a class="el" href="classug_1_1_std_h_node_adjuster.html#a49aca8a3f95ea9b497605d684efe9f8b">ug::StdHNodeAdjuster::ref_marks_changed()</a>, <a class="el" href="classug_1_1_local_mark_adjuster.html#a00b29488f6c2f534e828bd8be138c049">ug::LocalMarkAdjuster::ref_marks_changed()</a>, <a class="el" href="classug_1_1_m_g_h_node_adjuster.html#ae40bf0003919c42644cf03ffbc3e252c">ug::MGHNodeAdjuster::ref_marks_changed()</a>, and <a class="el" href="classug_1_1_horizontal_anisotropy_adjuster.html#a24fa41f54166a915890009c668089386">ug::HorizontalAnisotropyAdjuster&lt; TAPos &gt;::ref_marks_changed()</a>.</p>
 
 </div>
 </div>
-<a id="a40bffacc5f65e6850e3e7244a7047b62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40bffacc5f65e6850e3e7244a7047b62">&sect;&nbsp;</a></span>get_mark() <span class="overload">[2/5]</span></h2>
+<a id="af0a4b6a4b01108931894426ad842e4d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0a4b6a4b01108931894426ad842e4d0">&sect;&nbsp;</a></span>get_mark() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -636,7 +839,7 @@ Protected Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classug_1_1_edge.html">Edge</a> *&#160;</td>
           <td class="paramname"><em>e</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -648,14 +851,14 @@ Protected Attributes</h2></td></tr>
 
 <p>Returns the mark of a given element. Default returns RM_REFINE. </p>
 
-<p>Reimplemented in <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a8ded48f201f268cfff1c4049cd611534">ug::HangingNodeRefinerBase&lt; TSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a8ded48f201f268cfff1c4049cd611534">ug::HangingNodeRefinerBase&lt; MGSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a8ded48f201f268cfff1c4049cd611534">ug::HangingNodeRefinerBase&lt; Selector &gt;</a>, and <a class="el" href="classug_1_1_regular_refiner___multi_grid.html#a8dd4c3702137f746b01015cb7d6b99cf">ug::RegularRefiner_MultiGrid</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_hanging_node_refiner_base.html#ae1d2e1e20bd029ab247114198be7fcb0">ug::HangingNodeRefinerBase&lt; TSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#ae1d2e1e20bd029ab247114198be7fcb0">ug::HangingNodeRefinerBase&lt; MGSelector &gt;</a>, and <a class="el" href="classug_1_1_hanging_node_refiner_base.html#ae1d2e1e20bd029ab247114198be7fcb0">ug::HangingNodeRefinerBase&lt; Selector &gt;</a>.</p>
 
 <p>References <a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a84ff78cd530af7d6e3d7662f46c9a618">ug::RM_REFINE</a>.</p>
 
 </div>
 </div>
-<a id="aa75e4ea0ebc8de0b85b61c19f7255449"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa75e4ea0ebc8de0b85b61c19f7255449">&sect;&nbsp;</a></span>get_mark() <span class="overload">[3/5]</span></h2>
+<a id="a8eca705d3a7d98b75b0bb97b2a2a9aa5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8eca705d3a7d98b75b0bb97b2a2a9aa5">&sect;&nbsp;</a></span>get_mark() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -668,7 +871,7 @@ Protected Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classug_1_1_face.html">Face</a> *&#160;</td>
           <td class="paramname"><em>f</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -680,14 +883,14 @@ Protected Attributes</h2></td></tr>
 
 <p>Returns the mark of a given element. Default returns RM_REFINE. </p>
 
-<p>Reimplemented in <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a70e3e39e3b3a74d7987c400170488fca">ug::HangingNodeRefinerBase&lt; TSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a70e3e39e3b3a74d7987c400170488fca">ug::HangingNodeRefinerBase&lt; MGSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a70e3e39e3b3a74d7987c400170488fca">ug::HangingNodeRefinerBase&lt; Selector &gt;</a>, and <a class="el" href="classug_1_1_regular_refiner___multi_grid.html#ab95e538580b2638eb7dde101354c483c">ug::RegularRefiner_MultiGrid</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_hanging_node_refiner_base.html#abe21d3daba70a49f6f7446553af49e34">ug::HangingNodeRefinerBase&lt; TSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#abe21d3daba70a49f6f7446553af49e34">ug::HangingNodeRefinerBase&lt; MGSelector &gt;</a>, and <a class="el" href="classug_1_1_hanging_node_refiner_base.html#abe21d3daba70a49f6f7446553af49e34">ug::HangingNodeRefinerBase&lt; Selector &gt;</a>.</p>
 
 <p>References <a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a84ff78cd530af7d6e3d7662f46c9a618">ug::RM_REFINE</a>.</p>
 
 </div>
 </div>
-<a id="a7d0934087add63a9d6027ba3536be635"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d0934087add63a9d6027ba3536be635">&sect;&nbsp;</a></span>get_mark() <span class="overload">[4/5]</span></h2>
+<a id="af165c75a822fd47d1dc7f3fa7509534e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af165c75a822fd47d1dc7f3fa7509534e">&sect;&nbsp;</a></span>get_mark() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -700,7 +903,7 @@ Protected Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classug_1_1_volume.html">Volume</a> *&#160;</td>
           <td class="paramname"><em>v</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -712,14 +915,14 @@ Protected Attributes</h2></td></tr>
 
 <p>Returns the mark of a given element. Default returns RM_REFINE. </p>
 
-<p>Reimplemented in <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a0fee5cd148522601614d7c6bb592d1b1">ug::HangingNodeRefinerBase&lt; TSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a0fee5cd148522601614d7c6bb592d1b1">ug::HangingNodeRefinerBase&lt; MGSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a0fee5cd148522601614d7c6bb592d1b1">ug::HangingNodeRefinerBase&lt; Selector &gt;</a>, and <a class="el" href="classug_1_1_regular_refiner___multi_grid.html#a6aa98b707cca4b46ed0511c1d20f39e7">ug::RegularRefiner_MultiGrid</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_hanging_node_refiner_base.html#af387f0fa43f980e608cbffc633a5e312">ug::HangingNodeRefinerBase&lt; TSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#af387f0fa43f980e608cbffc633a5e312">ug::HangingNodeRefinerBase&lt; MGSelector &gt;</a>, and <a class="el" href="classug_1_1_hanging_node_refiner_base.html#af387f0fa43f980e608cbffc633a5e312">ug::HangingNodeRefinerBase&lt; Selector &gt;</a>.</p>
 
-<p>References <a class="el" href="classug_1_1_i_refiner.html#a3e321359f42038775c5cd66c109dff14">get_mark()</a>, and <a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a84ff78cd530af7d6e3d7662f46c9a618">ug::RM_REFINE</a>.</p>
+<p>References <a class="el" href="classug_1_1_i_refiner.html#afa35acc01f60036ea35980c66ee0304c">get_mark()</a>, and <a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a84ff78cd530af7d6e3d7662f46c9a618">ug::RM_REFINE</a>.</p>
 
 </div>
 </div>
-<a id="ab14e83e714c3caa97efc8a6df64dccf4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab14e83e714c3caa97efc8a6df64dccf4">&sect;&nbsp;</a></span>get_mark() <span class="overload">[5/5]</span></h2>
+<a id="a78905bc1227774ae05fd61c076cc4520"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78905bc1227774ae05fd61c076cc4520">&sect;&nbsp;</a></span>get_mark() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -732,7 +935,7 @@ Protected Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classug_1_1_grid_object.html">GridObject</a> *&#160;</td>
           <td class="paramname"><em>o</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -745,7 +948,7 @@ Protected Attributes</h2></td></tr>
 <p>returns the mark of the specified geometric object </p>
 <p>The default implementation casts the object to a more concrete type (<a class="el" href="classug_1_1_vertex.html" title="Base-class for all vertex-types. ">Vertex</a>, <a class="el" href="classug_1_1_edge.html" title="Base-class for edges. ">Edge</a>, <a class="el" href="classug_1_1_face.html" title="Faces are 2-dimensional objects. ">Face</a>, <a class="el" href="classug_1_1_volume.html" title="Volumes are 3-dimensional objects. ">Volume</a>) and calls the appropriate get_mark method. </p>
 
-<p>References <a class="el" href="classug_1_1_grid_object.html#ac1886ed847ec434a68eaf60ed9381f05">ug::GridObject::base_object_id()</a>, <a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13cad44f88a0fdcb9e7708ce0980b8e200ba">ug::EDGE</a>, <a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13caf19e27843c818933471265612910299c">ug::FACE</a>, <a class="el" href="classug_1_1_i_refiner.html#a3e321359f42038775c5cd66c109dff14">get_mark()</a>, <a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a5c0f80b28d241dad1e52009c668fdf7d">ug::RM_NONE</a>, <a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13ca82c85a54f294f9a7576aedbffafbbe38">ug::VERTEX</a>, and <a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13ca144073d8bdeb81d71cf89e7bd6bbda58">ug::VOLUME</a>.</p>
+<p>References <a class="el" href="classug_1_1_grid_object.html#ac1886ed847ec434a68eaf60ed9381f05">ug::GridObject::base_object_id()</a>, <a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13cad44f88a0fdcb9e7708ce0980b8e200ba">ug::EDGE</a>, <a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13caf19e27843c818933471265612910299c">ug::FACE</a>, <a class="el" href="classug_1_1_i_refiner.html#afa35acc01f60036ea35980c66ee0304c">get_mark()</a>, <a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a5c0f80b28d241dad1e52009c668fdf7d">ug::RM_NONE</a>, <a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13ca82c85a54f294f9a7576aedbffafbbe38">ug::VERTEX</a>, and <a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13ca144073d8bdeb81d71cf89e7bd6bbda58">ug::VOLUME</a>.</p>
 
 </div>
 </div>
@@ -775,9 +978,38 @@ Protected Attributes</h2></td></tr>
 <p>Returns the grid associated with the refiner. </p>
 <p>Pure virtual. Specify this method in derived classes! </p>
 
-<p>Implemented in <a class="el" href="classug_1_1_global_fractured_media_refiner.html#aa025bbbcd7c7d0fca9756f6653f0b71c">ug::GlobalFracturedMediaRefiner</a>, <a class="el" href="classug_1_1_hanging_node_refiner___multi_grid.html#aba8a4f41b5c4080fad944f6a63653d18">ug::HangingNodeRefiner_MultiGrid</a>, <a class="el" href="classug_1_1_hanging_node_refiner___grid.html#aa04b01fecaf69b901cc7a8795d7f28d3">ug::HangingNodeRefiner_Grid</a>, <a class="el" href="classug_1_1_global_multi_grid_refiner.html#ae06239bd80907477f4cab700dbd1bb50">ug::GlobalMultiGridRefiner</a>, and <a class="el" href="classug_1_1_regular_refiner___multi_grid.html#a3bb69685c818a45daf4bfa05d1a097ec">ug::RegularRefiner_MultiGrid</a>.</p>
+<p>Implemented in <a class="el" href="classug_1_1_global_fractured_media_refiner.html#aa025bbbcd7c7d0fca9756f6653f0b71c">ug::GlobalFracturedMediaRefiner</a>, <a class="el" href="classug_1_1_hanging_node_refiner___multi_grid.html#aba8a4f41b5c4080fad944f6a63653d18">ug::HangingNodeRefiner_MultiGrid</a>, <a class="el" href="classug_1_1_hanging_node_refiner___grid.html#aa04b01fecaf69b901cc7a8795d7f28d3">ug::HangingNodeRefiner_Grid</a>, and <a class="el" href="classug_1_1_global_multi_grid_refiner.html#ae06239bd80907477f4cab700dbd1bb50">ug::GlobalMultiGridRefiner</a>.</p>
 
-<p>Referenced by <a class="el" href="namespaceug.html#a9963c6ae7173a569413fc9ac096e5ff7">ug::mark_if_periodic()</a>, <a class="el" href="classug_1_1_i_refiner.html#a5571c244d5798011be695636e7b89c2d">num_marked_elements()</a>, <a class="el" href="classug_1_1_i_refiner.html#a7186523b823d2ee3d91b61b86d393366">projector()</a>, <a class="el" href="classug_1_1_m_g_h_node_adjuster.html#ae40bf0003919c42644cf03ffbc3e252c">ug::MGHNodeAdjuster::ref_marks_changed()</a>, <a class="el" href="classug_1_1_std_h_node_adjuster.html#a49aca8a3f95ea9b497605d684efe9f8b">ug::StdHNodeAdjuster::ref_marks_changed()</a>, <a class="el" href="classug_1_1_parallel_h_node_adjuster.html#aa48647b3c24f59ca97d49bbe38e0bbde">ug::ParallelHNodeAdjuster::ref_marks_changed()</a>, <a class="el" href="classug_1_1_horizontal_anisotropy_adjuster.html#a24fa41f54166a915890009c668089386">ug::HorizontalAnisotropyAdjuster&lt; TAPos &gt;::ref_marks_changed()</a>, <a class="el" href="classug_1_1_i_refiner.html#acaa9d25a70aef058969b312840c4c5be">refine()</a>, and <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a6c44fd4abaa6589145a9ae80c8105c04">ug::HangingNodeRefinerBase&lt; Selector &gt;::refinement_is_allowed()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_i_refiner.html#a615aa48d59030c11599609b775e4c4cc">get_local_face_mark()</a>, <a class="el" href="namespaceug.html#a9963c6ae7173a569413fc9ac096e5ff7">ug::mark_if_periodic()</a>, <a class="el" href="group__refinement__bridge.html#ga53b3fed204cfe7cc8fc732878e6b2209">ug::MarkForRefinement_SubsetInterfaceElements()</a>, <a class="el" href="classug_1_1_i_refiner.html#a5571c244d5798011be695636e7b89c2d">num_marked_elements()</a>, <a class="el" href="classug_1_1_i_refiner.html#a7186523b823d2ee3d91b61b86d393366">projector()</a>, <a class="el" href="classug_1_1_std_h_node_adjuster.html#a49aca8a3f95ea9b497605d684efe9f8b">ug::StdHNodeAdjuster::ref_marks_changed()</a>, <a class="el" href="classug_1_1_local_mark_adjuster.html#a00b29488f6c2f534e828bd8be138c049">ug::LocalMarkAdjuster::ref_marks_changed()</a>, <a class="el" href="classug_1_1_m_g_h_node_adjuster.html#ae40bf0003919c42644cf03ffbc3e252c">ug::MGHNodeAdjuster::ref_marks_changed()</a>, <a class="el" href="classug_1_1_parallel_h_node_adjuster.html#aa48647b3c24f59ca97d49bbe38e0bbde">ug::ParallelHNodeAdjuster::ref_marks_changed()</a>, <a class="el" href="classug_1_1_horizontal_anisotropy_adjuster.html#a24fa41f54166a915890009c668089386">ug::HorizontalAnisotropyAdjuster&lt; TAPos &gt;::ref_marks_changed()</a>, <a class="el" href="classug_1_1_i_refiner.html#acaa9d25a70aef058969b312840c4c5be">refine()</a>, and <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a6c44fd4abaa6589145a9ae80c8105c04">ug::HangingNodeRefinerBase&lt; Selector &gt;::refinement_is_allowed()</a>.</p>
+
+</div>
+</div>
+<a id="a0a5e214348d8e6a8adc5aff1e8e877fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a5e214348d8e6a8adc5aff1e8e877fc">&sect;&nbsp;</a></span>local_marks_supported()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool ug::IRefiner::local_marks_supported </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns true, if the refiner supports local marks. </p>
+
+<p>Reimplemented in <a class="el" href="classug_1_1_hanging_node_refiner___grid.html#a4a1829662965f887329a854d9af6ddc5">ug::HangingNodeRefiner_Grid</a>.</p>
 
 </div>
 </div>
@@ -815,11 +1047,11 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Marks a element for refinement. Default implementation is empty. </p>
+<p>Marks an element for refinement. Default implementation is empty. </p>
 
-<p>Reimplemented in <a class="el" href="classug_1_1_hanging_node_refiner_base.html#aa6d824d2d21f360e0367d28fbefa3b63">ug::HangingNodeRefinerBase&lt; TSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#aa6d824d2d21f360e0367d28fbefa3b63">ug::HangingNodeRefinerBase&lt; MGSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#aa6d824d2d21f360e0367d28fbefa3b63">ug::HangingNodeRefinerBase&lt; Selector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner___grid.html#afeacef22ef41d688d4c11e5c79452fb4">ug::HangingNodeRefiner_Grid</a>, and <a class="el" href="classug_1_1_regular_refiner___multi_grid.html#af12da6e08188b01591c8ec77a8c555df">ug::RegularRefiner_MultiGrid</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_hanging_node_refiner_base.html#aa6d824d2d21f360e0367d28fbefa3b63">ug::HangingNodeRefinerBase&lt; TSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#aa6d824d2d21f360e0367d28fbefa3b63">ug::HangingNodeRefinerBase&lt; MGSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#aa6d824d2d21f360e0367d28fbefa3b63">ug::HangingNodeRefinerBase&lt; Selector &gt;</a>, and <a class="el" href="classug_1_1_hanging_node_refiner___grid.html#afeacef22ef41d688d4c11e5c79452fb4">ug::HangingNodeRefiner_Grid</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_com_pol___broadcast_refine_marks.html#aad548873a3a2838d924c48a083112a40">ug::ComPol_BroadcastRefineMarks&lt; TLayout &gt;::extract()</a>, <a class="el" href="classug_1_1_i_refiner.html#a23900c3478fed1436eb7a13d67fe5780">mark()</a>, <a class="el" href="classug_1_1_global_marking.html#adb62793ca9c1cfbd6d12743ee8220250">ug::GlobalMarking&lt; TDomain &gt;::mark()</a>, <a class="el" href="classug_1_1_maximum_marking.html#a4a9523c0b31bf1e4291c0cfc3298e855">ug::MaximumMarking&lt; TDomain &gt;::mark()</a>, <a class="el" href="classug_1_1_variance_marking.html#a34062f521e4e47f9969297193bbe5374">ug::VarianceMarking&lt; TDomain &gt;::mark()</a>, <a class="el" href="classug_1_1_variance_marking_eta.html#a36dbce9866976855e99fbf3c65136fe2">ug::VarianceMarkingEta&lt; TDomain &gt;::mark()</a>, <a class="el" href="classug_1_1_mean_value_marking.html#a1b9dd1edc3b18126cbe4153e1bb38ccd">ug::MeanValueMarking&lt; TDomain &gt;::mark()</a>, <a class="el" href="classug_1_1_equilibration_marking_strategy.html#a6f4fc0f97f7677d45b85fb096e8ec450">ug::EquilibrationMarkingStrategy&lt; TDomain &gt;::mark()</a>, <a class="el" href="classug_1_1_absolute_marking.html#a8a19b6830a7678e24da224e8f22e78d4">ug::AbsoluteMarking&lt; TDomain &gt;::mark()</a>, <a class="el" href="namespaceug.html#a9963c6ae7173a569413fc9ac096e5ff7">ug::mark_if_periodic()</a>, <a class="el" href="group__refinement__bridge.html#ga914e0ae696b7298934f79bda9336ace1">ug::MarkAnisotropic_LongEdges()</a>, <a class="el" href="namespaceug.html#a2eda8e37b64ea6e53ba39e5570c1093b">ug::MarkElements()</a>, <a class="el" href="namespaceug.html#a42eb3cd1483805f402483228e1fb69c8">ug::MarkElementsAbsolute()</a>, <a class="el" href="namespaceug.html#a6710349b7e89f38c4c9e2bb63e0d8535">ug::MarkElementsForCoarsening()</a>, <a class="el" href="namespaceug.html#aff30f2eff13d0da6da635aecfedeffe5">ug::MarkElementsForRefinement()</a>, <a class="el" href="group__refinement__bridge.html#ga529ef75374b032ec8fbbf00862b9997c">ug::MarkForAdaption_ElementsContainingPoint()</a>, <a class="el" href="group__refinement__bridge.html#ga3e5bf6bd7e4eb70710c7cc07accb9aab">ug::MarkForAdaption_ElementsTouchingSubset()</a>, <a class="el" href="group__refinement__bridge.html#ga37c9d51b22b5bb97416a5db83c193ed5">ug::MarkForRefinement_AnisotropicDirection()</a>, <a class="el" href="group__refinement__bridge.html#gaa27d7b3ed47cbde01248426c809747c2">ug::MarkForRefinement_ElementsInSubset()</a>, <a class="el" href="classug_1_1_m_g_h_node_adjuster.html#ae40bf0003919c42644cf03ffbc3e252c">ug::MGHNodeAdjuster::ref_marks_changed()</a>, <a class="el" href="classug_1_1_std_h_node_adjuster.html#a49aca8a3f95ea9b497605d684efe9f8b">ug::StdHNodeAdjuster::ref_marks_changed()</a>, and <a class="el" href="classug_1_1_horizontal_anisotropy_adjuster.html#a24fa41f54166a915890009c668089386">ug::HorizontalAnisotropyAdjuster&lt; TAPos &gt;::ref_marks_changed()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_com_pol___broadcast_refine_marks.html#aad548873a3a2838d924c48a083112a40">ug::ComPol_BroadcastRefineMarks&lt; TLayout &gt;::extract()</a>, <a class="el" href="classug_1_1_i_refiner.html#a23900c3478fed1436eb7a13d67fe5780">mark()</a>, <a class="el" href="classug_1_1_global_marking.html#adb62793ca9c1cfbd6d12743ee8220250">ug::GlobalMarking&lt; TDomain &gt;::mark()</a>, <a class="el" href="classug_1_1_maximum_marking.html#a4a9523c0b31bf1e4291c0cfc3298e855">ug::MaximumMarking&lt; TDomain &gt;::mark()</a>, <a class="el" href="classug_1_1_variance_marking.html#a34062f521e4e47f9969297193bbe5374">ug::VarianceMarking&lt; TDomain &gt;::mark()</a>, <a class="el" href="classug_1_1_variance_marking_eta.html#a36dbce9866976855e99fbf3c65136fe2">ug::VarianceMarkingEta&lt; TDomain &gt;::mark()</a>, <a class="el" href="classug_1_1_mean_value_marking.html#a1b9dd1edc3b18126cbe4153e1bb38ccd">ug::MeanValueMarking&lt; TDomain &gt;::mark()</a>, <a class="el" href="classug_1_1_equilibration_marking_strategy.html#a6f4fc0f97f7677d45b85fb096e8ec450">ug::EquilibrationMarkingStrategy&lt; TDomain &gt;::mark()</a>, <a class="el" href="classug_1_1_absolute_marking.html#a8a19b6830a7678e24da224e8f22e78d4">ug::AbsoluteMarking&lt; TDomain &gt;::mark()</a>, <a class="el" href="namespaceug.html#a9963c6ae7173a569413fc9ac096e5ff7">ug::mark_if_periodic()</a>, <a class="el" href="group__refinement__bridge.html#ga914e0ae696b7298934f79bda9336ace1">ug::MarkAnisotropic_LongEdges()</a>, <a class="el" href="namespaceug.html#a2eda8e37b64ea6e53ba39e5570c1093b">ug::MarkElements()</a>, <a class="el" href="namespaceug.html#a42eb3cd1483805f402483228e1fb69c8">ug::MarkElementsAbsolute()</a>, <a class="el" href="namespaceug.html#a6710349b7e89f38c4c9e2bb63e0d8535">ug::MarkElementsForCoarsening()</a>, <a class="el" href="namespaceug.html#aff30f2eff13d0da6da635aecfedeffe5">ug::MarkElementsForRefinement()</a>, <a class="el" href="group__refinement__bridge.html#ga529ef75374b032ec8fbbf00862b9997c">ug::MarkForAdaption_ElementsContainingPoint()</a>, <a class="el" href="group__refinement__bridge.html#ga3e5bf6bd7e4eb70710c7cc07accb9aab">ug::MarkForAdaption_ElementsTouchingSubset()</a>, <a class="el" href="group__refinement__bridge.html#ga37c9d51b22b5bb97416a5db83c193ed5">ug::MarkForRefinement_AnisotropicDirection()</a>, <a class="el" href="group__refinement__bridge.html#gaa27d7b3ed47cbde01248426c809747c2">ug::MarkForRefinement_ElementsInSubset()</a>, <a class="el" href="group__refinement__bridge.html#ga53b3fed204cfe7cc8fc732878e6b2209">ug::MarkForRefinement_SubsetInterfaceElements()</a>, <a class="el" href="classug_1_1_m_g_h_node_adjuster.html#ae40bf0003919c42644cf03ffbc3e252c">ug::MGHNodeAdjuster::ref_marks_changed()</a>, <a class="el" href="classug_1_1_std_h_node_adjuster.html#a49aca8a3f95ea9b497605d684efe9f8b">ug::StdHNodeAdjuster::ref_marks_changed()</a>, <a class="el" href="classug_1_1_local_mark_adjuster.html#a00b29488f6c2f534e828bd8be138c049">ug::LocalMarkAdjuster::ref_marks_changed()</a>, and <a class="el" href="classug_1_1_horizontal_anisotropy_adjuster.html#a24fa41f54166a915890009c668089386">ug::HorizontalAnisotropyAdjuster&lt; TAPos &gt;::ref_marks_changed()</a>.</p>
 
 </div>
 </div>
@@ -857,9 +1089,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Marks a element for refinement. Default implementation is empty. </p>
+<p>Marks an element for refinement. Default implementation is empty. </p>
 
-<p>Reimplemented in <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a5f9fa2b93a8090841dcf9b561c118020">ug::HangingNodeRefinerBase&lt; TSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a5f9fa2b93a8090841dcf9b561c118020">ug::HangingNodeRefinerBase&lt; MGSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a5f9fa2b93a8090841dcf9b561c118020">ug::HangingNodeRefinerBase&lt; Selector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner___grid.html#ae4fb6f9b566957493c60436afe296e54">ug::HangingNodeRefiner_Grid</a>, and <a class="el" href="classug_1_1_regular_refiner___multi_grid.html#a239ac1840dd91f6b17994b19c58ed072">ug::RegularRefiner_MultiGrid</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a5f9fa2b93a8090841dcf9b561c118020">ug::HangingNodeRefinerBase&lt; TSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a5f9fa2b93a8090841dcf9b561c118020">ug::HangingNodeRefinerBase&lt; MGSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a5f9fa2b93a8090841dcf9b561c118020">ug::HangingNodeRefinerBase&lt; Selector &gt;</a>, and <a class="el" href="classug_1_1_hanging_node_refiner___grid.html#ae4fb6f9b566957493c60436afe296e54">ug::HangingNodeRefiner_Grid</a>.</p>
 
 </div>
 </div>
@@ -897,9 +1129,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Marks a element for refinement. Default implementation is empty. </p>
+<p>Marks an element for refinement. Default implementation is empty. </p>
 
-<p>Reimplemented in <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a64fc7b0b8b7f3abc1781e9909d433202">ug::HangingNodeRefinerBase&lt; TSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a64fc7b0b8b7f3abc1781e9909d433202">ug::HangingNodeRefinerBase&lt; MGSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a64fc7b0b8b7f3abc1781e9909d433202">ug::HangingNodeRefinerBase&lt; Selector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner___grid.html#a9a056270910b9084911feeebd3071591">ug::HangingNodeRefiner_Grid</a>, and <a class="el" href="classug_1_1_regular_refiner___multi_grid.html#a6a05aa8ff94f1adc33b5e167c81faaa0">ug::RegularRefiner_MultiGrid</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a64fc7b0b8b7f3abc1781e9909d433202">ug::HangingNodeRefinerBase&lt; TSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a64fc7b0b8b7f3abc1781e9909d433202">ug::HangingNodeRefinerBase&lt; MGSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a64fc7b0b8b7f3abc1781e9909d433202">ug::HangingNodeRefinerBase&lt; Selector &gt;</a>, and <a class="el" href="classug_1_1_hanging_node_refiner___grid.html#a9a056270910b9084911feeebd3071591">ug::HangingNodeRefiner_Grid</a>.</p>
 
 </div>
 </div>
@@ -937,9 +1169,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Marks a element for refinement. Default implementation is empty. </p>
+<p>Marks an element for refinement. Default implementation is empty. </p>
 
-<p>Reimplemented in <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a463036bcdeb2e4128d5f082736893c5c">ug::HangingNodeRefinerBase&lt; TSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a463036bcdeb2e4128d5f082736893c5c">ug::HangingNodeRefinerBase&lt; MGSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a463036bcdeb2e4128d5f082736893c5c">ug::HangingNodeRefinerBase&lt; Selector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner___grid.html#a4ac2c83e8df48cf5e87863fad5e73bc1">ug::HangingNodeRefiner_Grid</a>, and <a class="el" href="classug_1_1_regular_refiner___multi_grid.html#a55b5fa997688de4a18d8a52a2618d834">ug::RegularRefiner_MultiGrid</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a463036bcdeb2e4128d5f082736893c5c">ug::HangingNodeRefinerBase&lt; TSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a463036bcdeb2e4128d5f082736893c5c">ug::HangingNodeRefinerBase&lt; MGSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a463036bcdeb2e4128d5f082736893c5c">ug::HangingNodeRefinerBase&lt; Selector &gt;</a>, and <a class="el" href="classug_1_1_hanging_node_refiner___grid.html#a4ac2c83e8df48cf5e87863fad5e73bc1">ug::HangingNodeRefiner_Grid</a>.</p>
 
 <p>References <a class="el" href="classug_1_1_i_refiner.html#a0e36b035b5a6c6ded54d41c4504f3ba4">mark()</a>, and <a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a84ff78cd530af7d6e3d7662f46c9a618">ug::RM_REFINE</a>.</p>
 
@@ -1035,6 +1267,94 @@ template&lt;class TIterator &gt; </div>
 
 </div>
 </div>
+<a id="a776ac7ab08aa56d593cebb996e49650a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a776ac7ab08aa56d593cebb996e49650a">&sect;&nbsp;</a></span>mark_local() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ug::IRefiner::mark_local </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_face.html">Face</a> *&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mark</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Marks a face or volume for local refinement. </p>
+<p>The passed mark is an or combination. If the i-th edge of the element shall be refined, it should hold true: 'mark &amp; 1&lt;&lt;i != 0'. The passed element will also receive the RM_LOCAL flag. </p><dl class="section note"><dt>Note</dt><dd>local-marks differ from mark(e, RM_CLOSURE). The former will refine an element according to the marks of associated edges. Elements marked with mark_local, however, will only be refined according to their local mark. </dd></dl>
+
+<p>Reimplemented in <a class="el" href="classug_1_1_hanging_node_refiner___grid.html#a089929cdd15d1a3bfe1b3ed8a22938b8">ug::HangingNodeRefiner_Grid</a>.</p>
+
+<p>References <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
+
+<p>Referenced by <a class="el" href="classug_1_1_local_mark_adjuster.html#a00b29488f6c2f534e828bd8be138c049">ug::LocalMarkAdjuster::ref_marks_changed()</a>.</p>
+
+</div>
+</div>
+<a id="aa4d50e7dcb1f723d39588fd8752d2d73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4d50e7dcb1f723d39588fd8752d2d73">&sect;&nbsp;</a></span>mark_local() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ug::IRefiner::mark_local </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_volume.html">Volume</a> *&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mark</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Marks a face or volume for local refinement. </p>
+<p>The passed mark is an or combination. If the i-th edge of the element shall be refined, it should hold true: 'mark &amp; 1&lt;&lt;i != 0'. The passed element will also receive the RM_LOCAL flag. </p><dl class="section note"><dt>Note</dt><dd>local-marks differ from mark(e, RM_CLOSURE). The former will refine an element according to the marks of associated edges. Elements marked with mark_local, however, will only be refined according to their local mark. </dd></dl>
+
+<p>Reimplemented in <a class="el" href="classug_1_1_hanging_node_refiner___grid.html#a07345a728b242a7c491a37094c865e6b">ug::HangingNodeRefiner_Grid</a>.</p>
+
+<p>References <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
+
+</div>
+</div>
 <a id="ab492299aa9173922de601bc8aeaadecb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab492299aa9173922de601bc8aeaadecb">&sect;&nbsp;</a></span>mark_neighborhood() <span class="overload">[1/2]</span></h2>
 
@@ -1113,7 +1433,103 @@ template&lt;class TIterator &gt; </div>
 <li>elements which already were marked will be ignored. By passing RM_NONE as refMark, the refinement-mark will be derived from neighbored elements. If sideNbrsOnly is set to true, only elements which are connected to sides of marked elements are also marked. Otherwise all elements which are connected to vertices of marked elements are marked. </li>
 </ul>
 
-<p>Reimplemented in <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a6e9b3f76771d0b1945ffd69001e95f85">ug::HangingNodeRefinerBase&lt; TSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a6e9b3f76771d0b1945ffd69001e95f85">ug::HangingNodeRefinerBase&lt; MGSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a6e9b3f76771d0b1945ffd69001e95f85">ug::HangingNodeRefinerBase&lt; Selector &gt;</a>, and <a class="el" href="classug_1_1_regular_refiner___multi_grid.html#a3a80111ee2442cec6363ed647e289b68">ug::RegularRefiner_MultiGrid</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a6e9b3f76771d0b1945ffd69001e95f85">ug::HangingNodeRefinerBase&lt; TSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a6e9b3f76771d0b1945ffd69001e95f85">ug::HangingNodeRefinerBase&lt; MGSelector &gt;</a>, and <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a6e9b3f76771d0b1945ffd69001e95f85">ug::HangingNodeRefinerBase&lt; Selector &gt;</a>.</p>
+
+</div>
+</div>
+<a id="a823ceadffe2a5ec42767932407c9ca80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a823ceadffe2a5ec42767932407c9ca80">&sect;&nbsp;</a></span>marked_closure()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TElem &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ug::IRefiner::marked_closure </td>
+          <td>(</td>
+          <td class="paramtype">TElem *&#160;</td>
+          <td class="paramname"><em>elem</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classug_1_1_i_refiner.html#afa35acc01f60036ea35980c66ee0304c">get_mark()</a>, and <a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a9576036df7bb01faba85bd7f7f90fd05">ug::RM_CLOSURE</a>.</p>
+
+<p>Referenced by <a class="el" href="classug_1_1_i_refiner.html#afca9c7b29b5d5e50d8b84ec8791d4f7e">get_local_edge_mark()</a>, and <a class="el" href="classug_1_1_i_refiner.html#a615aa48d59030c11599609b775e4c4cc">get_local_face_mark()</a>.</p>
+
+</div>
+</div>
+<a id="aafdd2205e15f54d4ec76aed98a478b86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafdd2205e15f54d4ec76aed98a478b86">&sect;&nbsp;</a></span>marked_full()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TElem &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ug::IRefiner::marked_full </td>
+          <td>(</td>
+          <td class="paramtype">TElem *&#160;</td>
+          <td class="paramname"><em>elem</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classug_1_1_i_refiner.html#afa35acc01f60036ea35980c66ee0304c">get_mark()</a>, and <a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209ae770e8d311024d9bdf52189e4c80ed9a">ug::RM_FULL</a>.</p>
+
+<p>Referenced by <a class="el" href="classug_1_1_i_refiner.html#afca9c7b29b5d5e50d8b84ec8791d4f7e">get_local_edge_mark()</a>, <a class="el" href="classug_1_1_i_refiner.html#a615aa48d59030c11599609b775e4c4cc">get_local_face_mark()</a>, and <a class="el" href="classug_1_1_local_mark_adjuster.html#a00b29488f6c2f534e828bd8be138c049">ug::LocalMarkAdjuster::ref_marks_changed()</a>.</p>
+
+</div>
+</div>
+<a id="a70f2a59320e7e14cf6a60a9ef8a6577b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70f2a59320e7e14cf6a60a9ef8a6577b">&sect;&nbsp;</a></span>marked_local()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TElem &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ug::IRefiner::marked_local </td>
+          <td>(</td>
+          <td class="paramtype">TElem *&#160;</td>
+          <td class="paramname"><em>elem</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classug_1_1_i_refiner.html#afa35acc01f60036ea35980c66ee0304c">get_mark()</a>, and <a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209abfbe361e331349a95320a92c2e084324">ug::RM_LOCAL</a>.</p>
+
+<p>Referenced by <a class="el" href="classug_1_1_i_refiner.html#afca9c7b29b5d5e50d8b84ec8791d4f7e">get_local_edge_mark()</a>, <a class="el" href="classug_1_1_i_refiner.html#a615aa48d59030c11599609b775e4c4cc">get_local_face_mark()</a>, <a class="el" href="classug_1_1_hanging_node_refiner___grid.html#a089929cdd15d1a3bfe1b3ed8a22938b8">ug::HangingNodeRefiner_Grid::mark_local()</a>, and <a class="el" href="classug_1_1_local_mark_adjuster.html#a00b29488f6c2f534e828bd8be138c049">ug::LocalMarkAdjuster::ref_marks_changed()</a>.</p>
 
 </div>
 </div>
@@ -1198,7 +1614,7 @@ template&lt;class TIterator &gt; </div>
 
 <p>returns the number of locally marked edges on all levels of the hierarchy </p>
 
-<p>Implemented in <a class="el" href="classug_1_1_global_fractured_media_refiner.html#a146dc3b1f7b45a9488fb14db26cb2405">ug::GlobalFracturedMediaRefiner</a>, <a class="el" href="classug_1_1_hanging_node_refiner___multi_grid.html#ada6a7aac0332fe99612ba91e0c207b9a">ug::HangingNodeRefiner_MultiGrid</a>, <a class="el" href="classug_1_1_hanging_node_refiner___grid.html#a993a3e1a66172dee57e63440d62b4c7b">ug::HangingNodeRefiner_Grid</a>, <a class="el" href="classug_1_1_regular_refiner___multi_grid.html#ada3a51b264842e25f3ca73fbfb23a430">ug::RegularRefiner_MultiGrid</a>, and <a class="el" href="classug_1_1_global_multi_grid_refiner.html#a824bcd75046e1b552d2507a9bbd7baf6">ug::GlobalMultiGridRefiner</a>.</p>
+<p>Implemented in <a class="el" href="classug_1_1_global_fractured_media_refiner.html#a146dc3b1f7b45a9488fb14db26cb2405">ug::GlobalFracturedMediaRefiner</a>, <a class="el" href="classug_1_1_hanging_node_refiner___multi_grid.html#ada6a7aac0332fe99612ba91e0c207b9a">ug::HangingNodeRefiner_MultiGrid</a>, <a class="el" href="classug_1_1_hanging_node_refiner___grid.html#a993a3e1a66172dee57e63440d62b4c7b">ug::HangingNodeRefiner_Grid</a>, and <a class="el" href="classug_1_1_global_multi_grid_refiner.html#a824bcd75046e1b552d2507a9bbd7baf6">ug::GlobalMultiGridRefiner</a>.</p>
 
 <p>Referenced by <a class="el" href="classug_1_1_i_refiner.html#a3668bf0ad22ddb0b22ad2c98d31e6290">num_marked_edges()</a>, and <a class="el" href="classug_1_1_i_refiner.html#a029a9fb6c9be782b91e65ac590156797">perform_coarsening()</a>.</p>
 
@@ -1338,7 +1754,7 @@ template&lt;class TIterator &gt; </div>
 
 <p>returns the number of locally marked faces on all levels of the hierarchy </p>
 
-<p>Implemented in <a class="el" href="classug_1_1_global_fractured_media_refiner.html#ac24b085dddd037b2b88a927e43906091">ug::GlobalFracturedMediaRefiner</a>, <a class="el" href="classug_1_1_hanging_node_refiner___multi_grid.html#aed3cfa115ad23cd721b6a23b19f2def6">ug::HangingNodeRefiner_MultiGrid</a>, <a class="el" href="classug_1_1_hanging_node_refiner___grid.html#aaec799f9eadf087ff04e9f50a8788e81">ug::HangingNodeRefiner_Grid</a>, <a class="el" href="classug_1_1_regular_refiner___multi_grid.html#a36def4e3d5815ad95516c230ce2047d7">ug::RegularRefiner_MultiGrid</a>, and <a class="el" href="classug_1_1_global_multi_grid_refiner.html#a529a11868162ae85179748cac33c8fd0">ug::GlobalMultiGridRefiner</a>.</p>
+<p>Implemented in <a class="el" href="classug_1_1_global_fractured_media_refiner.html#ac24b085dddd037b2b88a927e43906091">ug::GlobalFracturedMediaRefiner</a>, <a class="el" href="classug_1_1_hanging_node_refiner___multi_grid.html#aed3cfa115ad23cd721b6a23b19f2def6">ug::HangingNodeRefiner_MultiGrid</a>, <a class="el" href="classug_1_1_hanging_node_refiner___grid.html#aaec799f9eadf087ff04e9f50a8788e81">ug::HangingNodeRefiner_Grid</a>, and <a class="el" href="classug_1_1_global_multi_grid_refiner.html#a529a11868162ae85179748cac33c8fd0">ug::GlobalMultiGridRefiner</a>.</p>
 
 <p>Referenced by <a class="el" href="classug_1_1_i_refiner.html#a46610afaa509bc72ec432ab6c4afb73c">num_marked_faces()</a>, and <a class="el" href="classug_1_1_i_refiner.html#a029a9fb6c9be782b91e65ac590156797">perform_coarsening()</a>.</p>
 
@@ -1425,7 +1841,7 @@ template&lt;class TIterator &gt; </div>
 
 <p>returns the number of locally marked volumes on all levels of the hierarchy </p>
 
-<p>Implemented in <a class="el" href="classug_1_1_global_fractured_media_refiner.html#a1c40719e82d99cfb482b217886ad61d3">ug::GlobalFracturedMediaRefiner</a>, <a class="el" href="classug_1_1_hanging_node_refiner___multi_grid.html#a1e251717de5da11e3e8756a5310af936">ug::HangingNodeRefiner_MultiGrid</a>, <a class="el" href="classug_1_1_hanging_node_refiner___grid.html#a5c8d3ab1fad6507a3889486d72ab0700">ug::HangingNodeRefiner_Grid</a>, <a class="el" href="classug_1_1_regular_refiner___multi_grid.html#a322fcf3fc5877d8032a42be428400a9d">ug::RegularRefiner_MultiGrid</a>, and <a class="el" href="classug_1_1_global_multi_grid_refiner.html#a9d105e3d64adbaab23b556494afe9a35">ug::GlobalMultiGridRefiner</a>.</p>
+<p>Implemented in <a class="el" href="classug_1_1_global_fractured_media_refiner.html#a1c40719e82d99cfb482b217886ad61d3">ug::GlobalFracturedMediaRefiner</a>, <a class="el" href="classug_1_1_hanging_node_refiner___multi_grid.html#a1e251717de5da11e3e8756a5310af936">ug::HangingNodeRefiner_MultiGrid</a>, <a class="el" href="classug_1_1_hanging_node_refiner___grid.html#a5c8d3ab1fad6507a3889486d72ab0700">ug::HangingNodeRefiner_Grid</a>, and <a class="el" href="classug_1_1_global_multi_grid_refiner.html#a9d105e3d64adbaab23b556494afe9a35">ug::GlobalMultiGridRefiner</a>.</p>
 
 <p>Referenced by <a class="el" href="classug_1_1_i_refiner.html#a6d4ae30e890ab15c69be1e0789aad107">num_marked_volumes()</a>, and <a class="el" href="classug_1_1_i_refiner.html#a029a9fb6c9be782b91e65ac590156797">perform_coarsening()</a>.</p>
 
@@ -1457,7 +1873,7 @@ template&lt;class TIterator &gt; </div>
 <p>Called by <a class="el" href="classug_1_1_i_refiner.html#a0789fb98ead351f663502563657599a8" title="Performs coarsening on the elements marked RM_COARSEN. ">coarsen()</a>. Derived classes sould implement their coarsen algorithm here. </p>
 <p>Since the default implementation does not perform coarsening, it returns false. </p>
 
-<p>Reimplemented in <a class="el" href="classug_1_1_hanging_node_refiner___multi_grid.html#a483e995012167857b6eabaab05dc4213">ug::HangingNodeRefiner_MultiGrid</a>, <a class="el" href="classug_1_1_adaptive_regular_refiner___multi_grid.html#a4ed5e16ff72f665dc9cc6aa819cef434">ug::AdaptiveRegularRefiner_MultiGrid</a>, and <a class="el" href="classug_1_1_regular_refiner___multi_grid.html#a048d6ec17f9af5fab4c34a52036af413">ug::RegularRefiner_MultiGrid</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_hanging_node_refiner___multi_grid.html#a483e995012167857b6eabaab05dc4213">ug::HangingNodeRefiner_MultiGrid</a>, and <a class="el" href="classug_1_1_adaptive_regular_refiner___multi_grid.html#a4ed5e16ff72f665dc9cc6aa819cef434">ug::AdaptiveRegularRefiner_MultiGrid</a>.</p>
 
 <p>References <a class="el" href="classug_1_1_i_refiner.html#a0d05a78e2538ab1e1d98b722355c8764">num_marked_edges_local()</a>, <a class="el" href="classug_1_1_i_refiner.html#af210f81f4266eaccae7aedb981c67788">num_marked_faces_local()</a>, and <a class="el" href="classug_1_1_i_refiner.html#a3b516d74f8fd40900df8f5f58a99468f">num_marked_volumes_local()</a>.</p>
 
@@ -1490,7 +1906,7 @@ template&lt;class TIterator &gt; </div>
 
 <p>called by <a class="el" href="classug_1_1_i_refiner.html#acaa9d25a70aef058969b312840c4c5be" title="Performs refinement on the marked elements. ">refine()</a>. Derived classes should implement their refinement algorithm here. </p>
 
-<p>Implemented in <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a6c945166b0de54188d5b8704a034ac72">ug::HangingNodeRefinerBase&lt; TSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a6c945166b0de54188d5b8704a034ac72">ug::HangingNodeRefinerBase&lt; MGSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a6c945166b0de54188d5b8704a034ac72">ug::HangingNodeRefinerBase&lt; Selector &gt;</a>, <a class="el" href="classug_1_1_global_fractured_media_refiner.html#a16d1c283edf87e0dead3324c56e761db">ug::GlobalFracturedMediaRefiner</a>, <a class="el" href="classug_1_1_adaptive_regular_refiner___multi_grid.html#a5170bb13cd2b97dc3ace2d8bde692132">ug::AdaptiveRegularRefiner_MultiGrid</a>, <a class="el" href="classug_1_1_global_multi_grid_refiner.html#a4f3761358facb0a6a25252dd54b926a7">ug::GlobalMultiGridRefiner</a>, and <a class="el" href="classug_1_1_regular_refiner___multi_grid.html#a34fe3ec726eefabdcf2948625432406c">ug::RegularRefiner_MultiGrid</a>.</p>
+<p>Implemented in <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a6c945166b0de54188d5b8704a034ac72">ug::HangingNodeRefinerBase&lt; TSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a6c945166b0de54188d5b8704a034ac72">ug::HangingNodeRefinerBase&lt; MGSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a6c945166b0de54188d5b8704a034ac72">ug::HangingNodeRefinerBase&lt; Selector &gt;</a>, <a class="el" href="classug_1_1_global_fractured_media_refiner.html#a16d1c283edf87e0dead3324c56e761db">ug::GlobalFracturedMediaRefiner</a>, <a class="el" href="classug_1_1_adaptive_regular_refiner___multi_grid.html#a5170bb13cd2b97dc3ace2d8bde692132">ug::AdaptiveRegularRefiner_MultiGrid</a>, and <a class="el" href="classug_1_1_global_multi_grid_refiner.html#a4f3761358facb0a6a25252dd54b926a7">ug::GlobalMultiGridRefiner</a>.</p>
 
 <p>Referenced by <a class="el" href="classug_1_1_i_refiner.html#ac327960cad82817da60c3ad41363ffbb">debugging_enabled()</a>, and <a class="el" href="classug_1_1_i_refiner.html#acaa9d25a70aef058969b312840c4c5be">refine()</a>.</p>
 
@@ -1576,7 +1992,7 @@ template&lt;class TIterator &gt; </div>
 <p>Writes the associated grid and marks to a file. Pure virtual. </p>
 <p>Elements should be assigned to subsets depending on their current refinement-mark. </p>
 
-<p>Implemented in <a class="el" href="classug_1_1_hanging_node_refiner_base.html#aeda94db8f84d745a299241b0b3e77811">ug::HangingNodeRefinerBase&lt; TSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#aeda94db8f84d745a299241b0b3e77811">ug::HangingNodeRefinerBase&lt; MGSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#aeda94db8f84d745a299241b0b3e77811">ug::HangingNodeRefinerBase&lt; Selector &gt;</a>, <a class="el" href="classug_1_1_global_fractured_media_refiner.html#a7c53ae8052af058240909159c134c95d">ug::GlobalFracturedMediaRefiner</a>, <a class="el" href="classug_1_1_regular_refiner___multi_grid.html#a6b92acd6e61899dfed6d37e275cffd0e">ug::RegularRefiner_MultiGrid</a>, and <a class="el" href="classug_1_1_global_multi_grid_refiner.html#a1666338823759a02a38f7b926947ddcd">ug::GlobalMultiGridRefiner</a>.</p>
+<p>Implemented in <a class="el" href="classug_1_1_hanging_node_refiner_base.html#aeda94db8f84d745a299241b0b3e77811">ug::HangingNodeRefinerBase&lt; TSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#aeda94db8f84d745a299241b0b3e77811">ug::HangingNodeRefinerBase&lt; MGSelector &gt;</a>, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#aeda94db8f84d745a299241b0b3e77811">ug::HangingNodeRefinerBase&lt; Selector &gt;</a>, <a class="el" href="classug_1_1_global_fractured_media_refiner.html#a7c53ae8052af058240909159c134c95d">ug::GlobalFracturedMediaRefiner</a>, and <a class="el" href="classug_1_1_global_multi_grid_refiner.html#a1666338823759a02a38f7b926947ddcd">ug::GlobalMultiGridRefiner</a>.</p>
 
 <p>Referenced by <a class="el" href="classug_1_1_i_refiner.html#a0cc40c393c7744238b67dfbce302e532">num_marked_elements()</a>.</p>
 
@@ -1601,7 +2017,7 @@ template&lt;class TIterator &gt; </div>
 <p>sets a filename to which adjusted marks are saved during refinement / coarsening </p>
 <p>If no filename is set, then no marks are being saved during refinement / coarsening. If you want to unset the file, either pass a NULL pointer or an empty string. </p>
 
-<p>References <a class="el" href="classug_1_1_i_refiner.html#ae13c01c5b528d853b4eb7a95b991fbf5">m_adjustedMarksDebugFilename</a>.</p>
+<p>References <a class="el" href="classug_1_1_i_refiner.html#afca9c7b29b5d5e50d8b84ec8791d4f7e">get_local_edge_mark()</a>, and <a class="el" href="classug_1_1_i_refiner.html#ae13c01c5b528d853b4eb7a95b991fbf5">m_adjustedMarksDebugFilename</a>.</p>
 
 <p>Referenced by <a class="el" href="classug_1_1_i_refiner.html#a0cc40c393c7744238b67dfbce302e532">num_marked_elements()</a>.</p>
 
@@ -1821,7 +2237,7 @@ template&lt;class TIterator &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_i_refiner.html">IRefiner</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:18:12 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:31 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -35,6 +35,7 @@ var classug_1_1_grid_reader_u_g_x =
     [ "parse_file", "classug_1_1_grid_reader_u_g_x.html#a315e313261483afca9b5c510eb564539", null ],
     [ "projection_handler", "classug_1_1_grid_reader_u_g_x.html#a39f6e00ebfb5ad31d102d0c9a4d5bc04", null ],
     [ "read_attachment", "classug_1_1_grid_reader_u_g_x.html#a873c5c3378480c5143664cd87d94884f", null ],
+    [ "read_projector", "classug_1_1_grid_reader_u_g_x.html#aadf7713c10c6b3c5d4cd38df434b6677", null ],
     [ "read_selector_elements", "classug_1_1_grid_reader_u_g_x.html#a0499c85a6be0ff861a0a48770fdf0d15", null ],
     [ "read_subset_handler_elements", "classug_1_1_grid_reader_u_g_x.html#abefdaeb1a235e1a8d971eaf35cbb0547", null ],
     [ "selector", "classug_1_1_grid_reader_u_g_x.html#afdaf027c8edeaa604fa789a1e524189e", null ],

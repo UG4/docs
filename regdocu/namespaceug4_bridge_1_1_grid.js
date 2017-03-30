@@ -19,6 +19,7 @@ var namespaceug4_bridge_1_1_grid =
     [ "IGeometry", "classug4_bridge_1_1_grid_1_1_i_geometry.html", "classug4_bridge_1_1_grid_1_1_i_geometry" ],
     [ "InterSubsetPartitionWeighting", "classug4_bridge_1_1_grid_1_1_inter_subset_partition_weighting.html", "classug4_bridge_1_1_grid_1_1_inter_subset_partition_weighting" ],
     [ "IRefiner", "classug4_bridge_1_1_grid_1_1_i_refiner.html", "classug4_bridge_1_1_grid_1_1_i_refiner" ],
+    [ "IRefMarkAdjuster", "classug4_bridge_1_1_grid_1_1_i_ref_mark_adjuster.html", "classug4_bridge_1_1_grid_1_1_i_ref_mark_adjuster" ],
     [ "ISelector", "classug4_bridge_1_1_grid_1_1_i_selector.html", "classug4_bridge_1_1_grid_1_1_i_selector" ],
     [ "ISubsetHandler", "classug4_bridge_1_1_grid_1_1_i_subset_handler.html", "classug4_bridge_1_1_grid_1_1_i_subset_handler" ],
     [ "MGSubsetHandler", "classug4_bridge_1_1_grid_1_1_m_g_subset_handler.html", "classug4_bridge_1_1_grid_1_1_m_g_subset_handler" ],

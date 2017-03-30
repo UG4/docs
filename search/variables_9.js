@@ -45,5 +45,7 @@ var searchData=
   ['isrimvertex',['isRimVertex',['../structug_1_1_sweep_line_vertex.html#a41caf437b93a62f8a999184f5be91c53',1,'ug::SweepLineVertex']]],
   ['iter',['iter',['../class_scalar_matrix_adapter_1_1row__iterator.html#a37ccaeb6ef2657bb26b1e07c494a309a',1,'ScalarMatrixAdapter::row_iterator::iter()'],['../class_scalar_matrix_adapter_1_1const__row__iterator.html#a569afc459dce1ae661731129252d703f',1,'ScalarMatrixAdapter::const_row_iterator::iter()'],['../class_scalar_sub_matrix_adapter_1_1row__iterator.html#ae830edb2e124c3df825ad3a109831dfc',1,'ScalarSubMatrixAdapter::row_iterator::iter()'],['../class_scalar_sub_matrix_adapter_1_1const__row__iterator.html#acd007a0674696fe6514d4722bcc95b4e',1,'ScalarSubMatrixAdapter::const_row_iterator::iter()']]],
   ['itotalnrofconnections',['iTotalNrOfConnections',['../classug_1_1cgraph.html#ae1ffd1c229dc5950b4ccc29c6a5b2f4c',1,'ug::cgraph']]],
-  ['ivalue',['iValue',['../union_y_y_s_t_y_p_e.html#a2079331e6534b787a5307252f40b3e26',1,'YYSTYPE']]]
+  ['ivalue',['iValue',['../union_y_y_s_t_y_p_e.html#a2079331e6534b787a5307252f40b3e26',1,'YYSTYPE']]],
+  ['ix',['ix',['../structug_1_1_cell_idx.html#a2d074318dc1d6891f11ac420d4bb6914',1,'ug::CellIdx']]],
+  ['iy',['iy',['../structug_1_1_cell_idx.html#a889d40c800cd9fd5db7b17bea4f71856',1,'ug::CellIdx']]]
 ];

@@ -123,12 +123,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8198b79e0209c5a4b1b701df1dfe9b00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6395e700d8a28bf5e777ab37fd7555f4"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_std_lagrange_elem_transfer.html#a6395e700d8a28bf5e777ab37fd7555f4">perform_restriction_on</a> (<a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13c">GridBaseObjectId</a> gbo)</td></tr>
 <tr class="separator:a6395e700d8a28bf5e777ab37fd7555f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2688f93787cf01e83c2565feba61363e"><td class="memTemplParams" colspan="2">template&lt;typename TElem &gt; </td></tr>
-<tr class="memitem:a2688f93787cf01e83c2565feba61363e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_std_lagrange_elem_transfer.html#a2688f93787cf01e83c2565feba61363e">prolongate</a> (TElem *parent, <a class="el" href="classug_1_1_transfer_value_accessor.html">TransferValueAccessor</a> &amp;vValueChild, <a class="el" href="classug_1_1_transfer_value_accessor.html">TransferValueAccessor</a> &amp;vValueParent)</td></tr>
-<tr class="separator:a2688f93787cf01e83c2565feba61363e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a632494bdb864252cf541b6c4ea5a95b2"><td class="memTemplParams" colspan="2">template&lt;typename TParent , typename TChild &gt; </td></tr>
 <tr class="memitem:a632494bdb864252cf541b6c4ea5a95b2"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_std_lagrange_elem_transfer.html#a632494bdb864252cf541b6c4ea5a95b2">prolongate</a> (TParent *parent, <a class="el" href="classug_1_1_transfer_value_accessor.html">TransferValueAccessor</a> &amp;vValueChild, <a class="el" href="classug_1_1_transfer_value_accessor.html">TransferValueAccessor</a> &amp;vValueParent, const <a class="el" href="classug_1_1_local_shape_function_set.html">LocalShapeFunctionSet</a>&lt; <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#ga425548c7b0fe054612f37d1f3a4826b6">TParent::dim</a> &gt; &amp;lsfs, std::vector&lt; <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; <a class="el" href="classug_1_1_std_lagrange_elem_transfer.html#a054f68508e45904481cdf96cd15f6d86">dim</a> &gt; &gt; vCornerParent, const <a class="el" href="namespaceug.html#a1f0e19a0ec74b2ebb64238aeb498c51b">ReferenceObjectID</a> parentRoid)</td></tr>
 <tr class="separator:a632494bdb864252cf541b6c4ea5a95b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2688f93787cf01e83c2565feba61363e"><td class="memTemplParams" colspan="2">template&lt;typename TElem &gt; </td></tr>
+<tr class="memitem:a2688f93787cf01e83c2565feba61363e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_std_lagrange_elem_transfer.html#a2688f93787cf01e83c2565feba61363e">prolongate</a> (TElem *parent, <a class="el" href="classug_1_1_transfer_value_accessor.html">TransferValueAccessor</a> &amp;vValueChild, <a class="el" href="classug_1_1_transfer_value_accessor.html">TransferValueAccessor</a> &amp;vValueParent)</td></tr>
+<tr class="separator:a2688f93787cf01e83c2565feba61363e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc45f0fe02dbc34bc00abba3022335e2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_std_lagrange_elem_transfer.html#adc45f0fe02dbc34bc00abba3022335e2">prolongate</a> (<a class="el" href="classug_1_1_vertex.html">Vertex</a> *parent)</td></tr>
 <tr class="separator:adc45f0fe02dbc34bc00abba3022335e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec4b4c7635af0fa832aed89fec097aba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_std_lagrange_elem_transfer.html#aec4b4c7635af0fa832aed89fec097aba">StdLagrangeElemTransfer</a> (const <a class="el" href="classug_1_1_l_f_e_i_d.html">LFEID</a> &amp;lfeid)</td></tr>
@@ -378,56 +378,8 @@ template&lt;typename TDomain &gt; </div>
 
 </div>
 </div>
-<a id="a2688f93787cf01e83c2565feba61363e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2688f93787cf01e83c2565feba61363e">&sect;&nbsp;</a></span>prolongate() <span class="overload">[1/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename TDomain &gt; </div>
-<div class="memtemplate">
-template&lt;typename TElem &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classug_1_1_std_lagrange_elem_transfer.html">ug::StdLagrangeElemTransfer</a>&lt; TDomain &gt;::prolongate </td>
-          <td>(</td>
-          <td class="paramtype">TElem *&#160;</td>
-          <td class="paramname"><em>parent</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classug_1_1_transfer_value_accessor.html">TransferValueAccessor</a> &amp;&#160;</td>
-          <td class="paramname"><em>vValueChild</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classug_1_1_transfer_value_accessor.html">TransferValueAccessor</a> &amp;&#160;</td>
-          <td class="paramname"><em>vValueParent</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>References <a class="el" href="classug_1_1_transfer_value_accessor.html#aa4448fd86adea714a47e7fb32be7c3e6">ug::TransferValueAccessor::access_closure()</a>, <a class="el" href="group__lib__disc__domain.html#gaff7229b5d622bfe7df1d58134ff7cef9">ug::CollectCornerCoordinates()</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#gad04fbd00dd872375c4863bd1d4621237">dim</a>, <a class="el" href="classug_1_1_piecewise_constant_elem_transfer.html#a86cb0a14595656151d8979d57e24e988">ug::PiecewiseConstantElemTransfer&lt; TDomain &gt;::m_lfeid</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
-
-</div>
-</div>
 <a id="a632494bdb864252cf541b6c4ea5a95b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a632494bdb864252cf541b6c4ea5a95b2">&sect;&nbsp;</a></span>prolongate() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a632494bdb864252cf541b6c4ea5a95b2">&sect;&nbsp;</a></span>prolongate() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -489,6 +441,54 @@ template&lt;typename TParent , typename TChild &gt; </div>
 </div><div class="memdoc">
 
 <p>References <a class="el" href="classug_1_1_transfer_value_accessor.html#a62e02f193488d490e0aa8a1bfbd380cd">ug::TransferValueAccessor::access_inner()</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#gad04fbd00dd872375c4863bd1d4621237">dim</a>, <a class="el" href="classug_1_1_multi_grid.html#a42933e49183a7ec9b36bc348f6b1bb39">ug::MultiGrid::get_child()</a>, <a class="el" href="classug_1_1_dim_reference_mapping.html#ae8aea933c62dcfac9ea828e446ebf0b4">ug::DimReferenceMapping&lt; TDim, TWorldDim &gt;::global_to_local()</a>, <a class="el" href="namespaceug.html#ae1e52156d8ecc72d9e6997c00c153844">ug::InnerDoFPosition()</a>, <a class="el" href="classug_1_1_piecewise_constant_elem_transfer.html#a86cb0a14595656151d8979d57e24e988">ug::PiecewiseConstantElemTransfer&lt; TDomain &gt;::m_lfeid</a>, <a class="el" href="classug_1_1_multi_grid.html#ad0fce19879da7ebfd97be4e95824fbe1">ug::MultiGrid::num_children()</a>, <a class="el" href="classug_1_1_local_shape_function_set.html#a9300ed9d001a2565b955af5617767a6f">ug::LocalShapeFunctionSet&lt; TDim, TShape, TGrad &gt;::shapes()</a>, and <a class="el" href="classug_1_1_transfer_value_accessor.html#a6be449b19a84b6eabdec2fff7a7f6529">ug::TransferValueAccessor::size()</a>.</p>
+
+</div>
+</div>
+<a id="a2688f93787cf01e83c2565feba61363e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2688f93787cf01e83c2565feba61363e">&sect;&nbsp;</a></span>prolongate() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TDomain &gt; </div>
+<div class="memtemplate">
+template&lt;typename TElem &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_std_lagrange_elem_transfer.html">ug::StdLagrangeElemTransfer</a>&lt; TDomain &gt;::prolongate </td>
+          <td>(</td>
+          <td class="paramtype">TElem *&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classug_1_1_transfer_value_accessor.html">TransferValueAccessor</a> &amp;&#160;</td>
+          <td class="paramname"><em>vValueChild</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classug_1_1_transfer_value_accessor.html">TransferValueAccessor</a> &amp;&#160;</td>
+          <td class="paramname"><em>vValueParent</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classug_1_1_transfer_value_accessor.html#aa4448fd86adea714a47e7fb32be7c3e6">ug::TransferValueAccessor::access_closure()</a>, <a class="el" href="group__lib__disc__domain.html#gaff7229b5d622bfe7df1d58134ff7cef9">ug::CollectCornerCoordinates()</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#gad04fbd00dd872375c4863bd1d4621237">dim</a>, <a class="el" href="classug_1_1_piecewise_constant_elem_transfer.html#a86cb0a14595656151d8979d57e24e988">ug::PiecewiseConstantElemTransfer&lt; TDomain &gt;::m_lfeid</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
 
 </div>
 </div>
@@ -584,7 +584,7 @@ template&lt;typename TDomain &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_std_lagrange_elem_transfer.html">StdLagrangeElemTransfer</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:18:27 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:47 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

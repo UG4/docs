@@ -176,6 +176,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a7bc1bfa9f96964349cabad46f13648e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55755daa2160fbb09f3a99f3fc4a503c"><td class="memItemLeft" align="right" valign="top">rapidxml::xml_node *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_grid_writer_u_g_x.html#a55755daa2160fbb09f3a99f3fc4a503c">create_prism_node</a> (<a class="el" href="namespaceug.html#a1ad1d2d1ca5b66603e03caafb3969883">PrismIterator</a> prismsBegin, <a class="el" href="namespaceug.html#a1ad1d2d1ca5b66603e03caafb3969883">PrismIterator</a> prismsEnd, <a class="el" href="classug_1_1_grid_writer_u_g_x.html#a61c36448e197abaee054737472cdb4df">AAVrtIndex</a> aaIndVRT)</td></tr>
 <tr class="separator:a55755daa2160fbb09f3a99f3fc4a503c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02fe5cff5ec9fe29b4b35435952802ce"><td class="memItemLeft" align="right" valign="top">rapidxml::xml_node *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_grid_writer_u_g_x.html#a02fe5cff5ec9fe29b4b35435952802ce">create_projector_node</a> (<a class="el" href="classug_1_1_refinement_projector.html">RefinementProjector</a> &amp;proj, const char *nodeName)</td></tr>
+<tr class="separator:a02fe5cff5ec9fe29b4b35435952802ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84040a1eb3191605b237bc0b04c0ebc2"><td class="memItemLeft" align="right" valign="top">rapidxml::xml_node *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_grid_writer_u_g_x.html#a84040a1eb3191605b237bc0b04c0ebc2">create_pyramid_node</a> (<a class="el" href="namespaceug.html#af984ed5c411f44f263ebf617a9b849a6">PyramidIterator</a> pyrasBegin, <a class="el" href="namespaceug.html#af984ed5c411f44f263ebf617a9b849a6">PyramidIterator</a> pyrasEnd, <a class="el" href="classug_1_1_grid_writer_u_g_x.html#a61c36448e197abaee054737472cdb4df">AAVrtIndex</a> aaIndVRT)</td></tr>
 <tr class="separator:a84040a1eb3191605b237bc0b04c0ebc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e462422828d0e5716a117ee0fa90ef2"><td class="memItemLeft" align="right" valign="top">rapidxml::xml_node *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_grid_writer_u_g_x.html#a1e462422828d0e5716a117ee0fa90ef2">create_quadrilateral_node</a> (<a class="el" href="namespaceug.html#a15ffcc65340980c745bdf5de374b100a">QuadrilateralIterator</a> quadsBegin, <a class="el" href="namespaceug.html#a15ffcc65340980c745bdf5de374b100a">QuadrilateralIterator</a> quadsEnd, <a class="el" href="classug_1_1_grid_writer_u_g_x.html#a61c36448e197abaee054737472cdb4df">AAVrtIndex</a> aaIndVRT)</td></tr>
@@ -381,7 +383,7 @@ template&lt;class TElem , class TAttachment &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classug_1_1_grid_writer_u_g_x.html#add4a5f35c778ebe4d5472ac38b0cc02c">create_vertex_node()</a>, <a class="el" href="classug_1_1_grid_writer_u_g_x.html#a54bcb5ed94a1facce60bd2725ec67760">m_doc</a>, <a class="el" href="classug_1_1_grid_writer_u_g_x.html#aa3d2f90e02eea81a8c4be56ee62293fc">m_vEntries</a>, <a class="el" href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>, and <a class="el" href="structug_1_1attachment__io__traits.html#a0238cba8c19f2a0d226a789b3d81fac6">ug::attachment_io_traits&lt; TAttachment &gt;::write_value()</a>.</p>
+<p>References <a class="el" href="classug_1_1_grid_writer_u_g_x.html#add4a5f35c778ebe4d5472ac38b0cc02c">create_vertex_node()</a>, <a class="el" href="classug_1_1_grid_writer_u_g_x.html#a54bcb5ed94a1facce60bd2725ec67760">m_doc</a>, <a class="el" href="classug_1_1_grid_writer_u_g_x.html#aa3d2f90e02eea81a8c4be56ee62293fc">m_vEntries</a>, <a class="el" href="stringify_8h.html#a84807cf5873820fc333540207e0920e9">mkstr</a>, <a class="el" href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>, and <a class="el" href="structug_1_1attachment__io__traits.html#a0238cba8c19f2a0d226a789b3d81fac6">ug::attachment_io_traits&lt; TAttachment &gt;::write_value()</a>.</p>
 
 <p>Referenced by <a class="el" href="classug_1_1_grid_writer_u_g_x.html#aae8b7d6f3c922c71218fb9f21b47bd08">attachment_node_name()</a>.</p>
 
@@ -502,7 +504,7 @@ template&lt;class TPositionAttachment &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classug_1_1_archivar.html#a5908d914ce39edad210bbdbc7a9c5c7f">ug::Archivar&lt; TArchive, TBase, TPairSeq &gt;::archive()</a>, <a class="el" href="classug_1_1_factory.html#addca3e17fa5431097b1c4e4971646234">ug::Factory&lt; TBase, TPairSeq &gt;::class_name()</a>, <a class="el" href="stringify_8h.html#a84807cf5873820fc333540207e0920e9">mkstr</a>, <a class="el" href="classug_1_1_projection_handler.html#a9c68755913ea0264f29ea8115a114c6a">ug::ProjectionHandler::num_projectors()</a>, <a class="el" href="classug_1_1_projection_handler.html#a96c17fce17d50bf41b7aa5e5745dca13">ug::ProjectionHandler::projector()</a>, <a class="el" href="classug_1_1_projection_handler.html#aa246589f6b24b01f4a7ee7a6d577fe77">ug::ProjectionHandler::subset_handler()</a>, <a class="el" href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>, and <a class="el" href="group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>.</p>
+<p>References <a class="el" href="classug_1_1_projection_handler.html#afec819d56408bbf6859655e5507e624a">ug::ProjectionHandler::default_projector()</a>, <a class="el" href="stringify_8h.html#a84807cf5873820fc333540207e0920e9">mkstr</a>, <a class="el" href="classug_1_1_projection_handler.html#a9c68755913ea0264f29ea8115a114c6a">ug::ProjectionHandler::num_projectors()</a>, <a class="el" href="classug_1_1_projection_handler.html#a96c17fce17d50bf41b7aa5e5745dca13">ug::ProjectionHandler::projector()</a>, <a class="el" href="classug_1_1_projection_handler.html#aa246589f6b24b01f4a7ee7a6d577fe77">ug::ProjectionHandler::subset_handler()</a>, <a class="el" href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>, <a class="el" href="group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>, and <a class="el" href="class_smart_ptr.html#ab31be10adb38f2b205f0531bb23e7a23">SmartPtr&lt; T, FreePolicy &gt;::valid()</a>.</p>
 
 </div>
 </div>
@@ -859,7 +861,7 @@ template&lt;class TAAPos &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classug_1_1_grid_writer_u_g_x.html#a54bcb5ed94a1facce60bd2725ec67760">m_doc</a>, and <a class="el" href="classug_1_1_grid_writer_u_g_x.html#a9fa7abaa62c9ed53dd6f67fc0becf2c1">process_global_attachments()</a>.</p>
+<p>References <a class="el" href="classug_1_1_grid_writer_u_g_x.html#a54bcb5ed94a1facce60bd2725ec67760">m_doc</a>, <a class="el" href="classug_1_1_grid_writer_u_g_x.html#a9fa7abaa62c9ed53dd6f67fc0becf2c1">process_global_attachments()</a>, and <a class="el" href="group__scripts__util__common.html#ga52ede8548aa38f3a221e1b673703c38e">sprintf()</a>.</p>
 
 <p>Referenced by <a class="el" href="classug_1_1_grid_writer_u_g_x.html#af5c5af15f00dbf537a5427435c042291">add_grid()</a>, and <a class="el" href="classug_1_1_grid_writer_u_g_x.html#add4a5f35c778ebe4d5472ac38b0cc02c">create_vertex_node()</a>.</p>
 
@@ -1159,6 +1161,44 @@ template&lt;class TAAPos &gt; </div>
 
 </div>
 </div>
+<a id="a02fe5cff5ec9fe29b4b35435952802ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02fe5cff5ec9fe29b4b35435952802ce">&sect;&nbsp;</a></span>create_projector_node()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">xml_node * ug::GridWriterUGX::create_projector_node </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_refinement_projector.html">RefinementProjector</a> &amp;&#160;</td>
+          <td class="paramname"><em>proj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>nodeName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classug_1_1_archivar.html#a5908d914ce39edad210bbdbc7a9c5c7f">ug::Archivar&lt; TArchive, TBase, TPairSeq &gt;::archive()</a>, and <a class="el" href="classug_1_1_factory.html#addca3e17fa5431097b1c4e4971646234">ug::Factory&lt; TBase, TPairSeq &gt;::class_name()</a>.</p>
+
+</div>
+</div>
 <a id="a84040a1eb3191605b237bc0b04c0ebc2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a84040a1eb3191605b237bc0b04c0ebc2">&sect;&nbsp;</a></span>create_pyramid_node()</h2>
 
@@ -1455,7 +1495,7 @@ template&lt;class TAAPos &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classug_1_1_grid_writer_u_g_x.html#aa3e96b152b65ab1e19193a8fbab93044">create_constrained_vertex_node()</a>, and <a class="el" href="classug_1_1_grid_writer_u_g_x.html#a54bcb5ed94a1facce60bd2725ec67760">m_doc</a>.</p>
+<p>References <a class="el" href="classug_1_1_grid_writer_u_g_x.html#aa3e96b152b65ab1e19193a8fbab93044">create_constrained_vertex_node()</a>, <a class="el" href="classug_1_1_grid_writer_u_g_x.html#a54bcb5ed94a1facce60bd2725ec67760">m_doc</a>, and <a class="el" href="group__scripts__util__common.html#ga52ede8548aa38f3a221e1b673703c38e">sprintf()</a>.</p>
 
 <p>Referenced by <a class="el" href="classug_1_1_grid_writer_u_g_x.html#a6fff684237e0776093188d723caf6d53">add_attachment()</a>, and <a class="el" href="classug_1_1_grid_writer_u_g_x.html#af5c5af15f00dbf537a5427435c042291">add_grid()</a>.</p>
 
@@ -1527,7 +1567,7 @@ template&lt;class TElem &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classug_1_1_global_attachments.html#a1edf422ad98704d583f1d887008fdfbd">ug::GlobalAttachments::declared_attachment_names()</a>, <a class="el" href="classug_1_1_grid_reader_u_g_x.html#af717062fd9807b39457c1cf1ab25f1bf">ug::GridReaderUGX::grid()</a>, <a class="el" href="classug_1_1_grid_writer_u_g_x.html#a54bcb5ed94a1facce60bd2725ec67760">m_doc</a>, and <a class="el" href="classug_1_1_global_attachments.html#ae88474a6cc23b8603522dc2189b749fd">ug::GlobalAttachments::type_name()</a>.</p>
+<p>References <a class="el" href="classug_1_1_global_attachments.html#a932b8a61b4ac3bc5f7800a0b813f3af0">ug::GlobalAttachments::attachment_pass_on_behaviour()</a>, <a class="el" href="classug_1_1_global_attachments.html#a1edf422ad98704d583f1d887008fdfbd">ug::GlobalAttachments::declared_attachment_names()</a>, <a class="el" href="classug_1_1_grid_reader_u_g_x.html#af717062fd9807b39457c1cf1ab25f1bf">ug::GridReaderUGX::grid()</a>, <a class="el" href="classug_1_1_grid_writer_u_g_x.html#a54bcb5ed94a1facce60bd2725ec67760">m_doc</a>, <a class="el" href="stringify_8h.html#a84807cf5873820fc333540207e0920e9">mkstr</a>, and <a class="el" href="classug_1_1_global_attachments.html#ae88474a6cc23b8603522dc2189b749fd">ug::GlobalAttachments::type_name()</a>.</p>
 
 <p>Referenced by <a class="el" href="classug_1_1_grid_writer_u_g_x.html#aa3e96b152b65ab1e19193a8fbab93044">create_constrained_vertex_node()</a>.</p>
 
@@ -1669,7 +1709,7 @@ template&lt;class TElem &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_grid_writer_u_g_x.html">GridWriterUGX</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:18:07 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:27 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

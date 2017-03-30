@@ -27,9 +27,5 @@ var dir_c7c655306aff28a5e61a1dd2da898541 =
     [ "refiner_interface.cpp", "refiner__interface_8cpp.html", null ],
     [ "refiner_interface.h", "refiner__interface_8h.html", "refiner__interface_8h" ],
     [ "regular_refinement.cpp", "regular__refinement_8cpp.html", "regular__refinement_8cpp" ],
-    [ "regular_refinement.h", "regular__refinement_8h.html", "regular__refinement_8h" ],
-    [ "regular_refiner_multi_grid.cpp", "regular__refiner__multi__grid_8cpp.html", null ],
-    [ "regular_refiner_multi_grid.h", "regular__refiner__multi__grid_8h.html", [
-      [ "RegularRefiner_MultiGrid", "classug_1_1_regular_refiner___multi_grid.html", "classug_1_1_regular_refiner___multi_grid" ]
-    ] ]
+    [ "regular_refinement.h", "regular__refinement_8h.html", "regular__refinement_8h" ]
 ];

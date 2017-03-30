@@ -164,7 +164,7 @@ Start DDT by typing <div class="fragment"><div class="line">ddt</div></div><!-- 
 <li>
 Start interactive session: <div class="fragment"><div class="line">qsub -I -V -X -l mppwidth=64,mppnppn=32,walltime=00:30:00</div><div class="line">qsub: waiting <span class="keywordflow">for</span> job 309598.sdb to start</div></div><!-- fragment --> I.e, the session in this example lasts 30 minutes.  </li>
 <li>
-<p class="startli">Start DDT with <code>ugshell</code> as executable and some <b>ug4</b> parameters: </p><div class="fragment"><div class="line">ddt ./ugshell -ex ../apps/scaling_tests/modular_scalability_test.lua -numPreRefs 1 -hRedistFirstLevel 4 -hRedistStepSize 2 -hRedistNewProcsPerStep 4 -numRefs 8</div></div><!-- fragment --><pre class="fragment">&lt;/li&gt;
+<p class="startli">Start DDT with <code>ugshell</code> as executable and some <b>ug4</b> parameters: </p><div class="fragment"><div class="line">ddt ./ugshell -<a class="code" href="command__line__util_8lua.html#a340d3719e63a0a3a4f4429ef8c8b55ea">ex</a> ../apps/scaling_tests/modular_scalability_test.lua -numPreRefs 1 -hRedistFirstLevel 4 -hRedistStepSize 2 -hRedistNewProcsPerStep 4 -numRefs 8</div></div><!-- fragment --><pre class="fragment">&lt;/li&gt;
 </pre> </li>
 </ol>
 <p>Notes: </p><ul>
@@ -190,7 +190,7 @@ After the job is started with <code>qsub</code> you've entered a new shell, so y
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="index.html">ug4 - Documentation</a></li><li class="navelem"><a class="el" href="page_u_g4_setup.html">Setup and Installation</a></li><li class="navelem"><a class="el" href="page_u_g4_install.html">Prerequisites and Recommended Tools</a></li><li class="navelem"><a class="el" href="page_u_g4_setup_parallel.html">Installation on Parallel Computers</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:17:53 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:11 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

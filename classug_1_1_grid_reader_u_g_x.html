@@ -204,6 +204,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a873c5c3378480c5143664cd87d94884f"><td class="memTemplParams" colspan="2">template&lt;class TElem &gt; </td></tr>
 <tr class="memitem:a873c5c3378480c5143664cd87d94884f"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_grid_reader_u_g_x.html#a873c5c3378480c5143664cd87d94884f">read_attachment</a> (<a class="el" href="classug_1_1_grid.html">Grid</a> &amp;<a class="el" href="classug_1_1_grid_reader_u_g_x.html#af717062fd9807b39457c1cf1ab25f1bf">grid</a>, rapidxml::xml_node&lt;&gt; *node)</td></tr>
 <tr class="separator:a873c5c3378480c5143664cd87d94884f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadf7713c10c6b3c5d4cd38df434b6677"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceug.html#a1a220d9b7f4057bf059723a8c0dc056d">SPRefinementProjector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_grid_reader_u_g_x.html#aadf7713c10c6b3c5d4cd38df434b6677">read_projector</a> (rapidxml::xml_node&lt;&gt; *projNode)</td></tr>
+<tr class="separator:aadf7713c10c6b3c5d4cd38df434b6677"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0499c85a6be0ff861a0a48770fdf0d15"><td class="memTemplParams" colspan="2">template&lt;class TGeomObj &gt; </td></tr>
 <tr class="memitem:a0499c85a6be0ff861a0a48770fdf0d15"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_grid_reader_u_g_x.html#a0499c85a6be0ff861a0a48770fdf0d15">read_selector_elements</a> (<a class="el" href="classug_1_1_i_selector.html">ISelector</a> &amp;selOut, const char *elemNodeName, rapidxml::xml_node&lt;&gt; *selNode, std::vector&lt; TGeomObj *&gt; &amp;vElems)</td></tr>
 <tr class="separator:a0499c85a6be0ff861a0a48770fdf0d15"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1486,7 +1488,7 @@ template&lt;class TPositionAttachment &gt; </div>
 
 <p>fills the given projection-handler </p>
 
-<p>References <a class="el" href="classug_1_1_archivar.html#a5908d914ce39edad210bbdbc7a9c5c7f">ug::Archivar&lt; TArchive, TBase, TPairSeq &gt;::archive()</a>, <a class="el" href="classug_1_1_factory.html#a37eae22961a190ddee97b35994b0e245">ug::Factory&lt; TBase, TPairSeq &gt;::create()</a>, <a class="el" href="classug_1_1_projection_handler.html#a5f62d7b2fad6804dcbf57a70bb6c6124">ug::ProjectionHandler::set_projector()</a>, <a class="el" href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>, and <a class="el" href="group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>.</p>
+<p>References <a class="el" href="classug_1_1_projection_handler.html#a3d9c4a1ae1b84032101ae98c2f6e6c58">ug::ProjectionHandler::set_default_projector()</a>, <a class="el" href="classug_1_1_projection_handler.html#a5f62d7b2fad6804dcbf57a70bb6c6124">ug::ProjectionHandler::set_projector()</a>, <a class="el" href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>, and <a class="el" href="class_smart_ptr.html#ab31be10adb38f2b205f0531bb23e7a23">SmartPtr&lt; T, FreePolicy &gt;::valid()</a>.</p>
 
 <p>Referenced by <a class="el" href="group__lib__disc__domain.html#gaf6efcaf225f30487ec759ae35092dcec">ug::LoadDomain()</a>.</p>
 
@@ -1528,9 +1530,37 @@ template&lt;class TElem &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classug_1_1_global_attachments.html#ad65ae39d902a1024a0ee53540f28da81">ug::GlobalAttachments::is_declared()</a>, <a class="el" href="classug_1_1_global_attachments.html#ae88474a6cc23b8603522dc2189b749fd">ug::GlobalAttachments::type_name()</a>, and <a class="el" href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>.</p>
+<p>References <a class="el" href="classug_1_1_global_attachments.html#aa6aa456d09f61f747d63a9a175c5dd36">ug::GlobalAttachments::declare_attachment()</a>, <a class="el" href="classug_1_1_global_attachments.html#ad65ae39d902a1024a0ee53540f28da81">ug::GlobalAttachments::is_declared()</a>, <a class="el" href="classug_1_1_global_attachments.html#a7d761aa8ee67287da58b7c354185b234">ug::GlobalAttachments::type_is_registered()</a>, <a class="el" href="classug_1_1_global_attachments.html#ae88474a6cc23b8603522dc2189b749fd">ug::GlobalAttachments::type_name()</a>, and <a class="el" href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>.</p>
 
 <p>Referenced by <a class="el" href="classug_1_1_grid_reader_u_g_x.html#a7a23c468415b931123dfc3937cb59988">create_constrained_vertices()</a>.</p>
+
+</div>
+</div>
+<a id="aadf7713c10c6b3c5d4cd38df434b6677"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadf7713c10c6b3c5d4cd38df434b6677">&sect;&nbsp;</a></span>read_projector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceug.html#a1a220d9b7f4057bf059723a8c0dc056d">SPRefinementProjector</a> ug::GridReaderUGX::read_projector </td>
+          <td>(</td>
+          <td class="paramtype">rapidxml::xml_node&lt;&gt; *&#160;</td>
+          <td class="paramname"><em>projNode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classug_1_1_archivar.html#a5908d914ce39edad210bbdbc7a9c5c7f">ug::Archivar&lt; TArchive, TBase, TPairSeq &gt;::archive()</a>, <a class="el" href="classug_1_1_factory.html#a37eae22961a190ddee97b35994b0e245">ug::Factory&lt; TBase, TPairSeq &gt;::create()</a>, and <a class="el" href="group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>.</p>
 
 </div>
 </div>
@@ -1782,7 +1812,7 @@ template&lt;class TGeomObj &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_grid_reader_u_g_x.html">GridReaderUGX</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:18:07 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:27 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -15,6 +15,7 @@ var classug_1_1_newton_solver =
     [ "clear_inner_step_update", "classug_1_1_newton_solver.html#a2d123d597eed8ba01b24079bd7468629", null ],
     [ "clear_step_update", "classug_1_1_newton_solver.html#a67aced2ca685a893c340b6c5a8c31bc9", null ],
     [ "config_string", "classug_1_1_newton_solver.html#a76725844d91a82920778642272a9f9c5", null ],
+    [ "disable_line_search", "classug_1_1_newton_solver.html#a3965462f967ee0e8ca61426b5bbfd295", null ],
     [ "init", "classug_1_1_newton_solver.html#a4328fedc27a2939f9360a66fa894834e", null ],
     [ "num_linsolver_calls", "classug_1_1_newton_solver.html#adcccf82a5ce8f8e8228fe254e3e78d89", null ],
     [ "num_linsolver_steps", "classug_1_1_newton_solver.html#a4b48f4ebce37f81cc4f5bf6faf94842f", null ],

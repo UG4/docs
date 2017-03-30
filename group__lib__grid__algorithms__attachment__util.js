@@ -14,6 +14,7 @@ var group__lib__grid__algorithms__attachment__util =
       [ "access", "classug_1_1_multi_element_attachment_accessor.html#a15d34fc64fd8ec31807351c755bb63a1", null ],
       [ "edge_accessor", "classug_1_1_multi_element_attachment_accessor.html#a047a8c58b68a85e38b1e25f4aa1a10da", null ],
       [ "face_accessor", "classug_1_1_multi_element_attachment_accessor.html#a8ed18414df9a69650e581404964bfe85", null ],
+      [ "invalidate", "classug_1_1_multi_element_attachment_accessor.html#a67504ac4191740bd104e192237d4c995", null ],
       [ "is_valid_edge_accessor", "classug_1_1_multi_element_attachment_accessor.html#af42aaa92be4afc06214ceb1dd3328c32", null ],
       [ "is_valid_face_accessor", "classug_1_1_multi_element_attachment_accessor.html#a010809358a4482dfe6d962912189ee46", null ],
       [ "is_valid_vertex_accessor", "classug_1_1_multi_element_attachment_accessor.html#a9a1c53871ecd9417cafd7b2b1e35e28c", null ],

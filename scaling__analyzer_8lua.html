@@ -86,17 +86,36 @@ $(document).ready(function(){initNavTree('scaling__analyzer_8lua.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">scaling_analyzer.lua File Reference</div>  </div>
+<div class="title">scaling_analyzer.lua File Reference<div class="ingroups"><a class="el" href="group__scripts.html">Scripts</a> &raquo; <a class="el" href="group__scripts__util.html">Lua Utility Scripts</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
-</div><!-- contents -->
+
+<p>lua script to compare profiling outputs from different runs of one problem  
+<a href="#details">More...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ga8210ea07a5be3e3ab7fea7c6d8dc0d98"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__scripts__util.html#ga8210ea07a5be3e3ab7fea7c6d8dc0d98">FillSpaces</a> (str, minSize)</td></tr>
+<tr class="separator:ga8210ea07a5be3e3ab7fea7c6d8dc0d98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac227c3fb041d6aea5c1d44b211ff9d3e"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__scripts__util.html#gac227c3fb041d6aea5c1d44b211ff9d3e">FindEntry</a> (entryList, name, guessInd)</td></tr>
+<tr class="separator:gac227c3fb041d6aea5c1d44b211ff9d3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>lua script to compare profiling outputs from different runs of one problem </p>
+<dl class="section author"><dt>Author</dt><dd>Sebastian Reiter This lua script can be used to compare profiling outputs from different runs of one problem. Edit the inFiles-list below, so that it contains your output-files. Make sure, that all files contain the same profiler output. Run the script using the lua command-line-inerpreter (call lua <a class="el" href="scaling__analyzer_8lua.html" title="lua script to compare profiling outputs from different runs of one problem ">scaling_analyzer.lua</a>). Optionally you can also run it with ug4 (ugshell -ex <a class="el" href="scaling__analyzer_8lua.html" title="lua script to compare profiling outputs from different runs of one problem ">scaling_analyzer.lua</a>)</dd></dl>
+<p>The script outputs the timings of associated profiler node in the different files in one row, together with the speedup factor between neigbored runs.</p>
+<p>Note - if the timings do not exactly match and if some nodes in each run have the same name, then this script may give you unexpected results.</p>
+<p>If an input-file contains lines beginning with "#ANALYZER INFO:", the rest of each such line will be printed during parsing of the file. </p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_53e6fa9553ac22a5646d2a2b2d7b97a1.html">scripts</a></li><li class="navelem"><a class="el" href="dir_974b6411e0c0ff18898113d6f544eb7d.html">tools</a></li><li class="navelem"><a class="el" href="scaling__analyzer_8lua.html">scaling_analyzer.lua</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:17:52 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:09 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

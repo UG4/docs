@@ -1,5 +1,6 @@
 var hierarchy =
 [
+    [ "ug::promesh::AnisoElemInfo", "classug_1_1promesh_1_1_aniso_elem_info.html", null ],
     [ "ug::promesh::Box", "classug_1_1promesh_1_1_box.html", null ],
     [ "ug::DocuGen::ClassHierarchyProvider", "classug_1_1_docu_gen_1_1_class_hierarchy_provider.html", null ],
     [ "ug::DocuGen::CppGenerator", "classug_1_1_docu_gen_1_1_cpp_generator.html", null ],
@@ -12,14 +13,24 @@ var hierarchy =
     [ "ug::ConvectionDiffusionPlugin::Functionality", "structug_1_1_convection_diffusion_plugin_1_1_functionality.html", null ],
     [ "ug::SmallStrainMechanics::Functionality", "structug_1_1_small_strain_mechanics_1_1_functionality.html", null ],
     [ "ug::TemplatePlugin::Functionality", "structug_1_1_template_plugin_1_1_functionality.html", null ],
-    [ "ug::IElemDisc< TDomain >", "../classug_1_1_i_elem_disc.html", [
-      [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionBase< TDomain >", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base.html", [
-        [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFE< TDomain >", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_e.html", null ],
-        [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFV< TDomain >", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v.html", null ],
-        [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFV1< TDomain >", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html", null ],
-        [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFVCR< TDomain >", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v_c_r.html", null ]
-      ] ],
-      [ "ug::SmallStrainMechanics::SmallStrainMechanicsElemDisc< TDomain >", "classug_1_1_small_strain_mechanics_1_1_small_strain_mechanics_elem_disc.html", null ]
+    [ "IElemAssembleFuncs< IElemDisc< TDomain >, TDomain >", "../classug_1_1_i_elem_assemble_funcs.html", [
+      [ "ug::IElemDisc< TDomain >", "../classug_1_1_i_elem_disc.html", [
+        [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionBase< TDomain >", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base.html", [
+          [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFE< TDomain >", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_e.html", null ],
+          [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFV< TDomain >", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v.html", null ],
+          [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFV1< TDomain >", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html", null ],
+          [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFVCR< TDomain >", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v_c_r.html", null ]
+        ] ],
+        [ "ug::SmallStrainMechanics::SmallStrainMechanicsElemDisc< TDomain >", "classug_1_1_small_strain_mechanics_1_1_small_strain_mechanics_elem_disc.html", null ]
+      ] ]
+    ] ],
+    [ "ug::IElemDiscBase< class >", "../classug_1_1_i_elem_disc_base.html", [
+      [ "ug::IElemError< class >", "../classug_1_1_i_elem_error.html", [
+        [ "ug::IElemDisc< TDomain >", "../classug_1_1_i_elem_disc.html", null ]
+      ] ]
+    ] ],
+    [ "IElemEstimatorFuncs< IElemDisc< TDomain >, TDomain >", "../classug_1_1_i_elem_estimator_funcs.html", [
+      [ "ug::IElemError< class >", "../classug_1_1_i_elem_error.html", null ]
     ] ],
     [ "ug::ILagrangeMultiplierDisc< TDomain, TGridFunction >", "../classug_1_1_i_lagrange_multiplier_disc.html", [
       [ "ug::SmallStrainMechanics::ContactSmallStrainMechanics< TDomain, TGridFunction >", "classug_1_1_small_strain_mechanics_1_1_contact_small_strain_mechanics.html", null ]

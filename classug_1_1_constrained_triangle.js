@@ -1,6 +1,6 @@
 var classug_1_1_constrained_triangle =
 [
-    [ "BaseTriangle", "classug_1_1_constrained_triangle.html#aae738b8f177eb3c5606ff45c8ba6564b", null ],
+    [ "BaseTriangle", "classug_1_1_constrained_triangle.html#a42c809094a333557bb4d04b2ddfdcba4", null ],
     [ "ConstrainedTriangle", "classug_1_1_constrained_triangle.html#aec8d928745f94ddb9d3c54a0476f62a9", null ],
     [ "ConstrainedTriangle", "classug_1_1_constrained_triangle.html#aadb6d135ba9898b6a6bb61c21db5c017", null ],
     [ "ConstrainedTriangle", "classug_1_1_constrained_triangle.html#a882ec34ab8ba98a25ee158478c101007", null ],

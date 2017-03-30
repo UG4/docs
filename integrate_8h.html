@@ -115,6 +115,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_h1_error_integrand.html">ug::H1ErrorIntegrand&lt; TGridFunction &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_h1_semi_norm_integrand.html">ug::H1SemiNormIntegrand&lt; TGridFunction &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_integrand.html">ug::IIntegrand&lt; TData, TWorldDim &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract integrand interface.  <a href="classug_1_1_i_integrand.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -154,6 +156,13 @@ Functions</h2></td></tr>
 <tr class="memitem:a7abbe035865d56cdca4612727dd39698"><td class="memTemplParams" colspan="2">template&lt;typename TGridFunction &gt; </td></tr>
 <tr class="memitem:a7abbe035865d56cdca4612727dd39698"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug.html#a7abbe035865d56cdca4612727dd39698">ug::H1Error</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; TGridFunction &gt; spGridFct1, const char *cmp1, <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; TGridFunction &gt; spGridFct2, const char *cmp2, int quadOrder)</td></tr>
 <tr class="separator:a7abbe035865d56cdca4612727dd39698"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a418004720b678d9a6cf422e2f0381de2"><td class="memTemplParams" colspan="2">template&lt;typename TGridFunction &gt; </td></tr>
+<tr class="memitem:a418004720b678d9a6cf422e2f0381de2"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug.html#a418004720b678d9a6cf422e2f0381de2">ug::H1SemiNorm</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; TGridFunction &gt; spGridFct, const char *cmp, int quadOrder, const char *subsets)</td></tr>
+<tr class="memdesc:a418004720b678d9a6cf422e2f0381de2"><td class="mdescLeft">&#160;</td><td class="mdescRight">compute H1 error of a function on the whole domain or on some subsets  <a href="namespaceug.html#a418004720b678d9a6cf422e2f0381de2">More...</a><br /></td></tr>
+<tr class="separator:a418004720b678d9a6cf422e2f0381de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad11c5fffd30fec01b9a7bf9578deb0de"><td class="memTemplParams" colspan="2">template&lt;typename TGridFunction &gt; </td></tr>
+<tr class="memitem:ad11c5fffd30fec01b9a7bf9578deb0de"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug.html#ad11c5fffd30fec01b9a7bf9578deb0de">ug::H1SemiNorm</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; TGridFunction &gt; spGridFct, const char *cmp, int quadOrder)</td></tr>
+<tr class="separator:ad11c5fffd30fec01b9a7bf9578deb0de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58bb3cffcb009171db5121300180a17e"><td class="memTemplParams" colspan="2">template&lt;typename TGridFunction &gt; </td></tr>
 <tr class="memitem:a58bb3cffcb009171db5121300180a17e"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug.html#a58bb3cffcb009171db5121300180a17e">ug::Integral</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; UserData&lt; <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#ga425548c7b0fe054612f37d1f3a4826b6">TGridFunction::dim</a> &gt; &gt; spData, <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; TGridFunction &gt; spGridFct, const char *subsets, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> time, int quadOrder, std::string quadType)</td></tr>
 <tr class="separator:a58bb3cffcb009171db5121300180a17e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -267,7 +276,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_df0e37446a9fd4242d0753cd346d4a6c.html">lib_disc</a></li><li class="navelem"><a class="el" href="dir_2377bdc3bce2db83d3a95ac44ec5f4e1.html">function_spaces</a></li><li class="navelem"><a class="el" href="integrate_8h.html">integrate.h</a></li>
-    <li class="footer">Generated on Wed Oct 19 2016 12:17:52 for ug4 by
+    <li class="footer">Generated on Thu Mar 30 2017 18:44:10 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

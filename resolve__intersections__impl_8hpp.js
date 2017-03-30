@@ -1,5 +1,6 @@
 var resolve__intersections__impl_8hpp =
 [
+    [ "Record", "structug_1_1impl_1_1_project_vertices_to_close_edges_1_1_record.html", "structug_1_1impl_1_1_project_vertices_to_close_edges_1_1_record" ],
     [ "CalculateBoundingSphere", "resolve__intersections__impl_8hpp.html#aa2627d5e313188b7ffb609ea714435d7", null ],
     [ "FindCloseVertexInArray", "resolve__intersections__impl_8hpp.html#a636821dbf2faf8cefa340f6e6d0d2e63", null ],
     [ "IntersectCloseEdges", "resolve__intersections__impl_8hpp.html#ab381625ea3610cd62253f7f635c1319b", null ],

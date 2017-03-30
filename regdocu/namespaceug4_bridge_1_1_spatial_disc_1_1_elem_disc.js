@@ -9,6 +9,7 @@ var namespaceug4_bridge_1_1_spatial_disc_1_1_elem_disc =
     [ "FV1InnerBoundary", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_f_v1_inner_boundary.html", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_f_v1_inner_boundary" ],
     [ "IElemDisc", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_i_elem_disc.html", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_i_elem_disc" ],
     [ "IElemDiscModifier", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_i_elem_disc_modifier.html", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_i_elem_disc_modifier" ],
+    [ "IElemError", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_i_elem_error.html", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_i_elem_error" ],
     [ "NeumannBoundaryBase", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_neumann_boundary_base.html", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_neumann_boundary_base" ],
     [ "NeumannBoundaryFE", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_neumann_boundary_f_e.html", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_neumann_boundary_f_e" ],
     [ "NeumannBoundaryFV", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_neumann_boundary_f_v.html", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_neumann_boundary_f_v" ],
