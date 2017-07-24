@@ -1,0 +1,4 @@
+var structug_1_1_my_vector_traits_3_01_t_vector_00_01typename_01boost_1_1enable__if__c_3_01_t_vector4040db38a16e4f4bbbb31a251838868d =
+[
+    [ "block_size", "structug_1_1_my_vector_traits_3_01_t_vector_00_01typename_01boost_1_1enable__if__c_3_01_t_vector4040db38a16e4f4bbbb31a251838868d.html#a4093708d5737bbee26b6cb9778205cd1", null ]
+];
