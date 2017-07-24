@@ -37,6 +37,8 @@ var dir_8e43e1519d22ef2ce28107ef4364eb7f =
     [ "grid_util.h", "algorithms_2grid__util_8h.html", "algorithms_2grid__util_8h" ],
     [ "heightfield_util.cpp", "heightfield__util_8cpp.html", "heightfield__util_8cpp" ],
     [ "heightfield_util.h", "heightfield__util_8h.html", "heightfield__util_8h" ],
+    [ "hexahedron_util.cpp", "hexahedron__util_8cpp.html", "hexahedron__util_8cpp" ],
+    [ "hexahedron_util.h", "hexahedron__util_8h.html", "hexahedron__util_8h" ],
     [ "isolated_elements.h", "isolated__elements_8h.html", "isolated__elements_8h" ],
     [ "mark_util.h", "mark__util_8h.html", "mark__util_8h" ],
     [ "mark_util_impl.h", "mark__util__impl_8h.html", "mark__util__impl_8h" ],

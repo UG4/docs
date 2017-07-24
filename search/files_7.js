@@ -16,6 +16,8 @@ var searchData=
   ['hermit_2edoxygen',['hermit.doxygen',['../hermit_8doxygen.html',1,'']]],
   ['hexahedron_5frules_2ecpp',['hexahedron_rules.cpp',['../hexahedron__rules_8cpp.html',1,'']]],
   ['hexahedron_5frules_2eh',['hexahedron_rules.h',['../hexahedron__rules_8h.html',1,'']]],
+  ['hexahedron_5futil_2ecpp',['hexahedron_util.cpp',['../hexahedron__util_8cpp.html',1,'']]],
+  ['hexahedron_5futil_2eh',['hexahedron_util.h',['../hexahedron__util_8h.html',1,'']]],
   ['hfv1_5fgeom_2ecpp',['hfv1_geom.cpp',['../hfv1__geom_8cpp.html',1,'']]],
   ['hfv1_5fgeom_2eh',['hfv1_geom.h',['../hfv1__geom_8h.html',1,'']]],
   ['hfvcr_5fgeom_2ecpp',['hfvcr_geom.cpp',['../hfvcr__geom_8cpp.html',1,'']]],

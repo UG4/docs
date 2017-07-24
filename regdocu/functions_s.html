@@ -92,17 +92,20 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 <li>save_marks_to_file()
 : <a class="el" href="classug4_bridge_1_1_grid_1_1_i_refiner.html#a96288281502e4f426f328854c6fb288f">IRefiner</a>
 </li>
+<li>save_stats_to_file()
+: <a class="el" href="classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_m_g_stats.html#a6d2b535cf3ffa6725b5f4d3d54425b1d">MGStats</a>
+</li>
 <li>save_to_asc()
 : <a class="el" href="classug4_bridge_1_1_number_raster.html#acfc848a28ff29c79ea7aee87778f08f9">NumberRaster</a>
 </li>
 <li>ScalarLowerObstacle()
-: <a class="el" href="classug4_bridge_1_1_algebra_1_1_obstacle_1_1_scalar_lower_obstacle.html#a6b5d332a05eee84977159a6cb20cf1d7">ScalarLowerObstacle</a>
+: <a class="el" href="classug4_bridge_1_1_algebra_1_1_obstacle_1_1_scalar_lower_obstacle.html#a096e484e5d394bd77ae0937fd6ee79dd">ScalarLowerObstacle</a>
 </li>
 <li>ScalarUpperObstacle()
 : <a class="el" href="classug4_bridge_1_1_algebra_1_1_obstacle_1_1_scalar_upper_obstacle.html#a234df7a49504483c1c55c4e612977b8b">ScalarUpperObstacle</a>
 </li>
 <li>ScaleAddLinkerMatrix()
-: <a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_scale_add_linker_matrix.html#af6ee229354a26f0e3f3454764be18986">ScaleAddLinkerMatrix</a>
+: <a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_scale_add_linker_matrix.html#a2b8c2430d8d676f6e5d055ff963e9de5">ScaleAddLinkerMatrix</a>
 </li>
 <li>ScaleAddLinkerNumber()
 : <a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_scale_add_linker_number.html#a010870ef7eae51ce69e6cfe96f5d44d2">ScaleAddLinkerNumber</a>
@@ -114,7 +117,7 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_scale_add_linker_vector.html#af52c6b172a6d5051fb87d7340ee9e352">ScaleAddLinkerVector</a>
 </li>
 <li>ScaleAddLinkerVectorMatrix()
-: <a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_scale_add_linker_vector_matrix.html#a8050d5caedee7d3d2848ebccd9304401">ScaleAddLinkerVectorMatrix</a>
+: <a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_scale_add_linker_vector_matrix.html#a0bef3b1c201fcb217ca8486bd58b5b5f">ScaleAddLinkerVectorMatrix</a>
 </li>
 <li>ScaleAddLinkerVectorVector()
 : <a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_scale_add_linker_vector_vector.html#a5ebc36c2a4ed29fd032748966e9cb3b2">ScaleAddLinkerVectorVector</a>
@@ -167,11 +170,11 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 <li>set_accept_best()
 : <a class="el" href="classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_standard_line_search.html#a7d800a1bcd09410ccaff142968ae66fe">StandardLineSearch</a>
 </li>
+<li>set_active_stages()
+: <a class="el" href="classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_m_g_stats.html#a82e888a10a054d10022f39cb578774cd">MGStats</a>
+</li>
 <li>set_adaptive()
 : <a class="el" href="classug4_bridge_1_1_composite_conv_check.html#a449fb23f5e621e60c7f753882dfb8a0f">CompositeConvCheck</a>
-</li>
-<li>set_additional_eigenvectors_to_keep()
-: <a class="el" href="classug4_bridge_1_1_algebra_1_1_solver_1_1_eigen_solver.html#aa1962d2f8b688b675f1b8ab5182ace17">EigenSolver</a>
 </li>
 <li>set_adjusted_marks_debug_filename()
 : <a class="el" href="classug4_bridge_1_1_grid_1_1_i_refiner.html#a0b4af1f3cdff73937eb26abbf3b47343">IRefiner</a>
@@ -292,9 +295,6 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 , <a class="el" href="classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_geometric_multi_grid.html#ae51e8ef38ed0e83af5206556d42dab58">GeometricMultiGrid</a>
 , <a class="el" href="classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_std_transfer.html#abf47a7f9d61810e4f28181c80ef04988">StdTransfer</a>
 </li>
-<li>set_debug_calc_projected_eigenvalues()
-: <a class="el" href="classug4_bridge_1_1_algebra_1_1_solver_1_1_eigen_solver.html#a93b167bd0169addad56eb3c89ae11f2b">EigenSolver</a>
-</li>
 <li>set_debug_level()
 : <a class="el" href="classug4_bridge_1_1_util_1_1_log_1_1_log_assistant.html#a54b5b5e5dc20bfda715682ff3a3a2779">LogAssistant</a>
 </li>
@@ -387,8 +387,14 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_i_domain_constraint.html#a628af3d55a0ec0d6114d2a40013d59ae">IDomainConstraint</a>
 , <a class="el" href="classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_i_elem_error.html#acc7fbf8f4a164915a36daa230d899ae2">IElemError</a>
 </li>
+<li>set_exit_on_error()
+: <a class="el" href="classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_m_g_stats.html#a70551688f261eb800bcdc731345bc38f">MGStats</a>
+</li>
 <li>set_extension()
 : <a class="el" href="classug4_bridge_1_1_number_raster.html#ab2b9f1f3833d121e1bc170b6d1ed5041">NumberRaster</a>
+</li>
+<li>set_filename_prefix()
+: <a class="el" href="classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_m_g_stats.html#adcccc14f871d46ae9fbd77748c13779a">MGStats</a>
 </li>
 <li>set_flux()
 : <a class="el" href="classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_base.html#a924574d8fc7135d286250cc69ef98630">ConvectionDiffusionBase</a>
@@ -463,9 +469,6 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 <li>set_lambda_start()
 : <a class="el" href="classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_standard_line_search.html#a9a6a9d3c5f2917399e258a177c537313">StandardLineSearch</a>
 </li>
-<li>set_laplacian()
-: <a class="el" href="classug4_bridge_1_1_algebra_1_1_solver_1_1_eigen_solver.html#adf7223bbf21ae33e3e5f331e4137d951">EigenSolver</a>
-</li>
 <li>set_level()
 : <a class="el" href="classug4_bridge_1_1_composite_conv_check.html#afa25ec06918853aa5f22f51d9d602707">CompositeConvCheck</a>
 , <a class="el" href="classug4_bridge_1_1_discretization_1_1_assembled_linear_operator.html#a49c568c34fc45b1eb5976d67709c9caa">AssembledLinearOperator</a>
@@ -475,17 +478,8 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 <li>set_line_search()
 : <a class="el" href="classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_newton_solver.html#a86f4d9a6544fe3e745bbd2fcbb72f74d">NewtonSolver</a>
 </li>
-<li>set_linear_dependent_eps()
-: <a class="el" href="classug4_bridge_1_1_algebra_1_1_solver_1_1_eigen_solver.html#a78710e0c25ed740c1cec945f0c34769b">EigenSolver</a>
-</li>
 <li>set_linear_operator()
 : <a class="el" href="classug4_bridge_1_1_algebra_1_1_energy_conv_check.html#ac7074c83035e7431ed8d1ab752ec76c3">EnergyConvCheck</a>
-</li>
-<li>set_linear_operator_A()
-: <a class="el" href="classug4_bridge_1_1_algebra_1_1_solver_1_1_eigen_solver.html#a093705aa2f7b158b6ec9644112d71ff6">EigenSolver</a>
-</li>
-<li>set_linear_operator_B()
-: <a class="el" href="classug4_bridge_1_1_algebra_1_1_solver_1_1_eigen_solver.html#a6c349955e6c7527f05c2e860927fad9a">EigenSolver</a>
 </li>
 <li>set_linear_solver()
 : <a class="el" href="classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_newton_solver.html#a3bf9e7c241086cde4e6042c4bcdc747a">NewtonSolver</a>
@@ -513,9 +507,6 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 <li>set_max()
 : <a class="el" href="classug4_bridge_1_1promesh_1_1_util_1_1_box.html#a199d17f917dc42fe6728fc39d176a80d">Box</a>
 </li>
-<li>set_max_iterations()
-: <a class="el" href="classug4_bridge_1_1_algebra_1_1_solver_1_1_eigen_solver.html#a579a26c6c7f0accd92ba6862ce343f07">EigenSolver</a>
-</li>
 <li>set_max_level()
 : <a class="el" href="classug4_bridge_1_1_discretization_1_1_adaptive_1_1_global_marking.html#aa290f614bfc4debf7edc0188a3e536aa">GlobalMarking</a>
 , <a class="el" href="classug4_bridge_1_1_discretization_1_1_adaptive_1_1_std_refinement_marking.html#ab6c758e5446e80e2a4ebb5ce1e2ef80b">StdRefinementMarking</a>
@@ -527,6 +518,9 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="classug4_bridge_1_1_algebra_1_1_conv_check.html#ad69362fd38143ef2a5f5a33713ed1ba2">ConvCheck</a>
 , <a class="el" href="classug4_bridge_1_1_composite_conv_check.html#ae48ac07ce50781d4a94e32d27b16fa2a">CompositeConvCheck</a>
 , <a class="el" href="classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_standard_line_search.html#aa5eb531267ddda897fc68a42dfd25e3f">StandardLineSearch</a>
+</li>
+<li>set_mg_stats()
+: <a class="el" href="classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_geometric_multi_grid.html#a062a908232466a514d985684f80e4fe5">GeometricMultiGrid</a>
 </li>
 <li>set_min()
 : <a class="el" href="classug4_bridge_1_1promesh_1_1_util_1_1_box.html#a810b88e4d80f3d1dd6bb4fccb2eae541">Box</a>
@@ -609,9 +603,6 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 <li>set_permeability()
 : <a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_darcy_velocity_linker.html#ae22bf50a392f3cabfad6fb15821ebf1c">DarcyVelocityLinker</a>
 </li>
-<li>set_pinvit()
-: <a class="el" href="classug4_bridge_1_1_algebra_1_1_solver_1_1_eigen_solver.html#aa7b7dccc8c5b4cae0c2dfcaed3f1e847">EigenSolver</a>
-</li>
 <li>set_pivot()
 : <a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html#ab05e07a762f031d732592360409945ff">Mesh</a>
 </li>
@@ -625,13 +616,9 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 <li>set_postsmoother()
 : <a class="el" href="classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_geometric_multi_grid.html#a870d945460a828536231279476f3a6bd">GeometricMultiGrid</a>
 </li>
-<li>set_precision()
-: <a class="el" href="classug4_bridge_1_1_algebra_1_1_solver_1_1_eigen_solver.html#a38966534fb10ed27312d35baaf00c7ee">EigenSolver</a>
-</li>
 <li>set_preconditioner()
 : <a class="el" href="classug4_bridge_1_1_algebra_1_1_i_preconditioned_linear_operator_inverse.html#af12637686d4ba5d7dc6c8892f0c97b22">IPreconditionedLinearOperatorInverse</a>
 , <a class="el" href="classug4_bridge_1_1_algebra_1_1_solver_1_1_debug_iterator.html#a2b40ac6fe7486aae757091a931f2d8ed">DebugIterator</a>
-, <a class="el" href="classug4_bridge_1_1_algebra_1_1_solver_1_1_eigen_solver.html#af12637686d4ba5d7dc6c8892f0c97b22">EigenSolver</a>
 </li>
 <li>set_presmoother()
 : <a class="el" href="classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_geometric_multi_grid.html#a0e84262d156255fa3c2c12f5565a5696">GeometricMultiGrid</a>
@@ -641,18 +628,6 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 </li>
 <li>set_print_consistent()
 : <a class="el" href="classug4_bridge_1_1_discretization_1_1_output_1_1_grid_function_debug_writer.html#a62a3ed841cc3f66f54bec1774e11c2af">GridFunctionDebugWriter</a>
-</li>
-<li>set_print_projected_eigenproblem()
-: <a class="el" href="classug4_bridge_1_1_algebra_1_1_solver_1_1_eigen_solver.html#a4b07ecdabfee42d0eba0bf5c30f02c9a">EigenSolver</a>
-</li>
-<li>set_print_projected_eigenvalues()
-: <a class="el" href="classug4_bridge_1_1_algebra_1_1_solver_1_1_eigen_solver.html#ad0ebb3351e91eccbec42a604f2af75bb">EigenSolver</a>
-</li>
-<li>set_print_projected_eigenvectors()
-: <a class="el" href="classug4_bridge_1_1_algebra_1_1_solver_1_1_eigen_solver.html#af30cfa812794e02864c819822a796b54">EigenSolver</a>
-</li>
-<li>set_print_used_testvectors()
-: <a class="el" href="classug4_bridge_1_1_algebra_1_1_solver_1_1_eigen_solver.html#a49b726dc044f8aa11512c346807627c4">EigenSolver</a>
 </li>
 <li>set_projection()
 : <a class="el" href="classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_geometric_multi_grid.html#a2f3abe47963db47f766fd4b1ea33efc0">GeometricMultiGrid</a>
@@ -717,9 +692,6 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 </li>
 <li>set_reinit_when_worse_then_average()
 : <a class="el" href="classug4_bridge_1_1_algebra_1_1_solver_1_1_auto_linear_solver.html#a05929ed4ea20aec61701f0db29aaffbc">AutoLinearSolver</a>
-</li>
-<li>set_relative_precision()
-: <a class="el" href="classug4_bridge_1_1_algebra_1_1_solver_1_1_eigen_solver.html#ab34a2db15f5bcab80bc679cf45045b87">EigenSolver</a>
 </li>
 <li>set_relax()
 : <a class="el" href="classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_diag_vanka.html#a7017f5a41363a283212b89b5e151bc45">DiagVanka</a>
@@ -820,12 +792,6 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 <li>set_stationary()
 : <a class="el" href="classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_i_elem_error.html#acaa03f38908e9e3264b5ccb3ebb55863">IElemError</a>
 </li>
-<li>set_store_defects()
-: <a class="el" href="classug4_bridge_1_1_algebra_1_1_solver_1_1_eigen_solver.html#a66d42cee709e3afe45e27e9103e58997">EigenSolver</a>
-</li>
-<li>set_store_lambdas()
-: <a class="el" href="classug4_bridge_1_1_algebra_1_1_solver_1_1_eigen_solver.html#a9f5750f4dda709e2a3008012241757f9">EigenSolver</a>
-</li>
 <li>set_subset_handler()
 : <a class="el" href="classug4_bridge_1_1_grid_1_1_global_fractured_medium_refiner.html#a31ae7e00e4dcc02b0f8acd38174ee51c">GlobalFracturedMediumRefiner</a>
 , <a class="el" href="classug4_bridge_1_1_load_balancing_1_1_hyper_manifold_partitioner___dynamic_bisection.html#a730e90f3495cbc748f401a82ba8fc6be">HyperManifoldPartitioner_DynamicBisection</a>
@@ -883,9 +849,6 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_v1.html#a58d38e4e52728aad89ac001792c14f51">ConvectionDiffusionFV1</a>
 , <a class="el" href="classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_v_c_r.html#a58d38e4e52728aad89ac001792c14f51">ConvectionDiffusionFVCR</a>
 </li>
-<li>set_use_additional_corrections()
-: <a class="el" href="classug4_bridge_1_1_algebra_1_1_solver_1_1_eigen_solver.html#aaec2a1e206c228dede112a1cda55414c">EigenSolver</a>
-</li>
 <li>set_use_transposed()
 : <a class="el" href="classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_std_transfer.html#a1faf27061491c70ffb9549f5041d9553">StdTransfer</a>
 </li>
@@ -923,6 +886,12 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 <li>set_weights()
 : <a class="el" href="classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_component_gauss_seidel.html#aeacc1e10957025aa816e33c6f33e7149">ComponentGaussSeidel</a>
 </li>
+<li>set_write_err_diffs()
+: <a class="el" href="classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_m_g_stats.html#afa8e8b2857fcfd82d579c664d84e3093">MGStats</a>
+</li>
+<li>set_write_err_vecs()
+: <a class="el" href="classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_m_g_stats.html#add2ef26dff0a1eb75f46926b05718a45">MGStats</a>
+</li>
 <li>shift_target_procs()
 : <a class="el" href="classug4_bridge_1_1_grid_1_1_partition_map.html#ac7bdcbe20219b5bcf2a46f663a723d54">PartitionMap</a>
 </li>
@@ -958,16 +927,16 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_sparse_backward_block_gauss_seidel.html#a9c431ffebb8bb055c3fb86af6acdeb65">SparseBackwardBlockGaussSeidel</a>
 </li>
 <li>SparseBlockGaussSeidel()
-: <a class="el" href="classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_sparse_block_gauss_seidel.html#ae261e16a1b8914631cda993aa259256b">SparseBlockGaussSeidel</a>
+: <a class="el" href="classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_sparse_block_gauss_seidel.html#aab332d3c8833046493958c52f57b5d5d">SparseBlockGaussSeidel</a>
 </li>
 <li>SparseBlockGaussSeidel2()
 : <a class="el" href="classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_sparse_block_gauss_seidel2.html#a21eea45ec8ac7da698243d76a6468591">SparseBlockGaussSeidel2</a>
 </li>
 <li>SparseSymmetricBlockGaussSeidel()
-: <a class="el" href="classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_sparse_symmetric_block_gauss_seidel.html#a8156ca8dba9b3239e5d39f630954202e">SparseSymmetricBlockGaussSeidel</a>
+: <a class="el" href="classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_sparse_symmetric_block_gauss_seidel.html#a1107fd8c40af21fca843823ac45387de">SparseSymmetricBlockGaussSeidel</a>
 </li>
 <li>SphereProjector()
-: <a class="el" href="classug4_bridge_1_1_grid_1_1_sphere_projector.html#aac1993b86467f14e837dcd197a380ac6">SphereProjector</a>
+: <a class="el" href="classug4_bridge_1_1_grid_1_1_sphere_projector.html#a9bd904592721201ceaad9b60f254a78c">SphereProjector</a>
 </li>
 <li>StandardDomainDecompositionInfo()
 : <a class="el" href="classug4_bridge_1_1_discretization_1_1_standard_domain_decomposition_info.html#aef52bb7c200790f1d2cf8797eeb245f8">StandardDomainDecompositionInfo</a>
@@ -1004,7 +973,7 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="classug4_bridge_1_1_util_1_1_string_table.html#ae83c6893eee1ede832cd253d0d6379a4">StringTable</a>
 </li>
 <li>SubdivisionProjector()
-: <a class="el" href="classug4_bridge_1_1_grid_1_1_subdivision_projector.html#aba1e0f1a8758e41073912ea5072dc89d">SubdivisionProjector</a>
+: <a class="el" href="classug4_bridge_1_1_grid_1_1_subdivision_projector.html#a4b56379ca70577caab5265cb878884cb">SubdivisionProjector</a>
 </li>
 <li>subset()
 : <a class="el" href="classug4_bridge_1_1_grid_1_1_degenerated_layer_manager.html#a440222c2cf97379ebc1be15b08e549fd">DegeneratedLayerManager</a>
@@ -1036,7 +1005,7 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="classug4_bridge_1_1_grid_1_1_surface_view.html#af7d0aabcc87c205241660fec771ba844">SurfaceView</a>
 </li>
 <li>SymmetricBlockGaussSeidel()
-: <a class="el" href="classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_symmetric_block_gauss_seidel.html#ad2387f7f7e774f151c7f5aebf33fca6c">SymmetricBlockGaussSeidel</a>
+: <a class="el" href="classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_symmetric_block_gauss_seidel.html#a94a199367be167c622bc01f95ec4393d">SymmetricBlockGaussSeidel</a>
 </li>
 <li>SymmetricBlockGaussSeidelIterative()
 : <a class="el" href="classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_symmetric_block_gauss_seidel_iterative.html#ae3f6efe8909d646aa96c6e61592df020">SymmetricBlockGaussSeidelIterative</a>
@@ -1053,7 +1022,7 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Mar 30 2017 18:42:58 for Registry by
+    <li class="footer">Generated on Mon Jul 24 2017 16:03:01 for Registry by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

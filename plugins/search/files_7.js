@@ -15,6 +15,8 @@ var searchData=
   ['heightfield_5futil_2eh',['heightfield_util.h',['../../heightfield____util__8h.html',1,'']]],
   ['hexahedron_5frules_2ecpp',['hexahedron_rules.cpp',['../../hexahedron____rules__8cpp.html',1,'']]],
   ['hexahedron_5frules_2eh',['hexahedron_rules.h',['../../hexahedron____rules__8h.html',1,'']]],
+  ['hexahedron_5futil_2ecpp',['hexahedron_util.cpp',['../../hexahedron____util__8cpp.html',1,'']]],
+  ['hexahedron_5futil_2eh',['hexahedron_util.h',['../../hexahedron____util__8h.html',1,'']]],
   ['hfv1_5fgeom_2ecpp',['hfv1_geom.cpp',['../../hfv1____geom__8cpp.html',1,'']]],
   ['hfv1_5fgeom_2eh',['hfv1_geom.h',['../../hfv1____geom__8h.html',1,'']]],
   ['hfvcr_5fgeom_2ecpp',['hfvcr_geom.cpp',['../../hfvcr____geom__8cpp.html',1,'']]],

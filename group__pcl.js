@@ -250,6 +250,7 @@ var group__pcl =
       [ "allreduce", "classpcl_1_1_process_communicator.html#a1e3264c8d8f00d75bd899a8ea39b0e01", null ],
       [ "allreduce", "classpcl_1_1_process_communicator.html#a3522849924039e28fecaa8ad0f074c7f", null ],
       [ "allreduce", "classpcl_1_1_process_communicator.html#a9ac4b53c26605c7fe9683bfe6c9fe4e1", null ],
+      [ "alltoall", "classpcl_1_1_process_communicator.html#a3e0460aac9629b04410f3fd3eba66400", null ],
       [ "barrier", "classpcl_1_1_process_communicator.html#a38a24e38e98554501ecffaa578af58ee", null ],
       [ "broadcast", "classpcl_1_1_process_communicator.html#aa219e509eaef84ff08865ccd5ca409c5", null ],
       [ "broadcast", "classpcl_1_1_process_communicator.html#a5155ae618f8fe76850b33760a7c80505", null ],

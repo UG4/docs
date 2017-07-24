@@ -50,19 +50,19 @@ var NAVTREEINDEX =
 "../apps/group__apps.html",
 "classug_1_1_docu_gen_1_1_cpp_generator.html#ab2c95e4db883db25e7e678fe0d58e196",
 "classug_1_1promesh_1_1_mesh.html#ab2500f858f3dd4ab745f7c9cb835251f",
-"dir_db76df1304fad9b5bb5c786ef15cc5fc.html",
-"group__crs__algebra.html#gaf1f295892d9277b8dd9800d4134467de",
-"group__lib__grid__algorithms__edge__util.html#ga1dacf3dfd8313a5816f7544e441c685c",
-"group__lib__grid__algorithms__selection__util.html#gacd3ae9a0df6c3c86c9a9581b04d77b7f",
-"group__math__matrix.html#ga5e9b5bfa58cc8b32205d09d4158ba700",
-"group__promesh.html#ga0079c3f635e98be6902a702b68c60fb9",
-"group__refinement__bridge.html#gaaf6e78c3dc108cd65553e1b2e2ac651f",
-"group__test__bridge.html#ga7c56fed07a189dc9c5ba86f36668c9b8",
-"group__ugbase__common__util.html#gaf91515f74a52c9178f5dd8683ad70615",
-"html__generation_8cpp.html#ga68d29074740448f382a1ece8b0a63ae3",
-"namespaceug_1_1_convection_diffusion_plugin.html",
-"selection__tools_8cpp.html#ga8c351240f0b761008fd6ef558c060430",
-"subset__tools_8cpp.html#ga6d90833032c9c3bfa8a1920470cbce6d"
+"dir_93f01a555c4c254edeaea1e5e924f4e8.html",
+"group__crs__algebra.html#gacba1690bd8bc1995e7ba15a3e37f60c5",
+"group__lib__grid__algorithms__edge__util.html",
+"group__lib__grid__algorithms__selection__util.html#gaae639b59215f29655ad6719db2afd3ed",
+"group__math__matrix.html#ga47d37e02751d5b74a604798085145855",
+"group__plugins.html",
+"group__refinement__bridge.html#ga529ef75374b032ec8fbbf00862b9997c",
+"group__test__bridge.html#ga2a7d4c240e5fb4beff8e62d7260909fa",
+"group__ugbase__common__util.html#gab9fd66c9dae824bb1564533cf571a547",
+"html__generation_8cpp.html#a3327d64cce25b512d94757f36feadb1a",
+"namespacemembers_func.html",
+"selection__tools_8cpp.html#ga61bc92c519412d57c57ecb6706223dc1",
+"structug_1_1_template_plugin_1_1_functionality.html#aa1959c498d4eb67f6408709472b6ff58"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -176,6 +176,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ga196e9956b54046cb9c9eb0e7fb35756b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__selection__util.html#ga196e9956b54046cb9c9eb0e7fb35756b">ug::SelectCreaseEdges</a> (<a class="el" href="classug_1_1_i_selector.html">ISelector</a> &amp;sel, TEdgeIterator edgesBegin, TEdgeIterator edgesEnd, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> minAngle, <a class="el" href="namespaceug.html#a780dd3524b97269f891365fd3c3b895a">APosition</a> aVrtPos, bool ignoreBoundaryEdges=true, <a class="el" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a> state=<a class="el" href="classug_1_1_i_selector.html#ae82aecd99067ebef1e622a8a0a88f806a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a>)</td></tr>
 <tr class="memdesc:ga196e9956b54046cb9c9eb0e7fb35756b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects edges which at which triangles meet in a large angle.  <a href="group__lib__grid__algorithms__selection__util.html#ga196e9956b54046cb9c9eb0e7fb35756b">More...</a><br /></td></tr>
 <tr class="separator:ga196e9956b54046cb9c9eb0e7fb35756b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeb7f5767ae41c23f5edf7ed089c92bb5"><td class="memTemplParams" colspan="2">template&lt;class TAAPos &gt; </td></tr>
+<tr class="memitem:gaeb7f5767ae41c23f5edf7ed089c92bb5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__selection__util.html#gaeb7f5767ae41c23f5edf7ed089c92bb5">ug::SelectEdgesByDirection</a> (<a class="el" href="classug_1_1_selector.html">Selector</a> &amp;sel, TAAPos &amp;aaPos, const <a class="el" href="group__vectors.html#ga894cdb8af74f7a563a94fb49c220fdcd">vector3</a> &amp;dir, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> minDeviationAngle, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> maxDeviationAngle, bool selectFlipped)</td></tr>
+<tr class="memdesc:gaeb7f5767ae41c23f5edf7ed089c92bb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects all edges that face a given direction.  <a href="group__lib__grid__algorithms__selection__util.html#gaeb7f5767ae41c23f5edf7ed089c92bb5">More...</a><br /></td></tr>
+<tr class="separator:gaeb7f5767ae41c23f5edf7ed089c92bb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga865d633f82420d0241ed9978373ce34a"><td class="memTemplParams" colspan="2">template&lt;class TElemIterator &gt; </td></tr>
 <tr class="memitem:ga865d633f82420d0241ed9978373ce34a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__selection__util.html#ga865d633f82420d0241ed9978373ce34a">ug::SelectInnerElements</a> (<a class="el" href="classug_1_1_i_selector.html">ISelector</a> &amp;sel, TElemIterator elemsBegin, TElemIterator elemsEnd)</td></tr>
 <tr class="memdesc:ga865d633f82420d0241ed9978373ce34a"><td class="mdescLeft">&#160;</td><td class="mdescRight">selects elements that do not lie on the associated grid's boundary  <a href="group__lib__grid__algorithms__selection__util.html#ga865d633f82420d0241ed9978373ce34a">More...</a><br /></td></tr>
@@ -1065,6 +1069,64 @@ template&lt;class TEdgeIterator &gt; </div>
 
 </div>
 </div>
+<a id="gaeb7f5767ae41c23f5edf7ed089c92bb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaeb7f5767ae41c23f5edf7ed089c92bb5">&sect;&nbsp;</a></span>SelectEdgesByDirection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TAAPos &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug::SelectEdgesByDirection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_selector.html">Selector</a> &amp;&#160;</td>
+          <td class="paramname"><em>sel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TAAPos &amp;&#160;</td>
+          <td class="paramname"><em>aaPos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__vectors.html#ga894cdb8af74f7a563a94fb49c220fdcd">vector3</a> &amp;&#160;</td>
+          <td class="paramname"><em>dir</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td>
+          <td class="paramname"><em>minDeviationAngle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td>
+          <td class="paramname"><em>maxDeviationAngle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>selectFlipped</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Selects all edges that face a given direction. </p>
+
+<p>References <a class="el" href="group__ugbase__mathutil.html#gaafe016a9ae9cce7dcf37a71079e15209">ug::deg_to_rad()</a>, <a class="el" href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">ug::ISelector::grid()</a>, <a class="el" href="lg__for__each_8h.html#ae2a0b1e127e668468b449221039b47e7">lg_end_for</a>, <a class="el" href="lg__for__each_8h.html#adfd673aeb3e3dc2596e8950162b600bc">lg_for_each</a>, <a class="el" href="classug_1_1_i_selector.html#a363d594b7adf4196fccc0d6afd24f542">ug::ISelector::select()</a>, <a class="el" href="namespaceug.html#a33c1491a216aec0f5a603a9a3dd6f758">ug::SMALL</a>, <a class="el" href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>, <a class="el" href="group__vectors.html#gae9174d47662deb0ba119e0e21f28ec71">ug::VecDot()</a>, <a class="el" href="group__vectors.html#ga53ae2dda87330ab64fb2a5901606b3e4">ug::VecNormalize()</a>, and <a class="el" href="group__vectors.html#ga5c7eda5aeb4cd0d53ce04f682d0a0058">ug::VecSubtract()</a>.</p>
+
+</div>
+</div>
 <a id="ga865d633f82420d0241ed9978373ce34a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga865d633f82420d0241ed9978373ce34a">&sect;&nbsp;</a></span>SelectInnerElements()</h2>
 
@@ -1704,7 +1766,7 @@ template&lt;class TAAPosVRT &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Mar 30 2017 18:44:12 for ug4 by
+    <li class="footer">Generated on Mon Jul 24 2017 16:04:13 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

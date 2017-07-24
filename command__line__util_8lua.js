@@ -12,6 +12,7 @@ var command__line__util_8lua =
     [ "GetParamBool", "command__line__util_8lua.html#afc9c40533231088973556e22e86646b5", null ],
     [ "GetParamFromList", "command__line__util_8lua.html#a96213d40f669ea60dcba5f30450987a1", null ],
     [ "GetParamNumber", "command__line__util_8lua.html#a15905780579d8b1f8ef46c116cba833a", null ],
+    [ "GetParamNumberArray", "command__line__util_8lua.html#a18620d377fc7a33031b53fd1322b6ffd", null ],
     [ "GetUniqueFilenameFromCommandLine", "command__line__util_8lua.html#af5e776f8e799b9b593f47f41298fc6a2", null ],
     [ "HasParamOption", "command__line__util_8lua.html#a29339c42d45704a255eb8d6949bcb3d1", null ],
     [ "PrintArguments", "command__line__util_8lua.html#aac5f25de48621ad0132065088ccb6e38", null ],

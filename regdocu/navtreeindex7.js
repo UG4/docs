@@ -1,16 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"classug4_bridge_1_1_grid_1_1_i_refiner.html#abd1562affe186e62a245d91f90d1ed10":[3,0,0,3,18,9],
-"classug4_bridge_1_1_grid_1_1_i_refiner.html#ae14db9d4c25569d38cbe321bbbe3ef23":[3,0,0,3,18,6],
-"classug4_bridge_1_1_grid_1_1_i_refiner.html#af927c3f97cbb6699cc4e7f9b7a717c6d":[3,0,0,3,18,2],
-"classug4_bridge_1_1_grid_1_1_i_refiner.html#afbc3d5680eefa2929d8e4b65e6ebd106":[3,0,0,3,18,12],
-"classug4_bridge_1_1_grid_1_1_i_selector.html":[3,0,0,3,20],
-"classug4_bridge_1_1_grid_1_1_i_selector.html#a1c41e23640160fd183d91d1d84ff6ab3":[3,0,0,3,20,3],
-"classug4_bridge_1_1_grid_1_1_i_selector.html#a8340dbf4200dfab673ca830891ca7c36":[3,0,0,3,20,1],
-"classug4_bridge_1_1_grid_1_1_i_selector.html#ae628eb77c90f22e00f5ecb429c541dfe":[3,0,0,3,20,0],
-"classug4_bridge_1_1_grid_1_1_i_selector.html#af2e41f69f1e28463c0d55d95721d4d45":[3,0,0,3,20,2],
-"classug4_bridge_1_1_grid_1_1_i_subset_handler.html":[3,0,0,3,21],
-"classug4_bridge_1_1_grid_1_1_i_subset_handler.html#a2ceaaafa0b2d135fef7dd90895159bfe":[3,0,0,3,21,7],
 "classug4_bridge_1_1_grid_1_1_i_subset_handler.html#a693d16dd9407f9d71c1161f4d7e419f1":[3,0,0,3,21,4],
 "classug4_bridge_1_1_grid_1_1_i_subset_handler.html#a6bb14491df5d56eb9279da09a4e22eea":[3,0,0,3,21,2],
 "classug4_bridge_1_1_grid_1_1_i_subset_handler.html#a737feeacb2396d0a7614c07f2303ac00":[3,0,0,3,21,6],
@@ -249,5 +238,16 @@ var NAVTREEINDEX7 =
 "classug4_bridge_1_1_load_balancing_1_1_hyper_manifold_partitioner___dynamic_bisection.html#a730e90f3495cbc748f401a82ba8fc6be":[3,0,0,5,4,12],
 "classug4_bridge_1_1_load_balancing_1_1_hyper_manifold_partitioner___dynamic_bisection.html#a7e39b0ad4fd23f966aa544e9d230c8b8":[3,0,0,5,4,0],
 "classug4_bridge_1_1_load_balancing_1_1_hyper_manifold_partitioner___dynamic_bisection.html#a8cd876a983cd01e3230b2317ac410c1f":[3,0,0,5,4,9],
-"classug4_bridge_1_1_load_balancing_1_1_hyper_manifold_partitioner___dynamic_bisection.html#a94842318f41ed94cd9e0fd6f574d34bb":[3,0,0,5,4,14]
+"classug4_bridge_1_1_load_balancing_1_1_hyper_manifold_partitioner___dynamic_bisection.html#a94842318f41ed94cd9e0fd6f574d34bb":[3,0,0,5,4,14],
+"classug4_bridge_1_1_load_balancing_1_1_hyper_manifold_partitioner___dynamic_bisection.html#ae6232a3f25373682d5580633e44e52d7":[3,0,0,5,4,10],
+"classug4_bridge_1_1_load_balancing_1_1_hyper_manifold_partitioner___dynamic_bisection.html#af55efc7aa514dd3b62aa3bdbd547b813":[3,0,0,5,4,6],
+"classug4_bridge_1_1_load_balancing_1_1_i_balance_weights.html":[3,0,0,5,5],
+"classug4_bridge_1_1_load_balancing_1_1_i_balance_weights.html#a33c21a7b9fbe2680bea198c321e31afa":[3,0,0,5,5,0],
+"classug4_bridge_1_1_load_balancing_1_1_i_partition_post_processor.html":[3,0,0,5,7],
+"classug4_bridge_1_1_load_balancing_1_1_i_partition_post_processor.html#af70c08067c865c0e3cbc3a6079af70cf":[3,0,0,5,7,0],
+"classug4_bridge_1_1_load_balancing_1_1_i_partitioner.html":[3,0,0,5,6],
+"classug4_bridge_1_1_load_balancing_1_1_i_partitioner.html#a1bb04e63a836f437cc2b2d4b57d975c7":[3,0,0,5,6,6],
+"classug4_bridge_1_1_load_balancing_1_1_i_partitioner.html#a2262e12f02ef3865bc22a8da755b0478":[3,0,0,5,6,0],
+"classug4_bridge_1_1_load_balancing_1_1_i_partitioner.html#a38a288b3a78131f8845ee1270b43cf1a":[3,0,0,5,6,1],
+"classug4_bridge_1_1_load_balancing_1_1_i_partitioner.html#a512201e60ad75f06915639f1c6d48c83":[3,0,0,5,6,3]
 };

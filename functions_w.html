@@ -151,7 +151,9 @@ $(document).ready(function(){initNavTree('functions_w.html','');});
 , <a class="el" href="classug_1_1_f_v_geometry.html#a2a2884702f97e39985e81fd43708041e">ug::FVGeometry&lt; TOrder, TElem, TWorldDim, TQuadOrder &gt;</a>
 , <a class="el" href="classug_1_1_h1_diff_integrand.html#a10cf3ca54e0a973cff00903ef4163588">ug::H1DiffIntegrand&lt; TGridFunction &gt;</a>
 , <a class="el" href="classug_1_1_h1_error_integrand.html#ace5796efea13f8bd2d72dfba10b8b497">ug::H1ErrorIntegrand&lt; TGridFunction &gt;</a>
-, <a class="el" href="classug_1_1_h1_semi_norm_integrand.html#abdd742174c22ab87ff4b3d31ea631355">ug::H1SemiNormIntegrand&lt; TGridFunction &gt;</a>
+, <a class="el" href="classug_1_1_h1_norm_func_integrand.html#a46cf2bb7e3837112b64e4c0a52fa434b">ug::H1NormFuncIntegrand&lt; TGridFunction &gt;</a>
+, <a class="el" href="classug_1_1_h1_semi_diff_integrand.html#aba2ee3b857add0fc5e572c7e5090cead">ug::H1SemiDiffIntegrand&lt; TGridFunction &gt;</a>
+, <a class="el" href="classug_1_1_h1_semi_norm_func_integrand.html#a05f7c0537bfd64221e8c681907837e00">ug::H1SemiNormFuncIntegrand&lt; TGridFunction &gt;</a>
 , <a class="el" href="classug_1_1_h_c_r_f_v_geometry.html#a447fa91299ea6b7e2e913f0a1ab83b90">ug::HCRFVGeometry&lt; TElem, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_h_f_v1_geometry_1_1_s_c_v_f.html#a3c13642e6ffd87b3d49f4f1c82226daf">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::SCVF</a>
 , <a class="el" href="classug_1_1_h_f_v1_geometry.html#a8d298e051c1f1470f176207c7250f3a0">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;</a>
@@ -221,8 +223,8 @@ $(document).ready(function(){initNavTree('functions_w.html','');});
 <li>write_data()
 : <a class="el" href="classug_1_1_geom_obj_attachment_serializer.html#ae61a94c18385b76c0f1fad545f11a911">ug::GeomObjAttachmentSerializer&lt; TGeomObj, TAttachment &gt;</a>
 , <a class="el" href="classug_1_1_geom_obj_data_serializer.html#a3a84a8952e6f4b8f129426b59c284921">ug::GeomObjDataSerializer&lt; TGeomObj &gt;</a>
-, <a class="el" href="classug_1_1_grid_data_serializer.html#a9ce5a3ed69069d27777efd631b7d5271">ug::GridDataSerializer</a>
-, <a class="el" href="classug_1_1_subset_handler_serializer.html#af798a93f18df62828a61d1c80c3cb3c8">ug::SubsetHandlerSerializer</a>
+, <a class="el" href="classug_1_1_grid_data_serializer.html#a38f8404865bc467ad8d703db1275c985">ug::GridDataSerializer</a>
+, <a class="el" href="classug_1_1_subset_handler_serializer.html#a37c144305c386e539dc84590ac3a85c7">ug::SubsetHandlerSerializer</a>
 </li>
 <li>write_data_array_footer()
 : <a class="el" href="classug_1_1_grid_writer_v_t_u.html#a0017dd3210b56cedc32ce70b1916be66">ug::GridWriterVTU</a>
@@ -260,7 +262,10 @@ $(document).ready(function(){initNavTree('functions_w.html','');});
 : <a class="el" href="classug_1_1_v_t_k_output.html#ad92e92d890fe70ed57918c62bf11f19a">ug::VTKOutput&lt; TDim &gt;</a>
 </li>
 <li>write_grid_solution_piece()
-: <a class="el" href="classug_1_1_v_t_k_output.html#a5087a9f8a7b33307a1c02ca51bf776ed">ug::VTKOutput&lt; TDim &gt;</a>
+: <a class="el" href="classug_1_1_v_t_k_output.html#a9ab16b8c1f2389074401253b27d657f1">ug::VTKOutput&lt; TDim &gt;</a>
+</li>
+<li>write_header()
+: <a class="el" href="classug_1_1_m_g_stats.html#a58dbe8ee6f8995831ed315e28c967eae">ug::MGStats&lt; TDomain, TAlgebra &gt;</a>
 </li>
 <li>write_info()
 : <a class="el" href="classug_1_1_geom_obj_data_serializer.html#aa6f7196c0ef89beef6a44d65d2d184b3">ug::GeomObjDataSerializer&lt; TGeomObj &gt;</a>
@@ -272,7 +277,7 @@ $(document).ready(function(){initNavTree('functions_w.html','');});
 : <a class="el" href="classug_1_1_grid_data_serialization_handler.html#a6cf0c4f85b35327cf2602763944d0d57">ug::GridDataSerializationHandler</a>
 </li>
 <li>write_item_to_file()
-: <a class="el" href="classug_1_1_v_t_k_output.html#a3f99ca03abdd193f8be90d83e373c6ca">ug::VTKOutput&lt; TDim &gt;</a>
+: <a class="el" href="classug_1_1_v_t_k_output.html#a1774cbf5b052c84b08867febf6c93b2f">ug::VTKOutput&lt; TDim &gt;</a>
 </li>
 <li>write_jump()
 : <a class="el" href="classug_1_1_binary_stream.html#a8a2f21ec11763ebe16589fea1cec5fce">ug::BinaryStream</a>
@@ -287,13 +292,13 @@ $(document).ready(function(){initNavTree('functions_w.html','');});
 : <a class="el" href="classug_1_1_algebra_debug_writer.html#ac9f7f40e9f2c5c39824deefd6ee5bb8b">ug::AlgebraDebugWriter&lt; TAlgebra &gt;</a>
 </li>
 <li>write_nodal_data()
-: <a class="el" href="classug_1_1_v_t_k_output.html#a648269b5e460f1136631dcdf31755225">ug::VTKOutput&lt; TDim &gt;</a>
+: <a class="el" href="classug_1_1_v_t_k_output.html#a30da854e8ff0c7dd7fb4febb339c84af">ug::VTKOutput&lt; TDim &gt;</a>
 </li>
 <li>write_nodal_data_elementwise()
 : <a class="el" href="classug_1_1_v_t_k_output.html#ae67901d1f09b551f08f04d0b93e8b470">ug::VTKOutput&lt; TDim &gt;</a>
 </li>
 <li>write_nodal_values()
-: <a class="el" href="classug_1_1_v_t_k_output.html#a5c8e417093cae5b27c13ef8f8056a3f9">ug::VTKOutput&lt; TDim &gt;</a>
+: <a class="el" href="classug_1_1_v_t_k_output.html#af9a6ef511d7ffb8def1ff7bfc05c73ff">ug::VTKOutput&lt; TDim &gt;</a>
 </li>
 <li>write_nodal_values_elementwise()
 : <a class="el" href="classug_1_1_v_t_k_output.html#a1e396bf295885461d7e50383b990debd">ug::VTKOutput&lt; TDim &gt;</a>
@@ -302,7 +307,7 @@ $(document).ready(function(){initNavTree('functions_w.html','');});
 : <a class="el" href="classug_1_1_v_t_k_output.html#a9322d1e2820d3420eb443d6dfa7febf2">ug::VTKOutput&lt; TDim &gt;</a>
 </li>
 <li>write_points()
-: <a class="el" href="classug_1_1_v_t_k_output.html#a9d242f004759bba7224f297004b4b745">ug::VTKOutput&lt; TDim &gt;</a>
+: <a class="el" href="classug_1_1_v_t_k_output.html#af79400f5329d1226101c6dc3328c3d12">ug::VTKOutput&lt; TDim &gt;</a>
 </li>
 <li>write_points_cells_piece()
 : <a class="el" href="classug_1_1_v_t_k_output.html#a1204331bce28ce059d076b9c6a24fcbe">ug::VTKOutput&lt; TDim &gt;</a>
@@ -370,7 +375,7 @@ $(document).ready(function(){initNavTree('functions_w.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Mar 30 2017 18:44:51 for ug4 by
+    <li class="footer">Generated on Mon Jul 24 2017 16:04:52 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

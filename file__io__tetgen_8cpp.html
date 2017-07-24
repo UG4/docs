@@ -112,8 +112,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a8e0a13b5c895d55798afa0e35c6d3486"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a8e0a13b5c895d55798afa0e35c6d3486">ug::ExportGridToSMESH</a> (Grid &amp;grid, const char *filename, AVector3 &amp;aPos, ISubsetHandler *psh=NULL, std::vector&lt; AFloat &gt; *pvNodeAttributes=NULL, std::vector&lt; vector3 &gt; *pvHoles=NULL, std::vector&lt; vector3 &gt; *pvRegionPositions=NULL, std::vector&lt; int &gt; *pvRegionAttributes=NULL, std::vector&lt; float &gt; *pvRegionVolumeConstraints=NULL)</td></tr>
 <tr class="memdesc:a8e0a13b5c895d55798afa0e35c6d3486"><td class="mdescLeft">&#160;</td><td class="mdescRight">writes an SMESH file.  <a href="namespaceug.html#a8e0a13b5c895d55798afa0e35c6d3486">More...</a><br /></td></tr>
 <tr class="separator:a8e0a13b5c895d55798afa0e35c6d3486"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba45f8de74e1d9aabc78c1934457890c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#aba45f8de74e1d9aabc78c1934457890c">ug::ExportGridToTETGEN</a> (Grid &amp;grid, const char *nodesFilename, const char *facesFilename, const char *elemsFilename, AVector3 &amp;aPos, std::vector&lt; AFloat &gt; *pvNodeAttributes, AInt *paNodeBoundaryMarker, AInt *paFaceBoundaryMarker, AInt *paElementAttribute)</td></tr>
-<tr class="separator:aba45f8de74e1d9aabc78c1934457890c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62a5e8ff348e88e9af8ec2baf1107ad3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a62a5e8ff348e88e9af8ec2baf1107ad3">ug::ExportGridToTETGEN</a> (Grid &amp;grid, const char *filename, AVector3 &amp;aPos, std::vector&lt; AFloat &gt; *pvNodeAttributes, AInt *paNodeBoundaryMarker, AInt *paFaceBoundaryMarker, AInt *paElementAttribute, ANumber *paVolumeConstraint)</td></tr>
+<tr class="separator:a62a5e8ff348e88e9af8ec2baf1107ad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41dae623d384bd5da7d31530c684c209"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a41dae623d384bd5da7d31530c684c209">ug::ImportGridFromTETGEN</a> (Grid &amp;grid, const char *nodesFilename, const char *facesFilename, const char *elemsFilename, AVector3 &amp;aPos, std::vector&lt; AFloat &gt; *pvNodeAttributes, AInt *paNodeBoundaryMarker, AInt *paFaceBoundaryMarker, AInt *paElementAttribute)</td></tr>
 <tr class="separator:a41dae623d384bd5da7d31530c684c209"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf5c35f2ed1598c8c17a56de20763638"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#adf5c35f2ed1598c8c17a56de20763638">ug::ImportGridFromTETGEN</a> (Grid &amp;grid, const char *nodesFilename, const char *facesFilename, const char *elemsFilename, AVector3 &amp;aPos, ISubsetHandler *psh, std::vector&lt; AFloat &gt; *pvNodeAttributes)</td></tr>
@@ -122,8 +122,8 @@ Functions</h2></td></tr>
 <tr class="separator:ab79594c8dae1f5b30b059c812463c54e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0cd0cca62bd91375328f5c0b57f0155f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a0cd0cca62bd91375328f5c0b57f0155f">ug::LoadGridFromSMESH</a> (Grid &amp;grid, const char *filename, AVector3 &amp;aPos, ISubsetHandler *psh)</td></tr>
 <tr class="separator:a0cd0cca62bd91375328f5c0b57f0155f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0a574cdaf6495f2f42b370d69068ec9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#ab0a574cdaf6495f2f42b370d69068ec9">ug::SaveGridToELE</a> (Grid &amp;grid, const char *filename, ISubsetHandler *pSH, APosition &amp;aPos)</td></tr>
-<tr class="separator:ab0a574cdaf6495f2f42b370d69068ec9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaafe5349bdf9d1764fc473abb6ca6560"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#aaafe5349bdf9d1764fc473abb6ca6560">ug::SaveGridToELE</a> (Grid &amp;grid, const char *filename, ISubsetHandler *pSH, APosition &amp;aPos, ANumber *paVolumeConstraint)</td></tr>
+<tr class="separator:aaafe5349bdf9d1764fc473abb6ca6560"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -131,7 +131,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_9cb5fcd0cbd108e4de7ac968a9e51f3d.html">lib_grid</a></li><li class="navelem"><a class="el" href="dir_61516e194be0d9e809ff8d4a42531234.html">file_io</a></li><li class="navelem"><a class="el" href="file__io__tetgen_8cpp.html">file_io_tetgen.cpp</a></li>
-    <li class="footer">Generated on Thu Mar 30 2017 18:44:10 for ug4 by
+    <li class="footer">Generated on Mon Jul 24 2017 16:04:12 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

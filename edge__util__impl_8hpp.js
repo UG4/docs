@@ -1,6 +1,7 @@
 var edge__util__impl_8hpp =
 [
     [ "AdjustEdgeOrientationToFaceOrientation", "edge__util__impl_8hpp.html#ga7e1d8942c72eeed23cb74ad52711e3f1", null ],
+    [ "AdjustEdgeOrientationToFaceOrientation", "edge__util__impl_8hpp.html#ga4db6283daf3248ee63b01cedfe70b830", null ],
     [ "CalculateCenter", "edge__util__impl_8hpp.html#ga13347b068653f9addb2fc2ccf1aba4f1", null ],
     [ "CalculateCenter", "edge__util__impl_8hpp.html#ga352532e6dd0af093674471d36257479e", null ],
     [ "ContainsPoint", "edge__util__impl_8hpp.html#gaed91ccbc1b4b95c2ef09c3f79aabd6ab", null ],

@@ -37,6 +37,8 @@ var searchData=
   ['file_5fio_5fobj_2eh',['file_io_obj.h',['../../file____io____obj__8h.html',1,'']]],
   ['file_5fio_5fstl_2ecpp',['file_io_stl.cpp',['../../file____io____stl__8cpp.html',1,'']]],
   ['file_5fio_5fstl_2eh',['file_io_stl.h',['../../file____io____stl__8h.html',1,'']]],
+  ['file_5fio_5fswc_2ecpp',['file_io_swc.cpp',['../../file____io____swc__8cpp.html',1,'']]],
+  ['file_5fio_5fswc_2eh',['file_io_swc.h',['../../file____io____swc__8h.html',1,'']]],
   ['file_5fio_5ftetgen_2ecpp',['file_io_tetgen.cpp',['../../file____io____tetgen__8cpp.html',1,'']]],
   ['file_5fio_5ftetgen_2eh',['file_io_tetgen.h',['../../file____io____tetgen__8h.html',1,'']]],
   ['file_5fio_5ftikz_2ecpp',['file_io_tikz.cpp',['../../file____io____tikz__8cpp.html',1,'']]],

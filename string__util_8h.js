@@ -4,6 +4,7 @@ var string__util_8h =
     [ "AppendSpacesToString", "string__util_8h.html#gacfe93b9ee6d535cbda9f70f50735c149", null ],
     [ "ConfigShift", "string__util_8h.html#a3b997f9aa9737b16be432992d3e00693", null ],
     [ "Contains", "string__util_8h.html#ga0d317951c56f966eb1f55dafba506147", null ],
+    [ "FilenameAndPathWithoutExtension", "string__util_8h.html#ga4ae70075163fe23e95e5c812479b514c", null ],
     [ "FilenameWithoutExtension", "string__util_8h.html#gafcd031e70b72b31892709b318ed323eb", null ],
     [ "FilenameWithoutPath", "string__util_8h.html#ga2ede77354bb8fb78e8cdea268a702c6d", null ],
     [ "FindDuplicates", "string__util_8h.html#ga430c2f750a474e82e1a054d872ac5036", null ],

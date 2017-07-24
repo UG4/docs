@@ -1,11 +1,14 @@
 var operations__vec_8h =
 [
     [ "VecAssign", "operations__vec_8h.html#a069551a3cb0d2b0fe254fe7b2e6b3dea", null ],
+    [ "VecHadamardProd", "operations__vec_8h.html#ad3bb64dc2cd7d787ab2a89879a86532d", null ],
+    [ "VecHadamardProd", "operations__vec_8h.html#a2a9aaf8418494bc674a777ea1879630a", null ],
     [ "VecNormSquared", "operations__vec_8h.html#ac81681e6e6811e74150657326e27e45b", null ],
     [ "VecNormSquared", "operations__vec_8h.html#a010dde0bcb0e8b8bc0ae702c681a80cc", null ],
     [ "VecNormSquaredAdd", "operations__vec_8h.html#a9564cccadf182905c0ef7a9b0da57afc", null ],
     [ "VecNormSquaredAdd", "operations__vec_8h.html#a2356517113e60c746f7ca89ecfa742d1", null ],
-    [ "VecProd", "operations__vec_8h.html#a953dc8fcdf146a6be6420ef1825c02c2", null ],
+    [ "VecProd", "operations__vec_8h.html#a56935099e4850d797a357fde92cd4e9a", null ],
+    [ "VecProd", "operations__vec_8h.html#a2b8c26d86e4ec69e41286b7c3abe5ffa", null ],
     [ "VecProd", "operations__vec_8h.html#aec7630ebfb409c11fbf31d02890e8d20", null ],
     [ "VecProd", "operations__vec_8h.html#a92e131c1dfa7d0357f3563357565a2f9", null ],
     [ "VecProdAdd", "operations__vec_8h.html#afa1e5f6a32cded6300be3b851b8284ba", null ],

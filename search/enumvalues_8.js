@@ -7,7 +7,7 @@ var searchData=
   ['int_5fv_5fmaster',['INT_V_MASTER',['../namespaceug.html#aacc2951b8f490a43026acf2e141fb9efa811ab36bcde93402628227a2e5d71d1d',1,'ug']]],
   ['int_5fv_5fslave',['INT_V_SLAVE',['../namespaceug.html#aacc2951b8f490a43026acf2e141fb9efaf1a5aa55ede8e60fb500fdc703dbe39b',1,'ug']]],
   ['integer',['INTEGER',['../classug_1_1_m_m_type_code.html#a82b56c890f1261190b468b7c95bb2088a6def2e82c178b9bdfe7c9b8df969d965',1,'ug::MMTypeCode']]],
-  ['invalid',['INVALID',['../classug_1_1_l_f_e_i_d.html#a7befff246bb0bc05f16a393c3418ed4ca737012a2e6902411dd2b4beeeccf7280',1,'ug::LFEID']]],
+  ['invalid',['INVALID',['../classug_1_1_l_f_e_i_d.html#a7befff246bb0bc05f16a393c3418ed4ca737012a2e6902411dd2b4beeeccf7280',1,'ug::LFEID::INVALID()'],['../classug_1_1_m_g_stats.html#a600f1e0525cddb0fa18bd62f216b0a39aa58bf221dc4264e1afde90a3f2602b7a',1,'ug::MGStats::INVALID()']]],
   ['invalid_5fattachment_5findex',['INVALID_ATTACHMENT_INDEX',['../namespaceug.html#a6f17741e9556bfd7aede175865018327ac416fe83e6b49f7f3ab1dced49ba9086',1,'ug']]],
   ['is_5fconst',['IS_CONST',['../namespaceug_1_1bridge_1_1lua.html#a926d1e96b32543aade05ffee5b6e7a28ab7e5112e36b696458f518746fd15c9f8',1,'ug::bridge::lua']]],
   ['is_5fdummy',['IS_DUMMY',['../namespaceug.html#a5e5bbb984fa69d71c847b774f1bc6f99a321046a39ba13f75ba291c6b94fec8b4',1,'ug']]],

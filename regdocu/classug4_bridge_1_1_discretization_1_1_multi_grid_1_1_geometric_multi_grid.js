@@ -16,6 +16,7 @@ var classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_geometric_multi_grid =
     [ "set_discretization", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_geometric_multi_grid.html#afd9d817941d5194e2709b223b25322f2", null ],
     [ "set_emulate_full_refined_grid", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_geometric_multi_grid.html#ac33d5d47eb2e0d9ae41b7bf352e827e8", null ],
     [ "set_gathered_base_solver_if_ambiguous", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_geometric_multi_grid.html#ad9752df6fa562100baeea243b6453f81", null ],
+    [ "set_mg_stats", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_geometric_multi_grid.html#a062a908232466a514d985684f80e4fe5", null ],
     [ "set_num_postsmooth", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_geometric_multi_grid.html#ab72dfa81a8389f181cf41481db507f1a", null ],
     [ "set_num_presmooth", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_geometric_multi_grid.html#a2ec3e18c78e6a3a1ba6a312d725f2898", null ],
     [ "set_postsmoother", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_geometric_multi_grid.html#a870d945460a828536231279476f3a6bd", null ],

@@ -112,6 +112,8 @@ $(document).ready(function(){initNavTree('classug4_bridge_1_1_algebra_1_1_solver
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a07a76a952b207380f8c06baf2e87bfa0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug4_bridge_1_1_algebra_1_1_solver_1_1_linear_solver.html#a07a76a952b207380f8c06baf2e87bfa0">add_postprocess_corr</a> (<a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug4_bridge_1_1_algebra_1_1_solver_1_1_i_p_process_vector.html">IPProcessVector</a> &gt; op)</td></tr>
+<tr class="separator:a07a76a952b207380f8c06baf2e87bfa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade5d273b3530271870c741617c2c24c5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug4_bridge_1_1_algebra_1_1_i_linear_operator_inverse.html#ade5d273b3530271870c741617c2c24c5">apply</a> (<a class="el" href="classug4_bridge_1_1_algebra_1_1_vector.html">Vector</a> *u, const <a class="el" href="classug4_bridge_1_1_algebra_1_1_vector.html">Vector</a> *f)</td></tr>
 <tr class="memdesc:ade5d273b3530271870c741617c2c24c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve A*u = f, such that u = A^{-1} f by iterating u := u + B(f - A*u), f remains constant.  <a href="#ade5d273b3530271870c741617c2c24c5">More...</a><br /></td></tr>
 <tr class="separator:ade5d273b3530271870c741617c2c24c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,6 +143,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8c4da4b626748f746b1f9fdbe885edfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bd5a6075b48f32ce5be7779b93f7dc4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug4_bridge_1_1_algebra_1_1_i_linear_operator_inverse.html#a6bd5a6075b48f32ce5be7779b93f7dc4">reduction</a> () const</td></tr>
 <tr class="separator:a6bd5a6075b48f32ce5be7779b93f7dc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf8f6920fddfab2eb680dc9612b60536"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug4_bridge_1_1_algebra_1_1_solver_1_1_linear_solver.html#abf8f6920fddfab2eb680dc9612b60536">remove_postprocess_corr</a> (<a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug4_bridge_1_1_algebra_1_1_solver_1_1_i_p_process_vector.html">IPProcessVector</a> &gt; op)</td></tr>
+<tr class="separator:abf8f6920fddfab2eb680dc9612b60536"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abea2930d3fc4494e1a44d841467c9357"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug4_bridge_1_1_algebra_1_1_i_preconditioned_linear_operator_inverse.html#abea2930d3fc4494e1a44d841467c9357">set_compute_fresh_defect_when_finished</a> (bool unnamed)</td></tr>
 <tr class="separator:abea2930d3fc4494e1a44d841467c9357"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e445d7e271a519b5342aa11b3cff9df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug4_bridge_1_1_algebra_1_1_i_linear_operator_inverse.html#a7e445d7e271a519b5342aa11b3cff9df">set_convergence_check</a> (<a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug4_bridge_1_1_algebra_1_1_i_convergence_check.html">IConvergenceCheck</a> &gt; unnamed)</td></tr>
@@ -235,6 +239,40 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a07a76a952b207380f8c06baf2e87bfa0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07a76a952b207380f8c06baf2e87bfa0">&sect;&nbsp;</a></span>add_postprocess_corr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void add_postprocess_corr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug4_bridge_1_1_algebra_1_1_solver_1_1_i_p_process_vector.html">IPProcessVector</a> &gt;&#160;</td>
+          <td class="paramname"><em>op</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">op</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../classug_1_1_linear_solver.html#ac8cbb0fbdd32b63c1034df67c44859fd">LinearSolver&lt; TVector &gt;::add_postprocess_corr()</a>.</p>
+
+</div>
+</div>
 <a id="ade5d273b3530271870c741617c2c24c5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ade5d273b3530271870c741617c2c24c5">&sect;&nbsp;</a></span>apply()</h2>
 
@@ -577,6 +615,40 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="abf8f6920fddfab2eb680dc9612b60536"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf8f6920fddfab2eb680dc9612b60536">&sect;&nbsp;</a></span>remove_postprocess_corr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void remove_postprocess_corr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug4_bridge_1_1_algebra_1_1_solver_1_1_i_p_process_vector.html">IPProcessVector</a> &gt;&#160;</td>
+          <td class="paramname"><em>op</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">op</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../classug_1_1_linear_solver.html#ad11b3f8ddc3c8b0bdd625b6a7e72dc0f">LinearSolver&lt; TVector &gt;::remove_postprocess_corr()</a>.</p>
+
+</div>
+</div>
 <a id="abea2930d3fc4494e1a44d841467c9357"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abea2930d3fc4494e1a44d841467c9357">&sect;&nbsp;</a></span>set_compute_fresh_defect_when_finished()</h2>
 
@@ -749,7 +821,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug4_bridge.html">ug4Bridge</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1_algebra.html">Algebra</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1_algebra_1_1_solver.html">Solver</a></li><li class="navelem"><a class="el" href="classug4_bridge_1_1_algebra_1_1_solver_1_1_linear_solver.html">LinearSolver</a></li>
-    <li class="footer">Generated on Thu Mar 30 2017 18:42:56 for Registry by
+    <li class="footer">Generated on Mon Jul 24 2017 16:02:59 for Registry by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

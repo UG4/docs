@@ -104,8 +104,10 @@ Functions</h2></td></tr>
 <tr class="separator:ga0d49d89c055bf5aaa5fd2b220d64a592"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga01e53b0b3235ad7fd44a7f16244fbb66"><td class="memItemLeft" align="right" valign="top">function util solver&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__solver__util.html#ga01e53b0b3235ad7fd44a7f16244fbb66">CreateLinearSolver</a> (solverDesc, solverutil)</td></tr>
 <tr class="separator:ga01e53b0b3235ad7fd44a7f16244fbb66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa2ca25e26990a4f430db64304fe00a52"><td class="memItemLeft" align="right" valign="top">function util solver&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__solver__util.html#gaa2ca25e26990a4f430db64304fe00a52">CreateLineSearch</a> (lineSearchDesc, solverutil)</td></tr>
-<tr class="separator:gaa2ca25e26990a4f430db64304fe00a52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadc3bcf3baf34bb89f5f316e7d6d4ae54"><td class="memItemLeft" align="right" valign="top">function util solver&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__solver__util.html#gadc3bcf3baf34bb89f5f316e7d6d4ae54">CreateLineSearch</a> (lineSearchDesc)</td></tr>
+<tr class="separator:gadc3bcf3baf34bb89f5f316e7d6d4ae54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa7ff8ecf7d493d928dfb3ef8cc0864a3"><td class="memItemLeft" align="right" valign="top">function util solver&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__solver__util.html#gaa7ff8ecf7d493d928dfb3ef8cc0864a3">CreateMGStats</a> (mgStatsDesc)</td></tr>
+<tr class="separator:gaa7ff8ecf7d493d928dfb3ef8cc0864a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1c53a785f30cb57353901b97cd7db905"><td class="memItemLeft" align="right" valign="top">function util solver&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__solver__util.html#ga1c53a785f30cb57353901b97cd7db905">CreatePreconditioner</a> (precondDesc, solverutil)</td></tr>
 <tr class="separator:ga1c53a785f30cb57353901b97cd7db905"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae5a587be3951f4a4c6bd677c2bdc84e7"><td class="memItemLeft" align="right" valign="top">function util solver&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__solver__util.html#gae5a587be3951f4a4c6bd677c2bdc84e7">CreateSolver</a> (solverDesc, solverutil)</td></tr>
@@ -119,7 +121,7 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Table based solver creation. </p>
-<p>Given a (possibly nested) solver description, e.g., </p><div class="fragment"><div class="line">solver = {</div><div class="line">  type = <span class="stringliteral">&quot;bicgstab&quot;</span>,</div><div class="line">  precond = <span class="stringliteral">&quot;ilu&quot;</span></div><div class="line">  convCheck = <span class="stringliteral">&quot;standard&quot;</span></div><div class="line">}</div></div><!-- fragment --><p> a call e.g. to util.solver.CreateSolver(solver) creates and returns the requested solver.</p>
+<p>Given a (possibly nested) solver description, e.g., </p><div class="fragment"><div class="line">solver = {</div><div class="line">  type = <span class="stringliteral">&quot;bicgstab&quot;</span>,</div><div class="line">  precond = <span class="stringliteral">&quot;ilu&quot;</span>,</div><div class="line">  convCheck = <span class="stringliteral">&quot;standard&quot;</span></div><div class="line">}</div></div><!-- fragment --><p> a call e.g. to util.solver.CreateSolver(solver) creates and returns the requested solver.</p>
 <p>All components may either be specified through a string-id or through a descriptor. You only have to specify those components which deviate from the defaults (solver.util.defaults), the rest will be ammended.</p>
 <p>To use a geometric multigrid preconditioner, you either have to specify an approxSpace entry in its descriptor or set 'util.solver.defaults.approxSpace' before calling any 'util.solver.Create...' method.</p>
 <p><br />
@@ -132,7 +134,7 @@ Functions</h2></td></tr>
  </p><h3>Example: Creating a simple iterative jacobi solver with custom parameters</h3>
 <div class="fragment"><div class="line">solverDesc = {</div><div class="line">  type = <span class="stringliteral">&quot;linear&quot;</span>,</div><div class="line">  precond = {</div><div class="line">    type = <span class="stringliteral">&quot;jac&quot;</span>,</div><div class="line">    damping = 0.5</div><div class="line">  }</div><div class="line">}</div><div class="line"></div><div class="line">solver = util.solver.CreateSolver(solverDesc)</div></div><!-- fragment --><p><br />
  </p><h3>Example: Creation of a bicgstab solver with geometric multigrid preconditioner</h3>
-<p>here someApproxSpace points to a previously created approximation space </p><div class="fragment"><div class="line">solverDesc = </div><div class="line">{</div><div class="line">  type = <span class="stringliteral">&quot;bicgstab&quot;</span>,      -- linear solver type [<span class="stringliteral">&quot;bicgstab&quot;</span>, <span class="stringliteral">&quot;cg&quot;</span>, <span class="stringliteral">&quot;linear&quot;</span>]</div><div class="line">  precond = </div><div class="line">  { </div><div class="line">    type    = <span class="stringliteral">&quot;gmg&quot;</span>,  -- preconditioner [<span class="stringliteral">&quot;gmg&quot;</span>, <span class="stringliteral">&quot;ilu&quot;</span>, <span class="stringliteral">&quot;ilut&quot;</span>, <span class="stringliteral">&quot;jac&quot;</span>, <span class="stringliteral">&quot;gs&quot;</span>, <span class="stringliteral">&quot;sgs&quot;</span>]</div><div class="line">    smoother  = <span class="stringliteral">&quot;gs&quot;</span>,   -- gmg-smoother [<span class="stringliteral">&quot;ilu&quot;</span>, <span class="stringliteral">&quot;ilut&quot;</span>, <span class="stringliteral">&quot;jac&quot;</span>, <span class="stringliteral">&quot;gs&quot;</span>, <span class="stringliteral">&quot;sgs&quot;</span>]</div><div class="line">    cycle   = <span class="stringliteral">&quot;V&quot;</span>,    -- gmg-cycle [<span class="stringliteral">&quot;V&quot;</span>, <span class="stringliteral">&quot;F&quot;</span>, <span class="stringliteral">&quot;W&quot;</span>]</div><div class="line">    preSmooth = 3,    -- <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> presmoothing steps</div><div class="line">    postSmooth  = 3,    -- <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> postsmoothing steps</div><div class="line">    rap     = <span class="keyword">false</span>,  -- comutes RAP-product instead of assembling <span class="keywordflow">if</span> <span class="keyword">true</span> </div><div class="line">    baseLevel = 0,    -- gmg - baselevel</div><div class="line">    baseSolver  = {     -- better options are most likely <span class="stringliteral">&quot;lu&quot;</span> or <span class="stringliteral">&quot;superlu&quot;</span></div><div class="line">      type    = <span class="stringliteral">&quot;bicgstab&quot;</span>,</div><div class="line">      precond   = <span class="stringliteral">&quot;gs&quot;</span>,</div><div class="line">      convCheck = {</div><div class="line">        type    = <span class="stringliteral">&quot;standard&quot;</span></div><div class="line">        iterations  = 1000,</div><div class="line">        absolute  = 1e-12,</div><div class="line">        reduction = 1e-10,</div><div class="line">        verbose   = <span class="keyword">false</span></div><div class="line">      }</div><div class="line">    }</div><div class="line">    approxSpace = someApproxSpace,</div><div class="line">  },</div><div class="line"></div><div class="line">  convCheck = <span class="stringliteral">&quot;standard&quot;</span></div><div class="line">}</div><div class="line">solver = util.solver.CreateSolver(solverDesc)</div></div><!-- fragment --><p><br />
+<p>here someApproxSpace points to a previously created approximation space </p><div class="fragment"><div class="line">solverDesc = </div><div class="line">{</div><div class="line">  type = <span class="stringliteral">&quot;bicgstab&quot;</span>,      -- linear solver type [<span class="stringliteral">&quot;bicgstab&quot;</span>, <span class="stringliteral">&quot;cg&quot;</span>, <span class="stringliteral">&quot;linear&quot;</span>]</div><div class="line">  precond = </div><div class="line">  { </div><div class="line">    type    = <span class="stringliteral">&quot;gmg&quot;</span>,  -- preconditioner [<span class="stringliteral">&quot;gmg&quot;</span>, <span class="stringliteral">&quot;ilu&quot;</span>, <span class="stringliteral">&quot;ilut&quot;</span>, <span class="stringliteral">&quot;jac&quot;</span>, <span class="stringliteral">&quot;gs&quot;</span>, <span class="stringliteral">&quot;sgs&quot;</span>]</div><div class="line">    smoother  = <span class="stringliteral">&quot;gs&quot;</span>,   -- gmg-smoother [<span class="stringliteral">&quot;ilu&quot;</span>, <span class="stringliteral">&quot;ilut&quot;</span>, <span class="stringliteral">&quot;jac&quot;</span>, <span class="stringliteral">&quot;gs&quot;</span>, <span class="stringliteral">&quot;sgs&quot;</span>]</div><div class="line">    cycle   = <span class="stringliteral">&quot;V&quot;</span>,    -- gmg-cycle [<span class="stringliteral">&quot;V&quot;</span>, <span class="stringliteral">&quot;F&quot;</span>, <span class="stringliteral">&quot;W&quot;</span>]</div><div class="line">    preSmooth = 3,    -- <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> presmoothing steps</div><div class="line">    postSmooth  = 3,    -- <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> postsmoothing steps</div><div class="line">    rap     = <span class="keyword">false</span>,  -- comutes RAP-product instead of assembling <span class="keywordflow">if</span> <span class="keyword">true</span> </div><div class="line">    baseLevel = 0,    -- gmg - baselevel</div><div class="line">    baseSolver  = {     -- better options are most likely <span class="stringliteral">&quot;lu&quot;</span> or <span class="stringliteral">&quot;superlu&quot;</span></div><div class="line">      type    = <span class="stringliteral">&quot;bicgstab&quot;</span>,</div><div class="line">      precond   = <span class="stringliteral">&quot;gs&quot;</span>,</div><div class="line">      convCheck = {</div><div class="line">        type    = <span class="stringliteral">&quot;standard&quot;</span>,</div><div class="line">        iterations  = 1000,</div><div class="line">        absolute  = 1e-12,</div><div class="line">        reduction = 1e-10,  -- higher values may suffice and may be much</div><div class="line">                    -- more efficent (e.g. 1e-2, 1e-4, ...).</div><div class="line">        verbose   = <span class="keyword">false</span></div><div class="line">      }</div><div class="line">    },</div><div class="line">    approxSpace = someApproxSpace,</div><div class="line">  },</div><div class="line"></div><div class="line">  convCheck = <span class="stringliteral">&quot;standard&quot;</span></div><div class="line">}</div><div class="line">solver = util.solver.CreateSolver(solverDesc)</div></div><!-- fragment --><p><br />
  </p><h3>Example: Providing custom solver and preconditioner objects (advanced)</h3>
 <p>You may also provide instances of preconditioners instead of descriptor tables: </p><div class="fragment"><div class="line">solverDesc =</div><div class="line">{</div><div class="line">  type = <span class="stringliteral">&quot;linear&quot;</span>,</div><div class="line">  precond = ILU()   -- <span class="keywordflow">for each</span> component one can optionally supply a custom instance</div><div class="line">}</div><div class="line">solver = util.solver.CreateSolver(solverDesc)</div></div><!-- fragment --><p><br />
  </p><h3>Example: Accessing the created solvers and preconditioners (advanced)</h3>
@@ -157,7 +159,7 @@ Functions</h2></td></tr>
  </p><h2>Preconditioners</h2>
 <p>The following listing gives an overview over available preconditioners and their default parameters.</p>
 <h3>Geometric Multigrid</h3>
-<div class="fragment"><div class="line">{</div><div class="line">  type              = <span class="stringliteral">&quot;gmg&quot;</span>,</div><div class="line">  adaptive            = <span class="keyword">false</span>,</div><div class="line">  approxSpace           = nil,</div><div class="line">  baseLevel             = 0,</div><div class="line">  baseSolver            = <span class="stringliteral">&quot;lu&quot;</span>,   -- any solver listed in the <span class="stringliteral">&#39;Solvers&#39;</span> section</div><div class="line">  cycle               = <span class="stringliteral">&quot;V&quot;</span>,</div><div class="line">  discretization          = nil,    -- only necessary <span class="keywordflow">if</span> the underlying matrix is not of type AssembledLinearOperator</div><div class="line">  gatheredBaseSolverIfAmbiguous = <span class="keyword">false</span>,</div><div class="line">  preSmooth             = 3,</div><div class="line">  postSmooth            = 3,</div><div class="line">  rap               = <span class="keyword">false</span>,</div><div class="line">  rim               = <span class="keyword">false</span>,</div><div class="line">  emulateFullRefined        = <span class="keyword">false</span>,</div><div class="line">  smoother            = <span class="stringliteral">&quot;gs&quot;</span>,   -- any preconditioner listed in the <span class="stringliteral">&#39;Preconditioners&#39;</span> section</div><div class="line">  transfer            = <span class="stringliteral">&quot;std&quot;</span>,  -- any transfer listed in the <span class="stringliteral">&#39;Transfers&#39;</span> section</div><div class="line">  debug               = <span class="keyword">false</span></div><div class="line">}</div></div><!-- fragment --><p><br />
+<div class="fragment"><div class="line">{</div><div class="line">  type              = <span class="stringliteral">&quot;gmg&quot;</span>,</div><div class="line">  adaptive            = <span class="keyword">false</span>,</div><div class="line">  approxSpace           = nil,</div><div class="line">  baseLevel             = 0,</div><div class="line">  baseSolver            = <span class="stringliteral">&quot;lu&quot;</span>,   -- any solver listed in the <span class="stringliteral">&#39;Solvers&#39;</span> section</div><div class="line">  cycle               = <span class="stringliteral">&quot;V&quot;</span>,</div><div class="line">  discretization          = nil,    -- only necessary <span class="keywordflow">if</span> the underlying matrix is not of type AssembledLinearOperator</div><div class="line">  gatheredBaseSolverIfAmbiguous = <span class="keyword">false</span>,</div><div class="line">  preSmooth             = 3,</div><div class="line">  postSmooth            = 3,</div><div class="line">  rap               = <span class="keyword">false</span>,</div><div class="line">  rim               = <span class="keyword">false</span>,</div><div class="line">  emulateFullRefined        = <span class="keyword">false</span>,</div><div class="line">  smoother            = <span class="stringliteral">&quot;gs&quot;</span>,   -- any preconditioner listed in the <span class="stringliteral">&#39;Preconditioners&#39;</span> section</div><div class="line">  transfer            = <span class="stringliteral">&quot;std&quot;</span>,  -- any transfer listed in the <span class="stringliteral">&#39;Transfers&#39;</span> section</div><div class="line">  debug               = <span class="keyword">false</span>,</div><div class="line">  mgStats             = nil   -- any mgStats listed in the <span class="stringliteral">&#39;MGStats&#39;</span> section</div><div class="line">}</div></div><!-- fragment --><p><br />
  </p><h3>ILU</h3>
 <div class="fragment"><div class="line">{</div><div class="line">  type      = <span class="stringliteral">&quot;ilu&quot;</span>,</div><div class="line">  beta      = 0,</div><div class="line">  damping     = 1,</div><div class="line">  sortEps     = 1.e-50,</div><div class="line">  inversionEps  = 1.e-8</div><div class="line">}</div></div><!-- fragment --><p><br />
  </p><h3>ILUT</h3>
@@ -184,7 +186,11 @@ Functions</h2></td></tr>
  </p><h2>Line Search Methods</h2>
 <p>The following listing gives an overview over available line search methods and their default parameters.</p>
 <h3>Standard Line Search Method</h3>
-<div class="fragment"><div class="line">{</div><div class="line">  type      = <span class="stringliteral">&quot;standard&quot;</span>,</div><div class="line">  maxSteps    = 10,</div><div class="line">  lambdaStart   = 1,</div><div class="line">  lambdaReduce  = 0.5,</div><div class="line">  acceptBest    = <span class="keyword">true</span>,</div><div class="line">  checkAll    = <span class="keyword">false</span></div><div class="line">}</div></div><!-- fragment --> <h2 class="groupheader">Function Documentation</h2>
+<div class="fragment"><div class="line">{</div><div class="line">  type      = <span class="stringliteral">&quot;standard&quot;</span>,</div><div class="line">  maxSteps    = 10,</div><div class="line">  lambdaStart   = 1,</div><div class="line">  lambdaReduce  = 0.5,</div><div class="line">  acceptBest    = <span class="keyword">true</span>,</div><div class="line">  checkAll    = <span class="keyword">false</span></div><div class="line">}</div></div><!-- fragment --><p><br />
+ </p><h2>MGStats</h2>
+<p>The following listing gives an overview over available MGStats objects. MGStats objects are used to record statistics on individual multigrid cycles. They add some overhead, so one should only use them for debugging.</p>
+<h3>MGStats</h3>
+<div class="fragment"><div class="line">{</div><div class="line">  type      = <span class="stringliteral">&quot;standard&quot;</span>,</div><div class="line">  filenamePrefix  = <span class="stringliteral">&quot;mgstats&quot;</span>,</div><div class="line">  exitOnError   = <span class="keyword">false</span>,</div><div class="line">  writeErrVecs  = <span class="keyword">false</span>,</div><div class="line">  writeErrDiffs = <span class="keyword">false</span>,</div><div class="line">  activeStages  = nil</div><div class="line">}</div></div><!-- fragment --> <h2 class="groupheader">Function Documentation</h2>
 <a id="ga6badd4088b77593365e08be6ccdbc764"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga6badd4088b77593365e08be6ccdbc764">&sect;&nbsp;</a></span>CondAbort()</h2>
 
@@ -210,7 +216,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :508-513 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.solver.CondAbort(condition, <a class="code" href="group__scripts__util__test.html#gab01173c9c178b0a1f6a8c61955b0c2dd">message</a>)</div><div class="line">  <span class="keywordflow">if</span> condition == <span class="keyword">true</span> then</div><div class="line">    <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(<span class="stringliteral">&quot;ERROR in util.solver: &quot;</span> .. <a class="code" href="group__scripts__util__test.html#gab01173c9c178b0a1f6a8c61955b0c2dd">message</a>)</div><div class="line">    exit()</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :540-545 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.solver.CondAbort(condition, <a class="code" href="group__scripts__util__test.html#gab01173c9c178b0a1f6a8c61955b0c2dd">message</a>)</div><div class="line">  <span class="keywordflow">if</span> condition == <span class="keyword">true</span> then</div><div class="line">    <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(<span class="stringliteral">&quot;ERROR in util.solver: &quot;</span> .. <a class="code" href="group__scripts__util__test.html#gab01173c9c178b0a1f6a8c61955b0c2dd">message</a>)</div><div class="line">    exit()</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="ga0d49d89c055bf5aaa5fd2b220d64a592"></a>
@@ -238,7 +244,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :791-839 </p>
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :829-877 </p>
 
 </div>
 </div>
@@ -267,12 +273,12 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :564-622 </p>
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :596-654 </p>
 
 </div>
 </div>
-<a id="gaa2ca25e26990a4f430db64304fe00a52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa2ca25e26990a4f430db64304fe00a52">&sect;&nbsp;</a></span>CreateLineSearch()</h2>
+<a id="gadc3bcf3baf34bb89f5f316e7d6d4ae54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadc3bcf3baf34bb89f5f316e7d6d4ae54">&sect;&nbsp;</a></span>CreateLineSearch()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -281,22 +287,31 @@ Functions</h2></td></tr>
           <td class="memname">function util solver CreateLineSearch </td>
           <td>(</td>
           <td class="paramtype">lineSearchDesc&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">solverutil&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :842-869 </p>
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :879-905 </p>
+
+</div>
+</div>
+<a id="gaa7ff8ecf7d493d928dfb3ef8cc0864a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa7ff8ecf7d493d928dfb3ef8cc0864a3">&sect;&nbsp;</a></span>CreateMGStats()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util solver CreateMGStats </td>
+          <td>(</td>
+          <td class="paramtype">mgStatsDesc&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :908-939 </p>
 
 </div>
 </div>
@@ -325,7 +340,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :654-788 </p>
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :687-826 </p>
 
 </div>
 </div>
@@ -360,7 +375,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :533-562 </p>
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :565-594 </p>
 
 </div>
 </div>
@@ -379,7 +394,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :624-651 </p>
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :656-683 </p>
 
 </div>
 </div>
@@ -409,7 +424,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>if solverDesc is a table, solverDesc.solverutil will be set to solverutil or initialized as an empty table. The method will then return solverDesc.solverutil. If solverDesc is not a table, the method returns solverutil or {}, if solverutil == nil.</p>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :519-526 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.solver.PrepareSolverUtil(solverDesc, solverutil)</div><div class="line">  <span class="keywordflow">if</span> type(solverDesc) == <span class="stringliteral">&quot;table&quot;</span> then</div><div class="line">    solverDesc.solverutil = solverutil or solverDesc.solverutil or {}</div><div class="line">    <span class="keywordflow">return</span> solverDesc.solverutil</div><div class="line">  <span class="keywordflow">else</span></div><div class="line">    <span class="keywordflow">return</span> solverutil or {}</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :551-558 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.solver.PrepareSolverUtil(solverDesc, solverutil)</div><div class="line">  <span class="keywordflow">if</span> type(solverDesc) == <span class="stringliteral">&quot;table&quot;</span> then</div><div class="line">    solverDesc.solverutil = solverutil or solverDesc.solverutil or {}</div><div class="line">    <span class="keywordflow">return</span> solverDesc.solverutil</div><div class="line">  <span class="keywordflow">else</span></div><div class="line">    <span class="keywordflow">return</span> solverutil or {}</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="ga8aae52c36cb6f4043d36e874f0196319"></a>
@@ -445,13 +460,13 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Prepares a solution step, e.g. during nested iterations. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">desc</td><td>a solver-desc which was used during solver-creation in one of the solver_util_2 methods or a solverutil table, which is was also created in one of the solver_util_2 methods or simply a table which holds a bunch of Convergence-Check descriptor tables.</td></tr>
+    <tr><td class="paramname">desc</td><td>a solver-desc which was used during solver-creation in one of the solver_util methods or a solverutil table, which is was also created in one of the solver_util methods or simply a table which holds a bunch of Convergence-Check descriptor tables.</td></tr>
     <tr><td class="paramname">nestedStep</td><td>(optional) the step of the nested iteration (default: 1)</td></tr>
     <tr><td class="paramname">timeStep</td><td>(optional) the current time step (default: 1)</td></tr>
   </table>
   </dd>
 </dl>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :880-905 </p>
+<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :951-976 </p>
 
 </div>
 </div>
@@ -460,7 +475,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Mar 30 2017 18:44:12 for ug4 by
+    <li class="footer">Generated on Mon Jul 24 2017 16:04:13 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

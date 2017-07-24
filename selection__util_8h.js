@@ -21,6 +21,7 @@ var selection__util_8h =
     [ "SelectAssociatedVolumes", "selection__util_8h.html#gaae15c796974d02d497cc96e586c562d6", null ],
     [ "SelectBoundaryElements", "selection__util_8h.html#gaad1a00f532621a225fea7234a8d73b7f", null ],
     [ "SelectCreaseEdges", "selection__util_8h.html#ga196e9956b54046cb9c9eb0e7fb35756b", null ],
+    [ "SelectEdgesByDirection", "selection__util_8h.html#gaeb7f5767ae41c23f5edf7ed089c92bb5", null ],
     [ "SelectInnerElements", "selection__util_8h.html#ga865d633f82420d0241ed9978373ce34a", null ],
     [ "SelectInnerSelectionEdges", "selection__util_8h.html#ga5ee1e6ec145bc10deda7c568718df210", null ],
     [ "SelectInnerSelectionFaces", "selection__util_8h.html#gaafe097ce495097d9a7762bd7b5997964", null ],

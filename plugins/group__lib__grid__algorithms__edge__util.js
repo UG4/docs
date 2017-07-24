@@ -1,6 +1,7 @@
 var group__lib__grid__algorithms__edge__util =
 [
     [ "AdjustEdgeOrientationToFaceOrientation", "../group__lib__grid__algorithms__edge__util.html#ga7e1d8942c72eeed23cb74ad52711e3f1", null ],
+    [ "AdjustEdgeOrientationToFaceOrientation", "../group__lib__grid__algorithms__edge__util.html#ga4db6283daf3248ee63b01cedfe70b830", null ],
     [ "CalculateCenter", "../group__lib__grid__algorithms__edge__util.html#ga13347b068653f9addb2fc2ccf1aba4f1", null ],
     [ "CalculateCenter", "../group__lib__grid__algorithms__edge__util.html#ga352532e6dd0af093674471d36257479e", null ],
     [ "CalculateNormal", "../group__lib__grid__algorithms__edge__util.html#ga47d8d9dc1634d72a7500de9fe2e1f7a3", null ],
@@ -19,8 +20,8 @@ var group__lib__grid__algorithms__edge__util =
     [ "FixEdgeOrientation", "../group__lib__grid__algorithms__edge__util.html#gab71f0105ef482356bab57a65bc535624", null ],
     [ "GetAssociatedFaces", "../group__lib__grid__algorithms__edge__util.html#ga6530a13a5990c960cfd2f1f066e0be8c", null ],
     [ "GetConnectingEdge", "../group__lib__grid__algorithms__edge__util.html#gac8adcbaa5a7de0382231d8d2a058a362", null ],
-    [ "GetEdgeIndex", "../group__lib__grid__algorithms__edge__util.html#ga1630d8ea9135b8305a86bdece82d93f0", null ],
     [ "GetEdgeIndex", "../group__lib__grid__algorithms__edge__util.html#ga7c5fb5c0a5f5a045c6a3a6fa54efd4c0", null ],
+    [ "GetEdgeIndex", "../group__lib__grid__algorithms__edge__util.html#ga1630d8ea9135b8305a86bdece82d93f0", null ],
     [ "GetInnerEdgesOfFaceSoup", "../group__lib__grid__algorithms__edge__util.html#gae3fa16603c61d18dcab1db0593a745d6", null ],
     [ "GetVertex", "../group__lib__grid__algorithms__edge__util.html#ga5dbcb9d97d82202a72209f0ee92eacc0", null ],
     [ "IsBoundaryEdge", "../group__lib__grid__algorithms__edge__util.html#gac0565ea76771097bfbd142f02cea7adb", null ],

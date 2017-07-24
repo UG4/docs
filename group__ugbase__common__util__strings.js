@@ -3,6 +3,7 @@ var group__ugbase__common__util__strings =
     [ "AppendCounterToString", "group__ugbase__common__util__strings.html#ga9dc1f55af5da2b8aba035249566f72ad", null ],
     [ "AppendSpacesToString", "group__ugbase__common__util__strings.html#gacfe93b9ee6d535cbda9f70f50735c149", null ],
     [ "Contains", "group__ugbase__common__util__strings.html#ga0d317951c56f966eb1f55dafba506147", null ],
+    [ "FilenameAndPathWithoutExtension", "group__ugbase__common__util__strings.html#ga4ae70075163fe23e95e5c812479b514c", null ],
     [ "FilenameWithoutExtension", "group__ugbase__common__util__strings.html#gafcd031e70b72b31892709b318ed323eb", null ],
     [ "FilenameWithoutPath", "group__ugbase__common__util__strings.html#ga2ede77354bb8fb78e8cdea268a702c6d", null ],
     [ "FindDuplicates", "group__ugbase__common__util__strings.html#ga430c2f750a474e82e1a054d872ac5036", null ],

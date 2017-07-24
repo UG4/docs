@@ -1,8 +1,8 @@
 var searchData=
 [
   ['script_5fpath',['SCRIPT_PATH',['../group__ugbase__common__util.html#gga72a67cfeae3e674ed54d159e32af7622a370bd2c03adbb5e316698a9755024026',1,'ug']]],
-  ['sd_5finner',['SD_INNER',['../namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1eae374d76c94587b39df5d8bc164c3f3e3',1,'ug']]],
-  ['sd_5fskeleton',['SD_SKELETON',['../namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1ea63988d8bf3f292bc8dbc4e4b3250b7bf',1,'ug']]],
+  ['sd_5finner',['SD_INNER',['../namespaceug.html#a53bc1b6a198b441e6b26a5d748ef5261ae374d76c94587b39df5d8bc164c3f3e3',1,'ug']]],
+  ['sd_5fskeleton',['SD_SKELETON',['../namespaceug.html#a53bc1b6a198b441e6b26a5d748ef5261a63988d8bf3f292bc8dbc4e4b3250b7bf',1,'ug']]],
   ['se_5fall',['SE_ALL',['../group__lib__grid__tools.html#gga0532dd6cb7a3062be04f96262a998b94a0f68961fcf0d0eacfdbecc0dac44af8a',1,'ug']]],
   ['se_5fedge',['SE_EDGE',['../group__lib__grid__tools.html#gga0532dd6cb7a3062be04f96262a998b94ae72aa73044a88663b69fd3023152fbd9',1,'ug']]],
   ['se_5fface',['SE_FACE',['../group__lib__grid__tools.html#gga0532dd6cb7a3062be04f96262a998b94a8713d5f79bef3b9a47c35060bac1cb8c',1,'ug']]],
@@ -28,7 +28,7 @@ var searchData=
   ['skew',['SKEW',['../classug_1_1_m_m_type_code.html#a8326ecdcc2dd7e314a0a0252a69c7850ab876a5aa13e37e22a0282fcc01f2fc3d',1,'ug::MMTypeCode']]],
   ['sles_5frim',['SLES_RIM',['../namespaceug.html#a9d9ac57deb0e782c675278930e14ea11a106bf093e4b4f4983a9be9804b465b6a',1,'ug']]],
   ['sles_5funknown',['SLES_UNKNOWN',['../namespaceug.html#a9d9ac57deb0e782c675278930e14ea11ad285b4aae291a6712e019bd4e631709e',1,'ug']]],
-  ['slice_5fdesc_5fsize',['SLICE_DESC_SIZE',['../namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1eaec42ad6b4faf97c7fe62caea54dac3cc',1,'ug']]],
+  ['slice_5fdesc_5fsize',['SLICE_DESC_SIZE',['../namespaceug.html#a53bc1b6a198b441e6b26a5d748ef5261aec42ad6b4faf97c7fe62caea54dac3cc',1,'ug']]],
   ['slvs_5fend',['SLVS_END',['../namespaceug.html#a326538e596d2ac57f4d01daf8831d819a8c617a89e6a1b4069bd07361cbdb87e0',1,'ug']]],
   ['slvs_5fmerge',['SLVS_MERGE',['../namespaceug.html#a326538e596d2ac57f4d01daf8831d819a71b78687317a6443638fe4a72c7cd7cb',1,'ug']]],
   ['slvs_5fnone',['SLVS_NONE',['../namespaceug.html#a326538e596d2ac57f4d01daf8831d819aa09077033423577ca8263e722ef33339',1,'ug']]],
@@ -50,5 +50,10 @@ var searchData=
   ['surface',['SURFACE',['../classug_1_1_grid_level.html#ae5b23ae83f01521dd7a65b40caae12a4a02dc065c02653e35dd0851c156ea472c',1,'ug::GridLevel::SURFACE()'],['../classug_1_1_surface_view.html#a7d8e70d5e1ce9db8fb5f7ba04806d074a79de3c704e059469b4fada2014f013c7',1,'ug::SurfaceView::SURFACE()']]],
   ['surface_5fpure',['SURFACE_PURE',['../classug_1_1_surface_view.html#a7d8e70d5e1ce9db8fb5f7ba04806d074af87e67bbc375dc858761e9c5991dfbe9',1,'ug::SurfaceView']]],
   ['surface_5frim',['SURFACE_RIM',['../classug_1_1_surface_view.html#a7d8e70d5e1ce9db8fb5f7ba04806d074a7b8a589bd0264c6897cc4f3eabb4420f',1,'ug::SurfaceView']]],
+  ['swc_5fapic',['SWC_APIC',['../namespaceug_1_1swc__types.html#ac605df888f99072c0c3a8f05f225164aa64b80a4d82c2271fee87eed526601d92',1,'ug::swc_types']]],
+  ['swc_5faxon',['SWC_AXON',['../namespaceug_1_1swc__types.html#ac605df888f99072c0c3a8f05f225164aabe817ff01f6ff967a1bc16295e2edfed',1,'ug::swc_types']]],
+  ['swc_5fdend',['SWC_DEND',['../namespaceug_1_1swc__types.html#ac605df888f99072c0c3a8f05f225164aacc9b637c46629b13f4aed89f25859a0b',1,'ug::swc_types']]],
+  ['swc_5fsoma',['SWC_SOMA',['../namespaceug_1_1swc__types.html#ac605df888f99072c0c3a8f05f225164aa2eb698b01360362b0f5465c3088d0efd',1,'ug::swc_types']]],
+  ['swc_5fundf',['SWC_UNDF',['../namespaceug_1_1swc__types.html#ac605df888f99072c0c3a8f05f225164aaa0a6ebb5a1c978e45342b834cdd4de97',1,'ug::swc_types']]],
   ['symmetric',['SYMMETRIC',['../classug_1_1_m_m_type_code.html#a8326ecdcc2dd7e314a0a0252a69c7850a53dda6debad2d917bf671e835c2d36df',1,'ug::MMTypeCode']]]
 ];

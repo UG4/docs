@@ -15,6 +15,7 @@ var classug_1_1_m_g_selector_1_1_m_g_selection_iterator =
     [ "increment", "classug_1_1_m_g_selector_1_1_m_g_selection_iterator.html#ae71adda5e279aeb24c5b4e7da8d6fda2", null ],
     [ "operator!=", "classug_1_1_m_g_selector_1_1_m_g_selection_iterator.html#ae7fd3489b60b4320268b991596296cf7", null ],
     [ "operator*", "classug_1_1_m_g_selector_1_1_m_g_selection_iterator.html#a8d9ad3594e283fc0ae59e611d5de0138", null ],
+    [ "operator*", "classug_1_1_m_g_selector_1_1_m_g_selection_iterator.html#a7241c269766ab00bd3c4c71505743b9e", null ],
     [ "operator++", "classug_1_1_m_g_selector_1_1_m_g_selection_iterator.html#a2873ac26df3f37cef3f628851e3867af", null ],
     [ "operator++", "classug_1_1_m_g_selector_1_1_m_g_selection_iterator.html#a3893b00b8911757ddd257710c61b8c27", null ],
     [ "operator==", "classug_1_1_m_g_selector_1_1_m_g_selection_iterator.html#acfebc2f36776163d087cd3ada0e27ff6", null ],

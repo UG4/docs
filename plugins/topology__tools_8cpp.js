@@ -2,6 +2,7 @@ var topology__tools_8cpp =
 [
     [ "AdjustEdgeOrientation", "topology__tools_8cpp.html#gafd55d253028627dd335bcd72df1a9abf", null ],
     [ "CollapseEdge", "topology__tools_8cpp.html#gacfc9a7208dee05060f98b7b14d626c40", null ],
+    [ "CreateHexahedraFromSelectedPrisms", "topology__tools_8cpp.html#ga001cf434f194ec7327e135a023241c07", null ],
     [ "EraseSelectedElements", "topology__tools_8cpp.html#gad7e8fd9c89f1048f5e326115147f0a04", null ],
     [ "FixFaceOrientation", "topology__tools_8cpp.html#gab664568489e16a7668769a38285e83e3", null ],
     [ "FixFaceSubsetOrientations", "topology__tools_8cpp.html#ga06df82d699cca96364999c32b9afa4b4", null ],

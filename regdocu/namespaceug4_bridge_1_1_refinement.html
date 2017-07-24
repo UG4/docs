@@ -151,6 +151,8 @@ Functions</h2></td></tr>
 <tr class="separator:a99fe19f2b62648bb5ae73604a354f7e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3858e7a27b8ac8cd65df8dc90695a71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1_refinement.html#ad3858e7a27b8ac8cd65df8dc90695a71">MarkForRefinement_AnisotropicElements</a> (<a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__lib__disc__domain.html#ga33ea717e5cb1419d212b7f5d0eb695eb">Domain</a> *dom, IRefiner *refiner, double minEdgeRatio)</td></tr>
 <tr class="separator:ad3858e7a27b8ac8cd65df8dc90695a71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd37e4772030fcd98c6ad31234ff54ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1_refinement.html#afd37e4772030fcd98c6ad31234ff54ec">MarkForRefinement_EdgeDirection</a> (<a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__lib__disc__domain.html#ga33ea717e5cb1419d212b7f5d0eb695eb">Domain</a> *dom, IRefiner *refiner, Vec1d *dir, double minDeviationAngle, double maxDeviationAngle, bool selectFlipped)</td></tr>
+<tr class="separator:afd37e4772030fcd98c6ad31234ff54ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ad4c2c85bce5d1149ecd01b69900605"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1_refinement.html#a8ad4c2c85bce5d1149ecd01b69900605">MarkForRefinement_EdgesInSphere</a> (<a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__lib__disc__domain.html#ga33ea717e5cb1419d212b7f5d0eb695eb">Domain</a> *dom, <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../class_smart_ptr.html">SmartPtr</a>&lt; IRefiner &gt; refiner, const Vec1d *center, double radius)</td></tr>
 <tr class="separator:a8ad4c2c85bce5d1149ecd01b69900605"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cfc1a1885a2c049953e2fa583e9f241"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1_refinement.html#a1cfc1a1885a2c049953e2fa583e9f241">MarkForRefinement_EdgesInSubset</a> (<a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__lib__disc__domain.html#ga33ea717e5cb1419d212b7f5d0eb695eb">Domain</a> *dom, IRefiner *refiner, <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../namespaceug.html#a91b252690bb2794c8774c09bea4ea26b">MGSubsetHandler</a> *subsetHandler, int subsetIndex)</td></tr>
@@ -1728,6 +1730,71 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="afd37e4772030fcd98c6ad31234ff54ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd37e4772030fcd98c6ad31234ff54ec">&sect;&nbsp;</a></span>MarkForRefinement_EdgeDirection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug4Bridge::Refinement::MarkForRefinement_EdgeDirection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__lib__disc__domain.html#ga33ea717e5cb1419d212b7f5d0eb695eb">Domain</a> *&#160;</td>
+          <td class="paramname"><em>dom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IRefiner *&#160;</td>
+          <td class="paramname"><em>refiner</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vec1d *&#160;</td>
+          <td class="paramname"><em>dir</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>minDeviationAngle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>maxDeviationAngle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>selectFlipped</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dom</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">refiner</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dir</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">minDeviationAngle</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">maxDeviationAngle</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">selectFlipped</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__lib__disc__domain.html#ga33ea717e5cb1419d212b7f5d0eb695eb">Domain()</a>, and <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__refinement__bridge.html#gae43e19500577a2425218667de82d880a">MarkForRefinement_EdgeDirection()</a>.</p>
+
+</div>
+</div>
 <a id="a8ad4c2c85bce5d1149ecd01b69900605"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8ad4c2c85bce5d1149ecd01b69900605">&sect;&nbsp;</a></span>MarkForRefinement_EdgesInSphere()</h2>
 
@@ -2626,7 +2693,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug4_bridge.html">ug4Bridge</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1_refinement.html">Refinement</a></li>
-    <li class="footer">Generated on Thu Mar 30 2017 18:42:57 for Registry by
+    <li class="footer">Generated on Mon Jul 24 2017 16:03:00 for Registry by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

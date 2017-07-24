@@ -137,6 +137,8 @@ Macros</h2></td></tr>
 <tr class="separator:a0dbcc8dd78f68bf13ffec5b2a93cf32f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39236ceeafd74e15660ed5dc636ee792"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="coordinate__transform__tools_8h.html#a39236ceeafd74e15660ed5dc636ee792">TOOLTIP_MOVE_VERTICES_ALONG_EDGES</a>&#160;&#160;&#160;&quot;Moves selected vertices along selected edges by an offset relative <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> those selected edges. If a selected vertex is connected <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> multiple selected edges, the new position will be averaged between the individual offsets.&quot;</td></tr>
 <tr class="separator:a39236ceeafd74e15660ed5dc636ee792"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1b0e68d9aa7ee3f41b935276c4d2eb4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="coordinate__transform__tools_8h.html#ae1b0e68d9aa7ee3f41b935276c4d2eb4">TOOLTIP_MOVE_VERTICES_TO_EDGE_LENGTH</a>&#160;&#160;&#160;&quot;Moves selected vertices along selected edges so that those edges obtain the specified length. If a selected vertex is connected <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> multiple selected edges, the new position will be averaged between the individual new positions.&quot;</td></tr>
+<tr class="separator:ae1b0e68d9aa7ee3f41b935276c4d2eb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12e8e8ea053e9868698def01385b8f3f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="coordinate__transform__tools_8h.html#a12e8e8ea053e9868698def01385b8f3f">TOOLTIP_NORMAL_MOVE</a>&#160;&#160;&#160;&quot;Moves selected vertices along their normal.&quot;</td></tr>
 <tr class="separator:a12e8e8ea053e9868698def01385b8f3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94ae93c484f715457d6f9f6a5cbac08a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="coordinate__transform__tools_8h.html#a94ae93c484f715457d6f9f6a5cbac08a">TOOLTIP_PROJECT_TO_LIMIT_PLOOP</a>&#160;&#160;&#160;&quot;Projects all vertices in the <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__lib__disc__domain.html#ga460b68c5ef13c39812e8242657843349">grid</a> <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> their limit positions as defined by the piecewise loop scheme.&quot;</td></tr>
@@ -202,6 +204,8 @@ Functions</h2></td></tr>
 <tr class="separator:ga56f23d477ae2a10c2776e1c246a671b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad421a76bf8183295c9d2a6cf456aa39d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#gad421a76bf8183295c9d2a6cf456aa39d">ug::promesh::MoveVerticesAlongEdges</a> (Mesh *obj, <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> relVal)</td></tr>
 <tr class="separator:gad421a76bf8183295c9d2a6cf456aa39d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab38322abb2faac32008c746f656f0a87"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#gab38322abb2faac32008c746f656f0a87">ug::promesh::MoveVerticesToEdgeLength</a> (Mesh *obj, <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> edgeLen)</td></tr>
+<tr class="separator:gab38322abb2faac32008c746f656f0a87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8826a6c32a92c89794e811208ac0247d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga8826a6c32a92c89794e811208ac0247d">ug::promesh::ProjectToLimitPLoop</a> (Mesh *obj)</td></tr>
 <tr class="separator:ga8826a6c32a92c89794e811208ac0247d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5895ae3ade4e13965fcbdae0686e300d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga5895ae3ade4e13965fcbdae0686e300d">ug::promesh::ProjectToLimitSmoothBoundary</a> (Mesh *obj)</td></tr>
@@ -418,6 +422,22 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define TOOLTIP_MOVE_VERTICES_ALONG_EDGES&#160;&#160;&#160;&quot;Moves selected vertices along selected edges by an offset relative <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> those selected edges. If a selected vertex is connected <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> multiple selected edges, the new position will be averaged between the individual offsets.&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="namespaceug_1_1promesh.html#a0318c791f4786fd13553736b59a9c144">ug::promesh::RegisterCoordinateTransformTools()</a>.</p>
+
+</div>
+</div>
+<a id="ae1b0e68d9aa7ee3f41b935276c4d2eb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1b0e68d9aa7ee3f41b935276c4d2eb4">&sect;&nbsp;</a></span>TOOLTIP_MOVE_VERTICES_TO_EDGE_LENGTH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TOOLTIP_MOVE_VERTICES_TO_EDGE_LENGTH&#160;&#160;&#160;&quot;Moves selected vertices along selected edges so that those edges obtain the specified length. If a selected vertex is connected <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> multiple selected edges, the new position will be averaged between the individual new positions.&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -754,7 +774,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_38c8d24aef3972a7f87b834274e76e31.html">plugins</a></li><li class="navelem"><a class="el" href="dir_763ed3e91742c64da7339b855c065f8b.html">ProMesh</a></li><li class="navelem"><a class="el" href="dir_90c8b690e559459740b0e677eab7f4d2.html">tools</a></li><li class="navelem"><a class="el" href="coordinate__transform__tools_8h.html">coordinate_transform_tools.h</a></li>
-    <li class="footer">Generated on Thu Mar 30 2017 18:41:19 for Plugins by
+    <li class="footer">Generated on Mon Jul 24 2017 16:01:22 for Plugins by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

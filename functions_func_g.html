@@ -802,7 +802,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>get_matrix()
 : <a class="el" href="classug_1_1_matrix_operator.html#aa418151ade51a0f0e56198ae042cc292">ug::MatrixOperator&lt; M, X, Y &gt;</a>
 , <a class="el" href="classug_1_1_schur_complement_matrix_operator.html#a59e3bd406d3572bc0e2caa4031a5c20a">ug::SchurComplementMatrixOperator&lt; TAlgebra, M, X, Y &gt;</a>
-, <a class="el" href="classug_1_1_slicing_data.html#a3ad67ba81ac306d154e0720345888762">ug::SlicingData</a>
+, <a class="el" href="classug_1_1_slicing_data.html#a98ed40b8bdb0f2cccb7e680c0580c258">ug::SlicingData&lt; TVec, N &gt;</a>
 </li>
 <li>get_matrix_descr()
 : <a class="el" href="classug_1_1_g_p_u_sparse_matrix.html#a20bb28b3778337a44076685e587a4d09">ug::GPUSparseMatrix&lt; TValueType &gt;</a>
@@ -877,7 +877,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="classug_1_1_matrix_i_o_mtx.html#ad45a953bf98440255cc64468d72f43e2">ug::MatrixIOMtx</a>
 </li>
 <li>get_num_elems()
-: <a class="el" href="classug_1_1_slicing_data.html#a3ea9acd3c9491d80c7237642167e1a36">ug::SlicingData</a>
+: <a class="el" href="classug_1_1_slicing_data.html#a5d3a7d8bb715b0e5cec58efec53d517c">ug::SlicingData&lt; TVec, N &gt;</a>
 </li>
 <li>get_num_forwardx()
 : <a class="el" href="classug_1_1_line_gauss_seidel.html#a69b14fa0425b649f86a9513f448a5b44">ug::LineGaussSeidel&lt; TDomain, TAlgebra &gt;</a>
@@ -1151,13 +1151,13 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="classug_1_1_grid.html#a72f74e602bdba2a9960d7cdcdde237c1">ug::Grid</a>
 </li>
 <li>get_skeleton_slicing()
-: <a class="el" href="classug_1_1_schur_precond.html#acbae242ebc0f85374b89f82ab603c720">ug::SchurPrecond&lt; TAlgebra &gt;</a>
+: <a class="el" href="classug_1_1_schur_precond.html#ab81ba38ffe7c252d350bc7b65c361dde">ug::SchurPrecond&lt; TAlgebra &gt;</a>
 </li>
 <li>get_slaves()
 : <a class="el" href="classug_1_1_periodic_boundary_manager_1_1_group.html#a379cc13989688b9fef1de3755ce7facb">ug::PeriodicBoundaryManager::Group&lt; TElem, Container &gt;</a>
 </li>
 <li>get_slice_layouts()
-: <a class="el" href="classug_1_1_slicing_data.html#ad50bd561b3a4966ee86491c37de1bf95">ug::SlicingData</a>
+: <a class="el" href="classug_1_1_slicing_data.html#acf09d4be87bd67fca4d96347b9c11981">ug::SlicingData&lt; TVec, N &gt;</a>
 </li>
 <li>get_solver()
 : <a class="el" href="classug_1_1_debug_iterator.html#a36cc02d58a98d02140a8034b4a8c3292">ug::DebugIterator&lt; TAlgebra &gt;</a>
@@ -1254,7 +1254,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="group__crs__algebra.html#ga5bc988f0477f99de70be3b8737834c61">ug::CPUAlgebra</a>
 , <a class="el" href="group__crs__algebra.html#ga206474411f9607ca62ef82c9d8c006de">ug::CPUBlockAlgebra&lt; TBlockSize &gt;</a>
 , <a class="el" href="group__crs__algebra.html#ga15b4141495aef2fb1e83f3444e28ee68">ug::CPUVariableBlockAlgebra</a>
-, <a class="el" href="classug_1_1_slicing_data.html#a2b7d63a04d30720663ce77898266da81">ug::SlicingData</a>
+, <a class="el" href="classug_1_1_slicing_data.html#a2a904129b1387c50484266573704d646">ug::SlicingData&lt; TVec, N &gt;</a>
 </li>
 <li>get_value()
 : <a class="el" href="struct_sort_struct.html#a6b299db7888adf6512b4df19092720c7">SortStruct&lt; TIndex, TValue &gt;</a>
@@ -1265,7 +1265,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 , <a class="el" href="classug_1_1_reference_element_provider.html#a5ad9bfa2cca7ab8aa768a7d73b503923">ug::ReferenceElementProvider</a>
 </li>
 <li>get_vector_slice()
-: <a class="el" href="classug_1_1_slicing_data.html#a50568c1f2254f30cd9279621917118d0">ug::SlicingData</a>
+: <a class="el" href="classug_1_1_slicing_data.html#a4479870ac7c7f49ab939e7e608d5f431">ug::SlicingData&lt; TVec, N &gt;</a>
 </li>
 <li>get_vertex_indices_of_edge()
 : <a class="el" href="classug_1_1_hexahedron.html#a61a2fc738b9ae28155beed7b5ae6756d">ug::Hexahedron</a>
@@ -1539,7 +1539,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="classug_1_1_global_marking.html#ab735c8cbb15a3022cc7b2890396e0383">ug::GlobalMarking&lt; TDomain &gt;</a>
 </li>
 <li>GlobalMultiGridRefiner()
-: <a class="el" href="classug_1_1_global_multi_grid_refiner.html#a9c43c9918c031ce7d72064e0f9ea514e">ug::GlobalMultiGridRefiner</a>
+: <a class="el" href="classug_1_1_global_multi_grid_refiner.html#a19fe9b11bebf9116ab6cfe4fa1639a13">ug::GlobalMultiGridRefiner</a>
 </li>
 <li>GMRES()
 : <a class="el" href="classug_1_1_g_m_r_e_s.html#a8df04f0c6d569575581ca6236f7b84aa">ug::GMRES&lt; TVector &gt;</a>
@@ -1574,7 +1574,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 , <a class="el" href="classug_1_1_flex_lagrange_l_s_f_s_3_01_reference_vertex_01_4.html#a6d258d197868def42ff45e2a936507dc">ug::FlexLagrangeLSFS&lt; ReferenceVertex &gt;</a>
 , <a class="el" href="classug_1_1_lagrange_l_s_f_s_3_01_reference_edge_00_01_t_order_01_4.html#a5e14f75ee588245c39a1e5f6b1c42eef">ug::LagrangeLSFS&lt; ReferenceEdge, TOrder &gt;</a>
 , <a class="el" href="classug_1_1_lagrange_l_s_f_s_3_01_reference_hexahedron_00_01_t_order_01_4.html#a0a066582be350bd62054d073eccd5fd5">ug::LagrangeLSFS&lt; ReferenceHexahedron, TOrder &gt;</a>
-, <a class="el" href="classug_1_1_lagrange_l_s_f_s_3_01_reference_octahedron_00_01_t_order_01_4.html#a0d700c9ec15d00100cc8efc0d29d441a">ug::LagrangeLSFS&lt; ReferenceOctahedron, TOrder &gt;</a>
+, <a class="el" href="classug_1_1_lagrange_l_s_f_s_3_01_reference_octahedron_00_01_t_order_01_4.html#a7cc54005ab68a0d2b0de6eeacd056635">ug::LagrangeLSFS&lt; ReferenceOctahedron, TOrder &gt;</a>
 , <a class="el" href="classug_1_1_lagrange_l_s_f_s_3_01_reference_prism_00_01_t_order_01_4.html#a13718297487a3fd8427c5700b9ef49a7">ug::LagrangeLSFS&lt; ReferencePrism, TOrder &gt;</a>
 , <a class="el" href="classug_1_1_lagrange_l_s_f_s_3_01_reference_pyramid_00_01_t_order_01_4.html#a131ec4e125338809594278af528f9ebf">ug::LagrangeLSFS&lt; ReferencePyramid, TOrder &gt;</a>
 , <a class="el" href="classug_1_1_lagrange_l_s_f_s_3_01_reference_quadrilateral_00_01_t_order_01_4.html#a31994a15d5d90c831035f4ab71d54ccf">ug::LagrangeLSFS&lt; ReferenceQuadrilateral, TOrder &gt;</a>
@@ -1600,7 +1600,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="classug_1_1_gradient_evaluator___lagrange_p1.html#a10e1bc255b9cb407cb17aee416f65a4b">ug::GradientEvaluator_LagrangeP1&lt; TFunction &gt;</a>
 </li>
 <li>grads()
-: <a class="el" href="classug_1_1_base_l_s_f_s.html#aa1aa668c9e9989eb0079fd287b4c0802">ug::BaseLSFS&lt; TImpl, TDim, TShape, TGrad &gt;</a>
+: <a class="el" href="classug_1_1_base_l_s_f_s.html#a46ad5c0eb980b27f902d0c9eac7fabc3">ug::BaseLSFS&lt; TImpl, TDim, TShape, TGrad &gt;</a>
 , <a class="el" href="classug_1_1_local_shape_function_set.html#a681cbb674fa7b28a7b300d8f7aed0d93">ug::LocalShapeFunctionSet&lt; TDim, TShape, TGrad &gt;</a>
 , <a class="el" href="classug_1_1_local_shape_function_set_wrapper.html#a2ab9bfd96e892672a322bbe20ff44fa9">ug::LocalShapeFunctionSetWrapper&lt; TImpl &gt;</a>
 </li>
@@ -1735,7 +1735,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="structug_1_1_grid_header.html#a6b2f7a4d7b07b0e13e43a12ddc59fc8b">ug::GridHeader</a>
 </li>
 <li>GridLevel()
-: <a class="el" href="classug_1_1_grid_level.html#a579763077a9860e7645adf06fcf31621">ug::GridLevel</a>
+: <a class="el" href="classug_1_1_grid_level.html#a80aff51a1cac1b7417a6d318876b9d75">ug::GridLevel</a>
 </li>
 <li>GridMessage_Adaption()
 : <a class="el" href="classug_1_1_grid_message___adaption.html#a06232bcd1a6d43235b3a131cb5541110">ug::GridMessage_Adaption</a>
@@ -1750,7 +1750,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="classug_1_1_grid_message___multi_grid_changed.html#a169987f3a9dd3626732f422413858865">ug::GridMessage_MultiGridChanged</a>
 </li>
 <li>GridObjectCollection()
-: <a class="el" href="classug_1_1_grid_object_collection.html#aaeaf245f3a80da9dc594fcb48ddcb39f">ug::GridObjectCollection</a>
+: <a class="el" href="classug_1_1_grid_object_collection.html#add8f55b58522b19f301ad1afa3c3489e">ug::GridObjectCollection</a>
 </li>
 <li>GridObjectInfo()
 : <a class="el" href="structug_1_1_grid_object_info.html#af702679476a7e2cd56bfb84de344701d">ug::GridObjectInfo</a>
@@ -1762,7 +1762,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="classug_1_1_grid_reader_v_t_u.html#a816eb6d7034b9fd3a11e8cbff5086491">ug::GridReaderVTU</a>
 </li>
 <li>GridSubsetHandler()
-: <a class="el" href="classug_1_1_grid_subset_handler.html#a6652d213da336ccc3a55458683f54974">ug::GridSubsetHandler</a>
+: <a class="el" href="classug_1_1_grid_subset_handler.html#ada65f961a7ad0dcbc4c3f1ce6ce56c0d">ug::GridSubsetHandler</a>
 </li>
 <li>GridWriterUGX()
 : <a class="el" href="classug_1_1_grid_writer_u_g_x.html#a58763344d7eb86ed5dbd87a0e44dd9bb">ug::GridWriterUGX</a>
@@ -1811,7 +1811,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Mar 30 2017 18:44:52 for ug4 by
+    <li class="footer">Generated on Mon Jul 24 2017 16:04:52 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

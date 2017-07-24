@@ -12,5 +12,6 @@ var dir_95aef5ed8cf1b30538baaac33e2edb90 =
     ] ],
     [ "scalar_vector_adapter.hh", "scalar__vector__adapter_8hh.html", [
       [ "ScalarVectorAdapter", "class_scalar_vector_adapter.html", "class_scalar_vector_adapter" ]
-    ] ]
+    ] ],
+    [ "slicing.h", "slicing_8h.html", "slicing_8h" ]
 ];

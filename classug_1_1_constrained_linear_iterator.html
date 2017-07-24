@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ug4: ug::ConstrainedLinearIterator&lt; TDomain, TAlgebra, TLinIt &gt; Class Template Reference</title>
+<title>ug4: ug::ConstrainedLinearIterator&lt; TDomain, TAlgebra, TLinIt, typename &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -87,130 +87,143 @@ $(document).ready(function(){initNavTree('classug_1_1_constrained_linear_iterato
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="classug_1_1_constrained_linear_iterator-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">ug::ConstrainedLinearIterator&lt; TDomain, TAlgebra, TLinIt &gt; Class Template Reference</div>  </div>
+<div class="title">ug::ConstrainedLinearIterator&lt; TDomain, TAlgebra, TLinIt, typename &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="constrained__linear__iterator_8h_source.html">constrained_linear_iterator.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for ug::ConstrainedLinearIterator&lt; TDomain, TAlgebra, TLinIt &gt;:</div>
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for ug::ConstrainedLinearIterator&lt; TDomain, TAlgebra, TLinIt, typename &gt;:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
  <div class="center">
-  <img src="classug_1_1_constrained_linear_iterator.png" usemap="#ug::ConstrainedLinearIterator_3C_20TDomain_2C_20TAlgebra_2C_20TLinIt_20_3E_map" alt=""/>
-  <map id="ug::ConstrainedLinearIterator_3C_20TDomain_2C_20TAlgebra_2C_20TLinIt_20_3E_map" name="ug::ConstrainedLinearIterator&lt; TDomain, TAlgebra, TLinIt &gt;_map">
+  <img src="classug_1_1_constrained_linear_iterator.png" usemap="#ug::ConstrainedLinearIterator_3C_20TDomain_2C_20TAlgebra_2C_20TLinIt_2C_20typename_20_3E_map" alt=""/>
+  <map id="ug::ConstrainedLinearIterator_3C_20TDomain_2C_20TAlgebra_2C_20TLinIt_2C_20typename_20_3E_map" name="ug::ConstrainedLinearIterator&lt; TDomain, TAlgebra, TLinIt, typename &gt;_map">
 </map>
  </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1_constrained_linear_iterator_1_1apply__update__defect__impl.html">apply_update_defect_impl</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1_constrained_linear_iterator_1_1apply__update__defect__impl_3_01_s_00_01typename_01b310bc2fcf5ee106b57194deac7e3da2e.html">apply_update_defect_impl&lt; S, typename boost::enable_if&lt; boost::is_base_of&lt; IPreconditioner&lt; TAlgebra &gt;, S &gt; &gt;::type &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a02a25ed3f1e5fc485071b06b23f0cb15"><td class="memItemLeft" align="right" valign="top">typedef TLinIt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#a02a25ed3f1e5fc485071b06b23f0cb15">base_type</a></td></tr>
-<tr class="separator:a02a25ed3f1e5fc485071b06b23f0cb15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a956ac72ac23f318ceec1de8933e56778"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classug_1_1_grid_function.html">GridFunction</a>&lt; TDomain, TAlgebra &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#a956ac72ac23f318ceec1de8933e56778">gf_type</a></td></tr>
-<tr class="separator:a956ac72ac23f318ceec1de8933e56778"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f1104339c6d9b7613876923772b8cad"><td class="memItemLeft" align="right" valign="top">typedef TAlgebra::vector_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#a6f1104339c6d9b7613876923772b8cad">vector_type</a></td></tr>
-<tr class="separator:a6f1104339c6d9b7613876923772b8cad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5821f73910d978eb02119dbe180536f"><td class="memItemLeft" align="right" valign="top">typedef TLinIt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#aa5821f73910d978eb02119dbe180536f">base_type</a></td></tr>
+<tr class="separator:aa5821f73910d978eb02119dbe180536f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a572bbc0c2494d471b2148e89993b855d"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classug_1_1_grid_function.html">GridFunction</a>&lt; TDomain, TAlgebra &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#a572bbc0c2494d471b2148e89993b855d">gf_type</a></td></tr>
+<tr class="separator:a572bbc0c2494d471b2148e89993b855d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4eaafbe343ae3886a29b665aca2ef5e"><td class="memItemLeft" align="right" valign="top">typedef TAlgebra::vector_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#ab4eaafbe343ae3886a29b665aca2ef5e">vector_type</a></td></tr>
+<tr class="separator:ab4eaafbe343ae3886a29b665aca2ef5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a67897d5288beba5afb66d5461d75dfb4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_linear_iterator.html">ILinearIterator</a>&lt; <a class="el" href="classug_1_1_constrained_linear_iterator.html#a6f1104339c6d9b7613876923772b8cad">vector_type</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#a67897d5288beba5afb66d5461d75dfb4">clone</a> ()</td></tr>
-<tr class="memdesc:a67897d5288beba5afb66d5461d75dfb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">clone  <a href="#a67897d5288beba5afb66d5461d75dfb4">More...</a><br /></td></tr>
-<tr class="separator:a67897d5288beba5afb66d5461d75dfb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28272546080f23f3435c7fb6ba500405"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#a28272546080f23f3435c7fb6ba500405">ConstrainedLinearIterator</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_domain_discretization.html">IDomainDiscretization</a>&lt; TAlgebra &gt; &gt; domDisc)</td></tr>
-<tr class="memdesc:a28272546080f23f3435c7fb6ba500405"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor  <a href="#a28272546080f23f3435c7fb6ba500405">More...</a><br /></td></tr>
-<tr class="separator:a28272546080f23f3435c7fb6ba500405"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0cd4b6fa113e69f2caf14cd7d0dd1c7a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#a0cd4b6fa113e69f2caf14cd7d0dd1c7a">ConstrainedLinearIterator</a> (const <a class="el" href="classug_1_1_constrained_linear_iterator.html">ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt &gt; &amp;parent)</td></tr>
-<tr class="memdesc:a0cd4b6fa113e69f2caf14cd7d0dd1c7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">clone constructor  <a href="#a0cd4b6fa113e69f2caf14cd7d0dd1c7a">More...</a><br /></td></tr>
-<tr class="separator:a0cd4b6fa113e69f2caf14cd7d0dd1c7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ed2670937502de6c9e53f17da32b87b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#a6ed2670937502de6c9e53f17da32b87b">set_time</a> (<a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> time)</td></tr>
-<tr class="memdesc:a6ed2670937502de6c9e53f17da32b87b"><td class="mdescLeft">&#160;</td><td class="mdescRight">setter for time  <a href="#a6ed2670937502de6c9e53f17da32b87b">More...</a><br /></td></tr>
-<tr class="separator:a6ed2670937502de6c9e53f17da32b87b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf21f84b22afaa39c0a64e33a901cc9c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#aaf21f84b22afaa39c0a64e33a901cc9c">supports_parallel</a> () const</td></tr>
-<tr class="memdesc:aaf21f84b22afaa39c0a64e33a901cc9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns if parallel solving is supported  <a href="#aaf21f84b22afaa39c0a64e33a901cc9c">More...</a><br /></td></tr>
-<tr class="separator:aaf21f84b22afaa39c0a64e33a901cc9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a358ed3ce12e7d320e87d2118832451eb"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#a358ed3ce12e7d320e87d2118832451eb">~ConstrainedLinearIterator</a> ()</td></tr>
-<tr class="memdesc:a358ed3ce12e7d320e87d2118832451eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor  <a href="#a358ed3ce12e7d320e87d2118832451eb">More...</a><br /></td></tr>
-<tr class="separator:a358ed3ce12e7d320e87d2118832451eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af80aad7058aaad0a4d4433690d3a4ae6"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_linear_iterator.html">ILinearIterator</a>&lt; <a class="el" href="classug_1_1_constrained_linear_iterator.html#ab4eaafbe343ae3886a29b665aca2ef5e">vector_type</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#af80aad7058aaad0a4d4433690d3a4ae6">clone</a> ()</td></tr>
+<tr class="memdesc:af80aad7058aaad0a4d4433690d3a4ae6"><td class="mdescLeft">&#160;</td><td class="mdescRight">clone  <a href="#af80aad7058aaad0a4d4433690d3a4ae6">More...</a><br /></td></tr>
+<tr class="separator:af80aad7058aaad0a4d4433690d3a4ae6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8c27f1e5ee8de4216956b0d8a2ebfe0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#ae8c27f1e5ee8de4216956b0d8a2ebfe0">ConstrainedLinearIterator</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_domain_discretization.html">IDomainDiscretization</a>&lt; TAlgebra &gt; &gt; domDisc)</td></tr>
+<tr class="memdesc:ae8c27f1e5ee8de4216956b0d8a2ebfe0"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor  <a href="#ae8c27f1e5ee8de4216956b0d8a2ebfe0">More...</a><br /></td></tr>
+<tr class="separator:ae8c27f1e5ee8de4216956b0d8a2ebfe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ab83b8aaa1e5f6ff5684f64bbf606bc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#a3ab83b8aaa1e5f6ff5684f64bbf606bc">ConstrainedLinearIterator</a> (const <a class="el" href="classug_1_1_constrained_linear_iterator.html">ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt &gt; &amp;parent)</td></tr>
+<tr class="memdesc:a3ab83b8aaa1e5f6ff5684f64bbf606bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">clone constructor  <a href="#a3ab83b8aaa1e5f6ff5684f64bbf606bc">More...</a><br /></td></tr>
+<tr class="separator:a3ab83b8aaa1e5f6ff5684f64bbf606bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad79c94101e28bafbbf19c317982384a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#ad79c94101e28bafbbf19c317982384a4">set_time</a> (<a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> time)</td></tr>
+<tr class="memdesc:ad79c94101e28bafbbf19c317982384a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">setter for time  <a href="#ad79c94101e28bafbbf19c317982384a4">More...</a><br /></td></tr>
+<tr class="separator:ad79c94101e28bafbbf19c317982384a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a659dbe3c92ab5b41b7fac7ff75f3983d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#a659dbe3c92ab5b41b7fac7ff75f3983d">supports_parallel</a> () const</td></tr>
+<tr class="memdesc:a659dbe3c92ab5b41b7fac7ff75f3983d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns if parallel solving is supported  <a href="#a659dbe3c92ab5b41b7fac7ff75f3983d">More...</a><br /></td></tr>
+<tr class="separator:a659dbe3c92ab5b41b7fac7ff75f3983d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1cd4f72c6443714a7ed53ade9fee71f"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#ab1cd4f72c6443714a7ed53ade9fee71f">~ConstrainedLinearIterator</a> ()</td></tr>
+<tr class="memdesc:ab1cd4f72c6443714a7ed53ade9fee71f"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor  <a href="#ab1cd4f72c6443714a7ed53ade9fee71f">More...</a><br /></td></tr>
+<tr class="separator:ab1cd4f72c6443714a7ed53ade9fee71f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a9cf3dff9811fd348149380f92a938600"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#a9cf3dff9811fd348149380f92a938600">apply</a> (<a class="el" href="classug_1_1_constrained_linear_iterator.html#a6f1104339c6d9b7613876923772b8cad">vector_type</a> &amp;c, const <a class="el" href="classug_1_1_constrained_linear_iterator.html#a6f1104339c6d9b7613876923772b8cad">vector_type</a> &amp;d)</td></tr>
-<tr class="separator:a9cf3dff9811fd348149380f92a938600"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c188b80d05494ec36c67ac640610178"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#a4c188b80d05494ec36c67ac640610178">apply_update_defect</a> (<a class="el" href="classug_1_1_constrained_linear_iterator.html#a6f1104339c6d9b7613876923772b8cad">vector_type</a> &amp;c, <a class="el" href="classug_1_1_constrained_linear_iterator.html#a6f1104339c6d9b7613876923772b8cad">vector_type</a> &amp;d)</td></tr>
-<tr class="separator:a4c188b80d05494ec36c67ac640610178"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b17a6e10c5d42379d1d118a483de4e8"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#a4b17a6e10c5d42379d1d118a483de4e8">init</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_linear_operator.html">ILinearOperator</a>&lt; <a class="el" href="classug_1_1_constrained_linear_iterator.html#a6f1104339c6d9b7613876923772b8cad">vector_type</a>, <a class="el" href="classug_1_1_constrained_linear_iterator.html#a6f1104339c6d9b7613876923772b8cad">vector_type</a> &gt; &gt; J, const <a class="el" href="classug_1_1_constrained_linear_iterator.html#a6f1104339c6d9b7613876923772b8cad">vector_type</a> &amp;u)</td></tr>
-<tr class="separator:a4b17a6e10c5d42379d1d118a483de4e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a947368706f031fd9ed4f0f98306c61ae"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#a947368706f031fd9ed4f0f98306c61ae">init</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_linear_operator.html">ILinearOperator</a>&lt; <a class="el" href="classug_1_1_constrained_linear_iterator.html#a6f1104339c6d9b7613876923772b8cad">vector_type</a>, <a class="el" href="classug_1_1_constrained_linear_iterator.html#a6f1104339c6d9b7613876923772b8cad">vector_type</a> &gt; &gt; L)</td></tr>
-<tr class="separator:a947368706f031fd9ed4f0f98306c61ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcb004b39e5578c5264155e771456dff"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#afcb004b39e5578c5264155e771456dff">name</a> () const</td></tr>
-<tr class="memdesc:afcb004b39e5578c5264155e771456dff"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the name of iterator  <a href="#afcb004b39e5578c5264155e771456dff">More...</a><br /></td></tr>
-<tr class="separator:afcb004b39e5578c5264155e771456dff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabaf403f520203785614b12c21088b16"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#aabaf403f520203785614b12c21088b16">apply</a> (<a class="el" href="classug_1_1_constrained_linear_iterator.html#ab4eaafbe343ae3886a29b665aca2ef5e">vector_type</a> &amp;c, const <a class="el" href="classug_1_1_constrained_linear_iterator.html#ab4eaafbe343ae3886a29b665aca2ef5e">vector_type</a> &amp;d)</td></tr>
+<tr class="separator:aabaf403f520203785614b12c21088b16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac065370747fe1f6f43318427161cb80d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#ac065370747fe1f6f43318427161cb80d">apply_update_defect</a> (<a class="el" href="classug_1_1_constrained_linear_iterator.html#ab4eaafbe343ae3886a29b665aca2ef5e">vector_type</a> &amp;c, <a class="el" href="classug_1_1_constrained_linear_iterator.html#ab4eaafbe343ae3886a29b665aca2ef5e">vector_type</a> &amp;d)</td></tr>
+<tr class="separator:ac065370747fe1f6f43318427161cb80d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d4e635a3907201dc0ea7769b0da20f8"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#a1d4e635a3907201dc0ea7769b0da20f8">init</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_linear_operator.html">ILinearOperator</a>&lt; <a class="el" href="classug_1_1_constrained_linear_iterator.html#ab4eaafbe343ae3886a29b665aca2ef5e">vector_type</a>, <a class="el" href="classug_1_1_constrained_linear_iterator.html#ab4eaafbe343ae3886a29b665aca2ef5e">vector_type</a> &gt; &gt; J, const <a class="el" href="classug_1_1_constrained_linear_iterator.html#ab4eaafbe343ae3886a29b665aca2ef5e">vector_type</a> &amp;u)</td></tr>
+<tr class="separator:a1d4e635a3907201dc0ea7769b0da20f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65d5db30f790f03d83e16691ba314d47"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#a65d5db30f790f03d83e16691ba314d47">init</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_linear_operator.html">ILinearOperator</a>&lt; <a class="el" href="classug_1_1_constrained_linear_iterator.html#ab4eaafbe343ae3886a29b665aca2ef5e">vector_type</a>, <a class="el" href="classug_1_1_constrained_linear_iterator.html#ab4eaafbe343ae3886a29b665aca2ef5e">vector_type</a> &gt; &gt; L)</td></tr>
+<tr class="separator:a65d5db30f790f03d83e16691ba314d47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e249c39b173e014139acec11f0414d4"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#a3e249c39b173e014139acec11f0414d4">name</a> () const</td></tr>
+<tr class="memdesc:a3e249c39b173e014139acec11f0414d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the name of iterator  <a href="#a3e249c39b173e014139acec11f0414d4">More...</a><br /></td></tr>
+<tr class="separator:a3e249c39b173e014139acec11f0414d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a7de7d7ac37863610e731feb4fb2c4f7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_domain_discretization.html">IDomainDiscretization</a>&lt; TAlgebra &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#a7de7d7ac37863610e731feb4fb2c4f7c">m_spDomDisc</a></td></tr>
-<tr class="separator:a7de7d7ac37863610e731feb4fb2c4f7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3fe98c5e89e64bb0cb88f72e2e7f3e2b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_linear_iterator.html">ILinearIterator</a>&lt; <a class="el" href="classug_1_1_constrained_linear_iterator.html#a6f1104339c6d9b7613876923772b8cad">vector_type</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#a3fe98c5e89e64bb0cb88f72e2e7f3e2b">m_spLinIt</a></td></tr>
-<tr class="memdesc:a3fe98c5e89e64bb0cb88f72e2e7f3e2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">storage for factorization  <a href="#a3fe98c5e89e64bb0cb88f72e2e7f3e2b">More...</a><br /></td></tr>
-<tr class="separator:a3fe98c5e89e64bb0cb88f72e2e7f3e2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2084f1c79cf6bbf1fcc7bba3e6bde785"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#a2084f1c79cf6bbf1fcc7bba3e6bde785">m_time</a></td></tr>
-<tr class="separator:a2084f1c79cf6bbf1fcc7bba3e6bde785"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abec8bb0a7a7cacad1cd9b885d56d797b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_domain_discretization.html">IDomainDiscretization</a>&lt; TAlgebra &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#abec8bb0a7a7cacad1cd9b885d56d797b">m_spDomDisc</a></td></tr>
+<tr class="separator:abec8bb0a7a7cacad1cd9b885d56d797b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76f220a319c64acd4a81eee2747593c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_linear_iterator.html">ILinearIterator</a>&lt; <a class="el" href="classug_1_1_constrained_linear_iterator.html#ab4eaafbe343ae3886a29b665aca2ef5e">vector_type</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#a76f220a319c64acd4a81eee2747593c0">m_spLinIt</a></td></tr>
+<tr class="separator:a76f220a319c64acd4a81eee2747593c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc016f51b2c887b919d30eb0d6bf9025"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#abc016f51b2c887b919d30eb0d6bf9025">m_time</a></td></tr>
+<tr class="separator:abc016f51b2c887b919d30eb0d6bf9025"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a96db312e7f3ccb30e05d560c7a30e113"><td class="memItemLeft" align="right" valign="top">struct&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_constrained_linear_iterator.html#a96db312e7f3ccb30e05d560c7a30e113">apply_update_defect_impl&lt; TLinIt &gt;</a></td></tr>
+<tr class="separator:a96db312e7f3ccb30e05d560c7a30e113"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt;<br />
-class ug::ConstrainedLinearIterator&lt; TDomain, TAlgebra, TLinIt &gt;</h3>
+<div class="textblock"><h3>template&lt;typename TDomain, typename TAlgebra, typename TLinIt, typename = void&gt;<br />
+class ug::ConstrainedLinearIterator&lt; TDomain, TAlgebra, TLinIt, typename &gt;</h3>
 
 <p>This class is a template for constraint-respecting versions of any linear iterator derived from <a class="el" href="classug_1_1_i_linear_iterator.html" title="describes a linear iterator ">ILinearIterator</a>. This includes linear solvers as well as preconditioners. The derived <a class="el" href="classug_1_1_i_linear_iterator.html" title="describes a linear iterator ">ILinearIterator</a> class must have a constructor without arguments. The handled constraints must implement the two methods: adjust_correction(), adjust_defect(). </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a02a25ed3f1e5fc485071b06b23f0cb15"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a02a25ed3f1e5fc485071b06b23f0cb15">&sect;&nbsp;</a></span>base_type</h2>
+<a id="aa5821f73910d978eb02119dbe180536f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5821f73910d978eb02119dbe180536f">&sect;&nbsp;</a></span>base_type</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt; </div>
+template&lt;typename TDomain, typename TAlgebra, typename TLinIt, typename  = void&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef TLinIt <a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt &gt;::<a class="el" href="classug_1_1_constrained_linear_iterator.html#a02a25ed3f1e5fc485071b06b23f0cb15">base_type</a></td>
+          <td class="memname">typedef TLinIt <a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt, typename &gt;::<a class="el" href="classug_1_1_constrained_linear_iterator.html#aa5821f73910d978eb02119dbe180536f">base_type</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a956ac72ac23f318ceec1de8933e56778"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a956ac72ac23f318ceec1de8933e56778">&sect;&nbsp;</a></span>gf_type</h2>
+<a id="a572bbc0c2494d471b2148e89993b855d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a572bbc0c2494d471b2148e89993b855d">&sect;&nbsp;</a></span>gf_type</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt; </div>
+template&lt;typename TDomain, typename TAlgebra, typename TLinIt, typename  = void&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="classug_1_1_grid_function.html">GridFunction</a>&lt;TDomain, TAlgebra&gt; <a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt &gt;::<a class="el" href="classug_1_1_constrained_linear_iterator.html#a956ac72ac23f318ceec1de8933e56778">gf_type</a></td>
+          <td class="memname">typedef <a class="el" href="classug_1_1_grid_function.html">GridFunction</a>&lt;TDomain, TAlgebra&gt; <a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt, typename &gt;::<a class="el" href="classug_1_1_constrained_linear_iterator.html#a572bbc0c2494d471b2148e89993b855d">gf_type</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a6f1104339c6d9b7613876923772b8cad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f1104339c6d9b7613876923772b8cad">&sect;&nbsp;</a></span>vector_type</h2>
+<a id="ab4eaafbe343ae3886a29b665aca2ef5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4eaafbe343ae3886a29b665aca2ef5e">&sect;&nbsp;</a></span>vector_type</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt; </div>
+template&lt;typename TDomain, typename TAlgebra, typename TLinIt, typename  = void&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef TAlgebra::vector_type <a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt &gt;::<a class="el" href="classug_1_1_constrained_linear_iterator.html#a6f1104339c6d9b7613876923772b8cad">vector_type</a></td>
+          <td class="memname">typedef TAlgebra::vector_type <a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt, typename &gt;::<a class="el" href="classug_1_1_constrained_linear_iterator.html#ab4eaafbe343ae3886a29b665aca2ef5e">vector_type</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -218,19 +231,19 @@ template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a28272546080f23f3435c7fb6ba500405"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28272546080f23f3435c7fb6ba500405">&sect;&nbsp;</a></span>ConstrainedLinearIterator() <span class="overload">[1/2]</span></h2>
+<a id="ae8c27f1e5ee8de4216956b0d8a2ebfe0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8c27f1e5ee8de4216956b0d8a2ebfe0">&sect;&nbsp;</a></span>ConstrainedLinearIterator() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt; </div>
+template&lt;typename TDomain, typename TAlgebra, typename TLinIt, typename  = void&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt &gt;::<a class="el" href="classug_1_1_constrained_linear_iterator.html">ConstrainedLinearIterator</a> </td>
+          <td class="memname"><a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt, typename &gt;::<a class="el" href="classug_1_1_constrained_linear_iterator.html">ConstrainedLinearIterator</a> </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_domain_discretization.html">IDomainDiscretization</a>&lt; TAlgebra &gt; &gt;&#160;</td>
           <td class="paramname"><em>domDisc</em></td><td>)</td>
@@ -248,19 +261,19 @@ template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt; </div>
 
 </div>
 </div>
-<a id="a0cd4b6fa113e69f2caf14cd7d0dd1c7a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0cd4b6fa113e69f2caf14cd7d0dd1c7a">&sect;&nbsp;</a></span>ConstrainedLinearIterator() <span class="overload">[2/2]</span></h2>
+<a id="a3ab83b8aaa1e5f6ff5684f64bbf606bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ab83b8aaa1e5f6ff5684f64bbf606bc">&sect;&nbsp;</a></span>ConstrainedLinearIterator() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt; </div>
+template&lt;typename TDomain, typename TAlgebra, typename TLinIt, typename  = void&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt &gt;::<a class="el" href="classug_1_1_constrained_linear_iterator.html">ConstrainedLinearIterator</a> </td>
+          <td class="memname"><a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt, typename &gt;::<a class="el" href="classug_1_1_constrained_linear_iterator.html">ConstrainedLinearIterator</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classug_1_1_constrained_linear_iterator.html">ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt &gt; &amp;&#160;</td>
           <td class="paramname"><em>parent</em></td><td>)</td>
@@ -278,19 +291,19 @@ template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt; </div>
 
 </div>
 </div>
-<a id="a358ed3ce12e7d320e87d2118832451eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a358ed3ce12e7d320e87d2118832451eb">&sect;&nbsp;</a></span>~ConstrainedLinearIterator()</h2>
+<a id="ab1cd4f72c6443714a7ed53ade9fee71f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1cd4f72c6443714a7ed53ade9fee71f">&sect;&nbsp;</a></span>~ConstrainedLinearIterator()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt; </div>
+template&lt;typename TDomain, typename TAlgebra, typename TLinIt, typename  = void&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt &gt;::~<a class="el" href="classug_1_1_constrained_linear_iterator.html">ConstrainedLinearIterator</a> </td>
+          <td class="memname">virtual <a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt, typename &gt;::~<a class="el" href="classug_1_1_constrained_linear_iterator.html">ConstrainedLinearIterator</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -308,27 +321,27 @@ template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a9cf3dff9811fd348149380f92a938600"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9cf3dff9811fd348149380f92a938600">&sect;&nbsp;</a></span>apply()</h2>
+<a id="aabaf403f520203785614b12c21088b16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabaf403f520203785614b12c21088b16">&sect;&nbsp;</a></span>apply()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt; </div>
+template&lt;typename TDomain, typename TAlgebra, typename TLinIt, typename  = void&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool <a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt &gt;::apply </td>
+          <td class="memname">virtual bool <a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt, typename &gt;::apply </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classug_1_1_constrained_linear_iterator.html#a6f1104339c6d9b7613876923772b8cad">vector_type</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_constrained_linear_iterator.html#ab4eaafbe343ae3886a29b665aca2ef5e">vector_type</a> &amp;&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classug_1_1_constrained_linear_iterator.html#a6f1104339c6d9b7613876923772b8cad">vector_type</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classug_1_1_constrained_linear_iterator.html#ab4eaafbe343ae3886a29b665aca2ef5e">vector_type</a> &amp;&#160;</td>
           <td class="paramname"><em>d</em>&#160;</td>
         </tr>
         <tr>
@@ -344,31 +357,33 @@ template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="namespaceug.html#a15cceed2ee5077a2edb88beb74336e8faf0d7a544134a47b8b696b178641fb272">ug::CT_CONSTRAINTS</a>, <a class="el" href="namespaceug.html#a15cceed2ee5077a2edb88beb74336e8fa59423b6d86b57914c9eb3b652d70cf7f">ug::CT_DIRICHLET</a>, <a class="el" href="namespaceug.html#a15cceed2ee5077a2edb88beb74336e8fa6f93ecdadead626ad1ec3ce33349eb9e">ug::CT_HANGING</a>, <a class="el" href="classug_1_1_grid_function.html#a36af77b45414f3862de25200f573e911">ug::GridFunction&lt; TDomain, TAlgebra &gt;::dof_distribution()</a>, <a class="el" href="classug_1_1_constrained_linear_iterator.html#a7de7d7ac37863610e731feb4fb2c4f7c">ug::ConstrainedLinearIterator&lt; TDomain, TAlgebra, TLinIt &gt;::m_spDomDisc</a>, <a class="el" href="classug_1_1_constrained_linear_iterator.html#a2084f1c79cf6bbf1fcc7bba3e6bde785">ug::ConstrainedLinearIterator&lt; TDomain, TAlgebra, TLinIt &gt;::m_time</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
+<p>References <a class="el" href="namespaceug.html#a15cceed2ee5077a2edb88beb74336e8faf0d7a544134a47b8b696b178641fb272">ug::CT_CONSTRAINTS</a>, <a class="el" href="namespaceug.html#a15cceed2ee5077a2edb88beb74336e8fa59423b6d86b57914c9eb3b652d70cf7f">ug::CT_DIRICHLET</a>, <a class="el" href="namespaceug.html#a15cceed2ee5077a2edb88beb74336e8fa6f93ecdadead626ad1ec3ce33349eb9e">ug::CT_HANGING</a>, <a class="el" href="classug_1_1_grid_function.html#a36af77b45414f3862de25200f573e911">ug::GridFunction&lt; TDomain, TAlgebra &gt;::dof_distribution()</a>, <a class="el" href="classug_1_1_constrained_linear_iterator.html#abec8bb0a7a7cacad1cd9b885d56d797b">ug::ConstrainedLinearIterator&lt; TDomain, TAlgebra, TLinIt, typename &gt;::m_spDomDisc</a>, <a class="el" href="classug_1_1_constrained_linear_iterator.html#abc016f51b2c887b919d30eb0d6bf9025">ug::ConstrainedLinearIterator&lt; TDomain, TAlgebra, TLinIt, typename &gt;::m_time</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
+
+<p>Referenced by <a class="el" href="structug_1_1_constrained_linear_iterator_1_1apply__update__defect__impl_3_01_s_00_01typename_01b310bc2fcf5ee106b57194deac7e3da2e.html#ae9e2aff65e5879011e9cf5060224a9bf">ug::ConstrainedLinearIterator&lt; TDomain, TAlgebra, TLinIt, typename &gt;::apply_update_defect_impl&lt; S, typename boost::enable_if&lt; boost::is_base_of&lt; IPreconditioner&lt; TAlgebra &gt;, S &gt; &gt;::type &gt;::operator()()</a>.</p>
 
 </div>
 </div>
-<a id="a4c188b80d05494ec36c67ac640610178"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c188b80d05494ec36c67ac640610178">&sect;&nbsp;</a></span>apply_update_defect()</h2>
+<a id="ac065370747fe1f6f43318427161cb80d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac065370747fe1f6f43318427161cb80d">&sect;&nbsp;</a></span>apply_update_defect()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt; </div>
+template&lt;typename TDomain, typename TAlgebra, typename TLinIt, typename  = void&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool <a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt &gt;::apply_update_defect </td>
+          <td class="memname">virtual bool <a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt, typename &gt;::apply_update_defect </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classug_1_1_constrained_linear_iterator.html#a6f1104339c6d9b7613876923772b8cad">vector_type</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_constrained_linear_iterator.html#ab4eaafbe343ae3886a29b665aca2ef5e">vector_type</a> &amp;&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classug_1_1_constrained_linear_iterator.html#a6f1104339c6d9b7613876923772b8cad">vector_type</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_constrained_linear_iterator.html#ab4eaafbe343ae3886a29b665aca2ef5e">vector_type</a> &amp;&#160;</td>
           <td class="paramname"><em>d</em>&#160;</td>
         </tr>
         <tr>
@@ -384,23 +399,21 @@ template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="namespaceug.html#a15cceed2ee5077a2edb88beb74336e8faf0d7a544134a47b8b696b178641fb272">ug::CT_CONSTRAINTS</a>, <a class="el" href="namespaceug.html#a15cceed2ee5077a2edb88beb74336e8fa59423b6d86b57914c9eb3b652d70cf7f">ug::CT_DIRICHLET</a>, <a class="el" href="namespaceug.html#a15cceed2ee5077a2edb88beb74336e8fa6f93ecdadead626ad1ec3ce33349eb9e">ug::CT_HANGING</a>, <a class="el" href="classug_1_1_grid_function.html#a36af77b45414f3862de25200f573e911">ug::GridFunction&lt; TDomain, TAlgebra &gt;::dof_distribution()</a>, <a class="el" href="classug_1_1_constrained_linear_iterator.html#a7de7d7ac37863610e731feb4fb2c4f7c">ug::ConstrainedLinearIterator&lt; TDomain, TAlgebra, TLinIt &gt;::m_spDomDisc</a>, <a class="el" href="classug_1_1_constrained_linear_iterator.html#a2084f1c79cf6bbf1fcc7bba3e6bde785">ug::ConstrainedLinearIterator&lt; TDomain, TAlgebra, TLinIt &gt;::m_time</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
-
 </div>
 </div>
-<a id="a67897d5288beba5afb66d5461d75dfb4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67897d5288beba5afb66d5461d75dfb4">&sect;&nbsp;</a></span>clone()</h2>
+<a id="af80aad7058aaad0a4d4433690d3a4ae6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af80aad7058aaad0a4d4433690d3a4ae6">&sect;&nbsp;</a></span>clone()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt; </div>
+template&lt;typename TDomain, typename TAlgebra, typename TLinIt, typename  = void&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt;<a class="el" href="classug_1_1_i_linear_iterator.html">ILinearIterator</a>&lt;<a class="el" href="classug_1_1_constrained_linear_iterator.html#a6f1104339c6d9b7613876923772b8cad">vector_type</a>&gt; &gt; <a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt &gt;::clone </td>
+          <td class="memname">virtual <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt;<a class="el" href="classug_1_1_i_linear_iterator.html">ILinearIterator</a>&lt;<a class="el" href="classug_1_1_constrained_linear_iterator.html#ab4eaafbe343ae3886a29b665aca2ef5e">vector_type</a>&gt; &gt; <a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt, typename &gt;::clone </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -419,27 +432,27 @@ template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt; </div>
 
 </div>
 </div>
-<a id="a4b17a6e10c5d42379d1d118a483de4e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b17a6e10c5d42379d1d118a483de4e8">&sect;&nbsp;</a></span>init() <span class="overload">[1/2]</span></h2>
+<a id="a1d4e635a3907201dc0ea7769b0da20f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d4e635a3907201dc0ea7769b0da20f8">&sect;&nbsp;</a></span>init() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt; </div>
+template&lt;typename TDomain, typename TAlgebra, typename TLinIt, typename  = void&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool <a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt &gt;::init </td>
+          <td class="memname">virtual bool <a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt, typename &gt;::init </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_linear_operator.html">ILinearOperator</a>&lt; <a class="el" href="classug_1_1_constrained_linear_iterator.html#a6f1104339c6d9b7613876923772b8cad">vector_type</a>, <a class="el" href="classug_1_1_constrained_linear_iterator.html#a6f1104339c6d9b7613876923772b8cad">vector_type</a> &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_linear_operator.html">ILinearOperator</a>&lt; <a class="el" href="classug_1_1_constrained_linear_iterator.html#ab4eaafbe343ae3886a29b665aca2ef5e">vector_type</a>, <a class="el" href="classug_1_1_constrained_linear_iterator.html#ab4eaafbe343ae3886a29b665aca2ef5e">vector_type</a> &gt; &gt;&#160;</td>
           <td class="paramname"><em>J</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classug_1_1_constrained_linear_iterator.html#a6f1104339c6d9b7613876923772b8cad">vector_type</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classug_1_1_constrained_linear_iterator.html#ab4eaafbe343ae3886a29b665aca2ef5e">vector_type</a> &amp;&#160;</td>
           <td class="paramname"><em>u</em>&#160;</td>
         </tr>
         <tr>
@@ -459,21 +472,21 @@ template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt; </div>
 
 </div>
 </div>
-<a id="a947368706f031fd9ed4f0f98306c61ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a947368706f031fd9ed4f0f98306c61ae">&sect;&nbsp;</a></span>init() <span class="overload">[2/2]</span></h2>
+<a id="a65d5db30f790f03d83e16691ba314d47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65d5db30f790f03d83e16691ba314d47">&sect;&nbsp;</a></span>init() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt; </div>
+template&lt;typename TDomain, typename TAlgebra, typename TLinIt, typename  = void&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool <a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt &gt;::init </td>
+          <td class="memname">virtual bool <a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt, typename &gt;::init </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_linear_operator.html">ILinearOperator</a>&lt; <a class="el" href="classug_1_1_constrained_linear_iterator.html#a6f1104339c6d9b7613876923772b8cad">vector_type</a>, <a class="el" href="classug_1_1_constrained_linear_iterator.html#a6f1104339c6d9b7613876923772b8cad">vector_type</a> &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_linear_operator.html">ILinearOperator</a>&lt; <a class="el" href="classug_1_1_constrained_linear_iterator.html#ab4eaafbe343ae3886a29b665aca2ef5e">vector_type</a>, <a class="el" href="classug_1_1_constrained_linear_iterator.html#ab4eaafbe343ae3886a29b665aca2ef5e">vector_type</a> &gt; &gt;&#160;</td>
           <td class="paramname"><em>L</em></td><td>)</td>
           <td></td>
         </tr>
@@ -489,19 +502,19 @@ template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt; </div>
 
 </div>
 </div>
-<a id="afcb004b39e5578c5264155e771456dff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afcb004b39e5578c5264155e771456dff">&sect;&nbsp;</a></span>name()</h2>
+<a id="a3e249c39b173e014139acec11f0414d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e249c39b173e014139acec11f0414d4">&sect;&nbsp;</a></span>name()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt; </div>
+template&lt;typename TDomain, typename TAlgebra, typename TLinIt, typename  = void&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const char* <a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt &gt;::name </td>
+          <td class="memname">virtual const char* <a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt, typename &gt;::name </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -520,19 +533,19 @@ template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt; </div>
 
 </div>
 </div>
-<a id="a6ed2670937502de6c9e53f17da32b87b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ed2670937502de6c9e53f17da32b87b">&sect;&nbsp;</a></span>set_time()</h2>
+<a id="ad79c94101e28bafbbf19c317982384a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad79c94101e28bafbbf19c317982384a4">&sect;&nbsp;</a></span>set_time()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt; </div>
+template&lt;typename TDomain, typename TAlgebra, typename TLinIt, typename  = void&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt &gt;::set_time </td>
+          <td class="memname">void <a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt, typename &gt;::set_time </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td>
           <td class="paramname"><em>time</em></td><td>)</td>
@@ -548,23 +561,23 @@ template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt; </div>
 
 <p>setter for time </p>
 
-<p>References <a class="el" href="classug_1_1_constrained_linear_iterator.html#a2084f1c79cf6bbf1fcc7bba3e6bde785">ug::ConstrainedLinearIterator&lt; TDomain, TAlgebra, TLinIt &gt;::m_time</a>.</p>
+<p>References <a class="el" href="classug_1_1_constrained_linear_iterator.html#abc016f51b2c887b919d30eb0d6bf9025">ug::ConstrainedLinearIterator&lt; TDomain, TAlgebra, TLinIt, typename &gt;::m_time</a>.</p>
 
 </div>
 </div>
-<a id="aaf21f84b22afaa39c0a64e33a901cc9c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf21f84b22afaa39c0a64e33a901cc9c">&sect;&nbsp;</a></span>supports_parallel()</h2>
+<a id="a659dbe3c92ab5b41b7fac7ff75f3983d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a659dbe3c92ab5b41b7fac7ff75f3983d">&sect;&nbsp;</a></span>supports_parallel()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt; </div>
+template&lt;typename TDomain, typename TAlgebra, typename TLinIt, typename  = void&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool <a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt &gt;::supports_parallel </td>
+          <td class="memname">virtual bool <a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt, typename &gt;::supports_parallel </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -581,20 +594,45 @@ template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt; </div>
 
 </div>
 </div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a96db312e7f3ccb30e05d560c7a30e113"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96db312e7f3ccb30e05d560c7a30e113">&sect;&nbsp;</a></span>apply_update_defect_impl< TLinIt ></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TDomain, typename TAlgebra, typename TLinIt, typename  = void&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend struct <a class="el" href="structug_1_1_constrained_linear_iterator_1_1apply__update__defect__impl.html">apply_update_defect_impl</a>&lt; TLinIt &gt;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a7de7d7ac37863610e731feb4fb2c4f7c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7de7d7ac37863610e731feb4fb2c4f7c">&sect;&nbsp;</a></span>m_spDomDisc</h2>
+<a id="abec8bb0a7a7cacad1cd9b885d56d797b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abec8bb0a7a7cacad1cd9b885d56d797b">&sect;&nbsp;</a></span>m_spDomDisc</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt; </div>
+template&lt;typename TDomain, typename TAlgebra, typename TLinIt, typename  = void&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt;<a class="el" href="classug_1_1_i_domain_discretization.html">IDomainDiscretization</a>&lt;TAlgebra&gt; &gt; <a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt &gt;::m_spDomDisc</td>
+          <td class="memname"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt;<a class="el" href="classug_1_1_i_domain_discretization.html">IDomainDiscretization</a>&lt;TAlgebra&gt; &gt; <a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt, typename &gt;::m_spDomDisc</td>
         </tr>
       </table>
   </td>
@@ -604,23 +642,23 @@ template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classug_1_1_constrained_linear_iterator.html#a9cf3dff9811fd348149380f92a938600">ug::ConstrainedLinearIterator&lt; TDomain, TAlgebra, TLinIt &gt;::apply()</a>, and <a class="el" href="classug_1_1_constrained_linear_iterator.html#a4c188b80d05494ec36c67ac640610178">ug::ConstrainedLinearIterator&lt; TDomain, TAlgebra, TLinIt &gt;::apply_update_defect()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_constrained_linear_iterator.html#aabaf403f520203785614b12c21088b16">ug::ConstrainedLinearIterator&lt; TDomain, TAlgebra, TLinIt, typename &gt;::apply()</a>, and <a class="el" href="structug_1_1_constrained_linear_iterator_1_1apply__update__defect__impl.html#a9a4267a0030e38451ed3ebe6b39a3fc5">ug::ConstrainedLinearIterator&lt; TDomain, TAlgebra, TLinIt, typename &gt;::apply_update_defect_impl&lt; S, typename &gt;::operator()()</a>.</p>
 
 </div>
 </div>
-<a id="a3fe98c5e89e64bb0cb88f72e2e7f3e2b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fe98c5e89e64bb0cb88f72e2e7f3e2b">&sect;&nbsp;</a></span>m_spLinIt</h2>
+<a id="a76f220a319c64acd4a81eee2747593c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76f220a319c64acd4a81eee2747593c0">&sect;&nbsp;</a></span>m_spLinIt</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt; </div>
+template&lt;typename TDomain, typename TAlgebra, typename TLinIt, typename  = void&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt;<a class="el" href="classug_1_1_i_linear_iterator.html">ILinearIterator</a>&lt;<a class="el" href="classug_1_1_constrained_linear_iterator.html#a6f1104339c6d9b7613876923772b8cad">vector_type</a>&gt; &gt; <a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt &gt;::m_spLinIt</td>
+          <td class="memname"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt;<a class="el" href="classug_1_1_i_linear_iterator.html">ILinearIterator</a>&lt;<a class="el" href="classug_1_1_constrained_linear_iterator.html#ab4eaafbe343ae3886a29b665aca2ef5e">vector_type</a>&gt; &gt; <a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt, typename &gt;::m_spLinIt</td>
         </tr>
       </table>
   </td>
@@ -630,23 +668,21 @@ template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>storage for factorization </p>
-
 </div>
 </div>
-<a id="a2084f1c79cf6bbf1fcc7bba3e6bde785"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2084f1c79cf6bbf1fcc7bba3e6bde785">&sect;&nbsp;</a></span>m_time</h2>
+<a id="abc016f51b2c887b919d30eb0d6bf9025"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc016f51b2c887b919d30eb0d6bf9025">&sect;&nbsp;</a></span>m_time</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt; </div>
+template&lt;typename TDomain, typename TAlgebra, typename TLinIt, typename  = void&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> <a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt &gt;::m_time</td>
+          <td class="memname"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> <a class="el" href="classug_1_1_constrained_linear_iterator.html">ug::ConstrainedLinearIterator</a>&lt; TDomain, TAlgebra, TLinIt, typename &gt;::m_time</td>
         </tr>
       </table>
   </td>
@@ -656,7 +692,7 @@ template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classug_1_1_constrained_linear_iterator.html#a9cf3dff9811fd348149380f92a938600">ug::ConstrainedLinearIterator&lt; TDomain, TAlgebra, TLinIt &gt;::apply()</a>, <a class="el" href="classug_1_1_constrained_linear_iterator.html#a4c188b80d05494ec36c67ac640610178">ug::ConstrainedLinearIterator&lt; TDomain, TAlgebra, TLinIt &gt;::apply_update_defect()</a>, and <a class="el" href="classug_1_1_constrained_linear_iterator.html#a6ed2670937502de6c9e53f17da32b87b">ug::ConstrainedLinearIterator&lt; TDomain, TAlgebra, TLinIt &gt;::set_time()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_constrained_linear_iterator.html#aabaf403f520203785614b12c21088b16">ug::ConstrainedLinearIterator&lt; TDomain, TAlgebra, TLinIt, typename &gt;::apply()</a>, <a class="el" href="structug_1_1_constrained_linear_iterator_1_1apply__update__defect__impl.html#a9a4267a0030e38451ed3ebe6b39a3fc5">ug::ConstrainedLinearIterator&lt; TDomain, TAlgebra, TLinIt, typename &gt;::apply_update_defect_impl&lt; S, typename &gt;::operator()()</a>, and <a class="el" href="classug_1_1_constrained_linear_iterator.html#ad79c94101e28bafbbf19c317982384a4">ug::ConstrainedLinearIterator&lt; TDomain, TAlgebra, TLinIt, typename &gt;::set_time()</a>.</p>
 
 </div>
 </div>
@@ -669,7 +705,7 @@ template&lt;typename TDomain, typename TAlgebra, typename TLinIt&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_constrained_linear_iterator.html">ConstrainedLinearIterator</a></li>
-    <li class="footer">Generated on Thu Mar 30 2017 18:44:18 for ug4 by
+    <li class="footer">Generated on Mon Jul 24 2017 16:04:19 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

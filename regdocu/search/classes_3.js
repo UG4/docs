@@ -84,8 +84,8 @@ var searchData=
   ['dimreferencemapping_3c_20dim_2c_20worlddim_20_3e',['DimReferenceMapping&lt; dim, worldDim &gt;',['../../classug_1_1_dim_reference_mapping.html',1,'DimReferenceMapping&lt; dim, worldDim &gt;'],['../../classug_1_1_dim_reference_mapping.html',1,'DimReferenceMapping&lt; dim, worldDim &gt;']]],
   ['dimreferencemapping_3c_20trefmapping_3a_3adim_2c_20trefmapping_3a_3aworlddim_20_3e',['DimReferenceMapping&lt; TRefMapping::dim, TRefMapping::worldDim &gt;',['../../classug_1_1_dim_reference_mapping.html',1,'']]],
   ['dimreferencemappingwrapper',['DimReferenceMappingWrapper',['../../classug_1_1_dim_reference_mapping_wrapper.html',1,'ug']]],
-  ['dirichletboundary',['DirichletBoundary',['../../classug_1_1_dirichlet_boundary.html',1,'ug']]],
   ['dirichletboundary',['DirichletBoundary',['../classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_dirichlet_boundary.html',1,'ug4Bridge::Discretization::SpatialDisc']]],
+  ['dirichletboundary',['DirichletBoundary',['../../classug_1_1_dirichlet_boundary.html',1,'ug']]],
   ['distinfosupplier',['DistInfoSupplier',['../../classug_1_1_dist_info_supplier.html',1,'ug']]],
   ['distributedgridmanager',['DistributedGridManager',['../../classug_1_1_distributed_grid_manager.html',1,'ug']]],
   ['distroadjuster',['DistroAdjuster',['../../classug_1_1_distro_adjuster.html',1,'ug']]],
@@ -114,7 +114,7 @@ var searchData=
   ['domainloadbalancer',['DomainLoadBalancer',['../classug4_bridge_1_1_load_balancing_1_1_domain_load_balancer.html',1,'ug4Bridge::LoadBalancing']]],
   ['domainloadbalancer',['DomainLoadBalancer',['../../classug_1_1_domain_load_balancer.html',1,'ug']]],
   ['domainpartitioner',['DomainPartitioner',['../../classug_1_1_domain_partitioner.html',1,'ug']]],
-  ['domainraytracer',['DomainRayTracer',['../classug4_bridge_1_1_ray_tracing_1_1_domain_ray_tracer.html',1,'ug4Bridge::RayTracing']]],
   ['domainraytracer',['DomainRayTracer',['../../classug_1_1_domain_ray_tracer.html',1,'ug']]],
+  ['domainraytracer',['DomainRayTracer',['../classug4_bridge_1_1_ray_tracing_1_1_domain_ray_tracer.html',1,'ug4Bridge::RayTracing']]],
   ['dualgraphneighborcollector',['DualGraphNeighborCollector',['../../classug_1_1_dual_graph_neighbor_collector.html',1,'ug']]]
 ];

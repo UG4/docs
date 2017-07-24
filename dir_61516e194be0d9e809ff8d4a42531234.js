@@ -22,6 +22,8 @@ var dir_61516e194be0d9e809ff8d4a42531234 =
     [ "file_io_obj.h", "file__io__obj_8h.html", "file__io__obj_8h" ],
     [ "file_io_stl.cpp", "file__io__stl_8cpp.html", "file__io__stl_8cpp" ],
     [ "file_io_stl.h", "file__io__stl_8h.html", "file__io__stl_8h" ],
+    [ "file_io_swc.cpp", "file__io__swc_8cpp.html", "file__io__swc_8cpp" ],
+    [ "file_io_swc.h", "file__io__swc_8h.html", "file__io__swc_8h" ],
     [ "file_io_tetgen.cpp", "file__io__tetgen_8cpp.html", "file__io__tetgen_8cpp" ],
     [ "file_io_tetgen.h", "file__io__tetgen_8h.html", "file__io__tetgen_8h" ],
     [ "file_io_tikz.cpp", "file__io__tikz_8cpp.html", "file__io__tikz_8cpp" ],

@@ -6,6 +6,7 @@ var parallel__vector__impl_8h =
     [ "PROFILE_PARALLEL_VECTOR", "parallel__vector__impl_8h.html#afe15bdfaa5c686396c4cf70923cbd2bb", null ],
     [ "CloneVector", "parallel__vector__impl_8h.html#abdbecbb16dadea5ba57bc8afe4a321a6", null ],
     [ "VecAssign", "parallel__vector__impl_8h.html#a4a0cc08a3bdc33992d937ea57bbe7c0a", null ],
+    [ "VecHadamardProd", "parallel__vector__impl_8h.html#a77525ddc6c1210cbef07475d9744a7a5", null ],
     [ "VecProd", "parallel__vector__impl_8h.html#af03bdbf8718cb44e332dfef7aed246f4", null ],
     [ "VecScaleAdd", "parallel__vector__impl_8h.html#a4437f1d7b8667488537f4e3dc376f077", null ],
     [ "VecScaleAdd", "parallel__vector__impl_8h.html#a7dfd90cafb1e81443236c6447e60edd5", null ],

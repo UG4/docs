@@ -157,6 +157,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gaf9b562c68ed9377ab88023a0de6f336c"><td class="memTemplParams" colspan="2">template&lt;class TDomain &gt; </td></tr>
 <tr class="memitem:gaf9b562c68ed9377ab88023a0de6f336c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__refinement__bridge.html#gaf9b562c68ed9377ab88023a0de6f336c">ug::MarkForRefinement_AnisotropicElements</a> (TDomain &amp;dom, <a class="el" href="classug_1_1_i_refiner.html">IRefiner</a> &amp;refiner, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> minEdgeRatio)</td></tr>
 <tr class="separator:gaf9b562c68ed9377ab88023a0de6f336c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae43e19500577a2425218667de82d880a"><td class="memTemplParams" colspan="2">template&lt;class TDomain &gt; </td></tr>
+<tr class="memitem:gae43e19500577a2425218667de82d880a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__refinement__bridge.html#gae43e19500577a2425218667de82d880a">ug::MarkForRefinement_EdgeDirection</a> (TDomain &amp;dom, <a class="el" href="classug_1_1_i_refiner.html">IRefiner</a> &amp;refiner, <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#ga425548c7b0fe054612f37d1f3a4826b6">TDomain::dim</a> &gt; &amp;dir, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> minDeviationAngle, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> maxDeviationAngle, bool selectFlipped)</td></tr>
+<tr class="separator:gae43e19500577a2425218667de82d880a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2758abecc140da62e0af3f825c048871"><td class="memTemplParams" colspan="2">template&lt;class TDomain &gt; </td></tr>
 <tr class="memitem:ga2758abecc140da62e0af3f825c048871"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__refinement__bridge.html#ga2758abecc140da62e0af3f825c048871">ug::MarkForRefinement_ElementsByLuaCallback</a> (TDomain &amp;dom, <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_refiner.html">IRefiner</a> &gt; refiner, double time, size_t maxLvl, const char *luaCallbackName)</td></tr>
 <tr class="separator:ga2758abecc140da62e0af3f825c048871"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -854,6 +857,62 @@ template&lt;class TDomain &gt; </div>
 
 </div>
 </div>
+<a id="gae43e19500577a2425218667de82d880a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae43e19500577a2425218667de82d880a">&sect;&nbsp;</a></span>MarkForRefinement_EdgeDirection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TDomain &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug::MarkForRefinement_EdgeDirection </td>
+          <td>(</td>
+          <td class="paramtype">TDomain &amp;&#160;</td>
+          <td class="paramname"><em>dom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classug_1_1_i_refiner.html">IRefiner</a> &amp;&#160;</td>
+          <td class="paramname"><em>refiner</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#ga425548c7b0fe054612f37d1f3a4826b6">TDomain::dim</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>dir</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td>
+          <td class="paramname"><em>minDeviationAngle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td>
+          <td class="paramname"><em>maxDeviationAngle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>selectFlipped</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classug_1_1_multi_grid.html#ad08c6555bfd418c2f29a4fa37e3d3283">ug::MultiGrid::begin()</a>, <a class="el" href="classug_1_1_multi_grid.html#acb923cf608711581992e842f17336eb5">ug::MultiGrid::end()</a>, and <a class="el" href="namespaceug.html#a6e82e9914fa28a32261ffd362b8c74e2">ug::MarkForRefinementByDirection()</a>.</p>
+
+</div>
+</div>
 <a id="ga2758abecc140da62e0af3f825c048871"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga2758abecc140da62e0af3f825c048871">&sect;&nbsp;</a></span>MarkForRefinement_ElementsByLuaCallback()</h2>
 
@@ -1254,7 +1313,7 @@ template&lt;class TDomain &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Mar 30 2017 18:44:11 for ug4 by
+    <li class="footer">Generated on Mon Jul 24 2017 16:04:12 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

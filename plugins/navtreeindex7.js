@@ -1,5 +1,12 @@
 var NAVTREEINDEX7 =
 {
+"group__math__matrix.html#ga47d37e02751d5b74a604798085145855":[1,0,41,12],
+"group__math__matrix.html#ga48aaa0228cabbbe51ad30f9a76efb717":[1,0,41,43],
+"group__math__matrix.html#ga499acf18dd65bf166c6badf3911cb31f":[1,0,41,83],
+"group__math__matrix.html#ga49c60db7041f54544efaf62ec2a5e28d":[1,0,41,48],
+"group__math__matrix.html#ga4d4fe1a10309804309079c7340b72f0a":[1,0,41,36],
+"group__math__matrix.html#ga4ea1b993212016accff4ebc6cc6aa1df":[1,0,41,56],
+"group__math__matrix.html#ga51435539b2bfdafcc54372a96c8be791":[1,0,41,3],
 "group__math__matrix.html#ga5e9b5bfa58cc8b32205d09d4158ba700":[1,0,41,15],
 "group__math__matrix.html#ga5f583f6b5b59ebfdf26cf5879287fbfe":[1,0,41,74],
 "group__math__matrix.html#ga6029e5bf8b2a17cd7acdbf084b940734":[1,0,41,29],
@@ -141,8 +148,8 @@ var NAVTREEINDEX7 =
 "group__pcl.html#ga1527fe94fb08c939cfc9b98e83f4cfa9":[1,0,99,51],
 "group__pcl.html#ga17bfa7a217567699e0646832a8505776":[1,0,99,74],
 "group__pcl.html#ga17bfa7a217567699e0646832a8505776":[1,0,99,75],
-"group__pcl.html#ga1c0ebae74454eb67b5eb3b8d4f953ff7":[1,0,99,76],
 "group__pcl.html#ga1c0ebae74454eb67b5eb3b8d4f953ff7":[1,0,99,79],
+"group__pcl.html#ga1c0ebae74454eb67b5eb3b8d4f953ff7":[1,0,99,76],
 "group__pcl.html#ga20bf85e2326f0efe8d342e3e540dc78a":[1,0,99,16],
 "group__pcl.html#ga20bf85e2326f0efe8d342e3e540dc78a":[1,0,99,17],
 "group__pcl.html#ga2a6485d186a64a64bbc3615a1bbeb76d":[1,0,99,46],
@@ -242,12 +249,5 @@ var NAVTREEINDEX7 =
 "group__pcl__bridge.html#gae893513e3f4ec2e9e134d79caa707dc5":[1,0,35,1],
 "group__periodic__bridge.html":[1,0,29],
 "group__periodic__bridge.html#gae3a3c45eddbcfd1cd854d170c389e651":[1,0,29,0],
-"group__plugin__template.html":[1,0,1],
-"group__plugins.html":[1,5],
-"group__plugins.html":[1,0,0],
-"group__precond__bridge.html":[1,0,8],
-"group__precond__bridge.html#ga9d971ee82700ba38d6e06359f99d0939":[1,0,8,0],
-"group__profiler__bridge.html":[1,0,36],
-"group__profiler__bridge.html#ga3d9bec8ad82175f888f6b4a4bbb03e36":[1,0,36,0],
-"group__promesh.html":[1,0,0,3]
+"group__plugin__template.html":[1,0,1]
 };

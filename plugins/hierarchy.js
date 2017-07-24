@@ -47,8 +47,8 @@ var hierarchy =
     [ "ug::promesh::MeshObject", "classug_1_1promesh_1_1_mesh_object.html", null ],
     [ "ug::promesh::detail::ProMeshFunction", "classug_1_1promesh_1_1detail_1_1_pro_mesh_function.html", null ],
     [ "ug::promesh::ProMeshRegistry", "classug_1_1promesh_1_1_pro_mesh_registry.html", null ],
-    [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFE< TDomain >::ShapeValues", "structug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_e_1_1_shape_values.html", null ],
     [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFV1< TDomain >::ShapeValues", "structug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1_1_1_shape_values.html", null ],
+    [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFE< TDomain >::ShapeValues", "structug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_e_1_1_shape_values.html", null ],
     [ "ug::TemplatePlugin::TemplateSampleClass< TDomain, TAlgebra >", "classug_1_1_template_plugin_1_1_template_sample_class.html", null ],
     [ "ug::DocuGen::UGDocuClassDescription", "classug_1_1_docu_gen_1_1_u_g_docu_class_description.html", null ],
     [ "ug::DocuGen::UGRegistryGroup", "classug_1_1_docu_gen_1_1_u_g_registry_group.html", null ]

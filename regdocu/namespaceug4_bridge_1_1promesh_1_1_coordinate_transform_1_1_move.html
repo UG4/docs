@@ -95,8 +95,6 @@ $(document).ready(function(){initNavTree('namespaceug4_bridge_1_1promesh_1_1_coo
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a4cdd58566afa4a398253de964ce989b1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_coordinate_transform_1_1_move.html#a4cdd58566afa4a398253de964ce989b1">GetSelectionCenter</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, Vec3d *centerOut)</td></tr>
-<tr class="separator:a4cdd58566afa4a398253de964ce989b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97f406f0fa38ac8bb5dbf36553fa3e3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_coordinate_transform_1_1_move.html#a97f406f0fa38ac8bb5dbf36553fa3e3e">Move</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, const Vec3d *offset)</td></tr>
 <tr class="memdesc:a97f406f0fa38ac8bb5dbf36553fa3e3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves selected vertices.  <a href="#a97f406f0fa38ac8bb5dbf36553fa3e3e">More...</a><br /></td></tr>
 <tr class="separator:a97f406f0fa38ac8bb5dbf36553fa3e3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -112,45 +110,11 @@ Functions</h2></td></tr>
 <tr class="memitem:a9b58582282ae6e5fef3182090cf58612"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_coordinate_transform_1_1_move.html#a9b58582282ae6e5fef3182090cf58612">MoveVerticesAlongEdges</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, double relative_offset)</td></tr>
 <tr class="memdesc:a9b58582282ae6e5fef3182090cf58612"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves selected vertices along selected edges by an offset relative to those selected edges. If a selected vertex is connected to multiple selected edges, the new position will be averaged between the individual offsets.  <a href="#a9b58582282ae6e5fef3182090cf58612">More...</a><br /></td></tr>
 <tr class="separator:a9b58582282ae6e5fef3182090cf58612"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae47cda59dd8988ebe109a2984ce5841a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_coordinate_transform_1_1_move.html#ae47cda59dd8988ebe109a2984ce5841a">MoveVerticesToEdgeLength</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, double edge_length)</td></tr>
+<tr class="memdesc:ae47cda59dd8988ebe109a2984ce5841a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves selected vertices along selected edges so that those edges obtain the specified length. If a selected vertex is connected to multiple selected edges, the new position will be averaged between the individual new positions.  <a href="#ae47cda59dd8988ebe109a2984ce5841a">More...</a><br /></td></tr>
+<tr class="separator:ae47cda59dd8988ebe109a2984ce5841a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a4cdd58566afa4a398253de964ce989b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4cdd58566afa4a398253de964ce989b1">&sect;&nbsp;</a></span>GetSelectionCenter()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ug4Bridge::promesh::CoordinateTransform::Move::GetSelectionCenter </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *&#160;</td>
-          <td class="paramname"><em>mesh</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Vec3d *&#160;</td>
-          <td class="paramname"><em>centerOut</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td></td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">centerOut</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga78767a7b04ba263cc595ffdb500d391e">GetSelectionCenter()</a>, and <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#gafff27f8aff2a7bb5a97583ff244c3ba3">Move()</a>.</p>
-
-</div>
-</div>
 <a id="a97f406f0fa38ac8bb5dbf36553fa3e3e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a97f406f0fa38ac8bb5dbf36553fa3e3e">&sect;&nbsp;</a></span>Move()</h2>
 
@@ -342,7 +306,46 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#gad421a76bf8183295c9d2a6cf456aa39d">MoveVerticesAlongEdges()</a>.</p>
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#gafff27f8aff2a7bb5a97583ff244c3ba3">Move()</a>, and <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#gad421a76bf8183295c9d2a6cf456aa39d">MoveVerticesAlongEdges()</a>.</p>
+
+</div>
+</div>
+<a id="ae47cda59dd8988ebe109a2984ce5841a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae47cda59dd8988ebe109a2984ce5841a">&sect;&nbsp;</a></span>MoveVerticesToEdgeLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug4Bridge::promesh::CoordinateTransform::Move::MoveVerticesToEdgeLength </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>edge_length</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Moves selected vertices along selected edges so that those edges obtain the specified length. If a selected vertex is connected to multiple selected edges, the new position will be averaged between the individual new positions. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">edge_length</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#gab38322abb2faac32008c746f656f0a87">MoveVerticesToEdgeLength()</a>.</p>
 
 </div>
 </div>
@@ -352,7 +355,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug4_bridge.html">ug4Bridge</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh.html">promesh</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_coordinate_transform.html">CoordinateTransform</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_coordinate_transform_1_1_move.html">Move</a></li>
-    <li class="footer">Generated on Thu Mar 30 2017 18:42:57 for Registry by
+    <li class="footer">Generated on Mon Jul 24 2017 16:03:00 for Registry by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

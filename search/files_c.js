@@ -73,6 +73,8 @@ var searchData=
   ['mg_5fsolver_2ecpp',['mg_solver.cpp',['../mg__solver_8cpp.html',1,'']]],
   ['mg_5fsolver_2eh',['mg_solver.h',['../mg__solver_8h.html',1,'']]],
   ['mg_5fsolver_5fimpl_2ehpp',['mg_solver_impl.hpp',['../mg__solver__impl_8hpp.html',1,'']]],
+  ['mg_5fstats_2eh',['mg_stats.h',['../mg__stats_8h.html',1,'']]],
+  ['mg_5fstats_5fimpl_2ehpp',['mg_stats_impl.hpp',['../mg__stats__impl_8hpp.html',1,'']]],
   ['mini_2ecpp',['mini.cpp',['../mini_8cpp.html',1,'']]],
   ['mini_2eh',['mini.h',['../mini_8h.html',1,'']]],
   ['misc_5fbridge_2ecpp',['misc_bridge.cpp',['../misc__bridges_2misc__bridge_8cpp.html',1,'']]],

@@ -117,6 +117,8 @@ Macros</h2></td></tr>
 <tr class="separator:ae9de65a3a2d68d0f862db349a17bcc54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bccc838f31230082bddce340ef3459b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="topology__tools_8h.html#a2bccc838f31230082bddce340ef3459b">TOOLTIP_COLLAPSE_EDGE</a>&#160;&#160;&#160;&quot;Collapses the edge and removes adjacent triangles.&quot;</td></tr>
 <tr class="separator:a2bccc838f31230082bddce340ef3459b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4be98d2654c435f418a7564e457f0469"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="topology__tools_8h.html#a4be98d2654c435f418a7564e457f0469">TOOLTIP_CREATE_HEXAHEDRA_FROM_SELECTED_PRISMS</a>&#160;&#160;&#160;&quot;Creates hexahedra from pairs of selected prisms which share a quadrilateral side. For best performance, matching prisms should be selected directly after one another.&quot;</td></tr>
+<tr class="separator:a4be98d2654c435f418a7564e457f0469"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba8d2611d23e8e8d35118dc031b0f101"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="topology__tools_8h.html#aba8d2611d23e8e8d35118dc031b0f101">TOOLTIP_ERASE_SELECTED_ELEMENTS</a>&#160;&#160;&#160;&quot;Erases selected elements and associated unreferenced geometry.&quot;</td></tr>
 <tr class="separator:aba8d2611d23e8e8d35118dc031b0f101"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acca2233b8fdbf106fc6000f4421eea31"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="topology__tools_8h.html#acca2233b8fdbf106fc6000f4421eea31">TOOLTIP_FIX_FACE_ORIENTATION</a>&#160;&#160;&#160;&quot;Tries <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> change orientation of selected faces so that all neighbouring faces point into the same direction. Only works correctly <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../parser_8cpp.html#ab352f63e4dbefc447c3fd0eba3fa120f">for</a> manifold selections.&quot;</td></tr>
@@ -164,6 +166,8 @@ Functions</h2></td></tr>
 <tr class="separator:gafd55d253028627dd335bcd72df1a9abf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gacfc9a7208dee05060f98b7b14d626c40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#gacfc9a7208dee05060f98b7b14d626c40">ug::promesh::CollapseEdge</a> (Mesh *obj)</td></tr>
 <tr class="separator:gacfc9a7208dee05060f98b7b14d626c40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga001cf434f194ec7327e135a023241c07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga001cf434f194ec7327e135a023241c07">ug::promesh::CreateHexahedraFromSelectedPrisms</a> (Mesh *obj)</td></tr>
+<tr class="separator:ga001cf434f194ec7327e135a023241c07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad7e8fd9c89f1048f5e326115147f0a04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#gad7e8fd9c89f1048f5e326115147f0a04">ug::promesh::EraseSelectedElements</a> (Mesh *obj, bool eraseUnusedVrts, bool eraseUnusedEdges, bool eraseUnusedFaces)</td></tr>
 <tr class="separator:gad7e8fd9c89f1048f5e326115147f0a04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab664568489e16a7668769a38285e83e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#gab664568489e16a7668769a38285e83e3">ug::promesh::FixFaceOrientation</a> (Mesh *obj)</td></tr>
@@ -231,6 +235,22 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define TOOLTIP_COLLAPSE_EDGE&#160;&#160;&#160;&quot;Collapses the edge and removes adjacent triangles.&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="namespaceug_1_1promesh.html#aed55c9ae2af02b81a6486bf5a28c451c">ug::promesh::RegisterMeshingTools()</a>.</p>
+
+</div>
+</div>
+<a id="a4be98d2654c435f418a7564e457f0469"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4be98d2654c435f418a7564e457f0469">&sect;&nbsp;</a></span>TOOLTIP_CREATE_HEXAHEDRA_FROM_SELECTED_PRISMS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TOOLTIP_CREATE_HEXAHEDRA_FROM_SELECTED_PRISMS&#160;&#160;&#160;&quot;Creates hexahedra from pairs of selected prisms which share a quadrilateral side. For best performance, matching prisms should be selected directly after one another.&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -565,7 +585,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_38c8d24aef3972a7f87b834274e76e31.html">plugins</a></li><li class="navelem"><a class="el" href="dir_763ed3e91742c64da7339b855c065f8b.html">ProMesh</a></li><li class="navelem"><a class="el" href="dir_90c8b690e559459740b0e677eab7f4d2.html">tools</a></li><li class="navelem"><a class="el" href="topology__tools_8h.html">topology_tools.h</a></li>
-    <li class="footer">Generated on Thu Mar 30 2017 18:41:19 for Plugins by
+    <li class="footer">Generated on Mon Jul 24 2017 16:01:22 for Plugins by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -5,6 +5,7 @@ var string__util_8cpp =
     [ "ConfigShift", "string__util_8cpp.html#a085c53799397d7f152f03ade000d2baa", null ],
     [ "ConfigShiftRotation", "string__util_8cpp.html#a6182cd1372127dade78f9b5d56b21d49", null ],
     [ "Contains", "string__util_8cpp.html#a017a1d02c00ab107a21182c09ca9bff3", null ],
+    [ "FilenameAndPathWithoutExtension", "string__util_8cpp.html#a02dab84e4961bfb386a71817abcbbee6", null ],
     [ "FilenameWithoutExtension", "string__util_8cpp.html#ac4c343ba8873c7f60447460fa68cd9c0", null ],
     [ "FilenameWithoutPath", "string__util_8cpp.html#a218336a2eadaccde97165e423b68ac1c", null ],
     [ "FindDuplicates", "string__util_8cpp.html#a45cfbf1160efc47536b1fd446fd301d2", null ],

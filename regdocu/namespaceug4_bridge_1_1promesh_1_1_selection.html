@@ -122,9 +122,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a164b7f348bb7fe01f0dfaad7a29add7d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection.html#a164b7f348bb7fe01f0dfaad7a29add7d">ExtendSelection</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, int neighborhood_size)</td></tr>
 <tr class="memdesc:a164b7f348bb7fe01f0dfaad7a29add7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects neighbors of selected elements.  <a href="#a164b7f348bb7fe01f0dfaad7a29add7d">More...</a><br /></td></tr>
 <tr class="separator:a164b7f348bb7fe01f0dfaad7a29add7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a0afa60c29a92e74c7818239b62f3e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection.html#a1a0afa60c29a92e74c7818239b62f3e5">InvertSelection</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, bool subset_index, bool vertices, bool edges, bool faces)</td></tr>
-<tr class="memdesc:a1a0afa60c29a92e74c7818239b62f3e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inverts current selection.  <a href="#a1a0afa60c29a92e74c7818239b62f3e5">More...</a><br /></td></tr>
-<tr class="separator:a1a0afa60c29a92e74c7818239b62f3e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a128d8ede654557f075cf4a109d8f6a0d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection.html#a128d8ede654557f075cf4a109d8f6a0d">InvertSelection</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, bool vertices, bool edges, bool faces, bool volumes)</td></tr>
+<tr class="memdesc:a128d8ede654557f075cf4a109d8f6a0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inverts current selection.  <a href="#a128d8ede654557f075cf4a109d8f6a0d">More...</a><br /></td></tr>
+<tr class="separator:a128d8ede654557f075cf4a109d8f6a0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae490f0a8c1b1bcfdb271d3f0e2872693"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection.html#ae490f0a8c1b1bcfdb271d3f0e2872693">SelectAll</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh)</td></tr>
 <tr class="memdesc:ae490f0a8c1b1bcfdb271d3f0e2872693"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects all vertices, edges ,faces and volumes of the current grid.  <a href="#ae490f0a8c1b1bcfdb271d3f0e2872693">More...</a><br /></td></tr>
 <tr class="separator:ae490f0a8c1b1bcfdb271d3f0e2872693"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -228,8 +228,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a1a0afa60c29a92e74c7818239b62f3e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a0afa60c29a92e74c7818239b62f3e5">&sect;&nbsp;</a></span>InvertSelection()</h2>
+<a id="a128d8ede654557f075cf4a109d8f6a0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a128d8ede654557f075cf4a109d8f6a0d">&sect;&nbsp;</a></span>InvertSelection()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -239,12 +239,6 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *&#160;</td>
           <td class="paramname"><em>mesh</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>subset_index</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -262,7 +256,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>faces</em>&#160;</td>
+          <td class="paramname"><em>faces</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>volumes</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -276,10 +276,10 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td></td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">subset_index</td><td></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">vertices</td><td></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">edges</td><td></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">faces</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">volumes</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -350,7 +350,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug4_bridge.html">ug4Bridge</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh.html">promesh</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection.html">Selection</a></li>
-    <li class="footer">Generated on Thu Mar 30 2017 18:42:57 for Registry by
+    <li class="footer">Generated on Mon Jul 24 2017 16:03:00 for Registry by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -104,6 +104,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga0d317951c56f966eb1f55dafba506147"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#ga6a442be2e75e98247f82d1aa90a06aac">UG_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ugbase__common__util__strings.html#ga0d317951c56f966eb1f55dafba506147">ug::Contains</a> (const std::string &amp;str, const std::string &amp;search)</td></tr>
 <tr class="memdesc:ga0d317951c56f966eb1f55dafba506147"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether given string contains a specified substring.  <a href="group__ugbase__common__util__strings.html#ga0d317951c56f966eb1f55dafba506147">More...</a><br /></td></tr>
 <tr class="separator:ga0d317951c56f966eb1f55dafba506147"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4ae70075163fe23e95e5c812479b514c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#ga6a442be2e75e98247f82d1aa90a06aac">UG_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ugbase__common__util__strings.html#ga4ae70075163fe23e95e5c812479b514c">ug::FilenameAndPathWithoutExtension</a> (std::string str)</td></tr>
+<tr class="memdesc:ga4ae70075163fe23e95e5c812479b514c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the best guess of the filename and path from given string  <a href="group__ugbase__common__util__strings.html#ga4ae70075163fe23e95e5c812479b514c">More...</a><br /></td></tr>
+<tr class="separator:ga4ae70075163fe23e95e5c812479b514c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gafcd031e70b72b31892709b318ed323eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#ga6a442be2e75e98247f82d1aa90a06aac">UG_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ugbase__common__util__strings.html#gafcd031e70b72b31892709b318ed323eb">ug::FilenameWithoutExtension</a> (std::string str)</td></tr>
 <tr class="memdesc:gafcd031e70b72b31892709b318ed323eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the best guess of the filename from given string  <a href="group__ugbase__common__util__strings.html#gafcd031e70b72b31892709b318ed323eb">More...</a><br /></td></tr>
 <tr class="separator:gafcd031e70b72b31892709b318ed323eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -320,6 +323,33 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><code>true</code> if <code>str</code> contains <code>search</code>; <code>false</code> otherwise </dd></dl>
+
+</div>
+</div>
+<a id="ga4ae70075163fe23e95e5c812479b514c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4ae70075163fe23e95e5c812479b514c">&sect;&nbsp;</a></span>FilenameAndPathWithoutExtension()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__ugbase__common.html#ga6a442be2e75e98247f82d1aa90a06aac">UG_API</a> std::string ug::FilenameAndPathWithoutExtension </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns the best guess of the filename and path from given string </p>
+<p>returns the part of the string without extension (e.g. <code>/sw/bla.txt</code> -&gt; <code>bla</code>) </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">str</td><td>to retrieve filename from </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>best guess of the filename without extension; if no guess can be made, the whole string is returned </dd></dl>
 
 </div>
 </div>
@@ -1399,7 +1429,7 @@ template&lt;typename T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Mar 30 2017 18:44:12 for ug4 by
+    <li class="footer">Generated on Mon Jul 24 2017 16:04:13 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

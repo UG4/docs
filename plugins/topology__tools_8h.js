@@ -2,6 +2,7 @@ var topology__tools_8h =
 [
     [ "TOOLTIP_ADJUST_EDGE_ORIENTATION", "topology__tools_8h.html#ae9de65a3a2d68d0f862db349a17bcc54", null ],
     [ "TOOLTIP_COLLAPSE_EDGE", "topology__tools_8h.html#a2bccc838f31230082bddce340ef3459b", null ],
+    [ "TOOLTIP_CREATE_HEXAHEDRA_FROM_SELECTED_PRISMS", "topology__tools_8h.html#a4be98d2654c435f418a7564e457f0469", null ],
     [ "TOOLTIP_ERASE_SELECTED_ELEMENTS", "topology__tools_8h.html#aba8d2611d23e8e8d35118dc031b0f101", null ],
     [ "TOOLTIP_FIX_FACE_ORIENTATION", "topology__tools_8h.html#acca2233b8fdbf106fc6000f4421eea31", null ],
     [ "TOOLTIP_FIX_FACE_SUBSET_ORIENTATIONS", "topology__tools_8h.html#a5cc85e8104083f819a564ccf7752117b", null ],
@@ -24,6 +25,7 @@ var topology__tools_8h =
     [ "TOOLTIP_SWAP_EDGE", "topology__tools_8h.html#a82c37a47ecc5084beaca7abbc5aec6bc", null ],
     [ "AdjustEdgeOrientation", "topology__tools_8h.html#gafd55d253028627dd335bcd72df1a9abf", null ],
     [ "CollapseEdge", "topology__tools_8h.html#gacfc9a7208dee05060f98b7b14d626c40", null ],
+    [ "CreateHexahedraFromSelectedPrisms", "topology__tools_8h.html#ga001cf434f194ec7327e135a023241c07", null ],
     [ "EraseSelectedElements", "topology__tools_8h.html#gad7e8fd9c89f1048f5e326115147f0a04", null ],
     [ "FixFaceOrientation", "topology__tools_8h.html#gab664568489e16a7668769a38285e83e3", null ],
     [ "FixFaceSubsetOrientations", "topology__tools_8h.html#ga06df82d699cca96364999c32b9afa4b4", null ],

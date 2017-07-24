@@ -2,9 +2,11 @@ var searchData=
 [
   ['h1diffintegrand',['H1DiffIntegrand',['../classug_1_1_h1_diff_integrand.html',1,'ug']]],
   ['h1errorintegrand',['H1ErrorIntegrand',['../classug_1_1_h1_error_integrand.html',1,'ug']]],
-  ['h1seminormintegrand',['H1SemiNormIntegrand',['../classug_1_1_h1_semi_norm_integrand.html',1,'ug']]],
-  ['handlededge',['HandledEdge',['../classug_1_1_dim_c_r_f_v_geometry_1_1_handled_edge.html',1,'ug::DimCRFVGeometry']]],
+  ['h1normfuncintegrand',['H1NormFuncIntegrand',['../classug_1_1_h1_norm_func_integrand.html',1,'ug']]],
+  ['h1semidiffintegrand',['H1SemiDiffIntegrand',['../classug_1_1_h1_semi_diff_integrand.html',1,'ug']]],
+  ['h1seminormfuncintegrand',['H1SemiNormFuncIntegrand',['../classug_1_1_h1_semi_norm_func_integrand.html',1,'ug']]],
   ['handlededge',['HandledEdge',['../classug_1_1_h_c_r_f_v_geometry_1_1_handled_edge.html',1,'ug::HCRFVGeometry']]],
+  ['handlededge',['HandledEdge',['../classug_1_1_dim_c_r_f_v_geometry_1_1_handled_edge.html',1,'ug::DimCRFVGeometry']]],
   ['hangingnoderefiner_5fgrid',['HangingNodeRefiner_Grid',['../../regdocu/classug4_bridge_1_1_grid_1_1_hanging_node_refiner___grid.html',1,'ug4Bridge::Grid']]],
   ['hangingnoderefiner_5fgrid',['HangingNodeRefiner_Grid',['../classug_1_1_hanging_node_refiner___grid.html',1,'ug']]],
   ['hangingnoderefiner_5fmultigrid',['HangingNodeRefiner_MultiGrid',['../../regdocu/classug4_bridge_1_1_grid_1_1_hanging_node_refiner___multi_grid.html',1,'ug4Bridge::Grid']]],
@@ -50,8 +52,8 @@ var searchData=
   ['hfv1geometry',['HFV1Geometry',['../classug_1_1_h_f_v1_geometry.html',1,'ug']]],
   ['hfv1manifoldgeometry',['HFV1ManifoldGeometry',['../classug_1_1_h_f_v1_manifold_geometry.html',1,'ug']]],
   ['hlevelinfo',['HLevelInfo',['../structug_1_1_process_hierarchy_1_1_h_level_info.html',1,'ug::ProcessHierarchy']]],
-  ['hookelaw',['HookeLaw',['../../regdocu/classug4_bridge_1_1_spatial_disc_1_1_small_strain_mechanics_1_1_hooke_law.html',1,'ug4Bridge::SpatialDisc::SmallStrainMechanics']]],
   ['hookelaw',['HookeLaw',['../../plugins/classug_1_1_small_strain_mechanics_1_1_hooke_law.html',1,'ug::SmallStrainMechanics']]],
+  ['hookelaw',['HookeLaw',['../../regdocu/classug4_bridge_1_1_spatial_disc_1_1_small_strain_mechanics_1_1_hooke_law.html',1,'ug4Bridge::SpatialDisc::SmallStrainMechanics']]],
   ['horizontalalgebralayouts',['HorizontalAlgebraLayouts',['../classug_1_1_horizontal_algebra_layouts.html',1,'ug']]],
   ['horizontalanisotropyadjuster',['HorizontalAnisotropyAdjuster',['../classug_1_1_horizontal_anisotropy_adjuster.html',1,'ug']]],
   ['hypermanifoldpartitioner_5fdynamicbisection',['HyperManifoldPartitioner_DynamicBisection',['../../regdocu/classug4_bridge_1_1_load_balancing_1_1_hyper_manifold_partitioner___dynamic_bisection.html',1,'ug4Bridge::LoadBalancing']]]

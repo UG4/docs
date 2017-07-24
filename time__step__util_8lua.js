@@ -5,6 +5,5 @@ var time__step__util_8lua =
     [ "SolveLinearTimeProblem", "group__scripts__util__timestep.html#ga7ab14d6aabc8f39e18f1c6850595bfa5", null ],
     [ "SolveNonlinearProblemAdaptiveLimex", "group__scripts__util__timestep.html#gabd8f271e1f4bc2d9cd7208a5a751b9da", null ],
     [ "SolveNonlinearProblemAdaptiveTimestep", "group__scripts__util__timestep.html#ga84d1759654818e0ef176d11b84328b00", null ],
-    [ "SolveNonlinearTimeProblem", "group__scripts__util__timestep.html#ga7f235065c90c50abf3dfe89e00f394cb", null ],
-    [ "restartWithCheckpoint", "group__scripts__util__timestep.html#gac4b70166c5b970e171b8e67ac400a187", null ]
+    [ "SolveNonlinearTimeProblem", "group__scripts__util__timestep.html#gacdfe135a444b84f4b3af493d4d1d5e36", null ]
 ];

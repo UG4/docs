@@ -12,6 +12,7 @@ var selection__util__impl_8hpp =
     [ "SelectAssociatedVolumes", "selection__util__impl_8hpp.html#gaae15c796974d02d497cc96e586c562d6", null ],
     [ "SelectBoundaryElements", "selection__util__impl_8hpp.html#gaad1a00f532621a225fea7234a8d73b7f", null ],
     [ "SelectCreaseEdges", "selection__util__impl_8hpp.html#ga196e9956b54046cb9c9eb0e7fb35756b", null ],
+    [ "SelectEdgesByDirection", "selection__util__impl_8hpp.html#gaeb7f5767ae41c23f5edf7ed089c92bb5", null ],
     [ "SelectInnerElements", "selection__util__impl_8hpp.html#ga865d633f82420d0241ed9978373ce34a", null ],
     [ "SelectInterfaceElements", "selection__util__impl_8hpp.html#ga8753835a16e0144aa312cc0b9005c4b6", null ],
     [ "SelectLinkedElements", "selection__util__impl_8hpp.html#ga297bcaea7f2f7c9ac2b79f831e1aac9e", null ],

@@ -132,6 +132,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9ac4b53c26605c7fe9683bfe6c9fe4e1"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a9ac4b53c26605c7fe9683bfe6c9fe4e1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classpcl_1_1_process_communicator.html#a9ac4b53c26605c7fe9683bfe6c9fe4e1">allreduce</a> (const std::vector&lt; T &gt; &amp;send, std::vector&lt; T &gt; &amp;receive, <a class="el" href="group__pcl.html#ga774ab56d0811cccca811df2e62bc0939">pcl::ReduceOperation</a> op) const</td></tr>
 <tr class="separator:a9ac4b53c26605c7fe9683bfe6c9fe4e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e0460aac9629b04410f3fd3eba66400"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpcl_1_1_process_communicator.html#a3e0460aac9629b04410f3fd3eba66400">alltoall</a> (const void *sendBuf, int sendCount, <a class="el" href="group__pcl.html#ga0a4745c93f155cc512175ca74c049c6c">DataType</a> sendType, void *recBuf, int recCount, <a class="el" href="group__pcl.html#ga0a4745c93f155cc512175ca74c049c6c">DataType</a> recType)</td></tr>
+<tr class="memdesc:a3e0460aac9629b04410f3fd3eba66400"><td class="mdescLeft">&#160;</td><td class="mdescRight">performs MPI_Alltoall on the processes of the communicator.  <a href="#a3e0460aac9629b04410f3fd3eba66400">More...</a><br /></td></tr>
+<tr class="separator:a3e0460aac9629b04410f3fd3eba66400"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38a24e38e98554501ecffaa578af58ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpcl_1_1_process_communicator.html#a38a24e38e98554501ecffaa578af58ee">barrier</a> () const</td></tr>
 <tr class="memdesc:a38a24e38e98554501ecffaa578af58ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">this method will not return until all processes in the communicator have called it.  <a href="#a38a24e38e98554501ecffaa578af58ee">More...</a><br /></td></tr>
 <tr class="separator:a38a24e38e98554501ecffaa578af58ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -716,6 +719,75 @@ template&lt;typename T &gt; </div>
 <p>simplified allreduce for std::vector. The receive-buffer is automatically resized as required. </p>
 
 <p>References <a class="el" href="classpcl_1_1_process_communicator.html#a708b02efa2d765daae9fee02b7b60000">allreduce()</a>, and <a class="el" href="classpcl_1_1_process_communicator.html#aa219e509eaef84ff08865ccd5ca409c5">broadcast()</a>.</p>
+
+</div>
+</div>
+<a id="a3e0460aac9629b04410f3fd3eba66400"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e0460aac9629b04410f3fd3eba66400">&sect;&nbsp;</a></span>alltoall()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void pcl::ProcessCommunicator::alltoall </td>
+          <td>(</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>sendBuf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sendCount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__pcl.html#ga0a4745c93f155cc512175ca74c049c6c">DataType</a>&#160;</td>
+          <td class="paramname"><em>sendType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>recBuf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>recCount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__pcl.html#ga0a4745c93f155cc512175ca74c049c6c">DataType</a>&#160;</td>
+          <td class="paramname"><em>recType</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>performs MPI_Alltoall on the processes of the communicator. </p>
+<p>All processes send (the same amount of) data to all processes. The receive buffer needs to have the appropriate size. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sendBuf</td><td>starting address of send buffer (choice) </td></tr>
+    <tr><td class="paramname">sendCount</td><td>number of elements to send to each process (integer) </td></tr>
+    <tr><td class="paramname">sendType</td><td>data type of send buffer elements (handle) </td></tr>
+    <tr><td class="paramname">recBuf</td><td>starting address of receive buffer (choice) </td></tr>
+    <tr><td class="paramname">recCount</td><td>number of elements to receive from each process (integer) </td></tr>
+    <tr><td class="paramname">recType</td><td>data type of receive buffer elements (handle) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>References <a class="el" href="namespaceug.html#ae49e2879be5e2ce34a8a9db509c497ee">ug::GetSize()</a>, <a class="el" href="pcl__profiling_8h.html#a2ed0c268a471877fea32f207d9ad4908">PCL_PROFILE</a>, and <a class="el" href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>.</p>
+
+<p>Referenced by <a class="el" href="classpcl_1_1_process_communicator.html#a9c3e68eb14fd81c3595ad9fbde0cd219">get_mpi_communicator()</a>.</p>
 
 </div>
 </div>
@@ -1716,7 +1788,7 @@ template&lt;class TValue &gt; </div>
 
 <p>returns the mpi-communicator, in case someone needs it </p>
 
-<p>References <a class="el" href="classpcl_1_1_process_communicator.html#ae6d7c776f504bd965d55ccb029c2d806">allgather()</a>, <a class="el" href="classpcl_1_1_process_communicator.html#aa38044c228d1e78069a704877e9e48e2">allgatherv()</a>, <a class="el" href="classpcl_1_1_process_communicator.html#a708b02efa2d765daae9fee02b7b60000">allreduce()</a>, <a class="el" href="classpcl_1_1_process_communicator.html#a38a24e38e98554501ecffaa578af58ee">barrier()</a>, <a class="el" href="classpcl_1_1_process_communicator.html#aa219e509eaef84ff08865ccd5ca409c5">broadcast()</a>, <a class="el" href="classpcl_1_1_process_communicator.html#a1ab7c861d3d2ba66df6f993538730335">create_communicator()</a>, <a class="el" href="classpcl_1_1_process_communicator.html#ab9280593c63193e1a3f5a7b85419c31a">create_sub_communicator()</a>, <a class="el" href="classpcl_1_1_process_communicator.html#ad8eec965d9be3c758db248c3ab063c92">distribute_data()</a>, <a class="el" href="classpcl_1_1_process_communicator.html#a4fcfbf45df86823b52fa0286a27539c4">gather()</a>, <a class="el" href="classpcl_1_1_process_communicator.html#a5b8ffa08f3915dbae9f099d55ef4533d">gatherv()</a>, <a class="el" href="classpcl_1_1_process_communicator.html#a02a2e0dc57c2fedbba3fff6e455948f1">m_comm</a>, <a class="el" href="structpcl_1_1_process_communicator_1_1_comm_wrapper.html#a526045ba8f8655ccdc9e99bec84dd5b1">pcl::ProcessCommunicator::CommWrapper::m_mpiComm</a>, <a class="el" href="classpcl_1_1_process_communicator.html#a05092910cd2be254b90517b826f161dc">receive_data()</a>, <a class="el" href="classpcl_1_1_process_communicator.html#a4c801054145d47043b1b43469374f53f">reduce()</a>, <a class="el" href="classpcl_1_1_process_communicator.html#a871a5c6031d12beeab7a2eb28c347609">scatter()</a>, and <a class="el" href="classpcl_1_1_process_communicator.html#a38c3135b38428345ff55c2f77636dc6c">send_data()</a>.</p>
+<p>References <a class="el" href="classpcl_1_1_process_communicator.html#ae6d7c776f504bd965d55ccb029c2d806">allgather()</a>, <a class="el" href="classpcl_1_1_process_communicator.html#aa38044c228d1e78069a704877e9e48e2">allgatherv()</a>, <a class="el" href="classpcl_1_1_process_communicator.html#a708b02efa2d765daae9fee02b7b60000">allreduce()</a>, <a class="el" href="classpcl_1_1_process_communicator.html#a3e0460aac9629b04410f3fd3eba66400">alltoall()</a>, <a class="el" href="classpcl_1_1_process_communicator.html#a38a24e38e98554501ecffaa578af58ee">barrier()</a>, <a class="el" href="classpcl_1_1_process_communicator.html#aa219e509eaef84ff08865ccd5ca409c5">broadcast()</a>, <a class="el" href="classpcl_1_1_process_communicator.html#a1ab7c861d3d2ba66df6f993538730335">create_communicator()</a>, <a class="el" href="classpcl_1_1_process_communicator.html#ab9280593c63193e1a3f5a7b85419c31a">create_sub_communicator()</a>, <a class="el" href="classpcl_1_1_process_communicator.html#ad8eec965d9be3c758db248c3ab063c92">distribute_data()</a>, <a class="el" href="classpcl_1_1_process_communicator.html#a4fcfbf45df86823b52fa0286a27539c4">gather()</a>, <a class="el" href="classpcl_1_1_process_communicator.html#a5b8ffa08f3915dbae9f099d55ef4533d">gatherv()</a>, <a class="el" href="classpcl_1_1_process_communicator.html#a02a2e0dc57c2fedbba3fff6e455948f1">m_comm</a>, <a class="el" href="structpcl_1_1_process_communicator_1_1_comm_wrapper.html#a526045ba8f8655ccdc9e99bec84dd5b1">pcl::ProcessCommunicator::CommWrapper::m_mpiComm</a>, <a class="el" href="classpcl_1_1_process_communicator.html#a05092910cd2be254b90517b826f161dc">receive_data()</a>, <a class="el" href="classpcl_1_1_process_communicator.html#a4c801054145d47043b1b43469374f53f">reduce()</a>, <a class="el" href="classpcl_1_1_process_communicator.html#a871a5c6031d12beeab7a2eb28c347609">scatter()</a>, and <a class="el" href="classpcl_1_1_process_communicator.html#a38c3135b38428345ff55c2f77636dc6c">send_data()</a>.</p>
 
 <p>Referenced by <a class="el" href="namespacepcl.html#a9ae389bbda3f230eac0fa54dded2c48f">pcl::ReadCombinedParallelFile()</a>, <a class="el" href="namespacepcl.html#ab9bb13746730d31690291901fa01133c">pcl::WriteCombinedParallelFile()</a>, and <a class="el" href="namespacepcl.html#ab349ffe9238050c07229493cace38f1c">pcl::WriteParallelArchive()</a>.</p>
 
@@ -2379,7 +2451,7 @@ template&lt;typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacepcl.html">pcl</a></li><li class="navelem"><a class="el" href="classpcl_1_1_process_communicator.html">ProcessCommunicator</a></li>
-    <li class="footer">Generated on Thu Mar 30 2017 18:44:13 for ug4 by
+    <li class="footer">Generated on Mon Jul 24 2017 16:04:14 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -170,6 +170,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a669724f825c6a2e7d975ed0519d545d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1_algebra.html#a669724f825c6a2e7d975ed0519d545d6">VecAssign</a> (<a class="el" href="classug4_bridge_1_1_algebra_1_1_vector.html">Vector</a> *dest, const <a class="el" href="classug4_bridge_1_1_algebra_1_1_vector.html">Vector</a> *vec)</td></tr>
 <tr class="memdesc:a669724f825c6a2e7d975ed0519d545d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">dest &lt;- vec  <a href="#a669724f825c6a2e7d975ed0519d545d6">More...</a><br /></td></tr>
 <tr class="separator:a669724f825c6a2e7d975ed0519d545d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a698b7e15d6c706cdb6f21d7cd1c51b26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1_algebra.html#a698b7e15d6c706cdb6f21d7cd1c51b26">VecHadamardProd</a> (<a class="el" href="classug4_bridge_1_1_algebra_1_1_vector.html">Vector</a> *dst, const <a class="el" href="classug4_bridge_1_1_algebra_1_1_vector.html">Vector</a> *vec1, const <a class="el" href="classug4_bridge_1_1_algebra_1_1_vector.html">Vector</a> *vec2)</td></tr>
+<tr class="memdesc:a698b7e15d6c706cdb6f21d7cd1c51b26"><td class="mdescLeft">&#160;</td><td class="mdescRight">vec1 * vec2 (elementwise)  <a href="#a698b7e15d6c706cdb6f21d7cd1c51b26">More...</a><br /></td></tr>
+<tr class="separator:a698b7e15d6c706cdb6f21d7cd1c51b26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c7a3a45944584504be0d088ed65be01"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1_algebra.html#a2c7a3a45944584504be0d088ed65be01">VecScaleAdd2</a> (<a class="el" href="classug4_bridge_1_1_algebra_1_1_vector.html">Vector</a> *dest, double alpha1, const <a class="el" href="classug4_bridge_1_1_algebra_1_1_vector.html">Vector</a> *vec1, double alpha2, const <a class="el" href="classug4_bridge_1_1_algebra_1_1_vector.html">Vector</a> *vec2)</td></tr>
 <tr class="separator:a2c7a3a45944584504be0d088ed65be01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a229b448b02d956cbff5bdddfe10c883f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1_algebra.html#a229b448b02d956cbff5bdddfe10c883f">VecScaleAdd3</a> (<a class="el" href="classug4_bridge_1_1_algebra_1_1_vector.html">Vector</a> *dest, double alpha1, const <a class="el" href="classug4_bridge_1_1_algebra_1_1_vector.html">Vector</a> *vec1, double alpha2, const <a class="el" href="classug4_bridge_1_1_algebra_1_1_vector.html">Vector</a> *vec2, double alpha3, const <a class="el" href="classug4_bridge_1_1_algebra_1_1_vector.html">Vector</a> *vec3)</td></tr>
@@ -329,6 +332,52 @@ Functions</h2></td></tr>
 </dl>
 
 <p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__precond__bridge.html#ga9d971ee82700ba38d6e06359f99d0939">Algebra()</a>, and <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__crs__algebra.html#gaf1f295892d9277b8dd9800d4134467de">VecAssign()</a>.</p>
+
+</div>
+</div>
+<a id="a698b7e15d6c706cdb6f21d7cd1c51b26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a698b7e15d6c706cdb6f21d7cd1c51b26">&sect;&nbsp;</a></span>VecHadamardProd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug4Bridge::Algebra::VecHadamardProd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug4_bridge_1_1_algebra_1_1_vector.html">Vector</a> *&#160;</td>
+          <td class="paramname"><em>dst</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classug4_bridge_1_1_algebra_1_1_vector.html">Vector</a> *&#160;</td>
+          <td class="paramname"><em>vec1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classug4_bridge_1_1_algebra_1_1_vector.html">Vector</a> *&#160;</td>
+          <td class="paramname"><em>vec2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>vec1 * vec2 (elementwise) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dst</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">vec1</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">vec2</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__precond__bridge.html#ga9d971ee82700ba38d6e06359f99d0939">Algebra()</a>, and <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../namespaceug.html#ad3bb64dc2cd7d787ab2a89879a86532d">VecHadamardProd()</a>.</p>
 
 </div>
 </div>
@@ -514,7 +563,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug4_bridge.html">ug4Bridge</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1_algebra.html">Algebra</a></li>
-    <li class="footer">Generated on Thu Mar 30 2017 18:42:55 for Registry by
+    <li class="footer">Generated on Mon Jul 24 2017 16:02:58 for Registry by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

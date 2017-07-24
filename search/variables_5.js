@@ -11,7 +11,7 @@ var searchData=
   ['elemid',['elemId',['../structug_1_1_t_i_k_z_elem.html#a3b6acfe0f7adbb97c09a3e298a1e0bb3',1,'ug::TIKZElem']]],
   ['elemorder',['elemOrder',['../classug_1_1_side_and_elem_err_est_data.html#a757940afeb5b354773b09e8b84a1f268',1,'ug::SideAndElemErrEstData']]],
   ['elems',['elems',['../structug_1_1_partitioner___dynamic_bisection_1_1_tree_node.html#aa44776abb4af1e4fcecba4a5bbedf582',1,'ug::Partitioner_DynamicBisection::TreeNode']]],
-  ['elemvals',['elemVals',['../../plugins/structug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_e_1_1_shape_values.html#a14584a43dff8dc6340998438b2fa9fb8',1,'ug::ConvectionDiffusionPlugin::ConvectionDiffusionFE::ShapeValues::elemVals()'],['../../plugins/structug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1_1_1_shape_values.html#a16a6e7f102413ea21b21c5408a3be6c0',1,'ug::ConvectionDiffusionPlugin::ConvectionDiffusionFV1::ShapeValues::elemVals()']]],
+  ['elemvals',['elemVals',['../../plugins/structug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1_1_1_shape_values.html#a16a6e7f102413ea21b21c5408a3be6c0',1,'ug::ConvectionDiffusionPlugin::ConvectionDiffusionFV1::ShapeValues::elemVals()'],['../../plugins/structug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_e_1_1_shape_values.html#a14584a43dff8dc6340998438b2fa9fb8',1,'ug::ConvectionDiffusionPlugin::ConvectionDiffusionFE::ShapeValues::elemVals()']]],
   ['end',['end',['../classug_1_1_stopwatch.html#adaaacab14cf915cd7de618f429b2a2a1',1,'ug::Stopwatch']]],
   ['eps',['eps',['../classug_1_1_rotating_cone2d.html#a25f2239a929460cdf675e3bbd25bfabc',1,'ug::RotatingCone2d']]],
   ['err',['err',['../classug_1_1_l_u_a_parser_class.html#a6cca6d16454503e67a4e1b2182fb9c38',1,'ug::LUAParserClass']]],

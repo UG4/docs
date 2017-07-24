@@ -127,10 +127,10 @@ Functions</h2></td></tr>
 <tr class="separator:a3581cd6924f543eae0bc78d3dbe8835c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae67e4503c837480cb46bc270fb935f55"><td class="memItemLeft" align="right" valign="top">const_row_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sparsematrix__interface_8h.html#ae67e4503c837480cb46bc270fb935f55">get_connection</a> (size_t r, size_t c) const</td></tr>
 <tr class="separator:ae67e4503c837480cb46bc270fb935f55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga538457f5a77bd2f1859f5035f89456df"><td class="memTemplParams" colspan="2">template&lt;typename matrix_type &gt; </td></tr>
-<tr class="memitem:ga538457f5a77bd2f1859f5035f89456df"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__algebra.html#ga538457f5a77bd2f1859f5035f89456df">MatAdd</a> (matrix_type &amp;M, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> &amp;alpha1, const matrix_type &amp;A, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> &amp;alpha2, const matrix_type &amp;B)</td></tr>
-<tr class="memdesc:ga538457f5a77bd2f1859f5035f89456df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates M = A + B.  <a href="group__lib__algebra.html#ga538457f5a77bd2f1859f5035f89456df">More...</a><br /></td></tr>
-<tr class="separator:ga538457f5a77bd2f1859f5035f89456df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1a2a633b987354ed92c3d82350bc1f1"><td class="memTemplParams" colspan="2">template&lt;typename matrix_type &gt; </td></tr>
+<tr class="memitem:af1a2a633b987354ed92c3d82350bc1f1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="sparsematrix__interface_8h.html#af1a2a633b987354ed92c3d82350bc1f1">MatAdd</a> (matrix_type &amp;M, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> &amp;alpha1, const matrix_type &amp;A, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> &amp;alpha2, const matrix_type &amp;B)</td></tr>
+<tr class="memdesc:af1a2a633b987354ed92c3d82350bc1f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates M = A + B.  <a href="#af1a2a633b987354ed92c3d82350bc1f1">More...</a><br /></td></tr>
+<tr class="separator:af1a2a633b987354ed92c3d82350bc1f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70b1db12cdb6ba1a429e1dca9233d285"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sparsematrix__interface_8h.html#a70b1db12cdb6ba1a429e1dca9233d285">num_cols</a> () const</td></tr>
 <tr class="separator:a70b1db12cdb6ba1a429e1dca9233d285"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c08a4de7d9b04993b920ac035074a35"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sparsematrix__interface_8h.html#a5c08a4de7d9b04993b920ac035074a35">num_connections</a> (size_t row) const</td></tr>
@@ -336,6 +336,66 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="af1a2a633b987354ed92c3d82350bc1f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1a2a633b987354ed92c3d82350bc1f1">&sect;&nbsp;</a></span>MatAdd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename matrix_type &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void MatAdd </td>
+          <td>(</td>
+          <td class="paramtype">matrix_type &amp;&#160;</td>
+          <td class="paramname"><em>M</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> &amp;&#160;</td>
+          <td class="paramname"><em>alpha1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const matrix_type &amp;&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> &amp;&#160;</td>
+          <td class="paramname"><em>alpha2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const matrix_type &amp;&#160;</td>
+          <td class="paramname"><em>B</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates M = A + B. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">M</td><td>(out) Matrix M, M = A + B </td></tr>
+    <tr><td class="paramname">A</td><td>(in) Matrix A </td></tr>
+    <tr><td class="paramname">B</td><td>(in) Matrix B note: A and/or B may be equal to M. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Referenced by <a class="el" href="class_sparse_matrix.html#a3db87140bd3cc8a81203afd82e1ac30a">SparseMatrix&lt; T &gt;::total_num_connections()</a>.</p>
 
 </div>
 </div>
@@ -608,7 +668,7 @@ template&lt;typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_2e5eee3e6a2607df2611cb3dc665a6d5.html">lib_algebra</a></li><li class="navelem"><a class="el" href="dir_0bcd3b238f75dcd1adcf75b3867921ce.html">interface</a></li><li class="navelem"><a class="el" href="sparsematrix__interface_8h.html">sparsematrix_interface.h</a></li>
-    <li class="footer">Generated on Thu Mar 30 2017 18:44:10 for ug4 by
+    <li class="footer">Generated on Mon Jul 24 2017 16:04:11 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

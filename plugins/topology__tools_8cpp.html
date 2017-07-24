@@ -93,7 +93,10 @@ $(document).ready(function(){initNavTree('topology__tools_8cpp.html','');});
 <div class="title">topology_tools.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="topology__tools_8h_source.html">topology_tools.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;vector&gt;</code><br />
+<code>#include &quot;<a class="el" href="topology__tools_8h_source.html">topology_tools.h</a>&quot;</code><br />
+<code>#include &quot;<a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../hexahedron____util__8h.html">lib_grid/algorithms/hexahedron_util.h</a>&quot;</code><br />
+<code>#include &quot;<a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../selection____callbacks__8h.html">lib_grid/callbacks/selection_callbacks.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -108,6 +111,8 @@ Functions</h2></td></tr>
 <tr class="separator:gafd55d253028627dd335bcd72df1a9abf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gacfc9a7208dee05060f98b7b14d626c40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#gacfc9a7208dee05060f98b7b14d626c40">ug::promesh::CollapseEdge</a> (Mesh *obj)</td></tr>
 <tr class="separator:gacfc9a7208dee05060f98b7b14d626c40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga001cf434f194ec7327e135a023241c07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga001cf434f194ec7327e135a023241c07">ug::promesh::CreateHexahedraFromSelectedPrisms</a> (Mesh *obj)</td></tr>
+<tr class="separator:ga001cf434f194ec7327e135a023241c07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad7e8fd9c89f1048f5e326115147f0a04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#gad7e8fd9c89f1048f5e326115147f0a04">ug::promesh::EraseSelectedElements</a> (Mesh *obj, bool eraseUnusedVrts, bool eraseUnusedEdges, bool eraseUnusedFaces)</td></tr>
 <tr class="separator:gad7e8fd9c89f1048f5e326115147f0a04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab664568489e16a7668769a38285e83e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#gab664568489e16a7668769a38285e83e3">ug::promesh::FixFaceOrientation</a> (Mesh *obj)</td></tr>
@@ -156,7 +161,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_38c8d24aef3972a7f87b834274e76e31.html">plugins</a></li><li class="navelem"><a class="el" href="dir_763ed3e91742c64da7339b855c065f8b.html">ProMesh</a></li><li class="navelem"><a class="el" href="dir_90c8b690e559459740b0e677eab7f4d2.html">tools</a></li><li class="navelem"><a class="el" href="topology__tools_8cpp.html">topology_tools.cpp</a></li>
-    <li class="footer">Generated on Thu Mar 30 2017 18:41:19 for Plugins by
+    <li class="footer">Generated on Mon Jul 24 2017 16:01:22 for Plugins by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

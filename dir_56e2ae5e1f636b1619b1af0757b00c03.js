@@ -1,6 +1,8 @@
 var dir_56e2ae5e1f636b1619b1af0757b00c03 =
 [
     [ "constrained_linear_iterator.h", "constrained__linear__iterator_8h.html", [
+      [ "apply_update_defect_impl", "structug_1_1_constrained_linear_iterator_1_1apply__update__defect__impl.html", "structug_1_1_constrained_linear_iterator_1_1apply__update__defect__impl" ],
+      [ "apply_update_defect_impl< S, typename boost::enable_if< boost::is_base_of< IPreconditioner< TAlgebra >, S > >::type >", "structug_1_1_constrained_linear_iterator_1_1apply__update__defect__impl_3_01_s_00_01typename_01b310bc2fcf5ee106b57194deac7e3da2e.html", "structug_1_1_constrained_linear_iterator_1_1apply__update__defect__impl_3_01_s_00_01typename_01b310bc2fcf5ee106b57194deac7e3da2e" ],
       [ "ConstrainedLinearIterator", "classug_1_1_constrained_linear_iterator.html", "classug_1_1_constrained_linear_iterator" ]
     ] ],
     [ "linear_iterator.h", "linear__iterator_8h.html", [
@@ -25,6 +27,10 @@ var dir_56e2ae5e1f636b1619b1af0757b00c03 =
     ] ],
     [ "operator_inverse.h", "operator__inverse_8h.html", [
       [ "IOperatorInverse", "classug_1_1_i_operator_inverse.html", "classug_1_1_i_operator_inverse" ]
+    ] ],
+    [ "pprocess.h", "pprocess_8h.html", [
+      [ "IPProcessVector", "classug_1_1_i_p_process_vector.html", "classug_1_1_i_p_process_vector" ],
+      [ "PProcessChain", "classug_1_1_p_process_chain.html", "classug_1_1_p_process_chain" ]
     ] ],
     [ "preconditioned_linear_operator_inverse.h", "preconditioned__linear__operator__inverse_8h.html", [
       [ "IPreconditionedLinearOperatorInverse", "classug_1_1_i_preconditioned_linear_operator_inverse.html", "classug_1_1_i_preconditioned_linear_operator_inverse" ]

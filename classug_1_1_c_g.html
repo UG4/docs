@@ -90,6 +90,7 @@ $(document).ready(function(){initNavTree('classug_1_1_c_g.html','');});
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classug_1_1_c_g-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ug::CG&lt; TVector &gt; Class Template Reference</div>  </div>
@@ -154,6 +155,9 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:aa15d0e8e4047c67880c5d216ca1df47c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_c_g.html#aa15d0e8e4047c67880c5d216ca1df47c">add_postprocess_corr</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_p_process_vector.html">IPProcessVector</a>&lt; <a class="el" href="classug_1_1_vector_debug_writing_object.html#ade1e8e37b29437ff5a7f46d1f3d35bc3">vector_type</a> &gt; &gt; p)</td></tr>
+<tr class="memdesc:aa15d0e8e4047c67880c5d216ca1df47c"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds a post-process for the iterates  <a href="#aa15d0e8e4047c67880c5d216ca1df47c">More...</a><br /></td></tr>
+<tr class="separator:aa15d0e8e4047c67880c5d216ca1df47c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a968edfb0b5846aedf3946f57e5b892c3"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_c_g.html#a968edfb0b5846aedf3946f57e5b892c3">apply_return_defect</a> (<a class="el" href="classug_1_1_vector_debug_writing_object.html#ade1e8e37b29437ff5a7f46d1f3d35bc3">vector_type</a> &amp;x, <a class="el" href="classug_1_1_vector_debug_writing_object.html#ade1e8e37b29437ff5a7f46d1f3d35bc3">vector_type</a> &amp;b)</td></tr>
 <tr class="memdesc:a968edfb0b5846aedf3946f57e5b892c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve J(u)*x = b, such that x = J(u)^{-1} b.  <a href="#a968edfb0b5846aedf3946f57e5b892c3">More...</a><br /></td></tr>
 <tr class="separator:a968edfb0b5846aedf3946f57e5b892c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,6 +171,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a34345abeff4369a1d900b7f0e88d833d"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_c_g.html#a34345abeff4369a1d900b7f0e88d833d">name</a> () const</td></tr>
 <tr class="memdesc:a34345abeff4369a1d900b7f0e88d833d"><td class="mdescLeft">&#160;</td><td class="mdescRight">name of solver  <a href="#a34345abeff4369a1d900b7f0e88d833d">More...</a><br /></td></tr>
 <tr class="separator:a34345abeff4369a1d900b7f0e88d833d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53f142a928e4a65a334ddc067fab2acd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_c_g.html#a53f142a928e4a65a334ddc067fab2acd">remove_postprocess_corr</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_p_process_vector.html">IPProcessVector</a>&lt; <a class="el" href="classug_1_1_vector_debug_writing_object.html#ade1e8e37b29437ff5a7f46d1f3d35bc3">vector_type</a> &gt; &gt; p)</td></tr>
+<tr class="memdesc:a53f142a928e4a65a334ddc067fab2acd"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes a post-process for the iterates  <a href="#a53f142a928e4a65a334ddc067fab2acd">More...</a><br /></td></tr>
+<tr class="separator:a53f142a928e4a65a334ddc067fab2acd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad60e81d3fd2381447bea55565d43fd2"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_c_g.html#aad60e81d3fd2381447bea55565d43fd2">supports_parallel</a> () const</td></tr>
 <tr class="memdesc:aad60e81d3fd2381447bea55565d43fd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns if parallel solving is supported  <a href="#aad60e81d3fd2381447bea55565d43fd2">More...</a><br /></td></tr>
 <tr class="separator:aad60e81d3fd2381447bea55565d43fd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -295,8 +302,11 @@ Protected Member Functions</h2></td></tr>
 <tr class="memdesc:a401a70b4b4f1b270e3086cfa49f13d9a inherit pro_methods_classug_1_1_vector_debug_writing_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">writing debug output for a vector (if debug writer set)  <a href="classug_1_1_vector_debug_writing_object.html#a401a70b4b4f1b270e3086cfa49f13d9a">More...</a><br /></td></tr>
 <tr class="separator:a401a70b4b4f1b270e3086cfa49f13d9a inherit pro_methods_classug_1_1_vector_debug_writing_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:aaaeee9bf032893f8a87982dda32a3db5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_p_process_chain.html">PProcessChain</a>&lt; <a class="el" href="classug_1_1_vector_debug_writing_object.html#ade1e8e37b29437ff5a7f46d1f3d35bc3">vector_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_c_g.html#aaaeee9bf032893f8a87982dda32a3db5">m_corr_post_process</a></td></tr>
+<tr class="memdesc:aaaeee9bf032893f8a87982dda32a3db5"><td class="mdescLeft">&#160;</td><td class="mdescRight">postprocessor for the correction in the iterations  <a href="#aaaeee9bf032893f8a87982dda32a3db5">More...</a><br /></td></tr>
+<tr class="separator:aaaeee9bf032893f8a87982dda32a3db5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classug_1_1_i_preconditioned_linear_operator_inverse"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classug_1_1_i_preconditioned_linear_operator_inverse')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classug_1_1_i_preconditioned_linear_operator_inverse.html">ug::IPreconditionedLinearOperatorInverse&lt; TVector &gt;</a></td></tr>
 <tr class="memitem:a648a1abe3aa2610354191a7aa0012a30 inherit pro_attribs_classug_1_1_i_preconditioned_linear_operator_inverse"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_preconditioned_linear_operator_inverse.html#a648a1abe3aa2610354191a7aa0012a30">m_bRecompute</a></td></tr>
 <tr class="memdesc:a648a1abe3aa2610354191a7aa0012a30 inherit pro_attribs_classug_1_1_i_preconditioned_linear_operator_inverse"><td class="mdescLeft">&#160;</td><td class="mdescRight">flag if fresh defect should be computed when finish for debug purpose  <a href="classug_1_1_i_preconditioned_linear_operator_inverse.html#a648a1abe3aa2610354191a7aa0012a30">More...</a><br /></td></tr>
@@ -472,6 +482,38 @@ template&lt;typename TVector &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="aa15d0e8e4047c67880c5d216ca1df47c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa15d0e8e4047c67880c5d216ca1df47c">&sect;&nbsp;</a></span>add_postprocess_corr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TVector &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_c_g.html">ug::CG</a>&lt; TVector &gt;::add_postprocess_corr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_p_process_vector.html">IPProcessVector</a>&lt; <a class="el" href="classug_1_1_vector_debug_writing_object.html#ade1e8e37b29437ff5a7f46d1f3d35bc3">vector_type</a> &gt; &gt;&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>adds a post-process for the iterates </p>
+
+<p>References <a class="el" href="classug_1_1_p_process_chain.html#a5a9533716627da51cb293524dc0b92d8">ug::PProcessChain&lt; TVector &gt;::add()</a>, and <a class="el" href="classug_1_1_c_g.html#aaaeee9bf032893f8a87982dda32a3db5">ug::CG&lt; TVector &gt;::m_corr_post_process</a>.</p>
+
+</div>
+</div>
 <a id="a968edfb0b5846aedf3946f57e5b892c3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a968edfb0b5846aedf3946f57e5b892c3">&sect;&nbsp;</a></span>apply_return_defect()</h2>
 
@@ -512,7 +554,7 @@ template&lt;typename TVector &gt; </div>
 
 <p>Implements <a class="el" href="classug_1_1_i_linear_operator_inverse.html#a93c7bd80dbcee94db470ad4ae71f65b4">ug::ILinearOperatorInverse&lt; TVector &gt;</a>.</p>
 
-<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#ga8ff3c16c0fe165cbcce8e09e4eb4c61f">alpha</a>, <a class="el" href="classug_1_1_i_preconditioned_linear_operator_inverse.html#a6d928005ed70d6b18cbd52b330950f9e">ug::IPreconditionedLinearOperatorInverse&lt; TVector &gt;::apply()</a>, <a class="el" href="classug_1_1_i_linear_operator_inverse.html#a05e69e2b18c15a9161524d4ff5aa798b">ug::ILinearOperatorInverse&lt; TVector &gt;::convergence_check()</a>, <a class="el" href="classug_1_1_i_linear_operator_inverse.html#a3608d8640ae456c216751226adef469a">ug::ILinearOperatorInverse&lt; TVector &gt;::linear_operator()</a>, <a class="el" href="classug_1_1_i_preconditioned_linear_operator_inverse.html#aab9d760eafb30d055a26f2cee4da8837">ug::IPreconditionedLinearOperatorInverse&lt; TVector &gt;::preconditioner()</a>, <a class="el" href="classug_1_1_c_g.html#aac6a7fd1d1d2d2c91985a280393f4fa7">ug::CG&lt; TVector &gt;::prepare_conv_check()</a>, <a class="el" href="profiler_8h.html#a6ac4a2a49e9c9e835112b4f6b8cf7355">PROFILE_BEGIN_GROUP</a>, <a class="el" href="group__lib__algebra__parallelization.html#gga75c6ad52009fea9cf3f582261c814936aead524625869f6f9f10996b622ade866">ug::PST_ADDITIVE</a>, <a class="el" href="group__lib__algebra__parallelization.html#gga75c6ad52009fea9cf3f582261c814936aae2129777dc4cb8baf20d8802b4fff37">ug::PST_CONSISTENT</a>, <a class="el" href="group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>, <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>, <a class="el" href="classug_1_1_c_g.html#ac29057f87267edd54105dabe86c8635e">ug::CG&lt; TVector &gt;::VecProd()</a>, and <a class="el" href="group__vectors.html#ga385f702a22b3b6236e783b2bc014f87f">ug::VecScaleAdd()</a>.</p>
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#ga8ff3c16c0fe165cbcce8e09e4eb4c61f">alpha</a>, <a class="el" href="classug_1_1_p_process_chain.html#a6b5591309fbc94d9989005c9e2b0a8fe">ug::PProcessChain&lt; TVector &gt;::apply()</a>, <a class="el" href="classug_1_1_i_preconditioned_linear_operator_inverse.html#a6d928005ed70d6b18cbd52b330950f9e">ug::IPreconditionedLinearOperatorInverse&lt; TVector &gt;::apply()</a>, <a class="el" href="classug_1_1_i_linear_operator_inverse.html#a05e69e2b18c15a9161524d4ff5aa798b">ug::ILinearOperatorInverse&lt; TVector &gt;::convergence_check()</a>, <a class="el" href="classug_1_1_i_linear_operator_inverse.html#a3608d8640ae456c216751226adef469a">ug::ILinearOperatorInverse&lt; TVector &gt;::linear_operator()</a>, <a class="el" href="classug_1_1_c_g.html#aaaeee9bf032893f8a87982dda32a3db5">ug::CG&lt; TVector &gt;::m_corr_post_process</a>, <a class="el" href="classug_1_1_i_preconditioned_linear_operator_inverse.html#aab9d760eafb30d055a26f2cee4da8837">ug::IPreconditionedLinearOperatorInverse&lt; TVector &gt;::preconditioner()</a>, <a class="el" href="classug_1_1_c_g.html#aac6a7fd1d1d2d2c91985a280393f4fa7">ug::CG&lt; TVector &gt;::prepare_conv_check()</a>, <a class="el" href="profiler_8h.html#a6ac4a2a49e9c9e835112b4f6b8cf7355">PROFILE_BEGIN_GROUP</a>, <a class="el" href="group__lib__algebra__parallelization.html#gga75c6ad52009fea9cf3f582261c814936aead524625869f6f9f10996b622ade866">ug::PST_ADDITIVE</a>, <a class="el" href="group__lib__algebra__parallelization.html#gga75c6ad52009fea9cf3f582261c814936aae2129777dc4cb8baf20d8802b4fff37">ug::PST_CONSISTENT</a>, <a class="el" href="group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>, <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>, <a class="el" href="classug_1_1_c_g.html#ac29057f87267edd54105dabe86c8635e">ug::CG&lt; TVector &gt;::VecProd()</a>, and <a class="el" href="group__vectors.html#ga385f702a22b3b6236e783b2bc014f87f">ug::VecScaleAdd()</a>.</p>
 
 </div>
 </div>
@@ -579,6 +621,38 @@ template&lt;typename TVector &gt; </div>
 <p>References <a class="el" href="classug_1_1_i_linear_operator_inverse.html#a05e69e2b18c15a9161524d4ff5aa798b">ug::ILinearOperatorInverse&lt; TVector &gt;::convergence_check()</a>, <a class="el" href="classug_1_1_c_g.html#a34345abeff4369a1d900b7f0e88d833d">ug::CG&lt; TVector &gt;::name()</a>, and <a class="el" href="classug_1_1_i_preconditioned_linear_operator_inverse.html#aab9d760eafb30d055a26f2cee4da8837">ug::IPreconditionedLinearOperatorInverse&lt; TVector &gt;::preconditioner()</a>.</p>
 
 <p>Referenced by <a class="el" href="classug_1_1_c_g.html#a968edfb0b5846aedf3946f57e5b892c3">ug::CG&lt; TVector &gt;::apply_return_defect()</a>.</p>
+
+</div>
+</div>
+<a id="a53f142a928e4a65a334ddc067fab2acd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53f142a928e4a65a334ddc067fab2acd">&sect;&nbsp;</a></span>remove_postprocess_corr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TVector &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_c_g.html">ug::CG</a>&lt; TVector &gt;::remove_postprocess_corr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_p_process_vector.html">IPProcessVector</a>&lt; <a class="el" href="classug_1_1_vector_debug_writing_object.html#ade1e8e37b29437ff5a7f46d1f3d35bc3">vector_type</a> &gt; &gt;&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>removes a post-process for the iterates </p>
+
+<p>References <a class="el" href="classug_1_1_c_g.html#aaaeee9bf032893f8a87982dda32a3db5">ug::CG&lt; TVector &gt;::m_corr_post_process</a>, and <a class="el" href="classug_1_1_p_process_chain.html#aebbe9f6e28b9f4a2b3bc7337063838e2">ug::PProcessChain&lt; TVector &gt;::remove()</a>.</p>
 
 </div>
 </div>
@@ -655,6 +729,36 @@ template&lt;typename TVector &gt; </div>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aaaeee9bf032893f8a87982dda32a3db5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaeee9bf032893f8a87982dda32a3db5">&sect;&nbsp;</a></span>m_corr_post_process</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TVector &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classug_1_1_p_process_chain.html">PProcessChain</a>&lt;<a class="el" href="classug_1_1_vector_debug_writing_object.html#ade1e8e37b29437ff5a7f46d1f3d35bc3">vector_type</a>&gt; <a class="el" href="classug_1_1_c_g.html">ug::CG</a>&lt; TVector &gt;::m_corr_post_process</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>postprocessor for the correction in the iterations </p>
+<p>These postprocess operations are applied to the preconditioned defect before the orthogonalization. The goal is to prevent the useless kernel parts to prevail in the (floating point) arithmetics. </p>
+
+<p>Referenced by <a class="el" href="classug_1_1_c_g.html#aa15d0e8e4047c67880c5d216ca1df47c">ug::CG&lt; TVector &gt;::add_postprocess_corr()</a>, <a class="el" href="classug_1_1_c_g.html#a968edfb0b5846aedf3946f57e5b892c3">ug::CG&lt; TVector &gt;::apply_return_defect()</a>, and <a class="el" href="classug_1_1_c_g.html#a53f142a928e4a65a334ddc067fab2acd">ug::CG&lt; TVector &gt;::remove_postprocess_corr()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>ugbase/lib_algebra/operator/linear_solver/<a class="el" href="cg_8h_source.html">cg.h</a></li>
 </ul>
@@ -664,7 +768,7 @@ template&lt;typename TVector &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_c_g.html">CG</a></li>
-    <li class="footer">Generated on Thu Mar 30 2017 18:44:17 for ug4 by
+    <li class="footer">Generated on Mon Jul 24 2017 16:04:18 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

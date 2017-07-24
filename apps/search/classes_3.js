@@ -54,7 +54,7 @@ var searchData=
   ['dependentuserdata_3c_20number_2c_20dim_20_3e',['DependentUserData&lt; number, dim &gt;',['../../classug_1_1_dependent_user_data.html',1,'DependentUserData&lt; number, dim &gt;'],['../../classug_1_1_dependent_user_data.html',1,'ug::DependentUserData&lt; number, dim &gt;']]],
   ['dependentuserdata_3c_20tret_2c_20dim_20_3e',['DependentUserData&lt; TRet, dim &gt;',['../../classug_1_1_dependent_user_data.html',1,'']]],
   ['dependentuserdata_3c_20ug_3a_3amathmatrix_3c_20dim_2c_20dim_20_3e_2c_20dim_20_3e',['DependentUserData&lt; ug::MathMatrix&lt; dim, dim &gt;, dim &gt;',['../../classug_1_1_dependent_user_data.html',1,'DependentUserData&lt; ug::MathMatrix&lt; dim, dim &gt;, dim &gt;'],['../../classug_1_1_dependent_user_data.html',1,'ug::DependentUserData&lt; ug::MathMatrix&lt; dim, dim &gt;, dim &gt;']]],
-  ['dependentuserdata_3c_20ug_3a_3amathvector_3c_20dim_20_3e_2c_20dim_20_3e',['DependentUserData&lt; ug::MathVector&lt; dim &gt;, dim &gt;',['../../classug_1_1_dependent_user_data.html',1,'DependentUserData&lt; ug::MathVector&lt; dim &gt;, dim &gt;'],['../../classug_1_1_dependent_user_data.html',1,'ug::DependentUserData&lt; ug::MathVector&lt; dim &gt;, dim &gt;']]],
+  ['dependentuserdata_3c_20ug_3a_3amathvector_3c_20dim_20_3e_2c_20dim_20_3e',['DependentUserData&lt; ug::MathVector&lt; dim &gt;, dim &gt;',['../../classug_1_1_dependent_user_data.html',1,'ug::DependentUserData&lt; ug::MathVector&lt; dim &gt;, dim &gt;'],['../../classug_1_1_dependent_user_data.html',1,'DependentUserData&lt; ug::MathVector&lt; dim &gt;, dim &gt;']]],
   ['dependentuserdatamatrix',['DependentUserDataMatrix',['../../regdocu/classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_dependent_user_data_matrix.html',1,'ug4Bridge::Discretization::SpatialDisc::UserData']]],
   ['dependentuserdatanumber',['DependentUserDataNumber',['../../regdocu/classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_dependent_user_data_number.html',1,'ug4Bridge::Discretization::SpatialDisc::UserData']]],
   ['dependentuserdatatensor4',['DependentUserDataTensor4',['../../regdocu/classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_dependent_user_data_tensor4.html',1,'ug4Bridge::Discretization::SpatialDisc::UserData']]],
@@ -114,7 +114,7 @@ var searchData=
   ['domainloadbalancer',['DomainLoadBalancer',['../../regdocu/classug4_bridge_1_1_load_balancing_1_1_domain_load_balancer.html',1,'ug4Bridge::LoadBalancing']]],
   ['domainloadbalancer',['DomainLoadBalancer',['../../classug_1_1_domain_load_balancer.html',1,'ug']]],
   ['domainpartitioner',['DomainPartitioner',['../../classug_1_1_domain_partitioner.html',1,'ug']]],
-  ['domainraytracer',['DomainRayTracer',['../../regdocu/classug4_bridge_1_1_ray_tracing_1_1_domain_ray_tracer.html',1,'ug4Bridge::RayTracing']]],
   ['domainraytracer',['DomainRayTracer',['../../classug_1_1_domain_ray_tracer.html',1,'ug']]],
+  ['domainraytracer',['DomainRayTracer',['../../regdocu/classug4_bridge_1_1_ray_tracing_1_1_domain_ray_tracer.html',1,'ug4Bridge::RayTracing']]],
   ['dualgraphneighborcollector',['DualGraphNeighborCollector',['../../classug_1_1_dual_graph_neighbor_collector.html',1,'ug']]]
 ];

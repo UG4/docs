@@ -127,12 +127,12 @@ var hierarchy =
       [ "PartialUpwind", "classug4_bridge_1_1_spatial_disc_1_1_upwind_1_1_partial_upwind.html", null ],
       [ "WeightedUpwind", "classug4_bridge_1_1_spatial_disc_1_1_upwind_1_1_weighted_upwind.html", null ]
     ] ],
+    [ "IConvergenceCheck", null, [
+      [ "CompositeConvCheck", "classug4_bridge_1_1_composite_conv_check.html", null ]
+    ] ],
     [ "IConvergenceCheck", "classug4_bridge_1_1_algebra_1_1_i_convergence_check.html", [
       [ "ConvCheck", "classug4_bridge_1_1_algebra_1_1_conv_check.html", null ],
       [ "EnergyConvCheck", "classug4_bridge_1_1_algebra_1_1_energy_conv_check.html", null ]
-    ] ],
-    [ "IConvergenceCheck", null, [
-      [ "CompositeConvCheck", "classug4_bridge_1_1_composite_conv_check.html", null ]
     ] ],
     [ "IDamping", "classug4_bridge_1_1_algebra_1_1_solver_1_1_i_damping.html", [
       [ "MinimalEnergyDamping", "classug4_bridge_1_1_algebra_1_1_solver_1_1_minimal_energy_damping.html", null ],
@@ -265,9 +265,6 @@ var hierarchy =
       [ "PrandtlReuss", "classug4_bridge_1_1_spatial_disc_1_1_small_strain_mechanics_1_1_prandtl_reuss.html", null ]
     ] ],
     [ "INewtonUpdate", "classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_i_newton_update.html", null ],
-    [ "IOperator", null, [
-      [ "AssembledOperator", "classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_assembled_operator.html", null ]
-    ] ],
     [ "IOperator", "classug4_bridge_1_1_algebra_1_1_i_operator.html", [
       [ "ILinearOperator", "classug4_bridge_1_1_algebra_1_1_i_linear_operator.html", [
         [ "MatrixDiagonal", "classug4_bridge_1_1_algebra_1_1_matrix_diagonal.html", null ],
@@ -275,6 +272,9 @@ var hierarchy =
         [ "MatrixOperator", "classug4_bridge_1_1_algebra_1_1_matrix_operator.html", null ],
         [ "LocalSchurComplement", "classug4_bridge_1_1_algebra_1_1_solver_1_1_local_schur_complement.html", null ]
       ] ]
+    ] ],
+    [ "IOperator", null, [
+      [ "AssembledOperator", "classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_assembled_operator.html", null ]
     ] ],
     [ "IOperatorInverse", "classug4_bridge_1_1_algebra_1_1_i_operator_inverse.html", null ],
     [ "IOperatorInverse", null, [
@@ -291,10 +291,11 @@ var hierarchy =
       [ "ClusterElementStacks", "classug4_bridge_1_1_load_balancing_1_1_cluster_element_stacks.html", null ],
       [ "SmoothPartitionBounds", "classug4_bridge_1_1_load_balancing_1_1_smooth_partition_bounds.html", null ]
     ] ],
+    [ "IPositionProvider", "classug4_bridge_1_1_algebra_1_1_i_position_provider.html", null ],
     [ "IPositionProvider", null, [
       [ "GridFunctionPositionProvider", "classug4_bridge_1_1_discretization_1_1_output_1_1_grid_function_position_provider.html", null ]
     ] ],
-    [ "IPositionProvider", "classug4_bridge_1_1_algebra_1_1_i_position_provider.html", null ],
+    [ "IPProcessVector", "classug4_bridge_1_1_algebra_1_1_solver_1_1_i_p_process_vector.html", null ],
     [ "IPreconditioner", null, [
       [ "ComponentGaussSeidel", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_component_gauss_seidel.html", null ],
       [ "ElementGaussSeidel", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_element_gauss_seidel.html", null ]
@@ -350,6 +351,7 @@ var hierarchy =
     ] ],
     [ "MechOutputWriter", "classug4_bridge_1_1_spatial_disc_1_1_small_strain_mechanics_1_1_mech_output_writer.html", null ],
     [ "Mesh", "classug4_bridge_1_1promesh_1_1_mesh.html", null ],
+    [ "MGStats", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_m_g_stats.html", null ],
     [ "MultiIndex2", "classug4_bridge_1_1_discretization_1_1_multi_index2.html", null ],
     [ "NumberRaster", "classug4_bridge_1_1_number_raster.html", null ],
     [ "PartitionMap", "classug4_bridge_1_1_grid_1_1_partition_map.html", null ],
@@ -444,9 +446,7 @@ var hierarchy =
       [ "GridFunction", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function.html", null ]
     ] ],
     [ "VectorDebugWritingObject", "classug4_bridge_1_1_algebra_1_1_vector_debug_writing_object.html", [
-      [ "DebugWritingObject", "classug4_bridge_1_1_algebra_1_1_debug_writing_object.html", [
-        [ "EigenSolver", "classug4_bridge_1_1_algebra_1_1_solver_1_1_eigen_solver.html", null ]
-      ] ]
+      [ "DebugWritingObject", "classug4_bridge_1_1_algebra_1_1_debug_writing_object.html", null ]
     ] ],
     [ "VertexIterator", "classug4_bridge_1_1promesh_1_1_vertex_iterator.html", null ],
     [ "VolumeIterator", "classug4_bridge_1_1promesh_1_1_volume_iterator.html", null ],

@@ -69,6 +69,8 @@ var searchData=
   ['mg_5fsolver_2ecpp',['mg_solver.cpp',['../../mg____solver__8cpp.html',1,'']]],
   ['mg_5fsolver_2eh',['mg_solver.h',['../../mg____solver__8h.html',1,'']]],
   ['mg_5fsolver_5fimpl_2ehpp',['mg_solver_impl.hpp',['../../mg____solver____impl__8hpp.html',1,'']]],
+  ['mg_5fstats_2eh',['mg_stats.h',['../../mg____stats__8h.html',1,'']]],
+  ['mg_5fstats_5fimpl_2ehpp',['mg_stats_impl.hpp',['../../mg____stats____impl__8hpp.html',1,'']]],
   ['mini_2ecpp',['mini.cpp',['../../mini__8cpp.html',1,'']]],
   ['mini_2eh',['mini.h',['../../mini__8h.html',1,'']]],
   ['misc_5fbridge_2ecpp',['misc_bridge.cpp',['../../grid____bridges__2misc____bridge__8cpp.html',1,'(Global Namespace)'],['../../misc____bridges__2misc____bridge__8cpp.html',1,'(Global Namespace)']]],

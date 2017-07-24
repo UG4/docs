@@ -9,7 +9,7 @@ var sparsematrix__interface_8h =
     [ "end_row", "sparsematrix__interface_8h.html#a4340460718e70e6494f93c9b31600881", null ],
     [ "get_connection", "sparsematrix__interface_8h.html#a3581cd6924f543eae0bc78d3dbe8835c", null ],
     [ "get_connection", "sparsematrix__interface_8h.html#ae67e4503c837480cb46bc270fb935f55", null ],
-    [ "MatAdd", "group__lib__algebra.html#ga538457f5a77bd2f1859f5035f89456df", null ],
+    [ "MatAdd", "sparsematrix__interface_8h.html#af1a2a633b987354ed92c3d82350bc1f1", null ],
     [ "num_cols", "sparsematrix__interface_8h.html#a70b1db12cdb6ba1a429e1dca9233d285", null ],
     [ "num_connections", "sparsematrix__interface_8h.html#a5c08a4de7d9b04993b920ac035074a35", null ],
     [ "num_rows", "sparsematrix__interface_8h.html#a335c085061b311ca357c8883caec6ae3", null ],

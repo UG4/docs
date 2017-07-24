@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ug4: ug::SlicingData Class Reference</title>
+<title>ug4: ug::SlicingData&lt; TVec, N &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -93,7 +93,7 @@ $(document).ready(function(){initNavTree('classug_1_1_slicing_data.html','');});
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classug_1_1_slicing_data-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">ug::SlicingData Class Reference</div>  </div>
+<div class="title">ug::SlicingData&lt; TVec, N &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -101,95 +101,141 @@ $(document).ready(function(){initNavTree('classug_1_1_slicing_data.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:acf129902d36f07c274d331639f242077"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#acf129902d36f07c274d331639f242077">slice_desc_set</a></td></tr>
-<tr class="separator:acf129902d36f07c274d331639f242077"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae996cee643375195d38745a6fa383d8e"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1e">slice_desc_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#ae996cee643375195d38745a6fa383d8e">slice_desc_type_vector</a></td></tr>
-<tr class="separator:ae996cee643375195d38745a6fa383d8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a531ee0216a93b3388717164ac69d5092"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#a531ee0216a93b3388717164ac69d5092">slice_desc_set</a></td></tr>
+<tr class="separator:a531ee0216a93b3388717164ac69d5092"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fd0eddb72867a4e03643adeddc93eb0"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="sparsematrix__interface_8h.html#a265a253612b46abed17c61b0a5e5ce30">TVec::value_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a></td></tr>
+<tr class="separator:a8fd0eddb72867a4e03643adeddc93eb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43fe6ef238257b35b620f4044b8a201f"><td class="memItemLeft" align="right" valign="top">typedef TVec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#a43fe6ef238257b35b620f4044b8a201f">slice_desc_type_vector</a></td></tr>
+<tr class="separator:a43fe6ef238257b35b620f4044b8a201f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a25c00c3622082ee9dde146ecb9eaddbd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#a25c00c3622082ee9dde146ecb9eaddbd">auto_fill_sets</a> ()</td></tr>
-<tr class="separator:a25c00c3622082ee9dde146ecb9eaddbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ad67ba81ac306d154e0720345888762"><td class="memTemplParams" colspan="2">template&lt;class MT &gt; </td></tr>
-<tr class="memitem:a3ad67ba81ac306d154e0720345888762"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#a3ad67ba81ac306d154e0720345888762">get_matrix</a> (const MT &amp;A, <a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1e">slice_desc_type</a> row_type, <a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1e">slice_desc_type</a> col_type, MT &amp;Aslice) const</td></tr>
-<tr class="separator:a3ad67ba81ac306d154e0720345888762"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ea9acd3c9491d80c7237642167e1a36"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#a3ea9acd3c9491d80c7237642167e1a36">get_num_elems</a> (<a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1e">slice_desc_type</a> type) const</td></tr>
-<tr class="separator:a3ea9acd3c9491d80c7237642167e1a36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad50bd561b3a4966ee86491c37de1bf95"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_algebra_layouts.html">AlgebraLayouts</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#ad50bd561b3a4966ee86491c37de1bf95">get_slice_layouts</a> (<a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_algebra_layouts.html">AlgebraLayouts</a> &gt; layouts, <a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1e">slice_desc_type</a> type) const</td></tr>
-<tr class="separator:ad50bd561b3a4966ee86491c37de1bf95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50568c1f2254f30cd9279621917118d0"><td class="memTemplParams" colspan="2">template&lt;class VT &gt; </td></tr>
-<tr class="memitem:a50568c1f2254f30cd9279621917118d0"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#a50568c1f2254f30cd9279621917118d0">get_vector_slice</a> (const VT &amp;full_src, <a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1e">slice_desc_type</a> desc, VT &amp;small_dst) const</td></tr>
-<tr class="memdesc:a50568c1f2254f30cd9279621917118d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy: slice of vector -&gt; small vector  <a href="#a50568c1f2254f30cd9279621917118d0">More...</a><br /></td></tr>
-<tr class="separator:a50568c1f2254f30cd9279621917118d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab40df9bcdd56e004bbf70f4e989d4b4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#ab40df9bcdd56e004bbf70f4e989d4b4b">set_types</a> (const <a class="el" href="classug_1_1_slicing_data.html#ae996cee643375195d38745a6fa383d8e">slice_desc_type_vector</a> &amp;types)</td></tr>
-<tr class="memdesc:ab40df9bcdd56e004bbf70f4e989d4b4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy types  <a href="#ab40df9bcdd56e004bbf70f4e989d4b4b">More...</a><br /></td></tr>
-<tr class="separator:ab40df9bcdd56e004bbf70f4e989d4b4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1af54e4ab39a74b9f872818de97c7724"><td class="memTemplParams" colspan="2">template&lt;class VT &gt; </td></tr>
-<tr class="memitem:a1af54e4ab39a74b9f872818de97c7724"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#a1af54e4ab39a74b9f872818de97c7724">set_vector_slice</a> (const VT &amp;small_src, VT &amp;full_dst, <a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1e">slice_desc_type</a> desc) const</td></tr>
-<tr class="memdesc:a1af54e4ab39a74b9f872818de97c7724"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy: small vector -&gt; slice of a vector  <a href="#a1af54e4ab39a74b9f872818de97c7724">More...</a><br /></td></tr>
-<tr class="separator:a1af54e4ab39a74b9f872818de97c7724"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32a4c85b70116af91e6051bddd24685f"><td class="memTemplParams" colspan="2">template&lt;class VT &gt; </td></tr>
-<tr class="memitem:a32a4c85b70116af91e6051bddd24685f"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; VT &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#a32a4c85b70116af91e6051bddd24685f">slice_clone_without_values</a> (const VT &amp;full_src, <a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1e">slice_desc_type</a> type) const</td></tr>
-<tr class="separator:a32a4c85b70116af91e6051bddd24685f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aedb3546d14b75bcb96009bc978551aeb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#aedb3546d14b75bcb96009bc978551aeb">SlicingData</a> (const <a class="el" href="classug_1_1_slicing_data.html#ae996cee643375195d38745a6fa383d8e">slice_desc_type_vector</a> &amp;types)</td></tr>
-<tr class="memdesc:aedb3546d14b75bcb96009bc978551aeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor  <a href="#aedb3546d14b75bcb96009bc978551aeb">More...</a><br /></td></tr>
-<tr class="separator:aedb3546d14b75bcb96009bc978551aeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe72041a66a4bb75f837317be84bac66"><td class="memTemplParams" colspan="2">template&lt;class VT &gt; </td></tr>
-<tr class="memitem:abe72041a66a4bb75f837317be84bac66"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#abe72041a66a4bb75f837317be84bac66">subtract_vector_slice</a> (const VT &amp;full_src, <a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1e">slice_desc_type</a> desc, VT &amp;small_dst) const</td></tr>
-<tr class="memdesc:abe72041a66a4bb75f837317be84bac66"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy: slice of vector -&gt; small vector  <a href="#abe72041a66a4bb75f837317be84bac66">More...</a><br /></td></tr>
-<tr class="separator:abe72041a66a4bb75f837317be84bac66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa45907c7829b52cc764eb203a8a22ad8"><td class="memTemplParams" colspan="2">template&lt;class VT &gt; </td></tr>
-<tr class="memitem:aa45907c7829b52cc764eb203a8a22ad8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#aa45907c7829b52cc764eb203a8a22ad8">subtract_vector_slice</a> (const VT &amp;small_src, VT &amp;full_dst, <a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1e">slice_desc_type</a> desc) const</td></tr>
-<tr class="memdesc:aa45907c7829b52cc764eb203a8a22ad8"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy: small vector -&gt; slice of a vector  <a href="#aa45907c7829b52cc764eb203a8a22ad8">More...</a><br /></td></tr>
-<tr class="separator:aa45907c7829b52cc764eb203a8a22ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f9e1a94ea9b5327eebd2f00fd80a44f"><td class="memTemplParams" colspan="2">template&lt;class VT &gt; </td></tr>
+<tr class="memitem:a5f9e1a94ea9b5327eebd2f00fd80a44f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#a5f9e1a94ea9b5327eebd2f00fd80a44f">add_vector_slice</a> (const VT &amp;full_src, <a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a> desc, VT &amp;small_dst, double sigma=1.0) const</td></tr>
+<tr class="memdesc:a5f9e1a94ea9b5327eebd2f00fd80a44f"><td class="mdescLeft">&#160;</td><td class="mdescRight">add: slice of vector -&gt; small vector  <a href="#a5f9e1a94ea9b5327eebd2f00fd80a44f">More...</a><br /></td></tr>
+<tr class="separator:a5f9e1a94ea9b5327eebd2f00fd80a44f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3db514c4ec1ad607b517061d40d04a87"><td class="memTemplParams" colspan="2">template&lt;class VT &gt; </td></tr>
+<tr class="memitem:a3db514c4ec1ad607b517061d40d04a87"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#a3db514c4ec1ad607b517061d40d04a87">add_vector_slice</a> (const VT &amp;small_src, VT &amp;full_dst, <a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a> desc, double sigma=1.0) const</td></tr>
+<tr class="memdesc:a3db514c4ec1ad607b517061d40d04a87"><td class="mdescLeft">&#160;</td><td class="mdescRight">add: small vector -&gt; slice of a vector  <a href="#a3db514c4ec1ad607b517061d40d04a87">More...</a><br /></td></tr>
+<tr class="separator:a3db514c4ec1ad607b517061d40d04a87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98ed40b8bdb0f2cccb7e680c0580c258"><td class="memTemplParams" colspan="2">template&lt;class MT &gt; </td></tr>
+<tr class="memitem:a98ed40b8bdb0f2cccb7e680c0580c258"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#a98ed40b8bdb0f2cccb7e680c0580c258">get_matrix</a> (const MT &amp;A, <a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a> row_type, <a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a> col_type, MT &amp;Aslice) const</td></tr>
+<tr class="separator:a98ed40b8bdb0f2cccb7e680c0580c258"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d3a7d8bb715b0e5cec58efec53d517c"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#a5d3a7d8bb715b0e5cec58efec53d517c">get_num_elems</a> (<a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a> type) const</td></tr>
+<tr class="memdesc:a5d3a7d8bb715b0e5cec58efec53d517c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of elements for each type.  <a href="#a5d3a7d8bb715b0e5cec58efec53d517c">More...</a><br /></td></tr>
+<tr class="separator:a5d3a7d8bb715b0e5cec58efec53d517c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf09d4be87bd67fca4d96347b9c11981"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_algebra_layouts.html">AlgebraLayouts</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#acf09d4be87bd67fca4d96347b9c11981">get_slice_layouts</a> (<a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_algebra_layouts.html">AlgebraLayouts</a> &gt; layouts, <a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a> type) const</td></tr>
+<tr class="separator:acf09d4be87bd67fca4d96347b9c11981"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4479870ac7c7f49ab939e7e608d5f431"><td class="memTemplParams" colspan="2">template&lt;class VT &gt; </td></tr>
+<tr class="memitem:a4479870ac7c7f49ab939e7e608d5f431"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#a4479870ac7c7f49ab939e7e608d5f431">get_vector_slice</a> (const VT &amp;full_src, <a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a> desc, VT &amp;small_dst) const</td></tr>
+<tr class="memdesc:a4479870ac7c7f49ab939e7e608d5f431"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy: slice of vector -&gt; small vector  <a href="#a4479870ac7c7f49ab939e7e608d5f431">More...</a><br /></td></tr>
+<tr class="separator:a4479870ac7c7f49ab939e7e608d5f431"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a731db6a1cd2324345fec3f984aca73f1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#a731db6a1cd2324345fec3f984aca73f1">is_valid</a> ()</td></tr>
+<tr class="separator:a731db6a1cd2324345fec3f984aca73f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aece5bef77ad183212278cf5e66af09ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#aece5bef77ad183212278cf5e66af09ec">set_types</a> (const <a class="el" href="classug_1_1_slicing_data.html#a43fe6ef238257b35b620f4044b8a201f">slice_desc_type_vector</a> &amp;types, bool bClear=false)</td></tr>
+<tr class="memdesc:aece5bef77ad183212278cf5e66af09ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy types  <a href="#aece5bef77ad183212278cf5e66af09ec">More...</a><br /></td></tr>
+<tr class="separator:aece5bef77ad183212278cf5e66af09ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a978429f165cae0a03003afe01240f481"><td class="memTemplParams" colspan="2">template&lt;class VT &gt; </td></tr>
+<tr class="memitem:a978429f165cae0a03003afe01240f481"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#a978429f165cae0a03003afe01240f481">set_vector_slice</a> (const VT &amp;small_src, VT &amp;full_dst, <a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a> desc) const</td></tr>
+<tr class="memdesc:a978429f165cae0a03003afe01240f481"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy: small vector -&gt; slice of a vector  <a href="#a978429f165cae0a03003afe01240f481">More...</a><br /></td></tr>
+<tr class="separator:a978429f165cae0a03003afe01240f481"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7cadee3c10d6bc34a39e2695646f619"><td class="memTemplParams" colspan="2">template&lt;class VT &gt; </td></tr>
+<tr class="memitem:ad7cadee3c10d6bc34a39e2695646f619"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; VT &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#ad7cadee3c10d6bc34a39e2695646f619">slice_clone</a> (const VT &amp;full_src, <a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a> type) const</td></tr>
+<tr class="memdesc:ad7cadee3c10d6bc34a39e2695646f619"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a (partial) clone.  <a href="#ad7cadee3c10d6bc34a39e2695646f619">More...</a><br /></td></tr>
+<tr class="separator:ad7cadee3c10d6bc34a39e2695646f619"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a139aba82fc8307229f87807fecec39dd"><td class="memTemplParams" colspan="2">template&lt;class VT &gt; </td></tr>
+<tr class="memitem:a139aba82fc8307229f87807fecec39dd"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; VT &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#a139aba82fc8307229f87807fecec39dd">slice_clone_without_values</a> (const VT &amp;full_src, <a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a> type) const</td></tr>
+<tr class="memdesc:a139aba82fc8307229f87807fecec39dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a (partial) clone, without copying values.  <a href="#a139aba82fc8307229f87807fecec39dd">More...</a><br /></td></tr>
+<tr class="separator:a139aba82fc8307229f87807fecec39dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e5ccb674f9c317a8b2d90ca4a615ee5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#a3e5ccb674f9c317a8b2d90ca4a615ee5">SlicingData</a> ()</td></tr>
+<tr class="memdesc:a3e5ccb674f9c317a8b2d90ca4a615ee5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a3e5ccb674f9c317a8b2d90ca4a615ee5">More...</a><br /></td></tr>
+<tr class="separator:a3e5ccb674f9c317a8b2d90ca4a615ee5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a435e4088daf0b624bf02a8ab065c0644"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#a435e4088daf0b624bf02a8ab065c0644">SlicingData</a> (const <a class="el" href="classug_1_1_slicing_data.html#a43fe6ef238257b35b620f4044b8a201f">slice_desc_type_vector</a> &amp;types)</td></tr>
+<tr class="separator:a435e4088daf0b624bf02a8ab065c0644"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acef70217e57833366f0589a85988a450"><td class="memTemplParams" colspan="2">template&lt;class VT &gt; </td></tr>
+<tr class="memitem:acef70217e57833366f0589a85988a450"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#acef70217e57833366f0589a85988a450">subtract_vector_slice</a> (const VT &amp;full_src, <a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a> desc, VT &amp;small_dst) const</td></tr>
+<tr class="memdesc:acef70217e57833366f0589a85988a450"><td class="mdescLeft">&#160;</td><td class="mdescRight">substract: slice of vector -&gt; small vector  <a href="#acef70217e57833366f0589a85988a450">More...</a><br /></td></tr>
+<tr class="separator:acef70217e57833366f0589a85988a450"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a174aff41601a9c5ccad4a2f25bae79b7"><td class="memTemplParams" colspan="2">template&lt;class VT &gt; </td></tr>
+<tr class="memitem:a174aff41601a9c5ccad4a2f25bae79b7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#a174aff41601a9c5ccad4a2f25bae79b7">subtract_vector_slice</a> (const VT &amp;small_src, VT &amp;full_dst, <a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a> desc) const</td></tr>
+<tr class="memdesc:a174aff41601a9c5ccad4a2f25bae79b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">substract: small vector -&gt; slice of a vector  <a href="#a174aff41601a9c5ccad4a2f25bae79b7">More...</a><br /></td></tr>
+<tr class="separator:a174aff41601a9c5ccad4a2f25bae79b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a0f3cad5edd03ed986c2befa9cbfff37a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#a0f3cad5edd03ed986c2befa9cbfff37a">find_index</a> (<a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1e">slice_desc_type</a> type, int gindex, int &amp;index) const</td></tr>
-<tr class="memdesc:a0f3cad5edd03ed986c2befa9cbfff37a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns local index for a global index  <a href="#a0f3cad5edd03ed986c2befa9cbfff37a">More...</a><br /></td></tr>
-<tr class="separator:a0f3cad5edd03ed986c2befa9cbfff37a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b7d63a04d30720663ce77898266da81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1e">slice_desc_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#a2b7d63a04d30720663ce77898266da81">get_type</a> (int index)</td></tr>
-<tr class="memdesc:a2b7d63a04d30720663ce77898266da81"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns type for a global index  <a href="#a2b7d63a04d30720663ce77898266da81">More...</a><br /></td></tr>
-<tr class="separator:a2b7d63a04d30720663ce77898266da81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09fcaa09455bb194672173affa0f15c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#a09fcaa09455bb194672173affa0f15c3">replace_indices_in_layout</a> (<a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1e">slice_desc_type</a> type, <a class="el" href="group__lib__algebra__parallelization.html#gad2e106a1a11b3d94250becdabf196f65">IndexLayout</a> &amp;il) const</td></tr>
-<tr class="separator:a09fcaa09455bb194672173affa0f15c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2a3eccfe93a37951d6c8db8fd467b03"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classug_1_1_slicing_data.html#acf129902d36f07c274d331639f242077">slice_desc_set</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#ae2a3eccfe93a37951d6c8db8fd467b03">slice</a> (<a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1e">slice_desc_type</a> type) const</td></tr>
-<tr class="memdesc:ae2a3eccfe93a37951d6c8db8fd467b03"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the set of global indices for a given type  <a href="#ae2a3eccfe93a37951d6c8db8fd467b03">More...</a><br /></td></tr>
-<tr class="separator:ae2a3eccfe93a37951d6c8db8fd467b03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add6c9fa4dace5c36df534200acb5d0b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_slicing_data.html#acf129902d36f07c274d331639f242077">slice_desc_set</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#add6c9fa4dace5c36df534200acb5d0b3">slice</a> (<a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1e">slice_desc_type</a> type)</td></tr>
-<tr class="separator:add6c9fa4dace5c36df534200acb5d0b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeab999c1d2e70857bba786c713f814d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#aeab999c1d2e70857bba786c713f814d2">clear_set_mappings</a> ()</td></tr>
+<tr class="separator:aeab999c1d2e70857bba786c713f814d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1215a9216d639ef928a67f8c4ba941b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#a1215a9216d639ef928a67f8c4ba941b3">fill_set_mappings</a> ()</td></tr>
+<tr class="separator:a1215a9216d639ef928a67f8c4ba941b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb84f5372e960d206806b3705ade1e41"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#aeb84f5372e960d206806b3705ade1e41">find_index</a> (<a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a> type, int gindex, int &amp;index) const</td></tr>
+<tr class="memdesc:aeb84f5372e960d206806b3705ade1e41"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns local index for a global index  <a href="#aeb84f5372e960d206806b3705ade1e41">More...</a><br /></td></tr>
+<tr class="separator:aeb84f5372e960d206806b3705ade1e41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a904129b1387c50484266573704d646"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#a2a904129b1387c50484266573704d646">get_type</a> (size_t index)</td></tr>
+<tr class="memdesc:a2a904129b1387c50484266573704d646"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns type for a global index  <a href="#a2a904129b1387c50484266573704d646">More...</a><br /></td></tr>
+<tr class="separator:a2a904129b1387c50484266573704d646"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44a2f814f0a40202c4d7b77f68ea7402"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#a44a2f814f0a40202c4d7b77f68ea7402">replace_indices_in_layout</a> (<a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a> type, <a class="el" href="group__lib__algebra__parallelization.html#gad2e106a1a11b3d94250becdabf196f65">IndexLayout</a> &amp;il) const</td></tr>
+<tr class="separator:a44a2f814f0a40202c4d7b77f68ea7402"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fcd7986d960bf0836bd06734c6c65bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#a5fcd7986d960bf0836bd06734c6c65bd">reset_set_mappings</a> ()</td></tr>
+<tr class="separator:a5fcd7986d960bf0836bd06734c6c65bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a915b2d8f333d5ee7d311832991745ba1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classug_1_1_slicing_data.html#a531ee0216a93b3388717164ac69d5092">slice_desc_set</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#a915b2d8f333d5ee7d311832991745ba1">slice</a> (<a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a> type) const</td></tr>
+<tr class="memdesc:a915b2d8f333d5ee7d311832991745ba1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the set of global indices for a given type  <a href="#a915b2d8f333d5ee7d311832991745ba1">More...</a><br /></td></tr>
+<tr class="separator:a915b2d8f333d5ee7d311832991745ba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bff60673ce58610309e65e741c3f3dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_slicing_data.html#a531ee0216a93b3388717164ac69d5092">slice_desc_set</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#a7bff60673ce58610309e65e741c3f3dd">slice</a> (<a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a> type)</td></tr>
+<tr class="separator:a7bff60673ce58610309e65e741c3f3dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a6404721935166154690b5ad79f67044f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_slicing_data.html#acf129902d36f07c274d331639f242077">slice_desc_set</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#a6404721935166154690b5ad79f67044f">m_slice_set</a> [(int) <a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1eaec42ad6b4faf97c7fe62caea54dac3cc">SLICE_DESC_SIZE</a>]</td></tr>
-<tr class="memdesc:a6404721935166154690b5ad79f67044f"><td class="mdescLeft">&#160;</td><td class="mdescRight">mapping islice -&gt; iglobal  <a href="#a6404721935166154690b5ad79f67044f">More...</a><br /></td></tr>
-<tr class="separator:a6404721935166154690b5ad79f67044f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a884bd90b8236d081e9830a9cba97b922"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_slicing_data.html#ae996cee643375195d38745a6fa383d8e">slice_desc_type_vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#a884bd90b8236d081e9830a9cba97b922">m_slice_types</a></td></tr>
-<tr class="separator:a884bd90b8236d081e9830a9cba97b922"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa813c0932755c9abcb95946f16136b69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_slicing_data.html#a531ee0216a93b3388717164ac69d5092">slice_desc_set</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#aa813c0932755c9abcb95946f16136b69">m_slice_set</a> [N]</td></tr>
+<tr class="memdesc:aa813c0932755c9abcb95946f16136b69"><td class="mdescLeft">&#160;</td><td class="mdescRight">N mappings: islice -&gt; iglobal.  <a href="#aa813c0932755c9abcb95946f16136b69">More...</a><br /></td></tr>
+<tr class="separator:aa813c0932755c9abcb95946f16136b69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a986b55ed209501cc63c64b06c3bf308e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_slicing_data.html#a43fe6ef238257b35b620f4044b8a201f">slice_desc_type_vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#a986b55ed209501cc63c64b06c3bf308e">m_slice_types</a></td></tr>
+<tr class="separator:a986b55ed209501cc63c64b06c3bf308e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54ab810c42ff96dff4e5fcb3e6ae769e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_slicing_data.html#a54ab810c42ff96dff4e5fcb3e6ae769e">m_valid</a></td></tr>
+<tr class="separator:a54ab810c42ff96dff4e5fcb3e6ae769e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="acf129902d36f07c274d331639f242077"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf129902d36f07c274d331639f242077">&sect;&nbsp;</a></span>slice_desc_set</h2>
+<a id="a531ee0216a93b3388717164ac69d5092"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a531ee0216a93b3388717164ac69d5092">&sect;&nbsp;</a></span>slice_desc_set</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class TVec , size_t N&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef std::vector&lt;int&gt; <a class="el" href="classug_1_1_slicing_data.html#acf129902d36f07c274d331639f242077">ug::SlicingData::slice_desc_set</a></td>
+          <td class="memname">typedef std::vector&lt;int&gt; <a class="el" href="classug_1_1_slicing_data.html">ug::SlicingData</a>&lt; TVec, N &gt;::<a class="el" href="classug_1_1_slicing_data.html#a531ee0216a93b3388717164ac69d5092">slice_desc_set</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ae996cee643375195d38745a6fa383d8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae996cee643375195d38745a6fa383d8e">&sect;&nbsp;</a></span>slice_desc_type_vector</h2>
+<a id="a8fd0eddb72867a4e03643adeddc93eb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fd0eddb72867a4e03643adeddc93eb0">&sect;&nbsp;</a></span>slice_desc_type</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class TVec , size_t N&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef std::vector&lt;<a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1e">slice_desc_type</a>&gt; <a class="el" href="classug_1_1_slicing_data.html#ae996cee643375195d38745a6fa383d8e">ug::SlicingData::slice_desc_type_vector</a></td>
+          <td class="memname">typedef <a class="el" href="sparsematrix__interface_8h.html#a265a253612b46abed17c61b0a5e5ce30">TVec::value_type</a> <a class="el" href="classug_1_1_slicing_data.html">ug::SlicingData</a>&lt; TVec, N &gt;::<a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a43fe6ef238257b35b620f4044b8a201f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43fe6ef238257b35b620f4044b8a201f">&sect;&nbsp;</a></span>slice_desc_type_vector</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TVec , size_t N&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef TVec <a class="el" href="classug_1_1_slicing_data.html">ug::SlicingData</a>&lt; TVec, N &gt;::<a class="el" href="classug_1_1_slicing_data.html#a43fe6ef238257b35b620f4044b8a201f">slice_desc_type_vector</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -197,48 +243,19 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aedb3546d14b75bcb96009bc978551aeb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aedb3546d14b75bcb96009bc978551aeb">&sect;&nbsp;</a></span>SlicingData()</h2>
+<a id="a3e5ccb674f9c317a8b2d90ca4a615ee5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e5ccb674f9c317a8b2d90ca4a615ee5">&sect;&nbsp;</a></span>SlicingData() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class TVec , size_t N&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ug::SlicingData::SlicingData </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classug_1_1_slicing_data.html#ae996cee643375195d38745a6fa383d8e">slice_desc_type_vector</a> &amp;&#160;</td>
-          <td class="paramname"><em>types</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>constructor </p>
-
-<p>References <a class="el" href="classug_1_1_slicing_data.html#a25c00c3622082ee9dde146ecb9eaddbd">auto_fill_sets()</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a25c00c3622082ee9dde146ecb9eaddbd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25c00c3622082ee9dde146ecb9eaddbd">&sect;&nbsp;</a></span>auto_fill_sets()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ug::SlicingData::auto_fill_sets </td>
+          <td class="memname"><a class="el" href="classug_1_1_slicing_data.html">ug::SlicingData</a>&lt; TVec, N &gt;::<a class="el" href="classug_1_1_slicing_data.html">SlicingData</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -250,27 +267,235 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>auto fill for sets assigns every i=0.. m_slice_types.size()-1 to exactly one set </p>
 
-<p>References <a class="el" href="classug_1_1_slicing_data.html#a2b7d63a04d30720663ce77898266da81">get_type()</a>, <a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1eae374d76c94587b39df5d8bc164c3f3e3">ug::SD_INNER</a>, <a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1ea63988d8bf3f292bc8dbc4e4b3250b7bf">ug::SD_SKELETON</a>, <a class="el" href="classug_1_1_slicing_data.html#ae2a3eccfe93a37951d6c8db8fd467b03">slice()</a>, and <a class="el" href="group__ugbase__common.html#ga77cdb11fde48a872846a4dfd3aa9f4d2">UG_DLOG</a>.</p>
-
-<p>Referenced by <a class="el" href="classug_1_1_slicing_data.html#aedb3546d14b75bcb96009bc978551aeb">SlicingData()</a>.</p>
+<p>Constructor. </p>
 
 </div>
 </div>
-<a id="a0f3cad5edd03ed986c2befa9cbfff37a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f3cad5edd03ed986c2befa9cbfff37a">&sect;&nbsp;</a></span>find_index()</h2>
+<a id="a435e4088daf0b624bf02a8ab065c0644"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a435e4088daf0b624bf02a8ab065c0644">&sect;&nbsp;</a></span>SlicingData() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class TVec , size_t N&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool ug::SlicingData::find_index </td>
+          <td class="memname"><a class="el" href="classug_1_1_slicing_data.html">ug::SlicingData</a>&lt; TVec, N &gt;::<a class="el" href="classug_1_1_slicing_data.html">SlicingData</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1e">slice_desc_type</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classug_1_1_slicing_data.html#a43fe6ef238257b35b620f4044b8a201f">slice_desc_type_vector</a> &amp;&#160;</td>
+          <td class="paramname"><em>types</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Builds index mappings based on types </p>
+
+<p>References <a class="el" href="classug_1_1_slicing_data.html#a5fcd7986d960bf0836bd06734c6c65bd">ug::SlicingData&lt; TVec, N &gt;::reset_set_mappings()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a5f9e1a94ea9b5327eebd2f00fd80a44f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f9e1a94ea9b5327eebd2f00fd80a44f">&sect;&nbsp;</a></span>add_vector_slice() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TVec , size_t N&gt; </div>
+<div class="memtemplate">
+template&lt;class VT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_slicing_data.html">ug::SlicingData</a>&lt; TVec, N &gt;::add_vector_slice </td>
+          <td>(</td>
+          <td class="paramtype">const VT &amp;&#160;</td>
+          <td class="paramname"><em>full_src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a>&#160;</td>
+          <td class="paramname"><em>desc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">VT &amp;&#160;</td>
+          <td class="paramname"><em>small_dst</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>sigma</em> = <code>1.0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>add: slice of vector -&gt; small vector </p>
+
+<p>References <a class="el" href="classug_1_1_slicing_data.html#a915b2d8f333d5ee7d311832991745ba1">ug::SlicingData&lt; TVec, N &gt;::slice()</a>.</p>
+
+<p>Referenced by <a class="el" href="classug_1_1_slicing_data.html#acef70217e57833366f0589a85988a450">ug::SlicingData&lt; TVec, N &gt;::subtract_vector_slice()</a>.</p>
+
+</div>
+</div>
+<a id="a3db514c4ec1ad607b517061d40d04a87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3db514c4ec1ad607b517061d40d04a87">&sect;&nbsp;</a></span>add_vector_slice() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TVec , size_t N&gt; </div>
+<div class="memtemplate">
+template&lt;class VT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_slicing_data.html">ug::SlicingData</a>&lt; TVec, N &gt;::add_vector_slice </td>
+          <td>(</td>
+          <td class="paramtype">const VT &amp;&#160;</td>
+          <td class="paramname"><em>small_src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">VT &amp;&#160;</td>
+          <td class="paramname"><em>full_dst</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a>&#160;</td>
+          <td class="paramname"><em>desc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>sigma</em> = <code>1.0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>add: small vector -&gt; slice of a vector </p>
+
+<p>References <a class="el" href="classug_1_1_slicing_data.html#a915b2d8f333d5ee7d311832991745ba1">ug::SlicingData&lt; TVec, N &gt;::slice()</a>.</p>
+
+</div>
+</div>
+<a id="aeab999c1d2e70857bba786c713f814d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeab999c1d2e70857bba786c713f814d2">&sect;&nbsp;</a></span>clear_set_mappings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TVec , size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_slicing_data.html">ug::SlicingData</a>&lt; TVec, N &gt;::clear_set_mappings </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classug_1_1_slicing_data.html#a2a904129b1387c50484266573704d646">ug::SlicingData&lt; TVec, N &gt;::get_type()</a>, and <a class="el" href="classug_1_1_slicing_data.html#a915b2d8f333d5ee7d311832991745ba1">ug::SlicingData&lt; TVec, N &gt;::slice()</a>.</p>
+
+<p>Referenced by <a class="el" href="classug_1_1_slicing_data.html#a5fcd7986d960bf0836bd06734c6c65bd">ug::SlicingData&lt; TVec, N &gt;::reset_set_mappings()</a>.</p>
+
+</div>
+</div>
+<a id="a1215a9216d639ef928a67f8c4ba941b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1215a9216d639ef928a67f8c4ba941b3">&sect;&nbsp;</a></span>fill_set_mappings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TVec , size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_slicing_data.html">ug::SlicingData</a>&lt; TVec, N &gt;::fill_set_mappings </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>auto fill for sets assigns every index i=0.. m_slice_types.size()-1 to exactly one set </p>
+
+<p>References <a class="el" href="classug_1_1_slicing_data.html#a2a904129b1387c50484266573704d646">ug::SlicingData&lt; TVec, N &gt;::get_type()</a>, <a class="el" href="classug_1_1_slicing_data.html#a915b2d8f333d5ee7d311832991745ba1">ug::SlicingData&lt; TVec, N &gt;::slice()</a>, and <a class="el" href="group__ugbase__common.html#ga77cdb11fde48a872846a4dfd3aa9f4d2">UG_DLOG</a>.</p>
+
+<p>Referenced by <a class="el" href="classug_1_1_slicing_data.html#a5fcd7986d960bf0836bd06734c6c65bd">ug::SlicingData&lt; TVec, N &gt;::reset_set_mappings()</a>.</p>
+
+</div>
+</div>
+<a id="aeb84f5372e960d206806b3705ade1e41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb84f5372e960d206806b3705ade1e41">&sect;&nbsp;</a></span>find_index()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TVec , size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classug_1_1_slicing_data.html">ug::SlicingData</a>&lt; TVec, N &gt;::find_index </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a>&#160;</td>
           <td class="paramname"><em>type</em>, </td>
         </tr>
         <tr>
@@ -300,17 +525,19 @@ Protected Attributes</h2></td></tr>
 
 <p>returns local index for a global index </p>
 
-<p>References <a class="el" href="classug_1_1_slicing_data.html#ae2a3eccfe93a37951d6c8db8fd467b03">slice()</a>, and <a class="el" href="group__ugbase__common.html#ga0b928ef153b78f1b5e025638cf28f841">UG_ASSERT</a>.</p>
+<p>References <a class="el" href="classug_1_1_slicing_data.html#a915b2d8f333d5ee7d311832991745ba1">ug::SlicingData&lt; TVec, N &gt;::slice()</a>, and <a class="el" href="group__ugbase__common.html#ga0b928ef153b78f1b5e025638cf28f841">UG_ASSERT</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_slicing_data.html#a3ad67ba81ac306d154e0720345888762">get_matrix()</a>, and <a class="el" href="classug_1_1_slicing_data.html#a09fcaa09455bb194672173affa0f15c3">replace_indices_in_layout()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_slicing_data.html#a98ed40b8bdb0f2cccb7e680c0580c258">ug::SlicingData&lt; TVec, N &gt;::get_matrix()</a>, and <a class="el" href="classug_1_1_slicing_data.html#a44a2f814f0a40202c4d7b77f68ea7402">ug::SlicingData&lt; TVec, N &gt;::replace_indices_in_layout()</a>.</p>
 
 </div>
 </div>
-<a id="a3ad67ba81ac306d154e0720345888762"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ad67ba81ac306d154e0720345888762">&sect;&nbsp;</a></span>get_matrix()</h2>
+<a id="a98ed40b8bdb0f2cccb7e680c0580c258"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98ed40b8bdb0f2cccb7e680c0580c258">&sect;&nbsp;</a></span>get_matrix()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class TVec , size_t N&gt; </div>
 <div class="memtemplate">
 template&lt;class MT &gt; </div>
 <table class="mlabels">
@@ -318,7 +545,7 @@ template&lt;class MT &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ug::SlicingData::get_matrix </td>
+          <td class="memname">void <a class="el" href="classug_1_1_slicing_data.html">ug::SlicingData</a>&lt; TVec, N &gt;::get_matrix </td>
           <td>(</td>
           <td class="paramtype">const MT &amp;&#160;</td>
           <td class="paramname"><em>A</em>, </td>
@@ -326,13 +553,13 @@ template&lt;class MT &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1e">slice_desc_type</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a>&#160;</td>
           <td class="paramname"><em>row_type</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1e">slice_desc_type</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a>&#160;</td>
           <td class="paramname"><em>col_type</em>, </td>
         </tr>
         <tr>
@@ -354,23 +581,25 @@ template&lt;class MT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classug_1_1_slicing_data.html#a0f3cad5edd03ed986c2befa9cbfff37a">find_index()</a>, <a class="el" href="classug_1_1_slicing_data.html#ae2a3eccfe93a37951d6c8db8fd467b03">slice()</a>, and <a class="el" href="group__ugbase__common.html#ga77cdb11fde48a872846a4dfd3aa9f4d2">UG_DLOG</a>.</p>
+<p>References <a class="el" href="classug_1_1_slicing_data.html#aeb84f5372e960d206806b3705ade1e41">ug::SlicingData&lt; TVec, N &gt;::find_index()</a>, <a class="el" href="classug_1_1_slicing_data.html#a915b2d8f333d5ee7d311832991745ba1">ug::SlicingData&lt; TVec, N &gt;::slice()</a>, and <a class="el" href="group__ugbase__common.html#ga77cdb11fde48a872846a4dfd3aa9f4d2">UG_DLOG</a>.</p>
 
 </div>
 </div>
-<a id="a3ea9acd3c9491d80c7237642167e1a36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ea9acd3c9491d80c7237642167e1a36">&sect;&nbsp;</a></span>get_num_elems()</h2>
+<a id="a5d3a7d8bb715b0e5cec58efec53d517c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d3a7d8bb715b0e5cec58efec53d517c">&sect;&nbsp;</a></span>get_num_elems()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class TVec , size_t N&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">size_t ug::SlicingData::get_num_elems </td>
+          <td class="memname">size_t <a class="el" href="classug_1_1_slicing_data.html">ug::SlicingData</a>&lt; TVec, N &gt;::get_num_elems </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1e">slice_desc_type</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a>&#160;</td>
           <td class="paramname"><em>type</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -382,23 +611,27 @@ template&lt;class MT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classug_1_1_slicing_data.html#ae2a3eccfe93a37951d6c8db8fd467b03">slice()</a>.</p>
+<p>Number of elements for each type. </p>
 
-<p>Referenced by <a class="el" href="classug_1_1_schur_complement_operator.html#ae397dd508921fe3008f4291a04794312">ug::SchurComplementOperator&lt; algebra_type &gt;::sub_size()</a>.</p>
+<p>References <a class="el" href="classug_1_1_slicing_data.html#a915b2d8f333d5ee7d311832991745ba1">ug::SlicingData&lt; TVec, N &gt;::slice()</a>.</p>
+
+<p>Referenced by <a class="el" href="classug_1_1_schur_complement_operator.html#ad672e2902ccb6df1f36edede8235af12">ug::SchurComplementOperator&lt; algebra_type &gt;::sub_size()</a>.</p>
 
 </div>
 </div>
-<a id="ad50bd561b3a4966ee86491c37de1bf95"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad50bd561b3a4966ee86491c37de1bf95">&sect;&nbsp;</a></span>get_slice_layouts()</h2>
+<a id="acf09d4be87bd67fca4d96347b9c11981"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf09d4be87bd67fca4d96347b9c11981">&sect;&nbsp;</a></span>get_slice_layouts()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class TVec , size_t N&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt;<a class="el" href="classug_1_1_algebra_layouts.html">AlgebraLayouts</a>&gt; ug::SlicingData::get_slice_layouts </td>
+          <td class="memname"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt;<a class="el" href="classug_1_1_algebra_layouts.html">AlgebraLayouts</a>&gt; <a class="el" href="classug_1_1_slicing_data.html">ug::SlicingData</a>&lt; TVec, N &gt;::get_slice_layouts </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_algebra_layouts.html">AlgebraLayouts</a> &gt;&#160;</td>
           <td class="paramname"><em>layouts</em>, </td>
@@ -406,7 +639,7 @@ template&lt;class MT &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1e">slice_desc_type</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a>&#160;</td>
           <td class="paramname"><em>type</em>&#160;</td>
         </tr>
         <tr>
@@ -422,25 +655,27 @@ template&lt;class MT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classug_1_1_slicing_data.html#a09fcaa09455bb194672173affa0f15c3">replace_indices_in_layout()</a>.</p>
+<p>References <a class="el" href="classug_1_1_slicing_data.html#a44a2f814f0a40202c4d7b77f68ea7402">ug::SlicingData&lt; TVec, N &gt;::replace_indices_in_layout()</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_slicing_data.html#a32a4c85b70116af91e6051bddd24685f">slice_clone_without_values()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_slicing_data.html#a139aba82fc8307229f87807fecec39dd">ug::SlicingData&lt; TVec, N &gt;::slice_clone_without_values()</a>.</p>
 
 </div>
 </div>
-<a id="a2b7d63a04d30720663ce77898266da81"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b7d63a04d30720663ce77898266da81">&sect;&nbsp;</a></span>get_type()</h2>
+<a id="a2a904129b1387c50484266573704d646"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a904129b1387c50484266573704d646">&sect;&nbsp;</a></span>get_type()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class TVec , size_t N&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1e">slice_desc_type</a> ug::SlicingData::get_type </td>
+          <td class="memname"><a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a> <a class="el" href="classug_1_1_slicing_data.html">ug::SlicingData</a>&lt; TVec, N &gt;::get_type </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>index</em></td><td>)</td>
           <td></td>
         </tr>
@@ -454,15 +689,17 @@ template&lt;class MT &gt; </div>
 
 <p>returns type for a global index </p>
 
-<p>Referenced by <a class="el" href="classug_1_1_slicing_data.html#a25c00c3622082ee9dde146ecb9eaddbd">auto_fill_sets()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_slicing_data.html#aeab999c1d2e70857bba786c713f814d2">ug::SlicingData&lt; TVec, N &gt;::clear_set_mappings()</a>, and <a class="el" href="classug_1_1_slicing_data.html#a1215a9216d639ef928a67f8c4ba941b3">ug::SlicingData&lt; TVec, N &gt;::fill_set_mappings()</a>.</p>
 
 </div>
 </div>
-<a id="a50568c1f2254f30cd9279621917118d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50568c1f2254f30cd9279621917118d0">&sect;&nbsp;</a></span>get_vector_slice()</h2>
+<a id="a4479870ac7c7f49ab939e7e608d5f431"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4479870ac7c7f49ab939e7e608d5f431">&sect;&nbsp;</a></span>get_vector_slice()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class TVec , size_t N&gt; </div>
 <div class="memtemplate">
 template&lt;class VT &gt; </div>
 <table class="mlabels">
@@ -470,7 +707,7 @@ template&lt;class VT &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ug::SlicingData::get_vector_slice </td>
+          <td class="memname">void <a class="el" href="classug_1_1_slicing_data.html">ug::SlicingData</a>&lt; TVec, N &gt;::get_vector_slice </td>
           <td>(</td>
           <td class="paramtype">const VT &amp;&#160;</td>
           <td class="paramname"><em>full_src</em>, </td>
@@ -478,7 +715,7 @@ template&lt;class VT &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1e">slice_desc_type</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a>&#160;</td>
           <td class="paramname"><em>desc</em>, </td>
         </tr>
         <tr>
@@ -502,25 +739,56 @@ template&lt;class VT &gt; </div>
 
 <p>copy: slice of vector -&gt; small vector </p>
 
-<p>References <a class="el" href="classug_1_1_slicing_data.html#ae2a3eccfe93a37951d6c8db8fd467b03">slice()</a>.</p>
+<p>References <a class="el" href="classug_1_1_slicing_data.html#a915b2d8f333d5ee7d311832991745ba1">ug::SlicingData&lt; TVec, N &gt;::slice()</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_schur_precond.html#a9f93e275af57c32c4412346ac0915d98">ug::SchurPrecond&lt; TAlgebra &gt;::step()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_slicing_data.html#ad7cadee3c10d6bc34a39e2695646f619">ug::SlicingData&lt; TVec, N &gt;::slice_clone()</a>, and <a class="el" href="classug_1_1_schur_precond.html#a9f93e275af57c32c4412346ac0915d98">ug::SchurPrecond&lt; TAlgebra &gt;::step()</a>.</p>
 
 </div>
 </div>
-<a id="a09fcaa09455bb194672173affa0f15c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09fcaa09455bb194672173affa0f15c3">&sect;&nbsp;</a></span>replace_indices_in_layout()</h2>
+<a id="a731db6a1cd2324345fec3f984aca73f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a731db6a1cd2324345fec3f984aca73f1">&sect;&nbsp;</a></span>is_valid()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class TVec , size_t N&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ug::SlicingData::replace_indices_in_layout </td>
+          <td class="memname">bool <a class="el" href="classug_1_1_slicing_data.html">ug::SlicingData</a>&lt; TVec, N &gt;::is_valid </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1e">slice_desc_type</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classug_1_1_slicing_data.html#a54ab810c42ff96dff4e5fcb3e6ae769e">ug::SlicingData&lt; TVec, N &gt;::m_valid</a>.</p>
+
+</div>
+</div>
+<a id="a44a2f814f0a40202c4d7b77f68ea7402"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44a2f814f0a40202c4d7b77f68ea7402">&sect;&nbsp;</a></span>replace_indices_in_layout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TVec , size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_slicing_data.html">ug::SlicingData</a>&lt; TVec, N &gt;::replace_indices_in_layout </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a>&#160;</td>
           <td class="paramname"><em>type</em>, </td>
         </tr>
         <tr>
@@ -542,27 +810,70 @@ template&lt;class VT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classpcl_1_1_ordered_interface.html#a8b90a445fb14789fb9b257123c39f7ea">pcl::OrderedInterface&lt; TType, TContainer, TAlloc &gt;::begin()</a>, <a class="el" href="classpcl_1_1_single_level_layout.html#a1ad0d030bdaa6c59bb7367db9ad8a806">pcl::SingleLevelLayout&lt; TInterface &gt;::begin()</a>, <a class="el" href="classpcl_1_1_ordered_interface.html#a4b82cef21a9e8490dec38c27776a7976">pcl::OrderedInterface&lt; TType, TContainer, TAlloc &gt;::end()</a>, <a class="el" href="classpcl_1_1_single_level_layout.html#a0575221758f8b725e20ac5dddfe2a529">pcl::SingleLevelLayout&lt; TInterface &gt;::end()</a>, <a class="el" href="classug_1_1_slicing_data.html#a0f3cad5edd03ed986c2befa9cbfff37a">find_index()</a>, <a class="el" href="classpcl_1_1_ordered_interface.html#abbeeb5588895dd0649681116c3900bbf">pcl::OrderedInterface&lt; TType, TContainer, TAlloc &gt;::get_element()</a>, <a class="el" href="classpcl_1_1_single_level_layout.html#a575ef41846816e10d079ec9b7940dacc">pcl::SingleLevelLayout&lt; TInterface &gt;::interface()</a>, and <a class="el" href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>.</p>
+<p>References <a class="el" href="classpcl_1_1_ordered_interface.html#a8b90a445fb14789fb9b257123c39f7ea">pcl::OrderedInterface&lt; TType, TContainer, TAlloc &gt;::begin()</a>, <a class="el" href="classpcl_1_1_single_level_layout.html#a1ad0d030bdaa6c59bb7367db9ad8a806">pcl::SingleLevelLayout&lt; TInterface &gt;::begin()</a>, <a class="el" href="classpcl_1_1_ordered_interface.html#a4b82cef21a9e8490dec38c27776a7976">pcl::OrderedInterface&lt; TType, TContainer, TAlloc &gt;::end()</a>, <a class="el" href="classpcl_1_1_single_level_layout.html#a0575221758f8b725e20ac5dddfe2a529">pcl::SingleLevelLayout&lt; TInterface &gt;::end()</a>, <a class="el" href="classug_1_1_slicing_data.html#aeb84f5372e960d206806b3705ade1e41">ug::SlicingData&lt; TVec, N &gt;::find_index()</a>, <a class="el" href="classpcl_1_1_ordered_interface.html#abbeeb5588895dd0649681116c3900bbf">pcl::OrderedInterface&lt; TType, TContainer, TAlloc &gt;::get_element()</a>, <a class="el" href="classpcl_1_1_single_level_layout.html#a575ef41846816e10d079ec9b7940dacc">pcl::SingleLevelLayout&lt; TInterface &gt;::interface()</a>, and <a class="el" href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_slicing_data.html#ad50bd561b3a4966ee86491c37de1bf95">get_slice_layouts()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_slicing_data.html#acf09d4be87bd67fca4d96347b9c11981">ug::SlicingData&lt; TVec, N &gt;::get_slice_layouts()</a>.</p>
 
 </div>
 </div>
-<a id="ab40df9bcdd56e004bbf70f4e989d4b4b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab40df9bcdd56e004bbf70f4e989d4b4b">&sect;&nbsp;</a></span>set_types()</h2>
+<a id="a5fcd7986d960bf0836bd06734c6c65bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fcd7986d960bf0836bd06734c6c65bd">&sect;&nbsp;</a></span>reset_set_mappings()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class TVec , size_t N&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ug::SlicingData::set_types </td>
+          <td class="memname">void <a class="el" href="classug_1_1_slicing_data.html">ug::SlicingData</a>&lt; TVec, N &gt;::reset_set_mappings </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classug_1_1_slicing_data.html#ae996cee643375195d38745a6fa383d8e">slice_desc_type_vector</a> &amp;&#160;</td>
-          <td class="paramname"><em>types</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classug_1_1_slicing_data.html#aeab999c1d2e70857bba786c713f814d2">ug::SlicingData&lt; TVec, N &gt;::clear_set_mappings()</a>, and <a class="el" href="classug_1_1_slicing_data.html#a1215a9216d639ef928a67f8c4ba941b3">ug::SlicingData&lt; TVec, N &gt;::fill_set_mappings()</a>.</p>
+
+<p>Referenced by <a class="el" href="classug_1_1_slicing_data.html#aece5bef77ad183212278cf5e66af09ec">ug::SlicingData&lt; TVec, N &gt;::set_types()</a>, and <a class="el" href="classug_1_1_slicing_data.html#a435e4088daf0b624bf02a8ab065c0644">ug::SlicingData&lt; TVec, N &gt;::SlicingData()</a>.</p>
+
+</div>
+</div>
+<a id="aece5bef77ad183212278cf5e66af09ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aece5bef77ad183212278cf5e66af09ec">&sect;&nbsp;</a></span>set_types()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TVec , size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_slicing_data.html">ug::SlicingData</a>&lt; TVec, N &gt;::set_types </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classug_1_1_slicing_data.html#a43fe6ef238257b35b620f4044b8a201f">slice_desc_type_vector</a> &amp;&#160;</td>
+          <td class="paramname"><em>types</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>bClear</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -574,13 +885,17 @@ template&lt;class VT &gt; </div>
 
 <p>copy types </p>
 
+<p>References <a class="el" href="classug_1_1_slicing_data.html#a5fcd7986d960bf0836bd06734c6c65bd">ug::SlicingData&lt; TVec, N &gt;::reset_set_mappings()</a>.</p>
+
 </div>
 </div>
-<a id="a1af54e4ab39a74b9f872818de97c7724"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1af54e4ab39a74b9f872818de97c7724">&sect;&nbsp;</a></span>set_vector_slice()</h2>
+<a id="a978429f165cae0a03003afe01240f481"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a978429f165cae0a03003afe01240f481">&sect;&nbsp;</a></span>set_vector_slice()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class TVec , size_t N&gt; </div>
 <div class="memtemplate">
 template&lt;class VT &gt; </div>
 <table class="mlabels">
@@ -588,7 +903,7 @@ template&lt;class VT &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ug::SlicingData::set_vector_slice </td>
+          <td class="memname">void <a class="el" href="classug_1_1_slicing_data.html">ug::SlicingData</a>&lt; TVec, N &gt;::set_vector_slice </td>
           <td>(</td>
           <td class="paramtype">const VT &amp;&#160;</td>
           <td class="paramname"><em>small_src</em>, </td>
@@ -602,7 +917,7 @@ template&lt;class VT &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1e">slice_desc_type</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a>&#160;</td>
           <td class="paramname"><em>desc</em>&#160;</td>
         </tr>
         <tr>
@@ -620,25 +935,27 @@ template&lt;class VT &gt; </div>
 
 <p>copy: small vector -&gt; slice of a vector </p>
 
-<p>References <a class="el" href="classug_1_1_slicing_data.html#ae2a3eccfe93a37951d6c8db8fd467b03">slice()</a>.</p>
+<p>References <a class="el" href="classug_1_1_slicing_data.html#a915b2d8f333d5ee7d311832991745ba1">ug::SlicingData&lt; TVec, N &gt;::slice()</a>.</p>
 
 <p>Referenced by <a class="el" href="classug_1_1_schur_precond.html#a9f93e275af57c32c4412346ac0915d98">ug::SchurPrecond&lt; TAlgebra &gt;::step()</a>.</p>
 
 </div>
 </div>
-<a id="ae2a3eccfe93a37951d6c8db8fd467b03"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2a3eccfe93a37951d6c8db8fd467b03">&sect;&nbsp;</a></span>slice() <span class="overload">[1/2]</span></h2>
+<a id="a915b2d8f333d5ee7d311832991745ba1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a915b2d8f333d5ee7d311832991745ba1">&sect;&nbsp;</a></span>slice() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class TVec , size_t N&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classug_1_1_slicing_data.html#acf129902d36f07c274d331639f242077">slice_desc_set</a>&amp; ug::SlicingData::slice </td>
+          <td class="memname">const <a class="el" href="classug_1_1_slicing_data.html#a531ee0216a93b3388717164ac69d5092">slice_desc_set</a>&amp; <a class="el" href="classug_1_1_slicing_data.html">ug::SlicingData</a>&lt; TVec, N &gt;::slice </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1e">slice_desc_type</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a>&#160;</td>
           <td class="paramname"><em>type</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -652,25 +969,25 @@ template&lt;class VT &gt; </div>
 
 <p>returns the set of global indices for a given type </p>
 
-<p>References <a class="el" href="classug_1_1_slicing_data.html#a6404721935166154690b5ad79f67044f">m_slice_set</a>.</p>
-
-<p>Referenced by <a class="el" href="classug_1_1_slicing_data.html#a25c00c3622082ee9dde146ecb9eaddbd">auto_fill_sets()</a>, <a class="el" href="classug_1_1_slicing_data.html#a0f3cad5edd03ed986c2befa9cbfff37a">find_index()</a>, <a class="el" href="classug_1_1_slicing_data.html#a3ad67ba81ac306d154e0720345888762">get_matrix()</a>, <a class="el" href="classug_1_1_slicing_data.html#a3ea9acd3c9491d80c7237642167e1a36">get_num_elems()</a>, <a class="el" href="classug_1_1_slicing_data.html#a50568c1f2254f30cd9279621917118d0">get_vector_slice()</a>, <a class="el" href="classug_1_1_slicing_data.html#a1af54e4ab39a74b9f872818de97c7724">set_vector_slice()</a>, <a class="el" href="classug_1_1_slicing_data.html#a32a4c85b70116af91e6051bddd24685f">slice_clone_without_values()</a>, and <a class="el" href="classug_1_1_slicing_data.html#abe72041a66a4bb75f837317be84bac66">subtract_vector_slice()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_slicing_data.html#a5f9e1a94ea9b5327eebd2f00fd80a44f">ug::SlicingData&lt; TVec, N &gt;::add_vector_slice()</a>, <a class="el" href="classug_1_1_slicing_data.html#aeab999c1d2e70857bba786c713f814d2">ug::SlicingData&lt; TVec, N &gt;::clear_set_mappings()</a>, <a class="el" href="classug_1_1_slicing_data.html#a1215a9216d639ef928a67f8c4ba941b3">ug::SlicingData&lt; TVec, N &gt;::fill_set_mappings()</a>, <a class="el" href="classug_1_1_slicing_data.html#aeb84f5372e960d206806b3705ade1e41">ug::SlicingData&lt; TVec, N &gt;::find_index()</a>, <a class="el" href="classug_1_1_slicing_data.html#a98ed40b8bdb0f2cccb7e680c0580c258">ug::SlicingData&lt; TVec, N &gt;::get_matrix()</a>, <a class="el" href="classug_1_1_slicing_data.html#a5d3a7d8bb715b0e5cec58efec53d517c">ug::SlicingData&lt; TVec, N &gt;::get_num_elems()</a>, <a class="el" href="classug_1_1_slicing_data.html#a4479870ac7c7f49ab939e7e608d5f431">ug::SlicingData&lt; TVec, N &gt;::get_vector_slice()</a>, <a class="el" href="classug_1_1_slicing_data.html#a978429f165cae0a03003afe01240f481">ug::SlicingData&lt; TVec, N &gt;::set_vector_slice()</a>, and <a class="el" href="classug_1_1_slicing_data.html#a139aba82fc8307229f87807fecec39dd">ug::SlicingData&lt; TVec, N &gt;::slice_clone_without_values()</a>.</p>
 
 </div>
 </div>
-<a id="add6c9fa4dace5c36df534200acb5d0b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add6c9fa4dace5c36df534200acb5d0b3">&sect;&nbsp;</a></span>slice() <span class="overload">[2/2]</span></h2>
+<a id="a7bff60673ce58610309e65e741c3f3dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bff60673ce58610309e65e741c3f3dd">&sect;&nbsp;</a></span>slice() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class TVec , size_t N&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classug_1_1_slicing_data.html#acf129902d36f07c274d331639f242077">slice_desc_set</a>&amp; ug::SlicingData::slice </td>
+          <td class="memname"><a class="el" href="classug_1_1_slicing_data.html#a531ee0216a93b3388717164ac69d5092">slice_desc_set</a>&amp; <a class="el" href="classug_1_1_slicing_data.html">ug::SlicingData</a>&lt; TVec, N &gt;::slice </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1e">slice_desc_type</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a>&#160;</td>
           <td class="paramname"><em>type</em></td><td>)</td>
           <td></td>
         </tr>
@@ -682,15 +999,15 @@ template&lt;class VT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classug_1_1_slicing_data.html#a6404721935166154690b5ad79f67044f">m_slice_set</a>.</p>
-
 </div>
 </div>
-<a id="a32a4c85b70116af91e6051bddd24685f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32a4c85b70116af91e6051bddd24685f">&sect;&nbsp;</a></span>slice_clone_without_values()</h2>
+<a id="ad7cadee3c10d6bc34a39e2695646f619"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7cadee3c10d6bc34a39e2695646f619">&sect;&nbsp;</a></span>slice_clone()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class TVec , size_t N&gt; </div>
 <div class="memtemplate">
 template&lt;class VT &gt; </div>
 <table class="mlabels">
@@ -698,7 +1015,7 @@ template&lt;class VT &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt;VT&gt; ug::SlicingData::slice_clone_without_values </td>
+          <td class="memname"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt;VT&gt; <a class="el" href="classug_1_1_slicing_data.html">ug::SlicingData</a>&lt; TVec, N &gt;::slice_clone </td>
           <td>(</td>
           <td class="paramtype">const VT &amp;&#160;</td>
           <td class="paramname"><em>full_src</em>, </td>
@@ -706,7 +1023,7 @@ template&lt;class VT &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1e">slice_desc_type</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a>&#160;</td>
           <td class="paramname"><em>type</em>&#160;</td>
         </tr>
         <tr>
@@ -722,17 +1039,19 @@ template&lt;class VT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classug_1_1_slicing_data.html#ad50bd561b3a4966ee86491c37de1bf95">get_slice_layouts()</a>, and <a class="el" href="classug_1_1_slicing_data.html#ae2a3eccfe93a37951d6c8db8fd467b03">slice()</a>.</p>
+<p>Create a (partial) clone. </p>
 
-<p>Referenced by <a class="el" href="classug_1_1_schur_precond.html#a31e2fd9b630cdb3d889cbed8cc990c70">ug::SchurPrecond&lt; TAlgebra &gt;::create_aux_vectors()</a>.</p>
+<p>References <a class="el" href="classug_1_1_slicing_data.html#a4479870ac7c7f49ab939e7e608d5f431">ug::SlicingData&lt; TVec, N &gt;::get_vector_slice()</a>, and <a class="el" href="classug_1_1_slicing_data.html#a139aba82fc8307229f87807fecec39dd">ug::SlicingData&lt; TVec, N &gt;::slice_clone_without_values()</a>.</p>
 
 </div>
 </div>
-<a id="abe72041a66a4bb75f837317be84bac66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe72041a66a4bb75f837317be84bac66">&sect;&nbsp;</a></span>subtract_vector_slice() <span class="overload">[1/2]</span></h2>
+<a id="a139aba82fc8307229f87807fecec39dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a139aba82fc8307229f87807fecec39dd">&sect;&nbsp;</a></span>slice_clone_without_values()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class TVec , size_t N&gt; </div>
 <div class="memtemplate">
 template&lt;class VT &gt; </div>
 <table class="mlabels">
@@ -740,7 +1059,7 @@ template&lt;class VT &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ug::SlicingData::subtract_vector_slice </td>
+          <td class="memname"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt;VT&gt; <a class="el" href="classug_1_1_slicing_data.html">ug::SlicingData</a>&lt; TVec, N &gt;::slice_clone_without_values </td>
           <td>(</td>
           <td class="paramtype">const VT &amp;&#160;</td>
           <td class="paramname"><em>full_src</em>, </td>
@@ -748,7 +1067,53 @@ template&lt;class VT &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1e">slice_desc_type</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a>&#160;</td>
+          <td class="paramname"><em>type</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a (partial) clone, without copying values. </p>
+
+<p>References <a class="el" href="classug_1_1_slicing_data.html#acf09d4be87bd67fca4d96347b9c11981">ug::SlicingData&lt; TVec, N &gt;::get_slice_layouts()</a>, and <a class="el" href="classug_1_1_slicing_data.html#a915b2d8f333d5ee7d311832991745ba1">ug::SlicingData&lt; TVec, N &gt;::slice()</a>.</p>
+
+<p>Referenced by <a class="el" href="classug_1_1_schur_precond.html#a31e2fd9b630cdb3d889cbed8cc990c70">ug::SchurPrecond&lt; TAlgebra &gt;::create_aux_vectors()</a>, and <a class="el" href="classug_1_1_slicing_data.html#ad7cadee3c10d6bc34a39e2695646f619">ug::SlicingData&lt; TVec, N &gt;::slice_clone()</a>.</p>
+
+</div>
+</div>
+<a id="acef70217e57833366f0589a85988a450"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acef70217e57833366f0589a85988a450">&sect;&nbsp;</a></span>subtract_vector_slice() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TVec , size_t N&gt; </div>
+<div class="memtemplate">
+template&lt;class VT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_slicing_data.html">ug::SlicingData</a>&lt; TVec, N &gt;::subtract_vector_slice </td>
+          <td>(</td>
+          <td class="paramtype">const VT &amp;&#160;</td>
+          <td class="paramname"><em>full_src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a>&#160;</td>
           <td class="paramname"><em>desc</em>, </td>
         </tr>
         <tr>
@@ -770,19 +1135,21 @@ template&lt;class VT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>copy: slice of vector -&gt; small vector </p>
+<p>substract: slice of vector -&gt; small vector </p>
 
-<p>References <a class="el" href="classug_1_1_slicing_data.html#ae2a3eccfe93a37951d6c8db8fd467b03">slice()</a>.</p>
+<p>References <a class="el" href="classug_1_1_slicing_data.html#a5f9e1a94ea9b5327eebd2f00fd80a44f">ug::SlicingData&lt; TVec, N &gt;::add_vector_slice()</a>.</p>
 
 <p>Referenced by <a class="el" href="classug_1_1_schur_precond.html#a9f93e275af57c32c4412346ac0915d98">ug::SchurPrecond&lt; TAlgebra &gt;::step()</a>.</p>
 
 </div>
 </div>
-<a id="aa45907c7829b52cc764eb203a8a22ad8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa45907c7829b52cc764eb203a8a22ad8">&sect;&nbsp;</a></span>subtract_vector_slice() <span class="overload">[2/2]</span></h2>
+<a id="a174aff41601a9c5ccad4a2f25bae79b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a174aff41601a9c5ccad4a2f25bae79b7">&sect;&nbsp;</a></span>subtract_vector_slice() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class TVec , size_t N&gt; </div>
 <div class="memtemplate">
 template&lt;class VT &gt; </div>
 <table class="mlabels">
@@ -790,7 +1157,7 @@ template&lt;class VT &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ug::SlicingData::subtract_vector_slice </td>
+          <td class="memname">void <a class="el" href="classug_1_1_slicing_data.html">ug::SlicingData</a>&lt; TVec, N &gt;::subtract_vector_slice </td>
           <td>(</td>
           <td class="paramtype">const VT &amp;&#160;</td>
           <td class="paramname"><em>small_src</em>, </td>
@@ -804,7 +1171,7 @@ template&lt;class VT &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1e">slice_desc_type</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_slicing_data.html#a8fd0eddb72867a4e03643adeddc93eb0">slice_desc_type</a>&#160;</td>
           <td class="paramname"><em>desc</em>&#160;</td>
         </tr>
         <tr>
@@ -820,24 +1187,26 @@ template&lt;class VT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>copy: small vector -&gt; slice of a vector </p>
+<p>substract: small vector -&gt; slice of a vector </p>
 
-<p>References <a class="el" href="classug_1_1_slicing_data.html#ae2a3eccfe93a37951d6c8db8fd467b03">slice()</a>.</p>
+<p>References <a class="el" href="classug_1_1_slicing_data.html#a5f9e1a94ea9b5327eebd2f00fd80a44f">ug::SlicingData&lt; TVec, N &gt;::add_vector_slice()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a6404721935166154690b5ad79f67044f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6404721935166154690b5ad79f67044f">&sect;&nbsp;</a></span>m_slice_set</h2>
+<a id="aa813c0932755c9abcb95946f16136b69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa813c0932755c9abcb95946f16136b69">&sect;&nbsp;</a></span>m_slice_set</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class TVec , size_t N&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classug_1_1_slicing_data.html#acf129902d36f07c274d331639f242077">slice_desc_set</a> ug::SlicingData::m_slice_set[(int) <a class="el" href="namespaceug.html#a61698f017264a5a16dedadc8ae7c4d1eaec42ad6b4faf97c7fe62caea54dac3cc">SLICE_DESC_SIZE</a>]</td>
+          <td class="memname"><a class="el" href="classug_1_1_slicing_data.html#a531ee0216a93b3388717164ac69d5092">slice_desc_set</a> <a class="el" href="classug_1_1_slicing_data.html">ug::SlicingData</a>&lt; TVec, N &gt;::m_slice_set[N]</td>
         </tr>
       </table>
   </td>
@@ -847,23 +1216,23 @@ template&lt;class VT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>mapping islice -&gt; iglobal </p>
-
-<p>Referenced by <a class="el" href="classug_1_1_slicing_data.html#ae2a3eccfe93a37951d6c8db8fd467b03">slice()</a>.</p>
+<p>N mappings: islice -&gt; iglobal. </p>
 
 </div>
 </div>
-<a id="a884bd90b8236d081e9830a9cba97b922"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a884bd90b8236d081e9830a9cba97b922">&sect;&nbsp;</a></span>m_slice_types</h2>
+<a id="a986b55ed209501cc63c64b06c3bf308e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a986b55ed209501cc63c64b06c3bf308e">&sect;&nbsp;</a></span>m_slice_types</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class TVec , size_t N&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classug_1_1_slicing_data.html#ae996cee643375195d38745a6fa383d8e">slice_desc_type_vector</a> ug::SlicingData::m_slice_types</td>
+          <td class="memname"><a class="el" href="classug_1_1_slicing_data.html#a43fe6ef238257b35b620f4044b8a201f">slice_desc_type_vector</a> <a class="el" href="classug_1_1_slicing_data.html">ug::SlicingData</a>&lt; TVec, N &gt;::m_slice_types</td>
         </tr>
       </table>
   </td>
@@ -872,11 +1241,37 @@ template&lt;class VT &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a54ab810c42ff96dff4e5fcb3e6ae769e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54ab810c42ff96dff4e5fcb3e6ae769e">&sect;&nbsp;</a></span>m_valid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TVec , size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classug_1_1_slicing_data.html">ug::SlicingData</a>&lt; TVec, N &gt;::m_valid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classug_1_1_slicing_data.html#a731db6a1cd2324345fec3f984aca73f1">ug::SlicingData&lt; TVec, N &gt;::is_valid()</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>ugbase/lib_algebra/operator/preconditioner/schur/<a class="el" href="slicing_8h_source.html">slicing.h</a></li>
+<li>ugbase/lib_algebra/adapter/<a class="el" href="slicing_8h_source.html">slicing.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -884,7 +1279,7 @@ template&lt;class VT &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_slicing_data.html">SlicingData</a></li>
-    <li class="footer">Generated on Thu Mar 30 2017 18:44:45 for ug4 by
+    <li class="footer">Generated on Mon Jul 24 2017 16:04:46 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

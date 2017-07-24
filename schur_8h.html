@@ -88,15 +88,16 @@ $(document).ready(function(){initNavTree('schur_8h.html','');});
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a>  </div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle">
 <div class="title">schur.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="profiler_8h_source.html">common/profiler/profiler.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="log_8h_source.html">common/log.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="schur__complement__operator_8h_source.html">schur_complement_operator.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="schur__precond_8h_source.html">schur_precond.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="slicing_8h_source.html">lib_algebra/adapter/slicing.h</a>&quot;</code><br />
 </div>
 <p><a href="schur_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -116,6 +117,21 @@ Macros</h2></td></tr>
 <tr class="separator:aeb4e2866b3463a8cf9e7a79fae1d80ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab73e2cf3b8e89ce1834cbb711cbb0519"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schur_8h.html#ab73e2cf3b8e89ce1834cbb711cbb0519">SCHUR_PROFILE_FUNC</a>()&#160;&#160;&#160;<a class="el" href="profiler_8h.html#a3766fe91615588782ad5452a4d60ea5b">PROFILE_FUNC_GROUP</a>(&quot;algebra schur&quot;)</td></tr>
 <tr class="separator:ab73e2cf3b8e89ce1834cbb711cbb0519"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:aaf5ba92ab325b200b3746f0cff288ac9"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; schur_slice_desc_type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#aaf5ba92ab325b200b3746f0cff288ac9">ug::SchurSliceDescVector</a></td></tr>
+<tr class="separator:aaf5ba92ab325b200b3746f0cff288ac9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adeecddfdc7a8998959f9b98b6f433480"><td class="memItemLeft" align="right" valign="top">typedef SlicingData&lt; SchurSliceDescVector, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#adeecddfdc7a8998959f9b98b6f433480">ug::SchurSlicingData</a></td></tr>
+<tr class="separator:adeecddfdc7a8998959f9b98b6f433480"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a53bc1b6a198b441e6b26a5d748ef5261"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a53bc1b6a198b441e6b26a5d748ef5261">ug::schur_slice_desc_type</a> { <a class="el" href="namespaceug.html#a53bc1b6a198b441e6b26a5d748ef5261ae374d76c94587b39df5d8bc164c3f3e3">ug::SD_INNER</a> =0, 
+<a class="el" href="namespaceug.html#a53bc1b6a198b441e6b26a5d748ef5261a63988d8bf3f292bc8dbc4e4b3250b7bf">ug::SD_SKELETON</a>, 
+<a class="el" href="namespaceug.html#a53bc1b6a198b441e6b26a5d748ef5261aec42ad6b4faf97c7fe62caea54dac3cc">ug::SLICE_DESC_SIZE</a>
+ }</td></tr>
+<tr class="separator:a53bc1b6a198b441e6b26a5d748ef5261"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a2f14fdb7af7ce9df15274d9c9edef732"></a>
@@ -148,7 +164,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classug_1_1_schur_complement_operator.html#a3e064fd40da6250d77ccca6a44cb8e33">ug::SchurComplementOperator&lt; algebra_type &gt;::apply()</a>, <a class="el" href="classug_1_1_schur_complement_operator.html#a41415d690ba28f7522c3fe5e0ccf83cc">ug::SchurComplementOperator&lt; algebra_type &gt;::apply_sub()</a>, <a class="el" href="classug_1_1_schur_complement_operator.html#a3b9624d5b87dd0c598594db6749a3a9c">ug::SchurComplementOperator&lt; algebra_type &gt;::compute_matrix()</a>, <a class="el" href="classug_1_1_schur_precond.html#a66305c7c297f9e462499eab58c9ba6d3">ug::SchurPrecond&lt; TAlgebra &gt;::create_and_init_local_schur_complement()</a>, <a class="el" href="classug_1_1_schur_complement_operator.html#a4413c8a039f1c17cbd1cf1ae243c36ac">ug::SchurComplementOperator&lt; algebra_type &gt;::debug_compute_matrix()</a>, <a class="el" href="classug_1_1_schur_complement_operator.html#a66a98b234faea5ccbe60b880a77cbccc">ug::SchurComplementOperator&lt; algebra_type &gt;::init()</a>, <a class="el" href="classug_1_1_schur_precond.html#acd21a4f91dfa59666e5b782a4302ba68">ug::SchurPrecond&lt; TAlgebra &gt;::init_skeleton_solver()</a>, <a class="el" href="classug_1_1_schur_precond.html#a50cba24c34c6bc9d0696a0134d98ca6d">ug::SchurPrecond&lt; TAlgebra &gt;::schur_solve_skeleton()</a>, <a class="el" href="classug_1_1_schur_precond.html#a72dd019ac43d13acb1c1d1412585ac8a">ug::SchurPrecond&lt; TAlgebra &gt;::schur_solver_backward()</a>, and <a class="el" href="classug_1_1_schur_precond.html#a81808b1a7cbbfc9447c1ecc4062756b9">ug::SchurPrecond&lt; TAlgebra &gt;::schur_solver_forward()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_schur_complement_operator.html#a3e064fd40da6250d77ccca6a44cb8e33">ug::SchurComplementOperator&lt; algebra_type &gt;::apply()</a>, <a class="el" href="classug_1_1_schur_complement_operator.html#a41415d690ba28f7522c3fe5e0ccf83cc">ug::SchurComplementOperator&lt; algebra_type &gt;::apply_sub()</a>, <a class="el" href="classug_1_1_schur_complement_operator.html#a3b9624d5b87dd0c598594db6749a3a9c">ug::SchurComplementOperator&lt; algebra_type &gt;::compute_matrix()</a>, <a class="el" href="classug_1_1_schur_precond.html#a8ae32767e3dea255990769096f452e24">ug::SchurPrecond&lt; TAlgebra &gt;::create_and_init_local_schur_complement()</a>, <a class="el" href="classug_1_1_schur_complement_operator.html#a4413c8a039f1c17cbd1cf1ae243c36ac">ug::SchurComplementOperator&lt; algebra_type &gt;::debug_compute_matrix()</a>, <a class="el" href="classug_1_1_schur_complement_operator.html#a66a98b234faea5ccbe60b880a77cbccc">ug::SchurComplementOperator&lt; algebra_type &gt;::init()</a>, <a class="el" href="classug_1_1_schur_precond.html#acd21a4f91dfa59666e5b782a4302ba68">ug::SchurPrecond&lt; TAlgebra &gt;::init_skeleton_solver()</a>, <a class="el" href="classug_1_1_schur_precond.html#a50cba24c34c6bc9d0696a0134d98ca6d">ug::SchurPrecond&lt; TAlgebra &gt;::schur_solve_skeleton()</a>, <a class="el" href="classug_1_1_schur_precond.html#a72dd019ac43d13acb1c1d1412585ac8a">ug::SchurPrecond&lt; TAlgebra &gt;::schur_solver_backward()</a>, and <a class="el" href="classug_1_1_schur_precond.html#a81808b1a7cbbfc9447c1ecc4062756b9">ug::SchurPrecond&lt; TAlgebra &gt;::schur_solver_forward()</a>.</p>
 
 </div>
 </div>
@@ -193,7 +209,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_2e5eee3e6a2607df2611cb3dc665a6d5.html">lib_algebra</a></li><li class="navelem"><a class="el" href="dir_3ec088f778c44889f52dc602c90557d0.html">operator</a></li><li class="navelem"><a class="el" href="dir_c2d333845e6946e4fd2314fd90d8b690.html">preconditioner</a></li><li class="navelem"><a class="el" href="dir_378b60199675b26bd6511c9706c34b8c.html">schur</a></li><li class="navelem"><a class="el" href="schur_8h.html">schur.h</a></li>
-    <li class="footer">Generated on Thu Mar 30 2017 18:44:10 for ug4 by
+    <li class="footer">Generated on Mon Jul 24 2017 16:04:11 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>
