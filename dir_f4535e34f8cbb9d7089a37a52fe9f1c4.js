@@ -7,6 +7,9 @@ var dir_f4535e34f8cbb9d7089a37a52fe9f1c4 =
     [ "pinvit.h", "pinvit_8h.html", [
       [ "PINVIT", "classug_1_1_p_i_n_v_i_t.html", "classug_1_1_p_i_n_v_i_t" ]
     ] ],
+    [ "power_method.h", "power__method_8h.html", [
+      [ "PowerMethod", "classug_1_1_power_method.html", "classug_1_1_power_method" ]
+    ] ],
     [ "smart_ptr_vector.h", "smart__ptr__vector_8h.html", [
       [ "SmartPtrVector", "classug_1_1_smart_ptr_vector.html", "classug_1_1_smart_ptr_vector" ]
     ] ]

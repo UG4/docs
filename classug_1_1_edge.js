@@ -9,6 +9,7 @@ var classug_1_1_edge =
     [ "base_object_id", "classug_1_1_edge.html#aaa5f58ad118758fb850ea0f382ba369e", null ],
     [ "container_section", "classug_1_1_edge.html#a39f1f7365bf0fe89bd754bd7f011b81f", null ],
     [ "get_opposing_side", "classug_1_1_edge.html#a0b314f83d6bb755de2df9e41c632648c", null ],
+    [ "get_opposing_side", "classug_1_1_edge.html#a5937f39fdf795fc82d8fbdeed1bc411e", null ],
     [ "num_sides", "classug_1_1_edge.html#af1cd7492f8588d869456bf7620857975", null ],
     [ "reference_object_id", "classug_1_1_edge.html#a017261892866c37ac7132ef224a029f3", null ],
     [ "refine", "classug_1_1_edge.html#ab3853826b84c175bce3e4ac576f8789c", null ],

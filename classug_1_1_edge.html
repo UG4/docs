@@ -145,6 +145,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0b314f83d6bb755de2df9e41c632648c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_edge.html#a0b314f83d6bb755de2df9e41c632648c">get_opposing_side</a> (<a class="el" href="classug_1_1_vertex.html">Vertex</a> *v, <a class="el" href="classug_1_1_vertex.html">Vertex</a> **vrtOut)</td></tr>
 <tr class="memdesc:a0b314f83d6bb755de2df9e41c632648c"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieves the vertex on the opposing side to the specified one.  <a href="#a0b314f83d6bb755de2df9e41c632648c">More...</a><br /></td></tr>
 <tr class="separator:a0b314f83d6bb755de2df9e41c632648c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5937f39fdf795fc82d8fbdeed1bc411e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_edge.html#a5937f39fdf795fc82d8fbdeed1bc411e">get_opposing_side</a> (<a class="el" href="classug_1_1_vertex.html">Vertex</a> *v, <a class="el" href="classug_1_1_vertex_descriptor.html">VertexDescriptor</a> &amp;vrtOut)</td></tr>
+<tr class="separator:a5937f39fdf795fc82d8fbdeed1bc411e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1cd7492f8588d869456bf7620857975"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#ga91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_edge.html#af1cd7492f8588d869456bf7620857975">num_sides</a> () const</td></tr>
 <tr class="separator:af1cd7492f8588d869456bf7620857975"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a017261892866c37ac7132ef224a029f3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceug.html#a1f0e19a0ec74b2ebb64238aeb498c51b">ReferenceObjectID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_edge.html#a017261892866c37ac7132ef224a029f3">reference_object_id</a> () const</td></tr>
@@ -409,7 +411,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a0b314f83d6bb755de2df9e41c632648c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b314f83d6bb755de2df9e41c632648c">&sect;&nbsp;</a></span>get_opposing_side()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b314f83d6bb755de2df9e41c632648c">&sect;&nbsp;</a></span>get_opposing_side() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -439,7 +441,35 @@ Additional Inherited Members</h2></td></tr>
 
 <p>References <a class="el" href="classug_1_1_edge_vertices.html#ac6a35e8542dfc3aa1bb0ff00da57a987">ug::EdgeVertices::m_vertices</a>.</p>
 
-<p>Referenced by <a class="el" href="namespaceug.html#a46f32e73ec72cb837aec394430d26dbc">ug::GetOpposingSide()</a>.</p>
+<p>Referenced by <a class="el" href="namespaceug.html#ac5323eac9116ed9ed6276fb5d88f9445">ug::CalculateSmoothManifoldPosInParentLevelButterflyScheme3d()</a>, and <a class="el" href="namespaceug.html#a46f32e73ec72cb837aec394430d26dbc">ug::GetOpposingSide()</a>.</p>
+
+</div>
+</div>
+<a id="a5937f39fdf795fc82d8fbdeed1bc411e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5937f39fdf795fc82d8fbdeed1bc411e">&sect;&nbsp;</a></span>get_opposing_side() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ug::Edge::get_opposing_side </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_vertex.html">Vertex</a> *&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classug_1_1_vertex_descriptor.html">VertexDescriptor</a> &amp;&#160;</td>
+          <td class="paramname"><em>vrtOut</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -760,7 +790,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_edge.html">Edge</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:22 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:09:00 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

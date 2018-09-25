@@ -1,0 +1,8 @@
+var classug_1_1_electromagnetism_1_1_nedelec_prolongation_matrix_helper_3_01_t_domain_00_01_t_algebra_00_01_regular_edge_01_4 =
+[
+    [ "algebra_type", "classug_1_1_electromagnetism_1_1_nedelec_prolongation_matrix_helper_3_01_t_domain_00_01_t_algebra_00_01_regular_edge_01_4.html#a755aee2dba0e554ea8b75179c2f45b9e", null ],
+    [ "domain_type", "classug_1_1_electromagnetism_1_1_nedelec_prolongation_matrix_helper_3_01_t_domain_00_01_t_algebra_00_01_regular_edge_01_4.html#a5b931e0e849852a535c72c885c690c65", null ],
+    [ "matrix_type", "classug_1_1_electromagnetism_1_1_nedelec_prolongation_matrix_helper_3_01_t_domain_00_01_t_algebra_00_01_regular_edge_01_4.html#a0ddb0f5564027c2a231e2f8f431af26a", null ],
+    [ "assemble_prolongation_matrix", "classug_1_1_electromagnetism_1_1_nedelec_prolongation_matrix_helper_3_01_t_domain_00_01_t_algebra_00_01_regular_edge_01_4.html#a4d1fe96e5752f4148277cfb57092c93a", null ],
+    [ "WDim", "classug_1_1_electromagnetism_1_1_nedelec_prolongation_matrix_helper_3_01_t_domain_00_01_t_algebra_00_01_regular_edge_01_4.html#a37df9fbefc738b3d0bd67221b05c762c", null ]
+];

@@ -1,0 +1,27 @@
+var classug4_bridge_1_1_discretization_1_1_nested_iteration_solver =
+[
+    [ "NestedIterationSolver", "classug4_bridge_1_1_discretization_1_1_nested_iteration_solver.html#aa6ff914a99dfa57a09ec4728f0af4c53", null ],
+    [ "NestedIterationSolver", "classug4_bridge_1_1_discretization_1_1_nested_iteration_solver.html#a0e03fda2cd4368e1599b28fcdd3d1171", null ],
+    [ "NestedIterationSolver", "classug4_bridge_1_1_discretization_1_1_nested_iteration_solver.html#a7ceebf5db782f5e7fda86e8457a5bd1a", null ],
+    [ "NestedIterationSolver", "classug4_bridge_1_1_discretization_1_1_nested_iteration_solver.html#afcf4d90ddc0fbf214386f245f75271cd", null ],
+    [ "apply", "classug4_bridge_1_1_discretization_1_1_nested_iteration_solver.html#abcbaef2beeac9ceefd3bafa3d8672fda", null ],
+    [ "base_level", "classug4_bridge_1_1_discretization_1_1_nested_iteration_solver.html#a026e44deb8790bce67b9730de476add4", null ],
+    [ "config_string", "classug4_bridge_1_1_discretization_1_1_nested_iteration_solver.html#abb473d7b54bd75e82bd6a87cdfbea5c3", null ],
+    [ "disable_adaptive_refinement", "classug4_bridge_1_1_discretization_1_1_nested_iteration_solver.html#a23dae5de8849e4460a0fa785851c5adb", null ],
+    [ "enable_adaptive_refinement", "classug4_bridge_1_1_discretization_1_1_nested_iteration_solver.html#ac0d0fa9c9670ee3cbd01beba42bb97ce", null ],
+    [ "init", "classug4_bridge_1_1_discretization_1_1_nested_iteration_solver.html#a9f590539ad7bd04ff8097ece49103684", null ],
+    [ "last_error", "classug4_bridge_1_1_discretization_1_1_nested_iteration_solver.html#a4a874d10635926ce611a8c4ac89b22da", null ],
+    [ "prepare", "classug4_bridge_1_1_discretization_1_1_nested_iteration_solver.html#a1707d6fc47f797d03d120b92e1a78785", null ],
+    [ "set_absolute_tolerance", "classug4_bridge_1_1_discretization_1_1_nested_iteration_solver.html#ac99061c9f755691ba4364d7620090c98", null ],
+    [ "set_associated_space", "classug4_bridge_1_1_discretization_1_1_nested_iteration_solver.html#af582e6ff5ecaf42d487f19f265f8c876", null ],
+    [ "set_base_level", "classug4_bridge_1_1_discretization_1_1_nested_iteration_solver.html#ac73c1787eb1ba592bf78bc72691cdce6", null ],
+    [ "set_debug_elem_error", "classug4_bridge_1_1_discretization_1_1_nested_iteration_solver.html#a07e5de9985eae651ca504aca4cce6353", null ],
+    [ "set_linear_solver", "classug4_bridge_1_1_discretization_1_1_nested_iteration_solver.html#a3bf9e7c241086cde4e6042c4bcdc747a", null ],
+    [ "set_max_steps", "classug4_bridge_1_1_discretization_1_1_nested_iteration_solver.html#a6ca2a6595518f6c91bd4820c34643fb3", null ],
+    [ "set_refinement_marking", "classug4_bridge_1_1_discretization_1_1_nested_iteration_solver.html#ad126a7319f4fb685b255c9ef62d4b6e6", null ],
+    [ "set_refiner", "classug4_bridge_1_1_discretization_1_1_nested_iteration_solver.html#a6758e4a6455257f6031bdd73e85696eb", null ],
+    [ "set_tolerance", "classug4_bridge_1_1_discretization_1_1_nested_iteration_solver.html#a8d8412d256c3b568c18c1b7a8acc6491", null ],
+    [ "set_top_level", "classug4_bridge_1_1_discretization_1_1_nested_iteration_solver.html#a51333cb4d8e48d05d86c3b34f94d261c", null ],
+    [ "top_level", "classug4_bridge_1_1_discretization_1_1_nested_iteration_solver.html#a2b2340266beb36cdd3b7229366853b25", null ],
+    [ "use_adaptive_refinement", "classug4_bridge_1_1_discretization_1_1_nested_iteration_solver.html#ae9098881a418e5fabe5286b7032d5edc", null ]
+];

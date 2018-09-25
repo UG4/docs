@@ -11,9 +11,14 @@ var dir_806e472b0b1c0adc459f6ac1c438e5fb =
     [ "consistency_check.h", "consistency__check_8h.html", "consistency__check_8h" ],
     [ "global_layout.cpp", "global__layout_8cpp.html", "global__layout_8cpp" ],
     [ "global_layout.h", "global__layout_8h.html", "global__layout_8h" ],
+    [ "matrix_overlap.h", "matrix__overlap_8h.html", "matrix__overlap_8h" ],
+    [ "matrix_overlap_impl.h", "matrix__overlap__impl_8h.html", "matrix__overlap__impl_8h" ],
     [ "new_layout_creator.h", "new__layout__creator_8h.html", [
       [ "NewLayoutCreator", "classug_1_1_new_layout_creator.html", "classug_1_1_new_layout_creator" ],
       [ "NewSlaveNotification", "structug_1_1_new_layout_creator_1_1_new_slave_notification.html", "structug_1_1_new_layout_creator_1_1_new_slave_notification" ]
+    ] ],
+    [ "overlap_writer.h", "overlap__writer_8h.html", [
+      [ "OverlapWriter", "classug_1_1_overlap_writer.html", "classug_1_1_overlap_writer" ]
     ] ],
     [ "parallel_coloring.cpp", "parallel__coloring_8cpp.html", "parallel__coloring_8cpp" ],
     [ "parallel_coloring.h", "parallel__coloring_8h.html", "parallel__coloring_8h" ],
@@ -29,7 +34,7 @@ var dir_806e472b0b1c0adc459f6ac1c438e5fb =
     [ "parallel_storage_type.h", "parallel__storage__type_8h.html", "parallel__storage__type_8h" ],
     [ "parallel_vector.h", "parallel__vector_8h.html", null ],
     [ "parallel_vector_impl.h", "parallel__vector__impl_8h.html", "parallel__vector__impl_8h" ],
-    [ "parallelization.h", "lib__algebra_2parallelization_2parallelization_8h.html", null ],
+    [ "parallelization.h", "parallelization_8h.html", null ],
     [ "parallelization_util.cpp", "lib__algebra_2parallelization_2parallelization__util_8cpp.html", "lib__algebra_2parallelization_2parallelization__util_8cpp" ],
     [ "parallelization_util.h", "lib__algebra_2parallelization_2parallelization__util_8h.html", "lib__algebra_2parallelization_2parallelization__util_8h" ],
     [ "parallelization_util_impl.h", "parallelization__util__impl_8h.html", "parallelization__util__impl_8h" ],

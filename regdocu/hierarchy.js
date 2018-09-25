@@ -1,6 +1,6 @@
 var hierarchy =
 [
-    [ "ActiveSet", "classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_active_set.html", null ],
+    [ "ActiveSet", "classug4_bridge_1_1_active_set.html", null ],
     [ "AInt", "classug4_bridge_1_1_a_int.html", null ],
     [ "AlgebraType", "classug4_bridge_1_1_init_1_1_algebra_type.html", null ],
     [ "ANumber", "classug4_bridge_1_1_a_number.html", null ],
@@ -29,6 +29,7 @@ var hierarchy =
     [ "CondCplUserVector", null, [
       [ "LuaCondUserVector", "classug4_bridge_1_1_lua_cond_user_vector.html", null ]
     ] ],
+    [ "ConstantBoxFilter", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_constant_box_filter.html", null ],
     [ "CplUserMatrix", null, [
       [ "LuaUserMatrix", "classug4_bridge_1_1_lua_user_matrix.html", null ]
     ] ],
@@ -38,14 +39,19 @@ var hierarchy =
       [ "GlobalGridFunctionNumberData", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_global_grid_function_number_data.html", null ],
       [ "GridFunctionGradientComponentData", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function_gradient_component_data.html", null ],
       [ "GridFunctionNumberData", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function_number_data.html", null ],
-      [ "LuaUserNumber", "classug4_bridge_1_1_lua_user_number.html", null ]
+      [ "LuaUserNumber", "classug4_bridge_1_1_lua_user_number.html", null ],
+      [ "CRDynamicTurbViscData", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia92b94405411f39ccc25a8d1953458a1f.html", null ],
+      [ "CRSmagorinskyTurbViscData", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia771344b62df390e35c5ff1252fc01c72.html", null ],
+      [ "FV1DynamicTurbViscData", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatiafb890af02d508658497eb89d6ce11a85.html", null ],
+      [ "FV1SmagorinskyTurbViscData", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia9d44ea5cf8740019bbc4bbd62212cf99.html", null ]
     ] ],
     [ "CplUserVector", null, [
       [ "ExplicitGridFunctionGradient", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_explicit_grid_function_gradient.html", null ],
       [ "GlobalGridFunctionGradientData", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_global_grid_function_gradient_data.html", null ],
       [ "GridFunctionGradientData", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function_gradient_data.html", null ],
       [ "GridFunctionVectorData", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function_vector_data.html", null ],
-      [ "LuaUserVector", "classug4_bridge_1_1_lua_user_vector.html", null ]
+      [ "LuaUserVector", "classug4_bridge_1_1_lua_user_vector.html", null ],
+      [ "SeparatedPressureSource", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia15babc3bd9b07f86c7390ded952d6dd1.html", null ]
     ] ],
     [ "CuckooClock", "classug4_bridge_1_1_util_1_1_cuckoo_clock.html", null ],
     [ "DegeneratedLayerManager", "classug4_bridge_1_1_grid_1_1_degenerated_layer_manager.html", null ],
@@ -66,6 +72,8 @@ var hierarchy =
     [ "DomainInfo", "classug4_bridge_1_1_domain_1_1_domain_info.html", null ],
     [ "DomainRayTracer", "classug4_bridge_1_1_ray_tracing_1_1_domain_ray_tracer.html", null ],
     [ "EdgeIterator", "classug4_bridge_1_1promesh_1_1_edge_iterator.html", null ],
+    [ "ElementBoxFilter", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_element_box_filter.html", null ],
+    [ "EMaterial", "classug4_bridge_1_1_spatial_disc_1_1_electromagnetism_1_1_e_material.html", null ],
     [ "ErrEstData", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_err_est_data.html", [
       [ "MultipleSideAndElemErrEstData", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_multiple_side_and_elem_err_est_data.html", null ],
       [ "SideAndElemErrEstData", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_side_and_elem_err_est_data.html", null ],
@@ -75,6 +83,8 @@ var hierarchy =
     [ "FractureInfoVec", "classug4_bridge_1_1_grid_1_1_fracture_info_vec.html", [
       [ "ExpandLayersDesc", "classug4_bridge_1_1_grid_1_1_expand_layers_desc.html", null ]
     ] ],
+    [ "FV1BoxFilter", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_f_v1_box_filter.html", null ],
+    [ "FVCRBoxFilter", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_f_v_c_r_box_filter.html", null ],
     [ "GaussSeidelBase", null, [
       [ "IProjGaussSeidel", "classug4_bridge_1_1_algebra_1_1_obstacle_1_1_i_proj_gauss_seidel.html", [
         [ "ProjBackwardGaussSeidel", "classug4_bridge_1_1_algebra_1_1_obstacle_1_1_proj_backward_gauss_seidel.html", null ],
@@ -102,6 +112,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "IAssemble", null, [
+      [ "CompositeTimeDiscretization", "classug4_bridge_1_1_discretization_1_1_time_disc_1_1_composite_time_discretization.html", null ],
       [ "ITimeDiscretization", "classug4_bridge_1_1_discretization_1_1_time_disc_1_1_i_time_discretization.html", [
         [ "MultiStepTimeDiscretization", "classug4_bridge_1_1_discretization_1_1_time_disc_1_1_multi_step_time_discretization.html", [
           [ "BDF", "classug4_bridge_1_1_discretization_1_1_time_disc_1_1_b_d_f.html", null ],
@@ -111,9 +122,11 @@ var hierarchy =
       ] ]
     ] ],
     [ "IBalanceWeights", "classug4_bridge_1_1_load_balancing_1_1_i_balance_weights.html", [
+      [ "AnisotropicBalanceWeights", "classug4_bridge_1_1_load_balancing_1_1_anisotropic_balance_weights.html", null ],
       [ "BalanceWeightsLuaCallback", "classug4_bridge_1_1_load_balancing_1_1_balance_weights_lua_callback.html", null ],
       [ "BalanceWeightsRefMarks", "classug4_bridge_1_1_load_balancing_1_1_balance_weights_ref_marks.html", null ]
     ] ],
+    [ "ICommunicationWeights", "classug4_bridge_1_1_load_balancing_1_1_i_communication_weights.html", null ],
     [ "IConstraint", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_i_constraint.html", [
       [ "IDomainConstraint", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_i_domain_constraint.html", [
         [ "DirichletBoundary", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_dirichlet_boundary.html", null ],
@@ -141,6 +154,15 @@ var hierarchy =
     [ "IDebugWriter", null, [
       [ "GridFunctionDebugWriter", "classug4_bridge_1_1_discretization_1_1_output_1_1_grid_function_debug_writer.html", null ]
     ] ],
+    [ "IDiscretizationItem", null, [
+      [ "NavierStokesInflowBase", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_navier_stokes_inflow_base.html", [
+        [ "NavierStokesInflowFE", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatiad4ceb443033274b5d163ab122847c448.html", null ],
+        [ "NavierStokesInflowFV", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia4814db4b68776e98f278fb965066362e.html", null ],
+        [ "NavierStokesInflowFV1", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia0f88439d12025ab7887513548d9293ca.html", null ],
+        [ "NavierStokesInflowFVCR", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatiac379e295246677375dfde32f54fdd49b.html", null ]
+      ] ],
+      [ "NavierStokesWall", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_navier_stokes_wall.html", null ]
+    ] ],
     [ "IDiscretizationItem", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_i_discretization_item.html", null ],
     [ "IDomain", "classug4_bridge_1_1_domain_1_1_i_domain.html", [
       [ "Domain", "classug4_bridge_1_1_domain_1_1_domain.html", null ]
@@ -150,18 +172,42 @@ var hierarchy =
         [ "ObstacleInNormalDir", "classug4_bridge_1_1_algebra_1_1_obstacle_1_1_obstacle_in_normal_dir.html", null ],
         [ "ScalarLowerObstacle", "classug4_bridge_1_1_algebra_1_1_obstacle_1_1_scalar_lower_obstacle.html", null ],
         [ "ScalarUpperObstacle", "classug4_bridge_1_1_algebra_1_1_obstacle_1_1_scalar_upper_obstacle.html", null ]
-      ] ]
+      ] ],
+      [ "EMDirichlet", "classug4_bridge_1_1_spatial_disc_1_1_electromagnetism_1_1_e_m_dirichlet.html", [
+        [ "NedelecDirichletBC", "classug4_bridge_1_1_spatial_disc_1_1_electromagnetism_1_1_nedelec_dirichlet_b_c.html", null ]
+      ] ],
+      [ "DiscConstraintFVCR", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia4afde65ce40249a845031bcce1980ecb.html", null ]
     ] ],
     [ "IDomainDecompositionInfo", "classug4_bridge_1_1_discretization_1_1_i_domain_decomposition_info.html", [
       [ "StandardDomainDecompositionInfo", "classug4_bridge_1_1_discretization_1_1_standard_domain_decomposition_info.html", null ]
     ] ],
-    [ "IDualGraphNeighborCollector", "classug4_bridge_1_1_grid_1_1_i_dual_graph_neighbor_collector.html", null ],
     [ "IElemDisc", null, [
+      [ "EddyCurrent_E_Nedelec", "classug4_bridge_1_1_spatial_disc_1_1_electromagnetism_1_1_eddy_current___e___nedelec.html", null ],
+      [ "NavierStokesBase", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_navier_stokes_base.html", [
+        [ "CompressibleNavierStokesBase", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_compressible_navier_stok704cf5366b44eb7a04b555b4188aebf1.html", [
+          [ "CompressibleNavierStokesFV1", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_compressible_navier_stok15a2c1d49241497ba8b3579fd1effd3c.html", null ]
+        ] ],
+        [ "IncompressibleNavierStokesBase", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html", [
+          [ "NavierStokesFE", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia36f175851c9277dad21dcd37dbbafe15.html", null ],
+          [ "NavierStokesFV", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatiaf476c239353cbced42eadc31372a7501.html", null ],
+          [ "NavierStokesFV1", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatiab6c2323ee4fd3c43b984b643599b46d0.html", null ],
+          [ "NavierStokesFVCR", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia4d36cf16258980871d4a7606b40cf317.html", null ]
+        ] ]
+      ] ],
+      [ "NavierStokesNoNormalStressOutflowBase", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_navier6b645e05dafd743a2fa5a60e104fc54a.html", [
+        [ "NavierStokesNoNormalStressOutflowFV", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia8063e5d1a9c944637662e49f6b32eb6f.html", null ],
+        [ "NavierStokesNoNormalStressOutflowFV1", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia1a456a329df36fa9ab8c113b87a31af9.html", null ],
+        [ "NavierStokesNoNormalStressOutflowFVCR", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia8b95bf73c996343b3e58a6ece9b79258.html", null ]
+      ] ],
+      [ "CRNavierStokesSymBC", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia487ddb114c1e25f0975a4ee0f37ab19e.html", null ],
+      [ "NavierStokesSymBCFV1", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia49d5cb6805406b666c5fcb21f275d5ad.html", null ],
+      [ "NavierStokesWSBCFV1", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia26679c8c2bb2c8fb484e8afdf79505e5.html", null ],
       [ "SmallStrainMechanics", "classug4_bridge_1_1_spatial_disc_1_1_small_strain_mechanics_1_1_small_strain_mechanics.html", null ]
     ] ],
     [ "IElemDiscModifier", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_i_elem_disc_modifier.html", null ],
     [ "IElementMarkingStrategy", "classug4_bridge_1_1_discretization_1_1_adaptive_1_1_i_element_marking_strategy.html", [
       [ "AbsoluteMarking", "classug4_bridge_1_1_discretization_1_1_adaptive_1_1_absolute_marking.html", null ],
+      [ "APosterioriCoarsening", "classug4_bridge_1_1_discretization_1_1_adaptive_1_1_a_posteriori_coarsening.html", null ],
       [ "EquilibrationMarking", "classug4_bridge_1_1_discretization_1_1_adaptive_1_1_equilibration_marking.html", null ],
       [ "GlobalMarking", "classug4_bridge_1_1_discretization_1_1_adaptive_1_1_global_marking.html", null ],
       [ "MaximumMarking", "classug4_bridge_1_1_discretization_1_1_adaptive_1_1_maximum_marking.html", null ],
@@ -175,6 +221,7 @@ var hierarchy =
       [ "IElemDisc", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_i_elem_disc.html", [
         [ "ConvectionDiffusionBase", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_base.html", [
           [ "ConvectionDiffusionFE", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_e.html", null ],
+          [ "ConvectionDiffusionFractFV1", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_fract_f_v1.html", null ],
           [ "ConvectionDiffusionFV", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_v.html", null ],
           [ "ConvectionDiffusionFV1", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_v1.html", null ],
           [ "ConvectionDiffusionFVCR", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_v_c_r.html", null ]
@@ -187,15 +234,25 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
-    [ "IFunctionNumber", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_i_function_number.html", null ],
     [ "IFunctionNumber", null, [
       [ "LuaFunctionNumber", "classug4_bridge_1_1_lua_function_number.html", null ]
     ] ],
+    [ "IFunctionNumber", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_i_function_number.html", null ],
     [ "IGeometry", "classug4_bridge_1_1_grid_1_1_i_geometry.html", null ],
-    [ "ILagrangeMultiplierDisc", null, [
+    [ "IGridFunctionSpace", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_i_grid_function_space.html", [
+      [ "CompositeSpace", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_composite_space.html", null ],
+      [ "IComponentSpace", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_i_component_space.html", [
+        [ "H1ComponentSpace", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_h1_component_space.html", null ],
+        [ "H1SemiComponentSpace", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_h1_semi_component_space.html", null ],
+        [ "L2ComponentSpace", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_l2_component_space.html", null ],
+        [ "L2QuotientSpace", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_l2_quotient_space.html", null ],
+        [ "VelEnergyComponentSpace", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_vel_energy_component_space.html", null ]
+      ] ],
+      [ "TimeDependentSpace", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_time_dependent_space.html", null ]
+    ] ],
+    [ "ILagrangeMultiplierDisc", "classug4_bridge_1_1_i_lagrange_multiplier_disc.html", [
       [ "ContactSmallStrainMechanics", "classug4_bridge_1_1_spatial_disc_1_1_small_strain_mechanics_1_1_contact_small_strain_mechanics.html", null ]
     ] ],
-    [ "ILagrangeMultiplierDisc", "classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_i_lagrange_multiplier_disc.html", null ],
     [ "ILinearIterator", "classug4_bridge_1_1_algebra_1_1_i_linear_iterator.html", [
       [ "ILinearOperatorInverse", "classug4_bridge_1_1_algebra_1_1_i_linear_operator_inverse.html", [
         [ "IMatrixOperatorInverse", "classug4_bridge_1_1_algebra_1_1_i_matrix_operator_inverse.html", [
@@ -218,11 +275,11 @@ var hierarchy =
         [ "AgglomeratingPreconditioner", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_agglomerating_preconditioner.html", null ],
         [ "BackwardBlockGaussSeidel", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_backward_block_gauss_seidel.html", null ],
         [ "BackwardBlockGaussSeidelIterative", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_backward_block_gauss_seidel_iterative.html", null ],
-        [ "BackwardGaussSeidel", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_backward_gauss_seidel.html", null ],
         [ "BlockGaussSeidel", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_block_gauss_seidel.html", null ],
         [ "BlockGaussSeidelIterative", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_block_gauss_seidel_iterative.html", null ],
         [ "DiagVanka", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_diag_vanka.html", null ],
         [ "GaussSeidelBase", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_gauss_seidel_base.html", [
+          [ "BackwardGaussSeidel", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_backward_gauss_seidel.html", null ],
           [ "GaussSeidel", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_gauss_seidel.html", null ],
           [ "SymmetricGaussSeidel", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_symmetric_gauss_seidel.html", null ]
         ] ],
@@ -254,17 +311,40 @@ var hierarchy =
       [ "OperatorInverseIterator", "classug4_bridge_1_1_algebra_1_1_solver_1_1_operator_inverse_iterator.html", null ]
     ] ],
     [ "ILinearIterator", null, [
-      [ "GeometricMultiGrid", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_geometric_multi_grid.html", null ]
+      [ "GeometricMultiGrid", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_geometric_multi_grid.html", null ],
+      [ "UzawaBase", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_uzawa_base.html", null ],
+      [ "HiptmairHybridSmoother", "classug4_bridge_1_1_spatial_disc_1_1_electromagnetism_1_1_hiptmair_hybrid_smoother.html", null ]
     ] ],
     [ "ILineSearch", "classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_i_line_search.html", [
       [ "StandardLineSearch", "classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_standard_line_search.html", null ]
+    ] ],
+    [ "ILocalSubspace", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_i_local_subspace.html", [
+      [ "VertexCenteredVankaSubspace", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_vertex_centered_vanka_subspace.html", null ]
     ] ],
     [ "ILocalToGlobalMapper", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_i_local_to_global_mapper.html", null ],
     [ "IMaterialLaw", "classug4_bridge_1_1_spatial_disc_1_1_small_strain_mechanics_1_1_i_material_law.html", [
       [ "HookeLaw", "classug4_bridge_1_1_spatial_disc_1_1_small_strain_mechanics_1_1_hooke_law.html", null ],
       [ "PrandtlReuss", "classug4_bridge_1_1_spatial_disc_1_1_small_strain_mechanics_1_1_prandtl_reuss.html", null ]
     ] ],
+    [ "INavierStokesFV1Stabilization", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia0e312f675a481170ed1f79486c615ab1.html", [
+      [ "INavierStokesSRFV1Stabilization", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatiaec2e734279808cb3a855c0331e192eb8.html", [
+        [ "NavierStokesFIELDSStabilization", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatiab2178f1a5b6cd7979f8bf2ac129a0e81.html", null ],
+        [ "NavierStokesFLOWStabilization", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia747f80646c1f3ec19f1b04fe0fdee019.html", null ]
+      ] ],
+      [ "NavierStokesFV1WithoutStabilization", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia3c4ea8675cae521c4123005e1b67917b.html", null ]
+    ] ],
+    [ "INavierStokesUpwind", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_i_navier_stokes_upwind.html", [
+      [ "NavierStokesFullUpwind", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_navier_stokes_full_upwind.html", null ],
+      [ "NavierStokesLinearProfileSkewedUpwind", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_navier_stokes_linear_profile_skewed_upwind.html", null ],
+      [ "NavierStokesNoUpwind", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_navier_stokes_no_upwind.html", null ],
+      [ "NavierStokesPositiveUpwind", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_navier_stokes_positive_upwind.html", null ],
+      [ "NavierStokesRegularUpwind", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_navier_stokes_regular_upwind.html", null ],
+      [ "NavierStokesSkewedUpwind", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_navier_stokes_skewed_upwind.html", null ]
+    ] ],
     [ "INewtonUpdate", "classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_i_newton_update.html", null ],
+    [ "IOperator", null, [
+      [ "AssembledOperator", "classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_assembled_operator.html", null ]
+    ] ],
     [ "IOperator", "classug4_bridge_1_1_algebra_1_1_i_operator.html", [
       [ "ILinearOperator", "classug4_bridge_1_1_algebra_1_1_i_linear_operator.html", [
         [ "MatrixDiagonal", "classug4_bridge_1_1_algebra_1_1_matrix_diagonal.html", null ],
@@ -273,15 +353,13 @@ var hierarchy =
         [ "LocalSchurComplement", "classug4_bridge_1_1_algebra_1_1_solver_1_1_local_schur_complement.html", null ]
       ] ]
     ] ],
-    [ "IOperator", null, [
-      [ "AssembledOperator", "classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_assembled_operator.html", null ]
-    ] ],
-    [ "IOperatorInverse", "classug4_bridge_1_1_algebra_1_1_i_operator_inverse.html", null ],
     [ "IOperatorInverse", null, [
+      [ "NestedIterationSolver", "classug4_bridge_1_1_discretization_1_1_nested_iteration_solver.html", null ],
       [ "NewtonSolver", "classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_newton_solver.html", null ],
       [ "NLGaussSeidelSolver", "classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_n_l_gauss_seidel_solver.html", null ],
       [ "NLJacobiSolver", "classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_n_l_jacobi_solver.html", null ]
     ] ],
+    [ "IOperatorInverse", "classug4_bridge_1_1_algebra_1_1_i_operator_inverse.html", null ],
     [ "IPartitioner", "classug4_bridge_1_1_load_balancing_1_1_i_partitioner.html", [
       [ "HyperManifoldPartitioner_DynamicBisection", "classug4_bridge_1_1_load_balancing_1_1_hyper_manifold_partitioner___dynamic_bisection.html", null ],
       [ "ManifoldPartitioner_DynamicBisection", "classug4_bridge_1_1_load_balancing_1_1_manifold_partitioner___dynamic_bisection.html", null ],
@@ -291,14 +369,21 @@ var hierarchy =
       [ "ClusterElementStacks", "classug4_bridge_1_1_load_balancing_1_1_cluster_element_stacks.html", null ],
       [ "SmoothPartitionBounds", "classug4_bridge_1_1_load_balancing_1_1_smooth_partition_bounds.html", null ]
     ] ],
+    [ "IPartitionPreProcessor", "classug4_bridge_1_1_load_balancing_1_1_i_partition_pre_processor.html", null ],
     [ "IPositionProvider", "classug4_bridge_1_1_algebra_1_1_i_position_provider.html", null ],
     [ "IPositionProvider", null, [
       [ "GridFunctionPositionProvider", "classug4_bridge_1_1_discretization_1_1_output_1_1_grid_function_position_provider.html", null ]
     ] ],
+    [ "IPProcessVector", null, [
+      [ "NedelecProject", "classug4_bridge_1_1_spatial_disc_1_1_electromagnetism_1_1_nedelec_project.html", null ]
+    ] ],
     [ "IPProcessVector", "classug4_bridge_1_1_algebra_1_1_solver_1_1_i_p_process_vector.html", null ],
     [ "IPreconditioner", null, [
       [ "ComponentGaussSeidel", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_component_gauss_seidel.html", null ],
-      [ "ElementGaussSeidel", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_element_gauss_seidel.html", null ]
+      [ "ElementGaussSeidel", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_element_gauss_seidel.html", null ],
+      [ "SequentialSubspaceCorrection", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_sequential_subspace_correction.html", null ],
+      [ "CRILUT", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia60aa510d8067b2999b975a01e4fe766b.html", null ],
+      [ "PCRILUT", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatiac42e208c5877bea49238c19f5fe6d5ee.html", null ]
     ] ],
     [ "IRefiner", "classug4_bridge_1_1_grid_1_1_i_refiner.html", [
       [ "GlobalFracturedMediumRefiner", "classug4_bridge_1_1_grid_1_1_global_fractured_medium_refiner.html", null ],
@@ -323,6 +408,9 @@ var hierarchy =
       [ "MGSubsetHandler", "classug4_bridge_1_1_grid_1_1_m_g_subset_handler.html", null ],
       [ "SubsetHandler", "classug4_bridge_1_1_grid_1_1_subset_handler.html", null ]
     ] ],
+    [ "ITransferOperator", null, [
+      [ "NedelecTransfer", "classug4_bridge_1_1_spatial_disc_1_1_electromagnetism_1_1_nedelec_transfer.html", null ]
+    ] ],
     [ "ITransferOperator", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_i_transfer_operator.html", [
       [ "StdInjection", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_std_injection.html", null ],
       [ "StdTransfer", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_std_transfer.html", null ]
@@ -333,11 +421,11 @@ var hierarchy =
     [ "IVectorDebugWriter", "classug4_bridge_1_1_algebra_1_1_i_vector_debug_writer.html", [
       [ "IDebugWriter", "classug4_bridge_1_1_algebra_1_1_i_debug_writer.html", null ]
     ] ],
+    [ "IVectorWriter", "classug4_bridge_1_1_algebra_1_1_i_vector_writer.html", null ],
     [ "IVectorWriter", null, [
       [ "GridFunctionVectorWriter", "classug4_bridge_1_1_discretization_1_1_output_1_1_grid_function_vector_writer.html", null ],
       [ "GridFunctionVectorWriterDirichlet0", "classug4_bridge_1_1_discretization_1_1_output_1_1_grid_function_vector_writer_dirichlet0.html", null ]
     ] ],
-    [ "IVectorWriter", "classug4_bridge_1_1_algebra_1_1_i_vector_writer.html", null ],
     [ "LFEID", "classug4_bridge_1_1_discretization_1_1_l_f_e_i_d.html", null ],
     [ "LoadBalancer", "classug4_bridge_1_1_load_balancing_1_1_load_balancer.html", [
       [ "DomainLoadBalancer", "classug4_bridge_1_1_load_balancing_1_1_domain_load_balancer.html", null ]
@@ -353,6 +441,7 @@ var hierarchy =
     [ "Mesh", "classug4_bridge_1_1promesh_1_1_mesh.html", null ],
     [ "MGStats", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_m_g_stats.html", null ],
     [ "MultiIndex2", "classug4_bridge_1_1_discretization_1_1_multi_index2.html", null ],
+    [ "NedelecLoopCurrent", "classug4_bridge_1_1_spatial_disc_1_1_electromagnetism_1_1_nedelec_loop_current.html", null ],
     [ "NumberRaster", "classug4_bridge_1_1_number_raster.html", null ],
     [ "PartitionMap", "classug4_bridge_1_1_grid_1_1_partition_map.html", null ],
     [ "PartitionWeighting", "classug4_bridge_1_1_grid_1_1_partition_weighting.html", [
@@ -360,6 +449,7 @@ var hierarchy =
       [ "ProtectSubsetPartitionWeighting", "classug4_bridge_1_1_grid_1_1_protect_subset_partition_weighting.html", null ]
     ] ],
     [ "PeriodicBoundaryManager", "classug4_bridge_1_1_periodic_1_1_periodic_boundary_manager.html", null ],
+    [ "PowerMethod", "classug4_bridge_1_1_algebra_1_1_solver_1_1_power_method.html", null ],
     [ "ProcessHierarchy", "classug4_bridge_1_1_load_balancing_1_1_process_hierarchy.html", null ],
     [ "RasterLayerDesc", "classug4_bridge_1_1_grid_1_1_raster_layer_desc.html", null ],
     [ "RasterLayers", "classug4_bridge_1_1_grid_1_1_raster_layers.html", null ],
@@ -435,20 +525,29 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
+    [ "UserNumber", null, [
+      [ "EddyCurrentHeat", "classug4_bridge_1_1_spatial_disc_1_1_electromagnetism_1_1_eddy_current_heat.html", null ]
+    ] ],
+    [ "UserVector", null, [
+      [ "EddyCurrentImBofEUserData", "classug4_bridge_1_1_spatial_disc_1_1_electromagnetism_1_1_eddy_current_im_bof_e_user_data.html", null ],
+      [ "EddyCurrentReBofEUserData", "classug4_bridge_1_1_spatial_disc_1_1_electromagnetism_1_1_eddy_current_re_bof_e_user_data.html", null ],
+      [ "NedelecCurlData", "classug4_bridge_1_1_spatial_disc_1_1_electromagnetism_1_1_nedelec_curl_data.html", null ],
+      [ "NedelecGridFunctionData", "classug4_bridge_1_1_spatial_disc_1_1_electromagnetism_1_1_nedelec_grid_function_data.html", null ],
+      [ "NedelecSigmaEData", "classug4_bridge_1_1_spatial_disc_1_1_electromagnetism_1_1_nedelec_sigma_e_data.html", null ]
+    ] ],
+    [ "VariableBoxFilter", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_variable_box_filter.html", null ],
     [ "Variant", "classug4_bridge_1_1_util_1_1_variant.html", null ],
-    [ "Vec1d", "classug4_bridge_1_1_util_1_1_vec_math_1_1_vec1d.html", null ],
-    [ "Vec2d", "classug4_bridge_1_1_util_1_1_vec_math_1_1_vec2d.html", null ],
-    [ "Vec3d", "classug4_bridge_1_1_util_1_1_vec_math_1_1_vec3d.html", null ],
-    [ "Vec4d", "classug4_bridge_1_1_util_1_1_vec_math_1_1_vec4d.html", null ],
+    [ "Vec", "classug4_bridge_1_1_util_1_1_vec_math_1_1_vec.html", null ],
     [ "VecScaleAddClass", "classug4_bridge_1_1_algebra_1_1_vec_scale_add_class.html", null ],
-    [ "Vector", "classug4_bridge_1_1_algebra_1_1_vector.html", null ],
     [ "Vector< TValueType >", "../class_vector.html", [
       [ "GridFunction", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function.html", null ]
     ] ],
+    [ "Vector", "classug4_bridge_1_1_algebra_1_1_vector.html", null ],
     [ "VectorDebugWritingObject", "classug4_bridge_1_1_algebra_1_1_vector_debug_writing_object.html", [
       [ "DebugWritingObject", "classug4_bridge_1_1_algebra_1_1_debug_writing_object.html", null ]
     ] ],
     [ "VertexIterator", "classug4_bridge_1_1promesh_1_1_vertex_iterator.html", null ],
     [ "VolumeIterator", "classug4_bridge_1_1promesh_1_1_volume_iterator.html", null ],
-    [ "VTKOutput", "classug4_bridge_1_1_discretization_1_1_output_1_1_v_t_k_output.html", null ]
+    [ "VTKOutput", "classug4_bridge_1_1_discretization_1_1_output_1_1_v_t_k_output.html", null ],
+    [ "WallObject", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_wall_object.html", null ]
 ];

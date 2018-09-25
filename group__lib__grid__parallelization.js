@@ -1,8 +1,5 @@
 var group__lib__grid__parallelization =
 [
-    [ "parallel refinement", "group__lib__grid__parallelization__refinement.html", "group__lib__grid__parallelization__refinement" ],
-    [ "parallel distribution", "group__lib__grid__parallelization__distribution.html", "group__lib__grid__parallelization__distribution" ],
-    [ "parallel utilities", "group__lib__grid__parallelization__util.html", null ],
     [ "ComPol_CopyAttachment", "classug_1_1_com_pol___copy_attachment.html", [
       [ "Element", "classug_1_1_com_pol___copy_attachment.html#a000727663f5e69bbb9990bc63dbdfc3d", null ],
       [ "GeomObj", "classug_1_1_com_pol___copy_attachment.html#aa0434d25ad36f58f9d810290186dad12", null ],

@@ -132,7 +132,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="vec__util_8lua.html">vec_util.lua</a> :99-101 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="vec__util_8lua.html#ab450502b7be6a2cb78d05ac35ac2bfca">__ug__TemplateExpressions_add</a>(a, b)</div><div class="line">  <span class="keywordflow">return</span> VecScaleAddClass(1.0, a, 1.0, b)</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="vec__util_8lua.html">vec_util.lua</a> :99-101 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="vec__util_8lua.html#ab450502b7be6a2cb78d05ac35ac2bfca">__ug__TemplateExpressions_add</a>(a, b)</div><div class="line">  <span class="keywordflow">return</span> VecScaleAddClass(1.0, a, 1.0, b)</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="a9088e4dd0a4ef8c7449031245f6a4371"></a>
@@ -160,7 +160,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="vec__util_8lua.html">vec_util.lua</a> :122-124 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="vec__util_8lua.html#a9088e4dd0a4ef8c7449031245f6a4371">__ug__TemplateExpressions_div</a>(a, b)</div><div class="line">  <span class="keywordflow">return</span> VecScaleAddClass(1/b, a)   </div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="vec__util_8lua.html">vec_util.lua</a> :122-124 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="vec__util_8lua.html#a9088e4dd0a4ef8c7449031245f6a4371">__ug__TemplateExpressions_div</a>(a, b)</div><div class="line">  <span class="keywordflow">return</span> VecScaleAddClass(1/b, a)   </div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="aa606253b74e89b3931308e3f9b0411cd"></a>
@@ -188,7 +188,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="vec__util_8lua.html">vec_util.lua</a> :106-120 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="vec__util_8lua.html#aa606253b74e89b3931308e3f9b0411cd">__ug__TemplateExpressions_mul</a>(a, b)</div><div class="line">  <span class="keywordflow">if</span> type(a) == <span class="stringliteral">&quot;number&quot;</span> or type(b) == <span class="stringliteral">&quot;number&quot;</span> then</div><div class="line">    <span class="keywordflow">return</span> VecScaleAddClass(a, b)</div><div class="line">  <span class="keywordflow">else</span></div><div class="line">    local aa = a</div><div class="line">    local bb = b</div><div class="line">    <span class="keywordflow">if</span> ug_class_group(a) == <span class="stringliteral">&quot;VecScaleAddClass&quot;</span> then</div><div class="line">      aa = a:eval()</div><div class="line">    end</div><div class="line">    <a class="code" href="lexer_8cpp.html#ad4a65b873df5c05570846b5413b41dfd">if</a> ug_class_group(b) == &quot;VecScaleAddClass&quot; then</div><div class="line">      bb = b:eval()</div><div class="line">    end</div><div class="line">    return <a class="code" href="namespaceug.html#a56935099e4850d797a357fde92cd4e9a">VecProd</a>(aa, bb)</div><div class="line">  end   </div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="vec__util_8lua.html">vec_util.lua</a> :106-120 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="vec__util_8lua.html#aa606253b74e89b3931308e3f9b0411cd">__ug__TemplateExpressions_mul</a>(a, b)</div><div class="line">  <span class="keywordflow">if</span> type(a) == <span class="stringliteral">&quot;number&quot;</span> or type(b) == <span class="stringliteral">&quot;number&quot;</span> then</div><div class="line">    <span class="keywordflow">return</span> VecScaleAddClass(a, b)</div><div class="line">  <span class="keywordflow">else</span></div><div class="line">    local aa = a</div><div class="line">    local bb = b</div><div class="line">    <span class="keywordflow">if</span> ug_class_group(a) == <span class="stringliteral">&quot;VecScaleAddClass&quot;</span> then</div><div class="line">      aa = a:eval()</div><div class="line">    end</div><div class="line">    <a class="code" href="lexer_8cpp.html#ad4a65b873df5c05570846b5413b41dfd">if</a> ug_class_group(b) == &quot;VecScaleAddClass&quot; then</div><div class="line">      bb = b:eval()</div><div class="line">    end</div><div class="line">    return <a class="code" href="namespaceug.html#a56935099e4850d797a357fde92cd4e9a">VecProd</a>(aa, bb)</div><div class="line">  end   </div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="acfb6ce35e6e9768a47455bd3eeaa9b95"></a>
@@ -216,7 +216,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="vec__util_8lua.html">vec_util.lua</a> :102-104 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="vec__util_8lua.html#acfb6ce35e6e9768a47455bd3eeaa9b95">__ug__TemplateExpressions_sub</a>(a, b)  </div><div class="line">  <span class="keywordflow">return</span> VecScaleAddClass(1.0, a, -1.0, b)</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="vec__util_8lua.html">vec_util.lua</a> :102-104 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="vec__util_8lua.html#acfb6ce35e6e9768a47455bd3eeaa9b95">__ug__TemplateExpressions_sub</a>(a, b)  </div><div class="line">  <span class="keywordflow">return</span> VecScaleAddClass(1.0, a, -1.0, b)</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="a263bafecdfa0c5042fc0fd2d171e0aa2"></a>
@@ -234,7 +234,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="vec__util_8lua.html">vec_util.lua</a> :127-143 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="vec__util_8lua.html#a263bafecdfa0c5042fc0fd2d171e0aa2">set_user_data_overloads2</a>(name)</div><div class="line">  mt = ug_get_metatable(name)</div><div class="line">  <span class="keywordflow">if</span> mt == nil then <span class="keywordflow">return</span> end</div><div class="line">  </div><div class="line">  mt.__add = _G[<span class="stringliteral">&quot;__ug__TemplateExpressions_add&quot;</span>]</div><div class="line"></div><div class="line">  mt.__sub = _G[<span class="stringliteral">&quot;__ug__TemplateExpressions_sub&quot;</span>]</div><div class="line">  </div><div class="line">  mt.__mul = _G[<span class="stringliteral">&quot;__ug__TemplateExpressions_mul&quot;</span>]</div><div class="line">  </div><div class="line">  mt.__div = _G[<span class="stringliteral">&quot;__ug__TemplateExpressions_div&quot;</span>]</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="vec__util_8lua.html">vec_util.lua</a> :127-143 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="vec__util_8lua.html#a263bafecdfa0c5042fc0fd2d171e0aa2">set_user_data_overloads2</a>(name)</div><div class="line">  mt = ug_get_metatable(name)</div><div class="line">  <span class="keywordflow">if</span> mt == nil then <span class="keywordflow">return</span> end</div><div class="line">  </div><div class="line">  mt.__add = _G[<span class="stringliteral">&quot;__ug__TemplateExpressions_add&quot;</span>]</div><div class="line"></div><div class="line">  mt.__sub = _G[<span class="stringliteral">&quot;__ug__TemplateExpressions_sub&quot;</span>]</div><div class="line">  </div><div class="line">  mt.__mul = _G[<span class="stringliteral">&quot;__ug__TemplateExpressions_mul&quot;</span>]</div><div class="line">  </div><div class="line">  mt.__div = _G[<span class="stringliteral">&quot;__ug__TemplateExpressions_div&quot;</span>]</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 </div><!-- contents -->
@@ -243,7 +243,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_53e6fa9553ac22a5646d2a2b2d7b97a1.html">scripts</a></li><li class="navelem"><a class="el" href="dir_46f23659e18aa5fa06de6ff2c04a1a12.html">util</a></li><li class="navelem"><a class="el" href="vec__util_8lua.html">vec_util.lua</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:10 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:08:42 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

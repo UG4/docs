@@ -1,0 +1,4 @@
+var classug_1_1_electromagnetism_1_1_compute_elem_flux_helper_3_01_t_grid_func_00_01_regular_edge_01_4 =
+[
+    [ "compute_flux", "classug_1_1_electromagnetism_1_1_compute_elem_flux_helper_3_01_t_grid_func_00_01_regular_edge_01_4.html#af1e3b0e73f6048184d38b1398f7673e0", null ]
+];

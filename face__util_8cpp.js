@@ -10,6 +10,7 @@ var face__util_8cpp =
     [ "IsVolumeBoundaryFace", "face__util_8cpp.html#gafd8032868d5b1b81c1d0171156ce7acd", null ],
     [ "IsVolumeBoundaryFace", "face__util_8cpp.html#ga6612d9dd1c1ccd191d67a1a1e6718156", null ],
     [ "IsVolumeBoundaryFace", "face__util_8cpp.html#ga4e9dfa154c5ab46e2f77c4a48a8ee98c", null ],
+    [ "NumAssociatedVolumes", "face__util_8cpp.html#ga2e099f969485473fadd5113b40fe508a", null ],
     [ "TriangleQuality", "face__util_8cpp.html#gae772e4fd343550a940e172b770faaf1b", null ],
     [ "Triangulate", "face__util_8cpp.html#gac5dd5ed95ed5f64fd5d29133769324be", null ],
     [ "Triangulate", "face__util_8cpp.html#ga2b4fdf52742a3186bfd3473b2f028926", null ]

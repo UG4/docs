@@ -10,6 +10,7 @@ var refinement__tools_8cpp =
     [ "RefineSmooth", "refinement__tools_8cpp.html#gaf65e06146f29d06c2a7d9d74705e0af0", null ],
     [ "RefineSmooth", "refinement__tools_8cpp.html#gadf2f1f1d3fd09f3d04053797ac32c5f5", null ],
     [ "RefineWithSnapPoints", "refinement__tools_8cpp.html#gaf4a6ef8170e85a32c2e086fa8ef335f2", null ],
+    [ "RefineWithSnapPointsOrtho", "refinement__tools_8cpp.html#ga7473768e2dc7895bd77935881455bee2", null ],
     [ "RegularizingRefinement", "refinement__tools_8cpp.html#ga28d4a840d57b0f0ca3ef38b22e5dd155", null ],
     [ "RegularizingRefinement_IMPL", "refinement__tools_8cpp.html#ae2ff5a502e040897986fa8906ab35e4b", null ]
 ];

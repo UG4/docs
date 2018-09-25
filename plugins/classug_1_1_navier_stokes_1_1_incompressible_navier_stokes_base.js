@@ -1,0 +1,28 @@
+var classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base =
+[
+    [ "base_type", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#a329460b1aef2dee69022d1d9c10e493b", null ],
+    [ "this_type", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#afcd1f5d50a84737ec02e473f047669a3", null ],
+    [ "IncompressibleNavierStokesBase", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#ad376704c3a5fef1b768aca2f43672d34", null ],
+    [ "IncompressibleNavierStokesBase", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#aabce2cdf5d41cab332ddea72af59dd5c", null ],
+    [ "density", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#aae86bdbee08af43c025c0e9a6ebcf0e3", null ],
+    [ "disc_type", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#ab8b8b8e88e7aa8a5c1a374cd2c2ab928", null ],
+    [ "kinematic_viscosity", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#aff1cdf8c34a1643cd2252344f82312aa", null ],
+    [ "laplace", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#aeb22ba765357142f872b1d19b7fb76cf", null ],
+    [ "requests_local_time_series", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#a5225ba9d1c030c0f1e15821602e21858", null ],
+    [ "set_density", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#ae513ff2ae3657f5b0f05dc46aadee22c", null ],
+    [ "set_density", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#ad9eaa0d783b56312c42c672e22e62de7", null ],
+    [ "set_grad_div", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#a039f808543100db3e755419535ed4541", null ],
+    [ "set_kinematic_viscosity", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#a7b1209c24758cf5d38f9f7c8460b1094", null ],
+    [ "set_laplace", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#aec6865f43b6d820672c82e1bab78021b", null ],
+    [ "set_peclet_blend", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#a23cc79423837840a7caf69733e600548", null ],
+    [ "set_source", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#a9bb59d5ee88f67b937f206a3e618fafa", null ],
+    [ "set_stokes", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#a347a8a7950edecffa5991d824e55627d", null ],
+    [ "stokes", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#ac8fc929796d70bc8eba9a092024df4d9", null ],
+    [ "velocity_grad", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#a8693348850999b928c3badaf016b207f", null ],
+    [ "dim", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#af558305b758becfa30a768c7ece19ba5", null ],
+    [ "m_bLaplace", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#a949e23d8f0584d8eea774a4f65dcc7a8", null ],
+    [ "m_bPecletBlend", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#aa0f24d159f745cafa7174ec9c351c53e", null ],
+    [ "m_bStokes", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#a9b720438bd17a65e4e6db4475d42df56", null ],
+    [ "m_exVelocityGrad", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#a0d395f1d03452364e3f62c0172e463da", null ],
+    [ "m_gradDivFactor", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#ad5106df524d45b0de24102af322bcabf", null ]
+];

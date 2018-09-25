@@ -131,7 +131,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Creates a load-balancer for the given domain. The returned class is of the type DomainLoadBalancer. The current set of global parameters in the balancer namespace steers the creation. The returned balancer can then be used to perform dynamic load-balancing and rebalancing of adaptively refined grids.</p>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="load__balancing__util_8lua.html">load_balancing_util.lua</a> :166-255 </p>
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="load__balancing__util_8lua.html">load_balancing_util.lua</a> :166-255 </p>
 
 </div>
 </div>
@@ -150,7 +150,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Parses user-specified parameters related to load-balancing.</p>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="load__balancing__util_8lua.html">load_balancing_util.lua</a> :85-129 </p>
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="load__balancing__util_8lua.html">load_balancing_util.lua</a> :85-129 </p>
 
 </div>
 </div>
@@ -169,7 +169,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Prints the balancing parameters</p>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="load__balancing__util_8lua.html">load_balancing_util.lua</a> :132-158 </p>
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="load__balancing__util_8lua.html">load_balancing_util.lua</a> :132-158 </p>
 
 </div>
 </div>
@@ -199,7 +199,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>If no loadBalancer is specified, this method performs rebalancing using balancer.defaultBalancer. If balancer.defaultBalancer doesn't exist, it will be automatically created using the current balancer parameters. Note that changes to the balancer parameters won't have any effect if balancer.defaultBalancer already exist. However, by setting balancer.defaultBalancer to nil, you trigger the recreation of the defaultBalancer with the new balancer parameters in the next call to balancer.Rebalance.</p>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="load__balancing__util_8lua.html">load_balancing_util.lua</a> :266-291 </p>
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="load__balancing__util_8lua.html">load_balancing_util.lua</a> :266-291 </p>
 
 </div>
 </div>
@@ -235,7 +235,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>If no loadBalancer is specified, this method performs rebalancing using balancer.defaultBalancer. See balancer.Rebalance for more information. The method performs global refinement. After each refinement, rebalancing is triggered.</p>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="load__balancing__util_8lua.html">load_balancing_util.lua</a> :297-311 </p><div class="fragment"><div class="line"><span class="keyword">function</span> balancer.RefineAndRebalanceDomain(domain, numRefs, loadBalancer)</div><div class="line">  balancer.Rebalance(domain, loadBalancer)</div><div class="line">  <span class="keywordflow">if</span> numRefs &gt; 0 then</div><div class="line">    refiner = <a class="code" href="group__refinement__bridge.html#ga34888b25fa66825e5b89aa176aacabd0">GlobalDomainRefiner</a>(domain)</div><div class="line">    </div><div class="line">    <span class="keywordflow">for</span> i = 1, numRefs <span class="keywordflow">do</span></div><div class="line">      <a class="code" href="namespaceug.html#aaf58e78094eab7e93d06e7ab2dfe7bc0">TerminateAbortedRun</a>()</div><div class="line">      refiner:refine()</div><div class="line">      <a class="code" href="namespaceug.html#aaf58e78094eab7e93d06e7ab2dfe7bc0">TerminateAbortedRun</a>()</div><div class="line">      balancer.<a class="code" href="group__scripts__util__loadbalancing.html#gafc4bd16bd557cc2be2359d0703719ad8">Rebalance</a>(domain, loadBalancer)</div><div class="line">    end</div><div class="line">    </div><div class="line">    delete(refiner)</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="load__balancing__util_8lua.html">load_balancing_util.lua</a> :297-311 </p><div class="fragment"><div class="line"><span class="keyword">function</span> balancer.RefineAndRebalanceDomain(domain, numRefs, loadBalancer)</div><div class="line">  balancer.Rebalance(domain, loadBalancer)</div><div class="line">  <span class="keywordflow">if</span> numRefs &gt; 0 then</div><div class="line">    refiner = <a class="code" href="group__refinement__bridge.html#ga34888b25fa66825e5b89aa176aacabd0">GlobalDomainRefiner</a>(domain)</div><div class="line">    </div><div class="line">    <span class="keywordflow">for</span> i = 1, numRefs <span class="keywordflow">do</span></div><div class="line">      <a class="code" href="namespaceug.html#aaf58e78094eab7e93d06e7ab2dfe7bc0">TerminateAbortedRun</a>()</div><div class="line">      refiner:refine()</div><div class="line">      <a class="code" href="namespaceug.html#aaf58e78094eab7e93d06e7ab2dfe7bc0">TerminateAbortedRun</a>()</div><div class="line">      balancer.<a class="code" href="group__scripts__util__loadbalancing.html#gafc4bd16bd557cc2be2359d0703719ad8">Rebalance</a>(domain, loadBalancer)</div><div class="line">    end</div><div class="line">    </div><div class="line">    delete(refiner)</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 </div><!-- contents -->
@@ -243,7 +243,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:13 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:08:45 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

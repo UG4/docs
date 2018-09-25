@@ -91,7 +91,6 @@ $(document).ready(function(){initNavTree('classug_1_1_dim_f_v1_geometry.html',''
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#pri-static-attribs">Static Private Attributes</a> &#124;
@@ -167,6 +166,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adab333cac7d18d5133629066096daf77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_grid_object.html">GridObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_dim_f_v1_geometry.html#adab333cac7d18d5133629066096daf77">elem</a> () const</td></tr>
 <tr class="memdesc:adab333cac7d18d5133629066096daf77"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the element  <a href="#adab333cac7d18d5133629066096daf77">More...</a><br /></td></tr>
 <tr class="separator:adab333cac7d18d5133629066096daf77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7b6e8d09c84c0f7af064c03b65235f4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; <a class="el" href="classug_1_1_dim_f_v1_geometry.html#a6063f45f333c36f432674c6d60714c2b">worldDim</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_dim_f_v1_geometry.html#af7b6e8d09c84c0f7af064c03b65235f4">global_node_position</a> (size_t nodeID) const</td></tr>
+<tr class="memdesc:af7b6e8d09c84c0f7af064c03b65235f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">return global coords for node ID  <a href="#af7b6e8d09c84c0f7af064c03b65235f4">More...</a><br /></td></tr>
+<tr class="separator:af7b6e8d09c84c0f7af064c03b65235f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d6160775f36aca37a10485fdea57550"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; <a class="el" href="classug_1_1_dim_f_v1_geometry.html#a22cbdb6d3da2429f227d4979682041ce">dim</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_dim_f_v1_geometry.html#a7d6160775f36aca37a10485fdea57550">local_node_position</a> (size_t nodeID) const</td></tr>
+<tr class="memdesc:a7d6160775f36aca37a10485fdea57550"><td class="mdescLeft">&#160;</td><td class="mdescRight">return local coords for node ID  <a href="#a7d6160775f36aca37a10485fdea57550">More...</a><br /></td></tr>
+<tr class="separator:a7d6160775f36aca37a10485fdea57550"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b1f1abb5611f6c15f922dcbd7036592"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_dim_f_v1_geometry.html#a6b1f1abb5611f6c15f922dcbd7036592">num_bf</a> () const</td></tr>
 <tr class="memdesc:a6b1f1abb5611f6c15f922dcbd7036592"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of all boundary faces  <a href="#a6b1f1abb5611f6c15f922dcbd7036592">More...</a><br /></td></tr>
 <tr class="separator:a6b1f1abb5611f6c15f922dcbd7036592"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -221,6 +226,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abc4599b9862710ffdc11a9e344cfd34c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_dim_f_v1_geometry.html#abc4599b9862710ffdc11a9e344cfd34c">update_boundary_faces</a> (<a class="el" href="classug_1_1_grid_object.html">GridObject</a> *<a class="el" href="classug_1_1_dim_f_v1_geometry.html#adab333cac7d18d5133629066096daf77">elem</a>, const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; <a class="el" href="classug_1_1_dim_f_v1_geometry.html#a6063f45f333c36f432674c6d60714c2b">worldDim</a> &gt; *vCornerCoords, const <a class="el" href="classug_1_1_i_subset_handler.html">ISubsetHandler</a> *ish=NULL)</td></tr>
 <tr class="memdesc:abc4599b9862710ffdc11a9e344cfd34c"><td class="mdescLeft">&#160;</td><td class="mdescRight">update boundary data for given element  <a href="#abc4599b9862710ffdc11a9e344cfd34c">More...</a><br /></td></tr>
 <tr class="separator:abc4599b9862710ffdc11a9e344cfd34c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf1cbb3bb52b8c856236e2222d9c31cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_dim_f_v1_geometry.html#acf1cbb3bb52b8c856236e2222d9c31cd">update_local</a> (<a class="el" href="namespaceug.html#a1f0e19a0ec74b2ebb64238aeb498c51b">ReferenceObjectID</a> <a class="el" href="classug_1_1_dim_f_v1_geometry.html#a8484f1628648d92e4cc42233087164dc">roid</a>)</td></tr>
+<tr class="memdesc:acf1cbb3bb52b8c856236e2222d9c31cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">update local data  <a href="#acf1cbb3bb52b8c856236e2222d9c31cd">More...</a><br /></td></tr>
+<tr class="separator:acf1cbb3bb52b8c856236e2222d9c31cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -251,12 +259,6 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a6063f45f333c36f432674c6d60714c2b"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_dim_f_v1_geometry.html#a6063f45f333c36f432674c6d60714c2b">worldDim</a> = TWorldDim</td></tr>
 <tr class="memdesc:a6063f45f333c36f432674c6d60714c2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">dimension of world  <a href="#a6063f45f333c36f432674c6d60714c2b">More...</a><br /></td></tr>
 <tr class="separator:a6063f45f333c36f432674c6d60714c2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:acf1cbb3bb52b8c856236e2222d9c31cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_dim_f_v1_geometry.html#acf1cbb3bb52b8c856236e2222d9c31cd">update_local</a> (<a class="el" href="namespaceug.html#a1f0e19a0ec74b2ebb64238aeb498c51b">ReferenceObjectID</a> <a class="el" href="classug_1_1_dim_f_v1_geometry.html#a8484f1628648d92e4cc42233087164dc">roid</a>)</td></tr>
-<tr class="memdesc:acf1cbb3bb52b8c856236e2222d9c31cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">update local data  <a href="#acf1cbb3bb52b8c856236e2222d9c31cd">More...</a><br /></td></tr>
-<tr class="separator:acf1cbb3bb52b8c856236e2222d9c31cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -420,7 +422,7 @@ template&lt;int TDim, int TWorldDim = TDim&gt; </div>
 
 <p>References <a class="el" href="classug_1_1_f_v1_geometry.html#a1f995a0fca705aa0eb0d0374085e3d77">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::m_mapVectorBF</a>.</p>
 
-<p>Referenced by <a class="el" href="namespaceug.html#a403d287298e229b62c0c20c5bbe9eef6">ug::IntegralNormalComponentOnManifoldUsingFV1Geom()</a>, and <a class="el" href="namespaceug.html#a04caafec8eae8e4be174c4cc2675f71c">ug::IntegrateNormalGradientOnManifold()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_h1_energy_integrand.html#af560531081b17debf15785a18b5ba242">ug::H1EnergyIntegrand&lt; TGridFunction &gt;::evaluate()</a>.</p>
 
 </div>
 </div>
@@ -464,7 +466,7 @@ template&lt;int TDim, int TWorldDim = TDim&gt; </div>
 
 <p>References <a class="el" href="classug_1_1_f_v1_geometry.html#a1f995a0fca705aa0eb0d0374085e3d77">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::m_mapVectorBF</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
 
-<p>Referenced by <a class="el" href="namespaceug.html#a403d287298e229b62c0c20c5bbe9eef6">ug::IntegralNormalComponentOnManifoldUsingFV1Geom()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_h1_energy_integrand.html#af560531081b17debf15785a18b5ba242">ug::H1EnergyIntegrand&lt; TGridFunction &gt;::evaluate()</a>.</p>
 
 </div>
 </div>
@@ -652,6 +654,70 @@ template&lt;int TDim, int TWorldDim = TDim&gt; </div>
 <p>get the element </p>
 
 <p>References <a class="el" href="classug_1_1_f_v1_geometry.html#a8dc233d7c5ee13a17fab39dbb90fc04e">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::m_pElem</a>.</p>
+
+</div>
+</div>
+<a id="af7b6e8d09c84c0f7af064c03b65235f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7b6e8d09c84c0f7af064c03b65235f4">&sect;&nbsp;</a></span>global_node_position()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int TDim, int TWorldDim = TDim&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt;<a class="el" href="classug_1_1_dim_f_v1_geometry.html#a6063f45f333c36f432674c6d60714c2b">worldDim</a>&gt;&amp; <a class="el" href="classug_1_1_dim_f_v1_geometry.html">ug::DimFV1Geometry</a>&lt; TDim, TWorldDim &gt;::global_node_position </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>nodeID</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return global coords for node ID </p>
+
+<p>References <a class="el" href="classug_1_1_f_v1_geometry.html#aabf7dbed2e9d54d3a05c39fd0e6e8a2e">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::m_vvGloMid</a>, <a class="el" href="classug_1_1_f_v1_geometry.html#a1ab0453db6f8dab18a3d09cea6d077d8">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::maxMid</a>, and <a class="el" href="group__ugbase__common.html#ga0b928ef153b78f1b5e025638cf28f841">UG_ASSERT</a>.</p>
+
+</div>
+</div>
+<a id="a7d6160775f36aca37a10485fdea57550"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d6160775f36aca37a10485fdea57550">&sect;&nbsp;</a></span>local_node_position()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int TDim, int TWorldDim = TDim&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt;<a class="el" href="classug_1_1_dim_f_v1_geometry.html#a22cbdb6d3da2429f227d4979682041ce">dim</a>&gt;&amp; <a class="el" href="classug_1_1_dim_f_v1_geometry.html">ug::DimFV1Geometry</a>&lt; TDim, TWorldDim &gt;::local_node_position </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>nodeID</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return local coords for node ID </p>
+
+<p>References <a class="el" href="classug_1_1_f_v1_geometry.html#a7f15d4e8518e9a885250db5845beb642">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::m_vvLocMid</a>, <a class="el" href="classug_1_1_f_v1_geometry.html#a1ab0453db6f8dab18a3d09cea6d077d8">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::maxMid</a>, and <a class="el" href="group__ugbase__common.html#ga0b928ef153b78f1b5e025638cf28f841">UG_ASSERT</a>.</p>
 
 </div>
 </div>
@@ -1183,7 +1249,7 @@ template&lt;int TDim, int TWorldDim&gt; </div>
 
 <p>References <a class="el" href="namespaceug.html#ad76d5fd26e962000c49c79f162348105">ug::AveragePositions()</a>, <a class="el" href="classug_1_1_f_v1_geometry_1_1_s_c_v_f.html#a316ef675af9fcdf9fa31c549a5cbd801">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::SCVF::detj</a>, <a class="el" href="classug_1_1_f_v1_geometry_1_1_s_c_v.html#afa112b3cb521538cbb6cdf0f5876c86d">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::SCV::detj</a>, <a class="el" href="classug_1_1_f_v1_geometry_1_1_s_c_v_f.html#afe08974765d93d6f295dc641d771eea0">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::SCVF::global_ip()</a>, <a class="el" href="classug_1_1_f_v1_geometry_1_1_s_c_v.html#a76a1f4dd73cf5c15f0b616840a1b1b3d">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::SCV::global_ip()</a>, <a class="el" href="classug_1_1_f_v1_geometry_1_1_s_c_v_f.html#a4a05f53092fd88aaef7fdc77ea20f8df">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::SCVF::JtInv</a>, <a class="el" href="classug_1_1_f_v1_geometry_1_1_s_c_v.html#a109861707f23b208b80853ccc41762a2">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::SCV::JtInv</a>, <a class="el" href="classug_1_1_f_v1_geometry.html#a8dc233d7c5ee13a17fab39dbb90fc04e">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::m_pElem</a>, <a class="el" href="classug_1_1_f_v1_geometry.html#a1500a15b6f5ac19d99b3e2b8246acdba">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::m_vGlobSCV_IP</a>, <a class="el" href="classug_1_1_f_v1_geometry.html#a40a53aa4295670d77b492f971b89c42a">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::m_vGlobSCVF_IP</a>, <a class="el" href="classug_1_1_f_v1_geometry.html#a7f9f8ddbf0ef1b768780d0b9f4e93c64">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::m_vSCV</a>, <a class="el" href="classug_1_1_f_v1_geometry.html#a2542ca2b5ebf2f9b4d91b39f8a7c5731">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::m_vSCVF</a>, <a class="el" href="classug_1_1_f_v1_geometry.html#aabf7dbed2e9d54d3a05c39fd0e6e8a2e">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::m_vvGloMid</a>, <a class="el" href="group__ugbase__math.html#gab755dfcc4823f5a150c931e1fdca6c78">ug::MatVecMult()</a>, <a class="el" href="classug_1_1_f_v1_geometry.html#a1ab0453db6f8dab18a3d09cea6d077d8">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::maxMid</a>, <a class="el" href="structug_1_1fv1__traits.html#a82c1b7ab2235f975f2fd829c0ccee087">ug::fv1_traits&lt; TRefElem, TWorldDim &gt;::NormalOnSCVF()</a>, <a class="el" href="classug_1_1_reference_element.html#a0f5079901a3fda185c98ba7520e5bd5a">ug::ReferenceElement::num()</a>, <a class="el" href="classug_1_1_f_v1_geometry.html#a41ecda1c6ac8a3b33d42913fddf5590a">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::num_boundary_subsets()</a>, <a class="el" href="classug_1_1_f_v1_geometry_1_1_s_c_v.html#a6430b4d804394160230b3446b49d5cfe">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::SCV::num_corners()</a>, <a class="el" href="classug_1_1_f_v1_geometry.html#ac67354be1621b910cba828a1d250ce74">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::num_scv()</a>, <a class="el" href="classug_1_1_f_v1_geometry.html#a188fdd5f45a0a1353ea360113356e04f">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::num_scvf()</a>, <a class="el" href="classug_1_1_f_v1_geometry_1_1_s_c_v_f.html#a66ae16adf16746efd8a3431fa39db711">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::SCVF::num_sh()</a>, <a class="el" href="classug_1_1_f_v1_geometry_1_1_s_c_v.html#a552216d908643c54973f3c8b0071b554">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::SCV::num_sh()</a>, <a class="el" href="classug_1_1_f_v1_geometry_1_1_s_c_v_f.html#a4e0e56aed898f7fdc203c103ef7f0f63">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::SCVF::numCo</a>, <a class="el" href="classug_1_1_grid_object.html#acfaabf249961773ef13ac5efc2a9c51f">ug::GridObject::reference_object_id()</a>, <a class="el" href="namespaceug.html#a1f0e19a0ec74b2ebb64238aeb498c51ba630b6009dcce909a079c8aa406dd3538">ug::ROID_OCTAHEDRON</a>, <a class="el" href="namespaceug.html#a1f0e19a0ec74b2ebb64238aeb498c51ba2e28620d8e39d511824ee28b938599da">ug::ROID_PYRAMID</a>, <a class="el" href="classug_1_1_f_v1_geometry.html#a3b5b6b7d1b10f9e7ea3a5f2d9fe67a4a">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::scv()</a>, <a class="el" href="classug_1_1_f_v1_geometry.html#aa4cea7c67d8603de100d5a1f8586f165">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::scvf()</a>, <a class="el" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>, <a class="el" href="classug_1_1_dim_reference_mapping.html#ad53c988846bef8b8da6ed082cbde18ea">ug::DimReferenceMapping&lt; TDim, TWorldDim &gt;::update()</a>, <a class="el" href="classug_1_1_f_v1_geometry.html#a2f78db85f3c42a24d054a5787a53a84a">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::update_boundary_faces()</a>, <a class="el" href="classug_1_1_dim_f_v1_geometry.html#abc4599b9862710ffdc11a9e344cfd34c">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;::update_boundary_faces()</a>, <a class="el" href="classug_1_1_f_v1_geometry_1_1_s_c_v_f.html#a83a13f80359faf9a7e62cfcc78decd00">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::SCVF::vGloPos</a>, <a class="el" href="classug_1_1_f_v1_geometry_1_1_s_c_v.html#a40e9b4001d816bf96139c1aae0cdf976">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::SCV::vGloPos</a>, <a class="el" href="classug_1_1_f_v1_geometry_1_1_s_c_v_f.html#ac224512bb9a3a017a2d52caa73671b45">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::SCVF::vMidID</a>, and <a class="el" href="classug_1_1_f_v1_geometry_1_1_s_c_v.html#a8816560d980192092a6d3d57ba09b861">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::SCV::Vol</a>.</p>
 
-<p>Referenced by <a class="el" href="namespaceug.html#a403d287298e229b62c0c20c5bbe9eef6">ug::IntegralNormalComponentOnManifoldUsingFV1Geom()</a>, and <a class="el" href="classug_1_1_dim_f_v1_geometry.html#acf1cbb3bb52b8c856236e2222d9c31cd">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;::update_local()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_h1_energy_integrand.html#af560531081b17debf15785a18b5ba242">ug::H1EnergyIntegrand&lt; TGridFunction &gt;::evaluate()</a>, and <a class="el" href="classug_1_1_dim_f_v1_geometry.html#acf1cbb3bb52b8c856236e2222d9c31cd">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;::update_local()</a>.</p>
 
 </div>
 </div>
@@ -1236,9 +1302,6 @@ template&lt;int TDim, int TWorldDim&gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;int TDim, int TWorldDim&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void <a class="el" href="classug_1_1_dim_f_v1_geometry.html">ug::DimFV1Geometry</a>&lt; TDim, TWorldDim &gt;::update_local </td>
@@ -1248,11 +1311,6 @@ template&lt;int TDim, int TWorldDim&gt; </div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>update local data </p>
@@ -1910,7 +1968,7 @@ template&lt;int TDim, int TWorldDim = TDim&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_dim_f_v1_geometry.html">DimFV1Geometry</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:21 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:08:57 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

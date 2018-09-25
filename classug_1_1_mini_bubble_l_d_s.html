@@ -161,13 +161,10 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a2ad83c71a48f1a9378a88588570a8476"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_mini_bubble_l_d_s.html#a2ad83c71a48f1a9378a88588570a8476">nsh</a></td></tr>
 <tr class="memdesc:a2ad83c71a48f1a9378a88588570a8476"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of shapes  <a href="#a2ad83c71a48f1a9378a88588570a8476">More...</a><br /></td></tr>
 <tr class="separator:a2ad83c71a48f1a9378a88588570a8476"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77109f9389978c2947a08604d2f444bd"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_mini_bubble_l_d_s.html#a77109f9389978c2947a08604d2f444bd">p</a></td></tr>
-<tr class="memdesc:a77109f9389978c2947a08604d2f444bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">order  <a href="#a77109f9389978c2947a08604d2f444bd">More...</a><br /></td></tr>
-<tr class="separator:a77109f9389978c2947a08604d2f444bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
-<tr class="memitem:ae7fefb5a8466764333cbf331aa15b737"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_mini_bubble_l_d_s.html#ae7fefb5a8466764333cbf331aa15b737">refDim</a> = <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#ga425548c7b0fe054612f37d1f3a4826b6">TRefElem::dim</a></td></tr>
+<tr class="memitem:ae7fefb5a8466764333cbf331aa15b737"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_mini_bubble_l_d_s.html#ae7fefb5a8466764333cbf331aa15b737">refDim</a> = <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#ga425548c7b0fe054612f37d1f3a4826b6">TRefElem::dim</a></td></tr>
 <tr class="memdesc:ae7fefb5a8466764333cbf331aa15b737"><td class="mdescLeft">&#160;</td><td class="mdescRight">dimension of reference element  <a href="#ae7fefb5a8466764333cbf331aa15b737">More...</a><br /></td></tr>
 <tr class="separator:ae7fefb5a8466764333cbf331aa15b737"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -384,6 +381,7 @@ template&lt;typename TRefElem&gt; </div>
 </div><div class="memdoc">
 
 <p>association to elements </p>
+<p>order size_t p; </p>
 
 <p>Referenced by <a class="el" href="classug_1_1_mini_bubble_l_d_s.html#a6bfded96868c7cd99c284a1b103ca45e">ug::MiniBubbleLDS&lt; ReferenceQuadrilateral &gt;::local_dof()</a>, and <a class="el" href="classug_1_1_mini_bubble_l_d_s.html#a6ecfe1ececa31e3c706d28d8de23201f">ug::MiniBubbleLDS&lt; ReferenceQuadrilateral &gt;::MiniBubbleLDS()</a>.</p>
 
@@ -417,32 +415,6 @@ template&lt;typename TRefElem&gt; </div>
 
 </div>
 </div>
-<a id="a77109f9389978c2947a08604d2f444bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a77109f9389978c2947a08604d2f444bd">&sect;&nbsp;</a></span>p</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename TRefElem&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t <a class="el" href="classug_1_1_mini_bubble_l_d_s.html">ug::MiniBubbleLDS</a>&lt; TRefElem &gt;::p</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>order </p>
-
-</div>
-</div>
 <a id="ae7fefb5a8466764333cbf331aa15b737"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae7fefb5a8466764333cbf331aa15b737">&sect;&nbsp;</a></span>refDim</h2>
 
@@ -455,7 +427,7 @@ template&lt;typename TRefElem&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const int <a class="el" href="classug_1_1_mini_bubble_l_d_s.html">ug::MiniBubbleLDS</a>&lt; TRefElem &gt;::refDim = <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#ga425548c7b0fe054612f37d1f3a4826b6">TRefElem::dim</a></td>
+          <td class="memname">const int <a class="el" href="classug_1_1_mini_bubble_l_d_s.html">ug::MiniBubbleLDS</a>&lt; TRefElem &gt;::refDim = <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#ga425548c7b0fe054612f37d1f3a4826b6">TRefElem::dim</a></td>
         </tr>
       </table>
   </td>
@@ -478,7 +450,7 @@ template&lt;typename TRefElem&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_mini_bubble_l_d_s.html">MiniBubbleLDS</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:37 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:09:18 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

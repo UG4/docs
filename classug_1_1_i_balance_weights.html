@@ -90,11 +90,11 @@ $(document).ready(function(){initNavTree('classug_1_1_i_balance_weights.html',''
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classug_1_1_i_balance_weights-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">ug::IBalanceWeights Class Reference<div class="ingroups"><a class="el" href="group__lib__grid.html">lib_grid</a> &raquo; <a class="el" href="group__lib__grid__parallelization.html">parallelization</a> &raquo; <a class="el" href="group__lib__grid__parallelization__distribution.html">parallel distribution</a></div></div>  </div>
+<div class="title">ug::IBalanceWeights Class Reference<div class="ingroups"><a class="el" href="group__lib__grid__parallelization__distribution.html">Lib_grid_parallelization_distribution</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="load__balancer_8h_source.html">load_balancer.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="partitioner_8h_source.html">partitioner.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for ug::IBalanceWeights:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -329,6 +329,8 @@ Public Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classug_1_1_balance_weights_ref_marks.html#ab40cfa59c86eab0e128d0a029e05d023">ug::BalanceWeightsRefMarks</a>.</p>
 
+<p>References <a class="el" href="classug_1_1_i_balance_weights.html#a806e344f8083a75fd4ebc580aa620c45">get_weight()</a>.</p>
+
 <p>Referenced by <a class="el" href="classug_1_1_partitioner___dynamic_bisection.html#a5536888c7b7cf0f9de1b02818dc0b381">ug::Partitioner_DynamicBisection&lt; TElem, dim &gt;::gather_weights_from_level()</a>.</p>
 
 </div>
@@ -358,6 +360,8 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="classug_1_1_balance_weights_ref_marks.html#a910dc1f7b38e96da47c7a77289934517">ug::BalanceWeightsRefMarks</a>.</p>
+
+<p>References <a class="el" href="classug_1_1_i_balance_weights.html#a806e344f8083a75fd4ebc580aa620c45">get_weight()</a>.</p>
 
 </div>
 </div>
@@ -389,6 +393,8 @@ Public Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classug_1_1_balance_weights_ref_marks.html#aad9b2a2ddbd8e7f659e11d59ffa4c94e">ug::BalanceWeightsRefMarks</a>.</p>
 
+<p>References <a class="el" href="classug_1_1_i_balance_weights.html#a806e344f8083a75fd4ebc580aa620c45">get_weight()</a>.</p>
+
 </div>
 </div>
 <a id="a68484e24f7d13d2eb04ef1395ddc7f8f"></a>
@@ -419,6 +425,8 @@ Public Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classug_1_1_balance_weights_ref_marks.html#a24260a9906c618f05bafafd4a6571da4">ug::BalanceWeightsRefMarks</a>.</p>
 
+<p>References <a class="el" href="classug_1_1_i_balance_weights.html#a806e344f8083a75fd4ebc580aa620c45">get_weight()</a>.</p>
+
 </div>
 </div>
 <a id="a806e344f8083a75fd4ebc580aa620c45"></a>
@@ -445,9 +453,9 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classug_1_1_anisotropic_balance_weights.html#acb4a75ca4d599d82f87c59337beb0635">ug::AnisotropicBalanceWeights&lt; dim &gt;</a>, <a class="el" href="classug_1_1_std_balance_weights.html#a1bf0314fb98ea4c463b8f97274c05fbd">ug::StdBalanceWeights</a>, and <a class="el" href="classug_1_1_balance_weights_lua_callback.html#a281d7f7794b4372a769181f8fc8bb6c6">ug::BalanceWeightsLuaCallback&lt; TDomain &gt;</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_balance_weights_lua_callback.html#a281d7f7794b4372a769181f8fc8bb6c6">ug::BalanceWeightsLuaCallback&lt; TDomain &gt;</a>, <a class="el" href="classug_1_1_anisotropic_balance_weights.html#acb4a75ca4d599d82f87c59337beb0635">ug::AnisotropicBalanceWeights&lt; dim &gt;</a>, and <a class="el" href="classug_1_1_std_balance_weights.html#a1bf0314fb98ea4c463b8f97274c05fbd">ug::StdBalanceWeights</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_load_balancer.html#a57b4a64c857aa4514e3691d88cc0b711">ug::LoadBalancer::estimate_distribution_quality_impl()</a>, <a class="el" href="classug_1_1_partitioner___dynamic_bisection.html#a5536888c7b7cf0f9de1b02818dc0b381">ug::Partitioner_DynamicBisection&lt; TElem, dim &gt;::gather_weights_from_level()</a>, and <a class="el" href="classug_1_1_balance_weights_ref_marks.html#ab40cfa59c86eab0e128d0a029e05d023">ug::BalanceWeightsRefMarks::get_refined_weight()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_load_balancer.html#a57b4a64c857aa4514e3691d88cc0b711">ug::LoadBalancer::estimate_distribution_quality_impl()</a>, <a class="el" href="classug_1_1_partitioner___dynamic_bisection.html#a5536888c7b7cf0f9de1b02818dc0b381">ug::Partitioner_DynamicBisection&lt; TElem, dim &gt;::gather_weights_from_level()</a>, <a class="el" href="classug_1_1_balance_weights_ref_marks.html#ab40cfa59c86eab0e128d0a029e05d023">ug::BalanceWeightsRefMarks::get_refined_weight()</a>, <a class="el" href="classug_1_1_i_balance_weights.html#ac3095c1328b5509b8eeca4878b7cde11">get_refined_weight()</a>, and <a class="el" href="classug_1_1_i_communication_weights.html#a3325108b728f7386a9991209e93ab564">ug::ICommunicationWeights::~ICommunicationWeights()</a>.</p>
 
 </div>
 </div>
@@ -475,7 +483,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classug_1_1_anisotropic_balance_weights.html#a4213cedf26fdd3954ae4fc17681bd7b2">ug::AnisotropicBalanceWeights&lt; dim &gt;</a>, <a class="el" href="classug_1_1_std_balance_weights.html#a9d09a8759e61dc553aea1b98555d45c3">ug::StdBalanceWeights</a>, and <a class="el" href="classug_1_1_balance_weights_lua_callback.html#a50d4095a39195838df84e604279ff1cc">ug::BalanceWeightsLuaCallback&lt; TDomain &gt;</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_balance_weights_lua_callback.html#a50d4095a39195838df84e604279ff1cc">ug::BalanceWeightsLuaCallback&lt; TDomain &gt;</a>, <a class="el" href="classug_1_1_anisotropic_balance_weights.html#a4213cedf26fdd3954ae4fc17681bd7b2">ug::AnisotropicBalanceWeights&lt; dim &gt;</a>, and <a class="el" href="classug_1_1_std_balance_weights.html#a9d09a8759e61dc553aea1b98555d45c3">ug::StdBalanceWeights</a>.</p>
 
 </div>
 </div>
@@ -503,7 +511,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classug_1_1_anisotropic_balance_weights.html#ac33d911967b7900aeb2e37d34e4f1cf2">ug::AnisotropicBalanceWeights&lt; dim &gt;</a>, <a class="el" href="classug_1_1_std_balance_weights.html#af2a00d0ed78fad9b4e35fa7a842a81ff">ug::StdBalanceWeights</a>, and <a class="el" href="classug_1_1_balance_weights_lua_callback.html#a86cf92d7d4bfa9914a79bb4585c47f61">ug::BalanceWeightsLuaCallback&lt; TDomain &gt;</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_balance_weights_lua_callback.html#a86cf92d7d4bfa9914a79bb4585c47f61">ug::BalanceWeightsLuaCallback&lt; TDomain &gt;</a>, <a class="el" href="classug_1_1_anisotropic_balance_weights.html#ac33d911967b7900aeb2e37d34e4f1cf2">ug::AnisotropicBalanceWeights&lt; dim &gt;</a>, and <a class="el" href="classug_1_1_std_balance_weights.html#af2a00d0ed78fad9b4e35fa7a842a81ff">ug::StdBalanceWeights</a>.</p>
 
 </div>
 </div>
@@ -531,7 +539,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classug_1_1_anisotropic_balance_weights.html#add01b39d2c5680f60f2001e6860d0c62">ug::AnisotropicBalanceWeights&lt; dim &gt;</a>, <a class="el" href="classug_1_1_std_balance_weights.html#ae024e4ebb47821447bac493d48e55bb7">ug::StdBalanceWeights</a>, and <a class="el" href="classug_1_1_balance_weights_lua_callback.html#ae9430da9290f31011f57c4c34dcc652a">ug::BalanceWeightsLuaCallback&lt; TDomain &gt;</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_balance_weights_lua_callback.html#ae9430da9290f31011f57c4c34dcc652a">ug::BalanceWeightsLuaCallback&lt; TDomain &gt;</a>, <a class="el" href="classug_1_1_anisotropic_balance_weights.html#add01b39d2c5680f60f2001e6860d0c62">ug::AnisotropicBalanceWeights&lt; dim &gt;</a>, and <a class="el" href="classug_1_1_std_balance_weights.html#ae024e4ebb47821447bac493d48e55bb7">ug::StdBalanceWeights</a>.</p>
 
 </div>
 </div>
@@ -593,7 +601,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>ugbase/lib_grid/parallelization/<a class="el" href="load__balancer_8h_source.html">load_balancer.h</a></li>
+<li>ugbase/lib_grid/parallelization/<a class="el" href="partitioner_8h_source.html">partitioner.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -601,7 +609,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_i_balance_weights.html">IBalanceWeights</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:29 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:09:07 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

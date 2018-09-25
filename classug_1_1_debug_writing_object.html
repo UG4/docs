@@ -112,11 +112,12 @@ $(document).ready(function(){initNavTree('classug_1_1_debug_writing_object.html'
 <area href="classug_1_1_i_preconditioner.html" title="describes a linear iterator that is based on a matrix operator " alt="ug::IPreconditioner&lt; TAlgebra &gt;" shape="rect" coords="571,224,1132,248"/>
 <area href="classug_1_1_i_transforming_iteration.html" alt="ug::ITransformingIteration&lt; TAlgebra, TDerived &gt;" shape="rect" coords="571,280,1132,304"/>
 <area href="classug_1_1_local_schur_complement.html" title="operator implementation of the local Schur complement " alt="ug::LocalSchurComplement&lt; TAlgebra &gt;" shape="rect" coords="571,336,1132,360"/>
-<area href="classug_1_1_newton_solver.html" title="Newton solver for assembling based discretizations. " alt="ug::NewtonSolver&lt; TAlgebra &gt;" shape="rect" coords="571,392,1132,416"/>
-<area href="classug_1_1_n_l_gauss_seidel_solver.html" title="Nonlinear GaussSeidel-method. " alt="ug::NLGaussSeidelSolver&lt; TDomain, TAlgebra &gt;" shape="rect" coords="571,448,1132,472"/>
-<area href="classug_1_1_n_l_jacobi_solver.html" title="Nonlinear Jacobi-method. " alt="ug::NLJacobiSolver&lt; TAlgebra &gt;" shape="rect" coords="571,504,1132,528"/>
-<area href="classug_1_1_p_i_n_v_i_t.html" alt="ug::PINVIT&lt; TAlgebra &gt;" shape="rect" coords="571,560,1132,584"/>
-<area href="classug_1_1_primal_subassembled_matrix_inverse.html" title="operator implementation of the inverse of the Schur complement w.r.t. the &quot;Delta unknowns&quot; ..." alt="ug::PrimalSubassembledMatrixInverse&lt; TAlgebra &gt;" shape="rect" coords="571,616,1132,640"/>
+<area href="classug_1_1_nested_iteration_solver.html" title="Nested iteration solver (e.g. for full multigrid) " alt="ug::NestedIterationSolver&lt; TDomain, TAlgebra &gt;" shape="rect" coords="571,392,1132,416"/>
+<area href="classug_1_1_newton_solver.html" title="Newton solver for assembling based discretizations. " alt="ug::NewtonSolver&lt; TAlgebra &gt;" shape="rect" coords="571,448,1132,472"/>
+<area href="classug_1_1_n_l_gauss_seidel_solver.html" title="Nonlinear GaussSeidel-method. " alt="ug::NLGaussSeidelSolver&lt; TDomain, TAlgebra &gt;" shape="rect" coords="571,504,1132,528"/>
+<area href="classug_1_1_n_l_jacobi_solver.html" title="Nonlinear Jacobi-method. " alt="ug::NLJacobiSolver&lt; TAlgebra &gt;" shape="rect" coords="571,560,1132,584"/>
+<area href="classug_1_1_p_i_n_v_i_t.html" alt="ug::PINVIT&lt; TAlgebra &gt;" shape="rect" coords="571,616,1132,640"/>
+<area href="classug_1_1_primal_subassembled_matrix_inverse.html" title="operator implementation of the inverse of the Schur complement w.r.t. the &quot;Delta unknowns&quot; ..." alt="ug::PrimalSubassembledMatrixInverse&lt; TAlgebra &gt;" shape="rect" coords="571,672,1132,696"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -452,7 +453,7 @@ template&lt;typename TAlgebra&gt; </div>
 
 <p>set debug writer </p>
 
-<p>Reimplemented in <a class="el" href="classug_1_1_f_e_t_i_solver.html#a7cb1588b75ac925655b46979a5448185">ug::FETISolver&lt; TAlgebra &gt;</a>, and <a class="el" href="classug_1_1_schur_precond.html#aeac89f33e1bc79609567905f060fe3a5">ug::SchurPrecond&lt; TAlgebra &gt;</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_f_e_t_i_solver.html#a7cb1588b75ac925655b46979a5448185">ug::FETISolver&lt; TAlgebra &gt;</a>, <a class="el" href="classug_1_1_uzawa_base.html#a50381481a4f9b896b3732fad28a2535d">ug::UzawaBase&lt; TDomain, TAlgebra &gt;</a>, and <a class="el" href="classug_1_1_schur_precond.html#aeac89f33e1bc79609567905f060fe3a5">ug::SchurPrecond&lt; TAlgebra &gt;</a>.</p>
 
 <p>Referenced by <a class="el" href="classug_1_1_schur_precond.html#aeac89f33e1bc79609567905f060fe3a5">ug::SchurPrecond&lt; TAlgebra &gt;::set_debug()</a>.</p>
 
@@ -498,7 +499,7 @@ template&lt;typename TAlgebra&gt; </div>
 
 <p>Reimplemented in <a class="el" href="classug_1_1_n_l_gauss_seidel_solver.html#a41807404efb8d97809d82c900a654c0e">ug::NLGaussSeidelSolver&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_newton_solver.html#ad0ab66cd85488b2b315379e9e83fb14d">ug::NewtonSolver&lt; TAlgebra &gt;</a>, and <a class="el" href="classug_1_1_n_l_jacobi_solver.html#a082177a5f4e31131d84335c791f71580">ug::NLJacobiSolver&lt; TAlgebra &gt;</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_assembled_transforming_smoother.html#a6d48f31e63ca786e8e694a3bab9bc30d">ug::AssembledTransformingSmoother&lt; TDomain, TAlgebra &gt;::init()</a>, <a class="el" href="classug_1_1_i_l_u.html#a5952ebace9335bc3c223eec6cb6fe9dd">ug::ILU&lt; TAlgebra &gt;::preprocess()</a>, <a class="el" href="classug_1_1_i_l_u_t_preconditioner.html#a2da4356730405e22390b6dd62a8b4361">ug::ILUTPreconditioner&lt; ug::CPUAlgebra &gt;::preprocess_mat2()</a>, <a class="el" href="classug_1_1_i_l_u.html#aa996dcc25fe8253a80ea70410ffcb333">ug::ILU&lt; TAlgebra &gt;::step()</a>, <a class="el" href="classug_1_1_n_l_jacobi_solver.html#ac220e3df2a5c98e9991b34f9ccf714d4">ug::NLJacobiSolver&lt; TAlgebra &gt;::write_debug()</a>, and <a class="el" href="classug_1_1_n_l_gauss_seidel_solver.html#af033657f847b48e0667cbed13aa64584">ug::NLGaussSeidelSolver&lt; TDomain, TAlgebra &gt;::write_debug()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_nested_iteration_solver.html#a5e082392b407690032e0c01ee2c91db7">ug::NestedIterationSolver&lt; TDomain, TAlgebra &gt;::apply()</a>, <a class="el" href="classug_1_1_assembled_transforming_smoother.html#a6d48f31e63ca786e8e694a3bab9bc30d">ug::AssembledTransformingSmoother&lt; TDomain, TAlgebra &gt;::init()</a>, <a class="el" href="classug_1_1_i_l_u_t_preconditioner.html#a2da4356730405e22390b6dd62a8b4361">ug::ILUTPreconditioner&lt; ug::CPUAlgebra &gt;::preprocess_mat2()</a>, <a class="el" href="classug_1_1_n_l_jacobi_solver.html#ac220e3df2a5c98e9991b34f9ccf714d4">ug::NLJacobiSolver&lt; TAlgebra &gt;::write_debug()</a>, and <a class="el" href="classug_1_1_n_l_gauss_seidel_solver.html#af033657f847b48e0667cbed13aa64584">ug::NLGaussSeidelSolver&lt; TDomain, TAlgebra &gt;::write_debug()</a>.</p>
 
 </div>
 </div>
@@ -538,7 +539,7 @@ template&lt;typename TAlgebra&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_debug_writing_object.html">DebugWritingObject</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:20 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:08:56 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

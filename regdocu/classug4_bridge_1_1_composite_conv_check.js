@@ -15,7 +15,8 @@ var classug4_bridge_1_1_composite_conv_check =
     [ "set_level", "classug4_bridge_1_1_composite_conv_check.html#afa25ec06918853aa5f22f51d9d602707", null ],
     [ "set_maximum_steps", "classug4_bridge_1_1_composite_conv_check.html#ae48ac07ce50781d4a94e32d27b16fa2a", null ],
     [ "set_rest_check", "classug4_bridge_1_1_composite_conv_check.html#ada1c79274a999a9a78d41d8c55fa526a", null ],
+    [ "set_supress_unsuccessful", "classug4_bridge_1_1_composite_conv_check.html#ad5defd821776a6c1202b6add6a65de41", null ],
     [ "set_time_measurement", "classug4_bridge_1_1_composite_conv_check.html#af1ea04d3ec69fe5c8beaa7b511094b04", null ],
-    [ "set_verbose", "classug4_bridge_1_1_composite_conv_check.html#acc9ffd048b56ed2eece68b2a456bf1e4", null ],
+    [ "set_verbose", "classug4_bridge_1_1_composite_conv_check.html#a0e365229b6795807770272676801b642", null ],
     [ "step", "classug4_bridge_1_1_composite_conv_check.html#a75afbe1585953980c7097f6c6181263b", null ]
 ];

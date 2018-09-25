@@ -1,0 +1,4 @@
+var classug4_bridge_1_1_spatial_disc_1_1_electromagnetism_1_1_eddy_current_im_bof_e_user_data =
+[
+    [ "EddyCurrentImBofEUserData", "classug4_bridge_1_1_spatial_disc_1_1_electromagnetism_1_1_eddy_current_im_bof_e_user_data.html#ad0091667bdd8f6bb4aa92095c416355f", null ]
+];

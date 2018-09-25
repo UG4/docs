@@ -124,6 +124,8 @@ Functions</h2></td></tr>
 <tr class="separator:a18620d377fc7a33031b53fd1322b6ffd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5e776f8e799b9b593f47f41298fc6a2"><td class="memItemLeft" align="right" valign="top">function util&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="command__line__util_8lua.html#af5e776f8e799b9b593f47f41298fc6a2">GetUniqueFilenameFromCommandLine</a> ()</td></tr>
 <tr class="separator:af5e776f8e799b9b593f47f41298fc6a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72c1ebcda5128aeb4b82763bb9afec69"><td class="memItemLeft" align="right" valign="top">function util&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="command__line__util_8lua.html#a72c1ebcda5128aeb4b82763bb9afec69">GetUserParameters</a> (params, descriptors)</td></tr>
+<tr class="separator:a72c1ebcda5128aeb4b82763bb9afec69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29339c42d45704a255eb8d6949bcb3d1"><td class="memItemLeft" align="right" valign="top">function util&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="command__line__util_8lua.html#a29339c42d45704a255eb8d6949bcb3d1">HasParamOption</a> (name, description)</td></tr>
 <tr class="separator:a29339c42d45704a255eb8d6949bcb3d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac5f25de48621ad0132065088ccb6e38"><td class="memItemLeft" align="right" valign="top">function util&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="command__line__util_8lua.html#aac5f25de48621ad0132065088ccb6e38">PrintArguments</a> ()</td></tr>
@@ -178,7 +180,7 @@ Variables</h2></td></tr>
   </table>
   </dd>
 </dl>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :369-376 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.CheckAndPrintHelp(desc)</div><div class="line">  <span class="keywordflow">if</span> util.HasParamOption(<span class="stringliteral">&quot;-help&quot;</span>, <span class="stringliteral">&quot;print this help&quot;</span>) then</div><div class="line">    <span class="keywordflow">if</span> desc ~= nil then <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(desc) end</div><div class="line">    <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>()     </div><div class="line">    util.<a class="code" href="command__line__util_8lua.html#a358772e55e8f56cf370b8036518132cc">PrintHelp</a>()</div><div class="line">    exit()</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :369-376 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.CheckAndPrintHelp(desc)</div><div class="line">  <span class="keywordflow">if</span> util.HasParamOption(<span class="stringliteral">&quot;-help&quot;</span>, <span class="stringliteral">&quot;print this help&quot;</span>) then</div><div class="line">    <span class="keywordflow">if</span> desc ~= nil then <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(desc) end</div><div class="line">    <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>()     </div><div class="line">    util.<a class="code" href="command__line__util_8lua.html#a358772e55e8f56cf370b8036518132cc">PrintHelp</a>()</div><div class="line">    exit()</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="a3e9b77528f740d0d741a61089689420b"></a>
@@ -203,7 +205,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the parameter was found, false if not</dd></dl>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :316-324 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.CheckForParam(name)</div><div class="line">  <span class="keywordflow">for</span> i = 1, ugargc <span class="keywordflow">do</span></div><div class="line">    <span class="keywordflow">if</span> ugargv[i] == name then</div><div class="line">      <span class="keywordflow">return</span> <span class="keyword">true</span></div><div class="line">    end   </div><div class="line">  end </div><div class="line">  </div><div class="line">  <span class="keywordflow">return</span> <span class="keyword">false</span> </div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :316-324 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.CheckForParam(name)</div><div class="line">  <span class="keywordflow">for</span> i = 1, ugargc <span class="keywordflow">do</span></div><div class="line">    <span class="keywordflow">if</span> ugargv[i] == name then</div><div class="line">      <span class="keywordflow">return</span> <span class="keyword">true</span></div><div class="line">    end   </div><div class="line">  end </div><div class="line">  </div><div class="line">  <span class="keywordflow">return</span> <span class="keyword">false</span> </div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="abeba7905ae34df0a16732ca38ad05201"></a>
@@ -237,7 +239,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :76-83 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.CheckOptionsType(name, options, atype)</div><div class="line">   <span class="keywordflow">if</span> options ~= nil then</div><div class="line">    <span class="keywordflow">for</span> i=1,#options <span class="keywordflow">do</span></div><div class="line">      <a class="code" href="debug__util_8lua.html#a2f4bb62e4f0dc89b8c09f249e80c4ad7">ug_assert</a>(type(options[i]) == atype, <span class="stringliteral">&quot;ERROR in util.GetParam: passed option &#39;&quot;</span>..options[i]..</div><div class="line">              <span class="stringliteral">&quot;&#39; for &#39;&quot;</span>..name..<span class="stringliteral">&quot;&#39; not a &quot;</span>..atype)</div><div class="line">    end</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :76-83 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.CheckOptionsType(name, options, atype)</div><div class="line">   <span class="keywordflow">if</span> options ~= nil then</div><div class="line">    <span class="keywordflow">for</span> i=1,#options <span class="keywordflow">do</span></div><div class="line">      <a class="code" href="debug__util_8lua.html#a2f4bb62e4f0dc89b8c09f249e80c4ad7">ug_assert</a>(type(options[i]) == atype, <span class="stringliteral">&quot;ERROR in util.GetParam: passed option &#39;&quot;</span>..options[i]..</div><div class="line">              <span class="stringliteral">&quot;&#39; for &#39;&quot;</span>..name..<span class="stringliteral">&quot;&#39; not a &quot;</span>..atype)</div><div class="line">    end</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="af95a2237612326ac54d54a393c13e357"></a>
@@ -271,7 +273,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :85-97 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.CheckOptionsValue(name, value, options)</div><div class="line">  <span class="keywordflow">if</span> options ~= nil then</div><div class="line">    local bValid = <span class="keyword">false</span></div><div class="line">    <span class="keywordflow">for</span> i=1,#options <span class="keywordflow">do</span></div><div class="line">      <span class="keywordflow">if</span> value == options[i] then bValid = <span class="keyword">true</span>; end</div><div class="line">    end</div><div class="line">    local s = <span class="stringliteral">&quot;&quot;</span></div><div class="line">    local minname, <a class="code" href="group__scripts__util__table.html#ga2f58bf3895502a410d3489d7cc182a78">imin</a> = <a class="code" href="command__line__util_8lua.html#a632f7b27bcdd948950bad048537c6d65">GetMinLevenshteinDistanceOfValue</a>(value, options)</div><div class="line">    <span class="keywordflow">if</span> imin &lt; 5 then s = <span class="stringliteral">&quot;\nDid you mean &#39;&quot;</span>..minname..<span class="stringliteral">&quot;&#39; ?&quot;</span> end</div><div class="line">    <a class="code" href="debug__util_8lua.html#a2f4bb62e4f0dc89b8c09f249e80c4ad7">ug_assert</a>(bValid, <span class="stringliteral">&quot;ERROR in util.GetParam: passed value &#39;&quot;</span>..value..<span class="stringliteral">&quot;&#39; for &#39;&quot;</span></div><div class="line">        ..name..<span class="stringliteral">&quot;&#39; not contained in options:&quot;</span>..util.ConcatOptions(options)..s)</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :85-97 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.CheckOptionsValue(name, value, options)</div><div class="line">  <span class="keywordflow">if</span> options ~= nil then</div><div class="line">    local bValid = <span class="keyword">false</span></div><div class="line">    <span class="keywordflow">for</span> i=1,#options <span class="keywordflow">do</span></div><div class="line">      <span class="keywordflow">if</span> value == options[i] then bValid = <span class="keyword">true</span>; end</div><div class="line">    end</div><div class="line">    local s = <span class="stringliteral">&quot;&quot;</span></div><div class="line">    local minname, <a class="code" href="group__scripts__util__table.html#ga2f58bf3895502a410d3489d7cc182a78">imin</a> = <a class="code" href="command__line__util_8lua.html#a632f7b27bcdd948950bad048537c6d65">GetMinLevenshteinDistanceOfValue</a>(value, options)</div><div class="line">    <span class="keywordflow">if</span> imin &lt; 5 then s = <span class="stringliteral">&quot;\nDid you mean &#39;&quot;</span>..minname..<span class="stringliteral">&quot;&#39; ?&quot;</span> end</div><div class="line">    <a class="code" href="debug__util_8lua.html#a2f4bb62e4f0dc89b8c09f249e80c4ad7">ug_assert</a>(bValid, <span class="stringliteral">&quot;ERROR in util.GetParam: passed value &#39;&quot;</span>..value..<span class="stringliteral">&quot;&#39; for &#39;&quot;</span></div><div class="line">        ..name..<span class="stringliteral">&quot;&#39; not contained in options:&quot;</span>..util.ConcatOptions(options)..s)</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="ac71258f39fe9ae00c634cd40a3cdae1d"></a>
@@ -289,7 +291,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :63-74 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.ConcatOptions(options)</div><div class="line">  local sOpt = <span class="stringliteral">&quot;&quot;</span></div><div class="line">  <span class="keywordflow">if</span> options ~= nil then</div><div class="line">    sOpt = <span class="stringliteral">&quot; [&quot;</span></div><div class="line">    <span class="keywordflow">for</span> i=1,#options <span class="keywordflow">do</span></div><div class="line">      <span class="keywordflow">if</span> i &gt; 1 then sOpt = sOpt..<span class="stringliteral">&quot; | &quot;</span> end</div><div class="line">      sOpt = sOpt..options[i]</div><div class="line">    end</div><div class="line">    sOpt = sOpt..<span class="stringliteral">&quot;]&quot;</span></div><div class="line">  end</div><div class="line">  <span class="keywordflow">return</span> sOpt</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :63-74 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.ConcatOptions(options)</div><div class="line">  local sOpt = <span class="stringliteral">&quot;&quot;</span></div><div class="line">  <span class="keywordflow">if</span> options ~= nil then</div><div class="line">    sOpt = <span class="stringliteral">&quot; [&quot;</span></div><div class="line">    <span class="keywordflow">for</span> i=1,#options <span class="keywordflow">do</span></div><div class="line">      <span class="keywordflow">if</span> i &gt; 1 then sOpt = sOpt..<span class="stringliteral">&quot; | &quot;</span> end</div><div class="line">      sOpt = sOpt..options[i]</div><div class="line">    end</div><div class="line">    sOpt = sOpt..<span class="stringliteral">&quot;]&quot;</span></div><div class="line">  end</div><div class="line">  <span class="keywordflow">return</span> sOpt</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="a9aa7074b21fce91030a0ce5f6b19757a"></a>
@@ -307,7 +309,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>returns all arguments from the command line</p>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :328-334 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.GetCommandLine()</div><div class="line">  local pline = <span class="stringliteral">&quot;&quot;</span></div><div class="line">  <span class="keywordflow">for</span> i=1, ugargc <span class="keywordflow">do</span></div><div class="line">    pline = pline..ugargv[i]..<span class="stringliteral">&quot; &quot;</span></div><div class="line">  end</div><div class="line">  <span class="keywordflow">return</span> pline</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :328-334 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.GetCommandLine()</div><div class="line">  local pline = <span class="stringliteral">&quot;&quot;</span></div><div class="line">  <span class="keywordflow">for</span> i=1, ugargc <span class="keywordflow">do</span></div><div class="line">    pline = pline..ugargv[i]..<span class="stringliteral">&quot; &quot;</span></div><div class="line">  end</div><div class="line">  <span class="keywordflow">return</span> pline</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="a068d9f0f3edc82b968777160480b9946"></a>
@@ -336,7 +338,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>name, distance of the index of the table 'list' which is most equal to str</dd></dl>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :36-47 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="command__line__util_8lua.html#a068d9f0f3edc82b968777160480b9946">GetMinLevenshteinDistanceOfIndex</a>(str, list)</div><div class="line">  local imin=10</div><div class="line">  local namemin=<span class="stringliteral">&quot;&quot;</span></div><div class="line">  <span class="keywordflow">for</span> i,v in pairs(list) <span class="keywordflow">do</span></div><div class="line">    local d = <a class="code" href="namespaceug.html#a49cf9d9805cb2982a139a2109dc78756">LevenshteinDistance</a>(str, i)</div><div class="line">    <span class="keywordflow">if</span> d &lt; imin then</div><div class="line">      imin = d</div><div class="line">      namemin = i</div><div class="line">    end</div><div class="line">  end</div><div class="line">  <span class="keywordflow">return</span> namemin, imin</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :36-47 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="command__line__util_8lua.html#a068d9f0f3edc82b968777160480b9946">GetMinLevenshteinDistanceOfIndex</a>(str, list)</div><div class="line">  local imin=10</div><div class="line">  local namemin=<span class="stringliteral">&quot;&quot;</span></div><div class="line">  <span class="keywordflow">for</span> i,v in pairs(list) <span class="keywordflow">do</span></div><div class="line">    local d = <a class="code" href="namespaceug.html#a49cf9d9805cb2982a139a2109dc78756">LevenshteinDistance</a>(str, i)</div><div class="line">    <span class="keywordflow">if</span> d &lt; imin then</div><div class="line">      imin = d</div><div class="line">      namemin = i</div><div class="line">    end</div><div class="line">  end</div><div class="line">  <span class="keywordflow">return</span> namemin, imin</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="a632f7b27bcdd948950bad048537c6d65"></a>
@@ -365,7 +367,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>name, distance of the value of the table 'list' which is most equal to str</dd></dl>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :50-61 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="command__line__util_8lua.html#a632f7b27bcdd948950bad048537c6d65">GetMinLevenshteinDistanceOfValue</a>(str, list)</div><div class="line">  local imin=10</div><div class="line">  local namemin=<span class="stringliteral">&quot;&quot;</span></div><div class="line">  <span class="keywordflow">for</span> i,v in pairs(list) <span class="keywordflow">do</span></div><div class="line">    local d = <a class="code" href="namespaceug.html#a49cf9d9805cb2982a139a2109dc78756">LevenshteinDistance</a>(str, v)</div><div class="line">    <span class="keywordflow">if</span> d &lt; imin then</div><div class="line">      imin = d</div><div class="line">      namemin = v</div><div class="line">    end</div><div class="line">  end</div><div class="line">  <span class="keywordflow">return</span> namemin, imin</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :50-61 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="command__line__util_8lua.html#a632f7b27bcdd948950bad048537c6d65">GetMinLevenshteinDistanceOfValue</a>(str, list)</div><div class="line">  local imin=10</div><div class="line">  local namemin=<span class="stringliteral">&quot;&quot;</span></div><div class="line">  <span class="keywordflow">for</span> i,v in pairs(list) <span class="keywordflow">do</span></div><div class="line">    local d = <a class="code" href="namespaceug.html#a49cf9d9805cb2982a139a2109dc78756">LevenshteinDistance</a>(str, v)</div><div class="line">    <span class="keywordflow">if</span> d &lt; imin then</div><div class="line">      imin = d</div><div class="line">      namemin = v</div><div class="line">    end</div><div class="line">  end</div><div class="line">  <span class="keywordflow">return</span> namemin, imin</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="a63b1d74a181e06827e92032e362b1740"></a>
@@ -422,7 +424,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>parameter in ugargv after ugargv[i] == name or default if 'name' was not present</dd></dl>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :110-161 </p>
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :110-161 </p>
 
 </div>
 </div>
@@ -465,7 +467,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the number after the parameter 'name' or default if 'name' was not present/no number unlike util.HasParamOption , you must specify a value for your optionn, like -useAMG 1 possible values are (false): 0, n, false, (true) 1, y, j, true</dd></dl>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :239-251 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.GetParamBool(name, <span class="keywordflow">default</span>, description)</div><div class="line"></div><div class="line">  local r = util.GetParam(name, <a class="code" href="output__util_8lua.html#af0f8937e19fdbf7df4cc701d1c288fb7">tostring</a>(<span class="keywordflow">default</span>), description, nil, <span class="stringliteral">&quot;  (bool)  &quot;</span>)</div><div class="line">  </div><div class="line">  <span class="keywordflow">if</span> r == <span class="stringliteral">&quot;0&quot;</span> or r == <span class="stringliteral">&quot;false&quot;</span> or r == <span class="stringliteral">&quot;n&quot;</span> then</div><div class="line">    <span class="keywordflow">return</span> <span class="keyword">false</span></div><div class="line">  elseif r == <span class="stringliteral">&quot;1&quot;</span> or r == <span class="stringliteral">&quot;true&quot;</span> or r == <span class="stringliteral">&quot;y&quot;</span> or r == <span class="stringliteral">&quot;j&quot;</span> then</div><div class="line">    <span class="keywordflow">return</span> <span class="keyword">true</span></div><div class="line">  <span class="keywordflow">else</span></div><div class="line">    <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(<span class="stringliteral">&quot;ERROR in GetParamBool: passed &#39;&quot;</span>..r..<span class="stringliteral">&quot;&#39; for Parameter &#39;&quot;</span>..name..<span class="stringliteral">&quot;&#39; is not a bool.&quot;</span>)</div><div class="line">    exit();</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :239-251 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.GetParamBool(name, <span class="keywordflow">default</span>, description)</div><div class="line"></div><div class="line">  local r = util.GetParam(name, <a class="code" href="output__util_8lua.html#af0f8937e19fdbf7df4cc701d1c288fb7">tostring</a>(<span class="keywordflow">default</span>), description, nil, <span class="stringliteral">&quot;  (bool)  &quot;</span>)</div><div class="line">  </div><div class="line">  <span class="keywordflow">if</span> r == <span class="stringliteral">&quot;0&quot;</span> or r == <span class="stringliteral">&quot;false&quot;</span> or r == <span class="stringliteral">&quot;n&quot;</span> then</div><div class="line">    <span class="keywordflow">return</span> <span class="keyword">false</span></div><div class="line">  elseif r == <span class="stringliteral">&quot;1&quot;</span> or r == <span class="stringliteral">&quot;true&quot;</span> or r == <span class="stringliteral">&quot;y&quot;</span> or r == <span class="stringliteral">&quot;j&quot;</span> then</div><div class="line">    <span class="keywordflow">return</span> <span class="keyword">true</span></div><div class="line">  <span class="keywordflow">else</span></div><div class="line">    <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(<span class="stringliteral">&quot;ERROR in GetParamBool: passed &#39;&quot;</span>..r..<span class="stringliteral">&quot;&#39; for Parameter &#39;&quot;</span>..name..<span class="stringliteral">&quot;&#39; is not a bool.&quot;</span>)</div><div class="line">    exit();</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="a96213d40f669ea60dcba5f30450987a1"></a>
@@ -508,7 +510,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the number after the parameter 'name' or default if 'name' was not present/no number unlike util.HasParamOption , you must specify a value for your optionn, like -useAMG 1 possible values are (false): 0, n, false, (true) 1, y, j, true</dd></dl>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :261-282 </p>
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :261-282 </p>
 
 </div>
 </div>
@@ -558,7 +560,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the number after the parameter 'name' or default if 'name' was not present/no number</dd></dl>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :171-197 </p>
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :171-197 </p>
 
 </div>
 </div>
@@ -602,7 +604,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the number after the parameter 'name' or default if 'name' was not present/no number</dd></dl>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :206-230 </p>
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :206-230 </p>
 
 </div>
 </div>
@@ -620,7 +622,35 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :425-436 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.GetUniqueFilenameFromCommandLine()</div><div class="line">  local ret=<span class="stringliteral">&quot;&quot;</span></div><div class="line">  <span class="keywordflow">for</span> i = 1, ugargc <span class="keywordflow">do</span></div><div class="line">    ret = ret..<span class="stringliteral">&quot; &quot;</span>..ugargv[i]   </div><div class="line">  end</div><div class="line">  ret = <a class="code" href="group__misc__bridge.html#gaf622e5f382edd7a17132bf3ec87b0b01">FilenameStringEscape</a>(ret)</div><div class="line">  <span class="keywordflow">if</span> <a class="code" href="group__pcl.html#ga7a09a2eab069305ca735847eed023d2f">NumProcs</a>() &gt; 1 then</div><div class="line">    <span class="keywordflow">return</span> ret..<span class="stringliteral">&quot;_numProcs_&quot;</span>..<a class="code" href="group__pcl.html#ga7a09a2eab069305ca735847eed023d2f">NumProcs</a>()</div><div class="line">  else</div><div class="line">    return ret</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :425-436 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.GetUniqueFilenameFromCommandLine()</div><div class="line">  local ret=<span class="stringliteral">&quot;&quot;</span></div><div class="line">  <span class="keywordflow">for</span> i = 1, ugargc <span class="keywordflow">do</span></div><div class="line">    ret = ret..<span class="stringliteral">&quot; &quot;</span>..ugargv[i]   </div><div class="line">  end</div><div class="line">  ret = <a class="code" href="group__misc__bridge.html#gaf622e5f382edd7a17132bf3ec87b0b01">FilenameStringEscape</a>(ret)</div><div class="line">  <span class="keywordflow">if</span> <a class="code" href="group__pcl.html#ga7a09a2eab069305ca735847eed023d2f">NumProcs</a>() &gt; 1 then</div><div class="line">    <span class="keywordflow">return</span> ret..<span class="stringliteral">&quot;_numProcs_&quot;</span>..<a class="code" href="group__pcl.html#ga7a09a2eab069305ca735847eed023d2f">NumProcs</a>()</div><div class="line">  else</div><div class="line">    return ret</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
+</div>
+</div>
+<a id="a72c1ebcda5128aeb4b82763bb9afec69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72c1ebcda5128aeb4b82763bb9afec69">&sect;&nbsp;</a></span>GetUserParameters()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util GetUserParameters </td>
+          <td>(</td>
+          <td class="paramtype">params&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">descriptors&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :444-460 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.GetUserParameters(params, descriptors)</div><div class="line">  <span class="keywordflow">for</span> k, v in pairs(params) <span class="keywordflow">do</span></div><div class="line">    local t = type(v)</div><div class="line">    local descriptor = descriptors and descriptors[k] or <span class="stringliteral">&quot;&quot;</span></div><div class="line"></div><div class="line">    <span class="keywordflow">if</span> t == <span class="stringliteral">&quot;boolean&quot;</span> then</div><div class="line">      params[k] = v or util.HasParamOption(<span class="stringliteral">&quot;-&quot;</span>..k, descriptor)</div><div class="line">    elseif t == <span class="stringliteral">&quot;string&quot;</span> then</div><div class="line">      params[k] = util.GetParam(<span class="stringliteral">&quot;-&quot;</span>..k, v, descriptor)</div><div class="line">    elseif t == <span class="stringliteral">&quot;number&quot;</span> then</div><div class="line">      params[k] = util.GetParamNumber(<span class="stringliteral">&quot;-&quot;</span>..k, v, descriptor)</div><div class="line">    <span class="keywordflow">else</span></div><div class="line">      <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(<span class="stringliteral">&quot;WARNING in util.GetUserParameters: Unsupported type &#39;&quot;</span></div><div class="line">            .. t .. <span class="stringliteral">&quot;&#39; of key &#39;&quot;</span> .. k .. <span class="stringliteral">&quot;&#39; in params table&quot;</span>)</div><div class="line">    end</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="a29339c42d45704a255eb8d6949bcb3d1"></a>
@@ -656,7 +686,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if option found, else false</dd></dl>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :290-310 </p>
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :290-310 </p>
 
 </div>
 </div>
@@ -675,7 +705,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>lists all the command line arguments which where used or could have been used with util.GetParam, util.GetParamNumber and util.HasParamOption</p>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :338-346 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.PrintArguments()</div><div class="line">  local length=0</div><div class="line">  <span class="keywordflow">for</span> name,arg in <a class="code" href="group__scripts__util.html#ga362aa1c11bfa6e6ff736a2e419f8c4ea">pairsSortedByKeys</a>(util.args) do</div><div class="line">    length = math.max(<span class="keywordtype">string</span>.len(name), length)</div><div class="line">  end </div><div class="line">  <a class="code" href="parser_8cpp.html#ab352f63e4dbefc447c3fd0eba3fa120f">for</a> name,arg in <a class="code" href="group__scripts__util.html#ga362aa1c11bfa6e6ff736a2e419f8c4ea">pairsSortedByKeys</a>(util.args) do</div><div class="line">    <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(&quot;  &quot;..util.<a class="code" href="group__scripts__util__stats.html#gaa7e2de7b61ddf1fb1e874763874a9703">adjuststring</a>(name, length, &quot;l&quot;)..&quot; = &quot;..arg.value)</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :338-346 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.PrintArguments()</div><div class="line">  local length=0</div><div class="line">  <span class="keywordflow">for</span> name,arg in <a class="code" href="group__scripts__util.html#ga362aa1c11bfa6e6ff736a2e419f8c4ea">pairsSortedByKeys</a>(util.args) do</div><div class="line">    length = math.max(<span class="keywordtype">string</span>.len(name), length)</div><div class="line">  end </div><div class="line">  <a class="code" href="parser_8cpp.html#ab352f63e4dbefc447c3fd0eba3fa120f">for</a> name,arg in <a class="code" href="group__scripts__util.html#ga362aa1c11bfa6e6ff736a2e419f8c4ea">pairsSortedByKeys</a>(util.args) do</div><div class="line">    <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(&quot;  &quot;..util.<a class="code" href="group__scripts__util__stats.html#gaa7e2de7b61ddf1fb1e874763874a9703">adjuststring</a>(name, length, &quot;l&quot;)..&quot; = &quot;..arg.value)</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="a358772e55e8f56cf370b8036518132cc"></a>
@@ -693,7 +723,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>prints out the description to each GetParam-parameter so far called</p>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :354-365 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.PrintHelp()</div><div class="line">  local length=0</div><div class="line">  <span class="keywordflow">for</span> name,arg in <a class="code" href="group__scripts__util.html#ga362aa1c11bfa6e6ff736a2e419f8c4ea">pairsSortedByKeys</a>(util.args) do</div><div class="line">    length = math.max(<span class="keywordtype">string</span>.len(name), length)</div><div class="line">  end </div><div class="line">  local defaultStr</div><div class="line">  <a class="code" href="parser_8cpp.html#ab352f63e4dbefc447c3fd0eba3fa120f">for</a> name,arg in <a class="code" href="group__scripts__util.html#ga362aa1c11bfa6e6ff736a2e419f8c4ea">pairsSortedByKeys</a>(util.args) do</div><div class="line">    sOpt = util.<a class="code" href="command__line__util_8lua.html#ac71258f39fe9ae00c634cd40a3cdae1d">ConcatOptions</a>(arg.options)</div><div class="line">    <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(arg.type..util.<a class="code" href="group__scripts__util__stats.html#gaa7e2de7b61ddf1fb1e874763874a9703">adjuststring</a>(name, length, &quot;l&quot;)..&quot; = &quot;..<a class="code" href="command__line__util_8lua.html#a1d11d3b27ce84b05f5c501f1f80eb44e">StrOrNil</a>(arg.value)..</div><div class="line">        &quot; : &quot;..arg.description..sOpt..&quot; (default = &quot;..<a class="code" href="command__line__util_8lua.html#a1d11d3b27ce84b05f5c501f1f80eb44e">StrOrNil</a>(arg.default)..&quot;)&quot;)</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :354-365 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.PrintHelp()</div><div class="line">  local length=0</div><div class="line">  <span class="keywordflow">for</span> name,arg in <a class="code" href="group__scripts__util.html#ga362aa1c11bfa6e6ff736a2e419f8c4ea">pairsSortedByKeys</a>(util.args) do</div><div class="line">    length = math.max(<span class="keywordtype">string</span>.len(name), length)</div><div class="line">  end </div><div class="line">  local defaultStr</div><div class="line">  <a class="code" href="parser_8cpp.html#ab352f63e4dbefc447c3fd0eba3fa120f">for</a> name,arg in <a class="code" href="group__scripts__util.html#ga362aa1c11bfa6e6ff736a2e419f8c4ea">pairsSortedByKeys</a>(util.args) do</div><div class="line">    sOpt = util.<a class="code" href="command__line__util_8lua.html#ac71258f39fe9ae00c634cd40a3cdae1d">ConcatOptions</a>(arg.options)</div><div class="line">    <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(arg.type..util.<a class="code" href="group__scripts__util__stats.html#gaa7e2de7b61ddf1fb1e874763874a9703">adjuststring</a>(name, length, &quot;l&quot;)..&quot; = &quot;..<a class="code" href="command__line__util_8lua.html#a1d11d3b27ce84b05f5c501f1f80eb44e">StrOrNil</a>(arg.value)..</div><div class="line">        &quot; : &quot;..arg.description..sOpt..&quot; (default = &quot;..<a class="code" href="command__line__util_8lua.html#a1d11d3b27ce84b05f5c501f1f80eb44e">StrOrNil</a>(arg.default)..&quot;)&quot;)</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="afbc2a13db02737ac8206c90b95187aa0"></a>
@@ -711,7 +741,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>lists all command line arguments which were provided but could not be used.</p>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :379-422 </p>
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :379-422 </p>
 
 </div>
 </div>
@@ -730,7 +760,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :348-351 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="command__line__util_8lua.html#a1d11d3b27ce84b05f5c501f1f80eb44e">StrOrNil</a>(s)</div><div class="line">  <span class="keywordflow">if</span> s == nil then <span class="keywordflow">return</span> <span class="stringliteral">&quot;nil&quot;</span> end</div><div class="line">  <span class="keywordflow">return</span> s</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :348-351 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="command__line__util_8lua.html#a1d11d3b27ce84b05f5c501f1f80eb44e">StrOrNil</a>(s)</div><div class="line">  <span class="keywordflow">if</span> s == nil then <span class="keywordflow">return</span> <span class="stringliteral">&quot;nil&quot;</span> end</div><div class="line">  <span class="keywordflow">return</span> s</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
@@ -748,7 +778,7 @@ Variables</h2></td></tr>
 
 <p>Executes the specified script. </p>
 
-<p>Referenced by <a class="el" href="namespaceug_1_1vrl.html#a13fab23f74cf9f8992f8e568ad268b53">ug::vrl::checkException()</a>, <a class="el" href="bindings__vrl__native_8h.html#a6131db6eaee72d9f90533b37faba7f00">Java_edu_gcsc_vrl_ug_UG__1invokeFunction()</a>, <a class="el" href="bindings__vrl__native_8h.html#a760f3885f322e7e40e506a0b4ee2ee7c">Java_edu_gcsc_vrl_ug_UG__1invokeMethod()</a>, <a class="el" href="bindings__vrl__native_8h.html#a6a363001cbe261ad18451ab1263ca45f">Java_edu_gcsc_vrl_ug_UG__1newInstance()</a>, and <a class="el" href="classug_1_1_u_g_error.html#ad3a7ff0c2721b7d236494b83a9bd3502">ug::UGError::UGError()</a>.</p>
+<p>Referenced by <a class="el" href="namespaceug_1_1vrl.html#a13fab23f74cf9f8992f8e568ad268b53">ug::vrl::checkException()</a>, <a class="el" href="bindings__vrl__native_8h.html#a702deed8065ef05e49401af06bda5d33">Java_edu_gcsc_vrl_ug_UG__1getDefaultClassNameFromGroup()</a>, <a class="el" href="bindings__vrl__native_8h.html#ad045be8449ff51dc543bd15b05afc031">Java_edu_gcsc_vrl_ug_UG__1getExportedClassPtrByName()</a>, <a class="el" href="bindings__vrl__native_8h.html#a6131db6eaee72d9f90533b37faba7f00">Java_edu_gcsc_vrl_ug_UG__1invokeFunction()</a>, <a class="el" href="bindings__vrl__native_8h.html#a760f3885f322e7e40e506a0b4ee2ee7c">Java_edu_gcsc_vrl_ug_UG__1invokeMethod()</a>, <a class="el" href="bindings__vrl__native_8h.html#a6a363001cbe261ad18451ab1263ca45f">Java_edu_gcsc_vrl_ug_UG__1newInstance()</a>, and <a class="el" href="classug_1_1_u_g_error.html#ad3a7ff0c2721b7d236494b83a9bd3502">ug::UGError::UGError()</a>.</p>
 
 </div>
 </div>
@@ -840,7 +870,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_53e6fa9553ac22a5646d2a2b2d7b97a1.html">scripts</a></li><li class="navelem"><a class="el" href="dir_46f23659e18aa5fa06de6ff2c04a1a12.html">util</a></li><li class="navelem"><a class="el" href="command__line__util_8lua.html">command_line_util.lua</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:10 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:08:42 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

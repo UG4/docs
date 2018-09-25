@@ -608,7 +608,7 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Specialization of <a class="el" href="classug_1_1_i_refiner.html" title="The refiner interface allows to mark elements for refinement and to call refine. ">IRefiner</a> for adaptive multigrid refinement with closure. </p>
 <p>The implementation is based on <a class="el" href="classug_1_1_hanging_node_refiner___multi_grid.html" title="Specialization of ug::HangingNodeRefiner for ug::MultiGrid. ">HangingNodeRefiner_MultiGrid</a>. Hanging nodes are most likely present in the resulting grids, even though they should not be used by discretizations etc. Their sole purpose is to allow efficient grid adaption</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000056">Todo:</a></b></dt><dd>The current implementation has a performance overhead, since currently all closure elements are removed prior to grid adaption. This should be reduced to only remove closure elements which are affected by adaption. One could therefore replace <a class="el" href="classug_1_1_selector.html" title="specialization of ISelector for a grid of class Grid. ">Selector</a> by <a class="el" href="classug_1_1_bool_marker.html" title="Allows to mark elements. ">BoolMarker</a> and adjust the collect_objects_for_refinement / coarsening routines to use callbacks when identifying valid refine / coarsen objects. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000058">Todo:</a></b></dt><dd>The current implementation has a performance overhead, since currently all closure elements are removed prior to grid adaption. This should be reduced to only remove closure elements which are affected by adaption. One could therefore replace <a class="el" href="classug_1_1_selector.html" title="specialization of ISelector for a grid of class Grid. ">Selector</a> by <a class="el" href="classug_1_1_bool_marker.html" title="Allows to mark elements. ">BoolMarker</a> and adjust the collect_objects_for_refinement / coarsening routines to use callbacks when identifying valid refine / coarsen objects. </dd></dl>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a58565a09559d6c8b42bf0fe3cf7b9c8c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a58565a09559d6c8b42bf0fe3cf7b9c8c">&sect;&nbsp;</a></span>BaseClass</h2>
@@ -1039,7 +1039,7 @@ template&lt;class TElem &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_adaptive_regular_refiner___multi_grid.html">AdaptiveRegularRefiner_MultiGrid</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:16 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:08:49 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

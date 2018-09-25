@@ -115,6 +115,8 @@ $(document).ready(function(){initNavTree('classug_1_1_projection_handler.html','
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:ae88745df4967cc42bda2079784e8d686"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_projection_handler.html#ae88745df4967cc42bda2079784e8d686">clear</a> ()</td></tr>
+<tr class="separator:ae88745df4967cc42bda2079784e8d686"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afec819d56408bbf6859655e5507e624a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceug.html#a1a220d9b7f4057bf059723a8c0dc056d">SPRefinementProjector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_projection_handler.html#afec819d56408bbf6859655e5507e624a">default_projector</a> ()</td></tr>
 <tr class="separator:afec819d56408bbf6859655e5507e624a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3985e8ef66b2687a13e7a411e46396bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_refinement_projector.html">RefinementProjector</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_projection_handler.html#a3985e8ef66b2687a13e7a411e46396bb">default_projector</a> () const</td></tr>
@@ -368,7 +370,7 @@ template&lt;class TGeomProvider &gt; </div>
 </div><div class="memdoc">
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classug_1_1_refinement_projector.html#a22d4335268a9c8c758769726b6b5c694">ug::RefinementProjector::RefinementProjector</a> </dd></dl>
 
-<p>References <a class="el" href="classug_1_1_projection_handler.html#a30091bb3c38ea1538137692d392f4c39">m_defaultProjector</a>, <a class="el" href="smart__pointer_8h.html#a8ba0055baeb80cdf31c501403f7f302f">make_sp()</a>, <a class="el" href="classug_1_1_projection_handler.html#a77478191cb23422a08a15a5cfd44e177">set_geometry()</a>, <a class="el" href="classug_1_1_projection_handler.html#a196dafb9037affc8581d713d017aa512">set_geometry_all()</a>, <a class="el" href="classug_1_1_projection_handler.html#a638b3c44ad8f30e938efc4a68e113953">set_subset_handler()</a>, and <a class="el" href="classug_1_1_projection_handler.html#a975970ee6462af8fcd500ea6cc8d8529">~ProjectionHandler()</a>.</p>
+<p>References <a class="el" href="classug_1_1_projection_handler.html#ae88745df4967cc42bda2079784e8d686">clear()</a>, <a class="el" href="classug_1_1_projection_handler.html#a30091bb3c38ea1538137692d392f4c39">m_defaultProjector</a>, <a class="el" href="smart__pointer_8h.html#a8ba0055baeb80cdf31c501403f7f302f">make_sp()</a>, <a class="el" href="classug_1_1_projection_handler.html#a77478191cb23422a08a15a5cfd44e177">set_geometry()</a>, <a class="el" href="classug_1_1_projection_handler.html#a196dafb9037affc8581d713d017aa512">set_geometry_all()</a>, <a class="el" href="classug_1_1_projection_handler.html#a638b3c44ad8f30e938efc4a68e113953">set_subset_handler()</a>, and <a class="el" href="classug_1_1_projection_handler.html#a975970ee6462af8fcd500ea6cc8d8529">~ProjectionHandler()</a>.</p>
 
 </div>
 </div>
@@ -395,13 +397,34 @@ template&lt;class TGeomProvider &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classug_1_1_projection_handler.html#a77478191cb23422a08a15a5cfd44e177">set_geometry()</a>.</p>
+<p>References <a class="el" href="classug_1_1_projection_handler.html#ae88745df4967cc42bda2079784e8d686">clear()</a>.</p>
 
 <p>Referenced by <a class="el" href="classug_1_1_projection_handler.html#a375c087ec4b0e8cd5044885e3043bb0b">ProjectionHandler()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae88745df4967cc42bda2079784e8d686"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae88745df4967cc42bda2079784e8d686">&sect;&nbsp;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug::ProjectionHandler::clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classug_1_1_projection_handler.html#a30091bb3c38ea1538137692d392f4c39">m_defaultProjector</a>, <a class="el" href="classug_1_1_projection_handler.html#a224c82925f4f2a50091e327f1fdfdac4">m_projectors</a>, <a class="el" href="smart__pointer_8h.html#a8ba0055baeb80cdf31c501403f7f302f">make_sp()</a>, and <a class="el" href="classug_1_1_projection_handler.html#a77478191cb23422a08a15a5cfd44e177">set_geometry()</a>.</p>
+
+<p>Referenced by <a class="el" href="namespaceug.html#a380d14d41ba76f3024375838f90945ea">ug::DeserializeProjectionHandler()</a>, <a class="el" href="classug_1_1_projection_handler.html#ae4fc3b589d2a628c105200532b8e6975">ProjectionHandler()</a>, and <a class="el" href="classug_1_1_projection_handler.html#a975970ee6462af8fcd500ea6cc8d8529">~ProjectionHandler()</a>.</p>
+
+</div>
+</div>
 <a id="afec819d56408bbf6859655e5507e624a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afec819d56408bbf6859655e5507e624a">&sect;&nbsp;</a></span>default_projector() <span class="overload">[1/2]</span></h2>
 
@@ -427,7 +450,7 @@ template&lt;class TGeomProvider &gt; </div>
 
 <p>References <a class="el" href="classug_1_1_projection_handler.html#a30091bb3c38ea1538137692d392f4c39">m_defaultProjector</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_grid_writer_u_g_x.html#a842d4b8f8db347832ef9bfa115f85b30">ug::GridWriterUGX::add_projection_handler()</a>, and <a class="el" href="group__lib__disc__domain.html#gaca109ca8a59b65508b4eee40d8957f64">ug::IDomain&lt; ug::MultiGrid, ug::MultiGridSubsetHandler &gt;::broadcast_refinement_projector()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_grid_writer_u_g_x.html#a842d4b8f8db347832ef9bfa115f85b30">ug::GridWriterUGX::add_projection_handler()</a>, <a class="el" href="group__lib__disc__domain.html#gaca109ca8a59b65508b4eee40d8957f64">ug::IDomain&lt; ug::MultiGrid, ug::MultiGridSubsetHandler &gt;::broadcast_refinement_projector()</a>, and <a class="el" href="namespaceug.html#a2719a1da9b9fcede9ee16433df523ef1">ug::SerializeProjectionHandler()</a>.</p>
 
 </div>
 </div>
@@ -695,7 +718,7 @@ template&lt;class TParent &gt; </div>
 
 <p>References <a class="el" href="classug_1_1_projection_handler.html#a224c82925f4f2a50091e327f1fdfdac4">m_projectors</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_grid_writer_u_g_x.html#a842d4b8f8db347832ef9bfa115f85b30">ug::GridWriterUGX::add_projection_handler()</a>, and <a class="el" href="group__lib__disc__domain.html#gaca109ca8a59b65508b4eee40d8957f64">ug::IDomain&lt; ug::MultiGrid, ug::MultiGridSubsetHandler &gt;::broadcast_refinement_projector()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_grid_writer_u_g_x.html#a842d4b8f8db347832ef9bfa115f85b30">ug::GridWriterUGX::add_projection_handler()</a>, <a class="el" href="group__lib__disc__domain.html#gaca109ca8a59b65508b4eee40d8957f64">ug::IDomain&lt; ug::MultiGrid, ug::MultiGridSubsetHandler &gt;::broadcast_refinement_projector()</a>, and <a class="el" href="namespaceug.html#a2719a1da9b9fcede9ee16433df523ef1">ug::SerializeProjectionHandler()</a>.</p>
 
 </div>
 </div>
@@ -725,7 +748,7 @@ template&lt;class TParent &gt; </div>
 
 <p>References <a class="el" href="classug_1_1_projection_handler.html#a224c82925f4f2a50091e327f1fdfdac4">m_projectors</a>, and <a class="el" href="classug_1_1_projection_handler.html#accd37baa8edc42353d921f9372630a9b">projector_required()</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_grid_writer_u_g_x.html#a842d4b8f8db347832ef9bfa115f85b30">ug::GridWriterUGX::add_projection_handler()</a>, <a class="el" href="group__lib__disc__domain.html#gaca109ca8a59b65508b4eee40d8957f64">ug::IDomain&lt; ug::MultiGrid, ug::MultiGridSubsetHandler &gt;::broadcast_refinement_projector()</a>, <a class="el" href="classug_1_1_projection_handler.html#a3d9c4a1ae1b84032101ae98c2f6e6c58">set_default_projector()</a>, <a class="el" href="classug_1_1_projection_handler.html#a5f62d7b2fad6804dcbf57a70bb6c6124">set_projector()</a>, and <a class="el" href="classug_1_1_projection_handler.html#aa246589f6b24b01f4a7ee7a6d577fe77">subset_handler()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_grid_writer_u_g_x.html#a842d4b8f8db347832ef9bfa115f85b30">ug::GridWriterUGX::add_projection_handler()</a>, <a class="el" href="group__lib__disc__domain.html#gaca109ca8a59b65508b4eee40d8957f64">ug::IDomain&lt; ug::MultiGrid, ug::MultiGridSubsetHandler &gt;::broadcast_refinement_projector()</a>, <a class="el" href="namespaceug.html#a2719a1da9b9fcede9ee16433df523ef1">ug::SerializeProjectionHandler()</a>, <a class="el" href="classug_1_1_projection_handler.html#a3d9c4a1ae1b84032101ae98c2f6e6c58">set_default_projector()</a>, <a class="el" href="classug_1_1_projection_handler.html#a5f62d7b2fad6804dcbf57a70bb6c6124">set_projector()</a>, and <a class="el" href="classug_1_1_projection_handler.html#aa246589f6b24b01f4a7ee7a6d577fe77">subset_handler()</a>.</p>
 
 </div>
 </div>
@@ -906,7 +929,7 @@ template&lt;class TParent &gt; </div>
 
 <p>References <a class="el" href="classug_1_1_projection_handler.html#a30091bb3c38ea1538137692d392f4c39">m_defaultProjector</a>, <a class="el" href="classug_1_1_projection_handler.html#a96c17fce17d50bf41b7aa5e5745dca13">projector()</a>, and <a class="el" href="classug_1_1_projection_handler.html#a5f62d7b2fad6804dcbf57a70bb6c6124">set_projector()</a>.</p>
 
-<p>Referenced by <a class="el" href="group__lib__disc__domain.html#gaca109ca8a59b65508b4eee40d8957f64">ug::IDomain&lt; ug::MultiGrid, ug::MultiGridSubsetHandler &gt;::broadcast_refinement_projector()</a>, <a class="el" href="classug_1_1_grid_reader_u_g_x.html#a39f6e00ebfb5ad31d102d0c9a4d5bc04">ug::GridReaderUGX::projection_handler()</a>, <a class="el" href="classug_1_1_projection_handler.html#ab134696528eded98d9b7ad0022093bc4">set_subset_handler()</a>, and <a class="el" href="classug_1_1_projection_handler.html#aa246589f6b24b01f4a7ee7a6d577fe77">subset_handler()</a>.</p>
+<p>Referenced by <a class="el" href="group__lib__disc__domain.html#gaca109ca8a59b65508b4eee40d8957f64">ug::IDomain&lt; ug::MultiGrid, ug::MultiGridSubsetHandler &gt;::broadcast_refinement_projector()</a>, <a class="el" href="namespaceug.html#a380d14d41ba76f3024375838f90945ea">ug::DeserializeProjectionHandler()</a>, <a class="el" href="classug_1_1_grid_reader_u_g_x.html#a39f6e00ebfb5ad31d102d0c9a4d5bc04">ug::GridReaderUGX::projection_handler()</a>, <a class="el" href="classug_1_1_projection_handler.html#ab134696528eded98d9b7ad0022093bc4">set_subset_handler()</a>, and <a class="el" href="classug_1_1_projection_handler.html#aa246589f6b24b01f4a7ee7a6d577fe77">subset_handler()</a>.</p>
 
 </div>
 </div>
@@ -938,7 +961,7 @@ template&lt;class TParent &gt; </div>
 
 <p>References <a class="el" href="classug_1_1_projection_handler.html#a30091bb3c38ea1538137692d392f4c39">m_defaultProjector</a>, <a class="el" href="classug_1_1_refinement_projector.html#ab7d9d8c124b605fba64e6153acef7d1d">ug::RefinementProjector::set_geometry()</a>, and <a class="el" href="classug_1_1_projection_handler.html#a196dafb9037affc8581d713d017aa512">set_geometry_all()</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_projection_handler.html#ae4fc3b589d2a628c105200532b8e6975">ProjectionHandler()</a>, <a class="el" href="classug_1_1_projection_handler.html#a196dafb9037affc8581d713d017aa512">set_geometry_all()</a>, <a class="el" href="classug_1_1_projection_handler.html#a5f62d7b2fad6804dcbf57a70bb6c6124">set_projector()</a>, and <a class="el" href="classug_1_1_projection_handler.html#a975970ee6462af8fcd500ea6cc8d8529">~ProjectionHandler()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_projection_handler.html#ae88745df4967cc42bda2079784e8d686">clear()</a>, <a class="el" href="classug_1_1_projection_handler.html#ae4fc3b589d2a628c105200532b8e6975">ProjectionHandler()</a>, <a class="el" href="classug_1_1_projection_handler.html#a196dafb9037affc8581d713d017aa512">set_geometry_all()</a>, and <a class="el" href="classug_1_1_projection_handler.html#a5f62d7b2fad6804dcbf57a70bb6c6124">set_projector()</a>.</p>
 
 </div>
 </div>
@@ -1006,7 +1029,7 @@ template&lt;class TParent &gt; </div>
 
 <p>References <a class="el" href="classug_1_1_refinement_projector.html#ad5eb00f28535e519bb758d8f70d5f436">ug::RefinementProjector::geometry()</a>, <a class="el" href="classug_1_1_projection_handler.html#a224c82925f4f2a50091e327f1fdfdac4">m_projectors</a>, <a class="el" href="classug_1_1_projection_handler.html#a96c17fce17d50bf41b7aa5e5745dca13">projector()</a>, <a class="el" href="classug_1_1_projection_handler.html#accd37baa8edc42353d921f9372630a9b">projector_required()</a>, <a class="el" href="classug_1_1_projection_handler.html#a77478191cb23422a08a15a5cfd44e177">set_geometry()</a>, <a class="el" href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>, and <a class="el" href="class_smart_ptr.html#ab31be10adb38f2b205f0531bb23e7a23">SmartPtr&lt; T, FreePolicy &gt;::valid()</a>.</p>
 
-<p>Referenced by <a class="el" href="group__lib__disc__domain.html#gaca109ca8a59b65508b4eee40d8957f64">ug::IDomain&lt; ug::MultiGrid, ug::MultiGridSubsetHandler &gt;::broadcast_refinement_projector()</a>, <a class="el" href="classug_1_1_grid_reader_u_g_x.html#a39f6e00ebfb5ad31d102d0c9a4d5bc04">ug::GridReaderUGX::projection_handler()</a>, <a class="el" href="classug_1_1_projection_handler.html#a3d9c4a1ae1b84032101ae98c2f6e6c58">set_default_projector()</a>, <a class="el" href="classug_1_1_projection_handler.html#a34dc624db69367490bbbb75d156d3f3b">set_projector()</a>, and <a class="el" href="classug_1_1_projection_handler.html#aa246589f6b24b01f4a7ee7a6d577fe77">subset_handler()</a>.</p>
+<p>Referenced by <a class="el" href="group__lib__disc__domain.html#gaca109ca8a59b65508b4eee40d8957f64">ug::IDomain&lt; ug::MultiGrid, ug::MultiGridSubsetHandler &gt;::broadcast_refinement_projector()</a>, <a class="el" href="namespaceug.html#a380d14d41ba76f3024375838f90945ea">ug::DeserializeProjectionHandler()</a>, <a class="el" href="classug_1_1_grid_reader_u_g_x.html#a39f6e00ebfb5ad31d102d0c9a4d5bc04">ug::GridReaderUGX::projection_handler()</a>, <a class="el" href="classug_1_1_projection_handler.html#a3d9c4a1ae1b84032101ae98c2f6e6c58">set_default_projector()</a>, <a class="el" href="classug_1_1_projection_handler.html#a34dc624db69367490bbbb75d156d3f3b">set_projector()</a>, and <a class="el" href="classug_1_1_projection_handler.html#aa246589f6b24b01f4a7ee7a6d577fe77">subset_handler()</a>.</p>
 
 </div>
 </div>
@@ -1115,7 +1138,7 @@ if no geometry-object was set to the <a class="el" href="classug_1_1_projection_
 
 <p>References <a class="el" href="classug_1_1_projection_handler.html#a7ac73a6c1a4be654655966e166cd3be3">m_sh</a>, <a class="el" href="classug_1_1_projection_handler.html#a96c17fce17d50bf41b7aa5e5745dca13">projector()</a>, <a class="el" href="classug_1_1_projection_handler.html#a3d9c4a1ae1b84032101ae98c2f6e6c58">set_default_projector()</a>, and <a class="el" href="classug_1_1_projection_handler.html#a5f62d7b2fad6804dcbf57a70bb6c6124">set_projector()</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_grid_writer_u_g_x.html#a842d4b8f8db347832ef9bfa115f85b30">ug::GridWriterUGX::add_projection_handler()</a>, and <a class="el" href="group__lib__disc__domain.html#gaca109ca8a59b65508b4eee40d8957f64">ug::IDomain&lt; ug::MultiGrid, ug::MultiGridSubsetHandler &gt;::broadcast_refinement_projector()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_grid_writer_u_g_x.html#a842d4b8f8db347832ef9bfa115f85b30">ug::GridWriterUGX::add_projection_handler()</a>, <a class="el" href="group__lib__disc__domain.html#gaca109ca8a59b65508b4eee40d8957f64">ug::IDomain&lt; ug::MultiGrid, ug::MultiGridSubsetHandler &gt;::broadcast_refinement_projector()</a>, and <a class="el" href="namespaceug.html#a125f1c47991044743926ad44d6e9b600">ug::SaveGridToLGB()</a>.</p>
 
 </div>
 </div>
@@ -1163,7 +1186,7 @@ if no geometry-object was set to the <a class="el" href="classug_1_1_projection_
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classug_1_1_projection_handler.html#afec819d56408bbf6859655e5507e624a">default_projector()</a>, <a class="el" href="classug_1_1_projection_handler.html#ad44bd868b0ea56e7a58957155e58b082">handle_new_vertex()</a>, <a class="el" href="classug_1_1_projection_handler.html#a54de4a38b5da0d159e186a9669046596">ProjectionHandler()</a>, <a class="el" href="classug_1_1_projection_handler.html#a96b05197925e18af4a1e6ffe62bdce6a">refinement_begins()</a>, <a class="el" href="classug_1_1_projection_handler.html#a3d9c4a1ae1b84032101ae98c2f6e6c58">set_default_projector()</a>, <a class="el" href="classug_1_1_projection_handler.html#a77478191cb23422a08a15a5cfd44e177">set_geometry()</a>, and <a class="el" href="classug_1_1_projection_handler.html#a196dafb9037affc8581d713d017aa512">set_geometry_all()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_projection_handler.html#ae88745df4967cc42bda2079784e8d686">clear()</a>, <a class="el" href="classug_1_1_projection_handler.html#afec819d56408bbf6859655e5507e624a">default_projector()</a>, <a class="el" href="classug_1_1_projection_handler.html#ad44bd868b0ea56e7a58957155e58b082">handle_new_vertex()</a>, <a class="el" href="classug_1_1_projection_handler.html#a54de4a38b5da0d159e186a9669046596">ProjectionHandler()</a>, <a class="el" href="classug_1_1_projection_handler.html#a96b05197925e18af4a1e6ffe62bdce6a">refinement_begins()</a>, <a class="el" href="classug_1_1_projection_handler.html#a3d9c4a1ae1b84032101ae98c2f6e6c58">set_default_projector()</a>, <a class="el" href="classug_1_1_projection_handler.html#a77478191cb23422a08a15a5cfd44e177">set_geometry()</a>, and <a class="el" href="classug_1_1_projection_handler.html#a196dafb9037affc8581d713d017aa512">set_geometry_all()</a>.</p>
 
 </div>
 </div>
@@ -1187,7 +1210,7 @@ if no geometry-object was set to the <a class="el" href="classug_1_1_projection_
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classug_1_1_projection_handler.html#ad44bd868b0ea56e7a58957155e58b082">handle_new_vertex()</a>, <a class="el" href="classug_1_1_projection_handler.html#a9c68755913ea0264f29ea8115a114c6a">num_projectors()</a>, <a class="el" href="classug_1_1_projection_handler.html#a96c17fce17d50bf41b7aa5e5745dca13">projector()</a>, <a class="el" href="classug_1_1_projection_handler.html#accd37baa8edc42353d921f9372630a9b">projector_required()</a>, <a class="el" href="classug_1_1_projection_handler.html#a96b05197925e18af4a1e6ffe62bdce6a">refinement_begins()</a>, <a class="el" href="classug_1_1_projection_handler.html#a25b0fb9cbdc2ea3c1fec60ec453d02a5">refinement_begins_requires_subgrid()</a>, <a class="el" href="classug_1_1_projection_handler.html#a9862a9531796ccc9403bc454f9d5bd84">refinement_ends()</a>, <a class="el" href="classug_1_1_projection_handler.html#a196dafb9037affc8581d713d017aa512">set_geometry_all()</a>, and <a class="el" href="classug_1_1_projection_handler.html#a5f62d7b2fad6804dcbf57a70bb6c6124">set_projector()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_projection_handler.html#ae88745df4967cc42bda2079784e8d686">clear()</a>, <a class="el" href="classug_1_1_projection_handler.html#ad44bd868b0ea56e7a58957155e58b082">handle_new_vertex()</a>, <a class="el" href="classug_1_1_projection_handler.html#a9c68755913ea0264f29ea8115a114c6a">num_projectors()</a>, <a class="el" href="classug_1_1_projection_handler.html#a96c17fce17d50bf41b7aa5e5745dca13">projector()</a>, <a class="el" href="classug_1_1_projection_handler.html#accd37baa8edc42353d921f9372630a9b">projector_required()</a>, <a class="el" href="classug_1_1_projection_handler.html#a96b05197925e18af4a1e6ffe62bdce6a">refinement_begins()</a>, <a class="el" href="classug_1_1_projection_handler.html#a25b0fb9cbdc2ea3c1fec60ec453d02a5">refinement_begins_requires_subgrid()</a>, <a class="el" href="classug_1_1_projection_handler.html#a9862a9531796ccc9403bc454f9d5bd84">refinement_ends()</a>, <a class="el" href="classug_1_1_projection_handler.html#a196dafb9037affc8581d713d017aa512">set_geometry_all()</a>, and <a class="el" href="classug_1_1_projection_handler.html#a5f62d7b2fad6804dcbf57a70bb6c6124">set_projector()</a>.</p>
 
 </div>
 </div>
@@ -1249,7 +1272,7 @@ if no geometry-object was set to the <a class="el" href="classug_1_1_projection_
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_projection_handler.html">ProjectionHandler</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:41 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:09:26 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

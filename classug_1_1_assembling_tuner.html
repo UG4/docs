@@ -100,6 +100,17 @@ $(document).ready(function(){initNavTree('classug_1_1_assembling_tuner.html','')
  <a href="classug_1_1_assembling_tuner.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="ass__tuner_8h_source.html">ass_tuner.h</a>&gt;</code></p>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for ug::AssemblingTuner&lt; TAlgebra &gt;:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="classug_1_1_assembling_tuner.png" usemap="#ug::AssemblingTuner_3C_20TAlgebra_20_3E_map" alt=""/>
+  <map id="ug::AssemblingTuner_3C_20TAlgebra_20_3E_map" name="ug::AssemblingTuner&lt; TAlgebra &gt;_map">
+<area href="classug_1_1_composite_time_discretization_1_1_composite_ass_tuner.html" alt="ug::CompositeTimeDiscretization&lt; TAlgebra &gt;::CompositeAssTuner" shape="rect" coords="0,56,386,80"/>
+</map>
+ </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -133,6 +144,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9bc0fb5a4d2a0131a2f01bb40e0feafe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_assembling_tuner.html#a9bc0fb5a4d2a0131a2f01bb40e0feafe">constraint_type_enabled</a> (int type) const</td></tr>
 <tr class="memdesc:a9bc0fb5a4d2a0131a2f01bb40e0feafe"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns if constraint type enabled  <a href="#a9bc0fb5a4d2a0131a2f01bb40e0feafe">More...</a><br /></td></tr>
 <tr class="separator:a9bc0fb5a4d2a0131a2f01bb40e0feafe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bee16a859287b4ae2cdfa095dd3e4b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_assembling_tuner.html#a1bee16a859287b4ae2cdfa095dd3e4b8">disable_clear_on_resize</a> ()</td></tr>
+<tr class="separator:a1bee16a859287b4ae2cdfa095dd3e4b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c3674c2cc6108a31a743197cdde25f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_assembling_tuner.html#a0c3674c2cc6108a31a743197cdde25f1">disable_single_index_assembling</a> ()</td></tr>
 <tr class="memdesc:a0c3674c2cc6108a31a743197cdde25f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets an index for which the assembling should be carried out  <a href="#a0c3674c2cc6108a31a743197cdde25f1">More...</a><br /></td></tr>
 <tr class="separator:a0c3674c2cc6108a31a743197cdde25f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -180,9 +193,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ace3939609b7f85af70ac278d675b8a71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d273cac23fac2807cb428733dbd496e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_assembling_tuner.html#a1d273cac23fac2807cb428733dbd496e">set_dirichlet_val</a> (<a class="el" href="classug_1_1_assembling_tuner.html#a509e242b77f5edebf91284cf26640ca3">vector_type</a> &amp;vec, const <a class="el" href="namespaceug.html#aa8d30d052236b8597b21626904d04edb">DoFIndex</a> &amp;ind, const double val) const</td></tr>
 <tr class="separator:a1d273cac23fac2807cb428733dbd496e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58330d85750f9e94650932c7cf1af83c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_assembling_tuner.html#a58330d85750f9e94650932c7cf1af83c">set_force_regular_grid</a> (bool bForce)</td></tr>
-<tr class="memdesc:a58330d85750f9e94650932c7cf1af83c"><td class="mdescLeft">&#160;</td><td class="mdescRight">forces the assembling to consider the grid as regular  <a href="#a58330d85750f9e94650932c7cf1af83c">More...</a><br /></td></tr>
-<tr class="separator:a58330d85750f9e94650932c7cf1af83c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a491ee572eed883a17e0541f75856a936"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_assembling_tuner.html#a491ee572eed883a17e0541f75856a936">set_force_regular_grid</a> (bool bForce)</td></tr>
+<tr class="memdesc:a491ee572eed883a17e0541f75856a936"><td class="mdescLeft">&#160;</td><td class="mdescRight">forces the assembling to consider the grid as regular  <a href="#a491ee572eed883a17e0541f75856a936">More...</a><br /></td></tr>
+<tr class="separator:a491ee572eed883a17e0541f75856a936"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a7fd96033918eade4f107c67c0dbae1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_assembling_tuner.html#a7a7fd96033918eade4f107c67c0dbae1">set_mapping</a> (<a class="el" href="classug_1_1_i_local_to_global_mapper.html">ILocalToGlobalMapper</a>&lt; TAlgebra &gt; *pMapper=NULL)</td></tr>
 <tr class="memdesc:a7a7fd96033918eade4f107c67c0dbae1"><td class="mdescLeft">&#160;</td><td class="mdescRight">set local to global mapping  <a href="#a7a7fd96033918eade4f107c67c0dbae1">More...</a><br /></td></tr>
 <tr class="separator:a7a7fd96033918eade4f107c67c0dbae1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -199,9 +212,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae2dc8a0fce6be04094b54af0e7abd743"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_assembling_tuner.html#ae2dc8a0fce6be04094b54af0e7abd743">single_index_assembling_enabled</a> () const</td></tr>
 <tr class="memdesc:ae2dc8a0fce6be04094b54af0e7abd743"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks whether the assemble DoFindex is set or not  <a href="#ae2dc8a0fce6be04094b54af0e7abd743">More...</a><br /></td></tr>
 <tr class="separator:ae2dc8a0fce6be04094b54af0e7abd743"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e70b0874396892653edaa8c7f986be6"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_assembling_tuner.html#a3e70b0874396892653edaa8c7f986be6">~AssemblingTuner</a> ()</td></tr>
+<tr class="memdesc:a3e70b0874396892653edaa8c7f986be6"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor  <a href="#a3e70b0874396892653edaa8c7f986be6">More...</a><br /></td></tr>
+<tr class="separator:a3e70b0874396892653edaa8c7f986be6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
+<tr class="memitem:ab38146072012f70210efb46b594d1c75"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_assembling_tuner.html#ab38146072012f70210efb46b594d1c75">m_bClearOnResize</a></td></tr>
+<tr class="memdesc:ab38146072012f70210efb46b594d1c75"><td class="mdescLeft">&#160;</td><td class="mdescRight">disables clearing of vector/matrix on resize  <a href="#ab38146072012f70210efb46b594d1c75">More...</a><br /></td></tr>
+<tr class="separator:ab38146072012f70210efb46b594d1c75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07ad318652f6fdada8f111a6b0ad8790"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_assembling_tuner.html#a07ad318652f6fdada8f111a6b0ad8790">m_bForceRegGrid</a></td></tr>
 <tr class="memdesc:a07ad318652f6fdada8f111a6b0ad8790"><td class="mdescLeft">&#160;</td><td class="mdescRight">forces the assembling to regard the grid as regular  <a href="#a07ad318652f6fdada8f111a6b0ad8790">More...</a><br /></td></tr>
 <tr class="separator:a07ad318652f6fdada8f111a6b0ad8790"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -246,7 +265,7 @@ class ug::AssemblingTuner&lt; TAlgebra &gt;</h3>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">typedef TAlgebra <a class="el" href="classug_1_1_assembling_tuner.html">ug::AssemblingTuner</a>&lt; TAlgebra &gt;::<a class="el" href="classug_1_1_assembling_tuner.html#a570be182adc343480f368062aa22302a">algebra_type</a></td>
@@ -264,7 +283,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">typedef algebra_type::matrix_type <a class="el" href="classug_1_1_assembling_tuner.html">ug::AssemblingTuner</a>&lt; TAlgebra &gt;::<a class="el" href="classug_1_1_assembling_tuner.html#a59a8579ea2b9c0f376061a56b807a319">matrix_type</a></td>
@@ -282,7 +301,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">typedef vector_type::value_type <a class="el" href="classug_1_1_assembling_tuner.html">ug::AssemblingTuner</a>&lt; TAlgebra &gt;::<a class="el" href="classug_1_1_assembling_tuner.html#a58a4daaed6d4a3061d0f09c6a8ba1379">value_type</a></td>
@@ -300,7 +319,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">typedef algebra_type::vector_type <a class="el" href="classug_1_1_assembling_tuner.html">ug::AssemblingTuner</a>&lt; TAlgebra &gt;::<a class="el" href="classug_1_1_assembling_tuner.html#a509e242b77f5edebf91284cf26640ca3">vector_type</a></td>
@@ -319,7 +338,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -342,6 +361,35 @@ template&lt;typename TAlgebra &gt; </div>
 
 </div>
 </div>
+<a id="a3e70b0874396892653edaa8c7f986be6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e70b0874396892653edaa8c7f986be6">&sect;&nbsp;</a></span>~AssemblingTuner()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TAlgebra&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classug_1_1_assembling_tuner.html">ug::AssemblingTuner</a>&lt; TAlgebra &gt;::~<a class="el" href="classug_1_1_assembling_tuner.html">AssemblingTuner</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>destructor </p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a17d345efc6673a53c903b3332bf99ed8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a17d345efc6673a53c903b3332bf99ed8">&sect;&nbsp;</a></span>add_local_mat_to_global()</h2>
@@ -349,7 +397,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -393,7 +441,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -471,8 +519,6 @@ template&lt;typename TElem &gt; </div>
 
 <p>gets the element iterator from the <a class="el" href="classug_1_1_selector.html" title="specialization of ISelector for a grid of class Grid. ">Selector</a> </p>
 
-<p>References <a class="el" href="classug_1_1_selector.html#ac80a1ce32174b412113b1367d1475d07">ug::Selector::begin()</a>, <a class="el" href="classug_1_1_selector.html#a0fba1e8b8589d695f1253a576a8f5d02">ug::Selector::end()</a>, <a class="el" href="classug_1_1_i_subset_handler.html#ab322bfc9560e86b563145b9e264d385e">ug::ISubsetHandler::get_subset_index()</a>, <a class="el" href="classug_1_1_do_f_distribution_info_provider.html#af2d54a2da8b5ea26fcccd91cc3e2d619">ug::DoFDistributionInfoProvider::subset_handler()</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
-
 </div>
 </div>
 <a id="a9bc0fb5a4d2a0131a2f01bb40e0feafe"></a>
@@ -481,7 +527,7 @@ template&lt;typename TElem &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -505,13 +551,41 @@ template&lt;typename TAlgebra &gt; </div>
 
 </div>
 </div>
+<a id="a1bee16a859287b4ae2cdfa095dd3e4b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bee16a859287b4ae2cdfa095dd3e4b8">&sect;&nbsp;</a></span>disable_clear_on_resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TAlgebra&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_assembling_tuner.html">ug::AssemblingTuner</a>&lt; TAlgebra &gt;::disable_clear_on_resize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Disable clearing of matrix/vector when resizing. This is useful when an <a class="el" href="classug_1_1_i_assemble.html" title="Interface providing Jacobian and Defect of a discretization. ">IAssemble</a> object consists of more than one domain disc, e.g., CompositeTimeDisc. </p>
+
+</div>
+</div>
 <a id="a0c3674c2cc6108a31a743197cdde25f1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0c3674c2cc6108a31a743197cdde25f1">&sect;&nbsp;</a></span>disable_single_index_assembling()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -547,7 +621,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -568,8 +642,6 @@ template&lt;typename TAlgebra &gt; </div>
 </div><div class="memdoc">
 
 <p>returns if elem disc type enabled </p>
-
-<p>References <a class="el" href="sparsematrix__interface_8h.html#a30ecae9dcc2d8b0adafa52d47a0e7a8b">resize()</a>.</p>
 
 </div>
 </div>
@@ -603,7 +675,7 @@ template&lt;typename TElem &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -633,7 +705,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -663,7 +735,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -693,7 +765,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -722,7 +794,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -751,7 +823,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -780,7 +852,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -824,7 +896,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -853,7 +925,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -906,8 +978,6 @@ template&lt;typename TAlgebra &gt; </div>
 
 <p>resize functions used in assemble funcs </p>
 
-<p>References <a class="el" href="classug_1_1_do_f_distribution.html#aa16793a10fbb1e5d0fbf703797a1a49b">ug::DoFDistribution::num_indices()</a>.</p>
-
 </div>
 </div>
 <a id="a81eb76d7fb7017d4f192fd6be0984f50"></a>
@@ -938,8 +1008,6 @@ template&lt;typename TAlgebra &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classug_1_1_do_f_distribution.html#aa16793a10fbb1e5d0fbf703797a1a49b">ug::DoFDistribution::num_indices()</a>.</p>
-
 </div>
 </div>
 <a id="adef2b29e2fd92f6f18f0d84ff2dce904"></a>
@@ -948,7 +1016,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1000,8 +1068,6 @@ template&lt;typename TAlgebra &gt; </div>
 </div><div class="memdoc">
 <p>only one index will be set to Dirichlet in case of index-wise assembling instead of setting a complete matrix row to Dirichlet </p>
 
-<p>References <a class="el" href="group__lib__algebra.html#gaa8517cb090f40832480c0dd692b0471b">ug::SetDirichletRow()</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
-
 </div>
 </div>
 <a id="a1d273cac23fac2807cb428733dbd496e"></a>
@@ -1038,23 +1104,21 @@ template&lt;typename TAlgebra &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="namespaceug.html#a7405db84d59e2fb44d64fcaebca18454">ug::BlockRef()</a>, <a class="el" href="namespaceug.html#a28505c00901b4dfa87cb8e43a738078f">ug::DoFRef()</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
-
 </div>
 </div>
-<a id="a58330d85750f9e94650932c7cf1af83c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58330d85750f9e94650932c7cf1af83c">&sect;&nbsp;</a></span>set_force_regular_grid()</h2>
+<a id="a491ee572eed883a17e0541f75856a936"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a491ee572eed883a17e0541f75856a936">&sect;&nbsp;</a></span>set_force_regular_grid()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classug_1_1_assembling_tuner.html">ug::AssemblingTuner</a>&lt; TAlgebra &gt;::set_force_regular_grid </td>
+          <td class="memname">virtual void <a class="el" href="classug_1_1_assembling_tuner.html">ug::AssemblingTuner</a>&lt; TAlgebra &gt;::set_force_regular_grid </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>bForce</em></td><td>)</td>
@@ -1063,12 +1127,14 @@ template&lt;typename TAlgebra &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>forces the assembling to consider the grid as regular </p>
+
+<p>Reimplemented in <a class="el" href="classug_1_1_composite_time_discretization_1_1_composite_ass_tuner.html#a6ae2e5a7352480343ae3905037e1a961">ug::CompositeTimeDiscretization&lt; TAlgebra &gt;::CompositeAssTuner</a>.</p>
 
 </div>
 </div>
@@ -1078,7 +1144,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1108,7 +1174,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1145,7 +1211,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1180,7 +1246,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1217,7 +1283,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1245,7 +1311,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1269,13 +1335,39 @@ template&lt;typename TAlgebra &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="ab38146072012f70210efb46b594d1c75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab38146072012f70210efb46b594d1c75">&sect;&nbsp;</a></span>m_bClearOnResize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TAlgebra&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classug_1_1_assembling_tuner.html">ug::AssemblingTuner</a>&lt; TAlgebra &gt;::m_bClearOnResize</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>disables clearing of vector/matrix on resize </p>
+
+</div>
+</div>
 <a id="a07ad318652f6fdada8f111a6b0ad8790"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a07ad318652f6fdada8f111a6b0ad8790">&sect;&nbsp;</a></span>m_bForceRegGrid</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1301,7 +1393,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1327,7 +1419,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1352,7 +1444,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1378,7 +1470,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1404,7 +1496,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1430,7 +1522,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1456,7 +1548,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1482,7 +1574,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1508,7 +1600,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1534,7 +1626,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1562,7 +1654,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_assembling_tuner.html">AssemblingTuner</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:17 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:08:52 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

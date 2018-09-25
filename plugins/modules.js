@@ -1,7 +1,6 @@
 var modules =
 [
     [ "Plugins", "group__plugins.html", "group__plugins" ],
-    [ "Plugin Template", "group__plugin__template.html", "group__plugin__template" ],
     [ "Apps_ugdocu", "group__apps__ugdocu.html", "group__apps__ugdocu" ],
     [ "DocuGen", "group___docu_gen.html", null ],
     [ "Algebra Bridge", "../group__algebra__bridge.html", null ],
@@ -67,7 +66,7 @@ var modules =
     [ "lib_discretization", "../group__lib__discretization.html", "group__lib__discretization" ],
     [ "Local Finite Elements", "../group__lib__disc__local__finite__elements.html", null ],
     [ "Quadrature Rules", "../group__lib__discretization__quadrature__rules.html", null ],
-    [ "Elem Disc", "../group__lib__disc__elem__disc.html", null ],
+    [ "Elem Disc", "../group__lib__disc__elem__disc.html", "group__lib__disc__elem__disc" ],
     [ "User Data", "../group__lib__disc__user__data.html", "group__lib__disc__user__data" ],
     [ "algorithms", "../group__lib__grid__algorithms.html", null ],
     [ "refinement", "../group__lib__grid__algorithms__refinement.html", "group__lib__grid__algorithms__refinement" ],
@@ -94,14 +93,13 @@ var modules =
     [ "geometric objects", "../group__lib__grid__grid__objects.html", null ],
     [ "neighborhood util", "../group__lib__grid__algorithms__neighborhood__util.html", "group__lib__grid__algorithms__neighborhood__util" ],
     [ "lib_grid", "../group__lib__grid.html", "group__lib__grid" ],
-    [ "parallelization", "../group__lib__grid__parallelization.html", "group__lib__grid__parallelization" ],
-    [ "parallel refinement", "../group__lib__grid__parallelization__refinement.html", "group__lib__grid__parallelization__refinement" ],
-    [ "parallel distribution", "../group__lib__grid__parallelization__distribution.html", "group__lib__grid__parallelization__distribution" ],
-    [ "parallel utilities", "../group__lib__grid__parallelization__util.html", null ],
     [ "grid-tools", "../group__lib__grid__tools.html", "group__lib__grid__tools" ],
     [ "PCL", "../group__pcl.html", "group__pcl" ],
     [ "Registry", "../group__registry.html", "group__registry" ],
     [ "UGShell", "../group__ugbase__ugshell.html", "group__ugbase__ugshell" ],
     [ "ugbase", "../group__ugbase.html", null ],
-    [ "Algebracommon_bridge", "../group__algebracommon__bridge.html", null ]
+    [ "Algebracommon_bridge", "../group__algebracommon__bridge.html", null ],
+    [ "Lib_grid_parallelization_distribution", "../group__lib__grid__parallelization__distribution.html", "group__lib__grid__parallelization__distribution" ],
+    [ "Lib_grid_parallelization", "../group__lib__grid__parallelization.html", "group__lib__grid__parallelization" ],
+    [ "Lib_grid_parallelization_refinement", "../group__lib__grid__parallelization__refinement.html", "group__lib__grid__parallelization__refinement" ]
 ];

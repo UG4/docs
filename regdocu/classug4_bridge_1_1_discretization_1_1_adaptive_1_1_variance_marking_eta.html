@@ -113,17 +113,23 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a191b6a79db2065879c72cd66215e2744"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6078eb8d01a6ed4a9179c9dd1fb5686b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug4_bridge_1_1_discretization_1_1_adaptive_1_1_i_element_marking_strategy.html#a6078eb8d01a6ed4a9179c9dd1fb5686b">global_estimated_error_per_elem_min</a> () const</td></tr>
 <tr class="separator:a6078eb8d01a6ed4a9179c9dd1fb5686b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5318ca383a1987fc01639ace4a486c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug4_bridge_1_1_discretization_1_1_adaptive_1_1_variance_marking_eta.html#ab5318ca383a1987fc01639ace4a486c8">init_coarsening</a> (double unnamed, int unnamed)</td></tr>
+<tr class="separator:ab5318ca383a1987fc01639ace4a486c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a507f6d7475842fcc1294bf1877905d3a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug4_bridge_1_1_discretization_1_1_adaptive_1_1_variance_marking_eta.html#a507f6d7475842fcc1294bf1877905d3a">init_refinement</a> (double unnamed, int unnamed)</td></tr>
+<tr class="separator:a507f6d7475842fcc1294bf1877905d3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae75072ada85bc820bc5f0419a9494757"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug4_bridge_1_1_discretization_1_1_adaptive_1_1_variance_marking_eta.html#ae75072ada85bc820bc5f0419a9494757">VarianceMarkingEta</a> (double theta)</td></tr>
 <tr class="separator:ae75072ada85bc820bc5f0419a9494757"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd2dccbcaa23ae8911e3ebe7b5af3117"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug4_bridge_1_1_discretization_1_1_adaptive_1_1_variance_marking_eta.html#afd2dccbcaa23ae8911e3ebe7b5af3117">VarianceMarkingEta</a> (double theta, double eps)</td></tr>
 <tr class="separator:afd2dccbcaa23ae8911e3ebe7b5af3117"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac7ab3ac0311ceef7d5390f688a3597d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug4_bridge_1_1_discretization_1_1_adaptive_1_1_variance_marking_eta.html#aac7ab3ac0311ceef7d5390f688a3597d">VarianceMarkingEta</a> (double theta, double eps, double threshlow)</td></tr>
+<tr class="separator:aac7ab3ac0311ceef7d5390f688a3597d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section note"><dt>Note</dt><dd>default specialization is VarianceMarkingEta2d </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../classug_1_1_variance_marking_eta.html">ug::VarianceMarkingEta</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../classug_1_1_variance_marking_eta.html">ug::VarianceMarkingEta</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae75072ada85bc820bc5f0419a9494757"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae75072ada85bc820bc5f0419a9494757">&sect;&nbsp;</a></span>VarianceMarkingEta() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae75072ada85bc820bc5f0419a9494757">&sect;&nbsp;</a></span>VarianceMarkingEta() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -147,7 +153,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="afd2dccbcaa23ae8911e3ebe7b5af3117"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd2dccbcaa23ae8911e3ebe7b5af3117">&sect;&nbsp;</a></span>VarianceMarkingEta() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afd2dccbcaa23ae8911e3ebe7b5af3117">&sect;&nbsp;</a></span>VarianceMarkingEta() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -181,6 +187,48 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aac7ab3ac0311ceef7d5390f688a3597d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac7ab3ac0311ceef7d5390f688a3597d">&sect;&nbsp;</a></span>VarianceMarkingEta() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classug4_bridge_1_1_discretization_1_1_adaptive_1_1_variance_marking_eta.html">VarianceMarkingEta</a> </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>theta</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>eps</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>threshlow</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">theta</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">eps</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">threshlow</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="aafd7b3aae9e18c7d208f4479e80ff245"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aafd7b3aae9e18c7d208f4479e80ff245">&sect;&nbsp;</a></span>global_estimated_error()</h2>
@@ -205,7 +253,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../structug_1_1_i_element_marking_strategy.html#ae8fd591564fac924d6e3e299301a636b">IElementMarkingStrategy&lt; class &gt;::global_estimated_error()</a>.</p>
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../structug_1_1_i_element_marking_strategy.html#ae8fd591564fac924d6e3e299301a636b">IElementMarkingStrategy&lt; class &gt;::global_estimated_error()</a>.</p>
 
 </div>
 </div>
@@ -232,7 +280,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../structug_1_1_i_element_marking_strategy.html#a7f9d15b49c1847d96d69f73e6860f217">IElementMarkingStrategy&lt; class &gt;::global_estimated_error_per_elem_max()</a>.</p>
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../structug_1_1_i_element_marking_strategy.html#a7f9d15b49c1847d96d69f73e6860f217">IElementMarkingStrategy&lt; class &gt;::global_estimated_error_per_elem_max()</a>.</p>
 
 </div>
 </div>
@@ -259,7 +307,97 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../structug_1_1_i_element_marking_strategy.html#ab8f43db89e9ad80b33efefb4ba32b81d">IElementMarkingStrategy&lt; class &gt;::global_estimated_error_per_elem_min()</a>.</p>
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../structug_1_1_i_element_marking_strategy.html#ab8f43db89e9ad80b33efefb4ba32b81d">IElementMarkingStrategy&lt; class &gt;::global_estimated_error_per_elem_min()</a>.</p>
+
+</div>
+</div>
+<a id="ab5318ca383a1987fc01639ace4a486c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5318ca383a1987fc01639ace4a486c8">&sect;&nbsp;</a></span>init_coarsening()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void init_coarsening </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>unnamed</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>unnamed</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">unnamed</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">unnamed</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../classug_1_1_variance_marking_eta.html#a2b99707eeaf26b02a27ac7f10931bbb4">VarianceMarkingEta&lt; class &gt;::init_coarsening()</a>.</p>
+
+</div>
+</div>
+<a id="a507f6d7475842fcc1294bf1877905d3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a507f6d7475842fcc1294bf1877905d3a">&sect;&nbsp;</a></span>init_refinement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void init_refinement </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>unnamed</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>unnamed</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">unnamed</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">unnamed</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../classug_1_1_variance_marking_eta.html#ac30c71006dd51aabc2af5de96016af31">VarianceMarkingEta&lt; class &gt;::init_refinement()</a>.</p>
 
 </div>
 </div>
@@ -269,7 +407,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug4_bridge.html">ug4Bridge</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1_discretization.html">Discretization</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1_discretization_1_1_adaptive.html">Adaptive</a></li><li class="navelem"><a class="el" href="classug4_bridge_1_1_discretization_1_1_adaptive_1_1_variance_marking_eta.html">VarianceMarkingEta</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:02:59 for Registry by
+    <li class="footer">Generated on Tue Sep 25 2018 10:07:05 for Registry by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

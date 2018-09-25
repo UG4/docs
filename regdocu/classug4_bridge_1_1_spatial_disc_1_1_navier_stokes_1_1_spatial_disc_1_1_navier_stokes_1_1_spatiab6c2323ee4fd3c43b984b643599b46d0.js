@@ -1,0 +1,18 @@
+var classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatiab6c2323ee4fd3c43b984b643599b46d0 =
+[
+    [ "NavierStokesFV1", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatiab6c2323ee4fd3c43b984b643599b46d0.html#a1836f1af41e7d34208f7431c3846d92d", null ],
+    [ "NavierStokesFV1", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatiab6c2323ee4fd3c43b984b643599b46d0.html#a565b39457007a3e67ef1b27733fd3887", null ],
+    [ "disc_type", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatiab6c2323ee4fd3c43b984b643599b46d0.html#a458e7a487fa3e9226755cf7a3ac5fa32", null ],
+    [ "set_density", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatiab6c2323ee4fd3c43b984b643599b46d0.html#a31ef5f559d98f7eace3f04f103fc17a3", null ],
+    [ "set_exact_jacobian", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatiab6c2323ee4fd3c43b984b643599b46d0.html#af05e3ffbb07610a84e4777a6584aad7e", null ],
+    [ "set_grad_div", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatiab6c2323ee4fd3c43b984b643599b46d0.html#a3ee3a9b13218f118ef197c9162915619", null ],
+    [ "set_kinematic_viscosity", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatiab6c2323ee4fd3c43b984b643599b46d0.html#a3ba1740efa4ccef62804d2a0207fb4de", null ],
+    [ "set_laplace", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatiab6c2323ee4fd3c43b984b643599b46d0.html#a2bd42f8c6cc1522e0e81e5229b2f4c19", null ],
+    [ "set_pac_upwind", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatiab6c2323ee4fd3c43b984b643599b46d0.html#a853f4d701e0b29b6187ee4c525de64d3", null ],
+    [ "set_peclet_blend", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatiab6c2323ee4fd3c43b984b643599b46d0.html#a2fbcd1b09694264e8211d6a97e6078bd", null ],
+    [ "set_source", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatiab6c2323ee4fd3c43b984b643599b46d0.html#a90a698fcdca24dedeccebacd5c532136", null ],
+    [ "set_stabilization", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatiab6c2323ee4fd3c43b984b643599b46d0.html#a4110092db4a429c67ccae59362083cbd", null ],
+    [ "set_stokes", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatiab6c2323ee4fd3c43b984b643599b46d0.html#a66b3b6cc2a91c0acdc87ef0a74ba3213", null ],
+    [ "set_upwind", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatiab6c2323ee4fd3c43b984b643599b46d0.html#a99d62c8c28d6ea729f05f3c3d3c2f8f3", null ],
+    [ "velocity_grad", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatiab6c2323ee4fd3c43b984b643599b46d0.html#a1826ae8c432411e1c318a0cb80d888d4", null ]
+];

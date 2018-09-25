@@ -8,6 +8,7 @@ var refinement__tools_8h =
     [ "TOOLTIP_REFINE_SMOOTH", "refinement__tools_8h.html#a42a87ce0c50f6dc906c6c248a45d8ec6", null ],
     [ "TOOLTIP_REFINE_SMOOTH_BOUNDARY_2D", "refinement__tools_8h.html#a9db88a30a7057fdcaeb04d5b0caf412d", null ],
     [ "TOOLTIP_REFINE_WITH_SNAP_POINTS", "refinement__tools_8h.html#a3be579ee3c2017be0beac23f2114f2ea", null ],
+    [ "TOOLTIP_REFINE_WITH_SNAP_POINTS_ORTHO", "refinement__tools_8h.html#aacee69b7fbc79356927385b4ae7744cc", null ],
     [ "TOOLTIP_REGULARIZING_REFINEMENT", "refinement__tools_8h.html#af188036785ab61dbf51ebb5959fbd6ec", null ],
     [ "HangingNodeRefine", "refinement__tools_8h.html#ga96da1aee9c8ff5fa45501f60df1e2846", null ],
     [ "HangingNodeRefine", "refinement__tools_8h.html#gaba0deb0164224a910c2920f6871ccd1a", null ],
@@ -18,5 +19,6 @@ var refinement__tools_8h =
     [ "RefineSmooth", "refinement__tools_8h.html#gaf65e06146f29d06c2a7d9d74705e0af0", null ],
     [ "RefineSmooth", "refinement__tools_8h.html#gadf2f1f1d3fd09f3d04053797ac32c5f5", null ],
     [ "RefineWithSnapPoints", "refinement__tools_8h.html#gaf4a6ef8170e85a32c2e086fa8ef335f2", null ],
+    [ "RefineWithSnapPointsOrtho", "refinement__tools_8h.html#ga7473768e2dc7895bd77935881455bee2", null ],
     [ "RegularizingRefinement", "refinement__tools_8h.html#ga28d4a840d57b0f0ca3ef38b22e5dd155", null ]
 ];

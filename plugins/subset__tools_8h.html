@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Plugins: /home/sreiter/ug4-docs/plugins/ProMesh/tools/subset_tools.h File Reference</title>
+<title>Plugins: /home/sreiter/ug4-docugen/plugins/ProMesh/tools/subset_tools.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -97,8 +97,8 @@ $(document).ready(function(){initNavTree('subset__tools_8h.html','');});
 <div class="textblock"><code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;queue&gt;</code><br />
 <code>#include &quot;<a class="el" href="mesh_8h_source.html">../mesh.h</a>&quot;</code><br />
-<code>#include &quot;<a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../subset____util__8h.html">lib_grid/algorithms/subset_util.h</a>&quot;</code><br />
-<code>#include &quot;<a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../grid____statistics__8h.html">lib_grid/algorithms/grid_statistics.h</a>&quot;</code><br />
+<code>#include &quot;<a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../subset____util__8h.html">lib_grid/algorithms/subset_util.h</a>&quot;</code><br />
+<code>#include &quot;<a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../grid____statistics__8h.html">lib_grid/algorithms/grid_statistics.h</a>&quot;</code><br />
 </div>
 <p><a href="subset__tools_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -113,19 +113,23 @@ Namespaces</h2></td></tr>
 Macros</h2></td></tr>
 <tr class="memitem:ab2171f0827c4690ed7238679081f9ee2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#ab2171f0827c4690ed7238679081f9ee2">TOOLTIP_ADJUST_SUBSETS_FOR_UG3</a>&#160;&#160;&#160;&quot;Assigns face and edge indices so that the geometry can be used with ug3.&quot;</td></tr>
 <tr class="separator:ab2171f0827c4690ed7238679081f9ee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c6a82f41ead92d6b9a82f139821ebe3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#a3c6a82f41ead92d6b9a82f139821ebe3">TOOLTIP_ADJUST_SUBSETS_FOR_UG4</a>&#160;&#160;&#160;&quot;Adjusts subsets <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../parser_8cpp.html#ab352f63e4dbefc447c3fd0eba3fa120f">for</a> simulation with ug4.&quot;</td></tr>
+<tr class="memitem:a3c6a82f41ead92d6b9a82f139821ebe3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#a3c6a82f41ead92d6b9a82f139821ebe3">TOOLTIP_ADJUST_SUBSETS_FOR_UG4</a>&#160;&#160;&#160;&quot;Adjusts subsets <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../parser_8cpp.html#ab352f63e4dbefc447c3fd0eba3fa120f">for</a> simulation with ug4.&quot;</td></tr>
 <tr class="separator:a3c6a82f41ead92d6b9a82f139821ebe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96c7851b21137bb587eab0e098c32041"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#a96c7851b21137bb587eab0e098c32041">TOOLTIP_ASSIGN_NEW_SUBSET</a>&#160;&#160;&#160;&quot;Assigns selected elements <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> a new subset.&quot;</td></tr>
+<tr class="memitem:a96c7851b21137bb587eab0e098c32041"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#a96c7851b21137bb587eab0e098c32041">TOOLTIP_ASSIGN_NEW_SUBSET</a>&#160;&#160;&#160;&quot;Assigns selected elements <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> a new subset.&quot;</td></tr>
 <tr class="separator:a96c7851b21137bb587eab0e098c32041"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae18cdf7cbec7fbce7ac367133ddf3df2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#ae18cdf7cbec7fbce7ac367133ddf3df2">TOOLTIP_ASSIGN_SUBSET</a>&#160;&#160;&#160;&quot;Assigns the selected elements <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> a subset.&quot;</td></tr>
+<tr class="memitem:ae18cdf7cbec7fbce7ac367133ddf3df2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#ae18cdf7cbec7fbce7ac367133ddf3df2">TOOLTIP_ASSIGN_SUBSET</a>&#160;&#160;&#160;&quot;Assigns the selected elements <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> a subset.&quot;</td></tr>
 <tr class="separator:ae18cdf7cbec7fbce7ac367133ddf3df2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9f94984aded951311d5478ec62a6686"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#af9f94984aded951311d5478ec62a6686">TOOLTIP_ASSIGN_SUBSET_COLORS</a>&#160;&#160;&#160;&quot;assigns subset colors by a procedural scheme.&quot;</td></tr>
 <tr class="separator:af9f94984aded951311d5478ec62a6686"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00dba6a2bdde43f9ff3c1a9f8e14ba6c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#a00dba6a2bdde43f9ff3c1a9f8e14ba6c">TOOLTIP_ASSIGN_SUBSETS_BY_ELEMENT_TYPE</a>&#160;&#160;&#160;&quot;Assigns elemets <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> subsets based on their concrete type.&quot;</td></tr>
+<tr class="memitem:af86b7745f1067c35ae8885a0894abe25"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#af86b7745f1067c35ae8885a0894abe25">TOOLTIP_ASSIGN_SUBSETS_BY_ASPECT_RATIO</a>&#160;&#160;&#160;&quot;Assigns subsets according <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> an aspect ratio histogram&quot;</td></tr>
+<tr class="separator:af86b7745f1067c35ae8885a0894abe25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00dba6a2bdde43f9ff3c1a9f8e14ba6c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#a00dba6a2bdde43f9ff3c1a9f8e14ba6c">TOOLTIP_ASSIGN_SUBSETS_BY_ELEMENT_TYPE</a>&#160;&#160;&#160;&quot;Assigns elemets <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> subsets based on their concrete type.&quot;</td></tr>
 <tr class="separator:a00dba6a2bdde43f9ff3c1a9f8e14ba6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ce8b32dd0df209dd7f8794866ff7be9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#a4ce8b32dd0df209dd7f8794866ff7be9">TOOLTIP_ASSIGN_SUBSETS_BY_QUALITY</a>&#160;&#160;&#160;&quot;Assigns the selected <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> a subset depending on their quality.&quot;</td></tr>
+<tr class="memitem:a4ce8b32dd0df209dd7f8794866ff7be9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#a4ce8b32dd0df209dd7f8794866ff7be9">TOOLTIP_ASSIGN_SUBSETS_BY_QUALITY</a>&#160;&#160;&#160;&quot;Assigns the selected <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> a subset depending on their quality.&quot;</td></tr>
 <tr class="separator:a4ce8b32dd0df209dd7f8794866ff7be9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4c9d528992177e0cc3f70b5b9602599"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#af4c9d528992177e0cc3f70b5b9602599">TOOLTIP_COPY_SUBSET_INDICES_TO_SIDES</a>&#160;&#160;&#160;&quot;Copies subset indices of selected elements <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> sides of those elements.&quot;</td></tr>
+<tr class="memitem:a81db3b28d25aec533cab6ebc8f30d1ba"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#a81db3b28d25aec533cab6ebc8f30d1ba">TOOLTIP_ASSIGN_SUBSETS_FROM_RASTER</a>&#160;&#160;&#160;&quot;Assigns the subset index <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../parser_8cpp.html#ab352f63e4dbefc447c3fd0eba3fa120f">for</a> each element from the raster-cell in which the center of the element lies.&quot;</td></tr>
+<tr class="separator:a81db3b28d25aec533cab6ebc8f30d1ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4c9d528992177e0cc3f70b5b9602599"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#af4c9d528992177e0cc3f70b5b9602599">TOOLTIP_COPY_SUBSET_INDICES_TO_SIDES</a>&#160;&#160;&#160;&quot;Copies subset indices of selected elements <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> sides of those elements.&quot;</td></tr>
 <tr class="separator:af4c9d528992177e0cc3f70b5b9602599"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01f59f182cc0c47634bdefb516b5c884"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#a01f59f182cc0c47634bdefb516b5c884">TOOLTIP_ERASE_EMPTY_SUBSETS</a>&#160;&#160;&#160;&quot;Erases Subsets, which do not contain any elements at all.&quot;</td></tr>
 <tr class="separator:a01f59f182cc0c47634bdefb516b5c884"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -133,23 +137,23 @@ Macros</h2></td></tr>
 <tr class="separator:ac3448ca4d8f7452373801aa7ca533ac9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a111071d20572ebaae7afd0d6537641b0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#a111071d20572ebaae7afd0d6537641b0">TOOLTIP_JOIN_SUBSETS</a>&#160;&#160;&#160;&quot;Joins two subsets&quot;</td></tr>
 <tr class="separator:a111071d20572ebaae7afd0d6537641b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c8017a7bbe90185e6026761b5c58905"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#a1c8017a7bbe90185e6026761b5c58905">TOOLTIP_MOVE_SUBSET</a>&#160;&#160;&#160;&quot;Moves a subset <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> another index.&quot;</td></tr>
+<tr class="memitem:a1c8017a7bbe90185e6026761b5c58905"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#a1c8017a7bbe90185e6026761b5c58905">TOOLTIP_MOVE_SUBSET</a>&#160;&#160;&#160;&quot;Moves a subset <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> another index.&quot;</td></tr>
 <tr class="separator:a1c8017a7bbe90185e6026761b5c58905"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3cd5489574d01bd70f43fecb74aea767"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#a3cd5489574d01bd70f43fecb74aea767">TOOLTIP_SEPARATE_DEGENERATED_BOUNDARY_FACE_SUBSETS</a>&#160;&#160;&#160;&quot;Separates degenerated boundary face subsets at sharp creases.&quot;</td></tr>
 <tr class="separator:a3cd5489574d01bd70f43fecb74aea767"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f523beb9f867c4f95ffc3de646762d1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#a0f523beb9f867c4f95ffc3de646762d1">TOOLTIP_SEPARATE_FACE_SUBSET_BY_NORMAL</a>&#160;&#160;&#160;&quot;Collects faces of a given subset that have a similar <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__io.html#gga6a82612c01d3d1a74ef7c21feb1d3577a940e1736cb82fb7bcacdc88c67705d75">normal</a> and assigns them <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> new subsets.&quot;</td></tr>
+<tr class="memitem:a0f523beb9f867c4f95ffc3de646762d1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#a0f523beb9f867c4f95ffc3de646762d1">TOOLTIP_SEPARATE_FACE_SUBSET_BY_NORMAL</a>&#160;&#160;&#160;&quot;Collects faces of a given subset that have a similar <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__io.html#gga6a82612c01d3d1a74ef7c21feb1d3577a940e1736cb82fb7bcacdc88c67705d75">normal</a> and assigns them <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> new subsets.&quot;</td></tr>
 <tr class="separator:a0f523beb9f867c4f95ffc3de646762d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac27299c59ced0e80bf0c7c77f48e1320"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#ac27299c59ced0e80bf0c7c77f48e1320">TOOLTIP_SEPARATE_FACE_SUBSETS_BY_NORMAL</a>&#160;&#160;&#160;&quot;Collects faces of each subset that have a similar <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__io.html#gga6a82612c01d3d1a74ef7c21feb1d3577a940e1736cb82fb7bcacdc88c67705d75">normal</a> and assigns them <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> new subsets.&quot;</td></tr>
+<tr class="memitem:ac27299c59ced0e80bf0c7c77f48e1320"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#ac27299c59ced0e80bf0c7c77f48e1320">TOOLTIP_SEPARATE_FACE_SUBSETS_BY_NORMAL</a>&#160;&#160;&#160;&quot;Collects faces of each subset that have a similar <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__io.html#gga6a82612c01d3d1a74ef7c21feb1d3577a940e1736cb82fb7bcacdc88c67705d75">normal</a> and assigns them <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> new subsets.&quot;</td></tr>
 <tr class="separator:ac27299c59ced0e80bf0c7c77f48e1320"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf61251678da54a176110792713373c6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#adf61251678da54a176110792713373c6">TOOLTIP_SEPARATE_FACES_BY_EDGE_SUBSETS</a>&#160;&#160;&#160;&quot;Assigns faces that are surrounded by a <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#ga72f1ef97237c65e4c68dae6751103e8b">set</a> of edge-subsets <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> a common subset.&quot;</td></tr>
+<tr class="memitem:adf61251678da54a176110792713373c6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#adf61251678da54a176110792713373c6">TOOLTIP_SEPARATE_FACES_BY_EDGE_SUBSETS</a>&#160;&#160;&#160;&quot;Assigns faces that are surrounded by a <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#ga72f1ef97237c65e4c68dae6751103e8b">set</a> of edge-subsets <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> a common subset.&quot;</td></tr>
 <tr class="separator:adf61251678da54a176110792713373c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa90b05781c132af9b8c00807dd9c48c3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#aa90b05781c132af9b8c00807dd9c48c3">TOOLTIP_SEPARATE_FACES_BY_SELECTED_EDGES</a>&#160;&#160;&#160;&quot;Assigns faces that are surrounded by a <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#ga72f1ef97237c65e4c68dae6751103e8b">set</a> of selected edges <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> a common subset.&quot;</td></tr>
+<tr class="memitem:aa90b05781c132af9b8c00807dd9c48c3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#aa90b05781c132af9b8c00807dd9c48c3">TOOLTIP_SEPARATE_FACES_BY_SELECTED_EDGES</a>&#160;&#160;&#160;&quot;Assigns faces that are surrounded by a <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#ga72f1ef97237c65e4c68dae6751103e8b">set</a> of selected edges <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> a common subset.&quot;</td></tr>
 <tr class="separator:aa90b05781c132af9b8c00807dd9c48c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab2418b6b9f8614a1c9f15095ad70229"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#aab2418b6b9f8614a1c9f15095ad70229">TOOLTIP_SEPARATE_IRREGULAR_MANIFOLD_SUBSETS</a>&#160;&#160;&#160;&quot;After this algorithm all face-subsets are regular manifolds.&quot;</td></tr>
 <tr class="separator:aab2418b6b9f8614a1c9f15095ad70229"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85ef2f9970b2822441c3f0e799c455e2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#a85ef2f9970b2822441c3f0e799c455e2">TOOLTIP_SEPARATE_VOLUMES_BY_FACE_SUBSETS</a>&#160;&#160;&#160;&quot;Assigns volumes that are surrounded by a <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#ga72f1ef97237c65e4c68dae6751103e8b">set</a> of face-subsets <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> a common subset.&quot;</td></tr>
+<tr class="memitem:a85ef2f9970b2822441c3f0e799c455e2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#a85ef2f9970b2822441c3f0e799c455e2">TOOLTIP_SEPARATE_VOLUMES_BY_FACE_SUBSETS</a>&#160;&#160;&#160;&quot;Assigns volumes that are surrounded by a <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#ga72f1ef97237c65e4c68dae6751103e8b">set</a> of face-subsets <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> a common subset.&quot;</td></tr>
 <tr class="separator:a85ef2f9970b2822441c3f0e799c455e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53dd52927c708d0e7196f3800d7c8604"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#a53dd52927c708d0e7196f3800d7c8604">TOOLTIP_SEPARATE_VOLUMES_BY_SELECTED_FACES</a>&#160;&#160;&#160;&quot;Assigns volumes that are surrounded by a <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#ga72f1ef97237c65e4c68dae6751103e8b">set</a> of selected faces <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> a common subset.&quot;</td></tr>
+<tr class="memitem:a53dd52927c708d0e7196f3800d7c8604"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#a53dd52927c708d0e7196f3800d7c8604">TOOLTIP_SEPARATE_VOLUMES_BY_SELECTED_FACES</a>&#160;&#160;&#160;&quot;Assigns volumes that are surrounded by a <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#ga72f1ef97237c65e4c68dae6751103e8b">set</a> of selected faces <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> a common subset.&quot;</td></tr>
 <tr class="separator:a53dd52927c708d0e7196f3800d7c8604"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3df5167fa019e864781328b66a7af388"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subset__tools_8h.html#a3df5167fa019e864781328b66a7af388">TOOLTIP_SET_SUBSET_NAME</a>&#160;&#160;&#160;&quot;&quot;</td></tr>
 <tr class="separator:a3df5167fa019e864781328b66a7af388"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -172,10 +176,15 @@ Functions</h2></td></tr>
 <tr class="separator:ga40c49b1e8621d132f6bd3bc656408d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga158bf3daf85b3f2a75dd30a87589b93b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga158bf3daf85b3f2a75dd30a87589b93b">ug::promesh::AssignSubsetColors</a> (Mesh *obj)</td></tr>
 <tr class="separator:ga158bf3daf85b3f2a75dd30a87589b93b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1c598b482220fdf0760622de397cdae1"><td class="memTemplParams" colspan="2">template&lt;class elem_t &gt; </td></tr>
+<tr class="memitem:ga1c598b482220fdf0760622de397cdae1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga1c598b482220fdf0760622de397cdae1">ug::promesh::AssignSubsetsByAspectRatio</a> (Mesh *msh, int numHistoSecs, bool eraseOldSubsets)</td></tr>
+<tr class="separator:ga1c598b482220fdf0760622de397cdae1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gacfa1fcaf74cfa327c3160f560bcee7b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#gacfa1fcaf74cfa327c3160f560bcee7b3">ug::promesh::AssignSubsetsByElementType</a> (Mesh *obj)</td></tr>
 <tr class="separator:gacfa1fcaf74cfa327c3160f560bcee7b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga92c473add85cc9febbe772d59c995d66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga92c473add85cc9febbe772d59c995d66">ug::promesh::AssignSubsetsByQuality</a> (Mesh *obj, int numSections)</td></tr>
 <tr class="separator:ga92c473add85cc9febbe772d59c995d66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga68d0cca3e93161aa0ed5d25196a2e16e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga68d0cca3e93161aa0ed5d25196a2e16e">ug::promesh::AssignSubsetsFromRaster</a> (Mesh *obj, const char *rasterFileName, int rasterDimension, bool vertices, bool edges, bool faces, bool volumes)</td></tr>
+<tr class="separator:ga68d0cca3e93161aa0ed5d25196a2e16e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac193a54bbc6b17efd68292f9d20a130b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#gac193a54bbc6b17efd68292f9d20a130b">ug::promesh::CopySubsetIndicesToSides</a> (Mesh *obj, bool selectionOnly, bool toUnassignedOnly)</td></tr>
 <tr class="separator:gac193a54bbc6b17efd68292f9d20a130b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga80c173c2b54ba87b85a27bca2ab33085"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga80c173c2b54ba87b85a27bca2ab33085">ug::promesh::EraseEmptySubsets</a> (Mesh *obj)</td></tr>
@@ -186,7 +195,7 @@ Functions</h2></td></tr>
 <tr class="separator:ga0cbf4634b0c29fd5151a3e557b5cf12c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0a0eb0838c2b3c836d71184ae57370ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga0a0eb0838c2b3c836d71184ae57370ba">ug::promesh::MoveSubset</a> (Mesh *obj, int oldIndex, int newIndex)</td></tr>
 <tr class="separator:ga0a0eb0838c2b3c836d71184ae57370ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8e5e4eb2737fdb5090261b8c4eff9c16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga8e5e4eb2737fdb5090261b8c4eff9c16">ug::promesh::SeparateDegeneratedBoundaryFaceSubsets</a> (Mesh *obj, <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> angle)</td></tr>
+<tr class="memitem:ga8e5e4eb2737fdb5090261b8c4eff9c16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga8e5e4eb2737fdb5090261b8c4eff9c16">ug::promesh::SeparateDegeneratedBoundaryFaceSubsets</a> (Mesh *obj, <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> angle)</td></tr>
 <tr class="separator:ga8e5e4eb2737fdb5090261b8c4eff9c16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac4e564cb455a268ee5cdf89cd9b78b50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#gac4e564cb455a268ee5cdf89cd9b78b50">ug::promesh::SeparateFacesByEdgeSubsets</a> (Mesh *obj)</td></tr>
 <tr class="separator:gac4e564cb455a268ee5cdf89cd9b78b50"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -233,7 +242,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TOOLTIP_ADJUST_SUBSETS_FOR_UG4&#160;&#160;&#160;&quot;Adjusts subsets <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../parser_8cpp.html#ab352f63e4dbefc447c3fd0eba3fa120f">for</a> simulation with ug4.&quot;</td>
+          <td class="memname">#define TOOLTIP_ADJUST_SUBSETS_FOR_UG4&#160;&#160;&#160;&quot;Adjusts subsets <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../parser_8cpp.html#ab352f63e4dbefc447c3fd0eba3fa120f">for</a> simulation with ug4.&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -249,7 +258,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TOOLTIP_ASSIGN_NEW_SUBSET&#160;&#160;&#160;&quot;Assigns selected elements <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> a new subset.&quot;</td>
+          <td class="memname">#define TOOLTIP_ASSIGN_NEW_SUBSET&#160;&#160;&#160;&quot;Assigns selected elements <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> a new subset.&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -265,7 +274,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TOOLTIP_ASSIGN_SUBSET&#160;&#160;&#160;&quot;Assigns the selected elements <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> a subset.&quot;</td>
+          <td class="memname">#define TOOLTIP_ASSIGN_SUBSET&#160;&#160;&#160;&quot;Assigns the selected elements <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> a subset.&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -290,6 +299,22 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="af86b7745f1067c35ae8885a0894abe25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af86b7745f1067c35ae8885a0894abe25">&sect;&nbsp;</a></span>TOOLTIP_ASSIGN_SUBSETS_BY_ASPECT_RATIO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TOOLTIP_ASSIGN_SUBSETS_BY_ASPECT_RATIO&#160;&#160;&#160;&quot;Assigns subsets according <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> an aspect ratio histogram&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="namespaceug_1_1promesh.html#ab92cda8e63acc44456f482394fb982f4">ug::promesh::RegisterSubsetTools()</a>.</p>
+
+</div>
+</div>
 <a id="a00dba6a2bdde43f9ff3c1a9f8e14ba6c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a00dba6a2bdde43f9ff3c1a9f8e14ba6c">&sect;&nbsp;</a></span>TOOLTIP_ASSIGN_SUBSETS_BY_ELEMENT_TYPE</h2>
 
@@ -297,7 +322,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TOOLTIP_ASSIGN_SUBSETS_BY_ELEMENT_TYPE&#160;&#160;&#160;&quot;Assigns elemets <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> subsets based on their concrete type.&quot;</td>
+          <td class="memname">#define TOOLTIP_ASSIGN_SUBSETS_BY_ELEMENT_TYPE&#160;&#160;&#160;&quot;Assigns elemets <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> subsets based on their concrete type.&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -313,7 +338,23 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TOOLTIP_ASSIGN_SUBSETS_BY_QUALITY&#160;&#160;&#160;&quot;Assigns the selected <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> a subset depending on their quality.&quot;</td>
+          <td class="memname">#define TOOLTIP_ASSIGN_SUBSETS_BY_QUALITY&#160;&#160;&#160;&quot;Assigns the selected <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> a subset depending on their quality.&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="namespaceug_1_1promesh.html#ab92cda8e63acc44456f482394fb982f4">ug::promesh::RegisterSubsetTools()</a>.</p>
+
+</div>
+</div>
+<a id="a81db3b28d25aec533cab6ebc8f30d1ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81db3b28d25aec533cab6ebc8f30d1ba">&sect;&nbsp;</a></span>TOOLTIP_ASSIGN_SUBSETS_FROM_RASTER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TOOLTIP_ASSIGN_SUBSETS_FROM_RASTER&#160;&#160;&#160;&quot;Assigns the subset index <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../parser_8cpp.html#ab352f63e4dbefc447c3fd0eba3fa120f">for</a> each element from the raster-cell in which the center of the element lies.&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -329,7 +370,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TOOLTIP_COPY_SUBSET_INDICES_TO_SIDES&#160;&#160;&#160;&quot;Copies subset indices of selected elements <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> sides of those elements.&quot;</td>
+          <td class="memname">#define TOOLTIP_COPY_SUBSET_INDICES_TO_SIDES&#160;&#160;&#160;&quot;Copies subset indices of selected elements <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> sides of those elements.&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -393,7 +434,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TOOLTIP_MOVE_SUBSET&#160;&#160;&#160;&quot;Moves a subset <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> another index.&quot;</td>
+          <td class="memname">#define TOOLTIP_MOVE_SUBSET&#160;&#160;&#160;&quot;Moves a subset <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> another index.&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -425,7 +466,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TOOLTIP_SEPARATE_FACE_SUBSET_BY_NORMAL&#160;&#160;&#160;&quot;Collects faces of a given subset that have a similar <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__io.html#gga6a82612c01d3d1a74ef7c21feb1d3577a940e1736cb82fb7bcacdc88c67705d75">normal</a> and assigns them <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> new subsets.&quot;</td>
+          <td class="memname">#define TOOLTIP_SEPARATE_FACE_SUBSET_BY_NORMAL&#160;&#160;&#160;&quot;Collects faces of a given subset that have a similar <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__io.html#gga6a82612c01d3d1a74ef7c21feb1d3577a940e1736cb82fb7bcacdc88c67705d75">normal</a> and assigns them <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> new subsets.&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -441,7 +482,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TOOLTIP_SEPARATE_FACE_SUBSETS_BY_NORMAL&#160;&#160;&#160;&quot;Collects faces of each subset that have a similar <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__io.html#gga6a82612c01d3d1a74ef7c21feb1d3577a940e1736cb82fb7bcacdc88c67705d75">normal</a> and assigns them <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> new subsets.&quot;</td>
+          <td class="memname">#define TOOLTIP_SEPARATE_FACE_SUBSETS_BY_NORMAL&#160;&#160;&#160;&quot;Collects faces of each subset that have a similar <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__io.html#gga6a82612c01d3d1a74ef7c21feb1d3577a940e1736cb82fb7bcacdc88c67705d75">normal</a> and assigns them <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> new subsets.&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -457,7 +498,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TOOLTIP_SEPARATE_FACES_BY_EDGE_SUBSETS&#160;&#160;&#160;&quot;Assigns faces that are surrounded by a <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#ga72f1ef97237c65e4c68dae6751103e8b">set</a> of edge-subsets <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> a common subset.&quot;</td>
+          <td class="memname">#define TOOLTIP_SEPARATE_FACES_BY_EDGE_SUBSETS&#160;&#160;&#160;&quot;Assigns faces that are surrounded by a <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#ga72f1ef97237c65e4c68dae6751103e8b">set</a> of edge-subsets <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> a common subset.&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -473,7 +514,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TOOLTIP_SEPARATE_FACES_BY_SELECTED_EDGES&#160;&#160;&#160;&quot;Assigns faces that are surrounded by a <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#ga72f1ef97237c65e4c68dae6751103e8b">set</a> of selected edges <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> a common subset.&quot;</td>
+          <td class="memname">#define TOOLTIP_SEPARATE_FACES_BY_SELECTED_EDGES&#160;&#160;&#160;&quot;Assigns faces that are surrounded by a <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#ga72f1ef97237c65e4c68dae6751103e8b">set</a> of selected edges <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> a common subset.&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -505,7 +546,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TOOLTIP_SEPARATE_VOLUMES_BY_FACE_SUBSETS&#160;&#160;&#160;&quot;Assigns volumes that are surrounded by a <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#ga72f1ef97237c65e4c68dae6751103e8b">set</a> of face-subsets <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> a common subset.&quot;</td>
+          <td class="memname">#define TOOLTIP_SEPARATE_VOLUMES_BY_FACE_SUBSETS&#160;&#160;&#160;&quot;Assigns volumes that are surrounded by a <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#ga72f1ef97237c65e4c68dae6751103e8b">set</a> of face-subsets <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> a common subset.&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -521,7 +562,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TOOLTIP_SEPARATE_VOLUMES_BY_SELECTED_FACES&#160;&#160;&#160;&quot;Assigns volumes that are surrounded by a <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#ga72f1ef97237c65e4c68dae6751103e8b">set</a> of selected faces <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> a common subset.&quot;</td>
+          <td class="memname">#define TOOLTIP_SEPARATE_VOLUMES_BY_SELECTED_FACES&#160;&#160;&#160;&quot;Assigns volumes that are surrounded by a <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#ga72f1ef97237c65e4c68dae6751103e8b">set</a> of selected faces <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> a common subset.&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -584,7 +625,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_38c8d24aef3972a7f87b834274e76e31.html">plugins</a></li><li class="navelem"><a class="el" href="dir_763ed3e91742c64da7339b855c065f8b.html">ProMesh</a></li><li class="navelem"><a class="el" href="dir_90c8b690e559459740b0e677eab7f4d2.html">tools</a></li><li class="navelem"><a class="el" href="subset__tools_8h.html">subset_tools.h</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:01:22 for Plugins by
+    <li class="footer">Generated on Tue Sep 25 2018 10:04:51 for Plugins by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

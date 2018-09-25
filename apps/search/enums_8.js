@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['kdsplitdimension',['KDSplitDimension',['../../group__lib__grid__algorithms__trees.html#gac7c3d5a00e1647b0ce7e2b00d57fe0da',1,'ug::KDSplitDimension()'],['../../group__lib__grid__algorithms__trees.html#gac7c3d5a00e1647b0ce7e2b00d57fe0da',1,'KDSplitDimension()(Global Namespace)']]],
-  ['kdtreesplitstrategy',['KDTreeSplitStrategy',['../../namespaceug.html#ae1fe76a4a3249b261c97645b045a2b6c',1,'ug']]]
+  ['interfacenodetypes',['InterfaceNodeTypes',['../../namespaceug.html#aacc2951b8f490a43026acf2e141fb9ef',1,'ug']]],
+  ['interfacestates',['InterfaceStates',['../../namespaceug.html#a5e5bbb984fa69d71c847b774f1bc6f99',1,'ug']]]
 ];

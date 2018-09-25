@@ -21,6 +21,7 @@ var face__util_8h =
     [ "IsVolumeBoundaryFace", "face__util_8h.html#ga6612d9dd1c1ccd191d67a1a1e6718156", null ],
     [ "IsVolumeBoundaryFace", "face__util_8h.html#ga4e9dfa154c5ab46e2f77c4a48a8ee98c", null ],
     [ "LiesOnBoundary", "face__util_8h.html#ga546524dbafff353c160a8e52acb90260", null ],
+    [ "NumAssociatedVolumes", "face__util_8h.html#ga2e099f969485473fadd5113b40fe508a", null ],
     [ "PointFaceTest", "face__util_8h.html#ga9ed3a8995006d786f63e318b7f6c358f", null ],
     [ "ProjectPointToSurface", "face__util_8h.html#gabe4b069038c2eb0c0284efde3a3bd64b", null ],
     [ "TriangleQuality", "face__util_8h.html#gae772e4fd343550a940e172b770faaf1b", null ],

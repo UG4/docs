@@ -1,5 +1,7 @@
 var dir_1b1a27f1c6c60efb3c79950cb2bb672f =
 [
+    [ "anisotropy_util.h", "anisotropy__util_8h.html", "anisotropy__util_8h" ],
+    [ "anisotropy_util_impl.h", "anisotropy__util__impl_8h.html", "anisotropy__util__impl_8h" ],
     [ "edge_util.cpp", "edge__util_8cpp.html", "edge__util_8cpp" ],
     [ "edge_util.h", "edge__util_8h.html", "edge__util_8h" ],
     [ "edge_util_impl.hpp", "edge__util__impl_8hpp.html", "edge__util__impl_8hpp" ],

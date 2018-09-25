@@ -122,12 +122,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a164b7f348bb7fe01f0dfaad7a29add7d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection.html#a164b7f348bb7fe01f0dfaad7a29add7d">ExtendSelection</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, int neighborhood_size)</td></tr>
 <tr class="memdesc:a164b7f348bb7fe01f0dfaad7a29add7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects neighbors of selected elements.  <a href="#a164b7f348bb7fe01f0dfaad7a29add7d">More...</a><br /></td></tr>
 <tr class="separator:a164b7f348bb7fe01f0dfaad7a29add7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a5056276d66595cc69eb49d48457d95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection.html#a3a5056276d66595cc69eb49d48457d95">ExtendSelectionInDirection</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, int neighborhood_size, const Vec *direction, double minAngle, double maxAngle)</td></tr>
+<tr class="memdesc:a3a5056276d66595cc69eb49d48457d95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects neighbors of selected elements whose center can be reached in the given direction from the center of already selected elements.  <a href="#a3a5056276d66595cc69eb49d48457d95">More...</a><br /></td></tr>
+<tr class="separator:a3a5056276d66595cc69eb49d48457d95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a128d8ede654557f075cf4a109d8f6a0d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection.html#a128d8ede654557f075cf4a109d8f6a0d">InvertSelection</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, bool vertices, bool edges, bool faces, bool volumes)</td></tr>
 <tr class="memdesc:a128d8ede654557f075cf4a109d8f6a0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inverts current selection.  <a href="#a128d8ede654557f075cf4a109d8f6a0d">More...</a><br /></td></tr>
 <tr class="separator:a128d8ede654557f075cf4a109d8f6a0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae490f0a8c1b1bcfdb271d3f0e2872693"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection.html#ae490f0a8c1b1bcfdb271d3f0e2872693">SelectAll</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh)</td></tr>
 <tr class="memdesc:ae490f0a8c1b1bcfdb271d3f0e2872693"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects all vertices, edges ,faces and volumes of the current grid.  <a href="#ae490f0a8c1b1bcfdb271d3f0e2872693">More...</a><br /></td></tr>
 <tr class="separator:ae490f0a8c1b1bcfdb271d3f0e2872693"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1169f18265aa775f0a691727a8cce8a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection.html#a1169f18265aa775f0a691727a8cce8a1">SelectElementsByIndexRange</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, const char *vertex_inds, const char *edge_inds, const char *face_inds, const char *volume_inds, bool clear_selection)</td></tr>
+<tr class="memdesc:a1169f18265aa775f0a691727a8cce8a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects elements by the given index ranges (e.g.: "0,1,2-5,9,11-23").  <a href="#a1169f18265aa775f0a691727a8cce8a1">More...</a><br /></td></tr>
+<tr class="separator:a1169f18265aa775f0a691727a8cce8a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adac7279d75827c01cf579eb2b8bcbcc2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection.html#adac7279d75827c01cf579eb2b8bcbcc2">SelectSelectionBoundary</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh)</td></tr>
 <tr class="memdesc:adac7279d75827c01cf579eb2b8bcbcc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects the boundary of the current selection.  <a href="#adac7279d75827c01cf579eb2b8bcbcc2">More...</a><br /></td></tr>
 <tr class="separator:adac7279d75827c01cf579eb2b8bcbcc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -157,7 +163,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga6c29368dfe49bbd573c570a6d8b92699">ClearSelection()</a>.</p>
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga6c29368dfe49bbd573c570a6d8b92699">ClearSelection()</a>.</p>
 
 </div>
 </div>
@@ -185,7 +191,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#gabfb057e0ab2fb7d6f481a5c6e6b73ed2">CloseSelection()</a>.</p>
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__lib__grid__algorithms__selection__util.html#ga8ed839e8395106abc07bd43ca814fbef">CloseSelection()</a>.</p>
 
 </div>
 </div>
@@ -224,7 +230,67 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__lib__grid__algorithms__selection__util.html#ga9af566cc2d5fa64e02e35507a9f918f9">ExtendSelection()</a>.</p>
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__lib__grid__algorithms__selection__util.html#ga9af566cc2d5fa64e02e35507a9f918f9">ExtendSelection()</a>.</p>
+
+</div>
+</div>
+<a id="a3a5056276d66595cc69eb49d48457d95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a5056276d66595cc69eb49d48457d95">&sect;&nbsp;</a></span>ExtendSelectionInDirection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug4Bridge::promesh::Selection::ExtendSelectionInDirection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>neighborhood_size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vec *&#160;</td>
+          <td class="paramname"><em>direction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>minAngle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>maxAngle</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Selects neighbors of selected elements whose center can be reached in the given direction from the center of already selected elements. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">neighborhood_size</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">direction</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">minAngle</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">maxAngle</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__lib__grid__algorithms__selection__util.html#gaac50cb8106ea84388389da555fcc24a0">ExtendSelectionInDirection()</a>.</p>
 
 </div>
 </div>
@@ -284,7 +350,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__lib__grid__algorithms__selection__util.html#ga2abe8d00447cb9ab584abf19657bbd14">InvertSelection()</a>.</p>
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__lib__grid__algorithms__selection__util.html#ga2abe8d00447cb9ab584abf19657bbd14">InvertSelection()</a>.</p>
 
 </div>
 </div>
@@ -312,7 +378,74 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga14e9fddfa7b04d27e4115cf5d3d07362">SelectAll()</a>.</p>
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga14e9fddfa7b04d27e4115cf5d3d07362">SelectAll()</a>.</p>
+
+</div>
+</div>
+<a id="a1169f18265aa775f0a691727a8cce8a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1169f18265aa775f0a691727a8cce8a1">&sect;&nbsp;</a></span>SelectElementsByIndexRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug4Bridge::promesh::Selection::SelectElementsByIndexRange </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>vertex_inds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>edge_inds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>face_inds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>volume_inds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>clear_selection</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Selects elements by the given index ranges (e.g.: "0,1,2-5,9,11-23"). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">vertex_inds</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">edge_inds</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">face_inds</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">volume_inds</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">clear_selection</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#gaa3dd7300d51bccbea82051c572f2d22f">SelectElementsByIndexRange()</a>.</p>
 
 </div>
 </div>
@@ -340,7 +473,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga27c386361ac22036f39a9f3a1d9b229e">SelectSelectionBoundary()</a>.</p>
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga27c386361ac22036f39a9f3a1d9b229e">SelectSelectionBoundary()</a>.</p>
 
 </div>
 </div>
@@ -350,7 +483,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug4_bridge.html">ug4Bridge</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh.html">promesh</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection.html">Selection</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:03:00 for Registry by
+    <li class="footer">Generated on Tue Sep 25 2018 10:07:06 for Registry by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

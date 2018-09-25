@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ug4: parallel distribution</title>
+<title>ug4: Lib_grid_parallelization_distribution</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -91,16 +91,15 @@ $(document).ready(function(){initNavTree('group__lib__grid__parallelization__dis
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">parallel distribution<div class="ingroups"><a class="el" href="group__lib__grid.html">lib_grid</a> &raquo; <a class="el" href="group__lib__grid__parallelization.html">parallelization</a></div></div>  </div>
+<div class="title">Lib_grid_parallelization_distribution</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>parallel distribution  
-<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_balance_weights.html">ug::IBalanceWeights</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_communication_weights.html">ug::ICommunicationWeights</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_partitioner.html">ug::IPartitioner</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Partitioners can be used inside a <a class="el" href="classug_1_1_load_balancer.html" title="A load-balancer redistributes grids using the specified partitioner and process-hierarchy. ">LoadBalancer</a> or separately to create partition maps.  <a href="classug_1_1_i_partitioner.html#details">More...</a><br /></td></tr>
@@ -108,8 +107,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_partition_post_processor.html">ug::IPartitionPostProcessor</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">allows to post-process partitions  <a href="classug_1_1_i_partition_post_processor.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_load_balancer.html">ug::LoadBalancer</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A load-balancer redistributes grids using the specified partitioner and process-hierarchy.  <a href="classug_1_1_load_balancer.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_partition_pre_processor.html">ug::IPartitionPreProcessor</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">allows to pre-process data before partitioning starts  <a href="classug_1_1_i_partition_pre_processor.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_partitioner___dynamic_bisection.html">ug::Partitioner_DynamicBisection&lt; TElem, dim &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parallel bisection partitioner.  <a href="classug_1_1_partitioner___dynamic_bisection.html#details">More...</a><br /></td></tr>
@@ -122,10 +121,14 @@ Classes</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:gaddad026158d47eea930989f4f3919c2b"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_balance_weights.html">IBalanceWeights</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__grid__parallelization__distribution.html#gaddad026158d47eea930989f4f3919c2b">ug::SPBalanceWeights</a></td></tr>
 <tr class="separator:gaddad026158d47eea930989f4f3919c2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5b0b1e43486331996342b5a985dc7b5d"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_communication_weights.html">ICommunicationWeights</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__grid__parallelization__distribution.html#ga5b0b1e43486331996342b5a985dc7b5d">ug::SPCommunicationWeights</a></td></tr>
+<tr class="separator:ga5b0b1e43486331996342b5a985dc7b5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gabe38cc1842ab5814a43166c0888740cc"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_partitioner.html">IPartitioner</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__grid__parallelization__distribution.html#gabe38cc1842ab5814a43166c0888740cc">ug::SPPartitioner</a></td></tr>
 <tr class="separator:gabe38cc1842ab5814a43166c0888740cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa6f6f47c5f51cd578ad537cc0dfd461b"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_partition_post_processor.html">IPartitionPostProcessor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__grid__parallelization__distribution.html#gaa6f6f47c5f51cd578ad537cc0dfd461b">ug::SPPartitionPostProcessor</a></td></tr>
 <tr class="separator:gaa6f6f47c5f51cd578ad537cc0dfd461b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3ac41dc2d4d50c6f7c9d51dcd5220527"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_partition_pre_processor.html">IPartitionPreProcessor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__grid__parallelization__distribution.html#ga3ac41dc2d4d50c6f7c9d51dcd5220527">ug::SPPartitionPreProcessor</a></td></tr>
+<tr class="separator:ga3ac41dc2d4d50c6f7c9d51dcd5220527"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -135,8 +138,6 @@ Functions</h2></td></tr>
 <tr class="separator:gae493aaa86fb5345e5d8c0ed8565b0d5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>parallel distribution </p>
-<p>Distribution and redistribution of serial and parallel grids. </p>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="gaddad026158d47eea930989f4f3919c2b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaddad026158d47eea930989f4f3919c2b">&sect;&nbsp;</a></span>SPBalanceWeights</h2>
@@ -146,6 +147,20 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt;<a class="el" href="classug_1_1_i_balance_weights.html">IBalanceWeights</a>&gt; <a class="el" href="group__lib__grid__parallelization__distribution.html#gaddad026158d47eea930989f4f3919c2b">ug::SPBalanceWeights</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga5b0b1e43486331996342b5a985dc7b5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5b0b1e43486331996342b5a985dc7b5d">&sect;&nbsp;</a></span>SPCommunicationWeights</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt;<a class="el" href="classug_1_1_i_communication_weights.html">ICommunicationWeights</a>&gt; <a class="el" href="group__lib__grid__parallelization__distribution.html#ga5b0b1e43486331996342b5a985dc7b5d">ug::SPCommunicationWeights</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -174,6 +189,20 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt;<a class="el" href="classug_1_1_i_partition_post_processor.html">IPartitionPostProcessor</a>&gt; <a class="el" href="group__lib__grid__parallelization__distribution.html#gaa6f6f47c5f51cd578ad537cc0dfd461b">ug::SPPartitionPostProcessor</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga3ac41dc2d4d50c6f7c9d51dcd5220527"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3ac41dc2d4d50c6f7c9d51dcd5220527">&sect;&nbsp;</a></span>SPPartitionPreProcessor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt;<a class="el" href="classug_1_1_i_partition_pre_processor.html">IPartitionPreProcessor</a>&gt; <a class="el" href="group__lib__grid__parallelization__distribution.html#ga3ac41dc2d4d50c6f7c9d51dcd5220527">ug::SPPartitionPreProcessor</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -268,7 +297,7 @@ template&lt;class TElem , class TIterator , class TAAPos &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:13 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:08:45 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

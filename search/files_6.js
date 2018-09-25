@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['gather_5fgrid_2ecpp',['gather_grid.cpp',['../gather__grid_8cpp.html',1,'']]],
+  ['gather_5fgrid_2eh',['gather_grid.h',['../gather__grid_8h.html',1,'']]],
   ['gauss_5fjacobi10_2ecpp',['gauss_jacobi10.cpp',['../gauss__jacobi10_8cpp.html',1,'']]],
   ['gauss_5fjacobi10_2eh',['gauss_jacobi10.h',['../gauss__jacobi10_8h.html',1,'']]],
   ['gauss_5fjacobi20_2ecpp',['gauss_jacobi20.cpp',['../gauss__jacobi20_8cpp.html',1,'']]],
@@ -101,8 +103,8 @@ var searchData=
   ['grid_5fstatistics_2ecpp',['grid_statistics.cpp',['../grid__statistics_8cpp.html',1,'']]],
   ['grid_5fstatistics_2eh',['grid_statistics.h',['../grid__statistics_8h.html',1,'']]],
   ['grid_5futil_2ecpp',['grid_util.cpp',['../grid__util_8cpp.html',1,'']]],
-  ['grid_5futil_2eh',['grid_util.h',['../algorithms_2grid__util_8h.html',1,'']]],
   ['grid_5futil_2eh',['grid_util.h',['../grid_2grid__util_8h.html',1,'']]],
+  ['grid_5futil_2eh',['grid_util.h',['../algorithms_2grid__util_8h.html',1,'']]],
   ['grid_5futil_5fimpl_2ehpp',['grid_util_impl.hpp',['../grid__util__impl_8hpp.html',1,'']]],
   ['group_5fnode_2ecpp',['group_node.cpp',['../group__node_8cpp.html',1,'']]],
   ['group_5fnode_2eh',['group_node.h',['../group__node_8h.html',1,'']]],

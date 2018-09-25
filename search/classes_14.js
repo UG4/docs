@@ -28,6 +28,8 @@ var searchData=
   ['userdata_3c_20mathtensor_3c_20trank_2c_20dim_20_3e_2c_20dim_2c_20void_20_3e',['UserData&lt; MathTensor&lt; TRank, dim &gt;, dim, void &gt;',['../classug_1_1_user_data.html',1,'ug']]],
   ['userdata_3c_20mathvector_3c_202_20_3e_2c_20dim_2c_20void_20_3e',['UserData&lt; MathVector&lt; 2 &gt;, dim, void &gt;',['../classug_1_1_user_data.html',1,'ug']]],
   ['userdata_3c_20mathvector_3c_20dim_20_3e_2c_20dim_2c_20void_20_3e',['UserData&lt; MathVector&lt; dim &gt;, dim, void &gt;',['../classug_1_1_user_data.html',1,'ug']]],
+  ['userdata_3c_20mathvector_3c_20tgfunc_3a_3adim_20_3e_2c_20dim_2c_20void_20_3e',['UserData&lt; MathVector&lt; TGFunc::dim &gt;, dim, void &gt;',['../classug_1_1_user_data.html',1,'ug']]],
+  ['userdata_3c_20mathvector_3c_20tgridfunc_3a_3adim_20_3e_2c_20dim_2c_20void_20_3e',['UserData&lt; MathVector&lt; TGridFunc::dim &gt;, dim, void &gt;',['../classug_1_1_user_data.html',1,'ug']]],
   ['userdata_3c_20mathvector_3c_20tgridfunction_3a_3adim_20_3e_2c_20dim_2c_20void_20_3e',['UserData&lt; MathVector&lt; TGridFunction::dim &gt;, dim, void &gt;',['../classug_1_1_user_data.html',1,'ug']]],
   ['userdata_3c_20number_2c_20dim_20_3e',['UserData&lt; number, dim &gt;',['../classug_1_1_user_data.html',1,'ug']]],
   ['userdata_3c_20number_2c_20dim_2c_20bool_20_3e',['UserData&lt; number, dim, bool &gt;',['../classug_1_1_user_data.html',1,'ug']]],
@@ -43,12 +45,18 @@ var searchData=
   ['userdata_3c_20ug_3a_3amathvector_3c_20dim_20_3e_2c_20dim_2c_20void_20_3e',['UserData&lt; ug::MathVector&lt; dim &gt;, dim, void &gt;',['../classug_1_1_user_data.html',1,'ug']]],
   ['userdata_3c_20ug_3a_3amathvector_3c_20non_20_3e_2c_20dim_20_3e',['UserData&lt; ug::MathVector&lt; non &gt;, dim &gt;',['../classug_1_1_user_data.html',1,'ug']]],
   ['userdata_3c_20ug_3a_3amathvector_3c_20worlddim_20_3e_2c_20worlddim_20_3e',['UserData&lt; ug::MathVector&lt; worldDim &gt;, worldDim &gt;',['../classug_1_1_user_data.html',1,'ug']]],
+  ['userdatadistintegrandsq',['UserDataDistIntegrandSq',['../classug_1_1_user_data_dist_integrand_sq.html',1,'ug']]],
   ['userdatainfo',['UserDataInfo',['../../regdocu/classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_user_data_info.html',1,'ug4Bridge::Discretization::SpatialDisc::UserData']]],
   ['userdatainfo',['UserDataInfo',['../classug_1_1_user_data_info.html',1,'ug']]],
   ['userdataintegrand',['UserDataIntegrand',['../classug_1_1_user_data_integrand.html',1,'ug']]],
+  ['userdataintegrandsq',['UserDataIntegrandSq',['../classug_1_1_user_data_integrand_sq.html',1,'ug']]],
   ['userdatawrapper',['UserDataWrapper',['../structug_1_1bridge_1_1lua_1_1_user_data_wrapper.html',1,'ug::bridge::lua']]],
   ['usermatrix',['UserMatrix',['../../regdocu/classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_user_matrix.html',1,'ug4Bridge::Discretization::SpatialDisc::UserData']]],
   ['usernumber',['UserNumber',['../../regdocu/classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_user_number.html',1,'ug4Bridge::Discretization::SpatialDisc::UserData']]],
   ['usertensor4',['UserTensor4',['../../regdocu/classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_user_tensor4.html',1,'ug4Bridge::Discretization::SpatialDisc::UserData']]],
-  ['uservector',['UserVector',['../../regdocu/classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_user_vector.html',1,'ug4Bridge::Discretization::SpatialDisc::UserData']]]
+  ['uservector',['UserVector',['../../regdocu/classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_user_vector.html',1,'ug4Bridge::Discretization::SpatialDisc::UserData']]],
+  ['uzawabase',['UzawaBase',['../../regdocu/classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_uzawa_base.html',1,'ug4Bridge::Discretization::MultiGrid']]],
+  ['uzawabase',['UzawaBase',['../classug_1_1_uzawa_base.html',1,'ug']]],
+  ['uzawaslicing',['UzawaSlicing',['../classug_1_1_uzawa_slicing.html',1,'ug']]],
+  ['uzawaslicing_3c_20ug_3a_3agridfunction_20_3e',['UzawaSlicing&lt; ug::GridFunction &gt;',['../classug_1_1_uzawa_slicing.html',1,'ug']]]
 ];

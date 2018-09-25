@@ -52,5 +52,18 @@ var dir_2377bdc3bce2db83d3a95ac44ec5f4e1 =
     ] ],
     [ "local_transfer_interface.cpp", "local__transfer__interface_8cpp.html", "local__transfer__interface_8cpp" ],
     [ "local_transfer_interface.h", "local__transfer__interface_8h.html", "local__transfer__interface_8h" ],
-    [ "max_error.h", "max__error_8h.html", "max__error_8h" ]
+    [ "max_error.h", "max__error_8h.html", "max__error_8h" ],
+    [ "metric_spaces.h", "metric__spaces_8h.html", [
+      [ "CompositeSpace", "classug_1_1_composite_space.html", "classug_1_1_composite_space" ],
+      [ "H1ComponentSpace", "classug_1_1_h1_component_space.html", "classug_1_1_h1_component_space" ],
+      [ "H1EnergyComponentSpace", "classug_1_1_h1_energy_component_space.html", "classug_1_1_h1_energy_component_space" ],
+      [ "H1SemiComponentSpace", "classug_1_1_h1_semi_component_space.html", "classug_1_1_h1_semi_component_space" ],
+      [ "IBanachSpace", "classug_1_1_i_banach_space.html", "classug_1_1_i_banach_space" ],
+      [ "IComponentSpace", "classug_1_1_i_component_space.html", "classug_1_1_i_component_space" ],
+      [ "IGridFunctionSpace", "classug_1_1_i_grid_function_space.html", "classug_1_1_i_grid_function_space" ],
+      [ "IObjectWithWeights", "classug_1_1_i_object_with_weights.html", "classug_1_1_i_object_with_weights" ],
+      [ "L2ComponentSpace", "classug_1_1_l2_component_space.html", "classug_1_1_l2_component_space" ],
+      [ "L2QuotientSpace", "classug_1_1_l2_quotient_space.html", "classug_1_1_l2_quotient_space" ],
+      [ "TimeDependentSpace", "classug_1_1_time_dependent_space.html", "classug_1_1_time_dependent_space" ]
+    ] ]
 ];

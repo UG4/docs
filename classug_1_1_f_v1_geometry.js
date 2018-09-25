@@ -17,6 +17,8 @@ var classug_1_1_f_v1_geometry =
     [ "coe_local", "classug_1_1_f_v1_geometry.html#a70caaa194295b509e6dbbca80c237685", null ],
     [ "corners", "classug_1_1_f_v1_geometry.html#a419a91967a86a71fc55ea2e84e88063f", null ],
     [ "elem", "classug_1_1_f_v1_geometry.html#a4adac2bcff774c8d8bad8649a4ef540e", null ],
+    [ "global_node_position", "classug_1_1_f_v1_geometry.html#acea6861ef7f3274db27ece9dd9757d0a", null ],
+    [ "local_node_position", "classug_1_1_f_v1_geometry.html#ad22c53a758f1787a5001d6d37b6edeb3", null ],
     [ "num_bf", "classug_1_1_f_v1_geometry.html#a900aacd27682df5f6765e9808d62cbbd", null ],
     [ "num_bf", "classug_1_1_f_v1_geometry.html#ad12203ba4bad9631d761a3a1caa4bb1f", null ],
     [ "num_boundary_subsets", "classug_1_1_f_v1_geometry.html#a41ecda1c6ac8a3b33d42913fddf5590a", null ],

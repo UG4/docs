@@ -162,6 +162,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8c441276993a28d898db9ebe677b3e31"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1ntree.html#a8c441276993a28d898db9ebe677b3e31">empty</a> () const</td></tr>
 <tr class="memdesc:a8c441276993a28d898db9ebe677b3e31"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the tree is empty  <a href="#a8c441276993a28d898db9ebe677b3e31">More...</a><br /></td></tr>
 <tr class="separator:a8c441276993a28d898db9ebe677b3e31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31adda772387a1580d7ed1a3f1a1216b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1ntree.html#a31adda772387a1580d7ed1a3f1a1216b">enable_warnings</a> (bool enable)</td></tr>
+<tr class="memdesc:a31adda772387a1580d7ed1a3f1a1216b"><td class="mdescLeft">&#160;</td><td class="mdescRight">enabled or disable warning messages  <a href="#a31adda772387a1580d7ed1a3f1a1216b">More...</a><br /></td></tr>
+<tr class="separator:a31adda772387a1580d7ed1a3f1a1216b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfb4a195782358c483d3ab7ca9282516"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1ntree.html#abfb4a195782358c483d3ab7ca9282516">level</a> (size_t nodeId) const</td></tr>
 <tr class="memdesc:abfb4a195782358c483d3ab7ca9282516"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number tree-level in which the node is located  <a href="#abfb4a195782358c483d3ab7ca9282516">More...</a><br /></td></tr>
 <tr class="separator:abfb4a195782358c483d3ab7ca9282516"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -191,6 +194,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6651e6a7af025dbdd6f1affd0af66f46"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1ntree.html#a6651e6a7af025dbdd6f1affd0af66f46">size</a> () const</td></tr>
 <tr class="memdesc:a6651e6a7af025dbdd6f1affd0af66f46"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of entries in the tree (delayed entries excluded)  <a href="#a6651e6a7af025dbdd6f1affd0af66f46">More...</a><br /></td></tr>
 <tr class="separator:a6651e6a7af025dbdd6f1affd0af66f46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b874b3a70aa0705f6352d24a9ea07f3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1ntree.html#a7b874b3a70aa0705f6352d24a9ea07f3">warnings_enabled</a> () const</td></tr>
+<tr class="separator:a7b874b3a70aa0705f6352d24a9ea07f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -226,6 +231,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:afde03e9b60122bcd5c80b092d26666fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac67d539a187a7669ae96c487f69326fb"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1ntree.html#ac67d539a187a7669ae96c487f69326fb">m_numDelayedElements</a></td></tr>
 <tr class="separator:ac67d539a187a7669ae96c487f69326fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d39eef14c649b5889f8eca459ee1502"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1ntree.html#a6d39eef14c649b5889f8eca459ee1502">m_warningsEnabled</a></td></tr>
+<tr class="separator:a6d39eef14c649b5889f8eca459ee1502"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -415,8 +422,6 @@ template&lt;int tree_dim, int world_dim, class elem_t , class common_data_t &gt;
 <p>adds an element to the tree. </p>
 <p>The element will only be scheduled for insertion but won't be inserted until rebalance is called. </p><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000007">Todo:</a></b></dt><dd>Allow optional on-the-fly insertion of elements. </dd></dl>
 
-<p>Referenced by <a class="el" href="classug_1_1ntree.html#a1a0b6bcd51e869967dda2b38ab50c473">ug::ntree&lt; tree_dim, world_dim, Triangle *, NTreeGridData&lt; world_dim &gt; &gt;::num_delayed_elements()</a>.</p>
-
 </div>
 </div>
 <a id="a11272623766452f32fecc7ed403d6c88"></a>
@@ -457,8 +462,6 @@ template&lt;int tree_dim, int world_dim, class elem_t , class common_data_t &gt;
 
 <p>adds an entry to the given node </p>
 
-<p>Referenced by <a class="el" href="classug_1_1ntree.html#ac2af8e22a9e86b52bb6451cdc00a2931">ug::ntree&lt; tree_dim, world_dim, Triangle *, NTreeGridData&lt; world_dim &gt; &gt;::find_leaf_node()</a>.</p>
-
 </div>
 </div>
 <a id="a9f583795ed32916df4ca33b8344d2b5f"></a>
@@ -480,8 +483,6 @@ template&lt;int tree_dim, int world_dim, class elem_t , class common_data_t &gt;
 </div><div class="memdoc">
 
 <p>returns the smallest box which contains all elements of the given node </p>
-
-<p>Referenced by <a class="el" href="classug_1_1ntree.html#abfb4a195782358c483d3ab7ca9282516">ug::ntree&lt; tree_dim, world_dim, Triangle *, NTreeGridData&lt; world_dim &gt; &gt;::level()</a>.</p>
 
 </div>
 </div>
@@ -513,8 +514,6 @@ template&lt;int tree_dim, int world_dim, class elem_t , class common_data_t &gt;
 
 <p>calculates the center of mass of a given node </p>
 
-<p>Referenced by <a class="el" href="classug_1_1ntree.html#ace256f5cc128c70a05462888f3f9ac3d">ug::ntree&lt; tree_dim, world_dim, Triangle *, NTreeGridData&lt; world_dim &gt; &gt;::update_loose_bounding_box()</a>.</p>
-
 </div>
 </div>
 <a id="af3a276530ebf53f190f7964f80ea3c33"></a>
@@ -537,8 +536,6 @@ template&lt;int tree_dim, int world_dim, class elem_t , class common_data_t &gt;
 
 <p>returns an array of child-id's for the given node </p>
 <p>Use ntree::num_children on the node to retrieve the length of the returned array. </p>
-
-<p>Referenced by <a class="el" href="classug_1_1ntree.html#a53010defc214f0c36ca36e97e5c675de">ug::ntree&lt; tree_dim, world_dim, Triangle *, NTreeGridData&lt; world_dim &gt; &gt;::num_child_nodes()</a>.</p>
 
 </div>
 </div>
@@ -590,8 +587,6 @@ template&lt;int tree_dim, int world_dim, class elem_t , class common_data_t &gt;
 
 <p>clear only the nodes </p>
 
-<p>Referenced by <a class="el" href="classug_1_1ntree.html#a964c72977a015a78e790d3deeff3d7fa">ug::ntree&lt; tree_dim, world_dim, Triangle *, NTreeGridData&lt; world_dim &gt; &gt;::ntree()</a>.</p>
-
 </div>
 </div>
 <a id="ab3aebc65a04c4a5133e859118108c48a"></a>
@@ -612,8 +607,6 @@ template&lt;int tree_dim, int world_dim, class elem_t , class common_data_t &gt;
 </div><div class="memdoc">
 
 <p>returns the common-data stored in the tree </p>
-
-<p>Referenced by <a class="el" href="classug_1_1ntree.html#ae8e82af2f55ee432dfd8e5cc980ea0e7">ug::ntree&lt; tree_dim, world_dim, Triangle *, NTreeGridData&lt; world_dim &gt; &gt;::set_common_data()</a>.</p>
 
 </div>
 </div>
@@ -636,8 +629,6 @@ template&lt;int tree_dim, int world_dim, class elem_t , class common_data_t &gt;
 
 <p>returns the balancing-parameters of the tree. </p>
 
-<p>Referenced by <a class="el" href="classug_1_1ntree.html#ae8bfac834542951fb5ab41a53c4f0066">ug::ntree&lt; tree_dim, world_dim, Triangle *, NTreeGridData&lt; world_dim &gt; &gt;::set_desc()</a>.</p>
-
 </div>
 </div>
 <a id="ae8e10ed6f9677506d47c190b0a158fdc"></a>
@@ -659,8 +650,6 @@ template&lt;int tree_dim, int world_dim, class elem_t , class common_data_t &gt;
 </div><div class="memdoc">
 
 <p>returns an iterator to the first element of a given node </p>
-
-<p>Referenced by <a class="el" href="classug_1_1ntree.html#af3a276530ebf53f190f7964f80ea3c33">ug::ntree&lt; tree_dim, world_dim, Triangle *, NTreeGridData&lt; world_dim &gt; &gt;::child_node_ids()</a>.</p>
 
 </div>
 </div>
@@ -685,8 +674,6 @@ template&lt;int tree_dim, int world_dim, class elem_t , class common_data_t &gt;
 <p>returns an iterator to the end of the element-sequence of a given node </p>
 <p>this iterator points one element behind the last element of the sequence. </p>
 
-<p>Referenced by <a class="el" href="classug_1_1ntree.html#ae8e10ed6f9677506d47c190b0a158fdc">ug::ntree&lt; tree_dim, world_dim, Triangle *, NTreeGridData&lt; world_dim &gt; &gt;::elems_begin()</a>.</p>
-
 </div>
 </div>
 <a id="a8c441276993a28d898db9ebe677b3e31"></a>
@@ -708,7 +695,36 @@ template&lt;int tree_dim, int world_dim, class elem_t , class common_data_t &gt;
 
 <p>returns true if the tree is empty </p>
 
-<p>Referenced by <a class="el" href="classug_1_1ntree.html#ab3aebc65a04c4a5133e859118108c48a">ug::ntree&lt; tree_dim, world_dim, Triangle *, NTreeGridData&lt; world_dim &gt; &gt;::common_data()</a>.</p>
+</div>
+</div>
+<a id="a31adda772387a1580d7ed1a3f1a1216b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31adda772387a1580d7ed1a3f1a1216b">&sect;&nbsp;</a></span>enable_warnings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int tree_dim, int world_dim, class TElem, class TCommonData&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1ntree.html">ug::ntree</a>&lt; tree_dim, world_dim, TElem, TCommonData &gt;::enable_warnings </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>enabled or disable warning messages </p>
+<p>warnings are enabled by default. If a problem is detected and warnings are enabled, a warning message will be written to stdout. </p>
 
 </div>
 </div>
@@ -751,8 +767,6 @@ template&lt;int tree_dim, int world_dim, class elem_t , class common_data_t &gt;
 <p>returns an index to the leaf-node which contains the given point </p>
 <p>returns s_invalidIndex if no matching node was found. Checks the point against the tight bounding-box of each node. </p>
 
-<p>Referenced by <a class="el" href="classug_1_1ntree.html#a3a22b6eff76af2d0400cabfc98db8bfe">ug::ntree&lt; tree_dim, world_dim, Triangle *, NTreeGridData&lt; world_dim &gt; &gt;::split_leaf_node()</a>.</p>
-
 </div>
 </div>
 <a id="abfb4a195782358c483d3ab7ca9282516"></a>
@@ -775,7 +789,7 @@ template&lt;int tree_dim, int world_dim, class elem_t , class common_data_t &gt;
 
 <p>returns the number tree-level in which the node is located </p>
 
-<p>Referenced by <a class="el" href="classug_1_1ntree.html#a19b27272df6ee8a4132d807f85f0dd61">ug::ntree&lt; tree_dim, world_dim, Triangle *, NTreeGridData&lt; world_dim &gt; &gt;::num_elements()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1ntree.html#abfb4a195782358c483d3ab7ca9282516">ug::ntree&lt; tree_dim, world_dim, Triangle *, NTreeGridData&lt; world_dim &gt; &gt;::level()</a>.</p>
 
 </div>
 </div>
@@ -799,8 +813,6 @@ template&lt;int tree_dim, int world_dim, class elem_t , class common_data_t &gt;
 
 <p>returns the number of children of a node </p>
 
-<p>Referenced by <a class="el" href="classug_1_1ntree.html#a5fadbb7569cb80de0cbcd7c6f8e1c72b">ug::ntree&lt; tree_dim, world_dim, Triangle *, NTreeGridData&lt; world_dim &gt; &gt;::num_nodes()</a>.</p>
-
 </div>
 </div>
 <a id="a1a0b6bcd51e869967dda2b38ab50c473"></a>
@@ -822,8 +834,6 @@ template&lt;int tree_dim, int world_dim, class elem_t , class common_data_t &gt;
 
 <p>returns the number of elements which have been added but are not yet accessible in the tree. </p>
 <dl class="section note"><dt>Note</dt><dd>delayed elements are inserted on a call to rebalance. </dd></dl>
-
-<p>Referenced by <a class="el" href="classug_1_1ntree.html#a6651e6a7af025dbdd6f1affd0af66f46">ug::ntree&lt; tree_dim, world_dim, Triangle *, NTreeGridData&lt; world_dim &gt; &gt;::size()</a>.</p>
 
 </div>
 </div>
@@ -847,8 +857,6 @@ template&lt;int tree_dim, int world_dim, class elem_t , class common_data_t &gt;
 
 <p>returns the number of elements that the given node contains </p>
 
-<p>Referenced by <a class="el" href="classug_1_1ntree.html#a2cf27d1a89f58a314f9d632c6d607238">ug::ntree&lt; tree_dim, world_dim, Triangle *, NTreeGridData&lt; world_dim &gt; &gt;::elems_end()</a>.</p>
-
 </div>
 </div>
 <a id="a5fadbb7569cb80de0cbcd7c6f8e1c72b"></a>
@@ -869,8 +877,6 @@ template&lt;int tree_dim, int world_dim, class elem_t , class common_data_t &gt;
 </div><div class="memdoc">
 
 <p>returns the total number of nodes in the tree </p>
-
-<p>Referenced by <a class="el" href="classug_1_1ntree.html#a9c95327aa6801698c5a21fb5cc3800af">ug::ntree&lt; tree_dim, world_dim, Triangle *, NTreeGridData&lt; world_dim &gt; &gt;::calculate_center_of_mass()</a>.</p>
 
 </div>
 </div>
@@ -894,8 +900,6 @@ template&lt;int tree_dim, int world_dim, class elem_t , class common_data_t &gt;
 <p>rebalances the whole tree </p>
 <p>The method returns false if some error occurred during rebalancing. </p>
 
-<p>Referenced by <a class="el" href="classug_1_1ntree.html#a238849ae544eb8408cfd6549ae41a797">ug::ntree&lt; tree_dim, world_dim, Triangle *, NTreeGridData&lt; world_dim &gt; &gt;::add_element()</a>.</p>
-
 </div>
 </div>
 <a id="ae8e82af2f55ee432dfd8e5cc980ea0e7"></a>
@@ -917,8 +921,6 @@ template&lt;int tree_dim, int world_dim, class elem_t , class common_data_t &gt;
 </div><div class="memdoc">
 
 <p>sets the common-data which the tree passes on to callback methods </p>
-
-<p>Referenced by <a class="el" href="classug_1_1ntree.html#a34b4f6a1ea54dd58270278db76acdc10">ug::ntree&lt; tree_dim, world_dim, Triangle *, NTreeGridData&lt; world_dim &gt; &gt;::desc()</a>.</p>
 
 </div>
 </div>
@@ -943,8 +945,6 @@ template&lt;int tree_dim, int world_dim, class elem_t , class common_data_t &gt;
 <p>sets the balancing-parameters of the tree. </p>
 <dl class="section note"><dt>Note</dt><dd>The method has no effect until the next call to 'rebalance', i.e., it will not affect an existing tree if one has already been built. </dd></dl>
 
-<p>Referenced by <a class="el" href="classug_1_1ntree.html#a33fb251edd4d369e49a19d779d31c885">ug::ntree&lt; tree_dim, world_dim, Triangle *, NTreeGridData&lt; world_dim &gt; &gt;::clear()</a>.</p>
-
 </div>
 </div>
 <a id="a6651e6a7af025dbdd6f1affd0af66f46"></a>
@@ -966,7 +966,7 @@ template&lt;int tree_dim, int world_dim, class elem_t , class common_data_t &gt;
 
 <p>returns the number of entries in the tree (delayed entries excluded) </p>
 
-<p>Referenced by <a class="el" href="classug_1_1ntree.html#a8c441276993a28d898db9ebe677b3e31">ug::ntree&lt; tree_dim, world_dim, Triangle *, NTreeGridData&lt; world_dim &gt; &gt;::empty()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1ntree.html#a5fadbb7569cb80de0cbcd7c6f8e1c72b">ug::ntree&lt; tree_dim, world_dim, Triangle *, NTreeGridData&lt; world_dim &gt; &gt;::num_nodes()</a>, and <a class="el" href="classug_1_1ntree.html#a6651e6a7af025dbdd6f1affd0af66f46">ug::ntree&lt; tree_dim, world_dim, Triangle *, NTreeGridData&lt; world_dim &gt; &gt;::size()</a>.</p>
 
 </div>
 </div>
@@ -999,8 +999,6 @@ template&lt;int tree_dim, int world_dim, class elem_t , class common_data_t &gt;
 <p>splits a node into 2^tree_dim child nodes and assigns entries to those children. </p>
 <p>If the node-threshold of a child node is surpassed, then the child will be splitted recursively. Make sure that the given node is a leaf node and thus hasn't got children. </p>
 
-<p>Referenced by <a class="el" href="classug_1_1ntree.html#ab1fda361b0ed509a02bc0611284108c7">ug::ntree&lt; tree_dim, world_dim, Triangle *, NTreeGridData&lt; world_dim &gt; &gt;::rebalance()</a>.</p>
-
 </div>
 </div>
 <a id="ace256f5cc128c70a05462888f3f9ac3d"></a>
@@ -1031,7 +1029,32 @@ template&lt;int tree_dim, int world_dim, class elem_t , class common_data_t &gt;
 
 <p>updates the loose bounding box of the given node </p>
 
-<p>Referenced by <a class="el" href="classug_1_1ntree.html#a11272623766452f32fecc7ed403d6c88">ug::ntree&lt; tree_dim, world_dim, Triangle *, NTreeGridData&lt; world_dim &gt; &gt;::add_entry_to_node()</a>.</p>
+</div>
+</div>
+<a id="a7b874b3a70aa0705f6352d24a9ea07f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b874b3a70aa0705f6352d24a9ea07f3">&sect;&nbsp;</a></span>warnings_enabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int tree_dim, int world_dim, class TElem, class TCommonData&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classug_1_1ntree.html">ug::ntree</a>&lt; tree_dim, world_dim, TElem, TCommonData &gt;::warnings_enabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1158,6 +1181,30 @@ template&lt;int tree_dim, int world_dim, class TElem, class TCommonData&gt; </di
 
 </div>
 </div>
+<a id="a6d39eef14c649b5889f8eca459ee1502"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d39eef14c649b5889f8eca459ee1502">&sect;&nbsp;</a></span>m_warningsEnabled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int tree_dim, int world_dim, class TElem, class TCommonData&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classug_1_1ntree.html">ug::ntree</a>&lt; tree_dim, world_dim, TElem, TCommonData &gt;::m_warningsEnabled</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0e0faea083cb80b8eefd94684f8c200c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0e0faea083cb80b8eefd94684f8c200c">&sect;&nbsp;</a></span>s_invalidIndex</h2>
 
@@ -1220,7 +1267,7 @@ template&lt;int tree_dim, int world_dim, class TElem, class TCommonData&gt; </di
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1ntree.html">ntree</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:38 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:09:20 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

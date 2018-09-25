@@ -1,6 +1,7 @@
 var classug4_bridge_1_1_number_raster =
 [
     [ "NumberRaster", "classug4_bridge_1_1_number_raster.html#a60e33da40d56859eb21893bb74b3bdd8", null ],
+    [ "blur", "classug4_bridge_1_1_number_raster.html#a437f21b9107b8ebc45df706e0a679d44", null ],
     [ "create", "classug4_bridge_1_1_number_raster.html#ae2ee59f7cc16ee42559c87e81c433039", null ],
     [ "dim", "classug4_bridge_1_1_number_raster.html#aae9a9486a87edbfdcc0516325da28884", null ],
     [ "extension", "classug4_bridge_1_1_number_raster.html#a015e528a6fe92cb41d69a213ad9bf327", null ],

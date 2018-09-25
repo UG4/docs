@@ -299,7 +299,7 @@ $(document).ready(function(){initNavTree('functions_func_u.html','');});
 : <a class="el" href="classug_1_1_dim_f_e_geometry.html#aa555d6ce2b21e58620dbfa21ef105615">ug::DimFEGeometry&lt; TWorldDim, TRefDim &gt;</a>
 , <a class="el" href="classug_1_1_dim_f_v1_geometry.html#acf1cbb3bb52b8c856236e2222d9c31cd">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_dim_f_v_geometry.html#a2fda404cf3a2be1aeb11eba314ca887d">ug::DimFVGeometry&lt; TWorldDim, TDim &gt;</a>
-, <a class="el" href="classug_1_1_f_e_geometry.html#ad93f7f39a371a29ca633f644780831bc">ug::FEGeometry&lt; TElem, TWorldDim, TTrialSpace, TQuadratureRule &gt;</a>
+, <a class="el" href="classug_1_1_f_e_geometry.html#a0739bc2a836de81c516ad68826d3e0fd">ug::FEGeometry&lt; TElem, TWorldDim, TTrialSpace, TQuadratureRule &gt;</a>
 , <a class="el" href="classug_1_1_f_v_geometry.html#adee888164a30f9f570ead47999f34993">ug::FVGeometry&lt; TOrder, TElem, TWorldDim, TQuadOrder &gt;</a>
 </li>
 <li>update_local_data()
@@ -334,6 +334,11 @@ $(document).ready(function(){initNavTree('functions_func_u.html','');});
 , <a class="el" href="classug_1_1_s_d_i_r_k.html#ac1215de792d898eccc00027ec91a0679">ug::SDIRK&lt; TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_theta_time_step.html#aa9dcc119b95b51276bcdb3e411b06ec5">ug::ThetaTimeStep&lt; TAlgebra &gt;</a>
 </li>
+<li>update_solution()
+: <a class="el" href="classug_1_1_i_local_subspace.html#a8d7aa47b6a657c8bfd72bbc393557301">ug::ILocalSubspace&lt; TDomain, TAlgebra, TGroupObj &gt;</a>
+, <a class="el" href="classug_1_1_local_do_f_subspace.html#a82f5959b00a8dcdbe39ad93f7e861b0e">ug::LocalDoFSubspace&lt; TDomain, TAlgebra, TGroupObj &gt;</a>
+, <a class="el" href="classug_1_1_local_index_subspace.html#a77184ccea1faf6e04afd64fb3b1f659c">ug::LocalIndexSubspace&lt; TDomain, TAlgebra, TGroupObj &gt;</a>
+</li>
 <li>update_subset_groups()
 : <a class="el" href="classug_1_1_neumann_boundary_base.html#ac99c8670184429f2ff1746be50bc45b5">ug::NeumannBoundaryBase&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_neumann_boundary_f_e.html#ac9c8493602fb964d0fbd5e29b6e69211">ug::NeumannBoundaryFE&lt; TDomain &gt;</a>
@@ -343,11 +348,18 @@ $(document).ready(function(){initNavTree('functions_func_u.html','');});
 <li>update_subset_infos()
 : <a class="el" href="group__lib__disc__domain.html#ga49cbff5c0ca57031b167d0b2e93851ca">ug::IDomain&lt; TGrid, TSubsetHandler &gt;</a>
 </li>
+<li>update_time_data()
+: <a class="el" href="classug_1_1_composite_space.html#ab3b0b906ff2b2ce892d95414c0370658">ug::CompositeSpace&lt; TGridFunction &gt;</a>
+, <a class="el" href="classug_1_1_time_dependent_space.html#a1a8520f8312055237ad5b6c656934be2">ug::TimeDependentSpace&lt; TGridFunction &gt;</a>
+</li>
 <li>upheap()
 : <a class="el" href="classug_1_1maxheap.html#a09ddad5f3e5597e7c37430c9f9fa99b8">ug::maxheap&lt; T &gt;</a>
 </li>
 <li>upper_lower_dist_relation()
 : <a class="el" href="classug_1_1_raster_layers.html#a153df567cee18ad62ab34a851a48e606">ug::RasterLayers</a>
+</li>
+<li>use_adaptive_refinement()
+: <a class="el" href="classug_1_1_nested_iteration_solver.html#a09a2f147cdbcecb13c2ad380c7494426">ug::NestedIterationSolver&lt; TDomain, TAlgebra &gt;</a>
 </li>
 <li>use_hanging()
 : <a class="el" href="classug_1_1_data_evaluator_base.html#ab258642fa7d3e119fe321aae259de4d7">ug::DataEvaluatorBase&lt; TDomain, TElemDisc &gt;</a>
@@ -357,8 +369,14 @@ $(document).ready(function(){initNavTree('functions_func_u.html','');});
 <li>user_data()
 : <a class="el" href="classug_1_1_data_import.html#a84a71f4f16eb36f9ebebfca254a74822">ug::DataImport&lt; TData, dim &gt;</a>
 </li>
+<li>UserDataDistIntegrandSq()
+: <a class="el" href="classug_1_1_user_data_dist_integrand_sq.html#a8b1adf8d85f9c9f960665cc5e7023936">ug::UserDataDistIntegrandSq&lt; TData, TGridFunction &gt;</a>
+</li>
 <li>UserDataIntegrand()
-: <a class="el" href="classug_1_1_user_data_integrand.html#a20a44cc020502fc839ff87412a843c0b">ug::UserDataIntegrand&lt; TData, TGridFunction &gt;</a>
+: <a class="el" href="classug_1_1_user_data_integrand.html#a47c8a5db8c208895a7ff785569e20e31">ug::UserDataIntegrand&lt; TData, TGridFunction &gt;</a>
+</li>
+<li>UserDataIntegrandSq()
+: <a class="el" href="classug_1_1_user_data_integrand_sq.html#a0685e69200562c18bed68166cff5c0d9">ug::UserDataIntegrandSq&lt; TData, TGridFunction &gt;</a>
 </li>
 <li>uv()
 : <a class="el" href="classug_1_1_loader_obj.html#ad12e19ccbdc44d161fb9f6470250611c">ug::LoaderObj</a>
@@ -369,13 +387,19 @@ $(document).ready(function(){initNavTree('functions_func_u.html','');});
 <li>uv_end()
 : <a class="el" href="classug_1_1_loader_obj.html#a3cad843a8ce7920c64a7aef54815de8c">ug::LoaderObj</a>
 </li>
+<li>UzawaBase()
+: <a class="el" href="classug_1_1_uzawa_base.html#a1e7eb689e93c764114df723de2f30da1">ug::UzawaBase&lt; TDomain, TAlgebra &gt;</a>
+</li>
+<li>UzawaSlicing()
+: <a class="el" href="classug_1_1_uzawa_slicing.html#abb04cfd6414387a900bc2ee37f994a45">ug::UzawaSlicing&lt; TGridFunction &gt;</a>
+</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:52 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:09:39 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

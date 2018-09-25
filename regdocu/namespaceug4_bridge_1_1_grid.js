@@ -15,7 +15,6 @@ var namespaceug4_bridge_1_1_grid =
     [ "HangingNodeRefiner_Grid", "classug4_bridge_1_1_grid_1_1_hanging_node_refiner___grid.html", "classug4_bridge_1_1_grid_1_1_hanging_node_refiner___grid" ],
     [ "HangingNodeRefiner_MultiGrid", "classug4_bridge_1_1_grid_1_1_hanging_node_refiner___multi_grid.html", "classug4_bridge_1_1_grid_1_1_hanging_node_refiner___multi_grid" ],
     [ "Heightfield", "classug4_bridge_1_1_grid_1_1_heightfield.html", "classug4_bridge_1_1_grid_1_1_heightfield" ],
-    [ "IDualGraphNeighborCollector", "classug4_bridge_1_1_grid_1_1_i_dual_graph_neighbor_collector.html", "classug4_bridge_1_1_grid_1_1_i_dual_graph_neighbor_collector" ],
     [ "IGeometry", "classug4_bridge_1_1_grid_1_1_i_geometry.html", "classug4_bridge_1_1_grid_1_1_i_geometry" ],
     [ "InterSubsetPartitionWeighting", "classug4_bridge_1_1_grid_1_1_inter_subset_partition_weighting.html", "classug4_bridge_1_1_grid_1_1_inter_subset_partition_weighting" ],
     [ "IRefiner", "classug4_bridge_1_1_grid_1_1_i_refiner.html", "classug4_bridge_1_1_grid_1_1_i_refiner" ],

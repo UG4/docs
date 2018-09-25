@@ -165,6 +165,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga21b8cde0c684ba6004d1b91d135f74cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__subset__util.html#ga21b8cde0c684ba6004d1b91d135f74cf">ug::CopySubsetIndicesToSides</a> (<a class="el" href="classug_1_1_i_subset_handler.html">ISubsetHandler</a> &amp;sh, <a class="el" href="classug_1_1_grid_object_collection.html">GridObjectCollection</a> goc, bool toUnassignedOnly)</td></tr>
 <tr class="memdesc:ga21b8cde0c684ba6004d1b91d135f74cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">copies subset-indices to sides of the specified elements  <a href="group__lib__grid__algorithms__subset__util.html#ga21b8cde0c684ba6004d1b91d135f74cf">More...</a><br /></td></tr>
 <tr class="separator:ga21b8cde0c684ba6004d1b91d135f74cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6a8a9b164773b8d463cb8a1a000ddf7d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__subset__util.html#ga6a8a9b164773b8d463cb8a1a000ddf7d">ug::CopySubsetIndicesToSides</a> (<a class="el" href="classug_1_1_i_subset_handler.html">ISubsetHandler</a> &amp;sh, <a class="el" href="classug_1_1_i_selector.html">ISelector</a> &amp;sel, bool toUnassignedOnly)</td></tr>
+<tr class="memdesc:ga6a8a9b164773b8d463cb8a1a000ddf7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">copies subset-indices to sides of the elements selected in 'sel'  <a href="group__lib__grid__algorithms__subset__util.html#ga6a8a9b164773b8d463cb8a1a000ddf7d">More...</a><br /></td></tr>
+<tr class="separator:ga6a8a9b164773b8d463cb8a1a000ddf7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad359df1bdd95000c11685eb765657734"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__subset__util.html#gad359df1bdd95000c11685eb765657734">ug::CopySubsetIndicesToSides</a> (<a class="el" href="classug_1_1_i_subset_handler.html">ISubsetHandler</a> &amp;sh, bool toUnassignedOnly)</td></tr>
 <tr class="memdesc:gad359df1bdd95000c11685eb765657734"><td class="mdescLeft">&#160;</td><td class="mdescRight">copies subset-indices to sides of all elements in the subset handler  <a href="group__lib__grid__algorithms__subset__util.html#gad359df1bdd95000c11685eb765657734">More...</a><br /></td></tr>
 <tr class="separator:gad359df1bdd95000c11685eb765657734"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -259,7 +262,7 @@ Functions</h2></td></tr>
 <p>.lgm and .ng are the geometry-file-types of ug3. They require a very special subset-structure. This method will try to adjust the subsets in a way that makes export using </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="namespaceug.html#af9d169985c370b3a0f20f7bc8459d451" title="converts tetgen files (*.node, *.face and *.ele) to UG files (*.lgm, *.ng) ">ExportGridToUG</a> easy. Please note, that this method does not yet produce fully compatible output. In order to ensure maximal compatibility you should avoid to have empty subsets between filled ones.</dd></dl>
 <p>Through keepExistingInterfaceSubsets you can decide whether interface faces or edges which already are assigned to a subset shall be kept. Note that the algorithm may not produce a fully compatible geometry in this case (this depends on your initial subsets). </p>
 
-<p>References <a class="el" href="classug_1_1_grid_subset_handler.html#a2344691e472126f245181b9fa534d70e">ug::GridSubsetHandler::assign_subset()</a>, <a class="el" href="group__lib__grid__algorithms__subset__util.html#ga68dea7295cd0e808b90a8e433de6990c">ug::AssignFaceInterfaceEdgesToSubsets()</a>, <a class="el" href="group__lib__grid__algorithms__subset__util.html#ga2a766d9f0444aea63d441c3c740cd57f">ug::AssignVolumeInterfaceFacesToSubsets()</a>, <a class="el" href="classug_1_1_grid_subset_handler.html#ad8a3e34644aa2d55cf1328ef6cfb9588">ug::GridSubsetHandler::begin()</a>, <a class="el" href="group__lib__grid__algorithms__neighborhood__util.html#gaefa96933917b29e46599f0756aa99be1">ug::CollectFaces()</a>, <a class="el" href="group__lib__grid__algorithms__neighborhood__util.html#ga03bd7e264a1a23ea14e7774a146d59ec">ug::CollectVolumes()</a>, <a class="el" href="classug_1_1_grid.html#a30e6400dea593025a8348e70d16bb9bd">ug::Grid::edges_begin()</a>, <a class="el" href="classug_1_1_grid.html#aeeadda089122bcdee4b9c5652a6a688d">ug::Grid::edges_end()</a>, <a class="el" href="classug_1_1_grid_subset_handler.html#a61bfa76ef2ebd6412c1a30d7b12d9f5f">ug::GridSubsetHandler::end()</a>, <a class="el" href="classug_1_1_grid.html#ae624f616fdd1a12257ed2a163d76f7f6">ug::Grid::faces_begin()</a>, <a class="el" href="classug_1_1_grid.html#a12b4b1a6cae6fd62036a65e73dfa7181">ug::Grid::faces_end()</a>, <a class="el" href="group__lib__grid__algorithms__edge__util.html#gab71f0105ef482356bab57a65bc535624">ug::FixEdgeOrientation()</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#gab664568489e16a7668769a38285e83e3">FixFaceOrientation()</a>, <a class="el" href="classug_1_1_i_subset_handler.html#ab322bfc9560e86b563145b9e264d385e">ug::ISubsetHandler::get_subset_index()</a>, <a class="el" href="group__lib__grid__algorithms__polychain__util.html#ga14dfab30fa174708124ff9d604695ce1">ug::GetPolyChainType()</a>, <a class="el" href="classug_1_1_grid_subset_handler.html#af5e0bd51f199eded2f503d61e3dcdc5b">ug::GridSubsetHandler::num()</a>, <a class="el" href="classug_1_1_i_subset_handler.html#abe054731d7c51a58815c64cc767d8e08">ug::ISubsetHandler::num_subsets()</a>, <a class="el" href="classug_1_1_grid.html#a70dcd73e1a869fc9b3970c6645a587d0">ug::Grid::num_volumes()</a>, <a class="el" href="group__lib__grid__algorithms__polychain__util.html#ggaed934cbb2fbb8eec0e5d7ac21f825089ac282117d4f9a3be4dc2b99cb096aaa44">ug::PCT_CLOSED</a>, <a class="el" href="group__lib__grid__algorithms__subset__util.html#ga483667d062ae38ffc2e553f2c0054db1">ug::SplitIrregularManifoldSubset()</a>, <a class="el" href="group__lib__grid__algorithms__polychain__util.html#ga75568f0b7fca5283caf4bd72371eaeac">ug::SplitIrregularPolyChain()</a>, <a class="el" href="classug_1_1_grid.html#a061001422f8932bfc5c8b0aa77c23c78">ug::Grid::volumes_begin()</a>, and <a class="el" href="classug_1_1_grid.html#a8f22d61376711efc91a43d7cd008bd24">ug::Grid::volumes_end()</a>.</p>
+<p>References <a class="el" href="classug_1_1_grid_subset_handler.html#a2344691e472126f245181b9fa534d70e">ug::GridSubsetHandler::assign_subset()</a>, <a class="el" href="group__lib__grid__algorithms__subset__util.html#ga68dea7295cd0e808b90a8e433de6990c">ug::AssignFaceInterfaceEdgesToSubsets()</a>, <a class="el" href="group__lib__grid__algorithms__subset__util.html#ga2a766d9f0444aea63d441c3c740cd57f">ug::AssignVolumeInterfaceFacesToSubsets()</a>, <a class="el" href="classug_1_1_grid_subset_handler.html#ad8a3e34644aa2d55cf1328ef6cfb9588">ug::GridSubsetHandler::begin()</a>, <a class="el" href="group__lib__grid__algorithms__neighborhood__util.html#gaefa96933917b29e46599f0756aa99be1">ug::CollectFaces()</a>, <a class="el" href="group__lib__grid__algorithms__neighborhood__util.html#ga03bd7e264a1a23ea14e7774a146d59ec">ug::CollectVolumes()</a>, <a class="el" href="classug_1_1_grid.html#a30e6400dea593025a8348e70d16bb9bd">ug::Grid::edges_begin()</a>, <a class="el" href="classug_1_1_grid.html#aeeadda089122bcdee4b9c5652a6a688d">ug::Grid::edges_end()</a>, <a class="el" href="classug_1_1_grid_subset_handler.html#a61bfa76ef2ebd6412c1a30d7b12d9f5f">ug::GridSubsetHandler::end()</a>, <a class="el" href="classug_1_1_grid.html#ae624f616fdd1a12257ed2a163d76f7f6">ug::Grid::faces_begin()</a>, <a class="el" href="classug_1_1_grid.html#a12b4b1a6cae6fd62036a65e73dfa7181">ug::Grid::faces_end()</a>, <a class="el" href="group__lib__grid__algorithms__edge__util.html#gab71f0105ef482356bab57a65bc535624">ug::FixEdgeOrientation()</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#gab664568489e16a7668769a38285e83e3">FixFaceOrientation()</a>, <a class="el" href="classug_1_1_i_subset_handler.html#ab322bfc9560e86b563145b9e264d385e">ug::ISubsetHandler::get_subset_index()</a>, <a class="el" href="group__lib__grid__algorithms__polychain__util.html#ga14dfab30fa174708124ff9d604695ce1">ug::GetPolyChainType()</a>, <a class="el" href="classug_1_1_grid_subset_handler.html#af5e0bd51f199eded2f503d61e3dcdc5b">ug::GridSubsetHandler::num()</a>, <a class="el" href="classug_1_1_i_subset_handler.html#abe054731d7c51a58815c64cc767d8e08">ug::ISubsetHandler::num_subsets()</a>, <a class="el" href="classug_1_1_grid.html#a70dcd73e1a869fc9b3970c6645a587d0">ug::Grid::num_volumes()</a>, <a class="el" href="group__lib__grid__algorithms__polychain__util.html#ggaed934cbb2fbb8eec0e5d7ac21f825089ac282117d4f9a3be4dc2b99cb096aaa44">ug::PCT_CLOSED</a>, <a class="el" href="group__lib__grid__algorithms__subset__util.html#ga483667d062ae38ffc2e553f2c0054db1">ug::SplitIrregularManifoldSubset()</a>, <a class="el" href="group__lib__grid__algorithms__polychain__util.html#ga75568f0b7fca5283caf4bd72371eaeac">ug::SplitIrregularPolyChain()</a>, <a class="el" href="classug_1_1_grid.html#a061001422f8932bfc5c8b0aa77c23c78">ug::Grid::volumes_begin()</a>, and <a class="el" href="classug_1_1_grid.html#a8f22d61376711efc91a43d7cd008bd24">ug::Grid::volumes_end()</a>.</p>
 
 </div>
 </div>
@@ -805,7 +808,7 @@ template&lt;class TElem &gt; </div>
 
 <p>assigns a different color to each subset </p>
 
-<p>References <a class="el" href="structug_1_1_subset_info.html#a4c7c96a20b79ff588ad83733e53547cc">ug::SubsetInfo::color</a>, <a class="el" href="group__lib__grid__algorithms__subset__util.html#ga540f49f0844b9ab2c72796694bdf7d8a">ug::GetColorFromStandardPalette()</a>, <a class="el" href="classug_1_1_i_subset_handler.html#abe054731d7c51a58815c64cc767d8e08">ug::ISubsetHandler::num_subsets()</a>, and <a class="el" href="classug_1_1_i_subset_handler.html#a3626ed31918e1780a7c7e5ff939d80d9">ug::ISubsetHandler::subset_info()</a>.</p>
+<p>References <a class="el" href="namespaceug.html#afe45dd80a8dee7a2d6a079587505242b">ug::AssignDefaultSubsetColors()</a>.</p>
 
 <p>Referenced by <a class="el" href="classug_1_1_global_multi_grid_refiner.html#a1666338823759a02a38f7b926947ddcd">ug::GlobalMultiGridRefiner::save_marks_to_file()</a>, <a class="el" href="classug_1_1_global_fractured_media_refiner.html#a7c53ae8052af058240909159c134c95d">ug::GlobalFracturedMediaRefiner::save_marks_to_file()</a>, and <a class="el" href="namespaceug.html#ad4dfef77b4a909f2102691d06b04916d">ug::SaveCoarsenMarksToFile()</a>.</p>
 
@@ -981,7 +984,7 @@ template&lt;class TElem , class TSubsetHandler &gt; </div>
 </div>
 </div>
 <a id="ga91c0de55b4565d2107f99a1c468a2adc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga91c0de55b4565d2107f99a1c468a2adc">&sect;&nbsp;</a></span>CopySubsetIndicesToSides() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga91c0de55b4565d2107f99a1c468a2adc">&sect;&nbsp;</a></span>CopySubsetIndicesToSides() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1028,7 +1031,7 @@ template&lt;class TIterator &gt; </div>
 </div>
 </div>
 <a id="ga21b8cde0c684ba6004d1b91d135f74cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga21b8cde0c684ba6004d1b91d135f74cf">&sect;&nbsp;</a></span>CopySubsetIndicesToSides() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga21b8cde0c684ba6004d1b91d135f74cf">&sect;&nbsp;</a></span>CopySubsetIndicesToSides() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1066,8 +1069,47 @@ template&lt;class TIterator &gt; </div>
 
 </div>
 </div>
+<a id="ga6a8a9b164773b8d463cb8a1a000ddf7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6a8a9b164773b8d463cb8a1a000ddf7d">&sect;&nbsp;</a></span>CopySubsetIndicesToSides() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__ugbase__common.html#ga6a442be2e75e98247f82d1aa90a06aac">UG_API</a> void ug::CopySubsetIndicesToSides </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_i_subset_handler.html">ISubsetHandler</a> &amp;&#160;</td>
+          <td class="paramname"><em>sh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classug_1_1_i_selector.html">ISelector</a> &amp;&#160;</td>
+          <td class="paramname"><em>sel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>toUnassignedOnly</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>copies subset-indices to sides of the elements selected in 'sel' </p>
+<p>Lower dimensional elements have higher priority during assignment (e.g. if toUnnassignedOnly == 'true' and the unassigned edge e is connected to a face and a to volume element of different subsets, then it will be assigned to the subset of the connected face). </p>
+
+<p>References <a class="el" href="group__lib__grid__algorithms__subset__util.html#gad359df1bdd95000c11685eb765657734">ug::CopySubsetIndicesToSides()</a>, and <a class="el" href="classug_1_1_i_selector.html#a06b786148f9caeeb5dbbb005a8f38f3f">ug::ISelector::get_grid_objects()</a>.</p>
+
+</div>
+</div>
 <a id="gad359df1bdd95000c11685eb765657734"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad359df1bdd95000c11685eb765657734">&sect;&nbsp;</a></span>CopySubsetIndicesToSides() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad359df1bdd95000c11685eb765657734">&sect;&nbsp;</a></span>CopySubsetIndicesToSides() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1237,9 +1279,7 @@ template&lt;typename TBaseObj &gt; </div>
 
 <p>Returns an rgb vector (values ranging from 0 to 1), with the i-th default color. </p>
 
-<p>References <a class="el" href="group__vectors.html#ga53ae2dda87330ab64fb2a5901606b3e4">ug::VecNormalize()</a>.</p>
-
-<p>Referenced by <a class="el" href="group__lib__grid__algorithms__subset__util.html#gacb4301438dbce67130278427a69d1fc9">ug::AssignSubsetColors()</a>.</p>
+<p>References <a class="el" href="namespaceug.html#a396f530a7a40f1a9c6a63d6eab96bff4">ug::GetColorFromDefaultPalette()</a>.</p>
 
 </div>
 </div>
@@ -1695,7 +1735,7 @@ template&lt;class TElem &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:13 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:08:45 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

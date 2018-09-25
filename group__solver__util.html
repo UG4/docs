@@ -118,6 +118,14 @@ Functions</h2></td></tr>
 <tr class="separator:ga5a8b0b8defb5edc53f2778e51b20b463"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8aae52c36cb6f4043d36e874f0196319"><td class="memItemLeft" align="right" valign="top">function util solver&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__solver__util.html#ga8aae52c36cb6f4043d36e874f0196319">PrepareStep</a> (desc, nestedStep, timeStep)</td></tr>
 <tr class="separator:ga8aae52c36cb6f4043d36e874f0196319"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa293f373fc67308922934d28d9512a00"><td class="memItemLeft" align="right" valign="top">function util solver&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__solver__util.html#gaa293f373fc67308922934d28d9512a00">SetDebugWriter</a> (obj, desc, defaults)</td></tr>
+<tr class="separator:gaa293f373fc67308922934d28d9512a00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7a5cb97cfc517b836aace18523167d20"><td class="memItemLeft" align="right" valign="top">function util solver&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__solver__util.html#ga7a5cb97cfc517b836aace18523167d20">SolveLinearProblem</a> (domDisc, solverDesc, outFilePrefix, startValueCB)</td></tr>
+<tr class="separator:ga7a5cb97cfc517b836aace18523167d20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadd539f3487982739c3e1e0ee2ebe3fad"><td class="memItemLeft" align="right" valign="top">function util solver&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__solver__util.html#gadd539f3487982739c3e1e0ee2ebe3fad">SolveLinearTimeProblem</a> (domDisc, solverDesc, timeDesc, outDesc, startValueCB)</td></tr>
+<tr class="separator:gadd539f3487982739c3e1e0ee2ebe3fad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga72237213cfde038395eb19cc082ecb0e"><td class="memItemLeft" align="right" valign="top">function util solver&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__solver__util.html#ga72237213cfde038395eb19cc082ecb0e">SolveNonLinearTimeProblem</a> (domDisc, solverDesc, timeDesc, outDesc, startValueCB)</td></tr>
+<tr class="separator:ga72237213cfde038395eb19cc082ecb0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Table based solver creation. </p>
@@ -216,7 +224,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :540-545 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.solver.CondAbort(condition, <a class="code" href="group__scripts__util__test.html#gab01173c9c178b0a1f6a8c61955b0c2dd">message</a>)</div><div class="line">  <span class="keywordflow">if</span> condition == <span class="keyword">true</span> then</div><div class="line">    <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(<span class="stringliteral">&quot;ERROR in util.solver: &quot;</span> .. <a class="code" href="group__scripts__util__test.html#gab01173c9c178b0a1f6a8c61955b0c2dd">message</a>)</div><div class="line">    exit()</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :574-579 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.solver.CondAbort(condition, <a class="code" href="group__scripts__util__test.html#gab01173c9c178b0a1f6a8c61955b0c2dd">message</a>)</div><div class="line">  <span class="keywordflow">if</span> condition == <span class="keyword">true</span> then</div><div class="line">    <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(<span class="stringliteral">&quot;ERROR in util.solver: &quot;</span> .. <a class="code" href="group__scripts__util__test.html#gab01173c9c178b0a1f6a8c61955b0c2dd">message</a>)</div><div class="line">    exit()</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="ga0d49d89c055bf5aaa5fd2b220d64a592"></a>
@@ -244,7 +252,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :829-877 </p>
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :892-940 </p>
 
 </div>
 </div>
@@ -273,7 +281,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :596-654 </p>
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :632-710 </p>
 
 </div>
 </div>
@@ -292,7 +300,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :879-905 </p>
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :942-971 </p>
 
 </div>
 </div>
@@ -311,7 +319,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :908-939 </p>
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :974-1005 </p>
 
 </div>
 </div>
@@ -340,7 +348,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :687-826 </p>
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :741-889 </p>
 
 </div>
 </div>
@@ -375,7 +383,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :565-594 </p>
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :599-630 </p>
 
 </div>
 </div>
@@ -394,7 +402,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :656-683 </p>
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :712-737 </p>
 
 </div>
 </div>
@@ -424,7 +432,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>if solverDesc is a table, solverDesc.solverutil will be set to solverutil or initialized as an empty table. The method will then return solverDesc.solverutil. If solverDesc is not a table, the method returns solverutil or {}, if solverutil == nil.</p>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :551-558 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.solver.PrepareSolverUtil(solverDesc, solverutil)</div><div class="line">  <span class="keywordflow">if</span> type(solverDesc) == <span class="stringliteral">&quot;table&quot;</span> then</div><div class="line">    solverDesc.solverutil = solverutil or solverDesc.solverutil or {}</div><div class="line">    <span class="keywordflow">return</span> solverDesc.solverutil</div><div class="line">  <span class="keywordflow">else</span></div><div class="line">    <span class="keywordflow">return</span> solverutil or {}</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :585-592 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.solver.PrepareSolverUtil(solverDesc, solverutil)</div><div class="line">  <span class="keywordflow">if</span> type(solverDesc) == <span class="stringliteral">&quot;table&quot;</span> then</div><div class="line">    solverDesc.solverutil = solverutil or solverDesc.solverutil or {}</div><div class="line">    <span class="keywordflow">return</span> solverDesc.solverutil</div><div class="line">  <span class="keywordflow">else</span></div><div class="line">    <span class="keywordflow">return</span> solverutil or {}</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="ga8aae52c36cb6f4043d36e874f0196319"></a>
@@ -466,7 +474,186 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :951-976 </p>
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :1064-1089 </p>
+
+</div>
+</div>
+<a id="gaa293f373fc67308922934d28d9512a00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa293f373fc67308922934d28d9512a00">&sect;&nbsp;</a></span>SetDebugWriter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util solver SetDebugWriter </td>
+          <td>(</td>
+          <td class="paramtype">obj&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">desc&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">defaults&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :1007-1052 </p>
+
+</div>
+</div>
+<a id="ga7a5cb97cfc517b836aace18523167d20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7a5cb97cfc517b836aace18523167d20">&sect;&nbsp;</a></span>SolveLinearProblem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util solver SolveLinearProblem </td>
+          <td>(</td>
+          <td class="paramtype">domDisc&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">solverDesc&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">outFilePrefix&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">startValueCB&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Solves a linear problem given as a domain discretization </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">domDisc</td><td>the domain discretization object </td></tr>
+    <tr><td class="paramname">solverDesc</td><td>a valid solver descriptor or solver object </td></tr>
+    <tr><td class="paramname">outFilePrefix</td><td>(optional) .vtk and .vec files of the solution are stored. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A, u, b, where A is the system matrix, u is the solution and b is the right hand side</dd></dl>
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :1098-1126 </p>
+
+</div>
+</div>
+<a id="gadd539f3487982739c3e1e0ee2ebe3fad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadd539f3487982739c3e1e0ee2ebe3fad">&sect;&nbsp;</a></span>SolveLinearTimeProblem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util solver SolveLinearTimeProblem </td>
+          <td>(</td>
+          <td class="paramtype">domDisc&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">solverDesc&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">timeDesc&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">outDesc&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">startValueCB&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :1129-1166 </p>
+
+</div>
+</div>
+<a id="ga72237213cfde038395eb19cc082ecb0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga72237213cfde038395eb19cc082ecb0e">&sect;&nbsp;</a></span>SolveNonLinearTimeProblem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util solver SolveNonLinearTimeProblem </td>
+          <td>(</td>
+          <td class="paramtype">domDisc&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">solverDesc&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">timeDesc&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">outDesc&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">startValueCB&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :1169-1206 </p>
 
 </div>
 </div>
@@ -475,7 +662,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:13 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:08:45 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

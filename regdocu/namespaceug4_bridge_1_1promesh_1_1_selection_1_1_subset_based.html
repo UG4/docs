@@ -101,9 +101,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ab36d9f9d49caee76a0bb8caabd7cfcaa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_subset_based.html#ab36d9f9d49caee76a0bb8caabd7cfcaa">SelectSubsetBoundary</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, int subset_index, bool boundaries_of_edges, bool boundaries_of_faces, bool boundaries_of_volumes)</td></tr>
 <tr class="memdesc:ab36d9f9d49caee76a0bb8caabd7cfcaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects the boundary of a subset.  <a href="#ab36d9f9d49caee76a0bb8caabd7cfcaa">More...</a><br /></td></tr>
 <tr class="separator:ab36d9f9d49caee76a0bb8caabd7cfcaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa301c7ec86d07b6c6ba9b249587c67f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_subset_based.html#aa301c7ec86d07b6c6ba9b249587c67f2">SelectUnassignedElements</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, bool subset_index, bool vertices, bool edges, bool faces)</td></tr>
-<tr class="memdesc:aa301c7ec86d07b6c6ba9b249587c67f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects all elements not assigned to any subset.  <a href="#aa301c7ec86d07b6c6ba9b249587c67f2">More...</a><br /></td></tr>
-<tr class="separator:aa301c7ec86d07b6c6ba9b249587c67f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f9f5be8520dc505fa3d89de9a9cfdb3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_subset_based.html#a2f9f5be8520dc505fa3d89de9a9cfdb3">SelectUnassignedElements</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, bool vertices, bool edges, bool faces, bool volumes)</td></tr>
+<tr class="memdesc:a2f9f5be8520dc505fa3d89de9a9cfdb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects all elements not assigned to any subset.  <a href="#a2f9f5be8520dc505fa3d89de9a9cfdb3">More...</a><br /></td></tr>
+<tr class="separator:a2f9f5be8520dc505fa3d89de9a9cfdb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ab1f20ac6b41be7558f2be7cfb0c16de5"></a>
@@ -169,7 +169,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#gae400e52cd81f28e6262a8ef82850cc20">SelectSubset()</a>.</p>
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#gae400e52cd81f28e6262a8ef82850cc20">SelectSubset()</a>.</p>
 
 </div>
 </div>
@@ -229,12 +229,12 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga965e8d27ceae4a8d31241e4f26dd292f">SelectSubsetBoundary()</a>.</p>
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga965e8d27ceae4a8d31241e4f26dd292f">SelectSubsetBoundary()</a>.</p>
 
 </div>
 </div>
-<a id="aa301c7ec86d07b6c6ba9b249587c67f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa301c7ec86d07b6c6ba9b249587c67f2">&sect;&nbsp;</a></span>SelectUnassignedElements()</h2>
+<a id="a2f9f5be8520dc505fa3d89de9a9cfdb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f9f5be8520dc505fa3d89de9a9cfdb3">&sect;&nbsp;</a></span>SelectUnassignedElements()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -244,12 +244,6 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *&#160;</td>
           <td class="paramname"><em>mesh</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>subset_index</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -267,7 +261,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>faces</em>&#160;</td>
+          <td class="paramname"><em>faces</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>volumes</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -281,15 +281,15 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td></td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">subset_index</td><td></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">vertices</td><td></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">edges</td><td></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">faces</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">volumes</td><td></td></tr>
   </table>
   </dd>
 </dl>
 
-<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga9be0cecfeaf098b9cdb0d44555ab310e">SelectUnassignedElements()</a>.</p>
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga9be0cecfeaf098b9cdb0d44555ab310e">SelectUnassignedElements()</a>.</p>
 
 </div>
 </div>
@@ -299,7 +299,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug4_bridge.html">ug4Bridge</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh.html">promesh</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection.html">Selection</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_subset_based.html">SubsetBased</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:03:00 for Registry by
+    <li class="footer">Generated on Tue Sep 25 2018 10:07:07 for Registry by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

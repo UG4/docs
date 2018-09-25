@@ -39,6 +39,7 @@ var classug_1_1_composite_conv_check =
     [ "set_name", "classug_1_1_composite_conv_check.html#a9482b57963816d51750b5f1b4da806b9", null ],
     [ "set_offset", "classug_1_1_composite_conv_check.html#ad08b13fde692ead30e3b10f9a74e0bcd", null ],
     [ "set_rest_check", "classug_1_1_composite_conv_check.html#a26d9003e323eb822eb44076a0462fe96", null ],
+    [ "set_supress_unsuccessful", "classug_1_1_composite_conv_check.html#a4012e67805c04bc9d2eea74d2c10e893", null ],
     [ "set_symbol", "classug_1_1_composite_conv_check.html#a7da131cc6a5f10bf89e4d9edf504b618", null ],
     [ "set_time_measurement", "classug_1_1_composite_conv_check.html#a86ceb7a12be1cb80e60270425a32466f", null ],
     [ "set_verbose", "classug_1_1_composite_conv_check.html#ac6248854f0ace65cdb42e961cdd1cfdd", null ],
@@ -62,6 +63,7 @@ var classug_1_1_composite_conv_check =
     [ "m_restRelReduction", "classug_1_1_composite_conv_check.html#a8b5e0e4de38f8c1cd1137120b1b3a725", null ],
     [ "m_spApprox", "classug_1_1_composite_conv_check.html#abe1fcdf1a40e089a75ea7c27f4a77adc", null ],
     [ "m_stopwatch", "classug_1_1_composite_conv_check.html#a90e471b714095a555149f23ac94fa7c1", null ],
+    [ "m_supress_unsuccessful", "classug_1_1_composite_conv_check.html#ad0e0058c5198a21ae3b0329d858634ae", null ],
     [ "m_symbol", "classug_1_1_composite_conv_check.html#a4ba4cb37865ed2010cdda72f8ba120db", null ],
     [ "m_verbose", "classug_1_1_composite_conv_check.html#a6d6cb63af1a159f045de42926ba220a7", null ],
     [ "m_vNativCmpInfo", "classug_1_1_composite_conv_check.html#a39af5674edb11c281b547bbd1ef1da6f", null ]

@@ -197,6 +197,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a28956a4f5ca3ace718e9a09b3cf4309e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u_t_preconditioner.html#a28956a4f5ca3ace718e9a09b3cf4309e">set_info</a> (bool info)</td></tr>
 <tr class="memdesc:a28956a4f5ca3ace718e9a09b3cf4309e"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets storage information output to true or false  <a href="#a28956a4f5ca3ace718e9a09b3cf4309e">More...</a><br /></td></tr>
 <tr class="separator:a28956a4f5ca3ace718e9a09b3cf4309e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a75f6d19a240845ef5a1de2c20826ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u_t_preconditioner.html#a7a75f6d19a240845ef5a1de2c20826ea">set_show_progress</a> (bool s)</td></tr>
+<tr class="memdesc:a7a75f6d19a240845ef5a1de2c20826ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">set whether the progress meter should be shown  <a href="#a7a75f6d19a240845ef5a1de2c20826ea">More...</a><br /></td></tr>
+<tr class="separator:a7a75f6d19a240845ef5a1de2c20826ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14c61fa2d00269c137fd44f4de6f905f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u_t_preconditioner.html#a14c61fa2d00269c137fd44f4de6f905f">set_sort</a> (bool b)</td></tr>
 <tr class="separator:a14c61fa2d00269c137fd44f4de6f905f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad927cd39655ce9fc3a45120fc8b0c552"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u_t_preconditioner.html#ad927cd39655ce9fc3a45120fc8b0c552">set_threshold</a> (<a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> thresh)</td></tr>
@@ -350,6 +353,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a0dade621c46306b59315832571d13b74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcc3d458d9e39642714abcc92bcab9e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_debug_writing_object.html#a9d58db67544536cb42d1143434d95854">matrix_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u_t_preconditioner.html#adcc3d458d9e39642714abcc92bcab9e3">m_L</a></td></tr>
 <tr class="separator:adcc3d458d9e39642714abcc92bcab9e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7bba958347327741a29472dd822155e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u_t_preconditioner.html#af7bba958347327741a29472dd822155e">m_show_progress</a></td></tr>
+<tr class="separator:af7bba958347327741a29472dd822155e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35317c6299d915b9d0308380bfed64fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_debug_writing_object.html#a9d58db67544536cb42d1143434d95854">matrix_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u_t_preconditioner.html#a35317c6299d915b9d0308380bfed64fa">m_U</a></td></tr>
 <tr class="separator:a35317c6299d915b9d0308380bfed64fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5684aac24a32a91abc064687abd620ab"><td class="memItemLeft" align="right" valign="top">std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u_t_preconditioner.html#a5684aac24a32a91abc064687abd620ab">newIndex</a></td></tr>
@@ -1035,6 +1040,36 @@ template&lt;typename TAlgebra&gt; </div>
 
 </div>
 </div>
+<a id="a7a75f6d19a240845ef5a1de2c20826ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a75f6d19a240845ef5a1de2c20826ea">&sect;&nbsp;</a></span>set_show_progress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TAlgebra&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_i_l_u_t_preconditioner.html">ug::ILUTPreconditioner</a>&lt; TAlgebra &gt;::set_show_progress </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>set whether the progress meter should be shown </p>
+
+</div>
+</div>
 <a id="a14c61fa2d00269c137fd44f4de6f905f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a14c61fa2d00269c137fd44f4de6f905f">&sect;&nbsp;</a></span>set_sort()</h2>
 
@@ -1381,6 +1416,32 @@ template&lt;typename TAlgebra&gt; </div>
 
 </div>
 </div>
+<a id="af7bba958347327741a29472dd822155e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7bba958347327741a29472dd822155e">&sect;&nbsp;</a></span>m_show_progress</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TAlgebra&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classug_1_1_i_l_u_t_preconditioner.html">ug::ILUTPreconditioner</a>&lt; TAlgebra &gt;::m_show_progress</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classug_1_1_i_l_u_t_preconditioner.html#a2da4356730405e22390b6dd62a8b4361">ug::ILUTPreconditioner&lt; ug::CPUAlgebra &gt;::preprocess_mat2()</a>, and <a class="el" href="classug_1_1_i_l_u_t_preconditioner.html#a7a75f6d19a240845ef5a1de2c20826ea">ug::ILUTPreconditioner&lt; ug::CPUAlgebra &gt;::set_show_progress()</a>.</p>
+
+</div>
+</div>
 <a id="aff541f06f58fd72e265dfd79ac225777"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aff541f06f58fd72e265dfd79ac225777">&sect;&nbsp;</a></span>m_small</h2>
 
@@ -1494,7 +1555,7 @@ template&lt;typename TAlgebra&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_i_l_u_t_preconditioner.html">ILUTPreconditioner</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:30 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:09:09 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

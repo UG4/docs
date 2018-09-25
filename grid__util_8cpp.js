@@ -30,6 +30,8 @@ var grid__util_8cpp =
     [ "CompareVertices", "grid__util_8cpp.html#ga71697540df69ad33d455c45ac337f9fe", null ],
     [ "FaceContains", "grid__util_8cpp.html#ga749cd2682d933d3923aed6387b564d4d", null ],
     [ "FaceContains", "grid__util_8cpp.html#ga24e7ebdd741a8bf9e9de43ec8b570b12", null ],
+    [ "VertexGroupsMatch", "grid__util_8cpp.html#abb96853a5fa18742771c49516b9f7e7a", null ],
+    [ "VertexGroupsMatch", "grid__util_8cpp.html#a619761ca39ff13d58012ae65231030cf", null ],
     [ "VolumeContains", "grid__util_8cpp.html#gab28fc56b79458ac223c95f3585c67117", null ],
     [ "VolumeContains", "grid__util_8cpp.html#gafde4daaaf31fb4c012cf184a8a127520", null ],
     [ "VolumeContains", "grid__util_8cpp.html#gaaf13863014af68bc676a49f81f84e1c4", null ]

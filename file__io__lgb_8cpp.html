@@ -98,6 +98,14 @@ $(document).ready(function(){initNavTree('file__io__lgb_8cpp.html','');});
 <code>#include &quot;<a class="el" href="lg__base_8h_source.html">lib_grid/lg_base.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="lib__grid_2algorithms_2serialization_8h_source.html">lib_grid/algorithms/serialization.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="file__io__lgb_8h_source.html">file_io_lgb.h</a>&quot;</code><br />
+<code>#include &lt;sstream&gt;</code><br />
+<code>#include &lt;boost/archive/text_oarchive.hpp&gt;</code><br />
+<code>#include &lt;boost/archive/text_iarchive.hpp&gt;</code><br />
+<code>#include &quot;<a class="el" href="boost__serialization__routines_8h_source.html">common/boost_serialization_routines.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="archivar_8h_source.html">common/util/archivar.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="factory_8h_source.html">common/util/factory.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="projection__handler_8h_source.html">lib_grid/refinement/projectors/projection_handler.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="projectors_8h_source.html">lib_grid/refinement/projectors/projectors.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -107,19 +115,36 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a6251263fc1ced97818cf7bd75a78b611"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a6251263fc1ced97818cf7bd75a78b611">ug::LGBConstants</a> { <a class="el" href="namespaceug.html#a6251263fc1ced97818cf7bd75a78b611a8723bb92443ce7b866eca60f263c9bbb">ug::LGBC_NONE</a> = 0, 
+<tr class="memitem:a6251263fc1ced97818cf7bd75a78b611"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a6251263fc1ced97818cf7bd75a78b611">ug::LGBConstants</a> { <br />
+&#160;&#160;<a class="el" href="namespaceug.html#a6251263fc1ced97818cf7bd75a78b611a8723bb92443ce7b866eca60f263c9bbb">ug::LGBC_NONE</a> = 0, 
 <a class="el" href="namespaceug.html#a6251263fc1ced97818cf7bd75a78b611abd9be47cd349cfa56346e81102a566e6">ug::LGBC_POS2D</a> = 1, 
 <a class="el" href="namespaceug.html#a6251263fc1ced97818cf7bd75a78b611a0ed7bca9d607af65b1a4fc5472d5643c">ug::LGBC_POS3D</a> = 1 &lt;&lt; 1, 
-<a class="el" href="namespaceug.html#a6251263fc1ced97818cf7bd75a78b611a94939491069308f4797d00659ad0fe03">ug::LGBC_SUBSET_HANDLER</a> = 1 &lt;&lt; 2
+<a class="el" href="namespaceug.html#a6251263fc1ced97818cf7bd75a78b611a94939491069308f4797d00659ad0fe03">ug::LGBC_SUBSET_HANDLER</a> = 1 &lt;&lt; 2, 
+<br />
+&#160;&#160;<a class="el" href="namespaceug.html#a6251263fc1ced97818cf7bd75a78b611a302437647b68d53ceabe4e1e7786354c">ug::LGBC_SELECTOR</a> = 1 &lt;&lt; 3, 
+<a class="el" href="namespaceug.html#a6251263fc1ced97818cf7bd75a78b611a0b8c19f3d147a84b851335801f9ee71a">ug::LGBC_PROJECTION_HANDLER</a> = 1 &lt;&lt; 4
+<br />
  }</td></tr>
 <tr class="separator:a6251263fc1ced97818cf7bd75a78b611"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad9de83b9544adffe5e463e81692fa983"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#ad9de83b9544adffe5e463e81692fa983">ug::LoadGridFromLGB</a> (Grid &amp;grid, const char *filename, ISubsetHandler **ppSH, int numSHs, APosition aPos)</td></tr>
-<tr class="separator:ad9de83b9544adffe5e463e81692fa983"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c9c3a6a4fdfff7ebbab143c7c98dcf4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a0c9c3a6a4fdfff7ebbab143c7c98dcf4">ug::SaveGridToLGB</a> (Grid &amp;grid, const char *filename, ISubsetHandler **ppSH, int numSHs, APosition aPos)</td></tr>
-<tr class="separator:a0c9c3a6a4fdfff7ebbab143c7c98dcf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a380d14d41ba76f3024375838f90945ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a380d14d41ba76f3024375838f90945ea">ug::DeserializeProjectionHandler</a> (BinaryBuffer &amp;in, ProjectionHandler &amp;ph)</td></tr>
+<tr class="separator:a380d14d41ba76f3024375838f90945ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9142273bd43c16a8f06efa05f8be4952"><td class="memItemLeft" align="right" valign="top">SPRefinementProjector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a9142273bd43c16a8f06efa05f8be4952">ug::DeserializeProjector</a> (BinaryBuffer &amp;in)</td></tr>
+<tr class="separator:a9142273bd43c16a8f06efa05f8be4952"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82bd45619bb6be62657dc0f4d39a4d1b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a82bd45619bb6be62657dc0f4d39a4d1b">ug::LoadGridFromLGB</a> (Grid &amp;grid, const char *filename, ISubsetHandler **ppSH, int numSHs, ProjectionHandler *pPH, APosition aPos)</td></tr>
+<tr class="separator:a82bd45619bb6be62657dc0f4d39a4d1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b6ca9c5a867c0e3cd27f858cb3f7262"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a1b6ca9c5a867c0e3cd27f858cb3f7262">ug::LoadGridFromLGB</a> (Grid &amp;grid, const char *filename, ISubsetHandler **ppSH, int numSHs, ISelector **ppSel, int numSels, ProjectionHandler *pPH, APosition aPos)</td></tr>
+<tr class="separator:a1b6ca9c5a867c0e3cd27f858cb3f7262"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4773079da50e729fa65d1ac446bca76a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a4773079da50e729fa65d1ac446bca76a">ug::SaveGridToLGB</a> (Grid &amp;grid, const char *filename, ISubsetHandler **ppSH, int numSHs, ProjectionHandler *pPH, APosition aPos)</td></tr>
+<tr class="separator:a4773079da50e729fa65d1ac446bca76a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a125f1c47991044743926ad44d6e9b600"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a125f1c47991044743926ad44d6e9b600">ug::SaveGridToLGB</a> (Grid &amp;grid, const char *filename, ISubsetHandler **ppSH, int numSHs, ISelector **ppSel, int numSels, ProjectionHandler *pPH, APosition aPos)</td></tr>
+<tr class="separator:a125f1c47991044743926ad44d6e9b600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2719a1da9b9fcede9ee16433df523ef1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a2719a1da9b9fcede9ee16433df523ef1">ug::SerializeProjectionHandler</a> (BinaryBuffer &amp;out, ProjectionHandler &amp;ph)</td></tr>
+<tr class="separator:a2719a1da9b9fcede9ee16433df523ef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeed66c00d552c9eca54656038d504f31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#aeed66c00d552c9eca54656038d504f31">ug::SerializeProjector</a> (BinaryBuffer &amp;out, RefinementProjector &amp;proj)</td></tr>
+<tr class="separator:aeed66c00d552c9eca54656038d504f31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -127,7 +152,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_9cb5fcd0cbd108e4de7ac968a9e51f3d.html">lib_grid</a></li><li class="navelem"><a class="el" href="dir_61516e194be0d9e809ff8d4a42531234.html">file_io</a></li><li class="navelem"><a class="el" href="file__io__lgb_8cpp.html">file_io_lgb.cpp</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:12 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:08:43 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

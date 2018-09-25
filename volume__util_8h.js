@@ -2,7 +2,6 @@ var volume__util_8h =
 [
     [ "CalculateCenter", "volume__util_8h.html#ga0d8dd61d4f1b8599e0f016e9233b8e48", null ],
     [ "CalculateCenter", "volume__util_8h.html#ga8744d187b4c2588ed7343b97118cab95", null ],
-    [ "CalculateMinTetrahedronHeight", "volume__util_8h.html#ga8540f90964c07497a002d362629d5652", null ],
     [ "CalculateMinVolumeHeight", "volume__util_8h.html#ga439e8124095ed0540b516dfaff7959bf", null ],
     [ "CalculateTetrahedronAspectRatio", "volume__util_8h.html#gaf31820d91f65e3dd5680a7d6e4652dea", null ],
     [ "CalculateTetrahedronRootMeanSquareFaceArea", "volume__util_8h.html#ga57672e0c3f4904f54c95d7c20294e6b0", null ],

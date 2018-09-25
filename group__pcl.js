@@ -32,43 +32,48 @@ var group__pcl =
     [ "DataTypeIndirectlySupported", "classpcl_1_1_data_type_indirectly_supported.html", null ],
     [ "DataTypeTraits", "classpcl_1_1_data_type_traits.html", [
       [ "supported", "classpcl_1_1_data_type_traits.html#a8291484d182c097593debdcfeda38c08", null ],
-      [ "directlySupported", "classpcl_1_1_data_type_traits.html#a5ee552b155cc792f2bf0c7cc24808f90a8dc96b92ad16d166c716c3b8a3ed706d", null ],
+      [ "directlySupported", "classpcl_1_1_data_type_traits.html#ab703f4335f6fc245e02f3c614547ce18a8dc96b92ad16d166c716c3b8a3ed706d", null ],
       [ "get_data_type", "classpcl_1_1_data_type_traits.html#a797fbd1b67533574cff2cf615f83fbc6", null ]
     ] ],
     [ "DataTypeTraits< char >", "classpcl_1_1_data_type_traits_3_01char_01_4.html", [
       [ "supported", "classpcl_1_1_data_type_traits_3_01char_01_4.html#a50671abf7457ead51f8e3f92a046b506", null ],
-      [ "directlySupported", "classpcl_1_1_data_type_traits_3_01char_01_4.html#aa81df0932eaf767b76c9c41eedf86da8ac5be6f4e1a295cff4a430382d1e909ce", null ],
+      [ "directlySupported", "classpcl_1_1_data_type_traits_3_01char_01_4.html#ab8be4c8394c7a0b43d803d2c21c37787ac5be6f4e1a295cff4a430382d1e909ce", null ],
       [ "get_data_type", "classpcl_1_1_data_type_traits_3_01char_01_4.html#a97bde36020c8d54adb0538a5ce5e3d1e", null ]
     ] ],
     [ "DataTypeTraits< double >", "classpcl_1_1_data_type_traits_3_01double_01_4.html", [
       [ "supported", "classpcl_1_1_data_type_traits_3_01double_01_4.html#ac7ca346af93b512cbdb16dba0ea734ca", null ],
-      [ "directlySupported", "classpcl_1_1_data_type_traits_3_01double_01_4.html#a9374255bbea2a6fa3e1769592ddfe56ea6cd5262aa7feb2081e3a1d415945981f", null ],
+      [ "directlySupported", "classpcl_1_1_data_type_traits_3_01double_01_4.html#a833cbc4faf3c82013fbdcf1c13402073a6cd5262aa7feb2081e3a1d415945981f", null ],
       [ "get_data_type", "classpcl_1_1_data_type_traits_3_01double_01_4.html#a0c2feed449a6aa3bb1125cb4838d3acd", null ]
     ] ],
     [ "DataTypeTraits< float >", "classpcl_1_1_data_type_traits_3_01float_01_4.html", [
       [ "supported", "classpcl_1_1_data_type_traits_3_01float_01_4.html#a0792a67fc5e631c2d30161b616123e3b", null ],
-      [ "directlySupported", "classpcl_1_1_data_type_traits_3_01float_01_4.html#aa00467a87020276be02a1624cf6e797da3b33e5bf04c8d78c3dfba95bf2c5ff39", null ],
+      [ "directlySupported", "classpcl_1_1_data_type_traits_3_01float_01_4.html#a5db9d0abf4ee8730fabd84781798abd5a3b33e5bf04c8d78c3dfba95bf2c5ff39", null ],
       [ "get_data_type", "classpcl_1_1_data_type_traits_3_01float_01_4.html#ac3aa9afc482f458b40b74ab157afd9c4", null ]
     ] ],
     [ "DataTypeTraits< int >", "classpcl_1_1_data_type_traits_3_01int_01_4.html", [
       [ "supported", "classpcl_1_1_data_type_traits_3_01int_01_4.html#a636975704bf902ed0eda8e4c5353084d", null ],
-      [ "directlySupported", "classpcl_1_1_data_type_traits_3_01int_01_4.html#ae75402988414876f4f63aa971e234681ae6b4cafea227e8ef78496756688a4b79", null ],
+      [ "directlySupported", "classpcl_1_1_data_type_traits_3_01int_01_4.html#abe47f62858eddc44f4be55845d9f41ddae6b4cafea227e8ef78496756688a4b79", null ],
       [ "get_data_type", "classpcl_1_1_data_type_traits_3_01int_01_4.html#a139d8c056568615dee4c0ab455b226d1", null ]
     ] ],
     [ "DataTypeTraits< long >", "classpcl_1_1_data_type_traits_3_01long_01_4.html", [
       [ "supported", "classpcl_1_1_data_type_traits_3_01long_01_4.html#a1664d02f271a40e479af8e13aeabd5bd", null ],
-      [ "directlySupported", "classpcl_1_1_data_type_traits_3_01long_01_4.html#a6e46105e1deeee39af3c6456f32a2d1cab8307efcfe926dee3dc70cfd9240f12c", null ],
+      [ "directlySupported", "classpcl_1_1_data_type_traits_3_01long_01_4.html#af72f587a9dfc3092804fbeeebef8d630ab8307efcfe926dee3dc70cfd9240f12c", null ],
       [ "get_data_type", "classpcl_1_1_data_type_traits_3_01long_01_4.html#ab1720e93aed091f09de07225d698caf9", null ]
     ] ],
     [ "DataTypeTraits< unsigned char >", "classpcl_1_1_data_type_traits_3_01unsigned_01char_01_4.html", [
       [ "supported", "classpcl_1_1_data_type_traits_3_01unsigned_01char_01_4.html#a1c8f07c193f860c49775456f60c0bdc0", null ],
-      [ "directlySupported", "classpcl_1_1_data_type_traits_3_01unsigned_01char_01_4.html#a090a21c84ce32579ee987b225faa66a5ac99d38a81c3fc4e2286c8561be86520d", null ],
+      [ "directlySupported", "classpcl_1_1_data_type_traits_3_01unsigned_01char_01_4.html#afa1003483082a8fa84cc8eede6113f36ac99d38a81c3fc4e2286c8561be86520d", null ],
       [ "get_data_type", "classpcl_1_1_data_type_traits_3_01unsigned_01char_01_4.html#a50f750360d120f0ac8f54dfaed39c55d", null ]
     ] ],
     [ "DataTypeTraits< unsigned long >", "classpcl_1_1_data_type_traits_3_01unsigned_01long_01_4.html", [
       [ "supported", "classpcl_1_1_data_type_traits_3_01unsigned_01long_01_4.html#ac3612ca649d64dce8fb1de31968d5181", null ],
-      [ "directlySupported", "classpcl_1_1_data_type_traits_3_01unsigned_01long_01_4.html#a382e5602c6f694c50cc41e838efd40a3a416d6f9fd1e055f887b274ca2de45f12", null ],
+      [ "directlySupported", "classpcl_1_1_data_type_traits_3_01unsigned_01long_01_4.html#a58bc8a7a1789c121c55ecd7c5ae33183a416d6f9fd1e055f887b274ca2de45f12", null ],
       [ "get_data_type", "classpcl_1_1_data_type_traits_3_01unsigned_01long_01_4.html#aa49ede847174d02c057608930cb264ec", null ]
+    ] ],
+    [ "DataTypeTraits< unsigned long long >", "classpcl_1_1_data_type_traits_3_01unsigned_01long_01long_01_4.html", [
+      [ "supported", "classpcl_1_1_data_type_traits_3_01unsigned_01long_01long_01_4.html#a5d828f92f22a7d5458280321b7edb139", null ],
+      [ "directlySupported", "classpcl_1_1_data_type_traits_3_01unsigned_01long_01long_01_4.html#a7fdc1676d6348104bbc04015564f72a8a0e0cf150449a4781321b769af2b88271", null ],
+      [ "get_data_type", "classpcl_1_1_data_type_traits_3_01unsigned_01long_01long_01_4.html#a876ffb9c6a10b0035e4db79af4b8c405", null ]
     ] ],
     [ "ICommunicationPolicy", "classpcl_1_1_i_communication_policy.html", [
       [ "Interface", "classpcl_1_1_i_communication_policy.html#a0b00be24504bd592f0ffee03c8b94714", null ],
@@ -243,6 +248,7 @@ var group__pcl =
       [ "SPCommWrapper", "classpcl_1_1_process_communicator.html#ae690206ce86e0af9c5739008aa5bd096", null ],
       [ "ProcessCommunicator", "classpcl_1_1_process_communicator.html#afdc3fd8c82aea49f94a94c06f0b66555", null ],
       [ "allgather", "classpcl_1_1_process_communicator.html#ae6d7c776f504bd965d55ccb029c2d806", null ],
+      [ "allgather", "classpcl_1_1_process_communicator.html#ab9baaf8a77c83c3e17c33f8c2fd5a17b", null ],
       [ "allgatherv", "classpcl_1_1_process_communicator.html#aa38044c228d1e78069a704877e9e48e2", null ],
       [ "allgatherv", "classpcl_1_1_process_communicator.html#a3bee065c42d30fb67fed65e70e5c534b", null ],
       [ "allreduce", "classpcl_1_1_process_communicator.html#a708b02efa2d765daae9fee02b7b60000", null ],
@@ -268,10 +274,11 @@ var group__pcl =
       [ "distribute_data", "classpcl_1_1_process_communicator.html#a3031101bb147f6d875549f897c7996f7", null ],
       [ "empty", "classpcl_1_1_process_communicator.html#a3884294afa70a363fc8529a1f08c3053", null ],
       [ "gather", "classpcl_1_1_process_communicator.html#a4fcfbf45df86823b52fa0286a27539c4", null ],
+      [ "gather", "classpcl_1_1_process_communicator.html#a16f54e4a5dbc9be37f8add19295a5abe", null ],
       [ "gatherv", "classpcl_1_1_process_communicator.html#a5b8ffa08f3915dbae9f099d55ef4533d", null ],
       [ "gatherv", "classpcl_1_1_process_communicator.html#a52bb8ff22163e2734f3420c0a57e8c77", null ],
       [ "get_local_proc_id", "classpcl_1_1_process_communicator.html#ae4d016ec21680cf611dbb0fc00269306", null ],
-      [ "get_mpi_communicator", "classpcl_1_1_process_communicator.html#a9c3e68eb14fd81c3595ad9fbde0cd219", null ],
+      [ "get_mpi_communicator", "classpcl_1_1_process_communicator.html#a17e4ed6988d07c2682c713e79806ac66", null ],
       [ "get_proc_id", "classpcl_1_1_process_communicator.html#a1ee57f2d14bc6905066c814ce3030ed3", null ],
       [ "is_local", "classpcl_1_1_process_communicator.html#a3be8df02f7591a7fd79d2a16a27b85ff", null ],
       [ "is_proc_id", "classpcl_1_1_process_communicator.html#a0598776412b0d684abc5505c9755bbfe", null ],
@@ -391,6 +398,7 @@ var group__pcl =
     [ "CollectElements", "group__pcl.html#ga20bf85e2326f0efe8d342e3e540dc78a", null ],
     [ "CollectUniqueElements", "group__pcl.html#gae8e9cabdcbfb18d4f65411e40765950b", null ],
     [ "CommunicateInvolvedProcesses", "group__pcl.html#gae69fa8589b1ee5449187b583e4f0e72e", null ],
+    [ "DisableMPIInit", "group__pcl.html#gae78584c90a287016a9de9d69c5643b1e", null ],
     [ "DistributeData", "group__pcl.html#gafd1a087110982b18ef0e49feae772b6a", null ],
     [ "DistributeData", "group__pcl.html#ga62258f08cfb458d4f6435959af36333d", null ],
     [ "Finalize", "group__pcl.html#gab1852092fb2959dbb61601902277f2c2", null ],
@@ -398,6 +406,7 @@ var group__pcl =
     [ "Init", "group__pcl.html#gabc4cf6af366ff202502a89ec222869af", null ],
     [ "LogLayoutMapStructure", "group__pcl.html#gac9f54641df7edd507d6f9c080646275e", null ],
     [ "LogLayoutStructure", "group__pcl.html#gad3b02c7bfd6bd10424ae78c671b59fc5", null ],
+    [ "MinimalKeyValuePairAcrossAllProcs", "group__pcl.html#ga25fcc02d60112f3e50adaffdba369d2e", null ],
     [ "MPI_Wait", "group__pcl.html#ga0e1f92a7b690c37a0620ce7cfb3ca836", null ],
     [ "MPI_Waitall", "group__pcl.html#gad3f1fde6edff92a849aabc43bb6113b3", null ],
     [ "NumProcs", "group__pcl.html#ga7a09a2eab069305ca735847eed023d2f", null ],

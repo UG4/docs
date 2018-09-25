@@ -16,5 +16,6 @@ var namespaceug4_bridge_1_1_algebra_1_1_solver =
     [ "LU_c", "classug4_bridge_1_1_algebra_1_1_solver_1_1_l_u__c.html", "classug4_bridge_1_1_algebra_1_1_solver_1_1_l_u__c" ],
     [ "MinimalEnergyDamping", "classug4_bridge_1_1_algebra_1_1_solver_1_1_minimal_energy_damping.html", "classug4_bridge_1_1_algebra_1_1_solver_1_1_minimal_energy_damping" ],
     [ "MinimalResiduumDamping", "classug4_bridge_1_1_algebra_1_1_solver_1_1_minimal_residuum_damping.html", "classug4_bridge_1_1_algebra_1_1_solver_1_1_minimal_residuum_damping" ],
-    [ "OperatorInverseIterator", "classug4_bridge_1_1_algebra_1_1_solver_1_1_operator_inverse_iterator.html", "classug4_bridge_1_1_algebra_1_1_solver_1_1_operator_inverse_iterator" ]
+    [ "OperatorInverseIterator", "classug4_bridge_1_1_algebra_1_1_solver_1_1_operator_inverse_iterator.html", "classug4_bridge_1_1_algebra_1_1_solver_1_1_operator_inverse_iterator" ],
+    [ "PowerMethod", "classug4_bridge_1_1_algebra_1_1_solver_1_1_power_method.html", "classug4_bridge_1_1_algebra_1_1_solver_1_1_power_method" ]
 ];

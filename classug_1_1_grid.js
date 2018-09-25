@@ -189,6 +189,7 @@ var classug_1_1_grid =
     [ "get_element", "classug_1_1_grid.html#ac682d1dc43054317c9564af5bfdbb42f", null ],
     [ "get_element", "classug_1_1_grid.html#a6435c90e6afd0ed9ac8926379e91d57d", null ],
     [ "get_element", "classug_1_1_grid.html#a77185a60279c21f1fa02b53f441da41f", null ],
+    [ "get_element", "classug_1_1_grid.html#a7ec3333bf9d197b387fd1af969a98b45", null ],
     [ "get_face", "classug_1_1_grid.html#a6970549d629877a26e896ed00f309210", null ],
     [ "get_face", "classug_1_1_grid.html#ab2310ae9418e5819647995915685fe3d", null ],
     [ "get_grid_objects", "classug_1_1_grid.html#a8ea1275ac140334403083d62e6bc2474", null ],

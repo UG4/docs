@@ -12,8 +12,6 @@ var messaging_8h =
     [ "contains", "messaging_8h.html#a640c1bb9d0c9ddc7b8b4a64bd19e23d8", null ],
     [ "getExceptionMessageString", "messaging_8h.html#a4240aec48c6c92be9dfff79bb0f7fca1", null ],
     [ "replaceAll", "messaging_8h.html#ad14b5af195a61868d55d210eacb5bf1d", null ],
-    [ "serrPrintln", "messaging_8h.html#a792acc6ecf8fca4f0457e506c5d6083f", null ],
-    [ "soutPrintln", "messaging_8h.html#a73536ee8041306e99daa8731f30f52ad", null ],
     [ "split", "messaging_8h.html#ae0cabb3d4a554cf42bc45cdecb01e949", null ],
     [ "startsWith", "messaging_8h.html#aab97b95ea6a29bc50af10f5256bbcd43", null ]
 ];

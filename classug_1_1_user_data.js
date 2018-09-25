@@ -1,5 +1,7 @@
 var classug_1_1_user_data =
 [
+    [ "data_type", "classug_1_1_user_data.html#a8aeb372d3a0554708867acbb8185be69", null ],
+    [ "return_type", "classug_1_1_user_data.html#a0fabcb836d19a326205148c11554fc7a", null ],
     [ "continuous", "classug_1_1_user_data.html#a7f0af12bd287177e957fb8adc2ba8df5", null ],
     [ "get_dim", "classug_1_1_user_data.html#addad2047331f5b55ad138fcb0d7ec0af", null ],
     [ "operator()", "classug_1_1_user_data.html#aeaf5bc16b5e689b6d370b055fd891b1f", null ],

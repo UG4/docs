@@ -1,0 +1,5 @@
+var namespaceug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc =
+[
+    [ "CompressibleNavierStokes", "namespaceug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_compressible_navier_stokes.html", "namespaceug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_compressible_navier_stokes" ],
+    [ "NavierStokes", "namespaceug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes.html", "namespaceug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes" ]
+];

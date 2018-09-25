@@ -92,14 +92,14 @@ $(document).ready(function(){initNavTree('classug_1_1_i_partitioner.html','');})
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classug_1_1_i_partitioner-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">ug::IPartitioner Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group__lib__grid.html">lib_grid</a> &raquo; <a class="el" href="group__lib__grid__parallelization.html">parallelization</a> &raquo; <a class="el" href="group__lib__grid__parallelization__distribution.html">parallel distribution</a></div></div>  </div>
+<div class="title">ug::IPartitioner Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group__lib__grid__parallelization__distribution.html">Lib_grid_parallelization_distribution</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p>Partitioners can be used inside a <a class="el" href="classug_1_1_load_balancer.html" title="A load-balancer redistributes grids using the specified partitioner and process-hierarchy. ">LoadBalancer</a> or separately to create partition maps.  
  <a href="classug_1_1_i_partitioner.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="load__balancer_8h_source.html">load_balancer.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="partitioner_8h_source.html">partitioner.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for ug::IPartitioner:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -130,18 +130,24 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7b66f2da377aa838d9da6d6cde7d2950"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_partitioner.html#a7b66f2da377aa838d9da6d6cde7d2950">problems_occurred</a> ()</td></tr>
 <tr class="memdesc:a7b66f2da377aa838d9da6d6cde7d2950"><td class="mdescLeft">&#160;</td><td class="mdescRight">indicates whether problems occurred during the last partitioning  <a href="#a7b66f2da377aa838d9da6d6cde7d2950">More...</a><br /></td></tr>
 <tr class="separator:a7b66f2da377aa838d9da6d6cde7d2950"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d4cd2d11e57a3f0b9a570df96ad5932"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_partitioner.html#a1d4cd2d11e57a3f0b9a570df96ad5932">set_balance_weights</a> (<a class="el" href="group__lib__grid__parallelization__distribution.html#gaddad026158d47eea930989f4f3919c2b">SPBalanceWeights</a> balanceWeights)=0</td></tr>
-<tr class="separator:a1d4cd2d11e57a3f0b9a570df96ad5932"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a794afa87a8c1fd4fe799d760d6a197db"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_partitioner.html#a794afa87a8c1fd4fe799d760d6a197db">set_balance_weights</a> (<a class="el" href="group__lib__grid__parallelization__distribution.html#gaddad026158d47eea930989f4f3919c2b">SPBalanceWeights</a> balanceWeights)</td></tr>
+<tr class="separator:a794afa87a8c1fd4fe799d760d6a197db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7226f3f24994cbc8260f45cd6e33191"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_partitioner.html#ad7226f3f24994cbc8260f45cd6e33191">set_communication_weights</a> (<a class="el" href="group__lib__grid__parallelization__distribution.html#ga5b0b1e43486331996342b5a985dc7b5d">SPCommunicationWeights</a> commWeights)</td></tr>
+<tr class="separator:ad7226f3f24994cbc8260f45cd6e33191"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a005d90f311bf7f12346f043bd0af6d87"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_partitioner.html#a005d90f311bf7f12346f043bd0af6d87">set_next_process_hierarchy</a> (<a class="el" href="namespaceug.html#a536877df7615033777b7eabba65f521c">SPProcessHierarchy</a> procHierarchy)=0</td></tr>
 <tr class="separator:a005d90f311bf7f12346f043bd0af6d87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1acfb09a30229cc45d1bcb0de87d07f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_partitioner.html#aa1acfb09a30229cc45d1bcb0de87d07f">set_partition_post_processor</a> (<a class="el" href="group__lib__grid__parallelization__distribution.html#gaa6f6f47c5f51cd578ad537cc0dfd461b">SPPartitionPostProcessor</a>)</td></tr>
 <tr class="separator:aa1acfb09a30229cc45d1bcb0de87d07f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76a1929585e172a599aa761c95903164"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_partitioner.html#a76a1929585e172a599aa761c95903164">set_partition_pre_processor</a> (<a class="el" href="group__lib__grid__parallelization__distribution.html#ga3ac41dc2d4d50c6f7c9d51dcd5220527">SPPartitionPreProcessor</a>)</td></tr>
+<tr class="separator:a76a1929585e172a599aa761c95903164"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72cbd732aba7e2dcd151fb1b20db2569"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_partitioner.html#a72cbd732aba7e2dcd151fb1b20db2569">set_verbose</a> (bool <a class="el" href="classug_1_1_i_partitioner.html#a12348a683ff649749646b8683075ac6b">verbose</a>)</td></tr>
 <tr class="separator:a72cbd732aba7e2dcd151fb1b20db2569"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0dd70a68e98ba6ff304ff7f8e0124713"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_partitioner.html#a0dd70a68e98ba6ff304ff7f8e0124713">supports_balance_weights</a> () const =0</td></tr>
-<tr class="separator:a0dd70a68e98ba6ff304ff7f8e0124713"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af635f9c991dd40bdabe175f28d15e2fa"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_partitioner.html#af635f9c991dd40bdabe175f28d15e2fa">supports_repartitioning</a> () const =0</td></tr>
-<tr class="separator:af635f9c991dd40bdabe175f28d15e2fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2686ad0cb6b470fcd83860a47eef860f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_partitioner.html#a2686ad0cb6b470fcd83860a47eef860f">supports_balance_weights</a> () const</td></tr>
+<tr class="separator:a2686ad0cb6b470fcd83860a47eef860f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a279c343464c49c0f7ad71c0f4890e45b"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_partitioner.html#a279c343464c49c0f7ad71c0f4890e45b">supports_communication_weights</a> () const</td></tr>
+<tr class="separator:a279c343464c49c0f7ad71c0f4890e45b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c858b8417db3bfe0fd7589a4bb03c00"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_partitioner.html#a1c858b8417db3bfe0fd7589a4bb03c00">supports_repartitioning</a> () const</td></tr>
+<tr class="separator:a1c858b8417db3bfe0fd7589a4bb03c00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12348a683ff649749646b8683075ac6b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_partitioner.html#a12348a683ff649749646b8683075ac6b">verbose</a> () const</td></tr>
 <tr class="separator:a12348a683ff649749646b8683075ac6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b08987bccd63c64ce2aa5bff4cc69be"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_partitioner.html#a1b08987bccd63c64ce2aa5bff4cc69be">~IPartitioner</a> ()</td></tr>
@@ -454,8 +460,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a1d4cd2d11e57a3f0b9a570df96ad5932"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d4cd2d11e57a3f0b9a570df96ad5932">&sect;&nbsp;</a></span>set_balance_weights()</h2>
+<a id="a794afa87a8c1fd4fe799d760d6a197db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a794afa87a8c1fd4fe799d760d6a197db">&sect;&nbsp;</a></span>set_balance_weights()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -473,12 +479,42 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classug_1_1_partitioner___dynamic_bisection.html#a5d9d1ee56c9d71d3ac35a3ae7af93cca">ug::Partitioner_DynamicBisection&lt; TElem, dim &gt;</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_partitioner___dynamic_bisection.html#a5d9d1ee56c9d71d3ac35a3ae7af93cca">ug::Partitioner_DynamicBisection&lt; TElem, dim &gt;</a>.</p>
+
+<p>References <a class="el" href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>.</p>
+
+</div>
+</div>
+<a id="ad7226f3f24994cbc8260f45cd6e33191"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7226f3f24994cbc8260f45cd6e33191">&sect;&nbsp;</a></span>set_communication_weights()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ug::IPartitioner::set_communication_weights </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__lib__grid__parallelization__distribution.html#ga5b0b1e43486331996342b5a985dc7b5d">SPCommunicationWeights</a>&#160;</td>
+          <td class="paramname"><em>commWeights</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>.</p>
 
 </div>
 </div>
@@ -540,6 +576,36 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a76a1929585e172a599aa761c95903164"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76a1929585e172a599aa761c95903164">&sect;&nbsp;</a></span>set_partition_pre_processor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ug::IPartitioner::set_partition_pre_processor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__lib__grid__parallelization__distribution.html#ga3ac41dc2d4d50c6f7c9d51dcd5220527">SPPartitionPreProcessor</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classug_1_1_partitioner___dynamic_bisection.html#aa5f20275c91658796d2e1e4109e6b0e2">ug::Partitioner_DynamicBisection&lt; TElem, dim &gt;</a>.</p>
+
+<p>References <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
+
+</div>
+</div>
 <a id="a72cbd732aba7e2dcd151fb1b20db2569"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a72cbd732aba7e2dcd151fb1b20db2569">&sect;&nbsp;</a></span>set_verbose()</h2>
 
@@ -566,8 +632,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0dd70a68e98ba6ff304ff7f8e0124713"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0dd70a68e98ba6ff304ff7f8e0124713">&sect;&nbsp;</a></span>supports_balance_weights()</h2>
+<a id="a2686ad0cb6b470fcd83860a47eef860f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2686ad0cb6b470fcd83860a47eef860f">&sect;&nbsp;</a></span>supports_balance_weights()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -584,17 +650,42 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classug_1_1_partitioner___dynamic_bisection.html#a2cb12f521e00cdd16264ec1950769bc2">ug::Partitioner_DynamicBisection&lt; TElem, dim &gt;</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_partitioner___dynamic_bisection.html#a2cb12f521e00cdd16264ec1950769bc2">ug::Partitioner_DynamicBisection&lt; TElem, dim &gt;</a>.</p>
 
 </div>
 </div>
-<a id="af635f9c991dd40bdabe175f28d15e2fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af635f9c991dd40bdabe175f28d15e2fa">&sect;&nbsp;</a></span>supports_repartitioning()</h2>
+<a id="a279c343464c49c0f7ad71c0f4890e45b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a279c343464c49c0f7ad71c0f4890e45b">&sect;&nbsp;</a></span>supports_communication_weights()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool ug::IPartitioner::supports_communication_weights </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1c858b8417db3bfe0fd7589a4bb03c00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c858b8417db3bfe0fd7589a4bb03c00">&sect;&nbsp;</a></span>supports_repartitioning()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -611,12 +702,12 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classug_1_1_partitioner___dynamic_bisection.html#af29f78c9b2c73a7e447e75fa6430c79d">ug::Partitioner_DynamicBisection&lt; TElem, dim &gt;</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_partitioner___dynamic_bisection.html#af29f78c9b2c73a7e447e75fa6430c79d">ug::Partitioner_DynamicBisection&lt; TElem, dim &gt;</a>.</p>
 
 </div>
 </div>
@@ -715,7 +806,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>ugbase/lib_grid/parallelization/<a class="el" href="load__balancer_8h_source.html">load_balancer.h</a></li>
+<li>ugbase/lib_grid/parallelization/<a class="el" href="partitioner_8h_source.html">partitioner.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -723,7 +814,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_i_partitioner.html">IPartitioner</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:31 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:09:11 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

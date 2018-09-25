@@ -51,5 +51,6 @@ var searchData=
   ['localupdatenecessary',['localUpdateNecessary',['../classug_1_1_h_c_r_f_v_geometry.html#aef8f9c667805fa80155d13cc89c04de9',1,'ug::HCRFVGeometry']]],
   ['localvariables',['localVariables',['../classug_1_1_l_u_a_parser_class.html#a6a7920aafeef4b457e78ac2eec956d5b',1,'ug::LUAParserClass']]],
   ['logtofile',['logtofile',['../command__line__util_8lua.html#a5fb406e096fcd276a52add3deb58920b',1,'command_line_util.lua']]],
-  ['loosebox',['looseBox',['../structug_1_1ntree_1_1_node.html#a6f15e356dde17fcbe89b23e40ee7305b',1,'ug::ntree::Node']]]
+  ['loosebox',['looseBox',['../structug_1_1ntree_1_1_node.html#a6f15e356dde17fcbe89b23e40ee7305b',1,'ug::ntree::Node']]],
+  ['low_5fdim',['low_dim',['../../plugins/classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_fract_f_v1.html#a742133ae7f79e9ef60c89e3db649b633',1,'ug::ConvectionDiffusionPlugin::ConvectionDiffusionFractFV1']]]
 ];

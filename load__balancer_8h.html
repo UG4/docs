@@ -88,38 +88,24 @@ $(document).ready(function(){initNavTree('load__balancer_8h.html','');});
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
 <div class="title">load_balancer.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;vector&gt;</code><br />
 <code>#include &quot;<a class="el" href="multi__grid_8h_source.html">lib_grid/multi_grid.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="partition__map_8h_source.html">lib_grid/tools/partition_map.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="lib__grid_2algorithms_2serialization_8h_source.html">lib_grid/algorithms/serialization.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="table_8h_source.html">common/util/table.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="partitioner_8h_source.html">partitioner.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="pcl__process__communicator_8h_source.html">pcl/pcl_process_communicator.h</a>&quot;</code><br />
 </div>
 <p><a href="load__balancer_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1_process_hierarchy_1_1_h_level_info.html">ug::ProcessHierarchy::HLevelInfo</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_balance_weights.html">ug::IBalanceWeights</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_partitioner.html">ug::IPartitioner</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Partitioners can be used inside a <a class="el" href="classug_1_1_load_balancer.html" title="A load-balancer redistributes grids using the specified partitioner and process-hierarchy. ">LoadBalancer</a> or separately to create partition maps.  <a href="classug_1_1_i_partitioner.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_partition_post_processor.html">ug::IPartitionPostProcessor</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">allows to post-process partitions  <a href="classug_1_1_i_partition_post_processor.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_load_balancer.html">ug::LoadBalancer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A load-balancer redistributes grids using the specified partitioner and process-hierarchy.  <a href="classug_1_1_load_balancer.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_process_hierarchy.html">ug::ProcessHierarchy</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines how the different levels of a grid shall be distributed across the available processes.  <a href="classug_1_1_process_hierarchy.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -127,19 +113,6 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceug"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html">ug</a></td></tr>
 <tr class="memdesc:namespaceug"><td class="mdescLeft">&#160;</td><td class="mdescRight">the ug namespace <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a54b9694ad3bf8cddb4e261324db0899b"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; ProcessHierarchy &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a54b9694ad3bf8cddb4e261324db0899b">ug::ConstSPProcessHierarchy</a></td></tr>
-<tr class="separator:a54b9694ad3bf8cddb4e261324db0899b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaddad026158d47eea930989f4f3919c2b"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; IBalanceWeights &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__grid__parallelization__distribution.html#gaddad026158d47eea930989f4f3919c2b">ug::SPBalanceWeights</a></td></tr>
-<tr class="separator:gaddad026158d47eea930989f4f3919c2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabe38cc1842ab5814a43166c0888740cc"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; IPartitioner &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__grid__parallelization__distribution.html#gabe38cc1842ab5814a43166c0888740cc">ug::SPPartitioner</a></td></tr>
-<tr class="separator:gabe38cc1842ab5814a43166c0888740cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa6f6f47c5f51cd578ad537cc0dfd461b"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; IPartitionPostProcessor &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__grid__parallelization__distribution.html#gaa6f6f47c5f51cd578ad537cc0dfd461b">ug::SPPartitionPostProcessor</a></td></tr>
-<tr class="separator:gaa6f6f47c5f51cd578ad537cc0dfd461b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a536877df7615033777b7eabba65f521c"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; ProcessHierarchy &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a536877df7615033777b7eabba65f521c">ug::SPProcessHierarchy</a></td></tr>
-<tr class="separator:a536877df7615033777b7eabba65f521c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -147,7 +120,7 @@ Typedefs</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_9cb5fcd0cbd108e4de7ac968a9e51f3d.html">lib_grid</a></li><li class="navelem"><a class="el" href="dir_fb610924cf5d54adc79f1150f5e0edab.html">parallelization</a></li><li class="navelem"><a class="el" href="load__balancer_8h.html">load_balancer.h</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:12 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:08:44 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

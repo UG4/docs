@@ -17,6 +17,11 @@ var group__lib__grid__parallelization__distribution =
       [ "has_level_offsets", "classug_1_1_i_balance_weights.html#add5926e6b1e69a2dce8830fdf7ae9658", null ],
       [ "refresh_weights", "classug_1_1_i_balance_weights.html#a2031b232b75eec0946bb6d2656b5d7bf", null ]
     ] ],
+    [ "ICommunicationWeights", "classug_1_1_i_communication_weights.html", [
+      [ "~ICommunicationWeights", "classug_1_1_i_communication_weights.html#a3325108b728f7386a9991209e93ab564", null ],
+      [ "get_weight", "classug_1_1_i_communication_weights.html#a6208a3f218426168c3e40b02bd7555a3", null ],
+      [ "reweigh", "classug_1_1_i_communication_weights.html#a72c2b670e28774c870908df3ea88397b", null ]
+    ] ],
     [ "IPartitioner", "classug_1_1_i_partitioner.html", [
       [ "IPartitioner", "classug_1_1_i_partitioner.html#ad182e09ab0695e80b155421cbdf1ce81", null ],
       [ "~IPartitioner", "classug_1_1_i_partitioner.html#a1b08987bccd63c64ce2aa5bff4cc69be", null ],
@@ -28,12 +33,15 @@ var group__lib__grid__parallelization__distribution =
       [ "next_process_hierarchy", "classug_1_1_i_partitioner.html#a23289d1d7859cf6d916aa84300aa28b3", null ],
       [ "partition", "classug_1_1_i_partitioner.html#a9a6687ff8269cda7a21c5476b3538e62", null ],
       [ "problems_occurred", "classug_1_1_i_partitioner.html#a7b66f2da377aa838d9da6d6cde7d2950", null ],
-      [ "set_balance_weights", "classug_1_1_i_partitioner.html#a1d4cd2d11e57a3f0b9a570df96ad5932", null ],
+      [ "set_balance_weights", "classug_1_1_i_partitioner.html#a794afa87a8c1fd4fe799d760d6a197db", null ],
+      [ "set_communication_weights", "classug_1_1_i_partitioner.html#ad7226f3f24994cbc8260f45cd6e33191", null ],
       [ "set_next_process_hierarchy", "classug_1_1_i_partitioner.html#a005d90f311bf7f12346f043bd0af6d87", null ],
       [ "set_partition_post_processor", "classug_1_1_i_partitioner.html#aa1acfb09a30229cc45d1bcb0de87d07f", null ],
+      [ "set_partition_pre_processor", "classug_1_1_i_partitioner.html#a76a1929585e172a599aa761c95903164", null ],
       [ "set_verbose", "classug_1_1_i_partitioner.html#a72cbd732aba7e2dcd151fb1b20db2569", null ],
-      [ "supports_balance_weights", "classug_1_1_i_partitioner.html#a0dd70a68e98ba6ff304ff7f8e0124713", null ],
-      [ "supports_repartitioning", "classug_1_1_i_partitioner.html#af635f9c991dd40bdabe175f28d15e2fa", null ],
+      [ "supports_balance_weights", "classug_1_1_i_partitioner.html#a2686ad0cb6b470fcd83860a47eef860f", null ],
+      [ "supports_communication_weights", "classug_1_1_i_partitioner.html#a279c343464c49c0f7ad71c0f4890e45b", null ],
+      [ "supports_repartitioning", "classug_1_1_i_partitioner.html#a1c858b8417db3bfe0fd7589a4bb03c00", null ],
       [ "verbose", "classug_1_1_i_partitioner.html#a12348a683ff649749646b8683075ac6b", null ],
       [ "m_clusteredSiblings", "classug_1_1_i_partitioner.html#a94a9390b88e65e929f80ea337fd5185c", null ],
       [ "m_problemsOccurred", "classug_1_1_i_partitioner.html#a606646861d03b56f8164d141d8323377", null ],
@@ -45,37 +53,10 @@ var group__lib__grid__parallelization__distribution =
       [ "partitioning_done", "classug_1_1_i_partition_post_processor.html#a709be17ddf97b6225751db00babda435", null ],
       [ "post_process", "classug_1_1_i_partition_post_processor.html#a727a07d1ee84a7da48e0309a48a71420", null ]
     ] ],
-    [ "LoadBalancer", "classug_1_1_load_balancer.html", [
-      [ "LoadBalancer", "classug_1_1_load_balancer.html#a4d15f70bd4c3a0fbbac0984f5489f902", null ],
-      [ "~LoadBalancer", "classug_1_1_load_balancer.html#a96f365f03e80a7c9c24dfd3fb50d7c8a", null ],
-      [ "add_serializer", "classug_1_1_load_balancer.html#a616d58d7fca36e5905bfdc61bfeb050f", null ],
-      [ "add_serializer", "classug_1_1_load_balancer.html#ac2ff587a3c0c0ff0961bc7b81c945ece", null ],
-      [ "add_serializer", "classug_1_1_load_balancer.html#a60453061ea28b0b79dde7ee345d33263", null ],
-      [ "add_serializer", "classug_1_1_load_balancer.html#addc71ee487e17e7118b8a80b8b2db03b", null ],
-      [ "add_serializer", "classug_1_1_load_balancer.html#a26c13bddfb8bfcb8e1ef330fb09a2f92", null ],
-      [ "create_quality_record", "classug_1_1_load_balancer.html#a8339271ea343e7422b3905c18a2a78cd", null ],
-      [ "enable_vertical_interface_creation", "classug_1_1_load_balancer.html#a79f94c1a14bb1d3b7b2dee767f3c07f7", null ],
-      [ "estimate_distribution_quality", "classug_1_1_load_balancer.html#a6c1108199d719c1c76ebda01c8598a85", null ],
-      [ "estimate_distribution_quality", "classug_1_1_load_balancer.html#a1ea03fd0772ba2a61270c9ff600415d5", null ],
-      [ "estimate_distribution_quality_impl", "classug_1_1_load_balancer.html#a57b4a64c857aa4514e3691d88cc0b711", null ],
-      [ "print_quality_records", "classug_1_1_load_balancer.html#accd181d33df3f77a464f92d3940276d9", null ],
-      [ "problems_occurred", "classug_1_1_load_balancer.html#a90a74306e3389c7b3079cc48cf1b17a4", null ],
-      [ "rebalance", "classug_1_1_load_balancer.html#aa3f314d03c649e5cd91d9ffb28a23579", null ],
-      [ "set_balance_threshold", "classug_1_1_load_balancer.html#a3ca269633c5a97fc4f376eeb368916ba", null ],
-      [ "set_balance_weights", "classug_1_1_load_balancer.html#a2fd51cc570f9833007c43e2bdac557d0", null ],
-      [ "set_element_threshold", "classug_1_1_load_balancer.html#af398c3061e1761cdf6780a9e78102a08", null ],
-      [ "set_grid", "classug_1_1_load_balancer.html#a3ca2dca02423eeb6fc34b6e2de48f356", null ],
-      [ "set_next_process_hierarchy", "classug_1_1_load_balancer.html#a0a1c09d5e25d7776296b2902595248e3", null ],
-      [ "set_partitioner", "classug_1_1_load_balancer.html#a3ef03756d36e74c776de6c14b052f23e", null ],
-      [ "m_balanceThreshold", "classug_1_1_load_balancer.html#ae9c2ac80b9ffe237a052e9484702c15d", null ],
-      [ "m_balanceWeights", "classug_1_1_load_balancer.html#abea2c74dd93cab6de5cd51907d2235e8", null ],
-      [ "m_createVerticalInterfaces", "classug_1_1_load_balancer.html#a49c7f23fd1430afe94d6ff74ae509f1f", null ],
-      [ "m_elementThreshold", "classug_1_1_load_balancer.html#a6f7b0957be2459942daf72e8f5ecd377", null ],
-      [ "m_mg", "classug_1_1_load_balancer.html#ac24fe2b1101d9bdfeea410de7959fb66", null ],
-      [ "m_partitioner", "classug_1_1_load_balancer.html#ab41bfb108ea71b1b5469a776453740c9", null ],
-      [ "m_processHierarchy", "classug_1_1_load_balancer.html#ac93cc8affe1795fb8f72e976387feaed", null ],
-      [ "m_qualityRecords", "classug_1_1_load_balancer.html#a247723cf8afe740732807a89025b30bc", null ],
-      [ "m_serializer", "classug_1_1_load_balancer.html#a30d4d89b9d58d046df22862aeac74687", null ]
+    [ "IPartitionPreProcessor", "classug_1_1_i_partition_pre_processor.html", [
+      [ "~IPartitionPreProcessor", "classug_1_1_i_partition_pre_processor.html#acc48f3a847cdaa4f13fc13bd4f427739", null ],
+      [ "partitioning_done", "classug_1_1_i_partition_pre_processor.html#afddb69f1ca4d608f70ae7e943be3b193", null ],
+      [ "partitioning_starts", "classug_1_1_i_partition_pre_processor.html#ad922a56c1301d12dd6e109394db6a0a3", null ]
     ] ],
     [ "Partitioner_DynamicBisection", "classug_1_1_partitioner___dynamic_bisection.html", [
       [ "ElemList", "structug_1_1_partitioner___dynamic_bisection_1_1_elem_list.html", [
@@ -160,6 +141,7 @@ var group__lib__grid__parallelization__distribution =
       [ "set_next_process_hierarchy", "classug_1_1_partitioner___dynamic_bisection.html#a1d853c15eea53322660edf9ec0d18f60", null ],
       [ "set_num_split_improvement_iterations", "classug_1_1_partitioner___dynamic_bisection.html#a7c641777a379bd815053575141da16f0", null ],
       [ "set_partition_post_processor", "classug_1_1_partitioner___dynamic_bisection.html#afc3cb6ade5bb9202375e54986aa6297e", null ],
+      [ "set_partition_pre_processor", "classug_1_1_partitioner___dynamic_bisection.html#aa5f20275c91658796d2e1e4109e6b0e2", null ],
       [ "set_start_split_axis", "classug_1_1_partitioner___dynamic_bisection.html#abdc91edf244d29792103a4e9061abbf8", null ],
       [ "set_subset_handler", "classug_1_1_partitioner___dynamic_bisection.html#a858f8d2b9cc07525dd3a10b9792d5e23", null ],
       [ "set_tolerance", "classug_1_1_partitioner___dynamic_bisection.html#a68aa4cc8e616c42961128525ecbf4faa", null ],
@@ -180,6 +162,7 @@ var group__lib__grid__parallelization__distribution =
       [ "m_nextProcessHierarchy", "classug_1_1_partitioner___dynamic_bisection.html#a43f565e11920fb46537a28bb189b86e0", null ],
       [ "m_numSplitAxisEnabled", "classug_1_1_partitioner___dynamic_bisection.html#a257295cf7a1954ab4efb163ded4d0bab", null ],
       [ "m_partitionPostProcessor", "classug_1_1_partitioner___dynamic_bisection.html#aa90021694b42279d1b4b315328882355", null ],
+      [ "m_partitionPreProcessor", "classug_1_1_partitioner___dynamic_bisection.html#acac0ef6bcb73b4fe9b93a991d2e45e62", null ],
       [ "m_processHierarchy", "classug_1_1_partitioner___dynamic_bisection.html#a46cdaad5f6371a5c4b336b653e938cbe", null ],
       [ "m_procMap", "classug_1_1_partitioner___dynamic_bisection.html#aa46423094c4eac8c4e1d6c4c1bca3da4", null ],
       [ "m_sh", "classug_1_1_partitioner___dynamic_bisection.html#ae3aa25ef8fb53af63343e28a604543bc", null ],
@@ -218,7 +201,9 @@ var group__lib__grid__parallelization__distribution =
       [ "m_levels", "classug_1_1_process_hierarchy.html#a0172e50b8e70912704a298b56d0fe6f6", null ]
     ] ],
     [ "SPBalanceWeights", "group__lib__grid__parallelization__distribution.html#gaddad026158d47eea930989f4f3919c2b", null ],
+    [ "SPCommunicationWeights", "group__lib__grid__parallelization__distribution.html#ga5b0b1e43486331996342b5a985dc7b5d", null ],
     [ "SPPartitioner", "group__lib__grid__parallelization__distribution.html#gabe38cc1842ab5814a43166c0888740cc", null ],
     [ "SPPartitionPostProcessor", "group__lib__grid__parallelization__distribution.html#gaa6f6f47c5f51cd578ad537cc0dfd461b", null ],
+    [ "SPPartitionPreProcessor", "group__lib__grid__parallelization__distribution.html#ga3ac41dc2d4d50c6f7c9d51dcd5220527", null ],
     [ "PartitionElements_RegularGrid", "group__lib__grid__parallelization__distribution.html#gae493aaa86fb5345e5d8c0ed8565b0d5d", null ]
 ];

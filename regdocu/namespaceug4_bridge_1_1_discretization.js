@@ -15,5 +15,6 @@ var namespaceug4_bridge_1_1_discretization =
     [ "IDomainDecompositionInfo", "classug4_bridge_1_1_discretization_1_1_i_domain_decomposition_info.html", "classug4_bridge_1_1_discretization_1_1_i_domain_decomposition_info" ],
     [ "LFEID", "classug4_bridge_1_1_discretization_1_1_l_f_e_i_d.html", "classug4_bridge_1_1_discretization_1_1_l_f_e_i_d" ],
     [ "MultiIndex2", "classug4_bridge_1_1_discretization_1_1_multi_index2.html", "classug4_bridge_1_1_discretization_1_1_multi_index2" ],
+    [ "NestedIterationSolver", "classug4_bridge_1_1_discretization_1_1_nested_iteration_solver.html", "classug4_bridge_1_1_discretization_1_1_nested_iteration_solver" ],
     [ "StandardDomainDecompositionInfo", "classug4_bridge_1_1_discretization_1_1_standard_domain_decomposition_info.html", "classug4_bridge_1_1_discretization_1_1_standard_domain_decomposition_info" ]
 ];

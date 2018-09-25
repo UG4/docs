@@ -19,6 +19,8 @@ var classug_1_1_domain_discretization_base =
     [ "adjust_solution", "classug_1_1_domain_discretization_base.html#a455a215f51b35b6c42058ebbacc2587c", null ],
     [ "adjust_solution", "classug_1_1_domain_discretization_base.html#adc75ba15ab4814a528e4531f0cc17ac1", null ],
     [ "adjust_solution", "classug_1_1_domain_discretization_base.html#a45e42c1935c31e4af643b8b10ee5eddd", null ],
+    [ "approximation_space", "classug_1_1_domain_discretization_base.html#ac0b8b967aaa517f90bcc0a41d537ea0c", null ],
+    [ "approximation_space", "classug_1_1_domain_discretization_base.html#ac3a678595e7d8537079dda38f68b6c5f", null ],
     [ "ass_tuner", "classug_1_1_domain_discretization_base.html#ae3aa807a8331cb2012c237f96f4095c6", null ],
     [ "ass_tuner", "classug_1_1_domain_discretization_base.html#ab11b1d3b6a7d4e04017e7616af342405", null ],
     [ "assemble_defect", "classug_1_1_domain_discretization_base.html#a5515ebd421147068cf121a1349679d97", null ],

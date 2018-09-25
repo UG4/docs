@@ -110,12 +110,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a1945715f3a56b2bfa9e5c041c8787a03"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug.html#a1945715f3a56b2bfa9e5c041c8787a03">ug::CheckOrientation</a> (Volume *vol, TAAPosVRT &amp;aaPosVRT)</td></tr>
 <tr class="memdesc:a1945715f3a56b2bfa9e5c041c8787a03"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the volume is oriented so that all sides point to this outside.  <a href="namespaceug.html#a1945715f3a56b2bfa9e5c041c8787a03">More...</a><br /></td></tr>
 <tr class="separator:a1945715f3a56b2bfa9e5c041c8787a03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3a9c81a5448666d75346e675adb7f5f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#ad3a9c81a5448666d75346e675adb7f5f">ug::EdgeOrientationMatches</a> (EdgeVertices *ev, Face *f)</td></tr>
-<tr class="memdesc:ad3a9c81a5448666d75346e675adb7f5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks if the edge-orientation of the edge and the face matches.  <a href="namespaceug.html#ad3a9c81a5448666d75346e675adb7f5f">More...</a><br /></td></tr>
-<tr class="separator:ad3a9c81a5448666d75346e675adb7f5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8fcb675b0b87b9fa3379d8d71d1cf94"><td class="memTemplParams" colspan="2">template&lt;class TFaceIterator &gt; </td></tr>
 <tr class="memitem:ad8fcb675b0b87b9fa3379d8d71d1cf94"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug.html#ad8fcb675b0b87b9fa3379d8d71d1cf94">ug::FixFaceOrientation</a> (Grid &amp;grid, TFaceIterator facesBegin, TFaceIterator facesEnd)</td></tr>
-<tr class="memdesc:ad8fcb675b0b87b9fa3379d8d71d1cf94"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates uniform orientation of neighboured faces.  <a href="namespaceug.html#ad8fcb675b0b87b9fa3379d8d71d1cf94">More...</a><br /></td></tr>
+<tr class="memdesc:ad8fcb675b0b87b9fa3379d8d71d1cf94"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates uniform orientation of neighboured and boundary faces.  <a href="namespaceug.html#ad8fcb675b0b87b9fa3379d8d71d1cf94">More...</a><br /></td></tr>
 <tr class="separator:ad8fcb675b0b87b9fa3379d8d71d1cf94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3312ff13a7432c0e863592e6d8e81226"><td class="memTemplParams" colspan="2">template&lt;class TVolIterator , class TAAPosVRT &gt; </td></tr>
 <tr class="memitem:a3312ff13a7432c0e863592e6d8e81226"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug.html#a3312ff13a7432c0e863592e6d8e81226">ug::FixOrientation</a> (Grid &amp;grid, TVolIterator volsBegin, TVolIterator volsEnd, TAAPosVRT &amp;aaPosVRT)</td></tr>
@@ -125,6 +122,15 @@ Functions</h2></td></tr>
 <tr class="memitem:ab1e696846713b178f0c15b488dd92f89"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug.html#ab1e696846713b178f0c15b488dd92f89">ug::InvertOrientation</a> (Grid &amp;grid, iter_t elemsBegin, iter_t elemsEnd)</td></tr>
 <tr class="memdesc:ab1e696846713b178f0c15b488dd92f89"><td class="mdescLeft">&#160;</td><td class="mdescRight">inverts the orientation of all elements between elemsBegin and elemsEnd  <a href="namespaceug.html#ab1e696846713b178f0c15b488dd92f89">More...</a><br /></td></tr>
 <tr class="separator:ab1e696846713b178f0c15b488dd92f89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49cd55fe7c2f2287bcf35ab5a9ffe176"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#ga6a442be2e75e98247f82d1aa90a06aac">UG_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a49cd55fe7c2f2287bcf35ab5a9ffe176">ug::OrientationMatches</a> (FaceVertices *fv, Volume *v)</td></tr>
+<tr class="separator:a49cd55fe7c2f2287bcf35ab5a9ffe176"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:ad3a9c81a5448666d75346e675adb7f5f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#ad3a9c81a5448666d75346e675adb7f5f">ug::EdgeOrientationMatches</a> (EdgeVertices *ev, Face *f)</td></tr>
+<tr class="memdesc:ad3a9c81a5448666d75346e675adb7f5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks if the edge-orientation of the edge and the face matches.  <a href="namespaceug.html#ad3a9c81a5448666d75346e675adb7f5f">More...</a><br /></td></tr>
+<tr class="separator:ad3a9c81a5448666d75346e675adb7f5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4495986bb299fa1b42cd9e5d7cc1502"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#aa4495986bb299fa1b42cd9e5d7cc1502">ug::OrientationMatches</a> (EdgeVertices *ev, Face *f)</td></tr>
+<tr class="memdesc:aa4495986bb299fa1b42cd9e5d7cc1502"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks if the edge-orientation of the edge and the face matches.  <a href="namespaceug.html#aa4495986bb299fa1b42cd9e5d7cc1502">More...</a><br /></td></tr>
+<tr class="separator:aa4495986bb299fa1b42cd9e5d7cc1502"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -132,7 +138,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_9cb5fcd0cbd108e4de7ac968a9e51f3d.html">lib_grid</a></li><li class="navelem"><a class="el" href="dir_8e43e1519d22ef2ce28107ef4364eb7f.html">algorithms</a></li><li class="navelem"><a class="el" href="orientation__util_8h.html">orientation_util.h</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:11 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:08:43 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -4,7 +4,6 @@ var group__lib__grid =
     [ "element_callbacks", "group__lib__grid__element__callbacks.html", "group__lib__grid__element__callbacks" ],
     [ "grid", "group__lib__grid__grid.html", "group__lib__grid__grid" ],
     [ "geometric objects", "group__lib__grid__grid__objects.html", "group__lib__grid__grid__objects" ],
-    [ "parallelization", "group__lib__grid__parallelization.html", "group__lib__grid__parallelization" ],
     [ "grid-tools", "group__lib__grid__tools.html", "group__lib__grid__tools" ],
     [ "EdgeOptions", "group__lib__grid.html#ga3191186b24de51adb225ea234971df0e", [
       [ "EDGEOPT_NONE", "group__lib__grid.html#gga3191186b24de51adb225ea234971df0ea951a5b8431fa9ff0f69fb915748d767e", null ],

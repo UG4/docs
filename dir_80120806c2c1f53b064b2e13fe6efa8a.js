@@ -20,6 +20,7 @@ var dir_80120806c2c1f53b064b2e13fe6efa8a =
     [ "empty_stream.h", "empty__stream_8h.html", null ],
     [ "end_boost_list.h", "end__boost__list_8h.html", [
       [ "empty< list1< ug::end_boost_list > >", "structboost_1_1mpl_1_1empty_3_01list1_3_01ug_1_1end__boost__list_01_4_01_4.html", "structboost_1_1mpl_1_1empty_3_01list1_3_01ug_1_1end__boost__list_01_4_01_4" ],
+      [ "empty< list< ug::end_boost_list > >", "structboost_1_1mpl_1_1empty_3_01list_3_01ug_1_1end__boost__list_01_4_01_4.html", "structboost_1_1mpl_1_1empty_3_01list_3_01ug_1_1end__boost__list_01_4_01_4" ],
       [ "end_boost_list", "structug_1_1end__boost__list.html", null ]
     ] ],
     [ "endian_detection.h", "endian__detection_8h.html", "endian__detection_8h" ],
@@ -45,6 +46,7 @@ var dir_80120806c2c1f53b064b2e13fe6efa8a =
     ] ],
     [ "histogramm.cpp", "histogramm_8cpp.html", "histogramm_8cpp" ],
     [ "histogramm.h", "histogramm_8h.html", "histogramm_8h" ],
+    [ "index_list_util.h", "index__list__util_8h.html", "index__list__util_8h" ],
     [ "message_hub.cpp", "message__hub_8cpp.html", null ],
     [ "message_hub.h", "message__hub_8h.html", "message__hub_8h" ],
     [ "message_hub_impl.hpp", "message__hub__impl_8hpp.html", null ],
@@ -71,6 +73,11 @@ var dir_80120806c2c1f53b064b2e13fe6efa8a =
       [ "Raster", "classug_1_1_raster.html", "classug_1_1_raster" ]
     ] ],
     [ "raster_impl.hpp", "raster__impl_8hpp.html", "raster__impl_8hpp" ],
+    [ "raster_kernels.h", "raster__kernels_8h.html", [
+      [ "Blur", "classug_1_1raster__kernels_1_1_blur.html", "classug_1_1raster__kernels_1_1_blur" ],
+      [ "Count", "classug_1_1raster__kernels_1_1_count.html", "classug_1_1raster__kernels_1_1_count" ],
+      [ "Sum", "classug_1_1raster__kernels_1_1_sum.html", "classug_1_1raster__kernels_1_1_sum" ]
+    ] ],
     [ "section_container.h", "section__container_8h.html", [
       [ "Section", "structug_1_1_section_container_1_1_section.html", "structug_1_1_section_container_1_1_section" ]
     ] ],

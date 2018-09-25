@@ -109,8 +109,10 @@ $(document).ready(function(){initNavTree('classug_1_1_i_approximation_space.html
  <div class="center">
   <img src="classug_1_1_i_approximation_space.png" usemap="#ug::IApproximationSpace_map" alt=""/>
   <map id="ug::IApproximationSpace_map" name="ug::IApproximationSpace_map">
-<area href="classug_1_1_do_f_distribution_info_provider.html" alt="ug::DoFDistributionInfoProvider" shape="rect" coords="0,0,221,24"/>
-<area href="classug_1_1_approximation_space.html" title="base class for approximation spaces without type of algebra or dof distribution " alt="ug::ApproximationSpace&lt; TDomain &gt;" shape="rect" coords="0,112,221,136"/>
+<area href="classug_1_1_do_f_distribution_info_provider.html" alt="ug::DoFDistributionInfoProvider" shape="rect" coords="339,0,668,24"/>
+<area href="classug_1_1_approximation_space.html" alt="ug::ApproximationSpace&lt; domain_type &gt;" shape="rect" coords="0,112,329,136"/>
+<area href="classug_1_1_approximation_space.html" alt="ug::ApproximationSpace&lt; TGridFunction::domain_type &gt;" shape="rect" coords="339,112,668,136"/>
+<area href="classug_1_1_approximation_space.html" title="base class for approximation spaces without type of algebra or dof distribution " alt="ug::ApproximationSpace&lt; TDomain &gt;" shape="rect" coords="678,112,1007,136"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -225,6 +227,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4fe9406a1f2fa498d14ba8c5f58ed94b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_do_f_distribution_info.html">DoFDistributionInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_approximation_space.html#a4fe9406a1f2fa498d14ba8c5f58ed94b">dof_distribution_info</a> () const</td></tr>
 <tr class="separator:a4fe9406a1f2fa498d14ba8c5f58ed94b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classug_1_1_do_f_distribution_info_provider"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classug_1_1_do_f_distribution_info_provider')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classug_1_1_do_f_distribution_info_provider.html">ug::DoFDistributionInfoProvider</a></td></tr>
+<tr class="memitem:a110c446bf8d13a228d45d22c11f1894a inherit pub_methods_classug_1_1_do_f_distribution_info_provider"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_subset_group.html">SubsetGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_do_f_distribution_info_provider.html#a110c446bf8d13a228d45d22c11f1894a">all_subsets_grp_except_for</a> (const char *<a class="el" href="classug_1_1_do_f_distribution_info_provider.html#a7f3a41c02793f8d2ea525a426904a5cf">names</a>) const</td></tr>
+<tr class="memdesc:a110c446bf8d13a228d45d22c11f1894a inherit pub_methods_classug_1_1_do_f_distribution_info_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns subset group of all the subsets except for (by name)  <a href="classug_1_1_do_f_distribution_info_provider.html#a110c446bf8d13a228d45d22c11f1894a">More...</a><br /></td></tr>
+<tr class="separator:a110c446bf8d13a228d45d22c11f1894a inherit pub_methods_classug_1_1_do_f_distribution_info_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a757976810b7256929acbde849a52cda2 inherit pub_methods_classug_1_1_do_f_distribution_info_provider"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_do_f_distribution_info_provider.html#a757976810b7256929acbde849a52cda2">dim</a> (size_t fct) const</td></tr>
 <tr class="memdesc:a757976810b7256929acbde849a52cda2 inherit pub_methods_classug_1_1_do_f_distribution_info_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the dimension in which solution lives  <a href="classug_1_1_do_f_distribution_info_provider.html#a757976810b7256929acbde849a52cda2">More...</a><br /></td></tr>
 <tr class="separator:a757976810b7256929acbde849a52cda2 inherit pub_methods_classug_1_1_do_f_distribution_info_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -475,7 +480,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Constructor. </p>
 
-<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#gaf07906d860d20ad045f1718f42778749">init()</a>.</p>
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#gaf07906d860d20ad045f1718f42778749">init()</a>.</p>
 
 </div>
 </div>
@@ -513,7 +518,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Constructor setting the grouping flag. </p>
 
-<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#gaf07906d860d20ad045f1718f42778749">init()</a>.</p>
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#gaf07906d860d20ad045f1718f42778749">init()</a>.</p>
 
 </div>
 </div>
@@ -620,7 +625,7 @@ Protected Attributes</h2></td></tr>
 
 <p>adds function using string to indicate finite element type </p>
 
-<p>References <a class="el" href="namespaceug.html#ab525c2891eb91ad7148e44cbfbe1c69e">ug::ConvertStringToLFEID()</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#gad04fbd00dd872375c4863bd1d4621237">dim</a>, <a class="el" href="namespaceug.html#a52115abaa3f05944f2140d65d2ae09f7a45e5e256534e69f9bbd25d177af20b9c">ug::DIM_SUBSET_EMPTY_GRID</a>, <a class="el" href="namespaceug.html#aff3f638fb7d958bb60b9a3e24f78920a">ug::DimensionOfSubsets()</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
+<p>References <a class="el" href="namespaceug.html#ab525c2891eb91ad7148e44cbfbe1c69e">ug::ConvertStringToLFEID()</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#gad04fbd00dd872375c4863bd1d4621237">dim</a>, <a class="el" href="namespaceug.html#a0291eee7653fcd0f67ae553f4dc21076a45e5e256534e69f9bbd25d177af20b9c">ug::DIM_SUBSET_EMPTY_GRID</a>, <a class="el" href="namespaceug.html#aff3f638fb7d958bb60b9a3e24f78920a">ug::DimensionOfSubsets()</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
 
 </div>
 </div>
@@ -652,7 +657,7 @@ Protected Attributes</h2></td></tr>
 
 <p>adds function using string to indicate finite element type </p>
 
-<p>References <a class="el" href="namespaceug.html#ab525c2891eb91ad7148e44cbfbe1c69e">ug::ConvertStringToLFEID()</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#gad04fbd00dd872375c4863bd1d4621237">dim</a>, <a class="el" href="namespaceug.html#a52115abaa3f05944f2140d65d2ae09f7a45e5e256534e69f9bbd25d177af20b9c">ug::DIM_SUBSET_EMPTY_GRID</a>, <a class="el" href="namespaceug.html#aff3f638fb7d958bb60b9a3e24f78920a">ug::DimensionOfSubsets()</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
+<p>References <a class="el" href="namespaceug.html#ab525c2891eb91ad7148e44cbfbe1c69e">ug::ConvertStringToLFEID()</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#gad04fbd00dd872375c4863bd1d4621237">dim</a>, <a class="el" href="namespaceug.html#a0291eee7653fcd0f67ae553f4dc21076a45e5e256534e69f9bbd25d177af20b9c">ug::DIM_SUBSET_EMPTY_GRID</a>, <a class="el" href="namespaceug.html#aff3f638fb7d958bb60b9a3e24f78920a">ug::DimensionOfSubsets()</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
 
 </div>
 </div>
@@ -820,7 +825,7 @@ Protected Attributes</h2></td></tr>
 
 <p>adds function using string to indicate finite element type </p>
 
-<p>References <a class="el" href="namespaceug.html#ab525c2891eb91ad7148e44cbfbe1c69e">ug::ConvertStringToLFEID()</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#gad04fbd00dd872375c4863bd1d4621237">dim</a>, <a class="el" href="namespaceug.html#a52115abaa3f05944f2140d65d2ae09f7a45e5e256534e69f9bbd25d177af20b9c">ug::DIM_SUBSET_EMPTY_GRID</a>, <a class="el" href="classug_1_1_subset_group.html#aedc2ec46d5329ab7ee254db8a9d2d23e">ug::SubsetGroup::get_highest_subset_dimension()</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
+<p>References <a class="el" href="namespaceug.html#ab525c2891eb91ad7148e44cbfbe1c69e">ug::ConvertStringToLFEID()</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#gad04fbd00dd872375c4863bd1d4621237">dim</a>, <a class="el" href="namespaceug.html#a0291eee7653fcd0f67ae553f4dc21076a45e5e256534e69f9bbd25d177af20b9c">ug::DIM_SUBSET_EMPTY_GRID</a>, <a class="el" href="classug_1_1_subset_group.html#aedc2ec46d5329ab7ee254db8a9d2d23e">ug::SubsetGroup::get_highest_subset_dimension()</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
 
 </div>
 </div>
@@ -911,7 +916,7 @@ Protected Attributes</h2></td></tr>
 
 <p>adds function using string to indicate finite element type </p>
 
-<p>References <a class="el" href="namespaceug.html#ab525c2891eb91ad7148e44cbfbe1c69e">ug::ConvertStringToLFEID()</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#gad04fbd00dd872375c4863bd1d4621237">dim</a>, <a class="el" href="namespaceug.html#a52115abaa3f05944f2140d65d2ae09f7a45e5e256534e69f9bbd25d177af20b9c">ug::DIM_SUBSET_EMPTY_GRID</a>, <a class="el" href="classug_1_1_subset_group.html#aedc2ec46d5329ab7ee254db8a9d2d23e">ug::SubsetGroup::get_highest_subset_dimension()</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
+<p>References <a class="el" href="namespaceug.html#ab525c2891eb91ad7148e44cbfbe1c69e">ug::ConvertStringToLFEID()</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#gad04fbd00dd872375c4863bd1d4621237">dim</a>, <a class="el" href="namespaceug.html#a0291eee7653fcd0f67ae553f4dc21076a45e5e256534e69f9bbd25d177af20b9c">ug::DIM_SUBSET_EMPTY_GRID</a>, <a class="el" href="classug_1_1_subset_group.html#aedc2ec46d5329ab7ee254db8a9d2d23e">ug::SubsetGroup::get_highest_subset_dimension()</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
 
 </div>
 </div>
@@ -2038,7 +2043,7 @@ Protected Attributes</h2></td></tr>
 
 <p>subsethandler, where elements are stored </p>
 
-<p>Referenced by <a class="el" href="classug_1_1_approximation_space.html#a14d787e98793f17726a8ffd569caa2ca">ug::ApproximationSpace&lt; TDomain &gt;::ApproximationSpace()</a>, <a class="el" href="classug_1_1_i_approximation_space.html#a410408bce8930dbbc9063fbe79f28fcd">num_levels()</a>, and <a class="el" href="classug_1_1_i_approximation_space.html#a42dcc1c8c8dd5b07dee4314d511491bf">subset_handler()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_i_approximation_space.html#a410408bce8930dbbc9063fbe79f28fcd">num_levels()</a>, and <a class="el" href="classug_1_1_i_approximation_space.html#a42dcc1c8c8dd5b07dee4314d511491bf">subset_handler()</a>.</p>
 
 </div>
 </div>
@@ -2102,7 +2107,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_i_approximation_space.html">IApproximationSpace</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:28 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:09:07 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

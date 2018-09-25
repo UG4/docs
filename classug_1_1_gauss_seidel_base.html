@@ -91,7 +91,6 @@ $(document).ready(function(){initNavTree('classug_1_1_gauss_seidel_base.html',''
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classug_1_1_gauss_seidel_base-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ug::GaussSeidelBase&lt; TAlgebra &gt; Class Template Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -172,6 +171,11 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a10a891434aad1b9da61b1591eead5a50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_gauss_seidel_base.html#a10a891434aad1b9da61b1591eead5a50">enable_consistent_interfaces</a> (bool enable)</td></tr>
+<tr class="memdesc:a10a891434aad1b9da61b1591eead5a50"><td class="mdescLeft">&#160;</td><td class="mdescRight">activates the new parallelization approach (disabled by default)  <a href="#a10a891434aad1b9da61b1591eead5a50">More...</a><br /></td></tr>
+<tr class="separator:a10a891434aad1b9da61b1591eead5a50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0eb70a7431dd88b727e5597e394a5982"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_gauss_seidel_base.html#a0eb70a7431dd88b727e5597e394a5982">enable_overlap</a> (bool enable)</td></tr>
+<tr class="separator:a0eb70a7431dd88b727e5597e394a5982"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a572c4a2342ea6b48338e8e99716bc269"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_gauss_seidel_base.html#a572c4a2342ea6b48338e8e99716bc269">GaussSeidelBase</a> ()</td></tr>
 <tr class="separator:a572c4a2342ea6b48338e8e99716bc269"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13e94dbeade95a9687784952aa710ff5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_gauss_seidel_base.html#a13e94dbeade95a9687784952aa710ff5">GaussSeidelBase</a> (const <a class="el" href="classug_1_1_gauss_seidel_base.html">GaussSeidelBase</a>&lt; TAlgebra &gt; &amp;parent)</td></tr>
@@ -181,6 +185,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a8b376a3d456e23afb54db1ad4bdd2885"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the name of iterator  <a href="#a8b376a3d456e23afb54db1ad4bdd2885">More...</a><br /></td></tr>
 <tr class="separator:a8b376a3d456e23afb54db1ad4bdd2885"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a143ba68626f0c0ae469251b6627ce32e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_gauss_seidel_base.html#a143ba68626f0c0ae469251b6627ce32e">set_sor_relax</a> (<a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> relaxFactor)</td></tr>
+<tr class="memdesc:a143ba68626f0c0ae469251b6627ce32e"><td class="mdescLeft">&#160;</td><td class="mdescRight">set relaxation parameter to define a SOR-method  <a href="#a143ba68626f0c0ae469251b6627ce32e">More...</a><br /></td></tr>
 <tr class="separator:a143ba68626f0c0ae469251b6627ce32e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classug_1_1_i_preconditioner"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classug_1_1_i_preconditioner')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classug_1_1_i_preconditioner.html">ug::IPreconditioner&lt; TAlgebra &gt;</a></td></tr>
 <tr class="memitem:a395fb2935c1338e11ae58a23c72b66dc inherit pub_methods_classug_1_1_i_preconditioner"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_preconditioner.html#a395fb2935c1338e11ae58a23c72b66dc">apply</a> (<a class="el" href="classug_1_1_debug_writing_object.html#a5438429e899dad230e07ca3927d5e06f">vector_type</a> &amp;c, const <a class="el" href="classug_1_1_debug_writing_object.html#a5438429e899dad230e07ca3927d5e06f">vector_type</a> &amp;d)</td></tr>
@@ -315,6 +320,18 @@ Protected Member Functions</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:ad420b01876806243d4afb992b053a551"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_debug_writing_object.html#a9d58db67544536cb42d1143434d95854">matrix_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_gauss_seidel_base.html#ad420b01876806243d4afb992b053a551">m_A</a></td></tr>
 <tr class="separator:ad420b01876806243d4afb992b053a551"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dcc70a61a3971d72a6245a1096869db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_gauss_seidel_base.html#a1dcc70a61a3971d72a6245a1096869db">m_bConsistentInterfaces</a></td></tr>
+<tr class="separator:a1dcc70a61a3971d72a6245a1096869db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaffe8811c1b5c86db62675984c9e6111"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_debug_writing_object.html#a5438429e899dad230e07ca3927d5e06f">vector_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_gauss_seidel_base.html#aaffe8811c1b5c86db62675984c9e6111">m_oC</a></td></tr>
+<tr class="separator:aaffe8811c1b5c86db62675984c9e6111"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74abe662ef1b73de2f2387260a912cbf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_debug_writing_object.html#a5438429e899dad230e07ca3927d5e06f">vector_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_gauss_seidel_base.html#a74abe662ef1b73de2f2387260a912cbf">m_oD</a></td></tr>
+<tr class="memdesc:a74abe662ef1b73de2f2387260a912cbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">for overlaps only  <a href="#a74abe662ef1b73de2f2387260a912cbf">More...</a><br /></td></tr>
+<tr class="separator:a74abe662ef1b73de2f2387260a912cbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a233a4ade0dc742437cf9793e6333fb59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_gauss_seidel_base.html#a233a4ade0dc742437cf9793e6333fb59">m_relax</a></td></tr>
+<tr class="memdesc:a233a4ade0dc742437cf9793e6333fb59"><td class="mdescLeft">&#160;</td><td class="mdescRight">relaxation parameter  <a href="#a233a4ade0dc742437cf9793e6333fb59">More...</a><br /></td></tr>
+<tr class="separator:a233a4ade0dc742437cf9793e6333fb59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a284de9dd83529ccefdacddfa8a30a0c1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_gauss_seidel_base.html#a284de9dd83529ccefdacddfa8a30a0c1">m_useOverlap</a></td></tr>
+<tr class="separator:a284de9dd83529ccefdacddfa8a30a0c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classug_1_1_i_preconditioner"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classug_1_1_i_preconditioner')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classug_1_1_i_preconditioner.html">ug::IPreconditioner&lt; TAlgebra &gt;</a></td></tr>
 <tr class="memitem:a2f031ac07ce505693febc4344dbb188a inherit pro_attribs_classug_1_1_i_preconditioner"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_preconditioner.html#a2f031ac07ce505693febc4344dbb188a">m_bInit</a></td></tr>
 <tr class="memdesc:a2f031ac07ce505693febc4344dbb188a inherit pro_attribs_classug_1_1_i_preconditioner"><td class="mdescLeft">&#160;</td><td class="mdescRight">init flag indicating if init has been called  <a href="classug_1_1_i_preconditioner.html#a2f031ac07ce505693febc4344dbb188a">More...</a><br /></td></tr>
@@ -339,11 +356,6 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ac4ba63112b0a1ae33335c85fe689ce07 inherit pro_attribs_classug_1_1_vector_debug_writing_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_vector_debug_writer.html">IVectorDebugWriter</a>&lt; <a class="el" href="classug_1_1_vector_debug_writing_object.html#ade1e8e37b29437ff5a7f46d1f3d35bc3">vector_type</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_vector_debug_writing_object.html#ac4ba63112b0a1ae33335c85fe689ce07">m_spVectorDebugWriter</a></td></tr>
 <tr class="memdesc:ac4ba63112b0a1ae33335c85fe689ce07 inherit pro_attribs_classug_1_1_vector_debug_writing_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Debug Writer.  <a href="classug_1_1_vector_debug_writing_object.html#ac4ba63112b0a1ae33335c85fe689ce07">More...</a><br /></td></tr>
 <tr class="separator:ac4ba63112b0a1ae33335c85fe689ce07 inherit pro_attribs_classug_1_1_vector_debug_writing_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a233a4ade0dc742437cf9793e6333fb59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_gauss_seidel_base.html#a233a4ade0dc742437cf9793e6333fb59">m_relax</a></td></tr>
-<tr class="separator:a233a4ade0dc742437cf9793e6333fb59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a85e6102ff4565a7c33fa80ca077b87ca"></a>
@@ -456,8 +468,6 @@ template&lt;typename TAlgebra&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classug_1_1_gauss_seidel_base.html#a233a4ade0dc742437cf9793e6333fb59">ug::GaussSeidelBase&lt; TAlgebra &gt;::m_relax</a>.</p>
-
 </div>
 </div>
 <a id="a13e94dbeade95a9687784952aa710ff5"></a>
@@ -493,6 +503,68 @@ template&lt;typename TAlgebra&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a10a891434aad1b9da61b1591eead5a50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10a891434aad1b9da61b1591eead5a50">&sect;&nbsp;</a></span>enable_consistent_interfaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TAlgebra&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_gauss_seidel_base.html">ug::GaussSeidelBase</a>&lt; TAlgebra &gt;::enable_consistent_interfaces </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>activates the new parallelization approach (disabled by default) </p>
+
+<p>References <a class="el" href="classug_1_1_gauss_seidel_base.html#a1dcc70a61a3971d72a6245a1096869db">ug::GaussSeidelBase&lt; TAlgebra &gt;::m_bConsistentInterfaces</a>.</p>
+
+</div>
+</div>
+<a id="a0eb70a7431dd88b727e5597e394a5982"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0eb70a7431dd88b727e5597e394a5982">&sect;&nbsp;</a></span>enable_overlap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TAlgebra&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_gauss_seidel_base.html">ug::GaussSeidelBase</a>&lt; TAlgebra &gt;::enable_overlap </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classug_1_1_gauss_seidel_base.html#a284de9dd83529ccefdacddfa8a30a0c1">ug::GaussSeidelBase&lt; TAlgebra &gt;::m_useOverlap</a>, and <a class="el" href="classug_1_1_gauss_seidel_base.html#a8b376a3d456e23afb54db1ad4bdd2885">ug::GaussSeidelBase&lt; TAlgebra &gt;::name()</a>.</p>
+
+</div>
+</div>
 <a id="a8b376a3d456e23afb54db1ad4bdd2885"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8b376a3d456e23afb54db1ad4bdd2885">&sect;&nbsp;</a></span>name()</h2>
 
@@ -526,7 +598,7 @@ template&lt;typename TAlgebra&gt; </div>
 
 <p>Implemented in <a class="el" href="classug_1_1_symmetric_gauss_seidel.html#a9ee2e228c1027eb29ab8a96a11654477">ug::SymmetricGaussSeidel&lt; TAlgebra &gt;</a>, <a class="el" href="classug_1_1_backward_gauss_seidel.html#a28d8e6b31825f860039ccb415bc6c41b">ug::BackwardGaussSeidel&lt; TAlgebra &gt;</a>, <a class="el" href="classug_1_1_gauss_seidel.html#a8f394e2e098e39c808398c17311981c3">ug::GaussSeidel&lt; TAlgebra &gt;</a>, <a class="el" href="classug_1_1_proj_symmetric_gauss_seidel.html#aae0e88935713b2e49d4485c8e1ede899">ug::ProjSymmetricGaussSeidel&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_proj_backward_gauss_seidel.html#a70cfc727ca7a5ceb41cc835da4da6018">ug::ProjBackwardGaussSeidel&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_i_proj_gauss_seidel.html#a92795df03f26854aa3d2893e01e8f197">ug::IProjGaussSeidel&lt; TDomain, TAlgebra &gt;</a>, and <a class="el" href="classug_1_1_proj_gauss_seidel.html#a89816e8b5424ffc5ef2e4b98bde1a995">ug::ProjGaussSeidel&lt; TDomain, TAlgebra &gt;</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_gauss_seidel_base.html#ab9f60018ba3d3c2b0d8744e1f9cdb013">ug::GaussSeidelBase&lt; TAlgebra &gt;::preprocess()</a>, and <a class="el" href="classug_1_1_gauss_seidel_base.html#a143ba68626f0c0ae469251b6627ce32e">ug::GaussSeidelBase&lt; TAlgebra &gt;::set_sor_relax()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_gauss_seidel_base.html#a0eb70a7431dd88b727e5597e394a5982">ug::GaussSeidelBase&lt; TAlgebra &gt;::enable_overlap()</a>, and <a class="el" href="classug_1_1_gauss_seidel_base.html#ab9f60018ba3d3c2b0d8744e1f9cdb013">ug::GaussSeidelBase&lt; TAlgebra &gt;::preprocess()</a>.</p>
 
 </div>
 </div>
@@ -601,7 +673,7 @@ template&lt;typename TAlgebra&gt; </div>
 
 <p>Implements <a class="el" href="classug_1_1_i_preconditioner.html#aa775369ea894dbe3f59f7cac7cf6a836">ug::IPreconditioner&lt; TAlgebra &gt;</a>.</p>
 
-<p>References <a class="el" href="group__lib__algebra.html#ga27e3e71059c2ae350f51716e1ebd66ef">ug::CheckDiagonalInvertible()</a>, <a class="el" href="group__pcl.html#gae8e9cabdcbfb18d4f65411e40765950b">pcl::CollectUniqueElements()</a>, <a class="el" href="classug_1_1_gauss_seidel_base.html#ad420b01876806243d4afb992b053a551">ug::GaussSeidelBase&lt; TAlgebra &gt;::m_A</a>, <a class="el" href="namespaceug.html#a53a208e0d6303151db3164e61f920884">ug::MakeConsistent()</a>, <a class="el" href="classug_1_1_gauss_seidel_base.html#a8b376a3d456e23afb54db1ad4bdd2885">ug::GaussSeidelBase&lt; TAlgebra &gt;::name()</a>, <a class="el" href="group__pcl.html#ga7a09a2eab069305ca735847eed023d2f">pcl::NumProcs()</a>, <a class="el" href="profiler_8h.html#a6ac4a2a49e9c9e835112b4f6b8cf7355">PROFILE_BEGIN_GROUP</a>, <a class="el" href="group__lib__algebra.html#gaa8517cb090f40832480c0dd692b0471b">ug::SetDirichletRow()</a>, <a class="el" href="group__ugbase__common.html#ga993fd280db7b723c6e03fc6e790238cd">THROW_IF_NOT_EQUAL</a>, and <a class="el" href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>.</p>
+<p>References <a class="el" href="group__lib__algebra.html#ga27e3e71059c2ae350f51716e1ebd66ef">ug::CheckDiagonalInvertible()</a>, <a class="el" href="group__pcl.html#gae8e9cabdcbfb18d4f65411e40765950b">pcl::CollectUniqueElements()</a>, <a class="el" href="namespaceug.html#a7088b9aeb9fbd910b33bebc856b18f5b">ug::CreateOverlap()</a>, <a class="el" href="classug_1_1_gauss_seidel_base.html#ad420b01876806243d4afb992b053a551">ug::GaussSeidelBase&lt; TAlgebra &gt;::m_A</a>, <a class="el" href="classug_1_1_gauss_seidel_base.html#a1dcc70a61a3971d72a6245a1096869db">ug::GaussSeidelBase&lt; TAlgebra &gt;::m_bConsistentInterfaces</a>, <a class="el" href="classug_1_1_gauss_seidel_base.html#aaffe8811c1b5c86db62675984c9e6111">ug::GaussSeidelBase&lt; TAlgebra &gt;::m_oC</a>, <a class="el" href="classug_1_1_gauss_seidel_base.html#a74abe662ef1b73de2f2387260a912cbf">ug::GaussSeidelBase&lt; TAlgebra &gt;::m_oD</a>, <a class="el" href="classug_1_1_gauss_seidel_base.html#a284de9dd83529ccefdacddfa8a30a0c1">ug::GaussSeidelBase&lt; TAlgebra &gt;::m_useOverlap</a>, <a class="el" href="namespaceug.html#a53a208e0d6303151db3164e61f920884">ug::MakeConsistent()</a>, <a class="el" href="group__lib__algebra__parallelization__util.html#ga62ff21e4f3ecc0f4803e61725edd7fed">ug::MatMakeConsistentOverlap0()</a>, <a class="el" href="classug_1_1_gauss_seidel_base.html#a8b376a3d456e23afb54db1ad4bdd2885">ug::GaussSeidelBase&lt; TAlgebra &gt;::name()</a>, <a class="el" href="group__pcl.html#ga7a09a2eab069305ca735847eed023d2f">pcl::NumProcs()</a>, <a class="el" href="profiler_8h.html#a6ac4a2a49e9c9e835112b4f6b8cf7355">PROFILE_BEGIN_GROUP</a>, <a class="el" href="group__lib__algebra.html#gaa8517cb090f40832480c0dd692b0471b">ug::SetDirichletRow()</a>, <a class="el" href="group__ugbase__common.html#ga993fd280db7b723c6e03fc6e790238cd">THROW_IF_NOT_EQUAL</a>, and <a class="el" href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>.</p>
 
 </div>
 </div>
@@ -631,7 +703,9 @@ template&lt;typename TAlgebra&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classug_1_1_gauss_seidel_base.html#a233a4ade0dc742437cf9793e6333fb59">ug::GaussSeidelBase&lt; TAlgebra &gt;::m_relax</a>, and <a class="el" href="classug_1_1_gauss_seidel_base.html#a8b376a3d456e23afb54db1ad4bdd2885">ug::GaussSeidelBase&lt; TAlgebra &gt;::name()</a>.</p>
+<p>set relaxation parameter to define a SOR-method </p>
+
+<p>References <a class="el" href="classug_1_1_gauss_seidel_base.html#a233a4ade0dc742437cf9793e6333fb59">ug::GaussSeidelBase&lt; TAlgebra &gt;::m_relax</a>.</p>
 
 <p>Referenced by <a class="el" href="classug_1_1_gauss_seidel_base.html#a13e94dbeade95a9687784952aa710ff5">ug::GaussSeidelBase&lt; TAlgebra &gt;::GaussSeidelBase()</a>.</p>
 
@@ -747,7 +821,7 @@ template&lt;typename TAlgebra&gt; </div>
 
 <p>Implements <a class="el" href="classug_1_1_i_preconditioner.html#ac7707cafa5655b84c296f0390b7084ef">ug::IPreconditioner&lt; TAlgebra &gt;</a>.</p>
 
-<p>References <a class="el" href="classug_1_1_gauss_seidel_base.html#ad420b01876806243d4afb992b053a551">ug::GaussSeidelBase&lt; TAlgebra &gt;::m_A</a>, <a class="el" href="classug_1_1_gauss_seidel_base.html#a233a4ade0dc742437cf9793e6333fb59">ug::GaussSeidelBase&lt; TAlgebra &gt;::m_relax</a>, <a class="el" href="group__pcl.html#ga7a09a2eab069305ca735847eed023d2f">pcl::NumProcs()</a>, <a class="el" href="profiler_8h.html#a6ac4a2a49e9c9e835112b4f6b8cf7355">PROFILE_BEGIN_GROUP</a>, <a class="el" href="group__lib__algebra__parallelization.html#gga75c6ad52009fea9cf3f582261c814936ab482bd040f659913f5e4a31365367399">ug::PST_UNIQUE</a>, <a class="el" href="classug_1_1_gauss_seidel_base.html#aef0ac4563388bf56f4b1d236ee2a14dc">ug::GaussSeidelBase&lt; TAlgebra &gt;::step()</a>, <a class="el" href="group__ugbase__common.html#ga77d45289fc860c6e47552b752cc77dec">THROW_IF_NOT_EQUAL_3</a>, and <a class="el" href="group__ugbase__common.html#ga166eb02da26c2b1ad3c6cffa3c6538c7">THROW_IF_NOT_EQUAL_4</a>.</p>
+<p>References <a class="el" href="classug_1_1_gauss_seidel_base.html#ad420b01876806243d4afb992b053a551">ug::GaussSeidelBase&lt; TAlgebra &gt;::m_A</a>, <a class="el" href="classug_1_1_gauss_seidel_base.html#a1dcc70a61a3971d72a6245a1096869db">ug::GaussSeidelBase&lt; TAlgebra &gt;::m_bConsistentInterfaces</a>, <a class="el" href="classug_1_1_gauss_seidel_base.html#aaffe8811c1b5c86db62675984c9e6111">ug::GaussSeidelBase&lt; TAlgebra &gt;::m_oC</a>, <a class="el" href="classug_1_1_gauss_seidel_base.html#a74abe662ef1b73de2f2387260a912cbf">ug::GaussSeidelBase&lt; TAlgebra &gt;::m_oD</a>, <a class="el" href="classug_1_1_gauss_seidel_base.html#a233a4ade0dc742437cf9793e6333fb59">ug::GaussSeidelBase&lt; TAlgebra &gt;::m_relax</a>, <a class="el" href="classug_1_1_gauss_seidel_base.html#a284de9dd83529ccefdacddfa8a30a0c1">ug::GaussSeidelBase&lt; TAlgebra &gt;::m_useOverlap</a>, <a class="el" href="group__pcl.html#ga7a09a2eab069305ca735847eed023d2f">pcl::NumProcs()</a>, <a class="el" href="profiler_8h.html#a6ac4a2a49e9c9e835112b4f6b8cf7355">PROFILE_BEGIN_GROUP</a>, <a class="el" href="group__lib__algebra__parallelization.html#gga75c6ad52009fea9cf3f582261c814936aead524625869f6f9f10996b622ade866">ug::PST_ADDITIVE</a>, <a class="el" href="group__lib__algebra__parallelization.html#gga75c6ad52009fea9cf3f582261c814936aae2129777dc4cb8baf20d8802b4fff37">ug::PST_CONSISTENT</a>, <a class="el" href="group__lib__algebra__parallelization.html#gga75c6ad52009fea9cf3f582261c814936ab482bd040f659913f5e4a31365367399">ug::PST_UNIQUE</a>, <a class="el" href="group__lib__algebra__parallelization__util.html#ga33b4797e3d3382885a96223a2c44d72f">ug::SetLayoutValues()</a>, <a class="el" href="classug_1_1_gauss_seidel_base.html#aef0ac4563388bf56f4b1d236ee2a14dc">ug::GaussSeidelBase&lt; TAlgebra &gt;::step()</a>, <a class="el" href="group__ugbase__common.html#ga77d45289fc860c6e47552b752cc77dec">THROW_IF_NOT_EQUAL_3</a>, <a class="el" href="group__ugbase__common.html#ga166eb02da26c2b1ad3c6cffa3c6538c7">THROW_IF_NOT_EQUAL_4</a>, and <a class="el" href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>.</p>
 
 </div>
 </div>
@@ -809,6 +883,86 @@ template&lt;typename TAlgebra&gt; </div>
 
 </div>
 </div>
+<a id="a1dcc70a61a3971d72a6245a1096869db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dcc70a61a3971d72a6245a1096869db">&sect;&nbsp;</a></span>m_bConsistentInterfaces</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TAlgebra&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classug_1_1_gauss_seidel_base.html">ug::GaussSeidelBase</a>&lt; TAlgebra &gt;::m_bConsistentInterfaces</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classug_1_1_gauss_seidel_base.html#a10a891434aad1b9da61b1591eead5a50">ug::GaussSeidelBase&lt; TAlgebra &gt;::enable_consistent_interfaces()</a>, <a class="el" href="classug_1_1_gauss_seidel_base.html#ab9f60018ba3d3c2b0d8744e1f9cdb013">ug::GaussSeidelBase&lt; TAlgebra &gt;::preprocess()</a>, and <a class="el" href="classug_1_1_gauss_seidel_base.html#a536783cd74d99826c66db6f07daf19f8">ug::GaussSeidelBase&lt; TAlgebra &gt;::step()</a>.</p>
+
+</div>
+</div>
+<a id="aaffe8811c1b5c86db62675984c9e6111"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaffe8811c1b5c86db62675984c9e6111">&sect;&nbsp;</a></span>m_oC</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TAlgebra&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classug_1_1_debug_writing_object.html#a5438429e899dad230e07ca3927d5e06f">vector_type</a> <a class="el" href="classug_1_1_gauss_seidel_base.html">ug::GaussSeidelBase</a>&lt; TAlgebra &gt;::m_oC</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classug_1_1_gauss_seidel_base.html#ab9f60018ba3d3c2b0d8744e1f9cdb013">ug::GaussSeidelBase&lt; TAlgebra &gt;::preprocess()</a>, and <a class="el" href="classug_1_1_gauss_seidel_base.html#a536783cd74d99826c66db6f07daf19f8">ug::GaussSeidelBase&lt; TAlgebra &gt;::step()</a>.</p>
+
+</div>
+</div>
+<a id="a74abe662ef1b73de2f2387260a912cbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74abe662ef1b73de2f2387260a912cbf">&sect;&nbsp;</a></span>m_oD</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TAlgebra&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classug_1_1_debug_writing_object.html#a5438429e899dad230e07ca3927d5e06f">vector_type</a> <a class="el" href="classug_1_1_gauss_seidel_base.html">ug::GaussSeidelBase</a>&lt; TAlgebra &gt;::m_oD</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>for overlaps only </p>
+
+<p>Referenced by <a class="el" href="classug_1_1_gauss_seidel_base.html#ab9f60018ba3d3c2b0d8744e1f9cdb013">ug::GaussSeidelBase&lt; TAlgebra &gt;::preprocess()</a>, and <a class="el" href="classug_1_1_gauss_seidel_base.html#a536783cd74d99826c66db6f07daf19f8">ug::GaussSeidelBase&lt; TAlgebra &gt;::step()</a>.</p>
+
+</div>
+</div>
 <a id="a233a4ade0dc742437cf9793e6333fb59"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a233a4ade0dc742437cf9793e6333fb59">&sect;&nbsp;</a></span>m_relax</h2>
 
@@ -826,12 +980,40 @@ template&lt;typename TAlgebra&gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classug_1_1_gauss_seidel_base.html#a572c4a2342ea6b48338e8e99716bc269">ug::GaussSeidelBase&lt; TAlgebra &gt;::GaussSeidelBase()</a>, <a class="el" href="classug_1_1_gauss_seidel_base.html#a143ba68626f0c0ae469251b6627ce32e">ug::GaussSeidelBase&lt; TAlgebra &gt;::set_sor_relax()</a>, and <a class="el" href="classug_1_1_gauss_seidel_base.html#a536783cd74d99826c66db6f07daf19f8">ug::GaussSeidelBase&lt; TAlgebra &gt;::step()</a>.</p>
+<p>relaxation parameter </p>
+
+<p>Referenced by <a class="el" href="classug_1_1_gauss_seidel_base.html#a13e94dbeade95a9687784952aa710ff5">ug::GaussSeidelBase&lt; TAlgebra &gt;::GaussSeidelBase()</a>, <a class="el" href="classug_1_1_gauss_seidel_base.html#a143ba68626f0c0ae469251b6627ce32e">ug::GaussSeidelBase&lt; TAlgebra &gt;::set_sor_relax()</a>, and <a class="el" href="classug_1_1_gauss_seidel_base.html#a536783cd74d99826c66db6f07daf19f8">ug::GaussSeidelBase&lt; TAlgebra &gt;::step()</a>.</p>
+
+</div>
+</div>
+<a id="a284de9dd83529ccefdacddfa8a30a0c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a284de9dd83529ccefdacddfa8a30a0c1">&sect;&nbsp;</a></span>m_useOverlap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TAlgebra&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classug_1_1_gauss_seidel_base.html">ug::GaussSeidelBase</a>&lt; TAlgebra &gt;::m_useOverlap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classug_1_1_gauss_seidel_base.html#a0eb70a7431dd88b727e5597e394a5982">ug::GaussSeidelBase&lt; TAlgebra &gt;::enable_overlap()</a>, <a class="el" href="classug_1_1_gauss_seidel_base.html#ab9f60018ba3d3c2b0d8744e1f9cdb013">ug::GaussSeidelBase&lt; TAlgebra &gt;::preprocess()</a>, and <a class="el" href="classug_1_1_gauss_seidel_base.html#a536783cd74d99826c66db6f07daf19f8">ug::GaussSeidelBase&lt; TAlgebra &gt;::step()</a>.</p>
 
 </div>
 </div>
@@ -844,7 +1026,7 @@ template&lt;typename TAlgebra&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_gauss_seidel_base.html">GaussSeidelBase</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:25 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:09:03 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

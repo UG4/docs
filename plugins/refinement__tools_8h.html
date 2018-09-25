@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Plugins: /home/sreiter/ug4-docs/plugins/ProMesh/tools/refinement_tools.h File Reference</title>
+<title>Plugins: /home/sreiter/ug4-docugen/plugins/ProMesh/tools/refinement_tools.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -95,12 +95,12 @@ $(document).ready(function(){initNavTree('refinement__tools_8h.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="mesh_8h_source.html">../mesh.h</a>&quot;</code><br />
-<code>#include &quot;<a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../edge____util__8h.html">lib_grid/algorithms/geom_obj_util/edge_util.h</a>&quot;</code><br />
-<code>#include &quot;<a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../regular____refinement__8h.html">lib_grid/refinement/regular_refinement.h</a>&quot;</code><br />
-<code>#include &quot;<a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../hanging____node____refiner____grid__8h.html">lib_grid/refinement/hanging_node_refiner_grid.h</a>&quot;</code><br />
-<code>#include &quot;<a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../sphere____projector__8h.html">lib_grid/refinement/projectors/sphere_projector.h</a>&quot;</code><br />
-<code>#include &quot;<a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../subdivision____projector__8h.html">lib_grid/refinement/projectors/subdivision_projector.h</a>&quot;</code><br />
-<code>#include &quot;<a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../callbacks__8h.html">lib_grid/callbacks/callbacks.h</a>&quot;</code><br />
+<code>#include &quot;<a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../edge____util__8h.html">lib_grid/algorithms/geom_obj_util/edge_util.h</a>&quot;</code><br />
+<code>#include &quot;<a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../regular____refinement__8h.html">lib_grid/refinement/regular_refinement.h</a>&quot;</code><br />
+<code>#include &quot;<a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../hanging____node____refiner____grid__8h.html">lib_grid/refinement/hanging_node_refiner_grid.h</a>&quot;</code><br />
+<code>#include &quot;<a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../sphere____projector__8h.html">lib_grid/refinement/projectors/sphere_projector.h</a>&quot;</code><br />
+<code>#include &quot;<a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../subdivision____projector__8h.html">lib_grid/refinement/projectors/subdivision_projector.h</a>&quot;</code><br />
+<code>#include &quot;<a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../callbacks__8h.html">lib_grid/callbacks/callbacks.h</a>&quot;</code><br />
 </div>
 <p><a href="refinement__tools_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -127,9 +127,11 @@ Macros</h2></td></tr>
 <tr class="separator:a42a87ce0c50f6dc906c6c248a45d8ec6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9db88a30a7057fdcaeb04d5b0caf412d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="refinement__tools_8h.html#a9db88a30a7057fdcaeb04d5b0caf412d">TOOLTIP_REFINE_SMOOTH_BOUNDARY_2D</a>&#160;&#160;&#160;&quot;Refines selected elements using smooth subdivision rules on the boundary edges.&quot;</td></tr>
 <tr class="separator:a9db88a30a7057fdcaeb04d5b0caf412d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3be579ee3c2017be0beac23f2114f2ea"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="refinement__tools_8h.html#a3be579ee3c2017be0beac23f2114f2ea">TOOLTIP_REFINE_WITH_SNAP_POINTS</a>&#160;&#160;&#160;&quot;Refines selected elements so that new edges are built between midpoints of selected edges and selected vertices, <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../parser_8cpp.html#ab3454b1e7e7c4c0b732dfeb74a0c040f">if</a> possible.&quot;</td></tr>
+<tr class="memitem:a3be579ee3c2017be0beac23f2114f2ea"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="refinement__tools_8h.html#a3be579ee3c2017be0beac23f2114f2ea">TOOLTIP_REFINE_WITH_SNAP_POINTS</a>&#160;&#160;&#160;&quot;Refines selected elements so that new edges are built between midpoints of selected edges and selected vertices, <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../parser_8cpp.html#ab3454b1e7e7c4c0b732dfeb74a0c040f">if</a> possible.&quot;</td></tr>
 <tr class="separator:a3be579ee3c2017be0beac23f2114f2ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af188036785ab61dbf51ebb5959fbd6ec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="refinement__tools_8h.html#af188036785ab61dbf51ebb5959fbd6ec">TOOLTIP_REGULARIZING_REFINEMENT</a>&#160;&#160;&#160;&quot;Marks and refines elements with small aspect ratios, trying <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> improves said aspect ratios.&quot;</td></tr>
+<tr class="memitem:aacee69b7fbc79356927385b4ae7744cc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="refinement__tools_8h.html#aacee69b7fbc79356927385b4ae7744cc">TOOLTIP_REFINE_WITH_SNAP_POINTS_ORTHO</a>&#160;&#160;&#160;&quot;Refines selected elements so that new edges are built between midpoints of selected edges and selected vertices, <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../parser_8cpp.html#ab3454b1e7e7c4c0b732dfeb74a0c040f">if</a> possible. New vertices are placed so that their connecting edge <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> the snap point is orthogonal <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> their parent edge.&quot;</td></tr>
+<tr class="separator:aacee69b7fbc79356927385b4ae7744cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af188036785ab61dbf51ebb5959fbd6ec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="refinement__tools_8h.html#af188036785ab61dbf51ebb5959fbd6ec">TOOLTIP_REGULARIZING_REFINEMENT</a>&#160;&#160;&#160;&quot;Marks and refines elements with small aspect ratios, trying <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> improves said aspect ratios.&quot;</td></tr>
 <tr class="separator:af188036785ab61dbf51ebb5959fbd6ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -152,7 +154,9 @@ Functions</h2></td></tr>
 <tr class="separator:gadf2f1f1d3fd09f3d04053797ac32c5f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf4a6ef8170e85a32c2e086fa8ef335f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#gaf4a6ef8170e85a32c2e086fa8ef335f2">ug::promesh::RefineWithSnapPoints</a> (Mesh *obj)</td></tr>
 <tr class="separator:gaf4a6ef8170e85a32c2e086fa8ef335f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga28d4a840d57b0f0ca3ef38b22e5dd155"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga28d4a840d57b0f0ca3ef38b22e5dd155">ug::promesh::RegularizingRefinement</a> (Mesh *obj, const <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> aspectRatio)</td></tr>
+<tr class="memitem:ga7473768e2dc7895bd77935881455bee2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga7473768e2dc7895bd77935881455bee2">ug::promesh::RefineWithSnapPointsOrtho</a> (Mesh *obj)</td></tr>
+<tr class="separator:ga7473768e2dc7895bd77935881455bee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga28d4a840d57b0f0ca3ef38b22e5dd155"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga28d4a840d57b0f0ca3ef38b22e5dd155">ug::promesh::RegularizingRefinement</a> (Mesh *obj, const <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> aspectRatio)</td></tr>
 <tr class="separator:ga28d4a840d57b0f0ca3ef38b22e5dd155"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -269,7 +273,23 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TOOLTIP_REFINE_WITH_SNAP_POINTS&#160;&#160;&#160;&quot;Refines selected elements so that new edges are built between midpoints of selected edges and selected vertices, <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../parser_8cpp.html#ab3454b1e7e7c4c0b732dfeb74a0c040f">if</a> possible.&quot;</td>
+          <td class="memname">#define TOOLTIP_REFINE_WITH_SNAP_POINTS&#160;&#160;&#160;&quot;Refines selected elements so that new edges are built between midpoints of selected edges and selected vertices, <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../parser_8cpp.html#ab3454b1e7e7c4c0b732dfeb74a0c040f">if</a> possible.&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="namespaceug_1_1promesh.html#aed55c9ae2af02b81a6486bf5a28c451c">ug::promesh::RegisterMeshingTools()</a>.</p>
+
+</div>
+</div>
+<a id="aacee69b7fbc79356927385b4ae7744cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacee69b7fbc79356927385b4ae7744cc">&sect;&nbsp;</a></span>TOOLTIP_REFINE_WITH_SNAP_POINTS_ORTHO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TOOLTIP_REFINE_WITH_SNAP_POINTS_ORTHO&#160;&#160;&#160;&quot;Refines selected elements so that new edges are built between midpoints of selected edges and selected vertices, <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../parser_8cpp.html#ab3454b1e7e7c4c0b732dfeb74a0c040f">if</a> possible. New vertices are placed so that their connecting edge <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> the snap point is orthogonal <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> their parent edge.&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -285,7 +305,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TOOLTIP_REGULARIZING_REFINEMENT&#160;&#160;&#160;&quot;Marks and refines elements with small aspect ratios, trying <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> improves said aspect ratios.&quot;</td>
+          <td class="memname">#define TOOLTIP_REGULARIZING_REFINEMENT&#160;&#160;&#160;&quot;Marks and refines elements with small aspect ratios, trying <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a> improves said aspect ratios.&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -300,7 +320,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_38c8d24aef3972a7f87b834274e76e31.html">plugins</a></li><li class="navelem"><a class="el" href="dir_763ed3e91742c64da7339b855c065f8b.html">ProMesh</a></li><li class="navelem"><a class="el" href="dir_90c8b690e559459740b0e677eab7f4d2.html">tools</a></li><li class="navelem"><a class="el" href="refinement__tools_8h.html">refinement_tools.h</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:01:22 for Plugins by
+    <li class="footer">Generated on Tue Sep 25 2018 10:04:51 for Plugins by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -1,0 +1,4 @@
+var classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_navier_stokes_linear_profile_skewed_upwind =
+[
+    [ "NavierStokesLinearProfileSkewedUpwind", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_navier_stokes_linear_profile_skewed_upwind.html#ab5ba8b84b706d7b00a32a4ced645f217", null ]
+];

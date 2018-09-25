@@ -177,6 +177,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a11a237fc0c189d34c1b352021df28972"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u_t_scalar_preconditioner.html#a11a237fc0c189d34c1b352021df28972">set_info</a> (bool info)</td></tr>
 <tr class="memdesc:a11a237fc0c189d34c1b352021df28972"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets storage information output to true or false  <a href="#a11a237fc0c189d34c1b352021df28972">More...</a><br /></td></tr>
 <tr class="separator:a11a237fc0c189d34c1b352021df28972"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f3f059812fdf62fc9a6cb04af61a1a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u_t_scalar_preconditioner.html#a5f3f059812fdf62fc9a6cb04af61a1a9">set_show_progress</a> (bool b)</td></tr>
+<tr class="memdesc:a5f3f059812fdf62fc9a6cb04af61a1a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the indication of the progress to true or false  <a href="#a5f3f059812fdf62fc9a6cb04af61a1a9">More...</a><br /></td></tr>
+<tr class="separator:a5f3f059812fdf62fc9a6cb04af61a1a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a094c855c02c2f1b0a0c6373c0b20a25c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u_t_scalar_preconditioner.html#a094c855c02c2f1b0a0c6373c0b20a25c">set_sort</a> (bool b)</td></tr>
 <tr class="separator:a094c855c02c2f1b0a0c6373c0b20a25c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad92f70036ca5a391178340c627c888fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u_t_scalar_preconditioner.html#ad92f70036ca5a391178340c627c888fc">set_threshold</a> (<a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> thresh)</td></tr>
@@ -333,6 +336,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a6869edb74e7ff093f0a1f5a43a6aecce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab54d5e8c45a16bd38e67fc7233b39662"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u_t_scalar_preconditioner.html#ab54d5e8c45a16bd38e67fc7233b39662">m_info</a></td></tr>
 <tr class="separator:ab54d5e8c45a16bd38e67fc7233b39662"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2d208fc372ab3a63ad9b279c24c6019"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u_t_scalar_preconditioner.html#aa2d208fc372ab3a63ad9b279c24c6019">m_show_progress</a></td></tr>
+<tr class="separator:aa2d208fc372ab3a63ad9b279c24c6019"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46bdf3f99a8b8b01a0ffcbb4c4dd2ced"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u_t_scalar_preconditioner.html#a46bdf3f99a8b8b01a0ffcbb4c4dd2ced">m_size</a></td></tr>
 <tr class="separator:a46bdf3f99a8b8b01a0ffcbb4c4dd2ced"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c9b174aa7efe22749b875a90a0fb7d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_matrix_operator.html">MatrixOperator</a>&lt; <a class="el" href="group__crs__algebra.html#gacba1690bd8bc1995e7ba15a3e37f60c5">CPUAlgebra::matrix_type</a>, <a class="el" href="group__crs__algebra.html#gacda89bea90b8880e5a5ca4285dfd73ca">CPUAlgebra::vector_type</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u_t_scalar_preconditioner.html#a2c9b174aa7efe22749b875a90a0fb7d6">mo</a></td></tr>
@@ -877,6 +882,38 @@ template&lt;typename TAlgebra&gt; </div>
 
 </div>
 </div>
+<a id="a5f3f059812fdf62fc9a6cb04af61a1a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f3f059812fdf62fc9a6cb04af61a1a9">&sect;&nbsp;</a></span>set_show_progress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TAlgebra&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_i_l_u_t_scalar_preconditioner.html">ug::ILUTScalarPreconditioner</a>&lt; TAlgebra &gt;::set_show_progress </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>sets the indication of the progress to true or false </p>
+
+<p>Referenced by <a class="el" href="classug_1_1_i_l_u_t_scalar_preconditioner.html#acb972d23f1115a5b722e3110056bb5dd">ug::ILUTScalarPreconditioner&lt; algebra_type &gt;::ILUTScalarPreconditioner()</a>.</p>
+
+</div>
+</div>
 <a id="a094c855c02c2f1b0a0c6373c0b20a25c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a094c855c02c2f1b0a0c6373c0b20a25c">&sect;&nbsp;</a></span>set_sort()</h2>
 
@@ -1287,6 +1324,32 @@ template&lt;typename TAlgebra&gt; </div>
 
 </div>
 </div>
+<a id="aa2d208fc372ab3a63ad9b279c24c6019"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2d208fc372ab3a63ad9b279c24c6019">&sect;&nbsp;</a></span>m_show_progress</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TAlgebra&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classug_1_1_i_l_u_t_scalar_preconditioner.html">ug::ILUTScalarPreconditioner</a>&lt; TAlgebra &gt;::m_show_progress</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classug_1_1_i_l_u_t_scalar_preconditioner.html#acb972d23f1115a5b722e3110056bb5dd">ug::ILUTScalarPreconditioner&lt; algebra_type &gt;::ILUTScalarPreconditioner()</a>, <a class="el" href="classug_1_1_i_l_u_t_scalar_preconditioner.html#aa86a2242cc3ab137250d43e162b8415a">ug::ILUTScalarPreconditioner&lt; algebra_type &gt;::preprocess()</a>, and <a class="el" href="classug_1_1_i_l_u_t_scalar_preconditioner.html#a5f3f059812fdf62fc9a6cb04af61a1a9">ug::ILUTScalarPreconditioner&lt; algebra_type &gt;::set_show_progress()</a>.</p>
+
+</div>
+</div>
 <a id="a46bdf3f99a8b8b01a0ffcbb4c4dd2ced"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a46bdf3f99a8b8b01a0ffcbb4c4dd2ced">&sect;&nbsp;</a></span>m_size</h2>
 
@@ -1348,7 +1411,7 @@ template&lt;typename TAlgebra&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_i_l_u_t_scalar_preconditioner.html">ILUTScalarPreconditioner</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:30 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:09:10 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

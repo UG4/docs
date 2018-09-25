@@ -13,6 +13,8 @@ var lib__grid_2algorithms_2serialization_8h =
     [ "DeserializeAttachment", "lib__grid_2algorithms_2serialization_8h.html#ga461dac25495066a1e790db35cb70a81d", null ],
     [ "DeserializeGridElements", "lib__grid_2algorithms_2serialization_8h.html#gaedc779fcc52595847d7e8a41facdb4a1", null ],
     [ "DeserializeMultiGridElements", "lib__grid_2algorithms_2serialization_8h.html#gafbf4b8285d9e464502c0807bcfcdbd54", null ],
+    [ "DeserializeSelector", "lib__grid_2algorithms_2serialization_8h.html#gab3209c6f4efdb06242d7ec0689082ccb", null ],
+    [ "DeserializeSelector", "lib__grid_2algorithms_2serialization_8h.html#ga957ed4f0556872c7e90973642f5e452c", null ],
     [ "DeserializeSubsetHandler", "lib__grid_2algorithms_2serialization_8h.html#ga0f1dd81f3cb1079f33db92c1bcbe00c3", null ],
     [ "DeserializeSubsetHandler", "lib__grid_2algorithms_2serialization_8h.html#ga6b0dbbef11451c2abae8c19787ca6bf9", null ],
     [ "SerializeAttachment", "lib__grid_2algorithms_2serialization_8h.html#ga283c0d8a43186b99a00e6622fb45ba3d", null ],
@@ -23,6 +25,8 @@ var lib__grid_2algorithms_2serialization_8h =
     [ "SerializeMultiGridElements", "lib__grid_2algorithms_2serialization_8h.html#gafa817ce1f4bb02def9a91be802cf05f2", null ],
     [ "SerializeMultiGridElements", "lib__grid_2algorithms_2serialization_8h.html#ga65897d3d1a6422cce56dd75840673b36", null ],
     [ "SerializeMultiGridElements", "lib__grid_2algorithms_2serialization_8h.html#ga4acf0e2633b44554e6b77e39d2e079d3", null ],
+    [ "SerializeSelector", "lib__grid_2algorithms_2serialization_8h.html#ga3b93f9e1a3f08309befee76cde299a5b", null ],
+    [ "SerializeSelector", "lib__grid_2algorithms_2serialization_8h.html#gaab4c67ce2c7ae2d71fe86b27ff753733", null ],
     [ "SerializeSubsetHandler", "lib__grid_2algorithms_2serialization_8h.html#ga2610e8848041757ff1870475feb6f1ba", null ],
     [ "SerializeSubsetHandler", "lib__grid_2algorithms_2serialization_8h.html#ga024110aea5bf876a2a9fb31829e0ae0d", null ]
 ];

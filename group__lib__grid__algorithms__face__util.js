@@ -25,6 +25,7 @@ var group__lib__grid__algorithms__face__util =
     [ "IsVolumeBoundaryFace", "group__lib__grid__algorithms__face__util.html#ga6612d9dd1c1ccd191d67a1a1e6718156", null ],
     [ "IsVolumeBoundaryFace", "group__lib__grid__algorithms__face__util.html#ga4e9dfa154c5ab46e2f77c4a48a8ee98c", null ],
     [ "LiesOnBoundary", "group__lib__grid__algorithms__face__util.html#ga546524dbafff353c160a8e52acb90260", null ],
+    [ "NumAssociatedVolumes", "group__lib__grid__algorithms__face__util.html#ga2e099f969485473fadd5113b40fe508a", null ],
     [ "PointFaceTest", "group__lib__grid__algorithms__face__util.html#ga9ed3a8995006d786f63e318b7f6c358f", null ],
     [ "ProjectPointToSurface", "group__lib__grid__algorithms__face__util.html#gabe4b069038c2eb0c0284efde3a3bd64b", null ],
     [ "TriangleQuality", "group__lib__grid__algorithms__face__util.html#gae772e4fd343550a940e172b770faaf1b", null ],

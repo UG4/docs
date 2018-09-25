@@ -127,6 +127,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a344ed272fd8769ad9b65ce14255ab17b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_function_pattern.html#a344ed272fd8769ad9b65ce14255ab17b">add</a> (const std::vector&lt; std::string &gt; &amp;vName, <a class="el" href="classug_1_1_l_f_e_i_d.html">LFEID</a> id, const std::vector&lt; std::string &gt; &amp;vSubset)</td></tr>
 <tr class="memdesc:a344ed272fd8769ad9b65ce14255ab17b"><td class="mdescLeft">&#160;</td><td class="mdescRight">add single solutions of LocalShapeFunctionSetID to selected subsets  <a href="#a344ed272fd8769ad9b65ce14255ab17b">More...</a><br /></td></tr>
 <tr class="separator:a344ed272fd8769ad9b65ce14255ab17b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac33f39b98540c0a866cac43ac4ea1e17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_subset_group.html">SubsetGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_function_pattern.html#ac33f39b98540c0a866cac43ac4ea1e17">all_subsets_grp_except_for</a> (const char *<a class="el" href="classug_1_1_function_pattern.html#a39f1dfade1d81969763446ba57348b34">names</a>) const</td></tr>
+<tr class="memdesc:ac33f39b98540c0a866cac43ac4ea1e17"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a subset group consisting of all the subsets in the domain except for the specified ones  <a href="#ac33f39b98540c0a866cac43ac4ea1e17">More...</a><br /></td></tr>
+<tr class="separator:ac33f39b98540c0a866cac43ac4ea1e17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8686da007d7faf2547960fc907a0efc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_function_pattern.html#aa8686da007d7faf2547960fc907a0efc">clear</a> ()</td></tr>
 <tr class="memdesc:aa8686da007d7faf2547960fc907a0efc"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear all functions  <a href="#aa8686da007d7faf2547960fc907a0efc">More...</a><br /></td></tr>
 <tr class="separator:aa8686da007d7faf2547960fc907a0efc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -176,6 +179,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a07a0282919ca0f5fd3232b16a52fb98b"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets new subsets handler  <a href="#a07a0282919ca0f5fd3232b16a52fb98b">More...</a><br /></td></tr>
 <tr class="separator:a07a0282919ca0f5fd3232b16a52fb98b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a995a021489d94d378a2d30522512e85f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_subset_group.html">SubsetGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_function_pattern.html#a995a021489d94d378a2d30522512e85f">subset_grp_by_name</a> (const char *<a class="el" href="classug_1_1_function_pattern.html#a39f1dfade1d81969763446ba57348b34">names</a>) const</td></tr>
+<tr class="memdesc:a995a021489d94d378a2d30522512e85f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a subset group consisting of the subsets specified by their names  <a href="#a995a021489d94d378a2d30522512e85f">More...</a><br /></td></tr>
 <tr class="separator:a995a021489d94d378a2d30522512e85f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ef682e31be2a0dd17aebeab5b25e7d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_i_subset_handler.html">ISubsetHandler</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_function_pattern.html#a7ef682e31be2a0dd17aebeab5b25e7d0">subset_handler</a> () const</td></tr>
 <tr class="memdesc:a7ef682e31be2a0dd17aebeab5b25e7d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">get underlying subset handler  <a href="#a7ef682e31be2a0dd17aebeab5b25e7d0">More...</a><br /></td></tr>
@@ -308,7 +312,7 @@ Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>References <a class="el" href="classug_1_1_l_f_e_i_d.html#a7befff246bb0bc05f16a393c3418ed4ca29c05b9ed2a51283ec09e63ab7f5dcf1">ug::LFEID::ADAPTIV</a>, <a class="el" href="classug_1_1_l_f_e_i_d.html#a8ee483d04ec8ec30dc2b6ef116b04dda">ug::LFEID::dim()</a>, <a class="el" href="namespaceug.html#aff3f638fb7d958bb60b9a3e24f78920a">ug::DimensionOfSubsets()</a>, <a class="el" href="classug_1_1_function_pattern.html#a8af387c58cf53674caa9a15e836fc38d">m_bLocked</a>, <a class="el" href="classug_1_1_function_pattern.html#a3c119f3437d1e679aa63f96832c79257">m_spSH</a>, <a class="el" href="classug_1_1_function_pattern.html#a6e9eb78b68bca67dca807ea98b47ff52">m_vFunction</a>, <a class="el" href="classug_1_1_function_pattern.html#a596c3e4de4ca531e5433a125bd9b0fe5">name()</a>, <a class="el" href="classug_1_1_l_f_e_i_d.html#af73992784d8d28c212f44ad976b17b13ab8e89129b10a6ff108762b7e07d4f926">ug::LFEID::NONE</a>, <a class="el" href="classug_1_1_l_f_e_i_d.html#a4b81078d8af2f26be0213e6ae01d458d">ug::LFEID::order()</a>, <a class="el" href="classug_1_1_subset_group.html#aa8e2a64f1774b87415abcd1ca60c123c">ug::SubsetGroup::set_subset_handler()</a>, <a class="el" href="classug_1_1_l_f_e_i_d.html#a4adeadd341a37bc0a5ebcbe046148e50">ug::LFEID::type()</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
+<p>References <a class="el" href="classug_1_1_l_f_e_i_d.html#acb7304472271fcae2f8b49e3eb5b8efea29c05b9ed2a51283ec09e63ab7f5dcf1">ug::LFEID::ADAPTIV</a>, <a class="el" href="classug_1_1_l_f_e_i_d.html#a8ee483d04ec8ec30dc2b6ef116b04dda">ug::LFEID::dim()</a>, <a class="el" href="namespaceug.html#aff3f638fb7d958bb60b9a3e24f78920a">ug::DimensionOfSubsets()</a>, <a class="el" href="classug_1_1_function_pattern.html#a8af387c58cf53674caa9a15e836fc38d">m_bLocked</a>, <a class="el" href="classug_1_1_function_pattern.html#a3c119f3437d1e679aa63f96832c79257">m_spSH</a>, <a class="el" href="classug_1_1_function_pattern.html#a6e9eb78b68bca67dca807ea98b47ff52">m_vFunction</a>, <a class="el" href="classug_1_1_function_pattern.html#a596c3e4de4ca531e5433a125bd9b0fe5">name()</a>, <a class="el" href="classug_1_1_l_f_e_i_d.html#af73992784d8d28c212f44ad976b17b13ab8e89129b10a6ff108762b7e07d4f926">ug::LFEID::NONE</a>, <a class="el" href="classug_1_1_l_f_e_i_d.html#a4b81078d8af2f26be0213e6ae01d458d">ug::LFEID::order()</a>, <a class="el" href="classug_1_1_subset_group.html#aa8e2a64f1774b87415abcd1ca60c123c">ug::SubsetGroup::set_subset_handler()</a>, <a class="el" href="classug_1_1_l_f_e_i_d.html#a4adeadd341a37bc0a5ebcbe046148e50">ug::LFEID::type()</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
 
 <p>Referenced by <a class="el" href="classug_1_1_function_pattern.html#a344ed272fd8769ad9b65ce14255ab17b">add()</a>, and <a class="el" href="classug_1_1_function_pattern.html#a7ef682e31be2a0dd17aebeab5b25e7d0">subset_handler()</a>.</p>
 
@@ -412,7 +416,39 @@ Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>References <a class="el" href="classug_1_1_l_f_e_i_d.html#a7befff246bb0bc05f16a393c3418ed4ca29c05b9ed2a51283ec09e63ab7f5dcf1">ug::LFEID::ADAPTIV</a>, <a class="el" href="classug_1_1_l_f_e_i_d.html#a8ee483d04ec8ec30dc2b6ef116b04dda">ug::LFEID::dim()</a>, <a class="el" href="classug_1_1_subset_group.html#aedc2ec46d5329ab7ee254db8a9d2d23e">ug::SubsetGroup::get_highest_subset_dimension()</a>, <a class="el" href="classug_1_1_function_pattern.html#a8af387c58cf53674caa9a15e836fc38d">m_bLocked</a>, <a class="el" href="classug_1_1_function_pattern.html#a3c119f3437d1e679aa63f96832c79257">m_spSH</a>, <a class="el" href="classug_1_1_function_pattern.html#a6e9eb78b68bca67dca807ea98b47ff52">m_vFunction</a>, <a class="el" href="classug_1_1_function_pattern.html#a596c3e4de4ca531e5433a125bd9b0fe5">name()</a>, <a class="el" href="classug_1_1_l_f_e_i_d.html#af73992784d8d28c212f44ad976b17b13ab8e89129b10a6ff108762b7e07d4f926">ug::LFEID::NONE</a>, <a class="el" href="classug_1_1_l_f_e_i_d.html#a4b81078d8af2f26be0213e6ae01d458d">ug::LFEID::order()</a>, <a class="el" href="classug_1_1_subset_group.html#a9f2ba29d445f60281c6b65ccba4a1c78">ug::SubsetGroup::subset_handler()</a>, <a class="el" href="classug_1_1_l_f_e_i_d.html#a4adeadd341a37bc0a5ebcbe046148e50">ug::LFEID::type()</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
+<p>References <a class="el" href="classug_1_1_l_f_e_i_d.html#acb7304472271fcae2f8b49e3eb5b8efea29c05b9ed2a51283ec09e63ab7f5dcf1">ug::LFEID::ADAPTIV</a>, <a class="el" href="classug_1_1_l_f_e_i_d.html#a8ee483d04ec8ec30dc2b6ef116b04dda">ug::LFEID::dim()</a>, <a class="el" href="classug_1_1_subset_group.html#aedc2ec46d5329ab7ee254db8a9d2d23e">ug::SubsetGroup::get_highest_subset_dimension()</a>, <a class="el" href="classug_1_1_function_pattern.html#a8af387c58cf53674caa9a15e836fc38d">m_bLocked</a>, <a class="el" href="classug_1_1_function_pattern.html#a3c119f3437d1e679aa63f96832c79257">m_spSH</a>, <a class="el" href="classug_1_1_function_pattern.html#a6e9eb78b68bca67dca807ea98b47ff52">m_vFunction</a>, <a class="el" href="classug_1_1_function_pattern.html#a596c3e4de4ca531e5433a125bd9b0fe5">name()</a>, <a class="el" href="classug_1_1_l_f_e_i_d.html#af73992784d8d28c212f44ad976b17b13ab8e89129b10a6ff108762b7e07d4f926">ug::LFEID::NONE</a>, <a class="el" href="classug_1_1_l_f_e_i_d.html#a4b81078d8af2f26be0213e6ae01d458d">ug::LFEID::order()</a>, <a class="el" href="classug_1_1_subset_group.html#a9f2ba29d445f60281c6b65ccba4a1c78">ug::SubsetGroup::subset_handler()</a>, <a class="el" href="classug_1_1_l_f_e_i_d.html#a4adeadd341a37bc0a5ebcbe046148e50">ug::LFEID::type()</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
+
+</div>
+</div>
+<a id="ac33f39b98540c0a866cac43ac4ea1e17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac33f39b98540c0a866cac43ac4ea1e17">&sect;&nbsp;</a></span>all_subsets_grp_except_for()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classug_1_1_subset_group.html">SubsetGroup</a> ug::FunctionPattern::all_subsets_grp_except_for </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>names</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns a subset group consisting of all the subsets in the domain except for the specified ones </p>
+
+<p>References <a class="el" href="classug_1_1_subset_group.html#aae1affc91bdd2580ac0e75318c745656">ug::SubsetGroup::add_all()</a>, <a class="el" href="classug_1_1_function_pattern.html#a596c3e4de4ca531e5433a125bd9b0fe5">name()</a>, <a class="el" href="classug_1_1_subset_group.html#ae42a7b0d9905ca2bb3ac079414ec9ca7">ug::SubsetGroup::remove()</a>, <a class="el" href="classug_1_1_function_pattern.html#a7ef682e31be2a0dd17aebeab5b25e7d0">subset_handler()</a>, <a class="el" href="classug_1_1_function_pattern.html#ab4075ca0e292412ee1ccf93ad2c539e2">subset_id_by_name()</a>, and <a class="el" href="namespaceug.html#a4b15f2bc194bff49437af30a0dd3fd3a">ug::TokenizeString()</a>.</p>
+
+<p>Referenced by <a class="el" href="classug_1_1_do_f_distribution_info_provider.html#a4e0723f04dc1e3269155d888b728e5a7">ug::DoFDistributionInfoProvider::subset_id_by_name()</a>.</p>
 
 </div>
 </div>
@@ -801,7 +837,7 @@ Private Member Functions</h2></td></tr>
 
 <p>References <a class="el" href="classug_1_1_function_pattern.html#a6e9eb78b68bca67dca807ea98b47ff52">m_vFunction</a>, <a class="el" href="classug_1_1_function_pattern.html#a64c114b85c609c9fc503a85a7cf158ce">num_fct()</a>, and <a class="el" href="group__ugbase__common.html#ga0b928ef153b78f1b5e025638cf28f841">UG_ASSERT</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_function_pattern.html#a4b2680a0e26aff441c619b1aae658402">add()</a>, <a class="el" href="classug_1_1_function_pattern.html#a39f1dfade1d81969763446ba57348b34">names()</a>, <a class="el" href="classug_1_1_do_f_distribution_info.html#abe7415152b7f31d363cb6b2e20036bf6">ug::DoFDistributionInfo::print_local_dof_statistic()</a>, <a class="el" href="classug_1_1_function_pattern.html#a995a021489d94d378a2d30522512e85f">subset_grp_by_name()</a>, and <a class="el" href="classug_1_1_function_pattern.html#ab4075ca0e292412ee1ccf93ad2c539e2">subset_id_by_name()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_function_pattern.html#a4b2680a0e26aff441c619b1aae658402">add()</a>, <a class="el" href="classug_1_1_function_pattern.html#ac33f39b98540c0a866cac43ac4ea1e17">all_subsets_grp_except_for()</a>, <a class="el" href="classug_1_1_function_pattern.html#a39f1dfade1d81969763446ba57348b34">names()</a>, <a class="el" href="classug_1_1_do_f_distribution_info.html#abe7415152b7f31d363cb6b2e20036bf6">ug::DoFDistributionInfo::print_local_dof_statistic()</a>, and <a class="el" href="classug_1_1_function_pattern.html#ab4075ca0e292412ee1ccf93ad2c539e2">subset_id_by_name()</a>.</p>
 
 </div>
 </div>
@@ -976,7 +1012,9 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classug_1_1_function_pattern.html#a596c3e4de4ca531e5433a125bd9b0fe5">name()</a>, <a class="el" href="classug_1_1_function_pattern.html#a7ef682e31be2a0dd17aebeab5b25e7d0">subset_handler()</a>, <a class="el" href="classug_1_1_function_pattern.html#ab4075ca0e292412ee1ccf93ad2c539e2">subset_id_by_name()</a>, and <a class="el" href="namespaceug.html#a4b15f2bc194bff49437af30a0dd3fd3a">ug::TokenizeString()</a>.</p>
+<p>returns a subset group consisting of the subsets specified by their names </p>
+
+<p>References <a class="el" href="classug_1_1_function_pattern.html#a7ef682e31be2a0dd17aebeab5b25e7d0">subset_handler()</a>, and <a class="el" href="namespaceug.html#a4b15f2bc194bff49437af30a0dd3fd3a">ug::TokenizeString()</a>.</p>
 
 <p>Referenced by <a class="el" href="classug_1_1_do_f_distribution_info_provider.html#a4e0723f04dc1e3269155d888b728e5a7">ug::DoFDistributionInfoProvider::subset_id_by_name()</a>.</p>
 
@@ -1009,7 +1047,7 @@ Private Member Functions</h2></td></tr>
 
 <p>References <a class="el" href="classug_1_1_function_pattern.html#a4b2680a0e26aff441c619b1aae658402">add()</a>, and <a class="el" href="classug_1_1_function_pattern.html#a3c119f3437d1e679aa63f96832c79257">m_spSH</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_function_pattern.html#a995a021489d94d378a2d30522512e85f">subset_grp_by_name()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_function_pattern.html#ac33f39b98540c0a866cac43ac4ea1e17">all_subsets_grp_except_for()</a>, and <a class="el" href="classug_1_1_function_pattern.html#a995a021489d94d378a2d30522512e85f">subset_grp_by_name()</a>.</p>
 
 </div>
 </div>
@@ -1033,7 +1071,7 @@ Private Member Functions</h2></td></tr>
 
 <p>References <a class="el" href="classug_1_1_function_pattern.html#a3c119f3437d1e679aa63f96832c79257">m_spSH</a>, <a class="el" href="classug_1_1_function_pattern.html#a596c3e4de4ca531e5433a125bd9b0fe5">name()</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_function_pattern.html#a995a021489d94d378a2d30522512e85f">subset_grp_by_name()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_function_pattern.html#ac33f39b98540c0a866cac43ac4ea1e17">all_subsets_grp_except_for()</a>.</p>
 
 </div>
 </div>
@@ -1152,7 +1190,7 @@ Private Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_function_pattern.html">FunctionPattern</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:23 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:09:01 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

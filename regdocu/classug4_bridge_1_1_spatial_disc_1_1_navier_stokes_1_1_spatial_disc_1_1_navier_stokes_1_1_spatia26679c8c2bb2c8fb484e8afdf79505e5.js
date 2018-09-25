@@ -1,0 +1,7 @@
+var classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia26679c8c2bb2c8fb484e8afdf79505e5 =
+[
+    [ "NavierStokesWSBCFV1", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia26679c8c2bb2c8fb484e8afdf79505e5.html#a1242999dcbaad1ae169c34ead95241b4", null ],
+    [ "add", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia26679c8c2bb2c8fb484e8afdf79505e5.html#ab0105124c5b34ea1c65ef89972b9c6d4", null ],
+    [ "set_sliding_factor", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia26679c8c2bb2c8fb484e8afdf79505e5.html#a87728609646e5033fab5ee66e58f7639", null ],
+    [ "set_sliding_limit", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia26679c8c2bb2c8fb484e8afdf79505e5.html#aadd18cb92e54b014fbbccce63fb8124a", null ]
+];

@@ -15,5 +15,7 @@ var grid__base__objects_8cpp =
     [ "hash_key", "grid__base__objects_8cpp.html#a5cad263dae3879f823454ceb15f00cdd", null ],
     [ "HashKey", "grid__base__objects_8cpp.html#a1ae030111a9de473e3df787f19bf928b", null ],
     [ "HashKey", "grid__base__objects_8cpp.html#a8813d3435792a2fc59a33b61eb8d9ecd", null ],
-    [ "HashKey", "grid__base__objects_8cpp.html#a53de269de77f74f0a0cbd32f0fd12452", null ]
+    [ "HashKey", "grid__base__objects_8cpp.html#a53de269de77f74f0a0cbd32f0fd12452", null ],
+    [ "GRID_BASE_OBJECT_PLURAL_NAMES", "grid__base__objects_8cpp.html#a8611627d84d96bc0e9979e1dba2587e0", null ],
+    [ "GRID_BASE_OBJECT_SINGULAR_NAMES", "grid__base__objects_8cpp.html#a939e7197b49fe3cc7fa01052ef29d209", null ]
 ];

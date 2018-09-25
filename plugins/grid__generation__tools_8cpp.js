@@ -13,6 +13,8 @@ var grid__generation__tools_8cpp =
     [ "CreatePyramid", "grid__generation__tools_8cpp.html#ga1a78c4b714e9a588a161586479fc3a79", null ],
     [ "CreateSphere", "grid__generation__tools_8cpp.html#ga6018feeaec7818ed2568cb0dcee80fd8", null ],
     [ "CreateTetrahedron", "grid__generation__tools_8cpp.html#ga3952b483b06e69331e74e068f47b8344", null ],
+    [ "CreateTKD", "grid__generation__tools_8cpp.html#ga87edb28f64edd0a00e5093cacfcb1c36", null ],
+    [ "CreateTKDWithOuterLayer", "grid__generation__tools_8cpp.html#ga019109af415856468e3093fb618bf282", null ],
     [ "CreateVertex", "grid__generation__tools_8cpp.html#gae1c5da21d793230d45efc6d2e20cb0a6", null ],
     [ "CreateVolume", "grid__generation__tools_8cpp.html#ga3722daf31760be7c04d6ae389e61b7b7", null ]
 ];

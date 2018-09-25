@@ -19,6 +19,7 @@ var math__vector__functions__common__impl_8hpp =
     [ "VecCross", "math__vector__functions__common__impl_8hpp.html#gaaedb3f236ce52671088a819cfa3c169b", null ],
     [ "VecDistance", "math__vector__functions__common__impl_8hpp.html#ga92e42e49d0d212e50fc214803cf06e78", null ],
     [ "VecDistanceSq", "math__vector__functions__common__impl_8hpp.html#ga7da70ab2d2c942a82b582f1cc7888069", null ],
+    [ "VecDistanceSq", "math__vector__functions__common__impl_8hpp.html#a9f7ee7b5c39ef0ad344fee8475869198", null ],
     [ "VecDot", "math__vector__functions__common__impl_8hpp.html#gae9174d47662deb0ba119e0e21f28ec71", null ],
     [ "VecElemProd", "math__vector__functions__common__impl_8hpp.html#acf0d7011405db1c9fe4e66aa36a6d593", null ],
     [ "VecElemSqrt", "math__vector__functions__common__impl_8hpp.html#af2d5439ada724109438ac34334472bf9", null ],

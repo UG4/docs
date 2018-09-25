@@ -175,6 +175,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acddcb2e3018a88426fe4a35402341810"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_f_v1_geometry.html#acddcb2e3018a88426fe4a35402341810">FV1Geometry</a> ()</td></tr>
 <tr class="memdesc:acddcb2e3018a88426fe4a35402341810"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct object and initialize local values and sizes  <a href="#acddcb2e3018a88426fe4a35402341810">More...</a><br /></td></tr>
 <tr class="separator:acddcb2e3018a88426fe4a35402341810"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acea6861ef7f3274db27ece9dd9757d0a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; <a class="el" href="classug_1_1_f_v1_geometry.html#a38cea3f9370a5fa323a1bb9f2f50633b">worldDim</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_f_v1_geometry.html#acea6861ef7f3274db27ece9dd9757d0a">global_node_position</a> (size_t nodeID) const</td></tr>
+<tr class="memdesc:acea6861ef7f3274db27ece9dd9757d0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">return global coords for node ID  <a href="#acea6861ef7f3274db27ece9dd9757d0a">More...</a><br /></td></tr>
+<tr class="separator:acea6861ef7f3274db27ece9dd9757d0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad22c53a758f1787a5001d6d37b6edeb3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; <a class="el" href="classug_1_1_f_v1_geometry.html#a3fc41f333a70b2f6e9fc5b0e9f37e18b">dim</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_f_v1_geometry.html#ad22c53a758f1787a5001d6d37b6edeb3">local_node_position</a> (size_t nodeID) const</td></tr>
+<tr class="memdesc:ad22c53a758f1787a5001d6d37b6edeb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">return local coords for node ID  <a href="#ad22c53a758f1787a5001d6d37b6edeb3">More...</a><br /></td></tr>
+<tr class="separator:ad22c53a758f1787a5001d6d37b6edeb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a900aacd27682df5f6765e9808d62cbbd"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_f_v1_geometry.html#a900aacd27682df5f6765e9808d62cbbd">num_bf</a> () const</td></tr>
 <tr class="memdesc:a900aacd27682df5f6765e9808d62cbbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of all boundary faces  <a href="#a900aacd27682df5f6765e9808d62cbbd">More...</a><br /></td></tr>
 <tr class="separator:a900aacd27682df5f6765e9808d62cbbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -704,6 +710,70 @@ template&lt;typename TElem , int TWorldDim&gt; </div>
 <p>References <a class="el" href="classug_1_1_f_v1_geometry.html#a8dc233d7c5ee13a17fab39dbb90fc04e">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::m_pElem</a>.</p>
 
 <p>Referenced by <a class="el" href="classug_1_1_dim_f_v1_geometry.html#a84f370f8537dffe2a5b4464152f40341">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;::DimFV1Geometry()</a>, <a class="el" href="classug_1_1_f_v1_geometry.html#a0dff3f04f64d844bc63dd2293e8f4d85">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::update()</a>, and <a class="el" href="classug_1_1_f_v1_geometry.html#a2f78db85f3c42a24d054a5787a53a84a">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::update_boundary_faces()</a>.</p>
+
+</div>
+</div>
+<a id="acea6861ef7f3274db27ece9dd9757d0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acea6861ef7f3274db27ece9dd9757d0a">&sect;&nbsp;</a></span>global_node_position()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TElem , int TWorldDim&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt;<a class="el" href="classug_1_1_f_v1_geometry.html#a38cea3f9370a5fa323a1bb9f2f50633b">worldDim</a>&gt;&amp; <a class="el" href="classug_1_1_f_v1_geometry.html">ug::FV1Geometry</a>&lt; TElem, TWorldDim &gt;::global_node_position </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>nodeID</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return global coords for node ID </p>
+
+<p>References <a class="el" href="classug_1_1_f_v1_geometry.html#aabf7dbed2e9d54d3a05c39fd0e6e8a2e">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::m_vvGloMid</a>, and <a class="el" href="group__ugbase__common.html#ga0b928ef153b78f1b5e025638cf28f841">UG_ASSERT</a>.</p>
+
+</div>
+</div>
+<a id="ad22c53a758f1787a5001d6d37b6edeb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad22c53a758f1787a5001d6d37b6edeb3">&sect;&nbsp;</a></span>local_node_position()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TElem , int TWorldDim&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt;<a class="el" href="classug_1_1_f_v1_geometry.html#a3fc41f333a70b2f6e9fc5b0e9f37e18b">dim</a>&gt;&amp; <a class="el" href="classug_1_1_f_v1_geometry.html">ug::FV1Geometry</a>&lt; TElem, TWorldDim &gt;::local_node_position </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>nodeID</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return local coords for node ID </p>
+
+<p>References <a class="el" href="classug_1_1_f_v1_geometry.html#a7f15d4e8518e9a885250db5845beb642">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::m_vvLocMid</a>, and <a class="el" href="group__ugbase__common.html#ga0b928ef153b78f1b5e025638cf28f841">UG_ASSERT</a>.</p>
 
 </div>
 </div>
@@ -1732,7 +1802,7 @@ template&lt;typename TElem , int TWorldDim&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classug_1_1_f_v1_geometry.html#aef2876486d205bdb06bc3dbc7043d1a3">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::coe_global()</a>, <a class="el" href="classug_1_1_dim_f_v1_geometry.html#afed384faea1b24db0a5e606c8fb6b408">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;::coe_global()</a>, <a class="el" href="classug_1_1_f_v1_geometry.html#a419a91967a86a71fc55ea2e84e88063f">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::corners()</a>, <a class="el" href="classug_1_1_dim_f_v1_geometry.html#a7f06e32f172a8cae8b03fe6ca7adf517">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;::corners()</a>, <a class="el" href="classug_1_1_f_v1_geometry.html#a525b5b55e88a6b1d352cf83506751a07">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::scv_global_ips()</a>, <a class="el" href="classug_1_1_dim_f_v1_geometry.html#a9eaa2e57b9f66e22f9ebd249082d5f93">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;::scv_global_ips()</a>, <a class="el" href="classug_1_1_f_v1_geometry.html#a0dff3f04f64d844bc63dd2293e8f4d85">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::update()</a>, <a class="el" href="classug_1_1_dim_f_v1_geometry.html#a6cae55339969a71d52c6660df3e2204b">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;::update()</a>, <a class="el" href="classug_1_1_f_v1_geometry.html#a2f78db85f3c42a24d054a5787a53a84a">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::update_boundary_faces()</a>, and <a class="el" href="classug_1_1_dim_f_v1_geometry.html#abc4599b9862710ffdc11a9e344cfd34c">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;::update_boundary_faces()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_f_v1_geometry.html#aef2876486d205bdb06bc3dbc7043d1a3">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::coe_global()</a>, <a class="el" href="classug_1_1_dim_f_v1_geometry.html#afed384faea1b24db0a5e606c8fb6b408">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;::coe_global()</a>, <a class="el" href="classug_1_1_f_v1_geometry.html#a419a91967a86a71fc55ea2e84e88063f">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::corners()</a>, <a class="el" href="classug_1_1_dim_f_v1_geometry.html#a7f06e32f172a8cae8b03fe6ca7adf517">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;::corners()</a>, <a class="el" href="classug_1_1_f_v1_geometry.html#acea6861ef7f3274db27ece9dd9757d0a">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::global_node_position()</a>, <a class="el" href="classug_1_1_dim_f_v1_geometry.html#af7b6e8d09c84c0f7af064c03b65235f4">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;::global_node_position()</a>, <a class="el" href="classug_1_1_f_v1_geometry.html#a525b5b55e88a6b1d352cf83506751a07">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::scv_global_ips()</a>, <a class="el" href="classug_1_1_dim_f_v1_geometry.html#a9eaa2e57b9f66e22f9ebd249082d5f93">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;::scv_global_ips()</a>, <a class="el" href="classug_1_1_f_v1_geometry.html#a0dff3f04f64d844bc63dd2293e8f4d85">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::update()</a>, <a class="el" href="classug_1_1_dim_f_v1_geometry.html#a6cae55339969a71d52c6660df3e2204b">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;::update()</a>, <a class="el" href="classug_1_1_f_v1_geometry.html#a2f78db85f3c42a24d054a5787a53a84a">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::update_boundary_faces()</a>, and <a class="el" href="classug_1_1_dim_f_v1_geometry.html#abc4599b9862710ffdc11a9e344cfd34c">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;::update_boundary_faces()</a>.</p>
 
 </div>
 </div>
@@ -1760,7 +1830,7 @@ template&lt;typename TElem , int TWorldDim&gt; </div>
 
 <p>local and global geom object midpoints for each dimension </p>
 
-<p>Referenced by <a class="el" href="classug_1_1_f_v1_geometry.html#a70caaa194295b509e6dbbca80c237685">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::coe_local()</a>, <a class="el" href="classug_1_1_dim_f_v1_geometry.html#a4372182b3c96a0b27003f6954cc114e1">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;::coe_local()</a>, <a class="el" href="classug_1_1_f_v1_geometry.html#a1475abfccfb99be79bbbeb0a7e8f6915">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::scv_local_ips()</a>, <a class="el" href="classug_1_1_dim_f_v1_geometry.html#ae4a2e1167a2281a06129f091d68953f3">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;::scv_local_ips()</a>, <a class="el" href="classug_1_1_f_v1_geometry.html#a2f78db85f3c42a24d054a5787a53a84a">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::update_boundary_faces()</a>, <a class="el" href="classug_1_1_dim_f_v1_geometry.html#abc4599b9862710ffdc11a9e344cfd34c">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;::update_boundary_faces()</a>, <a class="el" href="classug_1_1_dim_f_v1_geometry.html#acf1cbb3bb52b8c856236e2222d9c31cd">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;::update_local()</a>, and <a class="el" href="classug_1_1_f_v1_geometry.html#a53f980af79f97a1fddd64018c4602304">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::update_local_data()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_f_v1_geometry.html#a70caaa194295b509e6dbbca80c237685">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::coe_local()</a>, <a class="el" href="classug_1_1_dim_f_v1_geometry.html#a4372182b3c96a0b27003f6954cc114e1">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;::coe_local()</a>, <a class="el" href="classug_1_1_f_v1_geometry.html#ad22c53a758f1787a5001d6d37b6edeb3">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::local_node_position()</a>, <a class="el" href="classug_1_1_dim_f_v1_geometry.html#a7d6160775f36aca37a10485fdea57550">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;::local_node_position()</a>, <a class="el" href="classug_1_1_f_v1_geometry.html#a1475abfccfb99be79bbbeb0a7e8f6915">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::scv_local_ips()</a>, <a class="el" href="classug_1_1_dim_f_v1_geometry.html#ae4a2e1167a2281a06129f091d68953f3">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;::scv_local_ips()</a>, <a class="el" href="classug_1_1_f_v1_geometry.html#a2f78db85f3c42a24d054a5787a53a84a">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::update_boundary_faces()</a>, <a class="el" href="classug_1_1_dim_f_v1_geometry.html#abc4599b9862710ffdc11a9e344cfd34c">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;::update_boundary_faces()</a>, <a class="el" href="classug_1_1_dim_f_v1_geometry.html#acf1cbb3bb52b8c856236e2222d9c31cd">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;::update_local()</a>, and <a class="el" href="classug_1_1_f_v1_geometry.html#a53f980af79f97a1fddd64018c4602304">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::update_local_data()</a>.</p>
 
 </div>
 </div>
@@ -1788,7 +1858,7 @@ template&lt;typename TElem , int TWorldDim&gt; </div>
 
 <p>max number of geom objects in all dimensions </p>
 
-<p>Referenced by <a class="el" href="classug_1_1_dim_f_v1_geometry.html#a6cae55339969a71d52c6660df3e2204b">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;::update()</a>, and <a class="el" href="classug_1_1_dim_f_v1_geometry.html#acf1cbb3bb52b8c856236e2222d9c31cd">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;::update_local()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_dim_f_v1_geometry.html#af7b6e8d09c84c0f7af064c03b65235f4">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;::global_node_position()</a>, <a class="el" href="classug_1_1_dim_f_v1_geometry.html#a7d6160775f36aca37a10485fdea57550">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;::local_node_position()</a>, <a class="el" href="classug_1_1_dim_f_v1_geometry.html#a6cae55339969a71d52c6660df3e2204b">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;::update()</a>, and <a class="el" href="classug_1_1_dim_f_v1_geometry.html#acf1cbb3bb52b8c856236e2222d9c31cd">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;::update_local()</a>.</p>
 
 </div>
 </div>
@@ -2018,7 +2088,7 @@ template&lt;typename TElem , int TWorldDim&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_f_v1_geometry.html">FV1Geometry</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:23 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:09:01 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

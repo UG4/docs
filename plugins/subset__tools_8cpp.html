@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Plugins: /home/sreiter/ug4-docs/plugins/ProMesh/tools/subset_tools.cpp File Reference</title>
+<title>Plugins: /home/sreiter/ug4-docugen/plugins/ProMesh/tools/subset_tools.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -93,7 +93,11 @@ $(document).ready(function(){initNavTree('subset__tools_8cpp.html','');});
 <div class="title">subset_tools.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="subset__tools_8h_source.html">subset_tools.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../table__8h.html">common/util/table.h</a>&quot;</code><br />
+<code>#include &quot;<a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../raster__8h.html">common/util/raster.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="subset__tools_8h_source.html">subset_tools.h</a>&quot;</code><br />
+<code>#include &quot;<a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../quality____util__8h.html">lib_grid/algorithms/quality_util.h</a>&quot;</code><br />
+<code>#include &quot;<a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../subset____color____util__8h.html">lib_grid/algorithms/subset_color_util.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -116,10 +120,25 @@ Functions</h2></td></tr>
 <tr class="separator:ga40c49b1e8621d132f6bd3bc656408d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga158bf3daf85b3f2a75dd30a87589b93b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga158bf3daf85b3f2a75dd30a87589b93b">ug::promesh::AssignSubsetColors</a> (Mesh *obj)</td></tr>
 <tr class="separator:ga158bf3daf85b3f2a75dd30a87589b93b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1c598b482220fdf0760622de397cdae1"><td class="memTemplParams" colspan="2">template&lt;class elem_t &gt; </td></tr>
+<tr class="memitem:ga1c598b482220fdf0760622de397cdae1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga1c598b482220fdf0760622de397cdae1">ug::promesh::AssignSubsetsByAspectRatio</a> (Mesh *msh, int numHistoSecs, bool eraseOldSubsets)</td></tr>
+<tr class="separator:ga1c598b482220fdf0760622de397cdae1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48d4ad1ba06d5fc4afeb505ec374f5d0"><td class="memItemLeft" align="right" valign="top">template void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug_1_1promesh.html#a48d4ad1ba06d5fc4afeb505ec374f5d0">ug::promesh::AssignSubsetsByAspectRatio&lt; Face &gt;</a> (Mesh *, int, bool)</td></tr>
+<tr class="separator:a48d4ad1ba06d5fc4afeb505ec374f5d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2cc31bdd9ed658c9024c54c70375c07"><td class="memItemLeft" align="right" valign="top">template void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug_1_1promesh.html#ad2cc31bdd9ed658c9024c54c70375c07">ug::promesh::AssignSubsetsByAspectRatio&lt; Volume &gt;</a> (Mesh *, int, bool)</td></tr>
+<tr class="separator:ad2cc31bdd9ed658c9024c54c70375c07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gacfa1fcaf74cfa327c3160f560bcee7b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#gacfa1fcaf74cfa327c3160f560bcee7b3">ug::promesh::AssignSubsetsByElementType</a> (Mesh *obj)</td></tr>
 <tr class="separator:gacfa1fcaf74cfa327c3160f560bcee7b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga92c473add85cc9febbe772d59c995d66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga92c473add85cc9febbe772d59c995d66">ug::promesh::AssignSubsetsByQuality</a> (Mesh *obj, int numSections)</td></tr>
 <tr class="separator:ga92c473add85cc9febbe772d59c995d66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga68d0cca3e93161aa0ed5d25196a2e16e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga68d0cca3e93161aa0ed5d25196a2e16e">ug::promesh::AssignSubsetsFromRaster</a> (Mesh *obj, const char *rasterFileName, int rasterDimension, bool vertices, bool edges, bool faces, bool volumes)</td></tr>
+<tr class="separator:ga68d0cca3e93161aa0ed5d25196a2e16e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9b700779c0c409bfb7a52226666db6d"><td class="memTemplParams" colspan="2">template&lt;int dim, class elem_t &gt; </td></tr>
+<tr class="memitem:ac9b700779c0c409bfb7a52226666db6d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug_1_1promesh.html#ac9b700779c0c409bfb7a52226666db6d">ug::promesh::AssignSubsetsFromRaster_IMPL</a> (Mesh *obj, const char *rasterFileName)</td></tr>
+<tr class="separator:ac9b700779c0c409bfb7a52226666db6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ac0019b1b863bf7b0e3409f033cc980"><td class="memTemplParams" colspan="2">template&lt;int dim&gt; </td></tr>
+<tr class="memitem:a7ac0019b1b863bf7b0e3409f033cc980"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug_1_1promesh.html#a7ac0019b1b863bf7b0e3409f033cc980">ug::promesh::AssignSubsetsFromRaster_IMPL</a> (Mesh *obj, const char *rasterFileName, bool vertices, bool edges, bool faces, bool volumes)</td></tr>
+<tr class="separator:a7ac0019b1b863bf7b0e3409f033cc980"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac193a54bbc6b17efd68292f9d20a130b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#gac193a54bbc6b17efd68292f9d20a130b">ug::promesh::CopySubsetIndicesToSides</a> (Mesh *obj, bool selectionOnly, bool toUnassignedOnly)</td></tr>
 <tr class="separator:gac193a54bbc6b17efd68292f9d20a130b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga80c173c2b54ba87b85a27bca2ab33085"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga80c173c2b54ba87b85a27bca2ab33085">ug::promesh::EraseEmptySubsets</a> (Mesh *obj)</td></tr>
@@ -130,7 +149,7 @@ Functions</h2></td></tr>
 <tr class="separator:ga0cbf4634b0c29fd5151a3e557b5cf12c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0a0eb0838c2b3c836d71184ae57370ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga0a0eb0838c2b3c836d71184ae57370ba">ug::promesh::MoveSubset</a> (Mesh *obj, int oldIndex, int newIndex)</td></tr>
 <tr class="separator:ga0a0eb0838c2b3c836d71184ae57370ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8e5e4eb2737fdb5090261b8c4eff9c16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga8e5e4eb2737fdb5090261b8c4eff9c16">ug::promesh::SeparateDegeneratedBoundaryFaceSubsets</a> (Mesh *obj, <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> angle)</td></tr>
+<tr class="memitem:ga8e5e4eb2737fdb5090261b8c4eff9c16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#ga8e5e4eb2737fdb5090261b8c4eff9c16">ug::promesh::SeparateDegeneratedBoundaryFaceSubsets</a> (Mesh *obj, <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> angle)</td></tr>
 <tr class="separator:ga8e5e4eb2737fdb5090261b8c4eff9c16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac4e564cb455a268ee5cdf89cd9b78b50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__promesh.html#gac4e564cb455a268ee5cdf89cd9b78b50">ug::promesh::SeparateFacesByEdgeSubsets</a> (Mesh *obj)</td></tr>
 <tr class="separator:gac4e564cb455a268ee5cdf89cd9b78b50"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,7 +178,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_38c8d24aef3972a7f87b834274e76e31.html">plugins</a></li><li class="navelem"><a class="el" href="dir_763ed3e91742c64da7339b855c065f8b.html">ProMesh</a></li><li class="navelem"><a class="el" href="dir_90c8b690e559459740b0e677eab7f4d2.html">tools</a></li><li class="navelem"><a class="el" href="subset__tools_8cpp.html">subset_tools.cpp</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:01:22 for Plugins by
+    <li class="footer">Generated on Tue Sep 25 2018 10:04:51 for Plugins by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

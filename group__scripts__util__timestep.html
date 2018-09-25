@@ -149,7 +149,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="time__step__util_8lua.html">time_step_util.lua</a> :43-83 </p>
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="time__step__util_8lua.html">time_step_util.lua</a> :43-83 </p>
 
 </div>
 </div>
@@ -167,7 +167,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="time__step__util_8lua.html">time_step_util.lua</a> :86-118 </p>
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="time__step__util_8lua.html">time_step_util.lua</a> :86-118 </p>
 
 </div>
 </div>
@@ -280,7 +280,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="time__step__util_8lua.html">time_step_util.lua</a> :456-625 </p>
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="time__step__util_8lua.html">time_step_util.lua</a> :517-686 </p>
 
 </div>
 </div>
@@ -387,7 +387,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="time__step__util_8lua.html">time_step_util.lua</a> :969 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.SolveNonlinearProblemAdaptiveLimex(</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="time__step__util_8lua.html">time_step_util.lua</a> :1040 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.SolveNonlinearProblemAdaptiveLimex(</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="ga84d1759654818e0ef176d11b84328b00"></a>
@@ -513,7 +513,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="time__step__util_8lua.html">time_step_util.lua</a> :661 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.SolveNonlinearProblemAdaptiveTimestep(</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="time__step__util_8lua.html">time_step_util.lua</a> :722 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.SolveNonlinearProblemAdaptiveTimestep(</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="gacdfe135a444b84f4b3af493d4d1d5e36"></a>
@@ -653,14 +653,14 @@ Functions</h2></td></tr>
     <tr><td class="paramname">reductionFactor</td><td>(optional) factor by which the step size is reduced, if the problem was not solved. Iterated until minStepSize is reached. </td></tr>
     <tr><td class="paramname">bFinishTimeStep</td><td>(optional) boolean if finish_timestep should be called or not. </td></tr>
     <tr><td class="paramname">useCheckpointing</td><td>(optional) if true, use checkpointing. </td></tr>
-    <tr><td class="paramname">postProcess</td><td>(optional) if passed, will be called after every time step. </td></tr>
+    <tr><td class="paramname">postProcess</td><td>(optional) if passed, this can be either a function or a table: a) If this is a function then it is called after solving the non-linear problem in EVERY STAGE of the time-stepping scheme; b) if this is a table, it can contain 4 optional functions: prepareTimeStep to call before the time step, preProcess to call before the non-linear solver in EVERY STAGE, postProcess as in a), finalizeTimeStep to call after the time step, rewindTimeStep to call if some of the computations of the time step failed, Arguments of the functions are: (u, step, time, dt) u, time: old before the solver, new after it </td></tr>
     <tr><td class="paramname">startTSNo</td><td>(optional) time step number of the initial condition (normally 0). </td></tr>
     <tr><td class="paramname">endTSNo</td><td>(optional) if passed, stop after the time step with this number. </td></tr>
     <tr><td class="paramname">newtonLineSearchFallbacks</td><td>(optional) Sequence of line-search objects. Each time the newton-solver fails in a time-step, the next line-search object from the sequence is used.</td></tr>
   </table>
   </dd>
 </dl>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="time__step__util_8lua.html">time_step_util.lua</a> :164-422 </p>
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="time__step__util_8lua.html">time_step_util.lua</a> :175-483 </p>
 
 </div>
 </div>
@@ -669,7 +669,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:13 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:08:45 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

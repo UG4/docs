@@ -22,6 +22,7 @@ var dir_46f23659e18aa5fa06de6ff2c04a1a12 =
     [ "output_util.lua", "output__util_8lua.html", "output__util_8lua" ],
     [ "persistence.lua", "persistence_8lua.html", null ],
     [ "profiler_util.lua", "profiler__util_8lua.html", "profiler__util_8lua" ],
+    [ "raster_util.lua", "raster__util_8lua.html", "raster__util_8lua" ],
     [ "refinement_util.lua", "refinement__util_8lua.html", "refinement__util_8lua" ],
     [ "solver_util.lua", "solver__util_8lua.html", "solver__util_8lua" ],
     [ "stats_util.doxygen", "stats__util_8doxygen.html", null ],

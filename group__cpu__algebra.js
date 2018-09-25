@@ -56,7 +56,7 @@ var group__cpu__algebra =
       [ "row_type", "classug_1_1_g_p_u_sparse_matrix.html#a6ac8d4a79d422d2b503666965c7fd7b7", null ],
       [ "this_type", "classug_1_1_g_p_u_sparse_matrix.html#a743086f0d2a0eecf6db0dc256a1a312d", null ],
       [ "value_type", "classug_1_1_g_p_u_sparse_matrix.html#a54e78e293d0442d184f49af9d9d5cc0a", null ],
-      [ "rows_sorted", "classug_1_1_g_p_u_sparse_matrix.html#ada150c81b8da75a75c620640bc8255b1ae7fff3afa914d41e58149c01789d4e2d", null ],
+      [ "rows_sorted", "classug_1_1_g_p_u_sparse_matrix.html#ac737442bdf6945deef981f5e33ec0930ae7fff3afa914d41e58149c01789d4e2d", null ],
       [ "GPUSparseMatrix", "classug_1_1_g_p_u_sparse_matrix.html#adc14f8d6b4448c7d7b1de4a924e8a413", null ],
       [ "~GPUSparseMatrix", "classug_1_1_g_p_u_sparse_matrix.html#a5a1112c247e04494b1117882305d70c8", null ],
       [ "GPUSparseMatrix", "classug_1_1_g_p_u_sparse_matrix.html#a9a231739127bb5349639585c80695e33", null ],
@@ -148,10 +148,10 @@ var group__cpu__algebra =
       [ "values", "classug_1_1_g_p_u_sparse_matrix.html#a4f5daffd302fcad76029a5269b2bebcb", null ]
     ] ],
     [ "matrix_algebra_type_traits< GPUSparseMatrix< T > >", "structug_1_1matrix__algebra__type__traits_3_01_g_p_u_sparse_matrix_3_01_t_01_4_01_4.html", [
-      [ "type", "structug_1_1matrix__algebra__type__traits_3_01_g_p_u_sparse_matrix_3_01_t_01_4_01_4.html#a19f048f9c45ed5eff826e005bb22cb72aca1ebb1a6f4e3e412f158a0e622cbfc0", null ]
+      [ "type", "structug_1_1matrix__algebra__type__traits_3_01_g_p_u_sparse_matrix_3_01_t_01_4_01_4.html#adea83f4d798b8cd08da4dfb9d741c279aca1ebb1a6f4e3e412f158a0e622cbfc0", null ]
     ] ],
     [ "matrix_algebra_type_traits< SparseMatrix< T > >", "structug_1_1matrix__algebra__type__traits_3_01_sparse_matrix_3_01_t_01_4_01_4.html", [
-      [ "type", "structug_1_1matrix__algebra__type__traits_3_01_sparse_matrix_3_01_t_01_4_01_4.html#ab5e862bd642d06188e18a6781c834931ae5975fbcf8be9d6215d4b321425b4db6", null ]
+      [ "type", "structug_1_1matrix__algebra__type__traits_3_01_sparse_matrix_3_01_t_01_4_01_4.html#adc189410c471d6a146ed2e99b55dbf4bae5975fbcf8be9d6215d4b321425b4db6", null ]
     ] ],
     [ "MatrixRow", "classug_1_1_matrix_row.html", [
       [ "const_iterator", "classug_1_1_matrix_row.html#a064e19008cb60c14d1534f25e6fe426f", null ],
@@ -208,7 +208,7 @@ var group__cpu__algebra =
       [ "row_type", "classug_1_1_sparse_matrix.html#a8ddd86231fe9ebe86044ce58994a1ffa", null ],
       [ "this_type", "classug_1_1_sparse_matrix.html#a8f9875a1754b68912ab590e8ddc51539", null ],
       [ "value_type", "classug_1_1_sparse_matrix.html#a642230a6691beb13e5b82bbf69b9df78", null ],
-      [ "rows_sorted", "classug_1_1_sparse_matrix.html#a495fef11b9a5b507b44efd9cf18364aaafe4dce3f685f705dcf19aab27d8da136", null ],
+      [ "rows_sorted", "classug_1_1_sparse_matrix.html#ad697f7173c5a75bdce11632eb16d9977afe4dce3f685f705dcf19aab27d8da136", null ],
       [ "SparseMatrix", "classug_1_1_sparse_matrix.html#a7cc1357950b026509513c9cc88796c00", null ],
       [ "~SparseMatrix", "classug_1_1_sparse_matrix.html#a6d5afbe89dcc7a14b083f98f52ed2b4a", null ],
       [ "SparseMatrix", "classug_1_1_sparse_matrix.html#a5fd47454fa20f7937dacf38074e8f7ea", null ],
@@ -228,6 +228,7 @@ var group__cpu__algebra =
       [ "check_rc", "classug_1_1_sparse_matrix.html#a2a25b4d9c676343fa0e7c773469e9cd7", null ],
       [ "check_row", "classug_1_1_sparse_matrix.html#ab9879543194a557717564b0d18e2a04f", null ],
       [ "check_row_modifiable", "classug_1_1_sparse_matrix.html#a6cc915b3cd19a5f0861fd5de41bed7d0", null ],
+      [ "clear_and_free", "classug_1_1_sparse_matrix.html#ad05c0962458a58749be2f3db566c9c9a", null ],
       [ "copy_crs", "classug_1_1_sparse_matrix.html#aecd2df0b30c3da65221f29f6b125d1ee", null ],
       [ "copyToNewSize", "classug_1_1_sparse_matrix.html#a3102783cf67a5d49902c0d5673cdda44", null ],
       [ "copyToNewSize", "classug_1_1_sparse_matrix.html#acc675d38fed7ae42dc29017a8c8439a0", null ],

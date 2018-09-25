@@ -393,9 +393,9 @@ $(document).ready(function(){initNavTree('functions_func_d.html','');});
 , <a class="el" href="classug_1_1_l_f_e_i_d.html#a8ee483d04ec8ec30dc2b6ef116b04dda">ug::LFEID</a>
 , <a class="el" href="classug_1_1_local_do_f.html#affb4c69e366f71ce6917670f9a7e86b3">ug::LocalDoF</a>
 , <a class="el" href="classug_1_1_local_do_f_set.html#a73ac48263dca776e7ac251c48bc624ab">ug::LocalDoFSet</a>
-, <a class="el" href="classug_1_1_raster_1_1_coordinate.html#af55e28d79d080df36a1eaa9eee7e55cc">ug::Raster&lt; T, TDIM &gt;::Coordinate</a>
+, <a class="el" href="classug_1_1_raster_1_1_coordinate.html#ae332986a921968173e01ff86f3de3fd8">ug::Raster&lt; T, TDIM &gt;::Coordinate</a>
 , <a class="el" href="classug_1_1_raster.html#afc666f81f9cee041527caeef126f041d">ug::Raster&lt; T, TDIM &gt;</a>
-, <a class="el" href="classug_1_1_raster_1_1_multi_index.html#a97c5e0031422851bd536368e0331136f">ug::Raster&lt; T, TDIM &gt;::MultiIndex</a>
+, <a class="el" href="classug_1_1_raster_1_1_multi_index.html#a85cfc13ec024774de7505e9af26652c8">ug::Raster&lt; T, TDIM &gt;::MultiIndex</a>
 , <a class="el" href="classug_1_1_subset_group.html#ad931aea39c38cb27ba7269d4950b34e5">ug::SubsetGroup</a>
 </li>
 <li>dim_local_ips()
@@ -457,6 +457,12 @@ $(document).ready(function(){initNavTree('functions_func_d.html','');});
 <li>DirichletBoundary()
 : <a class="el" href="classug_1_1_dirichlet_boundary.html#a163eb89101d327fa60aba380fd026a04">ug::DirichletBoundary&lt; TDomain, TAlgebra &gt;</a>
 </li>
+<li>disable_adaptive_refinement()
+: <a class="el" href="classug_1_1_nested_iteration_solver.html#a864b210290d0211fb3ceda789e9f9ded">ug::NestedIterationSolver&lt; TDomain, TAlgebra &gt;</a>
+</li>
+<li>disable_clear_on_resize()
+: <a class="el" href="classug_1_1_assembling_tuner.html#a1bee16a859287b4ae2cdfa095dd3e4b8">ug::AssemblingTuner&lt; TAlgebra &gt;</a>
+</li>
 <li>disable_communication_debugging()
 : <a class="el" href="classpcl_1_1_interface_communicator.html#aa042ee3884036a1c79a90c19d1506dec">pcl::InterfaceCommunicator&lt; TLayout &gt;</a>
 </li>
@@ -488,6 +494,21 @@ $(document).ready(function(){initNavTree('functions_func_d.html','');});
 <li>dist_info_attachment()
 : <a class="el" href="classug_1_1_dist_info_supplier.html#ac1fa2f658a3bf661471d968200581f3c">ug::DistInfoSupplier</a>
 </li>
+<li>distance()
+: <a class="el" href="classug_1_1_composite_space.html#af36aa04f3a50dc53c07811417b4e971b">ug::CompositeSpace&lt; TGridFunction &gt;</a>
+, <a class="el" href="classug_1_1_i_banach_space.html#a9d02f00f77ebbf1c5c7f2979643551b9">ug::IBanachSpace&lt; TVector &gt;</a>
+, <a class="el" href="classug_1_1_i_component_space.html#ae141e4774cbb944a5dba0151d7e1932e">ug::IComponentSpace&lt; TGridFunction &gt;</a>
+, <a class="el" href="classug_1_1_i_grid_function_space.html#a29122b49f3a661a21118512fcf72ec68">ug::IGridFunctionSpace&lt; TGridFunction &gt;</a>
+</li>
+<li>distance2()
+: <a class="el" href="classug_1_1_composite_space.html#a6832159791c05e0dae82a84c12658cc1">ug::CompositeSpace&lt; TGridFunction &gt;</a>
+, <a class="el" href="classug_1_1_h1_component_space.html#aafc7ac781b4007ad390116b0d9868b0e">ug::H1ComponentSpace&lt; TGridFunction &gt;</a>
+, <a class="el" href="classug_1_1_h1_energy_component_space.html#a7888d215291bdb02e5a8c0671b6d786b">ug::H1EnergyComponentSpace&lt; TGridFunction &gt;</a>
+, <a class="el" href="classug_1_1_h1_semi_component_space.html#ad5a2e6dfa1d2d8e5a01efd4d8a031801">ug::H1SemiComponentSpace&lt; TGridFunction &gt;</a>
+, <a class="el" href="classug_1_1_i_component_space.html#a42fdb2741765b3993c75177790aed506">ug::IComponentSpace&lt; TGridFunction &gt;</a>
+, <a class="el" href="classug_1_1_l2_component_space.html#a9b75808b1376b2be61cbfd9e824240f9">ug::L2ComponentSpace&lt; TGridFunction &gt;</a>
+, <a class="el" href="classug_1_1_l2_quotient_space.html#a72ff59efbda2ae3873bf98b913091400">ug::L2QuotientSpace&lt; TGridFunction &gt;</a>
+</li>
 <li>distance_to_master_or_inner()
 : <a class="el" href="classug_1_1_parallel_nodes.html#acfd9c54f457e0773d1b6961925d017b2">ug::ParallelNodes</a>
 , <a class="el" href="structug_1_1_parallel_nodes_1_1_overlap_type.html#a751568d01780fa795bd122e725f1781e">ug::ParallelNodes::OverlapType</a>
@@ -496,14 +517,14 @@ $(document).ready(function(){initNavTree('functions_func_d.html','');});
 : <a class="el" href="classug_1_1_dist_info_supplier.html#ac3f3b9c0c1f262a46fce8629295f177a">ug::DistInfoSupplier</a>
 </li>
 <li>distribute_data()
-: <a class="el" href="classpcl_1_1_process_communicator.html#a8cea9e6a3075ff027571cef208d61f42">pcl::ProcessCommunicator</a>
+: <a class="el" href="classpcl_1_1_process_communicator.html#ad8eec965d9be3c758db248c3ab063c92">pcl::ProcessCommunicator</a>
 </li>
 <li>distributed_grid_manager()
-: <a class="el" href="classug_1_1_grid.html#a6b719423f3e4775075402b9b5fbb64de">ug::Grid</a>
+: <a class="el" href="classug_1_1_grid.html#a3d43b9ab84c1e4ad834f5a429f18ca1a">ug::Grid</a>
 , <a class="el" href="group__lib__disc__domain.html#ga324a880d3df67710d7e7fe00b17fa4d0">ug::IDomain&lt; TGrid, TSubsetHandler &gt;</a>
 </li>
 <li>DistributedGridManager()
-: <a class="el" href="classug_1_1_distributed_grid_manager.html#a39817a3ab9a673978268c5ab9c3fa6c0">ug::DistributedGridManager</a>
+: <a class="el" href="classug_1_1_distributed_grid_manager.html#a9b1fd24ace22c3870b1926e9d5f2cfa7">ug::DistributedGridManager</a>
 </li>
 <li>distro_adjuster()
 : <a class="el" href="classug_1_1_distributed_grid_manager.html#ac7f6c7e53a0675e837b8105ee5543760">ug::DistributedGridManager</a>
@@ -596,15 +617,15 @@ $(document).ready(function(){initNavTree('functions_func_d.html','');});
 : <a class="el" href="classug_1_1_i_elem_assemble_funcs.html#aca80a2cae605774513f81d562e8d20a8">ug::IElemAssembleFuncs&lt; TLeaf, TDomain &gt;</a>
 </li>
 <li>do_restrict()
-: <a class="el" href="classug_1_1_adaption_surface_grid_function.html#abe21ad9b3c33cb20ee5949c4f0df3dc9">ug::AdaptionSurfaceGridFunction&lt; TDomain &gt;</a>
+: <a class="el" href="classug_1_1_adaption_surface_grid_function.html#a9ae146ff64e8fb5ca6da4a63e57b2bac">ug::AdaptionSurfaceGridFunction&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_crouzeix_raviart_elem_transfer.html#a208a72d677896eb489c6acc7e1e33483">ug::CrouzeixRaviartElemTransfer&lt; TDomain &gt;</a>
-, <a class="el" href="classug_1_1_elem_restriction_base.html#aab23f88f980b17ded919f1e610549591">ug::ElemRestrictionBase&lt; TDomain, TImpl &gt;</a>
-, <a class="el" href="classug_1_1_i_elem_restriction.html#a7b7b6718cab06b47c4315e74a088809d">ug::IElemRestriction&lt; TDomain &gt;</a>
+, <a class="el" href="classug_1_1_elem_restriction_base.html#a5fae410d43e26b9fa7f743506cf8b7da">ug::ElemRestrictionBase&lt; TDomain, TImpl &gt;</a>
+, <a class="el" href="classug_1_1_i_elem_restriction.html#a3c5907ee08bc42678e6ec1ec27f8bf3f">ug::IElemRestriction&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_i_transfer_operator.html#a548cba20f54d34bca53cf7128fdd5aa0">ug::ITransferOperator&lt; TDomain, TAlgebra &gt;</a>
-, <a class="el" href="classug_1_1_p1_lagrange_elem_transfer.html#ab0072d190d8f687d188b28847446758a">ug::P1LagrangeElemTransfer&lt; TDomain &gt;</a>
+, <a class="el" href="classug_1_1_p1_lagrange_elem_transfer.html#a26ce2f9e59d71db5c8aa98ccf0d44bc0">ug::P1LagrangeElemTransfer&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_piecewise_constant_elem_transfer.html#ad1faa41c81cf3e6f755ed294038a1c75">ug::PiecewiseConstantElemTransfer&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_std_injection.html#a9dd91c7a49bcde93458c36e2705d02e5">ug::StdInjection&lt; TDomain, TAlgebra &gt;</a>
-, <a class="el" href="classug_1_1_std_lagrange_elem_transfer.html#afa73bf2328ac32d020ed0186d6e246f7">ug::StdLagrangeElemTransfer&lt; TDomain &gt;</a>
+, <a class="el" href="classug_1_1_std_lagrange_elem_transfer.html#abd63533247dd8fece8d2c5e08b267cd9">ug::StdLagrangeElemTransfer&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_std_transfer.html#a60ecb7848d8386b0a7902c1fffac8515">ug::StdTransfer&lt; TDomain, TAlgebra &gt;</a>
 </li>
 <li>do_return()
@@ -629,11 +650,12 @@ $(document).ready(function(){initNavTree('functions_func_d.html','');});
 : <a class="el" href="classug_1_1_i_approximation_space.html#aa1d6d1546ccf123d9813e48fbbca90d3">ug::IApproximationSpace</a>
 </li>
 <li>dof_indices()
-: <a class="el" href="classug_1_1_do_f_distribution.html#a39671bd97261199963372fc2c12c97c1">ug::DoFDistribution</a>
+: <a class="el" href="classug_1_1_do_f_distribution.html#a4d0d80a9d547a0f08ae38b3522106499">ug::DoFDistribution</a>
 , <a class="el" href="classug_1_1_grid_function.html#a522e0336f665f95ee51afa07dd4a1bd1">ug::GridFunction&lt; TDomain, TAlgebra &gt;</a>
+, <a class="el" href="classug_1_1_scalar_grid_function_data.html#ac086c438c54c90cbeddd3c3fa8850c79">ug::ScalarGridFunctionData&lt; TGridFunction &gt;</a>
 </li>
 <li>DoFCount()
-: <a class="el" href="classug_1_1_do_f_count.html#a97b11a09c8db507375c16626b07c47dd">ug::DoFCount</a>
+: <a class="el" href="classug_1_1_do_f_count.html#a4dcf7363f127b67725fabd48e3e2c4d3">ug::DoFCount</a>
 </li>
 <li>DoFDistribution()
 : <a class="el" href="classug_1_1_do_f_distribution.html#aa425f8fba1681549a416d2ae5b11758b">ug::DoFDistribution</a>
@@ -642,7 +664,7 @@ $(document).ready(function(){initNavTree('functions_func_d.html','');});
 : <a class="el" href="classug_1_1_do_f_distribution_info.html#aaf80406d6d95e90523180525f606820c">ug::DoFDistributionInfo</a>
 </li>
 <li>DoFDistributionInfoProvider()
-: <a class="el" href="classug_1_1_do_f_distribution_info_provider.html#a9d77f99a9f0245e3647b62a87e92df18">ug::DoFDistributionInfoProvider</a>
+: <a class="el" href="classug_1_1_do_f_distribution_info_provider.html#a82ddd3c710ac12579f02da732e474369">ug::DoFDistributionInfoProvider</a>
 </li>
 <li>DoFIndexStorage()
 : <a class="el" href="classug_1_1_do_f_index_storage.html#aac7a931e9f253e5d3353627621c644ec">ug::DoFIndexStorage</a>
@@ -671,8 +693,12 @@ $(document).ready(function(){initNavTree('functions_func_d.html','');});
 , <a class="el" href="group__lib__disc__domain.html#ga33ea717e5cb1419d212b7f5d0eb695eb">ug::Domain&lt; d, TGrid, TSubsetHandler &gt;</a>
 </li>
 <li>domain()
-: <a class="el" href="classug_1_1_grid_function.html#aafa7d7a49c391e469a9dd8f249eddea2">ug::GridFunction&lt; TDomain, TAlgebra &gt;</a>
+: <a class="el" href="classug_1_1_grid_function.html#a323d3e25aa6922cdb86335222e145f0a">ug::GridFunction&lt; TDomain, TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_i_elem_disc_base.html#a2cfa5ae8a5074d4a4c89faeb9de8a8c4">ug::IElemDiscBase&lt; TDomain &gt;</a>
+, <a class="el" href="classug_1_1_scalar_grid_function_data.html#a781334dedd785b4fb20c439c614e2ab3">ug::ScalarGridFunctionData&lt; TGridFunction &gt;</a>
+</li>
+<li>domain_disc()
+: <a class="el" href="classug_1_1_i_time_discretization.html#a83ee87328be5c381c8b60cd904826c19">ug::ITimeDiscretization&lt; TAlgebra &gt;</a>
 </li>
 <li>domain_info()
 : <a class="el" href="group__lib__disc__domain.html#ga6bc4fc77f8c775b48e7f434f5c050251">ug::IDomain&lt; TGrid, TSubsetHandler &gt;</a>
@@ -681,7 +707,7 @@ $(document).ready(function(){initNavTree('functions_func_d.html','');});
 : <a class="el" href="structug_1_1bridge_1_1_adaptive_tools_1_1_functionality.html#a806ed380e2225e2f0ee78253bfd7d102">ug::bridge::AdaptiveTools::Functionality</a>
 , <a class="el" href="structug_1_1bridge_1_1_c_l_i___functionality.html#a592cf390fa33cf68cf5574f190bf6f30">ug::bridge::CLI_Functionality</a>
 , <a class="el" href="structug_1_1bridge_1_1_constraints_1_1_functionality.html#a5964e97d7898ed29acdf825edf1f9e18">ug::bridge::Constraints::Functionality</a>
-, <a class="el" href="structug_1_1bridge_1_1_disc_algebra_1_1_functionality.html#acc875afcc008434d4ad70920cded9593">ug::bridge::DiscAlgebra::Functionality</a>
+, <a class="el" href="structug_1_1bridge_1_1_disc_algebra_1_1_functionality.html#a1248b57a9b67cb5cfd940a8b0a2e3796">ug::bridge::DiscAlgebra::Functionality</a>
 , <a class="el" href="structug_1_1bridge_1_1_domain_disc_1_1_functionality.html#a2c3dd848a651316c054ad529c27a120c">ug::bridge::DomainDisc::Functionality</a>
 , <a class="el" href="structug_1_1bridge_1_1_evaluate_1_1_functionality.html#a2951f6fd2be8ecede4c0e0cc57197418">ug::bridge::Evaluate::Functionality</a>
 , <a class="el" href="structug_1_1bridge_1_1_finite_volume_1_1_functionality.html#a849e0874d38dbe15ae8300b252e6d5c6">ug::bridge::FiniteVolume::Functionality</a>
@@ -747,7 +773,7 @@ $(document).ready(function(){initNavTree('functions_func_d.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:52 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:09:39 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

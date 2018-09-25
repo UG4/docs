@@ -7,6 +7,7 @@ var structug_1_1_dirichlet_boundary_1_1_number_data =
     [ "fctName", "structug_1_1_dirichlet_boundary_1_1_number_data.html#a7774641cb647c3ee8958ce0f25f54fcc", null ],
     [ "isConditional", "structug_1_1_dirichlet_boundary_1_1_number_data.html#a5cc96166fb064e0c6f84fdcf6f1c58bf", null ],
     [ "numFct", "structug_1_1_dirichlet_boundary_1_1_number_data.html#a16ddb8673b3ed99b824593bffb40a584", null ],
+    [ "setSolValue", "structug_1_1_dirichlet_boundary_1_1_number_data.html#a80e59df53fde3361116d96b42b7599b4", null ],
     [ "spFunctor", "structug_1_1_dirichlet_boundary_1_1_number_data.html#aac3574fd1f2ed9c153c3008eff012c67", null ],
     [ "ssGrp", "structug_1_1_dirichlet_boundary_1_1_number_data.html#a6b246c04592689a70414b6b479bf7816", null ],
     [ "ssName", "structug_1_1_dirichlet_boundary_1_1_number_data.html#a03d119b359e7bbd9b9a4444f957e68ec", null ]

@@ -113,9 +113,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a5746ad9e438a13a28982c0fd9f6dae37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_coordinate_range.html#a5746ad9e438a13a28982c0fd9f6dae37">SelectElementsByRangeZ</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, double min, double max, bool select_vrts, bool select_edges, bool select_faces, bool select_volumes)</td></tr>
 <tr class="memdesc:a5746ad9e438a13a28982c0fd9f6dae37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects all elements whose center lies in the specified range.  <a href="#a5746ad9e438a13a28982c0fd9f6dae37">More...</a><br /></td></tr>
 <tr class="separator:a5746ad9e438a13a28982c0fd9f6dae37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53d2ab46deea1de528cee0f2ba9599ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_coordinate_range.html#a53d2ab46deea1de528cee0f2ba9599ca">SelectElementsBySplitPlane</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, bool select_vrts, bool select_edges, bool select_faces, bool select_volumes, const Vec3d *pivot, const Vec3d *<a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__io.html#gga6a82612c01d3d1a74ef7c21feb1d3577a940e1736cb82fb7bcacdc88c67705d75">normal</a>)</td></tr>
-<tr class="memdesc:a53d2ab46deea1de528cee0f2ba9599ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects elements whose center lies in front of the specified plane.  <a href="#a53d2ab46deea1de528cee0f2ba9599ca">More...</a><br /></td></tr>
-<tr class="separator:a53d2ab46deea1de528cee0f2ba9599ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb6e605276286657adca833f94a3622f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_coordinate_range.html#acb6e605276286657adca833f94a3622f">SelectElementsBySplitPlane</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, bool select_vrts, bool select_edges, bool select_faces, bool select_volumes, const Vec *pivot, const Vec *<a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__ugbase__common__io.html#gga6a82612c01d3d1a74ef7c21feb1d3577a940e1736cb82fb7bcacdc88c67705d75">normal</a>)</td></tr>
+<tr class="memdesc:acb6e605276286657adca833f94a3622f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects elements whose center lies in front of the specified plane.  <a href="#acb6e605276286657adca833f94a3622f">More...</a><br /></td></tr>
+<tr class="separator:acb6e605276286657adca833f94a3622f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a3d7a3fe0c5c132f16b0771e32761aae8"></a>
@@ -574,8 +574,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a53d2ab46deea1de528cee0f2ba9599ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53d2ab46deea1de528cee0f2ba9599ca">&sect;&nbsp;</a></span>SelectElementsBySplitPlane()</h2>
+<a id="acb6e605276286657adca833f94a3622f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb6e605276286657adca833f94a3622f">&sect;&nbsp;</a></span>SelectElementsBySplitPlane()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -613,13 +613,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Vec3d *&#160;</td>
+          <td class="paramtype">const Vec *&#160;</td>
           <td class="paramname"><em>pivot</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Vec3d *&#160;</td>
+          <td class="paramtype">const Vec *&#160;</td>
           <td class="paramname"><em>normal</em>&#160;</td>
         </tr>
         <tr>
@@ -644,7 +644,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga31026f76fae363372b48a82582b56c8f">SelectElementsBySplitPlane()</a>.</p>
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga31026f76fae363372b48a82582b56c8f">SelectElementsBySplitPlane()</a>.</p>
 
 </div>
 </div>
@@ -654,7 +654,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug4_bridge.html">ug4Bridge</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh.html">promesh</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection.html">Selection</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_coordinate_range.html">CoordinateRange</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:03:00 for Registry by
+    <li class="footer">Generated on Tue Sep 25 2018 10:07:07 for Registry by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

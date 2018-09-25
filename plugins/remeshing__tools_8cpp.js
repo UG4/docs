@@ -21,6 +21,7 @@ var remeshing__tools_8cpp =
     [ "ExtrudeFacesWithTets", "remeshing__tools_8cpp.html#ga441ff500cc1e5a87b530b7d019149647", null ],
     [ "ExtrudeLayers", "remeshing__tools_8cpp.html#gaf6f24f6d680280a27ec82b95bb9d08d2", null ],
     [ "ExtrudeLayersAndAddProjector", "remeshing__tools_8cpp.html#gac9aad1ae66069362cd5ebb06fa88d753", null ],
+    [ "ExtrudeToThickness", "remeshing__tools_8cpp.html#ga0667d77ed084595bb9780c4c052fd198", null ],
     [ "MeshLayerBoundaries", "remeshing__tools_8cpp.html#ga2fe4d2315d325cf5c43ff02fcf7f4fd1", null ],
     [ "MeshLayers", "remeshing__tools_8cpp.html#gaa47a8d77ce37b46a567083ca36561a06", null ],
     [ "ProjectToLayer", "remeshing__tools_8cpp.html#ga656afa31b2bcb63391d7fac865bf23ee", null ],

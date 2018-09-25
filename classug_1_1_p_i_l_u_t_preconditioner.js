@@ -13,11 +13,13 @@ var classug_1_1_p_i_l_u_t_preconditioner =
     [ "postprocess", "classug_1_1_p_i_l_u_t_preconditioner.html#afe277d1f2aef6a4d9663745217efbfcc", null ],
     [ "preprocess", "classug_1_1_p_i_l_u_t_preconditioner.html#a407988841dd99ed7aa78daea1be7bec3", null ],
     [ "set_info", "classug_1_1_p_i_l_u_t_preconditioner.html#a5cff425544a4f8190ebc8b3e1854eb8b", null ],
+    [ "set_show_progress", "classug_1_1_p_i_l_u_t_preconditioner.html#aa71726f54021aa92f7e18aff9fb9c2ff", null ],
     [ "set_threshold", "classug_1_1_p_i_l_u_t_preconditioner.html#a5fb2d5f835d2f197b5d1fe98dacf5157", null ],
     [ "step", "classug_1_1_p_i_l_u_t_preconditioner.html#ac8e15d634cf9748601705340d7f8a7ec", null ],
     [ "m_eps", "classug_1_1_p_i_l_u_t_preconditioner.html#a1c89ee854dba1b39a7e616433250a692", null ],
     [ "m_info", "classug_1_1_p_i_l_u_t_preconditioner.html#a9ed20bba709d656be2bfcb83fe3888b3", null ],
     [ "m_L", "classug_1_1_p_i_l_u_t_preconditioner.html#a292217038a5e57a952507d7927e733f9", null ],
+    [ "m_show_progress", "classug_1_1_p_i_l_u_t_preconditioner.html#aa00aafef05012d378c8583097fd7628c", null ],
     [ "m_small", "classug_1_1_p_i_l_u_t_preconditioner.html#ac0be928701e9431ea1b093b2e750e303", null ],
     [ "m_U", "classug_1_1_p_i_l_u_t_preconditioner.html#a190db79f4f65d77068c0cc95950864e2", null ]
 ];

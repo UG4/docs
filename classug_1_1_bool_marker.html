@@ -251,7 +251,7 @@ Protected Attributes</h2></td></tr>
 <p>This class allows to mark elements of a grid. The <a class="el" href="classug_1_1_bool_marker.html" title="Allows to mark elements. ">BoolMarker</a> associates a bool with each element. Note that clearing the marks has a runtime complexity of O(n). If you need marks for repeatedly called local algorithms you may want to use <a class="el" href="classug_1_1_grid.html#a886c89b50e8f2980bfcdf74e65b23683" title="marks the object. Calls are only valid between calls to Grid::begin_marking and Grid::end_marking. ">Grid::mark</a> instead, which has a clear_marks method with runtime complexity of O(1).</p>
 <p>Note that methods like mark, unmark, is_marked, clear, ... may only be invoked, if a grid was assigned through either assign_grid or through the constructor.</p>
 <p>Marks can be passed to children, when an element is refined. You have to enable mark inheritance in order to activate this behavior (use enable_mark_inheritance). Mark inheritance is enabled by default.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000060">Todo:</a></b></dt><dd><p class="startdd">Allow to restrict marking to vertices, edges, faces or volumes </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000062">Todo:</a></b></dt><dd><p class="startdd">Allow to restrict marking to vertices, edges, faces or volumes </p>
 <p>Add is_marked, mark, unmark for <a class="el" href="classug_1_1_grid_object.html" title="The base class for all geometric objects, such as vertices, edges, faces, volumes, ... ">GridObject</a> </p>
 <p class="enddd">Refactor to template &lt;class T&gt; Marker. </p>
 </dd></dl>
@@ -1844,7 +1844,7 @@ template&lt;class TIter &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_bool_marker.html">BoolMarker</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:18 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:08:54 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

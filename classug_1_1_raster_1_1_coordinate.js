@@ -3,7 +3,7 @@ var classug_1_1_raster_1_1_coordinate =
     [ "Coordinate", "classug_1_1_raster_1_1_coordinate.html#a40cb30a438b51ac766c55247e1005580", null ],
     [ "Coordinate", "classug_1_1_raster_1_1_coordinate.html#ae3c7adb93b3498f206f371138c742174", null ],
     [ "Coordinate", "classug_1_1_raster_1_1_coordinate.html#a9b08f5493fdbd14f83b2e8a9b8bf1086", null ],
-    [ "dim", "classug_1_1_raster_1_1_coordinate.html#af55e28d79d080df36a1eaa9eee7e55cc", null ],
+    [ "dim", "classug_1_1_raster_1_1_coordinate.html#ae332986a921968173e01ff86f3de3fd8", null ],
     [ "operator*=", "classug_1_1_raster_1_1_coordinate.html#a4a9ac7dc9c3f8d0969d0deb2fb24267a", null ],
     [ "operator+=", "classug_1_1_raster_1_1_coordinate.html#ac947a3d6195e48edbcacb10c3e1ab793", null ],
     [ "operator-=", "classug_1_1_raster_1_1_coordinate.html#a229758eaa86a6f4550f94bd2d0a2e11f", null ],

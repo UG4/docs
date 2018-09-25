@@ -244,6 +244,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4fe9406a1f2fa498d14ba8c5f58ed94b inherit pub_methods_classug_1_1_i_approximation_space"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_do_f_distribution_info.html">DoFDistributionInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_approximation_space.html#a4fe9406a1f2fa498d14ba8c5f58ed94b">dof_distribution_info</a> () const</td></tr>
 <tr class="separator:a4fe9406a1f2fa498d14ba8c5f58ed94b inherit pub_methods_classug_1_1_i_approximation_space"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classug_1_1_do_f_distribution_info_provider"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classug_1_1_do_f_distribution_info_provider')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classug_1_1_do_f_distribution_info_provider.html">ug::DoFDistributionInfoProvider</a></td></tr>
+<tr class="memitem:a110c446bf8d13a228d45d22c11f1894a inherit pub_methods_classug_1_1_do_f_distribution_info_provider"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_subset_group.html">SubsetGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_do_f_distribution_info_provider.html#a110c446bf8d13a228d45d22c11f1894a">all_subsets_grp_except_for</a> (const char *<a class="el" href="classug_1_1_do_f_distribution_info_provider.html#a7f3a41c02793f8d2ea525a426904a5cf">names</a>) const</td></tr>
+<tr class="memdesc:a110c446bf8d13a228d45d22c11f1894a inherit pub_methods_classug_1_1_do_f_distribution_info_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns subset group of all the subsets except for (by name)  <a href="classug_1_1_do_f_distribution_info_provider.html#a110c446bf8d13a228d45d22c11f1894a">More...</a><br /></td></tr>
+<tr class="separator:a110c446bf8d13a228d45d22c11f1894a inherit pub_methods_classug_1_1_do_f_distribution_info_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a757976810b7256929acbde849a52cda2 inherit pub_methods_classug_1_1_do_f_distribution_info_provider"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_do_f_distribution_info_provider.html#a757976810b7256929acbde849a52cda2">dim</a> (size_t fct) const</td></tr>
 <tr class="memdesc:a757976810b7256929acbde849a52cda2 inherit pub_methods_classug_1_1_do_f_distribution_info_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the dimension in which solution lives  <a href="classug_1_1_do_f_distribution_info_provider.html#a757976810b7256929acbde849a52cda2">More...</a><br /></td></tr>
 <tr class="separator:a757976810b7256929acbde849a52cda2 inherit pub_methods_classug_1_1_do_f_distribution_info_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -482,7 +485,7 @@ template&lt;typename TDomain&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDomain &gt; </div>
+template&lt;typename TDomain&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classug_1_1_approximation_space.html">ug::ApproximationSpace</a>&lt; TDomain &gt;::<a class="el" href="classug_1_1_approximation_space.html">ApproximationSpace</a> </td>
@@ -496,8 +499,6 @@ template&lt;typename TDomain &gt; </div>
 
 <p>constructor </p>
 
-<p>References <a class="el" href="classug_1_1_approximation_space.html#a5da706ec6e543aa06d674ae8b602647e">ug::ApproximationSpace&lt; TDomain &gt;::m_spDomain</a>, <a class="el" href="classug_1_1_i_approximation_space.html#a88c2d29df3a097be2fd609fb6d77f45e">ug::IApproximationSpace::m_spMGSH</a>, <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>, and <a class="el" href="class_smart_ptr.html#ab31be10adb38f2b205f0531bb23e7a23">SmartPtr&lt; T, FreePolicy &gt;::valid()</a>.</p>
-
 </div>
 </div>
 <a id="aa6d8b4e6037235376bad36eaddbcba2b"></a>
@@ -506,7 +507,7 @@ template&lt;typename TDomain &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDomain &gt; </div>
+template&lt;typename TDomain&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classug_1_1_approximation_space.html">ug::ApproximationSpace</a>&lt; TDomain &gt;::<a class="el" href="classug_1_1_approximation_space.html">ApproximationSpace</a> </td>
@@ -529,8 +530,6 @@ template&lt;typename TDomain &gt; </div>
 </div><div class="memdoc">
 
 <p>constructor passing requested algebra type </p>
-
-<p>References <a class="el" href="classug_1_1_approximation_space.html#a5da706ec6e543aa06d674ae8b602647e">ug::ApproximationSpace&lt; TDomain &gt;::m_spDomain</a>, <a class="el" href="classug_1_1_i_approximation_space.html#a88c2d29df3a097be2fd609fb6d77f45e">ug::IApproximationSpace::m_spMGSH</a>, <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>, and <a class="el" href="class_smart_ptr.html#ab31be10adb38f2b205f0531bb23e7a23">SmartPtr&lt; T, FreePolicy &gt;::valid()</a>.</p>
 
 </div>
 </div>
@@ -620,8 +619,6 @@ template&lt;typename TDomain&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classug_1_1_do_f_distribution_info_provider.html#a757976810b7256929acbde849a52cda2">ug::DoFDistributionInfoProvider::dim()</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -675,8 +672,6 @@ template&lt;typename TDomain&gt; </div>
 
 <p><a class="el" href="classug_1_1_domain.html">Domain</a>, where solution lives. </p>
 
-<p>Referenced by <a class="el" href="classug_1_1_approximation_space.html#a14d787e98793f17726a8ffd569caa2ca">ug::ApproximationSpace&lt; TDomain &gt;::ApproximationSpace()</a>.</p>
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
@@ -689,7 +684,7 @@ template&lt;typename TDomain&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_approximation_space.html">ApproximationSpace</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:17 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:08:50 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -94,10 +94,18 @@ $(document).ready(function(){initNavTree('group__lib__algebra__parallelization__
 <p>Util Functions for parallel Algebra.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
+<tr class="memitem:ga16d29da500a93fd47184d23442fcd5ed"><td class="memTemplParams" colspan="2">template&lt;class TLayout &gt; </td></tr>
+<tr class="memitem:ga16d29da500a93fd47184d23442fcd5ed"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__algebra__parallelization__util.html#ga16d29da500a93fd47184d23442fcd5ed">ug::GenerateGlobalAlgebraIDs</a> (<a class="el" href="classpcl_1_1_interface_communicator.html">pcl::InterfaceCommunicator</a>&lt; TLayout &gt; &amp;communicator, std::vector&lt; <a class="el" href="structug_1_1_algebra_i_d.html">AlgebraID</a> &gt; &amp;idsOut, size_t numIDs, const TLayout &amp;masterLayout, const TLayout &amp;slaveLayout)</td></tr>
+<tr class="memdesc:ga16d29da500a93fd47184d23442fcd5ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a set of unique global algebra ids.  <a href="group__lib__algebra__parallelization__util.html#ga16d29da500a93fd47184d23442fcd5ed">More...</a><br /></td></tr>
+<tr class="separator:ga16d29da500a93fd47184d23442fcd5ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3da2c2603824b8c974b22d8b2f67275b"><td class="memTemplParams" colspan="2">template&lt;typename TMatrix &gt; </td></tr>
 <tr class="memitem:ga3da2c2603824b8c974b22d8b2f67275b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__algebra__parallelization__util.html#ga3da2c2603824b8c974b22d8b2f67275b">ug::MatAddSlaveRowsToMasterRowOverlap0</a> (TMatrix &amp;mat)</td></tr>
-<tr class="memdesc:ga3da2c2603824b8c974b22d8b2f67275b"><td class="mdescLeft">&#160;</td><td class="mdescRight">changes parallel storage type from additive to consistent  <a href="group__lib__algebra__parallelization__util.html#ga3da2c2603824b8c974b22d8b2f67275b">More...</a><br /></td></tr>
+<tr class="memdesc:ga3da2c2603824b8c974b22d8b2f67275b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a set of unique global algebra ids.  <a href="group__lib__algebra__parallelization__util.html#ga3da2c2603824b8c974b22d8b2f67275b">More...</a><br /></td></tr>
 <tr class="separator:ga3da2c2603824b8c974b22d8b2f67275b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga62ff21e4f3ecc0f4803e61725edd7fed"><td class="memTemplParams" colspan="2">template&lt;typename TMatrix &gt; </td></tr>
+<tr class="memitem:ga62ff21e4f3ecc0f4803e61725edd7fed"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__algebra__parallelization__util.html#ga62ff21e4f3ecc0f4803e61725edd7fed">ug::MatMakeConsistentOverlap0</a> (TMatrix &amp;mat)</td></tr>
+<tr class="memdesc:ga62ff21e4f3ecc0f4803e61725edd7fed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a set of unique global algebra ids.  <a href="group__lib__algebra__parallelization__util.html#ga62ff21e4f3ecc0f4803e61725edd7fed">More...</a><br /></td></tr>
+<tr class="separator:ga62ff21e4f3ecc0f4803e61725edd7fed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaecc2ecad8e08839d585ef1846667e44f"><td class="memTemplParams" colspan="2">template&lt;typename TVector &gt; </td></tr>
 <tr class="memitem:gaecc2ecad8e08839d585ef1846667e44f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__algebra__parallelization__util.html#gaecc2ecad8e08839d585ef1846667e44f">ug::AdditiveToConsistent</a> (TVector *pVec, const <a class="el" href="group__lib__algebra__parallelization.html#gad2e106a1a11b3d94250becdabf196f65">IndexLayout</a> &amp;masterLayout, const <a class="el" href="group__lib__algebra__parallelization.html#gad2e106a1a11b3d94250becdabf196f65">IndexLayout</a> &amp;slaveLayout, <a class="el" href="classpcl_1_1_interface_communicator.html">pcl::InterfaceCommunicator</a>&lt; <a class="el" href="group__lib__algebra__parallelization.html#gad2e106a1a11b3d94250becdabf196f65">IndexLayout</a> &gt; *pCom=NULL)</td></tr>
 <tr class="memdesc:gaecc2ecad8e08839d585ef1846667e44f"><td class="mdescLeft">&#160;</td><td class="mdescRight">changes parallel storage type from additive to consistent  <a href="group__lib__algebra__parallelization__util.html#gaecc2ecad8e08839d585ef1846667e44f">More...</a><br /></td></tr>
@@ -106,6 +114,10 @@ $(document).ready(function(){initNavTree('group__lib__algebra__parallelization__
 <tr class="memitem:ga41105b645bc5319e94c405fd4670b848"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__algebra__parallelization__util.html#ga41105b645bc5319e94c405fd4670b848">ug::UniqueToConsistent</a> (TVector *pVec, const <a class="el" href="group__lib__algebra__parallelization.html#gad2e106a1a11b3d94250becdabf196f65">IndexLayout</a> &amp;masterLayout, const <a class="el" href="group__lib__algebra__parallelization.html#gad2e106a1a11b3d94250becdabf196f65">IndexLayout</a> &amp;slaveLayout, <a class="el" href="classpcl_1_1_interface_communicator.html">pcl::InterfaceCommunicator</a>&lt; <a class="el" href="group__lib__algebra__parallelization.html#gad2e106a1a11b3d94250becdabf196f65">IndexLayout</a> &gt; *pCom=NULL)</td></tr>
 <tr class="memdesc:ga41105b645bc5319e94c405fd4670b848"><td class="mdescLeft">&#160;</td><td class="mdescRight">changes parallel storage type from unique to consistent  <a href="group__lib__algebra__parallelization__util.html#ga41105b645bc5319e94c405fd4670b848">More...</a><br /></td></tr>
 <tr class="separator:ga41105b645bc5319e94c405fd4670b848"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaae7502365fc2b2a3a1867c8e06324cd8"><td class="memTemplParams" colspan="2">template&lt;typename TVector &gt; </td></tr>
+<tr class="memitem:gaae7502365fc2b2a3a1867c8e06324cd8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__algebra__parallelization__util.html#gaae7502365fc2b2a3a1867c8e06324cd8">ug::CopyValues</a> (TVector *pVec, const <a class="el" href="group__lib__algebra__parallelization.html#gad2e106a1a11b3d94250becdabf196f65">IndexLayout</a> &amp;sourceLayout, const <a class="el" href="group__lib__algebra__parallelization.html#gad2e106a1a11b3d94250becdabf196f65">IndexLayout</a> &amp;targetLayout, <a class="el" href="classpcl_1_1_interface_communicator.html">pcl::InterfaceCommunicator</a>&lt; <a class="el" href="group__lib__algebra__parallelization.html#gad2e106a1a11b3d94250becdabf196f65">IndexLayout</a> &gt; *pCom=NULL)</td></tr>
+<tr class="memdesc:gaae7502365fc2b2a3a1867c8e06324cd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies values from the source to the target layout.  <a href="group__lib__algebra__parallelization__util.html#gaae7502365fc2b2a3a1867c8e06324cd8">More...</a><br /></td></tr>
+<tr class="separator:gaae7502365fc2b2a3a1867c8e06324cd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7cce17d66c105ef07b39137bcb130efa"><td class="memTemplParams" colspan="2">template&lt;typename TVector &gt; </td></tr>
 <tr class="memitem:ga7cce17d66c105ef07b39137bcb130efa"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__algebra__parallelization__util.html#ga7cce17d66c105ef07b39137bcb130efa">ug::AdditiveToUnique</a> (TVector *pVec, const <a class="el" href="group__lib__algebra__parallelization.html#gad2e106a1a11b3d94250becdabf196f65">IndexLayout</a> &amp;masterLayout, const <a class="el" href="group__lib__algebra__parallelization.html#gad2e106a1a11b3d94250becdabf196f65">IndexLayout</a> &amp;slaveLayout, <a class="el" href="classpcl_1_1_interface_communicator.html">pcl::InterfaceCommunicator</a>&lt; <a class="el" href="group__lib__algebra__parallelization.html#gad2e106a1a11b3d94250becdabf196f65">IndexLayout</a> &gt; *pCom=NULL)</td></tr>
 <tr class="memdesc:ga7cce17d66c105ef07b39137bcb130efa"><td class="mdescLeft">&#160;</td><td class="mdescRight">changes parallel storage type from additive to unique  <a href="group__lib__algebra__parallelization__util.html#ga7cce17d66c105ef07b39137bcb130efa">More...</a><br /></td></tr>
@@ -369,6 +381,109 @@ template&lt;typename TVector &gt; </div>
 
 </div>
 </div>
+<a id="gaae7502365fc2b2a3a1867c8e06324cd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaae7502365fc2b2a3a1867c8e06324cd8">&sect;&nbsp;</a></span>CopyValues()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TVector &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug::CopyValues </td>
+          <td>(</td>
+          <td class="paramtype">TVector *&#160;</td>
+          <td class="paramname"><em>pVec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__lib__algebra__parallelization.html#gad2e106a1a11b3d94250becdabf196f65">IndexLayout</a> &amp;&#160;</td>
+          <td class="paramname"><em>sourceLayout</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__lib__algebra__parallelization.html#gad2e106a1a11b3d94250becdabf196f65">IndexLayout</a> &amp;&#160;</td>
+          <td class="paramname"><em>targetLayout</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classpcl_1_1_interface_communicator.html">pcl::InterfaceCommunicator</a>&lt; <a class="el" href="group__lib__algebra__parallelization.html#gad2e106a1a11b3d94250becdabf196f65">IndexLayout</a> &gt; *&#160;</td>
+          <td class="paramname"><em>pCom</em> = <code>NULL</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copies values from the source to the target layout. </p>
+
+<p>References <a class="el" href="classpcl_1_1_interface_communicator.html#a86d3ffad4801623f1401b0d14ef5c1ae">pcl::InterfaceCommunicator&lt; TLayout &gt;::communicate()</a>, <a class="el" href="profiler_8h.html#a3766fe91615588782ad5452a4d60ea5b">PROFILE_FUNC_GROUP</a>, <a class="el" href="classpcl_1_1_interface_communicator.html#aa7cd1f6556736ad0a9f556546166c1bd">pcl::InterfaceCommunicator&lt; TLayout &gt;::receive_data()</a>, and <a class="el" href="classpcl_1_1_interface_communicator.html#a870c5820b4a0762086775b389f7f6aa0">pcl::InterfaceCommunicator&lt; TLayout &gt;::send_data()</a>.</p>
+
+<p>Referenced by <a class="el" href="classug_1_1_parallel_vector.html#aafaa2a80b2c862c528a3a90396a4cea4">ug::ParallelVector&lt; Vector&lt; double &gt; &gt;::change_storage_type()</a>, and <a class="el" href="classug_1_1_overlap_writer.html#af193370cf978e3faa1828113f85be68f">ug::OverlapWriter&lt; TAlgebra &gt;::init()</a>.</p>
+
+</div>
+</div>
+<a id="ga16d29da500a93fd47184d23442fcd5ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga16d29da500a93fd47184d23442fcd5ed">&sect;&nbsp;</a></span>GenerateGlobalAlgebraIDs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TLayout &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug::GenerateGlobalAlgebraIDs </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classpcl_1_1_interface_communicator.html">pcl::InterfaceCommunicator</a>&lt; TLayout &gt; &amp;&#160;</td>
+          <td class="paramname"><em>communicator</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="structug_1_1_algebra_i_d.html">AlgebraID</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>idsOut</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>numIDs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const TLayout &amp;&#160;</td>
+          <td class="paramname"><em>masterLayout</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const TLayout &amp;&#160;</td>
+          <td class="paramname"><em>slaveLayout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generates a set of unique global algebra ids. </p>
+<p>Horizontal slaves have the same algebra-id as their associated horizontal masters. Make sure that masterLayout and slaveLayout do not reference indices &gt;= numIDs. </p>
+
+<p>References <a class="el" href="classpcl_1_1_interface_communicator.html#a86d3ffad4801623f1401b0d14ef5c1ae">pcl::InterfaceCommunicator&lt; TLayout &gt;::communicate()</a>, <a class="el" href="group__pcl.html#ga319e84518e2b596fc9f9b40b4383ec36">pcl::ProcRank()</a>, <a class="el" href="profiler_8h.html#a3766fe91615588782ad5452a4d60ea5b">PROFILE_FUNC_GROUP</a>, <a class="el" href="classpcl_1_1_interface_communicator.html#aa7cd1f6556736ad0a9f556546166c1bd">pcl::InterfaceCommunicator&lt; TLayout &gt;::receive_data()</a>, and <a class="el" href="classpcl_1_1_interface_communicator.html#a870c5820b4a0762086775b389f7f6aa0">pcl::InterfaceCommunicator&lt; TLayout &gt;::send_data()</a>.</p>
+
+<p>Referenced by <a class="el" href="namespaceug.html#a7088b9aeb9fbd910b33bebc856b18f5b">ug::CreateOverlap()</a>, <a class="el" href="group__lib__algebra__parallelization__util.html#ga3da2c2603824b8c974b22d8b2f67275b">ug::MatAddSlaveRowsToMasterRowOverlap0()</a>, <a class="el" href="group__lib__algebra__parallelization__util.html#ga62ff21e4f3ecc0f4803e61725edd7fed">ug::MatMakeConsistentOverlap0()</a>, <a class="el" href="classug_1_1_parallel_nodes.html#a76aa7cea1a8286774926fcd7a5f13ec6">ug::ParallelNodes::ParallelNodes()</a>, and <a class="el" href="namespaceug.html#a2ee4542a644c6674bf17f17facc32955">ug::TestHorizontalAlgebraLayouts()</a>.</p>
+
+</div>
+</div>
 <a id="ga3da2c2603824b8c974b22d8b2f67275b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga3da2c2603824b8c974b22d8b2f67275b">&sect;&nbsp;</a></span>MatAddSlaveRowsToMasterRowOverlap0()</h2>
 
@@ -387,21 +502,39 @@ template&lt;typename TMatrix &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>changes parallel storage type from additive to consistent </p>
-<p>This function changes the storage type of a parallel vector from additive to consistent. A InterfaceCommunicator is created iff no communicator passed.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">pVec</td><td>Parallel <a class="el" href="classug_1_1_vector.html">Vector</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">masterLayout</td><td>Master Layout </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">slaveLayout</td><td>Slave Layout </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pCom</td><td>Parallel Communicator </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Generates a set of unique global algebra ids. </p>
+<p>Horizontal slaves have the same algebra-id as their associated horizontal masters. Make sure that masterLayout and slaveLayout do not reference indices &gt;= numIDs. </p>
 
-<p>References <a class="el" href="classpcl_1_1_interface_communicator.html#a86d3ffad4801623f1401b0d14ef5c1ae">pcl::InterfaceCommunicator&lt; TLayout &gt;::communicate()</a>, <a class="el" href="namespaceug.html#a16d29da500a93fd47184d23442fcd5ed">ug::GenerateGlobalAlgebraIDs()</a>, <a class="el" href="profiler_8h.html#a3766fe91615588782ad5452a4d60ea5b">PROFILE_FUNC_GROUP</a>, <a class="el" href="classpcl_1_1_interface_communicator.html#aa7cd1f6556736ad0a9f556546166c1bd">pcl::InterfaceCommunicator&lt; TLayout &gt;::receive_data()</a>, and <a class="el" href="classpcl_1_1_interface_communicator.html#a870c5820b4a0762086775b389f7f6aa0">pcl::InterfaceCommunicator&lt; TLayout &gt;::send_data()</a>.</p>
+<p>References <a class="el" href="classpcl_1_1_interface_communicator.html#a86d3ffad4801623f1401b0d14ef5c1ae">pcl::InterfaceCommunicator&lt; TLayout &gt;::communicate()</a>, <a class="el" href="group__lib__algebra__parallelization__util.html#ga16d29da500a93fd47184d23442fcd5ed">ug::GenerateGlobalAlgebraIDs()</a>, <a class="el" href="profiler_8h.html#a3766fe91615588782ad5452a4d60ea5b">PROFILE_FUNC_GROUP</a>, <a class="el" href="classpcl_1_1_interface_communicator.html#aa7cd1f6556736ad0a9f556546166c1bd">pcl::InterfaceCommunicator&lt; TLayout &gt;::receive_data()</a>, and <a class="el" href="classpcl_1_1_interface_communicator.html#a870c5820b4a0762086775b389f7f6aa0">pcl::InterfaceCommunicator&lt; TLayout &gt;::send_data()</a>.</p>
 
 <p>Referenced by <a class="el" href="classug_1_1_i_external_solver.html#a2f75d3f467d7f62b0ad6d08bcd6cf636">ug::IExternalSolver&lt; TAlgebra &gt;::mat_preprocess()</a>, <a class="el" href="classug_1_1_i_l_u_t_scalar_preconditioner.html#aa86a2242cc3ab137250d43e162b8415a">ug::ILUTScalarPreconditioner&lt; algebra_type &gt;::preprocess()</a>, <a class="el" href="classug_1_1_i_block_jacobi_preconditioner.html#a634ba3f20a70d90a7432180bf5c1c10a">ug::IBlockJacobiPreconditioner&lt; TAlgebra &gt;::preprocess()</a>, <a class="el" href="classug_1_1_i_l_u.html#a5952ebace9335bc3c223eec6cb6fe9dd">ug::ILU&lt; TAlgebra &gt;::preprocess()</a>, and <a class="el" href="classug_1_1_i_l_u_t_preconditioner.html#a878bfddd48692c49aa517d9bd3e2465a">ug::ILUTPreconditioner&lt; ug::CPUAlgebra &gt;::preprocess_mat()</a>.</p>
+
+</div>
+</div>
+<a id="ga62ff21e4f3ecc0f4803e61725edd7fed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga62ff21e4f3ecc0f4803e61725edd7fed">&sect;&nbsp;</a></span>MatMakeConsistentOverlap0()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TMatrix &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug::MatMakeConsistentOverlap0 </td>
+          <td>(</td>
+          <td class="paramtype">TMatrix &amp;&#160;</td>
+          <td class="paramname"><em>mat</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generates a set of unique global algebra ids. </p>
+<p>Horizontal slaves have the same algebra-id as their associated horizontal masters. Make sure that masterLayout and slaveLayout do not reference indices &gt;= numIDs. </p>
+
+<p>References <a class="el" href="classpcl_1_1_interface_communicator.html#a86d3ffad4801623f1401b0d14ef5c1ae">pcl::InterfaceCommunicator&lt; TLayout &gt;::communicate()</a>, <a class="el" href="group__lib__algebra__parallelization__util.html#ga16d29da500a93fd47184d23442fcd5ed">ug::GenerateGlobalAlgebraIDs()</a>, <a class="el" href="profiler_8h.html#a3766fe91615588782ad5452a4d60ea5b">PROFILE_FUNC_GROUP</a>, <a class="el" href="classpcl_1_1_interface_communicator.html#aa7cd1f6556736ad0a9f556546166c1bd">pcl::InterfaceCommunicator&lt; TLayout &gt;::receive_data()</a>, and <a class="el" href="classpcl_1_1_interface_communicator.html#a870c5820b4a0762086775b389f7f6aa0">pcl::InterfaceCommunicator&lt; TLayout &gt;::send_data()</a>.</p>
+
+<p>Referenced by <a class="el" href="classug_1_1_gauss_seidel_base.html#ab9f60018ba3d3c2b0d8744e1f9cdb013">ug::GaussSeidelBase&lt; TAlgebra &gt;::preprocess()</a>, and <a class="el" href="classug_1_1_i_l_u.html#a5952ebace9335bc3c223eec6cb6fe9dd">ug::ILU&lt; TAlgebra &gt;::preprocess()</a>.</p>
 
 </div>
 </div>
@@ -549,7 +682,7 @@ template&lt;typename TVector &gt; </div>
 
 <p>References <a class="el" href="classpcl_1_1_single_level_layout.html#a1ad0d030bdaa6c59bb7367db9ad8a806">pcl::SingleLevelLayout&lt; TInterface &gt;::begin()</a>, <a class="el" href="classpcl_1_1_single_level_layout.html#a0575221758f8b725e20ac5dddfe2a529">pcl::SingleLevelLayout&lt; TInterface &gt;::end()</a>, and <a class="el" href="profiler_8h.html#a3766fe91615588782ad5452a4d60ea5b">PROFILE_FUNC_GROUP</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_assembled_multi_grid_cycle.html#a1b2fadecff11f0b0101670f21f0bd48f">ug::AssembledMultiGridCycle&lt; TDomain, TAlgebra &gt;::base_solve()</a>, <a class="el" href="group__lib__algebra__parallelization__util.html#ga0d12aface4416d0f6cc43997ad21001f">ug::ConsistentToUnique()</a>, <a class="el" href="classug_1_1_parallel_vector.html#af4c3e5106b467d0995901ae29cac71de">ug::ParallelVector&lt; Vector&lt; double &gt; &gt;::enforce_consistent_type()</a>, <a class="el" href="namespaceug.html#a18b06f5618d879be669451b63ecedcbb">ug::GenerateGlobalConsecutiveIndices()</a>, and <a class="el" href="classug_1_1_assembled_multi_grid_cycle.html#ace6abf97c116ebc1c904c8861c6b4933">ug::AssembledMultiGridCycle&lt; TDomain, TAlgebra &gt;::presmooth_and_restriction()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_assembled_multi_grid_cycle.html#a1b2fadecff11f0b0101670f21f0bd48f">ug::AssembledMultiGridCycle&lt; TDomain, TAlgebra &gt;::base_solve()</a>, <a class="el" href="classug_1_1_parallel_vector.html#aafaa2a80b2c862c528a3a90396a4cea4">ug::ParallelVector&lt; Vector&lt; double &gt; &gt;::change_storage_type()</a>, <a class="el" href="group__lib__algebra__parallelization__util.html#ga0d12aface4416d0f6cc43997ad21001f">ug::ConsistentToUnique()</a>, <a class="el" href="classug_1_1_parallel_vector.html#af4c3e5106b467d0995901ae29cac71de">ug::ParallelVector&lt; Vector&lt; double &gt; &gt;::enforce_consistent_type()</a>, <a class="el" href="namespaceug.html#a18b06f5618d879be669451b63ecedcbb">ug::GenerateGlobalConsecutiveIndices()</a>, <a class="el" href="classug_1_1_assembled_multi_grid_cycle.html#ace6abf97c116ebc1c904c8861c6b4933">ug::AssembledMultiGridCycle&lt; TDomain, TAlgebra &gt;::presmooth_and_restriction()</a>, <a class="el" href="classug_1_1_gauss_seidel_base.html#a536783cd74d99826c66db6f07daf19f8">ug::GaussSeidelBase&lt; TAlgebra &gt;::step()</a>, and <a class="el" href="classug_1_1_i_l_u.html#aa996dcc25fe8253a80ea70410ffcb333">ug::ILU&lt; TAlgebra &gt;::step()</a>.</p>
 
 </div>
 </div>
@@ -786,7 +919,7 @@ template&lt;typename TVector &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:13 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:08:45 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

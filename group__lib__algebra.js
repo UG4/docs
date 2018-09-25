@@ -6,7 +6,7 @@ var group__lib__algebra =
     [ "Parallel Algebra", "group__lib__algebra__parallelization.html", "group__lib__algebra__parallelization" ],
     [ "Small Algebra", "group__small__algebra.html", "group__small__algebra" ],
     [ "AlgebraType", "classug_1_1_algebra_type.html", [
-      [ "VariableBlockSize", "classug_1_1_algebra_type.html#a17c08a652def124cabc8319cfc51d9c8ab062a81643e4a4eb85ebb0cdb05b3f95", null ],
+      [ "VariableBlockSize", "classug_1_1_algebra_type.html#a2eceed97255bb8287b6513c67488d701ab062a81643e4a4eb85ebb0cdb05b3f95", null ],
       [ "Type", "classug_1_1_algebra_type.html#ab3a264146f087f78d70761091f5520e8", [
         [ "CPU", "classug_1_1_algebra_type.html#ab3a264146f087f78d70761091f5520e8a5a9452f6c24214482c886dd91f8aa847", null ],
         [ "GPU", "classug_1_1_algebra_type.html#ab3a264146f087f78d70761091f5520e8aafd37365290e1ccab251d25ff1f4d8fe", null ]
@@ -53,7 +53,7 @@ var group__lib__algebra =
       ] ],
       [ "this_type", "classug_1_1_map_sparse_matrix.html#a341ec108f736136f76499d64e82fbb81", null ],
       [ "value_type", "classug_1_1_map_sparse_matrix.html#a70b8177d2e2d6ef00c3a6c8e0e1044fb", null ],
-      [ "rows_sorted", "classug_1_1_map_sparse_matrix.html#a3ace5a4a9672d58b7e7da94827bb0b2da5c4594c95173ba08f5593384a882bb7c", null ],
+      [ "rows_sorted", "classug_1_1_map_sparse_matrix.html#a522b0aa4dff6b0846b850dd010f9ce5ca5c4594c95173ba08f5593384a882bb7c", null ],
       [ "MapSparseMatrix", "classug_1_1_map_sparse_matrix.html#ab2aa0aa2a382839f6abd717f6e4d259b", null ],
       [ "~MapSparseMatrix", "classug_1_1_map_sparse_matrix.html#a9c424a4ac88837750a17595b860e64de", null ],
       [ "MapSparseMatrix", "classug_1_1_map_sparse_matrix.html#aecf2a10b132a821e42394133bf2c44be", null ],
@@ -122,6 +122,7 @@ var group__lib__algebra =
     [ "AxpyCommonSparseMatrix", "group__lib__algebra.html#ga5cd3c946e0dc8412ff327804b1cdbe84", null ],
     [ "CheckDiagonalInvertible", "group__lib__algebra.html#ga27e3e71059c2ae350f51716e1ebd66ef", null ],
     [ "CheckDiagonalInvertible", "group__lib__algebra.html#ga5ff420bacd1e54330978db211ae8270f", null ],
+    [ "CheckRowIterators", "group__lib__algebra.html#ga36194b79ab7b8fbc13e63016e598ffe7", null ],
     [ "CheckVectorInvertible", "group__lib__algebra.html#ga2f054358e74488ce11850263ff62c6a1", null ],
     [ "CheckVectorInvertible", "group__lib__algebra.html#ga72f2a1c3cfd4b8babafe92fc636a2d85", null ],
     [ "CreateAsMultiplyOf", "group__lib__algebra.html#ga9a6a6e8f6a05082613a1870297e7ea8a", null ],

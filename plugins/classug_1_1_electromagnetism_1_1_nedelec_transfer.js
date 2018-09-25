@@ -1,0 +1,25 @@
+var classug_1_1_electromagnetism_1_1_nedelec_transfer =
+[
+    [ "AssembleProlongationMatrix", "structug_1_1_electromagnetism_1_1_nedelec_transfer_1_1_assemble_prolongation_matrix.html", "structug_1_1_electromagnetism_1_1_nedelec_transfer_1_1_assemble_prolongation_matrix" ],
+    [ "algebra_type", "classug_1_1_electromagnetism_1_1_nedelec_transfer.html#a36c9e9be236db135947c6f3911cb8ab2", null ],
+    [ "base_type", "classug_1_1_electromagnetism_1_1_nedelec_transfer.html#a88a3996964371aaee9b159a9859ad1a7", null ],
+    [ "domain_type", "classug_1_1_electromagnetism_1_1_nedelec_transfer.html#afd22f48a97bf6129b18f1f09a9a1df59", null ],
+    [ "matrix_type", "classug_1_1_electromagnetism_1_1_nedelec_transfer.html#a3043ee6546becdf412a63689537c5d68", null ],
+    [ "this_type", "classug_1_1_electromagnetism_1_1_nedelec_transfer.html#aa125b0502fe6349f90c3e113dc7f118a", null ],
+    [ "vector_type", "classug_1_1_electromagnetism_1_1_nedelec_transfer.html#a37abb94424779c9e05321bb8a96c9fdb", null ],
+    [ "NedelecTransfer", "classug_1_1_electromagnetism_1_1_nedelec_transfer.html#a32e8e92a3f29461e6880e97eb7ee2444", null ],
+    [ "assemble_prolongation_matrix", "classug_1_1_electromagnetism_1_1_nedelec_transfer.html#af1d9915fe82c0ca588914942490066a7", null ],
+    [ "check_approximation_space", "classug_1_1_electromagnetism_1_1_nedelec_transfer.html#adb3768ce9b7dae713d6228d006e4701a", null ],
+    [ "clone", "classug_1_1_electromagnetism_1_1_nedelec_transfer.html#af97b7c6b193ce92268bdbb22efc3b5c3", null ],
+    [ "do_restrict", "classug_1_1_electromagnetism_1_1_nedelec_transfer.html#a54fddb6753ef1e70fa241cf2e3aa50bd", null ],
+    [ "init", "classug_1_1_electromagnetism_1_1_nedelec_transfer.html#ac8945383ba14ea3aacbcb6ec0dfc40d7", null ],
+    [ "prolongate", "classug_1_1_electromagnetism_1_1_nedelec_transfer.html#a1e567ab89a52a5eb4d66354f86401616", null ],
+    [ "set_levels", "classug_1_1_electromagnetism_1_1_nedelec_transfer.html#addfeb05e23852b9973e2fdfb8f387167", null ],
+    [ "m_bInit", "classug_1_1_electromagnetism_1_1_nedelec_transfer.html#aea60165cc436d24031ad5d7ac615a161", null ],
+    [ "m_coarseLevel", "classug_1_1_electromagnetism_1_1_nedelec_transfer.html#a48a107d2926f5fc977487453d7dd30d4", null ],
+    [ "m_fineLevel", "classug_1_1_electromagnetism_1_1_nedelec_transfer.html#a0b36bb07e80eb5c97c213768fc7a131c", null ],
+    [ "m_prolongation_matrix", "classug_1_1_electromagnetism_1_1_nedelec_transfer.html#a1530b24741752b969a8c77f8d4309eb3", null ],
+    [ "m_spApproxSpace", "classug_1_1_electromagnetism_1_1_nedelec_transfer.html#a078490e9132a94b385124171f1df3986", null ],
+    [ "m_vIsRestricted", "classug_1_1_electromagnetism_1_1_nedelec_transfer.html#add0a6784afa77d6810d9044090ac8bc8", null ],
+    [ "WDim", "classug_1_1_electromagnetism_1_1_nedelec_transfer.html#a3afbdcfc2be3b6ec8f355a515a18320e", null ]
+];

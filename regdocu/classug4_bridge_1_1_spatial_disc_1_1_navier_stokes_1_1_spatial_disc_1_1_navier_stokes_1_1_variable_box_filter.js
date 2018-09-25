@@ -1,0 +1,5 @@
+var classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_variable_box_filter =
+[
+    [ "VariableBoxFilter", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_variable_box_filter.html#a74999d585a9909cff38b9923094430c1", null ],
+    [ "apply", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_variable_box_filter.html#a71b48747f7b31384df132250a7116d0f", null ]
+];

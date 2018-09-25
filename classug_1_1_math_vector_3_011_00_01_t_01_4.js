@@ -25,6 +25,7 @@ var classug_1_1_math_vector_3_011_00_01_t_01_4 =
     [ "operator=", "classug_1_1_math_vector_3_011_00_01_t_01_4.html#afb90f03769f44c0303691a0d5fbb230e", null ],
     [ "operator[]", "classug_1_1_math_vector_3_011_00_01_t_01_4.html#a214dafa0ba4dec4b11c4d41b5f149aff", null ],
     [ "operator[]", "classug_1_1_math_vector_3_011_00_01_t_01_4.html#aabb130ffc1e292ff514c7580034dc2af", null ],
+    [ "set_coord", "classug_1_1_math_vector_3_011_00_01_t_01_4.html#a12858907d1a6156106e6a301eb795322", null ],
     [ "size", "classug_1_1_math_vector_3_011_00_01_t_01_4.html#ad209b2bf1559e53b0a441646eed4c10a", null ],
     [ "x", "classug_1_1_math_vector_3_011_00_01_t_01_4.html#a8bcc26518bc7b48e697a139b14ebb726", null ],
     [ "x", "classug_1_1_math_vector_3_011_00_01_t_01_4.html#a4e5a77f1f6af45a103ec6d1d93f9781c", null ],

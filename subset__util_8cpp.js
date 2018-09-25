@@ -17,6 +17,7 @@ var subset__util_8cpp =
     [ "ComputeLocalSubsetDimensions", "subset__util_8cpp.html#gad230a3a50cf171d250f9fa21eaaad40f", null ],
     [ "CopySubsetFromHigherDimNbr", "subset__util_8cpp.html#a75651c754881b25a18951d89ef7accbf", null ],
     [ "CopySubsetIndicesToSides", "subset__util_8cpp.html#ga21b8cde0c684ba6004d1b91d135f74cf", null ],
+    [ "CopySubsetIndicesToSides", "subset__util_8cpp.html#ga6a8a9b164773b8d463cb8a1a000ddf7d", null ],
     [ "CopySubsetIndicesToSides", "subset__util_8cpp.html#gad359df1bdd95000c11685eb765657734", null ],
     [ "EraseEmptySubsets", "subset__util_8cpp.html#af972ee2b2538b201003797ebbe01a389", null ],
     [ "GetColorFromStandardPalette", "subset__util_8cpp.html#ga540f49f0844b9ab2c72796694bdf7d8a", null ],

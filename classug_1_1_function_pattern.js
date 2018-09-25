@@ -6,6 +6,7 @@ var classug_1_1_function_pattern =
     [ "add", "classug_1_1_function_pattern.html#a4b2680a0e26aff441c619b1aae658402", null ],
     [ "add", "classug_1_1_function_pattern.html#a344ed272fd8769ad9b65ce14255ab17b", null ],
     [ "add", "classug_1_1_function_pattern.html#afa84e5d319953f0c5d304f19a03cb8eb", null ],
+    [ "all_subsets_grp_except_for", "classug_1_1_function_pattern.html#ac33f39b98540c0a866cac43ac4ea1e17", null ],
     [ "clear", "classug_1_1_function_pattern.html#aa8686da007d7faf2547960fc907a0efc", null ],
     [ "dim", "classug_1_1_function_pattern.html#a72f23cd1c8ce41da0bb81b71ef0deae0", null ],
     [ "dim_subset", "classug_1_1_function_pattern.html#a5d1eda6ffbddccd6a359b68b1d9bc95a", null ],

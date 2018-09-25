@@ -1,6 +1,5 @@
 var volume__util_8cpp =
 [
-    [ "CalculateMinTetrahedronHeight", "volume__util_8cpp.html#ga8540f90964c07497a002d362629d5652", null ],
     [ "CalculateMinVolumeHeight", "volume__util_8cpp.html#ga439e8124095ed0540b516dfaff7959bf", null ],
     [ "CalculateTetrahedronAspectRatio", "volume__util_8cpp.html#gaf31820d91f65e3dd5680a7d6e4652dea", null ],
     [ "CalculateTetrahedronRootMeanSquareFaceArea", "volume__util_8cpp.html#ga57672e0c3f4904f54c95d7c20294e6b0", null ],

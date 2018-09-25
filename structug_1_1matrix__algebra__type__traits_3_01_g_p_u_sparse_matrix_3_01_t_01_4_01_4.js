@@ -1,4 +1,4 @@
 var structug_1_1matrix__algebra__type__traits_3_01_g_p_u_sparse_matrix_3_01_t_01_4_01_4 =
 [
-    [ "type", "structug_1_1matrix__algebra__type__traits_3_01_g_p_u_sparse_matrix_3_01_t_01_4_01_4.html#a19f048f9c45ed5eff826e005bb22cb72aca1ebb1a6f4e3e412f158a0e622cbfc0", null ]
+    [ "type", "structug_1_1matrix__algebra__type__traits_3_01_g_p_u_sparse_matrix_3_01_t_01_4_01_4.html#adea83f4d798b8cd08da4dfb9d741c279aca1ebb1a6f4e3e412f158a0e622cbfc0", null ]
 ];

@@ -8,6 +8,5 @@ var classug_1_1_mini_bubble_l_d_s =
     [ "roid", "classug_1_1_mini_bubble_l_d_s.html#ac542c37b4899762eada6dd192a400bcf", null ],
     [ "m_vLocalDoF", "classug_1_1_mini_bubble_l_d_s.html#ab7ff44d225e6e2ab2dec75d651a71964", null ],
     [ "nsh", "classug_1_1_mini_bubble_l_d_s.html#a2ad83c71a48f1a9378a88588570a8476", null ],
-    [ "p", "classug_1_1_mini_bubble_l_d_s.html#a77109f9389978c2947a08604d2f444bd", null ],
     [ "refDim", "classug_1_1_mini_bubble_l_d_s.html#ae7fefb5a8466764333cbf331aa15b737", null ]
 ];

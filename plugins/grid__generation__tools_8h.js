@@ -12,6 +12,8 @@ var grid__generation__tools_8h =
     [ "TOOLTIP_CREATE_PYRAMID", "grid__generation__tools_8h.html#a9b3e7b308206fdd0d57dd6063164c871", null ],
     [ "TOOLTIP_CREATE_SPHERE", "grid__generation__tools_8h.html#a21e3ebd164e827cc61c5acf439c59bda", null ],
     [ "TOOLTIP_CREATE_TETRAHEDRON", "grid__generation__tools_8h.html#a1274408e5a1de37f711fa497bd290197", null ],
+    [ "TOOLTIP_CREATE_TKD", "grid__generation__tools_8h.html#aa7000e669db16fcd8521d34ea738cca8", null ],
+    [ "TOOLTIP_CREATE_TKD_WITH_OUTER_LAYER", "grid__generation__tools_8h.html#a7500720edb9a37173eca63f1dbe0fbef", null ],
     [ "TOOLTIP_CREATE_VERTEX", "grid__generation__tools_8h.html#abef579654119a341db1e54224eaa5a37", null ],
     [ "TOOLTIP_CREATE_VOLUME", "grid__generation__tools_8h.html#a628ad135a29b8ca3535fd792ea288161", null ],
     [ "TOOLTIP_MERGE_OBJECTS", "grid__generation__tools_8h.html#afd5ddc99b850f5e196134cbaa2af94a9", null ],
@@ -29,6 +31,8 @@ var grid__generation__tools_8h =
     [ "CreatePyramid", "grid__generation__tools_8h.html#ga1a78c4b714e9a588a161586479fc3a79", null ],
     [ "CreateSphere", "grid__generation__tools_8h.html#ga6018feeaec7818ed2568cb0dcee80fd8", null ],
     [ "CreateTetrahedron", "grid__generation__tools_8h.html#ga3952b483b06e69331e74e068f47b8344", null ],
+    [ "CreateTKD", "grid__generation__tools_8h.html#ga87edb28f64edd0a00e5093cacfcb1c36", null ],
+    [ "CreateTKDWithOuterLayer", "grid__generation__tools_8h.html#ga019109af415856468e3093fb618bf282", null ],
     [ "CreateVertex", "grid__generation__tools_8h.html#gae1c5da21d793230d45efc6d2e20cb0a6", null ],
     [ "CreateVolume", "grid__generation__tools_8h.html#ga3722daf31760be7c04d6ae389e61b7b7", null ]
 ];

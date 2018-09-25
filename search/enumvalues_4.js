@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['edge',['EDGE',['../classug_1_1_reference_element.html#a5d867bc7f75994687dffdab712f844fea7ed3bdfedc86d948d4ee218e41b26439',1,'ug::ReferenceElement::EDGE()'],['../namespaceug.html#aa6080d1386c107c8bd602be84495c13cad44f88a0fdcb9e7708ce0980b8e200ba',1,'ug::EDGE()']]],
+  ['edge',['EDGE',['../classug_1_1_reference_element.html#abf0df41ab82d3536970a5ef73ab0d61ba7ed3bdfedc86d948d4ee218e41b26439',1,'ug::ReferenceElement::EDGE()'],['../namespaceug.html#aa6080d1386c107c8bd602be84495c13cad44f88a0fdcb9e7708ce0980b8e200ba',1,'ug::EDGE()']]],
   ['edgeopt_5fnone',['EDGEOPT_NONE',['../group__lib__grid.html#gga3191186b24de51adb225ea234971df0ea951a5b8431fa9ff0f69fb915748d767e',1,'ug']]],
   ['edgeopt_5fstore_5fassociated_5ffaces',['EDGEOPT_STORE_ASSOCIATED_FACES',['../group__lib__grid.html#gga3191186b24de51adb225ea234971df0ea41e559550a6eb4b85b9a02e4fcca8e5c',1,'ug']]],
   ['edgeopt_5fstore_5fassociated_5fvolumes',['EDGEOPT_STORE_ASSOCIATED_VOLUMES',['../group__lib__grid.html#gga3191186b24de51adb225ea234971df0eaade85aebd4a8714427cf2bc425f87262',1,'ug']]],

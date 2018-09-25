@@ -22,6 +22,7 @@ var subset__util_8h =
     [ "ComputeLocalSubsetDimensions", "subset__util_8h.html#gad230a3a50cf171d250f9fa21eaaad40f", null ],
     [ "CopySubsetIndicesToSides", "subset__util_8h.html#ga91c0de55b4565d2107f99a1c468a2adc", null ],
     [ "CopySubsetIndicesToSides", "subset__util_8h.html#ga21b8cde0c684ba6004d1b91d135f74cf", null ],
+    [ "CopySubsetIndicesToSides", "subset__util_8h.html#ga6a8a9b164773b8d463cb8a1a000ddf7d", null ],
     [ "CopySubsetIndicesToSides", "subset__util_8h.html#gad359df1bdd95000c11685eb765657734", null ],
     [ "FaceArea", "subset__util_8h.html#gabd7d17553bf4a9b1dff192a636be3d60", null ],
     [ "FindSubsetGroups", "subset__util_8h.html#gaf28e8fda4407e4472330ffab60d37cf1", null ],

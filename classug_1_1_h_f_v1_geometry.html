@@ -129,9 +129,18 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a3425d525f63bfa4c5e7288b29d05e6f0"><td class="memItemLeft" align="right" valign="top">TElem *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_h_f_v1_geometry.html#a3425d525f63bfa4c5e7288b29d05e6f0">elem</a> () const</td></tr>
+<tr class="memdesc:a3425d525f63bfa4c5e7288b29d05e6f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the element  <a href="#a3425d525f63bfa4c5e7288b29d05e6f0">More...</a><br /></td></tr>
+<tr class="separator:a3425d525f63bfa4c5e7288b29d05e6f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06e8d9d4328b0305025bf69326628f99"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; <a class="el" href="classug_1_1_h_f_v1_geometry.html#a8d298e051c1f1470f176207c7250f3a0">worldDim</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_h_f_v1_geometry.html#a06e8d9d4328b0305025bf69326628f99">global_node_position</a> (size_t nodeID) const</td></tr>
+<tr class="memdesc:a06e8d9d4328b0305025bf69326628f99"><td class="mdescLeft">&#160;</td><td class="mdescRight">return global coords for node ID  <a href="#a06e8d9d4328b0305025bf69326628f99">More...</a><br /></td></tr>
+<tr class="separator:a06e8d9d4328b0305025bf69326628f99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5de6e427ef2aa3527b8543408c53e7ff"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_h_f_v1_geometry.html#a5de6e427ef2aa3527b8543408c53e7ff">HFV1Geometry</a> ()</td></tr>
 <tr class="memdesc:a5de6e427ef2aa3527b8543408c53e7ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor  <a href="#a5de6e427ef2aa3527b8543408c53e7ff">More...</a><br /></td></tr>
 <tr class="separator:a5de6e427ef2aa3527b8543408c53e7ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdb6a814dd73c8cf9463ce2920f3f9b0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; <a class="el" href="classug_1_1_h_f_v1_geometry.html#a595f1025541a0f8e77f9ff3fc0f3721a">dim</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_h_f_v1_geometry.html#afdb6a814dd73c8cf9463ce2920f3f9b0">local_node_position</a> (size_t nodeID) const</td></tr>
+<tr class="memdesc:afdb6a814dd73c8cf9463ce2920f3f9b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">return local coords for node ID  <a href="#afdb6a814dd73c8cf9463ce2920f3f9b0">More...</a><br /></td></tr>
+<tr class="separator:afdb6a814dd73c8cf9463ce2920f3f9b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8211e0aeadb83a2c695043cc7505d6ce"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_h_f_v1_geometry.html#a8211e0aeadb83a2c695043cc7505d6ce">num_scv</a> () const</td></tr>
 <tr class="memdesc:a8211e0aeadb83a2c695043cc7505d6ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of SubControlVolumes  <a href="#a8211e0aeadb83a2c695043cc7505d6ce">More...</a><br /></td></tr>
 <tr class="separator:a8211e0aeadb83a2c695043cc7505d6ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -596,6 +605,39 @@ template&lt;typename TElem , int TWorldDim&gt; </div>
 
 </div>
 </div>
+<a id="a3425d525f63bfa4c5e7288b29d05e6f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3425d525f63bfa4c5e7288b29d05e6f0">&sect;&nbsp;</a></span>elem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TElem , int TWorldDim&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TElem* <a class="el" href="classug_1_1_h_f_v1_geometry.html">ug::HFV1Geometry</a>&lt; TElem, TWorldDim &gt;::elem </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get the element </p>
+
+<p>References <a class="el" href="classug_1_1_h_f_v1_geometry.html#a50603ba76af1861bf14406a01b12037c">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_pElem</a>.</p>
+
+<p>Referenced by <a class="el" href="classug_1_1_h_f_v1_geometry.html#a3f85612e3d8198cb389b97ceeebd788c">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::update()</a>.</p>
+
+</div>
+</div>
 <a id="ae22d7998fca4912e157e8ba3c531f086"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae22d7998fca4912e157e8ba3c531f086">&sect;&nbsp;</a></span>get_child_edge_of_corner()</h2>
 
@@ -635,6 +677,70 @@ template&lt;typename TElem , int TWorldDim&gt; </div>
 <p>References <a class="el" href="classug_1_1_h_f_v1_geometry.html#a4b8831a30d57f8f1db3a1102a04f3b7b">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_vNatEdgeInfo</a>, and <a class="el" href="classug_1_1_h_f_v1_geometry.html#a60ce692037017dd9992d750c6cee94d5">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_vNewEdgeInfo</a>.</p>
 
 <p>Referenced by <a class="el" href="classug_1_1_h_f_v1_geometry.html#a3f85612e3d8198cb389b97ceeebd788c">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::update()</a>, and <a class="el" href="classug_1_1_dim_h_f_v1_geometry.html#a53510601f40b617906c35dbe3cd48b35">ug::DimHFV1Geometry&lt; TDim, TWorldDim &gt;::update()</a>.</p>
+
+</div>
+</div>
+<a id="a06e8d9d4328b0305025bf69326628f99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06e8d9d4328b0305025bf69326628f99">&sect;&nbsp;</a></span>global_node_position()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TElem , int TWorldDim&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt;<a class="el" href="classug_1_1_h_f_v1_geometry.html#a8d298e051c1f1470f176207c7250f3a0">worldDim</a>&gt;&amp; <a class="el" href="classug_1_1_h_f_v1_geometry.html">ug::HFV1Geometry</a>&lt; TElem, TWorldDim &gt;::global_node_position </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>nodeID</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return global coords for node ID </p>
+
+<p>References <a class="el" href="classug_1_1_h_f_v1_geometry.html#abe3b4f53ee171bf3b849d0185e926fa4">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_gloMid</a>, and <a class="el" href="group__ugbase__common.html#ga0b928ef153b78f1b5e025638cf28f841">UG_ASSERT</a>.</p>
+
+</div>
+</div>
+<a id="afdb6a814dd73c8cf9463ce2920f3f9b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdb6a814dd73c8cf9463ce2920f3f9b0">&sect;&nbsp;</a></span>local_node_position()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TElem , int TWorldDim&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt;<a class="el" href="classug_1_1_h_f_v1_geometry.html#a595f1025541a0f8e77f9ff3fc0f3721a">dim</a>&gt;&amp; <a class="el" href="classug_1_1_h_f_v1_geometry.html">ug::HFV1Geometry</a>&lt; TElem, TWorldDim &gt;::local_node_position </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>nodeID</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return local coords for node ID </p>
+
+<p>References <a class="el" href="classug_1_1_h_f_v1_geometry.html#a80d25c293c3b82473b3fbbaabd4c9040">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_locMid</a>, and <a class="el" href="group__ugbase__common.html#ga0b928ef153b78f1b5e025638cf28f841">UG_ASSERT</a>.</p>
 
 </div>
 </div>
@@ -1048,7 +1154,7 @@ template&lt;typename TElem , int TWorldDim&gt; </div>
 
 <p>update values for an element </p>
 
-<p>References <a class="el" href="namespaceug.html#ad76d5fd26e962000c49c79f162348105">ug::AveragePositions()</a>, <a class="el" href="group__lib__grid__algorithms__neighborhood__util.html#ga1c192767bb6bc18bbf710cb66e82af5e">ug::CollectEdgesSorted()</a>, <a class="el" href="group__lib__grid__algorithms__neighborhood__util.html#gab5e19bb11fd39e863ec2e3da2535b724">ug::CollectFacesSorted()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a715b8de90a86db713cc89d5b57531e05">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::compute_side_midpoints()</a>, <a class="el" href="namespaceug.html#ac908716a981135bee891bfdce519e1faab90837dd473a7f1e1f41e6380d0d557b">ug::CSEDGE_CONSTRAINED_EDGE</a>, <a class="el" href="namespaceug.html#ac908716a981135bee891bfdce519e1faa6e67cc34be1a0bc78897deb2f8ba2058">ug::CSEDGE_CONSTRAINING_EDGE</a>, <a class="el" href="namespaceug.html#ac908716a981135bee891bfdce519e1faa2234fcc177c1937fc0afd9493ef5767e">ug::CSEDGE_REGULAR_EDGE</a>, <a class="el" href="namespaceug.html#ab93c98fb930e388f722f16b2a3b06730a2f64d21ed3baa507e888d5d66e79db25">ug::CSFACE_CONSTRAINING_QUADRILATERAL</a>, <a class="el" href="namespaceug.html#ab93c98fb930e388f722f16b2a3b06730adaefe583672b5286313c141ed6f5480a">ug::CSFACE_CONSTRAINING_TRIANGLE</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#gad04fbd00dd872375c4863bd1d4621237">dim</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a595f1025541a0f8e77f9ff3fc0f3721a">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::dim</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#ae22d7998fca4912e157e8ba3c531f086">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::get_child_edge_of_corner()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry_1_1_s_c_v_f.html#a8c93f8e3dfcac8ddffed9befa8a72cde">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::SCVF::global_ip()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry_1_1_s_c_v.html#a4a62e6bfe8ba7ebdf49ef153ec25bdaf">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::SCV::global_ip()</a>, <a class="el" href="classug_1_1_local_shape_function_set.html#a681cbb674fa7b28a7b300d8f7aed0d93">ug::LocalShapeFunctionSet&lt; TDim, TShape, TGrad &gt;::grads()</a>, <a class="el" href="classug_1_1_i_subset_handler.html#a87e8a41dfa455cd8bf2451ca327e260e">ug::ISubsetHandler::grid()</a>, <a class="el" href="classug_1_1_reference_mapping.html#a7901e99c9ca4efa47c5fc143db2a7cc2">ug::ReferenceMapping&lt; TRefElem, TWorldDim &gt;::jacobian_transposed_inverse()</a>, <a class="el" href="classug_1_1_l_f_e_i_d.html#af73992784d8d28c212f44ad976b17b13a87506500bee7d97436b59a02b6080dff">ug::LFEID::LAGRANGE</a>, <a class="el" href="classug_1_1_h_f_v1_geometry_1_1_s_c_v_f.html#afd7ac0c5d07c7c63a3c795460b35a80b">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::SCVF::local_ip()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry_1_1_s_c_v.html#a88633aa504afdda27e6aa049a7210389">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::SCV::local_ip()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#abe3b4f53ee171bf3b849d0185e926fa4">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_gloMid</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a80d25c293c3b82473b3fbbaabd4c9040">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_locMid</a>, <a class="el" href="classug_1_1_h_f_v1_geometry_1_1_s_c_v_f.html#a86128d969d98b9b933afce3e70b04858">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::SCVF::m_numCorners</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#ac28950e17674b644225e7bb0a92cdf4c">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_numNaturalSCV</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#aed66b2bca538dcdbca2724c21d73a4a7">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_numNaturalSCVF</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a7eae3161f8831e414f870de619e7f4ee">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_numSh</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a50603ba76af1861bf14406a01b12037c">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_pElem</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a16bdc33faaa45da248d71bbfb3045e4a">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_rMapping</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a485ded338d1ff1ac2e1414fb2f89a35b">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_rRefElem</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a391bff099a72510d60797fea31edbbc0">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_vGlobSCVFIP</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a7d4b7b352fec9c1ec3bc233883a8f6a4">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_vGlobSCVIP</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a6067cdae034eb01c274fa37470c91e0a">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_vLocSCVFIP</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a5bf36ea2350cb76c2be8d1b0cb296198">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_vLocSCVIP</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a4b8831a30d57f8f1db3a1102a04f3b7b">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_vNatEdgeInfo</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a60ce692037017dd9992d750c6cee94d5">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_vNewEdgeInfo</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a9f9f369e3bfc722dcf0357596d4850ed">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_vSCV</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#ac12601ce90cac9bb87d11eb5a433894f">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_vSCVF</a>, <a class="el" href="group__ugbase__math.html#gab755dfcc4823f5a150c931e1fdca6c78">ug::MatVecMult()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a8211e0aeadb83a2c695043cc7505d6ce">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::num_scv()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a0e47f60bf09cabeb6119b5c5beb3d919">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::num_scvf()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a721af757b029318d794556a9c8d6e3a4">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::num_sh()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a55d8fe787cb1d87704b89ef51a0561e5">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::scv()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a0045018dad1f7188baa63e9f64e4d743">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::scvf()</a>, <a class="el" href="classug_1_1_local_shape_function_set.html#a9300ed9d001a2565b955af5617767a6f">ug::LocalShapeFunctionSet&lt; TDim, TShape, TGrad &gt;::shapes()</a>, <a class="el" href="classug_1_1_reference_mapping.html#a009ee14d841888316720c00cc7d69d13">ug::ReferenceMapping&lt; TRefElem, TWorldDim &gt;::sqrt_gram_det()</a>, <a class="el" href="group__ugbase__common.html#ga0b928ef153b78f1b5e025638cf28f841">UG_ASSERT</a>, <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>, <a class="el" href="classug_1_1_reference_mapping.html#a9a0078f7c9a9f97e625e10ca6dfc57fa">ug::ReferenceMapping&lt; TRefElem, TWorldDim &gt;::update()</a>, <a class="el" href="group__vectors.html#gae9174d47662deb0ba119e0e21f28ec71">ug::VecDot()</a>, <a class="el" href="group__vectors.html#gae4e5784610945b34f533db1efc9b474d">ug::VecInterpolateLinear()</a>, and <a class="el" href="group__vectors.html#ga5c7eda5aeb4cd0d53ce04f682d0a0058">ug::VecSubtract()</a>.</p>
+<p>References <a class="el" href="namespaceug.html#ad76d5fd26e962000c49c79f162348105">ug::AveragePositions()</a>, <a class="el" href="group__lib__grid__algorithms__neighborhood__util.html#ga1c192767bb6bc18bbf710cb66e82af5e">ug::CollectEdgesSorted()</a>, <a class="el" href="group__lib__grid__algorithms__neighborhood__util.html#gab5e19bb11fd39e863ec2e3da2535b724">ug::CollectFacesSorted()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a715b8de90a86db713cc89d5b57531e05">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::compute_side_midpoints()</a>, <a class="el" href="namespaceug.html#ac908716a981135bee891bfdce519e1faab90837dd473a7f1e1f41e6380d0d557b">ug::CSEDGE_CONSTRAINED_EDGE</a>, <a class="el" href="namespaceug.html#ac908716a981135bee891bfdce519e1faa6e67cc34be1a0bc78897deb2f8ba2058">ug::CSEDGE_CONSTRAINING_EDGE</a>, <a class="el" href="namespaceug.html#ac908716a981135bee891bfdce519e1faa2234fcc177c1937fc0afd9493ef5767e">ug::CSEDGE_REGULAR_EDGE</a>, <a class="el" href="namespaceug.html#ab93c98fb930e388f722f16b2a3b06730a2f64d21ed3baa507e888d5d66e79db25">ug::CSFACE_CONSTRAINING_QUADRILATERAL</a>, <a class="el" href="namespaceug.html#ab93c98fb930e388f722f16b2a3b06730adaefe583672b5286313c141ed6f5480a">ug::CSFACE_CONSTRAINING_TRIANGLE</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#gad04fbd00dd872375c4863bd1d4621237">dim</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a595f1025541a0f8e77f9ff3fc0f3721a">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::dim</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a3425d525f63bfa4c5e7288b29d05e6f0">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::elem()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#ae22d7998fca4912e157e8ba3c531f086">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::get_child_edge_of_corner()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry_1_1_s_c_v_f.html#a8c93f8e3dfcac8ddffed9befa8a72cde">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::SCVF::global_ip()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry_1_1_s_c_v.html#a4a62e6bfe8ba7ebdf49ef153ec25bdaf">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::SCV::global_ip()</a>, <a class="el" href="classug_1_1_local_shape_function_set.html#a681cbb674fa7b28a7b300d8f7aed0d93">ug::LocalShapeFunctionSet&lt; TDim, TShape, TGrad &gt;::grads()</a>, <a class="el" href="classug_1_1_i_subset_handler.html#a87e8a41dfa455cd8bf2451ca327e260e">ug::ISubsetHandler::grid()</a>, <a class="el" href="classug_1_1_reference_mapping.html#a7901e99c9ca4efa47c5fc143db2a7cc2">ug::ReferenceMapping&lt; TRefElem, TWorldDim &gt;::jacobian_transposed_inverse()</a>, <a class="el" href="classug_1_1_l_f_e_i_d.html#af73992784d8d28c212f44ad976b17b13a87506500bee7d97436b59a02b6080dff">ug::LFEID::LAGRANGE</a>, <a class="el" href="classug_1_1_h_f_v1_geometry_1_1_s_c_v_f.html#afd7ac0c5d07c7c63a3c795460b35a80b">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::SCVF::local_ip()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry_1_1_s_c_v.html#a88633aa504afdda27e6aa049a7210389">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::SCV::local_ip()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#abe3b4f53ee171bf3b849d0185e926fa4">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_gloMid</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a80d25c293c3b82473b3fbbaabd4c9040">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_locMid</a>, <a class="el" href="classug_1_1_h_f_v1_geometry_1_1_s_c_v_f.html#a86128d969d98b9b933afce3e70b04858">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::SCVF::m_numCorners</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#ac28950e17674b644225e7bb0a92cdf4c">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_numNaturalSCV</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#aed66b2bca538dcdbca2724c21d73a4a7">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_numNaturalSCVF</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a7eae3161f8831e414f870de619e7f4ee">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_numSh</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a50603ba76af1861bf14406a01b12037c">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_pElem</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a16bdc33faaa45da248d71bbfb3045e4a">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_rMapping</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a485ded338d1ff1ac2e1414fb2f89a35b">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_rRefElem</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a391bff099a72510d60797fea31edbbc0">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_vGlobSCVFIP</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a7d4b7b352fec9c1ec3bc233883a8f6a4">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_vGlobSCVIP</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a6067cdae034eb01c274fa37470c91e0a">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_vLocSCVFIP</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a5bf36ea2350cb76c2be8d1b0cb296198">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_vLocSCVIP</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a4b8831a30d57f8f1db3a1102a04f3b7b">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_vNatEdgeInfo</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a60ce692037017dd9992d750c6cee94d5">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_vNewEdgeInfo</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a9f9f369e3bfc722dcf0357596d4850ed">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_vSCV</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#ac12601ce90cac9bb87d11eb5a433894f">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::m_vSCVF</a>, <a class="el" href="group__ugbase__math.html#gab755dfcc4823f5a150c931e1fdca6c78">ug::MatVecMult()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a8211e0aeadb83a2c695043cc7505d6ce">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::num_scv()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a0e47f60bf09cabeb6119b5c5beb3d919">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::num_scvf()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a721af757b029318d794556a9c8d6e3a4">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::num_sh()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a55d8fe787cb1d87704b89ef51a0561e5">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::scv()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a0045018dad1f7188baa63e9f64e4d743">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::scvf()</a>, <a class="el" href="classug_1_1_local_shape_function_set.html#a9300ed9d001a2565b955af5617767a6f">ug::LocalShapeFunctionSet&lt; TDim, TShape, TGrad &gt;::shapes()</a>, <a class="el" href="classug_1_1_reference_mapping.html#a009ee14d841888316720c00cc7d69d13">ug::ReferenceMapping&lt; TRefElem, TWorldDim &gt;::sqrt_gram_det()</a>, <a class="el" href="group__ugbase__common.html#ga0b928ef153b78f1b5e025638cf28f841">UG_ASSERT</a>, <a class="el" href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>, <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>, <a class="el" href="classug_1_1_reference_mapping.html#a9a0078f7c9a9f97e625e10ca6dfc57fa">ug::ReferenceMapping&lt; TRefElem, TWorldDim &gt;::update()</a>, <a class="el" href="group__vectors.html#gae9174d47662deb0ba119e0e21f28ec71">ug::VecDot()</a>, <a class="el" href="group__vectors.html#gae4e5784610945b34f533db1efc9b474d">ug::VecInterpolateLinear()</a>, and <a class="el" href="group__vectors.html#ga5c7eda5aeb4cd0d53ce04f682d0a0058">ug::VecSubtract()</a>.</p>
 
 <p>Referenced by <a class="el" href="classug_1_1_dim_h_f_v1_geometry.html#a5d7b92c4123b5d4905902e95ec93831a">ug::DimHFV1Geometry&lt; TDim, TWorldDim &gt;::DimHFV1Geometry()</a>, and <a class="el" href="classug_1_1_h_f_v1_geometry.html#a5de6e427ef2aa3527b8543408c53e7ff">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::HFV1Geometry()</a>.</p>
 
@@ -1105,7 +1211,7 @@ template&lt;typename TElem , int TWorldDim&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classug_1_1_h_f_v1_geometry.html#a715b8de90a86db713cc89d5b57531e05">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::compute_side_midpoints()</a>, <a class="el" href="classug_1_1_dim_h_f_v1_geometry.html#ac0fb45dae0fc989f67ee124bd0ce9e31">ug::DimHFV1Geometry&lt; TDim, TWorldDim &gt;::compute_side_midpoints()</a>, <a class="el" href="classug_1_1_h_f_v1_manifold_geometry.html#a959975388b8037be079f4088b5df4cd9">ug::HFV1ManifoldGeometry&lt; TElem, TWorldDim &gt;::compute_side_midpoints()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a7ee41461398fd3da5820ef6c94dfd6ab">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::copy_global_corners()</a>, <a class="el" href="classug_1_1_dim_h_f_v1_geometry.html#a304826e910da9e273763bdcb3d7843d6">ug::DimHFV1Geometry&lt; TDim, TWorldDim &gt;::copy_global_corners()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a5de6e427ef2aa3527b8543408c53e7ff">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::HFV1Geometry()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a72785a1bf848bcb7a215a879b77e8b4d">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::print()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a3f85612e3d8198cb389b97ceeebd788c">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::update()</a>, <a class="el" href="classug_1_1_dim_h_f_v1_geometry.html#a53510601f40b617906c35dbe3cd48b35">ug::DimHFV1Geometry&lt; TDim, TWorldDim &gt;::update()</a>, and <a class="el" href="classug_1_1_dim_h_f_v1_geometry.html#a3e74e9bde5417ae23ad308a79f408cb8">ug::DimHFV1Geometry&lt; TDim, TWorldDim &gt;::update_local_data()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_h_f_v1_geometry.html#a715b8de90a86db713cc89d5b57531e05">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::compute_side_midpoints()</a>, <a class="el" href="classug_1_1_dim_h_f_v1_geometry.html#ac0fb45dae0fc989f67ee124bd0ce9e31">ug::DimHFV1Geometry&lt; TDim, TWorldDim &gt;::compute_side_midpoints()</a>, <a class="el" href="classug_1_1_h_f_v1_manifold_geometry.html#a959975388b8037be079f4088b5df4cd9">ug::HFV1ManifoldGeometry&lt; TElem, TWorldDim &gt;::compute_side_midpoints()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a7ee41461398fd3da5820ef6c94dfd6ab">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::copy_global_corners()</a>, <a class="el" href="classug_1_1_dim_h_f_v1_geometry.html#a304826e910da9e273763bdcb3d7843d6">ug::DimHFV1Geometry&lt; TDim, TWorldDim &gt;::copy_global_corners()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a06e8d9d4328b0305025bf69326628f99">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::global_node_position()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a5de6e427ef2aa3527b8543408c53e7ff">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::HFV1Geometry()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a72785a1bf848bcb7a215a879b77e8b4d">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::print()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a3f85612e3d8198cb389b97ceeebd788c">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::update()</a>, <a class="el" href="classug_1_1_dim_h_f_v1_geometry.html#a53510601f40b617906c35dbe3cd48b35">ug::DimHFV1Geometry&lt; TDim, TWorldDim &gt;::update()</a>, and <a class="el" href="classug_1_1_dim_h_f_v1_geometry.html#a3e74e9bde5417ae23ad308a79f408cb8">ug::DimHFV1Geometry&lt; TDim, TWorldDim &gt;::update_local_data()</a>.</p>
 
 </div>
 </div>
@@ -1131,7 +1237,7 @@ template&lt;typename TElem , int TWorldDim&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classug_1_1_h_f_v1_geometry.html#a715b8de90a86db713cc89d5b57531e05">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::compute_side_midpoints()</a>, <a class="el" href="classug_1_1_dim_h_f_v1_geometry.html#ac0fb45dae0fc989f67ee124bd0ce9e31">ug::DimHFV1Geometry&lt; TDim, TWorldDim &gt;::compute_side_midpoints()</a>, <a class="el" href="classug_1_1_h_f_v1_manifold_geometry.html#a959975388b8037be079f4088b5df4cd9">ug::HFV1ManifoldGeometry&lt; TElem, TWorldDim &gt;::compute_side_midpoints()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a9142cd3691489eccb32454dcf3612478">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::copy_local_corners()</a>, <a class="el" href="classug_1_1_dim_h_f_v1_geometry.html#a33c55614f6ed6e0f3ff5564639f25543">ug::DimHFV1Geometry&lt; TDim, TWorldDim &gt;::copy_local_corners()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a5de6e427ef2aa3527b8543408c53e7ff">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::HFV1Geometry()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a72785a1bf848bcb7a215a879b77e8b4d">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::print()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a3f85612e3d8198cb389b97ceeebd788c">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::update()</a>, <a class="el" href="classug_1_1_dim_h_f_v1_geometry.html#a53510601f40b617906c35dbe3cd48b35">ug::DimHFV1Geometry&lt; TDim, TWorldDim &gt;::update()</a>, and <a class="el" href="classug_1_1_dim_h_f_v1_geometry.html#a3e74e9bde5417ae23ad308a79f408cb8">ug::DimHFV1Geometry&lt; TDim, TWorldDim &gt;::update_local_data()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_h_f_v1_geometry.html#a715b8de90a86db713cc89d5b57531e05">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::compute_side_midpoints()</a>, <a class="el" href="classug_1_1_dim_h_f_v1_geometry.html#ac0fb45dae0fc989f67ee124bd0ce9e31">ug::DimHFV1Geometry&lt; TDim, TWorldDim &gt;::compute_side_midpoints()</a>, <a class="el" href="classug_1_1_h_f_v1_manifold_geometry.html#a959975388b8037be079f4088b5df4cd9">ug::HFV1ManifoldGeometry&lt; TElem, TWorldDim &gt;::compute_side_midpoints()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a9142cd3691489eccb32454dcf3612478">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::copy_local_corners()</a>, <a class="el" href="classug_1_1_dim_h_f_v1_geometry.html#a33c55614f6ed6e0f3ff5564639f25543">ug::DimHFV1Geometry&lt; TDim, TWorldDim &gt;::copy_local_corners()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a5de6e427ef2aa3527b8543408c53e7ff">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::HFV1Geometry()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#afdb6a814dd73c8cf9463ce2920f3f9b0">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::local_node_position()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a72785a1bf848bcb7a215a879b77e8b4d">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::print()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a3f85612e3d8198cb389b97ceeebd788c">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::update()</a>, <a class="el" href="classug_1_1_dim_h_f_v1_geometry.html#a53510601f40b617906c35dbe3cd48b35">ug::DimHFV1Geometry&lt; TDim, TWorldDim &gt;::update()</a>, and <a class="el" href="classug_1_1_dim_h_f_v1_geometry.html#a3e74e9bde5417ae23ad308a79f408cb8">ug::DimHFV1Geometry&lt; TDim, TWorldDim &gt;::update_local_data()</a>.</p>
 
 </div>
 </div>
@@ -1239,7 +1345,7 @@ template&lt;typename TElem , int TWorldDim&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classug_1_1_h_f_v1_geometry.html#a3f85612e3d8198cb389b97ceeebd788c">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::update()</a>, <a class="el" href="classug_1_1_dim_h_f_v1_geometry.html#a53510601f40b617906c35dbe3cd48b35">ug::DimHFV1Geometry&lt; TDim, TWorldDim &gt;::update()</a>, and <a class="el" href="classug_1_1_dim_h_f_v1_geometry.html#a3e74e9bde5417ae23ad308a79f408cb8">ug::DimHFV1Geometry&lt; TDim, TWorldDim &gt;::update_local_data()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_h_f_v1_geometry.html#a3425d525f63bfa4c5e7288b29d05e6f0">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::elem()</a>, <a class="el" href="classug_1_1_h_f_v1_geometry.html#a3f85612e3d8198cb389b97ceeebd788c">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::update()</a>, <a class="el" href="classug_1_1_dim_h_f_v1_geometry.html#a53510601f40b617906c35dbe3cd48b35">ug::DimHFV1Geometry&lt; TDim, TWorldDim &gt;::update()</a>, and <a class="el" href="classug_1_1_dim_h_f_v1_geometry.html#a3e74e9bde5417ae23ad308a79f408cb8">ug::DimHFV1Geometry&lt; TDim, TWorldDim &gt;::update_local_data()</a>.</p>
 
 </div>
 </div>
@@ -1591,7 +1697,7 @@ template&lt;typename TElem , int TWorldDim&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_h_f_v1_geometry.html">HFV1Geometry</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:28 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:09:07 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -1,0 +1,5 @@
+var classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia3c4ea8675cae521c4123005e1b67917b =
+[
+    [ "NavierStokesFV1WithoutStabilization", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia3c4ea8675cae521c4123005e1b67917b.html#aed07f10d705efac113b2f0bc337b7662", null ],
+    [ "set_upwind", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia3c4ea8675cae521c4123005e1b67917b.html#a5f33dd5133ebc3b4ff9c602b624bbd86", null ]
+];

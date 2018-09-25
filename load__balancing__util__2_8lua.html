@@ -101,6 +101,8 @@ Functions</h2></td></tr>
 <tr class="separator:ad18d40270c11c66e815a0f511279a648"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af78a2b101b27b2a5b8c55dbb51dafa7c"><td class="memItemLeft" align="right" valign="top">function util balancer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="load__balancing__util__2_8lua.html#af78a2b101b27b2a5b8c55dbb51dafa7c">CreatePostProcessor</a> (dom, postProcDesc)</td></tr>
 <tr class="separator:af78a2b101b27b2a5b8c55dbb51dafa7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab22ad39e2cfd524ceaa162cb875bbe99"><td class="memItemLeft" align="right" valign="top">function util balancer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="load__balancing__util__2_8lua.html#ab22ad39e2cfd524ceaa162cb875bbe99">CreatePreProcessor</a> (dom, preProcDesc)</td></tr>
+<tr class="separator:ab22ad39e2cfd524ceaa162cb875bbe99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c35017739a87103f0bfdc161d20c374"><td class="memItemLeft" align="right" valign="top">function util balancer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="load__balancing__util__2_8lua.html#a4c35017739a87103f0bfdc161d20c374">CreateProcessHierarchy</a> (dom, hierarchyDesc)</td></tr>
 <tr class="separator:a4c35017739a87103f0bfdc161d20c374"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae12062a3c2debb0f7fa321bcbbb5be01"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="load__balancing__util__2_8lua.html#ae12062a3c2debb0f7fa321bcbbb5be01">print_quality_records</a> ()</td></tr>
@@ -132,7 +134,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="load__balancing__util__2_8lua.html">load_balancing_util_2.lua</a> :148-153 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.balancer.CondAbort(condition, <a class="code" href="group__scripts__util__test.html#gab01173c9c178b0a1f6a8c61955b0c2dd">message</a>)</div><div class="line">  <span class="keywordflow">if</span> condition == <span class="keyword">true</span> then</div><div class="line">    <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(<span class="stringliteral">&quot;ERROR in util.balancer: &quot;</span> .. <a class="code" href="group__scripts__util__test.html#gab01173c9c178b0a1f6a8c61955b0c2dd">message</a>)</div><div class="line">    <a class="codeRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/regdocu.tags:../regdocu/" href="../regdocu/namespaceug4_bridge_1_1_util.html#aa299a7c490029a3ae0846ccfe4233c9d">exit</a>()</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="load__balancing__util__2_8lua.html">load_balancing_util_2.lua</a> :170-175 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.balancer.CondAbort(condition, <a class="code" href="group__scripts__util__test.html#gab01173c9c178b0a1f6a8c61955b0c2dd">message</a>)</div><div class="line">  <span class="keywordflow">if</span> condition == <span class="keyword">true</span> then</div><div class="line">    <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(<span class="stringliteral">&quot;ERROR in util.balancer: &quot;</span> .. <a class="code" href="group__scripts__util__test.html#gab01173c9c178b0a1f6a8c61955b0c2dd">message</a>)</div><div class="line">    <a class="codeRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/regdocu.tags:../regdocu/" href="../regdocu/namespaceug4_bridge_1_1_util.html#aa299a7c490029a3ae0846ccfe4233c9d">exit</a>()</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="ad18d40270c11c66e815a0f511279a648"></a>
@@ -160,7 +162,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="load__balancing__util__2_8lua.html">load_balancing_util_2.lua</a> :230-301 </p>
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="load__balancing__util__2_8lua.html">load_balancing_util_2.lua</a> :258-374 </p>
 
 </div>
 </div>
@@ -189,8 +191,36 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="load__balancing__util__2_8lua.html">load_balancing_util_2.lua</a> :304-325 </p>
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="load__balancing__util__2_8lua.html">load_balancing_util_2.lua</a> :398-419 </p>
 
+</div>
+</div>
+<a id="ab22ad39e2cfd524ceaa162cb875bbe99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab22ad39e2cfd524ceaa162cb875bbe99">&sect;&nbsp;</a></span>CreatePreProcessor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function util balancer CreatePreProcessor </td>
+          <td>(</td>
+          <td class="paramtype">dom&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">preProcDesc&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="load__balancing__util__2_8lua.html">load_balancing_util_2.lua</a> :377-395 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.balancer.CreatePreProcessor(dom, preProcDesc)</div><div class="line">  <span class="keywordflow">if</span> util.tableDesc.IsPreset(preProcDesc) then <span class="keywordflow">return</span> preProcDesc end</div><div class="line"></div><div class="line">  local name, desc = util.tableDesc.ToNameAndDesc(preProcDesc)</div><div class="line">  local defaults = util.balancer.defaults.partitionPreProcessors[name]</div><div class="line">  <span class="keywordflow">if</span> desc == nil then desc = defaults end</div><div class="line"></div><div class="line">  local preProc = nil</div><div class="line">  <span class="keywordflow">if</span> name == <span class="stringliteral">&quot;rasterProjectorCoordinates&quot;</span> then</div><div class="line">    preProc = PartPreProc_RasterProjectorCoordinates(dom:position_attachment())</div><div class="line">  else</div><div class="line">    <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(&quot;ERROR: Unknown partitionPreProcessor specified in &quot; ..</div><div class="line">        &quot; util.balancer. <a class="code" href="load__balancing__util__2_8lua.html#ab22ad39e2cfd524ceaa162cb875bbe99">CreatePreProcessor</a>: &quot; .. name)</div><div class="line">    exit()</div><div class="line">  end</div><div class="line"></div><div class="line">  <a class="code" href="lexer_8cpp.html#ad4a65b873df5c05570846b5413b41dfd">if</a> desc then desc.instance = preProc end</div><div class="line">  return preProc</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="a4c35017739a87103f0bfdc161d20c374"></a>
@@ -218,7 +248,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="load__balancing__util__2_8lua.html">load_balancing_util_2.lua</a> :328-482 </p>
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="load__balancing__util__2_8lua.html">load_balancing_util_2.lua</a> :422-580 </p>
 
 </div>
 </div>
@@ -241,8 +271,8 @@ Functions</h2></td></tr>
 <p>/**</p>
 <p>/**</p>
 <p>/**</p>
-<p>/** location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="load__balancing__util__2_8lua.html">load_balancing_util_2.lua</a> :223-227 </p><div class="fragment"><div class="line">    <a class="code" href="load__balancing__util__2_8lua.html#ae12062a3c2debb0f7fa321bcbbb5be01">print_quality_records</a> = <span class="keyword">function</span> ()</div><div class="line"></div><div class="line">                  loadBalancer:<a class="code" href="load__balancing__util__2_8lua.html#ae12062a3c2debb0f7fa321bcbbb5be01">print_quality_records</a>()</div><div class="line">                end</div><div class="line">  }</div><div class="line">end</div></div><!-- fragment --> 
-<p>Referenced by <a class="el" href="classug_1_1_load_balancer.html#a26c13bddfb8bfcb8e1ef330fb09a2f92">ug::LoadBalancer::add_serializer()</a>, and <a class="el" href="structug_1_1bridge_1_1_load_balancing_1_1_functionality.html#a65a56904f29eedfc0760e2baac4ebf23">ug::bridge::LoadBalancing::Functionality::Common()</a>.</p>
+<p>/** location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="load__balancing__util__2_8lua.html">load_balancing_util_2.lua</a> :251-255 </p><div class="fragment"><div class="line">    <a class="code" href="load__balancing__util__2_8lua.html#ae12062a3c2debb0f7fa321bcbbb5be01">print_quality_records</a> = <span class="keyword">function</span> ()</div><div class="line"></div><div class="line">                  loadBalancer:<a class="code" href="load__balancing__util__2_8lua.html#ae12062a3c2debb0f7fa321bcbbb5be01">print_quality_records</a>()</div><div class="line">                end</div><div class="line">  }</div><div class="line">end</div></div><!-- fragment --> 
+<p>Referenced by <a class="el" href="structug_1_1bridge_1_1_load_balancing_1_1_functionality.html#a65a56904f29eedfc0760e2baac4ebf23">ug::bridge::LoadBalancing::Functionality::Common()</a>.</p>
 
 </div>
 </div>
@@ -252,7 +282,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_53e6fa9553ac22a5646d2a2b2d7b97a1.html">scripts</a></li><li class="navelem"><a class="el" href="dir_46f23659e18aa5fa06de6ff2c04a1a12.html">util</a></li><li class="navelem"><a class="el" href="load__balancing__util__2_8lua.html">load_balancing_util_2.lua</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:10 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:08:42 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

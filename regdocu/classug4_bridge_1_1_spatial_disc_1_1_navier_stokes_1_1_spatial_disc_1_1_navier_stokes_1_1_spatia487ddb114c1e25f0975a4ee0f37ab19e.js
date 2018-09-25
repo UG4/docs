@@ -1,0 +1,5 @@
+var classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia487ddb114c1e25f0975a4ee0f37ab19e =
+[
+    [ "CRNavierStokesSymBC", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia487ddb114c1e25f0975a4ee0f37ab19e.html#ac143362108b89a8749a9c78136ca6144", null ],
+    [ "add", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia487ddb114c1e25f0975a4ee0f37ab19e.html#ab0105124c5b34ea1c65ef89972b9c6d4", null ]
+];

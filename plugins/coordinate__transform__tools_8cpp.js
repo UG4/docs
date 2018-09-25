@@ -12,6 +12,7 @@ var coordinate__transform__tools_8cpp =
     [ "MoveSelectionTo", "coordinate__transform__tools_8cpp.html#ga56f23d477ae2a10c2776e1c246a671b8", null ],
     [ "MoveVerticesAlongEdges", "coordinate__transform__tools_8cpp.html#gad421a76bf8183295c9d2a6cf456aa39d", null ],
     [ "MoveVerticesToEdgeLength", "coordinate__transform__tools_8cpp.html#gab38322abb2faac32008c746f656f0a87", null ],
+    [ "MoveVerticesToProjectedEdgeLength", "coordinate__transform__tools_8cpp.html#ga92aeffa1b492999cf8678c404a347dc0", null ],
     [ "ProjectToLimitPLoop", "coordinate__transform__tools_8cpp.html#ga8826a6c32a92c89794e811208ac0247d", null ],
     [ "ProjectToLimitSmoothBoundary", "coordinate__transform__tools_8cpp.html#ga5895ae3ade4e13965fcbdae0686e300d", null ],
     [ "ProjectToPlane", "coordinate__transform__tools_8cpp.html#ga2fe388089de1c83104a6329d679fa016", null ],

@@ -101,9 +101,9 @@ Functions</h2></td></tr>
 <tr class="memitem:aead438e50733c2adf85001a847de973f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_remeshing_1_1_refinement.html#aead438e50733c2adf85001a847de973f">InsertCenter</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh)</td></tr>
 <tr class="memdesc:aead438e50733c2adf85001a847de973f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a central vertex in all selected elements.  <a href="#aead438e50733c2adf85001a847de973f">More...</a><br /></td></tr>
 <tr class="separator:aead438e50733c2adf85001a847de973f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad83c7f7e22647f68af1241d1b0de2c20"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_remeshing_1_1_refinement.html#ad83c7f7e22647f68af1241d1b0de2c20">PlaneCut</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, const Vec3d *plane_center, const Vec3d *plane_normal)</td></tr>
-<tr class="memdesc:ad83c7f7e22647f68af1241d1b0de2c20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cuts selected edges along the given plane.  <a href="#ad83c7f7e22647f68af1241d1b0de2c20">More...</a><br /></td></tr>
-<tr class="separator:ad83c7f7e22647f68af1241d1b0de2c20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a287c0d416a31377d91c6b74db72438db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_remeshing_1_1_refinement.html#a287c0d416a31377d91c6b74db72438db">PlaneCut</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, const Vec *plane_center, const Vec *plane_normal)</td></tr>
+<tr class="memdesc:a287c0d416a31377d91c6b74db72438db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cuts selected edges along the given plane.  <a href="#a287c0d416a31377d91c6b74db72438db">More...</a><br /></td></tr>
+<tr class="separator:a287c0d416a31377d91c6b74db72438db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d225a684430e23e299c3d6f7a819540"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_remeshing_1_1_refinement.html#a9d225a684430e23e299c3d6f7a819540">Refine</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh)</td></tr>
 <tr class="memdesc:a9d225a684430e23e299c3d6f7a819540"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refines selected elements and builds a regular closure.  <a href="#a9d225a684430e23e299c3d6f7a819540">More...</a><br /></td></tr>
 <tr class="separator:a9d225a684430e23e299c3d6f7a819540"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -113,6 +113,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ab1bb425dd58c7755fb9d08be73941282"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_remeshing_1_1_refinement.html#ab1bb425dd58c7755fb9d08be73941282">RefineWithSnapPoints</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh)</td></tr>
 <tr class="memdesc:ab1bb425dd58c7755fb9d08be73941282"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refines selected elements so that new edges are built between midpoints of selected edges and selected vertices, if possible.  <a href="#ab1bb425dd58c7755fb9d08be73941282">More...</a><br /></td></tr>
 <tr class="separator:ab1bb425dd58c7755fb9d08be73941282"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0253fc1a20f017bbd115322545613792"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_remeshing_1_1_refinement.html#a0253fc1a20f017bbd115322545613792">RefineWithSnapPointsOrtho</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh)</td></tr>
+<tr class="memdesc:a0253fc1a20f017bbd115322545613792"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refines selected elements so that new edges are built between midpoints of selected edges and selected vertices, if possible. New vertices are placed so that their connecting edge to the snap point is orthogonal to their parent edge.  <a href="#a0253fc1a20f017bbd115322545613792">More...</a><br /></td></tr>
+<tr class="separator:a0253fc1a20f017bbd115322545613792"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa60b6b335840bf8bc30afcca6f6c3dba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_remeshing_1_1_refinement.html#aa60b6b335840bf8bc30afcca6f6c3dba">RegularizingRefinement</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, double aspect_ratio)</td></tr>
 <tr class="memdesc:aa60b6b335840bf8bc30afcca6f6c3dba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks and refines elements with small aspect ratios, trying to improves said aspect ratios.  <a href="#aa60b6b335840bf8bc30afcca6f6c3dba">More...</a><br /></td></tr>
 <tr class="separator:aa60b6b335840bf8bc30afcca6f6c3dba"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -153,7 +156,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga96da1aee9c8ff5fa45501f60df1e2846">HangingNodeRefine()</a>.</p>
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga96da1aee9c8ff5fa45501f60df1e2846">HangingNodeRefine()</a>.</p>
 
 </div>
 </div>
@@ -181,12 +184,12 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga1a6f1f3eaca1b85d922d0affa5813e6e">InsertCenter()</a>.</p>
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga1a6f1f3eaca1b85d922d0affa5813e6e">InsertCenter()</a>.</p>
 
 </div>
 </div>
-<a id="ad83c7f7e22647f68af1241d1b0de2c20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad83c7f7e22647f68af1241d1b0de2c20">&sect;&nbsp;</a></span>PlaneCut()</h2>
+<a id="a287c0d416a31377d91c6b74db72438db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a287c0d416a31377d91c6b74db72438db">&sect;&nbsp;</a></span>PlaneCut()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -200,13 +203,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Vec3d *&#160;</td>
+          <td class="paramtype">const Vec *&#160;</td>
           <td class="paramname"><em>plane_center</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Vec3d *&#160;</td>
+          <td class="paramtype">const Vec *&#160;</td>
           <td class="paramname"><em>plane_normal</em>&#160;</td>
         </tr>
         <tr>
@@ -227,7 +230,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga2a7ce576b808c4d9dea354a2cf765f0a">PlaneCut()</a>.</p>
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga2a7ce576b808c4d9dea354a2cf765f0a">PlaneCut()</a>.</p>
 
 </div>
 </div>
@@ -255,7 +258,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/ugbase.tags:../" href="../group__lib__grid__algorithms__refinement.html#gab98f7a6e7eef37be3d6f18c88c64562e">Refine()</a>.</p>
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/ugbase.tags:../" href="../group__lib__grid__algorithms__refinement.html#gab98f7a6e7eef37be3d6f18c88c64562e">Refine()</a>.</p>
 
 </div>
 </div>
@@ -283,7 +286,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#gaf65e06146f29d06c2a7d9d74705e0af0">RefineSmooth()</a>.</p>
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#gaf65e06146f29d06c2a7d9d74705e0af0">RefineSmooth()</a>.</p>
 
 </div>
 </div>
@@ -311,7 +314,35 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#gaf4a6ef8170e85a32c2e086fa8ef335f2">RefineWithSnapPoints()</a>.</p>
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#gaf4a6ef8170e85a32c2e086fa8ef335f2">RefineWithSnapPoints()</a>.</p>
+
+</div>
+</div>
+<a id="a0253fc1a20f017bbd115322545613792"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0253fc1a20f017bbd115322545613792">&sect;&nbsp;</a></span>RefineWithSnapPointsOrtho()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug4Bridge::promesh::Remeshing::Refinement::RefineWithSnapPointsOrtho </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *&#160;</td>
+          <td class="paramname"><em>mesh</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Refines selected elements so that new edges are built between midpoints of selected edges and selected vertices, if possible. New vertices are placed so that their connecting edge to the snap point is orthogonal to their parent edge. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga7473768e2dc7895bd77935881455bee2">RefineWithSnapPointsOrtho()</a>.</p>
 
 </div>
 </div>
@@ -350,7 +381,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga28d4a840d57b0f0ca3ef38b22e5dd155">RegularizingRefinement()</a>.</p>
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga28d4a840d57b0f0ca3ef38b22e5dd155">RegularizingRefinement()</a>.</p>
 
 </div>
 </div>
@@ -360,7 +391,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug4_bridge.html">ug4Bridge</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh.html">promesh</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_remeshing.html">Remeshing</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_remeshing_1_1_refinement.html">Refinement</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:03:00 for Registry by
+    <li class="footer">Generated on Tue Sep 25 2018 10:07:06 for Registry by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

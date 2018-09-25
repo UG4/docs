@@ -21,14 +21,15 @@ var group__lib__grid__algorithms__face__util =
     [ "InsertCenterVertex", "../group__lib__grid__algorithms__face__util.html#gad75663712608cfcd1d1e432a0198593a", null ],
     [ "IsBoundaryFace3D", "../group__lib__grid__algorithms__face__util.html#ga13333d7cf4577f562d1a92d1b3fc4c5e", null ],
     [ "IsDegenerated", "../group__lib__grid__algorithms__face__util.html#ga07103928668c01fbc9a92a670a9ba9e4", null ],
-    [ "IsVolumeBoundaryFace", "../group__lib__grid__algorithms__face__util.html#ga4e9dfa154c5ab46e2f77c4a48a8ee98c", null ],
-    [ "IsVolumeBoundaryFace", "../group__lib__grid__algorithms__face__util.html#ga6612d9dd1c1ccd191d67a1a1e6718156", null ],
     [ "IsVolumeBoundaryFace", "../group__lib__grid__algorithms__face__util.html#gafd8032868d5b1b81c1d0171156ce7acd", null ],
+    [ "IsVolumeBoundaryFace", "../group__lib__grid__algorithms__face__util.html#ga6612d9dd1c1ccd191d67a1a1e6718156", null ],
+    [ "IsVolumeBoundaryFace", "../group__lib__grid__algorithms__face__util.html#ga4e9dfa154c5ab46e2f77c4a48a8ee98c", null ],
     [ "LiesOnBoundary", "../group__lib__grid__algorithms__face__util.html#ga546524dbafff353c160a8e52acb90260", null ],
+    [ "NumAssociatedVolumes", "../group__lib__grid__algorithms__face__util.html#ga2e099f969485473fadd5113b40fe508a", null ],
     [ "PointFaceTest", "../group__lib__grid__algorithms__face__util.html#ga9ed3a8995006d786f63e318b7f6c358f", null ],
     [ "ProjectPointToSurface", "../group__lib__grid__algorithms__face__util.html#gabe4b069038c2eb0c0284efde3a3bd64b", null ],
     [ "TriangleQuality", "../group__lib__grid__algorithms__face__util.html#gae772e4fd343550a940e172b770faaf1b", null ],
-    [ "Triangulate", "../group__lib__grid__algorithms__face__util.html#gac5dd5ed95ed5f64fd5d29133769324be", null ],
+    [ "Triangulate", "../group__lib__grid__algorithms__face__util.html#ga5e830eb2ca680c580b9309aa4f9c445e", null ],
     [ "Triangulate", "../group__lib__grid__algorithms__face__util.html#ga2b4fdf52742a3186bfd3473b2f028926", null ],
-    [ "Triangulate", "../group__lib__grid__algorithms__face__util.html#ga5e830eb2ca680c580b9309aa4f9c445e", null ]
+    [ "Triangulate", "../group__lib__grid__algorithms__face__util.html#gac5dd5ed95ed5f64fd5d29133769324be", null ]
 ];

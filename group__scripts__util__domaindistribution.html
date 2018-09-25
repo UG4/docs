@@ -177,7 +177,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="domain__distribution__util_8lua.html">domain_distribution_util.lua</a> :66-128 </p>
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="domain__distribution__util_8lua.html">domain_distribution_util.lua</a> :66-128 </p>
 
 </div>
 </div>
@@ -213,7 +213,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>create a partition map by performing repeated bisection</p>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="domain__distribution__util_8lua.html">domain_distribution_util.lua</a> :132-162 </p>
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="domain__distribution__util_8lua.html">domain_distribution_util.lua</a> :132-162 </p>
 
 </div>
 </div>
@@ -261,7 +261,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>performs lexicographic ordering from the lower left to the upper right. Since each node can consist of multiple processes, we can further perform a 'hierarchical' lexicographic ordering. Set numProcsPerNode to 1 to retrieve a default ordering. Set it to any square of n (n = 2, 3, ...) to retrieve lexicographic ordered subgrids in each node (a node is considered to be a square grid itself). If numProcsPerNode is not a square-number, then it will be defaulted to 1. Since this method adds target procs 0, ..., numNodesX * numNodesY * numProcsPerNode to the given partitionMap, it is not suited for redistribution.</p>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="domain__distribution__util_8lua.html">domain_distribution_util.lua</a> :198-233 </p>
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="domain__distribution__util_8lua.html">domain_distribution_util.lua</a> :198-233 </p>
 
 </div>
 </div>
@@ -303,7 +303,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>create a partition map by using metis graph partitioning. This only works if Metis is available in the current build. Use PartitionDomain_MetisKWay directly in this case.</p>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="domain__distribution__util_8lua.html">domain_distribution_util.lua</a> :167-173 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.PartitionMapMetis(dom, partitionMapOut, numProcs, baseLevel)</div><div class="line">  <span class="keywordflow">if</span>(partitionMapOut:num_target_procs() ~= numProcs) then</div><div class="line">    partitionMapOut:clear()</div><div class="line">    partitionMapOut:add_target_procs(0, numProcs)</div><div class="line">  end</div><div class="line">  <a class="code" href="namespaceug.html#a55c5056e6dda8f131e5d8abb6eb4bf53">PartitionDomain_MetisKWay</a>(dom, partitionMapOut, numProcs, baseLevel, 1, 1)</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="domain__distribution__util_8lua.html">domain_distribution_util.lua</a> :167-173 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.PartitionMapMetis(dom, partitionMapOut, numProcs, baseLevel)</div><div class="line">  <span class="keywordflow">if</span>(partitionMapOut:num_target_procs() ~= numProcs) then</div><div class="line">    partitionMapOut:clear()</div><div class="line">    partitionMapOut:add_target_procs(0, numProcs)</div><div class="line">  end</div><div class="line">  <a class="code" href="namespaceug.html#a55c5056e6dda8f131e5d8abb6eb4bf53">PartitionDomain_MetisKWay</a>(dom, partitionMapOut, numProcs, baseLevel, 1, 1)</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="ga4eb151a83ce564e5070ecfc76e078267"></a>
@@ -350,7 +350,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>create a partition map by using metis graph partitioning and correct weights of dual graph edges by weighting function. This only works if Metis is available in the current build. Use PartitionDomain_MetisKWay directly in this case.</p>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="domain__distribution__util_8lua.html">domain_distribution_util.lua</a> :179-185 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.PartitionMapMetisReweigh(dom, partitionMapOut, numProcs, baseLevel, wFct)</div><div class="line">  <span class="keywordflow">if</span>(partitionMapOut:num_target_procs() ~= numProcs) then</div><div class="line">    partitionMapOut:clear()</div><div class="line">    partitionMapOut:add_target_procs(0, numProcs)</div><div class="line">  end</div><div class="line">  <a class="code" href="namespaceug.html#a55c5056e6dda8f131e5d8abb6eb4bf53">PartitionDomain_MetisKWay</a>(dom, partitionMapOut, numProcs, baseLevel, wFct)</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="domain__distribution__util_8lua.html">domain_distribution_util.lua</a> :179-185 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.PartitionMapMetisReweigh(dom, partitionMapOut, numProcs, baseLevel, wFct)</div><div class="line">  <span class="keywordflow">if</span>(partitionMapOut:num_target_procs() ~= numProcs) then</div><div class="line">    partitionMapOut:clear()</div><div class="line">    partitionMapOut:add_target_procs(0, numProcs)</div><div class="line">  end</div><div class="line">  <a class="code" href="namespaceug.html#a55c5056e6dda8f131e5d8abb6eb4bf53">PartitionDomain_MetisKWay</a>(dom, partitionMapOut, numProcs, baseLevel, wFct)</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="ga95f89689879a1cdfb50c32e8b2b75536"></a>
@@ -397,7 +397,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Partitions the grid by assigning each element to a process corresponding to the index of the cell in which the elements center lies. Make sure that numNodesX, numNodesY and numNodesZ are &gt;= 1.</p>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="domain__distribution__util_8lua.html">domain_distribution_util.lua</a> :238-249 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.PartitionMapRegularGrid(dom, partitionMapOut, numNodesX, numNodesY, numNodesZ)</div><div class="line">  local numProcsRequired = numNodesX * numNodesY * numNodesZ</div><div class="line">  <span class="keywordflow">if</span> <a class="code" href="group__pcl.html#ga7a09a2eab069305ca735847eed023d2f">NumProcs</a>() &lt; (numProcsRequired) then</div><div class="line">    <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(<span class="stringliteral">&quot;Not enough processes allocated. At least &quot;</span> .. numProcsRequired .. <span class="stringliteral">&quot; processes are required!&quot;</span>)</div><div class="line">    exit()</div><div class="line">  end</div><div class="line">  <a class="code" href="lexer_8cpp.html#ad4a65b873df5c05570846b5413b41dfd">if</a>(partitionMapOut:num_target_procs() ~= numProcsRequired) then</div><div class="line">    partitionMapOut:clear()</div><div class="line">    partitionMapOut:add_target_procs(0, numProcsRequired)</div><div class="line">  end</div><div class="line">  <a class="code" href="namespaceug.html#acba6efc416be7cc6c1198ecf74ad2c26">PartitionDomain_RegularGrid</a>(dom, partitionMapOut, numNodesX, numNodesY, numNodesZ, true)</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="domain__distribution__util_8lua.html">domain_distribution_util.lua</a> :238-249 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.PartitionMapRegularGrid(dom, partitionMapOut, numNodesX, numNodesY, numNodesZ)</div><div class="line">  local numProcsRequired = numNodesX * numNodesY * numNodesZ</div><div class="line">  <span class="keywordflow">if</span> <a class="code" href="group__pcl.html#ga7a09a2eab069305ca735847eed023d2f">NumProcs</a>() &lt; (numProcsRequired) then</div><div class="line">    <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(<span class="stringliteral">&quot;Not enough processes allocated. At least &quot;</span> .. numProcsRequired .. <span class="stringliteral">&quot; processes are required!&quot;</span>)</div><div class="line">    exit()</div><div class="line">  end</div><div class="line">  <a class="code" href="lexer_8cpp.html#ad4a65b873df5c05570846b5413b41dfd">if</a>(partitionMapOut:num_target_procs() ~= numProcsRequired) then</div><div class="line">    partitionMapOut:clear()</div><div class="line">    partitionMapOut:add_target_procs(0, numProcsRequired)</div><div class="line">  end</div><div class="line">  <a class="code" href="namespaceug.html#acba6efc416be7cc6c1198ecf74ad2c26">PartitionDomain_RegularGrid</a>(dom, partitionMapOut, numNodesX, numNodesY, numNodesZ, true)</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 </div><!-- contents -->
@@ -405,7 +405,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:13 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:08:45 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

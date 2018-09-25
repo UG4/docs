@@ -106,9 +106,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga8744d187b4c2588ed7343b97118cab95"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#ga6a442be2e75e98247f82d1aa90a06aac">UG_API</a> TAAPosVRT::ValueType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__volume__util.html#ga8744d187b4c2588ed7343b97118cab95">ug::CalculateCenter</a> (const <a class="el" href="classug_1_1_volume_vertices.html">VolumeVertices</a> *vol, TAAPosVRT &amp;aaPos, TAAWeightVRT &amp;aaWeight)</td></tr>
 <tr class="memdesc:ga8744d187b4c2588ed7343b97118cab95"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the weighted center of the vertices of the given volume  <a href="group__lib__grid__algorithms__volume__util.html#ga8744d187b4c2588ed7343b97118cab95">More...</a><br /></td></tr>
 <tr class="separator:ga8744d187b4c2588ed7343b97118cab95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8540f90964c07497a002d362629d5652"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__volume__util.html#ga8540f90964c07497a002d362629d5652">ug::CalculateMinTetrahedronHeight</a> (const <a class="el" href="group__vectors.html#ga894cdb8af74f7a563a94fb49c220fdcd">vector3</a> &amp;a, const <a class="el" href="group__vectors.html#ga894cdb8af74f7a563a94fb49c220fdcd">vector3</a> &amp;b, const <a class="el" href="group__vectors.html#ga894cdb8af74f7a563a94fb49c220fdcd">vector3</a> &amp;c, const <a class="el" href="group__vectors.html#ga894cdb8af74f7a563a94fb49c220fdcd">vector3</a> &amp;d)</td></tr>
-<tr class="memdesc:ga8540f90964c07497a002d362629d5652"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates the minimal height of a tetrahedral element  <a href="group__lib__grid__algorithms__volume__util.html#ga8540f90964c07497a002d362629d5652">More...</a><br /></td></tr>
-<tr class="separator:ga8540f90964c07497a002d362629d5652"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga439e8124095ed0540b516dfaff7959bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__volume__util.html#ga439e8124095ed0540b516dfaff7959bf">ug::CalculateMinVolumeHeight</a> (<a class="el" href="classug_1_1_tetrahedron.html">Tetrahedron</a> *tet, <a class="el" href="classug_1_1_grid_1_1_vertex_attachment_accessor.html">Grid::VertexAttachmentAccessor</a>&lt; <a class="el" href="namespaceug.html#a780dd3524b97269f891365fd3c3b895a">APosition</a> &gt; &amp;aaPos)</td></tr>
 <tr class="memdesc:ga439e8124095ed0540b516dfaff7959bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates the minimal height of a volume element of type tetrahedron  <a href="group__lib__grid__algorithms__volume__util.html#ga439e8124095ed0540b516dfaff7959bf">More...</a><br /></td></tr>
 <tr class="separator:ga439e8124095ed0540b516dfaff7959bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -245,52 +242,6 @@ template&lt;class TAAPosVRT , class TAAWeightVRT &gt; </div>
 
 </div>
 </div>
-<a id="ga8540f90964c07497a002d362629d5652"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8540f90964c07497a002d362629d5652">&sect;&nbsp;</a></span>CalculateMinTetrahedronHeight()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__ugbase__common.html#ga6a442be2e75e98247f82d1aa90a06aac">UG_API</a> <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> ug::CalculateMinTetrahedronHeight </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__vectors.html#ga894cdb8af74f7a563a94fb49c220fdcd">vector3</a> &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="group__vectors.html#ga894cdb8af74f7a563a94fb49c220fdcd">vector3</a> &amp;&#160;</td>
-          <td class="paramname"><em>b</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="group__vectors.html#ga894cdb8af74f7a563a94fb49c220fdcd">vector3</a> &amp;&#160;</td>
-          <td class="paramname"><em>c</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="group__vectors.html#ga894cdb8af74f7a563a94fb49c220fdcd">vector3</a> &amp;&#160;</td>
-          <td class="paramname"><em>d</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>calculates the minimal height of a tetrahedral element </p>
-
-<p>References <a class="el" href="group__math__matrix.html#gae47dabe81d5739150d76b609db55f8ab">ug::Inverse()</a>, <a class="el" href="group__ugbase__math.html#gab755dfcc4823f5a150c931e1fdca6c78">ug::MatVecMult()</a>, <a class="el" href="group__vectors.html#gaaedb3f236ce52671088a819cfa3c169b">ug::VecCross()</a>, <a class="el" href="group__vectors.html#ga017412e0fb3129d2584d77125e692faf">ug::VecLength()</a>, <a class="el" href="group__vectors.html#gaa0cd3e6bb61c8e341541f8cf3065ec6d">ug::VecScale()</a>, and <a class="el" href="group__vectors.html#ga5c7eda5aeb4cd0d53ce04f682d0a0058">ug::VecSubtract()</a>.</p>
-
-<p>Referenced by <a class="el" href="group__lib__grid__algorithms__volume__util.html#ga439e8124095ed0540b516dfaff7959bf">ug::CalculateMinVolumeHeight()</a>.</p>
-
-</div>
-</div>
 <a id="ga439e8124095ed0540b516dfaff7959bf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga439e8124095ed0540b516dfaff7959bf">&sect;&nbsp;</a></span>CalculateMinVolumeHeight()</h2>
 
@@ -319,9 +270,9 @@ template&lt;class TAAPosVRT , class TAAWeightVRT &gt; </div>
 
 <p>calculates the minimal height of a volume element of type tetrahedron </p>
 
-<p>References <a class="el" href="group__lib__grid__algorithms__volume__util.html#ga8540f90964c07497a002d362629d5652">ug::CalculateMinTetrahedronHeight()</a>, and <a class="el" href="classug_1_1_tetrahedron.html#addbf0908294867171aaea9b0288b99a9">ug::Tetrahedron::vertex()</a>.</p>
+<p>References <a class="el" href="group__lib__grid__algorithms__edge__util.html#ga47d8d9dc1634d72a7500de9fe2e1f7a3">ug::CalculateNormal()</a>, <a class="el" href="group__ugbase__mathutil.html#gadbfb99780de12aa58f4049f5e07d76fb">ug::DistancePointToPlane()</a>, <a class="el" href="classug_1_1_tetrahedron.html#a4edf8f293115d48c7d41c0689e25c2b0">ug::Tetrahedron::face_desc()</a>, <a class="el" href="classug_1_1_tetrahedron.html#a3426a59817706ae6c61dae279c8dda0f">ug::Tetrahedron::get_opposing_object()</a>, <a class="el" href="classug_1_1_tetrahedron.html#addbf0908294867171aaea9b0288b99a9">ug::Tetrahedron::vertex()</a>, and <a class="el" href="classug_1_1_face_descriptor.html#a304e8f1a4b9d18d02440cc48870f30f7">ug::FaceDescriptor::vertex()</a>.</p>
 
-<p>Referenced by <a class="el" href="group__lib__grid__algorithms__volume__util.html#gaf31820d91f65e3dd5680a7d6e4652dea">ug::CalculateTetrahedronAspectRatio()</a>.</p>
+<p>Referenced by <a class="el" href="group__lib__grid__algorithms__volume__util.html#gaf31820d91f65e3dd5680a7d6e4652dea">ug::CalculateTetrahedronAspectRatio()</a>, and <a class="el" href="namespaceug.html#ada3f555b2a30118bdcaa4e5899b7d96c">ug::TetrahedronAspectRatio()</a>.</p>
 
 </div>
 </div>
@@ -361,7 +312,7 @@ template&lt;class TAAPosVRT , class TAAWeightVRT &gt; </div>
 
 <p>References <a class="el" href="group__lib__grid__algorithms__volume__util.html#ga439e8124095ed0540b516dfaff7959bf">ug::CalculateMinVolumeHeight()</a>, <a class="el" href="group__lib__grid__algorithms__neighborhood__util.html#ga50e7ba3a0ade724300e8742465a86d1b">ug::CollectAssociated()</a>, <a class="el" href="group__lib__grid__algorithms__edge__util.html#gae641a616a9dade33b7435c7e1f98fe0d">ug::EdgeLength()</a>, <a class="el" href="namespaceug.html#a344f7c1a6d8b21860c5510e697c80d33">ug::FindLongestEdge()</a>, and <a class="el" href="group__ugbase__common.html#ga6a442be2e75e98247f82d1aa90a06aac">UG_API</a>.</p>
 
-<p>Referenced by <a class="el" href="namespaceug.html#ac6ae9a21a4c8e1dd34e9aad5fbff6f4b">ug::AssignTetrahedronAttributesByAspectRatio()</a>.</p>
+<p>Referenced by <a class="el" href="namespaceug.html#ac6ae9a21a4c8e1dd34e9aad5fbff6f4b">ug::AssignTetrahedronAttributesByAspectRatio()</a>, and <a class="el" href="namespaceug.html#a0943038b3c227f55e8947873a74ac09e">ug::CalculateAspectRatio()</a>.</p>
 
 </div>
 </div>
@@ -436,6 +387,8 @@ template&lt;class TAAPosVRT , class TAAWeightVRT &gt; </div>
 </div><div class="memdoc">
 
 <p>References <a class="el" href="group__lib__grid__algorithms__volume__util.html#ga57672e0c3f4904f54c95d7c20294e6b0">ug::CalculateTetrahedronRootMeanSquareFaceArea()</a>, <a class="el" href="group__ugbase__mathutil.html#ga041878d0cb4c83183816c22da883270e">ug::CalculateTetrahedronVolume()</a>, <a class="el" href="group__lib__grid__algorithms__volume__util.html#gaba653e9d1d95962e667b950c72f97803">ug::IntersectPlaneWithTetrahedron()</a>, and <a class="el" href="classug_1_1_tetrahedron.html#addbf0908294867171aaea9b0288b99a9">ug::Tetrahedron::vertex()</a>.</p>
+
+<p>Referenced by <a class="el" href="namespaceug.html#acfc7c8f63a190edf9ed2b735f0a1879d">ug::CalculateVolToRMSFaceAreaRatio()</a>.</p>
 
 </div>
 </div>
@@ -781,7 +734,7 @@ template&lt;class TVolIter &gt; </div>
 <p>Valid template arguments are <a class="el" href="classug_1_1_vertex.html" title="Base-class for all vertex-types. ">Vertex</a>, <a class="el" href="classug_1_1_edge.html" title="Base-class for edges. ">Edge</a>, <a class="el" href="classug_1_1_face.html" title="Faces are 2-dimensional objects. ">Face</a>, <a class="el" href="classug_1_1_volume.html" title="Volumes are 3-dimensional objects. ">Volume</a> and derived types.</p>
 <p>unifies access to geometric objects. </p>
 
-<p>Referenced by <a class="el" href="group__lib__grid__algorithms__geom__obj__misc.html#gad2306084cdb328bc619e3941902b1170">ug::CalculateBoundingBox()</a>, and <a class="el" href="namespaceug.html#af945d52bbb907abcb9dff3e423187e5d">ug::CollectCornerCoordinates()</a>.</p>
+<p>Referenced by <a class="el" href="group__lib__grid__algorithms__geom__obj__misc.html#gad2306084cdb328bc619e3941902b1170">ug::CalculateBoundingBox()</a>, <a class="el" href="namespaceug.html#af945d52bbb907abcb9dff3e423187e5d">ug::CollectCornerCoordinates()</a>, and <a class="el" href="group__refinement__bridge.html#ga74eb659b949e6286a606a1e0accdcff1">ug::MarkForRefinement_ContainsSurfaceNode()</a>.</p>
 
 </div>
 </div>
@@ -958,7 +911,7 @@ template&lt;class TVolIter &gt; </div>
 
 <p>References <a class="el" href="classug_1_1_volume_vertices.html#aceb9eb86aed97692ec38612e87c74dda">ug::VolumeVertices::num_vertices()</a>, and <a class="el" href="classug_1_1_volume_vertices.html#a3eeeb263f136f60993f9f36f13329ea8">ug::VolumeVertices::vertices()</a>.</p>
 
-<p>Referenced by <a class="el" href="namespaceug_1_1grid__unit__tests.html#a1ec5fa9c2122869cd7b49ac2dc22cb90">ug::grid_unit_tests::CheckAssociatedEdgesOfVolumes()</a>, <a class="el" href="namespaceug_1_1grid__unit__tests.html#a1295e731df0136ee37e29ebabf98a154">ug::grid_unit_tests::CheckAssociatedVolumesOfEdges()</a>, <a class="el" href="classug_1_1_grid.html#aabb82e97e673fb8d227e62822e266f3f">ug::Grid::get_associated()</a>, <a class="el" href="classug_1_1_grid.html#a7e355d75a8d1ea0062264c9a199f85c9">ug::Grid::get_associated_vols_raw()</a>, <a class="el" href="group__lib__grid__algorithms__face__util.html#gafd8032868d5b1b81c1d0171156ce7acd">ug::IsVolumeBoundaryFace()</a>, and <a class="el" href="classug_1_1_grid.html#afed82089e45ac6b3a7c52bc38bda0e57">ug::Grid::replace_vertex_is_valid()</a>.</p>
+<p>Referenced by <a class="el" href="namespaceug_1_1grid__unit__tests.html#a1ec5fa9c2122869cd7b49ac2dc22cb90">ug::grid_unit_tests::CheckAssociatedEdgesOfVolumes()</a>, <a class="el" href="namespaceug_1_1grid__unit__tests.html#a1295e731df0136ee37e29ebabf98a154">ug::grid_unit_tests::CheckAssociatedVolumesOfEdges()</a>, <a class="el" href="classug_1_1_grid.html#aabb82e97e673fb8d227e62822e266f3f">ug::Grid::get_associated()</a>, <a class="el" href="classug_1_1_grid.html#a7e355d75a8d1ea0062264c9a199f85c9">ug::Grid::get_associated_vols_raw()</a>, <a class="el" href="group__lib__grid__algorithms__face__util.html#ga2e099f969485473fadd5113b40fe508a">ug::NumAssociatedVolumes()</a>, and <a class="el" href="classug_1_1_grid.html#afed82089e45ac6b3a7c52bc38bda0e57">ug::Grid::replace_vertex_is_valid()</a>.</p>
 
 </div>
 </div>
@@ -1035,7 +988,7 @@ template&lt;class TVolIter &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:13 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:08:45 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

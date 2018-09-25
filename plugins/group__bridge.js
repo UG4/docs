@@ -27,6 +27,7 @@ var group__bridge =
     [ "RegisterBridge_Grid", "../group__bridge.html#gacd3e30186a37e7335f30870e45f7a16d", null ],
     [ "RegisterBridge_LoadBalancing", "../group__bridge.html#ga6e98cae0c26ba7baf3af153129953ea7", null ],
     [ "RegisterBridge_Misc", "../group__bridge.html#ga84d268ac4df5669197855a496c842ba8", null ],
+    [ "RegisterBridge_OrthoPoly", "../group__bridge.html#ga3700d0535d99765b02429e8f4c2790a5", null ],
     [ "RegisterBridge_PCL", "../group__bridge.html#gaf83b797d5d85935b49cf108334cb98bc", null ],
     [ "RegisterBridge_PeriodicBoundary", "../group__bridge.html#ga657f2b59b938624151f43a1d8baeedbe", null ],
     [ "RegisterBridge_Profiler", "../group__bridge.html#gaafc4628883e244e7496eb38d0da6f96a", null ],

@@ -1,0 +1,27 @@
+var classug_1_1_navier_stokes_1_1_c_r_smagorinsky_turb_visc_data =
+[
+    [ "algebra_type", "classug_1_1_navier_stokes_1_1_c_r_smagorinsky_turb_visc_data.html#aa0d6ac881ef015e644a49e3ad7241c2a", null ],
+    [ "aSideNumber", "classug_1_1_navier_stokes_1_1_c_r_smagorinsky_turb_visc_data.html#ae8835f4963f28f9b0d13a6d15b99426b", null ],
+    [ "aSideTensor", "classug_1_1_navier_stokes_1_1_c_r_smagorinsky_turb_visc_data.html#a3d90d4cd452c7210715d06e38d15a308", null ],
+    [ "ATensor", "classug_1_1_navier_stokes_1_1_c_r_smagorinsky_turb_visc_data.html#ab6dcfe702a0508083ab5e5460edc0643", null ],
+    [ "base_type", "classug_1_1_navier_stokes_1_1_c_r_smagorinsky_turb_visc_data.html#a9cdb456e0ca017a0f8fb42c1ea5e5dbb", null ],
+    [ "dimMat", "classug_1_1_navier_stokes_1_1_c_r_smagorinsky_turb_visc_data.html#a9d05a66312a7d6a07024c6771c2370d4", null ],
+    [ "domain_type", "classug_1_1_navier_stokes_1_1_c_r_smagorinsky_turb_visc_data.html#a1fd188a31bb2d085b90cb383a978d671", null ],
+    [ "elem_type", "classug_1_1_navier_stokes_1_1_c_r_smagorinsky_turb_visc_data.html#af60aedbe42cac787bd47a62d7cf9693b", null ],
+    [ "ElemIterator", "classug_1_1_navier_stokes_1_1_c_r_smagorinsky_turb_visc_data.html#a27d8524bde25052360699c44405015bd", null ],
+    [ "grid_type", "classug_1_1_navier_stokes_1_1_c_r_smagorinsky_turb_visc_data.html#a7c36e23d8342ac6a7f84bbe8eba39ef3", null ],
+    [ "position_accessor_type", "classug_1_1_navier_stokes_1_1_c_r_smagorinsky_turb_visc_data.html#a1c59defc49ed8fb635d98b72656fa746", null ],
+    [ "side_type", "classug_1_1_navier_stokes_1_1_c_r_smagorinsky_turb_visc_data.html#a83af05c0388f3c9d09eb6b0385ea2d48", null ],
+    [ "SideIterator", "classug_1_1_navier_stokes_1_1_c_r_smagorinsky_turb_visc_data.html#a46ecad6cf24d8643940bddf36d3b39d6", null ],
+    [ "this_type", "classug_1_1_navier_stokes_1_1_c_r_smagorinsky_turb_visc_data.html#a10f1b66d6d9feb768899dfc78c2d6b6c", null ],
+    [ "CRSmagorinskyTurbViscData", "classug_1_1_navier_stokes_1_1_c_r_smagorinsky_turb_visc_data.html#a9a9a40b898b77da0c54137e9ac316d11", null ],
+    [ "~CRSmagorinskyTurbViscData", "classug_1_1_navier_stokes_1_1_c_r_smagorinsky_turb_visc_data.html#a5de525287941b6ca3de94420948ab4d2", null ],
+    [ "set_model_parameter", "classug_1_1_navier_stokes_1_1_c_r_smagorinsky_turb_visc_data.html#a84461f9f186bab0f29173a68371b3157", null ],
+    [ "update", "classug_1_1_navier_stokes_1_1_c_r_smagorinsky_turb_visc_data.html#a5910c1764c74d24f66e36ba2d1c8608e", null ],
+    [ "dim", "classug_1_1_navier_stokes_1_1_c_r_smagorinsky_turb_visc_data.html#a9d89082585736edae5b24fb3d674b53e", null ],
+    [ "m_bAdaptive", "classug_1_1_navier_stokes_1_1_c_r_smagorinsky_turb_visc_data.html#a4bed7f01dd17a39c1293f51e062ae8f0", null ],
+    [ "m_c", "classug_1_1_navier_stokes_1_1_c_r_smagorinsky_turb_visc_data.html#a124be5fba5ada409f1971492e935f127", null ],
+    [ "m_pbm", "classug_1_1_navier_stokes_1_1_c_r_smagorinsky_turb_visc_data.html#adbf419e239bebf8ab749da75f6e40092", null ],
+    [ "m_spApproxSpace", "classug_1_1_navier_stokes_1_1_c_r_smagorinsky_turb_visc_data.html#a914001ca92d9780bb3918aed7212b140", null ],
+    [ "m_u", "classug_1_1_navier_stokes_1_1_c_r_smagorinsky_turb_visc_data.html#a8af63723eefa2847cc5e215e6b63542a", null ]
+];

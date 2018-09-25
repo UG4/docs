@@ -97,6 +97,7 @@ $(document).ready(function(){initNavTree('error__elem__marking__strategy_8h.html
 <div class="textblock"><code>#include &quot;<a class="el" href="multi__grid_8h_source.html">lib_grid/multi_grid.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="refiner__interface_8h_source.html">lib_grid/refinement/refiner_interface.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="dof__distribution_8h_source.html">lib_disc/dof_manager/dof_distribution.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="grid__function_8h_source.html">lib_disc/function_spaces/grid_function.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="error__indicator__util_8h_source.html">error_indicator_util.h</a>&quot;</code><br />
 </div>
 <p><a href="error__elem__marking__strategy_8h_source.html">Go to the source code of this file.</a></p>
@@ -104,9 +105,12 @@ $(document).ready(function(){initNavTree('error__elem__marking__strategy_8h.html
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_absolute_marking.html">ug::AbsoluteMarking&lt; TDomain &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">marks elements above an absolute threshold (based on S. Reisters idea)  <a href="classug_1_1_absolute_marking.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">marks elements above an absolute threshold (based on S. Reiter's idea)  <a href="classug_1_1_absolute_marking.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_a_posteriori_coarsening.html">ug::APosterioriCoarsening&lt; TDomain &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_equilibration_marking_strategy.html">ug::EquilibrationMarkingStrategy&lt; TDomain &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">marks elements above a certain fraction of the maximum  <a href="classug_1_1_equilibration_marking_strategy.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_global_marking.html">ug::GlobalMarking&lt; TDomain &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">mark everything if error too high and refinement allowed  <a href="classug_1_1_global_marking.html#details">More...</a><br /></td></tr>
@@ -127,6 +131,7 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_variance_marking.html">ug::VarianceMarking&lt; TDomain &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_variance_marking_eta.html">ug::VarianceMarkingEta&lt; TDomain &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks elements above a certain threshold for refinement.  <a href="classug_1_1_variance_marking_eta.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -137,9 +142,15 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a659e14d1da5b59817ce3793814c28550"><td class="memTemplParams" colspan="2">template&lt;class TElem &gt; </td></tr>
-<tr class="memitem:a659e14d1da5b59817ce3793814c28550"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug.html#a659e14d1da5b59817ce3793814c28550">ug::CreateListOfElemWeights</a> (MultiGrid::AttachmentAccessor&lt; TElem, <a class="el" href="classug_1_1_attachment.html">ug::Attachment</a>&lt; <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> &gt; &gt; &amp;aaError, typename DoFDistribution::traits&lt; TElem &gt;::const_iterator iterBegin, const typename DoFDistribution::traits&lt; TElem &gt;::const_iterator iterEnd, std::vector&lt; double &gt; &amp;eta)</td></tr>
-<tr class="separator:a659e14d1da5b59817ce3793814c28550"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7aff58833c58b7d7893d14c6491aef2e"><td class="memTemplParams" colspan="2">template&lt;class TElem &gt; </td></tr>
+<tr class="memitem:a7aff58833c58b7d7893d14c6491aef2e"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug.html#a7aff58833c58b7d7893d14c6491aef2e">ug::CreateListOfElemWeights</a> (MultiGrid::AttachmentAccessor&lt; TElem, <a class="el" href="classug_1_1_attachment.html">ug::Attachment</a>&lt; <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> &gt; &gt; &amp;aaError, typename DoFDistribution::traits&lt; TElem &gt;::const_iterator iterBegin, const typename DoFDistribution::traits&lt; TElem &gt;::const_iterator iterEnd, std::vector&lt; double &gt; &amp;etaSq)</td></tr>
+<tr class="separator:a7aff58833c58b7d7893d14c6491aef2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab671e3645fea7d4928f15e569ea4716a"><td class="memTemplParams" colspan="2">template&lt;class TElem &gt; </td></tr>
+<tr class="memitem:ab671e3645fea7d4928f15e569ea4716a"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug.html#ab671e3645fea7d4928f15e569ea4716a">ug::CreateSortedListOfElems</a> (MultiGrid::AttachmentAccessor&lt; TElem, <a class="el" href="classug_1_1_attachment.html">ug::Attachment</a>&lt; <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> &gt; &gt; &amp;aaError, typename DoFDistribution::traits&lt; TElem &gt;::const_iterator iterBegin, const typename DoFDistribution::traits&lt; TElem &gt;::const_iterator iterEnd, std::vector&lt; std::pair&lt; double, TElem *&gt; &gt; &amp;etaSqList)</td></tr>
+<tr class="separator:ab671e3645fea7d4928f15e569ea4716a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8e7fab7c7754e47d3589d60f4f9694e"><td class="memTemplParams" colspan="2">template&lt;typename TDomain , typename TAlgebra &gt; </td></tr>
+<tr class="memitem:aa8e7fab7c7754e47d3589d60f4f9694e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug.html#aa8e7fab7c7754e47d3589d60f4f9694e">ug::MarkForCoarsenening_SurfaceLayer</a> (const GridFunction&lt; TDomain, TAlgebra &gt; &amp;u, IRefiner &amp;refiner)</td></tr>
+<tr class="separator:aa8e7fab7c7754e47d3589d60f4f9694e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -147,7 +158,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_df0e37446a9fd4242d0753cd346d4a6c.html">lib_disc</a></li><li class="navelem"><a class="el" href="dir_2377bdc3bce2db83d3a95ac44ec5f4e1.html">function_spaces</a></li><li class="navelem"><a class="el" href="error__elem__marking__strategy_8h.html">error_elem_marking_strategy.h</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:11 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:08:43 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

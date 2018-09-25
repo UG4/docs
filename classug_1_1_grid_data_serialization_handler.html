@@ -261,7 +261,7 @@ Private Attributes</h2></td></tr>
 
 <p>Adds a callback class for serialization and deserialization. </p>
 
-<p>Referenced by <a class="el" href="classug_1_1_global_attachments.html#a7a60291a06be31ebb30f67195a695d5c">ug::GlobalAttachments::add_attachment_serializer()</a>, <a class="el" href="namespaceug.html#accf019b1650e68c6f305921f6edaec0c">ug::DistributeDomain()</a>, <a class="el" href="namespaceug.html#a2f0d6a6a6c86e392285e3463ab2ea9a5">ug::DistributeGrid()</a>, and <a class="el" href="classug_1_1_grid_function.html#a66ff1a49bcb52cd8322488c542a5dc00">ug::GridFunction&lt; TDomain, TAlgebra &gt;::grid_distribution_callback()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_global_attachments.html#a7a60291a06be31ebb30f67195a695d5c">ug::GlobalAttachments::add_attachment_serializer()</a>, <a class="el" href="classug_1_1_load_balancer.html#a616d58d7fca36e5905bfdc61bfeb050f">ug::LoadBalancer::add_serializer()</a>, <a class="el" href="namespaceug.html#accf019b1650e68c6f305921f6edaec0c">ug::DistributeDomain()</a>, <a class="el" href="namespaceug.html#a2f0d6a6a6c86e392285e3463ab2ea9a5">ug::DistributeGrid()</a>, and <a class="el" href="classug_1_1_grid_function.html#a66ff1a49bcb52cd8322488c542a5dc00">ug::GridFunction&lt; TDomain, TAlgebra &gt;::grid_distribution_callback()</a>.</p>
 
 </div>
 </div>
@@ -479,7 +479,7 @@ template&lt;class TSerializers &gt; </div>
 
 <p>References <a class="el" href="classug_1_1_grid_data_serialization_handler.html#aa06203bdef96e8ae6007822faf1ab47d">m_gridSerializers</a>, and <a class="el" href="classug_1_1_grid_data_serialization_handler.html#adaabdf618b4903581e5d45d5599ada2b">m_vrtSerializers</a>.</p>
 
-<p>Referenced by <a class="el" href="namespaceug.html#aa1d4324ccc4ad84a9d68bdfa77ba043f">ug::BroadcastGrid()</a>, <a class="el" href="classug_1_1_grid_data_serialization_handler.html#a80ff8850551a2e03ffa3a49f8cb7bfff">deserialize()</a>, <a class="el" href="namespaceug.html#a2f0d6a6a6c86e392285e3463ab2ea9a5">ug::DistributeGrid()</a>, and <a class="el" href="classug_1_1_grid_data_serialization_handler.html#a0845d227bce8bd9dbc5c359c1cebc7b6">serialize()</a>.</p>
+<p>Referenced by <a class="el" href="namespaceug.html#ade184baefd6bcf45fee96ba55b5aba4e">ug::AllGatherGrid()</a>, <a class="el" href="namespaceug.html#aa1d4324ccc4ad84a9d68bdfa77ba043f">ug::BroadcastGrid()</a>, <a class="el" href="classug_1_1_grid_data_serialization_handler.html#a80ff8850551a2e03ffa3a49f8cb7bfff">deserialize()</a>, <a class="el" href="namespaceug.html#a2f0d6a6a6c86e392285e3463ab2ea9a5">ug::DistributeGrid()</a>, <a class="el" href="namespaceug.html#acf03e74faf12710e6b5735d05a5b25b1">ug::GatherGrid()</a>, and <a class="el" href="classug_1_1_grid_data_serialization_handler.html#a0845d227bce8bd9dbc5c359c1cebc7b6">serialize()</a>.</p>
 
 </div>
 </div>
@@ -780,7 +780,7 @@ template&lt;class TSerializers &gt; </div>
 
 <p>References <a class="el" href="namespaceboost_1_1serialization.html#a30d35ef5e870e1b2dc6d37c3f1f840ae">boost::serialization::serialize()</a>.</p>
 
-<p>Referenced by <a class="el" href="namespaceug.html#aa1d4324ccc4ad84a9d68bdfa77ba043f">ug::BroadcastGrid()</a>, and <a class="el" href="namespaceug.html#a2f0d6a6a6c86e392285e3463ab2ea9a5">ug::DistributeGrid()</a>.</p>
+<p>Referenced by <a class="el" href="namespaceug.html#ade184baefd6bcf45fee96ba55b5aba4e">ug::AllGatherGrid()</a>, <a class="el" href="namespaceug.html#aa1d4324ccc4ad84a9d68bdfa77ba043f">ug::BroadcastGrid()</a>, <a class="el" href="namespaceug.html#a2f0d6a6a6c86e392285e3463ab2ea9a5">ug::DistributeGrid()</a>, and <a class="el" href="namespaceug.html#acf03e74faf12710e6b5735d05a5b25b1">ug::GatherGrid()</a>.</p>
 
 </div>
 </div>
@@ -822,7 +822,7 @@ template&lt;class TSerializers &gt; </div>
 
 <p>References <a class="el" href="classug_1_1_grid_data_serialization_handler.html#aa06203bdef96e8ae6007822faf1ab47d">m_gridSerializers</a>, and <a class="el" href="classug_1_1_grid_data_serialization_handler.html#adaabdf618b4903581e5d45d5599ada2b">m_vrtSerializers</a>.</p>
 
-<p>Referenced by <a class="el" href="namespaceug.html#aa1d4324ccc4ad84a9d68bdfa77ba043f">ug::BroadcastGrid()</a>, <a class="el" href="namespaceug.html#a2f0d6a6a6c86e392285e3463ab2ea9a5">ug::DistributeGrid()</a>, and <a class="el" href="classug_1_1_grid_data_serialization_handler.html#a6b77ab65f6af3c812984c8a96409859c">serialize()</a>.</p>
+<p>Referenced by <a class="el" href="namespaceug.html#ade184baefd6bcf45fee96ba55b5aba4e">ug::AllGatherGrid()</a>, <a class="el" href="namespaceug.html#aa1d4324ccc4ad84a9d68bdfa77ba043f">ug::BroadcastGrid()</a>, <a class="el" href="namespaceug.html#a2f0d6a6a6c86e392285e3463ab2ea9a5">ug::DistributeGrid()</a>, <a class="el" href="namespaceug.html#acf03e74faf12710e6b5735d05a5b25b1">ug::GatherGrid()</a>, and <a class="el" href="classug_1_1_grid_data_serialization_handler.html#a6b77ab65f6af3c812984c8a96409859c">serialize()</a>.</p>
 
 </div>
 </div>
@@ -1123,7 +1123,7 @@ template&lt;class TSerializers &gt; </div>
 
 <p>calls write_info on all registered serializers </p>
 
-<p>Referenced by <a class="el" href="namespaceug.html#aa1d4324ccc4ad84a9d68bdfa77ba043f">ug::BroadcastGrid()</a>, and <a class="el" href="namespaceug.html#a2f0d6a6a6c86e392285e3463ab2ea9a5">ug::DistributeGrid()</a>.</p>
+<p>Referenced by <a class="el" href="namespaceug.html#ade184baefd6bcf45fee96ba55b5aba4e">ug::AllGatherGrid()</a>, <a class="el" href="namespaceug.html#aa1d4324ccc4ad84a9d68bdfa77ba043f">ug::BroadcastGrid()</a>, <a class="el" href="namespaceug.html#a2f0d6a6a6c86e392285e3463ab2ea9a5">ug::DistributeGrid()</a>, and <a class="el" href="namespaceug.html#acf03e74faf12710e6b5735d05a5b25b1">ug::GatherGrid()</a>.</p>
 
 </div>
 </div>
@@ -1259,7 +1259,7 @@ template&lt;class TSerializers &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_grid_data_serialization_handler.html">GridDataSerializationHandler</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:26 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:09:04 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

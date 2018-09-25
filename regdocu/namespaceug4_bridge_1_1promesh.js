@@ -2,6 +2,7 @@ var namespaceug4_bridge_1_1promesh =
 [
     [ "CoordinateTransform", "namespaceug4_bridge_1_1promesh_1_1_coordinate_transform.html", null ],
     [ "GridGeneration", "namespaceug4_bridge_1_1promesh_1_1_grid_generation.html", "namespaceug4_bridge_1_1promesh_1_1_grid_generation" ],
+    [ "Info", "namespaceug4_bridge_1_1promesh_1_1_info.html", null ],
     [ "Remeshing", "namespaceug4_bridge_1_1promesh_1_1_remeshing.html", "namespaceug4_bridge_1_1promesh_1_1_remeshing" ],
     [ "Selection", "namespaceug4_bridge_1_1promesh_1_1_selection.html", "namespaceug4_bridge_1_1promesh_1_1_selection" ],
     [ "Subsets", "namespaceug4_bridge_1_1promesh_1_1_subsets.html", null ],

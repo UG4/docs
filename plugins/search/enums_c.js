@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['objectcode',['ObjectCode',['../../namespaceug_1_1node__tree.html#a0c8beb970c3b3bd3868916bc380829bc',1,'ug::node_tree']]],
-  ['observertype',['ObserverType',['../../namespaceug.html#a9d7b99b0cc15035a08e252d50558dd23',1,'ug']]],
-  ['openmode',['OpenMode',['../../classug_1_1_matrix_i_o.html#aa2fc11b54b80cb387d0203f25f0713c6',1,'ug::MatrixIO']]]
+  ['neighborhoodtype',['NeighborhoodType',['../../group__lib__grid__algorithms__neighborhood__util.html#ga63180053a571de089489f4ddec67d29e',1,'ug::NeighborhoodType()'],['../../group__lib__grid__algorithms__neighborhood__util.html#ga63180053a571de089489f4ddec67d29e',1,'NeighborhoodType()(Global Namespace)']]],
+  ['numerictype',['NumericType',['../../classug_1_1_m_m_type_code.html#a82b56c890f1261190b468b7c95bb2088',1,'ug::MMTypeCode']]]
 ];

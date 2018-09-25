@@ -2,6 +2,7 @@ var selection__util__impl_8hpp =
 [
     [ "AssignSelectionStateToSides", "selection__util__impl_8hpp.html#ga859152ce784194858c66fece4699328d", null ],
     [ "CalculateCenter", "selection__util__impl_8hpp.html#gae18a702589e6f00deab8ee9d2060bca1", null ],
+    [ "ExtendSelectionInDirection", "selection__util__impl_8hpp.html#gaac50cb8106ea84388389da555fcc24a0", null ],
     [ "FaceArea", "selection__util__impl_8hpp.html#gaa60d04ed2f5ef009aadb2365a39eb96d", null ],
     [ "InvertSelection", "selection__util__impl_8hpp.html#ga2abe8d00447cb9ab584abf19657bbd14", null ],
     [ "SelectAreaBoundary", "selection__util__impl_8hpp.html#ga43c96d1112eb9a413452f5c6dcd1fe74", null ],

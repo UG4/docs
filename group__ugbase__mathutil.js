@@ -37,6 +37,7 @@ var group__ugbase__mathutil =
     [ "ProjectPointToLine", "group__ugbase__mathutil.html#ga107c794ebf00bd0aeaa7e04f41ba28b6", null ],
     [ "ProjectPointToPlane", "group__ugbase__mathutil.html#ga9b4f7025a21625a7fca753dfd0a11f11", null ],
     [ "ProjectPointToRay", "group__ugbase__mathutil.html#gafb0e62be35e7b38fb2f406bda94e33fd", null ],
+    [ "QuadrilateralArea", "group__ugbase__mathutil.html#ga16d138eeff48337c2b16b75f2f2575d9", null ],
     [ "rad_to_deg", "group__ugbase__mathutil.html#gaf83ef8bbbb33418a4df3203fad44ef0b", null ],
     [ "RayBoxIntersection", "group__ugbase__mathutil.html#ga33f932e6378851cea1d3b955ba750566", null ],
     [ "RayCylinderIntersection", "group__ugbase__mathutil.html#gaa449608ce55d674b95a6ad095dee34c8", null ],

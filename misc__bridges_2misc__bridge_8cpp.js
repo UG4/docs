@@ -6,6 +6,7 @@ var misc__bridges_2misc__bridge_8cpp =
     [ "GetBuildHostname", "misc__bridges_2misc__bridge_8cpp.html#ga46bb4a55100beb7e58dfa23039eaaefd", null ],
     [ "GetClockS", "misc__bridges_2misc__bridge_8cpp.html#ga6e1622c55780af718a6ee80d8a2b53f5", null ],
     [ "GetCompileDate", "misc__bridges_2misc__bridge_8cpp.html#ga95a6e29922a6b62772160024ea77f19f", null ],
+    [ "GetGITRevision", "misc__bridges_2misc__bridge_8cpp.html#gaff78c8ca702062c9dec67c9f24bed259", null ],
     [ "GetLogAssistantTag", "misc__bridges_2misc__bridge_8cpp.html#ga61bf414164623917f1ced0415d769909", null ],
     [ "GetOperatingSystem", "misc__bridges_2misc__bridge_8cpp.html#gac21124964e445cb7d5c0299019b4f839", null ],
     [ "GetSVNRevision", "misc__bridges_2misc__bridge_8cpp.html#ga2e3d09a57d4d391a2cd6e38464f70abc", null ],

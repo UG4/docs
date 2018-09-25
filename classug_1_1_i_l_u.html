@@ -174,6 +174,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0970ce7b37a08f830bde5723d74494e0"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_linear_iterator.html">ILinearIterator</a>&lt; <a class="el" href="classug_1_1_debug_writing_object.html#a5438429e899dad230e07ca3927d5e06f">vector_type</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u.html#a0970ce7b37a08f830bde5723d74494e0">clone</a> ()</td></tr>
 <tr class="memdesc:a0970ce7b37a08f830bde5723d74494e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clone.  <a href="#a0970ce7b37a08f830bde5723d74494e0">More...</a><br /></td></tr>
 <tr class="separator:a0970ce7b37a08f830bde5723d74494e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab45009f16025c53782b5e4af3c7ee64d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u.html#ab45009f16025c53782b5e4af3c7ee64d">enable_consistent_interfaces</a> (bool enable)</td></tr>
+<tr class="memdesc:ab45009f16025c53782b5e4af3c7ee64d"><td class="mdescLeft">&#160;</td><td class="mdescRight">enables consistent interfaces.  <a href="#ab45009f16025c53782b5e4af3c7ee64d">More...</a><br /></td></tr>
+<tr class="separator:ab45009f16025c53782b5e4af3c7ee64d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6761dd399516c419d689eeae66934955"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u.html#a6761dd399516c419d689eeae66934955">enable_overlap</a> (bool enable)</td></tr>
+<tr class="separator:a6761dd399516c419d689eeae66934955"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a918d1f8d6c4e0a3d69da1e857fef8fc7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u.html#a918d1f8d6c4e0a3d69da1e857fef8fc7">ILU</a> (double beta=0.0)</td></tr>
 <tr class="separator:a918d1f8d6c4e0a3d69da1e857fef8fc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfdd37ef20e9b52a81e7a43e70836780"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u.html#acfdd37ef20e9b52a81e7a43e70836780">ILU</a> (const <a class="el" href="classug_1_1_i_l_u.html">ILU</a>&lt; TAlgebra &gt; &amp;parent)</td></tr>
@@ -303,6 +308,8 @@ Public Member Functions</h2></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:aaa7ea9f270284e0f92eba5d342a1edee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u.html#aaa7ea9f270284e0f92eba5d342a1edee">applyLU</a> (<a class="el" href="classug_1_1_debug_writing_object.html#a5438429e899dad230e07ca3927d5e06f">vector_type</a> &amp;c, const <a class="el" href="classug_1_1_debug_writing_object.html#a5438429e899dad230e07ca3927d5e06f">vector_type</a> &amp;d, <a class="el" href="classug_1_1_debug_writing_object.html#a5438429e899dad230e07ca3927d5e06f">vector_type</a> &amp;tmp)</td></tr>
 <tr class="separator:aaa7ea9f270284e0f92eba5d342a1edee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3857834f5c0774296e2432e0698e26e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u.html#ac3857834f5c0774296e2432e0698e26e">calc_cuthill_mckee</a> ()</td></tr>
+<tr class="separator:ac3857834f5c0774296e2432e0698e26e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40681bdfaf96d48bcdf5583dcb349733"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u.html#a40681bdfaf96d48bcdf5583dcb349733">name</a> () const</td></tr>
 <tr class="memdesc:a40681bdfaf96d48bcdf5583dcb349733"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the name of iterator  <a href="#a40681bdfaf96d48bcdf5583dcb349733">More...</a><br /></td></tr>
 <tr class="separator:a40681bdfaf96d48bcdf5583dcb349733"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -350,11 +357,22 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:abd9e538cd413ca8ebbf21863fa6786af"><td class="memItemLeft" align="right" valign="top">std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u.html#abd9e538cd413ca8ebbf21863fa6786af">m_newIndex</a></td></tr>
 <tr class="memdesc:abd9e538cd413ca8ebbf21863fa6786af"><td class="mdescLeft">&#160;</td><td class="mdescRight">for cuthill-mckee reordering  <a href="#abd9e538cd413ca8ebbf21863fa6786af">More...</a><br /></td></tr>
 <tr class="separator:abd9e538cd413ca8ebbf21863fa6786af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a965488025daa5b42db5c4396e67e344e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_debug_writing_object.html#a5438429e899dad230e07ca3927d5e06f">vector_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u.html#a965488025daa5b42db5c4396e67e344e">m_oC</a></td></tr>
+<tr class="separator:a965488025daa5b42db5c4396e67e344e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ce06dc72c8b9e0cd952b27d7bc5a124"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_debug_writing_object.html#a5438429e899dad230e07ca3927d5e06f">vector_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u.html#a1ce06dc72c8b9e0cd952b27d7bc5a124">m_oD</a></td></tr>
+<tr class="memdesc:a1ce06dc72c8b9e0cd952b27d7bc5a124"><td class="mdescLeft">&#160;</td><td class="mdescRight">for overlaps only  <a href="#a1ce06dc72c8b9e0cd952b27d7bc5a124">More...</a><br /></td></tr>
+<tr class="separator:a1ce06dc72c8b9e0cd952b27d7bc5a124"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7124641526aa454571075a753719bff5"><td class="memItemLeft" align="right" valign="top">std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u.html#a7124641526aa454571075a753719bff5">m_oldIndex</a></td></tr>
 <tr class="separator:a7124641526aa454571075a753719bff5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a46b07ad395a07f8683283eed764fe2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_overlap_writer.html">OverlapWriter</a>&lt; TAlgebra &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u.html#a4a46b07ad395a07f8683283eed764fe2">m_overlapWriter</a></td></tr>
+<tr class="separator:a4a46b07ad395a07f8683283eed764fe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22b6955944bf70dcaa09fc6037cabba7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u.html#a22b6955944bf70dcaa09fc6037cabba7">m_sortEps</a></td></tr>
 <tr class="memdesc:a22b6955944bf70dcaa09fc6037cabba7"><td class="mdescLeft">&#160;</td><td class="mdescRight">smallest allowed value for sorted factorization  <a href="#a22b6955944bf70dcaa09fc6037cabba7">More...</a><br /></td></tr>
 <tr class="separator:a22b6955944bf70dcaa09fc6037cabba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f9b98825b7e98fef3aaf18e09c50d1a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u.html#a7f9b98825b7e98fef3aaf18e09c50d1a">m_useConsistentInterfaces</a></td></tr>
+<tr class="separator:a7f9b98825b7e98fef3aaf18e09c50d1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6813728106feab932804a9fd00c4cb37"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u.html#a6813728106feab932804a9fd00c4cb37">m_useOverlap</a></td></tr>
+<tr class="separator:a6813728106feab932804a9fd00c4cb37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classug_1_1_i_preconditioner"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classug_1_1_i_preconditioner')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classug_1_1_i_preconditioner.html">ug::IPreconditioner&lt; TAlgebra &gt;</a></td></tr>
 <tr class="memitem:a2f031ac07ce505693febc4344dbb188a inherit pro_attribs_classug_1_1_i_preconditioner"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_preconditioner.html#a2f031ac07ce505693febc4344dbb188a">m_bInit</a></td></tr>
 <tr class="memdesc:a2f031ac07ce505693febc4344dbb188a inherit pro_attribs_classug_1_1_i_preconditioner"><td class="mdescLeft">&#160;</td><td class="mdescRight">init flag indicating if init has been called  <a href="classug_1_1_i_preconditioner.html#a2f031ac07ce505693febc4344dbb188a">More...</a><br /></td></tr>
@@ -382,8 +400,9 @@ Protected Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:ac3857834f5c0774296e2432e0698e26e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u.html#ac3857834f5c0774296e2432e0698e26e">calc_cuthill_mckee</a> ()</td></tr>
-<tr class="separator:ac3857834f5c0774296e2432e0698e26e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71b755b19620143d5b8b9de3a3b3a7c6"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a71b755b19620143d5b8b9de3a3b3a7c6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_i_l_u.html#a71b755b19620143d5b8b9de3a3b3a7c6">write_debug</a> (const T &amp;t, std::string <a class="el" href="classug_1_1_i_l_u.html#a40681bdfaf96d48bcdf5583dcb349733">name</a>)</td></tr>
+<tr class="separator:a71b755b19620143d5b8b9de3a3b3a7c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename TAlgebra&gt;<br />
@@ -612,9 +631,7 @@ template&lt;typename TAlgebra&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="namespaceug.html#a354d4eeff4d92cfcafbc52d3ec20aec4">ug::invert_L()</a>, <a class="el" href="namespaceug.html#abc76249fe073d2850e144c8bb5f0b99d">ug::invert_U()</a>, <a class="el" href="classug_1_1_i_l_u.html#a192a03fb50bdfc7e3abe40eca58b2556">ug::ILU&lt; TAlgebra &gt;::m_bSort</a>, <a class="el" href="classug_1_1_i_l_u.html#ad68d96568f7f9746c85237a6614e154a">ug::ILU&lt; TAlgebra &gt;::m_bSortIsIdentity</a>, <a class="el" href="classug_1_1_i_l_u.html#aebed54961febdfcab17d62266fd12a4e">ug::ILU&lt; TAlgebra &gt;::m_ILU</a>, <a class="el" href="classug_1_1_i_l_u.html#ac5aa9de6f81bf989f86a9c48dd5d066a">ug::ILU&lt; TAlgebra &gt;::m_invEps</a>, <a class="el" href="classug_1_1_i_l_u.html#abd9e538cd413ca8ebbf21863fa6786af">ug::ILU&lt; TAlgebra &gt;::m_newIndex</a>, <a class="el" href="classug_1_1_i_l_u.html#a7124641526aa454571075a753719bff5">ug::ILU&lt; TAlgebra &gt;::m_oldIndex</a>, and <a class="el" href="namespaceug.html#a241bfbcdcb24c53c598c806074e33536">ug::SetVectorAsPermutation()</a>.</p>
-
-<p>Referenced by <a class="el" href="classug_1_1_i_l_u.html#aa996dcc25fe8253a80ea70410ffcb333">ug::ILU&lt; TAlgebra &gt;::step()</a>.</p>
+<p>References <a class="el" href="namespaceug.html#a354d4eeff4d92cfcafbc52d3ec20aec4">ug::invert_L()</a>, <a class="el" href="namespaceug.html#abc76249fe073d2850e144c8bb5f0b99d">ug::invert_U()</a>, and <a class="el" href="namespaceug.html#a241bfbcdcb24c53c598c806074e33536">ug::SetVectorAsPermutation()</a>.</p>
 
 </div>
 </div>
@@ -638,14 +655,12 @@ template&lt;typename TAlgebra&gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="namespaceug.html#a09499f6c5380d7e93aa9d3721a6e2f98">ug::GetCuthillMcKeeOrder()</a>, <a class="el" href="namespaceug.html#ab990c7b7c689dce2ef1657f095644247">ug::GetInversePermutation()</a>, <a class="el" href="classug_1_1_i_l_u.html#ad68d96568f7f9746c85237a6614e154a">ug::ILU&lt; TAlgebra &gt;::m_bSortIsIdentity</a>, <a class="el" href="classug_1_1_i_l_u.html#aebed54961febdfcab17d62266fd12a4e">ug::ILU&lt; TAlgebra &gt;::m_ILU</a>, <a class="el" href="classug_1_1_i_l_u.html#abd9e538cd413ca8ebbf21863fa6786af">ug::ILU&lt; TAlgebra &gt;::m_newIndex</a>, <a class="el" href="classug_1_1_i_l_u.html#a7124641526aa454571075a753719bff5">ug::ILU&lt; TAlgebra &gt;::m_oldIndex</a>, <a class="el" href="profiler_8h.html#a6ac4a2a49e9c9e835112b4f6b8cf7355">PROFILE_BEGIN_GROUP</a>, and <a class="el" href="namespaceug.html#a4ee580e331cd80bec5c1471cc7b5b009">ug::SetMatrixAsPermutation()</a>.</p>
-
-<p>Referenced by <a class="el" href="classug_1_1_i_l_u.html#a5952ebace9335bc3c223eec6cb6fe9dd">ug::ILU&lt; TAlgebra &gt;::preprocess()</a>.</p>
+<p>References <a class="el" href="namespaceug.html#a09499f6c5380d7e93aa9d3721a6e2f98">ug::GetCuthillMcKeeOrder()</a>, <a class="el" href="namespaceug.html#ab990c7b7c689dce2ef1657f095644247">ug::GetInversePermutation()</a>, <a class="el" href="profiler_8h.html#a6ac4a2a49e9c9e835112b4f6b8cf7355">PROFILE_BEGIN_GROUP</a>, and <a class="el" href="namespaceug.html#a4ee580e331cd80bec5c1471cc7b5b009">ug::SetMatrixAsPermutation()</a>.</p>
 
 </div>
 </div>
@@ -679,6 +694,65 @@ template&lt;typename TAlgebra&gt; </div>
 <p>Implements <a class="el" href="classug_1_1_i_linear_iterator.html#acc249ee1efa7994db8e732772728d5c1">ug::ILinearIterator&lt; TAlgebra::vector_type &gt;</a>.</p>
 
 <p>References <a class="el" href="smart__pointer_8h.html#a8ba0055baeb80cdf31c501403f7f302f">make_sp()</a>.</p>
+
+</div>
+</div>
+<a id="ab45009f16025c53782b5e4af3c7ee64d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab45009f16025c53782b5e4af3c7ee64d">&sect;&nbsp;</a></span>enable_consistent_interfaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TAlgebra&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_i_l_u.html">ug::ILU</a>&lt; TAlgebra &gt;::enable_consistent_interfaces </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>enables consistent interfaces. </p>
+<p>Connections between coefficients which lie in the same parallel interface are made consistent between processes. </p>
+
+</div>
+</div>
+<a id="a6761dd399516c419d689eeae66934955"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6761dd399516c419d689eeae66934955">&sect;&nbsp;</a></span>enable_overlap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TAlgebra&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_i_l_u.html">ug::ILU</a>&lt; TAlgebra &gt;::enable_overlap </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -784,7 +858,7 @@ template&lt;typename TAlgebra&gt; </div>
 
 <p>Implements <a class="el" href="classug_1_1_i_preconditioner.html#aa775369ea894dbe3f59f7cac7cf6a836">ug::IPreconditioner&lt; TAlgebra &gt;</a>.</p>
 
-<p>References <a class="el" href="classug_1_1_i_l_u.html#ac3857834f5c0774296e2432e0698e26e">ug::ILU&lt; TAlgebra &gt;::calc_cuthill_mckee()</a>, <a class="el" href="group__pcl.html#gae8e9cabdcbfb18d4f65411e40765950b">pcl::CollectUniqueElements()</a>, <a class="el" href="namespaceug.html#af370871fc5a025b6080c6edc3cefc66b">ug::FactorizeILU()</a>, <a class="el" href="namespaceug.html#a24899d00f2d1c9657c0432ab930d5004">ug::FactorizeILUBeta()</a>, <a class="el" href="namespaceug.html#a288a5fed18d18375068359d979b15461">ug::FactorizeILUSorted()</a>, <a class="el" href="classug_1_1_i_l_u.html#a5aea228ca60239f54f1ab02e9a1a3489">ug::ILU&lt; TAlgebra &gt;::m_bDisablePreprocessing</a>, <a class="el" href="classug_1_1_i_l_u.html#ac259bfdfd60b7538f43d606b117c0b2b">ug::ILU&lt; TAlgebra &gt;::m_beta</a>, <a class="el" href="classug_1_1_i_l_u.html#a192a03fb50bdfc7e3abe40eca58b2556">ug::ILU&lt; TAlgebra &gt;::m_bSort</a>, <a class="el" href="classug_1_1_i_l_u.html#a2cd0797b4f31548bb8feb0afef08ea34">ug::ILU&lt; TAlgebra &gt;::m_h</a>, <a class="el" href="classug_1_1_i_l_u.html#aebed54961febdfcab17d62266fd12a4e">ug::ILU&lt; TAlgebra &gt;::m_ILU</a>, <a class="el" href="classug_1_1_i_l_u.html#a22b6955944bf70dcaa09fc6037cabba7">ug::ILU&lt; TAlgebra &gt;::m_sortEps</a>, <a class="el" href="group__lib__algebra__parallelization__util.html#ga3da2c2603824b8c974b22d8b2f67275b">ug::MatAddSlaveRowsToMasterRowOverlap0()</a>, <a class="el" href="profiler_8h.html#a6ac4a2a49e9c9e835112b4f6b8cf7355">PROFILE_BEGIN_GROUP</a>, <a class="el" href="group__lib__algebra.html#gaa8517cb090f40832480c0dd692b0471b">ug::SetDirichletRow()</a>, and <a class="el" href="classug_1_1_debug_writing_object.html#a0ec4e0b8cd9f6da46aeea9adb6eccdeb">ug::DebugWritingObject&lt; TAlgebra &gt;::write_debug()</a>.</p>
+<p>References <a class="el" href="group__pcl.html#gae8e9cabdcbfb18d4f65411e40765950b">pcl::CollectUniqueElements()</a>, <a class="el" href="namespaceug.html#a7088b9aeb9fbd910b33bebc856b18f5b">ug::CreateOverlap()</a>, <a class="el" href="namespaceug.html#af370871fc5a025b6080c6edc3cefc66b">ug::FactorizeILU()</a>, <a class="el" href="namespaceug.html#a24899d00f2d1c9657c0432ab930d5004">ug::FactorizeILUBeta()</a>, <a class="el" href="namespaceug.html#a288a5fed18d18375068359d979b15461">ug::FactorizeILUSorted()</a>, <a class="el" href="namespaceug.html#ab990c7b7c689dce2ef1657f095644247">ug::GetInversePermutation()</a>, <a class="el" href="namespaceug.html#adea25d1b8675cd826ee6293345dae8d8">ug::LayoutEntriesToEndPermutation()</a>, <a class="el" href="smart__pointer_8h.html#a8ba0055baeb80cdf31c501403f7f302f">make_sp()</a>, <a class="el" href="group__lib__algebra__parallelization__util.html#ga3da2c2603824b8c974b22d8b2f67275b">ug::MatAddSlaveRowsToMasterRowOverlap0()</a>, <a class="el" href="group__lib__algebra__parallelization__util.html#ga62ff21e4f3ecc0f4803e61725edd7fed">ug::MatMakeConsistentOverlap0()</a>, <a class="el" href="profiler_8h.html#a6ac4a2a49e9c9e835112b4f6b8cf7355">PROFILE_BEGIN_GROUP</a>, <a class="el" href="group__lib__algebra.html#gaa8517cb090f40832480c0dd692b0471b">ug::SetDirichletRow()</a>, and <a class="el" href="namespaceug.html#a4ee580e331cd80bec5c1471cc7b5b009">ug::SetMatrixAsPermutation()</a>.</p>
 
 </div>
 </div>
@@ -816,8 +890,6 @@ template&lt;typename TAlgebra&gt; </div>
 
 <p>set factor for \( ILU_{\beta} \) </p>
 
-<p>References <a class="el" href="classug_1_1_i_l_u.html#ac259bfdfd60b7538f43d606b117c0b2b">ug::ILU&lt; TAlgebra &gt;::m_beta</a>.</p>
-
 </div>
 </div>
 <a id="a2e5834f0ce8b1e53003aa946a2b12044"></a>
@@ -847,8 +919,6 @@ template&lt;typename TAlgebra&gt; </div>
 </div><div class="memdoc">
 
 <p>disable preprocessing (if underlying matrix has not changed) </p>
-
-<p>References <a class="el" href="classug_1_1_i_l_u.html#a5aea228ca60239f54f1ab02e9a1a3489">ug::ILU&lt; TAlgebra &gt;::m_bDisablePreprocessing</a>.</p>
 
 </div>
 </div>
@@ -880,8 +950,6 @@ template&lt;typename TAlgebra&gt; </div>
 
 <p>sets the smallest allowed value for the Aii/Bi quotient </p>
 
-<p>References <a class="el" href="classug_1_1_i_l_u.html#ac5aa9de6f81bf989f86a9c48dd5d066a">ug::ILU&lt; TAlgebra &gt;::m_invEps</a>.</p>
-
 </div>
 </div>
 <a id="af38a87f8388d9c8bdecfd9b66670f1b3"></a>
@@ -912,8 +980,6 @@ template&lt;typename TAlgebra&gt; </div>
 
 <p>set cuthill-mckee sort on/off </p>
 
-<p>References <a class="el" href="classug_1_1_i_l_u.html#a192a03fb50bdfc7e3abe40eca58b2556">ug::ILU&lt; TAlgebra &gt;::m_bSort</a>.</p>
-
 </div>
 </div>
 <a id="ac7d8a9325b64b03264172017e2d98fef"></a>
@@ -943,8 +1009,6 @@ template&lt;typename TAlgebra&gt; </div>
 </div><div class="memdoc">
 
 <p>sets the smallest allowed value for sorted factorization </p>
-
-<p>References <a class="el" href="classug_1_1_i_l_u.html#a22b6955944bf70dcaa09fc6037cabba7">ug::ILU&lt; TAlgebra &gt;::m_sortEps</a>.</p>
 
 </div>
 </div>
@@ -1004,7 +1068,7 @@ template&lt;typename TAlgebra&gt; </div>
 
 <p>Implements <a class="el" href="classug_1_1_i_preconditioner.html#ac7707cafa5655b84c296f0390b7084ef">ug::IPreconditioner&lt; TAlgebra &gt;</a>.</p>
 
-<p>References <a class="el" href="classug_1_1_i_l_u.html#aaa7ea9f270284e0f92eba5d342a1edee">ug::ILU&lt; TAlgebra &gt;::applyLU()</a>, <a class="el" href="classug_1_1_i_l_u.html#a2cd0797b4f31548bb8feb0afef08ea34">ug::ILU&lt; TAlgebra &gt;::m_h</a>, <a class="el" href="profiler_8h.html#a6ac4a2a49e9c9e835112b4f6b8cf7355">PROFILE_BEGIN_GROUP</a>, <a class="el" href="group__lib__algebra__parallelization.html#gga75c6ad52009fea9cf3f582261c814936aead524625869f6f9f10996b622ade866">ug::PST_ADDITIVE</a>, <a class="el" href="group__lib__algebra__parallelization.html#gga75c6ad52009fea9cf3f582261c814936aae2129777dc4cb8baf20d8802b4fff37">ug::PST_CONSISTENT</a>, <a class="el" href="group__lib__algebra__parallelization.html#gga75c6ad52009fea9cf3f582261c814936ab482bd040f659913f5e4a31365367399">ug::PST_UNIQUE</a>, and <a class="el" href="classug_1_1_debug_writing_object.html#a0ec4e0b8cd9f6da46aeea9adb6eccdeb">ug::DebugWritingObject&lt; TAlgebra &gt;::write_debug()</a>.</p>
+<p>References <a class="el" href="profiler_8h.html#a6ac4a2a49e9c9e835112b4f6b8cf7355">PROFILE_BEGIN_GROUP</a>, <a class="el" href="group__lib__algebra__parallelization.html#gga75c6ad52009fea9cf3f582261c814936aead524625869f6f9f10996b622ade866">ug::PST_ADDITIVE</a>, <a class="el" href="group__lib__algebra__parallelization.html#gga75c6ad52009fea9cf3f582261c814936aae2129777dc4cb8baf20d8802b4fff37">ug::PST_CONSISTENT</a>, <a class="el" href="group__lib__algebra__parallelization.html#gga75c6ad52009fea9cf3f582261c814936ab482bd040f659913f5e4a31365367399">ug::PST_UNIQUE</a>, <a class="el" href="group__lib__algebra__parallelization__util.html#ga33b4797e3d3382885a96223a2c44d72f">ug::SetLayoutValues()</a>, and <a class="el" href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>.</p>
 
 </div>
 </div>
@@ -1039,6 +1103,46 @@ template&lt;typename TAlgebra&gt; </div>
 
 </div>
 </div>
+<a id="a71b755b19620143d5b8b9de3a3b3a7c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71b755b19620143d5b8b9de3a3b3a7c6">&sect;&nbsp;</a></span>write_debug()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TAlgebra&gt; </div>
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_i_l_u.html">ug::ILU</a>&lt; TAlgebra &gt;::write_debug </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a5aea228ca60239f54f1ab02e9a1a3489"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5aea228ca60239f54f1ab02e9a1a3489">&sect;&nbsp;</a></span>m_bDisablePreprocessing</h2>
@@ -1063,8 +1167,6 @@ template&lt;typename TAlgebra&gt; </div>
 </div><div class="memdoc">
 
 <p>whether or not to disable preprocessing </p>
-
-<p>Referenced by <a class="el" href="classug_1_1_i_l_u.html#a5952ebace9335bc3c223eec6cb6fe9dd">ug::ILU&lt; TAlgebra &gt;::preprocess()</a>, and <a class="el" href="classug_1_1_i_l_u.html#a2e5834f0ce8b1e53003aa946a2b12044">ug::ILU&lt; TAlgebra &gt;::set_disable_preprocessing()</a>.</p>
 
 </div>
 </div>
@@ -1092,8 +1194,6 @@ template&lt;typename TAlgebra&gt; </div>
 
 <p>Factor for ILU-beta. </p>
 
-<p>Referenced by <a class="el" href="classug_1_1_i_l_u.html#a5952ebace9335bc3c223eec6cb6fe9dd">ug::ILU&lt; TAlgebra &gt;::preprocess()</a>, and <a class="el" href="classug_1_1_i_l_u.html#a314dd33dc9df8dfbba9560cdce0e0be5">ug::ILU&lt; TAlgebra &gt;::set_beta()</a>.</p>
-
 </div>
 </div>
 <a id="a192a03fb50bdfc7e3abe40eca58b2556"></a>
@@ -1118,8 +1218,6 @@ template&lt;typename TAlgebra&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classug_1_1_i_l_u.html#aaa7ea9f270284e0f92eba5d342a1edee">ug::ILU&lt; TAlgebra &gt;::applyLU()</a>, <a class="el" href="classug_1_1_i_l_u.html#a5952ebace9335bc3c223eec6cb6fe9dd">ug::ILU&lt; TAlgebra &gt;::preprocess()</a>, and <a class="el" href="classug_1_1_i_l_u.html#af38a87f8388d9c8bdecfd9b66670f1b3">ug::ILU&lt; TAlgebra &gt;::set_sort()</a>.</p>
-
 </div>
 </div>
 <a id="ad68d96568f7f9746c85237a6614e154a"></a>
@@ -1143,8 +1241,6 @@ template&lt;typename TAlgebra&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Referenced by <a class="el" href="classug_1_1_i_l_u.html#aaa7ea9f270284e0f92eba5d342a1edee">ug::ILU&lt; TAlgebra &gt;::applyLU()</a>, and <a class="el" href="classug_1_1_i_l_u.html#ac3857834f5c0774296e2432e0698e26e">ug::ILU&lt; TAlgebra &gt;::calc_cuthill_mckee()</a>.</p>
 
 </div>
 </div>
@@ -1172,8 +1268,6 @@ template&lt;typename TAlgebra&gt; </div>
 
 <p>help vector </p>
 
-<p>Referenced by <a class="el" href="classug_1_1_i_l_u.html#a5952ebace9335bc3c223eec6cb6fe9dd">ug::ILU&lt; TAlgebra &gt;::preprocess()</a>, and <a class="el" href="classug_1_1_i_l_u.html#aa996dcc25fe8253a80ea70410ffcb333">ug::ILU&lt; TAlgebra &gt;::step()</a>.</p>
-
 </div>
 </div>
 <a id="aebed54961febdfcab17d62266fd12a4e"></a>
@@ -1199,8 +1293,6 @@ template&lt;typename TAlgebra&gt; </div>
 </div><div class="memdoc">
 
 <p>storage for factorization </p>
-
-<p>Referenced by <a class="el" href="classug_1_1_i_l_u.html#aaa7ea9f270284e0f92eba5d342a1edee">ug::ILU&lt; TAlgebra &gt;::applyLU()</a>, <a class="el" href="classug_1_1_i_l_u.html#ac3857834f5c0774296e2432e0698e26e">ug::ILU&lt; TAlgebra &gt;::calc_cuthill_mckee()</a>, and <a class="el" href="classug_1_1_i_l_u.html#a5952ebace9335bc3c223eec6cb6fe9dd">ug::ILU&lt; TAlgebra &gt;::preprocess()</a>.</p>
 
 </div>
 </div>
@@ -1228,8 +1320,6 @@ template&lt;typename TAlgebra&gt; </div>
 
 <p>smallest allowed value for the Aii/Bi quotient </p>
 
-<p>Referenced by <a class="el" href="classug_1_1_i_l_u.html#aaa7ea9f270284e0f92eba5d342a1edee">ug::ILU&lt; TAlgebra &gt;::applyLU()</a>, and <a class="el" href="classug_1_1_i_l_u.html#afd4c528d133df6945f23cfb413a64178">ug::ILU&lt; TAlgebra &gt;::set_inversion_eps()</a>.</p>
-
 </div>
 </div>
 <a id="abd9e538cd413ca8ebbf21863fa6786af"></a>
@@ -1256,7 +1346,55 @@ template&lt;typename TAlgebra&gt; </div>
 
 <p>for cuthill-mckee reordering </p>
 
-<p>Referenced by <a class="el" href="classug_1_1_i_l_u.html#aaa7ea9f270284e0f92eba5d342a1edee">ug::ILU&lt; TAlgebra &gt;::applyLU()</a>, and <a class="el" href="classug_1_1_i_l_u.html#ac3857834f5c0774296e2432e0698e26e">ug::ILU&lt; TAlgebra &gt;::calc_cuthill_mckee()</a>.</p>
+</div>
+</div>
+<a id="a965488025daa5b42db5c4396e67e344e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a965488025daa5b42db5c4396e67e344e">&sect;&nbsp;</a></span>m_oC</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TAlgebra&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classug_1_1_debug_writing_object.html#a5438429e899dad230e07ca3927d5e06f">vector_type</a> <a class="el" href="classug_1_1_i_l_u.html">ug::ILU</a>&lt; TAlgebra &gt;::m_oC</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1ce06dc72c8b9e0cd952b27d7bc5a124"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ce06dc72c8b9e0cd952b27d7bc5a124">&sect;&nbsp;</a></span>m_oD</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TAlgebra&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classug_1_1_debug_writing_object.html#a5438429e899dad230e07ca3927d5e06f">vector_type</a> <a class="el" href="classug_1_1_i_l_u.html">ug::ILU</a>&lt; TAlgebra &gt;::m_oD</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>for overlaps only </p>
 
 </div>
 </div>
@@ -1282,7 +1420,29 @@ template&lt;typename TAlgebra&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classug_1_1_i_l_u.html#aaa7ea9f270284e0f92eba5d342a1edee">ug::ILU&lt; TAlgebra &gt;::applyLU()</a>, and <a class="el" href="classug_1_1_i_l_u.html#ac3857834f5c0774296e2432e0698e26e">ug::ILU&lt; TAlgebra &gt;::calc_cuthill_mckee()</a>.</p>
+</div>
+</div>
+<a id="a4a46b07ad395a07f8683283eed764fe2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a46b07ad395a07f8683283eed764fe2">&sect;&nbsp;</a></span>m_overlapWriter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TAlgebra&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt;<a class="el" href="classug_1_1_overlap_writer.html">OverlapWriter</a>&lt;TAlgebra&gt; &gt; <a class="el" href="classug_1_1_i_l_u.html">ug::ILU</a>&lt; TAlgebra &gt;::m_overlapWriter</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1310,7 +1470,53 @@ template&lt;typename TAlgebra&gt; </div>
 
 <p>smallest allowed value for sorted factorization </p>
 
-<p>Referenced by <a class="el" href="classug_1_1_i_l_u.html#a5952ebace9335bc3c223eec6cb6fe9dd">ug::ILU&lt; TAlgebra &gt;::preprocess()</a>, and <a class="el" href="classug_1_1_i_l_u.html#ac7d8a9325b64b03264172017e2d98fef">ug::ILU&lt; TAlgebra &gt;::set_sort_eps()</a>.</p>
+</div>
+</div>
+<a id="a7f9b98825b7e98fef3aaf18e09c50d1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f9b98825b7e98fef3aaf18e09c50d1a">&sect;&nbsp;</a></span>m_useConsistentInterfaces</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TAlgebra&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classug_1_1_i_l_u.html">ug::ILU</a>&lt; TAlgebra &gt;::m_useConsistentInterfaces</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6813728106feab932804a9fd00c4cb37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6813728106feab932804a9fd00c4cb37">&sect;&nbsp;</a></span>m_useOverlap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TAlgebra&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classug_1_1_i_l_u.html">ug::ILU</a>&lt; TAlgebra &gt;::m_useOverlap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1323,7 +1529,7 @@ template&lt;typename TAlgebra&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_i_l_u.html">ILU</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:30 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:09:09 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

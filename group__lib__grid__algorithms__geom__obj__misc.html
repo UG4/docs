@@ -114,6 +114,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ga3cb730a357c8af0a1a1d628a7f89ba95"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#ga6a442be2e75e98247f82d1aa90a06aac">UG_API</a> TAAPosVRT::ValueType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__geom__obj__misc.html#ga3cb730a357c8af0a1a1d628a7f89ba95">ug::CalculateGridObjectCenter</a> (const <a class="el" href="classug_1_1_grid_object.html">GridObject</a> *o, TAAPosVRT &amp;aaPosVRT, TAAWeightVRT &amp;aaWeight)</td></tr>
 <tr class="memdesc:ga3cb730a357c8af0a1a1d628a7f89ba95"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the weighted center of the vertices of the given geometric object  <a href="group__lib__grid__algorithms__geom__obj__misc.html#ga3cb730a357c8af0a1a1d628a7f89ba95">More...</a><br /></td></tr>
 <tr class="separator:ga3cb730a357c8af0a1a1d628a7f89ba95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab600464aa067086149fad1a042b651ac"><td class="memTemplParams" colspan="2">template&lt;class TElem1 , class TElem2 , class TAAPos &gt; </td></tr>
+<tr class="memitem:gab600464aa067086149fad1a042b651ac"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__geom__obj__misc.html#gab600464aa067086149fad1a042b651ac">ug::CheckDirection</a> (TElem1 *e1, TElem2 *e2, const TAAPos &amp;aaPos, const typename TAAPos::ValueType &amp;dir, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> minAngle, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> maxAngle)</td></tr>
+<tr class="memdesc:gab600464aa067086149fad1a042b651ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether the center of e2 can be reached from the center of e1 in the given direction.  <a href="group__lib__grid__algorithms__geom__obj__misc.html#gab600464aa067086149fad1a042b651ac">More...</a><br /></td></tr>
+<tr class="separator:gab600464aa067086149fad1a042b651ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2ed13a165d58b0f2908d1d2c2232ead8"><td class="memTemplParams" colspan="2">template&lt;class TElem , class TAAPos &gt; </td></tr>
 <tr class="memitem:ga2ed13a165d58b0f2908d1d2c2232ead8"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__geom__obj__misc.html#ga2ed13a165d58b0f2908d1d2c2232ead8">ug::ElementDiameter</a> (<a class="el" href="classug_1_1_grid.html">Grid</a> &amp;grid, TAAPos &amp;aaPos, TElem *elem)</td></tr>
 <tr class="memdesc:ga2ed13a165d58b0f2908d1d2c2232ead8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the maximal distance between to element vertices  <a href="group__lib__grid__algorithms__geom__obj__misc.html#ga2ed13a165d58b0f2908d1d2c2232ead8">More...</a><br /></td></tr>
@@ -137,6 +141,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ga1e4ced35007d8cfa2e97f09ac7ebe90b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#ga6a442be2e75e98247f82d1aa90a06aac">UG_API</a> TElem *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__geom__obj__misc.html#ga1e4ced35007d8cfa2e97f09ac7ebe90b">ug::FindClosestByCoordinate</a> (const typename TVertexPositionAttachmentAccessor::ValueType &amp;coord, typename <a class="el" href="classug_1_1geometry__traits.html">geometry_traits</a>&lt; TElem &gt;::iterator iterBegin, typename <a class="el" href="classug_1_1geometry__traits.html">geometry_traits</a>&lt; TElem &gt;::iterator iterEnd, TVertexPositionAttachmentAccessor &amp;aaPosVRT)</td></tr>
 <tr class="memdesc:ga1e4ced35007d8cfa2e97f09ac7ebe90b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the element of the given type, whose center is closest to coord.  <a href="group__lib__grid__algorithms__geom__obj__misc.html#ga1e4ced35007d8cfa2e97f09ac7ebe90b">More...</a><br /></td></tr>
 <tr class="separator:ga1e4ced35007d8cfa2e97f09ac7ebe90b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga249b69b899837528fcc807280da9f042"><td class="memTemplParams" colspan="2">template&lt;class TElem1 , class TElem2 , class TAAPos &gt; </td></tr>
+<tr class="memitem:ga249b69b899837528fcc807280da9f042"><td class="memTemplItemLeft" align="right" valign="top">TAAPos::ValueType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__geom__obj__misc.html#ga249b69b899837528fcc807280da9f042">ug::GetDirection</a> (TElem1 *e1, TElem2 *e2, const TAAPos &amp;aaPos)</td></tr>
+<tr class="memdesc:ga249b69b899837528fcc807280da9f042"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the direction from the center of e1 to the center of e2.  <a href="group__lib__grid__algorithms__geom__obj__misc.html#ga249b69b899837528fcc807280da9f042">More...</a><br /></td></tr>
+<tr class="separator:ga249b69b899837528fcc807280da9f042"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa36b2d4628383bf9b11f69e7d2af210d"><td class="memTemplParams" colspan="2">template&lt;class TElem &gt; </td></tr>
 <tr class="memitem:gaa36b2d4628383bf9b11f69e7d2af210d"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#ga6a442be2e75e98247f82d1aa90a06aac">UG_API</a> TElem::side *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__geom__obj__misc.html#gaa36b2d4628383bf9b11f69e7d2af210d">ug::GetSharedSide</a> (<a class="el" href="classug_1_1_grid.html">Grid</a> &amp;grid, TElem *e1, TElem *e2)</td></tr>
 <tr class="memdesc:gaa36b2d4628383bf9b11f69e7d2af210d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the shared side between the two elements or NULL if no such side exists.  <a href="group__lib__grid__algorithms__geom__obj__misc.html#gaa36b2d4628383bf9b11f69e7d2af210d">More...</a><br /></td></tr>
@@ -203,7 +211,7 @@ template&lt;class vector_t , class TIterator , class TAAPos &gt; </div>
 <p>TIterator has to be an iterator to a set containing elements of type Edge*, Face* or Volume*. An overload for Vertex* exists.</p>
 <p>Make sure that TAAPos::ValueType == vector_t. </p>
 
-<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#gad04fbd00dd872375c4863bd1d4621237">dim</a>, <a class="el" href="group__lib__grid__algorithms__vertex__util.html#gafc46f829211dc8ddd5cff1001178f765">ug::GetVertex()</a>, <a class="el" href="group__lib__grid__algorithms__volume__util.html#gacd48282665a654113f5de72e0bf08014">ug::NumVertices()</a>, and <a class="el" href="group__vectors.html#ga37c542a5b243f331a1d8bb74d331ba4e">ug::VecSet()</a>.</p>
+<p>References <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#gad04fbd00dd872375c4863bd1d4621237">dim</a>, <a class="el" href="group__lib__grid__algorithms__vertex__util.html#gafc46f829211dc8ddd5cff1001178f765">ug::GetVertex()</a>, <a class="el" href="group__lib__grid__algorithms__volume__util.html#gacd48282665a654113f5de72e0bf08014">ug::NumVertices()</a>, and <a class="el" href="group__vectors.html#ga37c542a5b243f331a1d8bb74d331ba4e">ug::VecSet()</a>.</p>
 
 </div>
 </div>
@@ -338,6 +346,73 @@ template&lt;class TAAPosVRT , class TAAWeightVRT &gt; </div>
 <p>TAAWeightVRT has to be an attachment to the vertices of the grid in which the object is contained, with ValueType number (or compatible). </p>
 
 <p>References <a class="el" href="classug_1_1_grid_object.html#ac1886ed847ec434a68eaf60ed9381f05">ug::GridObject::base_object_id()</a>, <a class="el" href="group__ugbase__mathutil.html#ga5ed9b75521e3aea7c75f591c2ca5c7fb">ug::CalculateCenter()</a>, <a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13cad44f88a0fdcb9e7708ce0980b8e200ba">ug::EDGE</a>, <a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13caf19e27843c818933471265612910299c">ug::FACE</a>, <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>, <a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13ca82c85a54f294f9a7576aedbffafbbe38">ug::VERTEX</a>, and <a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13ca144073d8bdeb81d71cf89e7bd6bbda58">ug::VOLUME</a>.</p>
+
+</div>
+</div>
+<a id="gab600464aa067086149fad1a042b651ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab600464aa067086149fad1a042b651ac">&sect;&nbsp;</a></span>CheckDirection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TElem1 , class TElem2 , class TAAPos &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ug::CheckDirection </td>
+          <td>(</td>
+          <td class="paramtype">TElem1 *&#160;</td>
+          <td class="paramname"><em>e1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TElem2 *&#160;</td>
+          <td class="paramname"><em>e2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const TAAPos &amp;&#160;</td>
+          <td class="paramname"><em>aaPos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const typename TAAPos::ValueType &amp;&#160;</td>
+          <td class="paramname"><em>dir</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td>
+          <td class="paramname"><em>minAngle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td>
+          <td class="paramname"><em>maxAngle</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks whether the center of e2 can be reached from the center of e1 in the given direction. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">minAngle</td><td>minimal allowed deviation angle from 'dir' in degrees. Normally set to 0. </td></tr>
+    <tr><td class="paramname">maxAngle</td><td>maximal allowed deviation angle from 'dir' in degrees </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>References <a class="el" href="group__lib__grid__algorithms__geom__obj__misc.html#ga249b69b899837528fcc807280da9f042">ug::GetDirection()</a>, <a class="el" href="group__ugbase__mathutil.html#gaf83ef8bbbb33418a4df3203fad44ef0b">ug::rad_to_deg()</a>, and <a class="el" href="group__vectors.html#ga77d10731613439a58acc8511f88912f5">ug::VecAngle()</a>.</p>
+
+<p>Referenced by <a class="el" href="group__lib__grid__algorithms__selection__util.html#gaac50cb8106ea84388389da555fcc24a0">ug::ExtendSelectionInDirection()</a>.</p>
 
 </div>
 </div>
@@ -589,6 +664,48 @@ template&lt;class TElem , class TVertexPositionAttachmentAccessor &gt; </div>
 
 </div>
 </div>
+<a id="ga249b69b899837528fcc807280da9f042"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga249b69b899837528fcc807280da9f042">&sect;&nbsp;</a></span>GetDirection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TElem1 , class TElem2 , class TAAPos &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">TAAPos::ValueType ug::GetDirection </td>
+          <td>(</td>
+          <td class="paramtype">TElem1 *&#160;</td>
+          <td class="paramname"><em>e1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TElem2 *&#160;</td>
+          <td class="paramname"><em>e2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const TAAPos &amp;&#160;</td>
+          <td class="paramname"><em>aaPos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the direction from the center of e1 to the center of e2. </p>
+
+<p>References <a class="el" href="group__ugbase__mathutil.html#ga5ed9b75521e3aea7c75f591c2ca5c7fb">ug::CalculateCenter()</a>.</p>
+
+<p>Referenced by <a class="el" href="group__lib__grid__algorithms__geom__obj__misc.html#gab600464aa067086149fad1a042b651ac">ug::CheckDirection()</a>.</p>
+
+</div>
+</div>
 <a id="gaa36b2d4628383bf9b11f69e7d2af210d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaa36b2d4628383bf9b11f69e7d2af210d">&sect;&nbsp;</a></span>GetSharedSide()</h2>
 
@@ -670,6 +787,7 @@ template&lt;class TAAPos , class TIterator &gt; </div>
 </div><div class="memdoc">
 
 <p>returns the maximal diameter of all elements between iterBegin and iterEnd. </p>
+<p>In parallel, the global max diameter is returned. </p>
 
 <p>References <a class="el" href="classpcl_1_1_process_communicator.html#a708b02efa2d765daae9fee02b7b60000">pcl::ProcessCommunicator::allreduce()</a>, <a class="el" href="group__lib__disc__domain.html#ga8c9734c18a4962ade29e5dccc2b8e660">ug::ElementDiameterSq()</a>, and <a class="el" href="group__pcl.html#ga6d762a24a3efa664b0937ed25b00049e">PCL_RO_MAX</a>.</p>
 
@@ -724,7 +842,7 @@ template&lt;class TElemPtr1 , class TElemPtr2 &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:13 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:08:45 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

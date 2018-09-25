@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['lagrange_5fdirichlet_5fadj_5ftransfer_5ffix',['LAGRANGE_DIRICHLET_ADJ_TRANSFER_FIX',['../lagrange__dirichlet__boundary_8h.html#ad5ef750dc5c94f94d9f1f902c6d6e5b2',1,'lagrange_dirichlet_boundary.h']]],
   ['lerp',['LERP',['../tri__box_8cpp.html#af78981389c15d3d3df0b6b3a02ee9dce',1,'tri_box.cpp']]],
   ['lfa_5fcheck_5fdim',['LFA_CHECK_DIM',['../raster__impl_8hpp.html#a86e37956141e14d535ea817fdad00f0d',1,'raster_impl.hpp']]],
   ['lfa_5ferr_5fwhere',['LFA_ERR_WHERE',['../raster__impl_8hpp.html#adbe857d06752a0a3d57ea6865197322b',1,'raster_impl.hpp']]],

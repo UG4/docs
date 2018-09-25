@@ -16,6 +16,8 @@ var group__refinement__bridge =
     [ "MarkForRefinement_AllAnisotropic", "../group__refinement__bridge.html#ga3b851cdf4a7ecfbba1e677b589f1efc6", null ],
     [ "MarkForRefinement_AnisotropicDirection", "../group__refinement__bridge.html#ga37c9d51b22b5bb97416a5db83c193ed5", null ],
     [ "MarkForRefinement_AnisotropicElements", "../group__refinement__bridge.html#gaf9b562c68ed9377ab88023a0de6f336c", null ],
+    [ "MarkForRefinement_CloseToSurface", "../group__refinement__bridge.html#ga924981e96e0eebe688e57ffe0416c341", null ],
+    [ "MarkForRefinement_ContainsSurfaceNode", "../group__refinement__bridge.html#ga74eb659b949e6286a606a1e0accdcff1", null ],
     [ "MarkForRefinement_EdgeDirection", "../group__refinement__bridge.html#gae43e19500577a2425218667de82d880a", null ],
     [ "MarkForRefinement_ElementsByLuaCallback", "../group__refinement__bridge.html#ga2758abecc140da62e0af3f825c048871", null ],
     [ "MarkForRefinement_ElementsInSphere", "../group__refinement__bridge.html#ga88f7a3b3a3565b89a7dcf5533c939f2e", null ],

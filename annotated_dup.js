@@ -3,6 +3,7 @@ var annotated_dup =
     [ "boost", "namespaceboost.html", "namespaceboost" ],
     [ "pcl", "namespacepcl.html", "namespacepcl" ],
     [ "std", "namespacestd.html", "namespacestd" ],
+    [ "stl_reader", "namespacestl__reader.html", "namespacestl__reader" ],
     [ "ug", "namespaceug.html", "namespaceug" ],
     [ "AutoFreqAdaptNode", "class_auto_freq_adapt_node.html", "class_auto_freq_adapt_node" ],
     [ "AutoProfileNode", "class_auto_profile_node.html", "class_auto_profile_node" ],

@@ -20,6 +20,7 @@ var classug_1_1_math_vector =
     [ "operator=", "classug_1_1_math_vector.html#ac0802b0b0c06a50d52c12560dad467a5", null ],
     [ "operator[]", "classug_1_1_math_vector.html#ad0a9de42ceeffa7391bf2b6987a7bddd", null ],
     [ "operator[]", "classug_1_1_math_vector.html#ae107cb01eab74d0aeb2ff745514ad786", null ],
+    [ "set_coord", "classug_1_1_math_vector.html#a50bca9c016842ea640d4ca8927ae6dfb", null ],
     [ "size", "classug_1_1_math_vector.html#af8577f620c2d37f4422fbf2417d441c5", null ],
     [ "m_data", "classug_1_1_math_vector.html#a24be242bd993d27dc5a51803801a8f46", null ],
     [ "Size", "classug_1_1_math_vector.html#af246c112871f076b6f3d235e8408f509", null ]

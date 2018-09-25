@@ -23,6 +23,8 @@ var dir_67de3ae5db4b037e4dbbf65db91d4b1f =
     [ "grid_util_impl.hpp", "grid__util__impl_8hpp.html", "grid__util__impl_8hpp" ],
     [ "neighborhood.cpp", "neighborhood_8cpp.html", "neighborhood_8cpp" ],
     [ "neighborhood.h", "neighborhood_8h.html", "neighborhood_8h" ],
+    [ "neighborhood_util.cpp", "neighborhood__util_8cpp.html", "neighborhood__util_8cpp" ],
+    [ "neighborhood_util.h", "neighborhood__util_8h.html", "neighborhood__util_8h" ],
     [ "sub_grid.h", "sub__grid_8h.html", [
       [ "IsInSubGrid", "classug_1_1_is_in_sub_grid.html", "classug_1_1_is_in_sub_grid" ],
       [ "IsNotInSubGrid", "classug_1_1_is_not_in_sub_grid.html", "classug_1_1_is_not_in_sub_grid" ],

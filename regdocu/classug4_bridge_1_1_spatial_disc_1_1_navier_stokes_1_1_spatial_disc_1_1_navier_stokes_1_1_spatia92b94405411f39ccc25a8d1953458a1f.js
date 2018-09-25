@@ -1,0 +1,10 @@
+var classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia92b94405411f39ccc25a8d1953458a1f =
+[
+    [ "CRDynamicTurbViscData", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia92b94405411f39ccc25a8d1953458a1f.html#af9dfe240e9cbd4b22a7d064361c3eea6", null ],
+    [ "set_kinematic_viscosity", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia92b94405411f39ccc25a8d1953458a1f.html#a3ba1740efa4ccef62804d2a0207fb4de", null ],
+    [ "set_space_filter", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia92b94405411f39ccc25a8d1953458a1f.html#a31e57fe6dfb54cfbb00f4a5ab0def418", null ],
+    [ "set_time_filter", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia92b94405411f39ccc25a8d1953458a1f.html#ab7a6ff15dab6c30ffbddc24511f638c7", null ],
+    [ "set_time_filter_eps", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia92b94405411f39ccc25a8d1953458a1f.html#ad70a56483a4f386b8da69fe0c19a8786", null ],
+    [ "set_turbulence_zero_bnd", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia92b94405411f39ccc25a8d1953458a1f.html#a77aa3aaada0e171d305db9acafd3062b", null ],
+    [ "update", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia92b94405411f39ccc25a8d1953458a1f.html#ac5c54df7ed3b930268c8d7752c101725", null ]
+];

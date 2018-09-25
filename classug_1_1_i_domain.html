@@ -196,9 +196,13 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:gaca109ca8a59b65508b4eee40d8957f64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceug.html#a1a220d9b7f4057bf059723a8c0dc056d">SPRefinementProjector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#gaca109ca8a59b65508b4eee40d8957f64">broadcast_refinement_projector</a> (int rootProc, <a class="el" href="classpcl_1_1_process_communicator.html">pcl::ProcessCommunicator</a> &amp;procCom, <a class="el" href="namespaceug.html#ac00da5e7c15f1fd50c81336a579a45cc">SPIGeometry3d</a> geometry, <a class="el" href="namespaceug.html#a1a220d9b7f4057bf059723a8c0dc056d">SPRefinementProjector</a> projector=<a class="el" href="group__ugbase__common__util.html#gaaf72bcd4f74729e4a43694267e8590d8">SPNULL</a>)</td></tr>
 <tr class="memdesc:gaca109ca8a59b65508b4eee40d8957f64"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper method to broadcast ug::RefinementProjectors to different processes  <a href="group__lib__disc__domain.html#gaca109ca8a59b65508b4eee40d8957f64">More...</a><br /></td></tr>
 <tr class="separator:gaca109ca8a59b65508b4eee40d8957f64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga309291fa809335b2a41743ff92f832b5"><td class="memTemplParams" colspan="2">template&lt;class TElem &gt; </td></tr>
-<tr class="memitem:ga309291fa809335b2a41743ff92f832b5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga309291fa809335b2a41743ff92f832b5">count_ghosts</a> (std::vector&lt; int &gt; &amp;numGhostsOnLvlOut)</td></tr>
-<tr class="separator:ga309291fa809335b2a41743ff92f832b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa6b7d80cdeda982e0d6f2be4cdbc7db3"><td class="memTemplParams" colspan="2">template&lt;class TElem &gt; </td></tr>
+<tr class="memitem:gaa6b7d80cdeda982e0d6f2be4cdbc7db3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#gaa6b7d80cdeda982e0d6f2be4cdbc7db3">count_ghosts</a> (std::vector&lt; <a class="el" href="group__lib__disc__domain.html#ga83e79410ddd3cc6a7280fb8565e58214">DomainInfo::int_t</a> &gt; &amp;numGhostsOnLvlOut)</td></tr>
+<tr class="separator:gaa6b7d80cdeda982e0d6f2be4cdbc7db3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8bb8aa727ac8ee0f38474a7ecb781b56"><td class="memTemplParams" colspan="2">template&lt;class TElem &gt; </td></tr>
+<tr class="memitem:ga8bb8aa727ac8ee0f38474a7ecb781b56"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga8bb8aa727ac8ee0f38474a7ecb781b56">count_local_unique_surface_elements</a> ()</td></tr>
+<tr class="memdesc:ga8bb8aa727ac8ee0f38474a7ecb781b56"><td class="mdescLeft">&#160;</td><td class="mdescRight">counts local surface elements which are not ghosts or h-slaves  <a href="group__lib__disc__domain.html#ga8bb8aa727ac8ee0f38474a7ecb781b56">More...</a><br /></td></tr>
+<tr class="separator:ga8bb8aa727ac8ee0f38474a7ecb781b56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6d37e5a30e53d0c562b1f116b1e00f22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceug.html#a1a220d9b7f4057bf059723a8c0dc056d">SPRefinementProjector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga6d37e5a30e53d0c562b1f116b1e00f22">deserialize_projector</a> (<a class="el" href="classug_1_1_binary_buffer.html">BinaryBuffer</a> &amp;buf)</td></tr>
 <tr class="separator:ga6d37e5a30e53d0c562b1f116b1e00f22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga67a5110a3b235988e5d6a01c1b786e33"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga67a5110a3b235988e5d6a01c1b786e33">grid_adaption_callback</a> (const <a class="el" href="classug_1_1_grid_message___adaption.html">GridMessage_Adaption</a> &amp;msg)</td></tr>
@@ -260,7 +264,7 @@ class ug::IDomain&lt; TGrid, TSubsetHandler &gt;</h3>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_i_domain.html">IDomain</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:29 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:09:08 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -14,7 +14,7 @@ var dir_e29d35ce106b6f2459f2f8a7d98165de =
     [ "lua_parser_class_create_lua.cpp", "lua__parser__class__create__lua_8cpp.html", null ],
     [ "lua_parser_class_create_vm.cpp", "lua__parser__class__create__vm_8cpp.html", null ],
     [ "lua_parser_class_reduce.cpp", "lua__parser__class__reduce_8cpp.html", null ],
-    [ "main.cpp", "main_8cpp.html", "main_8cpp" ],
+    [ "main.cpp", "bindings_2lua_2compiler_2main_8cpp.html", "bindings_2lua_2compiler_2main_8cpp" ],
     [ "parser.cpp", "parser_8cpp.html", "parser_8cpp" ],
     [ "parser.hpp", "parser_8hpp.html", "parser_8hpp" ],
     [ "parser_node.h", "parser__node_8h.html", "parser__node_8h" ],

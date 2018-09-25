@@ -180,6 +180,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4bc32e9979e8a1d547ea850ea446e9ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8884c606b8186da09aa1836edf47c0c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_l_u.html#ae8884c606b8186da09aa1836edf47c0c">set_minimum_for_sparse</a> (size_t N)</td></tr>
 <tr class="separator:ae8884c606b8186da09aa1836edf47c0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8863938ff27ad7581c09b3fbe2607c3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_l_u.html#a8863938ff27ad7581c09b3fbe2607c3e">set_show_progress</a> (bool b)</td></tr>
+<tr class="separator:a8863938ff27ad7581c09b3fbe2607c3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b2a5a097ebc58a0e710777b19e15b05"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_l_u.html#a9b2a5a097ebc58a0e710777b19e15b05">set_sort_sparse</a> (bool b)</td></tr>
 <tr class="separator:a9b2a5a097ebc58a0e710777b19e15b05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4bbe363505fffdd2fba266b5907bb692"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_l_u.html#a4bbe363505fffdd2fba266b5907bb692">supports_parallel</a> () const</td></tr>
@@ -271,6 +273,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a48683433297269c161d22029bde712bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae58d86c4625a7941621ef4e0690526f1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_l_u.html#ae58d86c4625a7941621ef4e0690526f1">m_bInfo</a></td></tr>
 <tr class="separator:ae58d86c4625a7941621ef4e0690526f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdefe04188716324fc7041c1c79fec73"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_l_u.html#abdefe04188716324fc7041c1c79fec73">m_bShowProgress</a></td></tr>
+<tr class="separator:abdefe04188716324fc7041c1c79fec73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70f52ee8497f87d0b9ee6ffdf5464881"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_l_u.html#a70f52ee8497f87d0b9ee6ffdf5464881">m_bSortSparse</a></td></tr>
 <tr class="separator:a70f52ee8497f87d0b9ee6ffdf5464881"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a719fa419bb37d03537c6b768347fa026"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_l_u.html#a719fa419bb37d03537c6b768347fa026">m_iMinimumForSparse</a></td></tr>
@@ -650,7 +654,7 @@ template&lt;typename TAlgebra &gt; </div>
 
 <p>set operator L, that will be inverted </p>
 
-<p>References <a class="el" href="classug_1_1_l_u.html#a285813da9e65e85c40773ac43a426d48">ug::LU&lt; TAlgebra &gt;::init_lu()</a>, <a class="el" href="classug_1_1_l_u.html#a8599337171c685b20e36314c6e3b8986">ug::LU&lt; TAlgebra &gt;::m_spOperator</a>, and <a class="el" href="group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>.</p>
+<p>References <a class="el" href="classug_1_1_matrix_operator.html#aa418151ade51a0f0e56198ae042cc292">ug::MatrixOperator&lt; M, X, Y &gt;::get_matrix()</a>, <a class="el" href="classug_1_1_l_u.html#a285813da9e65e85c40773ac43a426d48">ug::LU&lt; TAlgebra &gt;::init_lu()</a>, <a class="el" href="classug_1_1_l_u.html#a8599337171c685b20e36314c6e3b8986">ug::LU&lt; TAlgebra &gt;::m_spOperator</a>, and <a class="el" href="group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>.</p>
 
 </div>
 </div>
@@ -748,7 +752,7 @@ template&lt;typename TAlgebra &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classug_1_1_l_u.html#a94d7ec72232930bf0690c71eeda224ef">ug::LU&lt; TAlgebra &gt;::ilut_scalar</a>, <a class="el" href="classug_1_1_l_u.html#a48683433297269c161d22029bde712bc">ug::LU&lt; TAlgebra &gt;::m_bDense</a>, <a class="el" href="classug_1_1_l_u.html#ae58d86c4625a7941621ef4e0690526f1">ug::LU&lt; TAlgebra &gt;::m_bInfo</a>, <a class="el" href="classug_1_1_l_u.html#a70f52ee8497f87d0b9ee6ffdf5464881">ug::LU&lt; TAlgebra &gt;::m_bSortSparse</a>, <a class="el" href="smart__pointer_8h.html#a8ba0055baeb80cdf31c501403f7f302f">make_sp()</a>, <a class="el" href="classug_1_1_l_u.html#a9093f67a886549940b21a42308b87804">ug::LU&lt; TAlgebra &gt;::print_info()</a>, <a class="el" href="profiler_8h.html#acb22c3b80068351d2edad7f6e910a7f9">PROFILE_FUNC</a>, <a class="el" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>, and <a class="el" href="group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>.</p>
+<p>References <a class="el" href="classug_1_1_l_u.html#a94d7ec72232930bf0690c71eeda224ef">ug::LU&lt; TAlgebra &gt;::ilut_scalar</a>, <a class="el" href="classug_1_1_l_u.html#a48683433297269c161d22029bde712bc">ug::LU&lt; TAlgebra &gt;::m_bDense</a>, <a class="el" href="classug_1_1_l_u.html#ae58d86c4625a7941621ef4e0690526f1">ug::LU&lt; TAlgebra &gt;::m_bInfo</a>, <a class="el" href="classug_1_1_l_u.html#abdefe04188716324fc7041c1c79fec73">ug::LU&lt; TAlgebra &gt;::m_bShowProgress</a>, <a class="el" href="classug_1_1_l_u.html#a70f52ee8497f87d0b9ee6ffdf5464881">ug::LU&lt; TAlgebra &gt;::m_bSortSparse</a>, <a class="el" href="smart__pointer_8h.html#a8ba0055baeb80cdf31c501403f7f302f">make_sp()</a>, <a class="el" href="classug_1_1_l_u.html#a9093f67a886549940b21a42308b87804">ug::LU&lt; TAlgebra &gt;::print_info()</a>, <a class="el" href="profiler_8h.html#acb22c3b80068351d2edad7f6e910a7f9">PROFILE_FUNC</a>, <a class="el" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>, and <a class="el" href="group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>.</p>
 
 <p>Referenced by <a class="el" href="classug_1_1_l_u.html#a285813da9e65e85c40773ac43a426d48">ug::LU&lt; TAlgebra &gt;::init_lu()</a>.</p>
 
@@ -908,6 +912,36 @@ template&lt;typename TAlgebra &gt; </div>
 </div><div class="memdoc">
 
 <p>References <a class="el" href="classug_1_1_l_u.html#a719fa419bb37d03537c6b768347fa026">ug::LU&lt; TAlgebra &gt;::m_iMinimumForSparse</a>.</p>
+
+</div>
+</div>
+<a id="a8863938ff27ad7581c09b3fbe2607c3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8863938ff27ad7581c09b3fbe2607c3e">&sect;&nbsp;</a></span>set_show_progress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TAlgebra &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_l_u.html">ug::LU</a>&lt; TAlgebra &gt;::set_show_progress </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classug_1_1_l_u.html#abdefe04188716324fc7041c1c79fec73">ug::LU&lt; TAlgebra &gt;::m_bShowProgress</a>.</p>
 
 </div>
 </div>
@@ -1159,6 +1193,32 @@ template&lt;typename TAlgebra &gt; </div>
 
 </div>
 </div>
+<a id="abdefe04188716324fc7041c1c79fec73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdefe04188716324fc7041c1c79fec73">&sect;&nbsp;</a></span>m_bShowProgress</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TAlgebra &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classug_1_1_l_u.html">ug::LU</a>&lt; TAlgebra &gt;::m_bShowProgress</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classug_1_1_l_u.html#a316408ac2c7b42a4174e0da8b64ea1ae">ug::LU&lt; TAlgebra &gt;::init_sparse()</a>, and <a class="el" href="classug_1_1_l_u.html#a8863938ff27ad7581c09b3fbe2607c3e">ug::LU&lt; TAlgebra &gt;::set_show_progress()</a>.</p>
+
+</div>
+</div>
 <a id="a70f52ee8497f87d0b9ee6ffdf5464881"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a70f52ee8497f87d0b9ee6ffdf5464881">&sect;&nbsp;</a></span>m_bSortSparse</h2>
 
@@ -1380,7 +1440,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_l_u.html">LU</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:36 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:09:17 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

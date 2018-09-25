@@ -1,0 +1,6 @@
+var classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia15babc3bd9b07f86c7390ded952d6dd1 =
+[
+    [ "SeparatedPressureSource", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia15babc3bd9b07f86c7390ded952d6dd1.html#ad0e345b29a6724d833208e7f97c4fa7c", null ],
+    [ "set_source", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia15babc3bd9b07f86c7390ded952d6dd1.html#a90a698fcdca24dedeccebacd5c532136", null ],
+    [ "update", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia15babc3bd9b07f86c7390ded952d6dd1.html#ac5c54df7ed3b930268c8d7752c101725", null ]
+];

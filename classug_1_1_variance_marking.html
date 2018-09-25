@@ -122,8 +122,8 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a34062f521e4e47f9969297193bbe5374"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_variance_marking.html#a34062f521e4e47f9969297193bbe5374">mark</a> (typename <a class="el" href="structug_1_1_i_element_marking_strategy.html#a941a88d99067f02be90fc2e6f7b1b6cf">base_type::elem_accessor_type</a> &amp;aaError, <a class="el" href="classug_1_1_i_refiner.html">IRefiner</a> &amp;refiner, <a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_do_f_distribution.html">DoFDistribution</a> &gt; dd)</td></tr>
-<tr class="separator:a34062f521e4e47f9969297193bbe5374"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77297bb32ea1dfdc9279362c82842f4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_variance_marking.html#a77297bb32ea1dfdc9279362c82842f4a">mark</a> (typename <a class="el" href="structug_1_1_i_element_marking_strategy.html#a941a88d99067f02be90fc2e6f7b1b6cf">base_type::elem_accessor_type</a> &amp;aaError2, <a class="el" href="classug_1_1_i_refiner.html">IRefiner</a> &amp;refiner, <a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_do_f_distribution.html">DoFDistribution</a> &gt; dd)</td></tr>
+<tr class="separator:a77297bb32ea1dfdc9279362c82842f4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6db2b9f52a9e7b688138341b9fc0d802"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_variance_marking.html#a6db2b9f52a9e7b688138341b9fc0d802">VarianceMarking</a> (<a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> theta)</td></tr>
 <tr class="separator:a6db2b9f52a9e7b688138341b9fc0d802"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae86a203c1fa712ddecbefc70fb07fde0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_variance_marking.html#ae86a203c1fa712ddecbefc70fb07fde0">VarianceMarking</a> (<a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> theta, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> width)</td></tr>
@@ -167,7 +167,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="textblock"><h3>template&lt;typename TDomain&gt;<br />
 class ug::VarianceMarking&lt; TDomain &gt;</h3>
 
-<p>marks elements above \( \theta * (\mu + width * \sigma) \) where \( \mu = E[\eta^2], \sigma^2 = Var[\eta^2] \) </p>
+<p>Marks elements above \( \theta * (\mu + width * \sigma) \) for refinement where \( \mu = E[\eta^2], \sigma^2 = Var[\eta^2] \) </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="affcfc1353bb8c7c5b9408b544132faef"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#affcfc1353bb8c7c5b9408b544132faef">&sect;&nbsp;</a></span>base_type</h2>
@@ -255,8 +255,8 @@ template&lt;typename TDomain &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a34062f521e4e47f9969297193bbe5374"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34062f521e4e47f9969297193bbe5374">&sect;&nbsp;</a></span>mark()</h2>
+<a id="a77297bb32ea1dfdc9279362c82842f4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77297bb32ea1dfdc9279362c82842f4a">&sect;&nbsp;</a></span>mark()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -270,7 +270,7 @@ template&lt;typename TDomain &gt; </div>
           <td class="memname">void <a class="el" href="classug_1_1_variance_marking.html">ug::VarianceMarking</a>&lt; TDomain &gt;::mark </td>
           <td>(</td>
           <td class="paramtype">typename <a class="el" href="structug_1_1_i_element_marking_strategy.html#a941a88d99067f02be90fc2e6f7b1b6cf">base_type::elem_accessor_type</a> &amp;&#160;</td>
-          <td class="paramname"><em>aaError</em>, </td>
+          <td class="paramname"><em>aaError2</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -385,7 +385,7 @@ template&lt;typename TDomain &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_variance_marking.html">VarianceMarking</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:49 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:09:37 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

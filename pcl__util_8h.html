@@ -99,11 +99,13 @@ $(document).ready(function(){initNavTree('pcl__util_8h.html','');});
 <code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
+<code>#include &lt;functional&gt;</code><br />
 <code>#include &quot;<a class="el" href="pcl__layout__util_8h_source.html">pcl_layout_util.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="pcl__base_8h_source.html">pcl_base.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="pcl__communication__structs_8h_source.html">pcl_communication_structs.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="binary__buffer_8h_source.html">common/util/binary_buffer.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="pcl__process__communicator_8h_source.html">pcl_process_communicator.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="pcl__util__impl_8h_source.html">pcl_util_impl.h</a>&quot;</code><br />
 </div>
 <p><a href="pcl__util_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -135,6 +137,10 @@ Functions</h2></td></tr>
 <tr class="memitem:gae69fa8589b1ee5449187b583e4f0e72e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__pcl.html#gae69fa8589b1ee5449187b583e4f0e72e">pcl::CommunicateInvolvedProcesses</a> (std::vector&lt; int &gt; &amp;vReceiveFromRanksOut, const std::vector&lt; int &gt; &amp;vSendToRanks, const ProcessCommunicator &amp;procComm=ProcessCommunicator())</td></tr>
 <tr class="memdesc:gae69fa8589b1ee5449187b583e4f0e72e"><td class="mdescLeft">&#160;</td><td class="mdescRight">exchanges information about which process wants to communicate with which other process.  <a href="group__pcl.html#gae69fa8589b1ee5449187b583e4f0e72e">More...</a><br /></td></tr>
 <tr class="separator:gae69fa8589b1ee5449187b583e4f0e72e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga25fcc02d60112f3e50adaffdba369d2e"><td class="memTemplParams" colspan="2">template&lt;typename TKey , typename TValue , typename Compare &gt; </td></tr>
+<tr class="memitem:ga25fcc02d60112f3e50adaffdba369d2e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__pcl.html#ga25fcc02d60112f3e50adaffdba369d2e">pcl::MinimalKeyValuePairAcrossAllProcs</a> (TKey &amp;keyInOut, TValue &amp;valInOut, const Compare &amp;cmp=Compare())</td></tr>
+<tr class="memdesc:ga25fcc02d60112f3e50adaffdba369d2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find minimal key/value pair across processes This function will receive one key/value pair from each process. They will be gathered on proc 0, where the minimal key (w.r.t. given Compare object, e.g., std::less&lt;TKey&gt; ) and corresponding value will be determined. The minimal pair will be made known to all procs and returned.  <a href="group__pcl.html#ga25fcc02d60112f3e50adaffdba369d2e">More...</a><br /></td></tr>
+<tr class="separator:ga25fcc02d60112f3e50adaffdba369d2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga61412e843ef0b406b64d2d9841bf0c39"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__pcl.html#ga61412e843ef0b406b64d2d9841bf0c39">pcl::OneProcTrue</a> (bool bFlag, ProcessCommunicator comm)</td></tr>
 <tr class="separator:ga61412e843ef0b406b64d2d9841bf0c39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2a6485d186a64a64bbc3615a1bbeb76d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__pcl.html#ga2a6485d186a64a64bbc3615a1bbeb76d">pcl::ParallelReadFile</a> (std::string &amp;filename, std::vector&lt; char &gt; &amp;file, bool bText, bool bDistributedLoad, const ProcessCommunicator &amp;pc=ProcessCommunicator())</td></tr>
@@ -201,7 +207,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_5cb5e20721f4b0452fddb6ad38cd4fbc.html">pcl</a></li><li class="navelem"><a class="el" href="pcl__util_8h.html">pcl_util.h</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:12 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:08:44 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

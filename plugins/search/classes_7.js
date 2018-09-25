@@ -1,10 +1,12 @@
 var searchData=
 [
-  ['h1diffintegrand',['H1DiffIntegrand',['../../classug_1_1_h1_diff_integrand.html',1,'ug']]],
+  ['h1componentspace',['H1ComponentSpace',['../../classug_1_1_h1_component_space.html',1,'ug']]],
+  ['h1energycomponentspace',['H1EnergyComponentSpace',['../../classug_1_1_h1_energy_component_space.html',1,'ug']]],
+  ['h1energyintegrand',['H1EnergyIntegrand',['../../classug_1_1_h1_energy_integrand.html',1,'ug']]],
   ['h1errorintegrand',['H1ErrorIntegrand',['../../classug_1_1_h1_error_integrand.html',1,'ug']]],
-  ['h1normfuncintegrand',['H1NormFuncIntegrand',['../../classug_1_1_h1_norm_func_integrand.html',1,'ug']]],
-  ['h1semidiffintegrand',['H1SemiDiffIntegrand',['../../classug_1_1_h1_semi_diff_integrand.html',1,'ug']]],
-  ['h1seminormfuncintegrand',['H1SemiNormFuncIntegrand',['../../classug_1_1_h1_semi_norm_func_integrand.html',1,'ug']]],
+  ['h1semicomponentspace',['H1SemiComponentSpace',['../../classug_1_1_h1_semi_component_space.html',1,'ug']]],
+  ['h1semidistintegrand',['H1SemiDistIntegrand',['../../classug_1_1_h1_semi_dist_integrand.html',1,'ug']]],
+  ['h1semiintegrand',['H1SemiIntegrand',['../../classug_1_1_h1_semi_integrand.html',1,'ug']]],
   ['handlededge',['HandledEdge',['../../classug_1_1_dim_c_r_f_v_geometry_1_1_handled_edge.html',1,'ug::DimCRFVGeometry']]],
   ['handlededge',['HandledEdge',['../../classug_1_1_h_c_r_f_v_geometry_1_1_handled_edge.html',1,'ug::HCRFVGeometry']]],
   ['hangingnoderefiner_5fgrid',['HangingNodeRefiner_Grid',['../../classug_1_1_hanging_node_refiner___grid.html',1,'ug']]],

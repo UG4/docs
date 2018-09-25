@@ -144,7 +144,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="easy__util_8lua.html">easy_util.lua</a> :114-127 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.EasyCreateApproxSpace(dom, fct)</div><div class="line">  local approxSpace = ApproximationSpace(dom)</div><div class="line">  <span class="keywordflow">for</span> i, v in pairs(fct) <span class="keywordflow">do</span></div><div class="line">    approxSpace:add_fct(v, <span class="stringliteral">&quot;Lagrange&quot;</span>, 1)</div><div class="line">  end    </div><div class="line">  approxSpace:init_levels()</div><div class="line">  approxSpace:init_top_surface()</div><div class="line">  </div><div class="line">  return approxSpace</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="easy__util_8lua.html">easy_util.lua</a> :114-127 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.EasyCreateApproxSpace(dom, fct)</div><div class="line">  local approxSpace = ApproximationSpace(dom)</div><div class="line">  <span class="keywordflow">for</span> i, v in pairs(fct) <span class="keywordflow">do</span></div><div class="line">    approxSpace:add_fct(v, <span class="stringliteral">&quot;Lagrange&quot;</span>, 1)</div><div class="line">  end    </div><div class="line">  approxSpace:init_levels()</div><div class="line">  approxSpace:init_top_surface()</div><div class="line">  </div><div class="line">  return approxSpace</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="ab06171374f86ae8060fa70064bd9d79d"></a>
@@ -162,7 +162,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="easy__util_8lua.html">easy_util.lua</a> :129-140 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.EasyDirichlet_0_Boundary(p)</div><div class="line">  <a class="code" href="easy__util_8lua.html#af9692d081d44d560327e7d583da8854f">NeededParameters</a>(p, {<span class="stringliteral">&quot;dim&quot;</span>, <span class="stringliteral">&quot;boundaries&quot;</span>})</div><div class="line">  </div><div class="line">  <span class="keywordflow">if</span> p.fct == nil then p.fct = {<span class="stringliteral">&quot;c&quot;</span>} end</div><div class="line">  local dirichletBND = DirichletBoundary()</div><div class="line">  <a class="code" href="parser_8cpp.html#ab352f63e4dbefc447c3fd0eba3fa120f">for</a> i,v in pairs(p.boundaries) do</div><div class="line">    <a class="code" href="parser_8cpp.html#ab352f63e4dbefc447c3fd0eba3fa120f">for</a> ifct,vfct in pairs(p.fct) do</div><div class="line">      dirichletBND:add(&quot;util_std_dirichlet_zero_&quot;..p.<a class="codeRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#gad04fbd00dd872375c4863bd1d4621237">dim</a>, vfct, v)</div><div class="line">    end</div><div class="line">  end</div><div class="line">  return dirichletBND</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="easy__util_8lua.html">easy_util.lua</a> :129-140 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.EasyDirichlet_0_Boundary(p)</div><div class="line">  <a class="code" href="easy__util_8lua.html#af9692d081d44d560327e7d583da8854f">NeededParameters</a>(p, {<span class="stringliteral">&quot;dim&quot;</span>, <span class="stringliteral">&quot;boundaries&quot;</span>})</div><div class="line">  </div><div class="line">  <span class="keywordflow">if</span> p.fct == nil then p.fct = {<span class="stringliteral">&quot;c&quot;</span>} end</div><div class="line">  local dirichletBND = DirichletBoundary()</div><div class="line">  <a class="code" href="parser_8cpp.html#ab352f63e4dbefc447c3fd0eba3fa120f">for</a> i,v in pairs(p.boundaries) do</div><div class="line">    <a class="code" href="parser_8cpp.html#ab352f63e4dbefc447c3fd0eba3fa120f">for</a> ifct,vfct in pairs(p.fct) do</div><div class="line">      dirichletBND:add(&quot;util_std_dirichlet_zero_&quot;..p.<a class="codeRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#gad04fbd00dd872375c4863bd1d4621237">dim</a>, vfct, v)</div><div class="line">    end</div><div class="line">  end</div><div class="line">  return dirichletBND</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="a139198e5e59c47d782871b2aa9007ae4"></a>
@@ -180,7 +180,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="easy__util_8lua.html">easy_util.lua</a> :80-112 </p>
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="easy__util_8lua.html">easy_util.lua</a> :80-112 </p>
 
 </div>
 </div>
@@ -210,7 +210,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>checks in the table p that all elements of parameters are non-nil. if some are nil, an error is thrown</p>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="easy__util_8lua.html">easy_util.lua</a> :69-78 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="easy__util_8lua.html#af9692d081d44d560327e7d583da8854f">NeededParameters</a>(p, parameters)</div><div class="line">  <span class="keywordflow">for</span> i, v in pairs(parameters) <span class="keywordflow">do</span></div><div class="line">    <span class="keywordflow">if</span> p[v] == nil then</div><div class="line">      <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(<span class="stringliteral">&quot;\ntable &quot;</span>)</div><div class="line">      <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(p)</div><div class="line">      <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(&quot;needs parameter \&quot;&quot;..v..&quot;\&quot; !&quot;)</div><div class="line">      <a class="code" href="debug__util_8lua.html#a2f4bb62e4f0dc89b8c09f249e80c4ad7">ug_assert</a>(false, &quot;table needs parameter \&quot;&quot;..v..&quot;\&quot; !&quot;)</div><div class="line">    end </div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="easy__util_8lua.html">easy_util.lua</a> :69-78 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="easy__util_8lua.html#af9692d081d44d560327e7d583da8854f">NeededParameters</a>(p, parameters)</div><div class="line">  <span class="keywordflow">for</span> i, v in pairs(parameters) <span class="keywordflow">do</span></div><div class="line">    <span class="keywordflow">if</span> p[v] == nil then</div><div class="line">      <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(<span class="stringliteral">&quot;\ntable &quot;</span>)</div><div class="line">      <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(p)</div><div class="line">      <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(&quot;needs parameter \&quot;&quot;..v..&quot;\&quot; !&quot;)</div><div class="line">      <a class="code" href="debug__util_8lua.html#a2f4bb62e4f0dc89b8c09f249e80c4ad7">ug_assert</a>(false, &quot;table needs parameter \&quot;&quot;..v..&quot;\&quot; !&quot;)</div><div class="line">    end </div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="a7d7087ed95fd76e881a3b2f1dcc41634"></a>
@@ -239,7 +239,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>this function ensures that elements in T which are not set (i.e. T[i]=nil) are set to T[i] = defaultT[i] this way we can use T as a parameter Table and all parameters not given are set to default values e.g. SetDefaultParameters(T, {smoother="jac", maxLevels=2})</p>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="easy__util_8lua.html">easy_util.lua</a> :61-65 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="easy__util_8lua.html#a7d7087ed95fd76e881a3b2f1dcc41634">SetDefaultParameters</a>(T, defaultT)</div><div class="line">  <span class="keywordflow">for</span> i, v in pairs(defaultT) <span class="keywordflow">do</span></div><div class="line">    <span class="keywordflow">if</span> T[i] == nil then T[i] = v end</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="easy__util_8lua.html">easy_util.lua</a> :61-65 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="easy__util_8lua.html#a7d7087ed95fd76e881a3b2f1dcc41634">SetDefaultParameters</a>(T, defaultT)</div><div class="line">  <span class="keywordflow">for</span> i, v in pairs(defaultT) <span class="keywordflow">do</span></div><div class="line">    <span class="keywordflow">if</span> T[i] == nil then T[i] = v end</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="a4ce6c1c574cdacc6dc00113bd8626866"></a>
@@ -273,7 +273,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="easy__util_8lua.html">easy_util.lua</a> :48-50 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="easy__util_8lua.html#a4ce6c1c574cdacc6dc00113bd8626866">util_std_dirichlet_one_2</a>(x, y, t)</div><div class="line">  <span class="keywordflow">return</span> <span class="keyword">true</span>, 1</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="easy__util_8lua.html">easy_util.lua</a> :48-50 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="easy__util_8lua.html#a4ce6c1c574cdacc6dc00113bd8626866">util_std_dirichlet_one_2</a>(x, y, t)</div><div class="line">  <span class="keywordflow">return</span> <span class="keyword">true</span>, 1</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="a89ad5179383890244d9125424c431114"></a>
@@ -313,7 +313,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="easy__util_8lua.html">easy_util.lua</a> :52-54 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="easy__util_8lua.html#a89ad5179383890244d9125424c431114">util_std_dirichlet_one_3</a>(x, y, z, t)</div><div class="line">  <span class="keywordflow">return</span> <span class="keyword">true</span>, 1</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="easy__util_8lua.html">easy_util.lua</a> :52-54 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="easy__util_8lua.html#a89ad5179383890244d9125424c431114">util_std_dirichlet_one_3</a>(x, y, z, t)</div><div class="line">  <span class="keywordflow">return</span> <span class="keyword">true</span>, 1</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="a4af9017bff1dfd42abebf4c3d384b783"></a>
@@ -347,7 +347,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="easy__util_8lua.html">easy_util.lua</a> :40-42 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="easy__util_8lua.html#a4af9017bff1dfd42abebf4c3d384b783">util_std_dirichlet_zero_2</a>(x, y, t)</div><div class="line">  <span class="keywordflow">return</span> <span class="keyword">true</span>, 0</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="easy__util_8lua.html">easy_util.lua</a> :40-42 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="easy__util_8lua.html#a4af9017bff1dfd42abebf4c3d384b783">util_std_dirichlet_zero_2</a>(x, y, t)</div><div class="line">  <span class="keywordflow">return</span> <span class="keyword">true</span>, 0</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="ad7b410cbbe2e9cd94a911316540fa8dc"></a>
@@ -387,7 +387,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="easy__util_8lua.html">easy_util.lua</a> :44-46 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="easy__util_8lua.html#ad7b410cbbe2e9cd94a911316540fa8dc">util_std_dirichlet_zero_3</a>(x, y, z, t)</div><div class="line">  <span class="keywordflow">return</span> <span class="keyword">true</span>, 0</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="easy__util_8lua.html">easy_util.lua</a> :44-46 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="easy__util_8lua.html#ad7b410cbbe2e9cd94a911316540fa8dc">util_std_dirichlet_zero_3</a>(x, y, z, t)</div><div class="line">  <span class="keywordflow">return</span> <span class="keyword">true</span>, 0</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="a645543ff17b3988268b6a98dec42753a"></a>
@@ -421,7 +421,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="easy__util_8lua.html">easy_util.lua</a> :32-34 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="easy__util_8lua.html#a645543ff17b3988268b6a98dec42753a">util_std_zero_2</a>(x, y, t)</div><div class="line">  <span class="keywordflow">return</span> 0</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="easy__util_8lua.html">easy_util.lua</a> :32-34 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="easy__util_8lua.html#a645543ff17b3988268b6a98dec42753a">util_std_zero_2</a>(x, y, t)</div><div class="line">  <span class="keywordflow">return</span> 0</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="a21d17cf0b3721259065ed5e9e4aaa01b"></a>
@@ -461,7 +461,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="easy__util_8lua.html">easy_util.lua</a> :36-38 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="easy__util_8lua.html#a21d17cf0b3721259065ed5e9e4aaa01b">util_std_zero_3</a>(x, y, z, t)</div><div class="line">  <span class="keywordflow">return</span> 0</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="easy__util_8lua.html">easy_util.lua</a> :36-38 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="easy__util_8lua.html#a21d17cf0b3721259065ed5e9e4aaa01b">util_std_zero_3</a>(x, y, z, t)</div><div class="line">  <span class="keywordflow">return</span> 0</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 </div><!-- contents -->
@@ -470,7 +470,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_53e6fa9553ac22a5646d2a2b2d7b97a1.html">scripts</a></li><li class="navelem"><a class="el" href="dir_46f23659e18aa5fa06de6ff2c04a1a12.html">util</a></li><li class="navelem"><a class="el" href="easy__util_8lua.html">easy_util.lua</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:10 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:08:42 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

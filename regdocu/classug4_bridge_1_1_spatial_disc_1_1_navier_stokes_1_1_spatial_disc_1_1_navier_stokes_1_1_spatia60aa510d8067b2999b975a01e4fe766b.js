@@ -1,0 +1,12 @@
+var classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia60aa510d8067b2999b975a01e4fe766b =
+[
+    [ "CRILUT", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia60aa510d8067b2999b975a01e4fe766b.html#a478752bfd9758a7d3e0c91dedbd7e2ee", null ],
+    [ "CRILUT", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia60aa510d8067b2999b975a01e4fe766b.html#a24dd1b42730dbfe3c7cb230a5aa67851", null ],
+    [ "CRILUT", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia60aa510d8067b2999b975a01e4fe766b.html#afb159c8ca3a4ef075aa8e0148b42c57c", null ],
+    [ "CRILUT", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia60aa510d8067b2999b975a01e4fe766b.html#a67cc524f47ef294b7026bc6e64e6c824", null ],
+    [ "CRILUT", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia60aa510d8067b2999b975a01e4fe766b.html#a83ed653355b2b5cacd4ab1d91501a259", null ],
+    [ "CRILUT", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia60aa510d8067b2999b975a01e4fe766b.html#a2155e7db5a20acf11fbd55968a8c907c", null ],
+    [ "CRILUT", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia60aa510d8067b2999b975a01e4fe766b.html#a0b518afc9120dc4827085896f29fbdc6", null ],
+    [ "set_info", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia60aa510d8067b2999b975a01e4fe766b.html#a65b3530f839070d2d5b8b74d1c3eea0a", null ],
+    [ "set_threshold", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia60aa510d8067b2999b975a01e4fe766b.html#a1fea4d20c5d2c2253b8d77e64f0b48d6", null ]
+];

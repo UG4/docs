@@ -236,8 +236,6 @@ template&lt;typename TAlgebra&gt; </div>
 
 <p>default Constructor </p>
 
-<p>References <a class="el" href="classug_1_1_i_local_to_global_mapper.html#af1e6893afbfbf980fcfb0a2522b99b09">ug::ILocalToGlobalMapper&lt; TAlgebra &gt;::add_local_mat_to_global()</a>, <a class="el" href="classug_1_1_i_local_to_global_mapper.html#af6fc851bd0f88fbb049e64e967a76570">ug::ILocalToGlobalMapper&lt; TAlgebra &gt;::add_local_vec_to_global()</a>, and <a class="el" href="classug_1_1_i_local_to_global_mapper.html#a84556af20b7c1d4b5b6c4e118ffbcc20">ug::ILocalToGlobalMapper&lt; TAlgebra &gt;::modify_LocalSol()</a>.</p>
-
 </div>
 </div>
 <a id="a14c935a902d8420b9aa3024eeb55c57c"></a>
@@ -314,9 +312,9 @@ template&lt;typename TAlgebra&gt; </div>
 
 <p>send local entries to global rhs </p>
 
-<p>Implemented in <a class="el" href="classug_1_1_local_to_global_mapper.html#a8a819f4fada7527c00cdb5e8d8fe30c2">ug::LocalToGlobalMapper&lt; TAlgebra &gt;</a>, and <a class="el" href="classug_1_1_local_to_global_mapper_n_l_g_s.html#ac97acc0ff5a213f91353bc199da747d5">ug::LocalToGlobalMapperNLGS&lt; TAlgebra &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classug_1_1_local_to_global_mapper.html#a8a819f4fada7527c00cdb5e8d8fe30c2">ug::LocalToGlobalMapper&lt; TAlgebra &gt;</a>, <a class="el" href="classug_1_1_local_to_global_mapper.html#a8a819f4fada7527c00cdb5e8d8fe30c2">ug::LocalToGlobalMapper&lt; ug::CPUAlgebra &gt;</a>, <a class="el" href="classug_1_1_local_to_global_mapper.html#a8a819f4fada7527c00cdb5e8d8fe30c2">ug::LocalToGlobalMapper&lt; TPotAlgebra &gt;</a>, <a class="el" href="classug_1_1_local_to_global_mapper.html#a8a819f4fada7527c00cdb5e8d8fe30c2">ug::LocalToGlobalMapper&lt; TGridFunction::algebra_type &gt;</a>, and <a class="el" href="classug_1_1_local_to_global_mapper_n_l_g_s.html#ac97acc0ff5a213f91353bc199da747d5">ug::LocalToGlobalMapperNLGS&lt; TAlgebra &gt;</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_i_local_to_global_mapper.html#aaaea466a3dac4ca673a815b941a04094">ug::ILocalToGlobalMapper&lt; TAlgebra &gt;::ILocalToGlobalMapper()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_i_local_to_global_mapper.html#aaaea466a3dac4ca673a815b941a04094">ug::ILocalToGlobalMapper&lt; TGridFunction::algebra_type &gt;::ILocalToGlobalMapper()</a>.</p>
 
 </div>
 </div>
@@ -364,9 +362,9 @@ template&lt;typename TAlgebra&gt; </div>
 
 <p>send local entries to global matrix </p>
 
-<p>Implemented in <a class="el" href="classug_1_1_local_to_global_mapper.html#abf55f0eb69c3b6b91d37f12336b0ef0d">ug::LocalToGlobalMapper&lt; TAlgebra &gt;</a>, and <a class="el" href="classug_1_1_local_to_global_mapper_n_l_g_s.html#abb6464e401189471aa7dc17b0d79b645">ug::LocalToGlobalMapperNLGS&lt; TAlgebra &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classug_1_1_local_to_global_mapper.html#abf55f0eb69c3b6b91d37f12336b0ef0d">ug::LocalToGlobalMapper&lt; TAlgebra &gt;</a>, <a class="el" href="classug_1_1_local_to_global_mapper.html#abf55f0eb69c3b6b91d37f12336b0ef0d">ug::LocalToGlobalMapper&lt; ug::CPUAlgebra &gt;</a>, <a class="el" href="classug_1_1_local_to_global_mapper.html#abf55f0eb69c3b6b91d37f12336b0ef0d">ug::LocalToGlobalMapper&lt; TPotAlgebra &gt;</a>, <a class="el" href="classug_1_1_local_to_global_mapper.html#abf55f0eb69c3b6b91d37f12336b0ef0d">ug::LocalToGlobalMapper&lt; TGridFunction::algebra_type &gt;</a>, and <a class="el" href="classug_1_1_local_to_global_mapper_n_l_g_s.html#abb6464e401189471aa7dc17b0d79b645">ug::LocalToGlobalMapperNLGS&lt; TAlgebra &gt;</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_i_local_to_global_mapper.html#aaaea466a3dac4ca673a815b941a04094">ug::ILocalToGlobalMapper&lt; TAlgebra &gt;::ILocalToGlobalMapper()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_i_local_to_global_mapper.html#aaaea466a3dac4ca673a815b941a04094">ug::ILocalToGlobalMapper&lt; TGridFunction::algebra_type &gt;::ILocalToGlobalMapper()</a>.</p>
 
 </div>
 </div>
@@ -414,9 +412,9 @@ template&lt;typename TAlgebra&gt; </div>
 
 <p>modifies local solution vector for adapted defect computation </p>
 
-<p>Implemented in <a class="el" href="classug_1_1_local_to_global_mapper.html#a5741d7f6d064a4876fdf80e76818df6c">ug::LocalToGlobalMapper&lt; TAlgebra &gt;</a>, and <a class="el" href="classug_1_1_local_to_global_mapper_n_l_g_s.html#a19e3b74de28c6e35cc624d965edfba7a">ug::LocalToGlobalMapperNLGS&lt; TAlgebra &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classug_1_1_local_to_global_mapper.html#a5741d7f6d064a4876fdf80e76818df6c">ug::LocalToGlobalMapper&lt; TAlgebra &gt;</a>, <a class="el" href="classug_1_1_local_to_global_mapper.html#a5741d7f6d064a4876fdf80e76818df6c">ug::LocalToGlobalMapper&lt; ug::CPUAlgebra &gt;</a>, <a class="el" href="classug_1_1_local_to_global_mapper.html#a5741d7f6d064a4876fdf80e76818df6c">ug::LocalToGlobalMapper&lt; TPotAlgebra &gt;</a>, <a class="el" href="classug_1_1_local_to_global_mapper.html#a5741d7f6d064a4876fdf80e76818df6c">ug::LocalToGlobalMapper&lt; TGridFunction::algebra_type &gt;</a>, and <a class="el" href="classug_1_1_local_to_global_mapper_n_l_g_s.html#a19e3b74de28c6e35cc624d965edfba7a">ug::LocalToGlobalMapperNLGS&lt; TAlgebra &gt;</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_i_local_to_global_mapper.html#aaaea466a3dac4ca673a815b941a04094">ug::ILocalToGlobalMapper&lt; TAlgebra &gt;::ILocalToGlobalMapper()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_i_local_to_global_mapper.html#aaaea466a3dac4ca673a815b941a04094">ug::ILocalToGlobalMapper&lt; TGridFunction::algebra_type &gt;::ILocalToGlobalMapper()</a>.</p>
 
 </div>
 </div>
@@ -429,7 +427,7 @@ template&lt;typename TAlgebra&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_i_local_to_global_mapper.html">ILocalToGlobalMapper</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:30 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:09:09 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -95,6 +95,7 @@ $(document).ready(function(){initNavTree('file__io__lgb_8h.html','');});
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="grid_8h_source.html">lib_grid/grid/grid.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="subset__handler__interface_8h_source.html">lib_grid/tools/subset_handler_interface.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="selector__interface_8h_source.html">lib_grid/tools/selector_interface.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="common__attachments_8h_source.html">lib_grid/common_attachments.h</a>&quot;</code><br />
 </div>
 <p><a href="file__io__lgb_8h_source.html">Go to the source code of this file.</a></p>
@@ -107,10 +108,14 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad9de83b9544adffe5e463e81692fa983"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#ad9de83b9544adffe5e463e81692fa983">ug::LoadGridFromLGB</a> (Grid &amp;grid, const char *filename, ISubsetHandler **ppSH, int numSHs, APosition aPos)</td></tr>
-<tr class="separator:ad9de83b9544adffe5e463e81692fa983"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c9c3a6a4fdfff7ebbab143c7c98dcf4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a0c9c3a6a4fdfff7ebbab143c7c98dcf4">ug::SaveGridToLGB</a> (Grid &amp;grid, const char *filename, ISubsetHandler **ppSH, int numSHs, APosition aPos)</td></tr>
-<tr class="separator:a0c9c3a6a4fdfff7ebbab143c7c98dcf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82bd45619bb6be62657dc0f4d39a4d1b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a82bd45619bb6be62657dc0f4d39a4d1b">ug::LoadGridFromLGB</a> (Grid &amp;grid, const char *filename, ISubsetHandler **ppSH, int numSHs, ProjectionHandler *pPH, APosition aPos)</td></tr>
+<tr class="separator:a82bd45619bb6be62657dc0f4d39a4d1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b6ca9c5a867c0e3cd27f858cb3f7262"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a1b6ca9c5a867c0e3cd27f858cb3f7262">ug::LoadGridFromLGB</a> (Grid &amp;grid, const char *filename, ISubsetHandler **ppSH, int numSHs, ISelector **ppSel, int numSels, ProjectionHandler *pPH, APosition aPos)</td></tr>
+<tr class="separator:a1b6ca9c5a867c0e3cd27f858cb3f7262"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4773079da50e729fa65d1ac446bca76a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a4773079da50e729fa65d1ac446bca76a">ug::SaveGridToLGB</a> (Grid &amp;grid, const char *filename, ISubsetHandler **ppSH, int numSHs, ProjectionHandler *pPH, APosition aPos)</td></tr>
+<tr class="separator:a4773079da50e729fa65d1ac446bca76a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a125f1c47991044743926ad44d6e9b600"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a125f1c47991044743926ad44d6e9b600">ug::SaveGridToLGB</a> (Grid &amp;grid, const char *filename, ISubsetHandler **ppSH, int numSHs, ISelector **ppSel, int numSels, ProjectionHandler *pPH, APosition aPos)</td></tr>
+<tr class="separator:a125f1c47991044743926ad44d6e9b600"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -118,7 +123,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_9cb5fcd0cbd108e4de7ac968a9e51f3d.html">lib_grid</a></li><li class="navelem"><a class="el" href="dir_61516e194be0d9e809ff8d4a42531234.html">file_io</a></li><li class="navelem"><a class="el" href="file__io__lgb_8h.html">file_io_lgb.h</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:12 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:08:43 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

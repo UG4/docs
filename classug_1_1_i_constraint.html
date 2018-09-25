@@ -107,14 +107,16 @@ $(document).ready(function(){initNavTree('classug_1_1_i_constraint.html','');});
  <div class="center">
   <img src="classug_1_1_i_constraint.png" usemap="#ug::IConstraint_3C_20TAlgebra_20_3E_map" alt=""/>
   <map id="ug::IConstraint_3C_20TAlgebra_20_3E_map" name="ug::IConstraint&lt; TAlgebra &gt;_map">
-<area href="classug_1_1_i_domain_constraint.html" alt="ug::IDomainConstraint&lt; TDomain, TAlgebra &gt;" shape="rect" coords="454,56,747,80"/>
-<area href="classug_1_1_dirichlet_boundary.html" alt="ug::DirichletBoundary&lt; TDomain, TAlgebra &gt;" shape="rect" coords="0,112,293,136"/>
-<area href="classug_1_1_i_obstacle_constraint.html" title="Interface for Obstacle Constraints. " alt="ug::IObstacleConstraint&lt; TDomain, TAlgebra &gt;" shape="rect" coords="303,112,596,136"/>
-<area href="classug_1_1_one_side_p1_constraints.html" alt="ug::OneSideP1Constraints&lt; TDomain, TAlgebra &gt;" shape="rect" coords="606,112,899,136"/>
-<area href="classug_1_1_sym_p1_constraints.html" alt="ug::SymP1Constraints&lt; TDomain, TAlgebra &gt;" shape="rect" coords="909,112,1202,136"/>
-<area href="classug_1_1_obstacle_in_normal_dir.html" title="Obstacle Class for Obstacle in normal direction. " alt="ug::ObstacleInNormalDir&lt; TDomain, TAlgebra &gt;" shape="rect" coords="0,168,293,192"/>
-<area href="classug_1_1_scalar_lower_obstacle.html" title="Scalar Lower Obstacles. " alt="ug::ScalarLowerObstacle&lt; TDomain, TAlgebra &gt;" shape="rect" coords="303,168,596,192"/>
-<area href="classug_1_1_scalar_upper_obstacle.html" alt="ug::ScalarUpperObstacle&lt; TDomain, TAlgebra &gt;" shape="rect" coords="606,168,899,192"/>
+<area href="classug_1_1_i_domain_constraint.html" alt="ug::IDomainConstraint&lt; TDomain, TPotAlgebra &gt;" shape="rect" coords="0,56,484,80"/>
+<area href="classug_1_1_i_domain_constraint.html" alt="ug::IDomainConstraint&lt; TGridFunction::domain_type, TGridFunction::algebra_type &gt;" shape="rect" coords="494,56,978,80"/>
+<area href="classug_1_1_i_domain_constraint.html" alt="ug::IDomainConstraint&lt; TDomain, TAlgebra &gt;" shape="rect" coords="988,56,1472,80"/>
+<area href="classug_1_1_dirichlet_boundary.html" alt="ug::DirichletBoundary&lt; TDomain, TAlgebra &gt;" shape="rect" coords="247,112,731,136"/>
+<area href="classug_1_1_i_obstacle_constraint.html" title="Interface for Obstacle Constraints. " alt="ug::IObstacleConstraint&lt; TDomain, TAlgebra &gt;" shape="rect" coords="741,112,1225,136"/>
+<area href="classug_1_1_one_side_p1_constraints.html" alt="ug::OneSideP1Constraints&lt; TDomain, TAlgebra &gt;" shape="rect" coords="1235,112,1719,136"/>
+<area href="classug_1_1_sym_p1_constraints.html" alt="ug::SymP1Constraints&lt; TDomain, TAlgebra &gt;" shape="rect" coords="1729,112,2213,136"/>
+<area href="classug_1_1_obstacle_in_normal_dir.html" title="Obstacle Class for Obstacle in normal direction. " alt="ug::ObstacleInNormalDir&lt; TDomain, TAlgebra &gt;" shape="rect" coords="247,168,731,192"/>
+<area href="classug_1_1_scalar_lower_obstacle.html" title="Scalar Lower Obstacles. " alt="ug::ScalarLowerObstacle&lt; TDomain, TAlgebra &gt;" shape="rect" coords="741,168,1225,192"/>
+<area href="classug_1_1_scalar_upper_obstacle.html" alt="ug::ScalarUpperObstacle&lt; TDomain, TAlgebra &gt;" shape="rect" coords="1235,168,1719,192"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -329,7 +331,7 @@ template&lt;typename TAlgebra&gt; </div>
 </div><div class="memdoc">
 <p>adapts correction to enforce constraints for additive constraints (e.g. linear constraints, but NOT Dirichlet other than Dirichlet-0!), this is the same as adjust_solution, therefore default implementation </p>
 
-<p>Reimplemented in <a class="el" href="classug_1_1_one_side_p1_constraints.html#a3ef17ab03e830b1afa94a4e8f11df6f9">ug::OneSideP1Constraints&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_dirichlet_boundary.html#afb6351d8895da048801ac0a4ace02bd4">ug::DirichletBoundary&lt; TDomain, TAlgebra &gt;</a>, and <a class="el" href="classug_1_1_sym_p1_constraints.html#a7297bf974714263c1e17725e22a88574">ug::SymP1Constraints&lt; TDomain, TAlgebra &gt;</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_dirichlet_boundary.html#afb6351d8895da048801ac0a4ace02bd4">ug::DirichletBoundary&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_one_side_p1_constraints.html#a3ef17ab03e830b1afa94a4e8f11df6f9">ug::OneSideP1Constraints&lt; TDomain, TAlgebra &gt;</a>, and <a class="el" href="classug_1_1_sym_p1_constraints.html#a7297bf974714263c1e17725e22a88574">ug::SymP1Constraints&lt; TDomain, TAlgebra &gt;</a>.</p>
 
 <p>Referenced by <a class="el" href="classug_1_1_i_constraint.html#ae40fa6f46924eda8ed912e01dc61a632">ug::IConstraint&lt; algebra_type &gt;::adjust_linear_residual()</a>.</p>
 
@@ -409,7 +411,7 @@ template&lt;typename TAlgebra&gt; </div>
 
 <p>adapts defect to enforce constraints </p>
 
-<p>Implemented in <a class="el" href="classug_1_1_i_obstacle_constraint.html#a53a7944e0facd41f87c5ebd7ba6d2fe9">ug::IObstacleConstraint&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_dirichlet_boundary.html#a7f1e6f14d02bdb632a392c8ccce06be7">ug::DirichletBoundary&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_one_side_p1_constraints.html#aa2369dec41f145e706488d2140e7feeb">ug::OneSideP1Constraints&lt; TDomain, TAlgebra &gt;</a>, and <a class="el" href="classug_1_1_sym_p1_constraints.html#a1a354973058ff779ec67b2ef2180b3ad">ug::SymP1Constraints&lt; TDomain, TAlgebra &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classug_1_1_dirichlet_boundary.html#a7f1e6f14d02bdb632a392c8ccce06be7">ug::DirichletBoundary&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_i_obstacle_constraint.html#a53a7944e0facd41f87c5ebd7ba6d2fe9">ug::IObstacleConstraint&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_one_side_p1_constraints.html#aa2369dec41f145e706488d2140e7feeb">ug::OneSideP1Constraints&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_sym_p1_constraints.html#a1a354973058ff779ec67b2ef2180b3ad">ug::SymP1Constraints&lt; TDomain, TAlgebra &gt;</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/classug_1_1_disc_constraint_f_v_c_r.html#a86d4a7533a0fe82bf6b0d5e30b3b5998">ug::DiscConstraintFVCR&lt; class &gt;</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/classug_1_1_disc_constraint_f_v_c_r.html#a86d4a7533a0fe82bf6b0d5e30b3b5998">ug::DiscConstraintFVCR&lt; class &gt;</a>, and <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/classug_1_1_electromagnetism_1_1_nedelec_dirichlet_b_c.html#aab13fb0a2141d06fab15c2e1295ee485">ug::Electromagnetism::NedelecDirichletBC&lt; class, class &gt;</a>.</p>
 
 </div>
 </div>
@@ -535,7 +537,7 @@ template&lt;typename TAlgebra&gt; </div>
 
 <p>adapts jacobian to enforce constraints </p>
 
-<p>Implemented in <a class="el" href="classug_1_1_i_obstacle_constraint.html#a7891033f05573a9912ad2476e832a383">ug::IObstacleConstraint&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_dirichlet_boundary.html#abb7ccfd40d66ed7ead6815634c8fe67b">ug::DirichletBoundary&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_one_side_p1_constraints.html#a3b5d9bde0d2b4e7855a03adf9cc673b9">ug::OneSideP1Constraints&lt; TDomain, TAlgebra &gt;</a>, and <a class="el" href="classug_1_1_sym_p1_constraints.html#a33d9231c9b5083b046c444cf7fc08abc">ug::SymP1Constraints&lt; TDomain, TAlgebra &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classug_1_1_dirichlet_boundary.html#abb7ccfd40d66ed7ead6815634c8fe67b">ug::DirichletBoundary&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_i_obstacle_constraint.html#a7891033f05573a9912ad2476e832a383">ug::IObstacleConstraint&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_one_side_p1_constraints.html#a3b5d9bde0d2b4e7855a03adf9cc673b9">ug::OneSideP1Constraints&lt; TDomain, TAlgebra &gt;</a>, and <a class="el" href="classug_1_1_sym_p1_constraints.html#a33d9231c9b5083b046c444cf7fc08abc">ug::SymP1Constraints&lt; TDomain, TAlgebra &gt;</a>.</p>
 
 </div>
 </div>
@@ -595,7 +597,7 @@ template&lt;typename TAlgebra&gt; </div>
 
 <p>adapts matrix and rhs (linear case) to enforce constraints </p>
 
-<p>Implemented in <a class="el" href="classug_1_1_i_obstacle_constraint.html#afec144dcdfee82b8cdc52fe3d8c98b65">ug::IObstacleConstraint&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_dirichlet_boundary.html#a636adf9219cd87a2558d531da8a98f29">ug::DirichletBoundary&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_one_side_p1_constraints.html#adc643010e105b23335213e3649ba111a">ug::OneSideP1Constraints&lt; TDomain, TAlgebra &gt;</a>, and <a class="el" href="classug_1_1_sym_p1_constraints.html#ab0bc4f197315a85153b99a1e72b8c230">ug::SymP1Constraints&lt; TDomain, TAlgebra &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classug_1_1_dirichlet_boundary.html#a636adf9219cd87a2558d531da8a98f29">ug::DirichletBoundary&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_i_obstacle_constraint.html#afec144dcdfee82b8cdc52fe3d8c98b65">ug::IObstacleConstraint&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_one_side_p1_constraints.html#adc643010e105b23335213e3649ba111a">ug::OneSideP1Constraints&lt; TDomain, TAlgebra &gt;</a>, and <a class="el" href="classug_1_1_sym_p1_constraints.html#ab0bc4f197315a85153b99a1e72b8c230">ug::SymP1Constraints&lt; TDomain, TAlgebra &gt;</a>.</p>
 
 </div>
 </div>
@@ -713,7 +715,7 @@ template&lt;typename TAlgebra&gt; </div>
 
 <p>sets constraints in prolongation </p>
 
-<p>Reimplemented in <a class="el" href="classug_1_1_i_obstacle_constraint.html#a00eba9e0c55effdfc2205ad8f521fe4d">ug::IObstacleConstraint&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_dirichlet_boundary.html#abbac1a3d9aa432454b75b31e0ece3a55">ug::DirichletBoundary&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_one_side_p1_constraints.html#a49048ccd2fadb3c5c02f8c0f044039d8">ug::OneSideP1Constraints&lt; TDomain, TAlgebra &gt;</a>, and <a class="el" href="classug_1_1_sym_p1_constraints.html#a1a71c47313d5577252aa46150524a5cf">ug::SymP1Constraints&lt; TDomain, TAlgebra &gt;</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_dirichlet_boundary.html#abbac1a3d9aa432454b75b31e0ece3a55">ug::DirichletBoundary&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_i_obstacle_constraint.html#a00eba9e0c55effdfc2205ad8f521fe4d">ug::IObstacleConstraint&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_one_side_p1_constraints.html#a49048ccd2fadb3c5c02f8c0f044039d8">ug::OneSideP1Constraints&lt; TDomain, TAlgebra &gt;</a>, and <a class="el" href="classug_1_1_sym_p1_constraints.html#a1a71c47313d5577252aa46150524a5cf">ug::SymP1Constraints&lt; TDomain, TAlgebra &gt;</a>.</p>
 
 </div>
 </div>
@@ -831,7 +833,7 @@ template&lt;typename TAlgebra&gt; </div>
 
 <p>sets constraints in restriction </p>
 
-<p>Reimplemented in <a class="el" href="classug_1_1_i_obstacle_constraint.html#a603d97dee330de28e6be1af9fee47351">ug::IObstacleConstraint&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_dirichlet_boundary.html#aa4fa77e39ded45251e8b81b687bcf3d8">ug::DirichletBoundary&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_one_side_p1_constraints.html#ab33d98185b513962b8c7918b958c4e44">ug::OneSideP1Constraints&lt; TDomain, TAlgebra &gt;</a>, and <a class="el" href="classug_1_1_sym_p1_constraints.html#a24108a8765257b0acc83d30d8cf2acf7">ug::SymP1Constraints&lt; TDomain, TAlgebra &gt;</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_dirichlet_boundary.html#aa4fa77e39ded45251e8b81b687bcf3d8">ug::DirichletBoundary&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_i_obstacle_constraint.html#a603d97dee330de28e6be1af9fee47351">ug::IObstacleConstraint&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_one_side_p1_constraints.html#ab33d98185b513962b8c7918b958c4e44">ug::OneSideP1Constraints&lt; TDomain, TAlgebra &gt;</a>, and <a class="el" href="classug_1_1_sym_p1_constraints.html#a24108a8765257b0acc83d30d8cf2acf7">ug::SymP1Constraints&lt; TDomain, TAlgebra &gt;</a>.</p>
 
 </div>
 </div>
@@ -949,7 +951,7 @@ template&lt;typename TAlgebra&gt; </div>
 
 <p>adapts a rhs to enforce constraints </p>
 
-<p>Implemented in <a class="el" href="classug_1_1_i_obstacle_constraint.html#ab0b47846b8025021a7f919338ddad3e5">ug::IObstacleConstraint&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_dirichlet_boundary.html#ab292db5613cc389446844cf0c22ac0d1">ug::DirichletBoundary&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_one_side_p1_constraints.html#a5353f2fd25c2b9eac186e38bc94b0e69">ug::OneSideP1Constraints&lt; TDomain, TAlgebra &gt;</a>, and <a class="el" href="classug_1_1_sym_p1_constraints.html#a2e4f0c700e4b17c0485ff612c0c5d3ad">ug::SymP1Constraints&lt; TDomain, TAlgebra &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classug_1_1_dirichlet_boundary.html#ab292db5613cc389446844cf0c22ac0d1">ug::DirichletBoundary&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_i_obstacle_constraint.html#ab0b47846b8025021a7f919338ddad3e5">ug::IObstacleConstraint&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_one_side_p1_constraints.html#a5353f2fd25c2b9eac186e38bc94b0e69">ug::OneSideP1Constraints&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_sym_p1_constraints.html#a2e4f0c700e4b17c0485ff612c0c5d3ad">ug::SymP1Constraints&lt; TDomain, TAlgebra &gt;</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/classug_1_1_disc_constraint_f_v_c_r.html#aafdecf5c277e7a10d631e018aa302020">ug::DiscConstraintFVCR&lt; class &gt;</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/classug_1_1_disc_constraint_f_v_c_r.html#aafdecf5c277e7a10d631e018aa302020">ug::DiscConstraintFVCR&lt; class &gt;</a>, and <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/classug_1_1_electromagnetism_1_1_nedelec_dirichlet_b_c.html#aa7dab0a1f5d391714147ec76e527bc48">ug::Electromagnetism::NedelecDirichletBC&lt; class, class &gt;</a>.</p>
 
 </div>
 </div>
@@ -1003,7 +1005,7 @@ template&lt;typename TAlgebra&gt; </div>
 
 <p>sets the constraints in a solution vector </p>
 
-<p>Implemented in <a class="el" href="classug_1_1_i_obstacle_constraint.html#a8bd5f8bc7deb5184830d3185c65a163d">ug::IObstacleConstraint&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_dirichlet_boundary.html#ab615bcbd5e18344439cfb1ec6740c0f4">ug::DirichletBoundary&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_one_side_p1_constraints.html#a899ebb6a311b41f2c714264ff036ef6e">ug::OneSideP1Constraints&lt; TDomain, TAlgebra &gt;</a>, and <a class="el" href="classug_1_1_sym_p1_constraints.html#ae2b4c08c54541a3a96dd4d5494557ad9">ug::SymP1Constraints&lt; TDomain, TAlgebra &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classug_1_1_dirichlet_boundary.html#ab615bcbd5e18344439cfb1ec6740c0f4">ug::DirichletBoundary&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_i_obstacle_constraint.html#a8bd5f8bc7deb5184830d3185c65a163d">ug::IObstacleConstraint&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_one_side_p1_constraints.html#a899ebb6a311b41f2c714264ff036ef6e">ug::OneSideP1Constraints&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_sym_p1_constraints.html#ae2b4c08c54541a3a96dd4d5494557ad9">ug::SymP1Constraints&lt; TDomain, TAlgebra &gt;</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/classug_1_1_disc_constraint_f_v_c_r.html#a57bb3ce3437537adb6b1f6fa1ca475c9">ug::DiscConstraintFVCR&lt; class &gt;</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/classug_1_1_disc_constraint_f_v_c_r.html#a57bb3ce3437537adb6b1f6fa1ca475c9">ug::DiscConstraintFVCR&lt; class &gt;</a>, and <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/classug_1_1_electromagnetism_1_1_nedelec_dirichlet_b_c.html#a582d6b62589c7aacebf4a156fb344ddf">ug::Electromagnetism::NedelecDirichletBC&lt; class, class &gt;</a>.</p>
 
 <p>Referenced by <a class="el" href="classug_1_1_i_constraint.html#a0a3837beb9e01729e59dbfbfe46ecc0d">ug::IConstraint&lt; algebra_type &gt;::adjust_correction()</a>.</p>
 
@@ -1140,9 +1142,9 @@ template&lt;typename TAlgebra&gt; </div>
 
 <p>returns the type of constraints </p>
 
-<p>Implemented in <a class="el" href="classug_1_1_i_obstacle_constraint.html#a7a508f5f1be17c8acafe834a8c17dfee">ug::IObstacleConstraint&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_i_domain_constraint.html#a37d30741b8289a1557e036b060af4afc">ug::IDomainConstraint&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_dirichlet_boundary.html#abdc68f9a3719e623ba30bdc2738d59c4">ug::DirichletBoundary&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_one_side_p1_constraints.html#abe1b8d857b80517169eebcb7fa245d4c">ug::OneSideP1Constraints&lt; TDomain, TAlgebra &gt;</a>, and <a class="el" href="classug_1_1_sym_p1_constraints.html#aa9c4543b67360ef93a23f20566c83260">ug::SymP1Constraints&lt; TDomain, TAlgebra &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classug_1_1_i_obstacle_constraint.html#a7a508f5f1be17c8acafe834a8c17dfee">ug::IObstacleConstraint&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_dirichlet_boundary.html#abdc68f9a3719e623ba30bdc2738d59c4">ug::DirichletBoundary&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_i_domain_constraint.html#a37d30741b8289a1557e036b060af4afc">ug::IDomainConstraint&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_i_domain_constraint.html#a37d30741b8289a1557e036b060af4afc">ug::IDomainConstraint&lt; TDomain, TPotAlgebra &gt;</a>, <a class="el" href="classug_1_1_i_domain_constraint.html#a37d30741b8289a1557e036b060af4afc">ug::IDomainConstraint&lt; TGridFunction::domain_type, TGridFunction::algebra_type &gt;</a>, <a class="el" href="classug_1_1_one_side_p1_constraints.html#abe1b8d857b80517169eebcb7fa245d4c">ug::OneSideP1Constraints&lt; TDomain, TAlgebra &gt;</a>, <a class="el" href="classug_1_1_sym_p1_constraints.html#aa9c4543b67360ef93a23f20566c83260">ug::SymP1Constraints&lt; TDomain, TAlgebra &gt;</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/classug_1_1_electromagnetism_1_1_nedelec_project_1_1_aux_laplace_r_h_s.html#a1b0db548424d529ceef0473d7ce10de2">ug::Electromagnetism::NedelecProject::AuxLaplaceRHS</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/classug_1_1_disc_constraint_f_v_c_r.html#a28da2871217d954e283a6cdc3fbc45e7">ug::DiscConstraintFVCR&lt; class &gt;</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/classug_1_1_disc_constraint_f_v_c_r.html#a28da2871217d954e283a6cdc3fbc45e7">ug::DiscConstraintFVCR&lt; class &gt;</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/classug_1_1_electromagnetism_1_1_nedelec_dirichlet_b_c.html#a32bf32d25c87e0d5792532feb6559517">ug::Electromagnetism::NedelecDirichletBC&lt; class, class &gt;</a>, and <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/classug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_out_of_source.html#a3ebba59fc9b846ed38b143cfd75ec3b7">ug::Electromagnetism::NedelecLoopCurrent&lt; TDomain, TAlgebra &gt;::OutOfSource</a>.</p>
 
-<p>Referenced by <a class="el" href="classug_1_1_i_domain_constraint.html#af69028d18b6a0fa26f5a28076a256ce4">ug::IDomainConstraint&lt; TDomain, TAlgebra &gt;::approximation_space()</a>, and <a class="el" href="classug_1_1_i_constraint.html#a6295ac2baa0504fe8783e507b757d681">ug::IConstraint&lt; algebra_type &gt;::modify_solution()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_i_domain_constraint.html#af69028d18b6a0fa26f5a28076a256ce4">ug::IDomainConstraint&lt; TGridFunction::domain_type, TGridFunction::algebra_type &gt;::approximation_space()</a>, and <a class="el" href="classug_1_1_i_constraint.html#a6295ac2baa0504fe8783e507b757d681">ug::IConstraint&lt; algebra_type &gt;::modify_solution()</a>.</p>
 
 </div>
 </div>
@@ -1156,7 +1158,7 @@ template&lt;typename TAlgebra&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_i_constraint.html">IConstraint</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:29 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:09:07 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

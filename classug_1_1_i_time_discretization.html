@@ -143,6 +143,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5878e08d1c0e8356ad41259e485ba1f5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_constraint.html">IConstraint</a>&lt; TAlgebra &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_time_discretization.html#a5878e08d1c0e8356ad41259e485ba1f5">constraint</a> (size_t i)</td></tr>
 <tr class="memdesc:a5878e08d1c0e8356ad41259e485ba1f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the i'th constraint  <a href="#a5878e08d1c0e8356ad41259e485ba1f5">More...</a><br /></td></tr>
 <tr class="separator:a5878e08d1c0e8356ad41259e485ba1f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83ee87328be5c381c8b60cd904826c19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_domain_discretization.html">IDomainDiscretization</a>&lt; TAlgebra &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_time_discretization.html#a83ee87328be5c381c8b60cd904826c19">domain_disc</a> () const</td></tr>
+<tr class="memdesc:a83ee87328be5c381c8b60cd904826c19"><td class="mdescLeft">&#160;</td><td class="mdescRight">return underlying domain disc  <a href="#a83ee87328be5c381c8b60cd904826c19">More...</a><br /></td></tr>
+<tr class="separator:a83ee87328be5c381c8b60cd904826c19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1104884e51d50640c01fc306629671a0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_time_discretization.html#a1104884e51d50640c01fc306629671a0">finish_step</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_vector_time_series.html">VectorTimeSeries</a>&lt; <a class="el" href="classug_1_1_i_assemble.html#a25b9e510a47737e725c2251e04410704">vector_type</a> &gt; &gt; currSol)=0</td></tr>
 <tr class="separator:a1104884e51d50640c01fc306629671a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8e9d811d6d1c7033a08e940a0ac2303"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_time_discretization.html#ab8e9d811d6d1c7033a08e940a0ac2303">future_time</a> () const =0</td></tr>
@@ -243,7 +246,7 @@ class ug::ITimeDiscretization&lt; TAlgebra &gt;</h3>
 
 <p>Time Discretization Interface. </p>
 <p>Defines the time discretization interface.</p>
-<p>This class uses a ISpatialDiscratization in order to implement the <a class="el" href="classug_1_1_i_assemble.html" title="Interface providing Jacobian and Defect of a discretization. ">IAssemble</a> interface.</p>
+<p>This class uses a ISpatialDiscretization in order to implement the <a class="el" href="classug_1_1_i_assemble.html" title="Interface providing Jacobian and Defect of a discretization. ">IAssemble</a> interface.</p>
 <p>After the method prepare step has been called, Jacobian/Defect can be computed.</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
@@ -435,6 +438,37 @@ template&lt;typename TAlgebra &gt; </div>
 <p>returns the i'th constraint </p>
 
 <p>Implements <a class="el" href="classug_1_1_i_assemble.html#a1b97c46325d2b74c435dec427b498ea9">ug::IAssemble&lt; TAlgebra &gt;</a>.</p>
+
+<p>References <a class="el" href="classug_1_1_i_time_discretization.html#ab1c567355992c36b348f9f96c5bbc6cd">ug::ITimeDiscretization&lt; TAlgebra &gt;::m_spDomDisc</a>.</p>
+
+</div>
+</div>
+<a id="a83ee87328be5c381c8b60cd904826c19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83ee87328be5c381c8b60cd904826c19">&sect;&nbsp;</a></span>domain_disc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TAlgebra &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt;<a class="el" href="classug_1_1_i_domain_discretization.html">IDomainDiscretization</a>&lt;TAlgebra&gt; &gt; <a class="el" href="classug_1_1_i_time_discretization.html">ug::ITimeDiscretization</a>&lt; TAlgebra &gt;::domain_disc </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return underlying domain disc </p>
 
 <p>References <a class="el" href="classug_1_1_i_time_discretization.html#ab1c567355992c36b348f9f96c5bbc6cd">ug::ITimeDiscretization&lt; TAlgebra &gt;::m_spDomDisc</a>.</p>
 
@@ -921,7 +955,7 @@ template&lt;typename TAlgebra &gt; </div>
 
 <p><a class="el" href="classug_1_1_domain.html">Domain</a> Discretization. </p>
 
-<p>Referenced by <a class="el" href="classug_1_1_i_time_discretization.html#a5878e08d1c0e8356ad41259e485ba1f5">ug::ITimeDiscretization&lt; TAlgebra &gt;::constraint()</a>, <a class="el" href="classug_1_1_multi_step_time_discretization.html#a903f17bc1ff88c6d6e88088800d8e2da">ug::MultiStepTimeDiscretization&lt; TAlgebra &gt;::invalidate_error()</a>, <a class="el" href="classug_1_1_multi_step_time_discretization.html#a2981a4e9a3d6e00c84e448b7bda0d0bd">ug::MultiStepTimeDiscretization&lt; TAlgebra &gt;::is_error_valid()</a>, and <a class="el" href="classug_1_1_i_time_discretization.html#abce1009a526f9398416ca3aa83bee8b6">ug::ITimeDiscretization&lt; TAlgebra &gt;::num_constraints()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_i_time_discretization.html#a5878e08d1c0e8356ad41259e485ba1f5">ug::ITimeDiscretization&lt; TAlgebra &gt;::constraint()</a>, <a class="el" href="classug_1_1_i_time_discretization.html#a83ee87328be5c381c8b60cd904826c19">ug::ITimeDiscretization&lt; TAlgebra &gt;::domain_disc()</a>, <a class="el" href="classug_1_1_multi_step_time_discretization.html#a903f17bc1ff88c6d6e88088800d8e2da">ug::MultiStepTimeDiscretization&lt; TAlgebra &gt;::invalidate_error()</a>, <a class="el" href="classug_1_1_multi_step_time_discretization.html#a2981a4e9a3d6e00c84e448b7bda0d0bd">ug::MultiStepTimeDiscretization&lt; TAlgebra &gt;::is_error_valid()</a>, and <a class="el" href="classug_1_1_i_time_discretization.html#abce1009a526f9398416ca3aa83bee8b6">ug::ITimeDiscretization&lt; TAlgebra &gt;::num_constraints()</a>.</p>
 
 </div>
 </div>
@@ -934,7 +968,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_i_time_discretization.html">ITimeDiscretization</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:33 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:09:13 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

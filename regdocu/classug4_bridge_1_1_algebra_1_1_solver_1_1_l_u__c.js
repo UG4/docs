@@ -15,6 +15,7 @@ var classug4_bridge_1_1_algebra_1_1_solver_1_1_l_u__c =
     [ "set_damp", "classug4_bridge_1_1_algebra_1_1_solver_1_1_l_u__c.html#a743dff7cc16a9f625734026c36369278", null ],
     [ "set_info", "classug4_bridge_1_1_algebra_1_1_solver_1_1_l_u__c.html#ac9d4c75872fdf5c9db7effe8ecbe61df", null ],
     [ "set_minimum_for_sparse", "classug4_bridge_1_1_algebra_1_1_solver_1_1_l_u__c.html#a685cacd36ff8bee6bf6b720222125555", null ],
+    [ "set_show_progress", "classug4_bridge_1_1_algebra_1_1_solver_1_1_l_u__c.html#a86ffa4374752007cdf888f5280af4c57", null ],
     [ "set_sort_sparse", "classug4_bridge_1_1_algebra_1_1_solver_1_1_l_u__c.html#a7c17a2c124cded651e627a872eafaace", null ],
     [ "set_time", "classug4_bridge_1_1_algebra_1_1_solver_1_1_l_u__c.html#a81eaa087cfbdff2cdf58a833f31a8985", null ],
     [ "step", "classug4_bridge_1_1_algebra_1_1_solver_1_1_l_u__c.html#a75afbe1585953980c7097f6c6181263b", null ]

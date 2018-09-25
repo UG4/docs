@@ -176,6 +176,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga546524dbafff353c160a8e52acb90260"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#ga6a442be2e75e98247f82d1aa90a06aac">UG_API</a> bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__face__util.html#ga546524dbafff353c160a8e52acb90260">ug::LiesOnBoundary</a> (<a class="el" href="classug_1_1_grid.html">Grid</a> &amp;grid, TFace *f)</td></tr>
 <tr class="memdesc:ga546524dbafff353c160a8e52acb90260"><td class="mdescLeft">&#160;</td><td class="mdescRight">A wrapper for IsVolumeBoundaryFace.  <a href="group__lib__grid__algorithms__face__util.html#ga546524dbafff353c160a8e52acb90260">More...</a><br /></td></tr>
 <tr class="separator:ga546524dbafff353c160a8e52acb90260"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2e099f969485473fadd5113b40fe508a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__face__util.html#ga2e099f969485473fadd5113b40fe508a">ug::NumAssociatedVolumes</a> (<a class="el" href="classug_1_1_grid.html">Grid</a> &amp;grid, <a class="el" href="classug_1_1_face.html">Face</a> *f)</td></tr>
+<tr class="memdesc:ga2e099f969485473fadd5113b40fe508a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of associated volumes of the specified face  <a href="group__lib__grid__algorithms__face__util.html#ga2e099f969485473fadd5113b40fe508a">More...</a><br /></td></tr>
+<tr class="separator:ga2e099f969485473fadd5113b40fe508a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9ed3a8995006d786f63e318b7f6c358f"><td class="memTemplParams" colspan="2">template&lt;class TAAPosVRT &gt; </td></tr>
 <tr class="memitem:ga9ed3a8995006d786f63e318b7f6c358f"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#ga6a442be2e75e98247f82d1aa90a06aac">UG_API</a> int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__face__util.html#ga9ed3a8995006d786f63e318b7f6c358f">ug::PointFaceTest</a> (<a class="el" href="group__vectors.html#ga894cdb8af74f7a563a94fb49c220fdcd">vector3</a> &amp;v, <a class="el" href="classug_1_1_face.html">Face</a> *f, TAAPosVRT &amp;aaPos)</td></tr>
 <tr class="separator:ga9ed3a8995006d786f63e318b7f6c358f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -672,7 +675,7 @@ template&lt;class TIterator , class TAAPosVRT &gt; </div>
 
 <p>References <a class="el" href="group__lib__grid__algorithms__volume__util.html#ga71697540df69ad33d455c45ac337f9fe">ug::CompareVertices()</a>, <a class="el" href="classug_1_1_face.html#a58d3b73e59ed266bdb6558c759ec0d51">ug::Face::edge_desc()</a>, and <a class="el" href="classug_1_1_face.html#ab2a35640fa0837cabc630c7287cd4340">ug::Face::num_edges()</a>.</p>
 
-<p>Referenced by <a class="el" href="group__lib__grid__algorithms__vertex__util.html#ga4c2796a9f87efa8c0cb25f5d8f8e3458">ug::CalculateBoundaryVertexNormal3D()</a>, <a class="el" href="namespaceug.html#ad4308003b1bcbd1af40626d00447bb88">ug::CalculateCreaseNormal()</a>, <a class="el" href="classug_1_1_grid.html#a1016d7541890b5b409e36b46509a8793">ug::Grid::get_associated()</a>, <a class="el" href="namespaceug.html#ad27c6ba35e44b1e247b79f2e61ee6937">ug::ProjectVerticesToCloseFaces()</a>, <a class="el" href="classug_1_1_grid.html#afed82089e45ac6b3a7c52bc38bda0e57">ug::Grid::replace_vertex_is_valid()</a>, <a class="el" href="namespaceug.html#ab49bd7b2589650c86c2e3c5354ab23a7">ug::ResolveEdgeFaceIntersection()</a>, and <a class="el" href="namespaceug.html#af8ba763894757e2603713136bcea09a6">ug::ResolveVertexFaceIntersection()</a>.</p>
+<p>Referenced by <a class="el" href="group__lib__grid__algorithms__vertex__util.html#ga4c2796a9f87efa8c0cb25f5d8f8e3458">ug::CalculateBoundaryVertexNormal3D()</a>, <a class="el" href="namespaceug.html#ad4308003b1bcbd1af40626d00447bb88">ug::CalculateCreaseNormal()</a>, <a class="el" href="namespaceug.html#a08443c2eab8aef136eef22d01b0e744b">ug::CollectAssociatedSides()</a>, <a class="el" href="classug_1_1_grid.html#a1016d7541890b5b409e36b46509a8793">ug::Grid::get_associated()</a>, <a class="el" href="namespaceug.html#ad27c6ba35e44b1e247b79f2e61ee6937">ug::ProjectVerticesToCloseFaces()</a>, <a class="el" href="classug_1_1_grid.html#afed82089e45ac6b3a7c52bc38bda0e57">ug::Grid::replace_vertex_is_valid()</a>, <a class="el" href="namespaceug.html#ab49bd7b2589650c86c2e3c5354ab23a7">ug::ResolveEdgeFaceIntersection()</a>, and <a class="el" href="namespaceug.html#af8ba763894757e2603713136bcea09a6">ug::ResolveVertexFaceIntersection()</a>.</p>
 
 </div>
 </div>
@@ -874,7 +877,7 @@ template&lt;class TIterator , class TAAPosVRT &gt; </div>
 
 <p>References <a class="el" href="group__lib__grid__algorithms__neighborhood__util.html#gaefa96933917b29e46599f0756aa99be1">ug::CollectFaces()</a>, <a class="el" href="classug_1_1_grid.html#ae94bdb2aa02392c63f9f15bde3d21328">ug::Grid::enable_options()</a>, <a class="el" href="group__lib__grid.html#ggad5f5a639937a67f1018d12996992f6f3a91ebc7149fdaed37fc203643bb6e3994">ug::FACEOPT_AUTOGENERATE_EDGES</a>, <a class="el" href="classug_1_1_grid.html#a631569f60d18f00177e8cf24e5b3e3ff">ug::Grid::get_edge()</a>, <a class="el" href="group__ugbase__common.html#ga158a8c64f24645c7478298399825737f">LOG</a>, and <a class="el" href="classug_1_1_grid.html#a1a52ff3974dd27f9cce544226c43586c">ug::Grid::option_is_enabled()</a>.</p>
 
-<p>Referenced by <a class="el" href="group__lib__grid__algorithms__subset__util.html#ga5057ed4b0f1291b50f67dc721451d7ca">ug::AssignRegionToSubset()</a>, <a class="el" href="namespaceug.html#ad8fcb675b0b87b9fa3379d8d71d1cf94">ug::FixFaceOrientation()</a>, and <a class="el" href="group__lib__grid__algorithms__face__util.html#ga546524dbafff353c160a8e52acb90260">ug::LiesOnBoundary()</a>.</p>
+<p>Referenced by <a class="el" href="group__lib__grid__algorithms__subset__util.html#ga5057ed4b0f1291b50f67dc721451d7ca">ug::AssignRegionToSubset()</a>, <a class="el" href="namespaceug.html#ac5323eac9116ed9ed6276fb5d88f9445">ug::CalculateSmoothManifoldPosInParentLevelButterflyScheme3d()</a>, <a class="el" href="namespaceug.html#ad8fcb675b0b87b9fa3379d8d71d1cf94">ug::FixFaceOrientation()</a>, and <a class="el" href="group__lib__grid__algorithms__face__util.html#ga546524dbafff353c160a8e52acb90260">ug::LiesOnBoundary()</a>.</p>
 
 </div>
 </div>
@@ -1075,7 +1078,7 @@ template&lt;class TAAPosVRT &gt; </div>
 <p>A face is regarded as a boundary face if it is adjacent to exactly one volume.</p>
 <p>Please note that overloads of this function for Constrained- and ConstrainingFaces exist. </p>
 
-<p>References <a class="el" href="classug_1_1_grid.html#a9b6fe1a67b9fa0d1dcb5b18d8cc23dd9">ug::Grid::associated_volumes_begin()</a>, <a class="el" href="classug_1_1_grid.html#ae4fba41614633b0b6e56e2bed4cf4e26">ug::Grid::associated_volumes_end()</a>, <a class="el" href="group__lib__grid.html#ggad5f5a639937a67f1018d12996992f6f3a3d8b76c15b6f0e744e727f23e0150932">ug::FACEOPT_STORE_ASSOCIATED_VOLUMES</a>, <a class="el" href="classug_1_1_grid.html#a1a52ff3974dd27f9cce544226c43586c">ug::Grid::option_is_enabled()</a>, <a class="el" href="classug_1_1_face_vertices.html#a8f18cc58d9b6142a2d3728cfe55159d1">ug::FaceVertices::vertex()</a>, and <a class="el" href="group__lib__grid__algorithms__volume__util.html#gab28fc56b79458ac223c95f3585c67117">ug::VolumeContains()</a>.</p>
+<p>References <a class="el" href="group__lib__grid__algorithms__face__util.html#ga2e099f969485473fadd5113b40fe508a">ug::NumAssociatedVolumes()</a>.</p>
 
 <p>Referenced by <a class="el" href="group__lib__grid__algorithms__subset__util.html#ga74d472fdbe503c6753783dec6195adce">ug::AssignInnerAndBoundarySubsets()</a>, <a class="el" href="group__lib__grid__algorithms__face__util.html#ga13333d7cf4577f562d1a92d1b3fc4c5e">ug::IsBoundaryFace3D()</a>, and <a class="el" href="group__lib__grid__algorithms__vertex__util.html#ga7e2bc9e8f5f8133db8ac2939f6ba178b">ug::IsBoundaryVertex3D()</a>.</p>
 
@@ -1178,6 +1181,40 @@ template&lt;class TFace &gt; </div>
 <p>A wrapper for IsVolumeBoundaryFace. </p>
 
 <p>References <a class="el" href="group__lib__grid__algorithms__face__util.html#ga9e37b000b12799c3d1852b4096330112">ug::AreaFaceQuality()</a>, <a class="el" href="group__ugbase__mathutil.html#ga5ed9b75521e3aea7c75f591c2ca5c7fb">ug::CalculateCenter()</a>, <a class="el" href="group__lib__grid__algorithms__face__util.html#ga029bdaa15ee8751533097d9dc936f484">ug::CalculateFaceCenter()</a>, <a class="el" href="group__lib__grid__algorithms__edge__util.html#gaed91ccbc1b4b95c2ef09c3f79aabd6ab">ug::ContainsPoint()</a>, <a class="el" href="group__domain__bridge.html#ga92317ceec1e4b3340d0956d8709024e4">ug::FaceArea()</a>, <a class="el" href="group__lib__grid__algorithms__face__util.html#ga69c2b459338a1d7007d19daabba2df32">ug::FaceQuality()</a>, <a class="el" href="group__lib__grid__algorithms__face__util.html#gad08429cf628013edea965ef6acd036c7">ug::FindSmallestFace()</a>, <a class="el" href="group__lib__grid__algorithms__face__util.html#ga8cc5bf9ce5eff9eb09058c99938b6aa0">ug::GetNeighbours()</a>, <a class="el" href="group__lib__grid__algorithms__face__util.html#gad75663712608cfcd1d1e432a0198593a">ug::InsertCenterVertex()</a>, <a class="el" href="group__lib__grid__algorithms__face__util.html#ga13333d7cf4577f562d1a92d1b3fc4c5e">ug::IsBoundaryFace3D()</a>, <a class="el" href="group__lib__grid__algorithms__face__util.html#ga07103928668c01fbc9a92a670a9ba9e4">ug::IsDegenerated()</a>, <a class="el" href="group__lib__grid__algorithms__face__util.html#ga9ed3a8995006d786f63e318b7f6c358f">ug::PointFaceTest()</a>, <a class="el" href="group__lib__grid__algorithms__face__util.html#gabe4b069038c2eb0c0284efde3a3bd64b">ug::ProjectPointToSurface()</a>, <a class="el" href="namespaceug.html#a33c1491a216aec0f5a603a9a3dd6f758">ug::SMALL</a>, <a class="el" href="group__lib__grid__algorithms__face__util.html#gae772e4fd343550a940e172b770faaf1b">ug::TriangleQuality()</a>, <a class="el" href="group__lib__grid__algorithms__face__util.html#gac5dd5ed95ed5f64fd5d29133769324be">ug::Triangulate()</a>, and <a class="el" href="group__ugbase__common.html#ga6a442be2e75e98247f82d1aa90a06aac">UG_API</a>.</p>
+
+</div>
+</div>
+<a id="ga2e099f969485473fadd5113b40fe508a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2e099f969485473fadd5113b40fe508a">&sect;&nbsp;</a></span>NumAssociatedVolumes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ug::NumAssociatedVolumes </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_grid.html">Grid</a> &amp;&#160;</td>
+          <td class="paramname"><em>grid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classug_1_1_face.html">Face</a> *&#160;</td>
+          <td class="paramname"><em>f</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns the number of associated volumes of the specified face </p>
+
+<p>References <a class="el" href="classug_1_1_grid.html#a9b6fe1a67b9fa0d1dcb5b18d8cc23dd9">ug::Grid::associated_volumes_begin()</a>, <a class="el" href="classug_1_1_grid.html#ae4fba41614633b0b6e56e2bed4cf4e26">ug::Grid::associated_volumes_end()</a>, <a class="el" href="group__lib__grid.html#ggad5f5a639937a67f1018d12996992f6f3a3d8b76c15b6f0e744e727f23e0150932">ug::FACEOPT_STORE_ASSOCIATED_VOLUMES</a>, <a class="el" href="classug_1_1_grid.html#a1a52ff3974dd27f9cce544226c43586c">ug::Grid::option_is_enabled()</a>, <a class="el" href="classug_1_1_face_vertices.html#a8f18cc58d9b6142a2d3728cfe55159d1">ug::FaceVertices::vertex()</a>, and <a class="el" href="group__lib__grid__algorithms__volume__util.html#gab28fc56b79458ac223c95f3585c67117">ug::VolumeContains()</a>.</p>
+
+<p>Referenced by <a class="el" href="namespaceug.html#ad8fcb675b0b87b9fa3379d8d71d1cf94">ug::FixFaceOrientation()</a>, and <a class="el" href="group__lib__grid__algorithms__face__util.html#gafd8032868d5b1b81c1d0171156ce7acd">ug::IsVolumeBoundaryFace()</a>.</p>
 
 </div>
 </div>
@@ -1400,9 +1437,9 @@ template&lt;class TTriangleIterator , class TAAPosVRT &gt; </div>
 <p>removes the quadrilateral and replaces it by two triangles. </p>
 <p>if paaPos is set to NULL, the quadrilateral will be splitted along the edge between the first and the third vertex. If paaPos points to a position-attachment-accessor, then the new edge will be chosen so that the worst triangle-quality is better. </p>
 
-<p>References <a class="el" href="classug_1_1_grid.html#adfae2fb22706392c881d20f696e97ba9">ug::Grid::create()</a>, <a class="el" href="classug_1_1_grid.html#a94e7d19731e2d384bd0dc1b70a173cfc">ug::Grid::erase()</a>, <a class="el" href="group__lib__grid__algorithms__face__util.html#gae772e4fd343550a940e172b770faaf1b">ug::TriangleQuality()</a>, and <a class="el" href="classug_1_1_custom_quadrilateral.html#a2325071c2f34dfa7889ca019b56cf809">ug::CustomQuadrilateral&lt; ConcreteQuadrilateralType, BaseClass, RefTriType, RefQuadType &gt;::vertex()</a>.</p>
+<p>References <a class="el" href="group__lib__grid__algorithms__vertex__util.html#ga8c98c2d1d058d59c32717dd75d97055c">ug::CalculateVertexNormal()</a>, <a class="el" href="classug_1_1_grid.html#adfae2fb22706392c881d20f696e97ba9">ug::Grid::create()</a>, <a class="el" href="classug_1_1_grid.html#a94e7d19731e2d384bd0dc1b70a173cfc">ug::Grid::erase()</a>, <a class="el" href="namespaceug.html#a33c1491a216aec0f5a603a9a3dd6f758">ug::SMALL</a>, <a class="el" href="group__lib__grid__algorithms__face__util.html#gae772e4fd343550a940e172b770faaf1b">ug::TriangleQuality()</a>, <a class="el" href="group__vectors.html#gae9174d47662deb0ba119e0e21f28ec71">ug::VecDot()</a>, and <a class="el" href="classug_1_1_custom_quadrilateral.html#a2325071c2f34dfa7889ca019b56cf809">ug::CustomQuadrilateral&lt; ConcreteQuadrilateralType, BaseClass, RefTriType, RefQuadType &gt;::vertex()</a>.</p>
 
-<p>Referenced by <a class="el" href="group__lib__grid__algorithms__remeshing.html#gaa6cdff940793032a9dac5582b475ee86">ug::AdaptSurfaceGridToCylinder()</a>, <a class="el" href="group__lib__grid__algorithms__remeshing.html#gab217fe44fb42f01be0dab1a46c2908ae">ug::AdjustEdgeLength()</a>, <a class="el" href="group__lib__grid__algorithms__face__util.html#ga546524dbafff353c160a8e52acb90260">ug::LiesOnBoundary()</a>, <a class="el" href="namespaceug.html#af32c1177e1b1acd0784c8a9fd42153d9">ug::MultiEdgeSplit()</a>, <a class="el" href="namespaceug.html#a500c334f1f91ba7c83e38cc61cbbfd10">ug::PerformTetrahedralization()</a>, and <a class="el" href="group__lib__grid__algorithms__face__util.html#ga5e830eb2ca680c580b9309aa4f9c445e">ug::Triangulate()</a>.</p>
+<p>Referenced by <a class="el" href="group__lib__grid__algorithms__remeshing.html#gaa6cdff940793032a9dac5582b475ee86">ug::AdaptSurfaceGridToCylinder()</a>, <a class="el" href="group__lib__grid__algorithms__remeshing.html#gab217fe44fb42f01be0dab1a46c2908ae">ug::AdjustEdgeLength()</a>, <a class="el" href="namespaceug.html#a12aa226211e88392b205b90b11a914d7">ug::ExtrudeLayersMixed()</a>, <a class="el" href="group__lib__grid__algorithms__face__util.html#ga546524dbafff353c160a8e52acb90260">ug::LiesOnBoundary()</a>, <a class="el" href="namespaceug.html#af32c1177e1b1acd0784c8a9fd42153d9">ug::MultiEdgeSplit()</a>, <a class="el" href="namespaceug.html#a500c334f1f91ba7c83e38cc61cbbfd10">ug::PerformTetrahedralization()</a>, and <a class="el" href="group__lib__grid__algorithms__face__util.html#ga5e830eb2ca680c580b9309aa4f9c445e">ug::Triangulate()</a>.</p>
 
 </div>
 </div>
@@ -1454,7 +1491,7 @@ template&lt;class TTriangleIterator , class TAAPosVRT &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:13 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:08:45 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

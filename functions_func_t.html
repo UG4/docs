@@ -178,11 +178,17 @@ $(document).ready(function(){initNavTree('functions_func_t.html','');});
 <li>time_series_needed()
 : <a class="el" href="classug_1_1_data_evaluator_base.html#a85492eb2890fc138b5a2008b59502530">ug::DataEvaluatorBase&lt; TDomain, TElemDisc &gt;</a>
 </li>
+<li>TimeDependentSpace()
+: <a class="el" href="classug_1_1_time_dependent_space.html#ab6325ff77f247dd8ec691b630eda886d">ug::TimeDependentSpace&lt; TGridFunction &gt;</a>
+</li>
 <li>times()
 : <a class="el" href="classug_1_1_local_vector_time_series.html#a996bbb309f8df9ab859b640be699857a">ug::LocalVectorTimeSeries</a>
 </li>
 <li>TimeSol()
 : <a class="el" href="classug_1_1_vector_time_series_1_1_time_sol.html#afe4c4d1c2a84ca507b30c1c25644a4d3">ug::VectorTimeSeries&lt; TVector &gt;::TimeSol</a>
+</li>
+<li>TKDInfo()
+: <a class="el" href="classug_1_1_t_k_d_info.html#acac2ce3534ab31e1f0b779caec2fac9b">ug::TKDInfo</a>
 </li>
 <li>to()
 : <a class="el" href="classug_1_1bridge_1_1_parameter_stack.html#a2c53b199441ea7b03507ddcc46ffb10c">ug::bridge::ParameterStack</a>
@@ -294,7 +300,8 @@ $(document).ready(function(){initNavTree('functions_func_t.html','');});
 : <a class="el" href="classug_1_1_variant.html#aba7dbae1edb0b308414c7a907e1d6dec">ug::Variant</a>
 </li>
 <li>to_string()
-: <a class="el" href="group__lib__disc__domain.html#ga5bb51988261e5f5632c68cd4c658f792">ug::DomainInfo</a>
+: <a class="el" href="structug_1_1_aspect_ratio_info.html#afcc0719052630d4222112518e3daf08c">ug::AspectRatioInfo</a>
+, <a class="el" href="group__lib__disc__domain.html#ga5bb51988261e5f5632c68cd4c658f792">ug::DomainInfo</a>
 , <a class="el" href="classug_1_1_m_m_type_code.html#a31e2c56fc2880ad9cc8a6b2de9b93c27">ug::MMTypeCode</a>
 , <a class="el" href="classug_1_1_process_hierarchy.html#a0d447daea7250d0062319b77874154c6">ug::ProcessHierarchy</a>
 , <a class="el" href="group__ugbase__common__types.html#ga63482cafdfaf2d44103a02883c86d079">ug::StringTableStream</a>
@@ -333,6 +340,7 @@ $(document).ready(function(){initNavTree('functions_func_t.html','');});
 <li>top_level()
 : <a class="el" href="classug_1_1_m_g_selector.html#a2cc00733bcb69e2365efccc08cd6b693">ug::MGSelector</a>
 , <a class="el" href="classug_1_1_multi_grid.html#a260b3528d59833e1828c3d20b2a7cdc6">ug::MultiGrid</a>
+, <a class="el" href="classug_1_1_nested_iteration_solver.html#aee2bad1621bed0a9b50042a7a449b11e">ug::NestedIterationSolver&lt; TDomain, TAlgebra &gt;</a>
 </li>
 <li>topological_grid_dimension()
 : <a class="el" href="classug_1_1_u_g_x_file_info.html#ace8437e1f4187df8cfe006450d74f049">ug::UGXFileInfo</a>
@@ -437,8 +445,20 @@ $(document).ready(function(){initNavTree('functions_func_t.html','');});
 <li>Traverser_RayElementIntersection()
 : <a class="el" href="classug_1_1_traverser___ray_element_intersection.html#a05052d5b9fef735ee71a972eca2ec0b6">ug::Traverser_RayElementIntersection&lt; tree_t &gt;</a>
 </li>
+<li>tri_corner_coords()
+: <a class="el" href="classstl__reader_1_1_stl_mesh.html#a2914ca25fbb04c0a21eba8bde3a7eb87">stl_reader::StlMesh&lt; TNumber, TIndex &gt;</a>
+</li>
+<li>tri_corner_ind()
+: <a class="el" href="classstl__reader_1_1_stl_mesh.html#a7c33fcd65b98ad6c3619638e54af1f4f">stl_reader::StlMesh&lt; TNumber, TIndex &gt;</a>
+</li>
+<li>tri_corner_inds()
+: <a class="el" href="classstl__reader_1_1_stl_mesh.html#a01b86a0f0fe7e2fb4d0a219c71f2280d">stl_reader::StlMesh&lt; TNumber, TIndex &gt;</a>
+</li>
+<li>tri_normal()
+: <a class="el" href="classstl__reader_1_1_stl_mesh.html#a87933bb961503369f84bd295c0febed5">stl_reader::StlMesh&lt; TNumber, TIndex &gt;</a>
+</li>
 <li>Triangle()
-: <a class="el" href="classug_1_1_triangle.html#aa64207380d9e68b49c9a47cdd8e25463">ug::Triangle</a>
+: <a class="el" href="classug_1_1_triangle.html#ae0910ed14a1505f8994afb0d8affe436">ug::Triangle</a>
 </li>
 <li>TriangleDescriptor()
 : <a class="el" href="classug_1_1_triangle_descriptor.html#a66ede467392dac4bb7c74e51a6e0aad2">ug::TriangleDescriptor</a>
@@ -513,7 +533,7 @@ $(document).ready(function(){initNavTree('functions_func_t.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:52 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:09:39 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

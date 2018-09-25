@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['reduceoperation',['ReduceOperation',['../../classug_1_1_com_pol___attachment_reduce.html#a61ea7f758a2921895d2a56b57b1e89fd',1,'ug::ComPol_AttachmentReduce']]],
-  ['referenceobjectid',['ReferenceObjectID',['../../namespaceug.html#a1f0e19a0ec74b2ebb64238aeb498c51b',1,'ug']]],
-  ['refinementmark',['RefinementMark',['../../group__lib__grid__algorithms__refinement.html#gaca4c9dab184a59fc18ae86d72288c209',1,'ug::RefinementMark()'],['../../group__lib__grid__algorithms__refinement.html#gaca4c9dab184a59fc18ae86d72288c209',1,'RefinementMark()(Global Namespace)']]],
-  ['registrytargets',['RegistryTargets',['../../../plugins/group__promesh.html#ga6bbd1d59ce7f89cebac1f5f7530ebbd5',1,'ug::promesh::RegistryTargets()'],['../../../plugins/group__promesh.html#ga6bbd1d59ce7f89cebac1f5f7530ebbd5',1,'RegistryTargets()(Global Namespace)']]],
-  ['remeshingelementmarks',['RemeshingElementMarks',['../../group__lib__grid__algorithms__remeshing.html#gaf3fb9da5ed2bab172aa4b403915443ab',1,'ug::RemeshingElementMarks()'],['../../group__lib__grid__algorithms__remeshing.html#gaf3fb9da5ed2bab172aa4b403915443ab',1,'RemeshingElementMarks()(Global Namespace)']]]
+  ['parallelstoragetype',['ParallelStorageType',['../../group__lib__algebra__parallelization.html#ga75c6ad52009fea9cf3f582261c814936',1,'ug::ParallelStorageType()'],['../../group__lib__algebra__parallelization.html#ga75c6ad52009fea9cf3f582261c814936',1,'ParallelStorageType()(Global Namespace)']]],
+  ['pathtypes',['PathTypes',['../../group__ugbase__common__util.html#ga72a67cfeae3e674ed54d159e32af7622',1,'ug::PathTypes()'],['../../group__ugbase__common__util.html#ga72a67cfeae3e674ed54d159e32af7622',1,'PathTypes()(Global Namespace)']]],
+  ['periodicstatus',['PeriodicStatus',['../../classug_1_1_periodic_boundary_manager.html#ad442ea4eb1cb80b4fdfe72d176800f19',1,'ug::PeriodicBoundaryManager']]],
+  ['polychaintypes',['PolyChainTypes',['../../group__lib__grid__algorithms__polychain__util.html#gaed934cbb2fbb8eec0e5d7ac21f825089',1,'ug::PolyChainTypes()'],['../../group__lib__grid__algorithms__polychain__util.html#gaed934cbb2fbb8eec0e5d7ac21f825089',1,'PolyChainTypes()(Global Namespace)']]],
+  ['processcommunicatordefaults',['ProcessCommunicatorDefaults',['../../group__pcl.html#gaea36d0e20ff31324ba10643d4e939e29',1,'pcl::ProcessCommunicatorDefaults()'],['../../group__pcl.html#gaea36d0e20ff31324ba10643d4e939e29',1,'ProcessCommunicatorDefaults()(Global Namespace)']]],
+  ['processtype',['ProcessType',['../../namespaceug.html#a263e8a5e26bb1b87ff775174409ff19e',1,'ug']]]
 ];

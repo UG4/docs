@@ -90,6 +90,7 @@ $(document).ready(function(){initNavTree('classug_1_1_sparse_matrix.html','');})
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
@@ -114,9 +115,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a495fef11b9a5b507b44efd9cf18364aa"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="classug_1_1_sparse_matrix.html#a495fef11b9a5b507b44efd9cf18364aaafe4dce3f685f705dcf19aab27d8da136">rows_sorted</a> =true
+<tr class="memitem:ad697f7173c5a75bdce11632eb16d9977"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="classug_1_1_sparse_matrix.html#ad697f7173c5a75bdce11632eb16d9977afe4dce3f685f705dcf19aab27d8da136">rows_sorted</a> =true
  }</td></tr>
-<tr class="separator:a495fef11b9a5b507b44efd9cf18364aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:ad697f7173c5a75bdce11632eb16d9977"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c4d02ea1d071511b06d36dbf7366cdd"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classug_1_1_algebraic_connection.html">AlgebraicConnection</a>&lt; TValueType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_sparse_matrix.html#a3c4d02ea1d071511b06d36dbf7366cdd">connection</a></td></tr>
 <tr class="separator:a3c4d02ea1d071511b06d36dbf7366cdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe1c346af03a4e20b812a0b01b238805"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classug_1_1_const_matrix_row.html">ConstMatrixRow</a>&lt; <a class="el" href="classug_1_1_sparse_matrix.html#a8f9875a1754b68912ab590e8ddc51539">this_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_sparse_matrix.html#afe1c346af03a4e20b812a0b01b238805">const_row_type</a></td></tr>
@@ -167,6 +168,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2a25b4d9c676343fa0e7c773469e9cd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cc915b3cd19a5f0861fd5de41bed7d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_sparse_matrix.html#a6cc915b3cd19a5f0861fd5de41bed7d0">check_row_modifiable</a> (size_t r) const</td></tr>
 <tr class="separator:a6cc915b3cd19a5f0861fd5de41bed7d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad05c0962458a58749be2f3db566c9c9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_sparse_matrix.html#ad05c0962458a58749be2f3db566c9c9a">clear_and_free</a> ()</td></tr>
+<tr class="memdesc:ad05c0962458a58749be2f3db566c9c9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the matrix vectors and frees their memory.  <a href="#ad05c0962458a58749be2f3db566c9c9a">More...</a><br /></td></tr>
+<tr class="separator:ad05c0962458a58749be2f3db566c9c9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecd2df0b30c3da65221f29f6b125d1ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_sparse_matrix.html#aecd2df0b30c3da65221f29f6b125d1ee">copy_crs</a> (size_t &amp;numRows, size_t &amp;numCols, std::vector&lt; <a class="el" href="classug_1_1_sparse_matrix.html#a642230a6691beb13e5b82bbf69b9df78">value_type</a> &gt; &amp;argValues, std::vector&lt; int &gt; &amp;argRowStart, std::vector&lt; int &gt; &amp;argColInd) const</td></tr>
 <tr class="separator:aecd2df0b30c3da65221f29f6b125d1ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a848da989f9b26de53ea91788f8013843"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_sparse_matrix.html#a848da989f9b26de53ea91788f8013843">defragment</a> ()</td></tr>
@@ -203,7 +207,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a8c571277d529422c095be7276cf0255e"><td class="mdescLeft">&#160;</td><td class="mdescRight">check for isolated condition of an index  <a href="#a8c571277d529422c095be7276cf0255e">More...</a><br /></td></tr>
 <tr class="separator:a8c571277d529422c095be7276cf0255e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87873fe0bc673a8aba19dbcea2f432d2"><td class="memTemplParams" colspan="2">template&lt;typename vector_t &gt; </td></tr>
-<tr class="memitem:a87873fe0bc673a8aba19dbcea2f432d2"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_sparse_matrix.html#a87873fe0bc673a8aba19dbcea2f432d2">mat_mult_add_row</a> (size_t row, typename <a class="el" href="sparsematrix__interface_8h.html#a265a253612b46abed17c61b0a5e5ce30">vector_t::value_type</a> &amp;dest, double <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#ga8ff3c16c0fe165cbcce8e09e4eb4c61f">alpha</a>, const vector_t &amp;v) const</td></tr>
+<tr class="memitem:a87873fe0bc673a8aba19dbcea2f432d2"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_sparse_matrix.html#a87873fe0bc673a8aba19dbcea2f432d2">mat_mult_add_row</a> (size_t row, typename <a class="el" href="sparsematrix__interface_8h.html#a265a253612b46abed17c61b0a5e5ce30">vector_t::value_type</a> &amp;dest, double <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#ga8ff3c16c0fe165cbcce8e09e4eb4c61f">alpha</a>, const vector_t &amp;v) const</td></tr>
 <tr class="memdesc:a87873fe0bc673a8aba19dbcea2f432d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates dest += alpha * A[row, .] v;  <a href="#a87873fe0bc673a8aba19dbcea2f432d2">More...</a><br /></td></tr>
 <tr class="separator:a87873fe0bc673a8aba19dbcea2f432d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabf9709e016c5b4237fea1e85c1651a0"><td class="memTemplParams" colspan="2">template&lt;typename Vector_type &gt; </td></tr>
@@ -271,6 +275,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a6d5afbe89dcc7a14b083f98f52ed2b4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor  <a href="#a6d5afbe89dcc7a14b083f98f52ed2b4a">More...</a><br /></td></tr>
 <tr class="separator:a6d5afbe89dcc7a14b083f98f52ed2b4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a7a323a92f883469a741f68ac6baa7495"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_sparse_matrix.html#a7a323a92f883469a741f68ac6baa7495">nrOfRowIterators</a></td></tr>
+<tr class="separator:a7a323a92f883469a741f68ac6baa7495"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a7b1583de4008b497d2cba67fde8d1495"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_sparse_matrix.html#a7b1583de4008b497d2cba67fde8d1495">check_fragmentation</a> () const</td></tr>
@@ -304,8 +313,6 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a7a1f9224d3d32f8d883aa2fd511a3c5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22b307f1040ac45883c54e5d6e93f528"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_sparse_matrix.html#a22b307f1040ac45883c54e5d6e93f528">nnz</a></td></tr>
 <tr class="separator:a22b307f1040ac45883c54e5d6e93f528"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a323a92f883469a741f68ac6baa7495"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_sparse_matrix.html#a7a323a92f883469a741f68ac6baa7495">nrOfRowIterators</a></td></tr>
-<tr class="separator:a7a323a92f883469a741f68ac6baa7495"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a693ad756ace1f00effe9f220ebcf18b3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_sparse_matrix.html#a693ad756ace1f00effe9f220ebcf18b3">rowEnd</a></td></tr>
 <tr class="separator:a693ad756ace1f00effe9f220ebcf18b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adaca18aa39ba4e9f718a670582f25628"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_sparse_matrix.html#adaca18aa39ba4e9f718a670582f25628">rowMax</a></td></tr>
@@ -432,8 +439,8 @@ template&lt;typename TValueType&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="a495fef11b9a5b507b44efd9cf18364aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a495fef11b9a5b507b44efd9cf18364aa">&sect;&nbsp;</a></span>anonymous enum</h2>
+<a id="ad697f7173c5a75bdce11632eb16d9977"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad697f7173c5a75bdce11632eb16d9977">&sect;&nbsp;</a></span>anonymous enum</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -446,7 +453,7 @@ template&lt;typename TValueType&gt; </div>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a495fef11b9a5b507b44efd9cf18364aaafe4dce3f685f705dcf19aab27d8da136"></a>rows_sorted&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad697f7173c5a75bdce11632eb16d9977afe4dce3f685f705dcf19aab27d8da136"></a>rows_sorted&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -504,7 +511,7 @@ template&lt;typename TValueType&gt; </div>
 
 <p>destructor </p>
 
-<p>References <a class="el" href="classug_1_1_sparse_matrix.html#a2d22dc4eed8e994d51ac24b536368471">ug::SparseMatrix&lt; TValueType &gt;::resize_and_clear()</a>, <a class="el" href="classug_1_1_sparse_matrix.html#a5040d61b3f4e4e2838f506b7eb1f1663">ug::SparseMatrix&lt; TValueType &gt;::resize_and_keep_values()</a>, <a class="el" href="classug_1_1_sparse_matrix.html#ab9e5692b949a8c946714ad3789d74541">ug::SparseMatrix&lt; TValueType &gt;::scale()</a>, <a class="el" href="classug_1_1_sparse_matrix.html#a8ff38ac645ce855599428a3495f7c371">ug::SparseMatrix&lt; TValueType &gt;::set_as_copy_of()</a>, and <a class="el" href="classug_1_1_sparse_matrix.html#aa2462605d46de23f04d0710a971fb048">ug::SparseMatrix&lt; TValueType &gt;::set_as_transpose_of()</a>.</p>
+<p>References <a class="el" href="classug_1_1_sparse_matrix.html#ad05c0962458a58749be2f3db566c9c9a">ug::SparseMatrix&lt; TValueType &gt;::clear_and_free()</a>, <a class="el" href="classug_1_1_sparse_matrix.html#a2d22dc4eed8e994d51ac24b536368471">ug::SparseMatrix&lt; TValueType &gt;::resize_and_clear()</a>, <a class="el" href="classug_1_1_sparse_matrix.html#a5040d61b3f4e4e2838f506b7eb1f1663">ug::SparseMatrix&lt; TValueType &gt;::resize_and_keep_values()</a>, <a class="el" href="classug_1_1_sparse_matrix.html#ab9e5692b949a8c946714ad3789d74541">ug::SparseMatrix&lt; TValueType &gt;::scale()</a>, <a class="el" href="classug_1_1_sparse_matrix.html#a8ff38ac645ce855599428a3495f7c371">ug::SparseMatrix&lt; TValueType &gt;::set_as_copy_of()</a>, and <a class="el" href="classug_1_1_sparse_matrix.html#aa2462605d46de23f04d0710a971fb048">ug::SparseMatrix&lt; TValueType &gt;::set_as_transpose_of()</a>.</p>
 
 </div>
 </div>
@@ -1181,6 +1188,29 @@ template&lt;typename TValueType&gt; </div>
 </div><div class="memdoc">
 
 <p>References <a class="el" href="classug_1_1_sparse_matrix.html#a7a323a92f883469a741f68ac6baa7495">ug::SparseMatrix&lt; TValueType &gt;::nrOfRowIterators</a>, and <a class="el" href="group__ugbase__common.html#ga0b928ef153b78f1b5e025638cf28f841">UG_ASSERT</a>.</p>
+
+</div>
+</div>
+<a id="ad05c0962458a58749be2f3db566c9c9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad05c0962458a58749be2f3db566c9c9a">&sect;&nbsp;</a></span>clear_and_free()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_sparse_matrix.html">SparseMatrix</a>&lt; T &gt;::clear_and_free </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Clears the matrix vectors and frees their memory. </p>
+
+<p>Referenced by <a class="el" href="classug_1_1_sparse_matrix.html#a6d5afbe89dcc7a14b083f98f52ed2b4a">ug::SparseMatrix&lt; TValueType &gt;::~SparseMatrix()</a>.</p>
 
 </div>
 </div>
@@ -2412,7 +2442,7 @@ template&lt;typename TValueType&gt; </div>
 <dl class="section note"><dt>Note</dt><dd>(r,c) is added to sparsity pattern if not already there use operator()(r,c,bConnectionFound) to prevent </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>SparseMat(r, c)=0.0 if connection created, otherwise SparseMat(r, c) </dd></dl>
 
-<p>References <a class="el" href="classug_1_1_sparse_matrix.html#aafa3c6d77fdc3195da3053752e253f8f">ug::SparseMatrix&lt; TValueType &gt;::add_matrix_row()</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#ga8ff3c16c0fe165cbcce8e09e4eb4c61f">alpha</a>, <a class="el" href="classug_1_1_sparse_matrix.html#a2a25b4d9c676343fa0e7c773469e9cd7">ug::SparseMatrix&lt; TValueType &gt;::check_rc()</a>, <a class="el" href="classug_1_1_sparse_matrix.html#a19a04b7ef823a0fb0fa9590b9a7bbc58">ug::SparseMatrix&lt; TValueType &gt;::cols</a>, <a class="el" href="classug_1_1_sparse_matrix.html#ab8d308b42f6bfc589349a2b994cb0d3b">ug::SparseMatrix&lt; TValueType &gt;::get_index()</a>, <a class="el" href="classug_1_1_sparse_matrix.html#a87873fe0bc673a8aba19dbcea2f432d2">ug::SparseMatrix&lt; TValueType &gt;::mat_mult_add_row()</a>, <a class="el" href="classug_1_1_sparse_matrix.html#a693ad756ace1f00effe9f220ebcf18b3">ug::SparseMatrix&lt; TValueType &gt;::rowEnd</a>, <a class="el" href="classug_1_1_sparse_matrix.html#affb88470fe3392289c2962d9b9d40091">ug::SparseMatrix&lt; TValueType &gt;::rowStart</a>, <a class="el" href="classug_1_1_sparse_matrix.html#aabe493fd697e2ffafd205c19d342e824">ug::SparseMatrix&lt; TValueType &gt;::set_matrix_row()</a>, <a class="el" href="group__ugbase__common.html#ga0b928ef153b78f1b5e025638cf28f841">UG_ASSERT</a>, and <a class="el" href="classug_1_1_sparse_matrix.html#a8b9755bc95c1957576311367cde33ce2">ug::SparseMatrix&lt; TValueType &gt;::values</a>.</p>
+<p>References <a class="el" href="classug_1_1_sparse_matrix.html#aafa3c6d77fdc3195da3053752e253f8f">ug::SparseMatrix&lt; TValueType &gt;::add_matrix_row()</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#ga8ff3c16c0fe165cbcce8e09e4eb4c61f">alpha</a>, <a class="el" href="classug_1_1_sparse_matrix.html#a2a25b4d9c676343fa0e7c773469e9cd7">ug::SparseMatrix&lt; TValueType &gt;::check_rc()</a>, <a class="el" href="classug_1_1_sparse_matrix.html#a19a04b7ef823a0fb0fa9590b9a7bbc58">ug::SparseMatrix&lt; TValueType &gt;::cols</a>, <a class="el" href="classug_1_1_sparse_matrix.html#ab8d308b42f6bfc589349a2b994cb0d3b">ug::SparseMatrix&lt; TValueType &gt;::get_index()</a>, <a class="el" href="classug_1_1_sparse_matrix.html#a87873fe0bc673a8aba19dbcea2f432d2">ug::SparseMatrix&lt; TValueType &gt;::mat_mult_add_row()</a>, <a class="el" href="classug_1_1_sparse_matrix.html#a693ad756ace1f00effe9f220ebcf18b3">ug::SparseMatrix&lt; TValueType &gt;::rowEnd</a>, <a class="el" href="classug_1_1_sparse_matrix.html#affb88470fe3392289c2962d9b9d40091">ug::SparseMatrix&lt; TValueType &gt;::rowStart</a>, <a class="el" href="classug_1_1_sparse_matrix.html#aabe493fd697e2ffafd205c19d342e824">ug::SparseMatrix&lt; TValueType &gt;::set_matrix_row()</a>, <a class="el" href="group__ugbase__common.html#ga0b928ef153b78f1b5e025638cf28f841">UG_ASSERT</a>, and <a class="el" href="classug_1_1_sparse_matrix.html#a8b9755bc95c1957576311367cde33ce2">ug::SparseMatrix&lt; TValueType &gt;::values</a>.</p>
 
 </div>
 </div>
@@ -3148,7 +3178,7 @@ template&lt;typename TValueType&gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">mutable</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -3270,7 +3300,7 @@ template&lt;typename TValueType&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_sparse_matrix.html">SparseMatrix</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:47 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:09:34 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

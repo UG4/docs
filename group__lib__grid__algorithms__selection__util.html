@@ -103,6 +103,10 @@ Functions</h2></td></tr>
 <tr class="memitem:gae18a702589e6f00deab8ee9d2060bca1"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__selection__util.html#gae18a702589e6f00deab8ee9d2060bca1">ug::CalculateCenter</a> (typename TAAPosVRT::ValueType &amp;centerOut, <a class="el" href="classug_1_1_selector.html">Selector</a> &amp;sel, TAAPosVRT &amp;aaPos)</td></tr>
 <tr class="memdesc:gae18a702589e6f00deab8ee9d2060bca1"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates the center of selected objects  <a href="group__lib__grid__algorithms__selection__util.html#gae18a702589e6f00deab8ee9d2060bca1">More...</a><br /></td></tr>
 <tr class="separator:gae18a702589e6f00deab8ee9d2060bca1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8ed839e8395106abc07bd43ca814fbef"><td class="memTemplParams" colspan="2">template&lt;class TSelector &gt; </td></tr>
+<tr class="memitem:ga8ed839e8395106abc07bd43ca814fbef"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#ga6a442be2e75e98247f82d1aa90a06aac">UG_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__selection__util.html#ga8ed839e8395106abc07bd43ca814fbef">ug::CloseSelection</a> (TSelector &amp;sel)</td></tr>
+<tr class="memdesc:ga8ed839e8395106abc07bd43ca814fbef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects all associated elements of lower dimensions.  <a href="group__lib__grid__algorithms__selection__util.html#ga8ed839e8395106abc07bd43ca814fbef">More...</a><br /></td></tr>
+<tr class="separator:ga8ed839e8395106abc07bd43ca814fbef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gacd3ae9a0df6c3c86c9a9581b04d77b7f"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__selection__util.html#gacd3ae9a0df6c3c86c9a9581b04d77b7f">ug::CollectVerticesTouchingSelection</a> (std::vector&lt; <a class="el" href="classug_1_1_vertex.html">Vertex</a> * &gt; &amp;vrtsOut, <a class="el" href="classug_1_1_i_selector.html">ISelector</a> &amp;sel)</td></tr>
 <tr class="memdesc:gacd3ae9a0df6c3c86c9a9581b04d77b7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collects all vertices which are selected or which touch a selected element.  <a href="group__lib__grid__algorithms__selection__util.html#gacd3ae9a0df6c3c86c9a9581b04d77b7f">More...</a><br /></td></tr>
 <tr class="separator:gacd3ae9a0df6c3c86c9a9581b04d77b7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -123,9 +127,13 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga2cd9020a153448f39341c3f3287595f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erases selected objects from the associated grid.  <a href="group__lib__grid__algorithms__selection__util.html#ga2cd9020a153448f39341c3f3287595f2">More...</a><br /></td></tr>
 <tr class="separator:ga2cd9020a153448f39341c3f3287595f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9af566cc2d5fa64e02e35507a9f918f9"><td class="memTemplParams" colspan="2">template&lt;class TSelector &gt; </td></tr>
-<tr class="memitem:ga9af566cc2d5fa64e02e35507a9f918f9"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#ga6a442be2e75e98247f82d1aa90a06aac">UG_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__selection__util.html#ga9af566cc2d5fa64e02e35507a9f918f9">ug::ExtendSelection</a> (TSelector &amp;sel, size_t extSize, <a class="el" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a> status=<a class="el" href="classug_1_1_i_selector.html#ae82aecd99067ebef1e622a8a0a88f806a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a>)</td></tr>
+<tr class="memitem:ga9af566cc2d5fa64e02e35507a9f918f9"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#ga6a442be2e75e98247f82d1aa90a06aac">UG_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__selection__util.html#ga9af566cc2d5fa64e02e35507a9f918f9">ug::ExtendSelection</a> (TSelector &amp;sel, size_t extSize, <a class="el" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a> status=<a class="el" href="classug_1_1_i_selector.html#a0f837719414de334f887b3dc383c0714a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a>)</td></tr>
 <tr class="memdesc:ga9af566cc2d5fa64e02e35507a9f918f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">extends the selection to neighbours of selected elements.  <a href="group__lib__grid__algorithms__selection__util.html#ga9af566cc2d5fa64e02e35507a9f918f9">More...</a><br /></td></tr>
 <tr class="separator:ga9af566cc2d5fa64e02e35507a9f918f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaac50cb8106ea84388389da555fcc24a0"><td class="memTemplParams" colspan="2">template&lt;class TSelector , class TAAPos &gt; </td></tr>
+<tr class="memitem:gaac50cb8106ea84388389da555fcc24a0"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#ga6a442be2e75e98247f82d1aa90a06aac">UG_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__selection__util.html#gaac50cb8106ea84388389da555fcc24a0">ug::ExtendSelectionInDirection</a> (TSelector &amp;sel, size_t extSize, const typename TAAPos::ValueType &amp;dir, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> minAngle, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> maxAngle, const TAAPos &amp;aaPos, <a class="el" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a> status=<a class="el" href="classug_1_1_i_selector.html#a0f837719414de334f887b3dc383c0714a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a>)</td></tr>
+<tr class="memdesc:gaac50cb8106ea84388389da555fcc24a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">extends the selection to neighbours of selected elements in the given direction.  <a href="group__lib__grid__algorithms__selection__util.html#gaac50cb8106ea84388389da555fcc24a0">More...</a><br /></td></tr>
+<tr class="separator:gaac50cb8106ea84388389da555fcc24a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa60d04ed2f5ef009aadb2365a39eb96d"><td class="memTemplParams" colspan="2">template&lt;class TAAPosVRT &gt; </td></tr>
 <tr class="memitem:gaa60d04ed2f5ef009aadb2365a39eb96d"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#ga6a442be2e75e98247f82d1aa90a06aac">UG_API</a> <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__selection__util.html#gaa60d04ed2f5ef009aadb2365a39eb96d">ug::FaceArea</a> (<a class="el" href="classug_1_1_i_selector.html">ISelector</a> &amp;sel, TAAPosVRT &amp;aaPos)</td></tr>
 <tr class="separator:gaa60d04ed2f5ef009aadb2365a39eb96d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -142,30 +150,30 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga43c96d1112eb9a413452f5c6dcd1fe74"><td class="mdescLeft">&#160;</td><td class="mdescRight">selects sides that are only adjacent to one of the given inner elements  <a href="group__lib__grid__algorithms__selection__util.html#ga43c96d1112eb9a413452f5c6dcd1fe74">More...</a><br /></td></tr>
 <tr class="separator:ga43c96d1112eb9a413452f5c6dcd1fe74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3d0a5db38167bc16ba7e7f1dcec191d4"><td class="memTemplParams" colspan="2">template&lt;class TElem , class TIterator &gt; </td></tr>
-<tr class="memitem:ga3d0a5db38167bc16ba7e7f1dcec191d4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__selection__util.html#ga3d0a5db38167bc16ba7e7f1dcec191d4">ug::SelectAssociated</a> (<a class="el" href="classug_1_1_i_selector.html">ISelector</a> &amp;sel, TIterator begin, TIterator end, <a class="el" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a> status=<a class="el" href="classug_1_1_i_selector.html#ae82aecd99067ebef1e622a8a0a88f806a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a>)</td></tr>
+<tr class="memitem:ga3d0a5db38167bc16ba7e7f1dcec191d4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__selection__util.html#ga3d0a5db38167bc16ba7e7f1dcec191d4">ug::SelectAssociated</a> (<a class="el" href="classug_1_1_i_selector.html">ISelector</a> &amp;sel, TIterator begin, TIterator end, <a class="el" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a> status=<a class="el" href="classug_1_1_i_selector.html#a0f837719414de334f887b3dc383c0714a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a>)</td></tr>
 <tr class="memdesc:ga3d0a5db38167bc16ba7e7f1dcec191d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects all elements of type TElem, which touch an element between begin and end.  <a href="group__lib__grid__algorithms__selection__util.html#ga3d0a5db38167bc16ba7e7f1dcec191d4">More...</a><br /></td></tr>
 <tr class="separator:ga3d0a5db38167bc16ba7e7f1dcec191d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab6c4c8494cf6a4186bad07b3745e7220"><td class="memTemplParams" colspan="2">template&lt;class TSelector , class TElemIterator &gt; </td></tr>
-<tr class="memitem:gab6c4c8494cf6a4186bad07b3745e7220"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__selection__util.html#gab6c4c8494cf6a4186bad07b3745e7220">ug::SelectAssociatedEdges</a> (TSelector &amp;sel, TElemIterator elemsBegin, TElemIterator elemsEnd, <a class="el" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a> status=<a class="el" href="classug_1_1_i_selector.html#ae82aecd99067ebef1e622a8a0a88f806a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a>)</td></tr>
+<tr class="memitem:gab6c4c8494cf6a4186bad07b3745e7220"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__selection__util.html#gab6c4c8494cf6a4186bad07b3745e7220">ug::SelectAssociatedEdges</a> (TSelector &amp;sel, TElemIterator elemsBegin, TElemIterator elemsEnd, <a class="el" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a> status=<a class="el" href="classug_1_1_i_selector.html#a0f837719414de334f887b3dc383c0714a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a>)</td></tr>
 <tr class="memdesc:gab6c4c8494cf6a4186bad07b3745e7220"><td class="mdescLeft">&#160;</td><td class="mdescRight">selects all associated edges of the elements between elemsBegin and elemsEnd  <a href="group__lib__grid__algorithms__selection__util.html#gab6c4c8494cf6a4186bad07b3745e7220">More...</a><br /></td></tr>
 <tr class="separator:gab6c4c8494cf6a4186bad07b3745e7220"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaae639b59215f29655ad6719db2afd3ed"><td class="memTemplParams" colspan="2">template&lt;class TSelector , class TElemIterator &gt; </td></tr>
-<tr class="memitem:gaae639b59215f29655ad6719db2afd3ed"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__selection__util.html#gaae639b59215f29655ad6719db2afd3ed">ug::SelectAssociatedFaces</a> (TSelector &amp;sel, TElemIterator elemsBegin, TElemIterator elemsEnd, <a class="el" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a> status=<a class="el" href="classug_1_1_i_selector.html#ae82aecd99067ebef1e622a8a0a88f806a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a>)</td></tr>
+<tr class="memitem:gaae639b59215f29655ad6719db2afd3ed"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__selection__util.html#gaae639b59215f29655ad6719db2afd3ed">ug::SelectAssociatedFaces</a> (TSelector &amp;sel, TElemIterator elemsBegin, TElemIterator elemsEnd, <a class="el" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a> status=<a class="el" href="classug_1_1_i_selector.html#a0f837719414de334f887b3dc383c0714a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a>)</td></tr>
 <tr class="memdesc:gaae639b59215f29655ad6719db2afd3ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">selects all associated faces of the elements between elemsBegin and elemsEnd  <a href="group__lib__grid__algorithms__selection__util.html#gaae639b59215f29655ad6719db2afd3ed">More...</a><br /></td></tr>
 <tr class="separator:gaae639b59215f29655ad6719db2afd3ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1cf5f7623e3396bb258b9b7cbac7b919"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__selection__util.html#ga1cf5f7623e3396bb258b9b7cbac7b919">ug::SelectAssociatedGenealogy</a> (<a class="el" href="classug_1_1_m_g_selector.html">MGSelector</a> &amp;msel, bool selectAssociatedElements)</td></tr>
 <tr class="memdesc:ga1cf5f7623e3396bb258b9b7cbac7b919"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects the complete genealogy of all selected elements.  <a href="group__lib__grid__algorithms__selection__util.html#ga1cf5f7623e3396bb258b9b7cbac7b919">More...</a><br /></td></tr>
 <tr class="separator:ga1cf5f7623e3396bb258b9b7cbac7b919"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5b7e771a13eff1d7b38ce51d83fe0428"><td class="memTemplParams" colspan="2">template&lt;class TSelector &gt; </td></tr>
-<tr class="memitem:ga5b7e771a13eff1d7b38ce51d83fe0428"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#ga6a442be2e75e98247f82d1aa90a06aac">UG_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__selection__util.html#ga5b7e771a13eff1d7b38ce51d83fe0428">ug::SelectAssociatedGridObjects</a> (TSelector &amp;sel, <a class="el" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a> status=<a class="el" href="classug_1_1_i_selector.html#ae82aecd99067ebef1e622a8a0a88f806a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a>)</td></tr>
+<tr class="memitem:ga5b7e771a13eff1d7b38ce51d83fe0428"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#ga6a442be2e75e98247f82d1aa90a06aac">UG_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__selection__util.html#ga5b7e771a13eff1d7b38ce51d83fe0428">ug::SelectAssociatedGridObjects</a> (TSelector &amp;sel, <a class="el" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a> status=<a class="el" href="classug_1_1_i_selector.html#a0f837719414de334f887b3dc383c0714a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a>)</td></tr>
 <tr class="memdesc:ga5b7e771a13eff1d7b38ce51d83fe0428"><td class="mdescLeft">&#160;</td><td class="mdescRight">selects associated geometric objects of selected ones on each level.  <a href="group__lib__grid__algorithms__selection__util.html#ga5b7e771a13eff1d7b38ce51d83fe0428">More...</a><br /></td></tr>
 <tr class="separator:ga5b7e771a13eff1d7b38ce51d83fe0428"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga56b335d27855aa799a026f8ac339aed3"><td class="memTemplParams" colspan="2">template&lt;class TSelector , class TElemIterator &gt; </td></tr>
-<tr class="memitem:ga56b335d27855aa799a026f8ac339aed3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__selection__util.html#ga56b335d27855aa799a026f8ac339aed3">ug::SelectAssociatedVertices</a> (TSelector &amp;sel, TElemIterator elemsBegin, TElemIterator elemsEnd, <a class="el" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a> status=<a class="el" href="classug_1_1_i_selector.html#ae82aecd99067ebef1e622a8a0a88f806a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a>)</td></tr>
+<tr class="memitem:ga56b335d27855aa799a026f8ac339aed3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__selection__util.html#ga56b335d27855aa799a026f8ac339aed3">ug::SelectAssociatedVertices</a> (TSelector &amp;sel, TElemIterator elemsBegin, TElemIterator elemsEnd, <a class="el" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a> status=<a class="el" href="classug_1_1_i_selector.html#a0f837719414de334f887b3dc383c0714a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a>)</td></tr>
 <tr class="memdesc:ga56b335d27855aa799a026f8ac339aed3"><td class="mdescLeft">&#160;</td><td class="mdescRight">selects all associated vertices of the elements between elemsBegin and elemsEnd  <a href="group__lib__grid__algorithms__selection__util.html#ga56b335d27855aa799a026f8ac339aed3">More...</a><br /></td></tr>
 <tr class="separator:ga56b335d27855aa799a026f8ac339aed3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaae15c796974d02d497cc96e586c562d6"><td class="memTemplParams" colspan="2">template&lt;class TSelector , class TElemIterator &gt; </td></tr>
-<tr class="memitem:gaae15c796974d02d497cc96e586c562d6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__selection__util.html#gaae15c796974d02d497cc96e586c562d6">ug::SelectAssociatedVolumes</a> (TSelector &amp;sel, TElemIterator elemsBegin, TElemIterator elemsEnd, <a class="el" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a> status=<a class="el" href="classug_1_1_i_selector.html#ae82aecd99067ebef1e622a8a0a88f806a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a>)</td></tr>
+<tr class="memitem:gaae15c796974d02d497cc96e586c562d6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__selection__util.html#gaae15c796974d02d497cc96e586c562d6">ug::SelectAssociatedVolumes</a> (TSelector &amp;sel, TElemIterator elemsBegin, TElemIterator elemsEnd, <a class="el" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a> status=<a class="el" href="classug_1_1_i_selector.html#a0f837719414de334f887b3dc383c0714a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a>)</td></tr>
 <tr class="memdesc:gaae15c796974d02d497cc96e586c562d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">selects all associated faces of the elements between elemsBegin and elemsEnd  <a href="group__lib__grid__algorithms__selection__util.html#gaae15c796974d02d497cc96e586c562d6">More...</a><br /></td></tr>
 <tr class="separator:gaae15c796974d02d497cc96e586c562d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaad1a00f532621a225fea7234a8d73b7f"><td class="memTemplParams" colspan="2">template&lt;class TElemIterator &gt; </td></tr>
@@ -173,7 +181,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:gaad1a00f532621a225fea7234a8d73b7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">selects elements that lie on the associated grid's boundary  <a href="group__lib__grid__algorithms__selection__util.html#gaad1a00f532621a225fea7234a8d73b7f">More...</a><br /></td></tr>
 <tr class="separator:gaad1a00f532621a225fea7234a8d73b7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga196e9956b54046cb9c9eb0e7fb35756b"><td class="memTemplParams" colspan="2">template&lt;class TEdgeIterator &gt; </td></tr>
-<tr class="memitem:ga196e9956b54046cb9c9eb0e7fb35756b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__selection__util.html#ga196e9956b54046cb9c9eb0e7fb35756b">ug::SelectCreaseEdges</a> (<a class="el" href="classug_1_1_i_selector.html">ISelector</a> &amp;sel, TEdgeIterator edgesBegin, TEdgeIterator edgesEnd, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> minAngle, <a class="el" href="namespaceug.html#a780dd3524b97269f891365fd3c3b895a">APosition</a> aVrtPos, bool ignoreBoundaryEdges=true, <a class="el" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a> state=<a class="el" href="classug_1_1_i_selector.html#ae82aecd99067ebef1e622a8a0a88f806a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a>)</td></tr>
+<tr class="memitem:ga196e9956b54046cb9c9eb0e7fb35756b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__selection__util.html#ga196e9956b54046cb9c9eb0e7fb35756b">ug::SelectCreaseEdges</a> (<a class="el" href="classug_1_1_i_selector.html">ISelector</a> &amp;sel, TEdgeIterator edgesBegin, TEdgeIterator edgesEnd, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> minAngle, <a class="el" href="namespaceug.html#a780dd3524b97269f891365fd3c3b895a">APosition</a> aVrtPos, bool ignoreBoundaryEdges=true, <a class="el" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a> state=<a class="el" href="classug_1_1_i_selector.html#a0f837719414de334f887b3dc383c0714a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a>)</td></tr>
 <tr class="memdesc:ga196e9956b54046cb9c9eb0e7fb35756b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects edges which at which triangles meet in a large angle.  <a href="group__lib__grid__algorithms__selection__util.html#ga196e9956b54046cb9c9eb0e7fb35756b">More...</a><br /></td></tr>
 <tr class="separator:ga196e9956b54046cb9c9eb0e7fb35756b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaeb7f5767ae41c23f5edf7ed089c92bb5"><td class="memTemplParams" colspan="2">template&lt;class TAAPos &gt; </td></tr>
@@ -226,13 +234,27 @@ Functions</h2></td></tr>
 <tr class="memdesc:gaddeb745d2f782ee3727f8129d0281a08"><td class="mdescLeft">&#160;</td><td class="mdescRight">selects for each selected edge all edges that can be reached by a smooth path.  <a href="group__lib__grid__algorithms__selection__util.html#gaddeb745d2f782ee3727f8129d0281a08">More...</a><br /></td></tr>
 <tr class="separator:gaddeb745d2f782ee3727f8129d0281a08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaaeea5ff068776ffbae63185458468c7c"><td class="memTemplParams" colspan="2">template&lt;class TElem &gt; </td></tr>
-<tr class="memitem:gaaeea5ff068776ffbae63185458468c7c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__selection__util.html#gaaeea5ff068776ffbae63185458468c7c">ug::SelectSubsetElements</a> (<a class="el" href="classug_1_1_i_selector.html">ISelector</a> &amp;sel, <a class="el" href="classug_1_1_i_subset_handler.html">ISubsetHandler</a> &amp;sh, int subsetIndex, <a class="el" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a> status=<a class="el" href="classug_1_1_i_selector.html#ae82aecd99067ebef1e622a8a0a88f806a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a>)</td></tr>
+<tr class="memitem:gaaeea5ff068776ffbae63185458468c7c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__selection__util.html#gaaeea5ff068776ffbae63185458468c7c">ug::SelectSubsetElements</a> (<a class="el" href="classug_1_1_i_selector.html">ISelector</a> &amp;sel, <a class="el" href="classug_1_1_i_subset_handler.html">ISubsetHandler</a> &amp;sh, int subsetIndex, <a class="el" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a> status=<a class="el" href="classug_1_1_i_selector.html#a0f837719414de334f887b3dc383c0714a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a>)</td></tr>
 <tr class="memdesc:gaaeea5ff068776ffbae63185458468c7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">selects all elements of the given type in the given subset  <a href="group__lib__grid__algorithms__selection__util.html#gaaeea5ff068776ffbae63185458468c7c">More...</a><br /></td></tr>
 <tr class="separator:gaaeea5ff068776ffbae63185458468c7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab59640a4f6a3143efcd0fd5d690a81a5"><td class="memTemplParams" colspan="2">template&lt;class TAAPosVRT &gt; </td></tr>
 <tr class="memitem:gab59640a4f6a3143efcd0fd5d690a81a5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__selection__util.html#gab59640a4f6a3143efcd0fd5d690a81a5">ug::TranslateSelection</a> (<a class="el" href="classug_1_1_selector.html">Selector</a> &amp;sel, const typename TAAPosVRT::ValueType &amp;offset, TAAPosVRT &amp;aaPos)</td></tr>
 <tr class="memdesc:gab59640a4f6a3143efcd0fd5d690a81a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves all vertices touching the selection by the specified offset.  <a href="group__lib__grid__algorithms__selection__util.html#gab59640a4f6a3143efcd0fd5d690a81a5">More...</a><br /></td></tr>
 <tr class="separator:gab59640a4f6a3143efcd0fd5d690a81a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1c7e817ecbdaf6a1bdd748c04948c40f"><td class="memTemplParams" colspan="2">template&lt;class elem_t &gt; </td></tr>
+<tr class="memitem:ga1c7e817ecbdaf6a1bdd748c04948c40f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__selection__util.html#ga1c7e817ecbdaf6a1bdd748c04948c40f">ug::GetSelectedElementIndices</a> (const <a class="el" href="classug_1_1_i_selector.html">ISelector</a> &amp;sel, std::vector&lt; int &gt; &amp;indsOut)</td></tr>
+<tr class="memdesc:ga1c7e817ecbdaf6a1bdd748c04948c40f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns indices of selected elements in ascending order.  <a href="group__lib__grid__algorithms__selection__util.html#ga1c7e817ecbdaf6a1bdd748c04948c40f">More...</a><br /></td></tr>
+<tr class="separator:ga1c7e817ecbdaf6a1bdd748c04948c40f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7acd985ce17530ba80f14a822aae7806"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__selection__util.html#ga7acd985ce17530ba80f14a822aae7806">ug::GetSelectedElementIndices</a> (const <a class="el" href="classug_1_1_i_selector.html">ISelector</a> &amp;sel, std::vector&lt; size_t &gt; &amp;vrtIndsOut, std::vector&lt; size_t &gt; &amp;edgeIndsOut, std::vector&lt; size_t &gt; &amp;faceIndsOut, std::vector&lt; size_t &gt; &amp;volIndsOut)</td></tr>
+<tr class="memdesc:ga7acd985ce17530ba80f14a822aae7806"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns indices of selected elements in ascending order.  <a href="group__lib__grid__algorithms__selection__util.html#ga7acd985ce17530ba80f14a822aae7806">More...</a><br /></td></tr>
+<tr class="separator:ga7acd985ce17530ba80f14a822aae7806"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5fd727f0e4aaf158d122f36631b90af6"><td class="memTemplParams" colspan="2">template&lt;class elem_t &gt; </td></tr>
+<tr class="memitem:ga5fd727f0e4aaf158d122f36631b90af6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__selection__util.html#ga5fd727f0e4aaf158d122f36631b90af6">ug::SelectElementsByIndex</a> (<a class="el" href="classug_1_1_i_selector.html">ISelector</a> &amp;sel, const std::vector&lt; size_t &gt; &amp;inds)</td></tr>
+<tr class="memdesc:ga5fd727f0e4aaf158d122f36631b90af6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects elements with the specified indices.  <a href="group__lib__grid__algorithms__selection__util.html#ga5fd727f0e4aaf158d122f36631b90af6">More...</a><br /></td></tr>
+<tr class="separator:ga5fd727f0e4aaf158d122f36631b90af6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf6905eb975f3b180925d3a99c061fcd5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__selection__util.html#gaf6905eb975f3b180925d3a99c061fcd5">ug::SelectElementsByIndex</a> (<a class="el" href="classug_1_1_i_selector.html">ISelector</a> &amp;sel, const std::vector&lt; size_t &gt; &amp;vrtInds, const std::vector&lt; size_t &gt; &amp;edgeInds, const std::vector&lt; size_t &gt; &amp;faceInds, const std::vector&lt; size_t &gt; &amp;volInds)</td></tr>
+<tr class="memdesc:gaf6905eb975f3b180925d3a99c061fcd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects elements with the specified indices.  <a href="group__lib__grid__algorithms__selection__util.html#gaf6905eb975f3b180925d3a99c061fcd5">More...</a><br /></td></tr>
+<tr class="separator:gaf6905eb975f3b180925d3a99c061fcd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Several methods that ease selection-handling are grouped here. </p>
@@ -312,6 +334,30 @@ template&lt;class TAAPosVRT &gt; </div>
 <p>This algorithm uses <a class="el" href="classug_1_1_grid.html#a886c89b50e8f2980bfcdf74e65b23683" title="marks the object. Calls are only valid between calls to Grid::begin_marking and Grid::end_marking. ">Grid::mark</a> The center is calculated by averaging the positions of all vertices, which touch the selection. </p>
 
 <p>References <a class="el" href="classug_1_1_grid.html#a9d45fe5cb040ee7e1be8f683f257790d">ug::Grid::begin_marking()</a>, <a class="el" href="classug_1_1_selector.html#ac39d53d031cab701baa668a3fe31952d">ug::Selector::edges_begin()</a>, <a class="el" href="classug_1_1_selector.html#abcc4bc879b839f2212dec488bd54c61d">ug::Selector::edges_end()</a>, <a class="el" href="classug_1_1_grid.html#a0dfadffbcf794fe5136b4a8ba4a86959">ug::Grid::end_marking()</a>, <a class="el" href="classug_1_1_selector.html#ae9d1e8f13fcbd4d3b51e65b1d539ba74">ug::Selector::faces_begin()</a>, <a class="el" href="classug_1_1_selector.html#ac4718339ee8fa200f63ca2bb8aa02b8a">ug::Selector::faces_end()</a>, <a class="el" href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">ug::ISelector::grid()</a>, <a class="el" href="classug_1_1_grid.html#a448f44e49cf1facf5346d9ca8b449337">ug::Grid::is_marked()</a>, <a class="el" href="classug_1_1_grid.html#a886c89b50e8f2980bfcdf74e65b23683">ug::Grid::mark()</a>, <a class="el" href="group__vectors.html#ga945c247d94409091fd35fdbbcb5032c2">ug::VecAdd()</a>, <a class="el" href="group__vectors.html#gaa0cd3e6bb61c8e341541f8cf3065ec6d">ug::VecScale()</a>, <a class="el" href="group__vectors.html#ga37c542a5b243f331a1d8bb74d331ba4e">ug::VecSet()</a>, <a class="el" href="classug_1_1_selector.html#aa2b57498be205b01f3a617b1e43f44b8">ug::Selector::vertices_begin()</a>, <a class="el" href="classug_1_1_selector.html#a4c00e8f2c71c368cc542ba0e6f8a0a6e">ug::Selector::vertices_end()</a>, <a class="el" href="classug_1_1_selector.html#a8b3cae17050f9c3bbc594647835c25b6">ug::Selector::volumes_begin()</a>, and <a class="el" href="classug_1_1_selector.html#a7d16bef8b0859562c7850c8a5c72107d">ug::Selector::volumes_end()</a>.</p>
+
+</div>
+</div>
+<a id="ga8ed839e8395106abc07bd43ca814fbef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8ed839e8395106abc07bd43ca814fbef">&sect;&nbsp;</a></span>CloseSelection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TSelector &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__ugbase__common.html#ga6a442be2e75e98247f82d1aa90a06aac">UG_API</a> void ug::CloseSelection </td>
+          <td>(</td>
+          <td class="paramtype">TSelector &amp;&#160;</td>
+          <td class="paramname"><em>sel</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Selects all associated elements of lower dimensions. </p>
+
+<p>References <a class="el" href="namespaceug.html#a7b11b739e27c9a0cd47f7f30f3c5c8b4">ug::CloseSelection&lt; MGSelector &gt;()</a>, <a class="el" href="namespaceug.html#a4a7cc0db4a6fe6e15c6bcf566798d3af">ug::CloseSelection&lt; Selector &gt;()</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga2dc1da08a87499a57279c59a978412d5">SelectAssociatedEdges()</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga7bf3d284987cf5a2067a5c26be3d258a">SelectAssociatedFaces()</a>, and <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga9e53a40405cc8d62b9cf2f65ec4b70eb">SelectAssociatedVertices()</a>.</p>
 
 </div>
 </div>
@@ -474,7 +520,7 @@ template&lt;class TSelector &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a>&#160;</td>
-          <td class="paramname"><em>status</em> = <code><a class="el" href="classug_1_1_i_selector.html#ae82aecd99067ebef1e622a8a0a88f806a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a></code>&#160;</td>
+          <td class="paramname"><em>status</em> = <code><a class="el" href="classug_1_1_i_selector.html#a0f837719414de334f887b3dc383c0714a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -490,6 +536,76 @@ template&lt;class TSelector &gt; </div>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000038">Todo:</a></b></dt><dd>: Performance can be improved. See implementation. </dd></dl>
 
 <p>References <a class="el" href="classug_1_1_grid.html#a12abfbc3c3ea8447b9297cc67d37d39a">ug::Grid::associated_edges_begin()</a>, <a class="el" href="classug_1_1_grid.html#a578b44c6af08b6614f3df6aac3be8080">ug::Grid::associated_edges_end()</a>, <a class="el" href="classug_1_1_grid.html#a106cc182d347f7dcbb80cb166b9cba4e">ug::Grid::associated_faces_begin()</a>, <a class="el" href="classug_1_1_grid.html#ab9a41c2c814038390f068d76a4792af3">ug::Grid::associated_faces_end()</a>, <a class="el" href="classug_1_1_grid.html#a9b6fe1a67b9fa0d1dcb5b18d8cc23dd9">ug::Grid::associated_volumes_begin()</a>, <a class="el" href="classug_1_1_grid.html#ae4fba41614633b0b6e56e2bed4cf4e26">ug::Grid::associated_volumes_end()</a>, <a class="el" href="classug_1_1_grid.html#a9d45fe5cb040ee7e1be8f683f257790d">ug::Grid::begin_marking()</a>, <a class="el" href="classug_1_1_grid.html#a0dfadffbcf794fe5136b4a8ba4a86959">ug::Grid::end_marking()</a>, <a class="el" href="namespaceug.html#a7087b4598474e7397787217c9daea969">ug::ExtendSelection&lt; MGSelector &gt;()</a>, <a class="el" href="namespaceug.html#adbb632c4726afbdb641533d15f6db5b6">ug::ExtendSelection&lt; Selector &gt;()</a>, <a class="el" href="classug_1_1_grid.html#a448f44e49cf1facf5346d9ca8b449337">ug::Grid::is_marked()</a>, <a class="el" href="classug_1_1_grid.html#a886c89b50e8f2980bfcdf74e65b23683">ug::Grid::mark()</a>, <a class="el" href="group__lib__grid__algorithms__selection__util.html#ga5b7e771a13eff1d7b38ce51d83fe0428">ug::SelectAssociatedGridObjects()</a>, and <a class="el" href="group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>.</p>
+
+</div>
+</div>
+<a id="gaac50cb8106ea84388389da555fcc24a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaac50cb8106ea84388389da555fcc24a0">&sect;&nbsp;</a></span>ExtendSelectionInDirection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TSelector , class TAAPos &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__ugbase__common.html#ga6a442be2e75e98247f82d1aa90a06aac">UG_API</a> void ug::ExtendSelectionInDirection </td>
+          <td>(</td>
+          <td class="paramtype">TSelector &amp;&#160;</td>
+          <td class="paramname"><em>sel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>extSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const typename TAAPos::ValueType &amp;&#160;</td>
+          <td class="paramname"><em>dir</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td>
+          <td class="paramname"><em>minAngle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td>
+          <td class="paramname"><em>maxAngle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const TAAPos &amp;&#160;</td>
+          <td class="paramname"><em>aaPos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a>&#160;</td>
+          <td class="paramname"><em>status</em> = <code><a class="el" href="classug_1_1_i_selector.html#a0f837719414de334f887b3dc383c0714a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>extends the selection to neighbours of selected elements in the given direction. </p>
+<p>This algorithm uses <a class="el" href="classug_1_1_grid.html#a886c89b50e8f2980bfcdf74e65b23683" title="marks the object. Calls are only valid between calls to Grid::begin_marking and Grid::end_marking. ">Grid::mark</a>.</p>
+<p>Extension is performed extSize times.</p>
+<p>Only elements which can be reached in the given direction (centers are compared) are selected.</p>
+<p>by setting minAngle to 0 and maxAngle to 10 you may e.g. extend only in roughly the given direction.</p>
+<p>By setting minAngle to 89 and maxAngle to 91 you may e.g. extend only orthogonal to the given direction</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000039">Todo:</a></b></dt><dd>: Performance can be improved. See implementation. </dd></dl>
+
+<p>References <a class="el" href="classug_1_1_grid.html#a12abfbc3c3ea8447b9297cc67d37d39a">ug::Grid::associated_edges_begin()</a>, <a class="el" href="classug_1_1_grid.html#a578b44c6af08b6614f3df6aac3be8080">ug::Grid::associated_edges_end()</a>, <a class="el" href="classug_1_1_grid.html#a106cc182d347f7dcbb80cb166b9cba4e">ug::Grid::associated_faces_begin()</a>, <a class="el" href="classug_1_1_grid.html#ab9a41c2c814038390f068d76a4792af3">ug::Grid::associated_faces_end()</a>, <a class="el" href="classug_1_1_grid.html#a9b6fe1a67b9fa0d1dcb5b18d8cc23dd9">ug::Grid::associated_volumes_begin()</a>, <a class="el" href="classug_1_1_grid.html#ae4fba41614633b0b6e56e2bed4cf4e26">ug::Grid::associated_volumes_end()</a>, <a class="el" href="classug_1_1_grid.html#a9d45fe5cb040ee7e1be8f683f257790d">ug::Grid::begin_marking()</a>, <a class="el" href="group__lib__grid__algorithms__geom__obj__misc.html#gab600464aa067086149fad1a042b651ac">ug::CheckDirection()</a>, <a class="el" href="classug_1_1_grid.html#a0dfadffbcf794fe5136b4a8ba4a86959">ug::Grid::end_marking()</a>, <a class="el" href="classug_1_1_grid.html#a448f44e49cf1facf5346d9ca8b449337">ug::Grid::is_marked()</a>, <a class="el" href="classug_1_1_grid.html#a886c89b50e8f2980bfcdf74e65b23683">ug::Grid::mark()</a>, <a class="el" href="group__lib__grid__algorithms__selection__util.html#ga5b7e771a13eff1d7b38ce51d83fe0428">ug::SelectAssociatedGridObjects()</a>, and <a class="el" href="group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>.</p>
 
 </div>
 </div>
@@ -531,6 +647,88 @@ template&lt;class TAAPosVRT &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd><code>area</code> sum of convex faces </dd></dl>
 
 <p>References <a class="el" href="classug_1_1_grid_object_collection.html#a27adf57d1074ce4a21655998cd787690">ug::GridObjectCollection::begin()</a>, <a class="el" href="classug_1_1_grid_object_collection.html#a3c2e63747a8e9e0c90e9e281cd49fa42">ug::GridObjectCollection::end()</a>, <a class="el" href="group__domain__bridge.html#ga92317ceec1e4b3340d0956d8709024e4">ug::FaceArea()</a>, <a class="el" href="classug_1_1_i_selector.html#a06b786148f9caeeb5dbbb005a8f38f3f">ug::ISelector::get_grid_objects()</a>, <a class="el" href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">ug::ISelector::grid()</a>, <a class="el" href="classug_1_1_grid_object_collection.html#a739b8981d74007cb22567427f0603dcc">ug::GridObjectCollection::num_levels()</a>, and <a class="el" href="group__ugbase__common.html#gaa945a085bdd4070ca7446c50aec1f20c">UG_WARNING</a>.</p>
+
+</div>
+</div>
+<a id="ga1c7e817ecbdaf6a1bdd748c04948c40f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1c7e817ecbdaf6a1bdd748c04948c40f">&sect;&nbsp;</a></span>GetSelectedElementIndices() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class elem_t &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug::GetSelectedElementIndices </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classug_1_1_i_selector.html">ISelector</a> &amp;&#160;</td>
+          <td class="paramname"><em>sel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>indsOut</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns indices of selected elements in ascending order. </p>
+<dl class="section warning"><dt>Warning</dt><dd>this method has linear complexity and should be avoided unless required to exchange selection states with external programs or scripts. </dd></dl>
+
+</div>
+</div>
+<a id="ga7acd985ce17530ba80f14a822aae7806"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7acd985ce17530ba80f14a822aae7806">&sect;&nbsp;</a></span>GetSelectedElementIndices() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug::GetSelectedElementIndices </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classug_1_1_i_selector.html">ISelector</a> &amp;&#160;</td>
+          <td class="paramname"><em>sel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>vrtIndsOut</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>edgeIndsOut</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>faceIndsOut</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>volIndsOut</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns indices of selected elements in ascending order. </p>
+<dl class="section warning"><dt>Warning</dt><dd>this method has linear complexity and should be avoided unless required to exchange selection states with external programs or scripts. </dd></dl>
 
 </div>
 </div>
@@ -673,7 +871,7 @@ template&lt;class TElem , class TIterator &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a>&#160;</td>
-          <td class="paramname"><em>status</em> = <code><a class="el" href="classug_1_1_i_selector.html#ae82aecd99067ebef1e622a8a0a88f806a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a></code>&#160;</td>
+          <td class="paramname"><em>status</em> = <code><a class="el" href="classug_1_1_i_selector.html#a0f837719414de334f887b3dc383c0714a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -719,7 +917,7 @@ template&lt;class TSelector , class TElemIterator &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a>&#160;</td>
-          <td class="paramname"><em>status</em> = <code><a class="el" href="classug_1_1_i_selector.html#ae82aecd99067ebef1e622a8a0a88f806a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a></code>&#160;</td>
+          <td class="paramname"><em>status</em> = <code><a class="el" href="classug_1_1_i_selector.html#a0f837719414de334f887b3dc383c0714a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -771,7 +969,7 @@ template&lt;class TSelector , class TElemIterator &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a>&#160;</td>
-          <td class="paramname"><em>status</em> = <code><a class="el" href="classug_1_1_i_selector.html#ae82aecd99067ebef1e622a8a0a88f806a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a></code>&#160;</td>
+          <td class="paramname"><em>status</em> = <code><a class="el" href="classug_1_1_i_selector.html#a0f837719414de334f887b3dc383c0714a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -824,7 +1022,7 @@ template&lt;class TSelector , class TElemIterator &gt; </div>
 <p>If selectAssociatedElements is set to true, the selection will be complete regarding the property that for each selected element all elements of lower dimension are selected, too.</p>
 <p>It is assumed that the given selector references a valid multi-grid. That means a grid whose elements only refence elements on the same level. </p>
 
-<p>References <a class="el" href="classug_1_1_m_g_selector.html#a68535b8a3040ebc357b8389a0bdad47f">ug::MGSelector::begin()</a>, <a class="el" href="classug_1_1_m_g_selector.html#a2044f34f11e31cfe657b5610468628e1">ug::MGSelector::edges_begin()</a>, <a class="el" href="classug_1_1_m_g_selector.html#a69d7c85600f22707d1571e49592cbaf0">ug::MGSelector::edges_end()</a>, <a class="el" href="classug_1_1_m_g_selector.html#a9f9c2a048764e26883deeed0e3abee0f">ug::MGSelector::end()</a>, <a class="el" href="classug_1_1_m_g_selector.html#a3f2b51450bed889c2921bf4480628fa7">ug::MGSelector::faces_begin()</a>, <a class="el" href="classug_1_1_m_g_selector.html#a91649acc78c3d6bd154c7cb281f5d85d">ug::MGSelector::faces_end()</a>, <a class="el" href="classug_1_1_m_g_selector.html#ad43174e05739dad4aa5aecd452a6dfbf">ug::MGSelector::multi_grid()</a>, <a class="el" href="classug_1_1_m_g_selector.html#ac42ce95bb38afb55aeed76dcc269ac86">ug::MGSelector::num_levels()</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga2dc1da08a87499a57279c59a978412d5">SelectAssociatedEdges()</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga7bf3d284987cf5a2067a5c26be3d258a">SelectAssociatedFaces()</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga9e53a40405cc8d62b9cf2f65ec4b70eb">SelectAssociatedVertices()</a>, <a class="el" href="namespaceug.html#a484a950062c69d05c95ff4a86999006f">ug::SelectParents()</a>, <a class="el" href="classug_1_1_m_g_selector.html#a10c7d4f9776bd70844297a7fed6af84f">ug::MGSelector::vertices_begin()</a>, <a class="el" href="classug_1_1_m_g_selector.html#a3d5c04610599b11a85f232bdebace65b">ug::MGSelector::vertices_end()</a>, <a class="el" href="classug_1_1_m_g_selector.html#a170a5ec23be251348476a9766fc9af3f">ug::MGSelector::volumes_begin()</a>, and <a class="el" href="classug_1_1_m_g_selector.html#a8de798b0b61ab993e110961b0c290608">ug::MGSelector::volumes_end()</a>.</p>
+<p>References <a class="el" href="classug_1_1_m_g_selector.html#a68535b8a3040ebc357b8389a0bdad47f">ug::MGSelector::begin()</a>, <a class="el" href="classug_1_1_m_g_selector.html#a2044f34f11e31cfe657b5610468628e1">ug::MGSelector::edges_begin()</a>, <a class="el" href="classug_1_1_m_g_selector.html#a69d7c85600f22707d1571e49592cbaf0">ug::MGSelector::edges_end()</a>, <a class="el" href="classug_1_1_m_g_selector.html#a9f9c2a048764e26883deeed0e3abee0f">ug::MGSelector::end()</a>, <a class="el" href="classug_1_1_m_g_selector.html#a3f2b51450bed889c2921bf4480628fa7">ug::MGSelector::faces_begin()</a>, <a class="el" href="classug_1_1_m_g_selector.html#a91649acc78c3d6bd154c7cb281f5d85d">ug::MGSelector::faces_end()</a>, <a class="el" href="classug_1_1_m_g_selector.html#ad43174e05739dad4aa5aecd452a6dfbf">ug::MGSelector::multi_grid()</a>, <a class="el" href="classug_1_1_m_g_selector.html#ac42ce95bb38afb55aeed76dcc269ac86">ug::MGSelector::num_levels()</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga2dc1da08a87499a57279c59a978412d5">SelectAssociatedEdges()</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga7bf3d284987cf5a2067a5c26be3d258a">SelectAssociatedFaces()</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga9e53a40405cc8d62b9cf2f65ec4b70eb">SelectAssociatedVertices()</a>, <a class="el" href="namespaceug.html#a484a950062c69d05c95ff4a86999006f">ug::SelectParents()</a>, <a class="el" href="classug_1_1_m_g_selector.html#a10c7d4f9776bd70844297a7fed6af84f">ug::MGSelector::vertices_begin()</a>, <a class="el" href="classug_1_1_m_g_selector.html#a3d5c04610599b11a85f232bdebace65b">ug::MGSelector::vertices_end()</a>, <a class="el" href="classug_1_1_m_g_selector.html#a170a5ec23be251348476a9766fc9af3f">ug::MGSelector::volumes_begin()</a>, and <a class="el" href="classug_1_1_m_g_selector.html#a8de798b0b61ab993e110961b0c290608">ug::MGSelector::volumes_end()</a>.</p>
 
 </div>
 </div>
@@ -846,7 +1044,7 @@ template&lt;class TSelector &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a>&#160;</td>
-          <td class="paramname"><em>status</em> = <code><a class="el" href="classug_1_1_i_selector.html#ae82aecd99067ebef1e622a8a0a88f806a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a></code>&#160;</td>
+          <td class="paramname"><em>status</em> = <code><a class="el" href="classug_1_1_i_selector.html#a0f837719414de334f887b3dc383c0714a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -858,9 +1056,9 @@ template&lt;class TSelector &gt; </div>
 
 <p>selects associated geometric objects of selected ones on each level. </p>
 
-<p>References <a class="el" href="group__lib__grid.html#ggad5f5a639937a67f1018d12996992f6f3a91ebc7149fdaed37fc203643bb6e3994">ug::FACEOPT_AUTOGENERATE_EDGES</a>, <a class="el" href="classug_1_1_grid.html#a1a52ff3974dd27f9cce544226c43586c">ug::Grid::option_is_enabled()</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga2dc1da08a87499a57279c59a978412d5">SelectAssociatedEdges()</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga7bf3d284987cf5a2067a5c26be3d258a">SelectAssociatedFaces()</a>, <a class="el" href="namespaceug.html#a68e0855f02ab7a23b312592a3e6ef415">ug::SelectAssociatedGridObjects&lt; MGSelector &gt;()</a>, <a class="el" href="namespaceug.html#a4d4f376689a1d21e04293e8483680105">ug::SelectAssociatedGridObjects&lt; Selector &gt;()</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga9e53a40405cc8d62b9cf2f65ec4b70eb">SelectAssociatedVertices()</a>, <a class="el" href="group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>, <a class="el" href="group__lib__grid.html#gga1f929733097f2c587b05fa7c1f1f6502a1941a6961b3865daf7d17742e3589cb9">ug::VOLOPT_AUTOGENERATE_EDGES</a>, and <a class="el" href="group__lib__grid.html#gga1f929733097f2c587b05fa7c1f1f6502ae2c73031331562ca82b4a849a4f36874">ug::VOLOPT_AUTOGENERATE_FACES</a>.</p>
+<p>References <a class="el" href="group__lib__grid.html#ggad5f5a639937a67f1018d12996992f6f3a91ebc7149fdaed37fc203643bb6e3994">ug::FACEOPT_AUTOGENERATE_EDGES</a>, <a class="el" href="classug_1_1_grid.html#a1a52ff3974dd27f9cce544226c43586c">ug::Grid::option_is_enabled()</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga2dc1da08a87499a57279c59a978412d5">SelectAssociatedEdges()</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga7bf3d284987cf5a2067a5c26be3d258a">SelectAssociatedFaces()</a>, <a class="el" href="namespaceug.html#a68e0855f02ab7a23b312592a3e6ef415">ug::SelectAssociatedGridObjects&lt; MGSelector &gt;()</a>, <a class="el" href="namespaceug.html#a4d4f376689a1d21e04293e8483680105">ug::SelectAssociatedGridObjects&lt; Selector &gt;()</a>, <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__promesh.html#ga9e53a40405cc8d62b9cf2f65ec4b70eb">SelectAssociatedVertices()</a>, <a class="el" href="group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>, <a class="el" href="group__lib__grid.html#gga1f929733097f2c587b05fa7c1f1f6502a1941a6961b3865daf7d17742e3589cb9">ug::VOLOPT_AUTOGENERATE_EDGES</a>, and <a class="el" href="group__lib__grid.html#gga1f929733097f2c587b05fa7c1f1f6502ae2c73031331562ca82b4a849a4f36874">ug::VOLOPT_AUTOGENERATE_FACES</a>.</p>
 
-<p>Referenced by <a class="el" href="namespaceug.html#aa1d4324ccc4ad84a9d68bdfa77ba043f">ug::BroadcastGrid()</a>, <a class="el" href="namespaceug.html#ae9f0c9293fc78c54add0d8bed15cf847">ug::CopySelection()</a>, <a class="el" href="namespaceug.html#ad19f93e40fb5f6639eface39f46de1d8">ug::Duplicate()</a>, and <a class="el" href="group__lib__grid__algorithms__selection__util.html#ga9af566cc2d5fa64e02e35507a9f918f9">ug::ExtendSelection()</a>.</p>
+<p>Referenced by <a class="el" href="namespaceug.html#ade184baefd6bcf45fee96ba55b5aba4e">ug::AllGatherGrid()</a>, <a class="el" href="namespaceug.html#aa1d4324ccc4ad84a9d68bdfa77ba043f">ug::BroadcastGrid()</a>, <a class="el" href="namespaceug.html#ae9f0c9293fc78c54add0d8bed15cf847">ug::CopySelection()</a>, <a class="el" href="namespaceug.html#ad19f93e40fb5f6639eface39f46de1d8">ug::Duplicate()</a>, <a class="el" href="group__lib__grid__algorithms__selection__util.html#ga9af566cc2d5fa64e02e35507a9f918f9">ug::ExtendSelection()</a>, <a class="el" href="group__lib__grid__algorithms__selection__util.html#gaac50cb8106ea84388389da555fcc24a0">ug::ExtendSelectionInDirection()</a>, and <a class="el" href="namespaceug.html#acf03e74faf12710e6b5735d05a5b25b1">ug::GatherGrid()</a>.</p>
 
 </div>
 </div>
@@ -894,7 +1092,7 @@ template&lt;class TSelector , class TElemIterator &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a>&#160;</td>
-          <td class="paramname"><em>status</em> = <code><a class="el" href="classug_1_1_i_selector.html#ae82aecd99067ebef1e622a8a0a88f806a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a></code>&#160;</td>
+          <td class="paramname"><em>status</em> = <code><a class="el" href="classug_1_1_i_selector.html#a0f837719414de334f887b3dc383c0714a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -945,7 +1143,7 @@ template&lt;class TSelector , class TElemIterator &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a>&#160;</td>
-          <td class="paramname"><em>status</em> = <code><a class="el" href="classug_1_1_i_selector.html#ae82aecd99067ebef1e622a8a0a88f806a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a></code>&#160;</td>
+          <td class="paramname"><em>status</em> = <code><a class="el" href="classug_1_1_i_selector.html#a0f837719414de334f887b3dc383c0714a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1053,7 +1251,7 @@ template&lt;class TEdgeIterator &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a>&#160;</td>
-          <td class="paramname"><em>state</em> = <code><a class="el" href="classug_1_1_i_selector.html#ae82aecd99067ebef1e622a8a0a88f806a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a></code>&#160;</td>
+          <td class="paramname"><em>state</em> = <code><a class="el" href="classug_1_1_i_selector.html#a0f837719414de334f887b3dc383c0714a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1124,6 +1322,90 @@ template&lt;class TAAPos &gt; </div>
 <p>Selects all edges that face a given direction. </p>
 
 <p>References <a class="el" href="group__ugbase__mathutil.html#gaafe016a9ae9cce7dcf37a71079e15209">ug::deg_to_rad()</a>, <a class="el" href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">ug::ISelector::grid()</a>, <a class="el" href="lg__for__each_8h.html#ae2a0b1e127e668468b449221039b47e7">lg_end_for</a>, <a class="el" href="lg__for__each_8h.html#adfd673aeb3e3dc2596e8950162b600bc">lg_for_each</a>, <a class="el" href="classug_1_1_i_selector.html#a363d594b7adf4196fccc0d6afd24f542">ug::ISelector::select()</a>, <a class="el" href="namespaceug.html#a33c1491a216aec0f5a603a9a3dd6f758">ug::SMALL</a>, <a class="el" href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>, <a class="el" href="group__vectors.html#gae9174d47662deb0ba119e0e21f28ec71">ug::VecDot()</a>, <a class="el" href="group__vectors.html#ga53ae2dda87330ab64fb2a5901606b3e4">ug::VecNormalize()</a>, and <a class="el" href="group__vectors.html#ga5c7eda5aeb4cd0d53ce04f682d0a0058">ug::VecSubtract()</a>.</p>
+
+</div>
+</div>
+<a id="ga5fd727f0e4aaf158d122f36631b90af6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5fd727f0e4aaf158d122f36631b90af6">&sect;&nbsp;</a></span>SelectElementsByIndex() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class elem_t &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug::SelectElementsByIndex </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_i_selector.html">ISelector</a> &amp;&#160;</td>
+          <td class="paramname"><em>sel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>inds</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Selects elements with the specified indices. </p>
+<dl class="section warning"><dt>Warning</dt><dd>this method has linear complexity and should be avoided unless required to exchange selection states with external programs or scripts. </dd></dl>
+
+<p>References <a class="el" href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">ug::ISelector::grid()</a>, <a class="el" href="classug_1_1_grid.html#a544579dbb0f7a011880b43c8302934dc">ug::Grid::num()</a>, <a class="el" href="classug_1_1_i_selector.html#a363d594b7adf4196fccc0d6afd24f542">ug::ISelector::select()</a>, and <a class="el" href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>.</p>
+
+</div>
+</div>
+<a id="gaf6905eb975f3b180925d3a99c061fcd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf6905eb975f3b180925d3a99c061fcd5">&sect;&nbsp;</a></span>SelectElementsByIndex() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug::SelectElementsByIndex </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_i_selector.html">ISelector</a> &amp;&#160;</td>
+          <td class="paramname"><em>sel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>vrtInds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>edgeInds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>faceInds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>volInds</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Selects elements with the specified indices. </p>
+<dl class="section warning"><dt>Warning</dt><dd>this method has linear complexity and should be avoided unless required to exchange selection states with external programs or scripts. </dd></dl>
 
 </div>
 </div>
@@ -1667,7 +1949,7 @@ template&lt;class TAAPos &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000039">Todo:</a></b></dt><dd>: replace aPos by an template <a class="el" href="classug_1_1_attachment_accessor.html" title="Used to access data that has been attached to an attachment pipe. ">AttachmentAccessor</a> TAAPosVrt. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000040">Todo:</a></b></dt><dd>: replace aPos by an template <a class="el" href="classug_1_1_attachment_accessor.html" title="Used to access data that has been attached to an attachment pipe. ">AttachmentAccessor</a> TAAPosVrt. </dd></dl>
 
 <p>References <a class="el" href="classug_1_1_grid.html#a12abfbc3c3ea8447b9297cc67d37d39a">ug::Grid::associated_edges_begin()</a>, <a class="el" href="classug_1_1_grid.html#a578b44c6af08b6614f3df6aac3be8080">ug::Grid::associated_edges_end()</a>, <a class="el" href="classug_1_1_selector.html#ac80a1ce32174b412113b1367d1475d07">ug::Selector::begin()</a>, <a class="el" href="group__lib__grid__algorithms__edge__util.html#ga47d8d9dc1634d72a7500de9fe2e1f7a3">ug::CalculateNormal()</a>, <a class="el" href="group__ugbase__mathutil.html#gaafe016a9ae9cce7dcf37a71079e15209">ug::deg_to_rad()</a>, <a class="el" href="classug_1_1_grid.html#ae94bdb2aa02392c63f9f15bde3d21328">ug::Grid::enable_options()</a>, <a class="el" href="classug_1_1_selector.html#a0fba1e8b8589d695f1253a576a8f5d02">ug::Selector::end()</a>, <a class="el" href="group__lib__grid__algorithms__vertex__util.html#gaee1128b8bc4a8fed99814b0126b9b454">ug::GetConnectedVertex()</a>, <a class="el" href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">ug::ISelector::grid()</a>, <a class="el" href="classug_1_1_grid.html#ace5ab805d91e2051d93f4d54d24fa605">ug::Grid::has_vertex_attachment()</a>, <a class="el" href="classug_1_1_i_selector.html#a114fe907dd506fb701eaadaa713e24d7">ug::ISelector::is_selected()</a>, <a class="el" href="classug_1_1_grid.html#a1a52ff3974dd27f9cce544226c43586c">ug::Grid::option_is_enabled()</a>, <a class="el" href="classug_1_1_i_selector.html#a363d594b7adf4196fccc0d6afd24f542">ug::ISelector::select()</a>, <a class="el" href="group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>, <a class="el" href="group__vectors.html#gae9174d47662deb0ba119e0e21f28ec71">ug::VecDot()</a>, <a class="el" href="group__vectors.html#ga53ae2dda87330ab64fb2a5901606b3e4">ug::VecNormalize()</a>, <a class="el" href="group__vectors.html#ga5c7eda5aeb4cd0d53ce04f682d0a0058">ug::VecSubtract()</a>, and <a class="el" href="group__lib__grid.html#gga2d5555a08ac1dffc02be104256f71d73a326347072f1834c47c8cd0cf197e30a6">ug::VRTOPT_STORE_ASSOCIATED_EDGES</a>.</p>
 
@@ -1703,7 +1985,7 @@ template&lt;class TElem &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a>&#160;</td>
-          <td class="paramname"><em>status</em> = <code><a class="el" href="classug_1_1_i_selector.html#ae82aecd99067ebef1e622a8a0a88f806a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a></code>&#160;</td>
+          <td class="paramname"><em>status</em> = <code><a class="el" href="classug_1_1_i_selector.html#a0f837719414de334f887b3dc383c0714a851d0b56336261b9bc3fa08a5c7531db">ISelector::SELECTED</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1766,7 +2048,7 @@ template&lt;class TAAPosVRT &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:13 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:08:45 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

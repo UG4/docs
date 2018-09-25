@@ -171,6 +171,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a26d9003e323eb822eb44076a0462fe96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_composite_conv_check.html#a26d9003e323eb822eb44076a0462fe96">set_rest_check</a> (<a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> minDefect, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> relReduction)</td></tr>
 <tr class="memdesc:a26d9003e323eb822eb44076a0462fe96"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets default values for non-explicitly specified cmps  <a href="#a26d9003e323eb822eb44076a0462fe96">More...</a><br /></td></tr>
 <tr class="separator:a26d9003e323eb822eb44076a0462fe96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4012e67805c04bc9d2eea74d2c10e893"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_composite_conv_check.html#a4012e67805c04bc9d2eea74d2c10e893">set_supress_unsuccessful</a> (bool bsupress)</td></tr>
+<tr class="memdesc:a4012e67805c04bc9d2eea74d2c10e893"><td class="mdescLeft">&#160;</td><td class="mdescRight">set whether always to report success when max iter is reached (useful for LIMEX)  <a href="#a4012e67805c04bc9d2eea74d2c10e893">More...</a><br /></td></tr>
+<tr class="separator:a4012e67805c04bc9d2eea74d2c10e893"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7da131cc6a5f10bf89e4d9edf504b618"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_composite_conv_check.html#a7da131cc6a5f10bf89e4d9edf504b618">set_symbol</a> (char symbol)</td></tr>
 <tr class="memdesc:a7da131cc6a5f10bf89e4d9edf504b618"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the symbol used for output  <a href="#a7da131cc6a5f10bf89e4d9edf504b618">More...</a><br /></td></tr>
 <tr class="separator:a7da131cc6a5f10bf89e4d9edf504b618"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -293,6 +296,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a90e471b714095a555149f23ac94fa7c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_stopwatch.html">Stopwatch</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_composite_conv_check.html#a90e471b714095a555149f23ac94fa7c1">m_stopwatch</a></td></tr>
 <tr class="memdesc:a90e471b714095a555149f23ac94fa7c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">a stopwatch  <a href="#a90e471b714095a555149f23ac94fa7c1">More...</a><br /></td></tr>
 <tr class="separator:a90e471b714095a555149f23ac94fa7c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0e0058c5198a21ae3b0329d858634ae"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_composite_conv_check.html#ad0e0058c5198a21ae3b0329d858634ae">m_supress_unsuccessful</a></td></tr>
+<tr class="memdesc:ad0e0058c5198a21ae3b0329d858634ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether to always report success once max iter is reached  <a href="#ad0e0058c5198a21ae3b0329d858634ae">More...</a><br /></td></tr>
+<tr class="separator:ad0e0058c5198a21ae3b0329d858634ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ba4cb37865ed2010cdda72f8ba120db"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_composite_conv_check.html#a4ba4cb37865ed2010cdda72f8ba120db">m_symbol</a></td></tr>
 <tr class="memdesc:a4ba4cb37865ed2010cdda72f8ba120db"><td class="mdescLeft">&#160;</td><td class="mdescRight">symbol for output appearance  <a href="#a4ba4cb37865ed2010cdda72f8ba120db">More...</a><br /></td></tr>
 <tr class="separator:a4ba4cb37865ed2010cdda72f8ba120db"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -329,7 +335,7 @@ template&lt;class TVector , class TDomain &gt; </div>
 </div><div class="memdoc">
 <p>constructors </p>
 
-<p>References <a class="el" href="classug_1_1_composite_conv_check.html#a0d0171241be0fa1a607441c98191f1ee">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::set_level()</a>, and <a class="el" href="classug_1_1_grid_level.html#a661dee8dbfe42fff48bc16d7ae7f8149abc4a3eee7b9cef80d852f58ec1c106b3">ug::GridLevel::TOP</a>.</p>
+<p>References <a class="el" href="classug_1_1_composite_conv_check.html#a0d0171241be0fa1a607441c98191f1ee">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::set_level()</a>, and <a class="el" href="classug_1_1_grid_level.html#ad518c9c878ed6e5591aae5e6eb870f2eabc4a3eee7b9cef80d852f58ec1c106b3">ug::GridLevel::TOP</a>.</p>
 
 </div>
 </div>
@@ -374,7 +380,7 @@ template&lt;class TVector , class TDomain &gt; </div>
 </div><div class="memdoc">
 <p>constructors </p>
 
-<p>References <a class="el" href="classug_1_1_composite_conv_check.html#a0d0171241be0fa1a607441c98191f1ee">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::set_level()</a>, and <a class="el" href="classug_1_1_grid_level.html#a661dee8dbfe42fff48bc16d7ae7f8149abc4a3eee7b9cef80d852f58ec1c106b3">ug::GridLevel::TOP</a>.</p>
+<p>References <a class="el" href="classug_1_1_composite_conv_check.html#a0d0171241be0fa1a607441c98191f1ee">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::set_level()</a>, and <a class="el" href="classug_1_1_grid_level.html#ad518c9c878ed6e5591aae5e6eb870f2eabc4a3eee7b9cef80d852f58ec1c106b3">ug::GridLevel::TOP</a>.</p>
 
 </div>
 </div>
@@ -949,7 +955,7 @@ template&lt;class TVector , class TDomain &gt; </div>
 
 <p>Implements <a class="el" href="classug_1_1_i_convergence_check.html#adcb313c014e75112371f9eff3704a9ee">ug::IConvergenceCheck&lt; TVector &gt;</a>.</p>
 
-<p>References <a class="el" href="structug_1_1_composite_conv_check_1_1_cmp_info.html#a440c37312627fc43dcb082eb1d05b47b">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::CmpInfo::currDefect</a>, <a class="el" href="structug_1_1_composite_conv_check_1_1_cmp_info.html#aa1a61e07206c6902090a202baea88f4d">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::CmpInfo::initDefect</a>, <a class="el" href="classug_1_1_composite_conv_check.html#a8d544b22cbdf3e1c8df9106563b13899">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::is_valid_number()</a>, <a class="el" href="classug_1_1_composite_conv_check.html#ac6487d64b490b4d27bcb43334024c614">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_bTimeMeas</a>, <a class="el" href="classug_1_1_composite_conv_check.html#afd80c8f9dfe61104453ed46b12078b51">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_CmpInfo</a>, <a class="el" href="classug_1_1_composite_conv_check.html#a414f9085fd630c2384cf4d6ab18ccf5d">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_maxSteps</a>, <a class="el" href="classug_1_1_composite_conv_check.html#a90e471b714095a555149f23ac94fa7c1">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_stopwatch</a>, <a class="el" href="classug_1_1_composite_conv_check.html#a4ba4cb37865ed2010cdda72f8ba120db">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_symbol</a>, <a class="el" href="classug_1_1_composite_conv_check.html#a6d6cb63af1a159f045de42926ba220a7">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_verbose</a>, <a class="el" href="structug_1_1_composite_conv_check_1_1_cmp_info.html#aba09c11369305aa0e4c4a01f42753325">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::CmpInfo::minDefect</a>, <a class="el" href="classug_1_1_stopwatch.html#a68a4623a08a6bec41fc36cb3a6aa8cd4">ug::Stopwatch::ms()</a>, <a class="el" href="structug_1_1_composite_conv_check_1_1_cmp_info.html#a4d738d21c33d97cf574b20131cbeca2c">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::CmpInfo::name</a>, <a class="el" href="classug_1_1_composite_conv_check.html#a5907e69ac0aeea12eb098dc9c757dea6">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::print_offset()</a>, <a class="el" href="structug_1_1_composite_conv_check_1_1_cmp_info.html#a02aa602d39e8e3a28ffe651bd77e1bcf">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::CmpInfo::relReduction</a>, <a class="el" href="group__ugbase__common__util__strings.html#gaee7059d7e8d715ed7adfdeae884e4d7e">ug::repeat()</a>, <a class="el" href="classug_1_1_composite_conv_check.html#afce067d986b9d021a7034700d6f4319f">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::step()</a>, <a class="el" href="classug_1_1_stopwatch.html#a386c8052e7e3d403f34bcd006665e679">ug::Stopwatch::stop()</a>, and <a class="el" href="group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>.</p>
+<p>References <a class="el" href="structug_1_1_composite_conv_check_1_1_cmp_info.html#a440c37312627fc43dcb082eb1d05b47b">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::CmpInfo::currDefect</a>, <a class="el" href="structug_1_1_composite_conv_check_1_1_cmp_info.html#aa1a61e07206c6902090a202baea88f4d">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::CmpInfo::initDefect</a>, <a class="el" href="classug_1_1_composite_conv_check.html#a8d544b22cbdf3e1c8df9106563b13899">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::is_valid_number()</a>, <a class="el" href="classug_1_1_composite_conv_check.html#ac6487d64b490b4d27bcb43334024c614">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_bTimeMeas</a>, <a class="el" href="classug_1_1_composite_conv_check.html#afd80c8f9dfe61104453ed46b12078b51">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_CmpInfo</a>, <a class="el" href="classug_1_1_composite_conv_check.html#a414f9085fd630c2384cf4d6ab18ccf5d">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_maxSteps</a>, <a class="el" href="classug_1_1_composite_conv_check.html#a90e471b714095a555149f23ac94fa7c1">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_stopwatch</a>, <a class="el" href="classug_1_1_composite_conv_check.html#ad0e0058c5198a21ae3b0329d858634ae">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_supress_unsuccessful</a>, <a class="el" href="classug_1_1_composite_conv_check.html#a4ba4cb37865ed2010cdda72f8ba120db">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_symbol</a>, <a class="el" href="classug_1_1_composite_conv_check.html#a6d6cb63af1a159f045de42926ba220a7">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_verbose</a>, <a class="el" href="structug_1_1_composite_conv_check_1_1_cmp_info.html#aba09c11369305aa0e4c4a01f42753325">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::CmpInfo::minDefect</a>, <a class="el" href="classug_1_1_stopwatch.html#a68a4623a08a6bec41fc36cb3a6aa8cd4">ug::Stopwatch::ms()</a>, <a class="el" href="structug_1_1_composite_conv_check_1_1_cmp_info.html#a4d738d21c33d97cf574b20131cbeca2c">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::CmpInfo::name</a>, <a class="el" href="classug_1_1_composite_conv_check.html#a5907e69ac0aeea12eb098dc9c757dea6">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::print_offset()</a>, <a class="el" href="structug_1_1_composite_conv_check_1_1_cmp_info.html#a02aa602d39e8e3a28ffe651bd77e1bcf">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::CmpInfo::relReduction</a>, <a class="el" href="group__ugbase__common__util__strings.html#gaee7059d7e8d715ed7adfdeae884e4d7e">ug::repeat()</a>, <a class="el" href="classug_1_1_composite_conv_check.html#afce067d986b9d021a7034700d6f4319f">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::step()</a>, <a class="el" href="classug_1_1_stopwatch.html#a386c8052e7e3d403f34bcd006665e679">ug::Stopwatch::stop()</a>, and <a class="el" href="group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>.</p>
 
 <p>Referenced by <a class="el" href="classug_1_1_composite_conv_check.html#a7e9a423e3ed50cdb73f06728112ecfbf">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::disable_rest_check()</a>.</p>
 
@@ -1592,6 +1598,38 @@ template&lt;class TVector , class TDomain &gt; </div>
 
 </div>
 </div>
+<a id="a4012e67805c04bc9d2eea74d2c10e893"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4012e67805c04bc9d2eea74d2c10e893">&sect;&nbsp;</a></span>set_supress_unsuccessful()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TVector , class TDomain &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_composite_conv_check.html">ug::CompositeConvCheck</a>&lt; TVector, TDomain &gt;::set_supress_unsuccessful </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>bsupress</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>set whether always to report success when max iter is reached (useful for LIMEX) </p>
+
+<p>References <a class="el" href="classug_1_1_composite_conv_check.html#ad0e0058c5198a21ae3b0329d858634ae">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_supress_unsuccessful</a>.</p>
+
+</div>
+</div>
 <a id="a7da131cc6a5f10bf89e4d9edf504b618"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7da131cc6a5f10bf89e4d9edf504b618">&sect;&nbsp;</a></span>set_symbol()</h2>
 
@@ -1720,7 +1758,7 @@ template&lt;class TVector , class TDomain &gt; </div>
 
 <p>Implements <a class="el" href="classug_1_1_i_convergence_check.html#a0363eb398daf772f1884f64668e2c118">ug::IConvergenceCheck&lt; TVector &gt;</a>.</p>
 
-<p>References <a class="el" href="structug_1_1_composite_conv_check_1_1_cmp_info.html#a440c37312627fc43dcb082eb1d05b47b">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::CmpInfo::currDefect</a>, <a class="el" href="structug_1_1_composite_conv_check_1_1_cmp_info.html#aa1a61e07206c6902090a202baea88f4d">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::CmpInfo::initDefect</a>, <a class="el" href="classug_1_1_composite_conv_check.html#acb37621b5cfc463e367a3675c9510eb9">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_bAdaptive</a>, <a class="el" href="classug_1_1_composite_conv_check.html#ac6487d64b490b4d27bcb43334024c614">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_bTimeMeas</a>, <a class="el" href="classug_1_1_composite_conv_check.html#afd80c8f9dfe61104453ed46b12078b51">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_CmpInfo</a>, <a class="el" href="classug_1_1_composite_conv_check.html#ad30b1982ff8aee4ae38efa65d6c2f446">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_currentStep</a>, <a class="el" href="classug_1_1_composite_conv_check.html#a86db270575dff968185317cba1fa3f31">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_info</a>, <a class="el" href="classug_1_1_composite_conv_check.html#ad3926f51242ce5fb9ba13fa6a265e570">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_name</a>, <a class="el" href="classug_1_1_composite_conv_check.html#aaf2d49d3c80bbae705bb69bb46c439f8">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_numAllDoFs</a>, <a class="el" href="classug_1_1_composite_conv_check.html#a90e471b714095a555149f23ac94fa7c1">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_stopwatch</a>, <a class="el" href="classug_1_1_composite_conv_check.html#a4ba4cb37865ed2010cdda72f8ba120db">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_symbol</a>, <a class="el" href="classug_1_1_composite_conv_check.html#a6d6cb63af1a159f045de42926ba220a7">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_verbose</a>, <a class="el" href="classug_1_1_composite_conv_check.html#a39af5674edb11c281b547bbd1ef1da6f">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_vNativCmpInfo</a>, <a class="el" href="structug_1_1_composite_conv_check_1_1_cmp_info.html#aba09c11369305aa0e4c4a01f42753325">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::CmpInfo::minDefect</a>, <a class="el" href="structug_1_1_composite_conv_check_1_1_cmp_info.html#a4d738d21c33d97cf574b20131cbeca2c">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::CmpInfo::name</a>, <a class="el" href="classug_1_1_composite_conv_check.html#ab7ef0f0fd4108eb55663427f79370c88">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::norm()</a>, <a class="el" href="classug_1_1_composite_conv_check.html#a5907e69ac0aeea12eb098dc9c757dea6">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::print_offset()</a>, <a class="el" href="structug_1_1_composite_conv_check_1_1_cmp_info.html#a02aa602d39e8e3a28ffe651bd77e1bcf">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::CmpInfo::relReduction</a>, <a class="el" href="group__ugbase__common__util__strings.html#gaee7059d7e8d715ed7adfdeae884e4d7e">ug::repeat()</a>, <a class="el" href="classug_1_1_composite_conv_check.html#a0d0171241be0fa1a607441c98191f1ee">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::set_level()</a>, <a class="el" href="classug_1_1_stopwatch.html#a462750589a3b2a93955ac048c5f3372b">ug::Stopwatch::start()</a>, <a class="el" href="classug_1_1_composite_conv_check.html#afce067d986b9d021a7034700d6f4319f">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::step()</a>, <a class="el" href="classug_1_1_grid_level.html#a661dee8dbfe42fff48bc16d7ae7f8149abc4a3eee7b9cef80d852f58ec1c106b3">ug::GridLevel::TOP</a>, <a class="el" href="group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>, <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>, and <a class="el" href="structug_1_1_composite_conv_check_1_1_cmp_info.html#a22bd44330e771814e846ba3b9463bf9c">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::CmpInfo::vFct</a>.</p>
+<p>References <a class="el" href="structug_1_1_composite_conv_check_1_1_cmp_info.html#a440c37312627fc43dcb082eb1d05b47b">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::CmpInfo::currDefect</a>, <a class="el" href="structug_1_1_composite_conv_check_1_1_cmp_info.html#aa1a61e07206c6902090a202baea88f4d">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::CmpInfo::initDefect</a>, <a class="el" href="classug_1_1_composite_conv_check.html#acb37621b5cfc463e367a3675c9510eb9">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_bAdaptive</a>, <a class="el" href="classug_1_1_composite_conv_check.html#ac6487d64b490b4d27bcb43334024c614">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_bTimeMeas</a>, <a class="el" href="classug_1_1_composite_conv_check.html#afd80c8f9dfe61104453ed46b12078b51">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_CmpInfo</a>, <a class="el" href="classug_1_1_composite_conv_check.html#ad30b1982ff8aee4ae38efa65d6c2f446">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_currentStep</a>, <a class="el" href="classug_1_1_composite_conv_check.html#a86db270575dff968185317cba1fa3f31">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_info</a>, <a class="el" href="classug_1_1_composite_conv_check.html#ad3926f51242ce5fb9ba13fa6a265e570">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_name</a>, <a class="el" href="classug_1_1_composite_conv_check.html#aaf2d49d3c80bbae705bb69bb46c439f8">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_numAllDoFs</a>, <a class="el" href="classug_1_1_composite_conv_check.html#a90e471b714095a555149f23ac94fa7c1">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_stopwatch</a>, <a class="el" href="classug_1_1_composite_conv_check.html#a4ba4cb37865ed2010cdda72f8ba120db">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_symbol</a>, <a class="el" href="classug_1_1_composite_conv_check.html#a6d6cb63af1a159f045de42926ba220a7">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_verbose</a>, <a class="el" href="classug_1_1_composite_conv_check.html#a39af5674edb11c281b547bbd1ef1da6f">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::m_vNativCmpInfo</a>, <a class="el" href="structug_1_1_composite_conv_check_1_1_cmp_info.html#aba09c11369305aa0e4c4a01f42753325">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::CmpInfo::minDefect</a>, <a class="el" href="structug_1_1_composite_conv_check_1_1_cmp_info.html#a4d738d21c33d97cf574b20131cbeca2c">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::CmpInfo::name</a>, <a class="el" href="classug_1_1_composite_conv_check.html#ab7ef0f0fd4108eb55663427f79370c88">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::norm()</a>, <a class="el" href="classug_1_1_composite_conv_check.html#a5907e69ac0aeea12eb098dc9c757dea6">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::print_offset()</a>, <a class="el" href="structug_1_1_composite_conv_check_1_1_cmp_info.html#a02aa602d39e8e3a28ffe651bd77e1bcf">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::CmpInfo::relReduction</a>, <a class="el" href="group__ugbase__common__util__strings.html#gaee7059d7e8d715ed7adfdeae884e4d7e">ug::repeat()</a>, <a class="el" href="classug_1_1_composite_conv_check.html#a0d0171241be0fa1a607441c98191f1ee">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::set_level()</a>, <a class="el" href="classug_1_1_stopwatch.html#a462750589a3b2a93955ac048c5f3372b">ug::Stopwatch::start()</a>, <a class="el" href="classug_1_1_composite_conv_check.html#afce067d986b9d021a7034700d6f4319f">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::step()</a>, <a class="el" href="classug_1_1_grid_level.html#ad518c9c878ed6e5591aae5e6eb870f2eabc4a3eee7b9cef80d852f58ec1c106b3">ug::GridLevel::TOP</a>, <a class="el" href="group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>, <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>, and <a class="el" href="structug_1_1_composite_conv_check_1_1_cmp_info.html#a22bd44330e771814e846ba3b9463bf9c">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::CmpInfo::vFct</a>.</p>
 
 <p>Referenced by <a class="el" href="classug_1_1_composite_conv_check.html#a7e9a423e3ed50cdb73f06728112ecfbf">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::disable_rest_check()</a>.</p>
 
@@ -2287,6 +2325,34 @@ template&lt;class TVector , class TDomain &gt; </div>
 
 </div>
 </div>
+<a id="ad0e0058c5198a21ae3b0329d858634ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0e0058c5198a21ae3b0329d858634ae">&sect;&nbsp;</a></span>m_supress_unsuccessful</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TVector , class TDomain &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classug_1_1_composite_conv_check.html">ug::CompositeConvCheck</a>&lt; TVector, TDomain &gt;::m_supress_unsuccessful</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>whether to always report success once max iter is reached </p>
+
+<p>Referenced by <a class="el" href="classug_1_1_composite_conv_check.html#afd5b49c8a156dc73d5c6a060d1f3676e">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::post()</a>, and <a class="el" href="classug_1_1_composite_conv_check.html#a4012e67805c04bc9d2eea74d2c10e893">ug::CompositeConvCheck&lt; TVector, TDomain &gt;::set_supress_unsuccessful()</a>.</p>
+
+</div>
+</div>
 <a id="a4ba4cb37865ed2010cdda72f8ba120db"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4ba4cb37865ed2010cdda72f8ba120db">&sect;&nbsp;</a></span>m_symbol</h2>
 
@@ -2381,7 +2447,7 @@ template&lt;class TVector , class TDomain &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_composite_conv_check.html">CompositeConvCheck</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:19 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:08:55 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

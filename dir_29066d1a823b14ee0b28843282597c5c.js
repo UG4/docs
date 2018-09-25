@@ -17,7 +17,9 @@ var dir_29066d1a823b14ee0b28843282597c5c =
     ] ],
     [ "domain_disc_impl.h", "domain__disc__impl_8h.html", "domain__disc__impl_8h" ],
     [ "domain_disc_interface.h", "domain__disc__interface_8h.html", [
-      [ "IDomainDiscretization", "classug_1_1_i_domain_discretization.html", "classug_1_1_i_domain_discretization" ]
+      [ "IDomainDiscretization", "classug_1_1_i_domain_discretization.html", "classug_1_1_i_domain_discretization" ],
+      [ "IDomainErrorIndicator", "classug_1_1_i_domain_error_indicator.html", "classug_1_1_i_domain_error_indicator" ],
+      [ "IDomainMarker", "classug_1_1_i_domain_marker.html", "classug_1_1_i_domain_marker" ]
     ] ],
     [ "manifold_assemble_util.h", "manifold__assemble__util_8h.html", "manifold__assemble__util_8h" ],
     [ "subset_assemble_util.cpp", "subset__assemble__util_8cpp.html", "subset__assemble__util_8cpp" ],

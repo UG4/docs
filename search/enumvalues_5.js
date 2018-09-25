@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['face',['FACE',['../classug_1_1_reference_element.html#a5d867bc7f75994687dffdab712f844feae8f260a5049e070cc9bf7bb5e18ab253',1,'ug::ReferenceElement::FACE()'],['../namespaceug.html#aa6080d1386c107c8bd602be84495c13caf19e27843c818933471265612910299c',1,'ug::FACE()']]],
+  ['face',['FACE',['../classug_1_1_reference_element.html#abf0df41ab82d3536970a5ef73ab0d61bae8f260a5049e070cc9bf7bb5e18ab253',1,'ug::ReferenceElement::FACE()'],['../namespaceug.html#aa6080d1386c107c8bd602be84495c13caf19e27843c818933471265612910299c',1,'ug::FACE()']]],
   ['faceopt_5fautogenerate_5fedges',['FACEOPT_AUTOGENERATE_EDGES',['../group__lib__grid.html#ggad5f5a639937a67f1018d12996992f6f3a91ebc7149fdaed37fc203643bb6e3994',1,'ug']]],
   ['faceopt_5fnone',['FACEOPT_NONE',['../group__lib__grid.html#ggad5f5a639937a67f1018d12996992f6f3a6c7088f58a90e48011ac336435ec413e',1,'ug']]],
   ['faceopt_5fstore_5fassociated_5fedges',['FACEOPT_STORE_ASSOCIATED_EDGES',['../group__lib__grid.html#ggad5f5a639937a67f1018d12996992f6f3a22be3452679b2b3acd0167464269d9d1',1,'ug']]],

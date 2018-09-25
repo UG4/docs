@@ -1,5 +1,10 @@
 var dir_19b07d542fc74410c650cf2f822fcbd5 =
 [
+    [ "composite_time_disc.h", "composite__time__disc_8h.html", [
+      [ "CompositeAssTuner", "classug_1_1_composite_time_discretization_1_1_composite_ass_tuner.html", "classug_1_1_composite_time_discretization_1_1_composite_ass_tuner" ],
+      [ "CompositeTimeDiscretization", "classug_1_1_composite_time_discretization.html", "classug_1_1_composite_time_discretization" ]
+    ] ],
+    [ "composite_time_disc_impl.h", "composite__time__disc__impl_8h.html", null ],
     [ "solution_time_series.h", "solution__time__series_8h.html", [
       [ "LocalVectorTimeSeries", "classug_1_1_local_vector_time_series.html", "classug_1_1_local_vector_time_series" ],
       [ "TimeSol", "classug_1_1_vector_time_series_1_1_time_sol.html", "classug_1_1_vector_time_series_1_1_time_sol" ],

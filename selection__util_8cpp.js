@@ -1,5 +1,8 @@
 var selection__util_8cpp =
 [
+    [ "CloseSelection", "selection__util_8cpp.html#ga8ed839e8395106abc07bd43ca814fbef", null ],
+    [ "CloseSelection< MGSelector >", "selection__util_8cpp.html#a7b11b739e27c9a0cd47f7f30f3c5c8b4", null ],
+    [ "CloseSelection< Selector >", "selection__util_8cpp.html#a4a7cc0db4a6fe6e15c6bcf566798d3af", null ],
     [ "CollectVerticesTouchingSelection", "selection__util_8cpp.html#gacd3ae9a0df6c3c86c9a9581b04d77b7f", null ],
     [ "DeselectBoundarySelectionEdges", "selection__util_8cpp.html#ga61890f4a326b8bb8b8ed4821b13fb765", null ],
     [ "DeselectBoundarySelectionEdges< MGSelector >", "selection__util_8cpp.html#af41b1202b252ea7adf5740277947529d", null ],
@@ -16,6 +19,8 @@ var selection__util_8cpp =
     [ "ExtendSelection", "selection__util_8cpp.html#ga9af566cc2d5fa64e02e35507a9f918f9", null ],
     [ "ExtendSelection< MGSelector >", "selection__util_8cpp.html#a7087b4598474e7397787217c9daea969", null ],
     [ "ExtendSelection< Selector >", "selection__util_8cpp.html#adbb632c4726afbdb641533d15f6db5b6", null ],
+    [ "GetSelectedElementIndices", "selection__util_8cpp.html#aec1d6e5a54424d3e177a33ada46bfa8f", null ],
+    [ "GetSelectedElementIndices", "selection__util_8cpp.html#ga7acd985ce17530ba80f14a822aae7806", null ],
     [ "InvertSelection", "selection__util_8cpp.html#ga3e6acf610dabc547633a29946aaf1df7", null ],
     [ "InvertSelection< MGSelector >", "selection__util_8cpp.html#ad28ebac32dc46b7e1936e913e36de1bb", null ],
     [ "InvertSelection< Selector >", "selection__util_8cpp.html#ae9b1dc2d6de39ccede767c7b4ea49992", null ],
@@ -23,6 +28,8 @@ var selection__util_8cpp =
     [ "SelectAssociatedGridObjects", "selection__util_8cpp.html#ga5b7e771a13eff1d7b38ce51d83fe0428", null ],
     [ "SelectAssociatedGridObjects< MGSelector >", "selection__util_8cpp.html#a68e0855f02ab7a23b312592a3e6ef415", null ],
     [ "SelectAssociatedGridObjects< Selector >", "selection__util_8cpp.html#a4d4f376689a1d21e04293e8483680105", null ],
+    [ "SelectElementsByIndex", "selection__util_8cpp.html#ga5fd727f0e4aaf158d122f36631b90af6", null ],
+    [ "SelectElementsByIndex", "selection__util_8cpp.html#gaf6905eb975f3b180925d3a99c061fcd5", null ],
     [ "SelectInnerSelectionEdges", "selection__util_8cpp.html#ga5ee1e6ec145bc10deda7c568718df210", null ],
     [ "SelectInnerSelectionEdges< MGSelector >", "selection__util_8cpp.html#ab7f52d9c11a8be3c31acadee2088475f", null ],
     [ "SelectInnerSelectionEdges< Selector >", "selection__util_8cpp.html#a8e30abae2bb35f1f55cd95c5129d9c0f", null ],

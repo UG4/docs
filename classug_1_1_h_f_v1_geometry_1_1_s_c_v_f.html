@@ -106,7 +106,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a183202caa6fb67315e0c7d2c5e1e51ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determinante of Jacobian in integration point.  <a href="#a183202caa6fb67315e0c7d2c5e1e51ad">More...</a><br /></td></tr>
 <tr class="separator:a183202caa6fb67315e0c7d2c5e1e51ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5911554ecbdee2a325bca150738e9a26"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_h_f_v1_geometry_1_1_s_c_v_f.html#a5911554ecbdee2a325bca150738e9a26">from</a> () const</td></tr>
-<tr class="memdesc:a5911554ecbdee2a325bca150738e9a26"><td class="mdescLeft">&#160;</td><td class="mdescRight">index of SubControlVolume on one side of the scvf  <a href="#a5911554ecbdee2a325bca150738e9a26">More...</a><br /></td></tr>
 <tr class="separator:a5911554ecbdee2a325bca150738e9a26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b6f5b525377fb41a5ff765855dfddb2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; <a class="el" href="classug_1_1_h_f_v1_geometry_1_1_s_c_v_f.html#a3c13642e6ffd87b3d49f4f1c82226daf">worldDim</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_h_f_v1_geometry_1_1_s_c_v_f.html#a3b6f5b525377fb41a5ff765855dfddb2">global_corner</a> (size_t co) const</td></tr>
 <tr class="memdesc:a3b6f5b525377fb41a5ff765855dfddb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">return glbal corner number i  <a href="#a3b6f5b525377fb41a5ff765855dfddb2">More...</a><br /></td></tr>
@@ -153,7 +152,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a8a80ebc32dcd87e6073ef96907eead78"><td class="mdescLeft">&#160;</td><td class="mdescRight">value of shape function i in integration point  <a href="#a8a80ebc32dcd87e6073ef96907eead78">More...</a><br /></td></tr>
 <tr class="separator:a8a80ebc32dcd87e6073ef96907eead78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e79deefecb52cb4250b0a32073db31b"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_h_f_v1_geometry_1_1_s_c_v_f.html#a9e79deefecb52cb4250b0a32073db31b">to</a> () const</td></tr>
-<tr class="memdesc:a9e79deefecb52cb4250b0a32073db31b"><td class="mdescLeft">&#160;</td><td class="mdescRight">index of SubControlVolume on one side of the scvf  <a href="#a9e79deefecb52cb4250b0a32073db31b">More...</a><br /></td></tr>
 <tr class="separator:a9e79deefecb52cb4250b0a32073db31b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
@@ -291,8 +289,7 @@ template&lt;typename TElem , int TWorldDim&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>index of SubControlVolume on one side of the scvf </p>
+<p>index of SubControlVolume on one side of the scvf NO! return value is the associated NODE_ID; this is not the same! </p>
 
 </div>
 </div>
@@ -747,8 +744,7 @@ template&lt;typename TElem , int TWorldDim&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>index of SubControlVolume on one side of the scvf </p>
+<p>index of SubControlVolume on one side of the scvf NO! return value is the associated NODE_ID; this is not the same! </p>
 
 </div>
 </div>
@@ -1213,7 +1209,7 @@ template&lt;typename TElem , int TWorldDim&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_h_f_v1_geometry.html">HFV1Geometry</a></li><li class="navelem"><a class="el" href="classug_1_1_h_f_v1_geometry_1_1_s_c_v_f.html">SCVF</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:28 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:09:07 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

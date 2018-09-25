@@ -10,6 +10,7 @@ var group__misc__bridge =
     [ "GetBuildHostname", "group__misc__bridge.html#ga46bb4a55100beb7e58dfa23039eaaefd", null ],
     [ "GetClockS", "group__misc__bridge.html#ga6e1622c55780af718a6ee80d8a2b53f5", null ],
     [ "GetCompileDate", "group__misc__bridge.html#ga95a6e29922a6b62772160024ea77f19f", null ],
+    [ "GetGITRevision", "group__misc__bridge.html#gaff78c8ca702062c9dec67c9f24bed259", null ],
     [ "GetLogAssistantTag", "group__misc__bridge.html#ga61bf414164623917f1ced0415d769909", null ],
     [ "GetOperatingSystem", "group__misc__bridge.html#gac21124964e445cb7d5c0299019b4f839", null ],
     [ "GetSVNRevision", "group__misc__bridge.html#ga2e3d09a57d4d391a2cd6e38464f70abc", null ],
@@ -42,5 +43,6 @@ var group__misc__bridge =
     [ "PrintBuildConfiguration", "group__misc__bridge.html#ga4b122584495e7c7ef0658b28c0a08fc9", null ],
     [ "PrintBuildConfigurationExtended", "group__misc__bridge.html#ga3baebed3cbf4d9f578f8f6a6287b5330", null ],
     [ "RegisterBridge_Misc", "group__misc__bridge.html#ga1713326f2e200502fe03973400b581c8", null ],
+    [ "RegisterBridge_OrthoPoly", "group__misc__bridge.html#gaef6e48ad47e56f4fc23d3dc0acc864d5", null ],
     [ "SetDebugLevel", "group__misc__bridge.html#ga6ec7bc00b48b00258144ee068fd070d9", null ]
 ];

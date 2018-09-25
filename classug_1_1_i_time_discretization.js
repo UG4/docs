@@ -7,6 +7,7 @@ var classug_1_1_i_time_discretization =
     [ "ass_tuner", "classug_1_1_i_time_discretization.html#aad992f6587f0519dc73dc53c554eae6c", null ],
     [ "ass_tuner", "classug_1_1_i_time_discretization.html#ab155eae8645be5c5c7216511227acf0e", null ],
     [ "constraint", "classug_1_1_i_time_discretization.html#a5878e08d1c0e8356ad41259e485ba1f5", null ],
+    [ "domain_disc", "classug_1_1_i_time_discretization.html#a83ee87328be5c381c8b60cd904826c19", null ],
     [ "finish_step", "classug_1_1_i_time_discretization.html#a1104884e51d50640c01fc306629671a0", null ],
     [ "finish_step_elem", "classug_1_1_i_time_discretization.html#a85c5814d4141ac87a596f4df6514388b", null ],
     [ "finish_step_elem", "classug_1_1_i_time_discretization.html#ab965dfe9692cb749ae61256c3dbae4f2", null ],

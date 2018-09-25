@@ -1,7 +1,7 @@
 var searchData=
 [
   ['abort_5ftraversal',['ABORT_TRAVERSAL',['../namespaceug.html#a5fddfc6e4ce10eef53ba75dc15f6a5ada2d12d7fa969384b24970df2888580765',1,'ug']]],
-  ['adaptiv',['ADAPTIV',['../classug_1_1_l_f_e_i_d.html#a7befff246bb0bc05f16a393c3418ed4ca29c05b9ed2a51283ec09e63ab7f5dcf1',1,'ug::LFEID']]],
+  ['adaptiv',['ADAPTIV',['../classug_1_1_l_f_e_i_d.html#acb7304472271fcae2f8b49e3eb5b8efea29c05b9ed2a51283ec09e63ab7f5dcf1',1,'ug::LFEID']]],
   ['after_5fpost_5fsmooth',['AFTER_POST_SMOOTH',['../classug_1_1_m_g_stats.html#a600f1e0525cddb0fa18bd62f216b0a39a67da52473a6573b4c0c27b62f262d708',1,'ug::MGStats']]],
   ['after_5fpre_5fsmooth',['AFTER_PRE_SMOOTH',['../classug_1_1_m_g_stats.html#a600f1e0525cddb0fa18bd62f216b0a39a0b2a633fb19f6e188825515bc7cd153d',1,'ug::MGStats']]],
   ['all',['ALL',['../classug_1_1_surface_view.html#a7d8e70d5e1ce9db8fb5f7ba04806d074aa832e9888717e9271d96b61ec41e2424',1,'ug::SurfaceView']]],
@@ -11,5 +11,9 @@ var searchData=
   ['assign',['ASSIGN',['../classug_1_1_v_m_add.html#a4cc874f6c10e7fa011f70188a803251da3d19819c9968819bfbeccbf0178b1f75',1,'ug::VMAdd']]],
   ['at_5fdata',['AT_DATA',['../namespaceug.html#a7101aa0f9defd0985ecf2bf9e06ff49eaaa47d6583e411ea9049a1e4aa8e97889',1,'ug']]],
   ['at_5fgui',['AT_GUI',['../namespaceug.html#a7101aa0f9defd0985ecf2bf9e06ff49ea582977d53c70947b5e8d16c7de99e6c4',1,'ug']]],
-  ['attach_5ffailed',['ATTACH_FAILED',['../namespaceug_1_1vrl_1_1threading.html#ad5d2391adf4ce478c67bf82ee1e98565a10624fb586f1b046630a503294ecedec',1,'ug::vrl::threading']]]
+  ['attach_5ffailed',['ATTACH_FAILED',['../namespaceug_1_1vrl_1_1threading.html#ad5d2391adf4ce478c67bf82ee1e98565a10624fb586f1b046630a503294ecedec',1,'ug::vrl::threading']]],
+  ['aux_5fa11',['AUX_A11',['../classug_1_1_uzawa_base.html#a638efff55db2d88dd4ee52445d16c0c7a5fa51e2a2a084345d43c21015b289bbe',1,'ug::UzawaBase']]],
+  ['aux_5farray_5fsize',['AUX_ARRAY_SIZE',['../classug_1_1_uzawa_base.html#a638efff55db2d88dd4ee52445d16c0c7a6102aa27147c1f7e02ef5898e83f4a44',1,'ug::UzawaBase']]],
+  ['aux_5fc22',['AUX_C22',['../classug_1_1_uzawa_base.html#a638efff55db2d88dd4ee52445d16c0c7a916cfa3144acd4b27957fede2a1bec30',1,'ug::UzawaBase']]],
+  ['aux_5fm22',['AUX_M22',['../classug_1_1_uzawa_base.html#a638efff55db2d88dd4ee52445d16c0c7a7e8f52f38e544f5c9359d3fa88ceb387',1,'ug::UzawaBase']]]
 ];

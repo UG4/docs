@@ -145,7 +145,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>head</p>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="common__util_8lua.html">common_util.lua</a> :89-91 </p><div class="fragment"><div class="line"><span class="keyword">function</span> common:<a class="code" href="group__scripts__util__common.html#ga9c326c1fa3079808260f6438d4e132fe">head</a>(list, last)</div><div class="line">   <span class="keywordflow">return</span> { table.remove({select(1, unpack(list))}, last) }</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="common__util_8lua.html">common_util.lua</a> :89-91 </p><div class="fragment"><div class="line"><span class="keyword">function</span> common:<a class="code" href="group__scripts__util__common.html#ga9c326c1fa3079808260f6438d4e132fe">head</a>(list, last)</div><div class="line">   <span class="keywordflow">return</span> { table.remove({select(1, unpack(list))}, last) }</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="gad4007d486553b389ee21505600d04aa9"></a>
@@ -174,7 +174,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>unpacks a list of lists (trivial recursion to unpack all levels if needed) emulates printf</p>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="common__util_8lua.html">common_util.lua</a> :64-66 </p><div class="fragment"><div class="line"><span class="keyword">function</span> common:<a class="code" href="group__scripts__util.html#gab781ed69e4f57e12df2eaf7440bbeeb3">printf</a>(s, ...) </div><div class="line">   <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(prepare(s, ...))</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="common__util_8lua.html">common_util.lua</a> :64-66 </p><div class="fragment"><div class="line"><span class="keyword">function</span> common:<a class="code" href="group__scripts__util.html#gab781ed69e4f57e12df2eaf7440bbeeb3">printf</a>(s, ...) </div><div class="line">   <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(prepare(s, ...))</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="gaa697a96888cc22cbc39e04889dcc41e4"></a>
@@ -203,7 +203,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>emulates printf with newline appended</p>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="common__util_8lua.html">common_util.lua</a> :69-71 </p><div class="fragment"><div class="line"><span class="keyword">function</span> common:<a class="code" href="group__scripts__util__common.html#gaa697a96888cc22cbc39e04889dcc41e4">printfn</a>(s, ...)</div><div class="line">   <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(prepare(s .. &quot;\n&quot;, ...))</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="common__util_8lua.html">common_util.lua</a> :69-71 </p><div class="fragment"><div class="line"><span class="keyword">function</span> common:<a class="code" href="group__scripts__util__common.html#gaa697a96888cc22cbc39e04889dcc41e4">printfn</a>(s, ...)</div><div class="line">   <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(prepare(s .. &quot;\n&quot;, ...))</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="gab69731f01b54786e1c8487d6b42186c5"></a>
@@ -232,7 +232,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>lists all files in a directory, then stores it into a table</p>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="common__util_8lua.html">common_util.lua</a> :104-157 </p>
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="common__util_8lua.html">common_util.lua</a> :104-157 </p>
 
 </div>
 </div>
@@ -262,7 +262,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>list all ugx files</p>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="common__util_8lua.html">common_util.lua</a> :162-164 </p><div class="fragment"><div class="line"><span class="keyword">function</span> common:<a class="code" href="group__scripts__util__common.html#gafe3aaa387a8d0a0244e0bd553cac7d44">scandir_ugx</a>(directory, extension)</div><div class="line">   <span class="keywordflow">return</span> common:<a class="code" href="group__scripts__util__common.html#gab69731f01b54786e1c8487d6b42186c5">scandir</a>(directory, <span class="stringliteral">&quot;ugx&quot;</span>)</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="common__util_8lua.html">common_util.lua</a> :162-164 </p><div class="fragment"><div class="line"><span class="keyword">function</span> common:<a class="code" href="group__scripts__util__common.html#gafe3aaa387a8d0a0244e0bd553cac7d44">scandir_ugx</a>(directory, extension)</div><div class="line">   <span class="keywordflow">return</span> common:<a class="code" href="group__scripts__util__common.html#gab69731f01b54786e1c8487d6b42186c5">scandir</a>(directory, <span class="stringliteral">&quot;ugx&quot;</span>)</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="gaa370b12f572740b2ef0e0b5eb93c51db"></a>
@@ -291,7 +291,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>list all xml files</p>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="common__util_8lua.html">common_util.lua</a> :169-171 </p><div class="fragment"><div class="line"><span class="keyword">function</span> common:<a class="code" href="group__scripts__util__common.html#gaa370b12f572740b2ef0e0b5eb93c51db">scandir_xml</a>(directory, extension)</div><div class="line">   <span class="keywordflow">return</span> common:<a class="code" href="group__scripts__util__common.html#gab69731f01b54786e1c8487d6b42186c5">scandir</a>(directory, <span class="stringliteral">&quot;xml&quot;</span>)</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="common__util_8lua.html">common_util.lua</a> :169-171 </p><div class="fragment"><div class="line"><span class="keyword">function</span> common:<a class="code" href="group__scripts__util__common.html#gaa370b12f572740b2ef0e0b5eb93c51db">scandir_xml</a>(directory, extension)</div><div class="line">   <span class="keywordflow">return</span> common:<a class="code" href="group__scripts__util__common.html#gab69731f01b54786e1c8487d6b42186c5">scandir</a>(directory, <span class="stringliteral">&quot;xml&quot;</span>)</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="gad65b97af187a42638c30dd88807a1728"></a>
@@ -320,7 +320,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>split filename by delimiter (defaults to slash) and takes the n-th group</p>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="common__util_8lua.html">common_util.lua</a> :94-99 </p><div class="fragment"><div class="line"><span class="keyword">function</span> string:<a class="code" href="group__scripts__util__common.html#gad65b97af187a42638c30dd88807a1728">split_path</a>(sep, n)</div><div class="line">   local sep, fields = sep or <span class="stringliteral">&quot;/&quot;</span>, {}</div><div class="line">   local pat = <span class="keywordtype">string</span>.format(<span class="stringliteral">&quot;([^%s]+)&quot;</span>, sep)</div><div class="line">   <span class="keyword">self</span>:gsub(pat, <span class="keyword">function</span>(z) fields[#fields+1] = z end)</div><div class="line">   <span class="keywordflow">return</span> fields[n or #fields]</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="common__util_8lua.html">common_util.lua</a> :94-99 </p><div class="fragment"><div class="line"><span class="keyword">function</span> string:<a class="code" href="group__scripts__util__common.html#gad65b97af187a42638c30dd88807a1728">split_path</a>(sep, n)</div><div class="line">   local sep, fields = sep or <span class="stringliteral">&quot;/&quot;</span>, {}</div><div class="line">   local pat = <span class="keywordtype">string</span>.format(<span class="stringliteral">&quot;([^%s]+)&quot;</span>, sep)</div><div class="line">   <span class="keyword">self</span>:gsub(pat, <span class="keyword">function</span>(z) fields[#fields+1] = z end)</div><div class="line">   <span class="keywordflow">return</span> fields[n or #fields]</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="ga52ede8548aa38f3a221e1b673703c38e"></a>
@@ -349,8 +349,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>emulates sprintf</p>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="common__util_8lua.html">common_util.lua</a> :74-76 </p><div class="fragment"><div class="line"><span class="keyword">function</span> common:<a class="code" href="group__scripts__util__common.html#ga52ede8548aa38f3a221e1b673703c38e">sprintf</a>(s, ...)</div><div class="line">   return prepare(s, ...)</div><div class="line">end</div></div><!-- fragment --> 
-<p>Referenced by <a class="el" href="classug_1_1_newton_solver.html#a4173ef979975e9cf0a353110fabcae7f">ug::NewtonSolver&lt; TAlgebra &gt;::apply()</a>, <a class="el" href="classug_1_1_n_l_jacobi_solver.html#a21544e3e00fa1fe9a1b3f238992ab978">ug::NLJacobiSolver&lt; TAlgebra &gt;::apply()</a>, <a class="el" href="classug_1_1_n_l_gauss_seidel_solver.html#a9a366b01233acc84498bb65f66fde49d">ug::NLGaussSeidelSolver&lt; TDomain, TAlgebra &gt;::apply()</a>, <a class="el" href="classug_1_1_local_schur_complement.html#a9bfdebfe94c3809b6c60eb2d4d10e92d">ug::LocalSchurComplement&lt; algebra_type &gt;::apply()</a>, <a class="el" href="classug_1_1_auto_linear_solver.html#aa83eea4fc3354a6f88f2429ac8cc426f">ug::AutoLinearSolver&lt; TVector &gt;::apply_return_defect()</a>, <a class="el" href="classug_1_1_grid_writer_u_g_x.html#aa3e96b152b65ab1e19193a8fbab93044">ug::GridWriterUGX::create_constrained_vertex_node()</a>, <a class="el" href="classug_1_1_grid_writer_u_g_x.html#add4a5f35c778ebe4d5472ac38b0cc02c">ug::GridWriterUGX::create_vertex_node()</a>, <a class="el" href="namespaceug_1_1_connection_viewer.html#af81102dba0ce8d102a584ebdb0c65cf4">ug::ConnectionViewer::GetParallelName()</a>, <a class="el" href="namespaceug_1_1script.html#a99049bb49a14c361808d2da28b6613a0">ug::script::LuaCallHook()</a>, <a class="el" href="namespaceug_1_1bridge_1_1lua.html#afe427a95c9df3b4781daa91a60160860">ug::bridge::lua::LuaToStringDefault()</a>, <a class="el" href="structug_1_1_tar_header.html#a4dd5fe3370e21d497ed834f7da1bbd36">ug::TarHeader::set_checksum()</a>, <a class="el" href="structug_1_1_tar_header.html#a0bfb4083f4b027450321f2a9a9d8c2e3">ug::TarHeader::set_filesize()</a>, <a class="el" href="structug_1_1_tar_header.html#ab7794a73a5e31b07bfa9bf47ae667e91">ug::TarHeader::TarHeader()</a>, <a class="el" href="lexer_8cpp.html#a8fdafe3be7e00ce3d4f0cb50a9a5eb39">while()</a>, <a class="el" href="classug_1_1_n_l_jacobi_solver.html#ac220e3df2a5c98e9991b34f9ccf714d4">ug::NLJacobiSolver&lt; TAlgebra &gt;::write_debug()</a>, <a class="el" href="classug_1_1_newton_solver.html#a2cd7c138beeca0d0dcd0857e64adb27b">ug::NewtonSolver&lt; TAlgebra &gt;::write_debug()</a>, <a class="el" href="classug_1_1_n_l_gauss_seidel_solver.html#af033657f847b48e0667cbed13aa64584">ug::NLGaussSeidelSolver&lt; TDomain, TAlgebra &gt;::write_debug()</a>, <a class="el" href="classug_1_1_f_e_t_i_solver.html#a4f3c6850138ba37e1b815423a0691e8d">ug::FETISolver&lt; TAlgebra &gt;::write_debug()</a>, <a class="el" href="classug_1_1_linear_solver.html#a165136e9760fe4662cd96ffa99471f81">ug::LinearSolver&lt; ParallelVector&lt; Vector&lt; double &gt; &gt; &gt;::write_debugXCD()</a>, <a class="el" href="namespaceug_1_1_connection_viewer.html#a9b4f71249c9f546d7d831751a080f8d9">ug::ConnectionViewer::WriteMatrixPar()</a>, and <a class="el" href="namespaceug.html#a492878f056972710a188d2befcc11921">ug::WriteVectorCSV()</a>.</p>
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="common__util_8lua.html">common_util.lua</a> :74-76 </p><div class="fragment"><div class="line"><span class="keyword">function</span> common:<a class="code" href="group__scripts__util__common.html#ga52ede8548aa38f3a221e1b673703c38e">sprintf</a>(s, ...)</div><div class="line">   return prepare(s, ...)</div><div class="line">end</div></div><!-- fragment --> 
+<p>Referenced by <a class="el" href="classug_1_1_newton_solver.html#a4173ef979975e9cf0a353110fabcae7f">ug::NewtonSolver&lt; TAlgebra &gt;::apply()</a>, <a class="el" href="classug_1_1_nested_iteration_solver.html#a5e082392b407690032e0c01ee2c91db7">ug::NestedIterationSolver&lt; TDomain, TAlgebra &gt;::apply()</a>, <a class="el" href="classug_1_1_n_l_jacobi_solver.html#a21544e3e00fa1fe9a1b3f238992ab978">ug::NLJacobiSolver&lt; TAlgebra &gt;::apply()</a>, <a class="el" href="classug_1_1_n_l_gauss_seidel_solver.html#a9a366b01233acc84498bb65f66fde49d">ug::NLGaussSeidelSolver&lt; TDomain, TAlgebra &gt;::apply()</a>, <a class="el" href="classug_1_1_local_schur_complement.html#a9bfdebfe94c3809b6c60eb2d4d10e92d">ug::LocalSchurComplement&lt; algebra_type &gt;::apply()</a>, <a class="el" href="classug_1_1_auto_linear_solver.html#aa83eea4fc3354a6f88f2429ac8cc426f">ug::AutoLinearSolver&lt; TVector &gt;::apply_return_defect()</a>, <a class="el" href="classug_1_1_grid_writer_u_g_x.html#aa3e96b152b65ab1e19193a8fbab93044">ug::GridWriterUGX::create_constrained_vertex_node()</a>, <a class="el" href="classug_1_1_grid_writer_u_g_x.html#add4a5f35c778ebe4d5472ac38b0cc02c">ug::GridWriterUGX::create_vertex_node()</a>, <a class="el" href="namespaceug_1_1_connection_viewer.html#af81102dba0ce8d102a584ebdb0c65cf4">ug::ConnectionViewer::GetParallelName()</a>, <a class="el" href="namespaceug_1_1script.html#a99049bb49a14c361808d2da28b6613a0">ug::script::LuaCallHook()</a>, <a class="el" href="namespaceug_1_1bridge_1_1lua.html#afe427a95c9df3b4781daa91a60160860">ug::bridge::lua::LuaToStringDefault()</a>, <a class="el" href="structug_1_1_tar_header.html#a4dd5fe3370e21d497ed834f7da1bbd36">ug::TarHeader::set_checksum()</a>, <a class="el" href="structug_1_1_tar_header.html#a0bfb4083f4b027450321f2a9a9d8c2e3">ug::TarHeader::set_filesize()</a>, <a class="el" href="structug_1_1_tar_header.html#ab7794a73a5e31b07bfa9bf47ae667e91">ug::TarHeader::TarHeader()</a>, <a class="el" href="lexer_8cpp.html#a8fdafe3be7e00ce3d4f0cb50a9a5eb39">while()</a>, <a class="el" href="classug_1_1_n_l_jacobi_solver.html#ac220e3df2a5c98e9991b34f9ccf714d4">ug::NLJacobiSolver&lt; TAlgebra &gt;::write_debug()</a>, <a class="el" href="classug_1_1_newton_solver.html#a2cd7c138beeca0d0dcd0857e64adb27b">ug::NewtonSolver&lt; TAlgebra &gt;::write_debug()</a>, <a class="el" href="classug_1_1_n_l_gauss_seidel_solver.html#af033657f847b48e0667cbed13aa64584">ug::NLGaussSeidelSolver&lt; TDomain, TAlgebra &gt;::write_debug()</a>, <a class="el" href="classug_1_1_f_e_t_i_solver.html#a4f3c6850138ba37e1b815423a0691e8d">ug::FETISolver&lt; TAlgebra &gt;::write_debug()</a>, <a class="el" href="classug_1_1_linear_solver.html#a165136e9760fe4662cd96ffa99471f81">ug::LinearSolver&lt; ug::ParallelVector &gt;::write_debugXCD()</a>, <a class="el" href="namespaceug_1_1_connection_viewer.html#a9b4f71249c9f546d7d831751a080f8d9">ug::ConnectionViewer::WriteMatrixPar()</a>, and <a class="el" href="namespaceug.html#a492878f056972710a188d2befcc11921">ug::WriteVectorCSV()</a>.</p>
 
 </div>
 </div>
@@ -380,7 +380,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>emulates sprintfn</p>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="common__util_8lua.html">common_util.lua</a> :79-81 </p><div class="fragment"><div class="line"><span class="keyword">function</span> common:<a class="code" href="group__scripts__util__common.html#gaf7c55bd2473f58c88e942c639a63be8e">sprintfn</a>(s, ...)</div><div class="line">   return prepare(s .. &quot;\n&quot; , ...)</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="common__util_8lua.html">common_util.lua</a> :79-81 </p><div class="fragment"><div class="line"><span class="keyword">function</span> common:<a class="code" href="group__scripts__util__common.html#gaf7c55bd2473f58c88e942c639a63be8e">sprintfn</a>(s, ...)</div><div class="line">   return prepare(s .. &quot;\n&quot; , ...)</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 <a id="ga1b163c002af14d515b8a8d92ccc4f15b"></a>
@@ -409,7 +409,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>tail</p>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="common__util_8lua.html">common_util.lua</a> :84-86 </p><div class="fragment"><div class="line"><span class="keyword">function</span> common:<a class="code" href="group__scripts__util__common.html#ga1b163c002af14d515b8a8d92ccc4f15b">tail</a>(list, first)</div><div class="line">    <span class="keywordflow">return</span> { select(first or 10, unpack(list)) }</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="common__util_8lua.html">common_util.lua</a> :84-86 </p><div class="fragment"><div class="line"><span class="keyword">function</span> common:<a class="code" href="group__scripts__util__common.html#ga1b163c002af14d515b8a8d92ccc4f15b">tail</a>(list, first)</div><div class="line">    <span class="keywordflow">return</span> { select(first or 10, unpack(list)) }</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 </div><!-- contents -->
@@ -417,7 +417,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:13 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:08:45 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

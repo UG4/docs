@@ -6,6 +6,7 @@ var classug_1_1_projection_handler =
     [ "ProjectionHandler", "classug_1_1_projection_handler.html#a375c087ec4b0e8cd5044885e3043bb0b", null ],
     [ "ProjectionHandler", "classug_1_1_projection_handler.html#ae4fc3b589d2a628c105200532b8e6975", null ],
     [ "~ProjectionHandler", "classug_1_1_projection_handler.html#a975970ee6462af8fcd500ea6cc8d8529", null ],
+    [ "clear", "classug_1_1_projection_handler.html#ae88745df4967cc42bda2079784e8d686", null ],
     [ "default_projector", "classug_1_1_projection_handler.html#afec819d56408bbf6859655e5507e624a", null ],
     [ "default_projector", "classug_1_1_projection_handler.html#a3985e8ef66b2687a13e7a411e46396bb", null ],
     [ "handle_new_vertex", "classug_1_1_projection_handler.html#ad44bd868b0ea56e7a58957155e58b082", null ],

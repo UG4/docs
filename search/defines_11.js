@@ -11,5 +11,7 @@ var searchData=
   ['srlz_5fprofile_5fend',['SRLZ_PROFILE_END',['../lib__grid_2algorithms_2serialization_8cpp.html#a124ec5849287d8e158611918fb6a5d73',1,'serialization.cpp']]],
   ['srlz_5fprofile_5ffunc',['SRLZ_PROFILE_FUNC',['../lib__grid_2algorithms_2serialization_8cpp.html#a5856557c3dec31500f391c046f201ab6',1,'serialization.cpp']]],
   ['sta_5ferr_5fwhere',['STA_ERR_WHERE',['../raster__impl_8hpp.html#a830aff9bf7410c0ff4b7677fbba9a358',1,'raster_impl.hpp']]],
+  ['stl_5freader_5fcond_5fthrow',['STL_READER_COND_THROW',['../stl__reader_8h.html#ac46eb930e343d35b3729ed68a65787a2',1,'stl_reader.h']]],
+  ['stl_5freader_5fthrow',['STL_READER_THROW',['../stl__reader_8h.html#ad1f73011673b374d1131dd449757c4d7',1,'stl_reader.h']]],
   ['sub',['SUB',['../tri__box_8cpp.html#aaba63925b170e4dfe313e528c1ca5862',1,'SUB():&#160;tri_box.cpp'],['../tritri_8cpp.html#a241dda3a0a43611f1187bdfebc3391d7',1,'SUB():&#160;tritri.cpp']]]
 ];

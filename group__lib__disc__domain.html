@@ -124,6 +124,8 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ga265beede9914cc81504ee2fc70abba6c"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="group__lib__disc__domain.html#gaddd977dfbd169f8e280d0b425fc3a55d">base_type::grid_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga265beede9914cc81504ee2fc70abba6c">ug::Domain&lt; d, TGrid, TSubsetHandler &gt;::grid_type</a></td></tr>
 <tr class="memdesc:ga265beede9914cc81504ee2fc70abba6c"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classug_1_1_grid.html" title="Manages the elements of a grid and their interconnection. ">Grid</a> type.  <a href="#ga265beede9914cc81504ee2fc70abba6c">More...</a><br /></td></tr>
 <tr class="separator:ga265beede9914cc81504ee2fc70abba6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga83e79410ddd3cc6a7280fb8565e58214"><td class="memItemLeft" align="right" valign="top">typedef unsigned long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga83e79410ddd3cc6a7280fb8565e58214">ug::DomainInfo::int_t</a></td></tr>
+<tr class="separator:ga83e79410ddd3cc6a7280fb8565e58214"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0cde3052ec2d8ff36f0851dc8abbe959"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classug_1_1_grid_1_1_vertex_attachment_accessor.html">Grid::VertexAttachmentAccessor</a>&lt; <a class="el" href="group__lib__disc__domain.html#ga47cf17494c8656e5e9e0039957f1dab8">position_attachment_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga0cde3052ec2d8ff36f0851dc8abbe959">ug::Domain&lt; d, TGrid, TSubsetHandler &gt;::position_accessor_type</a></td></tr>
 <tr class="memdesc:ga0cde3052ec2d8ff36f0851dc8abbe959"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of Accessor to the Position Data <a class="el" href="classug_1_1_attachment.html" title="A generic specialization of IAttachment. ">Attachment</a>.  <a href="#ga0cde3052ec2d8ff36f0851dc8abbe959">More...</a><br /></td></tr>
 <tr class="separator:ga0cde3052ec2d8ff36f0851dc8abbe959"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -166,9 +168,13 @@ Functions</h2></td></tr>
 <tr class="memitem:gaa5f6f2d4e3c8ac3de2cce67d76818dd0"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#gaa5f6f2d4e3c8ac3de2cce67d76818dd0">ug::CollectCornerCoordinates</a> (int base_object_id, std::vector&lt; typename TDomain::position_type &gt; &amp;vCornerCoordsOut, <a class="el" href="classug_1_1_grid_object.html">GridObject</a> &amp;elem, const TDomain &amp;domain, bool clearContainer)</td></tr>
 <tr class="memdesc:gaa5f6f2d4e3c8ac3de2cce67d76818dd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the corner coordinates of a geometric object  <a href="group__lib__disc__domain.html#gaa5f6f2d4e3c8ac3de2cce67d76818dd0">More...</a><br /></td></tr>
 <tr class="separator:gaa5f6f2d4e3c8ac3de2cce67d76818dd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga309291fa809335b2a41743ff92f832b5"><td class="memTemplParams" colspan="2">template&lt;class TElem &gt; </td></tr>
-<tr class="memitem:ga309291fa809335b2a41743ff92f832b5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga309291fa809335b2a41743ff92f832b5">ug::IDomain&lt; TGrid, TSubsetHandler &gt;::count_ghosts</a> (std::vector&lt; int &gt; &amp;numGhostsOnLvlOut)</td></tr>
-<tr class="separator:ga309291fa809335b2a41743ff92f832b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa6b7d80cdeda982e0d6f2be4cdbc7db3"><td class="memTemplParams" colspan="2">template&lt;class TElem &gt; </td></tr>
+<tr class="memitem:gaa6b7d80cdeda982e0d6f2be4cdbc7db3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#gaa6b7d80cdeda982e0d6f2be4cdbc7db3">ug::IDomain&lt; TGrid, TSubsetHandler &gt;::count_ghosts</a> (std::vector&lt; <a class="el" href="group__lib__disc__domain.html#ga83e79410ddd3cc6a7280fb8565e58214">DomainInfo::int_t</a> &gt; &amp;numGhostsOnLvlOut)</td></tr>
+<tr class="separator:gaa6b7d80cdeda982e0d6f2be4cdbc7db3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8bb8aa727ac8ee0f38474a7ecb781b56"><td class="memTemplParams" colspan="2">template&lt;class TElem &gt; </td></tr>
+<tr class="memitem:ga8bb8aa727ac8ee0f38474a7ecb781b56"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga8bb8aa727ac8ee0f38474a7ecb781b56">ug::IDomain&lt; TGrid, TSubsetHandler &gt;::count_local_unique_surface_elements</a> ()</td></tr>
+<tr class="memdesc:ga8bb8aa727ac8ee0f38474a7ecb781b56"><td class="mdescLeft">&#160;</td><td class="mdescRight">counts local surface elements which are not ghosts or h-slaves  <a href="#ga8bb8aa727ac8ee0f38474a7ecb781b56">More...</a><br /></td></tr>
+<tr class="separator:ga8bb8aa727ac8ee0f38474a7ecb781b56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaafc466ad12fd72ef04d75865cf8a13e3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#gaafc466ad12fd72ef04d75865cf8a13e3">ug::IDomain&lt; TGrid, TSubsetHandler &gt;::create_additional_subset_handler</a> (std::string name)</td></tr>
 <tr class="memdesc:gaafc466ad12fd72ef04d75865cf8a13e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates an additional subset-handler with the given name  <a href="#gaafc466ad12fd72ef04d75865cf8a13e3">More...</a><br /></td></tr>
 <tr class="separator:gaafc466ad12fd72ef04d75865cf8a13e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -238,9 +244,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga5868280e2cec9518e4102e9c2def2931"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga5868280e2cec9518e4102e9c2def2931">ug::IDomain&lt; TGrid, TSubsetHandler &gt;::is_parallel</a> ()</td></tr>
 <tr class="memdesc:ga5868280e2cec9518e4102e9c2def2931"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns whether the domain can be used for parallel computations  <a href="#ga5868280e2cec9518e4102e9c2def2931">More...</a><br /></td></tr>
 <tr class="separator:ga5868280e2cec9518e4102e9c2def2931"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac2c582c7991fd7cfef7f1f94c3abdca6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#gac2c582c7991fd7cfef7f1f94c3abdca6">ug::DomainInfo::max_num_local_elements_on_level</a> (size_t lvl) const</td></tr>
-<tr class="memdesc:gac2c582c7991fd7cfef7f1f94c3abdca6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the maximum number of elements a process has on a given leven (excluding ghosts)  <a href="#gac2c582c7991fd7cfef7f1f94c3abdca6">More...</a><br /></td></tr>
-<tr class="separator:gac2c582c7991fd7cfef7f1f94c3abdca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6253cec65176afbc0835ad5ee01e1935"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga6253cec65176afbc0835ad5ee01e1935">ug::DomainInfo::max_num_local_elements_on_level</a> (size_t lvl) const</td></tr>
+<tr class="memdesc:ga6253cec65176afbc0835ad5ee01e1935"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the maximum number of elements a process has on a given leven (excluding ghosts)  <a href="#ga6253cec65176afbc0835ad5ee01e1935">More...</a><br /></td></tr>
+<tr class="separator:ga6253cec65176afbc0835ad5ee01e1935"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gabec50f482fcf7cd803fd4fff13ea8fc7"><td class="memTemplParams" colspan="2">template&lt;typename TDomain &gt; </td></tr>
 <tr class="memitem:gabec50f482fcf7cd803fd4fff13ea8fc7"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#gabec50f482fcf7cd803fd4fff13ea8fc7">ug::MaxElementDiameter</a> (TDomain &amp;domain, int level)</td></tr>
 <tr class="memdesc:gabec50f482fcf7cd803fd4fff13ea8fc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the maximal diameter of all elements between iterBegin and iterEnd.  <a href="group__lib__disc__domain.html#gabec50f482fcf7cd803fd4fff13ea8fc7">More...</a><br /></td></tr>
@@ -248,24 +254,27 @@ Functions</h2></td></tr>
 <tr class="memitem:gaa91fbc571659c8b2d4740bcd23b3d9d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common__util.html#gaa073ef1403d5a94fe5c5f39524d2ea00">SPMessageHub</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#gaa91fbc571659c8b2d4740bcd23b3d9d6">ug::IDomain&lt; TGrid, TSubsetHandler &gt;::message_hub</a> ()</td></tr>
 <tr class="memdesc:gaa91fbc571659c8b2d4740bcd23b3d9d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the message hub of the grid  <a href="#gaa91fbc571659c8b2d4740bcd23b3d9d6">More...</a><br /></td></tr>
 <tr class="separator:gaa91fbc571659c8b2d4740bcd23b3d9d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga078a304fc2895cd50ac3b383e2d0f290"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga078a304fc2895cd50ac3b383e2d0f290">ug::DomainInfo::min_num_local_elements_on_level</a> (size_t lvl) const</td></tr>
-<tr class="memdesc:ga078a304fc2895cd50ac3b383e2d0f290"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the minimum number of elements a process has on a given leven (excluding ghosts)  <a href="#ga078a304fc2895cd50ac3b383e2d0f290">More...</a><br /></td></tr>
-<tr class="separator:ga078a304fc2895cd50ac3b383e2d0f290"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8430152744cd8f70c07ef541e443ddc9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga8430152744cd8f70c07ef541e443ddc9">ug::DomainInfo::num_elements</a> () const</td></tr>
-<tr class="separator:ga8430152744cd8f70c07ef541e443ddc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga530f0d37376468a62e1dac7e844747e9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga530f0d37376468a62e1dac7e844747e9">ug::DomainInfo::num_elements_on_level</a> (size_t lvl) const</td></tr>
-<tr class="memdesc:ga530f0d37376468a62e1dac7e844747e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the global number of elements on the given level (excluding ghosts...)  <a href="#ga530f0d37376468a62e1dac7e844747e9">More...</a><br /></td></tr>
-<tr class="separator:ga530f0d37376468a62e1dac7e844747e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1bd6e7f158fd55271f8ba47aedf81c39"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga1bd6e7f158fd55271f8ba47aedf81c39">ug::DomainInfo::min_num_local_elements_on_level</a> (size_t lvl) const</td></tr>
+<tr class="memdesc:ga1bd6e7f158fd55271f8ba47aedf81c39"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the minimum number of elements a process has on a given leven (excluding ghosts)  <a href="#ga1bd6e7f158fd55271f8ba47aedf81c39">More...</a><br /></td></tr>
+<tr class="separator:ga1bd6e7f158fd55271f8ba47aedf81c39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacc26f5809ea7148f5b1c7201675b38be"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#gacc26f5809ea7148f5b1c7201675b38be">ug::DomainInfo::num_elements</a> () const</td></tr>
+<tr class="separator:gacc26f5809ea7148f5b1c7201675b38be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2c1c3f1a69f2be9dbf57bf6ae40e6cde"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga2c1c3f1a69f2be9dbf57bf6ae40e6cde">ug::DomainInfo::num_elements_on_level</a> (size_t lvl) const</td></tr>
+<tr class="memdesc:ga2c1c3f1a69f2be9dbf57bf6ae40e6cde"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the global number of elements on the given level (excluding ghosts...)  <a href="#ga2c1c3f1a69f2be9dbf57bf6ae40e6cde">More...</a><br /></td></tr>
+<tr class="separator:ga2c1c3f1a69f2be9dbf57bf6ae40e6cde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gafe0d2648375a93cc2cec78f3c0f238c6"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#gafe0d2648375a93cc2cec78f3c0f238c6">ug::DomainInfo::num_levels</a> () const</td></tr>
 <tr class="separator:gafe0d2648375a93cc2cec78f3c0f238c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaea231942e4e7ef51e5db4f6c7f5f328e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#gaea231942e4e7ef51e5db4f6c7f5f328e">ug::DomainInfo::num_local_elements_on_level</a> (size_t lvl) const</td></tr>
-<tr class="memdesc:gaea231942e4e7ef51e5db4f6c7f5f328e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the local number of elements on the given level (excluding ghosts...)  <a href="#gaea231942e4e7ef51e5db4f6c7f5f328e">More...</a><br /></td></tr>
-<tr class="separator:gaea231942e4e7ef51e5db4f6c7f5f328e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga81c1f05379b43dffcce8496fa09eb21b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga81c1f05379b43dffcce8496fa09eb21b">ug::DomainInfo::num_local_ghosts_on_level</a> (size_t lvl) const</td></tr>
-<tr class="memdesc:ga81c1f05379b43dffcce8496fa09eb21b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the local number of ghosts on the given level  <a href="#ga81c1f05379b43dffcce8496fa09eb21b">More...</a><br /></td></tr>
-<tr class="separator:ga81c1f05379b43dffcce8496fa09eb21b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaee1b8734dac67943795612761439b56c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#gaee1b8734dac67943795612761439b56c">ug::DomainInfo::num_subsets</a> () const</td></tr>
-<tr class="separator:gaee1b8734dac67943795612761439b56c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6b046878e320d4ad55717085502c5318"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga6b046878e320d4ad55717085502c5318">ug::DomainInfo::num_local_elements_on_level</a> (size_t lvl) const</td></tr>
+<tr class="memdesc:ga6b046878e320d4ad55717085502c5318"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the local number of elements on the given level (excluding ghosts...)  <a href="#ga6b046878e320d4ad55717085502c5318">More...</a><br /></td></tr>
+<tr class="separator:ga6b046878e320d4ad55717085502c5318"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8bc711aec09b78276aa9009d0c9a7bc8"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga8bc711aec09b78276aa9009d0c9a7bc8">ug::DomainInfo::num_local_ghosts_on_level</a> (size_t lvl) const</td></tr>
+<tr class="memdesc:ga8bc711aec09b78276aa9009d0c9a7bc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the local number of ghosts on the given level  <a href="#ga8bc711aec09b78276aa9009d0c9a7bc8">More...</a><br /></td></tr>
+<tr class="separator:ga8bc711aec09b78276aa9009d0c9a7bc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeb7a1a544b144f54a79a44d8f354e049"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#gaeb7a1a544b144f54a79a44d8f354e049">ug::DomainInfo::num_subsets</a> () const</td></tr>
+<tr class="separator:gaeb7a1a544b144f54a79a44d8f354e049"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab8a355d818a8925c598035cc5d6a74a5"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#gab8a355d818a8925c598035cc5d6a74a5">ug::DomainInfo::num_surface_elements</a> () const</td></tr>
+<tr class="memdesc:gab8a355d818a8925c598035cc5d6a74a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the global number of surface elements (elements without children)  <a href="#gab8a355d818a8925c598035cc5d6a74a5">More...</a><br /></td></tr>
+<tr class="separator:gab8a355d818a8925c598035cc5d6a74a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9d834a7e9f6abc07a90b8cea07d03c8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__lib__disc__domain.html#ga0cde3052ec2d8ff36f0851dc8abbe959">position_accessor_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga9d834a7e9f6abc07a90b8cea07d03c8f">ug::Domain&lt; d, TGrid, TSubsetHandler &gt;::position_accessor</a> ()</td></tr>
 <tr class="memdesc:ga9d834a7e9f6abc07a90b8cea07d03c8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">get Position Accessor  <a href="#ga9d834a7e9f6abc07a90b8cea07d03c8f">More...</a><br /></td></tr>
 <tr class="separator:ga9d834a7e9f6abc07a90b8cea07d03c8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -287,13 +296,13 @@ Functions</h2></td></tr>
 <tr class="separator:ga2403c9653c1e59616deeab52792abc55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6343fde825fd36dd03b13157d17b64e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga6343fde825fd36dd03b13157d17b64e4">ug::IDomain&lt; TGrid, TSubsetHandler &gt;::serialize_projector</a> (<a class="el" href="classug_1_1_binary_buffer.html">BinaryBuffer</a> &amp;bufOut, <a class="el" href="namespaceug.html#a1a220d9b7f4057bf059723a8c0dc056d">SPRefinementProjector</a> proj)</td></tr>
 <tr class="separator:ga6343fde825fd36dd03b13157d17b64e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga83aacf0e65cfaac27638f506c2dcd109"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga83aacf0e65cfaac27638f506c2dcd109">ug::DomainInfo::set_info</a> (<a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13c">GridBaseObjectId</a> elemType, const std::vector&lt; int &gt; &amp;numElems, const std::vector&lt; int &gt; &amp;numLocalElems, const std::vector&lt; int &gt; &amp;minNumLocalElems, const std::vector&lt; int &gt; &amp;maxNumLocalElems, const std::vector&lt; int &gt; &amp;numLocalGhosts, const std::vector&lt; int &gt; &amp;subsetDims)</td></tr>
-<tr class="separator:ga83aacf0e65cfaac27638f506c2dcd109"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad2b2d24aabd59f39907761e5fab2093b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#gad2b2d24aabd59f39907761e5fab2093b">ug::DomainInfo::set_info</a> (<a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13c">GridBaseObjectId</a> elemType, const std::vector&lt; <a class="el" href="group__lib__disc__domain.html#ga83e79410ddd3cc6a7280fb8565e58214">int_t</a> &gt; &amp;numElems, const std::vector&lt; <a class="el" href="group__lib__disc__domain.html#ga83e79410ddd3cc6a7280fb8565e58214">int_t</a> &gt; &amp;numLocalElems, const std::vector&lt; <a class="el" href="group__lib__disc__domain.html#ga83e79410ddd3cc6a7280fb8565e58214">int_t</a> &gt; &amp;minNumLocalElems, const std::vector&lt; <a class="el" href="group__lib__disc__domain.html#ga83e79410ddd3cc6a7280fb8565e58214">int_t</a> &gt; &amp;maxNumLocalElems, const std::vector&lt; <a class="el" href="group__lib__disc__domain.html#ga83e79410ddd3cc6a7280fb8565e58214">int_t</a> &gt; &amp;numLocalGhosts, const std::vector&lt; <a class="el" href="group__lib__disc__domain.html#ga83e79410ddd3cc6a7280fb8565e58214">int_t</a> &gt; &amp;subsetDims, <a class="el" href="group__lib__disc__domain.html#ga83e79410ddd3cc6a7280fb8565e58214">int_t</a> numSurfElems)</td></tr>
+<tr class="separator:gad2b2d24aabd59f39907761e5fab2093b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga12fedb231836a957a88d788d46f7cbc6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga12fedb231836a957a88d788d46f7cbc6">ug::IDomain&lt; TGrid, TSubsetHandler &gt;::set_refinement_projector</a> (<a class="el" href="namespaceug.html#a1a220d9b7f4057bf059723a8c0dc056d">SPRefinementProjector</a> proj)</td></tr>
 <tr class="memdesc:ga12fedb231836a957a88d788d46f7cbc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the <a class="el" href="classug_1_1_refinement_projector.html" title="Adjusts vertex coordinates during refinement. ">ug::RefinementProjector</a> which can be used by refiners during refinement  <a href="#ga12fedb231836a957a88d788d46f7cbc6">More...</a><br /></td></tr>
 <tr class="separator:ga12fedb231836a957a88d788d46f7cbc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga25d65911dbedd0653b7458e18683ed4b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga25d65911dbedd0653b7458e18683ed4b">ug::DomainInfo::subset_dim</a> (int si) const</td></tr>
-<tr class="separator:ga25d65911dbedd0653b7458e18683ed4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf60ed620fde0a0d12662d0b610488d32"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#gaf60ed620fde0a0d12662d0b610488d32">ug::DomainInfo::subset_dim</a> (int si) const</td></tr>
+<tr class="separator:gaf60ed620fde0a0d12662d0b610488d32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga179e5ba81b8476263523e59350300928"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; TSubsetHandler &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga179e5ba81b8476263523e59350300928">ug::IDomain&lt; TGrid, TSubsetHandler &gt;::subset_handler</a> ()</td></tr>
 <tr class="memdesc:ga179e5ba81b8476263523e59350300928"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns Subset Handler  <a href="#ga179e5ba81b8476263523e59350300928">More...</a><br /></td></tr>
 <tr class="separator:ga179e5ba81b8476263523e59350300928"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -338,17 +347,19 @@ Variables</h2></td></tr>
 <tr class="separator:gacdbbe493eacf478f08944b428d4785e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga67182034f7219e175af9b73e2bdfbc22"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga67182034f7219e175af9b73e2bdfbc22">ug::IDomain&lt; TGrid, TSubsetHandler &gt;::m_isAdaptive</a></td></tr>
 <tr class="separator:ga67182034f7219e175af9b73e2bdfbc22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8b36d31056e25155dc2075ae6902df79"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga8b36d31056e25155dc2075ae6902df79">ug::DomainInfo::m_maxNumLocalElems</a></td></tr>
-<tr class="separator:ga8b36d31056e25155dc2075ae6902df79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaafce1ae46d7618c1410803c67025bce3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#gaafce1ae46d7618c1410803c67025bce3">ug::DomainInfo::m_minNumLocalElems</a></td></tr>
-<tr class="separator:gaafce1ae46d7618c1410803c67025bce3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaab0e43c36f047406fd64ece85cefc482"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#gaab0e43c36f047406fd64ece85cefc482">ug::DomainInfo::m_numElems</a></td></tr>
-<tr class="separator:gaab0e43c36f047406fd64ece85cefc482"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga140e90541805072fd2d693ea3ea30ff9"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga140e90541805072fd2d693ea3ea30ff9">ug::DomainInfo::m_numLocalElems</a></td></tr>
-<tr class="memdesc:ga140e90541805072fd2d693ea3ea30ff9"><td class="mdescLeft">&#160;</td><td class="mdescRight">local number of elements excluding ghosts.  <a href="#ga140e90541805072fd2d693ea3ea30ff9">More...</a><br /></td></tr>
-<tr class="separator:ga140e90541805072fd2d693ea3ea30ff9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga67f550c13fb1f04a88152c96c09d4b4e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga67f550c13fb1f04a88152c96c09d4b4e">ug::DomainInfo::m_numLocalGhosts</a></td></tr>
-<tr class="separator:ga67f550c13fb1f04a88152c96c09d4b4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4ac7795ac59de1aedfc146ef73123e40"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="group__lib__disc__domain.html#ga83e79410ddd3cc6a7280fb8565e58214">int_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga4ac7795ac59de1aedfc146ef73123e40">ug::DomainInfo::m_maxNumLocalElems</a></td></tr>
+<tr class="separator:ga4ac7795ac59de1aedfc146ef73123e40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1ee55c096a4b99497c66fd76e1702ed1"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="group__lib__disc__domain.html#ga83e79410ddd3cc6a7280fb8565e58214">int_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga1ee55c096a4b99497c66fd76e1702ed1">ug::DomainInfo::m_minNumLocalElems</a></td></tr>
+<tr class="separator:ga1ee55c096a4b99497c66fd76e1702ed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga34485b239adb60b18615c43bdaf524ea"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="group__lib__disc__domain.html#ga83e79410ddd3cc6a7280fb8565e58214">int_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga34485b239adb60b18615c43bdaf524ea">ug::DomainInfo::m_numElems</a></td></tr>
+<tr class="separator:ga34485b239adb60b18615c43bdaf524ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafce0e95ec0580874d9c5383bee9d9255"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="group__lib__disc__domain.html#ga83e79410ddd3cc6a7280fb8565e58214">int_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#gafce0e95ec0580874d9c5383bee9d9255">ug::DomainInfo::m_numLocalElems</a></td></tr>
+<tr class="memdesc:gafce0e95ec0580874d9c5383bee9d9255"><td class="mdescLeft">&#160;</td><td class="mdescRight">local number of elements excluding ghosts.  <a href="#gafce0e95ec0580874d9c5383bee9d9255">More...</a><br /></td></tr>
+<tr class="separator:gafce0e95ec0580874d9c5383bee9d9255"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga944e792b3a89ec6c1af5d63023b96cac"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="group__lib__disc__domain.html#ga83e79410ddd3cc6a7280fb8565e58214">int_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga944e792b3a89ec6c1af5d63023b96cac">ug::DomainInfo::m_numLocalGhosts</a></td></tr>
+<tr class="separator:ga944e792b3a89ec6c1af5d63023b96cac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac0039781022356071cdfcf062d5937fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__lib__disc__domain.html#ga83e79410ddd3cc6a7280fb8565e58214">int_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#gac0039781022356071cdfcf062d5937fe">ug::DomainInfo::m_numSurfElems</a></td></tr>
+<tr class="separator:gac0039781022356071cdfcf062d5937fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac266f72b0c13a84a9d2350095f6065d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceug.html#a1a220d9b7f4057bf059723a8c0dc056d">SPRefinementProjector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#gac266f72b0c13a84a9d2350095f6065d5">ug::IDomain&lt; TGrid, TSubsetHandler &gt;::m_refinementProjector</a></td></tr>
 <tr class="separator:gac266f72b0c13a84a9d2350095f6065d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5be70ff24c7a919c7bcd4e45ad310864"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; TGrid &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga5be70ff24c7a919c7bcd4e45ad310864">ug::IDomain&lt; TGrid, TSubsetHandler &gt;::m_spGrid</a></td></tr>
@@ -363,8 +374,8 @@ Variables</h2></td></tr>
 <tr class="memitem:gaac41b3d3305e545c8cec53e53470c92d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; TSubsetHandler &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#gaac41b3d3305e545c8cec53e53470c92d">ug::IDomain&lt; TGrid, TSubsetHandler &gt;::m_spSH</a></td></tr>
 <tr class="memdesc:gaac41b3d3305e545c8cec53e53470c92d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subset Handler.  <a href="#gaac41b3d3305e545c8cec53e53470c92d">More...</a><br /></td></tr>
 <tr class="separator:gaac41b3d3305e545c8cec53e53470c92d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga18fd950bf4936463f1a5d56e6093d1d4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga18fd950bf4936463f1a5d56e6093d1d4">ug::DomainInfo::m_subsetDims</a></td></tr>
-<tr class="separator:ga18fd950bf4936463f1a5d56e6093d1d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2113a19211c46c150ee3354320f39da0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="group__lib__disc__domain.html#ga83e79410ddd3cc6a7280fb8565e58214">int_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#ga2113a19211c46c150ee3354320f39da0">ug::DomainInfo::m_subsetDims</a></td></tr>
+<tr class="separator:ga2113a19211c46c150ee3354320f39da0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae81c98b2b5fbd430ac9c0b5be33ee2a6"><td class="memTemplParams" colspan="2">template&lt;typename TDomain &gt; </td></tr>
 <tr class="memitem:gae81c98b2b5fbd430ac9c0b5be33ee2a6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__disc__domain.html#gae81c98b2b5fbd430ac9c0b5be33ee2a6">ug::LoadDomain</a> (TDomain &amp;domain, const char *filename)</td></tr>
 <tr class="memdesc:gae81c98b2b5fbd430ac9c0b5be33ee2a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a domain from a grid-file.  <a href="group__lib__disc__domain.html#gae81c98b2b5fbd430ac9c0b5be33ee2a6">More...</a><br /></td></tr>
@@ -478,6 +489,20 @@ template&lt;int d, typename TGrid = MultiGrid, typename TSubsetHandler = MGSubse
 </div><div class="memdoc">
 
 <p><a class="el" href="classug_1_1_grid.html" title="Manages the elements of a grid and their interconnection. ">Grid</a> type. </p>
+
+</div>
+</div>
+<a id="ga83e79410ddd3cc6a7280fb8565e58214"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga83e79410ddd3cc6a7280fb8565e58214">&sect;&nbsp;</a></span>int_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef unsigned long long <a class="el" href="group__lib__disc__domain.html#ga83e79410ddd3cc6a7280fb8565e58214">ug::DomainInfo::int_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -742,7 +767,7 @@ template&lt;typename TElem , typename TAAPos &gt; </div>
   </dd>
 </dl>
 
-<p>Referenced by <a class="el" href="classug_1_1_active_set.html#adf202c5f10e562be37856961cbeff850">ug::ActiveSet&lt; TDomain, TAlgebra &gt;::active_index_elem()</a>, <a class="el" href="classug_1_1_dirichlet_boundary.html#a55411b43ba23bdcfa569256f346c2845">ug::DirichletBoundary&lt; TDomain, TAlgebra &gt;::adjust_error()</a>, <a class="el" href="classug_1_1_obstacle_in_normal_dir.html#ad9e792cfc686f198a3f05ebf2159b492">ug::ObstacleInNormalDir&lt; TDomain, TAlgebra &gt;::adjust_sol_and_cor_elem()</a>, <a class="el" href="classug_1_1_domain_discretization_base.html#a0abeff4924949c4087132a73adf88704">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::calc_error()</a>, <a class="el" href="classug_1_1_active_set.html#a7d2b13f9c048b47c7e22ecc2e6eb4b4f">ug::ActiveSet&lt; TDomain, TAlgebra &gt;::check_conv_elem()</a>, <a class="el" href="namespaceug.html#ab65e2a32e332ba5ab7d49835d745eac6">ug::CheckDoFElem()</a>, <a class="el" href="group__lib__disc__domain.html#ga699c7c3b9d1077f1f54a0d08bb9a630a">ug::CollectCornerCoordinates()</a>, <a class="el" href="namespaceug.html#a535bbd016b20ecae57d53e8c4e290366">ug::ComputeGradientCrouzeixRaviart()</a>, <a class="el" href="namespaceug.html#aeb43ab6ebe4caa269368b1ba5c8388ed">ug::ComputeGradientLagrange1()</a>, <a class="el" href="namespaceug.html#ac292632f77999774b06822d263f6cae6">ug::ComputeGradientPiecewiseConstant()</a>, <a class="el" href="namespaceug.html#aa5ce71727f7f521e4ad8d73ff6d309dd">ug::ConstructGridOfSCV()</a>, <a class="el" href="namespaceug.html#a9112f0384c063e0b5e66485cb01081d0">ug::ConstructGridOfSCVF()</a>, <a class="el" href="namespaceug.html#a5101b7dfd1393e118e90b47a9c7bf287">ug::DoFPosition()</a>, <a class="el" href="group__lib__disc__domain.html#ga189d09d2c5d57b7e1c0ddf9b486e46ca">ug::ElementSize()</a>, <a class="el" href="classug_1_1_gradient_evaluator___lagrange_p1.html#a54a3929f8232632c0f2ac3697e818f2b">ug::GradientEvaluator_LagrangeP1&lt; TFunction &gt;::evaluate()</a>, <a class="el" href="classug_1_1_global_grid_function_number_data.html#a48fa8d129d10f0254f293ad9fbd741dc">ug::GlobalGridFunctionNumberData&lt; TGridFunction, elemDim &gt;::evaluate()</a>, <a class="el" href="classug_1_1_global_grid_function_gradient_data.html#a4a1a99f3b2300ea618c9f9125e6be293">ug::GlobalGridFunctionGradientData&lt; TGridFunction &gt;::evaluate()</a>, <a class="el" href="classug_1_1_l2_diff_integrand.html#a86137d3c47f87424c5897295643bec61">ug::L2DiffIntegrand&lt; TGridFunction &gt;::evaluate()</a>, <a class="el" href="classug_1_1_h1_semi_diff_integrand.html#aacd26d281b19f928101899644d33aa12">ug::H1SemiDiffIntegrand&lt; TGridFunction &gt;::evaluate()</a>, <a class="el" href="classug_1_1_h1_diff_integrand.html#ae4544b43270766cc24e07d53a6b7b7c1">ug::H1DiffIntegrand&lt; TGridFunction &gt;::evaluate()</a>, <a class="el" href="namespaceug.html#a86d1bb0e17a27c4e42a1b78ce415fe14">ug::InnerDoFPosition()</a>, <a class="el" href="namespaceug.html#a26d0d4924137d8185c238bb63633b370">ug::IntegralNormalComponentOnManifoldGeneral()</a>, <a class="el" href="namespaceug.html#a403d287298e229b62c0c20c5bbe9eef6">ug::IntegralNormalComponentOnManifoldUsingFV1Geom()</a>, <a class="el" href="namespaceug.html#a0b590945118f4e043684065ffc5cbffe">ug::Integrate()</a>, <a class="el" href="namespaceug.html#a04caafec8eae8e4be174c4cc2675f71c">ug::IntegrateNormalGradientOnManifold()</a>, <a class="el" href="namespaceug.html#a3f948da230e641c17cd81f14dae4e0d3">ug::InterpolateOnElements()</a>, <a class="el" href="classug_1_1_active_set.html#adca075ecb90b067ab202bfb5910295f1">ug::ActiveSet&lt; TDomain, TAlgebra &gt;::lagrange_mat_inv_elem()</a>, <a class="el" href="namespaceug.html#ac29c65a41d313e4089df424cea3680de">ug::MaxErrorOnElements()</a>, <a class="el" href="classug_1_1_std_lagrange_elem_transfer.html#a2688f93787cf01e83c2565feba61363e">ug::StdLagrangeElemTransfer&lt; TDomain &gt;::prolongate()</a>, <a class="el" href="classug_1_1_crouzeix_raviart_elem_transfer.html#a61a3fd3ea73a629c4a9f4e8220fa0bf5">ug::CrouzeixRaviartElemTransfer&lt; TDomain &gt;::prolongate()</a>, <a class="el" href="namespaceug.html#a77408cdc66cbfd3874a2bb92e4c26555">ug::ProlongateElemwise()</a>, <a class="el" href="namespaceug.html#aea0cf7ca142bcef4fc685e3d01084733">ug::RestrictElemwise()</a>, <a class="el" href="namespaceug.html#a645874d8ab9a2d18fd97a326dc992cd7">ug::ShapesAtGlobalPosition()</a>, <a class="el" href="classug_1_1_side_and_elem_err_est_data.html#a32d684e870d1d42aa96d45c89c9c7938">ug::SideAndElemErrEstData&lt; TDomain &gt;::summarize_err_est_data()</a>, <a class="el" href="classug_1_1_v_t_k_output.html#a7bec727172159ac87e01dbe433fd9fbd">ug::VTKOutput&lt; TDim &gt;::write_cell_data_elementwise()</a>, and <a class="el" href="classug_1_1_v_t_k_output.html#ae67901d1f09b551f08f04d0b93e8b470">ug::VTKOutput&lt; TDim &gt;::write_nodal_data_elementwise()</a>.</p>
+<p>Referenced by <a class="el" href="classug_1_1_active_set.html#adf202c5f10e562be37856961cbeff850">ug::ActiveSet&lt; TDomain, TAlgebra &gt;::active_index_elem()</a>, <a class="el" href="classug_1_1_dirichlet_boundary.html#a55411b43ba23bdcfa569256f346c2845">ug::DirichletBoundary&lt; TDomain, TAlgebra &gt;::adjust_error()</a>, <a class="el" href="classug_1_1_obstacle_in_normal_dir.html#ad9e792cfc686f198a3f05ebf2159b492">ug::ObstacleInNormalDir&lt; TDomain, TAlgebra &gt;::adjust_sol_and_cor_elem()</a>, <a class="el" href="classug_1_1_domain_discretization_base.html#a0abeff4924949c4087132a73adf88704">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::calc_error()</a>, <a class="el" href="classug_1_1_active_set.html#a7d2b13f9c048b47c7e22ecc2e6eb4b4f">ug::ActiveSet&lt; TDomain, TAlgebra &gt;::check_conv_elem()</a>, <a class="el" href="namespaceug.html#ab65e2a32e332ba5ab7d49835d745eac6">ug::CheckDoFElem()</a>, <a class="el" href="group__lib__disc__domain.html#ga699c7c3b9d1077f1f54a0d08bb9a630a">ug::CollectCornerCoordinates()</a>, <a class="el" href="namespaceug.html#a535bbd016b20ecae57d53e8c4e290366">ug::ComputeGradientCrouzeixRaviart()</a>, <a class="el" href="namespaceug.html#aeb43ab6ebe4caa269368b1ba5c8388ed">ug::ComputeGradientLagrange1()</a>, <a class="el" href="namespaceug.html#ac292632f77999774b06822d263f6cae6">ug::ComputeGradientPiecewiseConstant()</a>, <a class="el" href="namespaceug.html#aa5ce71727f7f521e4ad8d73ff6d309dd">ug::ConstructGridOfSCV()</a>, <a class="el" href="namespaceug.html#a9112f0384c063e0b5e66485cb01081d0">ug::ConstructGridOfSCVF()</a>, <a class="el" href="namespaceug.html#a5101b7dfd1393e118e90b47a9c7bf287">ug::DoFPosition()</a>, <a class="el" href="group__lib__disc__domain.html#ga189d09d2c5d57b7e1c0ddf9b486e46ca">ug::ElementSize()</a>, <a class="el" href="classug_1_1_gradient_evaluator___lagrange_p1.html#a54a3929f8232632c0f2ac3697e818f2b">ug::GradientEvaluator_LagrangeP1&lt; TFunction &gt;::evaluate()</a>, <a class="el" href="classug_1_1_global_grid_function_number_data.html#a48fa8d129d10f0254f293ad9fbd741dc">ug::GlobalGridFunctionNumberData&lt; TGridFunction, elemDim &gt;::evaluate()</a>, <a class="el" href="classug_1_1_global_grid_function_gradient_data.html#a4a1a99f3b2300ea618c9f9125e6be293">ug::GlobalGridFunctionGradientData&lt; TGridFunction &gt;::evaluate()</a>, <a class="el" href="classug_1_1_user_data_dist_integrand_sq.html#aa7436fea7151f7319ed64b9b45a84a77">ug::UserDataDistIntegrandSq&lt; TData, TGridFunction &gt;::evaluate()</a>, <a class="el" href="classug_1_1_l2_dist_integrand.html#a1c93c220a1aad19254541fe3d12fa5c5">ug::L2DistIntegrand&lt; TGridFunction &gt;::evaluate()</a>, <a class="el" href="classug_1_1_h1_semi_dist_integrand.html#a322c90bed224fcc574e06b4389054584">ug::H1SemiDistIntegrand&lt; TGridFunction &gt;::evaluate()</a>, <a class="el" href="classug_1_1_h1_energy_integrand.html#af560531081b17debf15785a18b5ba242">ug::H1EnergyIntegrand&lt; TGridFunction &gt;::evaluate()</a>, <a class="el" href="namespaceug.html#a86d1bb0e17a27c4e42a1b78ce415fe14">ug::InnerDoFPosition()</a>, <a class="el" href="namespaceug.html#a0b590945118f4e043684065ffc5cbffe">ug::Integrate()</a>, <a class="el" href="namespaceug.html#a3f948da230e641c17cd81f14dae4e0d3">ug::InterpolateOnElements()</a>, <a class="el" href="classug_1_1_active_set.html#adca075ecb90b067ab202bfb5910295f1">ug::ActiveSet&lt; TDomain, TAlgebra &gt;::lagrange_mat_inv_elem()</a>, <a class="el" href="namespaceug.html#ac29c65a41d313e4089df424cea3680de">ug::MaxErrorOnElements()</a>, <a class="el" href="classug_1_1_std_lagrange_elem_transfer.html#a2688f93787cf01e83c2565feba61363e">ug::StdLagrangeElemTransfer&lt; TDomain &gt;::prolongate()</a>, <a class="el" href="classug_1_1_crouzeix_raviart_elem_transfer.html#a61a3fd3ea73a629c4a9f4e8220fa0bf5">ug::CrouzeixRaviartElemTransfer&lt; TDomain &gt;::prolongate()</a>, <a class="el" href="namespaceug.html#a77408cdc66cbfd3874a2bb92e4c26555">ug::ProlongateElemwise()</a>, <a class="el" href="namespaceug.html#aea0cf7ca142bcef4fc685e3d01084733">ug::RestrictElemwise()</a>, <a class="el" href="namespaceug.html#a645874d8ab9a2d18fd97a326dc992cd7">ug::ShapesAtGlobalPosition()</a>, <a class="el" href="classug_1_1_side_and_elem_err_est_data.html#a32d684e870d1d42aa96d45c89c9c7938">ug::SideAndElemErrEstData&lt; TDomain &gt;::summarize_err_est_data()</a>, <a class="el" href="classug_1_1_v_t_k_output.html#a7bec727172159ac87e01dbe433fd9fbd">ug::VTKOutput&lt; TDim &gt;::write_cell_data_elementwise()</a>, and <a class="el" href="classug_1_1_v_t_k_output.html#ae67901d1f09b551f08f04d0b93e8b470">ug::VTKOutput&lt; TDim &gt;::write_nodal_data_elementwise()</a>.</p>
 
 </div>
 </div>
@@ -867,8 +892,8 @@ template&lt;typename TDomain &gt; </div>
 
 </div>
 </div>
-<a id="ga309291fa809335b2a41743ff92f832b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga309291fa809335b2a41743ff92f832b5">&sect;&nbsp;</a></span>count_ghosts()</h2>
+<a id="gaa6b7d80cdeda982e0d6f2be4cdbc7db3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa6b7d80cdeda982e0d6f2be4cdbc7db3">&sect;&nbsp;</a></span>count_ghosts()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -883,7 +908,7 @@ template&lt;class TElem &gt; </div>
         <tr>
           <td class="memname">void <a class="el" href="classug_1_1_i_domain.html">ug::IDomain</a>&lt; TGrid, TSubsetHandler &gt;::count_ghosts </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; int &gt; &amp;&#160;</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="group__lib__disc__domain.html#ga83e79410ddd3cc6a7280fb8565e58214">DomainInfo::int_t</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>numGhostsOnLvlOut</em></td><td>)</td>
           <td></td>
         </tr>
@@ -895,6 +920,37 @@ template&lt;class TElem &gt; </div>
 </table>
 </div><div class="memdoc">
 <p>make sure that elements of the given type are contained in at most one vmaster interface. This is always the case for highest dimensional elements. </p>
+
+</div>
+</div>
+<a id="ga8bb8aa727ac8ee0f38474a7ecb781b56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8bb8aa727ac8ee0f38474a7ecb781b56">&sect;&nbsp;</a></span>count_local_unique_surface_elements()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TGrid , typename TSubsetHandler &gt; </div>
+<div class="memtemplate">
+template&lt;class TElem &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t <a class="el" href="classug_1_1_i_domain.html">ug::IDomain</a>&lt; TGrid, TSubsetHandler &gt;::count_local_unique_surface_elements </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>counts local surface elements which are not ghosts or h-slaves </p>
 
 </div>
 </div>
@@ -1171,7 +1227,7 @@ template&lt;typename TElem , typename TPosition &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>number Size of Element </dd></dl>
 
-<p>References <a class="el" href="group__lib__disc__domain.html#gaff7229b5d622bfe7df1d58134ff7cef9">ug::CollectCornerCoordinates()</a>, and <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#gad04fbd00dd872375c4863bd1d4621237">dim</a>.</p>
+<p>References <a class="el" href="group__lib__disc__domain.html#gaff7229b5d622bfe7df1d58134ff7cef9">ug::CollectCornerCoordinates()</a>, and <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/plugins.tags:../plugins/" href="../plugins/group__small__strain__mechanics.html#gad04fbd00dd872375c4863bd1d4621237">dim</a>.</p>
 
 </div>
 </div>
@@ -1688,8 +1744,8 @@ template&lt;typename TDomain &gt; </div>
 
 </div>
 </div>
-<a id="gac2c582c7991fd7cfef7f1f94c3abdca6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac2c582c7991fd7cfef7f1f94c3abdca6">&sect;&nbsp;</a></span>max_num_local_elements_on_level()</h2>
+<a id="ga6253cec65176afbc0835ad5ee01e1935"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6253cec65176afbc0835ad5ee01e1935">&sect;&nbsp;</a></span>max_num_local_elements_on_level()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1698,7 +1754,7 @@ template&lt;typename TDomain &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int ug::DomainInfo::max_num_local_elements_on_level </td>
+          <td class="memname">size_t ug::DomainInfo::max_num_local_elements_on_level </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>lvl</em></td><td>)</td>
@@ -1714,7 +1770,7 @@ template&lt;typename TDomain &gt; </div>
 
 <p>returns the maximum number of elements a process has on a given leven (excluding ghosts) </p>
 
-<p>References <a class="el" href="group__lib__disc__domain.html#ga8b36d31056e25155dc2075ae6902df79">ug::DomainInfo::m_maxNumLocalElems</a>.</p>
+<p>References <a class="el" href="group__lib__disc__domain.html#ga4ac7795ac59de1aedfc146ef73123e40">ug::DomainInfo::m_maxNumLocalElems</a>.</p>
 
 </div>
 </div>
@@ -1781,8 +1837,8 @@ template&lt;typename TGrid = MultiGrid, typename TSubsetHandler = MGSubsetHandle
 
 </div>
 </div>
-<a id="ga078a304fc2895cd50ac3b383e2d0f290"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga078a304fc2895cd50ac3b383e2d0f290">&sect;&nbsp;</a></span>min_num_local_elements_on_level()</h2>
+<a id="ga1bd6e7f158fd55271f8ba47aedf81c39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1bd6e7f158fd55271f8ba47aedf81c39">&sect;&nbsp;</a></span>min_num_local_elements_on_level()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1791,7 +1847,7 @@ template&lt;typename TGrid = MultiGrid, typename TSubsetHandler = MGSubsetHandle
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int ug::DomainInfo::min_num_local_elements_on_level </td>
+          <td class="memname">size_t ug::DomainInfo::min_num_local_elements_on_level </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>lvl</em></td><td>)</td>
@@ -1807,12 +1863,12 @@ template&lt;typename TGrid = MultiGrid, typename TSubsetHandler = MGSubsetHandle
 
 <p>returns the minimum number of elements a process has on a given leven (excluding ghosts) </p>
 
-<p>References <a class="el" href="group__lib__disc__domain.html#gaafce1ae46d7618c1410803c67025bce3">ug::DomainInfo::m_minNumLocalElems</a>.</p>
+<p>References <a class="el" href="group__lib__disc__domain.html#ga1ee55c096a4b99497c66fd76e1702ed1">ug::DomainInfo::m_minNumLocalElems</a>.</p>
 
 </div>
 </div>
-<a id="ga8430152744cd8f70c07ef541e443ddc9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8430152744cd8f70c07ef541e443ddc9">&sect;&nbsp;</a></span>num_elements()</h2>
+<a id="gacc26f5809ea7148f5b1c7201675b38be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacc26f5809ea7148f5b1c7201675b38be">&sect;&nbsp;</a></span>num_elements()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1821,7 +1877,7 @@ template&lt;typename TGrid = MultiGrid, typename TSubsetHandler = MGSubsetHandle
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int ug::DomainInfo::num_elements </td>
+          <td class="memname">size_t ug::DomainInfo::num_elements </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1834,12 +1890,12 @@ template&lt;typename TGrid = MultiGrid, typename TSubsetHandler = MGSubsetHandle
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="group__lib__disc__domain.html#gaab0e43c36f047406fd64ece85cefc482">ug::DomainInfo::m_numElems</a>.</p>
+<p>References <a class="el" href="group__lib__disc__domain.html#ga34485b239adb60b18615c43bdaf524ea">ug::DomainInfo::m_numElems</a>.</p>
 
 </div>
 </div>
-<a id="ga530f0d37376468a62e1dac7e844747e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga530f0d37376468a62e1dac7e844747e9">&sect;&nbsp;</a></span>num_elements_on_level()</h2>
+<a id="ga2c1c3f1a69f2be9dbf57bf6ae40e6cde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2c1c3f1a69f2be9dbf57bf6ae40e6cde">&sect;&nbsp;</a></span>num_elements_on_level()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1848,7 +1904,7 @@ template&lt;typename TGrid = MultiGrid, typename TSubsetHandler = MGSubsetHandle
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int ug::DomainInfo::num_elements_on_level </td>
+          <td class="memname">size_t ug::DomainInfo::num_elements_on_level </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>lvl</em></td><td>)</td>
@@ -1864,7 +1920,7 @@ template&lt;typename TGrid = MultiGrid, typename TSubsetHandler = MGSubsetHandle
 
 <p>returns the global number of elements on the given level (excluding ghosts...) </p>
 
-<p>References <a class="el" href="group__lib__disc__domain.html#gaab0e43c36f047406fd64ece85cefc482">ug::DomainInfo::m_numElems</a>.</p>
+<p>References <a class="el" href="group__lib__disc__domain.html#ga34485b239adb60b18615c43bdaf524ea">ug::DomainInfo::m_numElems</a>.</p>
 
 <p>Referenced by <a class="el" href="namespaceug.html#a4fbc25bd21223928183a3e28f43f5857">ug::CreateProcessHierarchy()</a>.</p>
 
@@ -1893,14 +1949,14 @@ template&lt;typename TGrid = MultiGrid, typename TSubsetHandler = MGSubsetHandle
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="group__lib__disc__domain.html#gaab0e43c36f047406fd64ece85cefc482">ug::DomainInfo::m_numElems</a>.</p>
+<p>References <a class="el" href="group__lib__disc__domain.html#ga34485b239adb60b18615c43bdaf524ea">ug::DomainInfo::m_numElems</a>.</p>
 
 <p>Referenced by <a class="el" href="namespaceug.html#a4fbc25bd21223928183a3e28f43f5857">ug::CreateProcessHierarchy()</a>.</p>
 
 </div>
 </div>
-<a id="gaea231942e4e7ef51e5db4f6c7f5f328e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaea231942e4e7ef51e5db4f6c7f5f328e">&sect;&nbsp;</a></span>num_local_elements_on_level()</h2>
+<a id="ga6b046878e320d4ad55717085502c5318"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6b046878e320d4ad55717085502c5318">&sect;&nbsp;</a></span>num_local_elements_on_level()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1909,7 +1965,7 @@ template&lt;typename TGrid = MultiGrid, typename TSubsetHandler = MGSubsetHandle
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int ug::DomainInfo::num_local_elements_on_level </td>
+          <td class="memname">size_t ug::DomainInfo::num_local_elements_on_level </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>lvl</em></td><td>)</td>
@@ -1925,12 +1981,12 @@ template&lt;typename TGrid = MultiGrid, typename TSubsetHandler = MGSubsetHandle
 
 <p>returns the local number of elements on the given level (excluding ghosts...) </p>
 
-<p>References <a class="el" href="group__lib__disc__domain.html#ga140e90541805072fd2d693ea3ea30ff9">ug::DomainInfo::m_numLocalElems</a>.</p>
+<p>References <a class="el" href="group__lib__disc__domain.html#gafce0e95ec0580874d9c5383bee9d9255">ug::DomainInfo::m_numLocalElems</a>.</p>
 
 </div>
 </div>
-<a id="ga81c1f05379b43dffcce8496fa09eb21b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga81c1f05379b43dffcce8496fa09eb21b">&sect;&nbsp;</a></span>num_local_ghosts_on_level()</h2>
+<a id="ga8bc711aec09b78276aa9009d0c9a7bc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8bc711aec09b78276aa9009d0c9a7bc8">&sect;&nbsp;</a></span>num_local_ghosts_on_level()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1939,7 +1995,7 @@ template&lt;typename TGrid = MultiGrid, typename TSubsetHandler = MGSubsetHandle
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int ug::DomainInfo::num_local_ghosts_on_level </td>
+          <td class="memname">size_t ug::DomainInfo::num_local_ghosts_on_level </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>lvl</em></td><td>)</td>
@@ -1955,12 +2011,12 @@ template&lt;typename TGrid = MultiGrid, typename TSubsetHandler = MGSubsetHandle
 
 <p>returns the local number of ghosts on the given level </p>
 
-<p>References <a class="el" href="group__lib__disc__domain.html#ga67f550c13fb1f04a88152c96c09d4b4e">ug::DomainInfo::m_numLocalGhosts</a>.</p>
+<p>References <a class="el" href="group__lib__disc__domain.html#ga944e792b3a89ec6c1af5d63023b96cac">ug::DomainInfo::m_numLocalGhosts</a>.</p>
 
 </div>
 </div>
-<a id="gaee1b8734dac67943795612761439b56c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaee1b8734dac67943795612761439b56c">&sect;&nbsp;</a></span>num_subsets()</h2>
+<a id="gaeb7a1a544b144f54a79a44d8f354e049"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaeb7a1a544b144f54a79a44d8f354e049">&sect;&nbsp;</a></span>num_subsets()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1969,7 +2025,7 @@ template&lt;typename TGrid = MultiGrid, typename TSubsetHandler = MGSubsetHandle
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int ug::DomainInfo::num_subsets </td>
+          <td class="memname">size_t ug::DomainInfo::num_subsets </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1982,7 +2038,36 @@ template&lt;typename TGrid = MultiGrid, typename TSubsetHandler = MGSubsetHandle
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="group__lib__disc__domain.html#ga18fd950bf4936463f1a5d56e6093d1d4">ug::DomainInfo::m_subsetDims</a>.</p>
+<p>References <a class="el" href="group__lib__disc__domain.html#ga2113a19211c46c150ee3354320f39da0">ug::DomainInfo::m_subsetDims</a>.</p>
+
+</div>
+</div>
+<a id="gab8a355d818a8925c598035cc5d6a74a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab8a355d818a8925c598035cc5d6a74a5">&sect;&nbsp;</a></span>num_surface_elements()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t ug::DomainInfo::num_surface_elements </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the global number of surface elements (elements without children) </p>
+
+<p>References <a class="el" href="group__lib__disc__domain.html#gac0039781022356071cdfcf062d5937fe">ug::DomainInfo::m_numSurfElems</a>.</p>
 
 </div>
 </div>
@@ -2197,8 +2282,8 @@ template&lt;typename TGrid , typename TSubsetHandler &gt; </div>
 
 </div>
 </div>
-<a id="ga83aacf0e65cfaac27638f506c2dcd109"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga83aacf0e65cfaac27638f506c2dcd109">&sect;&nbsp;</a></span>set_info()</h2>
+<a id="gad2b2d24aabd59f39907761e5fab2093b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad2b2d24aabd59f39907761e5fab2093b">&sect;&nbsp;</a></span>set_info()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2215,38 +2300,44 @@ template&lt;typename TGrid , typename TSubsetHandler &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; int &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="group__lib__disc__domain.html#ga83e79410ddd3cc6a7280fb8565e58214">int_t</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>numElems</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; int &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="group__lib__disc__domain.html#ga83e79410ddd3cc6a7280fb8565e58214">int_t</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>numLocalElems</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; int &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="group__lib__disc__domain.html#ga83e79410ddd3cc6a7280fb8565e58214">int_t</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>minNumLocalElems</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; int &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="group__lib__disc__domain.html#ga83e79410ddd3cc6a7280fb8565e58214">int_t</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>maxNumLocalElems</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; int &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="group__lib__disc__domain.html#ga83e79410ddd3cc6a7280fb8565e58214">int_t</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>numLocalGhosts</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; int &gt; &amp;&#160;</td>
-          <td class="paramname"><em>subsetDims</em>&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="group__lib__disc__domain.html#ga83e79410ddd3cc6a7280fb8565e58214">int_t</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>subsetDims</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__lib__disc__domain.html#ga83e79410ddd3cc6a7280fb8565e58214">int_t</a>&#160;</td>
+          <td class="paramname"><em>numSurfElems</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2261,7 +2352,7 @@ template&lt;typename TGrid , typename TSubsetHandler &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="group__lib__disc__domain.html#ga3937d3eb717871c70115201f71425c0a">ug::DomainInfo::m_elementType</a>, <a class="el" href="group__lib__disc__domain.html#ga8b36d31056e25155dc2075ae6902df79">ug::DomainInfo::m_maxNumLocalElems</a>, <a class="el" href="group__lib__disc__domain.html#gaafce1ae46d7618c1410803c67025bce3">ug::DomainInfo::m_minNumLocalElems</a>, <a class="el" href="group__lib__disc__domain.html#gaab0e43c36f047406fd64ece85cefc482">ug::DomainInfo::m_numElems</a>, <a class="el" href="group__lib__disc__domain.html#ga140e90541805072fd2d693ea3ea30ff9">ug::DomainInfo::m_numLocalElems</a>, <a class="el" href="group__lib__disc__domain.html#ga67f550c13fb1f04a88152c96c09d4b4e">ug::DomainInfo::m_numLocalGhosts</a>, <a class="el" href="group__lib__disc__domain.html#ga18fd950bf4936463f1a5d56e6093d1d4">ug::DomainInfo::m_subsetDims</a>, and <a class="el" href="group__lib__disc__domain.html#ga5bb51988261e5f5632c68cd4c658f792">ug::DomainInfo::to_string()</a>.</p>
+<p>References <a class="el" href="group__lib__disc__domain.html#ga3937d3eb717871c70115201f71425c0a">ug::DomainInfo::m_elementType</a>, <a class="el" href="group__lib__disc__domain.html#ga4ac7795ac59de1aedfc146ef73123e40">ug::DomainInfo::m_maxNumLocalElems</a>, <a class="el" href="group__lib__disc__domain.html#ga1ee55c096a4b99497c66fd76e1702ed1">ug::DomainInfo::m_minNumLocalElems</a>, <a class="el" href="group__lib__disc__domain.html#ga34485b239adb60b18615c43bdaf524ea">ug::DomainInfo::m_numElems</a>, <a class="el" href="group__lib__disc__domain.html#gafce0e95ec0580874d9c5383bee9d9255">ug::DomainInfo::m_numLocalElems</a>, <a class="el" href="group__lib__disc__domain.html#ga944e792b3a89ec6c1af5d63023b96cac">ug::DomainInfo::m_numLocalGhosts</a>, <a class="el" href="group__lib__disc__domain.html#gac0039781022356071cdfcf062d5937fe">ug::DomainInfo::m_numSurfElems</a>, <a class="el" href="group__lib__disc__domain.html#ga2113a19211c46c150ee3354320f39da0">ug::DomainInfo::m_subsetDims</a>, and <a class="el" href="group__lib__disc__domain.html#ga5bb51988261e5f5632c68cd4c658f792">ug::DomainInfo::to_string()</a>.</p>
 
 </div>
 </div>
@@ -2287,8 +2378,8 @@ template&lt;typename TGrid , typename TSubsetHandler &gt; </div>
 
 </div>
 </div>
-<a id="ga25d65911dbedd0653b7458e18683ed4b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga25d65911dbedd0653b7458e18683ed4b">&sect;&nbsp;</a></span>subset_dim()</h2>
+<a id="gaf60ed620fde0a0d12662d0b610488d32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf60ed620fde0a0d12662d0b610488d32">&sect;&nbsp;</a></span>subset_dim()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2297,7 +2388,7 @@ template&lt;typename TGrid , typename TSubsetHandler &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int ug::DomainInfo::subset_dim </td>
+          <td class="memname">size_t ug::DomainInfo::subset_dim </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>si</em></td><td>)</td>
@@ -2311,7 +2402,7 @@ template&lt;typename TGrid , typename TSubsetHandler &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="group__lib__disc__domain.html#ga18fd950bf4936463f1a5d56e6093d1d4">ug::DomainInfo::m_subsetDims</a>.</p>
+<p>References <a class="el" href="group__lib__disc__domain.html#ga2113a19211c46c150ee3354320f39da0">ug::DomainInfo::m_subsetDims</a>.</p>
 
 </div>
 </div>
@@ -2392,7 +2483,7 @@ template&lt;typename TGrid = MultiGrid, typename TSubsetHandler = MGSubsetHandle
 
 <p>References <a class="el" href="classug_1_1_table.html#a58338be36bc7e3270464e3fa65461f9c">ug::Table&lt; T &gt;::to_string()</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
 
-<p>Referenced by <a class="el" href="group__lib__disc__domain.html#ga83aacf0e65cfaac27638f506c2dcd109">ug::DomainInfo::set_info()</a>.</p>
+<p>Referenced by <a class="el" href="group__lib__disc__domain.html#gad2b2d24aabd59f39907761e5fab2093b">ug::DomainInfo::set_info()</a>.</p>
 
 </div>
 </div>
@@ -2671,7 +2762,7 @@ template&lt;typename TGrid = MultiGrid, typename TSubsetHandler = MGSubsetHandle
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="group__lib__disc__domain.html#ga96fdfe95598928935ddbe45ae85fe553">ug::DomainInfo::element_type()</a>, and <a class="el" href="group__lib__disc__domain.html#ga83aacf0e65cfaac27638f506c2dcd109">ug::DomainInfo::set_info()</a>.</p>
+<p>Referenced by <a class="el" href="group__lib__disc__domain.html#ga96fdfe95598928935ddbe45ae85fe553">ug::DomainInfo::element_type()</a>, and <a class="el" href="group__lib__disc__domain.html#gad2b2d24aabd59f39907761e5fab2093b">ug::DomainInfo::set_info()</a>.</p>
 
 </div>
 </div>
@@ -2723,8 +2814,8 @@ template&lt;typename TGrid = MultiGrid, typename TSubsetHandler = MGSubsetHandle
 
 </div>
 </div>
-<a id="ga8b36d31056e25155dc2075ae6902df79"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8b36d31056e25155dc2075ae6902df79">&sect;&nbsp;</a></span>m_maxNumLocalElems</h2>
+<a id="ga4ac7795ac59de1aedfc146ef73123e40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4ac7795ac59de1aedfc146ef73123e40">&sect;&nbsp;</a></span>m_maxNumLocalElems</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2733,7 +2824,7 @@ template&lt;typename TGrid = MultiGrid, typename TSubsetHandler = MGSubsetHandle
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;int&gt; ug::DomainInfo::m_maxNumLocalElems</td>
+          <td class="memname">std::vector&lt;<a class="el" href="group__lib__disc__domain.html#ga83e79410ddd3cc6a7280fb8565e58214">int_t</a>&gt; ug::DomainInfo::m_maxNumLocalElems</td>
         </tr>
       </table>
   </td>
@@ -2743,12 +2834,12 @@ template&lt;typename TGrid = MultiGrid, typename TSubsetHandler = MGSubsetHandle
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="group__lib__disc__domain.html#gac2c582c7991fd7cfef7f1f94c3abdca6">ug::DomainInfo::max_num_local_elements_on_level()</a>, and <a class="el" href="group__lib__disc__domain.html#ga83aacf0e65cfaac27638f506c2dcd109">ug::DomainInfo::set_info()</a>.</p>
+<p>Referenced by <a class="el" href="group__lib__disc__domain.html#ga6253cec65176afbc0835ad5ee01e1935">ug::DomainInfo::max_num_local_elements_on_level()</a>, and <a class="el" href="group__lib__disc__domain.html#gad2b2d24aabd59f39907761e5fab2093b">ug::DomainInfo::set_info()</a>.</p>
 
 </div>
 </div>
-<a id="gaafce1ae46d7618c1410803c67025bce3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaafce1ae46d7618c1410803c67025bce3">&sect;&nbsp;</a></span>m_minNumLocalElems</h2>
+<a id="ga1ee55c096a4b99497c66fd76e1702ed1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1ee55c096a4b99497c66fd76e1702ed1">&sect;&nbsp;</a></span>m_minNumLocalElems</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2757,7 +2848,7 @@ template&lt;typename TGrid = MultiGrid, typename TSubsetHandler = MGSubsetHandle
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;int&gt; ug::DomainInfo::m_minNumLocalElems</td>
+          <td class="memname">std::vector&lt;<a class="el" href="group__lib__disc__domain.html#ga83e79410ddd3cc6a7280fb8565e58214">int_t</a>&gt; ug::DomainInfo::m_minNumLocalElems</td>
         </tr>
       </table>
   </td>
@@ -2767,12 +2858,12 @@ template&lt;typename TGrid = MultiGrid, typename TSubsetHandler = MGSubsetHandle
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="group__lib__disc__domain.html#ga078a304fc2895cd50ac3b383e2d0f290">ug::DomainInfo::min_num_local_elements_on_level()</a>, and <a class="el" href="group__lib__disc__domain.html#ga83aacf0e65cfaac27638f506c2dcd109">ug::DomainInfo::set_info()</a>.</p>
+<p>Referenced by <a class="el" href="group__lib__disc__domain.html#ga1bd6e7f158fd55271f8ba47aedf81c39">ug::DomainInfo::min_num_local_elements_on_level()</a>, and <a class="el" href="group__lib__disc__domain.html#gad2b2d24aabd59f39907761e5fab2093b">ug::DomainInfo::set_info()</a>.</p>
 
 </div>
 </div>
-<a id="gaab0e43c36f047406fd64ece85cefc482"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaab0e43c36f047406fd64ece85cefc482">&sect;&nbsp;</a></span>m_numElems</h2>
+<a id="ga34485b239adb60b18615c43bdaf524ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga34485b239adb60b18615c43bdaf524ea">&sect;&nbsp;</a></span>m_numElems</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2781,7 +2872,7 @@ template&lt;typename TGrid = MultiGrid, typename TSubsetHandler = MGSubsetHandle
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;int&gt; ug::DomainInfo::m_numElems</td>
+          <td class="memname">std::vector&lt;<a class="el" href="group__lib__disc__domain.html#ga83e79410ddd3cc6a7280fb8565e58214">int_t</a>&gt; ug::DomainInfo::m_numElems</td>
         </tr>
       </table>
   </td>
@@ -2791,12 +2882,12 @@ template&lt;typename TGrid = MultiGrid, typename TSubsetHandler = MGSubsetHandle
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="group__lib__disc__domain.html#ga8430152744cd8f70c07ef541e443ddc9">ug::DomainInfo::num_elements()</a>, <a class="el" href="group__lib__disc__domain.html#ga530f0d37376468a62e1dac7e844747e9">ug::DomainInfo::num_elements_on_level()</a>, <a class="el" href="group__lib__disc__domain.html#gafe0d2648375a93cc2cec78f3c0f238c6">ug::DomainInfo::num_levels()</a>, and <a class="el" href="group__lib__disc__domain.html#ga83aacf0e65cfaac27638f506c2dcd109">ug::DomainInfo::set_info()</a>.</p>
+<p>Referenced by <a class="el" href="group__lib__disc__domain.html#gacc26f5809ea7148f5b1c7201675b38be">ug::DomainInfo::num_elements()</a>, <a class="el" href="group__lib__disc__domain.html#ga2c1c3f1a69f2be9dbf57bf6ae40e6cde">ug::DomainInfo::num_elements_on_level()</a>, <a class="el" href="group__lib__disc__domain.html#gafe0d2648375a93cc2cec78f3c0f238c6">ug::DomainInfo::num_levels()</a>, and <a class="el" href="group__lib__disc__domain.html#gad2b2d24aabd59f39907761e5fab2093b">ug::DomainInfo::set_info()</a>.</p>
 
 </div>
 </div>
-<a id="ga140e90541805072fd2d693ea3ea30ff9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga140e90541805072fd2d693ea3ea30ff9">&sect;&nbsp;</a></span>m_numLocalElems</h2>
+<a id="gafce0e95ec0580874d9c5383bee9d9255"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafce0e95ec0580874d9c5383bee9d9255">&sect;&nbsp;</a></span>m_numLocalElems</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2805,7 +2896,7 @@ template&lt;typename TGrid = MultiGrid, typename TSubsetHandler = MGSubsetHandle
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;int&gt; ug::DomainInfo::m_numLocalElems</td>
+          <td class="memname">std::vector&lt;<a class="el" href="group__lib__disc__domain.html#ga83e79410ddd3cc6a7280fb8565e58214">int_t</a>&gt; ug::DomainInfo::m_numLocalElems</td>
         </tr>
       </table>
   </td>
@@ -2817,12 +2908,12 @@ template&lt;typename TGrid = MultiGrid, typename TSubsetHandler = MGSubsetHandle
 
 <p>local number of elements excluding ghosts. </p>
 
-<p>Referenced by <a class="el" href="group__lib__disc__domain.html#gaea231942e4e7ef51e5db4f6c7f5f328e">ug::DomainInfo::num_local_elements_on_level()</a>, and <a class="el" href="group__lib__disc__domain.html#ga83aacf0e65cfaac27638f506c2dcd109">ug::DomainInfo::set_info()</a>.</p>
+<p>Referenced by <a class="el" href="group__lib__disc__domain.html#ga6b046878e320d4ad55717085502c5318">ug::DomainInfo::num_local_elements_on_level()</a>, and <a class="el" href="group__lib__disc__domain.html#gad2b2d24aabd59f39907761e5fab2093b">ug::DomainInfo::set_info()</a>.</p>
 
 </div>
 </div>
-<a id="ga67f550c13fb1f04a88152c96c09d4b4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga67f550c13fb1f04a88152c96c09d4b4e">&sect;&nbsp;</a></span>m_numLocalGhosts</h2>
+<a id="ga944e792b3a89ec6c1af5d63023b96cac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga944e792b3a89ec6c1af5d63023b96cac">&sect;&nbsp;</a></span>m_numLocalGhosts</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2831,7 +2922,7 @@ template&lt;typename TGrid = MultiGrid, typename TSubsetHandler = MGSubsetHandle
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;int&gt; ug::DomainInfo::m_numLocalGhosts</td>
+          <td class="memname">std::vector&lt;<a class="el" href="group__lib__disc__domain.html#ga83e79410ddd3cc6a7280fb8565e58214">int_t</a>&gt; ug::DomainInfo::m_numLocalGhosts</td>
         </tr>
       </table>
   </td>
@@ -2841,7 +2932,31 @@ template&lt;typename TGrid = MultiGrid, typename TSubsetHandler = MGSubsetHandle
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="group__lib__disc__domain.html#ga81c1f05379b43dffcce8496fa09eb21b">ug::DomainInfo::num_local_ghosts_on_level()</a>, and <a class="el" href="group__lib__disc__domain.html#ga83aacf0e65cfaac27638f506c2dcd109">ug::DomainInfo::set_info()</a>.</p>
+<p>Referenced by <a class="el" href="group__lib__disc__domain.html#ga8bc711aec09b78276aa9009d0c9a7bc8">ug::DomainInfo::num_local_ghosts_on_level()</a>, and <a class="el" href="group__lib__disc__domain.html#gad2b2d24aabd59f39907761e5fab2093b">ug::DomainInfo::set_info()</a>.</p>
+
+</div>
+</div>
+<a id="gac0039781022356071cdfcf062d5937fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac0039781022356071cdfcf062d5937fe">&sect;&nbsp;</a></span>m_numSurfElems</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__lib__disc__domain.html#ga83e79410ddd3cc6a7280fb8565e58214">int_t</a> ug::DomainInfo::m_numSurfElems</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="group__lib__disc__domain.html#gab8a355d818a8925c598035cc5d6a74a5">ug::DomainInfo::num_surface_elements()</a>, and <a class="el" href="group__lib__disc__domain.html#gad2b2d24aabd59f39907761e5fab2093b">ug::DomainInfo::set_info()</a>.</p>
 
 </div>
 </div>
@@ -2993,8 +3108,8 @@ template&lt;typename TGrid = MultiGrid, typename TSubsetHandler = MGSubsetHandle
 
 </div>
 </div>
-<a id="ga18fd950bf4936463f1a5d56e6093d1d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga18fd950bf4936463f1a5d56e6093d1d4">&sect;&nbsp;</a></span>m_subsetDims</h2>
+<a id="ga2113a19211c46c150ee3354320f39da0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2113a19211c46c150ee3354320f39da0">&sect;&nbsp;</a></span>m_subsetDims</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3003,7 +3118,7 @@ template&lt;typename TGrid = MultiGrid, typename TSubsetHandler = MGSubsetHandle
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;int&gt; ug::DomainInfo::m_subsetDims</td>
+          <td class="memname">std::vector&lt;<a class="el" href="group__lib__disc__domain.html#ga83e79410ddd3cc6a7280fb8565e58214">int_t</a>&gt; ug::DomainInfo::m_subsetDims</td>
         </tr>
       </table>
   </td>
@@ -3013,7 +3128,7 @@ template&lt;typename TGrid = MultiGrid, typename TSubsetHandler = MGSubsetHandle
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="group__lib__disc__domain.html#gaee1b8734dac67943795612761439b56c">ug::DomainInfo::num_subsets()</a>, <a class="el" href="group__lib__disc__domain.html#ga83aacf0e65cfaac27638f506c2dcd109">ug::DomainInfo::set_info()</a>, and <a class="el" href="group__lib__disc__domain.html#ga25d65911dbedd0653b7458e18683ed4b">ug::DomainInfo::subset_dim()</a>.</p>
+<p>Referenced by <a class="el" href="group__lib__disc__domain.html#gaeb7a1a544b144f54a79a44d8f354e049">ug::DomainInfo::num_subsets()</a>, <a class="el" href="group__lib__disc__domain.html#gad2b2d24aabd59f39907761e5fab2093b">ug::DomainInfo::set_info()</a>, and <a class="el" href="group__lib__disc__domain.html#gaf60ed620fde0a0d12662d0b610488d32">ug::DomainInfo::subset_dim()</a>.</p>
 
 </div>
 </div>
@@ -3022,7 +3137,7 @@ template&lt;typename TGrid = MultiGrid, typename TSubsetHandler = MGSubsetHandle
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:13 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:08:45 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

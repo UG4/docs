@@ -146,7 +146,8 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="refinement__util_8lua.html">refinement_util.lua</a> :45-63 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.refinement.CreateRegularHierarchy(dom, numRefs, verbose, balancerDesc)</div><div class="line">  local ref = <a class="code" href="group__refinement__bridge.html#ga34888b25fa66825e5b89aa176aacabd0">GlobalDomainRefiner</a>(dom)</div><div class="line">  local bal = util.balancer.CreateLoadBalancer(dom, balancerDesc)</div><div class="line"></div><div class="line">  bal.rebalance()</div><div class="line"></div><div class="line">  <span class="keywordflow">for</span> i = 1, numRefs <span class="keywordflow">do</span></div><div class="line">    <span class="keywordflow">if</span> verbose then</div><div class="line">      <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(<span class="stringliteral">&quot;- refining level &quot;</span> .. i-1)</div><div class="line">    end</div><div class="line">    ref:refine()</div><div class="line">    bal.rebalance(&quot;adaption-&quot;..i)</div><div class="line">  end</div><div class="line"></div><div class="line">  <a class="code" href="lexer_8cpp.html#ad4a65b873df5c05570846b5413b41dfd">if</a> verbose and <a class="code" href="group__pcl.html#ga7a09a2eab069305ca735847eed023d2f">NumProcs</a>() &gt; 1 then</div><div class="line">    <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(&quot;\nDistribution quality statistics:&quot;)</div><div class="line">    bal.<a class="code" href="load__balancing__util__2_8lua.html#ae12062a3c2debb0f7fa321bcbbb5be01">print_quality_records</a>()</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="refinement__util_8lua.html">refinement_util.lua</a> :45-65 </p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -155,7 +156,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_53e6fa9553ac22a5646d2a2b2d7b97a1.html">scripts</a></li><li class="navelem"><a class="el" href="dir_46f23659e18aa5fa06de6ff2c04a1a12.html">util</a></li><li class="navelem"><a class="el" href="refinement__util_8lua.html">refinement_util.lua</a></li>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:10 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:08:42 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

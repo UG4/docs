@@ -26,7 +26,7 @@ var classug_1_1_h_f_v1_manifold_geometry =
     [ "m_locMid", "classug_1_1_h_f_v1_manifold_geometry.html#a068b7987282c3e14c588ea072f57a7b2", null ],
     [ "m_numNaturalBF", "classug_1_1_h_f_v1_manifold_geometry.html#acf861dc821bcac4a8f93519de70ea527", null ],
     [ "m_numNaturalBFS", "classug_1_1_h_f_v1_manifold_geometry.html#a69d29b6e3d53422af62da0f954a3a2e7", null ],
-    [ "m_pElem", "classug_1_1_h_f_v1_manifold_geometry.html#ac498c0060f6a96d4902b3831e1521ae1", null ],
+    [ "m_pElem", "classug_1_1_h_f_v1_manifold_geometry.html#a2aefe358890edf3bf02ed89bb5d3df24", null ],
     [ "m_rMapping", "classug_1_1_h_f_v1_manifold_geometry.html#a2afddd99a3309aa60e68671ef8f5b22d", null ],
     [ "m_rRefElem", "classug_1_1_h_f_v1_manifold_geometry.html#af7c5cc8a9853f95ef7c1e58c2783f309", null ],
     [ "m_ssi", "classug_1_1_h_f_v1_manifold_geometry.html#a7aae498995a243e5e5435882b75f1a95", null ],

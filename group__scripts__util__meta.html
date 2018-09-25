@@ -142,7 +142,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>function with namend parameters </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Source: <a href="https://gist.github.com/stuartpb/975399">https://gist.github.com/stuartpb/975399</a></dd></dl>
-<p>location: /home/sreiter/ug4-docs/ugcore/scripts/util / <a class="el" href="meta__util_8lua.html">meta_util.lua</a> :69-82 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.CreateFancyFunction( arg_def, f )</div><div class="line">  <span class="keywordflow">return</span> <span class="keyword">function</span>( args )</div><div class="line">    local params = {}</div><div class="line">    <span class="keywordflow">for</span> i=1, #arg_def <span class="keywordflow">do</span></div><div class="line">      local paramname = arg_def[i][1] -- the name of the first parameter to the <span class="keyword">function</span></div><div class="line">      local default_value = arg_def[i][2]</div><div class="line">      <span class="keywordflow">if</span> #arg_def[i] &gt; 1 then</div><div class="line">      <span class="keywordflow">else</span></div><div class="line">      end</div><div class="line">      params[i] = args[i] or args[paramname] or default_value</div><div class="line">    end</div><div class="line">    <span class="keywordflow">return</span> f( unpack( params, 1, #arg_def ) )</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
+<p>location: /home/sreiter/ug4-docugen/ugcore/scripts/util / <a class="el" href="meta__util_8lua.html">meta_util.lua</a> :69-82 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.CreateFancyFunction( arg_def, f )</div><div class="line">  <span class="keywordflow">return</span> <span class="keyword">function</span>( args )</div><div class="line">    local params = {}</div><div class="line">    <span class="keywordflow">for</span> i=1, #arg_def <span class="keywordflow">do</span></div><div class="line">      local paramname = arg_def[i][1] -- the name of the first parameter to the <span class="keyword">function</span></div><div class="line">      local default_value = arg_def[i][2]</div><div class="line">      <span class="keywordflow">if</span> #arg_def[i] &gt; 1 then</div><div class="line">      <span class="keywordflow">else</span></div><div class="line">      end</div><div class="line">      params[i] = args[i] or args[paramname] or default_value</div><div class="line">    end</div><div class="line">    <span class="keywordflow">return</span> f( unpack( params, 1, #arg_def ) )</div><div class="line">  end</div><div class="line">end</div></div><!-- fragment --> 
 </div>
 </div>
 </div><!-- contents -->
@@ -150,7 +150,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:13 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:08:45 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

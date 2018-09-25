@@ -5,6 +5,7 @@ var sparsematrix__util_8h =
     [ "AxpyCommonSparseMatrix", "sparsematrix__util_8h.html#ga5cd3c946e0dc8412ff327804b1cdbe84", null ],
     [ "CheckDiagonalInvertible", "sparsematrix__util_8h.html#ga27e3e71059c2ae350f51716e1ebd66ef", null ],
     [ "CheckDiagonalInvertible", "sparsematrix__util_8h.html#ga5ff420bacd1e54330978db211ae8270f", null ],
+    [ "CheckRowIterators", "sparsematrix__util_8h.html#ga36194b79ab7b8fbc13e63016e598ffe7", null ],
     [ "CheckVectorInvertible", "sparsematrix__util_8h.html#ga2f054358e74488ce11850263ff62c6a1", null ],
     [ "CheckVectorInvertible", "sparsematrix__util_8h.html#ga72f2a1c3cfd4b8babafe92fc636a2d85", null ],
     [ "CreateAsMultiplyOf", "sparsematrix__util_8h.html#ga9a6a6e8f6a05082613a1870297e7ea8a", null ],

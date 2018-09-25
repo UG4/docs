@@ -142,8 +142,11 @@ $(document).ready(function(){initNavTree('functions_type_m.html','');});
 , <a class="el" href="classug_1_1_operator_inverse_iterator.html#a7527a252e4f57433342a58cb97062ed3">ug::OperatorInverseIterator&lt; TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_p_i_l_u_t_preconditioner.html#af95ae9597e07904f2f8fd8135afac145">ug::PILUTPreconditioner&lt; TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_p_i_n_v_i_t.html#a7af526c8b8827f08e182acd87ec203c0">ug::PINVIT&lt; TAlgebra &gt;</a>
+, <a class="el" href="classug_1_1_power_method.html#a98178b7ada698e5b7c9bc2f5347977a9">ug::PowerMethod&lt; TAlgebra &gt;</a>
+, <a class="el" href="classug_1_1_sequential_subspace_correction.html#a9e4b1e419ea4b210a3d8bb837997e39a">ug::SequentialSubspaceCorrection&lt; TDomain, TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_sparse_block_gauss_seidel2.html#a705aea30aa9938ad0d15331f3acfd3b5">ug::SparseBlockGaussSeidel2&lt; TAlgebra, backward, forward &gt;</a>
 , <a class="el" href="classug_1_1_sparse_block_gauss_seidel.html#acd7a7affa78b9f4260ad7c3aa54dd037">ug::SparseBlockGaussSeidel&lt; TAlgebra, backward, forward &gt;</a>
+, <a class="el" href="classug_1_1_uzawa_base.html#a22019bc105f08b0833c8fece407eb0e5">ug::UzawaBase&lt; TDomain, TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_vanka.html#a712402cc4d2d2cf19e712d2bdfe43567">ug::Vanka&lt; TAlgebra &gt;</a>
 </li>
 <li>matrix_row_iterator
@@ -171,6 +174,7 @@ $(document).ready(function(){initNavTree('functions_type_m.html','');});
 , <a class="el" href="classug_1_1_block_gauss_seidel.html#a9d82b0c00b4e7a095d02eb99eaf99773">ug::BlockGaussSeidel&lt; TAlgebra, backward, forward &gt;</a>
 , <a class="el" href="classug_1_1_block_gauss_seidel_iterative.html#a8e214795a5976fc8f1167066fe513970">ug::BlockGaussSeidelIterative&lt; TAlgebra, backward, forward &gt;</a>
 , <a class="el" href="classug_1_1_component_gauss_seidel.html#a6939808f6ece3b497b7380c493005a3d">ug::ComponentGaussSeidel&lt; TDomain, TAlgebra &gt;</a>
+, <a class="el" href="classug_1_1_composite_time_discretization.html#ac1305af6bd720c98dd2246d43d114d15">ug::CompositeTimeDiscretization&lt; TAlgebra &gt;</a>
 , <a class="el" href="group__crs__algebra.html#gacba1690bd8bc1995e7ba15a3e37f60c5">ug::CPUAlgebra</a>
 , <a class="el" href="group__crs__algebra.html#gac121225b63507dac706185277ad0dd0c">ug::CPUBlockAlgebra&lt; TBlockSize &gt;</a>
 , <a class="el" href="group__crs__algebra.html#ga4389e43ca3fcecdcb952d18be25c665a">ug::CPUVariableBlockAlgebra</a>
@@ -193,6 +197,7 @@ $(document).ready(function(){initNavTree('functions_type_m.html','');});
 , <a class="el" href="classug_1_1_i_domain_constraint.html#a2fe193cfd6a371eeb3f2de73fdcb8033">ug::IDomainConstraint&lt; TDomain, TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_i_domain_discretization.html#ae779588ddac31095eb65918bc4ad87e6">ug::IDomainDiscretization&lt; TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_i_external_solver.html#a9fb1ff23840d8f7ba9cb50418288cf59">ug::IExternalSolver&lt; TAlgebra &gt;</a>
+, <a class="el" href="classug_1_1_i_local_subspace.html#abbbf6336847bd8c87ffcb494a3cdf1c7">ug::ILocalSubspace&lt; TDomain, TAlgebra, TGroupObj &gt;</a>
 , <a class="el" href="classug_1_1_i_local_to_global_mapper.html#a874d649e680e59aa704963c67c9f5cbf">ug::ILocalToGlobalMapper&lt; TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_i_l_u.html#a02bb237f76a53ddda6b0c2511dfc4b4c">ug::ILU&lt; TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_i_l_u_t_preconditioner.html#a0e3b0db83062b1cf9dc51cb40167a087">ug::ILUTPreconditioner&lt; TAlgebra &gt;</a>
@@ -206,6 +211,8 @@ $(document).ready(function(){initNavTree('functions_type_m.html','');});
 , <a class="el" href="classug_1_1_jacobi.html#a1b3b094a94a1cef5b431da38a3ba68e0">ug::Jacobi&lt; TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_line_gauss_seidel.html#ac98d9435160c7963abd854b699f298af">ug::LineGaussSeidel&lt; TDomain, TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_line_vanka.html#a44ec8d876950c921e9d8627c1ccd7203">ug::LineVanka&lt; TDomain, TAlgebra &gt;</a>
+, <a class="el" href="classug_1_1_local_do_f_subspace.html#ac1865382b7feb3454156d6337d4224aa">ug::LocalDoFSubspace&lt; TDomain, TAlgebra, TGroupObj &gt;</a>
+, <a class="el" href="classug_1_1_local_index_subspace.html#a0804b3adef1157bcb8c4461e340ccfee">ug::LocalIndexSubspace&lt; TDomain, TAlgebra, TGroupObj &gt;</a>
 , <a class="el" href="classug_1_1_local_schur_complement.html#af51ca45ee990b90fb9518911d9a8329d">ug::LocalSchurComplement&lt; TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_local_to_global_mapper.html#a86d3fb98ad0cf3be277284c57f97f008">ug::LocalToGlobalMapper&lt; TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_local_to_global_mapper_n_l_g_s.html#aa6f9f639669da11f712ef6e74e8e27ac">ug::LocalToGlobalMapperNLGS&lt; TAlgebra &gt;</a>
@@ -214,14 +221,17 @@ $(document).ready(function(){initNavTree('functions_type_m.html','');});
 , <a class="el" href="classug_1_1_matrix_diagonal_inverse.html#acbaf5899a3d517df1d8b92386fe922e7">ug::MatrixDiagonalInverse&lt; M, X, Y &gt;</a>
 , <a class="el" href="classug_1_1_matrix_operator.html#a7619a3f52cc234da47e6639f0e8ad397">ug::MatrixOperator&lt; M, X, Y &gt;</a>
 , <a class="el" href="classug_1_1_multi_step_time_discretization.html#aa74fb7b6fbcb73f28cbe8feb97ef28d8">ug::MultiStepTimeDiscretization&lt; TAlgebra &gt;</a>
+, <a class="el" href="classug_1_1_nested_iteration_solver.html#ac7ea266cc1d14f3c94f1245ba46b89b6">ug::NestedIterationSolver&lt; TDomain, TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_newton_solver.html#a58ac34f6c68fb090ee3d5256cd20afc9">ug::NewtonSolver&lt; TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_n_l_gauss_seidel_solver.html#a474be63a27e0bcf4138a3aba5855ef35">ug::NLGaussSeidelSolver&lt; TDomain, TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_n_l_jacobi_solver.html#a60f95ad2be54ca45149cc8b9311207fc">ug::NLJacobiSolver&lt; TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_obstacle_in_normal_dir.html#a6962ccece60e33d6f11b93d556bd803d">ug::ObstacleInNormalDir&lt; TDomain, TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_one_side_p1_constraints.html#a645ee95250f093d872b63df990cc8cbe">ug::OneSideP1Constraints&lt; TDomain, TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_operator_inverse_iterator.html#a368e268936594413f5af2e1def609ecd">ug::OperatorInverseIterator&lt; TAlgebra &gt;</a>
+, <a class="el" href="classug_1_1_overlap_writer.html#acf4d1fa332d12dccfbf173159adf7e8a">ug::OverlapWriter&lt; TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_p_i_l_u_t_preconditioner.html#a4b81f4312ddfdaf0534dceab855686fa">ug::PILUTPreconditioner&lt; TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_p_i_n_v_i_t.html#a8c82e4d68d68248e586a11d8ba8b863c">ug::PINVIT&lt; TAlgebra &gt;</a>
+, <a class="el" href="classug_1_1_power_method.html#a6c39a648c100336291534422f42ce173">ug::PowerMethod&lt; TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_primal_subassembled_matrix_inverse.html#ad949d3526ec3def0ced0f2719a666880">ug::PrimalSubassembledMatrixInverse&lt; TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_proj_backward_gauss_seidel.html#a514d6e729f75b5fb868c06d967942541">ug::ProjBackwardGaussSeidel&lt; TDomain, TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_proj_gauss_seidel.html#a1130fe8d566ee895c3817fafb1533691">ug::ProjGaussSeidel&lt; TDomain, TAlgebra &gt;</a>
@@ -236,6 +246,7 @@ $(document).ready(function(){initNavTree('functions_type_m.html','');});
 , <a class="el" href="classug_1_1_schur_inverse_with_operator.html#aed50565d43410208bd01d1a28b68c4f4">ug::SchurInverseWithOperator&lt; TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_schur_precond.html#accf8676d2a76956fbcb17788897a3600">ug::SchurPrecond&lt; TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_s_d_i_r_k.html#af2baf330cd2d182afc2219ee6735baec">ug::SDIRK&lt; TAlgebra &gt;</a>
+, <a class="el" href="classug_1_1_sequential_subspace_correction.html#a1818cd7f7f752e94be25903fda6b001b">ug::SequentialSubspaceCorrection&lt; TDomain, TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_sparse_block_gauss_seidel2.html#aa5fe7ccf542ea7d641985df8ab88545b">ug::SparseBlockGaussSeidel2&lt; TAlgebra, backward, forward &gt;</a>
 , <a class="el" href="classug_1_1_sparse_block_gauss_seidel.html#a9455f70e879bd5dcf064dc0e2755b65d">ug::SparseBlockGaussSeidel&lt; TAlgebra, backward, forward &gt;</a>
 , <a class="el" href="classug_1_1_std_glob_assembler.html#a92aa5bac9a68f748d0e5660ece09c561">ug::StdGlobAssembler&lt; TDomain, TAlgebra &gt;</a>
@@ -245,7 +256,15 @@ $(document).ready(function(){initNavTree('functions_type_m.html','');});
 , <a class="el" href="classug_1_1_sym_p1_constraints.html#a4a59fc5b647586c6060fbcdcf73f5713">ug::SymP1Constraints&lt; TDomain, TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_theta_time_step.html#a1ec27f106c4ae2dcac4daa613816d3d5">ug::ThetaTimeStep&lt; TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_truncated_monotone_transfer.html#ae3b3f05fa6051f7c445d9c533f858956">ug::TruncatedMonotoneTransfer&lt; TDomain, TAlgebra &gt;</a>
+, <a class="el" href="classug_1_1_uzawa_base.html#a9bde4846e5a7fb4c8fbfebe8c76d249d">ug::UzawaBase&lt; TDomain, TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_vanka.html#a12428fec3c998be72de7cfdd2471a29a">ug::Vanka&lt; TAlgebra &gt;</a>
+, <a class="el" href="classug_1_1_vertex_based_subspace.html#a635e06b918c02660fad9d9177d08fbb8">ug::VertexBasedSubspace&lt; TDomain, TAlgebra &gt;</a>
+, <a class="el" href="classug_1_1_vertex_centered_vanka_subspace.html#a41ba890514599082a658fe9fa326b6a8">ug::VertexCenteredVankaSubspace&lt; TDomain, TAlgebra &gt;</a>
+</li>
+<li>matrix_type_local
+: <a class="el" href="classug_1_1_i_local_subspace.html#ac6961e41247a910c417f6a6303fc0376">ug::ILocalSubspace&lt; TDomain, TAlgebra, TGroupObj &gt;</a>
+, <a class="el" href="classug_1_1_local_do_f_subspace.html#ac89b05625b07203280d9ed2598f1b1b6">ug::LocalDoFSubspace&lt; TDomain, TAlgebra, TGroupObj &gt;</a>
+, <a class="el" href="classug_1_1_local_index_subspace.html#a19868e2fa6bdb2a674a1afb78694625b">ug::LocalIndexSubspace&lt; TDomain, TAlgebra, TGroupObj &gt;</a>
 </li>
 <li>MemFunc
 : <a class="el" href="classug_1_1_data_export_1_1_member_function_functor.html#a53bac06ffb465dccb1303e4a305c109a">ug::DataExport&lt; TData, dim &gt;::MemberFunctionFunctor&lt; TClass, refDim &gt;</a>
@@ -263,7 +282,7 @@ $(document).ready(function(){initNavTree('functions_type_m.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:53 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:09:40 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

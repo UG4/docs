@@ -17,6 +17,7 @@ var grid__base__objects_8h =
     [ "PtrToValueType< Face * >", "structug_1_1_ptr_to_value_type_3_01_face_01_5_01_4.html", "structug_1_1_ptr_to_value_type_3_01_face_01_5_01_4" ],
     [ "PtrToValueType< Vertex * >", "structug_1_1_ptr_to_value_type_3_01_vertex_01_5_01_4.html", "structug_1_1_ptr_to_value_type_3_01_vertex_01_5_01_4" ],
     [ "PtrToValueType< Volume * >", "structug_1_1_ptr_to_value_type_3_01_volume_01_5_01_4.html", "structug_1_1_ptr_to_value_type_3_01_volume_01_5_01_4" ],
+    [ "VertexDescriptor", "classug_1_1_vertex_descriptor.html", "classug_1_1_vertex_descriptor" ],
     [ "VolumeDescriptor", "classug_1_1_volume_descriptor.html", "classug_1_1_volume_descriptor" ],
     [ "VolumeVertices", "classug_1_1_volume_vertices.html", "classug_1_1_volume_vertices" ],
     [ "GridBaseObjectId", "grid__base__objects_8h.html#aa6080d1386c107c8bd602be84495c13c", [

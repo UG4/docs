@@ -6,6 +6,7 @@ var searchData=
   ['ug_5fbinary_5flicense',['UG_BINARY_LICENSE',['../../group__ugbase__common.html#gaab5c0a7bba577c5255b72f2b4cd9a361',1,'ug::UG_BINARY_LICENSE()'],['../../group__ugbase__common.html#gaab5c0a7bba577c5255b72f2b4cd9a361',1,'UG_BINARY_LICENSE()(Global Namespace)']]],
   ['ug_5fbuild_5fhost',['UG_BUILD_HOST',['../../namespaceug.html#a3a7180301b8c40c9bb05042e24e02fd6',1,'ug']]],
   ['ug_5fcompile_5fdate',['UG_COMPILE_DATE',['../../namespaceug.html#a67d740b656de8deca558f5a28c4abb69',1,'ug']]],
+  ['ug_5fgit_5frevision',['UG_GIT_REVISION',['../../namespaceug.html#a886e1d75fcf37777bb2387f231bcdc57',1,'ug']]],
   ['ug_5fsvn_5frevision',['UG_SVN_REVISION',['../../namespaceug.html#a1e2860c10a5bc55ddb4007560fb04355',1,'ug']]],
   ['ugrefobjidtovtkcelltype',['ugRefObjIdToVTKCellType',['../../namespaceug.html#a7380a641e4c2ed88eb6ee61f0c18e985',1,'ug']]],
   ['unclassified',['UNCLASSIFIED',['../../classug_1_1_partitioner___dynamic_bisection.html#a2626e52b24525d976b4ab182779f2d0badf0c5c150ca239ce037b89fee0a3a63b',1,'ug::Partitioner_DynamicBisection']]],
@@ -38,5 +39,7 @@ var searchData=
   ['ustarindicator',['ustarIndicator',['../../structug_1_1_tar_header.html#a38c3d9e4746544a9b234058c5d37b1da',1,'ug::TarHeader']]],
   ['ustarownergroupname',['ustarOwnerGroupName',['../../structug_1_1_tar_header.html#a2b1d6752d88bd7cb3bbcc5df59581aff',1,'ug::TarHeader']]],
   ['ustarownerusername',['ustarOwnerUserName',['../../structug_1_1_tar_header.html#a6ced6384a0faa0765fd6089aac1ece19',1,'ug::TarHeader']]],
-  ['ustarversion',['ustarVersion',['../../structug_1_1_tar_header.html#a45e525bdcb2737a96ae014fece05ab90',1,'ug::TarHeader']]]
+  ['ustarversion',['ustarVersion',['../../structug_1_1_tar_header.html#a45e525bdcb2737a96ae014fece05ab90',1,'ug::TarHeader']]],
+  ['uzawa_5fcmp_5fdefault',['UZAWA_CMP_DEFAULT',['../../classug_1_1_uzawa_base.html#a251da1334ae0ff3adb2d0059d280ecef',1,'ug::UzawaBase']]],
+  ['uzawa_5fcmp_5fschur',['UZAWA_CMP_SCHUR',['../../classug_1_1_uzawa_base.html#a23d6df84a8d2cf14478b0bf24a9ebe1c',1,'ug::UzawaBase']]]
 ];

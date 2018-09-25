@@ -119,6 +119,8 @@ Functions</h2></td></tr>
 <tr class="separator:ga6e1622c55780af718a6ee80d8a2b53f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga95a6e29922a6b62772160024ea77f19f"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__misc__bridge.html#ga95a6e29922a6b62772160024ea77f19f">ug::bridge::GetCompileDate</a> ()</td></tr>
 <tr class="separator:ga95a6e29922a6b62772160024ea77f19f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaff78c8ca702062c9dec67c9f24bed259"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__misc__bridge.html#gaff78c8ca702062c9dec67c9f24bed259">ug::bridge::GetGITRevision</a> ()</td></tr>
+<tr class="separator:gaff78c8ca702062c9dec67c9f24bed259"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga61bf414164623917f1ced0415d769909"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#ga2558b6154c9ad9b80a745119d4be3e98">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__misc__bridge.html#ga61bf414164623917f1ced0415d769909">ug::bridge::GetLogAssistantTag</a> (const char *s)</td></tr>
 <tr class="separator:ga61bf414164623917f1ced0415d769909"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac21124964e445cb7d5c0299019b4f839"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__misc__bridge.html#gac21124964e445cb7d5c0299019b4f839">ug::bridge::GetOperatingSystem</a> ()</td></tr>
@@ -186,6 +188,8 @@ Functions</h2></td></tr>
 <tr class="separator:ga1713326f2e200502fe03973400b581c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6ec7bc00b48b00258144ee068fd070d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__misc__bridge.html#ga6ec7bc00b48b00258144ee068fd070d9">ug::bridge::SetDebugLevel</a> (const char *strTag, int level)</td></tr>
 <tr class="separator:ga6ec7bc00b48b00258144ee068fd070d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaef6e48ad47e56f4fc23d3dc0acc864d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__misc__bridge.html#gaef6e48ad47e56f4fc23d3dc0acc864d5">ug::bridge::RegisterBridge_OrthoPoly</a> (<a class="el" href="classug_1_1bridge_1_1_registry.html">Registry</a> &amp;reg, string parentGroup)</td></tr>
+<tr class="separator:gaef6e48ad47e56f4fc23d3dc0acc864d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
@@ -298,6 +302,27 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>References <a class="el" href="group__ugbase__compileinfo.html#ga1edaddb3597d45e7cea71a715de34d05">ug::UGCompileDate()</a>.</p>
+
+<p>Referenced by <a class="el" href="group__misc__bridge.html#ga1713326f2e200502fe03973400b581c8">ug::bridge::RegisterBridge_Misc()</a>.</p>
+
+</div>
+</div>
+<a id="gaff78c8ca702062c9dec67c9f24bed259"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaff78c8ca702062c9dec67c9f24bed259">&sect;&nbsp;</a></span>GetGITRevision()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string ug::bridge::GetGITRevision </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="group__ugbase__compileinfo.html#ga9e67f1a23fefc10628c284713d83eb82">ug::UGGitRevision()</a>.</p>
 
 <p>Referenced by <a class="el" href="group__misc__bridge.html#ga1713326f2e200502fe03973400b581c8">ug::bridge::RegisterBridge_Misc()</a>.</p>
 
@@ -975,7 +1000,39 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="namespaceug.html#aa0bc434e4d9fee6dc233a7367ca8f8fa">ug::AbortRun()</a>, <a class="el" href="classug_1_1bridge_1_1_registry.html#ad04cc451e9d65e1b69b2cd6865abc4b1">ug::bridge::Registry::add_class_()</a>, <a class="el" href="misc__bridges_2misc__bridge_8cpp.html#a03cb2f02f1fc98e195ecef39248037ad">ADD_DEFINED_FUNC</a>, <a class="el" href="classug_1_1bridge_1_1_registry.html#a8686a8af006e6824318d2ad38a06f3d0">ug::bridge::Registry::add_function()</a>, <a class="el" href="namespaceug.html#aa76d7ad02be0bd3f5a41617be27640a3">ug::ClearAbortRunFlag()</a>, <a class="el" href="group__misc__bridge.html#ga1ca11bddcb82b4a76c0a9afe0c2d8e97">ug::bridge::errlog()</a>, <a class="el" href="group__misc__bridge.html#gaf622e5f382edd7a17132bf3ec87b0b01">ug::bridge::FilenameStringEscape()</a>, <a class="el" href="group__misc__bridge.html#ga46bb4a55100beb7e58dfa23039eaaefd">ug::bridge::GetBuildHostname()</a>, <a class="el" href="group__misc__bridge.html#ga6e1622c55780af718a6ee80d8a2b53f5">ug::bridge::GetClockS()</a>, <a class="el" href="group__misc__bridge.html#ga95a6e29922a6b62772160024ea77f19f">ug::bridge::GetCompileDate()</a>, <a class="el" href="group__ugbase__common.html#ga196c4cf75549d65de84def6692f4fd43">ug::GetLogAssistant()</a>, <a class="el" href="group__misc__bridge.html#gac21124964e445cb7d5c0299019b4f839">ug::bridge::GetOperatingSystem()</a>, <a class="el" href="group__misc__bridge.html#ga2e3d09a57d4d391a2cd6e38464f70abc">ug::bridge::GetSVNRevision()</a>, <a class="el" href="group__misc__bridge.html#ga576f7125bd33412e48d12a6e83e02a10">ug::bridge::IsDefinedUG_DEBUG()</a>, <a class="el" href="group__misc__bridge.html#ga972345f36bba2417f32e9df55c007fd5">ug::bridge::IsDefinedUG_ENABLE_DEBUG_LOGS()</a>, <a class="el" href="namespaceug.html#a49cf9d9805cb2982a139a2109dc78756">ug::LevenshteinDistance()</a>, <a class="el" href="group__misc__bridge.html#ga4b122584495e7c7ef0658b28c0a08fc9">ug::bridge::PrintBuildConfiguration()</a>, <a class="el" href="group__misc__bridge.html#ga3baebed3cbf4d9f578f8f6a6287b5330">ug::bridge::PrintBuildConfigurationExtended()</a>, <a class="el" href="namespaceug.html#a2e1a9bee7326367fcdbee12807ef9052">ug::PrintLUA()</a>, <a class="el" href="namespaceug.html#a083a51be14286779757974cfb55369fc">ug::ReplaceAll()</a>, <a class="el" href="namespaceug.html#aaf58e78094eab7e93d06e7ab2dfe7bc0">ug::TerminateAbortedRun()</a>, <a class="el" href="misc__bridges_2misc__bridge_8cpp.html#a90e4c7b102c43e703a1969592302cc71">ug_backtrace()</a>, <a class="el" href="group__ugbase__common__util__strings.html#ga978d56313330e27131bba52bbccae93b">ug::WildcardMatch()</a>, and <a class="elRef" doxygen="/home/sreiter/ug4-docs/ugcore/docs/regdocu.tags:../regdocu/" href="../regdocu/namespaceug4_bridge_1_1_util_1_1_internal.html#ga5fd812851e6c21ebb7ce6aca794f8279">ug4Bridge::Util::Internal::XMLStringEscape()</a>.</p>
+<p>References <a class="el" href="namespaceug.html#aa0bc434e4d9fee6dc233a7367ca8f8fa">ug::AbortRun()</a>, <a class="el" href="classug_1_1bridge_1_1_registry.html#ad04cc451e9d65e1b69b2cd6865abc4b1">ug::bridge::Registry::add_class_()</a>, <a class="el" href="misc__bridges_2misc__bridge_8cpp.html#a03cb2f02f1fc98e195ecef39248037ad">ADD_DEFINED_FUNC</a>, <a class="el" href="classug_1_1bridge_1_1_registry.html#a8686a8af006e6824318d2ad38a06f3d0">ug::bridge::Registry::add_function()</a>, <a class="el" href="namespaceug.html#aa76d7ad02be0bd3f5a41617be27640a3">ug::ClearAbortRunFlag()</a>, <a class="el" href="group__misc__bridge.html#ga1ca11bddcb82b4a76c0a9afe0c2d8e97">ug::bridge::errlog()</a>, <a class="el" href="group__misc__bridge.html#gaf622e5f382edd7a17132bf3ec87b0b01">ug::bridge::FilenameStringEscape()</a>, <a class="el" href="group__misc__bridge.html#ga46bb4a55100beb7e58dfa23039eaaefd">ug::bridge::GetBuildHostname()</a>, <a class="el" href="group__misc__bridge.html#ga6e1622c55780af718a6ee80d8a2b53f5">ug::bridge::GetClockS()</a>, <a class="el" href="group__misc__bridge.html#ga95a6e29922a6b62772160024ea77f19f">ug::bridge::GetCompileDate()</a>, <a class="el" href="group__misc__bridge.html#gaff78c8ca702062c9dec67c9f24bed259">ug::bridge::GetGITRevision()</a>, <a class="el" href="group__ugbase__common.html#ga196c4cf75549d65de84def6692f4fd43">ug::GetLogAssistant()</a>, <a class="el" href="group__misc__bridge.html#gac21124964e445cb7d5c0299019b4f839">ug::bridge::GetOperatingSystem()</a>, <a class="el" href="group__misc__bridge.html#ga2e3d09a57d4d391a2cd6e38464f70abc">ug::bridge::GetSVNRevision()</a>, <a class="el" href="group__misc__bridge.html#ga576f7125bd33412e48d12a6e83e02a10">ug::bridge::IsDefinedUG_DEBUG()</a>, <a class="el" href="group__misc__bridge.html#ga972345f36bba2417f32e9df55c007fd5">ug::bridge::IsDefinedUG_ENABLE_DEBUG_LOGS()</a>, <a class="el" href="namespaceug.html#a49cf9d9805cb2982a139a2109dc78756">ug::LevenshteinDistance()</a>, <a class="el" href="group__misc__bridge.html#ga4b122584495e7c7ef0658b28c0a08fc9">ug::bridge::PrintBuildConfiguration()</a>, <a class="el" href="group__misc__bridge.html#ga3baebed3cbf4d9f578f8f6a6287b5330">ug::bridge::PrintBuildConfigurationExtended()</a>, <a class="el" href="namespaceug.html#a2e1a9bee7326367fcdbee12807ef9052">ug::PrintLUA()</a>, <a class="el" href="namespaceug.html#a083a51be14286779757974cfb55369fc">ug::ReplaceAll()</a>, <a class="el" href="namespaceug.html#aaf58e78094eab7e93d06e7ab2dfe7bc0">ug::TerminateAbortedRun()</a>, <a class="el" href="misc__bridges_2misc__bridge_8cpp.html#a90e4c7b102c43e703a1969592302cc71">ug_backtrace()</a>, <a class="el" href="group__ugbase__common__util__strings.html#ga978d56313330e27131bba52bbccae93b">ug::WildcardMatch()</a>, and <a class="elRef" doxygen="/home/sreiter/ug4-docugen/ugcore/docs/regdocu.tags:../regdocu/" href="../regdocu/namespaceug4_bridge_1_1_util_1_1_internal.html#ga5fd812851e6c21ebb7ce6aca794f8279">ug4Bridge::Util::Internal::XMLStringEscape()</a>.</p>
+
+<p>Referenced by <a class="el" href="namespaceug_1_1bridge.html#a23e6fa3cd807c359c6b8da569d733ed5">ug::bridge::RegisterStandardBridges()</a>.</p>
+
+</div>
+</div>
+<a id="gaef6e48ad47e56f4fc23d3dc0acc864d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaef6e48ad47e56f4fc23d3dc0acc864d5">&sect;&nbsp;</a></span>RegisterBridge_OrthoPoly()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug::bridge::RegisterBridge_OrthoPoly </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug_1_1bridge_1_1_registry.html">Registry</a> &amp;&#160;</td>
+          <td class="paramname"><em>reg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>parentGroup</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classug_1_1bridge_1_1_registry.html#a8686a8af006e6824318d2ad38a06f3d0">ug::bridge::Registry::add_function()</a>, <a class="el" href="namespaceug.html#ab4166b30a1b5f963f11fc97884f16101">ug::Chebyshev1Poly()</a>, <a class="el" href="namespaceug.html#a157d789e356244eec2a9cc79999f2aac">ug::Chebyshev2Poly()</a>, <a class="el" href="namespaceug.html#a3601627558e49163116ee6b9c84bde09">ug::LegendrePoly()</a>, <a class="el" href="namespaceug.html#a7ebf52047b650a850288fb33c1269acc">ug::NormalizedChebyshev1Poly()</a>, <a class="el" href="namespaceug.html#a729b1eb9c2e3a989b1284f90dd7c1ec0">ug::NormalizedChebyshev2Poly()</a>, <a class="el" href="namespaceug.html#a3cc1851c066414ec3fe710d72104216f">ug::NormalizedLegendrePoly()</a>, <a class="el" href="namespaceug.html#a4417aa5f14a5cacb4e167b4f5399327d">ug::SqNormOfChebyshev1Poly()</a>, <a class="el" href="namespaceug.html#afd2809de6bb1b1a6734114259fc11d5c">ug::SqNormOfChebyshev2Poly()</a>, and <a class="el" href="namespaceug.html#a608fe903f2e5a780a93ebe1c34bc7c35">ug::SqNormOfLegendrePoly()</a>.</p>
 
 <p>Referenced by <a class="el" href="namespaceug_1_1bridge.html#a23e6fa3cd807c359c6b8da569d733ed5">ug::bridge::RegisterStandardBridges()</a>.</p>
 
@@ -1016,7 +1073,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jul 24 2017 16:04:12 for ug4 by
+    <li class="footer">Generated on Tue Sep 25 2018 10:08:44 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

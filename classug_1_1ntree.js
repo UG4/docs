@@ -24,6 +24,7 @@ var classug_1_1ntree =
     [ "elems_begin", "classug_1_1ntree.html#ae8e10ed6f9677506d47c190b0a158fdc", null ],
     [ "elems_end", "classug_1_1ntree.html#a2cf27d1a89f58a314f9d632c6d607238", null ],
     [ "empty", "classug_1_1ntree.html#a8c441276993a28d898db9ebe677b3e31", null ],
+    [ "enable_warnings", "classug_1_1ntree.html#a31adda772387a1580d7ed1a3f1a1216b", null ],
     [ "find_leaf_node", "classug_1_1ntree.html#ac2af8e22a9e86b52bb6451cdc00a2931", null ],
     [ "level", "classug_1_1ntree.html#abfb4a195782358c483d3ab7ca9282516", null ],
     [ "num_child_nodes", "classug_1_1ntree.html#a53010defc214f0c36ca36e97e5c675de", null ],
@@ -36,11 +37,13 @@ var classug_1_1ntree =
     [ "size", "classug_1_1ntree.html#a6651e6a7af025dbdd6f1affd0af66f46", null ],
     [ "split_leaf_node", "classug_1_1ntree.html#a3a22b6eff76af2d0400cabfc98db8bfe", null ],
     [ "update_loose_bounding_box", "classug_1_1ntree.html#ace256f5cc128c70a05462888f3f9ac3d", null ],
+    [ "warnings_enabled", "classug_1_1ntree.html#a7b874b3a70aa0705f6352d24a9ea07f3", null ],
     [ "m_commonData", "classug_1_1ntree.html#a8e4e5fa9edb82182c0bc046292cf47cf", null ],
     [ "m_desc", "classug_1_1ntree.html#a6e489613591ea60b3673b06b33192134", null ],
     [ "m_entries", "classug_1_1ntree.html#a10920fa95db4934be6e872575d30baa5", null ],
     [ "m_nodes", "classug_1_1ntree.html#afde03e9b60122bcd5c80b092d26666fe", null ],
     [ "m_numDelayedElements", "classug_1_1ntree.html#ac67d539a187a7669ae96c487f69326fb", null ],
+    [ "m_warningsEnabled", "classug_1_1ntree.html#a6d39eef14c649b5889f8eca459ee1502", null ],
     [ "s_invalidIndex", "classug_1_1ntree.html#a0e0faea083cb80b8eefd94684f8c200c", null ],
     [ "s_numChildren", "classug_1_1ntree.html#ad68587380823f26f632b55c2919374e6", null ]
 ];
