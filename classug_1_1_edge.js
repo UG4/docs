@@ -12,7 +12,7 @@ var classug_1_1_edge =
     [ "get_opposing_side", "classug_1_1_edge.html#a5937f39fdf795fc82d8fbdeed1bc411e", null ],
     [ "num_sides", "classug_1_1_edge.html#af1cd7492f8588d869456bf7620857975", null ],
     [ "reference_object_id", "classug_1_1_edge.html#a017261892866c37ac7132ef224a029f3", null ],
-    [ "refine", "classug_1_1_edge.html#ab3853826b84c175bce3e4ac576f8789c", null ],
+    [ "refine", "classug_1_1_edge.html#aab82b89cb0d5a9886339311d5c3086eb", null ],
     [ "set_vertex", "classug_1_1_edge.html#ab49124df3f01f8ff099b9893d51eeadf", null ],
     [ "type_match", "classug_1_1_edge.html#a88d5bcba8f982e330ad2d24277b780fb", null ],
     [ "Grid", "classug_1_1_edge.html#a502b04f920610c0e574f2731a58681b4", null ],

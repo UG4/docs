@@ -7,5 +7,8 @@ var dir_374b30cd8ddb2a89e7f3a3c38c43db9a =
     ] ],
     [ "mat_law_interface_impl.h", "mat__law__interface__impl_8h.html", null ],
     [ "prandtl_reuss.h", "prandtl__reuss_8h.html", null ],
-    [ "prandtl_reuss_impl.h", "prandtl__reuss__impl_8h.html", "prandtl__reuss__impl_8h" ]
+    [ "prandtl_reuss_impl.h", "prandtl__reuss__impl_8h.html", "prandtl__reuss__impl_8h" ],
+    [ "scaled_hooke_law.h", "scaled__hooke__law_8h.html", null ],
+    [ "skin_law.h", "skin__law_8h.html", null ],
+    [ "skin_law_impl.h", "skin__law__impl_8h.html", "skin__law__impl_8h" ]
 ];

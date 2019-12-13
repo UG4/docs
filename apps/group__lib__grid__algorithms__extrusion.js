@@ -1,8 +1,8 @@
 var group__lib__grid__algorithms__extrusion =
 [
     [ "ExtrusionOptions", "../group__lib__grid__algorithms__extrusion.html#ga3608a56b03762595d04e3f80a35bd370", null ],
+    [ "Extrude", "../group__lib__grid__algorithms__extrusion.html#ga9152411a193fbcd6b66f332d083db16e", null ],
     [ "Extrude", "../group__lib__grid__algorithms__extrusion.html#ga40b312eb1a9410cb1f3b0f4eb2951d9d", null ],
-    [ "Extrude", "../group__lib__grid__algorithms__extrusion.html#gaf48ab6fd86f6658da0aa384717c09796", null ],
     [ "ExtrudeCylinder", "../group__lib__grid__algorithms__extrusion.html#ga25e1021a6e0327aa259dab7a950c1a95", null ],
     [ "ExtrudeCylinder", "../group__lib__grid__algorithms__extrusion.html#ga2a2fb643d0fc7129070de249b449c943", null ],
     [ "EO_CREATE_FACES", "../group__lib__grid__algorithms__extrusion.html#gga3608a56b03762595d04e3f80a35bd370a58930143ed88935a1c7322d75c20d264", null ],

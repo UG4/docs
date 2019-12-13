@@ -2,9 +2,9 @@ var info__commands_8h =
 [
     [ "ClassInstantiations", "info__commands_8h.html#ad0484439f819b2ebfb8d58ad714eb999", null ],
     [ "FunctionInfo", "info__commands_8h.html#a38c28f5e4d5394c1ba63b61f4b65e29c", null ],
-    [ "GetClassNameNode", "info__commands_8h.html#adc5659a6e7e181e6a6b6e84314ee166e", null ],
-    [ "GetClassNames", "info__commands_8h.html#a610b7495a44987be13b43750f3f10ae9", null ],
-    [ "GetClassNames", "info__commands_8h.html#a3c0ce0470a47e3ac74ffb224a33eb7a5", null ],
+    [ "GetClassNameNode", "info__commands_8h.html#aba9c09ae9cb23fbd8a9cd6e7da773c01", null ],
+    [ "GetClassNames", "info__commands_8h.html#a30675e2319af5858ecd77f54cda359b6", null ],
+    [ "GetClassNames", "info__commands_8h.html#a00ee3587b5ecfcd5950855bab2853844", null ],
     [ "GetLuaFileAndLine", "info__commands_8h.html#a74d77829ed090636ab1fdbd0f323a225", null ],
     [ "GetLuaFileAndLineNumber", "info__commands_8h.html#a9c8563cba47b714b8e7c38a3de109a9e", null ],
     [ "GetLuaLine", "info__commands_8h.html#ad56349b2e2a2bad0d7871a82cd1991ed", null ],
@@ -20,8 +20,8 @@ var info__commands_8h =
     [ "LuaGetString", "info__commands_8h.html#a6e203b39f92be55f314cb6e092341ddf", null ],
     [ "LuaPrintTable", "info__commands_8h.html#a54088cec0cd8b521119f480d0017cc92", null ],
     [ "LuaStackTrace", "info__commands_8h.html#a995286fb7f7c7d24c06c2c774fcdd99f", null ],
-    [ "LuaStackTraceString", "info__commands_8h.html#a275b5cce76b89cf744b9ffbcec149551", null ],
     [ "LuaStackTraceString", "info__commands_8h.html#a4c4e8a8ccd2e2f8eead290e5d08b80cc", null ],
+    [ "LuaStackTraceString", "info__commands_8h.html#a275b5cce76b89cf744b9ffbcec149551", null ],
     [ "RegisterInfoCommands", "info__commands_8h.html#ad2e33a1e50e45cc2d4990b87e00e913d", null ],
     [ "UGTypeInfo", "info__commands_8h.html#a4f51483704e116de866dc77dadd3bb4c", null ]
 ];

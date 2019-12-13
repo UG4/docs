@@ -14,5 +14,6 @@ var classug_1_1_truncated_monotone_transfer =
     [ "set_levels", "classug_1_1_truncated_monotone_transfer.html#a3b1544a4f67b3cb0f335d9f7d9f91ee3", null ],
     [ "m_bInit", "classug_1_1_truncated_monotone_transfer.html#a4c3039db7374796cc85524504c592f45", null ],
     [ "m_coarseLevel", "classug_1_1_truncated_monotone_transfer.html#af6431ef61bacbc2ae026e85579182782", null ],
-    [ "m_fineLevel", "classug_1_1_truncated_monotone_transfer.html#a90c311f65e6aaba57955447cf234d2d7", null ]
+    [ "m_fineLevel", "classug_1_1_truncated_monotone_transfer.html#a90c311f65e6aaba57955447cf234d2d7", null ],
+    [ "m_vConstraint", "classug_1_1_truncated_monotone_transfer.html#a4025acb56d7a16b7a7998abc484a9423", null ]
 ];

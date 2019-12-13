@@ -9,8 +9,8 @@ var neighborhood_8h =
       [ "NHT_ALL", "neighborhood_8h.html#gga63180053a571de089489f4ddec67d29eafda55ed687d9a7e72be5a55829a84768", null ]
     ] ],
     [ "CollectNeighborhood", "neighborhood_8h.html#gab7c5bb924f1bad212792d58a9e11f6fe", null ],
-    [ "CollectNeighbors", "neighborhood_8h.html#gada8aee34f6f23920bac25802273647e1", null ],
     [ "CollectNeighbors", "neighborhood_8h.html#gacdf7503689df98eeadd8b1ca78490422", null ],
     [ "CollectNeighbors", "neighborhood_8h.html#ga32137379b4498edab4302e910eefcf40", null ],
+    [ "CollectNeighbors", "neighborhood_8h.html#gada8aee34f6f23920bac25802273647e1", null ],
     [ "CollectNeighbors", "neighborhood_8h.html#ga9e8d484f6cf668c1e6483671330fa3b6", null ]
 ];

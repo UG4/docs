@@ -12,12 +12,13 @@ var classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_v1
     [ "set_reaction_explicit", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_v1.html#afb9e7c6ef8895084a385c5b8d0135e69", null ],
     [ "set_reaction_rate", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_v1.html#a90074a46b6041b6f20b75768ab55a069", null ],
     [ "set_reaction_rate_explicit", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_v1.html#a764fdb7a6023ff5168b3439626462e60", null ],
-    [ "set_singular_sources_and_sinks", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_v1.html#acb80cb45f334947bcb3fefdcf31004ac", null ],
+    [ "set_singular_sources_and_sinks", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_v1.html#aa79b282f721da2ed0f8914a7eecf8933", null ],
     [ "set_source", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_v1.html#a7f0d8f3fdadfcf7b4fdff61702dcbd2f", null ],
     [ "set_source_explicit", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_v1.html#ab4c1345506510bb765ba781e85a141b0", null ],
     [ "set_stationary", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_v1.html#acaa03f38908e9e3264b5ccb3ebb55863", null ],
     [ "set_upwind", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_v1.html#a58d38e4e52728aad89ac001792c14f51", null ],
     [ "set_vector_source", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_v1.html#ad6eb9ee5e91628b201a3d96427b22fbe", null ],
     [ "set_velocity", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_v1.html#a1b53c35e8a8e557186f314ac09f6348b", null ],
+    [ "singular_sources_and_sinks", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_v1.html#aea7ae4111eb727212ff276678e8dfcfc", null ],
     [ "value", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_v1.html#ab93202fb1175b5a84291bbb264961346", null ]
 ];

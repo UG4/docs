@@ -16,13 +16,13 @@ var classug_1_1_std_transfer =
     [ "assemble_restriction", "classug_1_1_std_transfer.html#a0223db98cf18d6be26b03ef3eb919ea4", null ],
     [ "assemble_restriction", "classug_1_1_std_transfer.html#a58e8ad86db964e36292b236f3b0bbc5b", null ],
     [ "clone", "classug_1_1_std_transfer.html#ae033b3fd345f6ae7eb75d741379fe702", null ],
-    [ "do_restrict", "classug_1_1_std_transfer.html#a60ecb7848d8386b0a7902c1fffac8515", null ],
     [ "do_restrict", "classug_1_1_std_transfer.html#a630efcaa4b130ac2f371b3bbf9add868", null ],
+    [ "do_restrict", "classug_1_1_std_transfer.html#a60ecb7848d8386b0a7902c1fffac8515", null ],
     [ "enable_p1_lagrange_optimization", "classug_1_1_std_transfer.html#a99fc3a54af376349d344897082530bd6", null ],
     [ "init", "classug_1_1_std_transfer.html#a8751f119ce34e200e9cccf340bb91cb9", null ],
     [ "p1_lagrange_optimization_enabled", "classug_1_1_std_transfer.html#ab7c39b29e77c777cd542962e0f0599af", null ],
-    [ "prolongate", "classug_1_1_std_transfer.html#aa9dbf78e5be5bc45a351da90fc2a2091", null ],
     [ "prolongate", "classug_1_1_std_transfer.html#a260f0387f239404feda34377798a104e", null ],
+    [ "prolongate", "classug_1_1_std_transfer.html#aa9dbf78e5be5bc45a351da90fc2a2091", null ],
     [ "prolongation", "classug_1_1_std_transfer.html#a60ff0fcdbdafd29821c1bd03c6821e20", null ],
     [ "remove_outdated", "classug_1_1_std_transfer.html#a4704079f26b7b84b61a2cb013994047a", null ],
     [ "restriction", "classug_1_1_std_transfer.html#a21dcd9cc262458be26125a6588b97e71", null ],
@@ -39,5 +39,6 @@ var classug_1_1_std_transfer =
     [ "m_mProlongation", "classug_1_1_std_transfer.html#ac5ee734e380a2b33f7ae2a65c27a2771", null ],
     [ "m_mRestriction", "classug_1_1_std_transfer.html#a3a8c94d132316222c854ad5350603bac", null ],
     [ "m_p1LagrangeOptimizationEnabled", "classug_1_1_std_transfer.html#acb3f594dd7329ff9eab895053df59882", null ],
-    [ "m_spDebugWriter", "classug_1_1_std_transfer.html#a7abb88e7f9508ad5081b67feecdc0bcd", null ]
+    [ "m_spDebugWriter", "classug_1_1_std_transfer.html#a7abb88e7f9508ad5081b67feecdc0bcd", null ],
+    [ "m_vConstraint", "classug_1_1_std_transfer.html#a4025acb56d7a16b7a7998abc484a9423", null ]
 ];

@@ -7,7 +7,7 @@ var classug_1_1_matrix_diagonal =
     [ "MatrixDiagonal", "classug_1_1_matrix_diagonal.html#add926f66bc459eb5d17133c22d06411d", null ],
     [ "apply", "classug_1_1_matrix_diagonal.html#ad25973839a0e85c1c8b33f40e2e64948", null ],
     [ "apply_sub", "classug_1_1_matrix_diagonal.html#aea319d3feff55ea8ce5c4cea758ae345", null ],
-    [ "init", "classug_1_1_matrix_diagonal.html#a2ba09e85b96bafe9baa1ba625b67bab2", null ],
     [ "init", "classug_1_1_matrix_diagonal.html#ae336bb3ece66c3b918812d0408ed7faa", null ],
+    [ "init", "classug_1_1_matrix_diagonal.html#a2ba09e85b96bafe9baa1ba625b67bab2", null ],
     [ "m_mo", "classug_1_1_matrix_diagonal.html#a5c4a08c8f05d0217673954756c559a2d", null ]
 ];

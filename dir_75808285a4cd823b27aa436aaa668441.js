@@ -1,5 +1,8 @@
 var dir_75808285a4cd823b27aa436aaa668441 =
 [
+    [ "bingham_viscosity_linker.h", "bingham__viscosity__linker_8h.html", [
+      [ "BinghamViscosityLinker", "classug_1_1_bingham_viscosity_linker.html", "classug_1_1_bingham_viscosity_linker" ]
+    ] ],
     [ "darcy_velocity_linker.h", "darcy__velocity__linker_8h.html", [
       [ "DarcyVelocityLinker", "classug_1_1_darcy_velocity_linker.html", "classug_1_1_darcy_velocity_linker" ]
     ] ],

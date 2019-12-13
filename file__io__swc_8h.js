@@ -8,7 +8,10 @@ var file__io__swc_8h =
       [ "SWC_SOMA", "file__io__swc_8h.html#ac605df888f99072c0c3a8f05f225164aa2eb698b01360362b0f5465c3088d0efd", null ],
       [ "SWC_AXON", "file__io__swc_8h.html#ac605df888f99072c0c3a8f05f225164aabe817ff01f6ff967a1bc16295e2edfed", null ],
       [ "SWC_DEND", "file__io__swc_8h.html#ac605df888f99072c0c3a8f05f225164aacc9b637c46629b13f4aed89f25859a0b", null ],
-      [ "SWC_APIC", "file__io__swc_8h.html#ac605df888f99072c0c3a8f05f225164aa64b80a4d82c2271fee87eed526601d92", null ]
+      [ "SWC_APIC", "file__io__swc_8h.html#ac605df888f99072c0c3a8f05f225164aa64b80a4d82c2271fee87eed526601d92", null ],
+      [ "SWC_FORK", "file__io__swc_8h.html#ac605df888f99072c0c3a8f05f225164aa4be60b291f4bd6ddb54cbaa1c5ed38f4", null ],
+      [ "SWC_END", "file__io__swc_8h.html#ac605df888f99072c0c3a8f05f225164aa6641c0e142d412980381b9c5a93303da", null ],
+      [ "SWC_CUSTOM", "file__io__swc_8h.html#ac605df888f99072c0c3a8f05f225164aacdeb8511b929362c96a6ad7689dbb90d", null ]
     ] ],
     [ "ExportGridToSWC", "file__io__swc_8h.html#a03650229459d120078c0eb3169ecae1d", null ],
     [ "LoadGridFromSWC", "file__io__swc_8h.html#a4b3d16aec3998549e324b0cfbec386bf", null ]

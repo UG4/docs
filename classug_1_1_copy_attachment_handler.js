@@ -12,6 +12,7 @@ var classug_1_1_copy_attachment_handler =
     [ "copy", "classug_1_1_copy_attachment_handler.html#aac7da99f27e323bc64f3137f65c08767", null ],
     [ "copy_from_other_elem_type", "classug_1_1_copy_attachment_handler.html#a743b3e9e43013e7a962585fa40989a9c", null ],
     [ "edge_created", "classug_1_1_copy_attachment_handler.html#a7372366b17d585dcd168b48479a736d1", null ],
+    [ "enable_vertical_communication", "classug_1_1_copy_attachment_handler.html#a7772aee192b175bfc158b062beaaa36c", null ],
     [ "face_created", "classug_1_1_copy_attachment_handler.html#a50ed785eb8a2305726367480aa114ada", null ],
     [ "propagate_to_level", "classug_1_1_copy_attachment_handler.html#a8ed3409d95a2a9a0374d7601108d08b2", null ],
     [ "propagate_to_levels", "classug_1_1_copy_attachment_handler.html#a6626c761b849f2e0f2f0db4e3d1692fd", null ],
@@ -22,5 +23,6 @@ var classug_1_1_copy_attachment_handler =
     [ "propagate< TElem, void >", "classug_1_1_copy_attachment_handler.html#a9067b07760fa34edd8a0eadb4b3d7aec", null ],
     [ "m_a", "classug_1_1_copy_attachment_handler.html#abba49b4771bb49380fe01ee93181f0fb", null ],
     [ "m_aa", "classug_1_1_copy_attachment_handler.html#ac743adac7a72e8f7b022921fe026c2e2", null ],
+    [ "m_bEnableVertComm", "classug_1_1_copy_attachment_handler.html#ad750ab1e1bed9ff2a93f8c7da418f232", null ],
     [ "m_spMG", "classug_1_1_copy_attachment_handler.html#af7b22fb618627bb870514967fb3683a1", null ]
 ];

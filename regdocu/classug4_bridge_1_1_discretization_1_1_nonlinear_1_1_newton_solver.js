@@ -23,6 +23,7 @@ var classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_newton_solver =
     [ "set_convergence_check", "classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_newton_solver.html#a030f3061402e72e70901abc2a332e980", null ],
     [ "set_line_search", "classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_newton_solver.html#a86f4d9a6544fe3e745bbd2fcbb72f74d", null ],
     [ "set_linear_solver", "classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_newton_solver.html#a3bf9e7c241086cde4e6042c4bcdc747a", null ],
+    [ "set_reassemble_J_freq", "classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_newton_solver.html#ade47d22d7efff8e2d193d5af0179f9df", null ],
     [ "total_average_linear_steps", "classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_newton_solver.html#a754b1bee346f748bd0bb773c57b57fd2", null ],
     [ "total_linsolver_calls", "classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_newton_solver.html#adb2ec40a6318cca1e459f8c6215619e3", null ],
     [ "total_linsolver_steps", "classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_newton_solver.html#ac95c08b6965e614d5235b3eb31b071f5", null ]

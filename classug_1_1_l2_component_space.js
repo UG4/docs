@@ -9,5 +9,8 @@ var classug_1_1_l2_component_space =
     [ "L2ComponentSpace", "classug_1_1_l2_component_space.html#a48c5fc0b599309bb922d9f0c13441581", null ],
     [ "~L2ComponentSpace", "classug_1_1_l2_component_space.html#a93319bd3127a7c4d4f31f1bb62a24589", null ],
     [ "distance2", "classug_1_1_l2_component_space.html#a9b75808b1376b2be61cbfd9e824240f9", null ],
-    [ "norm2", "classug_1_1_l2_component_space.html#adbede3a5a0e793b8f6933b1c208df632", null ]
+    [ "get_weight", "classug_1_1_l2_component_space.html#aa62435f318d3018e49425a594493afe2", null ],
+    [ "norm2", "classug_1_1_l2_component_space.html#adbede3a5a0e793b8f6933b1c208df632", null ],
+    [ "set_weight", "classug_1_1_l2_component_space.html#a5a76c2baf3067884868dd38b0c6cb4a1", null ],
+    [ "m_spWeight", "classug_1_1_l2_component_space.html#a5943541292a72b79e1f0453aa74cfe2c", null ]
 ];

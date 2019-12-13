@@ -15,6 +15,6 @@ var group__lib__grid__algorithms__remeshing =
     ] ],
     [ "AdaptSurfaceGridToCylinder", "group__lib__grid__algorithms__remeshing.html#gaa6cdff940793032a9dac5582b475ee86", null ],
     [ "AdaptSurfaceGridToCylinder", "group__lib__grid__algorithms__remeshing.html#gaac28fe0453bb9a04445b151043c207c6", null ],
-    [ "AdjustEdgeLength", "group__lib__grid__algorithms__remeshing.html#gab217fe44fb42f01be0dab1a46c2908ae", null ],
-    [ "AdjustEdgeLength", "group__lib__grid__algorithms__remeshing.html#ga38d4f3b09792301b6efb8f50d2326440", null ]
+    [ "AdjustEdgeLength", "group__lib__grid__algorithms__remeshing.html#ga38d4f3b09792301b6efb8f50d2326440", null ],
+    [ "AdjustEdgeLength", "group__lib__grid__algorithms__remeshing.html#gab217fe44fb42f01be0dab1a46c2908ae", null ]
 ];

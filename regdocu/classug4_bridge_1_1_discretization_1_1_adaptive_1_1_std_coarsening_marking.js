@@ -1,5 +1,6 @@
 var classug4_bridge_1_1_discretization_1_1_adaptive_1_1_std_coarsening_marking =
 [
+    [ "StdCoarseningMarking", "classug4_bridge_1_1_discretization_1_1_adaptive_1_1_std_coarsening_marking.html#a451583bdc56b20ef16643280fcae1460", null ],
     [ "StdCoarseningMarking", "classug4_bridge_1_1_discretization_1_1_adaptive_1_1_std_coarsening_marking.html#a7a190280005f3a7907a48a888783329c", null ],
     [ "StdCoarseningMarking", "classug4_bridge_1_1_discretization_1_1_adaptive_1_1_std_coarsening_marking.html#a450b914d235a94cd3fad9832c7c3340b", null ],
     [ "global_estimated_error", "classug4_bridge_1_1_discretization_1_1_adaptive_1_1_std_coarsening_marking.html#aafd7b3aae9e18c7d208f4479e80ff245", null ],

@@ -1,10 +1,10 @@
 var structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___g_l_59e5d97d6410f8808a56dc31cf2bc5b3 =
 [
     [ "MatMult", "structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___g_l_59e5d97d6410f8808a56dc31cf2bc5b3.html#a1940840fa5545142b1545cb349ce6890", null ],
-    [ "MatMultAdd", "structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___g_l_59e5d97d6410f8808a56dc31cf2bc5b3.html#a30c5cf9a75a1d48069fb7db614d3ec3c", null ],
     [ "MatMultAdd", "structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___g_l_59e5d97d6410f8808a56dc31cf2bc5b3.html#a49de6bf81a30598b93edd9fee2b45bdb", null ],
-    [ "MatMultAdd", "structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___g_l_59e5d97d6410f8808a56dc31cf2bc5b3.html#ae443fbec24871045037cb7b49d6b773a", null ],
+    [ "MatMultAdd", "structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___g_l_59e5d97d6410f8808a56dc31cf2bc5b3.html#a30c5cf9a75a1d48069fb7db614d3ec3c", null ],
     [ "MatMultAdd", "structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___g_l_59e5d97d6410f8808a56dc31cf2bc5b3.html#ac91a16742af1e0ed9fd52b64082d6b48", null ],
+    [ "MatMultAdd", "structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___g_l_59e5d97d6410f8808a56dc31cf2bc5b3.html#ae443fbec24871045037cb7b49d6b773a", null ],
     [ "MatMultTransposed", "structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___g_l_59e5d97d6410f8808a56dc31cf2bc5b3.html#aa636ae9c055654a58004219aeb62bc38", null ],
     [ "MatMultTransposedAdd", "structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___g_l_59e5d97d6410f8808a56dc31cf2bc5b3.html#a4d449a4dcc74067b816cc5d0f6a08ce9", null ]
 ];

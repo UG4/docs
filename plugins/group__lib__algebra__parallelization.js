@@ -1,5 +1,9 @@
 var group__lib__algebra__parallelization =
 [
+    [ "Parallel Algebra Communication Policies", "../group__lib__algebra__parallelization__policies.html", null ],
+    [ "Parallel Algebra Communication Scheme", "../group__lib__algebra__parallelization__scheme.html", "group__lib__algebra__parallelization__scheme" ],
+    [ "Parallel Algebra Consistency Check", "../group__lib__algebra__parallel__consistencycheck.html", "group__lib__algebra__parallel__consistencycheck" ],
+    [ "Parallel Algebra Util", "../group__lib__algebra__parallelization__util.html", "group__lib__algebra__parallelization__util" ],
     [ "IndexLayout", "../group__lib__algebra__parallelization.html#gad2e106a1a11b3d94250becdabf196f65", null ],
     [ "ParallelStorageType", "../group__lib__algebra__parallelization.html#ga75c6ad52009fea9cf3f582261c814936", null ],
     [ "PST_ADDITIVE", "../group__lib__algebra__parallelization.html#gga75c6ad52009fea9cf3f582261c814936aead524625869f6f9f10996b622ade866", null ],

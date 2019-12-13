@@ -13,14 +13,14 @@ var group__registry =
     [ "ConstructorInfo", "../group__registry.html#ga9b3e1a125b43481b47e0f91df247343f", null ],
     [ "DestructorProxy", "../group__registry.html#gaaf9b1223add38cf839eef233976a7872", null ],
     [ "ExtractClassNameVec", "../group__registry.html#gae16f3af474106398b413dfb62768c099", null ],
-    [ "FindFunction", "../group__registry.html#ga96a4c5bf9baeb2d970b7055e1dfd3166", null ],
-    [ "FunctionInfo", "../group__registry.html#gacb05b962c365961d8d9c00da94ca4114", null ],
+    [ "FindFunction", "../group__registry.html#gad4f43dd8f18f1b8fa16f217d84779e5f", null ],
     [ "FunctionInfo", "../group__registry.html#ga37acde2c5cf3eb7e06745ebb458d7fc1", null ],
+    [ "FunctionInfo", "../group__registry.html#gacb05b962c365961d8d9c00da94ca4114", null ],
     [ "GetClassHierarchy", "../group__registry.html#ga0393617baa93152a3bb93c802ffda5a6", null ],
     [ "GetClassName", "../group__registry.html#ga359777603c466596151991045ab34578", null ],
     [ "GetRegistryIdentifierMessage", "../group__registry.html#gadeb642f80b80e5763b96cf3951014840", null ],
     [ "IsClassInParameters", "../group__registry.html#ga8beb1a88cc050604eb4cdeccb82d479a", null ],
     [ "IsValidRegistryIdentifier", "../group__registry.html#gad29327afd8bbd3eb5f128a98f1c2b36b", null ],
     [ "ParameterToString", "../group__registry.html#gaa0d9693b9bd5ae5e9afd583a8b405dee", null ],
-    [ "StaticVoidCast", "../group__registry.html#ga73d4f25ef4c0206d3312a41ab2ba27b0", null ]
+    [ "StaticVoidCast", "../group__registry.html#gac741360dcf57bfafccbf69b189b99ed6", null ]
 ];

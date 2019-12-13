@@ -23,7 +23,7 @@ var classug_1_1_i_l_u =
     [ "set_sort_eps", "classug_1_1_i_l_u.html#ac7d8a9325b64b03264172017e2d98fef", null ],
     [ "step", "classug_1_1_i_l_u.html#aa996dcc25fe8253a80ea70410ffcb333", null ],
     [ "supports_parallel", "classug_1_1_i_l_u.html#a89cd64bfcaa01d5ade54147bdfd9be53", null ],
-    [ "write_debug", "classug_1_1_i_l_u.html#a71b755b19620143d5b8b9de3a3b3a7c6", null ],
+    [ "write_overlap_debug", "classug_1_1_i_l_u.html#ad1afde2ff18d1ab4e3485ac09dccb3de", null ],
     [ "m_bDisablePreprocessing", "classug_1_1_i_l_u.html#a5aea228ca60239f54f1ab02e9a1a3489", null ],
     [ "m_beta", "classug_1_1_i_l_u.html#ac259bfdfd60b7538f43d606b117c0b2b", null ],
     [ "m_bSort", "classug_1_1_i_l_u.html#a192a03fb50bdfc7e3abe40eca58b2556", null ],

@@ -24,6 +24,7 @@ var dir_3ec088f778c44889f52dc602c90557d0 =
       [ "MinimalResiduumDamping", "classug_1_1_minimal_residuum_damping.html", "classug_1_1_minimal_residuum_damping" ]
     ] ],
     [ "debug_writer.h", "debug__writer_8h.html", [
+      [ "DebugWriterContext", "classug_1_1_debug_writer_context.html", "classug_1_1_debug_writer_context" ],
       [ "DebugWritingObject", "classug_1_1_debug_writing_object.html", "classug_1_1_debug_writing_object" ],
       [ "IDebugWriter", "classug_1_1_i_debug_writer.html", "classug_1_1_i_debug_writer" ],
       [ "IPositionProvider", "classug_1_1_i_position_provider.html", "classug_1_1_i_position_provider" ],

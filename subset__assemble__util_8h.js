@@ -1,6 +1,6 @@
 var subset__assemble__util_8h =
 [
-    [ "CreateSubsetGroups", "subset__assemble__util_8h.html#af9916651967892a7eb5113532e91468d", null ],
-    [ "GetElemDiscItemOnSubset", "subset__assemble__util_8h.html#a84373b68baec0d3fe2a9a941b7095325", null ],
-    [ "GetElemDiscOnSubset", "subset__assemble__util_8h.html#a5517409719e62b0f7ceaedd8987e10de", null ]
+    [ "CreateSubsetGroups", "subset__assemble__util_8h.html#a9fba707a29fc9689da2f8ef6ec67c8b3", null ],
+    [ "GetElemDiscItemOnSubset", "subset__assemble__util_8h.html#a5d48098c8bc381675486f98c3c73e8ae", null ],
+    [ "GetElemDiscOnSubset", "subset__assemble__util_8h.html#a6db0f75d1a0b004b2ec88989bcca33f0", null ]
 ];

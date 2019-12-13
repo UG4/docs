@@ -3,7 +3,7 @@ var selection__util_8h =
     [ "AssignSelectionStateToSides", "selection__util_8h.html#ga859152ce784194858c66fece4699328d", null ],
     [ "CalculateCenter", "selection__util_8h.html#gae18a702589e6f00deab8ee9d2060bca1", null ],
     [ "CloseSelection", "selection__util_8h.html#ga8ed839e8395106abc07bd43ca814fbef", null ],
-    [ "CollectVerticesTouchingSelection", "selection__util_8h.html#gacd3ae9a0df6c3c86c9a9581b04d77b7f", null ],
+    [ "CollectVerticesTouchingSelection", "selection__util_8h.html#ga06422faeed8fc3b507ce9ccc72925bd0", null ],
     [ "DeselectBoundarySelectionEdges", "selection__util_8h.html#ga61890f4a326b8bb8b8ed4821b13fb765", null ],
     [ "DeselectBoundarySelectionFaces", "selection__util_8h.html#ga6e249e072aee5e0311ce9e667b037ae0", null ],
     [ "DeselectBoundarySelectionVertices", "selection__util_8h.html#ga0cb43743acaecd5e3412aadd8d9c5251", null ],
@@ -13,8 +13,8 @@ var selection__util_8h =
     [ "FaceArea", "selection__util_8h.html#gaa60d04ed2f5ef009aadb2365a39eb96d", null ],
     [ "GetSelectedElementIndices", "selection__util_8h.html#ga1c7e817ecbdaf6a1bdd748c04948c40f", null ],
     [ "GetSelectedElementIndices", "selection__util_8h.html#ga7acd985ce17530ba80f14a822aae7806", null ],
-    [ "InvertSelection", "selection__util_8h.html#ga2abe8d00447cb9ab584abf19657bbd14", null ],
     [ "InvertSelection", "selection__util_8h.html#ga3e6acf610dabc547633a29946aaf1df7", null ],
+    [ "InvertSelection", "selection__util_8h.html#ga2abe8d00447cb9ab584abf19657bbd14", null ],
     [ "SelectAreaBoundary", "selection__util_8h.html#ga43c96d1112eb9a413452f5c6dcd1fe74", null ],
     [ "SelectAssociated", "selection__util_8h.html#ga3d0a5db38167bc16ba7e7f1dcec191d4", null ],
     [ "SelectAssociatedEdges", "selection__util_8h.html#gab6c4c8494cf6a4186bad07b3745e7220", null ],
@@ -40,6 +40,7 @@ var selection__util_8h =
     [ "SelectRegion", "selection__util_8h.html#ga51e9480950b7c07be13b9854259703fd", null ],
     [ "SelectShortPolychains", "selection__util_8h.html#gae74e88e4c32326bebcab322baa9416bf", null ],
     [ "SelectSmoothEdgePath", "selection__util_8h.html#gaddeb745d2f782ee3727f8129d0281a08", null ],
+    [ "SelectSubset", "selection__util_8h.html#ga8e8fa3f1d0c30ada51ae0a9066e26620", null ],
     [ "SelectSubsetElements", "selection__util_8h.html#gaaeea5ff068776ffbae63185458468c7c", null ],
     [ "TranslateSelection", "selection__util_8h.html#gab59640a4f6a3143efcd0fd5d690a81a5", null ]
 ];

@@ -5,7 +5,6 @@ var namespaceug4_bridge =
     [ "Domain", "namespaceug4_bridge_1_1_domain.html", "namespaceug4_bridge_1_1_domain" ],
     [ "Grid", "namespaceug4_bridge_1_1_grid.html", "namespaceug4_bridge_1_1_grid" ],
     [ "Init", "namespaceug4_bridge_1_1_init.html", "namespaceug4_bridge_1_1_init" ],
-    [ "LoadBalancing", "namespaceug4_bridge_1_1_load_balancing.html", "namespaceug4_bridge_1_1_load_balancing" ],
     [ "LuaShell", "namespaceug4_bridge_1_1_lua_shell.html", "namespaceug4_bridge_1_1_lua_shell" ],
     [ "Periodic", "namespaceug4_bridge_1_1_periodic.html", "namespaceug4_bridge_1_1_periodic" ],
     [ "promesh", "namespaceug4_bridge_1_1promesh.html", "namespaceug4_bridge_1_1promesh" ],

@@ -1,5 +1,6 @@
 var namespaceug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data =
 [
+    [ "BinghamViscosityLinker", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_bingham_viscosity_linker.html", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_bingham_viscosity_linker" ],
     [ "CondCplUserMatrix", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_cond_cpl_user_matrix.html", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_cond_cpl_user_matrix" ],
     [ "CondCplUserNumber", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_cond_cpl_user_number.html", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_cond_cpl_user_number" ],
     [ "CondCplUserTensor4", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_cond_cpl_user_tensor4.html", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_cond_cpl_user_tensor4" ],

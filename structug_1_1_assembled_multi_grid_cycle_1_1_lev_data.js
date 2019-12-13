@@ -1,6 +1,11 @@
 var structug_1_1_assembled_multi_grid_cycle_1_1_lev_data =
 [
     [ "A", "structug_1_1_assembled_multi_grid_cycle_1_1_lev_data.html#a08dcdef54b65da6dc6a0163f7fa4b0d5", null ],
+    [ "n_base_calls", "structug_1_1_assembled_multi_grid_cycle_1_1_lev_data.html#aef49c266410c7f312b89446b7f1fb647", null ],
+    [ "n_post_calls", "structug_1_1_assembled_multi_grid_cycle_1_1_lev_data.html#a7e8d00f8caa82f9e22ceed10ed6e5d07", null ],
+    [ "n_pre_calls", "structug_1_1_assembled_multi_grid_cycle_1_1_lev_data.html#ad9ad79c75d1a96a0a7e86ff7d35798f6", null ],
+    [ "n_prolong_calls", "structug_1_1_assembled_multi_grid_cycle_1_1_lev_data.html#a4c44332276a685409b2263a864c41a0c", null ],
+    [ "n_restr_calls", "structug_1_1_assembled_multi_grid_cycle_1_1_lev_data.html#a50d7386f79b0ebca0df147fa4c24e14f", null ],
     [ "PostSmoother", "structug_1_1_assembled_multi_grid_cycle_1_1_lev_data.html#a65f6717e3cc351a4928b31129955af6d", null ],
     [ "PreSmoother", "structug_1_1_assembled_multi_grid_cycle_1_1_lev_data.html#a702e48c573aba381cd8b490a9d5391f2", null ],
     [ "Projection", "structug_1_1_assembled_multi_grid_cycle_1_1_lev_data.html#a3c2fba7996ab016edaab906be157d69a", null ],

@@ -16,16 +16,16 @@ var subset__util_8cpp =
     [ "AssignVolumeInterfaceFacesToSubsets", "subset__util_8cpp.html#ga2a766d9f0444aea63d441c3c740cd57f", null ],
     [ "ComputeLocalSubsetDimensions", "subset__util_8cpp.html#gad230a3a50cf171d250f9fa21eaaad40f", null ],
     [ "CopySubsetFromHigherDimNbr", "subset__util_8cpp.html#a75651c754881b25a18951d89ef7accbf", null ],
+    [ "CopySubsetIndicesToSides", "subset__util_8cpp.html#gad359df1bdd95000c11685eb765657734", null ],
     [ "CopySubsetIndicesToSides", "subset__util_8cpp.html#ga21b8cde0c684ba6004d1b91d135f74cf", null ],
     [ "CopySubsetIndicesToSides", "subset__util_8cpp.html#ga6a8a9b164773b8d463cb8a1a000ddf7d", null ],
-    [ "CopySubsetIndicesToSides", "subset__util_8cpp.html#gad359df1bdd95000c11685eb765657734", null ],
     [ "EraseEmptySubsets", "subset__util_8cpp.html#af972ee2b2538b201003797ebbe01a389", null ],
     [ "GetColorFromStandardPalette", "subset__util_8cpp.html#ga540f49f0844b9ab2c72796694bdf7d8a", null ],
     [ "GetFirstFreeSubset", "subset__util_8cpp.html#gafdf3c180b8928416bb095d806f35ab14", null ],
     [ "GetSmallestLocalSubsetDimension", "subset__util_8cpp.html#a057255359229c9a160c670a6d3f418d6", null ],
     [ "NbrIsInSubset", "subset__util_8cpp.html#a982fe0e45a2d903a15b96fc5077c298a", null ],
     [ "SeparateFaceSubsetsByNormal", "subset__util_8cpp.html#gab4ff9fcf87ef92ab95ce3f2772c45eb1", null ],
-    [ "SeparateFaceSubsetsByNormal", "subset__util_8cpp.html#ga5b76231c8d53b10ec852d19b7fe66266", null ],
+    [ "SeparateFaceSubsetsByNormal", "subset__util_8cpp.html#ga420783a16c5e182e38bc69b4d0077b2e", null ],
     [ "SeparateRegions", "subset__util_8cpp.html#ga6324c2d9db7c8e072908dd0872f05ceb", null ],
     [ "SplitIrregularManifoldSubset", "subset__util_8cpp.html#ga483667d062ae38ffc2e553f2c0054db1", null ]
 ];

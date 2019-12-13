@@ -1,3 +1,25 @@
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this file.
+
+Copyright (C) 1997-2019 by Dimitri van Heesch
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of version 2 of the GNU General Public License as published by
+the Free Software Foundation
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+@licend  The above is the entire license notice
+for the JavaScript code in this file
+*/
 var NAVTREE =
 [
   [ "Plugins", "index.html", [
@@ -13,8 +35,8 @@ var NAVTREE =
       [ "Scripts", "../group__scripts.html", null ],
       [ "Apps", "../apps/group__apps.html", null ]
     ] ],
-    [ "Namespaces", null, [
-      [ "Namespace List", "namespaces.html", "namespaces" ],
+    [ "Namespaces", "namespaces.html", [
+      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", "namespacemembers_dup" ],
         [ "Functions", "namespacemembers_func.html", "namespacemembers_func" ],
@@ -36,8 +58,8 @@ var NAVTREE =
         [ "Enumerator", "functions_eval.html", null ]
       ] ]
     ] ],
-    [ "Files", null, [
-      [ "File List", "files.html", "files" ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", "globals_dup" ],
         [ "Variables", "globals_vars.html", null ],
@@ -50,32 +72,33 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../apps/group__apps.html",
-"classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v_c_r.html#ae25d0ffda683ee165e920ad624422280",
-"classug_1_1_electromagnetism_1_1_compute_elem_flux_helper_3_01_t_grid_func_00_01_regular_edge_01_4.html",
-"classug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_loc_laplace_a.html#af29b761d2930af27b227b02a1ccb0b96",
-"classug_1_1_navier_stokes_1_1_c_r_dynamic_turb_visc_data.html#a3be9ceeeebf1158cff723fd0cd069640",
-"classug_1_1_navier_stokes_1_1_f_v1_dynamic_turb_visc_data.html#a1788bf73b02131ffca5bd4834739b547",
-"classug_1_1_navier_stokes_1_1_i_navier_stokes_upwind.html#a99c17e362967dab5ea5c4b8ceb9cbfeb",
-"classug_1_1_navier_stokes_1_1_navier_stokes_full_upwind.html#aa5a8dafb172c46ffae4717c555bc1953",
-"classug_1_1_navier_stokes_1_1_navier_stokes_w_s_b_c_f_v1.html#a6e0ed31620e6fae0596650fbdf33224c",
-"classug_1_1_p_c_r_i_l_u_t_preconditioner.html#a6b93cd503738426e043cb700a77eef9e",
-"classug_1_1promesh_1_1_mesh.html#abf295dcacdc5ac7c7ef210239ec7e209",
-"cpp__generator_8h.html",
-"grid__generation__tools_8h.html#a21e3ebd164e827cc61c5acf439c59bda",
-"group__lib__algebra__parallelization__scheme.html#ga42fc159ebc025f6ed82a10d411e98980",
-"group__lib__grid__algorithms__geom__obj__misc.html#gafaf7a762e2f5d85cb6f648f94378a90e",
-"group__lib__grid__algorithms__trees.html#ga6f2817b7c01ff108b49d057573a8c784",
-"group__math__tensor.html#ga4bf21d8df10afd6d93e8781129be1cb6",
-"group__promesh.html#ga3de81d6a380c888d42f3d19ea90641d6",
-"group__small__algebra.html#ga509a0328c9b57184de1129d1b873c0e0",
-"group__ugbase__common.html#ga196c4cf75549d65de84def6692f4fd43",
-"group__ugbase__math.html#ga106d3b2b6a003c0b184cfd540fc2c433",
-"inflow__fv_8h.html",
-"namespacemembers_func.html",
-"remeshing__tools_8cpp.html#ga4ca462574841c5d4502c9b7dfd241f75",
-"selection__tools_8h.html#aefd2447cca6031c3f315db18e1743985",
-"structug_1_1_electromagnetism_1_1_time_harmonic_nedelec_hybrid_smoother_1_1t__red__op__or.html",
-"topology__tools_8h.html#ga4b11843f3762dcbd74556c614d18a076"
+"classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v_c_r.html#aca231c4fa6744e8003a1d7705ef705c6",
+"classug_1_1_docu_gen_1_1_cpp_generator.html#ae1b18ed1994126f09fa8319d429c1833",
+"classug_1_1_electromagnetism_1_1_nedelec_interpolation_3_01_t_domain_00_013_00_013_01_4.html#a05a6957084dc9f4d17fe84226d0440ac",
+"classug_1_1_electromagnetism_1_1_nedelec_transfer.html#a48a107d2926f5fc977487453d7dd30d4",
+"classug_1_1_navier_stokes_1_1_constant_box_filter.html#a2316fb27deb994ac662b82967e1b0901",
+"classug_1_1_navier_stokes_1_1_filter_impl_base_class.html#ab0479cab3d57374fd2768b387a75fbc1",
+"classug_1_1_navier_stokes_1_1_navier_stokes_f_v1.html#a230d234d4a1f0be7fafd8a7dd69c6414",
+"classug_1_1_navier_stokes_1_1_navier_stokes_no_normal_stress_outflow_f_v_c_r.html#aca7aa533bbe123f8ae53f3c043b72a61",
+"classug_1_1_navier_stokes_1_1_std_turbulent_viscosity_data_f_v1.html#a39f0ae56138186b7a943583fec8dd4ee",
+"classug_1_1_small_strain_mechanics_1_1_small_strain_mechanics_elem_disc.html#a0a2fb5848d9db8264a133ea74700df72",
+"classug_1_1promesh_1_1detail_1_1_pro_mesh_function.html#af0bdd2d563835138ea0577970e89648c",
+"dir_90c8b690e559459740b0e677eab7f4d2.html",
+"group__apps__ugdocu.html#ga6e8c01107f78e0225e8d1c6253139f77",
+"group__lib__disc__domain.html#ga49cbff5c0ca57031b167d0b2e93851ca",
+"group__lib__grid__algorithms__neighborhood__util.html#ga64a92a694ccea2da646e8baf1fb3a2b2",
+"group__lib__grid__algorithms__vertex__util.html#gae5e8fa8b773f83df4f63e0f75968bf6f",
+"group__misc__bridge.html#gab00f35f1ea98c51e7fbe71a4a0f02f40",
+"group__promesh.html#ga7769104749a885c2764ee1d3ac58a1a1",
+"group__small__strain__mechanics.html#ga15d1a7a9e102616c22ae114af45ab7d6",
+"group__test__bridge.html#ga2a7d4c240e5fb4beff8e62d7260909fa",
+"group__ugbase__common__util.html#gab9fd66c9dae824bb1564533cf571a547",
+"hooke__impl_8h.html#a39bcb4ec3aa53ec9a16fc7d7141cc7ce",
+"mech__output__writer__impl_8h.html#ga1a601698f3b3b36b42b739b65c4a75ad",
+"refinement__tools_8h.html#gaba0deb0164224a910c2920f6871ccd1a",
+"selection__tools_8h.html#a44d97c83a431b7368208e648a9406f35",
+"structug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_mark_source_edges.html",
+"symmetric__boundary__fv1_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

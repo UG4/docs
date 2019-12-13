@@ -1,3 +1,25 @@
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this file.
+
+Copyright (C) 1997-2019 by Dimitri van Heesch
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of version 2 of the GNU General Public License as published by
+the Free Software Foundation
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+@licend  The above is the entire license notice
+for the JavaScript code in this file
+*/
 var NAVTREE =
 [
   [ "Registry", "index.html", [
@@ -32,18 +54,18 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../apps/group__apps.html",
-"classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_backward_gauss_seidel.html#a8c76daa2056dfac2eb30dd0fab41e171",
-"classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_sparse_block_gauss_seidel2.html",
-"classug4_bridge_1_1_algebra_1_1_solver_1_1_l_u__c.html#a7c17a2c124cded651e627a872eafaace",
-"classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function.html#ae761dd0d353773ca0a533629e7af42c6",
-"classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_n_l_gauss_seidel_solver.html#a0fb44a6404d10e26197e9c4f6f7513c3",
-"classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_dependent_user_data_tensor4.html#a812caf9be8bbe92a2fd8273dd2dda065",
-"classug4_bridge_1_1_grid_1_1_cylinder_cut_projector.html#ab806d5d891c0a2fc89ca9c392387f0c7",
-"classug4_bridge_1_1_grid_1_1_projection_handler.html#a65eecfcf458514ceb2deffe5772a2f5c",
-"classug4_bridge_1_1_load_balancing_1_1_smooth_partition_bounds.html#a064937f203034805180d49b48bec0c73",
-"classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_fract_f_v1.html#acaa03f38908e9e3264b5ccb3ebb55863",
-"classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatiac42e208c5877bea49238c19f5fe6d5ee.html#a20e0f27cd4b98f61247f28efe13f125e",
-"classug4_bridge_1_1promesh_1_1_mesh.html#a7adc8380b90d69d65ca925b2d12e2c2f"
+"classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_backward_block_gauss_seidel.html#a0b85805f6431b3dfb7c7157353c8bdc9",
+"classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_symmetric_block_gauss_seidel_iterative.html#a924fac1961a4115284bed5dac455d03e",
+"classug4_bridge_1_1_algebra_1_1_solver_1_1_minimal_energy_damping.html",
+"classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_h1_semi_component_space.html#aba98b0a3a71f3d30bcec10382f2e685c",
+"classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_newton_solver.html#a3bf9e7c241086cde4e6042c4bcdc747a",
+"classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_inverse_linker.html#a1246ccea2cdc4313dc3d03020c99a86a",
+"classug4_bridge_1_1_grid_1_1_degenerated_layer_manager.html#a5ae591df94fc66ccb85cbb6565368bca",
+"classug4_bridge_1_1_grid_1_1_raster_layers.html#af8249460f68ed97f40943fe0b9ee25a0",
+"classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_e.html#a1c193628cd32c7f279a10b763ae7a40e",
+"classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia36f175851c9277dad21dcd37dbbafe15.html#a43c6e49269b62d38563a31bfc93fce16",
+"classug4_bridge_1_1_util_1_1_log_1_1_log_assistant.html#a2d4ad7aff3a9d1e2b22d3f40b029088e",
+"functions_func_s.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

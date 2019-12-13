@@ -19,6 +19,7 @@ var classug_1_1_math_vector_3_012_00_01_t_01_4 =
     [ "operator*=", "classug_1_1_math_vector_3_012_00_01_t_01_4.html#a3198ec1b936e03a9c349c8f5a4e26121", null ],
     [ "operator+=", "classug_1_1_math_vector_3_012_00_01_t_01_4.html#a4918cab44fa864168d8e3613414530f5", null ],
     [ "operator+=", "classug_1_1_math_vector_3_012_00_01_t_01_4.html#a55667c227de4a192c9996ea0ea2788c6", null ],
+    [ "operator-", "classug_1_1_math_vector_3_012_00_01_t_01_4.html#a533a8bfea43d77e42a73b4134585334a", null ],
     [ "operator-=", "classug_1_1_math_vector_3_012_00_01_t_01_4.html#a0fa1f922e502564a8b3078e780c2d4b6", null ],
     [ "operator-=", "classug_1_1_math_vector_3_012_00_01_t_01_4.html#a8f2b79a4488cb24efb129aee819ec88f", null ],
     [ "operator/=", "classug_1_1_math_vector_3_012_00_01_t_01_4.html#a476ae559adfcd43964a069c219d37991", null ],

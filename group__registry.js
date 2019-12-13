@@ -2,13 +2,13 @@ var group__registry =
 [
     [ "ClassCastProvider", "classug_1_1bridge_1_1_class_cast_provider.html", [
       [ "CastFunc", "classug_1_1bridge_1_1_class_cast_provider.html#ab2d5caa2542fd0a0faae91cac810269a", null ],
-      [ "add_cast_func", "classug_1_1bridge_1_1_class_cast_provider.html#af541b3d0134b243730d7e7c094a9dc34", null ],
-      [ "cast_to", "classug_1_1bridge_1_1_class_cast_provider.html#ad6e80e7430acfe046ff795844ebc8ac1", null ],
-      [ "cast_to", "classug_1_1bridge_1_1_class_cast_provider.html#a8e27bfa8f897b4a239a27468530b91d1", null ],
-      [ "cast_to", "classug_1_1bridge_1_1_class_cast_provider.html#ac0906c7402557d8bf8d1c6252bad94cf", null ],
-      [ "cast_to", "classug_1_1bridge_1_1_class_cast_provider.html#acaccd58286ff4cfac0da2ec24de0d24e", null ],
-      [ "cast_to_base_class", "classug_1_1bridge_1_1_class_cast_provider.html#a40ea4c188993f7047c7721fe6fb22f7e", null ],
+      [ "add_cast_func", "classug_1_1bridge_1_1_class_cast_provider.html#ae4189b7d94409ef207e9da233b19880a", null ],
+      [ "cast_to", "classug_1_1bridge_1_1_class_cast_provider.html#a3074f26de8cce8bdc893d1b2dc199f7d", null ],
+      [ "cast_to", "classug_1_1bridge_1_1_class_cast_provider.html#abb5507608a00b173b0dc25427deb5f0b", null ],
+      [ "cast_to", "classug_1_1bridge_1_1_class_cast_provider.html#ab5597df5d3c4b3b285cbc66046a1e7fd", null ],
+      [ "cast_to", "classug_1_1bridge_1_1_class_cast_provider.html#a77e5fe56121f38e3b9c40d76dc907fb5", null ],
       [ "cast_to_base_class", "classug_1_1bridge_1_1_class_cast_provider.html#a9c0a9abacb22b84ac463775507dc55fa", null ],
+      [ "cast_to_base_class", "classug_1_1bridge_1_1_class_cast_provider.html#a40ea4c188993f7047c7721fe6fb22f7e", null ],
       [ "m_mmCast", "classug_1_1bridge_1_1_class_cast_provider.html#af50aa05c14d54a8d32807ac2825cc32f", null ]
     ] ],
     [ "ClassGroupDesc", "classug_1_1bridge_1_1_class_group_desc.html", [
@@ -65,7 +65,7 @@ var group__registry =
       [ "m_bForwardDeclared", "classug_1_1bridge_1_1_class_name_provider.html#a446f96529793eea23bfcdb789b0ce651", null ],
       [ "m_ClassNameNode", "classug_1_1bridge_1_1_class_name_provider.html#ad9ed0be5a7a3b9241de6ba934c2dbfb9", null ],
       [ "m_group", "classug_1_1bridge_1_1_class_name_provider.html#a17693291014b821766d06604db242a52", null ],
-      [ "m_names", "classug_1_1bridge_1_1_class_name_provider.html#a060aa76bbd3a222f545b0b50482aecb2", null ]
+      [ "m_names", "classug_1_1bridge_1_1_class_name_provider.html#a6b7e2a9a61c1b98b0c0e5379ce73eaab", null ]
     ] ],
     [ "constructor_traits", "structug_1_1bridge_1_1constructor__traits.html", null ],
     [ "constructor_traits< T, TypeList< T1 > >", "structug_1_1bridge_1_1constructor__traits_3_01_t_00_01_type_list_3_01_t1_01_4_01_4.html", [
@@ -152,14 +152,14 @@ var group__registry =
       [ "construct_as_smart_pointer", "classug_1_1bridge_1_1_exported_class_base_impl.html#a437b190e47fa9486ceae74ec118db8f2", null ],
       [ "constructor_type_id_registered", "classug_1_1bridge_1_1_exported_class_base_impl.html#aa5d4d33e4b048ccee83bd19a3fecb834", null ],
       [ "destroy", "classug_1_1bridge_1_1_exported_class_base_impl.html#a545f9055b05c7ff0120ee2fadb2106fa", null ],
-      [ "get_const_exported_method_group", "classug_1_1bridge_1_1_exported_class_base_impl.html#abd4f5c1a4f175f817f28e091068adc56", null ],
       [ "get_const_exported_method_group", "classug_1_1bridge_1_1_exported_class_base_impl.html#ad6a1e57b6a89e0f95eddbdc4fa287904", null ],
+      [ "get_const_exported_method_group", "classug_1_1bridge_1_1_exported_class_base_impl.html#abd4f5c1a4f175f817f28e091068adc56", null ],
       [ "get_const_method", "classug_1_1bridge_1_1_exported_class_base_impl.html#abb2cf316e744f9b06883f6f889de2697", null ],
       [ "get_const_method_group", "classug_1_1bridge_1_1_exported_class_base_impl.html#ab03df2f086458aee6e1c94bf67f0d9a4", null ],
       [ "get_const_overload", "classug_1_1bridge_1_1_exported_class_base_impl.html#ac9f2cdf4e5d3db105b18c991a7d86c29", null ],
       [ "get_constructor", "classug_1_1bridge_1_1_exported_class_base_impl.html#a7fdc139f28e574f97eb4a16f9ef6381f", null ],
-      [ "get_exported_method_group", "classug_1_1bridge_1_1_exported_class_base_impl.html#aa0b333350b478e7094ca1639cf1e8c30", null ],
       [ "get_exported_method_group", "classug_1_1bridge_1_1_exported_class_base_impl.html#aa5ff8d15c0d2a697ca2817eb0d11fa1b", null ],
+      [ "get_exported_method_group", "classug_1_1bridge_1_1_exported_class_base_impl.html#aa0b333350b478e7094ca1639cf1e8c30", null ],
       [ "get_method", "classug_1_1bridge_1_1_exported_class_base_impl.html#a807666babd18372f41b4fc2588b5b3de", null ],
       [ "get_method_group", "classug_1_1bridge_1_1_exported_class_base_impl.html#abe39aea33c5ed3624d1a487f86831b47", null ],
       [ "get_overload", "classug_1_1bridge_1_1_exported_class_base_impl.html#af5e5ac6f742a3d02d20a9cc0adfa2495", null ],
@@ -193,8 +193,8 @@ var group__registry =
       [ "parameter_info_string", "classug_1_1bridge_1_1_exported_constructor.html#a23c42bf50afdce425cb1144abcb9959e", null ],
       [ "parameter_info_vec", "classug_1_1bridge_1_1_exported_constructor.html#a240012b34b42a1c8938ea24999103fc4", null ],
       [ "parameter_name", "classug_1_1bridge_1_1_exported_constructor.html#ad4e13ede2d34e5674ed4c28650415c64", null ],
-      [ "params_in", "classug_1_1bridge_1_1_exported_constructor.html#a9cccb3b8972f20e4c286070842cf3074", null ],
       [ "params_in", "classug_1_1bridge_1_1_exported_constructor.html#a7bc81124a418a51c363142e797aa1dd5", null ],
+      [ "params_in", "classug_1_1bridge_1_1_exported_constructor.html#a9cccb3b8972f20e4c286070842cf3074", null ],
       [ "tokenize", "classug_1_1bridge_1_1_exported_constructor.html#a3a2ed0337bd29168650c03a529b0a054", null ],
       [ "tooltip", "classug_1_1bridge_1_1_exported_constructor.html#a2232536320efbe6cc7b908043173eeef", null ],
       [ "m_className", "classug_1_1bridge_1_1_exported_constructor.html#a4e8c7075f31f36b25560d7af26de7bd4", null ],
@@ -229,8 +229,8 @@ var group__registry =
       [ "parameter_info_string", "classug_1_1bridge_1_1_exported_function_base.html#a896659be6af1c9268efbd9a5671339db", null ],
       [ "parameter_info_vec", "classug_1_1bridge_1_1_exported_function_base.html#ae53d76511efaf1eec359c8c6d4d6c129", null ],
       [ "parameter_name", "classug_1_1bridge_1_1_exported_function_base.html#a734e0ea7d7487d3ea1cefb952ea25e74", null ],
-      [ "params_in", "classug_1_1bridge_1_1_exported_function_base.html#ac9c0924aaab34bfd2bdf8e1417b36499", null ],
       [ "params_in", "classug_1_1bridge_1_1_exported_function_base.html#ac6356e30a5a9672f72f5e7a61cc303ba", null ],
+      [ "params_in", "classug_1_1bridge_1_1_exported_function_base.html#ac9c0924aaab34bfd2bdf8e1417b36499", null ],
       [ "params_out", "classug_1_1bridge_1_1_exported_function_base.html#a02ca7bea159ab524ae28bebf024d0a29", null ],
       [ "return_info", "classug_1_1bridge_1_1_exported_function_base.html#a957a81397cb7ebe6b7113a50b4642de2", null ],
       [ "return_info_vec", "classug_1_1bridge_1_1_exported_function_base.html#a83408b5b46be37fc668b14b814439b29", null ],
@@ -551,29 +551,29 @@ var group__registry =
       [ "_push_pointer_vector", "classug_1_1bridge_1_1_parameter_stack.html#a183c156d8c3e387711d44eb326f5fbcc", null ],
       [ "_push_vector", "classug_1_1bridge_1_1_parameter_stack.html#a7650f9a85f2f06772d65a274c6e6c714", null ],
       [ "_push_void_pointer", "classug_1_1bridge_1_1_parameter_stack.html#a0d475d6f17bbac8d489a74ed2225f4da", null ],
-      [ "_push_void_pointer_vector", "classug_1_1bridge_1_1_parameter_stack.html#af46b53671592e2eaea35c74de214138d", null ],
+      [ "_push_void_pointer_vector", "classug_1_1bridge_1_1_parameter_stack.html#aa0ba3c97fb6c69f3d1b70d88b2ed6744", null ],
       [ "_to_native", "classug_1_1bridge_1_1_parameter_stack.html#a487b74def5f074caf52e39d5bf016f06", null ],
       [ "_to_native_vector", "classug_1_1bridge_1_1_parameter_stack.html#a59034d3509495ba94ea18f925b1ba064", null ],
       [ "_to_pointer", "classug_1_1bridge_1_1_parameter_stack.html#ab153c8371ea39bd0a83392b5fea3fbb7", null ],
       [ "_to_pointer_vector", "classug_1_1bridge_1_1_parameter_stack.html#aa79ca16d2940bedea727f6776c251f4c", null ],
       [ "_to_void_pointer_vector", "classug_1_1bridge_1_1_parameter_stack.html#a68e43ccb49f520ecaa70ddc5a6536111", null ],
       [ "get", "classug_1_1bridge_1_1_parameter_stack.html#abc6aa4cbd34ae350cf76644bb177bd0c", null ],
-      [ "push", "classug_1_1bridge_1_1_parameter_stack.html#a6d496655de9c4294ddf0818be38a0855", null ],
       [ "push", "classug_1_1bridge_1_1_parameter_stack.html#a561bdab0137b9cd37bbeb8a8255bf150", null ],
-      [ "push", "classug_1_1bridge_1_1_parameter_stack.html#ac576a435fea795d7da66b2047553f917", null ],
       [ "push", "classug_1_1bridge_1_1_parameter_stack.html#a63a1fd97a4448d563df244739dbd01bc", null ],
-      [ "push", "classug_1_1bridge_1_1_parameter_stack.html#a2eb238bdbc9ee156c652fdf58a9aa624", null ],
-      [ "push", "classug_1_1bridge_1_1_parameter_stack.html#a417922fa3c3f7365930a6f337f59c81f", null ],
-      [ "push", "classug_1_1bridge_1_1_parameter_stack.html#ae963d2413ee46f098c78be06f970b42e", null ],
-      [ "push", "classug_1_1bridge_1_1_parameter_stack.html#ab205793fe3f5f97f17cdfc38758aac32", null ],
       [ "push", "classug_1_1bridge_1_1_parameter_stack.html#a768a2c457516ef283002205116ecb8ef", null ],
-      [ "push", "classug_1_1bridge_1_1_parameter_stack.html#ad3e621e7f51ab59a68c28d1311688a59", null ],
-      [ "push", "classug_1_1bridge_1_1_parameter_stack.html#a66c5de40e6705c7bb13ad0271f0cd642", null ],
-      [ "push", "classug_1_1bridge_1_1_parameter_stack.html#a4ec8d2fe9460f599ad0141a785307eba", null ],
+      [ "push", "classug_1_1bridge_1_1_parameter_stack.html#a0d65ca3d73f126263ce7279c7dcb771a", null ],
       [ "push", "classug_1_1bridge_1_1_parameter_stack.html#a9a5d705d0b1525aabcf58525640caf2e", null ],
-      [ "push", "classug_1_1bridge_1_1_parameter_stack.html#a3b5798257de817d679c8449eb3d1a8a7", null ],
+      [ "push", "classug_1_1bridge_1_1_parameter_stack.html#a4ec8d2fe9460f599ad0141a785307eba", null ],
+      [ "push", "classug_1_1bridge_1_1_parameter_stack.html#a66c5de40e6705c7bb13ad0271f0cd642", null ],
+      [ "push", "classug_1_1bridge_1_1_parameter_stack.html#ad3e621e7f51ab59a68c28d1311688a59", null ],
+      [ "push", "classug_1_1bridge_1_1_parameter_stack.html#ad601bff708a0a06dc722e91b87331686", null ],
+      [ "push", "classug_1_1bridge_1_1_parameter_stack.html#a6a9f6bfbb2c56ca27f53855622c07ca3", null ],
+      [ "push", "classug_1_1bridge_1_1_parameter_stack.html#a75ca237cca8d5866d5db7e0a78e8f48f", null ],
+      [ "push", "classug_1_1bridge_1_1_parameter_stack.html#a9ec11195c3c808f3a7880e32ff2f178b", null ],
       [ "push", "classug_1_1bridge_1_1_parameter_stack.html#a0d80333c6e5295ee331e25a555ed0943", null ],
+      [ "push", "classug_1_1bridge_1_1_parameter_stack.html#ac576a435fea795d7da66b2047553f917", null ],
       [ "push", "classug_1_1bridge_1_1_parameter_stack.html#ab49175dd982da6be949e1d005425588a", null ],
+      [ "push", "classug_1_1bridge_1_1_parameter_stack.html#a6d496655de9c4294ddf0818be38a0855", null ],
       [ "to", "classug_1_1bridge_1_1_parameter_stack.html#a2c53b199441ea7b03507ddcc46ffb10c", null ],
       [ "m_vEntry", "classug_1_1bridge_1_1_parameter_stack.html#a215de636a75b2ba1a100828bbdfb7ec6", null ],
       [ "m_vStoredSmartPtr", "classug_1_1bridge_1_1_parameter_stack.html#a4705529ccee81312b883aa4be05aabdb", null ]
@@ -604,20 +604,20 @@ var group__registry =
     [ "PushType< const std::string & >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1string_01_6_01_4.html", [
       [ "push", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1string_01_6_01_4.html#a2d91ee06bb9bb89919bc61cf30f200d0", null ]
     ] ],
+    [ "PushType< const std::vector< bool > & >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01bool_01_4_01_6_01_4.html", [
+      [ "push", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01bool_01_4_01_6_01_4.html#a878892dcda560c687772255086fce853", null ]
+    ] ],
     [ "PushType< const std::vector< bool > & >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01bool_01_4_01_6_01_4.html", [
       [ "push", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01bool_01_4_01_6_01_4.html#a81c90ec8849975e7e3c49be0750f4e07", null ]
     ] ],
-    [ "PushType< const std::vector< bool > &>", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01bool_01_4_01_6_4.html", [
-      [ "push", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01bool_01_4_01_6_4.html#a0e10c623034df7eb3ed9b391733b9101", null ]
+    [ "PushType< const std::vector< const char * > & >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01const_01char_01_5_01_4_01_6_01_4.html", [
+      [ "push", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01const_01char_01_5_01_4_01_6_01_4.html#ac2ae7047efebdabc7b4b63c241772539", null ]
     ] ],
     [ "PushType< const std::vector< const char * > & >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01const_01char_01_5_01_4_01_6_01_4.html", [
       [ "push", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01const_01char_01_5_01_4_01_6_01_4.html#a2cee29843a80187a7bdac46e498fedcc", null ]
     ] ],
-    [ "PushType< const std::vector< const char * > &>", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01const_01char_01_5_01_4_01_6_4.html", [
-      [ "push", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01const_01char_01_5_01_4_01_6_4.html#a524ac9690580733a523cc674b8911f0e", null ]
-    ] ],
     [ "PushType< const std::vector< const T * > & >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01const_01_t_01_5_01_4_01_6_01_4.html", [
-      [ "push", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01const_01_t_01_5_01_4_01_6_01_4.html#a64037e7394ab4b0d9dbac8cf37a41240", null ]
+      [ "push", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01const_01_t_01_5_01_4_01_6_01_4.html#a98468f0d8e767248202b799c576ceff5", null ]
     ] ],
     [ "PushType< const std::vector< const TClass * > & >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01const_01_t_class_01_5_01_4_01_6_01_4.html", [
       [ "push", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01const_01_t_class_01_5_01_4_01_6_01_4.html#abd9853964539e23d84bbe7755a0da5bb", null ]
@@ -628,29 +628,29 @@ var group__registry =
     [ "PushType< const std::vector< ConstSmartPtr< TClass > > & >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01_const_smart_p4a5aa0b384e9330b6831793f642ec39c.html", [
       [ "push", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01_const_smart_p4a5aa0b384e9330b6831793f642ec39c.html#a7ada926960117b6db06b8b5ab32b54ef", null ]
     ] ],
+    [ "PushType< const std::vector< double > & >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01double_01_4_01_6_01_4.html", [
+      [ "push", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01double_01_4_01_6_01_4.html#a31bddceaad01a0e1790b1eb7bb4f18f0", null ]
+    ] ],
     [ "PushType< const std::vector< double > & >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01double_01_4_01_6_01_4.html", [
       [ "push", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01double_01_4_01_6_01_4.html#a045316d47d1771346a7c0735a1df6bd6", null ]
     ] ],
-    [ "PushType< const std::vector< double > &>", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01double_01_4_01_6_4.html", [
-      [ "push", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01double_01_4_01_6_4.html#a2c37daedb09c8e84ad3c57feb28a9285", null ]
+    [ "PushType< const std::vector< float > & >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01float_01_4_01_6_01_4.html", [
+      [ "push", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01float_01_4_01_6_01_4.html#ada7dd13b3532a93dc06d828a2656498f", null ]
     ] ],
     [ "PushType< const std::vector< float > & >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01float_01_4_01_6_01_4.html", [
       [ "push", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01float_01_4_01_6_01_4.html#a718e1abbcb7b127b5c4aebaa414645f0", null ]
     ] ],
-    [ "PushType< const std::vector< float > &>", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01float_01_4_01_6_4.html", [
-      [ "push", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01float_01_4_01_6_4.html#a16ca7019a9442a8d5532176e8534836b", null ]
+    [ "PushType< const std::vector< int > & >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01int_01_4_01_6_01_4.html", [
+      [ "push", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01int_01_4_01_6_01_4.html#a97fc5cd14e10a4415abcae137fd4bfb4", null ]
     ] ],
     [ "PushType< const std::vector< int > & >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01int_01_4_01_6_01_4.html", [
       [ "push", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01int_01_4_01_6_01_4.html#a91fad6cbe74c24a9e5e76ec042747c63", null ]
     ] ],
-    [ "PushType< const std::vector< int > &>", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01int_01_4_01_6_4.html", [
-      [ "push", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01int_01_4_01_6_4.html#a0096ac0db2d316a6014b59312fb26da9", null ]
+    [ "PushType< const std::vector< size_t > & >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01size__t_01_4_01_6_01_4.html", [
+      [ "push", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01size__t_01_4_01_6_01_4.html#a109ca20024b97ce93d47dc63d241ce12", null ]
     ] ],
     [ "PushType< const std::vector< size_t > & >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01size__t_01_4_01_6_01_4.html", [
       [ "push", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01size__t_01_4_01_6_01_4.html#a6eabb99687e7c183e36792410fca3d2c", null ]
-    ] ],
-    [ "PushType< const std::vector< size_t > &>", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01size__t_01_4_01_6_4.html", [
-      [ "push", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01size__t_01_4_01_6_4.html#aa7ea6601b5fcc8db6af5ea1063c7e5d6", null ]
     ] ],
     [ "PushType< const std::vector< SmartPtr< T > > & >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01_smart_ptr_3_01_t_01_4_01_4_01_6_01_4.html", [
       [ "push", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01_smart_ptr_3_01_t_01_4_01_4_01_6_01_4.html#a34e4a05cc95d230bcf1fa2687fd52443", null ]
@@ -658,14 +658,14 @@ var group__registry =
     [ "PushType< const std::vector< SmartPtr< TClass > > & >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01_smart_ptr_3_01_t_class_01_4_01_4_01_6_01_4.html", [
       [ "push", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01_smart_ptr_3_01_t_class_01_4_01_4_01_6_01_4.html#a8422fcb0106ae28bfbc96d7d632492aa", null ]
     ] ],
+    [ "PushType< const std::vector< std::string > & >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01std_1_1string_01_4_01_6_01_4.html", [
+      [ "push", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01std_1_1string_01_4_01_6_01_4.html#a12151581d307a03eeec7a2b310d94de8", null ]
+    ] ],
     [ "PushType< const std::vector< std::string > & >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01std_1_1string_01_4_01_6_01_4.html", [
       [ "push", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01std_1_1string_01_4_01_6_01_4.html#ac35fcd0f5184a02d0e57d0c1c20f3f18", null ]
     ] ],
-    [ "PushType< const std::vector< std::string > &>", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01std_1_1string_01_4_01_6_4.html", [
-      [ "push", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01std_1_1string_01_4_01_6_4.html#a74f413c1bf96e97f8f9abf8dcfe14255", null ]
-    ] ],
     [ "PushType< const std::vector< T * > & >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01_t_01_5_01_4_01_6_01_4.html", [
-      [ "push", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01_t_01_5_01_4_01_6_01_4.html#a109a361c66ca023d99bad4272ab724bb", null ]
+      [ "push", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01const_01std_1_1vector_3_01_t_01_5_01_4_01_6_01_4.html#a4bedff51556cf3308411e3419d7bef65", null ]
     ] ],
     [ "PushType< const std::vector< TClass * > & >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01_t_class_01_5_01_4_01_6_01_4.html", [
       [ "push", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01_t_class_01_5_01_4_01_6_01_4.html#af8639785fcaa0a77da89c51a28deae1f", null ]
@@ -731,13 +731,13 @@ var group__registry =
       [ "push", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01std_1_1vector_3_01bool_01_4_01_4.html#a64e7ecdf9f20d6fe3a84b3142c95fcd3", null ]
     ] ],
     [ "PushType< std::vector< const char * > >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01std_1_1vector_3_01const_01char_01_5_01_4_01_4.html", [
-      [ "push", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01std_1_1vector_3_01const_01char_01_5_01_4_01_4.html#a079487487dea0624820051430dd67d39", null ]
+      [ "push", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01std_1_1vector_3_01const_01char_01_5_01_4_01_4.html#a23acd2389ca479eea839f66a81a4c731", null ]
     ] ],
     [ "PushType< std::vector< const char * > >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01std_1_1vector_3_01const_01char_01_5_01_4_01_4.html", [
       [ "push", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01std_1_1vector_3_01const_01char_01_5_01_4_01_4.html#a0b893f613db395f8fdbadd209ba6c519", null ]
     ] ],
     [ "PushType< std::vector< const T * > >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01std_1_1vector_3_01const_01_t_01_5_01_4_01_4.html", [
-      [ "push", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01std_1_1vector_3_01const_01_t_01_5_01_4_01_4.html#a4d340abe4fe086fbbb0fb5280364b579", null ]
+      [ "push", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01std_1_1vector_3_01const_01_t_01_5_01_4_01_4.html#a3a4a623c1b066b54b2ebd664d9941e7c", null ]
     ] ],
     [ "PushType< std::vector< const TClass * > >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01std_1_1vector_3_01const_01_t_class_01_5_01_4_01_4.html", [
       [ "push", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01std_1_1vector_3_01const_01_t_class_01_5_01_4_01_4.html#a91c2df75d8c20e236b492e2057cdacfd", null ]
@@ -785,7 +785,7 @@ var group__registry =
       [ "push", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01std_1_1vector_3_01std_1_1string_01_4_01_4.html#a7dbf7fd6b8f22eeaf23d313474b8b24e", null ]
     ] ],
     [ "PushType< std::vector< T * > >", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01std_1_1vector_3_01_t_01_5_01_4_01_4.html", [
-      [ "push", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01std_1_1vector_3_01_t_01_5_01_4_01_4.html#a4da25ead65dc8c3ac0bf3763c263b3b0", null ]
+      [ "push", "structug_1_1bridge_1_1_parameter_stack_1_1_push_type_3_01std_1_1vector_3_01_t_01_5_01_4_01_4.html#a20d8db5f99ee14ce310716b16ee429a3", null ]
     ] ],
     [ "PushType< std::vector< TClass * > >", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01std_1_1vector_3_01_t_class_01_5_01_4_01_4.html", [
       [ "push", "structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01std_1_1vector_3_01_t_class_01_5_01_4_01_4.html#a65cb63231ee4bdce99b3fcc5a24df4d7", null ]
@@ -817,14 +817,14 @@ var group__registry =
       [ "check_consistency", "classug_1_1bridge_1_1_registry.html#aa89b49448de634a57bc221901685d839", null ],
       [ "classname_registered", "classug_1_1bridge_1_1_registry.html#a29d5226549f043d1ab3071c7b801d65d", null ],
       [ "functionname_registered", "classug_1_1bridge_1_1_registry.html#a749e43fa9fadd5830c6fca641cdb48ce", null ],
-      [ "get_class", "classug_1_1bridge_1_1_registry.html#a3492f2e9b9742a0d0ec0db1f829c68ce", null ],
       [ "get_class", "classug_1_1bridge_1_1_registry.html#aeacffdbb5b9546335cc48d4a274548ba", null ],
       [ "get_class", "classug_1_1bridge_1_1_registry.html#abd1ffbe661bf9baf8f0e432e45ad8d21", null ],
+      [ "get_class", "classug_1_1bridge_1_1_registry.html#a3492f2e9b9742a0d0ec0db1f829c68ce", null ],
       [ "get_class_", "classug_1_1bridge_1_1_registry.html#ad9ab8590c77486fde5249dc67dfe0b2d", null ],
-      [ "get_class_group", "classug_1_1bridge_1_1_registry.html#acd7f996861b8481cb58d6a4db03fe777", null ],
-      [ "get_class_group", "classug_1_1bridge_1_1_registry.html#a147484b104ca0afdfc152efdac72352b", null ],
       [ "get_class_group", "classug_1_1bridge_1_1_registry.html#a89a2598f5a0c2c8fcdf9d15cfa8562b7", null ],
       [ "get_class_group", "classug_1_1bridge_1_1_registry.html#a3e3d16fda8979c5517a9188519be11c7", null ],
+      [ "get_class_group", "classug_1_1bridge_1_1_registry.html#a147484b104ca0afdfc152efdac72352b", null ],
+      [ "get_class_group", "classug_1_1bridge_1_1_registry.html#acd7f996861b8481cb58d6a4db03fe777", null ],
       [ "get_exported_function_group", "classug_1_1bridge_1_1_registry.html#aa8d63edf62d67a202104ac8b42bb7ede", null ],
       [ "get_function", "classug_1_1bridge_1_1_registry.html#a4b6912e7fcdb6e37d33d8c3a2ed9e029", null ],
       [ "get_function", "classug_1_1bridge_1_1_registry.html#a3ac36316cd8d9d86e65a8b761cab5eef", null ],
@@ -1002,7 +1002,7 @@ var group__registry =
     [ "ConstructorInfo", "group__registry.html#ga9b3e1a125b43481b47e0f91df247343f", null ],
     [ "DestructorProxy", "group__registry.html#gaaf9b1223add38cf839eef233976a7872", null ],
     [ "ExtractClassNameVec", "group__registry.html#gae16f3af474106398b413dfb62768c099", null ],
-    [ "FindFunction", "group__registry.html#ga96a4c5bf9baeb2d970b7055e1dfd3166", null ],
+    [ "FindFunction", "group__registry.html#gad4f43dd8f18f1b8fa16f217d84779e5f", null ],
     [ "FunctionInfo", "group__registry.html#ga37acde2c5cf3eb7e06745ebb458d7fc1", null ],
     [ "FunctionInfo", "group__registry.html#gacb05b962c365961d8d9c00da94ca4114", null ],
     [ "GetClassHierarchy", "group__registry.html#ga0393617baa93152a3bb93c802ffda5a6", null ],
@@ -1011,5 +1011,5 @@ var group__registry =
     [ "IsClassInParameters", "group__registry.html#ga8beb1a88cc050604eb4cdeccb82d479a", null ],
     [ "IsValidRegistryIdentifier", "group__registry.html#gad29327afd8bbd3eb5f128a98f1c2b36b", null ],
     [ "ParameterToString", "group__registry.html#gaa0d9693b9bd5ae5e9afd583a8b405dee", null ],
-    [ "StaticVoidCast", "group__registry.html#ga73d4f25ef4c0206d3312a41ab2ba27b0", null ]
+    [ "StaticVoidCast", "group__registry.html#gac741360dcf57bfafccbf69b189b99ed6", null ]
 ];

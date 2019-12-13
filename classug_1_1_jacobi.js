@@ -11,6 +11,7 @@ var classug_1_1_jacobi =
     [ "Jacobi", "classug_1_1_jacobi.html#ac94baddb9210fd593e005f37202084bb", null ],
     [ "~Jacobi", "classug_1_1_jacobi.html#ae05c8bcab61a739079256e946f2b2b1f", null ],
     [ "apply", "classug_1_1_jacobi.html#a48cb97f73b0cd33aa3ca1734b5aa320a", null ],
+    [ "approx_operator", "classug_1_1_jacobi.html#a5c20bf1f9ebe2d580c9fab5390ad5a48", null ],
     [ "clone", "classug_1_1_jacobi.html#af16ba53b276fa8dd62aa9fc32bf1b0a1", null ],
     [ "name", "classug_1_1_jacobi.html#a4b596435b56c7a7653be830b969418f2", null ],
     [ "postprocess", "classug_1_1_jacobi.html#a0c73bb8361351fc0fe2fb59fbfbd5002", null ],

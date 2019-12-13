@@ -18,6 +18,6 @@ var group__lib__algebra__parallel__consistencycheck =
       [ "send", "classug_1_1_consistency_check_class_send_3_01_t_vec_00_01bool_01_4.html#a09d1698f4e03ee76b68e0c3b7bf92321", null ],
       [ "vec", "classug_1_1_consistency_check_class_send_3_01_t_vec_00_01bool_01_4.html#a00f975cd6be37403592ad64160037c93", null ]
     ] ],
-    [ "ConsistencyCheck", "group__lib__algebra__parallel__consistencycheck.html#ga0e4569684a56af19531609ae44669770", null ],
-    [ "ConsistencyCheck", "group__lib__algebra__parallel__consistencycheck.html#ga8a37919e2c5a128d36a57e45a538fdb0", null ]
+    [ "ConsistencyCheck", "group__lib__algebra__parallel__consistencycheck.html#ga8a37919e2c5a128d36a57e45a538fdb0", null ],
+    [ "ConsistencyCheck", "group__lib__algebra__parallel__consistencycheck.html#ga0e4569684a56af19531609ae44669770", null ]
 ];

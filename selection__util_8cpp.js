@@ -3,7 +3,7 @@ var selection__util_8cpp =
     [ "CloseSelection", "selection__util_8cpp.html#ga8ed839e8395106abc07bd43ca814fbef", null ],
     [ "CloseSelection< MGSelector >", "selection__util_8cpp.html#a7b11b739e27c9a0cd47f7f30f3c5c8b4", null ],
     [ "CloseSelection< Selector >", "selection__util_8cpp.html#a4a7cc0db4a6fe6e15c6bcf566798d3af", null ],
-    [ "CollectVerticesTouchingSelection", "selection__util_8cpp.html#gacd3ae9a0df6c3c86c9a9581b04d77b7f", null ],
+    [ "CollectVerticesTouchingSelection", "selection__util_8cpp.html#ga06422faeed8fc3b507ce9ccc72925bd0", null ],
     [ "DeselectBoundarySelectionEdges", "selection__util_8cpp.html#ga61890f4a326b8bb8b8ed4821b13fb765", null ],
     [ "DeselectBoundarySelectionEdges< MGSelector >", "selection__util_8cpp.html#af41b1202b252ea7adf5740277947529d", null ],
     [ "DeselectBoundarySelectionEdges< Selector >", "selection__util_8cpp.html#abf60b88d952efa5301de4ad79e3620e3", null ],
@@ -30,6 +30,10 @@ var selection__util_8cpp =
     [ "SelectAssociatedGridObjects< Selector >", "selection__util_8cpp.html#a4d4f376689a1d21e04293e8483680105", null ],
     [ "SelectElementsByIndex", "selection__util_8cpp.html#ga5fd727f0e4aaf158d122f36631b90af6", null ],
     [ "SelectElementsByIndex", "selection__util_8cpp.html#gaf6905eb975f3b180925d3a99c061fcd5", null ],
+    [ "SelectElementsByIndex< Edge >", "selection__util_8cpp.html#a9a4299d25cf803c80ba962b64c0a0047", null ],
+    [ "SelectElementsByIndex< Face >", "selection__util_8cpp.html#af8b3bb71aea18c6fe7d6e3e6d43c9e5f", null ],
+    [ "SelectElementsByIndex< Vertex >", "selection__util_8cpp.html#a59ce14a36724a85916c3280822403475", null ],
+    [ "SelectElementsByIndex< Volume >", "selection__util_8cpp.html#a4cb5c98b9c4d472e4d3f39b8d77af896", null ],
     [ "SelectInnerSelectionEdges", "selection__util_8cpp.html#ga5ee1e6ec145bc10deda7c568718df210", null ],
     [ "SelectInnerSelectionEdges< MGSelector >", "selection__util_8cpp.html#ab7f52d9c11a8be3c31acadee2088475f", null ],
     [ "SelectInnerSelectionEdges< Selector >", "selection__util_8cpp.html#a8e30abae2bb35f1f55cd95c5129d9c0f", null ],
@@ -46,5 +50,6 @@ var selection__util_8cpp =
     [ "SelectLinkedFlatAndDegeneratedFaces", "selection__util_8cpp.html#gab092504c1ee2d0d4df3318ff2c2ed5b5", null ],
     [ "SelectLinkedFlatFaces", "selection__util_8cpp.html#gaac300df1c0fb7b0931fa6847727afeae", null ],
     [ "SelectParents", "selection__util_8cpp.html#a484a950062c69d05c95ff4a86999006f", null ],
-    [ "SelectSmoothEdgePath", "selection__util_8cpp.html#gaddeb745d2f782ee3727f8129d0281a08", null ]
+    [ "SelectSmoothEdgePath", "selection__util_8cpp.html#gaddeb745d2f782ee3727f8129d0281a08", null ],
+    [ "SelectSubset", "selection__util_8cpp.html#ga8e8fa3f1d0c30ada51ae0a9066e26620", null ]
 ];

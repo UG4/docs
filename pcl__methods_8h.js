@@ -16,14 +16,14 @@ var pcl__methods_8h =
     [ "ReduceOperation", "pcl__methods_8h.html#ga774ab56d0811cccca811df2e62bc0939", null ],
     [ "AllReduce", "pcl__methods_8h.html#ga96abe2e59553696e52a5851d43d88b81", null ],
     [ "CollectData", "pcl__methods_8h.html#gac7a0e0a8344cc31493295a2f37c1a62e", null ],
-    [ "DistributeData", "pcl__methods_8h.html#gafd1a087110982b18ef0e49feae772b6a", null ],
     [ "DistributeData", "pcl__methods_8h.html#ga62258f08cfb458d4f6435959af36333d", null ],
+    [ "DistributeData", "pcl__methods_8h.html#gafd1a087110982b18ef0e49feae772b6a", null ],
     [ "MPI_Wait", "pcl__methods_8h.html#ga0e1f92a7b690c37a0620ce7cfb3ca836", null ],
     [ "MPI_Waitall", "pcl__methods_8h.html#gad3f1fde6edff92a849aabc43bb6113b3", null ],
     [ "ReceiveData", "pcl__methods_8h.html#ga5fc15b9d8025633c34e1c2fd520fee22", null ],
     [ "SendData", "pcl__methods_8h.html#ga35347a23835416966c0fcef60beccb26", null ],
     [ "Time", "pcl__methods_8h.html#gaf2731cbc404318c9393fa5b72a8ce54d", null ],
-    [ "Waitall", "pcl__methods_8h.html#ga65ebca4d784f8d31cbd34ee084257c85", null ],
     [ "Waitall", "pcl__methods_8h.html#ga0507dcbd5f26cdc60e5a46b3a1f1180c", null ],
-    [ "Waitall", "pcl__methods_8h.html#gaefaae448363d3314f1651d21268d80d2", null ]
+    [ "Waitall", "pcl__methods_8h.html#gaefaae448363d3314f1651d21268d80d2", null ],
+    [ "Waitall", "pcl__methods_8h.html#ga65ebca4d784f8d31cbd34ee084257c85", null ]
 ];

@@ -4,6 +4,7 @@ var namespaceug4_bridge_1_1_util =
     [ "Profiler", "namespaceug4_bridge_1_1_util_1_1_profiler.html", "namespaceug4_bridge_1_1_util_1_1_profiler" ],
     [ "VecMath", "namespaceug4_bridge_1_1_util_1_1_vec_math.html", "namespaceug4_bridge_1_1_util_1_1_vec_math" ],
     [ "CuckooClock", "classug4_bridge_1_1_util_1_1_cuckoo_clock.html", "classug4_bridge_1_1_util_1_1_cuckoo_clock" ],
+    [ "MemInfo", "classug4_bridge_1_1_util_1_1_mem_info.html", "classug4_bridge_1_1_util_1_1_mem_info" ],
     [ "StringTable", "classug4_bridge_1_1_util_1_1_string_table.html", "classug4_bridge_1_1_util_1_1_string_table" ],
     [ "Variant", "classug4_bridge_1_1_util_1_1_variant.html", "classug4_bridge_1_1_util_1_1_variant" ]
 ];

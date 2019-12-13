@@ -10,9 +10,9 @@ var class_scalar_sub_matrix_adapter =
     [ "defragment", "class_scalar_sub_matrix_adapter.html#ac99f33dfb2881b42f20c6c5745ba58f4", null ],
     [ "end_row", "class_scalar_sub_matrix_adapter.html#a8a6383e05fb00babcd72260de14db6cd", null ],
     [ "end_row", "class_scalar_sub_matrix_adapter.html#aac3b605977665d50b6b23e8b2d69ed55", null ],
-    [ "get_connection", "class_scalar_sub_matrix_adapter.html#a141386de3f97df435ef2e50ac204556e", null ],
-    [ "get_connection", "class_scalar_sub_matrix_adapter.html#a1561500f5abe2e7cbee7225222c1375e", null ],
     [ "get_connection", "class_scalar_sub_matrix_adapter.html#aa0de646bed92236d6323d2bbdd68a1cd", null ],
+    [ "get_connection", "class_scalar_sub_matrix_adapter.html#a1561500f5abe2e7cbee7225222c1375e", null ],
+    [ "get_connection", "class_scalar_sub_matrix_adapter.html#a141386de3f97df435ef2e50ac204556e", null ],
     [ "get_iterator_or_next", "class_scalar_sub_matrix_adapter.html#a3435ab1279f014a8d0e7308467508b8c", null ],
     [ "has_connection", "class_scalar_sub_matrix_adapter.html#a3f370ab938cb34f36916aebf447fb70c", null ],
     [ "is_isolated", "class_scalar_sub_matrix_adapter.html#ae6f878ec1420efcfc33b6f77017832ed", null ],
@@ -28,6 +28,6 @@ var class_scalar_sub_matrix_adapter =
     [ "total_num_connections", "class_scalar_sub_matrix_adapter.html#a76fe84e043dca7c8761e5c3e53fec6f4", null ],
     [ "m_const", "class_scalar_sub_matrix_adapter.html#a2509fc32bcbf00cedc528e388baf78d0", null ],
     [ "m_src", "class_scalar_sub_matrix_adapter.html#a7db2acb82f57dcda9b9e33357ba80d6c", null ],
-    [ "m_subc", "class_scalar_sub_matrix_adapter.html#a346548dd9c53aa68e02e06e6dcee53b6", null ],
-    [ "m_subr", "class_scalar_sub_matrix_adapter.html#a341b3c884210e91f318a70bdc069eeb8", null ]
+    [ "m_subc", "class_scalar_sub_matrix_adapter.html#ab2d284fd1448949df94a9228c17171f5", null ],
+    [ "m_subr", "class_scalar_sub_matrix_adapter.html#a2c81241be17c01cd4e94081bafe816d7", null ]
 ];

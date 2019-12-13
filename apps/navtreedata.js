@@ -1,3 +1,25 @@
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this file.
+
+Copyright (C) 1997-2019 by Dimitri van Heesch
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of version 2 of the GNU General Public License as published by
+the Free Software Foundation
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+@licend  The above is the entire license notice
+for the JavaScript code in this file
+*/
 var NAVTREE =
 [
   [ "Apps", "index.html", [
@@ -13,8 +35,8 @@ var NAVTREE =
       [ "Scripts", "../group__scripts.html", null ],
       [ "Apps", "group__apps.html", null ]
     ] ],
-    [ "Files", null, [
-      [ "File List", "files.html", "files" ]
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ]
     ] ]
   ] ]
 ];
@@ -22,14 +44,14 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../group__lib__algebra.html",
-"group__lib__algebra__parallelization__util.html#ga9801a124862216fb6db2999188ac4c32",
-"group__lib__grid__algorithms__log__util.html#gaafdf9045ba0e2f83f68e26e49f32be01",
-"group__lib__grid__algorithms__vertex__util.html#ga3624945d6c779bbfb5d470d874016da9",
-"group__misc__bridge.html#ga184bdb3766b4b8efe548453d5a691b85",
-"group__promesh.html#ga522316426d65cf74da9270d6673b71c8",
-"group__small__algebra.html#gad6d8828f762723ddc8371046fffe0b50",
-"group__ugbase__common__io.html#ga353c8ac472de0aad92d39b1f5290fc5a",
-"group__util__bridge.html#ga4e205f5867dbe99c39101a341b5c2eed"
+"group__lib__algebra__parallelization__util.html#ga16d29da500a93fd47184d23442fcd5ed",
+"group__lib__grid__algorithms__log__util.html",
+"group__lib__grid__algorithms__vertex__util.html#ga035996e064b6f7bc1fc472b6c5cc2f1b",
+"group__math__tensor.html#ga809a901aeb48f63bd19d2f7d1fb62ee6",
+"group__promesh.html#ga4e6e50ab2bd0d7827f055b5cef8cd4b9",
+"group__small__algebra.html#ga881e9b987ab205c062bf2532d9937b6d",
+"group__ugbase__common.html#gaa159ab473aec9fe7914f4e55c3ba098c",
+"group__ugbase__mathutil.html#ga872a5b5c56c6ebdc7d1de8c90028305d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

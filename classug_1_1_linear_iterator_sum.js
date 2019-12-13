@@ -9,5 +9,6 @@ var classug_1_1_linear_iterator_sum =
     [ "init", "classug_1_1_linear_iterator_sum.html#ab6f2ee3c6302cd76e2863fcee4d77cda", null ],
     [ "init", "classug_1_1_linear_iterator_sum.html#a2d8cce028db95eb4c9d1228e5de72f8e", null ],
     [ "name", "classug_1_1_linear_iterator_sum.html#a87589b42e41ba3f2bc1703e72cc17704", null ],
-    [ "m_spOp", "classug_1_1_linear_iterator_sum.html#ae6a2b007fa1548659f6c1106e906fcd8", null ]
+    [ "m_spOp", "classug_1_1_linear_iterator_sum.html#ae6a2b007fa1548659f6c1106e906fcd8", null ],
+    [ "m_vIterator", "classug_1_1_linear_iterator_sum.html#ae4e5cc1ae6b7e5ffe5bec77276beff95", null ]
 ];

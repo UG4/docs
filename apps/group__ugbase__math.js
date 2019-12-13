@@ -1,5 +1,9 @@
 var group__ugbase__math =
 [
+    [ "Matrix", "../group__math__matrix.html", "group__math__matrix" ],
+    [ "Tensor", "../group__math__tensor.html", "group__math__tensor" ],
+    [ "Vectors", "../group__vectors.html", "group__vectors" ],
+    [ "Math Utilities", "../group__ugbase__mathutil.html", "group__ugbase__mathutil" ],
     [ "AdjustNearestPoints", "../group__ugbase__math.html#ga36b626bbeef8d67db045e22eedf5c59a", null ],
     [ "CalculateEigenvalues", "../group__ugbase__math.html#ga16038f3c41da65fe53e3a1fec8e008d0", null ],
     [ "FindNearestPointOfParallelLineSegments", "../group__ugbase__math.html#ga90b671f1a07deae1bff8e87f5ad0a11c", null ],

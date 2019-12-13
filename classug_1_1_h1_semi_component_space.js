@@ -10,5 +10,8 @@ var classug_1_1_h1_semi_component_space =
     [ "H1SemiComponentSpace", "classug_1_1_h1_semi_component_space.html#a91c6ee4b78aeda637cd78e079eda2804", null ],
     [ "~H1SemiComponentSpace", "classug_1_1_h1_semi_component_space.html#abf2bd57f0f1528f1f8165d0174fb2f28", null ],
     [ "distance2", "classug_1_1_h1_semi_component_space.html#ad5a2e6dfa1d2d8e5a01efd4d8a031801", null ],
-    [ "norm2", "classug_1_1_h1_semi_component_space.html#ace2d6dc548944919eb4b28fcc44e15ac", null ]
+    [ "get_weight", "classug_1_1_h1_semi_component_space.html#aa62435f318d3018e49425a594493afe2", null ],
+    [ "norm2", "classug_1_1_h1_semi_component_space.html#ace2d6dc548944919eb4b28fcc44e15ac", null ],
+    [ "set_weight", "classug_1_1_h1_semi_component_space.html#a5a76c2baf3067884868dd38b0c6cb4a1", null ],
+    [ "m_spWeight", "classug_1_1_h1_semi_component_space.html#a5943541292a72b79e1f0453aa74cfe2c", null ]
 ];

@@ -1,7 +1,7 @@
 var classug_1_1_data_evaluator =
 [
     [ "base_type", "classug_1_1_data_evaluator.html#af3f5e4ff40aa9168f2b043507fc623ba", null ],
-    [ "DataEvaluator", "classug_1_1_data_evaluator.html#add0e3f08d28efe672fd5e8b5d084f384", null ],
+    [ "DataEvaluator", "classug_1_1_data_evaluator.html#adaf56a8f8e8de05bf4a6d7d1fb9b51ff", null ],
     [ "add_def_A_elem", "classug_1_1_data_evaluator.html#af6808e0946f3f0b77194a0e4ac1312dc", null ],
     [ "add_def_A_expl_elem", "classug_1_1_data_evaluator.html#afc3ce5c54f89d7ef7e41d9309a7b4887", null ],
     [ "add_def_M_elem", "classug_1_1_data_evaluator.html#a3c43ff8289b0d4e278cea174974cc4db", null ],

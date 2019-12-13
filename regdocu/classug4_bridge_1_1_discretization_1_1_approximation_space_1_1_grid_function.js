@@ -1,5 +1,6 @@
 var classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function =
 [
+    [ "size_type", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function.html#adde637646287a12e3fc08eef63b86ce2", null ],
     [ "value_type", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function.html#aba8b69c7caa20fc542fb86d630ba1b64", null ],
     [ "vector_type", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function.html#ad58abb675efc7409f1a71a89eb434146", null ],
     [ "GridFunction", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function.html#ac04b999114634cff8c36cb59dd0b1d91", null ],
@@ -17,12 +18,13 @@ var classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function
     [ "operator*=", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function.html#a49212d923b0dda347c1368ed6f5f6e14", null ],
     [ "operator+=", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function.html#ab82a5bb718e930c5be8663e0da776460", null ],
     [ "operator-=", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function.html#aa50738cc10bae05d76087a42149eacba", null ],
-    [ "operator[]", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function.html#ae761dd0d353773ca0a533629e7af42c6", null ],
     [ "operator[]", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function.html#a68de6c82049aab0c0313a8e799cdf46f", null ],
+    [ "operator[]", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function.html#ae761dd0d353773ca0a533629e7af42c6", null ],
     [ "redistribution_enabled", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function.html#ae0abf3d76da469e20cd5dd5d1b127cfe", null ],
     [ "resize", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function.html#a9c996760411198ea2380e40f68733e6d", null ],
-    [ "set", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function.html#a6db40266ebf4f82e08cedd9f88f3d315", null ],
     [ "set", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function.html#a29d73264575e04f1f9da7f2bb75742fa", null ],
+    [ "set", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function.html#a6db40266ebf4f82e08cedd9f88f3d315", null ],
+    [ "set_consistent_storage_type", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function.html#aafd056da18be554489446f445e84610c", null ],
     [ "set_random", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function.html#a17a737c6f51c9501fd381cf1fe82d34f", null ],
     [ "size", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function.html#aea5d3a9d41bcfcd56d918b12d33b7dc8", null ]
 ];

@@ -1,9 +1,14 @@
 var group__bridge =
 [
+    [ "Algebra Bridge", "../group__algebra__bridge.html", "group__algebra__bridge" ],
+    [ "Discretization Bridge", "../group__disc__bridge.html", "group__disc__bridge" ],
+    [ "Domain Bridge", "../group__domain__bridge.html", "group__domain__bridge" ],
+    [ "Misc Bridge", "../group__misc__bridge.html", "group__misc__bridge" ],
+    [ "Registry", "../group__registry.html", "group__registry" ],
     [ "CompileAlgebraList", "../group__bridge.html#ga97099fa000ff3521ef545b54e3b84d5c", null ],
     [ "CompileDomainList", "../group__bridge.html#ga737e5ca9628eb5778ac3c9778756fb7a", null ],
-    [ "GetAlgebraSuffix", "../group__bridge.html#gab6110d0646fb4782fd3ce71f3aeeec1b", null ],
     [ "GetAlgebraSuffix", "../group__bridge.html#ga87a0b761baad59d1399bc6315fa7d430", null ],
+    [ "GetAlgebraSuffix", "../group__bridge.html#gab6110d0646fb4782fd3ce71f3aeeec1b", null ],
     [ "GetAlgebraTag", "../group__bridge.html#ga023ebe8e44ac8ff0fe63a036f14401ad", null ],
     [ "GetAlgebraTag", "../group__bridge.html#ga5cd788273f82fa84e8e3fd459f677444", null ],
     [ "GetDimensionAlgebraSuffix", "../group__bridge.html#ga2ce8f227c6209cd06bdda37112f50422", null ],

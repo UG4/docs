@@ -1,8 +1,8 @@
 var classug_1_1_dim_reference_element =
 [
     [ "MAXCORNERS", "classug_1_1_dim_reference_element.html#ad01b3e21bacd26777de32032a85077d9a47efeb2c485a415b6aca323bc474a486", null ],
-    [ "corner", "classug_1_1_dim_reference_element.html#a822add29191c032eb5c59acb913c9bc9", null ],
     [ "corner", "classug_1_1_dim_reference_element.html#ab8d6b270771c82ff5fec97548a6de043", null ],
+    [ "corner", "classug_1_1_dim_reference_element.html#a822add29191c032eb5c59acb913c9bc9", null ],
     [ "corners", "classug_1_1_dim_reference_element.html#aff40ebcbcdad25ac37b81babcc171f1a", null ],
     [ "print_info", "classug_1_1_dim_reference_element.html#aad7ba3bad8e1c785543f4b8a040c6107", null ],
     [ "dim", "classug_1_1_dim_reference_element.html#ac57daf268b6591d4dd8494d0cdba7a9b", null ],

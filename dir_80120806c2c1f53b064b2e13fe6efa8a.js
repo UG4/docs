@@ -47,6 +47,12 @@ var dir_80120806c2c1f53b064b2e13fe6efa8a =
     [ "histogramm.cpp", "histogramm_8cpp.html", "histogramm_8cpp" ],
     [ "histogramm.h", "histogramm_8h.html", "histogramm_8h" ],
     [ "index_list_util.h", "index__list__util_8h.html", "index__list__util_8h" ],
+    [ "mem_info.cpp", "mem__info_8cpp.html", null ],
+    [ "mem_info.h", "mem__info_8h.html", [
+      [ "MemInfo", "classug_1_1_mem_info.html", "classug_1_1_mem_info" ]
+    ] ],
+    [ "mem_info_apple.cpp", "mem__info__apple_8cpp.html", null ],
+    [ "mem_info_linux.cpp", "mem__info__linux_8cpp.html", null ],
     [ "message_hub.cpp", "message__hub_8cpp.html", null ],
     [ "message_hub.h", "message__hub_8h.html", "message__hub_8h" ],
     [ "message_hub_impl.hpp", "message__hub__impl_8hpp.html", null ],

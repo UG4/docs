@@ -14,5 +14,5 @@ var classug_1_1bridge_1_1_class_name_provider =
     [ "m_bForwardDeclared", "classug_1_1bridge_1_1_class_name_provider.html#a446f96529793eea23bfcdb789b0ce651", null ],
     [ "m_ClassNameNode", "classug_1_1bridge_1_1_class_name_provider.html#ad9ed0be5a7a3b9241de6ba934c2dbfb9", null ],
     [ "m_group", "classug_1_1bridge_1_1_class_name_provider.html#a17693291014b821766d06604db242a52", null ],
-    [ "m_names", "classug_1_1bridge_1_1_class_name_provider.html#a060aa76bbd3a222f545b0b50482aecb2", null ]
+    [ "m_names", "classug_1_1bridge_1_1_class_name_provider.html#a6b7e2a9a61c1b98b0c0e5379ce73eaab", null ]
 ];

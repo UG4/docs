@@ -22,15 +22,15 @@ var group__lib__grid__algorithms__edge__util =
     [ "GetConnectingEdge", "group__lib__grid__algorithms__edge__util.html#gac8adcbaa5a7de0382231d8d2a058a362", null ],
     [ "GetEdgeIndex", "group__lib__grid__algorithms__edge__util.html#ga1630d8ea9135b8305a86bdece82d93f0", null ],
     [ "GetEdgeIndex", "group__lib__grid__algorithms__edge__util.html#ga7c5fb5c0a5f5a045c6a3a6fa54efd4c0", null ],
-    [ "GetInnerEdgesOfFaceSoup", "group__lib__grid__algorithms__edge__util.html#gae3fa16603c61d18dcab1db0593a745d6", null ],
+    [ "GetInnerEdgesOfFaceSoup", "group__lib__grid__algorithms__edge__util.html#ga346c8f5ab191aa2d3b10f2932871b37f", null ],
     [ "GetVertex", "group__lib__grid__algorithms__edge__util.html#ga5dbcb9d97d82202a72209f0ee92eacc0", null ],
     [ "IsBoundaryEdge", "group__lib__grid__algorithms__edge__util.html#gac0565ea76771097bfbd142f02cea7adb", null ],
     [ "IsBoundaryEdge2D", "group__lib__grid__algorithms__edge__util.html#ga5bf1afd38411b7139354752323bbd9d4", null ],
     [ "IsBoundaryEdge3D", "group__lib__grid__algorithms__edge__util.html#gaca999ef2fe108897bf5f89f81493ca48", null ],
     [ "LiesOnBoundary", "group__lib__grid__algorithms__edge__util.html#ga200f74c7905c6e950f95ede32dc3c8df", null ],
-    [ "MinimizeEdgeLength_SwapsOnly", "group__lib__grid__algorithms__edge__util.html#gac3b57a4884e3ced247edc35a1ce3cd30", null ],
+    [ "MinimizeEdgeLength_SwapsOnly", "group__lib__grid__algorithms__edge__util.html#ga397492a903ffbec777ca5dda0d5be44b", null ],
     [ "NumAssociatedFaces", "group__lib__grid__algorithms__edge__util.html#ga44b3d0df416364eaf38104507a6104e7", null ],
-    [ "SplitEdge", "group__lib__grid__algorithms__edge__util.html#ga1dacf3dfd8313a5816f7544e441c685c", null ],
     [ "SplitEdge", "group__lib__grid__algorithms__edge__util.html#ga5d1698fc476713187db8d989b4e29580", null ],
+    [ "SplitEdge", "group__lib__grid__algorithms__edge__util.html#ga1dacf3dfd8313a5816f7544e441c685c", null ],
     [ "SwapEdge", "group__lib__grid__algorithms__edge__util.html#ga169e3367d738bbc1f3ccf16abcb62d15", null ]
 ];

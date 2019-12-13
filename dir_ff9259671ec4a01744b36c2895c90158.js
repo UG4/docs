@@ -8,6 +8,10 @@ var dir_ff9259671ec4a01744b36c2895c90158 =
     [ "local_mark_adjuster.h", "local__mark__adjuster_8h.html", "local__mark__adjuster_8h" ],
     [ "mg_hnode_adjuster.cpp", "mg__hnode__adjuster_8cpp.html", null ],
     [ "mg_hnode_adjuster.h", "mg__hnode__adjuster_8h.html", "mg__hnode__adjuster_8h" ],
+    [ "shadow_copy_adjuster.cpp", "shadow__copy__adjuster_8cpp.html", null ],
+    [ "shadow_copy_adjuster.h", "shadow__copy__adjuster_8h.html", [
+      [ "ShadowCopyAdjuster", "classug_1_1_shadow_copy_adjuster.html", "classug_1_1_shadow_copy_adjuster" ]
+    ] ],
     [ "std_hnode_adjuster.cpp", "std__hnode__adjuster_8cpp.html", "std__hnode__adjuster_8cpp" ],
     [ "std_hnode_adjuster.h", "std__hnode__adjuster_8h.html", "std__hnode__adjuster_8h" ]
 ];

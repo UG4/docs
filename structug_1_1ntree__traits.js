@@ -8,7 +8,7 @@ var structug_1_1ntree__traits =
     [ "box_diagonal", "structug_1_1ntree__traits.html#a9670b9c124c31e7bed2f840fd67eec3b", null ],
     [ "calculate_bounding_box", "structug_1_1ntree__traits.html#a0136d25237536c4cfafa67a6d04c0cca", null ],
     [ "calculate_center", "structug_1_1ntree__traits.html#a1609a23cd5e6289a779d63abe276981f", null ],
-    [ "contains_point", "structug_1_1ntree__traits.html#aa544e37a518c17cd97c16edb78625fe5", null ],
+    [ "contains_point", "structug_1_1ntree__traits.html#aec2d802b751d3ab5202f2518087f838d", null ],
     [ "grow_box", "structug_1_1ntree__traits.html#aec222b4da26e0a39ed74a5446e69c756", null ],
     [ "merge_boxes", "structug_1_1ntree__traits.html#a1d9b8b07d2a0442de6ceecfc5800b537", null ],
     [ "split_box", "structug_1_1ntree__traits.html#ae02eda3c4840ca60b385743084d84c43", null ]

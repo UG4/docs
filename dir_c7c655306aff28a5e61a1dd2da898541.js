@@ -12,6 +12,8 @@ var dir_c7c655306aff28a5e61a1dd2da898541 =
     [ "global_fractured_media_refiner.h", "global__fractured__media__refiner_8h.html", null ],
     [ "global_multi_grid_refiner.cpp", "global__multi__grid__refiner_8cpp.html", "global__multi__grid__refiner_8cpp" ],
     [ "global_multi_grid_refiner.h", "global__multi__grid__refiner_8h.html", null ],
+    [ "global_subdivision_multi_grid_refiner.cpp", "global__subdivision__multi__grid__refiner_8cpp.html", null ],
+    [ "global_subdivision_multi_grid_refiner.h", "global__subdivision__multi__grid__refiner_8h.html", null ],
     [ "hanging_node_refiner_base.cpp", "hanging__node__refiner__base_8cpp.html", "hanging__node__refiner__base_8cpp" ],
     [ "hanging_node_refiner_base.h", "hanging__node__refiner__base_8h.html", null ],
     [ "hanging_node_refiner_grid.cpp", "hanging__node__refiner__grid_8cpp.html", null ],

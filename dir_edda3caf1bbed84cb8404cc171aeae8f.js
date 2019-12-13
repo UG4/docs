@@ -6,6 +6,12 @@ var dir_edda3caf1bbed84cb8404cc171aeae8f =
     [ "cylinder_projector.h", "cylinder__projector_8h.html", [
       [ "CylinderProjector", "classug_1_1_cylinder_projector.html", "classug_1_1_cylinder_projector" ]
     ] ],
+    [ "elliptic_cylinder_projector.cpp", "elliptic__cylinder__projector_8cpp.html", null ],
+    [ "elliptic_cylinder_projector.h", "elliptic__cylinder__projector_8h.html", [
+      [ "EllipticCylinderProjector", "classug_1_1_elliptic_cylinder_projector.html", "classug_1_1_elliptic_cylinder_projector" ]
+    ] ],
+    [ "neurite_projector.cpp", "neurite__projector_8cpp.html", "neurite__projector_8cpp" ],
+    [ "neurite_projector.h", "neurite__projector_8h.html", "neurite__projector_8h" ],
     [ "plane_cut_projector.h", "plane__cut__projector_8h.html", [
       [ "PlaneCutProjector", "classug_1_1_plane_cut_projector.html", "classug_1_1_plane_cut_projector" ]
     ] ],
@@ -17,6 +23,9 @@ var dir_edda3caf1bbed84cb8404cc171aeae8f =
     [ "smooth_projector.cpp", "smooth__projector_8cpp.html", null ],
     [ "smooth_projector.h", "smooth__projector_8h.html", [
       [ "SmoothProjector", "classug_1_1_smooth_projector.html", "classug_1_1_smooth_projector" ]
+    ] ],
+    [ "soma_projector.h", "soma__projector_8h.html", [
+      [ "SomaProjector", "classug_1_1_soma_projector.html", "classug_1_1_soma_projector" ]
     ] ],
     [ "sphere_projector.h", "sphere__projector_8h.html", [
       [ "SphereProjector", "classug_1_1_sphere_projector.html", "classug_1_1_sphere_projector" ]

@@ -13,8 +13,8 @@ var classug_1_1_i_linear_iterator =
     [ "init", "classug_1_1_i_linear_iterator.html#a974eed8cfc9e2bc0b6bbc64a44b4ce8a", null ],
     [ "init", "classug_1_1_i_linear_iterator.html#a306fe0f0062f16fe7000c88bf4ffddc3", null ],
     [ "name", "classug_1_1_i_linear_iterator.html#ade314890710f60784c7f9c57597f6842", null ],
-    [ "set_damp", "classug_1_1_i_linear_iterator.html#a2801c0b3a3a7844da204768578aa4e60", null ],
     [ "set_damp", "classug_1_1_i_linear_iterator.html#a1deaa4063fddd6a5b2a409730e81befb", null ],
+    [ "set_damp", "classug_1_1_i_linear_iterator.html#a2801c0b3a3a7844da204768578aa4e60", null ],
     [ "supports_parallel", "classug_1_1_i_linear_iterator.html#a0b857bd37bb750ab867343e799fc2d48", null ],
     [ "m_spDamping", "classug_1_1_i_linear_iterator.html#a061ffcb25819046dd8bfba3626049208", null ]
 ];

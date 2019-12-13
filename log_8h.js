@@ -1,6 +1,9 @@
 var log_8h =
 [
     [ "IF_DEBUG", "group__ugbase__common.html#ga86c167915394678170ea1cebb9f4e746", null ],
+    [ "UG_COND_LOG", "group__ugbase__common.html#gaa3ac0cc9ae03a6adbbddf9853d120df4", null ],
+    [ "UG_COND_LOGN", "group__ugbase__common.html#ga348a78fe12cc4361826bdaaea455ddc2", null ],
+    [ "UG_COND_WARNING", "group__ugbase__common.html#gaaf7cb939d8eee0664106d8b25dc81a82", null ],
     [ "UG_DEBUG_BEGIN", "group__ugbase__common.html#ga6ef4428f3acf7a15f071310f164765b5", null ],
     [ "UG_DEBUG_END", "group__ugbase__common.html#gae12a247a77a111b6aba101545bae4c87", null ],
     [ "UG_DLOG", "group__ugbase__common.html#ga77cdb11fde48a872846a4dfd3aa9f4d2", null ],

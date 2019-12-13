@@ -1,8 +1,8 @@
 var p1__continuity__constraints__impl_8h =
 [
     [ "SortVertexPos", "structug_1_1_sort_vertex_pos.html", "structug_1_1_sort_vertex_pos" ],
-    [ "get_algebra_indices", "p1__continuity__constraints__impl_8h.html#a5b5b0f5cbba0bd341cbdeeff51cdd203", null ],
-    [ "get_algebra_indices", "p1__continuity__constraints__impl_8h.html#a8a55d61ea6d8e6da620a10002796cbe3", null ],
+    [ "get_algebra_indices", "p1__continuity__constraints__impl_8h.html#a8d1fce9bd52fcf0b88db5c6e7d3daaad", null ],
+    [ "get_algebra_indices", "p1__continuity__constraints__impl_8h.html#a06c4430c40a2c43ed4f9ff7ea065d209", null ],
     [ "InterpolateValues", "p1__continuity__constraints__impl_8h.html#a6847281d0a55ef8b1466e966b117a5b8", null ],
     [ "SetInterpolation", "p1__continuity__constraints__impl_8h.html#a5a7c14d8048fa08e0da7c38a561cb03b", null ],
     [ "SplitAddRhs_OneSide", "p1__continuity__constraints__impl_8h.html#a6f8c366177983ffe651b51bb35137b5b", null ],

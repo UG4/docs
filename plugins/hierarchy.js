@@ -5,13 +5,26 @@ var hierarchy =
     [ "ug::promesh::Box", "classug_1_1promesh_1_1_box.html", null ],
     [ "ug::Electromagnetism::CalcVolPowerElemHelperClass< TGridFunc, TElem >", "classug_1_1_electromagnetism_1_1_calc_vol_power_elem_helper_class.html", null ],
     [ "ug::Electromagnetism::CalcVolPowerHelperClass< TGridFunc >", "classug_1_1_electromagnetism_1_1_calc_vol_power_helper_class.html", null ],
+    [ "ug::ConvectionDiffusionPlugin::cd_sss_data< dim >", "classug_1_1_convection_diffusion_plugin_1_1cd__sss__data.html", [
+      [ "ug::ConvectionDiffusionPlugin::cd_line_sss_data< dim >", "classug_1_1_convection_diffusion_plugin_1_1cd__line__sss__data.html", null ],
+      [ "ug::ConvectionDiffusionPlugin::cd_point_sss_data< dim >", "classug_1_1_convection_diffusion_plugin_1_1cd__point__sss__data.html", null ]
+    ] ],
     [ "ug::DocuGen::ClassHierarchyProvider", "classug_1_1_docu_gen_1_1_class_hierarchy_provider.html", null ],
     [ "ug::Electromagnetism::NedelecProject< TDomain, TAlgebra >::ClearDivInConductors", "structug_1_1_electromagnetism_1_1_nedelec_project_1_1_clear_div_in_conductors.html", null ],
     [ "ug::CompareDeg", "structug_1_1_compare_deg.html", null ],
     [ "ug::Electromagnetism::ComputeElemFluxHelper< TGridFunc, TElem >", "classug_1_1_electromagnetism_1_1_compute_elem_flux_helper.html", null ],
     [ "ug::Electromagnetism::ComputeElemFluxHelper< TGridFunc, RegularEdge >", "classug_1_1_electromagnetism_1_1_compute_elem_flux_helper_3_01_t_grid_func_00_01_regular_edge_01_4.html", null ],
     [ "ug::Electromagnetism::ComputeFluxHelper< TGridFunc >", "classug_1_1_electromagnetism_1_1_compute_flux_helper.html", null ],
+    [ "ug::SmallStrainMechanics::contrained_dim_traits< dim >", "structug_1_1_small_strain_mechanics_1_1contrained__dim__traits.html", null ],
+    [ "ug::SmallStrainMechanics::contrained_dim_traits< 2 >", "structug_1_1_small_strain_mechanics_1_1contrained__dim__traits_3_012_01_4.html", null ],
+    [ "ug::SmallStrainMechanics::contrained_dim_traits< 3 >", "structug_1_1_small_strain_mechanics_1_1contrained__dim__traits_3_013_01_4.html", null ],
+    [ "CplUserData< TData, dim >", "../classug_1_1_cpl_user_data.html", [
+      [ "ug::DependentUserData< TData, dim >", "../classug_1_1_dependent_user_data.html", [
+        [ "StdUserData< StdDependentUserData< TImpl, TData, dim >, TData, dim, void, DependentUserData< TData, dim > >", "../classug_1_1_std_user_data.html", null ]
+      ] ]
+    ] ],
     [ "ug::DocuGen::CppGenerator", "classug_1_1_docu_gen_1_1_cpp_generator.html", null ],
+    [ "ug::SmallStrainMechanics::DamageFunctionUpdater< TDomain >", "classug_1_1_small_strain_mechanics_1_1_damage_function_updater.html", null ],
     [ "ug::Electromagnetism::EddyCurrentTraits", "classug_1_1_electromagnetism_1_1_eddy_current_traits.html", [
       [ "ug::Electromagnetism::EddyCurrentCurlEDependentCmpUserData< EddyCurrentImBofEUserData< TGridFunc >, EddyCurrentTraits::_Re_, TGridFunc >", "classug_1_1_electromagnetism_1_1_eddy_current_curl_e_dependent_cmp_user_data.html", [
         [ "ug::Electromagnetism::EddyCurrentImBofEUserData< TGridFunc >", "classug_1_1_electromagnetism_1_1_eddy_current_im_bof_e_user_data.html", null ]
@@ -50,9 +63,9 @@ var hierarchy =
       [ "ug::NavierStokes::FilterImplBaseClass< TImpl, TGridFunction >", "classug_1_1_navier_stokes_1_1_filter_impl_base_class.html", null ]
     ] ],
     [ "ug::ConvectionDiffusionPlugin::Functionality", "structug_1_1_convection_diffusion_plugin_1_1_functionality.html", null ],
+    [ "ug::Electromagnetism::Functionality", "structug_1_1_electromagnetism_1_1_functionality.html", null ],
     [ "ug::NavierStokes::Functionality", "structug_1_1_navier_stokes_1_1_functionality.html", null ],
     [ "ug::SmallStrainMechanics::Functionality", "structug_1_1_small_strain_mechanics_1_1_functionality.html", null ],
-    [ "ug::Electromagnetism::Functionality", "structug_1_1_electromagnetism_1_1_functionality.html", null ],
     [ "ug::ConvectionDiffusionPlugin::Functionality2d3d", "structug_1_1_convection_diffusion_plugin_1_1_functionality2d3d.html", null ],
     [ "ug::NavierStokes::FunctionalityComp", "structug_1_1_navier_stokes_1_1_functionality_comp.html", null ],
     [ "ug::NavierStokes::FunctionalityCompFV1", "structug_1_1_navier_stokes_1_1_functionality_comp_f_v1.html", null ],
@@ -61,6 +74,9 @@ var hierarchy =
     [ "ug::NavierStokes::FunctionalityFV1", "structug_1_1_navier_stokes_1_1_functionality_f_v1.html", null ],
     [ "ug::NavierStokes::FunctionalityFVCR", "structug_1_1_navier_stokes_1_1_functionality_f_v_c_r.html", null ],
     [ "ug::NavierStokes::FunctionalityIncomp", "structug_1_1_navier_stokes_1_1_functionality_incomp.html", null ],
+    [ "ug::FVSingularSourcesAndSinks< dim, cd_point_sss_data< dim >, cd_line_sss_data< dim > >", "../classug_1_1_f_v_singular_sources_and_sinks.html", [
+      [ "ug::ConvectionDiffusionPlugin::CDSingularSourcesAndSinks< dim >", "classug_1_1_convection_diffusion_plugin_1_1_c_d_singular_sources_and_sinks.html", null ]
+    ] ],
     [ "ug::Electromagnetism::NedelecLoopCurrent< TDomain, TAlgebra >::GetFluxOfPotential", "structug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_get_flux_of_potential.html", null ],
     [ "pcl::ICommunicationPolicy< TLayout >", "../classpcl_1_1_i_communication_policy.html", [
       [ "ug::Electromagnetism::ComPol_MemCopy< TArray, TLayout >", "classug_1_1_electromagnetism_1_1_com_pol___mem_copy.html", null ],
@@ -98,6 +114,7 @@ var hierarchy =
           [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFV1< TDomain >", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html", null ],
           [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFVCR< TDomain >", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v_c_r.html", null ]
         ] ],
+        [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionStabFE< TDomain >", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_stab_f_e.html", null ],
         [ "ug::Electromagnetism::EddyCurrent_E_Nedelec< TDomain, TAlgebra >", "classug_1_1_electromagnetism_1_1_eddy_current___e___nedelec.html", null ],
         [ "ug::Electromagnetism::NedelecLoopCurrent< TDomain, TAlgebra >::AuxLaplaceLocAss", "classug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_aux_laplace_loc_ass.html", null ],
         [ "ug::Electromagnetism::NedelecProject< TDomain, TAlgebra >::AuxLaplaceLocAss", "classug_1_1_electromagnetism_1_1_nedelec_project_1_1_aux_laplace_loc_ass.html", null ],
@@ -142,8 +159,14 @@ var hierarchy =
       ] ]
     ] ],
     [ "ug::SmallStrainMechanics::IMaterialLaw< TDomain >", "classug_1_1_small_strain_mechanics_1_1_i_material_law.html", [
-      [ "ug::SmallStrainMechanics::HookeLaw< TDomain >", "classug_1_1_small_strain_mechanics_1_1_hooke_law.html", null ],
-      [ "ug::SmallStrainMechanics::PrandtlReuss< TDomain >", "classug_1_1_small_strain_mechanics_1_1_prandtl_reuss.html", null ]
+      [ "ug::SmallStrainMechanics::HookeLaw< TDomain >", "classug_1_1_small_strain_mechanics_1_1_hooke_law.html", [
+        [ "ug::SmallStrainMechanics::IScaledHookeLaw< TDomain >", "classug_1_1_small_strain_mechanics_1_1_i_scaled_hooke_law.html", [
+          [ "ug::SmallStrainMechanics::DamageLaw< TDomain >", "classug_1_1_small_strain_mechanics_1_1_damage_law.html", null ],
+          [ "ug::SmallStrainMechanics::TopologyOptimLaw< TDomain >", "classug_1_1_small_strain_mechanics_1_1_topology_optim_law.html", null ]
+        ] ]
+      ] ],
+      [ "ug::SmallStrainMechanics::PrandtlReuss< TDomain >", "classug_1_1_small_strain_mechanics_1_1_prandtl_reuss.html", null ],
+      [ "ug::SmallStrainMechanics::SkinMaterialLaw< TDomain >", "classug_1_1_small_strain_mechanics_1_1_skin_material_law.html", null ]
     ] ],
     [ "ug::NavierStokes::INavierStokesFV1Stabilization< dim >", "classug_1_1_navier_stokes_1_1_i_navier_stokes_f_v1_stabilization.html", [
       [ "ug::NavierStokes::INavierStokesSRFV1Stabilization< TDim >", "classug_1_1_navier_stokes_1_1_i_navier_stokes_s_r_f_v1_stabilization.html", [
@@ -181,6 +204,9 @@ var hierarchy =
     ] ],
     [ "ug::ITransferPostProcess< TDomain, TPotAlgebra >", "../classug_1_1_i_transfer_post_process.html", [
       [ "ug::Electromagnetism::NedelecLoopCurrent< TDomain, TAlgebra >::ZeroAverage", "classug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_zero_average.html", null ]
+    ] ],
+    [ "ug::ConvectionDiffusionPlugin::line_sss_marker", "classug_1_1_convection_diffusion_plugin_1_1line__sss__marker.html", [
+      [ "ug::ConvectionDiffusionPlugin::cd_line_sss_data< dim >", "classug_1_1_convection_diffusion_plugin_1_1cd__line__sss__data.html", null ]
     ] ],
     [ "ug::Electromagnetism::NedelecLoopCurrent< TDomain, TAlgebra >::LocLaplaceA< TElem >", "classug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_loc_laplace_a.html", null ],
     [ "ug::Electromagnetism::NedelecProject< TDomain, TAlgebra >::LocLaplaceA< TElem >", "classug_1_1_electromagnetism_1_1_nedelec_project_1_1_loc_laplace_a.html", null ],
@@ -243,6 +269,9 @@ var hierarchy =
     [ "ug::Electromagnetism::NedelecT1_LDisc_forSimplex< TDomain, Triangle >", "classug_1_1_electromagnetism_1_1_nedelec_t1___l_disc__for_simplex.html", [
       [ "ug::Electromagnetism::NedelecT1_LDisc< TDomain, Triangle >", "classug_1_1_electromagnetism_1_1_nedelec_t1___l_disc_3_01_t_domain_00_01_triangle_01_4.html", null ]
     ] ],
+    [ "ug::ConvectionDiffusionPlugin::point_sss_marker", "classug_1_1_convection_diffusion_plugin_1_1point__sss__marker.html", [
+      [ "ug::ConvectionDiffusionPlugin::cd_point_sss_data< dim >", "classug_1_1_convection_diffusion_plugin_1_1cd__point__sss__data.html", null ]
+    ] ],
     [ "ug::promesh::detail::ProMeshFunction", "classug_1_1promesh_1_1detail_1_1_pro_mesh_function.html", null ],
     [ "ug::promesh::ProMeshRegistry", "classug_1_1promesh_1_1_pro_mesh_registry.html", null ],
     [ "ug::NavierStokes::Region< dim >", "structug_1_1_navier_stokes_1_1_region.html", null ],
@@ -251,10 +280,11 @@ var hierarchy =
     [ "ug::Electromagnetism::EddyCurrent_E_Nedelec< TDomain, TAlgebra >::RegisterLocalDiscr", "structug_1_1_electromagnetism_1_1_eddy_current___e___nedelec_1_1_register_local_discr.html", null ],
     [ "ug::Electromagnetism::NedelecProject< TDomain, TAlgebra >::AuxLaplaceLocAss::RegisterLocalDiscr", "structug_1_1_electromagnetism_1_1_nedelec_project_1_1_aux_laplace_loc_ass_1_1_register_local_discr.html", null ],
     [ "ug::Electromagnetism::NedelecLoopCurrent< TDomain, TAlgebra >::AuxLaplaceLocAss::RegisterLocalDiscr", "structug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_aux_laplace_loc_ass_1_1_register_local_discr.html", null ],
+    [ "ug::SmallStrainMechanics::RelativeDensityUpdater< TDomain >", "classug_1_1_small_strain_mechanics_1_1_relative_density_updater.html", null ],
     [ "ug::Electromagnetism::NedelecProject< TDomain, TAlgebra >::AuxLaplaceRHS::SetIdentityOnSubset", "structug_1_1_electromagnetism_1_1_nedelec_project_1_1_aux_laplace_r_h_s_1_1_set_identity_on_subset.html", null ],
     [ "ug::Electromagnetism::NedelecProject< TDomain, TAlgebra >::AuxLaplaceRHS::SetValueOnSubset", "structug_1_1_electromagnetism_1_1_nedelec_project_1_1_aux_laplace_r_h_s_1_1_set_value_on_subset.html", null ],
-    [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFV1< TDomain >::ShapeValues", "structug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1_1_1_shape_values.html", null ],
     [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFE< TDomain >::ShapeValues", "structug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_e_1_1_shape_values.html", null ],
+    [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFV1< TDomain >::ShapeValues", "structug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1_1_1_shape_values.html", null ],
     [ "ug::StdUserData< SeparatedPressureSource< TGridFunction >, MathVector< TGridFunction::dim >, TGridFunction::dim >", "../classug_1_1_std_user_data.html", [
       [ "ug::NavierStokes::SeparatedPressureSource< TGridFunction >", "classug_1_1_navier_stokes_1_1_separated_pressure_source.html", null ]
     ] ],
@@ -322,6 +352,7 @@ var hierarchy =
     [ "ug::StdUserData< StdTurbulentViscosityDataFV1< TData, dim, TImpl, TGridFunction >, TData, dim >", "../classug_1_1_std_user_data.html", [
       [ "ug::NavierStokes::StdTurbulentViscosityDataFV1< TData, dim, TImpl, TGridFunction >", "classug_1_1_navier_stokes_1_1_std_turbulent_viscosity_data_f_v1.html", null ]
     ] ],
+    [ "ug::ConvectionDiffusionPlugin::line_sss_marker::t_fract_elem", "structug_1_1_convection_diffusion_plugin_1_1line__sss__marker_1_1t__fract__elem.html", null ],
     [ "ug::Electromagnetism::TimeHarmonicNedelecHybridSmoother< TDomain, TAlgebra >::t_red_op_and", "structug_1_1_electromagnetism_1_1_time_harmonic_nedelec_hybrid_smoother_1_1t__red__op__and.html", null ],
     [ "ug::Electromagnetism::TimeHarmonicNedelecHybridSmoother< TDomain, TAlgebra >::t_red_op_or", "structug_1_1_electromagnetism_1_1_time_harmonic_nedelec_hybrid_smoother_1_1t__red__op__or.html", null ],
     [ "ug::Electromagnetism::NedelecDirichletBC< TDomain, TAlgebra >::TConstBC", "structug_1_1_electromagnetism_1_1_nedelec_dirichlet_b_c_1_1_t_const_b_c.html", null ],
@@ -332,22 +363,6 @@ var hierarchy =
     [ "ug::Electromagnetism::NedelecDirichletBC< TDomain, TAlgebra >::TUserDataBC", "structug_1_1_electromagnetism_1_1_nedelec_dirichlet_b_c_1_1_t_user_data_b_c.html", null ],
     [ "ug::DocuGen::UGDocuClassDescription", "classug_1_1_docu_gen_1_1_u_g_docu_class_description.html", null ],
     [ "ug::DocuGen::UGRegistryGroup", "classug_1_1_docu_gen_1_1_u_g_registry_group.html", null ],
-    [ "ug::UserDataInfo", "../classug_1_1_user_data_info.html", [
-      [ "ug::ICplUserData< dim >", "../classug_1_1_i_cpl_user_data.html", [
-        [ "ug::CplUserData< TData, dim >", "../classug_1_1_cpl_user_data.html", [
-          [ "ug::DependentUserData< TData, dim >", "../classug_1_1_dependent_user_data.html", [
-            [ "StdUserData< StdDependentUserData< TImpl, TData, dim >, TData, dim, void, DependentUserData< TData, dim > >", "../classug_1_1_std_user_data.html", null ]
-          ] ]
-        ] ],
-        [ "ug::CplUserData< TData, dim >", "../classug_1_1_cpl_user_data.html", null ]
-      ] ],
-      [ "ug::UserData< TData, dim, TRet >", "../classug_1_1_user_data.html", [
-        [ "ug::CplUserData< TData, dim >", "../classug_1_1_cpl_user_data.html", null ]
-      ] ],
-      [ "UserData< TData, dim, void >", "../classug_1_1_user_data.html", [
-        [ "ug::CplUserData< TData, dim >", "../classug_1_1_cpl_user_data.html", null ]
-      ] ]
-    ] ],
     [ "VectorDebugWritingObject< TAlgebra::vector_type >", "../classug_1_1_vector_debug_writing_object.html", [
       [ "ug::DebugWritingObject< TAlgebra >", "../classug_1_1_debug_writing_object.html", [
         [ "ug::Electromagnetism::TimeHarmonicNedelecHybridSmoother< TDomain, TAlgebra >", "classug_1_1_electromagnetism_1_1_time_harmonic_nedelec_hybrid_smoother.html", null ],

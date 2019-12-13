@@ -9,7 +9,7 @@ var completion_8cpp =
     [ "GetNamespaceCompletitions", "completion_8cpp.html#gaf14bd8333211cda6f8c9faff8e82c5c4", null ],
     [ "GetOtherCompletitions", "completion_8cpp.html#gafc7849864d6c370858b8d7418be227ac", null ],
     [ "GetPathCompletitions", "completion_8cpp.html#gabee4bbb82702c753f5fa19974558b164", null ],
-    [ "print", "completion_8cpp.html#a6b062835e12543c3e355f5b36ba566d7", null ],
+    [ "print", "completion_8cpp.html#a94a72d90b3c36890fdba121ec3c2ef00", null ],
     [ "SetOtherCompletions", "completion_8cpp.html#ga2b66195e2e169307b8256221dcbfbde0", null ],
     [ "iOtherCompletitionsLength", "completion_8cpp.html#a69f5e6adbea1cde53907171d429604ca", null ],
     [ "pOtherCompletitions", "completion_8cpp.html#aefffaa4578e083a8285ecebede2d2da7", null ]

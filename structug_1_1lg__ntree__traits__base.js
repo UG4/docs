@@ -12,9 +12,9 @@ var structug_1_1lg__ntree__traits__base =
     [ "calculate_center", "structug_1_1lg__ntree__traits__base.html#a3e6b38f49717b49c2f7d2c1a10203519", null ],
     [ "contains_point", "structug_1_1lg__ntree__traits__base.html#a825c18c8708d130ac156e76115daa2c2", null ],
     [ "grow_box", "structug_1_1lg__ntree__traits__base.html#af9f6244509a7ffed496c1a0c8c527b84", null ],
-    [ "intersects_ray", "structug_1_1lg__ntree__traits__base.html#a29018ba5b4bf208235dbe7410649fd34", null ],
     [ "intersects_ray", "structug_1_1lg__ntree__traits__base.html#a156e930fd45044d011db907649b029b4", null ],
     [ "intersects_ray", "structug_1_1lg__ntree__traits__base.html#a4dd74e6bf3ab158fe43dc7679b4eeb94", null ],
+    [ "intersects_ray", "structug_1_1lg__ntree__traits__base.html#a29018ba5b4bf208235dbe7410649fd34", null ],
     [ "intersects_ray", "structug_1_1lg__ntree__traits__base.html#ac308e41fcde2e42362bb3f4652f69aaa", null ],
     [ "merge_boxes", "structug_1_1lg__ntree__traits__base.html#aad24c80da62299b1575fbccdf73e7d96", null ],
     [ "ray_box_intersection", "structug_1_1lg__ntree__traits__base.html#afcdfae881781e0dba4db60d0545dc377", null ]

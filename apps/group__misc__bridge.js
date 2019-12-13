@@ -1,5 +1,10 @@
 var group__misc__bridge =
 [
+    [ "PCL Bridge", "../group__pcl__bridge.html", "group__pcl__bridge" ],
+    [ "Profiler Bridge", "../group__profiler__bridge.html", "group__profiler__bridge" ],
+    [ "Test Bridge", "../group__test__bridge.html", "group__test__bridge" ],
+    [ "Utility Bridge", "../group__util__bridge.html", "group__util__bridge" ],
+    [ "VecMath Bridge", "../group__vecmath__bridge.html", "group__vecmath__bridge" ],
     [ "errlog", "../group__misc__bridge.html#ga1ca11bddcb82b4a76c0a9afe0c2d8e97", null ],
     [ "FilenameStringEscape", "../group__misc__bridge.html#gaf622e5f382edd7a17132bf3ec87b0b01", null ],
     [ "GetBuildHostname", "../group__misc__bridge.html#ga46bb4a55100beb7e58dfa23039eaaefd", null ],

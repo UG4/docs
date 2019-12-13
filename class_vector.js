@@ -1,5 +1,6 @@
 var class_vector =
 [
+    [ "size_type", "class_vector.html#adde637646287a12e3fc08eef63b86ce2", null ],
     [ "value_type", "class_vector.html#aba8b69c7caa20fc542fb86d630ba1b64", null ],
     [ "vector_type", "class_vector.html#ad58abb675efc7409f1a71a89eb434146", null ],
     [ "Vector", "class_vector.html#ad036c6dcb1289dc97e474c86dafb4bfd", null ],
@@ -14,8 +15,8 @@ var class_vector =
     [ "operator*=", "class_vector.html#a49212d923b0dda347c1368ed6f5f6e14", null ],
     [ "operator+=", "class_vector.html#ab82a5bb718e930c5be8663e0da776460", null ],
     [ "operator-=", "class_vector.html#aa50738cc10bae05d76087a42149eacba", null ],
-    [ "operator=", "class_vector.html#afcbcbc546ba1f5096611618f27d5ceec", null ],
     [ "operator=", "class_vector.html#a67f0cff484f4001752e6e05d7d71da85", null ],
+    [ "operator=", "class_vector.html#afcbcbc546ba1f5096611618f27d5ceec", null ],
     [ "operator[]", "class_vector.html#a68de6c82049aab0c0313a8e799cdf46f", null ],
     [ "operator[]", "class_vector.html#ae761dd0d353773ca0a533629e7af42c6", null ],
     [ "resize", "class_vector.html#a9c996760411198ea2380e40f68733e6d", null ],

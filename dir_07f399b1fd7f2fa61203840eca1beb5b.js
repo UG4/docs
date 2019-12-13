@@ -18,7 +18,7 @@ var dir_07f399b1fd7f2fa61203840eca1beb5b =
       [ "ComPol_BoolMarker_AddMarks", "classug_1_1_com_pol___bool_marker___add_marks.html", "classug_1_1_com_pol___bool_marker___add_marks" ],
       [ "ComPol_BoolMarker_RemoveMarks", "classug_1_1_com_pol___bool_marker___remove_marks.html", "classug_1_1_com_pol___bool_marker___remove_marks" ]
     ] ],
-    [ "compol_copy_attachment.h", "compol__copy__attachment_8h.html", null ],
+    [ "compol_copy_attachment.h", "compol__copy__attachment_8h.html", "compol__copy__attachment_8h" ],
     [ "compol_gather_vec_attachment.h", "compol__gather__vec__attachment_8h.html", null ],
     [ "compol_interface_status.h", "compol__interface__status_8h.html", [
       [ "ComPol_InterfaceStatus", "classug_1_1_com_pol___interface_status.html", "classug_1_1_com_pol___interface_status" ]

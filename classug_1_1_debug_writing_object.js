@@ -9,7 +9,12 @@ var classug_1_1_debug_writing_object =
     [ "~DebugWritingObject", "classug_1_1_debug_writing_object.html#a350d362ef0365f2215b591682d75e458", null ],
     [ "debug_writer", "classug_1_1_debug_writing_object.html#a947b41828b12248936a9bc1e9b7463ae", null ],
     [ "debug_writer", "classug_1_1_debug_writing_object.html#a6cea3c323fc2709edef0ebc3d6367136", null ],
+    [ "debug_writer_valid", "classug_1_1_debug_writing_object.html#ac6088c43eadaf800cfb5d5f984eb2294", null ],
+    [ "enter_debug_writer_section", "classug_1_1_debug_writing_object.html#a79fad4716044deba38fde94d09c171b7", null ],
+    [ "enter_debug_writer_section", "classug_1_1_debug_writing_object.html#a160df56ebdfe13cdc7f80abb1a0ae799", null ],
+    [ "leave_debug_writer_section", "classug_1_1_debug_writing_object.html#ae29351023267d936aa22cea6cb2cf39d", null ],
     [ "set_debug", "classug_1_1_debug_writing_object.html#a182b95496411d505fcb29b5381419131", null ],
-    [ "write_debug", "classug_1_1_debug_writing_object.html#a0ec4e0b8cd9f6da46aeea9adb6eccdeb", null ],
+    [ "write_debug", "classug_1_1_debug_writing_object.html#a306270884f90183986354310a5be4ab5", null ],
+    [ "write_debug", "classug_1_1_debug_writing_object.html#a3262544e12381d07a7cc0ce39f45ff01", null ],
     [ "m_spDebugWriter", "classug_1_1_debug_writing_object.html#a93abf5b82b5f2d560bcf8a307783567e", null ]
 ];

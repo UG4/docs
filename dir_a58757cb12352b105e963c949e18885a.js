@@ -19,11 +19,5 @@ var dir_a58757cb12352b105e963c949e18885a =
       [ "SideAndElemErrEstData", "classug_1_1_side_and_elem_err_est_data.html", "classug_1_1_side_and_elem_err_est_data" ],
       [ "SideFluxErrEstData", "classug_1_1_side_flux_err_est_data.html", "classug_1_1_side_flux_err_est_data" ]
     ] ],
-    [ "err_est_data_impl.h", "err__est__data__impl_8h.html", "err__est__data__impl_8h" ],
-    [ "sss.h", "sss_8h.html", [
-      [ "LineSourceOrSink", "classug_1_1_line_source_or_sink.html", "classug_1_1_line_source_or_sink" ],
-      [ "PointSourceOrSink", "classug_1_1_point_source_or_sink.html", "classug_1_1_point_source_or_sink" ],
-      [ "SingularSourcesAndSinks", "classug_1_1_singular_sources_and_sinks.html", "classug_1_1_singular_sources_and_sinks" ],
-      [ "SingularSourcesAndSinks< 1, non >", "classug_1_1_singular_sources_and_sinks_3_011_00_01non_01_4.html", "classug_1_1_singular_sources_and_sinks_3_011_00_01non_01_4" ]
-    ] ]
+    [ "err_est_data_impl.h", "err__est__data__impl_8h.html", "err__est__data__impl_8h" ]
 ];

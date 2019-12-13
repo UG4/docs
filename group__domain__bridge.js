@@ -13,10 +13,10 @@ var group__domain__bridge =
     [ "Functionality2d3d", "structug_1_1bridge_1_1_domain_1_1_functionality2d3d.html", [
       [ "Domain", "structug_1_1bridge_1_1_domain_1_1_functionality2d3d.html#a3f82f455c6e88b8471e00c92a0e92e14", null ]
     ] ],
-    [ "FaceArea", "group__domain__bridge.html#ga92317ceec1e4b3340d0956d8709024e4", null ],
-    [ "FaceArea", "group__domain__bridge.html#ga2c0953362affe892943f4f6e06ba2af6", null ],
     [ "FaceArea", "group__domain__bridge.html#ga25f796d82b1dd8d348439ce9918ec510", null ],
+    [ "FaceArea", "group__domain__bridge.html#ga2c0953362affe892943f4f6e06ba2af6", null ],
     [ "FaceArea", "group__domain__bridge.html#ga23e9023bf9c28e7eca575f5d3eac650e", null ],
+    [ "FaceArea", "group__domain__bridge.html#ga92317ceec1e4b3340d0956d8709024e4", null ],
     [ "GetElementByCoordinate", "group__domain__bridge.html#ga939a5ac0f7af2f47a9e3883f823e814a", null ],
     [ "GetMaxEdgeLength", "group__domain__bridge.html#gaffaaec5db9baa32b6ec12b0fbc8c6493", null ],
     [ "LoadAndRefineDomain", "group__domain__bridge.html#ga85d8819fc34a36031729ae38faa669f5", null ],
@@ -27,5 +27,6 @@ var group__domain__bridge =
     [ "SavePartitionMap", "group__domain__bridge.html#ga730acb2a1bf89275a31a5346f6e25e0a", null ],
     [ "ScaleDomain", "group__domain__bridge.html#ga581aec8842103032a36e4016cfdccbc5", null ],
     [ "TestDomainInterfaces", "group__domain__bridge.html#gaadd2e62911486b417af82e40d092ac08", null ],
+    [ "TestDomainInterfaces", "group__domain__bridge.html#gaeaefc5d6d1273ae246c06b1e521dc4c1", null ],
     [ "TranslateDomain", "group__domain__bridge.html#gaeaf5e96f336f0fdced2c78dbfe6b6968", null ]
 ];

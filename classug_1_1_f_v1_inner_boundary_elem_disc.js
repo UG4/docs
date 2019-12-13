@@ -36,5 +36,6 @@ var classug_1_1_f_v1_inner_boundary_elem_disc =
     [ "m_bCurrElemIsHSlave", "classug_1_1_f_v1_inner_boundary_elem_disc.html#af6b5a3c567789eb92a981faa7d573e3c", null ],
     [ "m_bNonRegularGrid", "classug_1_1_f_v1_inner_boundary_elem_disc.html#a2b3c94e7350de34f2f55b244797f3690", null ],
     [ "m_fluxScale", "classug_1_1_f_v1_inner_boundary_elem_disc.html#a71d16e35f9d6a633fa95b47d5b98057e", null ],
-    [ "m_shapeValues", "classug_1_1_f_v1_inner_boundary_elem_disc.html#ab6a45187272f17d3da7689b08d255fe3", null ]
+    [ "m_shapeValues", "classug_1_1_f_v1_inner_boundary_elem_disc.html#ab6a45187272f17d3da7689b08d255fe3", null ],
+    [ "m_si", "classug_1_1_f_v1_inner_boundary_elem_disc.html#a88f43eda5a6bf80c2131461449febde0", null ]
 ];

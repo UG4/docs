@@ -19,7 +19,9 @@ var hierarchy =
     [ "c_size_t", "classug4_bridge_1_1c__size__t.html", null ],
     [ "c_string", "classug4_bridge_1_1c__string.html", null ],
     [ "c_void", "classug4_bridge_1_1c__void.html", null ],
-    [ "CdSingularSourcesAndSinks", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_cd_singular_sources_and_sinks.html", null ],
+    [ "CDLineSourcesSink", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_c_d_line_sources_sink.html", null ],
+    [ "CDPointSourcesSink", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_c_d_point_sources_sink.html", null ],
+    [ "CDSingularSourcesAndSinks", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_c_d_singular_sources_and_sinks.html", null ],
     [ "CondCplUserMatrix", null, [
       [ "LuaCondUserMatrix", "classug4_bridge_1_1_lua_cond_user_matrix.html", null ]
     ] ],
@@ -54,6 +56,8 @@ var hierarchy =
       [ "SeparatedPressureSource", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia15babc3bd9b07f86c7390ded952d6dd1.html", null ]
     ] ],
     [ "CuckooClock", "classug4_bridge_1_1_util_1_1_cuckoo_clock.html", null ],
+    [ "DamageFunctionUpdater", "classug4_bridge_1_1_spatial_disc_1_1_small_strain_mechanics_1_1_damage_function_updater.html", null ],
+    [ "DebugWriterContext", "classug4_bridge_1_1_algebra_1_1_debug_writer_context.html", null ],
     [ "DegeneratedLayerManager", "classug4_bridge_1_1_grid_1_1_degenerated_layer_manager.html", null ],
     [ "DependentUserDataMatrix", null, [
       [ "LuaUserFunctionMatrixNumber", "classug4_bridge_1_1_lua_user_function_matrix_number.html", null ]
@@ -79,6 +83,9 @@ var hierarchy =
       [ "SideAndElemErrEstData", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_side_and_elem_err_est_data.html", null ],
       [ "SideFluxErrEstData", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_side_flux_err_est_data.html", null ]
     ] ],
+    [ "ExternalSolverCPU1", "classug4_bridge_1_1_algebra_1_1_solver_1_1_external_solver_c_p_u1.html", null ],
+    [ "ExternalSolverCPU2", "classug4_bridge_1_1_algebra_1_1_solver_1_1_external_solver_c_p_u2.html", null ],
+    [ "ExternalSolverCPU3", "classug4_bridge_1_1_algebra_1_1_solver_1_1_external_solver_c_p_u3.html", null ],
     [ "FaceIterator", "classug4_bridge_1_1promesh_1_1_face_iterator.html", null ],
     [ "FractureInfoVec", "classug4_bridge_1_1_grid_1_1_fracture_info_vec.html", [
       [ "ExpandLayersDesc", "classug4_bridge_1_1_grid_1_1_expand_layers_desc.html", null ]
@@ -91,9 +98,6 @@ var hierarchy =
         [ "ProjGaussSeidel", "classug4_bridge_1_1_algebra_1_1_obstacle_1_1_proj_gauss_seidel.html", null ],
         [ "ProjSymmetricGaussSeidel", "classug4_bridge_1_1_algebra_1_1_obstacle_1_1_proj_symmetric_gauss_seidel.html", null ]
       ] ]
-    ] ],
-    [ "GeometricMultiGrid", null, [
-      [ "GMG_c", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_g_m_g__c.html", null ]
     ] ],
     [ "Grid", "classug4_bridge_1_1_grid_1_1_grid.html", [
       [ "MultiGrid", "classug4_bridge_1_1_grid_1_1_multi_grid.html", null ]
@@ -121,12 +125,6 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
-    [ "IBalanceWeights", "classug4_bridge_1_1_load_balancing_1_1_i_balance_weights.html", [
-      [ "AnisotropicBalanceWeights", "classug4_bridge_1_1_load_balancing_1_1_anisotropic_balance_weights.html", null ],
-      [ "BalanceWeightsLuaCallback", "classug4_bridge_1_1_load_balancing_1_1_balance_weights_lua_callback.html", null ],
-      [ "BalanceWeightsRefMarks", "classug4_bridge_1_1_load_balancing_1_1_balance_weights_ref_marks.html", null ]
-    ] ],
-    [ "ICommunicationWeights", "classug4_bridge_1_1_load_balancing_1_1_i_communication_weights.html", null ],
     [ "IConstraint", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_i_constraint.html", [
       [ "IDomainConstraint", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_i_domain_constraint.html", [
         [ "DirichletBoundary", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_dirichlet_boundary.html", null ],
@@ -140,12 +138,13 @@ var hierarchy =
       [ "PartialUpwind", "classug4_bridge_1_1_spatial_disc_1_1_upwind_1_1_partial_upwind.html", null ],
       [ "WeightedUpwind", "classug4_bridge_1_1_spatial_disc_1_1_upwind_1_1_weighted_upwind.html", null ]
     ] ],
-    [ "IConvergenceCheck", null, [
-      [ "CompositeConvCheck", "classug4_bridge_1_1_composite_conv_check.html", null ]
-    ] ],
     [ "IConvergenceCheck", "classug4_bridge_1_1_algebra_1_1_i_convergence_check.html", [
       [ "ConvCheck", "classug4_bridge_1_1_algebra_1_1_conv_check.html", null ],
-      [ "EnergyConvCheck", "classug4_bridge_1_1_algebra_1_1_energy_conv_check.html", null ]
+      [ "EnergyConvCheck", "classug4_bridge_1_1_algebra_1_1_energy_conv_check.html", null ],
+      [ "FixedConvergenceCheck", "classug4_bridge_1_1_algebra_1_1_fixed_convergence_check.html", null ]
+    ] ],
+    [ "IConvergenceCheck", null, [
+      [ "CompositeConvCheck", "classug4_bridge_1_1_composite_conv_check.html", null ]
     ] ],
     [ "IDamping", "classug4_bridge_1_1_algebra_1_1_solver_1_1_i_damping.html", [
       [ "MinimalEnergyDamping", "classug4_bridge_1_1_algebra_1_1_solver_1_1_minimal_energy_damping.html", null ],
@@ -178,9 +177,6 @@ var hierarchy =
       ] ],
       [ "DiscConstraintFVCR", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia4afde65ce40249a845031bcce1980ecb.html", null ]
     ] ],
-    [ "IDomainDecompositionInfo", "classug4_bridge_1_1_discretization_1_1_i_domain_decomposition_info.html", [
-      [ "StandardDomainDecompositionInfo", "classug4_bridge_1_1_discretization_1_1_standard_domain_decomposition_info.html", null ]
-    ] ],
     [ "IElemDisc", null, [
       [ "EddyCurrent_E_Nedelec", "classug4_bridge_1_1_spatial_disc_1_1_electromagnetism_1_1_eddy_current___e___nedelec.html", null ],
       [ "NavierStokesBase", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_navier_stokes_base.html", [
@@ -209,6 +205,7 @@ var hierarchy =
       [ "AbsoluteMarking", "classug4_bridge_1_1_discretization_1_1_adaptive_1_1_absolute_marking.html", null ],
       [ "APosterioriCoarsening", "classug4_bridge_1_1_discretization_1_1_adaptive_1_1_a_posteriori_coarsening.html", null ],
       [ "EquilibrationMarking", "classug4_bridge_1_1_discretization_1_1_adaptive_1_1_equilibration_marking.html", null ],
+      [ "ExpectedErrorMarkingStrategy", "classug4_bridge_1_1_discretization_1_1_adaptive_1_1_expected_error_marking_strategy.html", null ],
       [ "GlobalMarking", "classug4_bridge_1_1_discretization_1_1_adaptive_1_1_global_marking.html", null ],
       [ "MaximumMarking", "classug4_bridge_1_1_discretization_1_1_adaptive_1_1_maximum_marking.html", null ],
       [ "MeanValueMarking", "classug4_bridge_1_1_discretization_1_1_adaptive_1_1_mean_value_marking.html", null ],
@@ -226,6 +223,7 @@ var hierarchy =
           [ "ConvectionDiffusionFV1", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_v1.html", null ],
           [ "ConvectionDiffusionFVCR", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_v_c_r.html", null ]
         ] ],
+        [ "ConvectionDiffusionStabFE", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_stab_f_e.html", null ],
         [ "FV1InnerBoundary", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_f_v1_inner_boundary.html", null ],
         [ "NeumannBoundaryBase", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_neumann_boundary_base.html", [
           [ "NeumannBoundaryFE", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_neumann_boundary_f_e.html", null ],
@@ -234,14 +232,15 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
+    [ "IFunctionNumber", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_i_function_number.html", null ],
     [ "IFunctionNumber", null, [
       [ "LuaFunctionNumber", "classug4_bridge_1_1_lua_function_number.html", null ]
     ] ],
-    [ "IFunctionNumber", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_i_function_number.html", null ],
     [ "IGeometry", "classug4_bridge_1_1_grid_1_1_i_geometry.html", null ],
     [ "IGridFunctionSpace", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_i_grid_function_space.html", [
       [ "CompositeSpace", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_composite_space.html", null ],
       [ "IComponentSpace", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_i_component_space.html", [
+        [ "GridFunctionComponentSpace", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function_component_space.html", null ],
         [ "H1ComponentSpace", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_h1_component_space.html", null ],
         [ "H1SemiComponentSpace", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_h1_semi_component_space.html", null ],
         [ "L2ComponentSpace", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_l2_component_space.html", null ],
@@ -253,11 +252,14 @@ var hierarchy =
     [ "ILagrangeMultiplierDisc", "classug4_bridge_1_1_i_lagrange_multiplier_disc.html", [
       [ "ContactSmallStrainMechanics", "classug4_bridge_1_1_spatial_disc_1_1_small_strain_mechanics_1_1_contact_small_strain_mechanics.html", null ]
     ] ],
+    [ "ILinearIterator", null, [
+      [ "GeometricMultiGrid", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_geometric_multi_grid.html", null ],
+      [ "UzawaBase", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_uzawa_base.html", null ],
+      [ "HiptmairHybridSmoother", "classug4_bridge_1_1_spatial_disc_1_1_electromagnetism_1_1_hiptmair_hybrid_smoother.html", null ]
+    ] ],
     [ "ILinearIterator", "classug4_bridge_1_1_algebra_1_1_i_linear_iterator.html", [
       [ "ILinearOperatorInverse", "classug4_bridge_1_1_algebra_1_1_i_linear_operator_inverse.html", [
-        [ "IMatrixOperatorInverse", "classug4_bridge_1_1_algebra_1_1_i_matrix_operator_inverse.html", [
-          [ "FETI", "classug4_bridge_1_1_algebra_1_1_solver_1_1_f_e_t_i.html", null ]
-        ] ],
+        [ "IMatrixOperatorInverse", "classug4_bridge_1_1_algebra_1_1_i_matrix_operator_inverse.html", null ],
         [ "IPreconditionedLinearOperatorInverse", "classug4_bridge_1_1_algebra_1_1_i_preconditioned_linear_operator_inverse.html", [
           [ "AutoLinearSolver", "classug4_bridge_1_1_algebra_1_1_solver_1_1_auto_linear_solver.html", null ],
           [ "BiCGStab", "classug4_bridge_1_1_algebra_1_1_solver_1_1_bi_c_g_stab.html", null ],
@@ -267,9 +269,7 @@ var hierarchy =
         ] ],
         [ "AgglomeratingSolver", "classug4_bridge_1_1_algebra_1_1_solver_1_1_agglomerating_solver.html", null ],
         [ "AnalyzingSolver", "classug4_bridge_1_1_algebra_1_1_solver_1_1_analyzing_solver.html", null ],
-        [ "LU", "classug4_bridge_1_1_algebra_1_1_solver_1_1_l_u.html", [
-          [ "LU_c", "classug4_bridge_1_1_algebra_1_1_solver_1_1_l_u__c.html", null ]
-        ] ]
+        [ "LU", "classug4_bridge_1_1_algebra_1_1_solver_1_1_l_u.html", null ]
       ] ],
       [ "IPreconditioner", "classug4_bridge_1_1_algebra_1_1_i_preconditioner.html", [
         [ "AgglomeratingPreconditioner", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_agglomerating_preconditioner.html", null ],
@@ -283,19 +283,12 @@ var hierarchy =
           [ "GaussSeidel", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_gauss_seidel.html", null ],
           [ "SymmetricGaussSeidel", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_symmetric_gauss_seidel.html", null ]
         ] ],
-        [ "ILU", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_i_l_u.html", [
-          [ "ILU_c", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_i_l_u__c.html", null ]
-        ] ],
-        [ "ILUT", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_i_l_u_t.html", [
-          [ "ILUT_c", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_i_l_u_t__c.html", null ]
-        ] ],
+        [ "ILU", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_i_l_u.html", null ],
+        [ "ILUT", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_i_l_u_t.html", null ],
         [ "ILUTScalar", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_i_l_u_t_scalar.html", null ],
-        [ "Jacobi", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_jacobi.html", [
-          [ "Jacobi_c", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_jacobi__c.html", null ]
-        ] ],
+        [ "Jacobi", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_jacobi.html", null ],
         [ "LineGaussSeidel", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_line_gauss_seidel.html", null ],
         [ "LineVanka", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_line_vanka.html", null ],
-        [ "SchurComplement", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_schur_complement.html", null ],
         [ "SparseBackwardBlockGaussSeidel", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_sparse_backward_block_gauss_seidel.html", null ],
         [ "SparseBlockGaussSeidel", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_sparse_block_gauss_seidel.html", null ],
         [ "SparseBlockGaussSeidel2", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_sparse_block_gauss_seidel2.html", null ],
@@ -310,11 +303,6 @@ var hierarchy =
       [ "DebugIterator", "classug4_bridge_1_1_algebra_1_1_solver_1_1_debug_iterator.html", null ],
       [ "OperatorInverseIterator", "classug4_bridge_1_1_algebra_1_1_solver_1_1_operator_inverse_iterator.html", null ]
     ] ],
-    [ "ILinearIterator", null, [
-      [ "GeometricMultiGrid", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_geometric_multi_grid.html", null ],
-      [ "UzawaBase", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_uzawa_base.html", null ],
-      [ "HiptmairHybridSmoother", "classug4_bridge_1_1_spatial_disc_1_1_electromagnetism_1_1_hiptmair_hybrid_smoother.html", null ]
-    ] ],
     [ "ILineSearch", "classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_i_line_search.html", [
       [ "StandardLineSearch", "classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_standard_line_search.html", null ]
     ] ],
@@ -323,8 +311,12 @@ var hierarchy =
     ] ],
     [ "ILocalToGlobalMapper", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_i_local_to_global_mapper.html", null ],
     [ "IMaterialLaw", "classug4_bridge_1_1_spatial_disc_1_1_small_strain_mechanics_1_1_i_material_law.html", [
-      [ "HookeLaw", "classug4_bridge_1_1_spatial_disc_1_1_small_strain_mechanics_1_1_hooke_law.html", null ],
-      [ "PrandtlReuss", "classug4_bridge_1_1_spatial_disc_1_1_small_strain_mechanics_1_1_prandtl_reuss.html", null ]
+      [ "HookeLaw", "classug4_bridge_1_1_spatial_disc_1_1_small_strain_mechanics_1_1_hooke_law.html", [
+        [ "DamageLaw", "classug4_bridge_1_1_spatial_disc_1_1_small_strain_mechanics_1_1_damage_law.html", null ],
+        [ "TopologyOptimLaw", "classug4_bridge_1_1_spatial_disc_1_1_small_strain_mechanics_1_1_topology_optim_law.html", null ]
+      ] ],
+      [ "PrandtlReuss", "classug4_bridge_1_1_spatial_disc_1_1_small_strain_mechanics_1_1_prandtl_reuss.html", null ],
+      [ "SkinMaterialLaw", "classug4_bridge_1_1_spatial_disc_1_1_small_strain_mechanics_1_1_skin_material_law.html", null ]
     ] ],
     [ "INavierStokesFV1Stabilization", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatia0e312f675a481170ed1f79486c615ab1.html", [
       [ "INavierStokesSRFV1Stabilization", "classug4_bridge_1_1_spatial_disc_1_1_navier_stokes_1_1_spatial_disc_1_1_navier_stokes_1_1_spatiaec2e734279808cb3a855c0331e192eb8.html", [
@@ -349,8 +341,7 @@ var hierarchy =
       [ "ILinearOperator", "classug4_bridge_1_1_algebra_1_1_i_linear_operator.html", [
         [ "MatrixDiagonal", "classug4_bridge_1_1_algebra_1_1_matrix_diagonal.html", null ],
         [ "MatrixDiagonalInverse", "classug4_bridge_1_1_algebra_1_1_matrix_diagonal_inverse.html", null ],
-        [ "MatrixOperator", "classug4_bridge_1_1_algebra_1_1_matrix_operator.html", null ],
-        [ "LocalSchurComplement", "classug4_bridge_1_1_algebra_1_1_solver_1_1_local_schur_complement.html", null ]
+        [ "MatrixOperator", "classug4_bridge_1_1_algebra_1_1_matrix_operator.html", null ]
       ] ]
     ] ],
     [ "IOperatorInverse", null, [
@@ -360,24 +351,14 @@ var hierarchy =
       [ "NLJacobiSolver", "classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_n_l_jacobi_solver.html", null ]
     ] ],
     [ "IOperatorInverse", "classug4_bridge_1_1_algebra_1_1_i_operator_inverse.html", null ],
-    [ "IPartitioner", "classug4_bridge_1_1_load_balancing_1_1_i_partitioner.html", [
-      [ "HyperManifoldPartitioner_DynamicBisection", "classug4_bridge_1_1_load_balancing_1_1_hyper_manifold_partitioner___dynamic_bisection.html", null ],
-      [ "ManifoldPartitioner_DynamicBisection", "classug4_bridge_1_1_load_balancing_1_1_manifold_partitioner___dynamic_bisection.html", null ],
-      [ "Partitioner_DynamicBisection", "classug4_bridge_1_1_load_balancing_1_1_partitioner___dynamic_bisection.html", null ]
-    ] ],
-    [ "IPartitionPostProcessor", "classug4_bridge_1_1_load_balancing_1_1_i_partition_post_processor.html", [
-      [ "ClusterElementStacks", "classug4_bridge_1_1_load_balancing_1_1_cluster_element_stacks.html", null ],
-      [ "SmoothPartitionBounds", "classug4_bridge_1_1_load_balancing_1_1_smooth_partition_bounds.html", null ]
-    ] ],
-    [ "IPartitionPreProcessor", "classug4_bridge_1_1_load_balancing_1_1_i_partition_pre_processor.html", null ],
-    [ "IPositionProvider", "classug4_bridge_1_1_algebra_1_1_i_position_provider.html", null ],
     [ "IPositionProvider", null, [
       [ "GridFunctionPositionProvider", "classug4_bridge_1_1_discretization_1_1_output_1_1_grid_function_position_provider.html", null ]
     ] ],
+    [ "IPositionProvider", "classug4_bridge_1_1_algebra_1_1_i_position_provider.html", null ],
+    [ "IPProcessVector", "classug4_bridge_1_1_algebra_1_1_solver_1_1_i_p_process_vector.html", null ],
     [ "IPProcessVector", null, [
       [ "NedelecProject", "classug4_bridge_1_1_spatial_disc_1_1_electromagnetism_1_1_nedelec_project.html", null ]
     ] ],
-    [ "IPProcessVector", "classug4_bridge_1_1_algebra_1_1_solver_1_1_i_p_process_vector.html", null ],
     [ "IPreconditioner", null, [
       [ "ComponentGaussSeidel", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_component_gauss_seidel.html", null ],
       [ "ElementGaussSeidel", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_element_gauss_seidel.html", null ],
@@ -387,20 +368,15 @@ var hierarchy =
     ] ],
     [ "IRefiner", "classug4_bridge_1_1_grid_1_1_i_refiner.html", [
       [ "GlobalFracturedMediumRefiner", "classug4_bridge_1_1_grid_1_1_global_fractured_medium_refiner.html", null ],
-      [ "GlobalMultiGridRefiner", "classug4_bridge_1_1_grid_1_1_global_multi_grid_refiner.html", null ],
+      [ "GlobalMultiGridRefiner", "classug4_bridge_1_1_grid_1_1_global_multi_grid_refiner.html", [
+        [ "GlobalSubdivisionMultiGridRefiner", "classug4_bridge_1_1_grid_1_1_global_subdivision_multi_grid_refiner.html", null ]
+      ] ],
       [ "HangingNodeRefiner_Grid", "classug4_bridge_1_1_grid_1_1_hanging_node_refiner___grid.html", null ],
       [ "HangingNodeRefiner_MultiGrid", "classug4_bridge_1_1_grid_1_1_hanging_node_refiner___multi_grid.html", [
-        [ "AdaptiveRegularRefiner_MultiGrid", "classug4_bridge_1_1_grid_1_1_adaptive_regular_refiner___multi_grid.html", null ],
-        [ "ParallelHangingNodeRefiner_MultiGrid", "classug4_bridge_1_1_grid_1_1_parallel_hanging_node_refiner___multi_grid.html", null ]
+        [ "AdaptiveRegularRefiner_MultiGrid", "classug4_bridge_1_1_grid_1_1_adaptive_regular_refiner___multi_grid.html", null ]
       ] ]
     ] ],
     [ "IRefMarkAdjuster", "classug4_bridge_1_1_grid_1_1_i_ref_mark_adjuster.html", null ],
-    [ "ISchurComplementInverse", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_i_schur_complement_inverse.html", [
-      [ "SchurInverseWithAGammaGamma", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_schur_inverse_with_a_gamma_gamma.html", null ],
-      [ "SchurInverseWithAutoFullMatrix", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_schur_inverse_with_auto_full_matrix.html", null ],
-      [ "SchurInverseWithFullMatrix", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_schur_inverse_with_full_matrix.html", null ],
-      [ "SchurInverseWithOperator", "classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_schur_inverse_with_operator.html", null ]
-    ] ],
     [ "ISelector", "classug4_bridge_1_1_grid_1_1_i_selector.html", [
       [ "Selector", "classug4_bridge_1_1_grid_1_1_selector.html", null ]
     ] ],
@@ -421,15 +397,12 @@ var hierarchy =
     [ "IVectorDebugWriter", "classug4_bridge_1_1_algebra_1_1_i_vector_debug_writer.html", [
       [ "IDebugWriter", "classug4_bridge_1_1_algebra_1_1_i_debug_writer.html", null ]
     ] ],
-    [ "IVectorWriter", "classug4_bridge_1_1_algebra_1_1_i_vector_writer.html", null ],
     [ "IVectorWriter", null, [
       [ "GridFunctionVectorWriter", "classug4_bridge_1_1_discretization_1_1_output_1_1_grid_function_vector_writer.html", null ],
       [ "GridFunctionVectorWriterDirichlet0", "classug4_bridge_1_1_discretization_1_1_output_1_1_grid_function_vector_writer_dirichlet0.html", null ]
     ] ],
+    [ "IVectorWriter", "classug4_bridge_1_1_algebra_1_1_i_vector_writer.html", null ],
     [ "LFEID", "classug4_bridge_1_1_discretization_1_1_l_f_e_i_d.html", null ],
-    [ "LoadBalancer", "classug4_bridge_1_1_load_balancing_1_1_load_balancer.html", [
-      [ "DomainLoadBalancer", "classug4_bridge_1_1_load_balancing_1_1_domain_load_balancer.html", null ]
-    ] ],
     [ "LogAssistant", "classug4_bridge_1_1_util_1_1_log_1_1_log_assistant.html", null ],
     [ "LuaShell", "classug4_bridge_1_1_lua_shell_1_1_lua_shell.html", null ],
     [ "LuaUserNumberNumberFunction", "classug4_bridge_1_1_lua_user_number_number_function.html", null ],
@@ -438,6 +411,7 @@ var hierarchy =
       [ "AssembledLinearOperator", "classug4_bridge_1_1_discretization_1_1_assembled_linear_operator.html", null ]
     ] ],
     [ "MechOutputWriter", "classug4_bridge_1_1_spatial_disc_1_1_small_strain_mechanics_1_1_mech_output_writer.html", null ],
+    [ "MemInfo", "classug4_bridge_1_1_util_1_1_mem_info.html", null ],
     [ "Mesh", "classug4_bridge_1_1promesh_1_1_mesh.html", null ],
     [ "MGStats", "classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_m_g_stats.html", null ],
     [ "MultiIndex2", "classug4_bridge_1_1_discretization_1_1_multi_index2.html", null ],
@@ -450,7 +424,6 @@ var hierarchy =
     ] ],
     [ "PeriodicBoundaryManager", "classug4_bridge_1_1_periodic_1_1_periodic_boundary_manager.html", null ],
     [ "PowerMethod", "classug4_bridge_1_1_algebra_1_1_solver_1_1_power_method.html", null ],
-    [ "ProcessHierarchy", "classug4_bridge_1_1_load_balancing_1_1_process_hierarchy.html", null ],
     [ "RasterLayerDesc", "classug4_bridge_1_1_grid_1_1_raster_layer_desc.html", null ],
     [ "RasterLayers", "classug4_bridge_1_1_grid_1_1_raster_layers.html", null ],
     [ "RefinementProjector", "classug4_bridge_1_1_grid_1_1_refinement_projector.html", [
@@ -462,6 +435,7 @@ var hierarchy =
       [ "SphereProjector", "classug4_bridge_1_1_grid_1_1_sphere_projector.html", null ],
       [ "SubdivisionProjector", "classug4_bridge_1_1_grid_1_1_subdivision_projector.html", null ]
     ] ],
+    [ "RelativeDensityUpdater", "classug4_bridge_1_1_spatial_disc_1_1_small_strain_mechanics_1_1_relative_density_updater.html", null ],
     [ "SolutionTimeSeries", "classug4_bridge_1_1_discretization_1_1_time_disc_1_1_solution_time_series.html", null ],
     [ "StdTransfer", null, [
       [ "TruncatedMonotoneTransfer", "classug4_bridge_1_1_algebra_1_1_obstacle_1_1_truncated_monotone_transfer.html", null ]
@@ -496,6 +470,7 @@ var hierarchy =
         [ "CplUserNumber", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_cpl_user_number.html", [
           [ "ConstUserNumber", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_const_user_number.html", null ],
           [ "DependentUserDataNumber", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_dependent_user_data_number.html", [
+            [ "BinghamViscosityLinker", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_bingham_viscosity_linker.html", null ],
             [ "InverseLinker", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_inverse_linker.html", null ],
             [ "ScaleAddLinkerNumber", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_scale_add_linker_number.html", null ],
             [ "ScaleAddLinkerVectorVector", "classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_scale_add_linker_vector_vector.html", null ]
@@ -539,12 +514,14 @@ var hierarchy =
     [ "Variant", "classug4_bridge_1_1_util_1_1_variant.html", null ],
     [ "Vec", "classug4_bridge_1_1_util_1_1_vec_math_1_1_vec.html", null ],
     [ "VecScaleAddClass", "classug4_bridge_1_1_algebra_1_1_vec_scale_add_class.html", null ],
+    [ "Vector", "classug4_bridge_1_1_algebra_1_1_vector.html", null ],
     [ "Vector< TValueType >", "../class_vector.html", [
       [ "GridFunction", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_grid_function.html", null ]
     ] ],
-    [ "Vector", "classug4_bridge_1_1_algebra_1_1_vector.html", null ],
     [ "VectorDebugWritingObject", "classug4_bridge_1_1_algebra_1_1_vector_debug_writing_object.html", [
-      [ "DebugWritingObject", "classug4_bridge_1_1_algebra_1_1_debug_writing_object.html", null ]
+      [ "DebugWritingObject", "classug4_bridge_1_1_algebra_1_1_debug_writing_object.html", [
+        [ "EigenSolver", "classug4_bridge_1_1_algebra_1_1_solver_1_1_eigen_solver.html", null ]
+      ] ]
     ] ],
     [ "VertexIterator", "classug4_bridge_1_1promesh_1_1_vertex_iterator.html", null ],
     [ "VolumeIterator", "classug4_bridge_1_1promesh_1_1_volume_iterator.html", null ],

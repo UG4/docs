@@ -6,7 +6,7 @@ var classug_1_1_i_matrix_operator_inverse =
     [ "~IMatrixOperatorInverse", "classug_1_1_i_matrix_operator_inverse.html#a7ba6d24f1a85460ca538fb149f701be0", null ],
     [ "apply", "classug_1_1_i_matrix_operator_inverse.html#a4cdc589d8e56cc6f302c1eb48ab153be", null ],
     [ "apply_return_defect", "classug_1_1_i_matrix_operator_inverse.html#a4b3d411996979e1917148cbbb77b9e6a", null ],
-    [ "init", "classug_1_1_i_matrix_operator_inverse.html#ae928bc148691a91a64caa1481e569190", null ],
+    [ "init", "classug_1_1_i_matrix_operator_inverse.html#a5c5852424c46f19055d37a49689e0cdc", null ],
     [ "init", "classug_1_1_i_matrix_operator_inverse.html#a5e9743a6b0ddccb290b9f5d7eb3ad70f", null ],
-    [ "init", "classug_1_1_i_matrix_operator_inverse.html#a5c5852424c46f19055d37a49689e0cdc", null ]
+    [ "init", "classug_1_1_i_matrix_operator_inverse.html#ae928bc148691a91a64caa1481e569190", null ]
 ];
