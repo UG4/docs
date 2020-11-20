@@ -1,8 +1,12 @@
 var operations__vec_8h =
 [
     [ "VecAssign", "operations__vec_8h.html#a069551a3cb0d2b0fe254fe7b2e6b3dea", null ],
+    [ "VecExp", "operations__vec_8h.html#a06e19d4b87a77beb74543f23b469bcdd", null ],
+    [ "VecExp", "operations__vec_8h.html#a426d1f3cf73ecf5566f30d8f8ba95b9b", null ],
     [ "VecHadamardProd", "operations__vec_8h.html#ad3bb64dc2cd7d787ab2a89879a86532d", null ],
     [ "VecHadamardProd", "operations__vec_8h.html#a2a9aaf8418494bc674a777ea1879630a", null ],
+    [ "VecLog", "operations__vec_8h.html#a9c50eaad7d84889add3d6b4e05b1e287", null ],
+    [ "VecLog", "operations__vec_8h.html#a7e4d6580150463e70f80df686290d500", null ],
     [ "VecNormSquared", "operations__vec_8h.html#ac81681e6e6811e74150657326e27e45b", null ],
     [ "VecNormSquared", "operations__vec_8h.html#a010dde0bcb0e8b8bc0ae702c681a80cc", null ],
     [ "VecNormSquaredAdd", "operations__vec_8h.html#a9564cccadf182905c0ef7a9b0da57afc", null ],

@@ -15,7 +15,6 @@ var classug_1_1_component_gauss_seidel =
     [ "apply_blocks_weighted", "classug_1_1_component_gauss_seidel.html#acbc7ee961be84eb904884e148427f7ef", null ],
     [ "clone", "classug_1_1_component_gauss_seidel.html#ae034b8f6fae33a1164f7a28a0e888616", null ],
     [ "extract_blocks", "classug_1_1_component_gauss_seidel.html#a96d88fb5dc690c9286feab86fc8120ad", null ],
-    [ "extract_by_grouping", "classug_1_1_component_gauss_seidel.html#aed97ee3edde0c69e277dc10594bff394", null ],
     [ "name", "classug_1_1_component_gauss_seidel.html#ac6d1d785cf915ef33922069530fb505c", null ],
     [ "postprocess", "classug_1_1_component_gauss_seidel.html#a1355220648130f7993d070b69ff6ac30", null ],
     [ "preprocess", "classug_1_1_component_gauss_seidel.html#a7700e11a3cfebe5cf541507688dad671", null ],

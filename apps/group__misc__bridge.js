@@ -35,6 +35,7 @@ var group__misc__bridge =
     [ "IsDefinedUG_FOR_VRL", "../group__misc__bridge.html#gac7f9112b82cb626878cbd13baec2c176", null ],
     [ "IsDefinedUG_HLIBPRO", "../group__misc__bridge.html#ga1d416274a62694c9490e90955123a475", null ],
     [ "IsDefinedUG_HYPRE", "../group__misc__bridge.html#ga184bdb3766b4b8efe548453d5a691b85", null ],
+    [ "IsDefinedUG_JSON", "../group__misc__bridge.html#ga5a496086348ac6093061b3335c4d14bd", null ],
     [ "IsDefinedUG_PARALLEL", "../group__misc__bridge.html#ga32f5d0ff8b800ec36bf2a2bd7c5202a4", null ],
     [ "IsDefinedUG_PLUGINS", "../group__misc__bridge.html#gad04e582fd99e8f6b057b8b343671860f", null ],
     [ "IsDefinedUG_PROFILER", "../group__misc__bridge.html#ga97faf6b7c6a4a4ea692683b81cfe8fdd", null ],

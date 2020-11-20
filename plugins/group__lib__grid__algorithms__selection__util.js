@@ -41,6 +41,7 @@ var group__lib__grid__algorithms__selection__util =
     [ "SelectShortPolychains", "../group__lib__grid__algorithms__selection__util.html#gae74e88e4c32326bebcab322baa9416bf", null ],
     [ "SelectSmoothEdgePath", "../group__lib__grid__algorithms__selection__util.html#gaddeb745d2f782ee3727f8129d0281a08", null ],
     [ "SelectSubset", "../group__lib__grid__algorithms__selection__util.html#ga8e8fa3f1d0c30ada51ae0a9066e26620", null ],
+    [ "SelectSubsetEdgesByDirection", "../group__lib__grid__algorithms__selection__util.html#ga32a63523dd300d0e48330f1b77ded30b", null ],
     [ "SelectSubsetElements", "../group__lib__grid__algorithms__selection__util.html#gaaeea5ff068776ffbae63185458468c7c", null ],
     [ "TranslateSelection", "../group__lib__grid__algorithms__selection__util.html#gab59640a4f6a3143efcd0fd5d690a81a5", null ]
 ];

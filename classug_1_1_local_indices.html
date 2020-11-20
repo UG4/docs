@@ -128,6 +128,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adafdc88f908d2788b0fe9fc1ca147458"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_local_indices.html#afcbd7af1d5576038dae26451ec816e6d">comp_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_local_indices.html#adafdc88f908d2788b0fe9fc1ca147458">comp</a> (size_t fct, size_t dof) const</td></tr>
 <tr class="memdesc:adafdc88f908d2788b0fe9fc1ca147458"><td class="mdescLeft">&#160;</td><td class="mdescRight">algebra comp for (fct, dof)  <a href="classug_1_1_local_indices.html#adafdc88f908d2788b0fe9fc1ca147458">More...</a><br /></td></tr>
 <tr class="separator:adafdc88f908d2788b0fe9fc1ca147458"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa860ef85ea1f1ca3486196bd6f0778a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_local_indices.html#aaa860ef85ea1f1ca3486196bd6f0778a">contains_index</a> (<a class="el" href="classug_1_1_local_indices.html#a60ce69478a34bb148afc0580c40b1497">index_type</a> ind)</td></tr>
+<tr class="memdesc:aaa860ef85ea1f1ca3486196bd6f0778a"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks if the local index object references a given index  <a href="classug_1_1_local_indices.html#aaa860ef85ea1f1ca3486196bd6f0778a">More...</a><br /></td></tr>
+<tr class="separator:aaa860ef85ea1f1ca3486196bd6f0778a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a697761dde5cfeef2a868d11d6a9af41d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_local_indices.html#a60ce69478a34bb148afc0580c40b1497">index_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_local_indices.html#a697761dde5cfeef2a868d11d6a9af41d">index</a> (size_t fct, size_t dof)</td></tr>
 <tr class="memdesc:a697761dde5cfeef2a868d11d6a9af41d"><td class="mdescLeft">&#160;</td><td class="mdescRight">global algebra index for (fct, dof)  <a href="classug_1_1_local_indices.html#a697761dde5cfeef2a868d11d6a9af41d">More...</a><br /></td></tr>
 <tr class="separator:a697761dde5cfeef2a868d11d6a9af41d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -466,6 +469,36 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aaa860ef85ea1f1ca3486196bd6f0778a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa860ef85ea1f1ca3486196bd6f0778a">&#9670;&nbsp;</a></span>contains_index()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ug::LocalIndices::contains_index </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_local_indices.html#a60ce69478a34bb148afc0580c40b1497">index_type</a>&#160;</td>
+          <td class="paramname"><em>ind</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>checks if the local index object references a given index </p>
+
+<p class="reference">References <a class="el" href="classug_1_1_local_indices.html#ad350ed2e84a515788fcccccb3391ef63">m_vvIndex</a>, <a class="el" href="classug_1_1_local_indices.html#a296f61dfabb80f8aa1dc37b2835c139f">num_dof()</a>, and <a class="el" href="classug_1_1_local_indices.html#ac943b8d32979628ece8a2533d74d206c">num_fct()</a>.</p>
+
+</div>
+</div>
 <a id="a697761dde5cfeef2a868d11d6a9af41d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a697761dde5cfeef2a868d11d6a9af41d">&#9670;&nbsp;</a></span>index() <span class="overload">[1/2]</span></h2>
 
@@ -647,7 +680,7 @@ Protected Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="classug_1_1_local_indices.html#ac943b8d32979628ece8a2533d74d206c">num_fct()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classug_1_1_local_indices.html#a84ed45f8f6676aa0c3645af3bc1044c0">check_dof()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classug_1_1_local_indices.html#a84ed45f8f6676aa0c3645af3bc1044c0">check_dof()</a>, and <a class="el" href="classug_1_1_local_indices.html#aaa860ef85ea1f1ca3486196bd6f0778a">contains_index()</a>.</p>
 
 </div>
 </div>
@@ -679,7 +712,7 @@ Protected Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="classug_1_1_local_indices.html#ad790ebcee929cf8c771cd794bd308d99">check_fct()</a>, and <a class="el" href="classug_1_1_local_indices.html#ad350ed2e84a515788fcccccb3391ef63">m_vvIndex</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classug_1_1_active_set.html#adf202c5f10e562be37856961cbeff850">ug::ActiveSet&lt; TDomain, TAlgebra &gt;::active_index_elem()</a>, <a class="el" href="classug_1_1_active_set.html#a7d2b13f9c048b47c7e22ecc2e6eb4b4f">ug::ActiveSet&lt; TDomain, TAlgebra &gt;::check_conv_elem()</a>, <a class="el" href="classug_1_1_local_vector.html#abce2dcf8ef3003c039fd57a6778fefb7">ug::LocalVector::resize()</a>, <a class="el" href="classug_1_1_local_matrix.html#a4e211f0b593008ae3d4b21f24bdeba9b">ug::LocalMatrix::resize()</a>, <a class="el" href="classug_1_1_data_import.html#a24f6930f32faea65aaa1433ac527f4fd">ug::DataImport&lt; number, dim &gt;::update_dof_sizes()</a>, and <a class="el" href="classug_1_1_dependent_user_data.html#abab2bde5565c0d2bf2e681ede34c3469">ug::DependentUserData&lt; number, dim &gt;::update_dof_sizes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classug_1_1_active_set.html#adf202c5f10e562be37856961cbeff850">ug::ActiveSet&lt; TDomain, TAlgebra &gt;::active_index_elem()</a>, <a class="el" href="classug_1_1_domain_discretization_base.html#a04af3e1d251f662d74eecd76d34b8a87">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::calc_error()</a>, <a class="el" href="classug_1_1_active_set.html#a7d2b13f9c048b47c7e22ecc2e6eb4b4f">ug::ActiveSet&lt; TDomain, TAlgebra &gt;::check_conv_elem()</a>, <a class="el" href="classug_1_1_local_vector.html#abce2dcf8ef3003c039fd57a6778fefb7">ug::LocalVector::resize()</a>, <a class="el" href="classug_1_1_local_matrix.html#a4e211f0b593008ae3d4b21f24bdeba9b">ug::LocalMatrix::resize()</a>, <a class="el" href="classug_1_1_data_import.html#a24f6930f32faea65aaa1433ac527f4fd">ug::DataImport&lt; number, dim &gt;::update_dof_sizes()</a>, and <a class="el" href="classug_1_1_dependent_user_data.html#abab2bde5565c0d2bf2e681ede34c3469">ug::DependentUserData&lt; number, dim &gt;::update_dof_sizes()</a>.</p>
 
 </div>
 </div>
@@ -710,7 +743,7 @@ Protected Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="classug_1_1_local_indices.html#ad350ed2e84a515788fcccccb3391ef63">m_vvIndex</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classug_1_1_local_vector.html#a9e417353ea50766226ba6cfaabf87747">ug::LocalVector::access_all()</a>, <a class="el" href="classug_1_1_local_matrix.html#af2625f8551f995ec72bdce868ccb4992">ug::LocalMatrix::access_all()</a>, <a class="el" href="classug_1_1_active_set.html#adf202c5f10e562be37856961cbeff850">ug::ActiveSet&lt; TDomain, TAlgebra &gt;::active_index_elem()</a>, <a class="el" href="classug_1_1_active_set.html#a7d2b13f9c048b47c7e22ecc2e6eb4b4f">ug::ActiveSet&lt; TDomain, TAlgebra &gt;::check_conv_elem()</a>, <a class="el" href="classug_1_1_local_indices.html#ad790ebcee929cf8c771cd794bd308d99">check_fct()</a>, <a class="el" href="classug_1_1_local_indices.html#a296f61dfabb80f8aa1dc37b2835c139f">num_dof()</a>, <a class="el" href="classug_1_1_local_vector.html#abce2dcf8ef3003c039fd57a6778fefb7">ug::LocalVector::resize()</a>, and <a class="el" href="classug_1_1_local_matrix.html#a4e211f0b593008ae3d4b21f24bdeba9b">ug::LocalMatrix::resize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classug_1_1_local_vector.html#a9e417353ea50766226ba6cfaabf87747">ug::LocalVector::access_all()</a>, <a class="el" href="classug_1_1_local_matrix.html#af2625f8551f995ec72bdce868ccb4992">ug::LocalMatrix::access_all()</a>, <a class="el" href="classug_1_1_active_set.html#adf202c5f10e562be37856961cbeff850">ug::ActiveSet&lt; TDomain, TAlgebra &gt;::active_index_elem()</a>, <a class="el" href="classug_1_1_domain_discretization_base.html#a04af3e1d251f662d74eecd76d34b8a87">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, StdGlobAssembler&lt; TDomain, TAlgebra &gt; &gt;::calc_error()</a>, <a class="el" href="classug_1_1_active_set.html#a7d2b13f9c048b47c7e22ecc2e6eb4b4f">ug::ActiveSet&lt; TDomain, TAlgebra &gt;::check_conv_elem()</a>, <a class="el" href="classug_1_1_local_indices.html#ad790ebcee929cf8c771cd794bd308d99">check_fct()</a>, <a class="el" href="classug_1_1_local_indices.html#aaa860ef85ea1f1ca3486196bd6f0778a">contains_index()</a>, <a class="el" href="classug_1_1_local_indices.html#a296f61dfabb80f8aa1dc37b2835c139f">num_dof()</a>, <a class="el" href="classug_1_1_local_vector.html#abce2dcf8ef3003c039fd57a6778fefb7">ug::LocalVector::resize()</a>, and <a class="el" href="classug_1_1_local_matrix.html#a4e211f0b593008ae3d4b21f24bdeba9b">ug::LocalMatrix::resize()</a>.</p>
 
 </div>
 </div>
@@ -1003,7 +1036,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classug_1_1_local_indices.html#a76e3119f16c7e592d856a8ba01825650">clear()</a>, <a class="el" href="classug_1_1_local_indices.html#adafdc88f908d2788b0fe9fc1ca147458">comp()</a>, <a class="el" href="classug_1_1_local_indices.html#a3f9a311fef1fe4b2c8c62e8873cb8736">index()</a>, <a class="el" href="classug_1_1_local_indices.html#a8fd70ddd28a66bff1a9b7031889f28a6">multi_index()</a>, <a class="el" href="classug_1_1_local_indices.html#a21a08fbf627c18f958b852804981c327">num_dof()</a>, <a class="el" href="classug_1_1_local_indices.html#ac943b8d32979628ece8a2533d74d206c">num_fct()</a>, <a class="el" href="classug_1_1_local_indices.html#afd3490ac3205e3f5cf423c025a40ca5b">push_back_multi_index()</a>, <a class="el" href="classug_1_1_local_indices.html#a3c828b243790033dd72ccf7e161f887f">reserve_dof()</a>, <a class="el" href="classug_1_1_local_indices.html#a78457dca934c21c423c41c2bd44a79f9">resize_dof()</a>, and <a class="el" href="classug_1_1_local_indices.html#acaeda90d2179e71f720841b04235b820">resize_fct()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classug_1_1_local_indices.html#a76e3119f16c7e592d856a8ba01825650">clear()</a>, <a class="el" href="classug_1_1_local_indices.html#adafdc88f908d2788b0fe9fc1ca147458">comp()</a>, <a class="el" href="classug_1_1_local_indices.html#aaa860ef85ea1f1ca3486196bd6f0778a">contains_index()</a>, <a class="el" href="classug_1_1_local_indices.html#a3f9a311fef1fe4b2c8c62e8873cb8736">index()</a>, <a class="el" href="classug_1_1_local_indices.html#a8fd70ddd28a66bff1a9b7031889f28a6">multi_index()</a>, <a class="el" href="classug_1_1_local_indices.html#a21a08fbf627c18f958b852804981c327">num_dof()</a>, <a class="el" href="classug_1_1_local_indices.html#ac943b8d32979628ece8a2533d74d206c">num_fct()</a>, <a class="el" href="classug_1_1_local_indices.html#afd3490ac3205e3f5cf423c025a40ca5b">push_back_multi_index()</a>, <a class="el" href="classug_1_1_local_indices.html#a3c828b243790033dd72ccf7e161f887f">reserve_dof()</a>, <a class="el" href="classug_1_1_local_indices.html#a78457dca934c21c423c41c2bd44a79f9">resize_dof()</a>, and <a class="el" href="classug_1_1_local_indices.html#acaeda90d2179e71f720841b04235b820">resize_fct()</a>.</p>
 
 </div>
 </div>
@@ -1016,7 +1049,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_local_indices.html">LocalIndices</a></li>
-    <li class="footer">Generated on Fri Dec 13 2019 23:55:12 for ug4 by
+    <li class="footer">Generated on Tue Oct 27 2020 05:30:36 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

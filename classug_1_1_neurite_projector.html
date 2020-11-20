@@ -132,6 +132,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1_neurite_projector_1_1_compare_soma_branching_regions_end.html">CompareSomaBranchingRegionsEnd</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1_neurite_projector_1_1_mapping.html">Mapping</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structug_1_1_neurite_projector_1_1_mapping.html" title="Mapping of model to surface vertices.">Mapping</a> of model to surface vertices.  <a href="structug_1_1_neurite_projector_1_1_mapping.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1_neurite_projector_1_1_neurite.html">Neurite</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1_neurite_projector_1_1_section.html">Section</a></td></tr>
@@ -149,15 +152,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9474555c0b9ff00111369dc704c99133"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89913b885adf931aa850f9418a5734b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_neurite_projector.html#a89913b885adf931aa850f9418a5734b0">axial_range_around_branching_region</a> (uint32_t nid, size_t brInd, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> numberOfRadii=5.0) const</td></tr>
 <tr class="separator:a89913b885adf931aa850f9418a5734b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac147bd4f541f1c2557887df65276ca4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_neurite_projector.html#ac147bd4f541f1c2557887df65276ca4c">axial_range_around_soma_region</a> (const <a class="el" href="structug_1_1_neurite_projector_1_1_soma_branching_region.html">SomaBranchingRegion</a> &amp;sr, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> rad, size_t nid, <a class="el" href="classug_1_1_vertex.html">Vertex</a> *vrt) const</td></tr>
-<tr class="separator:ac147bd4f541f1c2557887df65276ca4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15f6894e7afd3d570a5506e979295ecf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_neurite_projector.html#a15f6894e7afd3d570a5506e979295ecf">axial_range_around_soma_region</a> (const <a class="el" href="structug_1_1_neurite_projector_1_1_soma_branching_region.html">SomaBranchingRegion</a> &amp;sr, size_t numRadii, size_t nid, <a class="el" href="classug_1_1_vertex.html">Vertex</a> *vrt) const</td></tr>
+<tr class="separator:a15f6894e7afd3d570a5506e979295ecf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d45aabd45df1c4eda66bffe09745e84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_neurite_projector.html#a1d45aabd45df1c4eda66bffe09745e84">debug_neurites</a> () const</td></tr>
 <tr class="separator:a1d45aabd45df1c4eda66bffe09745e84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b3a19453ef60b287308e729587b8657"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_neurite_projector.html#a9b3a19453ef60b287308e729587b8657">direction_at_grid_object</a> (<a class="el" href="group__vectors.html#ga894cdb8af74f7a563a94fb49c220fdcd">vector3</a> &amp;dirOut, <a class="el" href="classug_1_1_grid_object.html">GridObject</a> *o) const</td></tr>
 <tr class="memdesc:a9b3a19453ef60b287308e729587b8657"><td class="mdescLeft">&#160;</td><td class="mdescRight">spline direction at some grid object  <a href="classug_1_1_neurite_projector.html#a9b3a19453ef60b287308e729587b8657">More...</a><br /></td></tr>
 <tr class="separator:a9b3a19453ef60b287308e729587b8657"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a554ed6ce7d7bd755b065a08adec0105f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_neurite_projector.html#a554ed6ce7d7bd755b065a08adec0105f">is_in_axial_range_around_soma_region</a> (const <a class="el" href="structug_1_1_neurite_projector_1_1_soma_branching_region.html">SomaBranchingRegion</a> &amp;sr, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> rad, size_t nid, <a class="el" href="classug_1_1_vertex.html">Vertex</a> *vrt) const</td></tr>
-<tr class="separator:a554ed6ce7d7bd755b065a08adec0105f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5a781a1c1d6c2bd8f365d9b13d974df"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_neurite_projector.html#af5a781a1c1d6c2bd8f365d9b13d974df">is_in_axial_range_around_soma_region</a> (const <a class="el" href="structug_1_1_neurite_projector_1_1_soma_branching_region.html">SomaBranchingRegion</a> &amp;sr, size_t nid, <a class="el" href="classug_1_1_vertex.html">Vertex</a> *vrt) const</td></tr>
+<tr class="separator:af5a781a1c1d6c2bd8f365d9b13d974df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34fa796e9088b2eccd792c4e508424e1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structug_1_1_neurite_projector_1_1_neurite.html">Neurite</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_neurite_projector.html#a34fa796e9088b2eccd792c4e508424e1">neurite</a> (uint32_t nid) const</td></tr>
 <tr class="separator:a34fa796e9088b2eccd792c4e508424e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3d28fe5ffb9e6fd055a8a1fca2086cd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_neurite_projector.html#ad3d28fe5ffb9e6fd055a8a1fca2086cd">NeuriteProjector</a> ()</td></tr>
@@ -502,8 +505,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="ac147bd4f541f1c2557887df65276ca4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac147bd4f541f1c2557887df65276ca4c">&#9670;&nbsp;</a></span>axial_range_around_soma_region()</h2>
+<a id="a15f6894e7afd3d570a5506e979295ecf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15f6894e7afd3d570a5506e979295ecf">&#9670;&nbsp;</a></span>axial_range_around_soma_region()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -517,8 +520,8 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td>
-          <td class="paramname"><em>rad</em>, </td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>numRadii</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -539,8 +542,9 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>const float somaRad = sr.radius;</p>
 
-<p class="reference">References <a class="el" href="structug_1_1_neurite_projector_1_1_soma_branching_region.html#a5f7619a0edb0964c343b98ba3850a49a">ug::NeuriteProjector::SomaBranchingRegion::bp</a>, <a class="el" href="namespaceug.html#a737d3db91b4dbcd268b8e91a6844da13">ug::compute_first_section_end_points()</a>, <a class="el" href="structug_1_1_neurite_projector_1_1_soma_branching_region.html#a65fc491f02ffff7435527c634cd00cbc">ug::NeuriteProjector::SomaBranchingRegion::radius</a>, <a class="el" href="structug_1_1_neurite_projector_1_1_soma_branching_region.html#ad9fe292c557ac78dc2f8eec616496dbf">ug::NeuriteProjector::SomaBranchingRegion::t</a>, <a class="el" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>, and <a class="el" href="group__vectors.html#ga92e42e49d0d212e50fc214803cf06e78">ug::VecDistance()</a>.</p>
+<p class="reference">References <a class="el" href="structug_1_1_neurite_projector_1_1_soma_branching_region.html#a5f7619a0edb0964c343b98ba3850a49a">ug::NeuriteProjector::SomaBranchingRegion::bp</a>, <a class="el" href="namespaceug.html#a737d3db91b4dbcd268b8e91a6844da13">ug::compute_first_section_end_points()</a>, <a class="el" href="structug_1_1_neurite_projector_1_1_soma_branching_region.html#ad9fe292c557ac78dc2f8eec616496dbf">ug::NeuriteProjector::SomaBranchingRegion::t</a>, <a class="el" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>, and <a class="el" href="group__vectors.html#ga92e42e49d0d212e50fc214803cf06e78">ug::VecDistance()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="namespaceug.html#a45475fd81c82d93b4a662bf7cdc434cc">ug::pos_on_surface_soma_bp()</a>.</p>
 
@@ -675,8 +679,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a554ed6ce7d7bd755b065a08adec0105f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a554ed6ce7d7bd755b065a08adec0105f">&#9670;&nbsp;</a></span>is_in_axial_range_around_soma_region()</h2>
+<a id="af5a781a1c1d6c2bd8f365d9b13d974df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5a781a1c1d6c2bd8f365d9b13d974df">&#9670;&nbsp;</a></span>is_in_axial_range_around_soma_region()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -686,12 +690,6 @@ Friends</h2></td></tr>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structug_1_1_neurite_projector_1_1_soma_branching_region.html">SomaBranchingRegion</a> &amp;&#160;</td>
           <td class="paramname"><em>sr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td>
-          <td class="paramname"><em>rad</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -712,8 +710,9 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>const number radius = axial_range_around_soma_region(sr, 0.1, nid, vrt);</p>
 
-<p class="reference">References <a class="el" href="structug_1_1_neurite_projector_1_1_soma_branching_region.html#a2b81a43a930a5acf022ff4d5d0b73b56">ug::NeuriteProjector::SomaBranchingRegion::center</a>.</p>
+<p class="reference">References <a class="el" href="structug_1_1_neurite_projector_1_1_soma_branching_region.html#a2b81a43a930a5acf022ff4d5d0b73b56">ug::NeuriteProjector::SomaBranchingRegion::center</a>, and <a class="el" href="group__ugbase__common.html#ga8998852da0794870b5006b4ff76f66ce">UG_LOGN</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classug_1_1_neurite_projector.html#a5c00e2d6d412de958ffd6e8788e5820c">push_into_place()</a>.</p>
 
@@ -1156,10 +1155,10 @@ template&lt;class Archive &gt; </div>
 <p>UG_LOGN("Number of soma branching regions for neurite with id: " &lt;&lt; plainNID &lt;&lt; ": " &lt;&lt; vSBR.size());</p>
 <p>This works due to the fact that vBR is sorted ascending</p>
 <p>This works due to the fact that vSBR is sorted ascending</p>
-<p>FIXME: Radius of it2-&gt;radius might be too large (soma radius might be much bigger than neurite start radii)</p>
-<p>This should integrate along the neurite [0, END_SOMA_BRANCHING_REGION] but not [-range, range] to avoid dints in the soma interior close to the surface. A new position for the vertex based on the average of the (first) neurite section and the soma sphere position and radius will be calculated based on the SomaRegion information stored in a struct. FIXME: Optimize iteration</p>
+<p>This should integrate along the neurite [0, END_SOMA_BRANCHING_REGION] but not [-range, range] to avoid dints in the soma interior close to the surface. A new position for the vertex based on the average of the (first) neurite section and the soma sphere position and radius will be calculated based on the SomaRegion information stored in a struct. FIXME: Optimize iteration: Find better starting position for iteration start pos_on_surface_soma_bp(pos, neurite, neuriteID, t, angle, parent, this, rad, vrt, *it2, m_aaSurfParams);</p>
+<p>pos_on_surface_soma(pos, neurite, this, parent);</p>
 
-<p class="reference">References <a class="el" href="classug_1_1_neurite_projector.html#a14420a08a9b60f7e84f2b1dad8ce041a">average_params()</a>, <a class="el" href="classug_1_1_neurite_projector.html#a89913b885adf931aa850f9418a5734b0">axial_range_around_branching_region()</a>, <a class="el" href="classug_1_1_neurite_projector.html#a554ed6ce7d7bd755b065a08adec0105f">is_in_axial_range_around_soma_region()</a>, <a class="el" href="classug_1_1_neurite_projector.html#a5f4d9cfed3cd730669a328ef80ad31dd">m_aaSurfParams</a>, <a class="el" href="classug_1_1_neurite_projector.html#aa379ba4c65590d9fb13c5ebe375725b4">m_vNeurites</a>, <a class="el" href="classug_1_1_neurite_projector.html#a34fa796e9088b2eccd792c4e508424e1">neurite()</a>, <a class="el" href="classug_1_1_refinement_projector.html#aba68f1926a22535380b4fdcc88dfcce5">ug::RefinementProjector::pos()</a>, <a class="el" href="namespaceug.html#aa3889afa749fb1cf82ee8a329ec458ec">ug::pos_in_bp()</a>, <a class="el" href="namespaceug.html#a1b7e8ac43424b9a2c77533eaf99a0011">ug::pos_in_neurite()</a>, <a class="el" href="namespaceug.html#a3f868c437af1b1d29e137f0fdbec5b0c">ug::pos_on_surface_soma()</a>, <a class="el" href="namespaceug.html#a45475fd81c82d93b4a662bf7cdc434cc">ug::pos_on_surface_soma_bp()</a>, <a class="el" href="namespaceug.html#aef6f49678b61916fb352e9daaa8e39e0">ug::pos_on_surface_tip()</a>, <a class="el" href="classug_1_1_neurite_projector.html#a819ff4ccf6a6f903b07825be26d91043">position()</a>, <a class="el" href="classug_1_1_refinement_projector.html#a578460cb717ea2f2cc835175bb3fcb50">ug::RefinementProjector::set_pos()</a>, <a class="el" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>, <a class="el" href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>, <a class="el" href="group__ugbase__common.html#ga8998852da0794870b5006b4ff76f66ce">UG_LOGN</a>, <a class="el" href="structug_1_1_neurite_projector_1_1_neurite.html#a3b98bd7256b5f8b2e266470d74ca80c4">ug::NeuriteProjector::Neurite::vBR</a>, and <a class="el" href="structug_1_1_neurite_projector_1_1_neurite.html#ab1dc1b0341f6e3c6d40fd14f4121ef7f">ug::NeuriteProjector::Neurite::vSBR</a>.</p>
+<p class="reference">References <a class="el" href="classug_1_1_neurite_projector.html#a14420a08a9b60f7e84f2b1dad8ce041a">average_params()</a>, <a class="el" href="classug_1_1_neurite_projector.html#a89913b885adf931aa850f9418a5734b0">axial_range_around_branching_region()</a>, <a class="el" href="classug_1_1_neurite_projector.html#af5a781a1c1d6c2bd8f365d9b13d974df">is_in_axial_range_around_soma_region()</a>, <a class="el" href="classug_1_1_neurite_projector.html#a5f4d9cfed3cd730669a328ef80ad31dd">m_aaSurfParams</a>, <a class="el" href="classug_1_1_neurite_projector.html#aa379ba4c65590d9fb13c5ebe375725b4">m_vNeurites</a>, <a class="el" href="classug_1_1_neurite_projector.html#a34fa796e9088b2eccd792c4e508424e1">neurite()</a>, <a class="el" href="classug_1_1_refinement_projector.html#aba68f1926a22535380b4fdcc88dfcce5">ug::RefinementProjector::pos()</a>, <a class="el" href="namespaceug.html#aa3889afa749fb1cf82ee8a329ec458ec">ug::pos_in_bp()</a>, <a class="el" href="namespaceug.html#a1b7e8ac43424b9a2c77533eaf99a0011">ug::pos_in_neurite()</a>, <a class="el" href="namespaceug.html#aef6f49678b61916fb352e9daaa8e39e0">ug::pos_on_surface_tip()</a>, <a class="el" href="classug_1_1_neurite_projector.html#a819ff4ccf6a6f903b07825be26d91043">position()</a>, <a class="el" href="classug_1_1_refinement_projector.html#a578460cb717ea2f2cc835175bb3fcb50">ug::RefinementProjector::set_pos()</a>, <a class="el" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>, <a class="el" href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>, <a class="el" href="group__ugbase__common.html#ga8998852da0794870b5006b4ff76f66ce">UG_LOGN</a>, <a class="el" href="structug_1_1_neurite_projector_1_1_neurite.html#a3b98bd7256b5f8b2e266470d74ca80c4">ug::NeuriteProjector::Neurite::vBR</a>, and <a class="el" href="structug_1_1_neurite_projector_1_1_neurite.html#ab1dc1b0341f6e3c6d40fd14f4121ef7f">ug::NeuriteProjector::Neurite::vSBR</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classug_1_1_neurite_projector.html#aeb8b2a2c6e06cc55153cc2e039aed1cb">new_vertex()</a>, and <a class="el" href="classug_1_1_neurite_projector.html#af2c3c493c4da0581b52bfc2b8acfe39c">project()</a>.</p>
 
@@ -1446,7 +1445,7 @@ template&lt;class Archive &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_neurite_projector.html">NeuriteProjector</a></li>
-    <li class="footer">Generated on Fri Dec 13 2019 23:55:16 for ug4 by
+    <li class="footer">Generated on Tue Oct 27 2020 05:30:40 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

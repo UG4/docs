@@ -12,7 +12,7 @@ var dir_e35a9254553922c462a0bea50f6ef567 =
       [ "cd_line_sss_data", "classug_1_1_convection_diffusion_plugin_1_1cd__line__sss__data.html", null ],
       [ "cd_point_sss_data", "classug_1_1_convection_diffusion_plugin_1_1cd__point__sss__data.html", null ],
       [ "cd_sss_data", "classug_1_1_convection_diffusion_plugin_1_1cd__sss__data.html", "classug_1_1_convection_diffusion_plugin_1_1cd__sss__data" ],
-      [ "CDSingularSourcesAndSinks", "classug_1_1_convection_diffusion_plugin_1_1_c_d_singular_sources_and_sinks.html", null ],
+      [ "CDSingularSourcesAndSinks", "classug_1_1_convection_diffusion_plugin_1_1_c_d_singular_sources_and_sinks.html", "classug_1_1_convection_diffusion_plugin_1_1_c_d_singular_sources_and_sinks" ],
       [ "line_sss_marker", "classug_1_1_convection_diffusion_plugin_1_1line__sss__marker.html", "classug_1_1_convection_diffusion_plugin_1_1line__sss__marker" ],
       [ "point_sss_marker", "classug_1_1_convection_diffusion_plugin_1_1point__sss__marker.html", "classug_1_1_convection_diffusion_plugin_1_1point__sss__marker" ],
       [ "t_fract_elem", "structug_1_1_convection_diffusion_plugin_1_1line__sss__marker_1_1t__fract__elem.html", "structug_1_1_convection_diffusion_plugin_1_1line__sss__marker_1_1t__fract__elem" ]

@@ -10,6 +10,7 @@ var namespaceug4_bridge_1_1_spatial_disc_1_1_elem_disc =
     [ "ConvectionDiffusionFV1", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_v1.html", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_v1" ],
     [ "ConvectionDiffusionFVCR", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_v_c_r.html", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_f_v_c_r" ],
     [ "ConvectionDiffusionStabFE", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_stab_f_e.html", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_convection_diffusion_stab_f_e" ],
+    [ "DiracSourceDisc", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_dirac_source_disc.html", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_dirac_source_disc" ],
     [ "FV1InnerBoundary", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_f_v1_inner_boundary.html", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_f_v1_inner_boundary" ],
     [ "IElemDisc", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_i_elem_disc.html", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_i_elem_disc" ],
     [ "IElemDiscModifier", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_i_elem_disc_modifier.html", "classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_i_elem_disc_modifier" ],

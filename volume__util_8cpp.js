@@ -1,6 +1,7 @@
 var volume__util_8cpp =
 [
     [ "CalculateHexahedronAspectRatio", "volume__util_8cpp.html#gae457b93f51876fc26f1b422d46e8e889", null ],
+    [ "CalculateHexahedronVolToRMSFaceAreaRatio", "volume__util_8cpp.html#a14ae7840960efa8494b55a81a5eecde9", null ],
     [ "CalculateMinVolumeHeight", "volume__util_8cpp.html#ga439e8124095ed0540b516dfaff7959bf", null ],
     [ "CalculatePyramidAspectRatio", "volume__util_8cpp.html#ga7593bdd93fe16436972e95d38b3d2134", null ],
     [ "CalculateTetrahedronAspectRatio", "volume__util_8cpp.html#gaf31820d91f65e3dd5680a7d6e4652dea", null ],

@@ -102,6 +102,7 @@ $(document).ready(function(){initNavTree('fv1__geom_8h.html','');});
 <div class="textblock"><code>#include &lt;cmath&gt;</code><br />
 <code>#include &lt;map&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;boost/mpl/bool.hpp&gt;</code><br />
 <code>#include &quot;<a class="el" href="common_8h_source.html">common/common.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="subset__handler__interface_8h_source.html">lib_grid/tools/subset_handler_interface.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="reference__element_8h_source.html">lib_disc/reference_element/reference_element.h</a>&quot;</code><br />
@@ -123,14 +124,23 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_dim_f_v1_geometry_1_1_b_f.html">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;::BF</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">boundary face  <a href="classug_1_1_dim_f_v1_geometry_1_1_b_f.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_f_v1_geometry_1_1_b_f.html">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::BF</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">boundary face  <a href="classug_1_1_f_v1_geometry_1_1_b_f.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_f_v1_geometry__gen_1_1_b_f.html">ug::FV1Geometry_gen&lt; TElem, TWorldDim, TCondensed &gt;::BF</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">boundary face  <a href="classug_1_1_f_v1_geometry__gen_1_1_b_f.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_dim_f_v1_geometry.html">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classug_1_1_geometry.html" title="provides a grid and access to the coordinates of the vertices">Geometry</a> and shape functions for 1st order Vertex-Centered Finite <a class="el" href="classug_1_1_volume.html" title="Volumes are 3-dimensional objects.">Volume</a>.  <a href="classug_1_1_dim_f_v1_geometry.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_f_v1_condensed_geometry.html">ug::FV1CondensedGeometry&lt; TElem, TWorldDim &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classug_1_1_geometry.html" title="provides a grid and access to the coordinates of the vertices">Geometry</a> and shape functions for 1st order Vertex-Centered Finite <a class="el" href="classug_1_1_volume.html" title="Volumes are 3-dimensional objects.">Volume</a>.  <a href="classug_1_1_f_v1_condensed_geometry.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_f_v1_geometry.html">ug::FV1Geometry&lt; TElem, TWorldDim &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classug_1_1_geometry.html" title="provides a grid and access to the coordinates of the vertices">Geometry</a> and shape functions for 1st order Vertex-Centered Finite <a class="el" href="classug_1_1_volume.html" title="Volumes are 3-dimensional objects.">Volume</a>.  <a href="classug_1_1_f_v1_geometry.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_f_v1_geometry__gen.html">ug::FV1Geometry_gen&lt; TElem, TWorldDim, TCondensed &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classug_1_1_geometry.html" title="provides a grid and access to the coordinates of the vertices">Geometry</a> and shape functions for 1st order Vertex-Centered Finite <a class="el" href="classug_1_1_volume.html" title="Volumes are 3-dimensional objects.">Volume</a>.  <a href="classug_1_1_f_v1_geometry__gen.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_f_v1_geometry__gen.html">ug::FV1Geometry_gen&lt; TElem, TWorldDim, TCondensed &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classug_1_1_geometry.html" title="provides a grid and access to the coordinates of the vertices">Geometry</a> and shape functions for 1st order Vertex-Centered Finite <a class="el" href="classug_1_1_volume.html" title="Volumes are 3-dimensional objects.">Volume</a>.  <a href="classug_1_1_f_v1_geometry__gen.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_f_v1_manifold_geometry.html">ug::FV1ManifoldGeometry&lt; TElem, TWorldDim &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -139,14 +149,14 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_dim_f_v1_geometry_1_1_s_c_v.html">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;::SCV</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">sub control volume structure  <a href="classug_1_1_dim_f_v1_geometry_1_1_s_c_v.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_f_v1_geometry_1_1_s_c_v.html">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::SCV</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">sub control volume structure  <a href="classug_1_1_f_v1_geometry_1_1_s_c_v.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_f_v1_geometry__gen_1_1_s_c_v.html">ug::FV1Geometry_gen&lt; TElem, TWorldDim, TCondensed &gt;::SCV</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">sub control volume structure  <a href="classug_1_1_f_v1_geometry__gen_1_1_s_c_v.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_dim_f_v1_geometry_1_1_s_c_v_f.html">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;::SCVF</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sub-Control <a class="el" href="classug_1_1_volume.html" title="Volumes are 3-dimensional objects.">Volume</a> <a class="el" href="classug_1_1_face.html" title="Faces are 2-dimensional objects.">Face</a> structure.  <a href="classug_1_1_dim_f_v1_geometry_1_1_s_c_v_f.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_f_v1_geometry_1_1_s_c_v_f.html">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::SCVF</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sub-Control <a class="el" href="classug_1_1_volume.html" title="Volumes are 3-dimensional objects.">Volume</a> <a class="el" href="classug_1_1_face.html" title="Faces are 2-dimensional objects.">Face</a> structure.  <a href="classug_1_1_f_v1_geometry_1_1_s_c_v_f.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_f_v1_geometry__gen_1_1_s_c_v_f.html">ug::FV1Geometry_gen&lt; TElem, TWorldDim, TCondensed &gt;::SCVF</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sub-Control <a class="el" href="classug_1_1_volume.html" title="Volumes are 3-dimensional objects.">Volume</a> <a class="el" href="classug_1_1_face.html" title="Faces are 2-dimensional objects.">Face</a> structure.  <a href="classug_1_1_f_v1_geometry__gen_1_1_s_c_v_f.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -161,7 +171,7 @@ Namespaces</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_df0e37446a9fd4242d0753cd346d4a6c.html">lib_disc</a></li><li class="navelem"><a class="el" href="dir_29066d1a823b14ee0b28843282597c5c.html">spatial_disc</a></li><li class="navelem"><a class="el" href="dir_ec4d003034051f6ef6bf4e9034dca541.html">disc_util</a></li><li class="navelem"><a class="el" href="fv1__geom_8h.html">fv1_geom.h</a></li>
-    <li class="footer">Generated on Fri Dec 13 2019 23:54:35 for ug4 by
+    <li class="footer">Generated on Tue Oct 27 2020 05:29:58 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

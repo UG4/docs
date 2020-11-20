@@ -56,6 +56,7 @@ var NAVTREEINDEX0 =
 "classug_1_1_c_r_i_l_u_t_preconditioner.html#ae8debe7c6758716e8e20614b31bc8510":[3,0,0,8,8],
 "classug_1_1_c_r_i_l_u_t_preconditioner.html#aea723cdb32c1b412e6213e5ca9cbb637":[3,0,0,8,4],
 "classug_1_1_convection_diffusion_plugin_1_1_c_d_singular_sources_and_sinks.html":[3,0,0,0,3],
+"classug_1_1_convection_diffusion_plugin_1_1_c_d_singular_sources_and_sinks.html#ab6fd03583872caddcd1c00cdb6a39b89":[3,0,0,0,3,0],
 "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base.html":[1,0,0,0,0],
 "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base.html#a024dceb0685d845bd892ff7b6dcfb2f7":[1,0,0,0,0,40],
 "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base.html#a0305ac4d19910090f4e1dca5a4b248de":[1,0,0,0,0,42],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v_c_r.html#aa8ac8a8f9061a4bc788346330d79a624":[1,0,0,0,4,31],
 "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v_c_r.html#aa8b0d1d32ee1062d6953e60e9832ddb1":[1,0,0,0,4,5],
 "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v_c_r.html#aae8491a7ad83e9ba822c79beb15986d6":[1,0,0,0,4,3],
-"classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v_c_r.html#abd5bd29dcbbb9fe934900c944fa99511":[1,0,0,0,4,2],
-"classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v_c_r.html#ac4c02ee356a801f570624325c654aebe":[1,0,0,0,4,0]
+"classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v_c_r.html#abd5bd29dcbbb9fe934900c944fa99511":[1,0,0,0,4,2]
 };

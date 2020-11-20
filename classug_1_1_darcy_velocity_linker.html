@@ -143,6 +143,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:add78a603a0b47c1388562eb62c27ae3d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_darcy_velocity_linker.html#add78a603a0b47c1388562eb62c27ae3d">set_density</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_cpl_user_data.html">CplUserData</a>&lt; <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>, <a class="elRef" href="../plugins/group__small__strain__mechanics.html#ga884d1b406bedb21e341d11cd30fb5079">dim</a> &gt; &gt; data)</td></tr>
 <tr class="memdesc:add78a603a0b47c1388562eb62c27ae3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">set density import  <a href="classug_1_1_darcy_velocity_linker.html#add78a603a0b47c1388562eb62c27ae3d">More...</a><br /></td></tr>
 <tr class="separator:add78a603a0b47c1388562eb62c27ae3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79eb24b6af1f7e1935939d87acce418e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_darcy_velocity_linker.html#a79eb24b6af1f7e1935939d87acce418e">set_derivative_mask</a> (int mask)</td></tr>
+<tr class="separator:a79eb24b6af1f7e1935939d87acce418e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2dc6c84836cebd2831bf060d100ff22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_darcy_velocity_linker.html#ac2dc6c84836cebd2831bf060d100ff22">set_gravity</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_cpl_user_data.html">CplUserData</a>&lt; <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; <a class="elRef" href="../plugins/group__small__strain__mechanics.html#ga884d1b406bedb21e341d11cd30fb5079">dim</a> &gt;, <a class="elRef" href="../plugins/group__small__strain__mechanics.html#ga884d1b406bedb21e341d11cd30fb5079">dim</a> &gt; &gt; data)</td></tr>
 <tr class="memdesc:ac2dc6c84836cebd2831bf060d100ff22"><td class="mdescLeft">&#160;</td><td class="mdescRight">set gravity import  <a href="classug_1_1_darcy_velocity_linker.html#ac2dc6c84836cebd2831bf060d100ff22">More...</a><br /></td></tr>
 <tr class="separator:ac2dc6c84836cebd2831bf060d100ff22"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -395,6 +397,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
+<tr class="memitem:aed25c7136a53b8c30233ac66e84d6cef"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_darcy_velocity_linker.html#aed25c7136a53b8c30233ac66e84d6cef">m_partialDerivMask</a></td></tr>
+<tr class="separator:aed25c7136a53b8c30233ac66e84d6cef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2629ded5c11d401c688c2b393205918"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_dependent_user_data.html">DependentUserData</a>&lt; <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>, <a class="elRef" href="../plugins/group__small__strain__mechanics.html#ga884d1b406bedb21e341d11cd30fb5079">dim</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_darcy_velocity_linker.html#aa2629ded5c11d401c688c2b393205918">m_spDDensity</a></td></tr>
 <tr class="separator:aa2629ded5c11d401c688c2b393205918"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6830769fba4a2f8bd157925ba45b2c1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_cpl_user_data.html">CplUserData</a>&lt; <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>, <a class="elRef" href="../plugins/group__small__strain__mechanics.html#ga884d1b406bedb21e341d11cd30fb5079">dim</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_darcy_velocity_linker.html#a6830769fba4a2f8bd157925ba45b2c1a">m_spDensity</a></td></tr>
@@ -796,7 +800,7 @@ template&lt;int refDim&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="classug_1_1_darcy_velocity_linker.html#a7c704e04d8c050fab99bc269994cf959">ug::DarcyVelocityLinker&lt; dim &gt;::_DP_</a>, <a class="el" href="classug_1_1_darcy_velocity_linker.html#a4e83f42d79103dfbb1c4d361e16c0bc3">ug::DarcyVelocityLinker&lt; dim &gt;::_G_</a>, <a class="el" href="classug_1_1_darcy_velocity_linker.html#a8b30618c0c514099e304b53754901bbd">ug::DarcyVelocityLinker&lt; dim &gt;::_K_</a>, <a class="el" href="classug_1_1_darcy_velocity_linker.html#ad0c84ab9e3865b52d754fdc81f963ab1">ug::DarcyVelocityLinker&lt; dim &gt;::_MU_</a>, <a class="el" href="classug_1_1_darcy_velocity_linker.html#a8a89154231e3f3506a48dbbcdf253add">ug::DarcyVelocityLinker&lt; dim &gt;::_RHO_</a>, <a class="el" href="classug_1_1_std_data_linker.html#a5131e2fbcb198b952e227498cbe72e3b">ug::StdDataLinker&lt; DarcyVelocityLinker&lt; dim &gt;, MathVector&lt; dim &gt;, dim &gt;::input_common_fct()</a>, <a class="el" href="classug_1_1_i_cpl_user_data.html#a0515c6cd5a672d05d05f7a3c12bb25ef">ug::ICplUserData&lt; dim &gt;::ip()</a>, <a class="el" href="classug_1_1_darcy_velocity_linker.html#aa2629ded5c11d401c688c2b393205918">ug::DarcyVelocityLinker&lt; dim &gt;::m_spDDensity</a>, <a class="el" href="classug_1_1_darcy_velocity_linker.html#a6830769fba4a2f8bd157925ba45b2c1a">ug::DarcyVelocityLinker&lt; dim &gt;::m_spDensity</a>, <a class="el" href="classug_1_1_darcy_velocity_linker.html#aef8f611fabe76f3ecb13904b14c1a2f3">ug::DarcyVelocityLinker&lt; dim &gt;::m_spDGravity</a>, <a class="el" href="classug_1_1_darcy_velocity_linker.html#ad425ea58475dbcbebc5d9975f7e17305">ug::DarcyVelocityLinker&lt; dim &gt;::m_spDPermeability</a>, <a class="el" href="classug_1_1_darcy_velocity_linker.html#a426a42f83ebe3646f13c7f31da238b16">ug::DarcyVelocityLinker&lt; dim &gt;::m_spDPressureGrad</a>, <a class="el" href="classug_1_1_darcy_velocity_linker.html#af6ec1e931dcf05b4198795de4676dba5">ug::DarcyVelocityLinker&lt; dim &gt;::m_spDViscosity</a>, <a class="el" href="classug_1_1_darcy_velocity_linker.html#a1703f6fee501eed6bc43d21f68475e4a">ug::DarcyVelocityLinker&lt; dim &gt;::m_spGravity</a>, <a class="el" href="classug_1_1_darcy_velocity_linker.html#a15036f683e27d98247a9d774b9deb073">ug::DarcyVelocityLinker&lt; dim &gt;::m_spPermeability</a>, <a class="el" href="classug_1_1_darcy_velocity_linker.html#a04e4106c4abbf8ff9a7942524e0b9cb2">ug::DarcyVelocityLinker&lt; dim &gt;::m_spPressureGrad</a>, <a class="el" href="classug_1_1_darcy_velocity_linker.html#a665dacfe31862fec30d41aafbda92796">ug::DarcyVelocityLinker&lt; dim &gt;::m_spViscosity</a>, <a class="el" href="group__math__matrix.html#gab1ab4612f2672ffdf2554d78274dfec3">ug::MatScale()</a>, <a class="el" href="group__ugbase__math.html#gab755dfcc4823f5a150c931e1fdca6c78">ug::MatVecMult()</a>, <a class="el" href="classug_1_1_dependent_user_data.html#a9e7781709f17ab083bc77b69dc042c78">ug::DependentUserData&lt; MathVector&lt; dim &gt;, dim &gt;::num_sh()</a>, <a class="el" href="classug_1_1_dependent_user_data.html#a8046451e68a4657f50354215c5f46291">ug::DependentUserData&lt; MathVector&lt; dim &gt;, dim &gt;::set_zero()</a>, <a class="el" href="group__ugbase__common.html#ga0b928ef153b78f1b5e025638cf28f841">UG_ASSERT</a>, <a class="el" href="classug_1_1_cpl_user_data.html#a1e0b1bc4bfc3235370d2be58c3d45263">ug::CplUserData&lt; TData, dim, TRet &gt;::values()</a>, <a class="el" href="group__vectors.html#gaa0cd3e6bb61c8e341541f8cf3065ec6d">ug::VecScale()</a>, <a class="el" href="group__vectors.html#ga02a8ab32c0b406dc365cc6fb8da1e046">ug::VecScaleAppend()</a>, <a class="el" href="group__vectors.html#ga5c7eda5aeb4cd0d53ce04f682d0a0058">ug::VecSubtract()</a>, and <a class="el" href="classug_1_1_std_data_linker.html#a9a1137b99b61d9b42dbaacb00ca01490">ug::StdDataLinker&lt; DarcyVelocityLinker&lt; dim &gt;, MathVector&lt; dim &gt;, dim &gt;::zero_derivative()</a>.</p>
+<p class="reference">References <a class="el" href="classug_1_1_darcy_velocity_linker.html#a7c704e04d8c050fab99bc269994cf959">ug::DarcyVelocityLinker&lt; dim &gt;::_DP_</a>, <a class="el" href="classug_1_1_darcy_velocity_linker.html#a4e83f42d79103dfbb1c4d361e16c0bc3">ug::DarcyVelocityLinker&lt; dim &gt;::_G_</a>, <a class="el" href="classug_1_1_darcy_velocity_linker.html#a8b30618c0c514099e304b53754901bbd">ug::DarcyVelocityLinker&lt; dim &gt;::_K_</a>, <a class="el" href="classug_1_1_darcy_velocity_linker.html#ad0c84ab9e3865b52d754fdc81f963ab1">ug::DarcyVelocityLinker&lt; dim &gt;::_MU_</a>, <a class="el" href="classug_1_1_darcy_velocity_linker.html#a8a89154231e3f3506a48dbbcdf253add">ug::DarcyVelocityLinker&lt; dim &gt;::_RHO_</a>, <a class="el" href="classug_1_1_std_data_linker.html#a5131e2fbcb198b952e227498cbe72e3b">ug::StdDataLinker&lt; DarcyVelocityLinker&lt; dim &gt;, MathVector&lt; dim &gt;, dim &gt;::input_common_fct()</a>, <a class="el" href="classug_1_1_i_cpl_user_data.html#a0515c6cd5a672d05d05f7a3c12bb25ef">ug::ICplUserData&lt; dim &gt;::ip()</a>, <a class="el" href="classug_1_1_darcy_velocity_linker.html#aed25c7136a53b8c30233ac66e84d6cef">ug::DarcyVelocityLinker&lt; dim &gt;::m_partialDerivMask</a>, <a class="el" href="classug_1_1_darcy_velocity_linker.html#aa2629ded5c11d401c688c2b393205918">ug::DarcyVelocityLinker&lt; dim &gt;::m_spDDensity</a>, <a class="el" href="classug_1_1_darcy_velocity_linker.html#a6830769fba4a2f8bd157925ba45b2c1a">ug::DarcyVelocityLinker&lt; dim &gt;::m_spDensity</a>, <a class="el" href="classug_1_1_darcy_velocity_linker.html#aef8f611fabe76f3ecb13904b14c1a2f3">ug::DarcyVelocityLinker&lt; dim &gt;::m_spDGravity</a>, <a class="el" href="classug_1_1_darcy_velocity_linker.html#ad425ea58475dbcbebc5d9975f7e17305">ug::DarcyVelocityLinker&lt; dim &gt;::m_spDPermeability</a>, <a class="el" href="classug_1_1_darcy_velocity_linker.html#a426a42f83ebe3646f13c7f31da238b16">ug::DarcyVelocityLinker&lt; dim &gt;::m_spDPressureGrad</a>, <a class="el" href="classug_1_1_darcy_velocity_linker.html#af6ec1e931dcf05b4198795de4676dba5">ug::DarcyVelocityLinker&lt; dim &gt;::m_spDViscosity</a>, <a class="el" href="classug_1_1_darcy_velocity_linker.html#a1703f6fee501eed6bc43d21f68475e4a">ug::DarcyVelocityLinker&lt; dim &gt;::m_spGravity</a>, <a class="el" href="classug_1_1_darcy_velocity_linker.html#a15036f683e27d98247a9d774b9deb073">ug::DarcyVelocityLinker&lt; dim &gt;::m_spPermeability</a>, <a class="el" href="classug_1_1_darcy_velocity_linker.html#a04e4106c4abbf8ff9a7942524e0b9cb2">ug::DarcyVelocityLinker&lt; dim &gt;::m_spPressureGrad</a>, <a class="el" href="classug_1_1_darcy_velocity_linker.html#a665dacfe31862fec30d41aafbda92796">ug::DarcyVelocityLinker&lt; dim &gt;::m_spViscosity</a>, <a class="el" href="group__math__matrix.html#gab1ab4612f2672ffdf2554d78274dfec3">ug::MatScale()</a>, <a class="el" href="group__ugbase__math.html#gab755dfcc4823f5a150c931e1fdca6c78">ug::MatVecMult()</a>, <a class="el" href="classug_1_1_dependent_user_data.html#a9e7781709f17ab083bc77b69dc042c78">ug::DependentUserData&lt; MathVector&lt; dim &gt;, dim &gt;::num_sh()</a>, <a class="el" href="classug_1_1_dependent_user_data.html#a8046451e68a4657f50354215c5f46291">ug::DependentUserData&lt; MathVector&lt; dim &gt;, dim &gt;::set_zero()</a>, <a class="el" href="group__ugbase__common.html#ga0b928ef153b78f1b5e025638cf28f841">UG_ASSERT</a>, <a class="el" href="classug_1_1_cpl_user_data.html#a1e0b1bc4bfc3235370d2be58c3d45263">ug::CplUserData&lt; TData, dim, TRet &gt;::values()</a>, <a class="el" href="group__vectors.html#gaa0cd3e6bb61c8e341541f8cf3065ec6d">ug::VecScale()</a>, <a class="el" href="group__vectors.html#ga02a8ab32c0b406dc365cc6fb8da1e046">ug::VecScaleAppend()</a>, <a class="el" href="group__vectors.html#ga5c7eda5aeb4cd0d53ce04f682d0a0058">ug::VecSubtract()</a>, and <a class="el" href="classug_1_1_std_data_linker.html#a9a1137b99b61d9b42dbaacb00ca01490">ug::StdDataLinker&lt; DarcyVelocityLinker&lt; dim &gt;, MathVector&lt; dim &gt;, dim &gt;::zero_derivative()</a>.</p>
 
 </div>
 </div>
@@ -1003,6 +1007,36 @@ template&lt;int dim&gt; </div>
 <p class="reference">References <a class="el" href="classug_1_1_darcy_velocity_linker.html#a8a89154231e3f3506a48dbbcdf253add">ug::DarcyVelocityLinker&lt; dim &gt;::_RHO_</a>, <a class="el" href="classug_1_1_darcy_velocity_linker.html#aa2629ded5c11d401c688c2b393205918">ug::DarcyVelocityLinker&lt; dim &gt;::m_spDDensity</a>, <a class="el" href="classug_1_1_darcy_velocity_linker.html#a6830769fba4a2f8bd157925ba45b2c1a">ug::DarcyVelocityLinker&lt; dim &gt;::m_spDensity</a>, and <a class="el" href="classug_1_1_std_data_linker.html#a6f4260df93a3ef51acd8f4df6348e91e">ug::StdDataLinker&lt; DarcyVelocityLinker&lt; dim &gt;, MathVector&lt; dim &gt;, dim &gt;::set_input()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classug_1_1_darcy_velocity_linker.html#a09be7ec0341df07a62f98793a0a16419">ug::DarcyVelocityLinker&lt; dim &gt;::set_density()</a>.</p>
+
+</div>
+</div>
+<a id="a79eb24b6af1f7e1935939d87acce418e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79eb24b6af1f7e1935939d87acce418e">&#9670;&nbsp;</a></span>set_derivative_mask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int dim&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_darcy_velocity_linker.html">ug::DarcyVelocityLinker</a>&lt; <a class="elRef" href="../plugins/group__small__strain__mechanics.html#ga884d1b406bedb21e341d11cd30fb5079">dim</a> &gt;::set_derivative_mask </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mask</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="classug_1_1_darcy_velocity_linker.html#aed25c7136a53b8c30233ac66e84d6cef">ug::DarcyVelocityLinker&lt; dim &gt;::m_partialDerivMask</a>.</p>
 
 </div>
 </div>
@@ -1339,6 +1373,32 @@ template&lt;int dim&gt; </div>
 
 </div>
 </div>
+<a id="aed25c7136a53b8c30233ac66e84d6cef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed25c7136a53b8c30233ac66e84d6cef">&#9670;&nbsp;</a></span>m_partialDerivMask</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int dim&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="classug_1_1_darcy_velocity_linker.html">ug::DarcyVelocityLinker</a>&lt; <a class="elRef" href="../plugins/group__small__strain__mechanics.html#ga884d1b406bedb21e341d11cd30fb5079">dim</a> &gt;::m_partialDerivMask</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classug_1_1_darcy_velocity_linker.html#adcaf482d2d82979e2d7e93824a593fb2">ug::DarcyVelocityLinker&lt; dim &gt;::eval_and_deriv()</a>, and <a class="el" href="classug_1_1_darcy_velocity_linker.html#a79eb24b6af1f7e1935939d87acce418e">ug::DarcyVelocityLinker&lt; dim &gt;::set_derivative_mask()</a>.</p>
+
+</div>
+</div>
 <a id="aa2629ded5c11d401c688c2b393205918"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa2629ded5c11d401c688c2b393205918">&#9670;&nbsp;</a></span>m_spDDensity</h2>
 
@@ -1608,7 +1668,7 @@ template&lt;int dim&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_darcy_velocity_linker.html">DarcyVelocityLinker</a></li>
-    <li class="footer">Generated on Fri Dec 13 2019 23:54:50 for ug4 by
+    <li class="footer">Generated on Tue Oct 27 2020 05:30:13 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

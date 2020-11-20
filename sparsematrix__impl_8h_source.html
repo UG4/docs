@@ -757,8 +757,8 @@ $(document).ready(function(){initNavTree('sparsematrix__impl_8h_source.html','')
 <div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;  rowStart[<a class="code" href="sparsematrix__interface_8h.html#a335c085061b311ca357c8883caec6ae3">num_rows</a>()] = rowEnd[<a class="code" href="sparsematrix__interface_8h.html#a335c085061b311ca357c8883caec6ae3">num_rows</a>()-1];</div>
 <div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;  fragmented = 0;</div>
 <div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;  maxValues = j;</div>
-<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;  <span class="keywordflow">if</span>(bNeedsValues) std::swap(values, v);</div>
-<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;  std::swap(cols, c);</div>
+<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;  <span class="keywordflow">if</span>(bNeedsValues) values.swap(v);</div>
+<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;  cols.swap(c);</div>
 <div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;}</div>
 <div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160; </div>
 <div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
@@ -806,7 +806,7 @@ $(document).ready(function(){initNavTree('sparsematrix__impl_8h_source.html','')
 <div class="ttc" id="aclassug_1_1_sparse_matrix_html_a059f81c74b5253cd6c88f45618cfe2fa"><div class="ttname"><a href="classug_1_1_sparse_matrix.html#a059f81c74b5253cd6c88f45618cfe2fa">ug::SparseMatrix::get_index_const</a></div><div class="ttdeci">int get_index_const(int r, int c) const</div><div class="ttdef"><b>Definition:</b> sparsematrix_impl.h:498</div></div>
 <div class="ttc" id="anamespaceug_html_afd6199e8080b4899251f1318be6366d3"><div class="ttname"><a href="namespaceug.html#afd6199e8080b4899251f1318be6366d3">ug::VecScaleAssign</a></div><div class="ttdeci">void VecScaleAssign(double &amp;dest, double alpha1, const double &amp;v1)</div><div class="ttdoc">calculates dest = alpha1*v1. for doubles</div><div class="ttdef"><b>Definition:</b> operations_vec.h:46</div></div>
 <div class="ttc" id="aclassug_1_1_sparse_matrix_html_a8ff38ac645ce855599428a3495f7c371"><div class="ttname"><a href="classug_1_1_sparse_matrix.html#a8ff38ac645ce855599428a3495f7c371">ug::SparseMatrix::set_as_copy_of</a></div><div class="ttdeci">void set_as_copy_of(const SparseMatrix&lt; value_type &gt; &amp;B, double scale=1.0)</div><div class="ttdoc">create/recreate this as a copy of SparseMatrix B</div><div class="ttdef"><b>Definition:</b> sparsematrix_impl.h:386</div></div>
-<div class="ttc" id="aclassug_1_1_sparse_matrix_html_a3102783cf67a5d49902c0d5673cdda44"><div class="ttname"><a href="classug_1_1_sparse_matrix.html#a3102783cf67a5d49902c0d5673cdda44">ug::SparseMatrix::copyToNewSize</a></div><div class="ttdeci">void copyToNewSize(size_t newSize)</div><div class="ttdef"><b>Definition:</b> sparsematrix.h:622</div></div>
+<div class="ttc" id="aclassug_1_1_sparse_matrix_html_a3102783cf67a5d49902c0d5673cdda44"><div class="ttname"><a href="classug_1_1_sparse_matrix.html#a3102783cf67a5d49902c0d5673cdda44">ug::SparseMatrix::copyToNewSize</a></div><div class="ttdeci">void copyToNewSize(size_t newSize)</div><div class="ttdef"><b>Definition:</b> sparsematrix.h:624</div></div>
 <div class="ttc" id="aclassug_1_1_sparse_matrix_html_a64c77b102705019131c8aa3cb4dcded6"><div class="ttname"><a href="classug_1_1_sparse_matrix.html#a64c77b102705019131c8aa3cb4dcded6">ug::SparseMatrix::assureValuesSize</a></div><div class="ttdeci">void assureValuesSize(size_t s)</div><div class="ttdef"><b>Definition:</b> sparsematrix_impl.h:674</div></div>
 <div class="ttc" id="aclassug_1_1_sparse_matrix_html_ab17a1a350a0452fe852a5f8b0600da79"><div class="ttname"><a href="classug_1_1_sparse_matrix.html#ab17a1a350a0452fe852a5f8b0600da79">ug::SparseMatrix::apply_ignore_zero_rows</a></div><div class="ttdeci">void apply_ignore_zero_rows(vector_t &amp;dest, const number &amp;beta1, const vector_t &amp;w1) const</div><div class="ttdoc">calculated dest = beta1*A*w1 . For empty rows, dest will not be changed</div><div class="ttdef"><b>Definition:</b> sparsematrix_impl.h:187</div></div>
 <div class="ttc" id="aclassug_1_1_sparse_matrix_html_ab9e5692b949a8c946714ad3789d74541"><div class="ttname"><a href="classug_1_1_sparse_matrix.html#ab9e5692b949a8c946714ad3789d74541">ug::SparseMatrix::scale</a></div><div class="ttdeci">void scale(double d)</div><div class="ttdef"><b>Definition:</b> sparsematrix_impl.h:401</div></div>
@@ -854,7 +854,7 @@ $(document).ready(function(){initNavTree('sparsematrix__impl_8h_source.html','')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_2e5eee3e6a2607df2611cb3dc665a6d5.html">lib_algebra</a></li><li class="navelem"><a class="el" href="dir_9fdf4f342cc07025dbdfefd76744846a.html">cpu_algebra</a></li><li class="navelem"><a class="el" href="sparsematrix__impl_8h.html">sparsematrix_impl.h</a></li>
-    <li class="footer">Generated on Fri Dec 13 2019 23:53:34 for ug4 by
+    <li class="footer">Generated on Tue Oct 27 2020 05:28:55 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

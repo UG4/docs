@@ -511,7 +511,7 @@ $(document).ready(function(){initNavTree('err__est__data__impl_8h_source.html','
 <div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;    m_elemGlobalIPcoords.resize(num_elem_ips(roid));</div>
 <div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;    ref_map.<a class="code" href="classug_1_1_dim_reference_mapping.html#ac797f4221541d4529c32346bdde3a121">local_to_global</a>(&amp;m_elemGlobalIPcoords[0], quadRuleElem[roid]-&gt;points(), quadRuleElem[roid]-&gt;size());</div>
 <div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;  }</div>
-<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;  <span class="keywordflow">catch</span> (std::exception e)</div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;  <span class="keywordflow">catch</span> (std::exception&amp; e)</div>
 <div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;  {</div>
 <div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;    <a class="code" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>(<span class="stringliteral">&quot;Encountered exception while trying to fill array of global IPs: &quot;</span></div>
 <div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;         &lt;&lt; std::endl &lt;&lt; <span class="stringliteral">&quot;&#39;&quot;</span> &lt;&lt; e.what() &lt;&lt; <span class="stringliteral">&quot;&#39;&quot;</span>);</div>
@@ -1235,7 +1235,7 @@ $(document).ready(function(){initNavTree('err__est__data__impl_8h_source.html','
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_df0e37446a9fd4242d0753cd346d4a6c.html">lib_disc</a></li><li class="navelem"><a class="el" href="dir_29066d1a823b14ee0b28843282597c5c.html">spatial_disc</a></li><li class="navelem"><a class="el" href="dir_a58757cb12352b105e963c949e18885a.html">elem_disc</a></li><li class="navelem"><a class="el" href="err__est__data__impl_8h.html">err_est_data_impl.h</a></li>
-    <li class="footer">Generated on Fri Dec 13 2019 23:54:13 for ug4 by
+    <li class="footer">Generated on Tue Oct 27 2020 05:29:36 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

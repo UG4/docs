@@ -158,9 +158,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga23402ee0f75ed6ce48cf58a2fa2808d5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__refinement__bridge.html#ga23402ee0f75ed6ce48cf58a2fa2808d5">ug::MarkForAdaption_VerticesInCube</a> (TDomain &amp;dom, <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_refiner.html">IRefiner</a> &gt; refiner, const typename TDomain::position_type &amp;min, const typename TDomain::position_type &amp;max, std::string markType)</td></tr>
 <tr class="memdesc:ga23402ee0f75ed6ce48cf58a2fa2808d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks all elements which have vertices in the given d-dimensional cube.  <a href="group__refinement__bridge.html#ga23402ee0f75ed6ce48cf58a2fa2808d5">More...</a><br /></td></tr>
 <tr class="separator:ga23402ee0f75ed6ce48cf58a2fa2808d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8d55e4f05df4f9a7a08a9438cec15e1e"><td class="memTemplParams" colspan="2">template&lt;class TDomain &gt; </td></tr>
-<tr class="memitem:ga8d55e4f05df4f9a7a08a9438cec15e1e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__refinement__bridge.html#ga8d55e4f05df4f9a7a08a9438cec15e1e">ug::MarkForAdaption_VerticesInSphere</a> (TDomain &amp;dom, <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_refiner.html">IRefiner</a> &gt; refiner, const typename TDomain::position_type &amp;center, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> radius, std::string markType, int maxLvl)</td></tr>
-<tr class="separator:ga8d55e4f05df4f9a7a08a9438cec15e1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga443febb940d31136e143e582662972ee"><td class="memTemplParams" colspan="2">template&lt;class TDomain &gt; </td></tr>
+<tr class="memitem:ga443febb940d31136e143e582662972ee"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__refinement__bridge.html#ga443febb940d31136e143e582662972ee">ug::MarkForAdaption_VerticesInSphere</a> (TDomain &amp;dom, <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_refiner.html">IRefiner</a> &gt; refiner, const typename TDomain::position_type &amp;center, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> radius, std::string markType)</td></tr>
+<tr class="separator:ga443febb940d31136e143e582662972ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad309f33273903d1215b547a7cc6647a9"><td class="memTemplParams" colspan="2">template&lt;class TDomain &gt; </td></tr>
 <tr class="memitem:gad309f33273903d1215b547a7cc6647a9"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__refinement__bridge.html#gad309f33273903d1215b547a7cc6647a9">ug::MarkForAdaption_VerticesInSphereMaxLvl</a> (TDomain &amp;dom, <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_refiner.html">IRefiner</a> &gt; refiner, const typename TDomain::position_type &amp;center, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> radius, std::string markType, int maxLvl)</td></tr>
 <tr class="memdesc:gad309f33273903d1215b547a7cc6647a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks all vertices in the given d-dimensional sphere.  <a href="group__refinement__bridge.html#gad309f33273903d1215b547a7cc6647a9">More...</a><br /></td></tr>
@@ -885,8 +885,8 @@ template&lt;class TDomain &gt; </div>
 
 </div>
 </div>
-<a id="ga8d55e4f05df4f9a7a08a9438cec15e1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8d55e4f05df4f9a7a08a9438cec15e1e">&#9670;&nbsp;</a></span>MarkForAdaption_VerticesInSphere()</h2>
+<a id="ga443febb940d31136e143e582662972ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga443febb940d31136e143e582662972ee">&#9670;&nbsp;</a></span>MarkForAdaption_VerticesInSphere()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -921,13 +921,7 @@ template&lt;class TDomain &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>markType</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>maxLvl</em>&#160;</td>
+          <td class="paramname"><em>markType</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -997,7 +991,7 @@ template&lt;class TDomain &gt; </div>
 
 <p class="reference">References <a class="el" href="classug_1_1_grid.html#ac61deaa5a86f28e8e78fa481467f5d45">ug::Grid::begin()</a>, <a class="el" href="group__lib__grid__algorithms__neighborhood__util.html#ga59988a8aa738a375a58aa9ce74d7d1e3">ug::CollectAssociated()</a>, <a class="el" href="classug_1_1_grid.html#aecec2b9e3e45241347497a58de7aa13a">ug::Grid::end()</a>, <a class="el" href="class_smart_ptr.html#a497849ae0df7402decc569d5c73cb8f2">SmartPtr&lt; T, FreePolicy &gt;::get()</a>, <a class="el" href="profiler_8h.html#a3766fe91615588782ad5452a4d60ea5b">PROFILE_FUNC_GROUP</a>, <a class="el" href="group__refinement__bridge.html#gaaf6e78c3dc108cd65553e1b2e2ac651f">ug::StringToRefinementMark()</a>, and <a class="el" href="group__vectors.html#ga7da70ab2d2c942a82b582f1cc7888069">ug::VecDistanceSq()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="group__refinement__bridge.html#ga8d55e4f05df4f9a7a08a9438cec15e1e">ug::MarkForAdaption_VerticesInSphere()</a>, and <a class="el" href="group__refinement__bridge.html#ga8ee1433f1831d88208a94a50d377a425">ug::MarkForRefinement_VerticesInSphere()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="group__refinement__bridge.html#ga443febb940d31136e143e582662972ee">ug::MarkForAdaption_VerticesInSphere()</a>, and <a class="el" href="group__refinement__bridge.html#ga8ee1433f1831d88208a94a50d377a425">ug::MarkForRefinement_VerticesInSphere()</a>.</p>
 
 </div>
 </div>
@@ -1748,7 +1742,7 @@ template&lt;class TDomain &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Dec 13 2019 23:54:38 for ug4 by
+    <li class="footer">Generated on Tue Oct 27 2020 05:30:00 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

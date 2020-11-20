@@ -15,6 +15,8 @@ var selection__tools_8cpp =
     [ "MarkCornersOfMarkedEdges", "selection__tools_8cpp.html#ga519da0f93665ebd24f82497853bffb9c", null ],
     [ "MarkCreaseEdges", "selection__tools_8cpp.html#gad259fa6be34711f5e3c2edfa190ca267", null ],
     [ "MarkSelection", "selection__tools_8cpp.html#ga1501bd1c4dbccbb52771fb383069bb6e", null ],
+    [ "RestrictSelectionToSubset", "selection__tools_8cpp.html#ga89f6032734b1b8e406dd98247e21ba27", null ],
+    [ "RestrictSelectionToSubset", "selection__tools_8cpp.html#a5489914efebef90d22e6ceba8e767e43", null ],
     [ "SelectAll", "selection__tools_8cpp.html#ga14e9fddfa7b04d27e4115cf5d3d07362", null ],
     [ "SelectAllEdges", "selection__tools_8cpp.html#ga420e50871bf60d44975598b37335d01d", null ],
     [ "SelectAllFaces", "selection__tools_8cpp.html#gaf5ce284d6fe9f6e04d219a8c19929c13", null ],
@@ -58,6 +60,7 @@ var selection__tools_8cpp =
     [ "SelectSmoothEdgePath", "selection__tools_8cpp.html#ga4cc13c912ccf871b1bd027a0328f11f9", null ],
     [ "SelectSubset", "selection__tools_8cpp.html#gae400e52cd81f28e6262a8ef82850cc20", null ],
     [ "SelectSubsetBoundary", "selection__tools_8cpp.html#ga965e8d27ceae4a8d31241e4f26dd292f", null ],
+    [ "SelectSubsetEdgesByDirection", "selection__tools_8cpp.html#gaee385bfa809b31592699d3c1f2bbe2e6", null ],
     [ "SelectSubsetKinkVertices", "selection__tools_8cpp.html#ga150f9a3865c01c16783ffe53b42ddb0b", null ],
     [ "SelectUnassignedElements", "selection__tools_8cpp.html#ga9be0cecfeaf098b9cdb0d44555ab310e", null ],
     [ "SelectUnassignedElementsHelper", "selection__tools_8cpp.html#a9613cc7e4dfc87b459d0b5095e800367", null ],
@@ -66,6 +69,7 @@ var selection__tools_8cpp =
     [ "SelectUnorientableVolumes", "selection__tools_8cpp.html#gaedb44c0e4137df652d32d1e73a72cbe3", null ],
     [ "SelectVertexByIndex", "selection__tools_8cpp.html#ga490d85eb8c0b8afa794dffb37b4e7f35", null ],
     [ "SelectVolumeByIndex", "selection__tools_8cpp.html#ga563c4778b1513c6cfbc9db5b64ffea72", null ],
+    [ "SelectVolumesByType", "selection__tools_8cpp.html#ga2e90d7338f75a1a0d76adf1d6d16f61c", null ],
     [ "UnmarkSelection", "selection__tools_8cpp.html#gab35ebb27264bb3147e0b8ff0fe995b55", null ],
     [ "VolumeSelectionFill", "selection__tools_8cpp.html#ga0079c3f635e98be6902a702b68c60fb9", null ]
 ];

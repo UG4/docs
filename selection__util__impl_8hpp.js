@@ -19,6 +19,7 @@ var selection__util__impl_8hpp =
     [ "SelectLinkedElements", "selection__util__impl_8hpp.html#ga297bcaea7f2f7c9ac2b79f831e1aac9e", null ],
     [ "SelectRegion", "selection__util__impl_8hpp.html#ga51e9480950b7c07be13b9854259703fd", null ],
     [ "SelectShortPolychains", "selection__util__impl_8hpp.html#gae74e88e4c32326bebcab322baa9416bf", null ],
+    [ "SelectSubsetEdgesByDirection", "selection__util__impl_8hpp.html#ga32a63523dd300d0e48330f1b77ded30b", null ],
     [ "SelectSubsetElements", "selection__util__impl_8hpp.html#gaaeea5ff068776ffbae63185458468c7c", null ],
     [ "TranslateSelection", "selection__util__impl_8hpp.html#gab59640a4f6a3143efcd0fd5d690a81a5", null ]
 ];

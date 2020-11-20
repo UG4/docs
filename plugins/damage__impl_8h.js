@@ -11,6 +11,6 @@ var damage__impl_8h =
     [ "InitLaplacian_TaylorExpansion", "damage__impl_8h.html#abc45dfacd1e3905abd68629ae61eb1d1", null ],
     [ "MarkDamage", "damage__impl_8h.html#a235c418e4e58a28ca7c31ee5df3666ec", null ],
     [ "MarkDamage_OLD_AND_DEPRECATED", "damage__impl_8h.html#adc7e1e916184023723742f6e99309ce1", null ],
-    [ "MarkForAdaption_ValueRangeIndicator", "damage__impl_8h.html#afebb9361947b9f2e346d07052a37f5fd", null ],
+    [ "MarkForAdaption_ValueRangeIndicator", "damage__impl_8h.html#a235e6019224cc5b87db4f9f65ee67714", null ],
     [ "MinMaxElementDiameter", "damage__impl_8h.html#a9e0204b93783fa8666c5c0c40f67f89f", null ]
 ];

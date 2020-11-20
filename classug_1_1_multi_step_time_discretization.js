@@ -2,6 +2,7 @@ var classug_1_1_multi_step_time_discretization =
 [
     [ "algebra_type", "classug_1_1_multi_step_time_discretization.html#a301a57ef058377f6c41c775a51680fff", null ],
     [ "domain_discretization_type", "classug_1_1_multi_step_time_discretization.html#a6d8a4f7886201a8f7ad07b0d86ce0785", null ],
+    [ "error_vector_type", "classug_1_1_multi_step_time_discretization.html#a6b89c381cc2ca3a2bdb2afe1a419ed90", null ],
     [ "matrix_type", "classug_1_1_multi_step_time_discretization.html#aa74fb7b6fbcb73f28cbe8feb97ef28d8", null ],
     [ "vector_type", "classug_1_1_multi_step_time_discretization.html#a00a4502d81ec8b8a7bfe7bf17daa3d85", null ],
     [ "MultiStepTimeDiscretization", "classug_1_1_multi_step_time_discretization.html#acab60ded2087295df65fbd49c9eb8d04", null ],
@@ -13,8 +14,8 @@ var classug_1_1_multi_step_time_discretization =
     [ "assemble_rhs", "classug_1_1_multi_step_time_discretization.html#ac5e1d254b05632f18891466a1afb5c93", null ],
     [ "assemble_rhs", "classug_1_1_multi_step_time_discretization.html#aed12ff945d49e6a200da596461f2e773", null ],
     [ "calc_error", "classug_1_1_multi_step_time_discretization.html#a9e3b39a18920c010003e4372947497e7", null ],
-    [ "calc_error", "classug_1_1_multi_step_time_discretization.html#aa260377af897d1797edaf2d6aa1cb61e", null ],
-    [ "calc_error", "classug_1_1_multi_step_time_discretization.html#a0d4d32ce85f12348f09aef0b6edc3993", null ],
+    [ "calc_error", "classug_1_1_multi_step_time_discretization.html#a8f4fcc8f932f5c8afa21e61f904a6b99", null ],
+    [ "calc_error", "classug_1_1_multi_step_time_discretization.html#a9675138063fc55d0e921578594b75d10", null ],
     [ "finish_step", "classug_1_1_multi_step_time_discretization.html#a07bae7b7dce5829ccf492a3f47e28238", null ],
     [ "finish_step_elem", "classug_1_1_multi_step_time_discretization.html#a906e43fd3cfdae826b65485c13fff5e2", null ],
     [ "future_time", "classug_1_1_multi_step_time_discretization.html#abde084eff386dd623aaae080f8e7056b", null ],

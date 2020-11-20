@@ -2,6 +2,7 @@ var edge__util_8h =
 [
     [ "AdjustEdgeOrientationToFaceOrientation", "edge__util_8h.html#ga7e1d8942c72eeed23cb74ad52711e3f1", null ],
     [ "AdjustEdgeOrientationToFaceOrientation", "edge__util_8h.html#ga4db6283daf3248ee63b01cedfe70b830", null ],
+    [ "CalculateAverageEdgeLength", "edge__util_8h.html#ga4bb56348bfa70c7a5760f20a6bc2963b", null ],
     [ "CalculateCenter", "edge__util_8h.html#ga13347b068653f9addb2fc2ccf1aba4f1", null ],
     [ "CalculateCenter", "edge__util_8h.html#ga352532e6dd0af093674471d36257479e", null ],
     [ "CalculateNormal", "edge__util_8h.html#ga47d8d9dc1634d72a7500de9fe2e1f7a3", null ],

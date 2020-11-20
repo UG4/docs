@@ -193,7 +193,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="structug_1_1_elem_error_sort_desc.html#a06d212072d894f23151ede551d727a6c">ug::ElemErrorSortDesc&lt; TDomain &gt;</a>
 </li>
 <li>m_aaError
-: <a class="el" href="classug_1_1_domain_discretization_base.html#ad4b77446fad547e0b4304ef02082eebd">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, TGlobAssembler &gt;</a>
+: <a class="el" href="classug_1_1_i_multigrid_element_indicators.html#a5f09d664d298622e3e6778fd2052dd1a">ug::IMultigridElementIndicators&lt; TDomain &gt;</a>
 </li>
 <li>m_aaESS
 : <a class="el" href="classug_1_1_com_pol___gather_surface_states.html#aa5c28b0e3a2d4e66e4e595c8e8868067">ug::ComPol_GatherSurfaceStates&lt; TLayout &gt;</a>
@@ -454,7 +454,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classug_1_1_attached_element_list.html#a393df7823325a9c38aab05986e4fca3c">ug::AttachedElementList&lt; TAttachmentPipe &gt;</a>
 </li>
 <li>m_aError
-: <a class="el" href="classug_1_1_domain_discretization_base.html#adfe1249e692d572509aa065aba4af17d">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, TGlobAssembler &gt;</a>
+: <a class="el" href="classug_1_1_i_multigrid_element_indicators.html#a83a849dd28066aeffb24275c161cb8cd">ug::IMultigridElementIndicators&lt; TDomain &gt;</a>
 </li>
 <li>m_aFaceContainer
 : <a class="el" href="classug_1_1_grid.html#aee7b1bb84bb0113b1fbeaf349b0173c4">ug::Grid</a>
@@ -488,6 +488,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classug_1_1_com_pol___mat_add_rows_overlap0.html#aede252f97bb0088fb09ce4f47271240d">ug::ComPol_MatAddRowsOverlap0&lt; TMatrix &gt;</a>
 , <a class="el" href="classug_1_1_com_pol___mat_copy_rows_overlap0.html#a5d9a56b24ab4e5cdf9ed1961a5a87c3a">ug::ComPol_MatCopyRowsOverlap0&lt; TMatrix &gt;</a>
 , <a class="el" href="classug_1_1_com_pol___mat_create_overlap.html#a8383a76ccb522e22af66e2a01cb5d5d9">ug::ComPol_MatCreateOverlap&lt; TMatrix &gt;</a>
+</li>
+<li>m_alip
+: <a class="el" href="classug_1_1_t_k_d_info.html#a303e7a79f8e90a8405d69b6b050aaae1">ug::TKDInfo</a>
 </li>
 <li>m_alloc
 : <a class="el" href="classug_1_1_page_container.html#a44f6f1f12995ea170addfa14a521719f">ug::PageContainer&lt; T, MAX_PAGE_SIZE, Allocator &gt;</a>
@@ -893,7 +896,8 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classug_1_1_lognormal_random_field.html#aba1c4985c84c647512fb5708aafd1a50">ug::LognormalRandomField&lt; TData, dim, TRet &gt;</a>
 </li>
 <li>m_bNonRegularGrid
-: <a class="el" href="classug_1_1_f_v1_inner_boundary_elem_disc.html#a2b3c94e7350de34f2f55b244797f3690">ug::FV1InnerBoundaryElemDisc&lt; TDomain &gt;</a>
+: <a class="el" href="classug_1_1_dirac_source_disc.html#afef08b63e220c9d208dff0513cdd9555">ug::DiracSourceDisc&lt; TDomain &gt;</a>
+, <a class="el" href="classug_1_1_f_v1_inner_boundary_elem_disc.html#a2b3c94e7350de34f2f55b244797f3690">ug::FV1InnerBoundaryElemDisc&lt; TDomain &gt;</a>
 </li>
 <li>m_bNonZeroDerivDiffusion
 : <a class="el" href="classug_1_1_i_convection_shapes.html#a906af83c4a8a3250ede50ea1a1607dbf">ug::IConvectionShapes&lt; dim &gt;</a>
@@ -967,6 +971,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_bReleaseCommunicator
 : <a class="el" href="structpcl_1_1_process_communicator_1_1_comm_wrapper.html#a1366acab789a30603636095526f8ef4a">pcl::ProcessCommunicator::CommWrapper</a>
+</li>
+<li>m_bRequiresGridFunction
+: <a class="el" href="classug_1_1_composite_user_data.html#a8dff145b5fc39f84b412837eb3ee2bc7">ug::CompositeUserData&lt; TData, dim, TRet &gt;</a>
 </li>
 <li>m_bRoot
 : <a class="el" href="classug_1_1_agglomerating_base.html#ac3f9dab9892302ab9a7ce64d61f91630">ug::AgglomeratingBase&lt; TBase, TAlgebra &gt;</a>
@@ -1350,6 +1357,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_containerSize
 : <a class="el" href="classug_1_1_attachment_pipe.html#a681ff209af87be0dd63e1d55ec2329da">ug::AttachmentPipe&lt; TElem, TElemHandler &gt;</a>
+</li>
+<li>m_continuous
+: <a class="el" href="classug_1_1_composite_user_data.html#abe6399a1a3e250afd22b0b77301cd935">ug::CompositeUserData&lt; TData, dim, TRet &gt;</a>
 </li>
 <li>m_coord
 : <a class="el" href="classug_1_1_raster_1_1_coordinate.html#a6e8ed7704b8aa27833238c4e1d4e621e">ug::Raster&lt; T, TDIM &gt;::Coordinate</a>
@@ -1864,6 +1874,8 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_fct
 : <a class="el" href="classug_1_1_adaption_surface_grid_function_1_1_value_accessor.html#ab28736e7d134f8bbefe82ea1058f3069">ug::AdaptionSurfaceGridFunction&lt; TDomain &gt;::ValueAccessor</a>
+, <a class="el" href="classug_1_1_explicit_grid_function_gradient.html#acbdb419ece734cdd220ca1bcad176706">ug::ExplicitGridFunctionGradient&lt; TGridFunction &gt;</a>
+, <a class="el" href="classug_1_1_explicit_grid_function_value.html#afd892fb0024828713bee0ebcfde9e88a">ug::ExplicitGridFunctionValue&lt; TGridFunction &gt;</a>
 , <a class="el" href="classug_1_1_global_grid_function_gradient_data.html#a48ce01f76d697fa2ab647034a5f2e6f4">ug::GlobalGridFunctionGradientData&lt; TGridFunction &gt;</a>
 , <a class="el" href="classug_1_1_global_grid_function_number_data.html#ac70e2fbc8b332275f36c94ba34f27600">ug::GlobalGridFunctionNumberData&lt; TGridFunction, elemDim &gt;</a>
 , <a class="el" href="classug_1_1_gradient_evaluator___lagrange_p1.html#a13f5089789b2a8be4cfaf76b3c166476">ug::GradientEvaluator_LagrangeP1&lt; TFunction &gt;</a>
@@ -2154,6 +2166,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_highestRedistLevel
 : <a class="el" href="classug_1_1_partitioner___dynamic_bisection.html#a70fc16986a50ad7a7fa17429b65d492f">ug::Partitioner_DynamicBisection&lt; TElem, dim &gt;</a>
 </li>
+<li>m_hlip
+: <a class="el" href="classug_1_1_t_k_d_info.html#a1539d9122d52e95bbdce3a0aac55bdfd">ug::TKDInfo</a>
+</li>
 <li>m_hub
 : <a class="el" href="classug_1_1_message_hub_1_1_callback_id.html#a73d8200109e3c64726e72c9d68c357f7">ug::MessageHub::CallbackId</a>
 </li>
@@ -2279,6 +2294,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_interfaceType
 : <a class="el" href="structug_1_1_distributed_grid_manager_1_1_element_info_1_1_entry.html#a2162ae6f733a611f071ac896facc5b6c">ug::DistributedGridManager::ElementInfo&lt; TGeomObj &gt;::Entry</a>
+</li>
+<li>m_interpOrder
+: <a class="el" href="classug_1_1_raster_user_data.html#af5610c307c7321953ed02100eb95efb7">ug::RasterUserData&lt; dim &gt;</a>
 </li>
 <li>m_intersectedElementIDs
 : <a class="el" href="classug_1_1node__tree_1_1_traverser___intersect_faces.html#ab873b52dfbee2b853130bed6749b2a59">ug::node_tree::Traverser_IntersectFaces</a>
@@ -2412,13 +2430,13 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classug_1_1_s_d_i_r_k.html#a03962a0cad14172233428db4e8a30470">ug::SDIRK&lt; TAlgebra &gt;</a>
 </li>
 <li>m_latest_error
-: <a class="el" href="structug_1_1_i_element_marking_strategy.html#a6db643fe6810703bbf050c6124677c76">ug::IElementMarkingStrategy&lt; TDomain &gt;</a>
+: <a class="el" href="classug_1_1_i_element_marking_strategy.html#a6db643fe6810703bbf050c6124677c76">ug::IElementMarkingStrategy&lt; TDomain &gt;</a>
 </li>
 <li>m_latest_error_per_elem_max
-: <a class="el" href="structug_1_1_i_element_marking_strategy.html#a719978086dc81e02631278dcc71365e1">ug::IElementMarkingStrategy&lt; TDomain &gt;</a>
+: <a class="el" href="classug_1_1_i_element_marking_strategy.html#a719978086dc81e02631278dcc71365e1">ug::IElementMarkingStrategy&lt; TDomain &gt;</a>
 </li>
 <li>m_latest_error_per_elem_min
-: <a class="el" href="structug_1_1_i_element_marking_strategy.html#ad8f143572660b5c9d694495b98604997">ug::IElementMarkingStrategy&lt; TDomain &gt;</a>
+: <a class="el" href="classug_1_1_i_element_marking_strategy.html#ad8f143572660b5c9d694495b98604997">ug::IElementMarkingStrategy&lt; TDomain &gt;</a>
 </li>
 <li>m_layers
 : <a class="el" href="classug_1_1_raster_layers.html#ab89bc6ffbe1c8a41c54f13fc5e5b553d">ug::RasterLayers</a>
@@ -2454,6 +2472,8 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_lfeID
 : <a class="el" href="classug_1_1_dim_f_e_geometry.html#af524df67d4677417c9575725b2d434d6">ug::DimFEGeometry&lt; TWorldDim, TRefDim &gt;</a>
 , <a class="el" href="classug_1_1_dim_f_v_geometry.html#a6ca0167cf9b403657d0fd79b7df40232">ug::DimFVGeometry&lt; TWorldDim, TDim &gt;</a>
+, <a class="el" href="classug_1_1_explicit_grid_function_gradient.html#a431dbe3aa4996d9f69e027d87cda1ee9">ug::ExplicitGridFunctionGradient&lt; TGridFunction &gt;</a>
+, <a class="el" href="classug_1_1_explicit_grid_function_value.html#aedfc8a7d0e83c06670f0793982cf4c61">ug::ExplicitGridFunctionValue&lt; TGridFunction &gt;</a>
 , <a class="el" href="structug_1_1_geom_provider_1_1_l_f_e_i_dand_quad_order.html#a0e74ae83a578f5cc7403867e3978bb28">ug::GeomProvider&lt; TGeom &gt;::LFEIDandQuadOrder</a>
 , <a class="el" href="classug_1_1_global_grid_function_gradient_data.html#a9048956e0b3a4ce9840b50422c2540cd">ug::GlobalGridFunctionGradientData&lt; TGridFunction &gt;</a>
 , <a class="el" href="classug_1_1_global_grid_function_number_data.html#afa9d2158a35465188ed5b538e086e8cb">ug::GlobalGridFunctionNumberData&lt; TGridFunction, elemDim &gt;</a>
@@ -2545,7 +2565,8 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 , <a class="el" href="classug_1_1_traverser___min_max_num_elements.html#a7ba417f5d0498be6b6f728e827d3660d">ug::Traverser_MinMaxNumElements&lt; tree_t &gt;</a>
 </li>
 <li>m_map
-: <a class="el" href="classug_1_1_i_data_import.html#a65402e87204bb28e9e979f57589c61b2">ug::IDataImport&lt; dim &gt;</a>
+: <a class="el" href="classug_1_1_composite_user_data.html#a19d00233511ea72215c4c759f464b28e">ug::CompositeUserData&lt; TData, dim, TRet &gt;</a>
+, <a class="el" href="classug_1_1_i_data_import.html#a65402e87204bb28e9e979f57589c61b2">ug::IDataImport&lt; dim &gt;</a>
 , <a class="el" href="classug_1_1_n_l_gauss_seidel_solver.html#a884867e0e6dabf42d598d8b4330ceab1">ug::NLGaussSeidelSolver&lt; TDomain, TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_path_provider.html#a41538193ff9fe38d48af154492856cdd">ug::PathProvider</a>
 , <a class="el" href="classug_1_1_user_data_info.html#a74ffbb09c9810d5ca4635c606ad6894c">ug::UserDataInfo</a>
@@ -2553,7 +2574,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_mapping
 : <a class="el" href="classug_1_1_c_r_f_v_geometry.html#a59ef0edb0fd95bfd84026407f701b5ae">ug::CRFVGeometry&lt; TElem, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_f_e_geometry.html#a1a80f4ec3875c70fe9eb799facca0c92">ug::FEGeometry&lt; TElem, TWorldDim, TTrialSpace, TQuadratureRule &gt;</a>
-, <a class="el" href="classug_1_1_f_v1_geometry.html#a21d94b540c27d6b372cf1b83e337e3a0">ug::FV1Geometry&lt; TElem, TWorldDim &gt;</a>
+, <a class="el" href="classug_1_1_f_v1_geometry__gen.html#a2779002a16d78ec7094820281c4ee1e7">ug::FV1Geometry_gen&lt; TElem, TWorldDim, TCondensed &gt;</a>
 , <a class="el" href="classug_1_1_f_v1_i_b_geometry.html#a3d32365d0cde06f476408ac46283ca05">ug::FV1IBGeometry&lt; TElem, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_h_c_r_f_v_geometry.html#a02889528eef994df9d28139a401c3489">ug::HCRFVGeometry&lt; TElem, TWorldDim &gt;</a>
 </li>
@@ -2564,7 +2585,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 , <a class="el" href="classug_1_1_dim_f_v1_geometry.html#afdf6cee8135c5eeb33e20cb3175c2f93">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_dim_f_v1_i_b_geometry.html#a3c885da4d7873b773e11b0745fa42a7d">ug::DimFV1IBGeometry&lt; TDim, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_dim_f_v_geometry.html#ac7a49349810fb995a2b8bc628a1844d7">ug::DimFVGeometry&lt; TWorldDim, TDim &gt;</a>
-, <a class="el" href="classug_1_1_f_v1_geometry.html#a1f995a0fca705aa0eb0d0374085e3d77">ug::FV1Geometry&lt; TElem, TWorldDim &gt;</a>
+, <a class="el" href="classug_1_1_f_v1_geometry__gen.html#aefd90ec0597e2ae5bd80fe49e14a3af6">ug::FV1Geometry_gen&lt; TElem, TWorldDim, TCondensed &gt;</a>
 , <a class="el" href="classug_1_1_f_v1_i_b_geometry.html#ac1acfef08b612355b3a697c68801cc0c">ug::FV1IBGeometry&lt; TElem, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_f_v_geometry.html#a49fb4156147ba995159dab38c80ca6c8">ug::FVGeometry&lt; TOrder, TElem, TWorldDim, TQuadOrder &gt;</a>
 </li>
@@ -2712,6 +2733,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 , <a class="el" href="classug_1_1_load_balancer.html#ac24fe2b1101d9bdfeea410de7959fb66">ug::LoadBalancer</a>
 , <a class="el" href="classug_1_1_partitioner___dynamic_bisection.html#a88428974f3612982efb045403fcb8acf">ug::Partitioner_DynamicBisection&lt; TElem, dim &gt;</a>
 , <a class="el" href="classug_1_1_smooth_partition_bounds.html#a32ecfa1df90fef5f72f54f63d3e47183">ug::SmoothPartitionBounds&lt; elem_t &gt;</a>
+</li>
+<li>m_mgElemErrors
+: <a class="el" href="classug_1_1_domain_discretization_base.html#a84401b2dc5d468d574b76d8fb598bc5c">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, TGlobAssembler &gt;</a>
 </li>
 <li>m_mgstats
 : <a class="el" href="classug_1_1_assembled_multi_grid_cycle.html#a42ed6fda549e2c9aa2608a5842fb2dc6">ug::AssembledMultiGridCycle&lt; TDomain, TAlgebra &gt;</a>
@@ -3332,6 +3356,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_part
 : <a class="el" href="classug_1_1_i_data_import.html#a00317141bb6bb92d739be04da78375eb">ug::IDataImport&lt; dim &gt;</a>
 </li>
+<li>m_partialDerivMask
+: <a class="el" href="classug_1_1_darcy_velocity_linker.html#aed25c7136a53b8c30233ac66e84d6cef">ug::DarcyVelocityLinker&lt; dim &gt;</a>
+</li>
 <li>m_participates
 : <a class="el" href="classpcl_1_1_multi_group_communicator.html#a5c4bb3ab0049410bfc9d5e1e2ecc8ed3">pcl::MultiGroupCommunicator</a>
 </li>
@@ -3420,7 +3447,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 , <a class="el" href="classug_1_1_dim_f_v_geometry.html#af95072991a25af61e10331d559bc1293">ug::DimFVGeometry&lt; TWorldDim, TDim &gt;</a>
 , <a class="el" href="classug_1_1_dim_h_f_v1_geometry.html#afcd9a45954ebf6babf521ad83a0d8d07">ug::DimHFV1Geometry&lt; TDim, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_f_e_geometry.html#a84cb86a9a0671de086959c6f9656aee2">ug::FEGeometry&lt; TElem, TWorldDim, TTrialSpace, TQuadratureRule &gt;</a>
-, <a class="el" href="classug_1_1_f_v1_geometry.html#a8dc233d7c5ee13a17fab39dbb90fc04e">ug::FV1Geometry&lt; TElem, TWorldDim &gt;</a>
+, <a class="el" href="classug_1_1_f_v1_geometry__gen.html#a0d844ed61249994566c89e2cb2dc5223">ug::FV1Geometry_gen&lt; TElem, TWorldDim, TCondensed &gt;</a>
 , <a class="el" href="classug_1_1_f_v1_i_b_geometry.html#ae83d1966537f55ebc5398fd4fa5d577d">ug::FV1IBGeometry&lt; TElem, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_f_v1_manifold_geometry.html#a6e872c9b6c345237737370b7be173617">ug::FV1ManifoldGeometry&lt; TElem, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_f_v_geometry.html#a04495ee96d2a2c9cf5d9efa69d275cf8">ug::FVGeometry&lt; TOrder, TElem, TWorldDim, TQuadOrder &gt;</a>
@@ -3521,10 +3548,10 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_pMG
 : <a class="el" href="classug_1_1_do_f_distribution.html#a1a63cd9f1b352ccb5f991db947f01e9c">ug::DoFDistribution</a>
-, <a class="el" href="classug_1_1_domain_discretization_base.html#abf046567ab89387ee626b98928e5ae84">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, TGlobAssembler &gt;</a>
 , <a class="el" href="classug_1_1_global_fractured_media_refiner.html#a72b48c79e4f05c06b756ca333b03314d">ug::GlobalFracturedMediaRefiner</a>
 , <a class="el" href="classug_1_1_global_multi_grid_refiner.html#a46b78e291c56da5dcb671a3c767c9a00">ug::GlobalMultiGridRefiner</a>
 , <a class="el" href="classug_1_1_hanging_node_refiner___multi_grid.html#aeb7d5ab1b850c6f2d7f7c6d5919ca267">ug::HangingNodeRefiner_MultiGrid</a>
+, <a class="el" href="classug_1_1_i_multigrid_element_indicators.html#a52530dd63340d829983585a22d1691f4">ug::IMultigridElementIndicators&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_multi_grid_subset_handler.html#a5999220ed8e143f47940ca386bc4ea8a">ug::MultiGridSubsetHandler</a>
 , <a class="el" href="classug_1_1_parallel_dual_graph.html#a870b15569c96e07ad37da42d733bb2d2">ug::ParallelDualGraph&lt; TGeomBaseObj, TIndexType, TConnectingObj &gt;</a>
 , <a class="el" href="classug_1_1_parallel_hanging_node_refiner___multi_grid.html#a22beeea617d40948fd3c1b1de1cb20cf">ug::ParallelHangingNodeRefiner_MultiGrid</a>
@@ -3858,6 +3885,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_remeshGrid
 : <a class="el" href="classug_1_1_i_patch_remesher.html#a5daa52b0954375866fe6200237304fe9">ug::IPatchRemesher</a>
 </li>
+<li>m_rescale
+: <a class="el" href="classug_1_1_raster_user_data.html#a022c8baf214829dac3a252dd033533e2">ug::RasterUserData&lt; dim &gt;</a>
+</li>
 <li>m_restart
 : <a class="el" href="classug_1_1_g_m_r_e_s.html#a2c2fc21d0700539e3b0d26eddb976c24">ug::GMRES&lt; TVector &gt;</a>
 </li>
@@ -3917,7 +3947,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classug_1_1_c_r_f_v_geometry.html#a639946f6d6fb20168c0fbc6a27891844">ug::CRFVGeometry&lt; TElem, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_dim_c_r_f_v_geometry.html#a7ad7f064297f117d741ba18e5bbc2f09">ug::DimCRFVGeometry&lt; TDim, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_dim_h_f_v1_geometry.html#abdb8cc193fa191ce47c84d79a3d93432">ug::DimHFV1Geometry&lt; TDim, TWorldDim &gt;</a>
-, <a class="el" href="classug_1_1_f_v1_geometry.html#a458177805fb4d190791f42407f07d435">ug::FV1Geometry&lt; TElem, TWorldDim &gt;</a>
+, <a class="el" href="classug_1_1_f_v1_geometry__gen.html#af79074c21dee25fc36d3fb9305a8e75a">ug::FV1Geometry_gen&lt; TElem, TWorldDim, TCondensed &gt;</a>
 , <a class="el" href="classug_1_1_f_v1_i_b_geometry.html#aa279162509d280620525444ee820b537">ug::FV1IBGeometry&lt; TElem, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_f_v1_manifold_geometry.html#abdfff4eedc158bd226d4051662983c57">ug::FV1ManifoldGeometry&lt; TElem, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_f_v_geometry.html#ad93003373088382a539e6e8fbdeb951b">ug::FVGeometry&lt; TOrder, TElem, TWorldDim, TQuadOrder &gt;</a>
@@ -3934,7 +3964,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_rTrialSpace
 : <a class="el" href="classug_1_1_c_r_f_v_geometry.html#a563a8a97201388add8700f0678bdef31">ug::CRFVGeometry&lt; TElem, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_f_e_geometry.html#ac72e7df6a82b2c75534a13ee5c740394">ug::FEGeometry&lt; TElem, TWorldDim, TTrialSpace, TQuadratureRule &gt;</a>
-, <a class="el" href="classug_1_1_f_v1_geometry.html#aee424d50756ebc37c965565d7ff9a904">ug::FV1Geometry&lt; TElem, TWorldDim &gt;</a>
+, <a class="el" href="classug_1_1_f_v1_geometry__gen.html#a18286efee425cefa8b2e73c51aead6d8">ug::FV1Geometry_gen&lt; TElem, TWorldDim, TCondensed &gt;</a>
 , <a class="el" href="classug_1_1_f_v1_i_b_geometry.html#a6276137f90eb3989c95adf640ece34f9">ug::FV1IBGeometry&lt; TElem, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_f_v_geometry.html#a7eecbf089a214e90809004ab6f636d7a">ug::FVGeometry&lt; TOrder, TElem, TWorldDim, TQuadOrder &gt;</a>
 , <a class="el" href="classug_1_1_h_c_r_f_v_geometry.html#ab531152cb1f6fceddfdac718247b5a20">ug::HCRFVGeometry&lt; TElem, TWorldDim &gt;</a>
@@ -4357,7 +4387,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classug_1_1_power_method.html#afc3cbe3d84d7822216892e6f5dd5d530">ug::PowerMethod&lt; TAlgebra &gt;</a>
 </li>
 <li>m_spElemError
-: <a class="el" href="classug_1_1_nested_iteration_solver.html#a906ceeb8e72cae55ddb19469b71b262b">ug::NestedIterationSolver&lt; TDomain, TAlgebra &gt;</a>
+: <a class="el" href="classug_1_1_nested_iteration_solver.html#a9064f5741c47d0eae06b7147d8df68a5">ug::NestedIterationSolver&lt; TDomain, TAlgebra &gt;</a>
 </li>
 <li>m_spElemModifier
 : <a class="el" href="classug_1_1_i_elem_disc.html#a41dc09e7eea899b9389a5c11cc9248f6">ug::IElemDisc&lt; TDomain &gt;</a>
@@ -4557,6 +4587,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_spProlongationPrototype
 : <a class="el" href="classug_1_1_assembled_multi_grid_cycle.html#ab27f4644279cbadecdbccb5e6ede2694">ug::AssembledMultiGridCycle&lt; TDomain, TAlgebra &gt;</a>
 </li>
+<li>m_spRaster
+: <a class="el" href="classug_1_1_raster_user_data.html#ae6dda83bbb51da710841f1db51730a49">ug::RasterUserData&lt; dim &gt;</a>
+</li>
 <li>m_spRefinementMarking
 : <a class="el" href="classug_1_1_nested_iteration_solver.html#a74b2021ae1f471414121c9c761efa9fd">ug::NestedIterationSolver&lt; TDomain, TAlgebra &gt;</a>
 </li>
@@ -4678,6 +4711,12 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 , <a class="el" href="class_scalar_vector_adapter.html#a5075e63fd081cb9bb235f8c50649d8f8">ScalarVectorAdapter&lt; AT, ST &gt;</a>
 , <a class="el" href="classug_1_1_const_scalar_sub_vector_adapter.html#a9aceed65e705b46342c5efe717c419d6">ug::ConstScalarSubVectorAdapter&lt; InVT, ST &gt;</a>
 , <a class="el" href="classug_1_1_scalar_sub_vector_adapter.html#af2c4662978b0b7d396a155f176af7242">ug::ScalarSubVectorAdapter&lt; InVT, ST &gt;</a>
+</li>
+<li>m_srcCoord
+: <a class="el" href="classug_1_1_dirac_source_disc.html#a4d754469aa7a350d8ec3241b03f5f31b">ug::DiracSourceDisc&lt; TDomain &gt;</a>
+</li>
+<li>m_srcData
+: <a class="el" href="classug_1_1_dirac_source_disc.html#a6f50c9eefe168f4072764ced26cd2495">ug::DiracSourceDisc&lt; TDomain &gt;</a>
 </li>
 <li>m_srcProc
 : <a class="el" href="structpcl_1_1_interface_communicator_1_1_extractor_info.html#ad136d3655b33978eeb272037615750fc">pcl::InterfaceCommunicator&lt; TLayout &gt;::ExtractorInfo</a>
@@ -5274,7 +5313,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 , <a class="el" href="classug_1_1_dim_f_v1_geometry.html#a9f117a479e4c13a8d22c9baeb1e731d3">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_dim_f_v1_i_b_geometry.html#aa36f24da11cfd9b2798c266cc3a9a732">ug::DimFV1IBGeometry&lt; TDim, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_dim_f_v_geometry.html#a609d61d772fd766a908d7c102d1a48cf">ug::DimFVGeometry&lt; TWorldDim, TDim &gt;</a>
-, <a class="el" href="classug_1_1_f_v1_geometry.html#aeb3b505ceb43c1635339fd7697be4345">ug::FV1Geometry&lt; TElem, TWorldDim &gt;</a>
+, <a class="el" href="classug_1_1_f_v1_geometry__gen.html#a85ecb3f44c9bb9bb9888c77af5bc3138">ug::FV1Geometry_gen&lt; TElem, TWorldDim, TCondensed &gt;</a>
 , <a class="el" href="classug_1_1_f_v1_i_b_geometry.html#af3b10d21e854cec4e9e9d89162a88708">ug::FV1IBGeometry&lt; TElem, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_f_v_geometry.html#a3fdf278f19d37dfd85649e5ad0ce84f6">ug::FVGeometry&lt; TOrder, TElem, TWorldDim, TQuadOrder &gt;</a>
 </li>
@@ -5329,7 +5368,8 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 , <a class="el" href="classug_1_1_volume_descriptor.html#a3e1093d7b32efe4879739f485e7db618">ug::VolumeDescriptor</a>
 </li>
 <li>m_vfct
-: <a class="el" href="classug_1_1_grid_function_vector_data.html#ad3c48a83c82166ce94400e3372a4918c">ug::GridFunctionVectorData&lt; TGridFunction &gt;</a>
+: <a class="el" href="classug_1_1_explicit_grid_function_vector.html#ae5c9ef7a0c9b7fe605233dfe7387f4ca">ug::ExplicitGridFunctionVector&lt; TGridFunction &gt;</a>
+, <a class="el" href="classug_1_1_grid_function_vector_data.html#ad3c48a83c82166ce94400e3372a4918c">ug::GridFunctionVectorData&lt; TGridFunction &gt;</a>
 </li>
 <li>m_vFct
 : <a class="el" href="classug_1_1_i_elem_disc_base.html#aeb32e6d44cccd65f7208b86b7defdbdf">ug::IElemDiscBase&lt; TDomain &gt;</a>
@@ -5371,7 +5411,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_vGlobSCV_IP
 : <a class="el" href="classug_1_1_dim_f_v1_geometry.html#a5de36665f7ce3332fd6dc1f0486a4903">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_dim_f_v_geometry.html#ac40eb34bcaf5ad1dee1b2b7a393454de">ug::DimFVGeometry&lt; TWorldDim, TDim &gt;</a>
-, <a class="el" href="classug_1_1_f_v1_geometry.html#a1500a15b6f5ac19d99b3e2b8246acdba">ug::FV1Geometry&lt; TElem, TWorldDim &gt;</a>
+, <a class="el" href="classug_1_1_f_v1_geometry__gen.html#a5e3ad6fadd56353d214d55d444e97b4a">ug::FV1Geometry_gen&lt; TElem, TWorldDim, TCondensed &gt;</a>
 , <a class="el" href="classug_1_1_f_v_geometry.html#a1d49f5540a4e998e9bc99779435e882a">ug::FVGeometry&lt; TOrder, TElem, TWorldDim, TQuadOrder &gt;</a>
 </li>
 <li>m_vGlobSCVF_IP
@@ -5380,7 +5420,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 , <a class="el" href="classug_1_1_dim_f_v1_geometry.html#a3cd985354d4bbd4f88a55627ad69477b">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_dim_f_v1_i_b_geometry.html#a0021f004dc0efb160a3765016d93dfa4">ug::DimFV1IBGeometry&lt; TDim, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_dim_f_v_geometry.html#a718d8ab6c4ce88ef04e17c954797f4d2">ug::DimFVGeometry&lt; TWorldDim, TDim &gt;</a>
-, <a class="el" href="classug_1_1_f_v1_geometry.html#a40a53aa4295670d77b492f971b89c42a">ug::FV1Geometry&lt; TElem, TWorldDim &gt;</a>
+, <a class="el" href="classug_1_1_f_v1_geometry__gen.html#a3490df95c9e902f0cb142cc22dfcb1fe">ug::FV1Geometry_gen&lt; TElem, TWorldDim, TCondensed &gt;</a>
 , <a class="el" href="classug_1_1_f_v1_i_b_geometry.html#a09ca3929e63ffd72e10e8c7a2d8bfc86">ug::FV1IBGeometry&lt; TElem, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_f_v_geometry.html#a35ce4a1bc0131a13b845fc4dfdf54436">ug::FVGeometry&lt; TOrder, TElem, TWorldDim, TQuadOrder &gt;</a>
 , <a class="el" href="classug_1_1_h_c_r_f_v_geometry.html#a767639f42a83866af4018c0b3f98271d">ug::HCRFVGeometry&lt; TElem, TWorldDim &gt;</a>
@@ -5442,7 +5482,8 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classug_1_1_assembled_multi_grid_cycle.html#a61b43ddb5d21cf71aa3aa400a1049ac7">ug::AssembledMultiGridCycle&lt; TDomain, TAlgebra &gt;</a>
 </li>
 <li>m_vlfeID
-: <a class="el" href="classug_1_1_grid_function_vector_data.html#aeb872398d0df9f589c639b0525402dc9">ug::GridFunctionVectorData&lt; TGridFunction &gt;</a>
+: <a class="el" href="classug_1_1_explicit_grid_function_vector.html#a7e5c7a7f37db1ee0e05e1118a64e8e7b">ug::ExplicitGridFunctionVector&lt; TGridFunction &gt;</a>
+, <a class="el" href="classug_1_1_grid_function_vector_data.html#aeb872398d0df9f589c639b0525402dc9">ug::GridFunctionVectorData&lt; TGridFunction &gt;</a>
 </li>
 <li>m_vLFEID
 : <a class="el" href="classug_1_1_local_indices.html#a50ec02b4e236fd8e40a23bce3e746f23">ug::LocalIndices</a>
@@ -5490,7 +5531,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_vLocSCV_IP
 : <a class="el" href="classug_1_1_dim_f_v1_geometry.html#a0c912d96b36b4ecd8dc9f1a43878cc0c">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_dim_f_v_geometry.html#a10f1e9ab831e40ccdec23cf6e5423cf7">ug::DimFVGeometry&lt; TWorldDim, TDim &gt;</a>
-, <a class="el" href="classug_1_1_f_v1_geometry.html#ae35d47b1f3fbc39564ff650f234e5df1">ug::FV1Geometry&lt; TElem, TWorldDim &gt;</a>
+, <a class="el" href="classug_1_1_f_v1_geometry__gen.html#a3413d1ac091c12263f53ab40664925d4">ug::FV1Geometry_gen&lt; TElem, TWorldDim, TCondensed &gt;</a>
 , <a class="el" href="classug_1_1_f_v_geometry.html#a33c28ce6a855761fb436e7857bdd651a">ug::FVGeometry&lt; TOrder, TElem, TWorldDim, TQuadOrder &gt;</a>
 </li>
 <li>m_vLocSCVF_IP
@@ -5499,7 +5540,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 , <a class="el" href="classug_1_1_dim_f_v1_geometry.html#a385f014190a44b3f5e7bb7d032d78c58">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_dim_f_v1_i_b_geometry.html#a90e5cd9f5580a070728d3f856ac904cb">ug::DimFV1IBGeometry&lt; TDim, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_dim_f_v_geometry.html#a9bd5874eb107767451b9bfc3db271ed5">ug::DimFVGeometry&lt; TWorldDim, TDim &gt;</a>
-, <a class="el" href="classug_1_1_f_v1_geometry.html#ad8fa54472dfa9c8ef581e8cfc2b153b6">ug::FV1Geometry&lt; TElem, TWorldDim &gt;</a>
+, <a class="el" href="classug_1_1_f_v1_geometry__gen.html#ab51c730c34a513b99b87ea91b798b1ab">ug::FV1Geometry_gen&lt; TElem, TWorldDim, TCondensed &gt;</a>
 , <a class="el" href="classug_1_1_f_v1_i_b_geometry.html#abf811e45e264e9175a330c2b443d4c46">ug::FV1IBGeometry&lt; TElem, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_f_v_geometry.html#aa9a0c5fb088946211005f258e9c09fe3">ug::FVGeometry&lt; TOrder, TElem, TWorldDim, TQuadOrder &gt;</a>
 , <a class="el" href="classug_1_1_h_c_r_f_v_geometry.html#a0a2c3609e0d5adda808b5f97809b6981">ug::HCRFVGeometry&lt; TElem, TWorldDim &gt;</a>
@@ -5660,7 +5701,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classug_1_1_do_f_distribution.html#af95b0ae0f28f02fe2978938d73ff896c">ug::DoFDistribution</a>
 </li>
 <li>m_vPoint()
-: <a class="el" href="classug_1_1_gauss_quad_base.html#a6f076235aa05d64694c425d912f435d5">ug::GaussQuadBase&lt; TImpl, TDim, TOrder, TNip &gt;</a>
+: <a class="el" href="classug_1_1_gauss_quad_base.html#a956f563f1ef1e48a7b213f03da669214">ug::GaussQuadBase&lt; TImpl, TDim, TOrder, TNip &gt;</a>
 , <a class="el" href="classug_1_1_gauss_quadrature_vertex.html#a5221ea5ac5e65e524563a930023df4e0">ug::GaussQuadratureVertex</a>
 </li>
 <li>m_vPoints
@@ -5798,7 +5839,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 , <a class="el" href="classug_1_1_dim_f_v1_i_b_geometry.html#a31a534e7f4fea046439212f3283f1bf9">ug::DimFV1IBGeometry&lt; TDim, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_dim_f_v_geometry.html#ae6fdd552f941c1317b2f1fe71ef053d2">ug::DimFVGeometry&lt; TWorldDim, TDim &gt;</a>
 , <a class="el" href="classug_1_1_dim_h_f_v1_geometry.html#a707ba7f308fc983df0e18f1e855dc276">ug::DimHFV1Geometry&lt; TDim, TWorldDim &gt;</a>
-, <a class="el" href="classug_1_1_f_v1_geometry.html#a7f9f8ddbf0ef1b768780d0b9f4e93c64">ug::FV1Geometry&lt; TElem, TWorldDim &gt;</a>
+, <a class="el" href="classug_1_1_f_v1_geometry__gen.html#a492a628616e6ae699f1100072889c6a9">ug::FV1Geometry_gen&lt; TElem, TWorldDim, TCondensed &gt;</a>
 , <a class="el" href="classug_1_1_f_v1_i_b_geometry.html#ad9605bd8db63686378ad14fc8b5ffb79">ug::FV1IBGeometry&lt; TElem, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_f_v_geometry.html#a11bc84ea06108add31917078610ec354">ug::FVGeometry&lt; TOrder, TElem, TWorldDim, TQuadOrder &gt;</a>
 , <a class="el" href="classug_1_1_h_c_r_f_v_geometry.html#a0299037e7f87e42d9cc8e553984eba8d">ug::HCRFVGeometry&lt; TElem, TWorldDim &gt;</a>
@@ -5811,7 +5852,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 , <a class="el" href="classug_1_1_dim_f_v1_i_b_geometry.html#a8a6499a9ad1853017bd4c3b3572a36a8">ug::DimFV1IBGeometry&lt; TDim, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_dim_f_v_geometry.html#a3732ab75c4f34f4d47cf300902bd8d40">ug::DimFVGeometry&lt; TWorldDim, TDim &gt;</a>
 , <a class="el" href="classug_1_1_dim_h_f_v1_geometry.html#a2632669c04bbd215fa3cfda726da630f">ug::DimHFV1Geometry&lt; TDim, TWorldDim &gt;</a>
-, <a class="el" href="classug_1_1_f_v1_geometry.html#a2542ca2b5ebf2f9b4d91b39f8a7c5731">ug::FV1Geometry&lt; TElem, TWorldDim &gt;</a>
+, <a class="el" href="classug_1_1_f_v1_geometry__gen.html#aa7a54bf1f9883755685f22e9e864f763">ug::FV1Geometry_gen&lt; TElem, TWorldDim, TCondensed &gt;</a>
 , <a class="el" href="classug_1_1_f_v1_i_b_geometry.html#a3d1d6a6cd6a7daced71f180c10801c9d">ug::FV1IBGeometry&lt; TElem, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_f_v_geometry.html#a33ca8b7b31a36a61b92c2e69f5fc644a">ug::FVGeometry&lt; TOrder, TElem, TWorldDim, TQuadOrder &gt;</a>
 , <a class="el" href="classug_1_1_h_c_r_f_v_geometry.html#a6fabaf4e468345cf49d5302468ea0890">ug::HCRFVGeometry&lt; TElem, TWorldDim &gt;</a>
@@ -5983,7 +6024,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_vvGloMid
 : <a class="el" href="classug_1_1_dim_f_v1_geometry.html#acfda8bfcf1161fd1d8c89c514daeb18d">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_dim_f_v1_i_b_geometry.html#a3472027982771f4c7e933bca83767753">ug::DimFV1IBGeometry&lt; TDim, TWorldDim &gt;</a>
-, <a class="el" href="classug_1_1_f_v1_geometry.html#aabf7dbed2e9d54d3a05c39fd0e6e8a2e">ug::FV1Geometry&lt; TElem, TWorldDim &gt;</a>
+, <a class="el" href="classug_1_1_f_v1_geometry__gen.html#accaf25b2a76aff5ea30a7ef59a0c1bdf">ug::FV1Geometry_gen&lt; TElem, TWorldDim, TCondensed &gt;</a>
 , <a class="el" href="classug_1_1_f_v1_i_b_geometry.html#a25784c1adaa3684a3421862338090824">ug::FV1IBGeometry&lt; TElem, TWorldDim &gt;</a>
 </li>
 <li>m_vvGradGlobal
@@ -6000,7 +6041,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_vvLocMid
 : <a class="el" href="classug_1_1_dim_f_v1_geometry.html#a3d62af849ecf637a7e2bf47eb88dce32">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_dim_f_v1_i_b_geometry.html#ab5782ae8fce6a7d89db934ddcfd5bdf0">ug::DimFV1IBGeometry&lt; TDim, TWorldDim &gt;</a>
-, <a class="el" href="classug_1_1_f_v1_geometry.html#a7f15d4e8518e9a885250db5845beb642">ug::FV1Geometry&lt; TElem, TWorldDim &gt;</a>
+, <a class="el" href="classug_1_1_f_v1_geometry__gen.html#afafd4182018c2581e7187d7b7df3c7bc">ug::FV1Geometry_gen&lt; TElem, TWorldDim, TCondensed &gt;</a>
 , <a class="el" href="classug_1_1_f_v1_i_b_geometry.html#a79d087dcc35a3b104efd69b39d020b54">ug::FV1IBGeometry&lt; TElem, TWorldDim &gt;</a>
 </li>
 <li>m_vvMaxDoFsInDimPerSubset
@@ -6050,7 +6091,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classug_1_1_dependent_user_data.html#a06dbcc12696e8922a976aa533a6edfc2">ug::DependentUserData&lt; TData, dim &gt;</a>
 </li>
 <li>m_vWeight()
-: <a class="el" href="classug_1_1_gauss_quad_base.html#a01119d401d80a203a2c7501a26496317">ug::GaussQuadBase&lt; TImpl, TDim, TOrder, TNip &gt;</a>
+: <a class="el" href="classug_1_1_gauss_quad_base.html#ad7bda488eb64967c7ccbd836cbb9a7f8">ug::GaussQuadBase&lt; TImpl, TDim, TOrder, TNip &gt;</a>
 , <a class="el" href="classug_1_1_gauss_quadrature_vertex.html#a1b277f24bc691aa6047e85a9e3d05ac9">ug::GaussQuadratureVertex</a>
 , <a class="el" href="classug_1_1_partition_weighting.html#a9094ee7503ce5dc2aafa4a056abdb316">ug::PartitionWeighting</a>
 </li>
@@ -6077,6 +6118,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classug_1_1_field.html#aa50ce67cf5c2d7c548b353564f9c0b55">ug::Field&lt; T &gt;</a>
 , <a class="el" href="classug_1_1_variance_marking.html#a4b8f0b390feee3eea442b107142b68e2">ug::VarianceMarking&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_variance_marking_eta.html#a708376c6056733dee057931cf908c48e">ug::VarianceMarkingEta&lt; TDomain &gt;</a>
+</li>
+<li>m_wlip
+: <a class="el" href="classug_1_1_t_k_d_info.html#a7268370fd7fc60c87b2c5784a687da59">ug::TKDInfo</a>
 </li>
 <li>m_worseThenAverage
 : <a class="el" href="classug_1_1_auto_linear_solver.html#aa37286861df9124c78eb0c7149130aba">ug::AutoLinearSolver&lt; TVector &gt;</a>
@@ -6122,6 +6166,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classpcl_1_1_i_domain_decomposition_info.html#a4f55383e60051ac6f9ae4074cc1a1b99">pcl::IDomainDecompositionInfo</a>
 , <a class="el" href="classpcl_1_1_standard_domain_decomposition_info.html#a19f011d9ee404ce47f563d3356af9e3c">pcl::StandardDomainDecompositionInfo</a>
 </li>
+<li>map_type
+: <a class="el" href="classug_1_1_composite_user_data.html#ab3424fed6afd05f40d1aea0329d010d3">ug::CompositeUserData&lt; TData, dim, TRet &gt;</a>
+</li>
 <li>maple_print()
 : <a class="el" href="classug_1_1_dense_matrix.html#a6eef43f0a1d5c64854625407079fd90a">ug::DenseMatrix&lt; TStorage &gt;</a>
 , <a class="el" href="classug_1_1_dense_vector.html#a97a0919a963ccd49c3d61616d19bb0df">ug::DenseVector&lt; TStorage &gt;</a>
@@ -6163,13 +6210,12 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classug_1_1_geom_provider.html#af79d54c801fd338b0d1ec09a0c48fc43">ug::GeomProvider&lt; TGeom &gt;</a>
 </li>
 <li>MapVector()
-: <a class="el" href="group__lib__algebra.html#ga704b8f35ffe170e1aed99562e462e5da">ug::MapVector&lt; TValueType &gt;</a>
+: <a class="el" href="group__lib__algebra.html#gac1fce5c9f1b8df00c5218fb982db0b08">ug::MapVector&lt; TValueType &gt;</a>
 </li>
 <li>mark()
 : <a class="el" href="classug_1_1_absolute_marking.html#a8a19b6830a7678e24da224e8f22e78d4">ug::AbsoluteMarking&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_a_posteriori_coarsening.html#a46f92bcd5c293e3c947ad57b4004e231">ug::APosterioriCoarsening&lt; TDomain &gt;</a>
-, <a class="el" href="classug_1_1_bool_marker.html#a73149b5258270e03e595c863fd42e1d7">ug::BoolMarker</a>
-, <a class="el" href="classug_1_1_delaunay_info.html#a805de635ed3e4acba4acffb635d3eeb8">ug::DelaunayInfo&lt; TAAPos &gt;</a>
+, <a class="el" href="classug_1_1_bool_marker.html#a4bfc04d2a7f2f40cd824c1abae1087de">ug::BoolMarker</a>
 </li>
 <li>Mark
 : <a class="el" href="classug_1_1_delaunay_info.html#a64b5d4bc49515af4e4fa812d2d1110d0">ug::DelaunayInfo&lt; TAAPos &gt;</a>
@@ -6181,10 +6227,10 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 , <a class="el" href="classug_1_1_fractured_media_refiner.html#a65bff046aee64e97cf12b917b8c069a8">ug::FracturedMediaRefiner&lt; TGrid, TAPosition &gt;</a>
 , <a class="el" href="classug_1_1_global_marking.html#adb62793ca9c1cfbd6d12743ee8220250">ug::GlobalMarking&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_grid.html#a775d4ed1340e57c0de0ac96788da9884">ug::Grid</a>
-, <a class="el" href="classug_1_1_hanging_node_refiner___grid.html#afeacef22ef41d688d4c11e5c79452fb4">ug::HangingNodeRefiner_Grid</a>
-, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#aa6d824d2d21f360e0367d28fbefa3b63">ug::HangingNodeRefinerBase&lt; TSelector &gt;</a>
-, <a class="el" href="structug_1_1_i_element_marking_strategy.html#a2ac0ebcb68fad1d56d5817cdc42591cf">ug::IElementMarkingStrategy&lt; TDomain &gt;</a>
-, <a class="el" href="classug_1_1_i_refiner.html#a0e36b035b5a6c6ded54d41c4504f3ba4">ug::IRefiner</a>
+, <a class="el" href="classug_1_1_hanging_node_refiner___grid.html#ae4fb6f9b566957493c60436afe296e54">ug::HangingNodeRefiner_Grid</a>
+, <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a64fc7b0b8b7f3abc1781e9909d433202">ug::HangingNodeRefinerBase&lt; TSelector &gt;</a>
+, <a class="el" href="classug_1_1_i_element_marking_strategy.html#a45cf28e8e6c376fcd7bcb91dafe29d5d">ug::IElementMarkingStrategy&lt; TDomain &gt;</a>
+, <a class="el" href="classug_1_1_i_refiner.html#a23900c3478fed1436eb7a13d67fe5780">ug::IRefiner</a>
 , <a class="el" href="classug_1_1_i_selector.html#a82d31df47f15f9d5c6c9c299ba49a468">ug::ISelector</a>
 , <a class="el" href="classug_1_1_maximum_marking.html#acd763304fa619e1de08cea8075cca7a2">ug::MaximumMarking&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_mean_value_marking.html#a1b9dd1edc3b18126cbe4153e1bb38ccd">ug::MeanValueMarking&lt; TDomain &gt;</a>
@@ -6207,14 +6253,14 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>mark_local()
 : <a class="el" href="classug_1_1_hanging_node_refiner___grid.html#a089929cdd15d1a3bfe1b3ed8a22938b8">ug::HangingNodeRefiner_Grid</a>
-, <a class="el" href="classug_1_1_i_refiner.html#a776ac7ab08aa56d593cebb996e49650a">ug::IRefiner</a>
+, <a class="el" href="classug_1_1_i_refiner.html#aa4d50e7dcb1f723d39588fd8752d2d73">ug::IRefiner</a>
 </li>
 <li>mark_neighborhood()
 : <a class="el" href="classug_1_1_hanging_node_refiner_base.html#a6e9b3f76771d0b1945ffd69001e95f85">ug::HangingNodeRefinerBase&lt; TSelector &gt;</a>
 , <a class="el" href="classug_1_1_i_refiner.html#a61bba691c0fcfa00421e12663f6cfa50">ug::IRefiner</a>
 </li>
 <li>mark_selected()
-: <a class="el" href="classug_1_1_i_selector.html#ab255ddfbbb87036f9cdc076385357961">ug::ISelector</a>
+: <a class="el" href="classug_1_1_i_selector.html#a1b24346cf46809bfd17f5b03aebca310">ug::ISelector</a>
 </li>
 <li>mark_shadowing()
 : <a class="el" href="classug_1_1_surface_view.html#a5a77f4fe6955355ca90a0d9f4afceb34">ug::SurfaceView</a>
@@ -6263,10 +6309,10 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classug_1_1_hanging_node_refiner_base.html#afc3d87c335b1064b0a76932677616305">ug::HangingNodeRefinerBase&lt; TSelector &gt;</a>
 </li>
 <li>MarkerPoint()
-: <a class="el" href="structug_1_1_marker_point.html#ad2d05c4f2728839e16d746f18985d8ba">ug::MarkerPoint</a>
+: <a class="el" href="structug_1_1_marker_point.html#a80fdf66449f0af6c7ad32274285ddb82">ug::MarkerPoint</a>
 </li>
 <li>mass_scale()
-: <a class="el" href="classug_1_1_i_elem_disc_base.html#aa4aea36e2c634869a921672caccb34ba">ug::IElemDiscBase&lt; TDomain &gt;</a>
+: <a class="el" href="classug_1_1_i_elem_disc_base.html#abb0600042d2f7619cb82be2c9103e88f">ug::IElemDiscBase&lt; TDomain &gt;</a>
 </li>
 <li>mass_scales()
 : <a class="el" href="classug_1_1_i_elem_disc_base.html#a832244fe69bec0d8bb488318c115c0a2">ug::IElemDiscBase&lt; TDomain &gt;</a>
@@ -6325,8 +6371,8 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classug_1_1_feti_layouts.html#a42ed289b44f0c6da08d4335864024a43">ug::FetiLayouts&lt; TAlgebra &gt;</a>
 </li>
 <li>match()
-: <a class="el" href="classug_1_1_i_identifier.html#a8e38336aaa1e833892fa8db9cfe71418">ug::IIdentifier</a>
-, <a class="el" href="classug_1_1_parallel_shift_identifier.html#a8fa7926825dc9136a13598326c943e25">ug::ParallelShiftIdentifier&lt; TPosAA &gt;</a>
+: <a class="el" href="classug_1_1_i_identifier.html#aaa4064335b05a7ef05663707fbcef6ea">ug::IIdentifier</a>
+, <a class="el" href="classug_1_1_parallel_shift_identifier.html#af2afa3f3ba2ffc010764bff8cf2b791d">ug::ParallelShiftIdentifier&lt; TPosAA &gt;</a>
 </li>
 <li>match_impl()
 : <a class="el" href="classug_1_1_parallel_shift_identifier.html#afbcbfa17e7d67052353a9d8b8708ebd1">ug::ParallelShiftIdentifier&lt; TPosAA &gt;</a>
@@ -6338,24 +6384,24 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classug_1_1_loader_obj.html#a135ff3d3214b822a0e7140806d8dbe81">ug::LoaderObj</a>
 </li>
 <li>MathMatrix()
-: <a class="el" href="classug_1_1_math_matrix.html#ab6a9aa47c18a130612bc1f7241ac01be">ug::MathMatrix&lt; N, M, T &gt;</a>
+: <a class="el" href="classug_1_1_math_matrix.html#a0c6dcf096403cdb81e12a2fe272f8c94">ug::MathMatrix&lt; N, M, T &gt;</a>
 </li>
 <li>MathSymmetricMatrix()
-: <a class="el" href="group__math__matrix.html#ga1071cc64df5ca43cf42f7d0d97e50907">ug::MathSymmetricMatrix&lt; N, T &gt;</a>
+: <a class="el" href="group__math__matrix.html#ga62e6c7efa678ffa8430201bd9b0db1f5">ug::MathSymmetricMatrix&lt; N, T &gt;</a>
 </li>
 <li>MathTensor()
-: <a class="el" href="classug_1_1_math_tensor.html#a8e44e6b5bc8641226237f22f03fa6f49">ug::MathTensor&lt; TRank, N, T &gt;</a>
+: <a class="el" href="classug_1_1_math_tensor.html#a7eccd4865bc9f73b25fb5905b39debe3">ug::MathTensor&lt; TRank, N, T &gt;</a>
 , <a class="el" href="classug_1_1_math_tensor_3_011_00_01_n_00_01_t_01_4.html#a43a0722ab60af21ed1629a34a9325eb6">ug::MathTensor&lt; 1, N, T &gt;</a>
 </li>
 <li>MathTensorX()
 : <a class="el" href="classug_1_1_math_tensor_x.html#a4e3a450d83a7f3950776b1d7c5dcf24c">ug::MathTensorX&lt; TEntry, N &gt;</a>
 </li>
 <li>MathVector()
-: <a class="el" href="classug_1_1_math_vector.html#a05863e31203c15ffde569f4ee67a48f6">ug::MathVector&lt; N, T &gt;</a>
-, <a class="el" href="classug_1_1_math_vector_3_010_00_01_t_01_4.html#aa4dda7e711b853a9604e344a83de44e5">ug::MathVector&lt; 0, T &gt;</a>
+: <a class="el" href="classug_1_1_math_vector.html#a331d3726d63e3e83adab5a22c557dde6">ug::MathVector&lt; N, T &gt;</a>
+, <a class="el" href="classug_1_1_math_vector_3_010_00_01_t_01_4.html#a9a2b7f6cbb6c51ead2bf6adf8914599a">ug::MathVector&lt; 0, T &gt;</a>
 , <a class="el" href="classug_1_1_math_vector_3_011_00_01_t_01_4.html#a36c4ef9f4ce1fc610839c6849a6fc689">ug::MathVector&lt; 1, T &gt;</a>
-, <a class="el" href="classug_1_1_math_vector_3_012_00_01_t_01_4.html#a26ca47eb43d463567dd105aa19608416">ug::MathVector&lt; 2, T &gt;</a>
-, <a class="el" href="classug_1_1_math_vector_3_013_00_01_t_01_4.html#ac2b893383fab63af720dfaf915eaa2e8">ug::MathVector&lt; 3, T &gt;</a>
+, <a class="el" href="classug_1_1_math_vector_3_012_00_01_t_01_4.html#a357cbddfabcec7193affd73573484d05">ug::MathVector&lt; 2, T &gt;</a>
+, <a class="el" href="classug_1_1_math_vector_3_013_00_01_t_01_4.html#a927922ecb7a70c2dbf0d075e12780de5">ug::MathVector&lt; 3, T &gt;</a>
 , <a class="el" href="classug_1_1_math_vector_3_014_00_01_t_01_4.html#a022a3dcf2f4bdd3d35c16e41e714b1c6">ug::MathVector&lt; 4, T &gt;</a>
 </li>
 <li>matmul_minus()
@@ -6371,10 +6417,10 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 , <a class="el" href="structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___r_o_w___f_u_n_c_t_i_o_n_s_01_4.html#a705e5bd09324422ddd932323bca08c7a">ug::mat_operations_class&lt; vector_t, matrix_t, MATRIX_USE_ROW_FUNCTIONS &gt;</a>
 </li>
 <li>MatMultAdd()
-: <a class="el" href="structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___g_l_59e5d97d6410f8808a56dc31cf2bc5b3.html#a30c5cf9a75a1d48069fb7db614d3ec3c">ug::mat_operations_class&lt; vector_t, matrix_t, MATRIX_USE_GLOBAL_FUNCTIONS &gt;</a>
-, <a class="el" href="structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___m_e_9177a9e00866ddd6f8f96e2c1a72e6ba.html#ab8b435fcb70c8f39cf3c0baa10121dc6">ug::mat_operations_class&lt; vector_t, matrix_t, MATRIX_USE_MEMBER_FUNCTIONS &gt;</a>
-, <a class="el" href="structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___o_p_e_r_a_t_o_r_s_01_4.html#a9a00b301640965e17d84d160866277e4">ug::mat_operations_class&lt; vector_t, matrix_t, MATRIX_USE_OPERATORS &gt;</a>
-, <a class="el" href="structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___r_o_w___f_u_n_c_t_i_o_n_s_01_4.html#a08e3ec62d43809c864bb2bb1ccd6465c">ug::mat_operations_class&lt; vector_t, matrix_t, MATRIX_USE_ROW_FUNCTIONS &gt;</a>
+: <a class="el" href="structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___g_l_59e5d97d6410f8808a56dc31cf2bc5b3.html#ae443fbec24871045037cb7b49d6b773a">ug::mat_operations_class&lt; vector_t, matrix_t, MATRIX_USE_GLOBAL_FUNCTIONS &gt;</a>
+, <a class="el" href="structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___m_e_9177a9e00866ddd6f8f96e2c1a72e6ba.html#a099e0cb6bce20cd7c5aefd878eaeb68e">ug::mat_operations_class&lt; vector_t, matrix_t, MATRIX_USE_MEMBER_FUNCTIONS &gt;</a>
+, <a class="el" href="structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___o_p_e_r_a_t_o_r_s_01_4.html#a85600006c57e3346f530ee4397577ad3">ug::mat_operations_class&lt; vector_t, matrix_t, MATRIX_USE_OPERATORS &gt;</a>
+, <a class="el" href="structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___r_o_w___f_u_n_c_t_i_o_n_s_01_4.html#aff77902a52812e3a09ee86b3d5869f23">ug::mat_operations_class&lt; vector_t, matrix_t, MATRIX_USE_ROW_FUNCTIONS &gt;</a>
 </li>
 <li>MatMultTransposed()
 : <a class="el" href="structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___g_l_59e5d97d6410f8808a56dc31cf2bc5b3.html#aa636ae9c055654a58004219aeb62bc38">ug::mat_operations_class&lt; vector_t, matrix_t, MATRIX_USE_GLOBAL_FUNCTIONS &gt;</a>
@@ -6551,13 +6597,13 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classug_1_1_matrix_diagonal_inverse.html#a21d9fd7d75583c7cf9c9d81914e5608d">ug::MatrixDiagonalInverse&lt; M, X, Y &gt;</a>
 </li>
 <li>MatrixFileType()
-: <a class="el" href="classug_1_1_matrix_file_type.html#ac603e6f828b31b807723c181249a35bb">ug::MatrixFileType</a>
+: <a class="el" href="classug_1_1_matrix_file_type.html#af4d3ad8c03daa6454bd461910ac42dc9">ug::MatrixFileType</a>
 </li>
 <li>MatrixIO()
 : <a class="el" href="classug_1_1_matrix_i_o.html#abaf468b00474220c61d7932a716f9d68">ug::MatrixIO</a>
 </li>
 <li>MatrixIOMtx()
-: <a class="el" href="classug_1_1_matrix_i_o_mtx.html#a39a7e82c23fc74b083014656b1d4d6d2">ug::MatrixIOMtx</a>
+: <a class="el" href="classug_1_1_matrix_i_o_mtx.html#aa64e12d92e59edf5b79f5c49046ebc9e">ug::MatrixIOMtx</a>
 </li>
 <li>MatrixRow()
 : <a class="el" href="classug_1_1_matrix_row.html#a7b4a3a9c24c4c2dc1cea787ea86ec6be">ug::MatrixRow&lt; TMatrix &gt;</a>
@@ -6586,15 +6632,15 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classug_1_1node__tree_1_1_boxed_group_node.html#a08b22d8cb96bbed387702733389b76e9">ug::node_tree::BoxedGroupNode</a>
 </li>
 <li>max_dofs()
-: <a class="el" href="classug_1_1_do_f_distribution_info.html#aea3254c18c623fe0283bd459b82451b8">ug::DoFDistributionInfo</a>
-, <a class="el" href="classug_1_1_do_f_distribution_info_provider.html#af10d5c151d9c1cbd4daf664e75c2ddcb">ug::DoFDistributionInfoProvider</a>
+: <a class="el" href="classug_1_1_do_f_distribution_info.html#a865a619945fe09ff6430d55e0745f5e9">ug::DoFDistributionInfo</a>
+, <a class="el" href="classug_1_1_do_f_distribution_info_provider.html#a8fede8627afe10ee4a56110c84cced46">ug::DoFDistributionInfoProvider</a>
 </li>
 <li>max_dot()
 : <a class="el" href="classug_1_1_delaunay_info.html#afe9c8e28194909d42dad9c94a44d680c">ug::DelaunayInfo&lt; TAAPos &gt;</a>
 </li>
 <li>max_fct_dofs()
-: <a class="el" href="classug_1_1_do_f_distribution_info.html#a0556499ff4581ec28972fe8e263bdd5e">ug::DoFDistributionInfo</a>
-, <a class="el" href="classug_1_1_do_f_distribution_info_provider.html#a7fcd29b8d5112d0307b47085cc8a8db6">ug::DoFDistributionInfoProvider</a>
+: <a class="el" href="classug_1_1_do_f_distribution_info.html#a6db1103294f93e354941dfee82e1b287">ug::DoFDistributionInfo</a>
+, <a class="el" href="classug_1_1_do_f_distribution_info_provider.html#a1c033af1604543f223d1fecfe3e5347d">ug::DoFDistributionInfoProvider</a>
 </li>
 <li>max_num_elements()
 : <a class="el" href="classug_1_1_traverser___min_max_num_elements.html#a06e3d909eb8c92bebd77e26154571606">ug::Traverser_MinMaxNumElements&lt; tree_t &gt;</a>
@@ -6646,7 +6692,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classug_1_1maxheap.html#a297b661d03e10eff0ce5f070bd629ef1">ug::maxheap&lt; T &gt;</a>
 </li>
 <li>MaximumMarking()
-: <a class="el" href="classug_1_1_maximum_marking.html#a30c00b348ede5b7a212aaac5c327ee56">ug::MaximumMarking&lt; TDomain &gt;</a>
+: <a class="el" href="classug_1_1_maximum_marking.html#a2bcbd11c2666f04d98d162219ce6c032">ug::MaximumMarking&lt; TDomain &gt;</a>
 </li>
 <li>maxLayerSideCorners
 : <a class="el" href="classug_1_1_degenerated_layer_manager.html#a43b07b3965a89d54f904c68840770efb">ug::DegeneratedLayerManager&lt; dim &gt;</a>
@@ -6655,7 +6701,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classug_1_1_dim_f_v1_geometry.html#a407da817f84bc35308f4d773d2e85bfa">ug::DimFV1Geometry&lt; TDim, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_dim_f_v1_i_b_geometry.html#ada7a9b076389f36ff52a1136075d17b5">ug::DimFV1IBGeometry&lt; TDim, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_dim_f_v_geometry.html#afce23dddb4617b25c0acf31d15bb4a9c">ug::DimFVGeometry&lt; TWorldDim, TDim &gt;</a>
-, <a class="el" href="classug_1_1_f_v1_geometry.html#a1ab0453db6f8dab18a3d09cea6d077d8">ug::FV1Geometry&lt; TElem, TWorldDim &gt;</a>
+, <a class="el" href="classug_1_1_f_v1_geometry__gen.html#a793e8151ddad6c4a35b6807af9434bf9">ug::FV1Geometry_gen&lt; TElem, TWorldDim, TCondensed &gt;</a>
 , <a class="el" href="classug_1_1_f_v1_i_b_geometry.html#a0768e029adeef783e455609cae157244">ug::FV1IBGeometry&lt; TElem, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_f_v_geometry.html#afa420cf93beb1269cfcbf5bbfe5127bb">ug::FVGeometry&lt; TOrder, TElem, TWorldDim, TQuadOrder &gt;</a>
 </li>
@@ -6809,7 +6855,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classug_1_1_mem_info.html#a37efe98e745e704f1efb687cea911cf8">ug::MemInfo</a>
 </li>
 <li>MemTrackerStruct()
-: <a class="el" href="classug_1_1_mem_tracker_struct.html#a86210d17fb9e4a9a8f7233654c8898c0">ug::MemTrackerStruct</a>
+: <a class="el" href="classug_1_1_mem_tracker_struct.html#a6090b6c0de38d2c1d6c9f7471d6ec41f">ug::MemTrackerStruct</a>
 </li>
 <li>merge_boxes()
 : <a class="el" href="structug_1_1lg__ntree__traits__base.html#aad24c80da62299b1575fbccdf73e7d96">ug::lg_ntree_traits_base&lt; tree_dim, world_dim, elem_t_, common_data_t_ &gt;</a>
@@ -6893,7 +6939,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 , <a class="el" href="classug_1_1_multi_grid.html#aa42df02de61f3ecec8188f1f2b6d6957">ug::MultiGrid</a>
 </li>
 <li>MGSelectionIterator()
-: <a class="el" href="classug_1_1_m_g_selector_1_1_m_g_selection_iterator.html#add181afc3b148df21f4b0d24c76114e3">ug::MGSelector::MGSelectionIterator&lt; TElem, TMGSelector, TLevelIterator &gt;</a>
+: <a class="el" href="classug_1_1_m_g_selector_1_1_m_g_selection_iterator.html#abf6e3bbe63ad08d3a15e278cc588a45a">ug::MGSelector::MGSelectionIterator&lt; TElem, TMGSelector, TLevelIterator &gt;</a>
 </li>
 <li>MGSelector
 : <a class="el" href="classug_1_1_m_g_selector_1_1_m_g_selection_iterator.html#af2ed5ff7bf18eab5a1df9bda9c5cd0ef">ug::MGSelector::MGSelectionIterator&lt; TElem, TMGSelector, TLevelIterator &gt;</a>
@@ -6919,18 +6965,18 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="structug_1_1_dim_h_f_v1_geometry_1_1_mid_i_d.html#a703a0438120694a42627620899f30a2d">ug::DimHFV1Geometry&lt; TDim, TWorldDim &gt;::MidID</a>
 </li>
 <li>midId
-: <a class="el" href="classug_1_1_f_v1_geometry_1_1_s_c_v.html#aee2706cd390e84d705b350c581060d75">ug::FV1Geometry&lt; TElem, TWorldDim &gt;::SCV</a>
+: <a class="el" href="classug_1_1_f_v1_geometry__gen_1_1_s_c_v.html#a14479d3043b710311b7833107a307542">ug::FV1Geometry_gen&lt; TElem, TWorldDim, TCondensed &gt;::SCV</a>
 , <a class="el" href="classug_1_1_f_v1_i_b_geometry_1_1_s_c_v.html#a07befbc368863adc3116707f15540a33">ug::FV1IBGeometry&lt; TElem, TWorldDim &gt;::SCV</a>
 , <a class="el" href="classug_1_1_f_v1_manifold_geometry_1_1_b_f.html#a11efba636b00507e769577dcc58ed67a">ug::FV1ManifoldGeometry&lt; TElem, TWorldDim &gt;::BF</a>
 </li>
 <li>MidID()
-: <a class="el" href="structug_1_1_f_v1_manifold_geometry_1_1_mid_i_d.html#a79d4dbfd693d1ab3d1efa239f279eb07">ug::FV1ManifoldGeometry&lt; TElem, TWorldDim &gt;::MidID</a>
-, <a class="el" href="structug_1_1_h_f_v1_geometry_1_1_mid_i_d.html#a74be41f85ebcf3d843626f6bc784b1cd">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::MidID</a>
+: <a class="el" href="structug_1_1_f_v1_manifold_geometry_1_1_mid_i_d.html#ac1646d8dca56678d555508bf03d17478">ug::FV1ManifoldGeometry&lt; TElem, TWorldDim &gt;::MidID</a>
+, <a class="el" href="structug_1_1_h_f_v1_geometry_1_1_mid_i_d.html#ab2f501a8006552a7f62563c0236ad4fc">ug::HFV1Geometry&lt; TElem, TWorldDim &gt;::MidID</a>
 , <a class="el" href="structug_1_1_h_f_v1_manifold_geometry_1_1_mid_i_d.html#a8c18251ca9075055904f2d4c685e1f82">ug::HFV1ManifoldGeometry&lt; TElem, TWorldDim &gt;::MidID</a>
-, <a class="el" href="structug_1_1_mid_i_d.html#ab528f5a0aa5164c1486436080de8d5e4">ug::MidID</a>
+, <a class="el" href="structug_1_1_mid_i_d.html#a79a0bfd0f86b659b2c9f083ec7262e40">ug::MidID</a>
 </li>
 <li>might_contain_ghosts()
-: <a class="el" href="classug_1_1_i_approximation_space.html#a658089d41c8dfa44a6bd8f1b158cf7c9">ug::IApproximationSpace</a>
+: <a class="el" href="classug_1_1_i_approximation_space.html#a6b77f5e778cdca7615bb74d50e49119f">ug::IApproximationSpace</a>
 </li>
 <li>min()
 : <a class="el" href="structpcl_1_1reduce__traits.html#a41916a6e4ed11c5ce9625b525293a704">pcl::reduce_traits&lt; TValue &gt;</a>
@@ -6954,7 +7000,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>min_corner()
 : <a class="el" href="classug_1_1node__tree_1_1_boxed_group_node.html#a8f5067e548219708a83aea201e2060be">ug::node_tree::BoxedGroupNode</a>
-, <a class="el" href="classug_1_1_raster.html#a230e4c67f37c5d39fecd1a4f801c0560">ug::Raster&lt; T, TDIM &gt;</a>
+, <a class="el" href="classug_1_1_raster.html#a4e73b1fc1f6406d8acbf2d29d4131479">ug::Raster&lt; T, TDIM &gt;</a>
 </li>
 <li>min_height()
 : <a class="el" href="structug_1_1_raster_layer_desc.html#aa2aecc777d72f767cd093cb2d42ba34b">ug::RasterLayerDesc</a>
@@ -7015,7 +7061,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 , <a class="el" href="classug_1_1_local_to_global_mapper_n_l_g_s.html#a19e3b74de28c6e35cc624d965edfba7a">ug::LocalToGlobalMapperNLGS&lt; TAlgebra &gt;</a>
 </li>
 <li>modify_solution()
-: <a class="el" href="classug_1_1_i_constraint.html#a6295ac2baa0504fe8783e507b757d681">ug::IConstraint&lt; TAlgebra &gt;</a>
+: <a class="el" href="classug_1_1_i_constraint.html#a213a23816dcc7b2c1316e56dc4e3b2df">ug::IConstraint&lt; TAlgebra &gt;</a>
 </li>
 <li>modify_solution_enabled()
 : <a class="el" href="classug_1_1_assembling_tuner.html#add743fe024f90fe0405b33fadf54a9e3">ug::AssemblingTuner&lt; TAlgebra &gt;</a>
@@ -7070,7 +7116,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 , <a class="el" href="classug_1_1_global_multi_grid_refiner.html#ac78205a96fd79ddf97478b3e123a3430">ug::GlobalMultiGridRefiner</a>
 , <a class="el" href="classug_1_1_hanging_node_refiner___multi_grid.html#a5de86915bbe70e6ace879938c7b3862b">ug::HangingNodeRefiner_MultiGrid</a>
 , <a class="el" href="classug_1_1_m_g_selector.html#ad43174e05739dad4aa5aecd452a6dfbf">ug::MGSelector</a>
-, <a class="el" href="classug_1_1_multi_grid_subset_handler.html#a8a67bc231abc051e49ad8c0e3349dfdd">ug::MultiGridSubsetHandler</a>
+, <a class="el" href="classug_1_1_multi_grid_subset_handler.html#a1122850fe3a2211ed1fa6ae54c59f187">ug::MultiGridSubsetHandler</a>
 </li>
 <li>multi_index()
 : <a class="el" href="classug_1_1_flex_lagrange_l_s_f_s_3_01_reference_edge_01_4.html#a0d099d16b3b7f911ab91bccc0cc0d419">ug::FlexLagrangeLSFS&lt; ReferenceEdge &gt;</a>
@@ -7093,14 +7139,14 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classug_1_1_multi_element_attachment_accessor.html#ac3690dd2cab6e22ada76779d0b74d391">ug::MultiElementAttachmentAccessor&lt; TAttachment &gt;</a>
 </li>
 <li>MultiGrid()
-: <a class="el" href="classug_1_1_multi_grid.html#aefe467d8483b7f1631794315df6abed5">ug::MultiGrid</a>
+: <a class="el" href="classug_1_1_multi_grid.html#a5473f27ffe3f7b67d01b0bfca707dccc">ug::MultiGrid</a>
 </li>
 <li>multigrid_changed()
 : <a class="el" href="classug_1_1_m_g_selector.html#a1f2c03775ab5941f080e761a4b8e0a56">ug::MGSelector</a>
 , <a class="el" href="classug_1_1_multi_grid_subset_handler.html#a9ba87d2da66a20636ba4a3b28fe767ce">ug::MultiGridSubsetHandler</a>
 </li>
 <li>MultiGridSubsetHandler()
-: <a class="el" href="classug_1_1_multi_grid_subset_handler.html#ad4f7e1b20ee5f9807b5bf261c8cb8ce9">ug::MultiGridSubsetHandler</a>
+: <a class="el" href="classug_1_1_multi_grid_subset_handler.html#aa0e58961dbb3c73520562113b2ba1fda">ug::MultiGridSubsetHandler</a>
 </li>
 <li>MultiGroupCommunicator()
 : <a class="el" href="classpcl_1_1_multi_group_communicator.html#ac38b160d2fe031206939d4912d2081d5">pcl::MultiGroupCommunicator</a>
@@ -7108,11 +7154,11 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>MultiIndex()
 : <a class="el" href="classug_1_1_multi_index_3_011_00_01size__t_01_4.html#a8528b4e9ec8406912314df17b4b977e8">ug::MultiIndex&lt; 1, size_t &gt;</a>
 , <a class="el" href="classug_1_1_multi_index_3_012_00_01size__t_01_4.html#a8c584a8cebb60b7ffdf97d7be642ecee">ug::MultiIndex&lt; 2, size_t &gt;</a>
-, <a class="el" href="classug_1_1_multi_index_3_013_00_01size__t_01_4.html#a6b4f86785ab6e4264481b6ab8b5227e7">ug::MultiIndex&lt; 3, size_t &gt;</a>
-, <a class="el" href="classug_1_1_raster_1_1_multi_index.html#a324fbccc659827b20a46bad916ad76b0">ug::Raster&lt; T, TDIM &gt;::MultiIndex</a>
+, <a class="el" href="classug_1_1_multi_index_3_013_00_01size__t_01_4.html#a906f59c1e61d1551bf402c6da0e0a58d">ug::MultiIndex&lt; 3, size_t &gt;</a>
+, <a class="el" href="classug_1_1_raster_1_1_multi_index.html#ab8c702243a654c3050d2db0c82ce27d3">ug::Raster&lt; T, TDIM &gt;::MultiIndex</a>
 </li>
 <li>MultiLevelLayout()
-: <a class="el" href="classpcl_1_1_multi_level_layout.html#a8bf7dcf6719f471649630e470efb16bf">pcl::MultiLevelLayout&lt; TInterface &gt;</a>
+: <a class="el" href="classpcl_1_1_multi_level_layout.html#a0b3f7609be238925a7857574578146ba">pcl::MultiLevelLayout&lt; TInterface &gt;</a>
 </li>
 <li>MultipleErrEstData()
 : <a class="el" href="classug_1_1_multiple_err_est_data.html#aedc4c5e7343c41f0baabc66f513b8ea2">ug::MultipleErrEstData&lt; TDomain, TErrEstData &gt;</a>
@@ -7141,7 +7187,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Dec 13 2019 23:55:40 for ug4 by
+    <li class="footer">Generated on Tue Oct 27 2020 05:31:05 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

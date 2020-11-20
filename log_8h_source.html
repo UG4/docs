@@ -379,12 +379,12 @@ $(document).ready(function(){initNavTree('log_8h_source.html','');});
 <div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;<span class="comment"> * UG_WARNING(cond, msg)      - prints a warning to the normal output stream</span></div>
 <div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;<span class="preprocessor">#ifdef UG_ENABLED_WARNINGS</span></div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;<span class="preprocessor">  #define UG_COND_WARNING(cond, msg) {if (cond) {ug::GetLogAssistant().logger()\</span></div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;<span class="preprocessor">              &lt;&lt; &quot;UG_WARNING in &quot; &lt;&lt; __FILE__ &lt;&lt; &quot; at line &quot;       \</span></div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;<span class="preprocessor">              __LINE__ &lt;&lt; &quot;: &quot; &lt;&lt; msg &lt;&lt; std::flush;}}</span></div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;<span class="preprocessor">#ifdef UG_ENABLE_WARNINGS</span></div>
+<div class="line"><a name="l00344"></a><span class="lineno"><a class="line" href="group__ugbase__common.html#gaaf7cb939d8eee0664106d8b25dc81a82">  344</a></span>&#160;<span class="preprocessor">  #define UG_COND_WARNING(cond, msg) { if (cond) {ug::GetLogAssistant().logger() &lt;&lt; &quot;UG_WARNING in &quot;\</span></div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;<span class="preprocessor">              &lt;&lt; __FILE__ &lt;&lt; &quot; at line &quot; &lt;&lt; __LINE__ &lt;&lt; &quot;: &quot; \</span></div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;<span class="preprocessor">              &lt;&lt; msg &lt;&lt; std::flush;} }</span></div>
 <div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00348"></a><span class="lineno"><a class="line" href="group__ugbase__common.html#gaaf7cb939d8eee0664106d8b25dc81a82">  348</a></span>&#160;<span class="preprocessor">  #define UG_COND_WARNING(cond, msg) {}</span></div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;<span class="preprocessor">  #define UG_COND_WARNING(cond, msg) {}</span></div>
 <div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160; </div>
 <div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160; </div>
@@ -523,7 +523,7 @@ $(document).ready(function(){initNavTree('log_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_8c26a127a0eea13c4724b5310584fbab.html">common</a></li><li class="navelem"><a class="el" href="log_8h.html">log.h</a></li>
-    <li class="footer">Generated on Fri Dec 13 2019 23:53:31 for ug4 by
+    <li class="footer">Generated on Tue Oct 27 2020 05:28:52 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

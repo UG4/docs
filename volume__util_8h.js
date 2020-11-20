@@ -7,6 +7,7 @@ var volume__util_8h =
     [ "CalculatePyramidAspectRatio", "volume__util_8h.html#ga7593bdd93fe16436972e95d38b3d2134", null ],
     [ "CalculateTetrahedronAspectRatio", "volume__util_8h.html#gaf31820d91f65e3dd5680a7d6e4652dea", null ],
     [ "CalculateTetrahedronRootMeanSquareFaceArea", "volume__util_8h.html#ga57672e0c3f4904f54c95d7c20294e6b0", null ],
+    [ "CalculateTetrahedronVolToRMSFaceAreaRatio", "volume__util_8h.html#gab1cfd58ca383d59ca40fe7138108daeb", null ],
     [ "CalculateTetrahedronVolToRMSFaceAreaRatio", "volume__util_8h.html#ga298da598a9dbce8d5539d3658a261fe1", null ],
     [ "ContainsPoint", "volume__util_8h.html#gae7afd0751a91503c97c0d834bd7baa74", null ],
     [ "ConvertToTetrahedra", "volume__util_8h.html#ga091a48c6244029acd671f4e23309799a", null ],

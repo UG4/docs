@@ -93,10 +93,10 @@ $(document).ready(function(){initNavTree('classug_1_1_explicit_grid_function_gra
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-types">Private Types</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classug_1_1_explicit_grid_function_gradient-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ug::ExplicitGridFunctionGradient&lt; TGridFunction &gt; Class Template Reference</div>  </div>
@@ -122,20 +122,6 @@ $(document).ready(function(){initNavTree('classug_1_1_explicit_grid_function_gra
   </map>
 </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:ad09a93c95206a1705fdb3aaeb203f1cc"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classug_1_1_std_explicit_grid_function_data.html">StdExplicitGridFunctionData</a>&lt; <a class="el" href="classug_1_1_explicit_grid_function_gradient.html">ExplicitGridFunctionGradient</a>&lt; TGridFunction &gt;, <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; <a class="elRef" href="../plugins/group__small__strain__mechanics.html#ga884d1b406bedb21e341d11cd30fb5079">TGridFunction::dim</a> &gt;, TGridFunction &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_explicit_grid_function_gradient.html#ad09a93c95206a1705fdb3aaeb203f1cc">base_type</a></td></tr>
-<tr class="separator:ad09a93c95206a1705fdb3aaeb203f1cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_types_classug_1_1_cpl_user_data"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classug_1_1_cpl_user_data')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classug_1_1_cpl_user_data.html">ug::CplUserData&lt; MathVector&lt; TGridFunction::dim &gt;, dim, void &gt;</a></td></tr>
-<tr class="memitem:a261ea38637931e28c83824cb381bfa5e inherit pub_types_classug_1_1_cpl_user_data"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classug_1_1_i_cpl_user_data.html">ICplUserData</a>&lt; <a class="elRef" href="../plugins/group__small__strain__mechanics.html#ga884d1b406bedb21e341d11cd30fb5079">dim</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_cpl_user_data.html#a261ea38637931e28c83824cb381bfa5e">base_type</a></td></tr>
-<tr class="memdesc:a261ea38637931e28c83824cb381bfa5e inherit pub_types_classug_1_1_cpl_user_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">type of base class  <a href="classug_1_1_cpl_user_data.html#a261ea38637931e28c83824cb381bfa5e">More...</a><br /></td></tr>
-<tr class="separator:a261ea38637931e28c83824cb381bfa5e inherit pub_types_classug_1_1_cpl_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_types_classug_1_1_user_data"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classug_1_1_user_data')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classug_1_1_user_data.html">ug::UserData&lt; MathVector&lt; TGridFunction::dim &gt;, dim, void &gt;</a></td></tr>
-<tr class="memitem:a8aeb372d3a0554708867acbb8185be69 inherit pub_types_classug_1_1_user_data"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; <a class="elRef" href="../plugins/group__small__strain__mechanics.html#ga884d1b406bedb21e341d11cd30fb5079">TGridFunction::dim</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_user_data.html#a8aeb372d3a0554708867acbb8185be69">data_type</a></td></tr>
-<tr class="separator:a8aeb372d3a0554708867acbb8185be69 inherit pub_types_classug_1_1_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fabcb836d19a326205148c11554fc7a inherit pub_types_classug_1_1_user_data"><td class="memItemLeft" align="right" valign="top">typedef void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_user_data.html#a0fabcb836d19a326205148c11554fc7a">return_type</a></td></tr>
-<tr class="separator:a0fabcb836d19a326205148c11554fc7a inherit pub_types_classug_1_1_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a1f1534a1824dda9e8d9408cc98a372b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_explicit_grid_function_gradient.html#a1f1534a1824dda9e8d9408cc98a372b4">add_subset_coeff</a> (const std::string &amp;key, double val)</td></tr>
@@ -146,9 +132,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a067c640c65fb19d96a0884439303f10f"><td class="memTemplParams" colspan="2">template&lt;int refDim&gt; </td></tr>
 <tr class="memitem:a067c640c65fb19d96a0884439303f10f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_explicit_grid_function_gradient.html#a067c640c65fb19d96a0884439303f10f">evaluate</a> (<a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; <a class="el" href="classug_1_1_explicit_grid_function_gradient.html#a5a43037fd04e6697ca5a186e1b4e50d0">dim</a> &gt; vValue[], const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; <a class="el" href="classug_1_1_explicit_grid_function_gradient.html#a5a43037fd04e6697ca5a186e1b4e50d0">dim</a> &gt; vGlobIP[], <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> <a class="el" href="classug_1_1_i_cpl_user_data.html#a7610eacf8accee89afbd763a6508ff0e">time</a>, int si, <a class="el" href="classug_1_1_grid_object.html">GridObject</a> *elem, const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; <a class="el" href="classug_1_1_explicit_grid_function_gradient.html#a5a43037fd04e6697ca5a186e1b4e50d0">dim</a> &gt; vCornerCoords[], const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; refDim &gt; vLocIP[], const size_t nip, <a class="el" href="classug_1_1_local_vector.html">LocalVector</a> *u, const <a class="el" href="classug_1_1_math_matrix.html">MathMatrix</a>&lt; refDim, <a class="el" href="classug_1_1_explicit_grid_function_gradient.html#a5a43037fd04e6697ca5a186e1b4e50d0">dim</a> &gt; *vJT=NULL) const</td></tr>
 <tr class="separator:a067c640c65fb19d96a0884439303f10f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abceb23a91e9c615fedb6e43eb302b15a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_explicit_grid_function_gradient.html#abceb23a91e9c615fedb6e43eb302b15a">ExplicitGridFunctionGradient</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; TGridFunction &gt; spGridFct, const char *cmp)</td></tr>
-<tr class="memdesc:abceb23a91e9c615fedb6e43eb302b15a"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor  <a href="classug_1_1_explicit_grid_function_gradient.html#abceb23a91e9c615fedb6e43eb302b15a">More...</a><br /></td></tr>
-<tr class="separator:abceb23a91e9c615fedb6e43eb302b15a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c86a5951c22cde49b17770da5a7bb61"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_explicit_grid_function_gradient.html#a6c86a5951c22cde49b17770da5a7bb61">ExplicitGridFunctionGradient</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; TGridFunction &gt; gf, const char *cmp)</td></tr>
+<tr class="memdesc:a6c86a5951c22cde49b17770da5a7bb61"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor  <a href="classug_1_1_explicit_grid_function_gradient.html#a6c86a5951c22cde49b17770da5a7bb61">More...</a><br /></td></tr>
+<tr class="separator:a6c86a5951c22cde49b17770da5a7bb61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55be0ebb22e7919891264516bf9ee220"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_explicit_grid_function_gradient.html#a55be0ebb22e7919891264516bf9ee220">get_subset_coeff</a> (const std::string &amp;key) const</td></tr>
 <tr class="separator:a55be0ebb22e7919891264516bf9ee220"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classug_1_1_std_explicit_grid_function_data"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classug_1_1_std_explicit_grid_function_data')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classug_1_1_std_explicit_grid_function_data.html">ug::StdExplicitGridFunctionData&lt; ExplicitGridFunctionGradient&lt; TGridFunction &gt;, MathVector&lt; TGridFunction::dim &gt;, TGridFunction &gt;</a></td></tr>
@@ -176,9 +162,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5461d3d8c4b329e1942b886870014eca inherit pub_methods_classug_1_1_std_explicit_grid_function_data"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_std_explicit_grid_function_data.html#a5461d3d8c4b329e1942b886870014eca">requires_grid_fct</a> () const</td></tr>
 <tr class="memdesc:a5461d3d8c4b329e1942b886870014eca inherit pub_methods_classug_1_1_std_explicit_grid_function_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns if grid function is needed for evaluation  <a href="classug_1_1_std_explicit_grid_function_data.html#a5461d3d8c4b329e1942b886870014eca">More...</a><br /></td></tr>
 <tr class="separator:a5461d3d8c4b329e1942b886870014eca inherit pub_methods_classug_1_1_std_explicit_grid_function_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae32b3cc6c03cafd0233d874494934a28 inherit pub_methods_classug_1_1_std_explicit_grid_function_data"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_std_explicit_grid_function_data.html#ae32b3cc6c03cafd0233d874494934a28">StdExplicitGridFunctionData</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; TGridFunction &gt; spGridFct, const char *cmp)</td></tr>
-<tr class="memdesc:ae32b3cc6c03cafd0233d874494934a28 inherit pub_methods_classug_1_1_std_explicit_grid_function_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">common constructor  <a href="classug_1_1_std_explicit_grid_function_data.html#ae32b3cc6c03cafd0233d874494934a28">More...</a><br /></td></tr>
-<tr class="separator:ae32b3cc6c03cafd0233d874494934a28 inherit pub_methods_classug_1_1_std_explicit_grid_function_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a473f015afae1524f5e6da67fe3481000 inherit pub_methods_classug_1_1_std_explicit_grid_function_data"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_std_explicit_grid_function_data.html#a473f015afae1524f5e6da67fe3481000">StdExplicitGridFunctionData</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; TGridFunction &gt; spGridFct)</td></tr>
+<tr class="memdesc:a473f015afae1524f5e6da67fe3481000 inherit pub_methods_classug_1_1_std_explicit_grid_function_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">common constructor  <a href="classug_1_1_std_explicit_grid_function_data.html#a473f015afae1524f5e6da67fe3481000">More...</a><br /></td></tr>
+<tr class="separator:a473f015afae1524f5e6da67fe3481000 inherit pub_methods_classug_1_1_std_explicit_grid_function_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classug_1_1_std_user_data"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classug_1_1_std_user_data')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classug_1_1_std_user_data.html">ug::StdUserData&lt; StdExplicitGridFunctionData&lt; ExplicitGridFunctionGradient&lt; TGridFunction &gt;, MathVector&lt; TGridFunction::dim &gt;, TGridFunction &gt;, MathVector&lt; TGridFunction::dim &gt;, TGridFunction::dim &gt;</a></td></tr>
 <tr class="memitem:a2fdc05b3e06865110ab2170061c58aa4 inherit pub_methods_classug_1_1_std_user_data"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_std_user_data.html#a2fdc05b3e06865110ab2170061c58aa4">operator()</a> (<a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; <a class="elRef" href="../plugins/group__small__strain__mechanics.html#ga884d1b406bedb21e341d11cd30fb5079">TGridFunction::dim</a> &gt; vValue[], const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; <a class="elRef" href="../plugins/group__small__strain__mechanics.html#ga884d1b406bedb21e341d11cd30fb5079">dim</a> &gt; vGlobIP[], <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> <a class="el" href="classug_1_1_i_cpl_user_data.html#a7610eacf8accee89afbd763a6508ff0e">time</a>, int si, <a class="el" href="classug_1_1_grid_object.html">GridObject</a> *elem, const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; <a class="elRef" href="../plugins/group__small__strain__mechanics.html#ga884d1b406bedb21e341d11cd30fb5079">dim</a> &gt; vCornerCoords[], const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; 1 &gt; vLocIP[], const size_t nip, <a class="el" href="classug_1_1_local_vector.html">LocalVector</a> *u, const <a class="el" href="classug_1_1_math_matrix.html">MathMatrix</a>&lt; 1, <a class="elRef" href="../plugins/group__small__strain__mechanics.html#ga884d1b406bedb21e341d11cd30fb5079">dim</a> &gt; *vJT=NULL) const</td></tr>
 <tr class="separator:a2fdc05b3e06865110ab2170061c58aa4 inherit pub_methods_classug_1_1_std_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -352,66 +338,36 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:a5a43037fd04e6697ca5a186e1b4e50d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_attribs_classug_1_1_std_explicit_grid_function_data"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_classug_1_1_std_explicit_grid_function_data')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="classug_1_1_std_explicit_grid_function_data.html">ug::StdExplicitGridFunctionData&lt; ExplicitGridFunctionGradient&lt; TGridFunction &gt;, MathVector&lt; TGridFunction::dim &gt;, TGridFunction &gt;</a></td></tr>
 <tr class="memitem:ad06f47e39da5b773fa3683905083137a inherit pub_static_attribs_classug_1_1_std_explicit_grid_function_data"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_std_explicit_grid_function_data.html#ad06f47e39da5b773fa3683905083137a">dim</a></td></tr>
+<tr class="memdesc:ad06f47e39da5b773fa3683905083137a inherit pub_static_attribs_classug_1_1_std_explicit_grid_function_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">world dimension of grid function  <a href="classug_1_1_std_explicit_grid_function_data.html#ad06f47e39da5b773fa3683905083137a">More...</a><br /></td></tr>
 <tr class="separator:ad06f47e39da5b773fa3683905083137a inherit pub_static_attribs_classug_1_1_std_explicit_grid_function_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
+Private Types</h2></td></tr>
+<tr class="memitem:ad09a93c95206a1705fdb3aaeb203f1cc"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classug_1_1_std_explicit_grid_function_data.html">StdExplicitGridFunctionData</a>&lt; <a class="el" href="classug_1_1_explicit_grid_function_gradient.html">ExplicitGridFunctionGradient</a>&lt; TGridFunction &gt;, <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; <a class="elRef" href="../plugins/group__small__strain__mechanics.html#ga884d1b406bedb21e341d11cd30fb5079">TGridFunction::dim</a> &gt;, TGridFunction &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_explicit_grid_function_gradient.html#ad09a93c95206a1705fdb3aaeb203f1cc">base_type</a></td></tr>
+<tr class="separator:ad09a93c95206a1705fdb3aaeb203f1cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
 <tr class="memitem:a70446f00892386c7ca0ab17d70677d62"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_explicit_grid_function_gradient.html#a70446f00892386c7ca0ab17d70677d62">m_diffCoeffMap</a></td></tr>
 <tr class="separator:a70446f00892386c7ca0ab17d70677d62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_classug_1_1_std_explicit_grid_function_data"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classug_1_1_std_explicit_grid_function_data')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classug_1_1_std_explicit_grid_function_data.html">ug::StdExplicitGridFunctionData&lt; ExplicitGridFunctionGradient&lt; TGridFunction &gt;, MathVector&lt; TGridFunction::dim &gt;, TGridFunction &gt;</a></td></tr>
-<tr class="memitem:a19f4009e8c3ff7aac67cf119be226a67 inherit pro_attribs_classug_1_1_std_explicit_grid_function_data"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_std_explicit_grid_function_data.html#a19f4009e8c3ff7aac67cf119be226a67">m_fct</a></td></tr>
-<tr class="memdesc:a19f4009e8c3ff7aac67cf119be226a67 inherit pro_attribs_classug_1_1_std_explicit_grid_function_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">component of function  <a href="classug_1_1_std_explicit_grid_function_data.html#a19f4009e8c3ff7aac67cf119be226a67">More...</a><br /></td></tr>
-<tr class="separator:a19f4009e8c3ff7aac67cf119be226a67 inherit pro_attribs_classug_1_1_std_explicit_grid_function_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a509023f77c707a1fcdafcc0f7b1d1b8c inherit pro_attribs_classug_1_1_std_explicit_grid_function_data"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_l_f_e_i_d.html">LFEID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_std_explicit_grid_function_data.html#a509023f77c707a1fcdafcc0f7b1d1b8c">m_lfeID</a></td></tr>
-<tr class="separator:a509023f77c707a1fcdafcc0f7b1d1b8c inherit pro_attribs_classug_1_1_std_explicit_grid_function_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adab6901cbd2225e0000fbd9653e77b65 inherit pro_attribs_classug_1_1_std_explicit_grid_function_data"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; TGridFunction &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_std_explicit_grid_function_data.html#adab6901cbd2225e0000fbd9653e77b65">m_spGridFct</a></td></tr>
-<tr class="memdesc:adab6901cbd2225e0000fbd9653e77b65 inherit pro_attribs_classug_1_1_std_explicit_grid_function_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">grid function  <a href="classug_1_1_std_explicit_grid_function_data.html#adab6901cbd2225e0000fbd9653e77b65">More...</a><br /></td></tr>
-<tr class="separator:adab6901cbd2225e0000fbd9653e77b65 inherit pro_attribs_classug_1_1_std_explicit_grid_function_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_classug_1_1_i_cpl_user_data"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classug_1_1_i_cpl_user_data')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classug_1_1_i_cpl_user_data.html">ug::ICplUserData&lt; dim &gt;</a></td></tr>
-<tr class="memitem:ac607f2a68932c1b9589104b6e91b9e0d inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_cpl_user_data.html#ac607f2a68932c1b9589104b6e91b9e0d">m_defaultTimePoint</a></td></tr>
-<tr class="memdesc:ac607f2a68932c1b9589104b6e91b9e0d inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">default time point (or -1 if not specified)  <a href="classug_1_1_i_cpl_user_data.html#ac607f2a68932c1b9589104b6e91b9e0d">More...</a><br /></td></tr>
-<tr class="separator:ac607f2a68932c1b9589104b6e91b9e0d inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3bf1686a70ebb158afad8b5ed4a2af8 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_cpl_user_data.html#ad3bf1686a70ebb158afad8b5ed4a2af8">m_locPosDim</a></td></tr>
-<tr class="memdesc:ad3bf1686a70ebb158afad8b5ed4a2af8 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">dimension of local position (-1 indicates no dim set)  <a href="classug_1_1_i_cpl_user_data.html#ad3bf1686a70ebb158afad8b5ed4a2af8">More...</a><br /></td></tr>
-<tr class="separator:ad3bf1686a70ebb158afad8b5ed4a2af8 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a20b47f3846c9ca6d8e2f7f47ff4b53 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; 1 &gt; * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_cpl_user_data.html#a6a20b47f3846c9ca6d8e2f7f47ff4b53">m_pvLocIP1d</a></td></tr>
-<tr class="memdesc:a6a20b47f3846c9ca6d8e2f7f47ff4b53 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">local ips of dimension 1d-3d  <a href="classug_1_1_i_cpl_user_data.html#a6a20b47f3846c9ca6d8e2f7f47ff4b53">More...</a><br /></td></tr>
-<tr class="separator:a6a20b47f3846c9ca6d8e2f7f47ff4b53 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d942a7e85b5de14920d462483a6ac94 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; 2 &gt; * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_cpl_user_data.html#a0d942a7e85b5de14920d462483a6ac94">m_pvLocIP2d</a></td></tr>
-<tr class="separator:a0d942a7e85b5de14920d462483a6ac94 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71a64c0d540a05adfd221379fa392f44 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; 3 &gt; * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_cpl_user_data.html#a71a64c0d540a05adfd221379fa392f44">m_pvLocIP3d</a></td></tr>
-<tr class="separator:a71a64c0d540a05adfd221379fa392f44 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a637cb4a56e1d24a590ee5fe03ad71a1e inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_cpl_user_data.html#a637cb4a56e1d24a590ee5fe03ad71a1e">m_si</a></td></tr>
-<tr class="memdesc:a637cb4a56e1d24a590ee5fe03ad71a1e inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">subset for evaluation  <a href="classug_1_1_i_cpl_user_data.html#a637cb4a56e1d24a590ee5fe03ad71a1e">More...</a><br /></td></tr>
-<tr class="separator:a637cb4a56e1d24a590ee5fe03ad71a1e inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87cc58d5cfdd0e1f7a0b971c109a4bc9 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_cpl_user_data.html#a87cc58d5cfdd0e1f7a0b971c109a4bc9">m_timePoint</a></td></tr>
-<tr class="memdesc:a87cc58d5cfdd0e1f7a0b971c109a4bc9 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">current time point (used if no explicit specification for series)  <a href="classug_1_1_i_cpl_user_data.html#a87cc58d5cfdd0e1f7a0b971c109a4bc9">More...</a><br /></td></tr>
-<tr class="separator:a87cc58d5cfdd0e1f7a0b971c109a4bc9 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af92e17d20c159e773666a558a485409a inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memItemLeft" align="right" valign="top">std::vector&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_cpl_user_data.html#af92e17d20c159e773666a558a485409a">m_vMayChange</a></td></tr>
-<tr class="memdesc:af92e17d20c159e773666a558a485409a inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">flags if local ips may change  <a href="classug_1_1_i_cpl_user_data.html#af92e17d20c159e773666a558a485409a">More...</a><br /></td></tr>
-<tr class="separator:af92e17d20c159e773666a558a485409a inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b2256af5f6c1ddcb11c58d2f81b17f3 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memItemLeft" align="right" valign="top">std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_cpl_user_data.html#a9b2256af5f6c1ddcb11c58d2f81b17f3">m_vNumIP</a></td></tr>
-<tr class="memdesc:a9b2256af5f6c1ddcb11c58d2f81b17f3 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of evaluation points (-1 indicates no ips set)  <a href="classug_1_1_i_cpl_user_data.html#a9b2256af5f6c1ddcb11c58d2f81b17f3">More...</a><br /></td></tr>
-<tr class="separator:a9b2256af5f6c1ddcb11c58d2f81b17f3 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e930031f11532d5cbaafe0a30323fd5 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_cpl_user_data.html#a9e930031f11532d5cbaafe0a30323fd5">m_vTime</a></td></tr>
-<tr class="memdesc:a9e930031f11532d5cbaafe0a30323fd5 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">time for evaluation  <a href="classug_1_1_i_cpl_user_data.html#a9e930031f11532d5cbaafe0a30323fd5">More...</a><br /></td></tr>
-<tr class="separator:a9e930031f11532d5cbaafe0a30323fd5 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5228041af1fcb7c8df365a69fafbb5f5 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_cpl_user_data.html#a5228041af1fcb7c8df365a69fafbb5f5">m_vTimePoint</a></td></tr>
-<tr class="memdesc:a5228041af1fcb7c8df365a69fafbb5f5 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">time points for the series  <a href="classug_1_1_i_cpl_user_data.html#a5228041af1fcb7c8df365a69fafbb5f5">More...</a><br /></td></tr>
-<tr class="separator:a5228041af1fcb7c8df365a69fafbb5f5 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d4f2bf70c7ba97fa0c67c30c753b769 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; <a class="elRef" href="../plugins/group__small__strain__mechanics.html#ga884d1b406bedb21e341d11cd30fb5079">dim</a> &gt; * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_cpl_user_data.html#a2d4f2bf70c7ba97fa0c67c30c753b769">m_vvGlobPos</a></td></tr>
-<tr class="memdesc:a2d4f2bf70c7ba97fa0c67c30c753b769 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">global ips  <a href="classug_1_1_i_cpl_user_data.html#a2d4f2bf70c7ba97fa0c67c30c753b769">More...</a><br /></td></tr>
-<tr class="separator:a2d4f2bf70c7ba97fa0c67c30c753b769 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_classug_1_1_user_data_info"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classug_1_1_user_data_info')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classug_1_1_user_data_info.html">ug::UserDataInfo</a></td></tr>
-<tr class="memitem:a8f93e7a4c098d08e5f212966e63d8af4 inherit pro_attribs_classug_1_1_user_data_info"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_function_group.html">FunctionGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_user_data_info.html#a8f93e7a4c098d08e5f212966e63d8af4">m_fctGrp</a></td></tr>
-<tr class="memdesc:a8f93e7a4c098d08e5f212966e63d8af4 inherit pro_attribs_classug_1_1_user_data_info"><td class="mdescLeft">&#160;</td><td class="mdescRight">functions the data depends on  <a href="classug_1_1_user_data_info.html#a8f93e7a4c098d08e5f212966e63d8af4">More...</a><br /></td></tr>
-<tr class="separator:a8f93e7a4c098d08e5f212966e63d8af4 inherit pro_attribs_classug_1_1_user_data_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74ffbb09c9810d5ca4635c606ad6894c inherit pro_attribs_classug_1_1_user_data_info"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_function_index_mapping.html">FunctionIndexMapping</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_user_data_info.html#a74ffbb09c9810d5ca4635c606ad6894c">m_map</a></td></tr>
-<tr class="memdesc:a74ffbb09c9810d5ca4635c606ad6894c inherit pro_attribs_classug_1_1_user_data_info"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mapping for import fct.  <a href="classug_1_1_user_data_info.html#a74ffbb09c9810d5ca4635c606ad6894c">More...</a><br /></td></tr>
-<tr class="separator:a74ffbb09c9810d5ca4635c606ad6894c inherit pro_attribs_classug_1_1_user_data_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbdb419ece734cdd220ca1bcad176706"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_explicit_grid_function_gradient.html#acbdb419ece734cdd220ca1bcad176706">m_fct</a></td></tr>
+<tr class="memdesc:acbdb419ece734cdd220ca1bcad176706"><td class="mdescLeft">&#160;</td><td class="mdescRight">component of the function  <a href="classug_1_1_explicit_grid_function_gradient.html#acbdb419ece734cdd220ca1bcad176706">More...</a><br /></td></tr>
+<tr class="separator:acbdb419ece734cdd220ca1bcad176706"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a431dbe3aa4996d9f69e027d87cda1ee9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_l_f_e_i_d.html">LFEID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_explicit_grid_function_gradient.html#a431dbe3aa4996d9f69e027d87cda1ee9">m_lfeID</a></td></tr>
+<tr class="memdesc:a431dbe3aa4996d9f69e027d87cda1ee9"><td class="mdescLeft">&#160;</td><td class="mdescRight">type of the shape functions  <a href="classug_1_1_explicit_grid_function_gradient.html#a431dbe3aa4996d9f69e027d87cda1ee9">More...</a><br /></td></tr>
+<tr class="separator:a431dbe3aa4996d9f69e027d87cda1ee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_types_classug_1_1_cpl_user_data"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classug_1_1_cpl_user_data')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classug_1_1_cpl_user_data.html">ug::CplUserData&lt; MathVector&lt; TGridFunction::dim &gt;, dim, void &gt;</a></td></tr>
+<tr class="memitem:a261ea38637931e28c83824cb381bfa5e inherit pub_types_classug_1_1_cpl_user_data"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classug_1_1_i_cpl_user_data.html">ICplUserData</a>&lt; <a class="elRef" href="../plugins/group__small__strain__mechanics.html#ga884d1b406bedb21e341d11cd30fb5079">dim</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_cpl_user_data.html#a261ea38637931e28c83824cb381bfa5e">base_type</a></td></tr>
+<tr class="memdesc:a261ea38637931e28c83824cb381bfa5e inherit pub_types_classug_1_1_cpl_user_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">type of base class  <a href="classug_1_1_cpl_user_data.html#a261ea38637931e28c83824cb381bfa5e">More...</a><br /></td></tr>
+<tr class="separator:a261ea38637931e28c83824cb381bfa5e inherit pub_types_classug_1_1_cpl_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_classug_1_1_user_data"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classug_1_1_user_data')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classug_1_1_user_data.html">ug::UserData&lt; MathVector&lt; TGridFunction::dim &gt;, dim, void &gt;</a></td></tr>
+<tr class="memitem:a8aeb372d3a0554708867acbb8185be69 inherit pub_types_classug_1_1_user_data"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; <a class="elRef" href="../plugins/group__small__strain__mechanics.html#ga884d1b406bedb21e341d11cd30fb5079">TGridFunction::dim</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_user_data.html#a8aeb372d3a0554708867acbb8185be69">data_type</a></td></tr>
+<tr class="separator:a8aeb372d3a0554708867acbb8185be69 inherit pub_types_classug_1_1_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fabcb836d19a326205148c11554fc7a inherit pub_types_classug_1_1_user_data"><td class="memItemLeft" align="right" valign="top">typedef void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_user_data.html#a0fabcb836d19a326205148c11554fc7a">return_type</a></td></tr>
+<tr class="separator:a0fabcb836d19a326205148c11554fc7a inherit pub_types_classug_1_1_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classug_1_1_std_explicit_grid_function_data"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classug_1_1_std_explicit_grid_function_data')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classug_1_1_std_explicit_grid_function_data.html">ug::StdExplicitGridFunctionData&lt; ExplicitGridFunctionGradient&lt; TGridFunction &gt;, MathVector&lt; TGridFunction::dim &gt;, TGridFunction &gt;</a></td></tr>
 <tr class="memitem:a2e8e28d3da44bca79b38abf1dbdb7a31 inherit pro_methods_classug_1_1_std_explicit_grid_function_data"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_explicit_grid_function_gradient.html">ExplicitGridFunctionGradient</a>&lt; TGridFunction &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_std_explicit_grid_function_data.html#a2e8e28d3da44bca79b38abf1dbdb7a31">getImpl</a> ()</td></tr>
 <tr class="memdesc:a2e8e28d3da44bca79b38abf1dbdb7a31 inherit pro_methods_classug_1_1_std_explicit_grid_function_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">access to implementation  <a href="classug_1_1_std_explicit_grid_function_data.html#a2e8e28d3da44bca79b38abf1dbdb7a31">More...</a><br /></td></tr>
@@ -471,8 +427,65 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac5129a0e8c618d7659fa03195b5a6204 inherit pro_methods_classug_1_1_i_cpl_user_data"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_cpl_user_data.html#ac5129a0e8c618d7659fa03195b5a6204">global_ips_changed</a> (const size_t seriesID, const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; <a class="elRef" href="../plugins/group__small__strain__mechanics.html#ga884d1b406bedb21e341d11cd30fb5079">dim</a> &gt; *vPos, const size_t numIP)</td></tr>
 <tr class="memdesc:ac5129a0e8c618d7659fa03195b5a6204 inherit pro_methods_classug_1_1_i_cpl_user_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback invoked after global ips have been changed  <a href="classug_1_1_i_cpl_user_data.html#ac5129a0e8c618d7659fa03195b5a6204">More...</a><br /></td></tr>
 <tr class="separator:ac5129a0e8c618d7659fa03195b5a6204 inherit pro_methods_classug_1_1_i_cpl_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classug_1_1_std_explicit_grid_function_data"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classug_1_1_std_explicit_grid_function_data')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classug_1_1_std_explicit_grid_function_data.html">ug::StdExplicitGridFunctionData&lt; ExplicitGridFunctionGradient&lt; TGridFunction &gt;, MathVector&lt; TGridFunction::dim &gt;, TGridFunction &gt;</a></td></tr>
+<tr class="memitem:a19f4009e8c3ff7aac67cf119be226a67 inherit pro_attribs_classug_1_1_std_explicit_grid_function_data"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_std_explicit_grid_function_data.html#a19f4009e8c3ff7aac67cf119be226a67">m_fct</a></td></tr>
+<tr class="memdesc:a19f4009e8c3ff7aac67cf119be226a67 inherit pro_attribs_classug_1_1_std_explicit_grid_function_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">component of function  <a href="classug_1_1_std_explicit_grid_function_data.html#a19f4009e8c3ff7aac67cf119be226a67">More...</a><br /></td></tr>
+<tr class="separator:a19f4009e8c3ff7aac67cf119be226a67 inherit pro_attribs_classug_1_1_std_explicit_grid_function_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a509023f77c707a1fcdafcc0f7b1d1b8c inherit pro_attribs_classug_1_1_std_explicit_grid_function_data"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_l_f_e_i_d.html">LFEID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_std_explicit_grid_function_data.html#a509023f77c707a1fcdafcc0f7b1d1b8c">m_lfeID</a></td></tr>
+<tr class="separator:a509023f77c707a1fcdafcc0f7b1d1b8c inherit pro_attribs_classug_1_1_std_explicit_grid_function_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adab6901cbd2225e0000fbd9653e77b65 inherit pro_attribs_classug_1_1_std_explicit_grid_function_data"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; TGridFunction &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_std_explicit_grid_function_data.html#adab6901cbd2225e0000fbd9653e77b65">m_spGridFct</a></td></tr>
+<tr class="memdesc:adab6901cbd2225e0000fbd9653e77b65 inherit pro_attribs_classug_1_1_std_explicit_grid_function_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">grid function  <a href="classug_1_1_std_explicit_grid_function_data.html#adab6901cbd2225e0000fbd9653e77b65">More...</a><br /></td></tr>
+<tr class="separator:adab6901cbd2225e0000fbd9653e77b65 inherit pro_attribs_classug_1_1_std_explicit_grid_function_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classug_1_1_i_cpl_user_data"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classug_1_1_i_cpl_user_data')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classug_1_1_i_cpl_user_data.html">ug::ICplUserData&lt; dim &gt;</a></td></tr>
+<tr class="memitem:ac607f2a68932c1b9589104b6e91b9e0d inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_cpl_user_data.html#ac607f2a68932c1b9589104b6e91b9e0d">m_defaultTimePoint</a></td></tr>
+<tr class="memdesc:ac607f2a68932c1b9589104b6e91b9e0d inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">default time point (or -1 if not specified)  <a href="classug_1_1_i_cpl_user_data.html#ac607f2a68932c1b9589104b6e91b9e0d">More...</a><br /></td></tr>
+<tr class="separator:ac607f2a68932c1b9589104b6e91b9e0d inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3bf1686a70ebb158afad8b5ed4a2af8 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_cpl_user_data.html#ad3bf1686a70ebb158afad8b5ed4a2af8">m_locPosDim</a></td></tr>
+<tr class="memdesc:ad3bf1686a70ebb158afad8b5ed4a2af8 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">dimension of local position (-1 indicates no dim set)  <a href="classug_1_1_i_cpl_user_data.html#ad3bf1686a70ebb158afad8b5ed4a2af8">More...</a><br /></td></tr>
+<tr class="separator:ad3bf1686a70ebb158afad8b5ed4a2af8 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a20b47f3846c9ca6d8e2f7f47ff4b53 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; 1 &gt; * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_cpl_user_data.html#a6a20b47f3846c9ca6d8e2f7f47ff4b53">m_pvLocIP1d</a></td></tr>
+<tr class="memdesc:a6a20b47f3846c9ca6d8e2f7f47ff4b53 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">local ips of dimension 1d-3d  <a href="classug_1_1_i_cpl_user_data.html#a6a20b47f3846c9ca6d8e2f7f47ff4b53">More...</a><br /></td></tr>
+<tr class="separator:a6a20b47f3846c9ca6d8e2f7f47ff4b53 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d942a7e85b5de14920d462483a6ac94 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; 2 &gt; * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_cpl_user_data.html#a0d942a7e85b5de14920d462483a6ac94">m_pvLocIP2d</a></td></tr>
+<tr class="separator:a0d942a7e85b5de14920d462483a6ac94 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71a64c0d540a05adfd221379fa392f44 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; 3 &gt; * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_cpl_user_data.html#a71a64c0d540a05adfd221379fa392f44">m_pvLocIP3d</a></td></tr>
+<tr class="separator:a71a64c0d540a05adfd221379fa392f44 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a637cb4a56e1d24a590ee5fe03ad71a1e inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_cpl_user_data.html#a637cb4a56e1d24a590ee5fe03ad71a1e">m_si</a></td></tr>
+<tr class="memdesc:a637cb4a56e1d24a590ee5fe03ad71a1e inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">subset for evaluation  <a href="classug_1_1_i_cpl_user_data.html#a637cb4a56e1d24a590ee5fe03ad71a1e">More...</a><br /></td></tr>
+<tr class="separator:a637cb4a56e1d24a590ee5fe03ad71a1e inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87cc58d5cfdd0e1f7a0b971c109a4bc9 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_cpl_user_data.html#a87cc58d5cfdd0e1f7a0b971c109a4bc9">m_timePoint</a></td></tr>
+<tr class="memdesc:a87cc58d5cfdd0e1f7a0b971c109a4bc9 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">current time point (used if no explicit specification for series)  <a href="classug_1_1_i_cpl_user_data.html#a87cc58d5cfdd0e1f7a0b971c109a4bc9">More...</a><br /></td></tr>
+<tr class="separator:a87cc58d5cfdd0e1f7a0b971c109a4bc9 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af92e17d20c159e773666a558a485409a inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memItemLeft" align="right" valign="top">std::vector&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_cpl_user_data.html#af92e17d20c159e773666a558a485409a">m_vMayChange</a></td></tr>
+<tr class="memdesc:af92e17d20c159e773666a558a485409a inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">flags if local ips may change  <a href="classug_1_1_i_cpl_user_data.html#af92e17d20c159e773666a558a485409a">More...</a><br /></td></tr>
+<tr class="separator:af92e17d20c159e773666a558a485409a inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b2256af5f6c1ddcb11c58d2f81b17f3 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memItemLeft" align="right" valign="top">std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_cpl_user_data.html#a9b2256af5f6c1ddcb11c58d2f81b17f3">m_vNumIP</a></td></tr>
+<tr class="memdesc:a9b2256af5f6c1ddcb11c58d2f81b17f3 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of evaluation points (-1 indicates no ips set)  <a href="classug_1_1_i_cpl_user_data.html#a9b2256af5f6c1ddcb11c58d2f81b17f3">More...</a><br /></td></tr>
+<tr class="separator:a9b2256af5f6c1ddcb11c58d2f81b17f3 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e930031f11532d5cbaafe0a30323fd5 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_cpl_user_data.html#a9e930031f11532d5cbaafe0a30323fd5">m_vTime</a></td></tr>
+<tr class="memdesc:a9e930031f11532d5cbaafe0a30323fd5 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">time for evaluation  <a href="classug_1_1_i_cpl_user_data.html#a9e930031f11532d5cbaafe0a30323fd5">More...</a><br /></td></tr>
+<tr class="separator:a9e930031f11532d5cbaafe0a30323fd5 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5228041af1fcb7c8df365a69fafbb5f5 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_cpl_user_data.html#a5228041af1fcb7c8df365a69fafbb5f5">m_vTimePoint</a></td></tr>
+<tr class="memdesc:a5228041af1fcb7c8df365a69fafbb5f5 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">time points for the series  <a href="classug_1_1_i_cpl_user_data.html#a5228041af1fcb7c8df365a69fafbb5f5">More...</a><br /></td></tr>
+<tr class="separator:a5228041af1fcb7c8df365a69fafbb5f5 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d4f2bf70c7ba97fa0c67c30c753b769 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; <a class="elRef" href="../plugins/group__small__strain__mechanics.html#ga884d1b406bedb21e341d11cd30fb5079">dim</a> &gt; * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_cpl_user_data.html#a2d4f2bf70c7ba97fa0c67c30c753b769">m_vvGlobPos</a></td></tr>
+<tr class="memdesc:a2d4f2bf70c7ba97fa0c67c30c753b769 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">global ips  <a href="classug_1_1_i_cpl_user_data.html#a2d4f2bf70c7ba97fa0c67c30c753b769">More...</a><br /></td></tr>
+<tr class="separator:a2d4f2bf70c7ba97fa0c67c30c753b769 inherit pro_attribs_classug_1_1_i_cpl_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classug_1_1_user_data_info"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classug_1_1_user_data_info')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classug_1_1_user_data_info.html">ug::UserDataInfo</a></td></tr>
+<tr class="memitem:a8f93e7a4c098d08e5f212966e63d8af4 inherit pro_attribs_classug_1_1_user_data_info"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_function_group.html">FunctionGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_user_data_info.html#a8f93e7a4c098d08e5f212966e63d8af4">m_fctGrp</a></td></tr>
+<tr class="memdesc:a8f93e7a4c098d08e5f212966e63d8af4 inherit pro_attribs_classug_1_1_user_data_info"><td class="mdescLeft">&#160;</td><td class="mdescRight">functions the data depends on  <a href="classug_1_1_user_data_info.html#a8f93e7a4c098d08e5f212966e63d8af4">More...</a><br /></td></tr>
+<tr class="separator:a8f93e7a4c098d08e5f212966e63d8af4 inherit pro_attribs_classug_1_1_user_data_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74ffbb09c9810d5ca4635c606ad6894c inherit pro_attribs_classug_1_1_user_data_info"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_function_index_mapping.html">FunctionIndexMapping</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_user_data_info.html#a74ffbb09c9810d5ca4635c606ad6894c">m_map</a></td></tr>
+<tr class="memdesc:a74ffbb09c9810d5ca4635c606ad6894c inherit pro_attribs_classug_1_1_user_data_info"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mapping for import fct.  <a href="classug_1_1_user_data_info.html#a74ffbb09c9810d5ca4635c606ad6894c">More...</a><br /></td></tr>
+<tr class="separator:a74ffbb09c9810d5ca4635c606ad6894c inherit pro_attribs_classug_1_1_user_data_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename TGridFunction&gt;<br />
+class ug::ExplicitGridFunctionGradient&lt; TGridFunction &gt;</h3>
+
+<p>Base class for the CplUserData-interface for the gradient of a grid function.</p>
+<p>This base class provides the <a class="el" href="classug_1_1_cpl_user_data.html" title="Type based UserData.">CplUserData</a> interface for the gradient of a <a class="el" href="classug_1_1_grid_function.html" title="represents numerical solutions on a grid using an algebraic vector">GridFunction</a> at integration points. It can be used in particular to specify constant (or explicit) import parameters for discretizations. Note that this interface does NOT compute derivatives (so, assuming that the data are constant and do not depend on the current guess of the solution). For the gradient of the current solution in discretizations, so that the derivatives w.r.t. the DoFs are taken into account, use the <a class="el" href="classug_1_1_grid_function_gradient_data.html">GridFunctionGradientData</a> class. </p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="ad09a93c95206a1705fdb3aaeb203f1cc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad09a93c95206a1705fdb3aaeb203f1cc">&#9670;&nbsp;</a></span>base_type</h2>
 
@@ -480,18 +493,26 @@ Additional Inherited Members</h2></td></tr>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename TGridFunction &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">typedef <a class="el" href="classug_1_1_std_explicit_grid_function_data.html">StdExplicitGridFunctionData</a>&lt;<a class="el" href="classug_1_1_explicit_grid_function_gradient.html">ExplicitGridFunctionGradient</a>&lt;TGridFunction&gt;, <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt;<a class="elRef" href="../plugins/group__small__strain__mechanics.html#ga884d1b406bedb21e341d11cd30fb5079">TGridFunction::dim</a>&gt;, TGridFunction &gt; <a class="el" href="classug_1_1_explicit_grid_function_gradient.html">ug::ExplicitGridFunctionGradient</a>&lt; TGridFunction &gt;::<a class="el" href="classug_1_1_explicit_grid_function_gradient.html#ad09a93c95206a1705fdb3aaeb203f1cc">base_type</a></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="abceb23a91e9c615fedb6e43eb302b15a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abceb23a91e9c615fedb6e43eb302b15a">&#9670;&nbsp;</a></span>ExplicitGridFunctionGradient()</h2>
+<a id="a6c86a5951c22cde49b17770da5a7bb61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c86a5951c22cde49b17770da5a7bb61">&#9670;&nbsp;</a></span>ExplicitGridFunctionGradient()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -505,7 +526,7 @@ template&lt;typename TGridFunction &gt; </div>
           <td class="memname"><a class="el" href="classug_1_1_explicit_grid_function_gradient.html">ug::ExplicitGridFunctionGradient</a>&lt; TGridFunction &gt;::<a class="el" href="classug_1_1_explicit_grid_function_gradient.html">ExplicitGridFunctionGradient</a> </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; TGridFunction &gt;&#160;</td>
-          <td class="paramname"><em>spGridFct</em>, </td>
+          <td class="paramname"><em>gf</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -527,6 +548,15 @@ template&lt;typename TGridFunction &gt; </div>
 </div><div class="memdoc">
 
 <p>constructor </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gf</td><td>grid function </td></tr>
+    <tr><td class="paramname">cmp</td><td>its component </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">References <a class="el" href="classug_1_1_explicit_grid_function_gradient.html#acbdb419ece734cdd220ca1bcad176706">ug::ExplicitGridFunctionGradient&lt; TGridFunction &gt;::m_fct</a>, <a class="el" href="classug_1_1_explicit_grid_function_gradient.html#a431dbe3aa4996d9f69e027d87cda1ee9">ug::ExplicitGridFunctionGradient&lt; TGridFunction &gt;::m_lfeID</a>, <a class="el" href="classug_1_1_std_explicit_grid_function_data.html#adab6901cbd2225e0000fbd9653e77b65">ug::StdExplicitGridFunctionData&lt; ExplicitGridFunctionGradient&lt; TGridFunction &gt;, MathVector&lt; TGridFunction::dim &gt;, TGridFunction &gt;::m_spGridFct</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
 
 </div>
 </div>
@@ -688,7 +718,7 @@ template&lt;int refDim&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespaceug.html#a28505c00901b4dfa87cb8e43a738078f">ug::DoFRef()</a>, <a class="el" href="classug_1_1_explicit_grid_function_gradient.html#a55be0ebb22e7919891264516bf9ee220">ug::ExplicitGridFunctionGradient&lt; TGridFunction &gt;::get_subset_coeff()</a>, <a class="el" href="classug_1_1_local_shape_function_set.html#a681cbb674fa7b28a7b300d8f7aed0d93">ug::LocalShapeFunctionSet&lt; TDim, TShape, TGrad &gt;::grads()</a>, <a class="el" href="group__math__matrix.html#gae47dabe81d5739150d76b609db55f8ab">ug::Inverse()</a>, <a class="el" href="classug_1_1_i_cpl_user_data.html#a0515c6cd5a672d05d05f7a3c12bb25ef">ug::ICplUserData&lt; dim &gt;::ip()</a>, <a class="el" href="classug_1_1_dim_reference_mapping.html#a1a04a56f31f36f8540102e70413d1d56">ug::DimReferenceMapping&lt; TDim, TWorldDim &gt;::jacobian_transposed()</a>, <a class="el" href="classug_1_1_std_explicit_grid_function_data.html#a19f4009e8c3ff7aac67cf119be226a67">ug::StdExplicitGridFunctionData&lt; ExplicitGridFunctionGradient&lt; TGridFunction &gt;, MathVector&lt; TGridFunction::dim &gt;, TGridFunction &gt;::m_fct</a>, <a class="el" href="classug_1_1_std_explicit_grid_function_data.html#a509023f77c707a1fcdafcc0f7b1d1b8c">ug::StdExplicitGridFunctionData&lt; ExplicitGridFunctionGradient&lt; TGridFunction &gt;, MathVector&lt; TGridFunction::dim &gt;, TGridFunction &gt;::m_lfeID</a>, <a class="el" href="classug_1_1_std_explicit_grid_function_data.html#adab6901cbd2225e0000fbd9653e77b65">ug::StdExplicitGridFunctionData&lt; ExplicitGridFunctionGradient&lt; TGridFunction &gt;, MathVector&lt; TGridFunction::dim &gt;, TGridFunction &gt;::m_spGridFct</a>, <a class="el" href="group__ugbase__math.html#gab755dfcc4823f5a150c931e1fdca6c78">ug::MatVecMult()</a>, <a class="el" href="classug_1_1_grid_object.html#acfaabf249961773ef13ac5efc2a9c51f">ug::GridObject::reference_object_id()</a>, <a class="el" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>, <a class="el" href="group__vectors.html#gaa0cd3e6bb61c8e341541f8cf3065ec6d">ug::VecScale()</a>, <a class="el" href="group__vectors.html#ga02a8ab32c0b406dc365cc6fb8da1e046">ug::VecScaleAppend()</a>, and <a class="el" href="group__vectors.html#ga37c542a5b243f331a1d8bb74d331ba4e">ug::VecSet()</a>.</p>
+<p class="reference">References <a class="el" href="namespaceug.html#a28505c00901b4dfa87cb8e43a738078f">ug::DoFRef()</a>, <a class="el" href="classug_1_1_explicit_grid_function_gradient.html#a55be0ebb22e7919891264516bf9ee220">ug::ExplicitGridFunctionGradient&lt; TGridFunction &gt;::get_subset_coeff()</a>, <a class="el" href="classug_1_1_local_shape_function_set.html#a681cbb674fa7b28a7b300d8f7aed0d93">ug::LocalShapeFunctionSet&lt; TDim, TShape, TGrad &gt;::grads()</a>, <a class="el" href="group__math__matrix.html#gae47dabe81d5739150d76b609db55f8ab">ug::Inverse()</a>, <a class="el" href="classug_1_1_i_cpl_user_data.html#a0515c6cd5a672d05d05f7a3c12bb25ef">ug::ICplUserData&lt; dim &gt;::ip()</a>, <a class="el" href="classug_1_1_dim_reference_mapping.html#a1a04a56f31f36f8540102e70413d1d56">ug::DimReferenceMapping&lt; TDim, TWorldDim &gt;::jacobian_transposed()</a>, <a class="el" href="classug_1_1_explicit_grid_function_gradient.html#acbdb419ece734cdd220ca1bcad176706">ug::ExplicitGridFunctionGradient&lt; TGridFunction &gt;::m_fct</a>, <a class="el" href="classug_1_1_explicit_grid_function_gradient.html#a431dbe3aa4996d9f69e027d87cda1ee9">ug::ExplicitGridFunctionGradient&lt; TGridFunction &gt;::m_lfeID</a>, <a class="el" href="classug_1_1_std_explicit_grid_function_data.html#adab6901cbd2225e0000fbd9653e77b65">ug::StdExplicitGridFunctionData&lt; ExplicitGridFunctionGradient&lt; TGridFunction &gt;, MathVector&lt; TGridFunction::dim &gt;, TGridFunction &gt;::m_spGridFct</a>, <a class="el" href="group__ugbase__math.html#gab755dfcc4823f5a150c931e1fdca6c78">ug::MatVecMult()</a>, <a class="el" href="classug_1_1_grid_object.html#acfaabf249961773ef13ac5efc2a9c51f">ug::GridObject::reference_object_id()</a>, <a class="el" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>, <a class="el" href="group__vectors.html#gaa0cd3e6bb61c8e341541f8cf3065ec6d">ug::VecScale()</a>, <a class="el" href="group__vectors.html#ga02a8ab32c0b406dc365cc6fb8da1e046">ug::VecScaleAppend()</a>, and <a class="el" href="group__vectors.html#ga37c542a5b243f331a1d8bb74d331ba4e">ug::VecSet()</a>.</p>
 
 </div>
 </div>
@@ -766,12 +796,68 @@ template&lt;typename TGridFunction &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p class="reference">Referenced by <a class="el" href="classug_1_1_explicit_grid_function_gradient.html#a1f1534a1824dda9e8d9408cc98a372b4">ug::ExplicitGridFunctionGradient&lt; TGridFunction &gt;::add_subset_coeff()</a>, and <a class="el" href="classug_1_1_explicit_grid_function_gradient.html#a55be0ebb22e7919891264516bf9ee220">ug::ExplicitGridFunctionGradient&lt; TGridFunction &gt;::get_subset_coeff()</a>.</p>
+
+</div>
+</div>
+<a id="acbdb419ece734cdd220ca1bcad176706"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbdb419ece734cdd220ca1bcad176706">&#9670;&nbsp;</a></span>m_fct</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TGridFunction &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t <a class="el" href="classug_1_1_explicit_grid_function_gradient.html">ug::ExplicitGridFunctionGradient</a>&lt; TGridFunction &gt;::m_fct</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>component of the function </p>
+
+<p class="reference">Referenced by <a class="el" href="classug_1_1_explicit_grid_function_gradient.html#a067c640c65fb19d96a0884439303f10f">ug::ExplicitGridFunctionGradient&lt; TGridFunction &gt;::evaluate()</a>, and <a class="el" href="classug_1_1_explicit_grid_function_gradient.html#a6c86a5951c22cde49b17770da5a7bb61">ug::ExplicitGridFunctionGradient&lt; TGridFunction &gt;::ExplicitGridFunctionGradient()</a>.</p>
+
+</div>
+</div>
+<a id="a431dbe3aa4996d9f69e027d87cda1ee9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a431dbe3aa4996d9f69e027d87cda1ee9">&#9670;&nbsp;</a></span>m_lfeID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TGridFunction &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classug_1_1_l_f_e_i_d.html">LFEID</a> <a class="el" href="classug_1_1_explicit_grid_function_gradient.html">ug::ExplicitGridFunctionGradient</a>&lt; TGridFunction &gt;::m_lfeID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>type of the shape functions </p>
+
+<p class="reference">Referenced by <a class="el" href="classug_1_1_explicit_grid_function_gradient.html#a067c640c65fb19d96a0884439303f10f">ug::ExplicitGridFunctionGradient&lt; TGridFunction &gt;::evaluate()</a>, and <a class="el" href="classug_1_1_explicit_grid_function_gradient.html#a6c86a5951c22cde49b17770da5a7bb61">ug::ExplicitGridFunctionGradient&lt; TGridFunction &gt;::ExplicitGridFunctionGradient()</a>.</p>
 
 </div>
 </div>
@@ -784,7 +870,7 @@ template&lt;typename TGridFunction &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_explicit_grid_function_gradient.html">ExplicitGridFunctionGradient</a></li>
-    <li class="footer">Generated on Fri Dec 13 2019 23:54:54 for ug4 by
+    <li class="footer">Generated on Tue Oct 27 2020 05:30:17 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

@@ -7,6 +7,5 @@ var grid__objects__3d_8cpp =
     [ "PyramidClass", "classug_1_1_pyramid_class.html", "classug_1_1_pyramid_class" ],
     [ "TetrahedronClass", "classug_1_1_tetrahedron_class.html", "classug_1_1_tetrahedron_class" ],
     [ "CreateVolumesFromElementIndexList", "grid__objects__3d_8cpp.html#ac77c65f26de8e2e5de17c723a10abe0e", null ],
-    [ "Refine", "grid__objects__3d_8cpp.html#ac283b8f2da775914f2f724c22774553b", null ],
-    [ "ReorderCornersCCW", "grid__objects__3d_8cpp.html#a5e95d358221d61c4cb64980c7b53a79e", null ]
+    [ "Refine", "grid__objects__3d_8cpp.html#ac283b8f2da775914f2f724c22774553b", null ]
 ];

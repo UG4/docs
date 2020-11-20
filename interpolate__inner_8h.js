@@ -8,6 +8,8 @@ var interpolate__inner_8h =
     [ "InterpolateInner", "interpolate__inner_8h.html#a85990bc84224660939825769024ff666", null ],
     [ "InterpolateInner", "interpolate__inner_8h.html#acbb97d212970605c3f638e72809950fd", null ],
     [ "InterpolateInner", "interpolate__inner_8h.html#ac9ca8a40cdb5c30ff34c0ac57d0db31a", null ],
+    [ "InterpolateInnerDiff", "interpolate__inner_8h.html#a0bd967379c222e47e2b9fb3090da864e", null ],
     [ "InterpolateOnElementsInner", "interpolate__inner_8h.html#aed6db3683f70646d2db239244ff4aaf4", null ],
+    [ "InterpolateOnElementsInner", "interpolate__inner_8h.html#a27a11ffdd74de73a6d2267e08db6c23b", null ],
     [ "InterpolateOnElementsInner", "interpolate__inner_8h.html#a600d9f21c43de5d14a1bfc0a4d0a01a1", null ]
 ];

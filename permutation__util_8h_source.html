@@ -140,7 +140,7 @@ $(document).ready(function(){initNavTree('permutation__util_8h_source.html','');
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceug.html">ug</a>{</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> TMatrix&gt;</div>
-<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="namespaceug.html#a4ee580e331cd80bec5c1471cc7b5b009">   51</a></span>&#160;<span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="namespaceug.html#a4ee580e331cd80bec5c1471cc7b5b009">SetMatrixAsPermutation</a>(TMatrix &amp;PA, <span class="keyword">const</span> TMatrix &amp;A, std::vector&lt;size_t&gt; &amp;perm)</div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="namespaceug.html#aa1656a27f192f159f079ea34e12f41df">   51</a></span>&#160;<span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="namespaceug.html#aa1656a27f192f159f079ea34e12f41df">SetMatrixAsPermutation</a>(TMatrix &amp;PA, <span class="keyword">const</span> TMatrix &amp;A, <span class="keyword">const</span> std::vector&lt;size_t&gt; &amp;perm)</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;{</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <a class="code" href="profiler_8h.html#a3766fe91615588782ad5452a4d60ea5b">PROFILE_FUNC_GROUP</a>(<span class="stringliteral">&quot;algebra&quot;</span>);</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  PA.resize_and_clear(A.num_rows(), A.num_cols());</div>
@@ -157,7 +157,7 @@ $(document).ready(function(){initNavTree('permutation__util_8h_source.html','');
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;}</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> TVector&gt;</div>
-<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="namespaceug.html#a241bfbcdcb24c53c598c806074e33536">   74</a></span>&#160;<span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="namespaceug.html#a241bfbcdcb24c53c598c806074e33536">SetVectorAsPermutation</a>(TVector &amp;Pv, <span class="keyword">const</span> TVector &amp;v, std::vector&lt;size_t&gt; &amp;perm)</div>
+<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="namespaceug.html#a58c5855f39df7304f127c8c92e81ff2b">   74</a></span>&#160;<span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="namespaceug.html#a58c5855f39df7304f127c8c92e81ff2b">SetVectorAsPermutation</a>(TVector &amp;Pv, <span class="keyword">const</span> TVector &amp;v, <span class="keyword">const</span> std::vector&lt;size_t&gt; &amp;perm)</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;{</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  <span class="keywordflow">if</span>(Pv.size() != v.size()) Pv.resize(v.size());</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i=0; i&lt;v.size(); i++)</div>
@@ -191,13 +191,13 @@ $(document).ready(function(){initNavTree('permutation__util_8h_source.html','');
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="anamespaceug_html_a4ee580e331cd80bec5c1471cc7b5b009"><div class="ttname"><a href="namespaceug.html#a4ee580e331cd80bec5c1471cc7b5b009">ug::SetMatrixAsPermutation</a></div><div class="ttdeci">static void SetMatrixAsPermutation(TMatrix &amp;PA, const TMatrix &amp;A, std::vector&lt; size_t &gt; &amp;perm)</div><div class="ttdef"><b>Definition:</b> permutation_util.h:51</div></div>
 <div class="ttc" id="acommon_2cuthill__mckee_8h_html"><div class="ttname"><a href="common_2cuthill__mckee_8h.html">cuthill_mckee.h</a></div></div>
-<div class="ttc" id="anamespaceug_html_a241bfbcdcb24c53c598c806074e33536"><div class="ttname"><a href="namespaceug.html#a241bfbcdcb24c53c598c806074e33536">ug::SetVectorAsPermutation</a></div><div class="ttdeci">static void SetVectorAsPermutation(TVector &amp;Pv, const TVector &amp;v, std::vector&lt; size_t &gt; &amp;perm)</div><div class="ttdef"><b>Definition:</b> permutation_util.h:74</div></div>
 <div class="ttc" id="anamespaceug_html_ab990c7b7c689dce2ef1657f095644247"><div class="ttname"><a href="namespaceug.html#ab990c7b7c689dce2ef1657f095644247">ug::GetInversePermutation</a></div><div class="ttdeci">bool GetInversePermutation(const std::vector&lt; size_t &gt; &amp;perm, std::vector&lt; size_t &gt; &amp;invPerm)</div><div class="ttdef"><b>Definition:</b> permutation_util.cpp:39</div></div>
+<div class="ttc" id="anamespaceug_html_a58c5855f39df7304f127c8c92e81ff2b"><div class="ttname"><a href="namespaceug.html#a58c5855f39df7304f127c8c92e81ff2b">ug::SetVectorAsPermutation</a></div><div class="ttdeci">static void SetVectorAsPermutation(TVector &amp;Pv, const TVector &amp;v, const std::vector&lt; size_t &gt; &amp;perm)</div><div class="ttdef"><b>Definition:</b> permutation_util.h:74</div></div>
 <div class="ttc" id="acommon_2error_8h_html"><div class="ttname"><a href="common_2error_8h.html">error.h</a></div></div>
 <div class="ttc" id="anamespaceug_html_a1b5b97c7b726efb059a77cc112778b06"><div class="ttname"><a href="namespaceug.html#a1b5b97c7b726efb059a77cc112778b06">ug::ComputeCuthillMcKeeOrder</a></div><div class="ttdeci">void ComputeCuthillMcKeeOrder(std::vector&lt; size_t &gt; &amp;vNewIndex, std::vector&lt; std::vector&lt; size_t &gt; &gt; &amp;vvConnection, bool bReverse, bool bPreserveConsec)</div><div class="ttdoc">returns an array describing the needed index mapping for Cuthill-McKee ordering</div><div class="ttdef"><b>Definition:</b> cuthill_mckee.cpp:93</div></div>
 <div class="ttc" id="aprofiler_8h_html"><div class="ttname"><a href="profiler_8h.html">profiler.h</a></div></div>
+<div class="ttc" id="anamespaceug_html_aa1656a27f192f159f079ea34e12f41df"><div class="ttname"><a href="namespaceug.html#aa1656a27f192f159f079ea34e12f41df">ug::SetMatrixAsPermutation</a></div><div class="ttdeci">static void SetMatrixAsPermutation(TMatrix &amp;PA, const TMatrix &amp;A, const std::vector&lt; size_t &gt; &amp;perm)</div><div class="ttdef"><b>Definition:</b> permutation_util.h:51</div></div>
 <div class="ttc" id="aprofiler_8h_html_a3766fe91615588782ad5452a4d60ea5b"><div class="ttname"><a href="profiler_8h.html#a3766fe91615588782ad5452a4d60ea5b">PROFILE_FUNC_GROUP</a></div><div class="ttdeci">#define PROFILE_FUNC_GROUP(groups)</div><div class="ttdef"><b>Definition:</b> profiler.h:258</div></div>
 <div class="ttc" id="apermutation__util_8h_html"><div class="ttname"><a href="permutation__util_8h.html">permutation_util.h</a></div></div>
 <div class="ttc" id="acommon_8h_html"><div class="ttname"><a href="common_8h.html">common.h</a></div></div>
@@ -208,7 +208,7 @@ $(document).ready(function(){initNavTree('permutation__util_8h_source.html','');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_2e5eee3e6a2607df2611cb3dc665a6d5.html">lib_algebra</a></li><li class="navelem"><a class="el" href="dir_a922e40123d6b02ca42424624e17f743.html">algebra_common</a></li><li class="navelem"><a class="el" href="permutation__util_8h.html">permutation_util.h</a></li>
-    <li class="footer">Generated on Fri Dec 13 2019 23:53:34 for ug4 by
+    <li class="footer">Generated on Tue Oct 27 2020 05:28:54 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

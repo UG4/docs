@@ -110,6 +110,8 @@ $(document).ready(function(){initNavTree('user__data__bridge_8cpp.html','');});
 <code>#include &quot;<a class="el" href="common_8h_source.html">common/common.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="const__user__data_8h_source.html">lib_disc/spatial_disc/user_data/const_user_data.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="std__glob__pos__data_8h_source.html">lib_disc/spatial_disc/user_data/std_glob_pos_data.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="common__user__data_8h_source.html">lib_disc/spatial_disc/user_data/common_user_data/common_user_data.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="raster__user__data_8h_source.html">lib_disc/spatial_disc/user_data/common_user_data/raster_user_data.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="linker_8h_source.html">lib_disc/spatial_disc/user_data/linker/linker.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="scale__add__linker_8h_source.html">lib_disc/spatial_disc/user_data/linker/scale_add_linker.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="inverse__linker_8h_source.html">lib_disc/spatial_disc/user_data/linker/inverse_linker.h</a>&quot;</code><br />
@@ -117,7 +119,6 @@ $(document).ready(function(){initNavTree('user__data__bridge_8cpp.html','');});
 <code>#include &quot;<a class="el" href="bingham__viscosity__linker_8h_source.html">lib_disc/spatial_disc/user_data/linker/bingham_viscosity_linker.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="projection__linker_8h_source.html">lib_disc/spatial_disc/user_data/linker/projection_linker.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="user__function_8h_source.html">lib_disc/spatial_disc/user_data/user_function.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="common__user__data_8h_source.html">lib_disc/spatial_disc/user_data/common_user_data/common_user_data.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -144,9 +145,18 @@ Functions</h2></td></tr>
 <tr class="separator:ab0da17d4f98ed0e0c6d7b2ee5a38ba18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4885483fea55e47aa6c67146aba2512"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug_1_1bridge.html#ac4885483fea55e47aa6c67146aba2512">ug::bridge::RegisterBridge_UserData</a> (Registry &amp;reg, string grp)</td></tr>
 <tr class="separator:ac4885483fea55e47aa6c67146aba2512"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9db906118d5bbdf6c645df148a010571"><td class="memTemplParams" colspan="2">template&lt;typename TData , int dim&gt; </td></tr>
-<tr class="memitem:ga9db906118d5bbdf6c645df148a010571"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__userdata__bridge.html#ga9db906118d5bbdf6c645df148a010571">ug::bridge::RegisterUserDataType</a> (Registry &amp;reg, string grp)</td></tr>
-<tr class="separator:ga9db906118d5bbdf6c645df148a010571"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95e4e92344f39edb32903ab528ba1b13"><td class="memTemplParams" colspan="2">template&lt;class TValue , int dim&gt; </td></tr>
+<tr class="memitem:a95e4e92344f39edb32903ab528ba1b13"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug_1_1bridge.html#a95e4e92344f39edb32903ab528ba1b13">ug::bridge::RegisterRasterUserData</a> (Registry &amp;reg, string <a class="el" href="checkpoint__util_8lua.html#a3c1958e225ed64db3e56badcbdcc8df7">name</a>, string grp)</td></tr>
+<tr class="separator:a95e4e92344f39edb32903ab528ba1b13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga42df146f5edef0e4e4e3c0508487cb33"><td class="memTemplParams" colspan="2">template&lt;typename TData , int dim, typename TTraits  = user_data_traits&lt;TData&gt;&gt; </td></tr>
+<tr class="memitem:ga42df146f5edef0e4e4e3c0508487cb33"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__userdata__bridge.html#ga42df146f5edef0e4e4e3c0508487cb33">ug::bridge::RegisterUserDataType</a> (Registry &amp;reg, string grp)</td></tr>
+<tr class="separator:ga42df146f5edef0e4e4e3c0508487cb33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8f9b6b530266736414500b750f0e496a"><td class="memTemplParams" colspan="2">template&lt;typename TData , int dim, typename TTraits  = user_data_traits&lt;TData&gt;&gt; </td></tr>
+<tr class="memitem:ga8f9b6b530266736414500b750f0e496a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__userdata__bridge.html#ga8f9b6b530266736414500b750f0e496a">ug::bridge::RegisterUserDataTypeA</a> (Registry &amp;reg, string grp)</td></tr>
+<tr class="separator:ga8f9b6b530266736414500b750f0e496a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8b21856c1bfa3b21781129b9c997b2f2"><td class="memTemplParams" colspan="2">template&lt;typename TData , int dim, typename TTraits  = user_data_traits&lt;TData&gt;&gt; </td></tr>
+<tr class="memitem:ga8b21856c1bfa3b21781129b9c997b2f2"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__userdata__bridge.html#ga8b21856c1bfa3b21781129b9c997b2f2">ug::bridge::RegisterUserDataTypeB</a> (Registry &amp;reg, string grp)</td></tr>
+<tr class="separator:ga8b21856c1bfa3b21781129b9c997b2f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -154,7 +164,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_b0538a14208cacfdb4f78355b238afd2.html">bridge</a></li><li class="navelem"><a class="el" href="dir_ee78468624ee54215d33a2938dc5979a.html">disc_bridges</a></li><li class="navelem"><a class="el" href="user__data__bridge_8cpp.html">user_data_bridge.cpp</a></li>
-    <li class="footer">Generated on Fri Dec 13 2019 23:54:34 for ug4 by
+    <li class="footer">Generated on Tue Oct 27 2020 05:29:57 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

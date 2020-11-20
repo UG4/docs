@@ -126,6 +126,8 @@ Functions</h2></td></tr>
 <tr class="separator:gaf31820d91f65e3dd5680a7d6e4652dea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga57672e0c3f4904f54c95d7c20294e6b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#ga6a442be2e75e98247f82d1aa90a06aac">UG_API</a> <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__volume__util.html#ga57672e0c3f4904f54c95d7c20294e6b0">ug::CalculateTetrahedronRootMeanSquareFaceArea</a> (<a class="el" href="classug_1_1_grid.html">Grid</a> &amp;grid, <a class="el" href="classug_1_1_tetrahedron.html">Tetrahedron</a> *tet, <a class="el" href="classug_1_1_grid_1_1_vertex_attachment_accessor.html">Grid::VertexAttachmentAccessor</a>&lt; <a class="el" href="namespaceug.html#a780dd3524b97269f891365fd3c3b895a">APosition</a> &gt; &amp;aaPos)</td></tr>
 <tr class="separator:ga57672e0c3f4904f54c95d7c20294e6b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab1cfd58ca383d59ca40fe7138108daeb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#ga6a442be2e75e98247f82d1aa90a06aac">UG_API</a> <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__volume__util.html#gab1cfd58ca383d59ca40fe7138108daeb">ug::CalculateTetrahedronVolToRMSFaceAreaRatio</a> (<a class="el" href="classug_1_1_grid.html">Grid</a> &amp;grid, <a class="el" href="classug_1_1_hexahedron.html">Hexahedron</a> *hex, <a class="el" href="classug_1_1_grid_1_1_vertex_attachment_accessor.html">Grid::VertexAttachmentAccessor</a>&lt; <a class="el" href="namespaceug.html#a780dd3524b97269f891365fd3c3b895a">APosition</a> &gt; &amp;aaPos)</td></tr>
+<tr class="separator:gab1cfd58ca383d59ca40fe7138108daeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga298da598a9dbce8d5539d3658a261fe1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#ga6a442be2e75e98247f82d1aa90a06aac">UG_API</a> <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__volume__util.html#ga298da598a9dbce8d5539d3658a261fe1">ug::CalculateTetrahedronVolToRMSFaceAreaRatio</a> (<a class="el" href="classug_1_1_grid.html">Grid</a> &amp;grid, <a class="el" href="classug_1_1_tetrahedron.html">Tetrahedron</a> *tet, <a class="el" href="classug_1_1_grid_1_1_vertex_attachment_accessor.html">Grid::VertexAttachmentAccessor</a>&lt; <a class="el" href="namespaceug.html#a780dd3524b97269f891365fd3c3b895a">APosition</a> &gt; &amp;aaPos)</td></tr>
 <tr class="separator:ga298da598a9dbce8d5539d3658a261fe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga71697540df69ad33d455c45ac337f9fe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__volume__util.html#ga71697540df69ad33d455c45ac337f9fe">ug::CompareVertices</a> (const <a class="el" href="classug_1_1_volume_vertices.html">VolumeVertices</a> *vv1, const <a class="el" href="classug_1_1_volume_vertices.html">VolumeVertices</a> *vv2)</td></tr>
@@ -457,8 +459,42 @@ template&lt;class TVertexPositionAttachmentAccessor &gt; </div>
 
 </div>
 </div>
+<a id="gab1cfd58ca383d59ca40fe7138108daeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab1cfd58ca383d59ca40fe7138108daeb">&#9670;&nbsp;</a></span>CalculateTetrahedronVolToRMSFaceAreaRatio() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__ugbase__common.html#ga6a442be2e75e98247f82d1aa90a06aac">UG_API</a> <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> ug::CalculateTetrahedronVolToRMSFaceAreaRatio </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_grid.html">Grid</a> &amp;&#160;</td>
+          <td class="paramname"><em>grid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classug_1_1_hexahedron.html">Hexahedron</a> *&#160;</td>
+          <td class="paramname"><em>hex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classug_1_1_grid_1_1_vertex_attachment_accessor.html">Grid::VertexAttachmentAccessor</a>&lt; <a class="el" href="namespaceug.html#a780dd3524b97269f891365fd3c3b895a">APosition</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>aaPos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ga298da598a9dbce8d5539d3658a261fe1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga298da598a9dbce8d5539d3658a261fe1">&#9670;&nbsp;</a></span>CalculateTetrahedronVolToRMSFaceAreaRatio()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga298da598a9dbce8d5539d3658a261fe1">&#9670;&nbsp;</a></span>CalculateTetrahedronVolToRMSFaceAreaRatio() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1089,7 +1125,7 @@ template&lt;class TVolIter &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Dec 13 2019 23:54:38 for ug4 by
+    <li class="footer">Generated on Tue Oct 27 2020 05:30:01 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

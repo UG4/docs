@@ -2128,14 +2128,14 @@ $(document).ready(function(){initNavTree('damage__impl_8h_source.html','');});
 <div class="line"><a name="l02154"></a><span class="lineno"> 2154</span>&#160;<span class="comment">// Marking</span></div>
 <div class="line"><a name="l02158"></a><span class="lineno"> 2158</span>&#160;<span class="comment"></span> </div>
 <div class="line"><a name="l02159"></a><span class="lineno"> 2159</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> TDomain&gt;</div>
-<div class="line"><a name="l02160"></a><span class="lineno"><a class="line" href="namespaceug_1_1_small_strain_mechanics.html#afebb9361947b9f2e346d07052a37f5fd"> 2160</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespaceug_1_1_small_strain_mechanics.html#afebb9361947b9f2e346d07052a37f5fd">MarkForAdaption_ValueRangeIndicator</a>(</div>
+<div class="line"><a name="l02160"></a><span class="lineno"><a class="line" href="namespaceug_1_1_small_strain_mechanics.html#a235e6019224cc5b87db4f9f65ee67714"> 2160</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespaceug_1_1_small_strain_mechanics.html#a235e6019224cc5b87db4f9f65ee67714">MarkForAdaption_ValueRangeIndicator</a>(</div>
 <div class="line"><a name="l02161"></a><span class="lineno"> 2161</span>&#160;          <a class="codeRef" href="../class_smart_ptr.html">SmartPtr</a>&lt;<a class="codeRef" href="../classug_1_1_grid_function.html">GridFunction&lt;TDomain, CPUAlgebra&gt;</a> &gt; spChi,</div>
 <div class="line"><a name="l02162"></a><span class="lineno"> 2162</span>&#160;          <a class="codeRef" href="../classug_1_1_i_refiner.html">IRefiner</a>&amp; refiner,</div>
 <div class="line"><a name="l02163"></a><span class="lineno"> 2163</span>&#160;          <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> lowerValueToCoarsen, </div>
 <div class="line"><a name="l02164"></a><span class="lineno"> 2164</span>&#160;          <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> minValueToRefine, <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> maxValueToRefine,</div>
 <div class="line"><a name="l02165"></a><span class="lineno"> 2165</span>&#160;          <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> upperValueToCoarsen,</div>
-<div class="line"><a name="l02166"></a><span class="lineno"> 2166</span>&#160;          <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> maxJumpDiffToCoarsen,</div>
-<div class="line"><a name="l02167"></a><span class="lineno"> 2167</span>&#160;          <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> minJumpDiffToRefine,</div>
+<div class="line"><a name="l02166"></a><span class="lineno"> 2166</span>&#160;          <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> maxJumpDifferenceToNeighborsForCoarsen,</div>
+<div class="line"><a name="l02167"></a><span class="lineno"> 2167</span>&#160;          <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> minJumpDifferenceToNeighborsForRefine,</div>
 <div class="line"><a name="l02168"></a><span class="lineno"> 2168</span>&#160;          <span class="keywordtype">int</span> maxLevel)</div>
 <div class="line"><a name="l02169"></a><span class="lineno"> 2169</span>&#160;{</div>
 <div class="line"><a name="l02170"></a><span class="lineno"> 2170</span>&#160;  <a class="codeRef" href="../profiler_8h.html#a3766fe91615588782ad5452a4d60ea5b">PROFILE_FUNC_GROUP</a>(<span class="stringliteral">&quot;Small Strain Mech&quot;</span>);</div>
@@ -2185,453 +2185,434 @@ $(document).ready(function(){initNavTree('damage__impl_8h_source.html','');});
 <div class="line"><a name="l02217"></a><span class="lineno"> 2217</span>&#160; </div>
 <div class="line"><a name="l02218"></a><span class="lineno"> 2218</span>&#160;  <span class="comment">//  check whether all children of e of type TElem have similar values</span></div>
 <div class="line"><a name="l02219"></a><span class="lineno"> 2219</span>&#160;    <span class="keywordtype">bool</span> neighborsHaveLargeJump = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l02220"></a><span class="lineno"> 2220</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i = 0; i &lt; vNeighbors.size(); ++i){</div>
-<div class="line"><a name="l02221"></a><span class="lineno"> 2221</span>&#160; </div>
-<div class="line"><a name="l02222"></a><span class="lineno"> 2222</span>&#160;      TElem* neighbor = vNeighbors[i];</div>
-<div class="line"><a name="l02223"></a><span class="lineno"> 2223</span>&#160; </div>
-<div class="line"><a name="l02224"></a><span class="lineno"> 2224</span>&#160;      std::vector&lt;DoFIndex&gt; ind;</div>
-<div class="line"><a name="l02225"></a><span class="lineno"> 2225</span>&#160;      <span class="keywordflow">if</span>(spChi-&gt;inner_dof_indices(neighbor, fct, ind) != 1) <a class="codeRef" href="../group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>(<span class="stringliteral">&quot;Wrong number dofs&quot;</span>);</div>
-<div class="line"><a name="l02226"></a><span class="lineno"> 2226</span>&#160;      <span class="keyword">const</span> <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> valNeighbor = <a class="codeRef" href="../namespaceug.html#a0767c9862f50c0b00c9d10f8b856d2e1">DoFRef</a>(*spChi, ind[0]);</div>
-<div class="line"><a name="l02227"></a><span class="lineno"> 2227</span>&#160; </div>
-<div class="line"><a name="l02228"></a><span class="lineno"> 2228</span>&#160;      <span class="keywordflow">if</span>(fabs(val - valNeighbor) &gt; minJumpDiffToRefine)</div>
-<div class="line"><a name="l02229"></a><span class="lineno"> 2229</span>&#160;      {</div>
-<div class="line"><a name="l02230"></a><span class="lineno"> 2230</span>&#160;        neighborsHaveLargeJump = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l02231"></a><span class="lineno"> 2231</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l02220"></a><span class="lineno"> 2220</span>&#160;    <span class="keywordtype">bool</span> neighborsHaveSmallJump = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l02221"></a><span class="lineno"> 2221</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i = 0; i &lt; vNeighbors.size(); ++i){</div>
+<div class="line"><a name="l02222"></a><span class="lineno"> 2222</span>&#160; </div>
+<div class="line"><a name="l02223"></a><span class="lineno"> 2223</span>&#160;      TElem* neighbor = vNeighbors[i];</div>
+<div class="line"><a name="l02224"></a><span class="lineno"> 2224</span>&#160; </div>
+<div class="line"><a name="l02225"></a><span class="lineno"> 2225</span>&#160;      std::vector&lt;DoFIndex&gt; ind;</div>
+<div class="line"><a name="l02226"></a><span class="lineno"> 2226</span>&#160;      <span class="keywordflow">if</span>(spChi-&gt;inner_dof_indices(neighbor, fct, ind) != 1) <a class="codeRef" href="../group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>(<span class="stringliteral">&quot;Wrong number dofs&quot;</span>);</div>
+<div class="line"><a name="l02227"></a><span class="lineno"> 2227</span>&#160;      <span class="keyword">const</span> <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> valNeighbor = <a class="codeRef" href="../namespaceug.html#a0767c9862f50c0b00c9d10f8b856d2e1">DoFRef</a>(*spChi, ind[0]);</div>
+<div class="line"><a name="l02228"></a><span class="lineno"> 2228</span>&#160; </div>
+<div class="line"><a name="l02229"></a><span class="lineno"> 2229</span>&#160;      <span class="keywordflow">if</span>(fabs(val - valNeighbor) &gt; minJumpDifferenceToNeighborsForRefine)</div>
+<div class="line"><a name="l02230"></a><span class="lineno"> 2230</span>&#160;      {</div>
+<div class="line"><a name="l02231"></a><span class="lineno"> 2231</span>&#160;        neighborsHaveLargeJump = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l02232"></a><span class="lineno"> 2232</span>&#160;      }</div>
-<div class="line"><a name="l02233"></a><span class="lineno"> 2233</span>&#160;    }</div>
-<div class="line"><a name="l02234"></a><span class="lineno"> 2234</span>&#160; </div>
-<div class="line"><a name="l02235"></a><span class="lineno"> 2235</span>&#160;    <span class="comment">//  marks for refinement</span></div>
-<div class="line"><a name="l02236"></a><span class="lineno"> 2236</span>&#160;    <span class="keywordflow">if</span>(      (val &gt;= minValueToRefine &amp;&amp; val &lt;= maxValueToRefine) </div>
-<div class="line"><a name="l02237"></a><span class="lineno"> 2237</span>&#160;         ||  (neighborsHaveLargeJump) )</div>
-<div class="line"><a name="l02238"></a><span class="lineno"> 2238</span>&#160;    {</div>
-<div class="line"><a name="l02239"></a><span class="lineno"> 2239</span>&#160; </div>
-<div class="line"><a name="l02240"></a><span class="lineno"> 2240</span>&#160;      <span class="keywordflow">if</span>(spChi-&gt;dd()-&gt;multi_grid()-&gt;get_level(elem) &lt; maxLevel)</div>
-<div class="line"><a name="l02241"></a><span class="lineno"> 2241</span>&#160;      {</div>
-<div class="line"><a name="l02242"></a><span class="lineno"> 2242</span>&#160;        refiner.<a class="codeRef" href="../classug_1_1_i_refiner.html#a00d04ce0272197d0ca502721546e81dd">mark</a>(elem, <a class="codeRef" href="../group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a84ff78cd530af7d6e3d7662f46c9a618">RM_REFINE</a>);</div>
-<div class="line"><a name="l02243"></a><span class="lineno"> 2243</span>&#160;        numMarkedRefine++;</div>
-<div class="line"><a name="l02244"></a><span class="lineno"> 2244</span>&#160;      }</div>
+<div class="line"><a name="l02233"></a><span class="lineno"> 2233</span>&#160; </div>
+<div class="line"><a name="l02234"></a><span class="lineno"> 2234</span>&#160;      <span class="keywordflow">if</span>(fabs(val - valNeighbor) &gt; maxJumpDifferenceToNeighborsForCoarsen)</div>
+<div class="line"><a name="l02235"></a><span class="lineno"> 2235</span>&#160;      {</div>
+<div class="line"><a name="l02236"></a><span class="lineno"> 2236</span>&#160;        neighborsHaveSmallJump = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l02237"></a><span class="lineno"> 2237</span>&#160;      }</div>
+<div class="line"><a name="l02238"></a><span class="lineno"> 2238</span>&#160; </div>
+<div class="line"><a name="l02239"></a><span class="lineno"> 2239</span>&#160;    }</div>
+<div class="line"><a name="l02240"></a><span class="lineno"> 2240</span>&#160; </div>
+<div class="line"><a name="l02241"></a><span class="lineno"> 2241</span>&#160;    <span class="comment">//  marks for refinement</span></div>
+<div class="line"><a name="l02242"></a><span class="lineno"> 2242</span>&#160;    <span class="keywordflow">if</span>(      (val &gt;= minValueToRefine &amp;&amp; val &lt;= maxValueToRefine) </div>
+<div class="line"><a name="l02243"></a><span class="lineno"> 2243</span>&#160;         ||  (neighborsHaveLargeJump) )</div>
+<div class="line"><a name="l02244"></a><span class="lineno"> 2244</span>&#160;    {</div>
 <div class="line"><a name="l02245"></a><span class="lineno"> 2245</span>&#160; </div>
-<div class="line"><a name="l02246"></a><span class="lineno"> 2246</span>&#160;      <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l02247"></a><span class="lineno"> 2247</span>&#160;    }</div>
-<div class="line"><a name="l02248"></a><span class="lineno"> 2248</span>&#160; </div>
-<div class="line"><a name="l02249"></a><span class="lineno"> 2249</span>&#160;    <span class="comment">//  marks for coarsening</span></div>
-<div class="line"><a name="l02250"></a><span class="lineno"> 2250</span>&#160;    <span class="keywordflow">if</span>( val &lt; lowerValueToCoarsen || val &gt; upperValueToCoarsen)</div>
-<div class="line"><a name="l02251"></a><span class="lineno"> 2251</span>&#160;    {</div>
-<div class="line"><a name="l02252"></a><span class="lineno"> 2252</span>&#160; </div>
-<div class="line"><a name="l02253"></a><span class="lineno"> 2253</span>&#160;    <span class="comment">//  get the parent</span></div>
-<div class="line"><a name="l02254"></a><span class="lineno"> 2254</span>&#160;      TElem* parent = dynamic_cast&lt;TElem*&gt;(spChi-&gt;dd()-&gt;multi_grid()-&gt;get_parent(elem));</div>
-<div class="line"><a name="l02255"></a><span class="lineno"> 2255</span>&#160;      <span class="keywordflow">if</span>(parent){</div>
-<div class="line"><a name="l02256"></a><span class="lineno"> 2256</span>&#160; </div>
-<div class="line"><a name="l02257"></a><span class="lineno"> 2257</span>&#160;      <span class="comment">//  check whether all children of e of type TElem have similar values</span></div>
-<div class="line"><a name="l02258"></a><span class="lineno"> 2258</span>&#160;        <span class="keywordtype">bool</span> allChildHaveSimilarValue = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l02259"></a><span class="lineno"> 2259</span>&#160;        <span class="keywordtype">size_t</span> numChildren = spChi-&gt;dd()-&gt;multi_grid()-&gt;template num_children&lt;TElem&gt;(parent);</div>
-<div class="line"><a name="l02260"></a><span class="lineno"> 2260</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i = 0; i &lt; numChildren; ++i){</div>
-<div class="line"><a name="l02261"></a><span class="lineno"> 2261</span>&#160; </div>
-<div class="line"><a name="l02262"></a><span class="lineno"> 2262</span>&#160;          TElem* child = spChi-&gt;dd()-&gt;multi_grid()-&gt;template get_child&lt;TElem&gt;(parent, i);</div>
+<div class="line"><a name="l02246"></a><span class="lineno"> 2246</span>&#160;      <span class="keywordflow">if</span>(spChi-&gt;dd()-&gt;multi_grid()-&gt;get_level(elem) &lt; maxLevel)</div>
+<div class="line"><a name="l02247"></a><span class="lineno"> 2247</span>&#160;      {</div>
+<div class="line"><a name="l02248"></a><span class="lineno"> 2248</span>&#160;        refiner.<a class="codeRef" href="../classug_1_1_i_refiner.html#a00d04ce0272197d0ca502721546e81dd">mark</a>(elem, <a class="codeRef" href="../group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a84ff78cd530af7d6e3d7662f46c9a618">RM_REFINE</a>);</div>
+<div class="line"><a name="l02249"></a><span class="lineno"> 2249</span>&#160;        numMarkedRefine++;</div>
+<div class="line"><a name="l02250"></a><span class="lineno"> 2250</span>&#160;      }</div>
+<div class="line"><a name="l02251"></a><span class="lineno"> 2251</span>&#160; </div>
+<div class="line"><a name="l02252"></a><span class="lineno"> 2252</span>&#160;      <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l02253"></a><span class="lineno"> 2253</span>&#160;    }</div>
+<div class="line"><a name="l02254"></a><span class="lineno"> 2254</span>&#160; </div>
+<div class="line"><a name="l02255"></a><span class="lineno"> 2255</span>&#160;    <span class="comment">//  marks for coarsening</span></div>
+<div class="line"><a name="l02256"></a><span class="lineno"> 2256</span>&#160;    <span class="keywordflow">if</span>( (val &lt; lowerValueToCoarsen || val &gt; upperValueToCoarsen)  </div>
+<div class="line"><a name="l02257"></a><span class="lineno"> 2257</span>&#160;       &amp;&amp; neighborsHaveSmallJump )</div>
+<div class="line"><a name="l02258"></a><span class="lineno"> 2258</span>&#160;    {</div>
+<div class="line"><a name="l02259"></a><span class="lineno"> 2259</span>&#160; </div>
+<div class="line"><a name="l02260"></a><span class="lineno"> 2260</span>&#160;    <span class="comment">//  get the parent</span></div>
+<div class="line"><a name="l02261"></a><span class="lineno"> 2261</span>&#160;      TElem* parent = dynamic_cast&lt;TElem*&gt;(spChi-&gt;dd()-&gt;multi_grid()-&gt;get_parent(elem));</div>
+<div class="line"><a name="l02262"></a><span class="lineno"> 2262</span>&#160;      <span class="keywordflow">if</span>(parent){</div>
 <div class="line"><a name="l02263"></a><span class="lineno"> 2263</span>&#160; </div>
-<div class="line"><a name="l02264"></a><span class="lineno"> 2264</span>&#160;          <span class="comment">// check if covered: cannot coarsen covered children (i.e. with children themselves)</span></div>
-<div class="line"><a name="l02265"></a><span class="lineno"> 2265</span>&#160;          <span class="keywordflow">if</span>(spChi-&gt;dd()-&gt;multi_grid()-&gt;template num_children&lt;TElem&gt;(child) &gt; 0){</div>
-<div class="line"><a name="l02266"></a><span class="lineno"> 2266</span>&#160;            allChildHaveSimilarValue = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l02267"></a><span class="lineno"> 2267</span>&#160;            <span class="keywordflow">break</span>;            </div>
-<div class="line"><a name="l02268"></a><span class="lineno"> 2268</span>&#160;          }</div>
-<div class="line"><a name="l02269"></a><span class="lineno"> 2269</span>&#160; </div>
-<div class="line"><a name="l02270"></a><span class="lineno"> 2270</span>&#160;          <span class="comment">// check if values are the same for all (leaf-)children</span></div>
-<div class="line"><a name="l02271"></a><span class="lineno"> 2271</span>&#160;          std::vector&lt;DoFIndex&gt; ind;</div>
-<div class="line"><a name="l02272"></a><span class="lineno"> 2272</span>&#160;          <span class="keywordflow">if</span>(spChi-&gt;inner_dof_indices(child, fct, ind) != 1) <a class="codeRef" href="../group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>(<span class="stringliteral">&quot;Wrong number dofs&quot;</span>);</div>
-<div class="line"><a name="l02273"></a><span class="lineno"> 2273</span>&#160;          <span class="keyword">const</span> <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> valChild = <a class="codeRef" href="../namespaceug.html#a0767c9862f50c0b00c9d10f8b856d2e1">DoFRef</a>(*spChi, ind[0]);</div>
-<div class="line"><a name="l02274"></a><span class="lineno"> 2274</span>&#160;          <span class="keywordflow">if</span>(fabs(val - valChild) &gt; maxJumpDiffToCoarsen)</div>
-<div class="line"><a name="l02275"></a><span class="lineno"> 2275</span>&#160;          {</div>
-<div class="line"><a name="l02276"></a><span class="lineno"> 2276</span>&#160;            allChildHaveSimilarValue = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l02277"></a><span class="lineno"> 2277</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l02278"></a><span class="lineno"> 2278</span>&#160;          }</div>
-<div class="line"><a name="l02279"></a><span class="lineno"> 2279</span>&#160;        }</div>
-<div class="line"><a name="l02280"></a><span class="lineno"> 2280</span>&#160;      </div>
-<div class="line"><a name="l02281"></a><span class="lineno"> 2281</span>&#160; </div>
-<div class="line"><a name="l02282"></a><span class="lineno"> 2282</span>&#160;        <span class="keywordflow">if</span>(allChildHaveSimilarValue){         </div>
-<div class="line"><a name="l02283"></a><span class="lineno"> 2283</span>&#160;          refiner.<a class="codeRef" href="../classug_1_1_i_refiner.html#a00d04ce0272197d0ca502721546e81dd">mark</a>(elem, <a class="codeRef" href="../group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a50301491217ed84dc6d905f1f67f80af">RM_COARSEN</a>);</div>
-<div class="line"><a name="l02284"></a><span class="lineno"> 2284</span>&#160;          numMarkedCoarse++;</div>
-<div class="line"><a name="l02285"></a><span class="lineno"> 2285</span>&#160;        }</div>
-<div class="line"><a name="l02286"></a><span class="lineno"> 2286</span>&#160;      }</div>
+<div class="line"><a name="l02264"></a><span class="lineno"> 2264</span>&#160;          refiner.<a class="codeRef" href="../classug_1_1_i_refiner.html#a00d04ce0272197d0ca502721546e81dd">mark</a>(elem, <a class="codeRef" href="../group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a50301491217ed84dc6d905f1f67f80af">RM_COARSEN</a>);</div>
+<div class="line"><a name="l02265"></a><span class="lineno"> 2265</span>&#160;          numMarkedCoarse++;</div>
+<div class="line"><a name="l02266"></a><span class="lineno"> 2266</span>&#160; </div>
+<div class="line"><a name="l02267"></a><span class="lineno"> 2267</span>&#160;      }</div>
+<div class="line"><a name="l02268"></a><span class="lineno"> 2268</span>&#160; </div>
+<div class="line"><a name="l02269"></a><span class="lineno"> 2269</span>&#160;    }</div>
+<div class="line"><a name="l02270"></a><span class="lineno"> 2270</span>&#160; </div>
+<div class="line"><a name="l02271"></a><span class="lineno"> 2271</span>&#160;  }</div>
+<div class="line"><a name="l02272"></a><span class="lineno"> 2272</span>&#160; </div>
+<div class="line"><a name="l02274"></a><span class="lineno"> 2274</span>&#160;  <span class="comment">// print infos</span></div>
+<div class="line"><a name="l02276"></a><span class="lineno"> 2276</span>&#160;<span class="comment"></span>  <a class="codeRef" href="../group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>(<span class="stringliteral">&quot;MarkForAdaption_ValueRangeIndicator:\n&quot;</span>)</div>
+<div class="line"><a name="l02277"></a><span class="lineno"> 2277</span>&#160;<span class="preprocessor">#ifdef UG_PARALLEL</span></div>
+<div class="line"><a name="l02278"></a><span class="lineno"> 2278</span>&#160;  <span class="keywordflow">if</span>(<a class="codeRef" href="../group__pcl.html#ga7a09a2eab069305ca735847eed023d2f">pcl::NumProcs</a>() &gt; 1)</div>
+<div class="line"><a name="l02279"></a><span class="lineno"> 2279</span>&#160;  {</div>
+<div class="line"><a name="l02280"></a><span class="lineno"> 2280</span>&#160;    <a class="codeRef" href="../group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>(<span class="stringliteral">&quot;  &gt;&gt;&gt; Marked on Proc &quot;</span>&lt;&lt;<a class="codeRef" href="../group__pcl.html#ga319e84518e2b596fc9f9b40b4383ec36">pcl::ProcRank</a>()&lt;&lt;<span class="stringliteral">&quot;: refine: &quot;</span> &lt;&lt; numMarkedRefine &lt;&lt; <span class="stringliteral">&quot;, coarsen : &quot;</span> &lt;&lt; numMarkedCoarse &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l02281"></a><span class="lineno"> 2281</span>&#160;    <a class="codeRef" href="../classpcl_1_1_process_communicator.html">pcl::ProcessCommunicator</a> com;</div>
+<div class="line"><a name="l02282"></a><span class="lineno"> 2282</span>&#160;    <span class="keywordtype">int</span> numMarkedRefineLocal = numMarkedRefine, numMarkedCoarseLocal = numMarkedCoarse;</div>
+<div class="line"><a name="l02283"></a><span class="lineno"> 2283</span>&#160;    numMarkedRefine = com.<a class="codeRef" href="../classpcl_1_1_process_communicator.html#a1e3264c8d8f00d75bd899a8ea39b0e01">allreduce</a>(numMarkedRefineLocal, <a class="codeRef" href="../group__pcl.html#ga23ba716caa4857afe6a36d2a6065ea8a">PCL_RO_SUM</a>);</div>
+<div class="line"><a name="l02284"></a><span class="lineno"> 2284</span>&#160;    numMarkedCoarse = com.<a class="codeRef" href="../classpcl_1_1_process_communicator.html#a1e3264c8d8f00d75bd899a8ea39b0e01">allreduce</a>(numMarkedCoarseLocal, <a class="codeRef" href="../group__pcl.html#ga23ba716caa4857afe6a36d2a6065ea8a">PCL_RO_SUM</a>);</div>
+<div class="line"><a name="l02285"></a><span class="lineno"> 2285</span>&#160;  }</div>
+<div class="line"><a name="l02286"></a><span class="lineno"> 2286</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l02287"></a><span class="lineno"> 2287</span>&#160; </div>
-<div class="line"><a name="l02288"></a><span class="lineno"> 2288</span>&#160;    }</div>
-<div class="line"><a name="l02289"></a><span class="lineno"> 2289</span>&#160; </div>
-<div class="line"><a name="l02290"></a><span class="lineno"> 2290</span>&#160;  }</div>
+<div class="line"><a name="l02288"></a><span class="lineno"> 2288</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>(<span class="stringliteral">&quot;  &gt;&gt;&gt; Marked refine: &quot;</span> &lt;&lt; numMarkedRefine &lt;&lt; <span class="stringliteral">&quot;, coarsen: &quot;</span> &lt;&lt; numMarkedCoarse &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span> );</div>
+<div class="line"><a name="l02289"></a><span class="lineno"> 2289</span>&#160;}</div>
+<div class="line"><a name="l02290"></a><span class="lineno"> 2290</span>&#160; </div>
 <div class="line"><a name="l02291"></a><span class="lineno"> 2291</span>&#160; </div>
-<div class="line"><a name="l02293"></a><span class="lineno"> 2293</span>&#160;  <span class="comment">// print infos</span></div>
-<div class="line"><a name="l02295"></a><span class="lineno"> 2295</span>&#160;<span class="comment"></span>  <a class="codeRef" href="../group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>(<span class="stringliteral">&quot;MarkForAdaption_ValueRangeIndicator:\n&quot;</span>)</div>
-<div class="line"><a name="l02296"></a><span class="lineno"> 2296</span>&#160;<span class="preprocessor">#ifdef UG_PARALLEL</span></div>
-<div class="line"><a name="l02297"></a><span class="lineno"> 2297</span>&#160;  <span class="keywordflow">if</span>(<a class="codeRef" href="../group__pcl.html#ga7a09a2eab069305ca735847eed023d2f">pcl::NumProcs</a>() &gt; 1)</div>
-<div class="line"><a name="l02298"></a><span class="lineno"> 2298</span>&#160;  {</div>
-<div class="line"><a name="l02299"></a><span class="lineno"> 2299</span>&#160;    <a class="codeRef" href="../group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>(<span class="stringliteral">&quot;  &gt;&gt;&gt; Marked on Proc &quot;</span>&lt;&lt;<a class="codeRef" href="../group__pcl.html#ga319e84518e2b596fc9f9b40b4383ec36">pcl::ProcRank</a>()&lt;&lt;<span class="stringliteral">&quot;: refine: &quot;</span> &lt;&lt; numMarkedRefine &lt;&lt; <span class="stringliteral">&quot;, coarsen : &quot;</span> &lt;&lt; numMarkedCoarse &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>);</div>
-<div class="line"><a name="l02300"></a><span class="lineno"> 2300</span>&#160;    <a class="codeRef" href="../classpcl_1_1_process_communicator.html">pcl::ProcessCommunicator</a> com;</div>
-<div class="line"><a name="l02301"></a><span class="lineno"> 2301</span>&#160;    <span class="keywordtype">int</span> numMarkedRefineLocal = numMarkedRefine, numMarkedCoarseLocal = numMarkedCoarse;</div>
-<div class="line"><a name="l02302"></a><span class="lineno"> 2302</span>&#160;    numMarkedRefine = com.<a class="codeRef" href="../classpcl_1_1_process_communicator.html#a1e3264c8d8f00d75bd899a8ea39b0e01">allreduce</a>(numMarkedRefineLocal, <a class="codeRef" href="../group__pcl.html#ga23ba716caa4857afe6a36d2a6065ea8a">PCL_RO_SUM</a>);</div>
-<div class="line"><a name="l02303"></a><span class="lineno"> 2303</span>&#160;    numMarkedCoarse = com.<a class="codeRef" href="../classpcl_1_1_process_communicator.html#a1e3264c8d8f00d75bd899a8ea39b0e01">allreduce</a>(numMarkedCoarseLocal, <a class="codeRef" href="../group__pcl.html#ga23ba716caa4857afe6a36d2a6065ea8a">PCL_RO_SUM</a>);</div>
-<div class="line"><a name="l02304"></a><span class="lineno"> 2304</span>&#160;  }</div>
-<div class="line"><a name="l02305"></a><span class="lineno"> 2305</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l02306"></a><span class="lineno"> 2306</span>&#160; </div>
-<div class="line"><a name="l02307"></a><span class="lineno"> 2307</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>(<span class="stringliteral">&quot;  &gt;&gt;&gt; Marked refine: &quot;</span> &lt;&lt; numMarkedRefine &lt;&lt; <span class="stringliteral">&quot;, coarsen: &quot;</span> &lt;&lt; numMarkedCoarse &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span> );</div>
-<div class="line"><a name="l02308"></a><span class="lineno"> 2308</span>&#160;}</div>
-<div class="line"><a name="l02309"></a><span class="lineno"> 2309</span>&#160; </div>
+<div class="line"><a name="l02292"></a><span class="lineno"> 2292</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> TDomain&gt;</div>
+<div class="line"><a name="l02293"></a><span class="lineno"><a class="line" href="namespaceug_1_1_small_strain_mechanics.html#a235c418e4e58a28ca7c31ee5df3666ec"> 2293</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespaceug_1_1_small_strain_mechanics.html#a235c418e4e58a28ca7c31ee5df3666ec">MarkDamage</a>(  <a class="codeRef" href="../class_smart_ptr.html">SmartPtr</a>&lt;<a class="codeRef" href="../classug_1_1_grid_function.html">GridFunction&lt;TDomain, CPUAlgebra&gt;</a> &gt; spF,</div>
+<div class="line"><a name="l02294"></a><span class="lineno"> 2294</span>&#160;          <a class="codeRef" href="../class_smart_ptr.html">SmartPtr</a>&lt;<a class="codeRef" href="../classug_1_1_grid_function.html">GridFunction&lt;TDomain, CPUAlgebra&gt;</a> &gt; spPsi0,</div>
+<div class="line"><a name="l02295"></a><span class="lineno"> 2295</span>&#160;          <a class="codeRef" href="../classug_1_1_i_refiner.html">IRefiner</a>&amp; refiner,</div>
+<div class="line"><a name="l02296"></a><span class="lineno"> 2296</span>&#160;          <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> minValueToRefine, <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> maxValueToCoarsen,</div>
+<div class="line"><a name="l02297"></a><span class="lineno"> 2297</span>&#160;          <span class="keywordtype">int</span> maxLevel, </div>
+<div class="line"><a name="l02298"></a><span class="lineno"> 2298</span>&#160;          <span class="keyword">const</span> std::vector&lt;<a class="codeRef" href="../classug_1_1_math_vector.html">MathVector&lt;TDomain::dim,number&gt;</a>* &gt;&amp; vCenter, </div>
+<div class="line"><a name="l02299"></a><span class="lineno"> 2299</span>&#160;          <span class="keyword">const</span> std::vector&lt;number&gt;&amp; vRadius)</div>
+<div class="line"><a name="l02300"></a><span class="lineno"> 2300</span>&#160;{</div>
+<div class="line"><a name="l02301"></a><span class="lineno"> 2301</span>&#160;  <a class="codeRef" href="../profiler_8h.html#a3766fe91615588782ad5452a4d60ea5b">PROFILE_FUNC_GROUP</a>(<span class="stringliteral">&quot;Small Strain Mech&quot;</span>);</div>
+<div class="line"><a name="l02302"></a><span class="lineno"> 2302</span>&#160; </div>
+<div class="line"><a name="l02303"></a><span class="lineno"> 2303</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="codeRef" href="../group__lib__disc__domain.html#gaade1bc529aade0f7ae20efc0c8b27057">dim</a> = <a class="codeRef" href="../group__lib__disc__domain.html#gaade1bc529aade0f7ae20efc0c8b27057">TDomain::dim</a>;</div>
+<div class="line"><a name="l02304"></a><span class="lineno"> 2304</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> <a class="codeRef" href="../structug_1_1grid__dim__traits.html">grid_dim_traits&lt;dim&gt;::element_type</a> TElem; </div>
+<div class="line"><a name="l02305"></a><span class="lineno"> 2305</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> <a class="codeRef" href="../structug_1_1_do_f_distribution_1_1traits.html#a1adf959619589545942590d37e893e6f">DoFDistribution::traits&lt;TElem&gt;::const_iterator</a> const_iterator;</div>
+<div class="line"><a name="l02306"></a><span class="lineno"> 2306</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> <a class="codeRef" href="../group__lib__disc__domain.html#ga0cde3052ec2d8ff36f0851dc8abbe959">TDomain::position_accessor_type</a>  <a class="codeRef" href="../group__lib__disc__domain.html#ga0cde3052ec2d8ff36f0851dc8abbe959">position_accessor_type</a>;</div>
+<div class="line"><a name="l02307"></a><span class="lineno"> 2307</span>&#160;  <a class="codeRef" href="../group__lib__disc__domain.html#ga0cde3052ec2d8ff36f0851dc8abbe959">position_accessor_type</a>&amp; aaPos = spF-&gt;domain()-&gt;position_accessor();</div>
+<div class="line"><a name="l02308"></a><span class="lineno"> 2308</span>&#160; </div>
+<div class="line"><a name="l02309"></a><span class="lineno"> 2309</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">int</span> fct = 0; <span class="comment">// \todo: generalize</span></div>
 <div class="line"><a name="l02310"></a><span class="lineno"> 2310</span>&#160; </div>
-<div class="line"><a name="l02311"></a><span class="lineno"> 2311</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> TDomain&gt;</div>
-<div class="line"><a name="l02312"></a><span class="lineno"><a class="line" href="namespaceug_1_1_small_strain_mechanics.html#a235c418e4e58a28ca7c31ee5df3666ec"> 2312</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespaceug_1_1_small_strain_mechanics.html#a235c418e4e58a28ca7c31ee5df3666ec">MarkDamage</a>(  <a class="codeRef" href="../class_smart_ptr.html">SmartPtr</a>&lt;<a class="codeRef" href="../classug_1_1_grid_function.html">GridFunction&lt;TDomain, CPUAlgebra&gt;</a> &gt; spF,</div>
-<div class="line"><a name="l02313"></a><span class="lineno"> 2313</span>&#160;          <a class="codeRef" href="../class_smart_ptr.html">SmartPtr</a>&lt;<a class="codeRef" href="../classug_1_1_grid_function.html">GridFunction&lt;TDomain, CPUAlgebra&gt;</a> &gt; spPsi0,</div>
-<div class="line"><a name="l02314"></a><span class="lineno"> 2314</span>&#160;          <a class="codeRef" href="../classug_1_1_i_refiner.html">IRefiner</a>&amp; refiner,</div>
-<div class="line"><a name="l02315"></a><span class="lineno"> 2315</span>&#160;          <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> minValueToRefine, <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> maxValueToCoarsen,</div>
-<div class="line"><a name="l02316"></a><span class="lineno"> 2316</span>&#160;          <span class="keywordtype">int</span> maxLevel, </div>
-<div class="line"><a name="l02317"></a><span class="lineno"> 2317</span>&#160;          <span class="keyword">const</span> std::vector&lt;<a class="codeRef" href="../classug_1_1_math_vector.html">MathVector&lt;TDomain::dim,number&gt;</a>* &gt;&amp; vCenter, </div>
-<div class="line"><a name="l02318"></a><span class="lineno"> 2318</span>&#160;          <span class="keyword">const</span> std::vector&lt;number&gt;&amp; vRadius)</div>
-<div class="line"><a name="l02319"></a><span class="lineno"> 2319</span>&#160;{</div>
-<div class="line"><a name="l02320"></a><span class="lineno"> 2320</span>&#160;  <a class="codeRef" href="../profiler_8h.html#a3766fe91615588782ad5452a4d60ea5b">PROFILE_FUNC_GROUP</a>(<span class="stringliteral">&quot;Small Strain Mech&quot;</span>);</div>
+<div class="line"><a name="l02312"></a><span class="lineno"> 2312</span>&#160;  <span class="comment">// checks</span></div>
+<div class="line"><a name="l02314"></a><span class="lineno"> 2314</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l02315"></a><span class="lineno"> 2315</span>&#160;  <span class="keywordflow">if</span>( (minValueToRefine &lt; maxValueToCoarsen) )</div>
+<div class="line"><a name="l02316"></a><span class="lineno"> 2316</span>&#160;    <a class="codeRef" href="../group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>(<span class="stringliteral">&quot;Coarsen threshold must be smaller than refine threshold&quot;</span>)</div>
+<div class="line"><a name="l02317"></a><span class="lineno"> 2317</span>&#160; </div>
+<div class="line"><a name="l02318"></a><span class="lineno"> 2318</span>&#160;  <span class="keywordflow">if</span>( !(vRadius.size() == vCenter.size()) )</div>
+<div class="line"><a name="l02319"></a><span class="lineno"> 2319</span>&#160;    <a class="codeRef" href="../group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>(<span class="stringliteral">&quot;Num radius and center must match&quot;</span>)</div>
+<div class="line"><a name="l02320"></a><span class="lineno"> 2320</span>&#160;  </div>
 <div class="line"><a name="l02321"></a><span class="lineno"> 2321</span>&#160; </div>
-<div class="line"><a name="l02322"></a><span class="lineno"> 2322</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="codeRef" href="../group__lib__disc__domain.html#gaade1bc529aade0f7ae20efc0c8b27057">dim</a> = <a class="codeRef" href="../group__lib__disc__domain.html#gaade1bc529aade0f7ae20efc0c8b27057">TDomain::dim</a>;</div>
-<div class="line"><a name="l02323"></a><span class="lineno"> 2323</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> <a class="codeRef" href="../structug_1_1grid__dim__traits.html">grid_dim_traits&lt;dim&gt;::element_type</a> TElem; </div>
-<div class="line"><a name="l02324"></a><span class="lineno"> 2324</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> <a class="codeRef" href="../structug_1_1_do_f_distribution_1_1traits.html#a1adf959619589545942590d37e893e6f">DoFDistribution::traits&lt;TElem&gt;::const_iterator</a> const_iterator;</div>
-<div class="line"><a name="l02325"></a><span class="lineno"> 2325</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> <a class="codeRef" href="../group__lib__disc__domain.html#ga0cde3052ec2d8ff36f0851dc8abbe959">TDomain::position_accessor_type</a>  <a class="codeRef" href="../group__lib__disc__domain.html#ga0cde3052ec2d8ff36f0851dc8abbe959">position_accessor_type</a>;</div>
-<div class="line"><a name="l02326"></a><span class="lineno"> 2326</span>&#160;  <a class="codeRef" href="../group__lib__disc__domain.html#ga0cde3052ec2d8ff36f0851dc8abbe959">position_accessor_type</a>&amp; aaPos = spF-&gt;domain()-&gt;position_accessor();</div>
-<div class="line"><a name="l02327"></a><span class="lineno"> 2327</span>&#160; </div>
-<div class="line"><a name="l02328"></a><span class="lineno"> 2328</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">int</span> fct = 0; <span class="comment">// \todo: generalize</span></div>
-<div class="line"><a name="l02329"></a><span class="lineno"> 2329</span>&#160; </div>
-<div class="line"><a name="l02331"></a><span class="lineno"> 2331</span>&#160;  <span class="comment">// checks</span></div>
-<div class="line"><a name="l02333"></a><span class="lineno"> 2333</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l02334"></a><span class="lineno"> 2334</span>&#160;  <span class="keywordflow">if</span>( (minValueToRefine &lt; maxValueToCoarsen) )</div>
-<div class="line"><a name="l02335"></a><span class="lineno"> 2335</span>&#160;    <a class="codeRef" href="../group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>(<span class="stringliteral">&quot;Coarsen threshold must be smaller than refine threshold&quot;</span>)</div>
-<div class="line"><a name="l02336"></a><span class="lineno"> 2336</span>&#160; </div>
-<div class="line"><a name="l02337"></a><span class="lineno"> 2337</span>&#160;  <span class="keywordflow">if</span>( !(vRadius.size() == vCenter.size()) )</div>
-<div class="line"><a name="l02338"></a><span class="lineno"> 2338</span>&#160;    <a class="codeRef" href="../group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>(<span class="stringliteral">&quot;Num radius and center must match&quot;</span>)</div>
-<div class="line"><a name="l02339"></a><span class="lineno"> 2339</span>&#160;  </div>
-<div class="line"><a name="l02340"></a><span class="lineno"> 2340</span>&#160; </div>
-<div class="line"><a name="l02341"></a><span class="lineno"> 2341</span>&#160;  </div>
-<div class="line"><a name="l02342"></a><span class="lineno"> 2342</span>&#160;  <span class="comment">// marking</span></div>
-<div class="line"><a name="l02344"></a><span class="lineno"> 2344</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l02345"></a><span class="lineno"> 2345</span>&#160;  <span class="comment">//  we&#39;ll compare against the square radius.</span></div>
-<div class="line"><a name="l02346"></a><span class="lineno"> 2346</span>&#160;  std::vector&lt;number&gt; vRadiusSq;</div>
-<div class="line"><a name="l02347"></a><span class="lineno"> 2347</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i = 0; i &lt; vRadius.size(); ++i)</div>
-<div class="line"><a name="l02348"></a><span class="lineno"> 2348</span>&#160;    vRadiusSq.push_back( vRadius[i] * vRadius[i]);</div>
-<div class="line"><a name="l02349"></a><span class="lineno"> 2349</span>&#160; </div>
-<div class="line"><a name="l02350"></a><span class="lineno"> 2350</span>&#160;  std::vector&lt;MathVector&lt;dim&gt; &gt; vCircleCenter;</div>
-<div class="line"><a name="l02351"></a><span class="lineno"> 2351</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i = 0; i &lt; vCenter.size(); ++i)</div>
-<div class="line"><a name="l02352"></a><span class="lineno"> 2352</span>&#160;    vCircleCenter.push_back( *(vCenter[i]));</div>
-<div class="line"><a name="l02353"></a><span class="lineno"> 2353</span>&#160; </div>
+<div class="line"><a name="l02322"></a><span class="lineno"> 2322</span>&#160;  </div>
+<div class="line"><a name="l02323"></a><span class="lineno"> 2323</span>&#160;  <span class="comment">// marking</span></div>
+<div class="line"><a name="l02325"></a><span class="lineno"> 2325</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l02326"></a><span class="lineno"> 2326</span>&#160;  <span class="comment">//  we&#39;ll compare against the square radius.</span></div>
+<div class="line"><a name="l02327"></a><span class="lineno"> 2327</span>&#160;  std::vector&lt;number&gt; vRadiusSq;</div>
+<div class="line"><a name="l02328"></a><span class="lineno"> 2328</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i = 0; i &lt; vRadius.size(); ++i)</div>
+<div class="line"><a name="l02329"></a><span class="lineno"> 2329</span>&#160;    vRadiusSq.push_back( vRadius[i] * vRadius[i]);</div>
+<div class="line"><a name="l02330"></a><span class="lineno"> 2330</span>&#160; </div>
+<div class="line"><a name="l02331"></a><span class="lineno"> 2331</span>&#160;  std::vector&lt;MathVector&lt;dim&gt; &gt; vCircleCenter;</div>
+<div class="line"><a name="l02332"></a><span class="lineno"> 2332</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i = 0; i &lt; vCenter.size(); ++i)</div>
+<div class="line"><a name="l02333"></a><span class="lineno"> 2333</span>&#160;    vCircleCenter.push_back( *(vCenter[i]));</div>
+<div class="line"><a name="l02334"></a><span class="lineno"> 2334</span>&#160; </div>
+<div class="line"><a name="l02335"></a><span class="lineno"> 2335</span>&#160; </div>
+<div class="line"><a name="l02336"></a><span class="lineno"> 2336</span>&#160;  <span class="comment">//  reset counter</span></div>
+<div class="line"><a name="l02337"></a><span class="lineno"> 2337</span>&#160;  <span class="keywordtype">int</span> numMarkedRefine = 0, numMarkedCoarse = 0;</div>
+<div class="line"><a name="l02338"></a><span class="lineno"> 2338</span>&#160; </div>
+<div class="line"><a name="l02339"></a><span class="lineno"> 2339</span>&#160; </div>
+<div class="line"><a name="l02340"></a><span class="lineno"> 2340</span>&#160;  std::vector&lt;MathVector&lt;dim&gt; &gt; vCornerCoords;</div>
+<div class="line"><a name="l02341"></a><span class="lineno"> 2341</span>&#160;  <a class="codeRef" href="../classug_1_1_math_vector.html">MathVector&lt;dim&gt;</a> ElemCenter;</div>
+<div class="line"><a name="l02342"></a><span class="lineno"> 2342</span>&#160; </div>
+<div class="line"><a name="l02343"></a><span class="lineno"> 2343</span>&#160;  <span class="comment">//  loop elements for marking</span></div>
+<div class="line"><a name="l02344"></a><span class="lineno"> 2344</span>&#160;  const_iterator iter = spF-&gt;template begin&lt;TElem&gt;();</div>
+<div class="line"><a name="l02345"></a><span class="lineno"> 2345</span>&#160;  const_iterator iterEnd = spF-&gt;template end&lt;TElem&gt;();</div>
+<div class="line"><a name="l02346"></a><span class="lineno"> 2346</span>&#160;  <span class="keywordflow">for</span>(; iter != iterEnd; ++iter)</div>
+<div class="line"><a name="l02347"></a><span class="lineno"> 2347</span>&#160;  {</div>
+<div class="line"><a name="l02348"></a><span class="lineno"> 2348</span>&#160;    <span class="comment">//  get element</span></div>
+<div class="line"><a name="l02349"></a><span class="lineno"> 2349</span>&#160;    TElem* elem = *iter;</div>
+<div class="line"><a name="l02350"></a><span class="lineno"> 2350</span>&#160; </div>
+<div class="line"><a name="l02351"></a><span class="lineno"> 2351</span>&#160;    std::vector&lt;DoFIndex&gt; ind;</div>
+<div class="line"><a name="l02352"></a><span class="lineno"> 2352</span>&#160;    <span class="keywordflow">if</span>(spF-&gt;inner_dof_indices(elem, fct, ind) != 1) <a class="codeRef" href="../group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>(<span class="stringliteral">&quot;Wrong number dofs&quot;</span>);</div>
+<div class="line"><a name="l02353"></a><span class="lineno"> 2353</span>&#160;    <span class="keyword">const</span> <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> val = <a class="codeRef" href="../namespaceug.html#a0767c9862f50c0b00c9d10f8b856d2e1">DoFRef</a>(*spF, ind[0]) * <a class="codeRef" href="../namespaceug.html#a0767c9862f50c0b00c9d10f8b856d2e1">DoFRef</a>(*spPsi0, ind[0]);</div>
 <div class="line"><a name="l02354"></a><span class="lineno"> 2354</span>&#160; </div>
-<div class="line"><a name="l02355"></a><span class="lineno"> 2355</span>&#160;  <span class="comment">//  reset counter</span></div>
-<div class="line"><a name="l02356"></a><span class="lineno"> 2356</span>&#160;  <span class="keywordtype">int</span> numMarkedRefine = 0, numMarkedCoarse = 0;</div>
-<div class="line"><a name="l02357"></a><span class="lineno"> 2357</span>&#160; </div>
-<div class="line"><a name="l02358"></a><span class="lineno"> 2358</span>&#160; </div>
-<div class="line"><a name="l02359"></a><span class="lineno"> 2359</span>&#160;  std::vector&lt;MathVector&lt;dim&gt; &gt; vCornerCoords;</div>
-<div class="line"><a name="l02360"></a><span class="lineno"> 2360</span>&#160;  <a class="codeRef" href="../classug_1_1_math_vector.html">MathVector&lt;dim&gt;</a> ElemCenter;</div>
-<div class="line"><a name="l02361"></a><span class="lineno"> 2361</span>&#160; </div>
-<div class="line"><a name="l02362"></a><span class="lineno"> 2362</span>&#160;  <span class="comment">//  loop elements for marking</span></div>
-<div class="line"><a name="l02363"></a><span class="lineno"> 2363</span>&#160;  const_iterator iter = spF-&gt;template begin&lt;TElem&gt;();</div>
-<div class="line"><a name="l02364"></a><span class="lineno"> 2364</span>&#160;  const_iterator iterEnd = spF-&gt;template end&lt;TElem&gt;();</div>
-<div class="line"><a name="l02365"></a><span class="lineno"> 2365</span>&#160;  <span class="keywordflow">for</span>(; iter != iterEnd; ++iter)</div>
-<div class="line"><a name="l02366"></a><span class="lineno"> 2366</span>&#160;  {</div>
-<div class="line"><a name="l02367"></a><span class="lineno"> 2367</span>&#160;    <span class="comment">//  get element</span></div>
-<div class="line"><a name="l02368"></a><span class="lineno"> 2368</span>&#160;    TElem* elem = *iter;</div>
-<div class="line"><a name="l02369"></a><span class="lineno"> 2369</span>&#160; </div>
-<div class="line"><a name="l02370"></a><span class="lineno"> 2370</span>&#160;    std::vector&lt;DoFIndex&gt; ind;</div>
-<div class="line"><a name="l02371"></a><span class="lineno"> 2371</span>&#160;    <span class="keywordflow">if</span>(spF-&gt;inner_dof_indices(elem, fct, ind) != 1) <a class="codeRef" href="../group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>(<span class="stringliteral">&quot;Wrong number dofs&quot;</span>);</div>
-<div class="line"><a name="l02372"></a><span class="lineno"> 2372</span>&#160;    <span class="keyword">const</span> <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> val = <a class="codeRef" href="../namespaceug.html#a0767c9862f50c0b00c9d10f8b856d2e1">DoFRef</a>(*spF, ind[0]) * <a class="codeRef" href="../namespaceug.html#a0767c9862f50c0b00c9d10f8b856d2e1">DoFRef</a>(*spPsi0, ind[0]);</div>
-<div class="line"><a name="l02373"></a><span class="lineno"> 2373</span>&#160; </div>
-<div class="line"><a name="l02374"></a><span class="lineno"> 2374</span>&#160;    <span class="comment">// check for extra refinement</span></div>
-<div class="line"><a name="l02375"></a><span class="lineno"> 2375</span>&#160;    <span class="keywordtype">bool</span> bInCircle = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l02376"></a><span class="lineno"> 2376</span>&#160;    <span class="keywordflow">if</span>(!vRadiusSq.empty()){</div>
-<div class="line"><a name="l02377"></a><span class="lineno"> 2377</span>&#160;      <a class="codeRef" href="../group__lib__disc__domain.html#gaa5f6f2d4e3c8ac3de2cce67d76818dd0">CollectCornerCoordinates</a>(vCornerCoords, *elem, aaPos);</div>
-<div class="line"><a name="l02378"></a><span class="lineno"> 2378</span>&#160;      AveragePositions&lt;dim&gt;(ElemCenter, vCornerCoords);</div>
+<div class="line"><a name="l02355"></a><span class="lineno"> 2355</span>&#160;    <span class="comment">// check for extra refinement</span></div>
+<div class="line"><a name="l02356"></a><span class="lineno"> 2356</span>&#160;    <span class="keywordtype">bool</span> bInCircle = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l02357"></a><span class="lineno"> 2357</span>&#160;    <span class="keywordflow">if</span>(!vRadiusSq.empty()){</div>
+<div class="line"><a name="l02358"></a><span class="lineno"> 2358</span>&#160;      <a class="codeRef" href="../group__lib__disc__domain.html#gaa5f6f2d4e3c8ac3de2cce67d76818dd0">CollectCornerCoordinates</a>(vCornerCoords, *elem, aaPos);</div>
+<div class="line"><a name="l02359"></a><span class="lineno"> 2359</span>&#160;      AveragePositions&lt;dim&gt;(ElemCenter, vCornerCoords);</div>
+<div class="line"><a name="l02360"></a><span class="lineno"> 2360</span>&#160; </div>
+<div class="line"><a name="l02361"></a><span class="lineno"> 2361</span>&#160;      <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i = 0; i &lt; vRadiusSq.size(); ++i){</div>
+<div class="line"><a name="l02362"></a><span class="lineno"> 2362</span>&#160;        <span class="keywordflow">if</span>(<a class="codeRef" href="../namespaceug.html#a9f7ee7b5c39ef0ad344fee8475869198">VecDistanceSq</a>(vCircleCenter[i], ElemCenter) &lt;= vRadiusSq[i]){</div>
+<div class="line"><a name="l02363"></a><span class="lineno"> 2363</span>&#160;          bInCircle = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l02364"></a><span class="lineno"> 2364</span>&#160;        }</div>
+<div class="line"><a name="l02365"></a><span class="lineno"> 2365</span>&#160;      }</div>
+<div class="line"><a name="l02366"></a><span class="lineno"> 2366</span>&#160;    }</div>
+<div class="line"><a name="l02367"></a><span class="lineno"> 2367</span>&#160; </div>
+<div class="line"><a name="l02368"></a><span class="lineno"> 2368</span>&#160;    <span class="comment">//  marks for refinement</span></div>
+<div class="line"><a name="l02369"></a><span class="lineno"> 2369</span>&#160;    <span class="keywordflow">if</span>( val &gt; minValueToRefine || bInCircle)</div>
+<div class="line"><a name="l02370"></a><span class="lineno"> 2370</span>&#160;    {</div>
+<div class="line"><a name="l02371"></a><span class="lineno"> 2371</span>&#160;      <span class="keywordflow">if</span>(spF-&gt;dd()-&gt;multi_grid()-&gt;get_level(elem) &lt; maxLevel)</div>
+<div class="line"><a name="l02372"></a><span class="lineno"> 2372</span>&#160;      {</div>
+<div class="line"><a name="l02373"></a><span class="lineno"> 2373</span>&#160;        refiner.<a class="codeRef" href="../classug_1_1_i_refiner.html#a00d04ce0272197d0ca502721546e81dd">mark</a>(elem, <a class="codeRef" href="../group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a84ff78cd530af7d6e3d7662f46c9a618">RM_REFINE</a>);</div>
+<div class="line"><a name="l02374"></a><span class="lineno"> 2374</span>&#160;        numMarkedRefine++;</div>
+<div class="line"><a name="l02375"></a><span class="lineno"> 2375</span>&#160;      }</div>
+<div class="line"><a name="l02376"></a><span class="lineno"> 2376</span>&#160; </div>
+<div class="line"><a name="l02377"></a><span class="lineno"> 2377</span>&#160;      <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l02378"></a><span class="lineno"> 2378</span>&#160;    }</div>
 <div class="line"><a name="l02379"></a><span class="lineno"> 2379</span>&#160; </div>
-<div class="line"><a name="l02380"></a><span class="lineno"> 2380</span>&#160;      <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i = 0; i &lt; vRadiusSq.size(); ++i){</div>
-<div class="line"><a name="l02381"></a><span class="lineno"> 2381</span>&#160;        <span class="keywordflow">if</span>(<a class="codeRef" href="../namespaceug.html#a9f7ee7b5c39ef0ad344fee8475869198">VecDistanceSq</a>(vCircleCenter[i], ElemCenter) &lt;= vRadiusSq[i]){</div>
-<div class="line"><a name="l02382"></a><span class="lineno"> 2382</span>&#160;          bInCircle = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l02383"></a><span class="lineno"> 2383</span>&#160;        }</div>
-<div class="line"><a name="l02384"></a><span class="lineno"> 2384</span>&#160;      }</div>
+<div class="line"><a name="l02380"></a><span class="lineno"> 2380</span>&#160;    <span class="comment">//  marks for coarsening</span></div>
+<div class="line"><a name="l02381"></a><span class="lineno"> 2381</span>&#160;    <span class="keywordflow">if</span>( val &lt; maxValueToCoarsen)</div>
+<div class="line"><a name="l02382"></a><span class="lineno"> 2382</span>&#160;    {</div>
+<div class="line"><a name="l02383"></a><span class="lineno"> 2383</span>&#160;      refiner.<a class="codeRef" href="../classug_1_1_i_refiner.html#a00d04ce0272197d0ca502721546e81dd">mark</a>(elem, <a class="codeRef" href="../group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a50301491217ed84dc6d905f1f67f80af">RM_COARSEN</a>);</div>
+<div class="line"><a name="l02384"></a><span class="lineno"> 2384</span>&#160;      numMarkedCoarse++;</div>
 <div class="line"><a name="l02385"></a><span class="lineno"> 2385</span>&#160;    }</div>
 <div class="line"><a name="l02386"></a><span class="lineno"> 2386</span>&#160; </div>
-<div class="line"><a name="l02387"></a><span class="lineno"> 2387</span>&#160;    <span class="comment">//  marks for refinement</span></div>
-<div class="line"><a name="l02388"></a><span class="lineno"> 2388</span>&#160;    <span class="keywordflow">if</span>( val &gt; minValueToRefine || bInCircle)</div>
-<div class="line"><a name="l02389"></a><span class="lineno"> 2389</span>&#160;    {</div>
-<div class="line"><a name="l02390"></a><span class="lineno"> 2390</span>&#160;      <span class="keywordflow">if</span>(spF-&gt;dd()-&gt;multi_grid()-&gt;get_level(elem) &lt; maxLevel)</div>
-<div class="line"><a name="l02391"></a><span class="lineno"> 2391</span>&#160;      {</div>
-<div class="line"><a name="l02392"></a><span class="lineno"> 2392</span>&#160;        refiner.<a class="codeRef" href="../classug_1_1_i_refiner.html#a00d04ce0272197d0ca502721546e81dd">mark</a>(elem, <a class="codeRef" href="../group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a84ff78cd530af7d6e3d7662f46c9a618">RM_REFINE</a>);</div>
-<div class="line"><a name="l02393"></a><span class="lineno"> 2393</span>&#160;        numMarkedRefine++;</div>
-<div class="line"><a name="l02394"></a><span class="lineno"> 2394</span>&#160;      }</div>
-<div class="line"><a name="l02395"></a><span class="lineno"> 2395</span>&#160; </div>
-<div class="line"><a name="l02396"></a><span class="lineno"> 2396</span>&#160;      <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l02397"></a><span class="lineno"> 2397</span>&#160;    }</div>
-<div class="line"><a name="l02398"></a><span class="lineno"> 2398</span>&#160; </div>
-<div class="line"><a name="l02399"></a><span class="lineno"> 2399</span>&#160;    <span class="comment">//  marks for coarsening</span></div>
-<div class="line"><a name="l02400"></a><span class="lineno"> 2400</span>&#160;    <span class="keywordflow">if</span>( val &lt; maxValueToCoarsen)</div>
-<div class="line"><a name="l02401"></a><span class="lineno"> 2401</span>&#160;    {</div>
-<div class="line"><a name="l02402"></a><span class="lineno"> 2402</span>&#160;      refiner.<a class="codeRef" href="../classug_1_1_i_refiner.html#a00d04ce0272197d0ca502721546e81dd">mark</a>(elem, <a class="codeRef" href="../group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a50301491217ed84dc6d905f1f67f80af">RM_COARSEN</a>);</div>
-<div class="line"><a name="l02403"></a><span class="lineno"> 2403</span>&#160;      numMarkedCoarse++;</div>
-<div class="line"><a name="l02404"></a><span class="lineno"> 2404</span>&#160;    }</div>
-<div class="line"><a name="l02405"></a><span class="lineno"> 2405</span>&#160; </div>
-<div class="line"><a name="l02406"></a><span class="lineno"> 2406</span>&#160;  }</div>
+<div class="line"><a name="l02387"></a><span class="lineno"> 2387</span>&#160;  }</div>
+<div class="line"><a name="l02388"></a><span class="lineno"> 2388</span>&#160; </div>
+<div class="line"><a name="l02390"></a><span class="lineno"> 2390</span>&#160;  <span class="comment">// print infos</span></div>
+<div class="line"><a name="l02392"></a><span class="lineno"> 2392</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l02393"></a><span class="lineno"> 2393</span>&#160;<span class="preprocessor">#ifdef UG_PARALLEL</span></div>
+<div class="line"><a name="l02394"></a><span class="lineno"> 2394</span>&#160;  <span class="keywordflow">if</span>(<a class="codeRef" href="../group__pcl.html#ga7a09a2eab069305ca735847eed023d2f">pcl::NumProcs</a>() &gt; 1)</div>
+<div class="line"><a name="l02395"></a><span class="lineno"> 2395</span>&#160;  {</div>
+<div class="line"><a name="l02396"></a><span class="lineno"> 2396</span>&#160;    <a class="codeRef" href="../group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>(<span class="stringliteral">&quot;  &gt;&gt;&gt; Marked on Proc &quot;</span>&lt;&lt;<a class="codeRef" href="../group__pcl.html#ga319e84518e2b596fc9f9b40b4383ec36">pcl::ProcRank</a>()&lt;&lt;<span class="stringliteral">&quot;: refine: &quot;</span> &lt;&lt; numMarkedRefine &lt;&lt; <span class="stringliteral">&quot;, coarsen : &quot;</span> &lt;&lt; numMarkedCoarse &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l02397"></a><span class="lineno"> 2397</span>&#160;    <a class="codeRef" href="../classpcl_1_1_process_communicator.html">pcl::ProcessCommunicator</a> com;</div>
+<div class="line"><a name="l02398"></a><span class="lineno"> 2398</span>&#160;    <span class="keywordtype">int</span> numMarkedRefineLocal = numMarkedRefine, numMarkedCoarseLocal = numMarkedCoarse;</div>
+<div class="line"><a name="l02399"></a><span class="lineno"> 2399</span>&#160;    numMarkedRefine = com.<a class="codeRef" href="../classpcl_1_1_process_communicator.html#a1e3264c8d8f00d75bd899a8ea39b0e01">allreduce</a>(numMarkedRefineLocal, <a class="codeRef" href="../group__pcl.html#ga23ba716caa4857afe6a36d2a6065ea8a">PCL_RO_SUM</a>);</div>
+<div class="line"><a name="l02400"></a><span class="lineno"> 2400</span>&#160;    numMarkedCoarse = com.<a class="codeRef" href="../classpcl_1_1_process_communicator.html#a1e3264c8d8f00d75bd899a8ea39b0e01">allreduce</a>(numMarkedCoarseLocal, <a class="codeRef" href="../group__pcl.html#ga23ba716caa4857afe6a36d2a6065ea8a">PCL_RO_SUM</a>);</div>
+<div class="line"><a name="l02401"></a><span class="lineno"> 2401</span>&#160;  }</div>
+<div class="line"><a name="l02402"></a><span class="lineno"> 2402</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l02403"></a><span class="lineno"> 2403</span>&#160; </div>
+<div class="line"><a name="l02404"></a><span class="lineno"> 2404</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>(<span class="stringliteral">&quot;  &gt;&gt;&gt; Marked refine: &quot;</span> &lt;&lt; numMarkedRefine &lt;&lt; <span class="stringliteral">&quot;, coarsen: &quot;</span> &lt;&lt; numMarkedCoarse &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span> );</div>
+<div class="line"><a name="l02405"></a><span class="lineno"> 2405</span>&#160;}</div>
+<div class="line"><a name="l02406"></a><span class="lineno"> 2406</span>&#160; </div>
 <div class="line"><a name="l02407"></a><span class="lineno"> 2407</span>&#160; </div>
-<div class="line"><a name="l02409"></a><span class="lineno"> 2409</span>&#160;  <span class="comment">// print infos</span></div>
-<div class="line"><a name="l02411"></a><span class="lineno"> 2411</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l02412"></a><span class="lineno"> 2412</span>&#160;<span class="preprocessor">#ifdef UG_PARALLEL</span></div>
-<div class="line"><a name="l02413"></a><span class="lineno"> 2413</span>&#160;  <span class="keywordflow">if</span>(<a class="codeRef" href="../group__pcl.html#ga7a09a2eab069305ca735847eed023d2f">pcl::NumProcs</a>() &gt; 1)</div>
-<div class="line"><a name="l02414"></a><span class="lineno"> 2414</span>&#160;  {</div>
-<div class="line"><a name="l02415"></a><span class="lineno"> 2415</span>&#160;    <a class="codeRef" href="../group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>(<span class="stringliteral">&quot;  &gt;&gt;&gt; Marked on Proc &quot;</span>&lt;&lt;<a class="codeRef" href="../group__pcl.html#ga319e84518e2b596fc9f9b40b4383ec36">pcl::ProcRank</a>()&lt;&lt;<span class="stringliteral">&quot;: refine: &quot;</span> &lt;&lt; numMarkedRefine &lt;&lt; <span class="stringliteral">&quot;, coarsen : &quot;</span> &lt;&lt; numMarkedCoarse &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>);</div>
-<div class="line"><a name="l02416"></a><span class="lineno"> 2416</span>&#160;    <a class="codeRef" href="../classpcl_1_1_process_communicator.html">pcl::ProcessCommunicator</a> com;</div>
-<div class="line"><a name="l02417"></a><span class="lineno"> 2417</span>&#160;    <span class="keywordtype">int</span> numMarkedRefineLocal = numMarkedRefine, numMarkedCoarseLocal = numMarkedCoarse;</div>
-<div class="line"><a name="l02418"></a><span class="lineno"> 2418</span>&#160;    numMarkedRefine = com.<a class="codeRef" href="../classpcl_1_1_process_communicator.html#a1e3264c8d8f00d75bd899a8ea39b0e01">allreduce</a>(numMarkedRefineLocal, <a class="codeRef" href="../group__pcl.html#ga23ba716caa4857afe6a36d2a6065ea8a">PCL_RO_SUM</a>);</div>
-<div class="line"><a name="l02419"></a><span class="lineno"> 2419</span>&#160;    numMarkedCoarse = com.<a class="codeRef" href="../classpcl_1_1_process_communicator.html#a1e3264c8d8f00d75bd899a8ea39b0e01">allreduce</a>(numMarkedCoarseLocal, <a class="codeRef" href="../group__pcl.html#ga23ba716caa4857afe6a36d2a6065ea8a">PCL_RO_SUM</a>);</div>
-<div class="line"><a name="l02420"></a><span class="lineno"> 2420</span>&#160;  }</div>
-<div class="line"><a name="l02421"></a><span class="lineno"> 2421</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l02422"></a><span class="lineno"> 2422</span>&#160; </div>
-<div class="line"><a name="l02423"></a><span class="lineno"> 2423</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>(<span class="stringliteral">&quot;  &gt;&gt;&gt; Marked refine: &quot;</span> &lt;&lt; numMarkedRefine &lt;&lt; <span class="stringliteral">&quot;, coarsen: &quot;</span> &lt;&lt; numMarkedCoarse &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span> );</div>
-<div class="line"><a name="l02424"></a><span class="lineno"> 2424</span>&#160;}</div>
-<div class="line"><a name="l02425"></a><span class="lineno"> 2425</span>&#160; </div>
-<div class="line"><a name="l02426"></a><span class="lineno"> 2426</span>&#160; </div>
-<div class="line"><a name="l02427"></a><span class="lineno"> 2427</span>&#160; </div>
-<div class="line"><a name="l02428"></a><span class="lineno"> 2428</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> TDomain&gt;</div>
-<div class="line"><a name="l02429"></a><span class="lineno"><a class="line" href="namespaceug_1_1_small_strain_mechanics.html#adc7e1e916184023723742f6e99309ce1"> 2429</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespaceug_1_1_small_strain_mechanics.html#adc7e1e916184023723742f6e99309ce1">MarkDamage_OLD_AND_DEPRECATED</a>( <a class="codeRef" href="../class_smart_ptr.html">SmartPtr</a>&lt;<a class="codeRef" href="../classug_1_1_grid_function.html">GridFunction&lt;TDomain, CPUAlgebra&gt;</a> &gt; spF,</div>
-<div class="line"><a name="l02430"></a><span class="lineno"> 2430</span>&#160;          <a class="codeRef" href="../class_smart_ptr.html">SmartPtr</a>&lt;<a class="codeRef" href="../classug_1_1_grid_function.html">GridFunction&lt;TDomain, CPUAlgebra&gt;</a> &gt; spPsi0,</div>
-<div class="line"><a name="l02431"></a><span class="lineno"> 2431</span>&#160;          <a class="codeRef" href="../classug_1_1_i_refiner.html">IRefiner</a>&amp; refiner,</div>
-<div class="line"><a name="l02432"></a><span class="lineno"> 2432</span>&#160;          <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> refineFrac, <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> coarseFrac, </div>
-<div class="line"><a name="l02433"></a><span class="lineno"> 2433</span>&#160;          <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> avgRefineFactor, <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> avgCoarsenFactor,</div>
-<div class="line"><a name="l02434"></a><span class="lineno"> 2434</span>&#160;          <span class="keywordtype">int</span> maxLevel)</div>
-<div class="line"><a name="l02435"></a><span class="lineno"> 2435</span>&#160;{</div>
-<div class="line"><a name="l02436"></a><span class="lineno"> 2436</span>&#160;  <a class="codeRef" href="../profiler_8h.html#a3766fe91615588782ad5452a4d60ea5b">PROFILE_FUNC_GROUP</a>(<span class="stringliteral">&quot;Small Strain Mech&quot;</span>);</div>
-<div class="line"><a name="l02437"></a><span class="lineno"> 2437</span>&#160; </div>
-<div class="line"><a name="l02438"></a><span class="lineno"> 2438</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="codeRef" href="../group__lib__disc__domain.html#gaade1bc529aade0f7ae20efc0c8b27057">dim</a> = <a class="codeRef" href="../group__lib__disc__domain.html#gaade1bc529aade0f7ae20efc0c8b27057">TDomain::dim</a>;</div>
-<div class="line"><a name="l02439"></a><span class="lineno"> 2439</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> <a class="codeRef" href="../structug_1_1grid__dim__traits.html">grid_dim_traits&lt;dim&gt;::element_type</a> TElem; </div>
-<div class="line"><a name="l02440"></a><span class="lineno"> 2440</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> <a class="codeRef" href="../structug_1_1_do_f_distribution_1_1traits.html#a1adf959619589545942590d37e893e6f">DoFDistribution::traits&lt;TElem&gt;::const_iterator</a> const_iterator;</div>
-<div class="line"><a name="l02441"></a><span class="lineno"> 2441</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">int</span> fct = 0;</div>
+<div class="line"><a name="l02408"></a><span class="lineno"> 2408</span>&#160; </div>
+<div class="line"><a name="l02409"></a><span class="lineno"> 2409</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> TDomain&gt;</div>
+<div class="line"><a name="l02410"></a><span class="lineno"><a class="line" href="namespaceug_1_1_small_strain_mechanics.html#adc7e1e916184023723742f6e99309ce1"> 2410</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespaceug_1_1_small_strain_mechanics.html#adc7e1e916184023723742f6e99309ce1">MarkDamage_OLD_AND_DEPRECATED</a>( <a class="codeRef" href="../class_smart_ptr.html">SmartPtr</a>&lt;<a class="codeRef" href="../classug_1_1_grid_function.html">GridFunction&lt;TDomain, CPUAlgebra&gt;</a> &gt; spF,</div>
+<div class="line"><a name="l02411"></a><span class="lineno"> 2411</span>&#160;          <a class="codeRef" href="../class_smart_ptr.html">SmartPtr</a>&lt;<a class="codeRef" href="../classug_1_1_grid_function.html">GridFunction&lt;TDomain, CPUAlgebra&gt;</a> &gt; spPsi0,</div>
+<div class="line"><a name="l02412"></a><span class="lineno"> 2412</span>&#160;          <a class="codeRef" href="../classug_1_1_i_refiner.html">IRefiner</a>&amp; refiner,</div>
+<div class="line"><a name="l02413"></a><span class="lineno"> 2413</span>&#160;          <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> refineFrac, <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> coarseFrac, </div>
+<div class="line"><a name="l02414"></a><span class="lineno"> 2414</span>&#160;          <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> avgRefineFactor, <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> avgCoarsenFactor,</div>
+<div class="line"><a name="l02415"></a><span class="lineno"> 2415</span>&#160;          <span class="keywordtype">int</span> maxLevel)</div>
+<div class="line"><a name="l02416"></a><span class="lineno"> 2416</span>&#160;{</div>
+<div class="line"><a name="l02417"></a><span class="lineno"> 2417</span>&#160;  <a class="codeRef" href="../profiler_8h.html#a3766fe91615588782ad5452a4d60ea5b">PROFILE_FUNC_GROUP</a>(<span class="stringliteral">&quot;Small Strain Mech&quot;</span>);</div>
+<div class="line"><a name="l02418"></a><span class="lineno"> 2418</span>&#160; </div>
+<div class="line"><a name="l02419"></a><span class="lineno"> 2419</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="codeRef" href="../group__lib__disc__domain.html#gaade1bc529aade0f7ae20efc0c8b27057">dim</a> = <a class="codeRef" href="../group__lib__disc__domain.html#gaade1bc529aade0f7ae20efc0c8b27057">TDomain::dim</a>;</div>
+<div class="line"><a name="l02420"></a><span class="lineno"> 2420</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> <a class="codeRef" href="../structug_1_1grid__dim__traits.html">grid_dim_traits&lt;dim&gt;::element_type</a> TElem; </div>
+<div class="line"><a name="l02421"></a><span class="lineno"> 2421</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> <a class="codeRef" href="../structug_1_1_do_f_distribution_1_1traits.html#a1adf959619589545942590d37e893e6f">DoFDistribution::traits&lt;TElem&gt;::const_iterator</a> const_iterator;</div>
+<div class="line"><a name="l02422"></a><span class="lineno"> 2422</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">int</span> fct = 0;</div>
+<div class="line"><a name="l02423"></a><span class="lineno"> 2423</span>&#160; </div>
+<div class="line"><a name="l02425"></a><span class="lineno"> 2425</span>&#160;  <span class="comment">// statistic</span></div>
+<div class="line"><a name="l02427"></a><span class="lineno"> 2427</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l02428"></a><span class="lineno"> 2428</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> maxValue = std::numeric_limits&lt;number&gt;::min();</div>
+<div class="line"><a name="l02429"></a><span class="lineno"> 2429</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> minValue = std::numeric_limits&lt;number&gt;::max();</div>
+<div class="line"><a name="l02430"></a><span class="lineno"> 2430</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> sumValue = 0.0;</div>
+<div class="line"><a name="l02431"></a><span class="lineno"> 2431</span>&#160; </div>
+<div class="line"><a name="l02432"></a><span class="lineno"> 2432</span>&#160;  <span class="comment">// loop all elems </span></div>
+<div class="line"><a name="l02433"></a><span class="lineno"> 2433</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">size_t</span> numElem = spF-&gt;size();</div>
+<div class="line"><a name="l02434"></a><span class="lineno"> 2434</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i = 0; i &lt; numElem; ++i){</div>
+<div class="line"><a name="l02435"></a><span class="lineno"> 2435</span>&#160;    <span class="keyword">const</span> <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> val = (*spF)[i] * (*spPsi0)[i];</div>
+<div class="line"><a name="l02436"></a><span class="lineno"> 2436</span>&#160; </div>
+<div class="line"><a name="l02437"></a><span class="lineno"> 2437</span>&#160;    maxValue = std::max(maxValue, val);</div>
+<div class="line"><a name="l02438"></a><span class="lineno"> 2438</span>&#160;    minValue = std::min(minValue, val);</div>
+<div class="line"><a name="l02439"></a><span class="lineno"> 2439</span>&#160;    sumValue += val;</div>
+<div class="line"><a name="l02440"></a><span class="lineno"> 2440</span>&#160;  }</div>
+<div class="line"><a name="l02441"></a><span class="lineno"> 2441</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> avgValue = sumValue / numElem;</div>
 <div class="line"><a name="l02442"></a><span class="lineno"> 2442</span>&#160; </div>
-<div class="line"><a name="l02444"></a><span class="lineno"> 2444</span>&#160;  <span class="comment">// statistic</span></div>
-<div class="line"><a name="l02446"></a><span class="lineno"> 2446</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l02447"></a><span class="lineno"> 2447</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> maxValue = std::numeric_limits&lt;number&gt;::min();</div>
-<div class="line"><a name="l02448"></a><span class="lineno"> 2448</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> minValue = std::numeric_limits&lt;number&gt;::max();</div>
-<div class="line"><a name="l02449"></a><span class="lineno"> 2449</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> sumValue = 0.0;</div>
-<div class="line"><a name="l02450"></a><span class="lineno"> 2450</span>&#160; </div>
-<div class="line"><a name="l02451"></a><span class="lineno"> 2451</span>&#160;  <span class="comment">// loop all elems </span></div>
-<div class="line"><a name="l02452"></a><span class="lineno"> 2452</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">size_t</span> numElem = spF-&gt;size();</div>
-<div class="line"><a name="l02453"></a><span class="lineno"> 2453</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i = 0; i &lt; numElem; ++i){</div>
-<div class="line"><a name="l02454"></a><span class="lineno"> 2454</span>&#160;    <span class="keyword">const</span> <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> val = (*spF)[i] * (*spPsi0)[i];</div>
-<div class="line"><a name="l02455"></a><span class="lineno"> 2455</span>&#160; </div>
-<div class="line"><a name="l02456"></a><span class="lineno"> 2456</span>&#160;    maxValue = std::max(maxValue, val);</div>
-<div class="line"><a name="l02457"></a><span class="lineno"> 2457</span>&#160;    minValue = std::min(minValue, val);</div>
-<div class="line"><a name="l02458"></a><span class="lineno"> 2458</span>&#160;    sumValue += val;</div>
-<div class="line"><a name="l02459"></a><span class="lineno"> 2459</span>&#160;  }</div>
-<div class="line"><a name="l02460"></a><span class="lineno"> 2460</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> avgValue = sumValue / numElem;</div>
-<div class="line"><a name="l02461"></a><span class="lineno"> 2461</span>&#160; </div>
-<div class="line"><a name="l02462"></a><span class="lineno"> 2462</span>&#160; </div>
-<div class="line"><a name="l02463"></a><span class="lineno"> 2463</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>(<span class="stringliteral">&quot;  +++ numElem: &quot;</span> &lt;&lt; numElem &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>);</div>
-<div class="line"><a name="l02464"></a><span class="lineno"> 2464</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>(<span class="stringliteral">&quot;  +++ maxValue: &quot;</span> &lt;&lt; maxValue &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>);</div>
-<div class="line"><a name="l02465"></a><span class="lineno"> 2465</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>(<span class="stringliteral">&quot;  +++ minValue: &quot;</span> &lt;&lt; minValue &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>);</div>
-<div class="line"><a name="l02466"></a><span class="lineno"> 2466</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>(<span class="stringliteral">&quot;  +++ avgValue: &quot;</span> &lt;&lt; avgValue &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>);</div>
-<div class="line"><a name="l02467"></a><span class="lineno"> 2467</span>&#160; </div>
-<div class="line"><a name="l02468"></a><span class="lineno"> 2468</span>&#160; </div>
-<div class="line"><a name="l02470"></a><span class="lineno"> 2470</span>&#160;  <span class="comment">// selection criteria</span></div>
-<div class="line"><a name="l02472"></a><span class="lineno"> 2472</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l02473"></a><span class="lineno"> 2473</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> minValueToRefine = std::min( refineFrac * maxValue, avgRefineFactor * avgValue);</div>
-<div class="line"><a name="l02474"></a><span class="lineno"> 2474</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> maxValueToCoarsen = std::max( (1 + coarseFrac) * minValue, avgCoarsenFactor * avgValue);</div>
+<div class="line"><a name="l02443"></a><span class="lineno"> 2443</span>&#160; </div>
+<div class="line"><a name="l02444"></a><span class="lineno"> 2444</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>(<span class="stringliteral">&quot;  +++ numElem: &quot;</span> &lt;&lt; numElem &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l02445"></a><span class="lineno"> 2445</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>(<span class="stringliteral">&quot;  +++ maxValue: &quot;</span> &lt;&lt; maxValue &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l02446"></a><span class="lineno"> 2446</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>(<span class="stringliteral">&quot;  +++ minValue: &quot;</span> &lt;&lt; minValue &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l02447"></a><span class="lineno"> 2447</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>(<span class="stringliteral">&quot;  +++ avgValue: &quot;</span> &lt;&lt; avgValue &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l02448"></a><span class="lineno"> 2448</span>&#160; </div>
+<div class="line"><a name="l02449"></a><span class="lineno"> 2449</span>&#160; </div>
+<div class="line"><a name="l02451"></a><span class="lineno"> 2451</span>&#160;  <span class="comment">// selection criteria</span></div>
+<div class="line"><a name="l02453"></a><span class="lineno"> 2453</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l02454"></a><span class="lineno"> 2454</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> minValueToRefine = std::min( refineFrac * maxValue, avgRefineFactor * avgValue);</div>
+<div class="line"><a name="l02455"></a><span class="lineno"> 2455</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> maxValueToCoarsen = std::max( (1 + coarseFrac) * minValue, avgCoarsenFactor * avgValue);</div>
+<div class="line"><a name="l02456"></a><span class="lineno"> 2456</span>&#160; </div>
+<div class="line"><a name="l02457"></a><span class="lineno"> 2457</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>(<span class="stringliteral">&quot;  +++ minValueToRefine: &quot;</span> &lt;&lt; minValueToRefine &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l02458"></a><span class="lineno"> 2458</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>(<span class="stringliteral">&quot;  +++ maxValueToCoarsen: &quot;</span> &lt;&lt; maxValueToCoarsen &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l02459"></a><span class="lineno"> 2459</span>&#160; </div>
+<div class="line"><a name="l02461"></a><span class="lineno"> 2461</span>&#160;  <span class="comment">// marking</span></div>
+<div class="line"><a name="l02463"></a><span class="lineno"> 2463</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l02464"></a><span class="lineno"> 2464</span>&#160;  <span class="comment">//  reset counter</span></div>
+<div class="line"><a name="l02465"></a><span class="lineno"> 2465</span>&#160;  <span class="keywordtype">int</span> numMarkedRefine = 0, numMarkedCoarse = 0;</div>
+<div class="line"><a name="l02466"></a><span class="lineno"> 2466</span>&#160; </div>
+<div class="line"><a name="l02467"></a><span class="lineno"> 2467</span>&#160;  const_iterator iter = spF-&gt;template begin&lt;TElem&gt;();</div>
+<div class="line"><a name="l02468"></a><span class="lineno"> 2468</span>&#160;  const_iterator iterEnd = spF-&gt;template end&lt;TElem&gt;();</div>
+<div class="line"><a name="l02469"></a><span class="lineno"> 2469</span>&#160; </div>
+<div class="line"><a name="l02470"></a><span class="lineno"> 2470</span>&#160;  <span class="comment">//  loop elements for marking</span></div>
+<div class="line"><a name="l02471"></a><span class="lineno"> 2471</span>&#160;  <span class="keywordflow">for</span>(; iter != iterEnd; ++iter)</div>
+<div class="line"><a name="l02472"></a><span class="lineno"> 2472</span>&#160;  {</div>
+<div class="line"><a name="l02473"></a><span class="lineno"> 2473</span>&#160;    <span class="comment">//  get element</span></div>
+<div class="line"><a name="l02474"></a><span class="lineno"> 2474</span>&#160;    TElem* elem = *iter;</div>
 <div class="line"><a name="l02475"></a><span class="lineno"> 2475</span>&#160; </div>
-<div class="line"><a name="l02476"></a><span class="lineno"> 2476</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>(<span class="stringliteral">&quot;  +++ minValueToRefine: &quot;</span> &lt;&lt; minValueToRefine &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>);</div>
-<div class="line"><a name="l02477"></a><span class="lineno"> 2477</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>(<span class="stringliteral">&quot;  +++ maxValueToCoarsen: &quot;</span> &lt;&lt; maxValueToCoarsen &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>);</div>
-<div class="line"><a name="l02478"></a><span class="lineno"> 2478</span>&#160; </div>
-<div class="line"><a name="l02480"></a><span class="lineno"> 2480</span>&#160;  <span class="comment">// marking</span></div>
-<div class="line"><a name="l02482"></a><span class="lineno"> 2482</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l02483"></a><span class="lineno"> 2483</span>&#160;  <span class="comment">//  reset counter</span></div>
-<div class="line"><a name="l02484"></a><span class="lineno"> 2484</span>&#160;  <span class="keywordtype">int</span> numMarkedRefine = 0, numMarkedCoarse = 0;</div>
-<div class="line"><a name="l02485"></a><span class="lineno"> 2485</span>&#160; </div>
-<div class="line"><a name="l02486"></a><span class="lineno"> 2486</span>&#160;  const_iterator iter = spF-&gt;template begin&lt;TElem&gt;();</div>
-<div class="line"><a name="l02487"></a><span class="lineno"> 2487</span>&#160;  const_iterator iterEnd = spF-&gt;template end&lt;TElem&gt;();</div>
-<div class="line"><a name="l02488"></a><span class="lineno"> 2488</span>&#160; </div>
-<div class="line"><a name="l02489"></a><span class="lineno"> 2489</span>&#160;  <span class="comment">//  loop elements for marking</span></div>
-<div class="line"><a name="l02490"></a><span class="lineno"> 2490</span>&#160;  <span class="keywordflow">for</span>(; iter != iterEnd; ++iter)</div>
-<div class="line"><a name="l02491"></a><span class="lineno"> 2491</span>&#160;  {</div>
-<div class="line"><a name="l02492"></a><span class="lineno"> 2492</span>&#160;    <span class="comment">//  get element</span></div>
-<div class="line"><a name="l02493"></a><span class="lineno"> 2493</span>&#160;    TElem* elem = *iter;</div>
+<div class="line"><a name="l02476"></a><span class="lineno"> 2476</span>&#160;    std::vector&lt;DoFIndex&gt; ind;</div>
+<div class="line"><a name="l02477"></a><span class="lineno"> 2477</span>&#160;    <span class="keywordflow">if</span>(spF-&gt;inner_dof_indices(elem, fct, ind) != 1) <a class="codeRef" href="../group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>(<span class="stringliteral">&quot;Wrong number dofs&quot;</span>);</div>
+<div class="line"><a name="l02478"></a><span class="lineno"> 2478</span>&#160;    <span class="keyword">const</span> <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> val = <a class="codeRef" href="../namespaceug.html#a0767c9862f50c0b00c9d10f8b856d2e1">DoFRef</a>(*spF, ind[0]) * <a class="codeRef" href="../namespaceug.html#a0767c9862f50c0b00c9d10f8b856d2e1">DoFRef</a>(*spPsi0, ind[0]);</div>
+<div class="line"><a name="l02479"></a><span class="lineno"> 2479</span>&#160; </div>
+<div class="line"><a name="l02480"></a><span class="lineno"> 2480</span>&#160;    <span class="comment">//  marks for refinement</span></div>
+<div class="line"><a name="l02481"></a><span class="lineno"> 2481</span>&#160;    <span class="keywordflow">if</span>( val &gt;= minValueToRefine)</div>
+<div class="line"><a name="l02482"></a><span class="lineno"> 2482</span>&#160;      <span class="keywordflow">if</span>(spF-&gt;dd()-&gt;multi_grid()-&gt;get_level(elem) &lt; maxLevel)</div>
+<div class="line"><a name="l02483"></a><span class="lineno"> 2483</span>&#160;      {</div>
+<div class="line"><a name="l02484"></a><span class="lineno"> 2484</span>&#160;        refiner.<a class="codeRef" href="../classug_1_1_i_refiner.html#a00d04ce0272197d0ca502721546e81dd">mark</a>(elem, <a class="codeRef" href="../group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a84ff78cd530af7d6e3d7662f46c9a618">RM_REFINE</a>);</div>
+<div class="line"><a name="l02485"></a><span class="lineno"> 2485</span>&#160;        numMarkedRefine++;</div>
+<div class="line"><a name="l02486"></a><span class="lineno"> 2486</span>&#160;      }</div>
+<div class="line"><a name="l02487"></a><span class="lineno"> 2487</span>&#160; </div>
+<div class="line"><a name="l02488"></a><span class="lineno"> 2488</span>&#160;    <span class="comment">//  marks for coarsening</span></div>
+<div class="line"><a name="l02489"></a><span class="lineno"> 2489</span>&#160;    <span class="keywordflow">if</span>( val &lt;= maxValueToCoarsen)</div>
+<div class="line"><a name="l02490"></a><span class="lineno"> 2490</span>&#160;    {</div>
+<div class="line"><a name="l02491"></a><span class="lineno"> 2491</span>&#160;      refiner.<a class="codeRef" href="../classug_1_1_i_refiner.html#a00d04ce0272197d0ca502721546e81dd">mark</a>(elem, <a class="codeRef" href="../group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a50301491217ed84dc6d905f1f67f80af">RM_COARSEN</a>);</div>
+<div class="line"><a name="l02492"></a><span class="lineno"> 2492</span>&#160;      numMarkedCoarse++;</div>
+<div class="line"><a name="l02493"></a><span class="lineno"> 2493</span>&#160;    }</div>
 <div class="line"><a name="l02494"></a><span class="lineno"> 2494</span>&#160; </div>
-<div class="line"><a name="l02495"></a><span class="lineno"> 2495</span>&#160;    std::vector&lt;DoFIndex&gt; ind;</div>
-<div class="line"><a name="l02496"></a><span class="lineno"> 2496</span>&#160;    <span class="keywordflow">if</span>(spF-&gt;inner_dof_indices(elem, fct, ind) != 1) <a class="codeRef" href="../group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>(<span class="stringliteral">&quot;Wrong number dofs&quot;</span>);</div>
-<div class="line"><a name="l02497"></a><span class="lineno"> 2497</span>&#160;    <span class="keyword">const</span> <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> val = <a class="codeRef" href="../namespaceug.html#a0767c9862f50c0b00c9d10f8b856d2e1">DoFRef</a>(*spF, ind[0]) * <a class="codeRef" href="../namespaceug.html#a0767c9862f50c0b00c9d10f8b856d2e1">DoFRef</a>(*spPsi0, ind[0]);</div>
-<div class="line"><a name="l02498"></a><span class="lineno"> 2498</span>&#160; </div>
-<div class="line"><a name="l02499"></a><span class="lineno"> 2499</span>&#160;    <span class="comment">//  marks for refinement</span></div>
-<div class="line"><a name="l02500"></a><span class="lineno"> 2500</span>&#160;    <span class="keywordflow">if</span>( val &gt;= minValueToRefine)</div>
-<div class="line"><a name="l02501"></a><span class="lineno"> 2501</span>&#160;      <span class="keywordflow">if</span>(spF-&gt;dd()-&gt;multi_grid()-&gt;get_level(elem) &lt; maxLevel)</div>
-<div class="line"><a name="l02502"></a><span class="lineno"> 2502</span>&#160;      {</div>
-<div class="line"><a name="l02503"></a><span class="lineno"> 2503</span>&#160;        refiner.<a class="codeRef" href="../classug_1_1_i_refiner.html#a00d04ce0272197d0ca502721546e81dd">mark</a>(elem, <a class="codeRef" href="../group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a84ff78cd530af7d6e3d7662f46c9a618">RM_REFINE</a>);</div>
-<div class="line"><a name="l02504"></a><span class="lineno"> 2504</span>&#160;        numMarkedRefine++;</div>
-<div class="line"><a name="l02505"></a><span class="lineno"> 2505</span>&#160;      }</div>
-<div class="line"><a name="l02506"></a><span class="lineno"> 2506</span>&#160; </div>
-<div class="line"><a name="l02507"></a><span class="lineno"> 2507</span>&#160;    <span class="comment">//  marks for coarsening</span></div>
-<div class="line"><a name="l02508"></a><span class="lineno"> 2508</span>&#160;    <span class="keywordflow">if</span>( val &lt;= maxValueToCoarsen)</div>
-<div class="line"><a name="l02509"></a><span class="lineno"> 2509</span>&#160;    {</div>
-<div class="line"><a name="l02510"></a><span class="lineno"> 2510</span>&#160;      refiner.<a class="codeRef" href="../classug_1_1_i_refiner.html#a00d04ce0272197d0ca502721546e81dd">mark</a>(elem, <a class="codeRef" href="../group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a50301491217ed84dc6d905f1f67f80af">RM_COARSEN</a>);</div>
-<div class="line"><a name="l02511"></a><span class="lineno"> 2511</span>&#160;      numMarkedCoarse++;</div>
-<div class="line"><a name="l02512"></a><span class="lineno"> 2512</span>&#160;    }</div>
-<div class="line"><a name="l02513"></a><span class="lineno"> 2513</span>&#160; </div>
-<div class="line"><a name="l02514"></a><span class="lineno"> 2514</span>&#160;  }</div>
-<div class="line"><a name="l02515"></a><span class="lineno"> 2515</span>&#160; </div>
-<div class="line"><a name="l02517"></a><span class="lineno"> 2517</span>&#160;  <span class="comment">// print infos</span></div>
-<div class="line"><a name="l02519"></a><span class="lineno"> 2519</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l02520"></a><span class="lineno"> 2520</span>&#160;<span class="preprocessor">#ifdef UG_PARALLEL</span></div>
-<div class="line"><a name="l02521"></a><span class="lineno"> 2521</span>&#160;  <span class="keywordflow">if</span>(<a class="codeRef" href="../group__pcl.html#ga7a09a2eab069305ca735847eed023d2f">pcl::NumProcs</a>() &gt; 1)</div>
-<div class="line"><a name="l02522"></a><span class="lineno"> 2522</span>&#160;  {</div>
-<div class="line"><a name="l02523"></a><span class="lineno"> 2523</span>&#160;    <a class="codeRef" href="../group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>(<span class="stringliteral">&quot;  +++ Marked for refinement on Proc &quot;</span>&lt;&lt;<a class="codeRef" href="../group__pcl.html#ga319e84518e2b596fc9f9b40b4383ec36">pcl::ProcRank</a>()&lt;&lt;<span class="stringliteral">&quot;: &quot;</span> &lt;&lt; numMarkedRefine &lt;&lt; <span class="stringliteral">&quot; Elements.\n&quot;</span>);</div>
-<div class="line"><a name="l02524"></a><span class="lineno"> 2524</span>&#160;    <a class="codeRef" href="../group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>(<span class="stringliteral">&quot;  +++ Marked for coarsening on Proc &quot;</span>&lt;&lt;<a class="codeRef" href="../group__pcl.html#ga319e84518e2b596fc9f9b40b4383ec36">pcl::ProcRank</a>()&lt;&lt;<span class="stringliteral">&quot;: &quot;</span> &lt;&lt; numMarkedCoarse &lt;&lt; <span class="stringliteral">&quot; Elements.\n&quot;</span>);</div>
-<div class="line"><a name="l02525"></a><span class="lineno"> 2525</span>&#160;    <a class="codeRef" href="../classpcl_1_1_process_communicator.html">pcl::ProcessCommunicator</a> com;</div>
-<div class="line"><a name="l02526"></a><span class="lineno"> 2526</span>&#160;    <span class="keywordtype">int</span> numMarkedRefineLocal = numMarkedRefine, numMarkedCoarseLocal = numMarkedCoarse;</div>
-<div class="line"><a name="l02527"></a><span class="lineno"> 2527</span>&#160;    numMarkedRefine = com.<a class="codeRef" href="../classpcl_1_1_process_communicator.html#a1e3264c8d8f00d75bd899a8ea39b0e01">allreduce</a>(numMarkedRefineLocal, <a class="codeRef" href="../group__pcl.html#ga23ba716caa4857afe6a36d2a6065ea8a">PCL_RO_SUM</a>);</div>
-<div class="line"><a name="l02528"></a><span class="lineno"> 2528</span>&#160;    numMarkedCoarse = com.<a class="codeRef" href="../classpcl_1_1_process_communicator.html#a1e3264c8d8f00d75bd899a8ea39b0e01">allreduce</a>(numMarkedCoarseLocal, <a class="codeRef" href="../group__pcl.html#ga23ba716caa4857afe6a36d2a6065ea8a">PCL_RO_SUM</a>);</div>
-<div class="line"><a name="l02529"></a><span class="lineno"> 2529</span>&#160;  }</div>
-<div class="line"><a name="l02530"></a><span class="lineno"> 2530</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l02531"></a><span class="lineno"> 2531</span>&#160; </div>
-<div class="line"><a name="l02532"></a><span class="lineno"> 2532</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>(<span class="stringliteral">&quot;  +++ Marked for refinement: &quot;</span> &lt;&lt; numMarkedRefine &lt;&lt; <span class="stringliteral">&quot; Elements.\n&quot;</span>);</div>
-<div class="line"><a name="l02533"></a><span class="lineno"> 2533</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>(<span class="stringliteral">&quot;  +++ Marked for coarsening: &quot;</span> &lt;&lt; numMarkedCoarse &lt;&lt; <span class="stringliteral">&quot; Elements.\n&quot;</span>);</div>
-<div class="line"><a name="l02534"></a><span class="lineno"> 2534</span>&#160;}</div>
-<div class="line"><a name="l02535"></a><span class="lineno"> 2535</span>&#160; </div>
+<div class="line"><a name="l02495"></a><span class="lineno"> 2495</span>&#160;  }</div>
+<div class="line"><a name="l02496"></a><span class="lineno"> 2496</span>&#160; </div>
+<div class="line"><a name="l02498"></a><span class="lineno"> 2498</span>&#160;  <span class="comment">// print infos</span></div>
+<div class="line"><a name="l02500"></a><span class="lineno"> 2500</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l02501"></a><span class="lineno"> 2501</span>&#160;<span class="preprocessor">#ifdef UG_PARALLEL</span></div>
+<div class="line"><a name="l02502"></a><span class="lineno"> 2502</span>&#160;  <span class="keywordflow">if</span>(<a class="codeRef" href="../group__pcl.html#ga7a09a2eab069305ca735847eed023d2f">pcl::NumProcs</a>() &gt; 1)</div>
+<div class="line"><a name="l02503"></a><span class="lineno"> 2503</span>&#160;  {</div>
+<div class="line"><a name="l02504"></a><span class="lineno"> 2504</span>&#160;    <a class="codeRef" href="../group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>(<span class="stringliteral">&quot;  +++ Marked for refinement on Proc &quot;</span>&lt;&lt;<a class="codeRef" href="../group__pcl.html#ga319e84518e2b596fc9f9b40b4383ec36">pcl::ProcRank</a>()&lt;&lt;<span class="stringliteral">&quot;: &quot;</span> &lt;&lt; numMarkedRefine &lt;&lt; <span class="stringliteral">&quot; Elements.\n&quot;</span>);</div>
+<div class="line"><a name="l02505"></a><span class="lineno"> 2505</span>&#160;    <a class="codeRef" href="../group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>(<span class="stringliteral">&quot;  +++ Marked for coarsening on Proc &quot;</span>&lt;&lt;<a class="codeRef" href="../group__pcl.html#ga319e84518e2b596fc9f9b40b4383ec36">pcl::ProcRank</a>()&lt;&lt;<span class="stringliteral">&quot;: &quot;</span> &lt;&lt; numMarkedCoarse &lt;&lt; <span class="stringliteral">&quot; Elements.\n&quot;</span>);</div>
+<div class="line"><a name="l02506"></a><span class="lineno"> 2506</span>&#160;    <a class="codeRef" href="../classpcl_1_1_process_communicator.html">pcl::ProcessCommunicator</a> com;</div>
+<div class="line"><a name="l02507"></a><span class="lineno"> 2507</span>&#160;    <span class="keywordtype">int</span> numMarkedRefineLocal = numMarkedRefine, numMarkedCoarseLocal = numMarkedCoarse;</div>
+<div class="line"><a name="l02508"></a><span class="lineno"> 2508</span>&#160;    numMarkedRefine = com.<a class="codeRef" href="../classpcl_1_1_process_communicator.html#a1e3264c8d8f00d75bd899a8ea39b0e01">allreduce</a>(numMarkedRefineLocal, <a class="codeRef" href="../group__pcl.html#ga23ba716caa4857afe6a36d2a6065ea8a">PCL_RO_SUM</a>);</div>
+<div class="line"><a name="l02509"></a><span class="lineno"> 2509</span>&#160;    numMarkedCoarse = com.<a class="codeRef" href="../classpcl_1_1_process_communicator.html#a1e3264c8d8f00d75bd899a8ea39b0e01">allreduce</a>(numMarkedCoarseLocal, <a class="codeRef" href="../group__pcl.html#ga23ba716caa4857afe6a36d2a6065ea8a">PCL_RO_SUM</a>);</div>
+<div class="line"><a name="l02510"></a><span class="lineno"> 2510</span>&#160;  }</div>
+<div class="line"><a name="l02511"></a><span class="lineno"> 2511</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l02512"></a><span class="lineno"> 2512</span>&#160; </div>
+<div class="line"><a name="l02513"></a><span class="lineno"> 2513</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>(<span class="stringliteral">&quot;  +++ Marked for refinement: &quot;</span> &lt;&lt; numMarkedRefine &lt;&lt; <span class="stringliteral">&quot; Elements.\n&quot;</span>);</div>
+<div class="line"><a name="l02514"></a><span class="lineno"> 2514</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>(<span class="stringliteral">&quot;  +++ Marked for coarsening: &quot;</span> &lt;&lt; numMarkedCoarse &lt;&lt; <span class="stringliteral">&quot; Elements.\n&quot;</span>);</div>
+<div class="line"><a name="l02515"></a><span class="lineno"> 2515</span>&#160;}</div>
+<div class="line"><a name="l02516"></a><span class="lineno"> 2516</span>&#160; </div>
+<div class="line"><a name="l02517"></a><span class="lineno"> 2517</span>&#160; </div>
+<div class="line"><a name="l02518"></a><span class="lineno"> 2518</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> TDomain&gt;</div>
+<div class="line"><a name="l02519"></a><span class="lineno"><a class="line" href="namespaceug_1_1_small_strain_mechanics.html#ae8567d57ea16ec30cfea99b705e4b0ec"> 2519</a></span>&#160;std::vector&lt;number&gt; <a class="code" href="namespaceug_1_1_small_strain_mechanics.html#ae8567d57ea16ec30cfea99b705e4b0ec">DamageStatistic</a>(  <a class="codeRef" href="../class_smart_ptr.html">SmartPtr</a>&lt;<a class="codeRef" href="../classug_1_1_grid_function.html">GridFunction&lt;TDomain, CPUAlgebra&gt;</a> &gt; spF,</div>
+<div class="line"><a name="l02520"></a><span class="lineno"> 2520</span>&#160;                    <a class="codeRef" href="../class_smart_ptr.html">SmartPtr</a>&lt;<a class="codeRef" href="../classug_1_1_grid_function.html">GridFunction&lt;TDomain, CPUAlgebra&gt;</a> &gt; spPsi0)</div>
+<div class="line"><a name="l02521"></a><span class="lineno"> 2521</span>&#160;{</div>
+<div class="line"><a name="l02522"></a><span class="lineno"> 2522</span>&#160;  <a class="codeRef" href="../profiler_8h.html#a3766fe91615588782ad5452a4d60ea5b">PROFILE_FUNC_GROUP</a>(<span class="stringliteral">&quot;Small Strain Mech&quot;</span>);</div>
+<div class="line"><a name="l02523"></a><span class="lineno"> 2523</span>&#160; </div>
+<div class="line"><a name="l02524"></a><span class="lineno"> 2524</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="codeRef" href="../group__lib__disc__domain.html#gaade1bc529aade0f7ae20efc0c8b27057">dim</a> = <a class="codeRef" href="../group__lib__disc__domain.html#gaade1bc529aade0f7ae20efc0c8b27057">TDomain::dim</a>;</div>
+<div class="line"><a name="l02525"></a><span class="lineno"> 2525</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> <a class="codeRef" href="../structug_1_1grid__dim__traits.html">grid_dim_traits&lt;dim&gt;::element_type</a> TElem; </div>
+<div class="line"><a name="l02526"></a><span class="lineno"> 2526</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> <a class="codeRef" href="../structug_1_1_do_f_distribution_1_1traits.html#a1adf959619589545942590d37e893e6f">DoFDistribution::traits&lt;TElem&gt;::const_iterator</a> const_iterator;</div>
+<div class="line"><a name="l02527"></a><span class="lineno"> 2527</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">int</span> fct = 0;</div>
+<div class="line"><a name="l02528"></a><span class="lineno"> 2528</span>&#160; </div>
+<div class="line"><a name="l02530"></a><span class="lineno"> 2530</span>&#160;  <span class="comment">// statistic</span></div>
+<div class="line"><a name="l02532"></a><span class="lineno"> 2532</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l02533"></a><span class="lineno"> 2533</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> max_fPsi0 = std::numeric_limits&lt;number&gt;::min();</div>
+<div class="line"><a name="l02534"></a><span class="lineno"> 2534</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> min_fPsi0 = std::numeric_limits&lt;number&gt;::max();</div>
+<div class="line"><a name="l02535"></a><span class="lineno"> 2535</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> sum_fPsi0 = 0.0;</div>
 <div class="line"><a name="l02536"></a><span class="lineno"> 2536</span>&#160; </div>
-<div class="line"><a name="l02537"></a><span class="lineno"> 2537</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> TDomain&gt;</div>
-<div class="line"><a name="l02538"></a><span class="lineno"><a class="line" href="namespaceug_1_1_small_strain_mechanics.html#ae8567d57ea16ec30cfea99b705e4b0ec"> 2538</a></span>&#160;std::vector&lt;number&gt; <a class="code" href="namespaceug_1_1_small_strain_mechanics.html#ae8567d57ea16ec30cfea99b705e4b0ec">DamageStatistic</a>(  <a class="codeRef" href="../class_smart_ptr.html">SmartPtr</a>&lt;<a class="codeRef" href="../classug_1_1_grid_function.html">GridFunction&lt;TDomain, CPUAlgebra&gt;</a> &gt; spF,</div>
-<div class="line"><a name="l02539"></a><span class="lineno"> 2539</span>&#160;                    <a class="codeRef" href="../class_smart_ptr.html">SmartPtr</a>&lt;<a class="codeRef" href="../classug_1_1_grid_function.html">GridFunction&lt;TDomain, CPUAlgebra&gt;</a> &gt; spPsi0)</div>
-<div class="line"><a name="l02540"></a><span class="lineno"> 2540</span>&#160;{</div>
-<div class="line"><a name="l02541"></a><span class="lineno"> 2541</span>&#160;  <a class="codeRef" href="../profiler_8h.html#a3766fe91615588782ad5452a4d60ea5b">PROFILE_FUNC_GROUP</a>(<span class="stringliteral">&quot;Small Strain Mech&quot;</span>);</div>
-<div class="line"><a name="l02542"></a><span class="lineno"> 2542</span>&#160; </div>
-<div class="line"><a name="l02543"></a><span class="lineno"> 2543</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="codeRef" href="../group__lib__disc__domain.html#gaade1bc529aade0f7ae20efc0c8b27057">dim</a> = <a class="codeRef" href="../group__lib__disc__domain.html#gaade1bc529aade0f7ae20efc0c8b27057">TDomain::dim</a>;</div>
-<div class="line"><a name="l02544"></a><span class="lineno"> 2544</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> <a class="codeRef" href="../structug_1_1grid__dim__traits.html">grid_dim_traits&lt;dim&gt;::element_type</a> TElem; </div>
-<div class="line"><a name="l02545"></a><span class="lineno"> 2545</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> <a class="codeRef" href="../structug_1_1_do_f_distribution_1_1traits.html#a1adf959619589545942590d37e893e6f">DoFDistribution::traits&lt;TElem&gt;::const_iterator</a> const_iterator;</div>
-<div class="line"><a name="l02546"></a><span class="lineno"> 2546</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">int</span> fct = 0;</div>
-<div class="line"><a name="l02547"></a><span class="lineno"> 2547</span>&#160; </div>
-<div class="line"><a name="l02549"></a><span class="lineno"> 2549</span>&#160;  <span class="comment">// statistic</span></div>
-<div class="line"><a name="l02551"></a><span class="lineno"> 2551</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l02552"></a><span class="lineno"> 2552</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> max_fPsi0 = std::numeric_limits&lt;number&gt;::min();</div>
-<div class="line"><a name="l02553"></a><span class="lineno"> 2553</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> min_fPsi0 = std::numeric_limits&lt;number&gt;::max();</div>
-<div class="line"><a name="l02554"></a><span class="lineno"> 2554</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> sum_fPsi0 = 0.0;</div>
+<div class="line"><a name="l02537"></a><span class="lineno"> 2537</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> max_l2_fPsi0 = std::numeric_limits&lt;number&gt;::min();</div>
+<div class="line"><a name="l02538"></a><span class="lineno"> 2538</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> min_l2_fPsi0 = std::numeric_limits&lt;number&gt;::max();</div>
+<div class="line"><a name="l02539"></a><span class="lineno"> 2539</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> sum_l2_fPsi0 = 0.0;</div>
+<div class="line"><a name="l02540"></a><span class="lineno"> 2540</span>&#160; </div>
+<div class="line"><a name="l02541"></a><span class="lineno"> 2541</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> max_l_fPsi0 = std::numeric_limits&lt;number&gt;::min();</div>
+<div class="line"><a name="l02542"></a><span class="lineno"> 2542</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> min_l_fPsi0 = std::numeric_limits&lt;number&gt;::max();</div>
+<div class="line"><a name="l02543"></a><span class="lineno"> 2543</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> sum_l_fPsi0 = 0.0;</div>
+<div class="line"><a name="l02544"></a><span class="lineno"> 2544</span>&#160; </div>
+<div class="line"><a name="l02545"></a><span class="lineno"> 2545</span>&#160;  <span class="comment">// loop all elems </span></div>
+<div class="line"><a name="l02546"></a><span class="lineno"> 2546</span>&#160;  const_iterator iter = spF-&gt;template begin&lt;TElem&gt;();</div>
+<div class="line"><a name="l02547"></a><span class="lineno"> 2547</span>&#160;  const_iterator iterEnd = spF-&gt;template end&lt;TElem&gt;();</div>
+<div class="line"><a name="l02548"></a><span class="lineno"> 2548</span>&#160; </div>
+<div class="line"><a name="l02549"></a><span class="lineno"> 2549</span>&#160;  <span class="comment">//  loop elements for marking</span></div>
+<div class="line"><a name="l02550"></a><span class="lineno"> 2550</span>&#160;  <span class="keywordtype">size_t</span> numElem = 0;</div>
+<div class="line"><a name="l02551"></a><span class="lineno"> 2551</span>&#160;  <span class="keywordflow">for</span>(; iter != iterEnd; ++iter)</div>
+<div class="line"><a name="l02552"></a><span class="lineno"> 2552</span>&#160;  {</div>
+<div class="line"><a name="l02553"></a><span class="lineno"> 2553</span>&#160;    <span class="comment">//  get element</span></div>
+<div class="line"><a name="l02554"></a><span class="lineno"> 2554</span>&#160;    TElem* elem = *iter; ++numElem;</div>
 <div class="line"><a name="l02555"></a><span class="lineno"> 2555</span>&#160; </div>
-<div class="line"><a name="l02556"></a><span class="lineno"> 2556</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> max_l2_fPsi0 = std::numeric_limits&lt;number&gt;::min();</div>
-<div class="line"><a name="l02557"></a><span class="lineno"> 2557</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> min_l2_fPsi0 = std::numeric_limits&lt;number&gt;::max();</div>
-<div class="line"><a name="l02558"></a><span class="lineno"> 2558</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> sum_l2_fPsi0 = 0.0;</div>
-<div class="line"><a name="l02559"></a><span class="lineno"> 2559</span>&#160; </div>
-<div class="line"><a name="l02560"></a><span class="lineno"> 2560</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> max_l_fPsi0 = std::numeric_limits&lt;number&gt;::min();</div>
-<div class="line"><a name="l02561"></a><span class="lineno"> 2561</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> min_l_fPsi0 = std::numeric_limits&lt;number&gt;::max();</div>
-<div class="line"><a name="l02562"></a><span class="lineno"> 2562</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> sum_l_fPsi0 = 0.0;</div>
-<div class="line"><a name="l02563"></a><span class="lineno"> 2563</span>&#160; </div>
-<div class="line"><a name="l02564"></a><span class="lineno"> 2564</span>&#160;  <span class="comment">// loop all elems </span></div>
-<div class="line"><a name="l02565"></a><span class="lineno"> 2565</span>&#160;  const_iterator iter = spF-&gt;template begin&lt;TElem&gt;();</div>
-<div class="line"><a name="l02566"></a><span class="lineno"> 2566</span>&#160;  const_iterator iterEnd = spF-&gt;template end&lt;TElem&gt;();</div>
+<div class="line"><a name="l02556"></a><span class="lineno"> 2556</span>&#160;    std::vector&lt;DoFIndex&gt; ind;</div>
+<div class="line"><a name="l02557"></a><span class="lineno"> 2557</span>&#160;    <span class="keywordflow">if</span>(spF-&gt;inner_dof_indices(elem, fct, ind) != 1) <a class="codeRef" href="../group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>(<span class="stringliteral">&quot;Wrong number dofs&quot;</span>);</div>
+<div class="line"><a name="l02558"></a><span class="lineno"> 2558</span>&#160; </div>
+<div class="line"><a name="l02559"></a><span class="lineno"> 2559</span>&#160;    <span class="keyword">const</span> <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> f =  <a class="codeRef" href="../namespaceug.html#a0767c9862f50c0b00c9d10f8b856d2e1">DoFRef</a>(*spF, ind[0]);</div>
+<div class="line"><a name="l02560"></a><span class="lineno"> 2560</span>&#160;    <span class="keyword">const</span> <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> psi0 = <a class="codeRef" href="../namespaceug.html#a0767c9862f50c0b00c9d10f8b856d2e1">DoFRef</a>(*spPsi0, ind[0]);</div>
+<div class="line"><a name="l02561"></a><span class="lineno"> 2561</span>&#160; </div>
+<div class="line"><a name="l02562"></a><span class="lineno"> 2562</span>&#160;    max_fPsi0 = std::max(max_fPsi0, f*psi0);</div>
+<div class="line"><a name="l02563"></a><span class="lineno"> 2563</span>&#160;    min_fPsi0 = std::min(min_fPsi0, f*psi0);</div>
+<div class="line"><a name="l02564"></a><span class="lineno"> 2564</span>&#160;    sum_fPsi0 += f*psi0;</div>
+<div class="line"><a name="l02565"></a><span class="lineno"> 2565</span>&#160; </div>
+<div class="line"><a name="l02566"></a><span class="lineno"> 2566</span>&#160;    <span class="keyword">const</span> <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> l2 = <a class="codeRef" href="../group__lib__disc__domain.html#ga8c9734c18a4962ade29e5dccc2b8e660">ElementDiameterSq</a>(*elem, *(spF-&gt;domain()) );</div>
 <div class="line"><a name="l02567"></a><span class="lineno"> 2567</span>&#160; </div>
-<div class="line"><a name="l02568"></a><span class="lineno"> 2568</span>&#160;  <span class="comment">//  loop elements for marking</span></div>
-<div class="line"><a name="l02569"></a><span class="lineno"> 2569</span>&#160;  <span class="keywordtype">size_t</span> numElem = 0;</div>
-<div class="line"><a name="l02570"></a><span class="lineno"> 2570</span>&#160;  <span class="keywordflow">for</span>(; iter != iterEnd; ++iter)</div>
-<div class="line"><a name="l02571"></a><span class="lineno"> 2571</span>&#160;  {</div>
-<div class="line"><a name="l02572"></a><span class="lineno"> 2572</span>&#160;    <span class="comment">//  get element</span></div>
-<div class="line"><a name="l02573"></a><span class="lineno"> 2573</span>&#160;    TElem* elem = *iter; ++numElem;</div>
-<div class="line"><a name="l02574"></a><span class="lineno"> 2574</span>&#160; </div>
-<div class="line"><a name="l02575"></a><span class="lineno"> 2575</span>&#160;    std::vector&lt;DoFIndex&gt; ind;</div>
-<div class="line"><a name="l02576"></a><span class="lineno"> 2576</span>&#160;    <span class="keywordflow">if</span>(spF-&gt;inner_dof_indices(elem, fct, ind) != 1) <a class="codeRef" href="../group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>(<span class="stringliteral">&quot;Wrong number dofs&quot;</span>);</div>
-<div class="line"><a name="l02577"></a><span class="lineno"> 2577</span>&#160; </div>
-<div class="line"><a name="l02578"></a><span class="lineno"> 2578</span>&#160;    <span class="keyword">const</span> <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> f =  <a class="codeRef" href="../namespaceug.html#a0767c9862f50c0b00c9d10f8b856d2e1">DoFRef</a>(*spF, ind[0]);</div>
-<div class="line"><a name="l02579"></a><span class="lineno"> 2579</span>&#160;    <span class="keyword">const</span> <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> psi0 = <a class="codeRef" href="../namespaceug.html#a0767c9862f50c0b00c9d10f8b856d2e1">DoFRef</a>(*spPsi0, ind[0]);</div>
-<div class="line"><a name="l02580"></a><span class="lineno"> 2580</span>&#160; </div>
-<div class="line"><a name="l02581"></a><span class="lineno"> 2581</span>&#160;    max_fPsi0 = std::max(max_fPsi0, f*psi0);</div>
-<div class="line"><a name="l02582"></a><span class="lineno"> 2582</span>&#160;    min_fPsi0 = std::min(min_fPsi0, f*psi0);</div>
-<div class="line"><a name="l02583"></a><span class="lineno"> 2583</span>&#160;    sum_fPsi0 += f*psi0;</div>
-<div class="line"><a name="l02584"></a><span class="lineno"> 2584</span>&#160; </div>
-<div class="line"><a name="l02585"></a><span class="lineno"> 2585</span>&#160;    <span class="keyword">const</span> <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> l2 = <a class="codeRef" href="../group__lib__disc__domain.html#ga8c9734c18a4962ade29e5dccc2b8e660">ElementDiameterSq</a>(*elem, *(spF-&gt;domain()) );</div>
-<div class="line"><a name="l02586"></a><span class="lineno"> 2586</span>&#160; </div>
-<div class="line"><a name="l02587"></a><span class="lineno"> 2587</span>&#160;    max_l2_fPsi0 = std::max(max_l2_fPsi0, l2*f*psi0);</div>
-<div class="line"><a name="l02588"></a><span class="lineno"> 2588</span>&#160;    min_l2_fPsi0 = std::min(min_l2_fPsi0, l2*f*psi0);</div>
-<div class="line"><a name="l02589"></a><span class="lineno"> 2589</span>&#160;    sum_l2_fPsi0 += l2*f*psi0;</div>
-<div class="line"><a name="l02590"></a><span class="lineno"> 2590</span>&#160; </div>
-<div class="line"><a name="l02591"></a><span class="lineno"> 2591</span>&#160;    <span class="keyword">const</span> <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> l = std::sqrt(l2);</div>
-<div class="line"><a name="l02592"></a><span class="lineno"> 2592</span>&#160; </div>
-<div class="line"><a name="l02593"></a><span class="lineno"> 2593</span>&#160;    max_l_fPsi0 = std::max(max_l_fPsi0, l*f*psi0);</div>
-<div class="line"><a name="l02594"></a><span class="lineno"> 2594</span>&#160;    min_l_fPsi0 = std::min(min_l_fPsi0, l*f*psi0);</div>
-<div class="line"><a name="l02595"></a><span class="lineno"> 2595</span>&#160;    sum_l_fPsi0 += l*f*psi0;</div>
-<div class="line"><a name="l02596"></a><span class="lineno"> 2596</span>&#160;  }</div>
-<div class="line"><a name="l02597"></a><span class="lineno"> 2597</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> avg_fPsi0 = sum_fPsi0 / numElem;</div>
-<div class="line"><a name="l02598"></a><span class="lineno"> 2598</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> avg_l2_fPsi0 = sum_l2_fPsi0 / numElem;</div>
-<div class="line"><a name="l02599"></a><span class="lineno"> 2599</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> avg_l_fPsi0 = sum_l_fPsi0 / numElem;</div>
+<div class="line"><a name="l02568"></a><span class="lineno"> 2568</span>&#160;    max_l2_fPsi0 = std::max(max_l2_fPsi0, l2*f*psi0);</div>
+<div class="line"><a name="l02569"></a><span class="lineno"> 2569</span>&#160;    min_l2_fPsi0 = std::min(min_l2_fPsi0, l2*f*psi0);</div>
+<div class="line"><a name="l02570"></a><span class="lineno"> 2570</span>&#160;    sum_l2_fPsi0 += l2*f*psi0;</div>
+<div class="line"><a name="l02571"></a><span class="lineno"> 2571</span>&#160; </div>
+<div class="line"><a name="l02572"></a><span class="lineno"> 2572</span>&#160;    <span class="keyword">const</span> <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> l = std::sqrt(l2);</div>
+<div class="line"><a name="l02573"></a><span class="lineno"> 2573</span>&#160; </div>
+<div class="line"><a name="l02574"></a><span class="lineno"> 2574</span>&#160;    max_l_fPsi0 = std::max(max_l_fPsi0, l*f*psi0);</div>
+<div class="line"><a name="l02575"></a><span class="lineno"> 2575</span>&#160;    min_l_fPsi0 = std::min(min_l_fPsi0, l*f*psi0);</div>
+<div class="line"><a name="l02576"></a><span class="lineno"> 2576</span>&#160;    sum_l_fPsi0 += l*f*psi0;</div>
+<div class="line"><a name="l02577"></a><span class="lineno"> 2577</span>&#160;  }</div>
+<div class="line"><a name="l02578"></a><span class="lineno"> 2578</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> avg_fPsi0 = sum_fPsi0 / numElem;</div>
+<div class="line"><a name="l02579"></a><span class="lineno"> 2579</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> avg_l2_fPsi0 = sum_l2_fPsi0 / numElem;</div>
+<div class="line"><a name="l02580"></a><span class="lineno"> 2580</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> avg_l_fPsi0 = sum_l_fPsi0 / numElem;</div>
+<div class="line"><a name="l02581"></a><span class="lineno"> 2581</span>&#160; </div>
+<div class="line"><a name="l02582"></a><span class="lineno"> 2582</span>&#160; </div>
+<div class="line"><a name="l02583"></a><span class="lineno"> 2583</span>&#160;  std::vector&lt;number&gt; vRes;</div>
+<div class="line"><a name="l02584"></a><span class="lineno"> 2584</span>&#160;  vRes.push_back(max_fPsi0);</div>
+<div class="line"><a name="l02585"></a><span class="lineno"> 2585</span>&#160;  vRes.push_back(min_fPsi0);</div>
+<div class="line"><a name="l02586"></a><span class="lineno"> 2586</span>&#160;  vRes.push_back(avg_fPsi0);</div>
+<div class="line"><a name="l02587"></a><span class="lineno"> 2587</span>&#160; </div>
+<div class="line"><a name="l02588"></a><span class="lineno"> 2588</span>&#160;  vRes.push_back(max_l2_fPsi0);</div>
+<div class="line"><a name="l02589"></a><span class="lineno"> 2589</span>&#160;  vRes.push_back(min_l2_fPsi0);</div>
+<div class="line"><a name="l02590"></a><span class="lineno"> 2590</span>&#160;  vRes.push_back(avg_l2_fPsi0);</div>
+<div class="line"><a name="l02591"></a><span class="lineno"> 2591</span>&#160; </div>
+<div class="line"><a name="l02592"></a><span class="lineno"> 2592</span>&#160;  vRes.push_back(max_l_fPsi0);</div>
+<div class="line"><a name="l02593"></a><span class="lineno"> 2593</span>&#160;  vRes.push_back(min_l_fPsi0);</div>
+<div class="line"><a name="l02594"></a><span class="lineno"> 2594</span>&#160;  vRes.push_back(avg_l_fPsi0);</div>
+<div class="line"><a name="l02595"></a><span class="lineno"> 2595</span>&#160; </div>
+<div class="line"><a name="l02596"></a><span class="lineno"> 2596</span>&#160;  <span class="keywordflow">return</span> vRes;</div>
+<div class="line"><a name="l02597"></a><span class="lineno"> 2597</span>&#160;}</div>
+<div class="line"><a name="l02598"></a><span class="lineno"> 2598</span>&#160; </div>
+<div class="line"><a name="l02599"></a><span class="lineno"> 2599</span>&#160; </div>
 <div class="line"><a name="l02600"></a><span class="lineno"> 2600</span>&#160; </div>
-<div class="line"><a name="l02601"></a><span class="lineno"> 2601</span>&#160; </div>
-<div class="line"><a name="l02602"></a><span class="lineno"> 2602</span>&#160;  std::vector&lt;number&gt; vRes;</div>
-<div class="line"><a name="l02603"></a><span class="lineno"> 2603</span>&#160;  vRes.push_back(max_fPsi0);</div>
-<div class="line"><a name="l02604"></a><span class="lineno"> 2604</span>&#160;  vRes.push_back(min_fPsi0);</div>
-<div class="line"><a name="l02605"></a><span class="lineno"> 2605</span>&#160;  vRes.push_back(avg_fPsi0);</div>
-<div class="line"><a name="l02606"></a><span class="lineno"> 2606</span>&#160; </div>
-<div class="line"><a name="l02607"></a><span class="lineno"> 2607</span>&#160;  vRes.push_back(max_l2_fPsi0);</div>
-<div class="line"><a name="l02608"></a><span class="lineno"> 2608</span>&#160;  vRes.push_back(min_l2_fPsi0);</div>
-<div class="line"><a name="l02609"></a><span class="lineno"> 2609</span>&#160;  vRes.push_back(avg_l2_fPsi0);</div>
-<div class="line"><a name="l02610"></a><span class="lineno"> 2610</span>&#160; </div>
-<div class="line"><a name="l02611"></a><span class="lineno"> 2611</span>&#160;  vRes.push_back(max_l_fPsi0);</div>
-<div class="line"><a name="l02612"></a><span class="lineno"> 2612</span>&#160;  vRes.push_back(min_l_fPsi0);</div>
-<div class="line"><a name="l02613"></a><span class="lineno"> 2613</span>&#160;  vRes.push_back(avg_l_fPsi0);</div>
+<div class="line"><a name="l02601"></a><span class="lineno"> 2601</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> TDomain&gt;</div>
+<div class="line"><a name="l02602"></a><span class="lineno"><a class="line" href="namespaceug_1_1_small_strain_mechanics.html#a7bc0629d8a92d7ef4ef84ece9b3ec4ef"> 2602</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespaceug_1_1_small_strain_mechanics.html#a7bc0629d8a92d7ef4ef84ece9b3ec4ef">HadamardProd</a>(  <a class="codeRef" href="../class_smart_ptr.html">SmartPtr</a>&lt;<a class="codeRef" href="../classug_1_1_grid_function.html">GridFunction&lt;TDomain, CPUAlgebra&gt;</a> &gt; spFPsi0,</div>
+<div class="line"><a name="l02603"></a><span class="lineno"> 2603</span>&#160;          <a class="codeRef" href="../class_const_smart_ptr.html">ConstSmartPtr</a>&lt;<a class="codeRef" href="../classug_1_1_grid_function.html">GridFunction&lt;TDomain, CPUAlgebra&gt;</a> &gt; spF,</div>
+<div class="line"><a name="l02604"></a><span class="lineno"> 2604</span>&#160;          <a class="codeRef" href="../class_const_smart_ptr.html">ConstSmartPtr</a>&lt;<a class="codeRef" href="../classug_1_1_grid_function.html">GridFunction&lt;TDomain, CPUAlgebra&gt;</a> &gt; spPsi0)</div>
+<div class="line"><a name="l02605"></a><span class="lineno"> 2605</span>&#160;{</div>
+<div class="line"><a name="l02606"></a><span class="lineno"> 2606</span>&#160;  <span class="keywordflow">if</span>(spF-&gt;size() != spPsi0-&gt;size() || spF-&gt;size() != spFPsi0-&gt;size())</div>
+<div class="line"><a name="l02607"></a><span class="lineno"> 2607</span>&#160;    <a class="codeRef" href="../group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>(<span class="stringliteral">&quot;HadamardProd: Size mismatch&quot;</span>);</div>
+<div class="line"><a name="l02608"></a><span class="lineno"> 2608</span>&#160; </div>
+<div class="line"><a name="l02609"></a><span class="lineno"> 2609</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i = 0; i &lt; spF-&gt;size(); ++i){</div>
+<div class="line"><a name="l02610"></a><span class="lineno"> 2610</span>&#160;    (*spFPsi0)[i] = (*spF)[i] * (*spPsi0)[i];</div>
+<div class="line"><a name="l02611"></a><span class="lineno"> 2611</span>&#160;  }</div>
+<div class="line"><a name="l02612"></a><span class="lineno"> 2612</span>&#160;}</div>
+<div class="line"><a name="l02613"></a><span class="lineno"> 2613</span>&#160; </div>
 <div class="line"><a name="l02614"></a><span class="lineno"> 2614</span>&#160; </div>
-<div class="line"><a name="l02615"></a><span class="lineno"> 2615</span>&#160;  <span class="keywordflow">return</span> vRes;</div>
-<div class="line"><a name="l02616"></a><span class="lineno"> 2616</span>&#160;}</div>
-<div class="line"><a name="l02617"></a><span class="lineno"> 2617</span>&#160; </div>
-<div class="line"><a name="l02618"></a><span class="lineno"> 2618</span>&#160; </div>
-<div class="line"><a name="l02619"></a><span class="lineno"> 2619</span>&#160; </div>
-<div class="line"><a name="l02620"></a><span class="lineno"> 2620</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> TDomain&gt;</div>
-<div class="line"><a name="l02621"></a><span class="lineno"><a class="line" href="namespaceug_1_1_small_strain_mechanics.html#a7bc0629d8a92d7ef4ef84ece9b3ec4ef"> 2621</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespaceug_1_1_small_strain_mechanics.html#a7bc0629d8a92d7ef4ef84ece9b3ec4ef">HadamardProd</a>(  <a class="codeRef" href="../class_smart_ptr.html">SmartPtr</a>&lt;<a class="codeRef" href="../classug_1_1_grid_function.html">GridFunction&lt;TDomain, CPUAlgebra&gt;</a> &gt; spFPsi0,</div>
-<div class="line"><a name="l02622"></a><span class="lineno"> 2622</span>&#160;          <a class="codeRef" href="../class_const_smart_ptr.html">ConstSmartPtr</a>&lt;<a class="codeRef" href="../classug_1_1_grid_function.html">GridFunction&lt;TDomain, CPUAlgebra&gt;</a> &gt; spF,</div>
-<div class="line"><a name="l02623"></a><span class="lineno"> 2623</span>&#160;          <a class="codeRef" href="../class_const_smart_ptr.html">ConstSmartPtr</a>&lt;<a class="codeRef" href="../classug_1_1_grid_function.html">GridFunction&lt;TDomain, CPUAlgebra&gt;</a> &gt; spPsi0)</div>
-<div class="line"><a name="l02624"></a><span class="lineno"> 2624</span>&#160;{</div>
-<div class="line"><a name="l02625"></a><span class="lineno"> 2625</span>&#160;  <span class="keywordflow">if</span>(spF-&gt;size() != spPsi0-&gt;size() || spF-&gt;size() != spFPsi0-&gt;size())</div>
-<div class="line"><a name="l02626"></a><span class="lineno"> 2626</span>&#160;    <a class="codeRef" href="../group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>(<span class="stringliteral">&quot;HadamardProd: Size mismatch&quot;</span>);</div>
-<div class="line"><a name="l02627"></a><span class="lineno"> 2627</span>&#160; </div>
-<div class="line"><a name="l02628"></a><span class="lineno"> 2628</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i = 0; i &lt; spF-&gt;size(); ++i){</div>
-<div class="line"><a name="l02629"></a><span class="lineno"> 2629</span>&#160;    (*spFPsi0)[i] = (*spF)[i] * (*spPsi0)[i];</div>
-<div class="line"><a name="l02630"></a><span class="lineno"> 2630</span>&#160;  }</div>
-<div class="line"><a name="l02631"></a><span class="lineno"> 2631</span>&#160;}</div>
+<div class="line"><a name="l02615"></a><span class="lineno"> 2615</span>&#160; </div>
+<div class="line"><a name="l02616"></a><span class="lineno"> 2616</span>&#160; </div>
+<div class="line"><a name="l02617"></a><span class="lineno"> 2617</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> TDomain&gt;</div>
+<div class="line"><a name="l02618"></a><span class="lineno"><a class="line" href="namespaceug_1_1_small_strain_mechanics.html#a9e0204b93783fa8666c5c0c40f67f89f"> 2618</a></span>&#160;std::vector&lt;number&gt; <a class="code" href="namespaceug_1_1_small_strain_mechanics.html#a9e0204b93783fa8666c5c0c40f67f89f">MinMaxElementDiameter</a>(<a class="codeRef" href="../class_smart_ptr.html">SmartPtr</a>&lt;<a class="codeRef" href="../classug_1_1_grid_function.html">GridFunction&lt;TDomain, CPUAlgebra&gt;</a> &gt; spF)</div>
+<div class="line"><a name="l02619"></a><span class="lineno"> 2619</span>&#160;{</div>
+<div class="line"><a name="l02620"></a><span class="lineno"> 2620</span>&#160;  <a class="codeRef" href="../profiler_8h.html#a3766fe91615588782ad5452a4d60ea5b">PROFILE_FUNC_GROUP</a>(<span class="stringliteral">&quot;Small Strain Mech&quot;</span>);</div>
+<div class="line"><a name="l02621"></a><span class="lineno"> 2621</span>&#160; </div>
+<div class="line"><a name="l02622"></a><span class="lineno"> 2622</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="codeRef" href="../group__lib__disc__domain.html#gaade1bc529aade0f7ae20efc0c8b27057">dim</a> = <a class="codeRef" href="../group__lib__disc__domain.html#gaade1bc529aade0f7ae20efc0c8b27057">TDomain::dim</a>;</div>
+<div class="line"><a name="l02623"></a><span class="lineno"> 2623</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> <a class="codeRef" href="../structug_1_1grid__dim__traits.html">grid_dim_traits&lt;dim&gt;::element_type</a> TElem; </div>
+<div class="line"><a name="l02624"></a><span class="lineno"> 2624</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> <a class="codeRef" href="../structug_1_1_do_f_distribution_1_1traits.html#a1adf959619589545942590d37e893e6f">DoFDistribution::traits&lt;TElem&gt;::const_iterator</a> const_iterator;</div>
+<div class="line"><a name="l02625"></a><span class="lineno"> 2625</span>&#160; </div>
+<div class="line"><a name="l02626"></a><span class="lineno"> 2626</span>&#160;  <span class="keyword">typename</span> <a class="codeRef" href="../group__lib__disc__domain.html#gaddd977dfbd169f8e280d0b425fc3a55d">TDomain::grid_type</a>&amp; <a class="codeRef" href="../group__lib__disc__domain.html#ga460b68c5ef13c39812e8242657843349">grid</a> = *(spF-&gt;domain()-&gt;grid());</div>
+<div class="line"><a name="l02627"></a><span class="lineno"> 2627</span>&#160;  <span class="keyword">typename</span> <a class="codeRef" href="../group__lib__disc__domain.html#ga0cde3052ec2d8ff36f0851dc8abbe959">TDomain::position_accessor_type</a>&amp; aaPos = spF-&gt;domain()-&gt;position_accessor();</div>
+<div class="line"><a name="l02628"></a><span class="lineno"> 2628</span>&#160; </div>
+<div class="line"><a name="l02629"></a><span class="lineno"> 2629</span>&#160;  <span class="comment">// loop all elems </span></div>
+<div class="line"><a name="l02630"></a><span class="lineno"> 2630</span>&#160;  const_iterator iter = spF-&gt;template begin&lt;TElem&gt;();</div>
+<div class="line"><a name="l02631"></a><span class="lineno"> 2631</span>&#160;  const_iterator iterEnd = spF-&gt;template end&lt;TElem&gt;();</div>
 <div class="line"><a name="l02632"></a><span class="lineno"> 2632</span>&#160; </div>
-<div class="line"><a name="l02633"></a><span class="lineno"> 2633</span>&#160; </div>
-<div class="line"><a name="l02634"></a><span class="lineno"> 2634</span>&#160; </div>
-<div class="line"><a name="l02635"></a><span class="lineno"> 2635</span>&#160; </div>
-<div class="line"><a name="l02636"></a><span class="lineno"> 2636</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> TDomain&gt;</div>
-<div class="line"><a name="l02637"></a><span class="lineno"><a class="line" href="namespaceug_1_1_small_strain_mechanics.html#a9e0204b93783fa8666c5c0c40f67f89f"> 2637</a></span>&#160;std::vector&lt;number&gt; <a class="code" href="namespaceug_1_1_small_strain_mechanics.html#a9e0204b93783fa8666c5c0c40f67f89f">MinMaxElementDiameter</a>(<a class="codeRef" href="../class_smart_ptr.html">SmartPtr</a>&lt;<a class="codeRef" href="../classug_1_1_grid_function.html">GridFunction&lt;TDomain, CPUAlgebra&gt;</a> &gt; spF)</div>
-<div class="line"><a name="l02638"></a><span class="lineno"> 2638</span>&#160;{</div>
-<div class="line"><a name="l02639"></a><span class="lineno"> 2639</span>&#160;  <a class="codeRef" href="../profiler_8h.html#a3766fe91615588782ad5452a4d60ea5b">PROFILE_FUNC_GROUP</a>(<span class="stringliteral">&quot;Small Strain Mech&quot;</span>);</div>
-<div class="line"><a name="l02640"></a><span class="lineno"> 2640</span>&#160; </div>
-<div class="line"><a name="l02641"></a><span class="lineno"> 2641</span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="codeRef" href="../group__lib__disc__domain.html#gaade1bc529aade0f7ae20efc0c8b27057">dim</a> = <a class="codeRef" href="../group__lib__disc__domain.html#gaade1bc529aade0f7ae20efc0c8b27057">TDomain::dim</a>;</div>
-<div class="line"><a name="l02642"></a><span class="lineno"> 2642</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> <a class="codeRef" href="../structug_1_1grid__dim__traits.html">grid_dim_traits&lt;dim&gt;::element_type</a> TElem; </div>
-<div class="line"><a name="l02643"></a><span class="lineno"> 2643</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> <a class="codeRef" href="../structug_1_1_do_f_distribution_1_1traits.html#a1adf959619589545942590d37e893e6f">DoFDistribution::traits&lt;TElem&gt;::const_iterator</a> const_iterator;</div>
-<div class="line"><a name="l02644"></a><span class="lineno"> 2644</span>&#160; </div>
-<div class="line"><a name="l02645"></a><span class="lineno"> 2645</span>&#160;  <span class="keyword">typename</span> <a class="codeRef" href="../group__lib__disc__domain.html#gaddd977dfbd169f8e280d0b425fc3a55d">TDomain::grid_type</a>&amp; <a class="codeRef" href="../group__lib__disc__domain.html#ga460b68c5ef13c39812e8242657843349">grid</a> = *(spF-&gt;domain()-&gt;grid());</div>
-<div class="line"><a name="l02646"></a><span class="lineno"> 2646</span>&#160;  <span class="keyword">typename</span> <a class="codeRef" href="../group__lib__disc__domain.html#ga0cde3052ec2d8ff36f0851dc8abbe959">TDomain::position_accessor_type</a>&amp; aaPos = spF-&gt;domain()-&gt;position_accessor();</div>
-<div class="line"><a name="l02647"></a><span class="lineno"> 2647</span>&#160; </div>
-<div class="line"><a name="l02648"></a><span class="lineno"> 2648</span>&#160;  <span class="comment">// loop all elems </span></div>
-<div class="line"><a name="l02649"></a><span class="lineno"> 2649</span>&#160;  const_iterator iter = spF-&gt;template begin&lt;TElem&gt;();</div>
-<div class="line"><a name="l02650"></a><span class="lineno"> 2650</span>&#160;  const_iterator iterEnd = spF-&gt;template end&lt;TElem&gt;();</div>
-<div class="line"><a name="l02651"></a><span class="lineno"> 2651</span>&#160; </div>
-<div class="line"><a name="l02652"></a><span class="lineno"> 2652</span>&#160;  <span class="comment">//  loop elements for marking</span></div>
-<div class="line"><a name="l02653"></a><span class="lineno"> 2653</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> max = 0.0;</div>
-<div class="line"><a name="l02654"></a><span class="lineno"> 2654</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> min = std::numeric_limits&lt;number&gt;::max();</div>
-<div class="line"><a name="l02655"></a><span class="lineno"> 2655</span>&#160;  <span class="keywordflow">for</span>(; iter != iterEnd; ++iter){</div>
-<div class="line"><a name="l02656"></a><span class="lineno"> 2656</span>&#160;    <span class="keyword">const</span> <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> size = <a class="codeRef" href="../group__lib__disc__domain.html#ga8c9734c18a4962ade29e5dccc2b8e660">ElementDiameterSq</a>(<a class="codeRef" href="../group__lib__disc__domain.html#ga460b68c5ef13c39812e8242657843349">grid</a>, aaPos, *iter);</div>
-<div class="line"><a name="l02657"></a><span class="lineno"> 2657</span>&#160;    max = std::max(max, size);</div>
-<div class="line"><a name="l02658"></a><span class="lineno"> 2658</span>&#160;    min = std::min(min, size);</div>
-<div class="line"><a name="l02659"></a><span class="lineno"> 2659</span>&#160;  }</div>
+<div class="line"><a name="l02633"></a><span class="lineno"> 2633</span>&#160;  <span class="comment">//  loop elements for marking</span></div>
+<div class="line"><a name="l02634"></a><span class="lineno"> 2634</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> max = 0.0;</div>
+<div class="line"><a name="l02635"></a><span class="lineno"> 2635</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> min = std::numeric_limits&lt;number&gt;::max();</div>
+<div class="line"><a name="l02636"></a><span class="lineno"> 2636</span>&#160;  <span class="keywordflow">for</span>(; iter != iterEnd; ++iter){</div>
+<div class="line"><a name="l02637"></a><span class="lineno"> 2637</span>&#160;    <span class="keyword">const</span> <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> size = <a class="codeRef" href="../group__lib__disc__domain.html#ga8c9734c18a4962ade29e5dccc2b8e660">ElementDiameterSq</a>(<a class="codeRef" href="../group__lib__disc__domain.html#ga460b68c5ef13c39812e8242657843349">grid</a>, aaPos, *iter);</div>
+<div class="line"><a name="l02638"></a><span class="lineno"> 2638</span>&#160;    max = std::max(max, size);</div>
+<div class="line"><a name="l02639"></a><span class="lineno"> 2639</span>&#160;    min = std::min(min, size);</div>
+<div class="line"><a name="l02640"></a><span class="lineno"> 2640</span>&#160;  }</div>
+<div class="line"><a name="l02641"></a><span class="lineno"> 2641</span>&#160; </div>
+<div class="line"><a name="l02642"></a><span class="lineno"> 2642</span>&#160;<span class="preprocessor">#ifdef UG_PARALLEL</span></div>
+<div class="line"><a name="l02643"></a><span class="lineno"> 2643</span>&#160;  <span class="comment">// share value between all procs</span></div>
+<div class="line"><a name="l02644"></a><span class="lineno"> 2644</span>&#160;  <a class="codeRef" href="../classpcl_1_1_process_communicator.html">pcl::ProcessCommunicator</a> com;</div>
+<div class="line"><a name="l02645"></a><span class="lineno"> 2645</span>&#160;  max = com.<a class="codeRef" href="../classpcl_1_1_process_communicator.html#a1e3264c8d8f00d75bd899a8ea39b0e01">allreduce</a>(max, <a class="codeRef" href="../group__pcl.html#ga6d762a24a3efa664b0937ed25b00049e">PCL_RO_MAX</a>);</div>
+<div class="line"><a name="l02646"></a><span class="lineno"> 2646</span>&#160;  min = com.<a class="codeRef" href="../classpcl_1_1_process_communicator.html#a1e3264c8d8f00d75bd899a8ea39b0e01">allreduce</a>(min, <a class="codeRef" href="../group__pcl.html#ga6f71fa21888d1128bc5c000f8b4856ec">PCL_RO_MIN</a>);</div>
+<div class="line"><a name="l02647"></a><span class="lineno"> 2647</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l02648"></a><span class="lineno"> 2648</span>&#160; </div>
+<div class="line"><a name="l02649"></a><span class="lineno"> 2649</span>&#160;  std::vector&lt;number&gt; vRes;</div>
+<div class="line"><a name="l02650"></a><span class="lineno"> 2650</span>&#160; </div>
+<div class="line"><a name="l02651"></a><span class="lineno"> 2651</span>&#160;  vRes.push_back( std::sqrt(min) );</div>
+<div class="line"><a name="l02652"></a><span class="lineno"> 2652</span>&#160;  vRes.push_back( std::sqrt(max) );</div>
+<div class="line"><a name="l02653"></a><span class="lineno"> 2653</span>&#160; </div>
+<div class="line"><a name="l02654"></a><span class="lineno"> 2654</span>&#160;  <span class="keywordflow">return</span> vRes;</div>
+<div class="line"><a name="l02655"></a><span class="lineno"> 2655</span>&#160; </div>
+<div class="line"><a name="l02656"></a><span class="lineno"> 2656</span>&#160;}</div>
+<div class="line"><a name="l02657"></a><span class="lineno"> 2657</span>&#160; </div>
+<div class="line"><a name="l02658"></a><span class="lineno"> 2658</span>&#160; </div>
+<div class="line"><a name="l02659"></a><span class="lineno"> 2659</span>&#160; </div>
 <div class="line"><a name="l02660"></a><span class="lineno"> 2660</span>&#160; </div>
-<div class="line"><a name="l02661"></a><span class="lineno"> 2661</span>&#160;<span class="preprocessor">#ifdef UG_PARALLEL</span></div>
-<div class="line"><a name="l02662"></a><span class="lineno"> 2662</span>&#160;  <span class="comment">// share value between all procs</span></div>
-<div class="line"><a name="l02663"></a><span class="lineno"> 2663</span>&#160;  <a class="codeRef" href="../classpcl_1_1_process_communicator.html">pcl::ProcessCommunicator</a> com;</div>
-<div class="line"><a name="l02664"></a><span class="lineno"> 2664</span>&#160;  max = com.<a class="codeRef" href="../classpcl_1_1_process_communicator.html#a1e3264c8d8f00d75bd899a8ea39b0e01">allreduce</a>(max, <a class="codeRef" href="../group__pcl.html#ga6d762a24a3efa664b0937ed25b00049e">PCL_RO_MAX</a>);</div>
-<div class="line"><a name="l02665"></a><span class="lineno"> 2665</span>&#160;  min = com.<a class="codeRef" href="../classpcl_1_1_process_communicator.html#a1e3264c8d8f00d75bd899a8ea39b0e01">allreduce</a>(min, <a class="codeRef" href="../group__pcl.html#ga6f71fa21888d1128bc5c000f8b4856ec">PCL_RO_MIN</a>);</div>
-<div class="line"><a name="l02666"></a><span class="lineno"> 2666</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l02667"></a><span class="lineno"> 2667</span>&#160; </div>
-<div class="line"><a name="l02668"></a><span class="lineno"> 2668</span>&#160;  std::vector&lt;number&gt; vRes;</div>
-<div class="line"><a name="l02669"></a><span class="lineno"> 2669</span>&#160; </div>
-<div class="line"><a name="l02670"></a><span class="lineno"> 2670</span>&#160;  vRes.push_back( std::sqrt(min) );</div>
-<div class="line"><a name="l02671"></a><span class="lineno"> 2671</span>&#160;  vRes.push_back( std::sqrt(max) );</div>
-<div class="line"><a name="l02672"></a><span class="lineno"> 2672</span>&#160; </div>
-<div class="line"><a name="l02673"></a><span class="lineno"> 2673</span>&#160;  <span class="keywordflow">return</span> vRes;</div>
-<div class="line"><a name="l02674"></a><span class="lineno"> 2674</span>&#160; </div>
-<div class="line"><a name="l02675"></a><span class="lineno"> 2675</span>&#160;}</div>
-<div class="line"><a name="l02676"></a><span class="lineno"> 2676</span>&#160; </div>
-<div class="line"><a name="l02677"></a><span class="lineno"> 2677</span>&#160; </div>
-<div class="line"><a name="l02678"></a><span class="lineno"> 2678</span>&#160; </div>
-<div class="line"><a name="l02679"></a><span class="lineno"> 2679</span>&#160; </div>
-<div class="line"><a name="l02680"></a><span class="lineno"> 2680</span>&#160;} <span class="comment">// end namespace SmallStrainMechanics</span></div>
-<div class="line"><a name="l02681"></a><span class="lineno"> 2681</span>&#160;}<span class="comment">// namespace ug</span></div>
-<div class="line"><a name="l02682"></a><span class="lineno"> 2682</span>&#160; </div>
-<div class="line"><a name="l02683"></a><span class="lineno"> 2683</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* __SMALL_STRAIN_MECHANICS__DAMAGE_IMPL_H_ */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l02661"></a><span class="lineno"> 2661</span>&#160;} <span class="comment">// end namespace SmallStrainMechanics</span></div>
+<div class="line"><a name="l02662"></a><span class="lineno"> 2662</span>&#160;}<span class="comment">// namespace ug</span></div>
+<div class="line"><a name="l02663"></a><span class="lineno"> 2663</span>&#160; </div>
+<div class="line"><a name="l02664"></a><span class="lineno"> 2664</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* __SMALL_STRAIN_MECHANICS__DAMAGE_IMPL_H_ */</span><span class="preprocessor"></span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="agroup__ugbase__common__types_html_ga75b27d8e7764b262cb021610231e2ff7"><div class="ttname"><a href="../group__ugbase__common__types.html#ga75b27d8e7764b262cb021610231e2ff7">s</a></div><div class="ttdeci">StringTable s</div></div>
@@ -2646,16 +2627,15 @@ $(document).ready(function(){initNavTree('damage__impl_8h_source.html','');});
 <div class="ttc" id="anamespaceug_html_a9f7ee7b5c39ef0ad344fee8475869198"><div class="ttname"><a href="../namespaceug.html#a9f7ee7b5c39ef0ad344fee8475869198">ug::VecDistanceSq</a></div><div class="ttdeci">TVector::value_type VecDistanceSq(const TVector &amp;v1, const TVector &amp;v2, const TMatrix &amp;M)</div></div>
 <div class="ttc" id="aclasspcl_1_1_process_communicator_html"><div class="ttname"><a href="../classpcl_1_1_process_communicator.html">pcl::ProcessCommunicator</a></div></div>
 <div class="ttc" id="agroup__ugbase__common__util__strings_html_gad5494ec6925416603a984331fede367b"><div class="ttname"><a href="../group__ugbase__common__util__strings.html#gad5494ec6925416603a984331fede367b">ug::TrimString</a></div><div class="ttdeci">UG_API std::string TrimString(const std::string &amp;str)</div></div>
-<div class="ttc" id="anamespaceug_1_1_small_strain_mechanics_html_afebb9361947b9f2e346d07052a37f5fd"><div class="ttname"><a href="namespaceug_1_1_small_strain_mechanics.html#afebb9361947b9f2e346d07052a37f5fd">ug::SmallStrainMechanics::MarkForAdaption_ValueRangeIndicator</a></div><div class="ttdeci">void MarkForAdaption_ValueRangeIndicator(SmartPtr&lt; GridFunction&lt; TDomain, CPUAlgebra &gt; &gt; spChi, IRefiner &amp;refiner, number lowerValueToCoarsen, number minValueToRefine, number maxValueToRefine, number upperValueToCoarsen, number maxJumpDiffToCoarsen, number minJumpDiffToRefine, int maxLevel)</div><div class="ttdef"><b>Definition:</b> damage_impl.h:2160</div></div>
 <div class="ttc" id="aclass_const_smart_ptr_html"><div class="ttname"><a href="../class_const_smart_ptr.html">ConstSmartPtr</a></div></div>
 <div class="ttc" id="aclassug_1_1_surface_view_1_1_surface_view_element_iterator_html"><div class="ttname"><a href="../classug_1_1_surface_view_1_1_surface_view_element_iterator.html">ug::SurfaceView::SurfaceViewElementIterator</a></div></div>
 <div class="ttc" id="aclassug_1_1_i_refiner_html"><div class="ttname"><a href="../classug_1_1_i_refiner.html">ug::IRefiner</a></div></div>
-<div class="ttc" id="anamespaceug_1_1_small_strain_mechanics_html_adc7e1e916184023723742f6e99309ce1"><div class="ttname"><a href="namespaceug_1_1_small_strain_mechanics.html#adc7e1e916184023723742f6e99309ce1">ug::SmallStrainMechanics::MarkDamage_OLD_AND_DEPRECATED</a></div><div class="ttdeci">void MarkDamage_OLD_AND_DEPRECATED(SmartPtr&lt; GridFunction&lt; TDomain, CPUAlgebra &gt; &gt; spF, SmartPtr&lt; GridFunction&lt; TDomain, CPUAlgebra &gt; &gt; spPsi0, IRefiner &amp;refiner, number refineFrac, number coarseFrac, number avgRefineFactor, number avgCoarsenFactor, int maxLevel)</div><div class="ttdef"><b>Definition:</b> damage_impl.h:2429</div></div>
+<div class="ttc" id="anamespaceug_1_1_small_strain_mechanics_html_adc7e1e916184023723742f6e99309ce1"><div class="ttname"><a href="namespaceug_1_1_small_strain_mechanics.html#adc7e1e916184023723742f6e99309ce1">ug::SmallStrainMechanics::MarkDamage_OLD_AND_DEPRECATED</a></div><div class="ttdeci">void MarkDamage_OLD_AND_DEPRECATED(SmartPtr&lt; GridFunction&lt; TDomain, CPUAlgebra &gt; &gt; spF, SmartPtr&lt; GridFunction&lt; TDomain, CPUAlgebra &gt; &gt; spPsi0, IRefiner &amp;refiner, number refineFrac, number coarseFrac, number avgRefineFactor, number avgCoarsenFactor, int maxLevel)</div><div class="ttdef"><b>Definition:</b> damage_impl.h:2410</div></div>
 <div class="ttc" id="aclassug_1_1_grid_level_html"><div class="ttname"><a href="../classug_1_1_grid_level.html">ug::GridLevel</a></div></div>
 <div class="ttc" id="aclassug_1_1_small_strain_mechanics_1_1_damage_function_updater_html_a5b9fc48d3ea757e358ca9c44689394fb"><div class="ttname"><a href="classug_1_1_small_strain_mechanics_1_1_damage_function_updater.html#a5b9fc48d3ea757e358ca9c44689394fb">ug::SmallStrainMechanics::DamageFunctionUpdater::solve</a></div><div class="ttdeci">bool solve(SmartPtr&lt; GridFunction&lt; TDomain, CPUAlgebra &gt; &gt; spF, SmartPtr&lt; GridFunction&lt; TDomain, CPUAlgebra &gt; &gt; spPsi0, const number beta, const number r, const number eps, const int maxIter, const number dampNewton)</div><div class="ttdef"><b>Definition:</b> damage_impl.h:1597</div></div>
 <div class="ttc" id="aprofiler_8h_html_a6ac4a2a49e9c9e835112b4f6b8cf7355"><div class="ttname"><a href="../profiler_8h.html#a6ac4a2a49e9c9e835112b4f6b8cf7355">PROFILE_BEGIN_GROUP</a></div><div class="ttdeci">#define PROFILE_BEGIN_GROUP(name, groups)</div></div>
 <div class="ttc" id="anamespaceug_1_1_small_strain_mechanics_html_a0d444bcec0ad3443d0d1754ddba5cc58"><div class="ttname"><a href="namespaceug_1_1_small_strain_mechanics.html#a0d444bcec0ad3443d0d1754ddba5cc58">ug::SmallStrainMechanics::InitLaplacian_PartialIntegration</a></div><div class="ttdeci">void InitLaplacian_PartialIntegration(SmartPtr&lt; GridFunction&lt; TDomain, CPUAlgebra &gt; &gt; spF, std::vector&lt; std::vector&lt; number &gt; &gt; &amp;vStencil, std::vector&lt; std::vector&lt; size_t &gt; &gt; &amp;vIndex, int quadRuleType, bool fillElemSizeIntoVector=false)</div><div class="ttdef"><b>Definition:</b> damage_impl.h:621</div></div>
-<div class="ttc" id="anamespaceug_1_1_small_strain_mechanics_html_a235c418e4e58a28ca7c31ee5df3666ec"><div class="ttname"><a href="namespaceug_1_1_small_strain_mechanics.html#a235c418e4e58a28ca7c31ee5df3666ec">ug::SmallStrainMechanics::MarkDamage</a></div><div class="ttdeci">void MarkDamage(SmartPtr&lt; GridFunction&lt; TDomain, CPUAlgebra &gt; &gt; spF, SmartPtr&lt; GridFunction&lt; TDomain, CPUAlgebra &gt; &gt; spPsi0, IRefiner &amp;refiner, number minValueToRefine, number maxValueToCoarsen, int maxLevel, const std::vector&lt; MathVector&lt; TDomain::dim, number &gt; * &gt; &amp;vCenter, const std::vector&lt; number &gt; &amp;vRadius)</div><div class="ttdef"><b>Definition:</b> damage_impl.h:2312</div></div>
+<div class="ttc" id="anamespaceug_1_1_small_strain_mechanics_html_a235c418e4e58a28ca7c31ee5df3666ec"><div class="ttname"><a href="namespaceug_1_1_small_strain_mechanics.html#a235c418e4e58a28ca7c31ee5df3666ec">ug::SmallStrainMechanics::MarkDamage</a></div><div class="ttdeci">void MarkDamage(SmartPtr&lt; GridFunction&lt; TDomain, CPUAlgebra &gt; &gt; spF, SmartPtr&lt; GridFunction&lt; TDomain, CPUAlgebra &gt; &gt; spPsi0, IRefiner &amp;refiner, number minValueToRefine, number maxValueToCoarsen, int maxLevel, const std::vector&lt; MathVector&lt; TDomain::dim, number &gt; * &gt; &amp;vCenter, const std::vector&lt; number &gt; &amp;vRadius)</div><div class="ttdef"><b>Definition:</b> damage_impl.h:2293</div></div>
 <div class="ttc" id="amath__vector__functions_8h_html"><div class="ttname"><a href="../math__vector__functions_8h.html">math_vector_functions.h</a></div></div>
 <div class="ttc" id="anamespaceug_html_ae90b4d90c57cdd200947b53401dd7f54"><div class="ttname"><a href="../namespaceug.html#ae90b4d90c57cdd200947b53401dd7f54">ug::VecScaleAdd</a></div><div class="ttdeci">void VecScaleAdd(double &amp;dest, double alpha1, const double &amp;v1, double alpha2, const double &amp;v2)</div></div>
 <div class="ttc" id="aclassug_1_1_i_refiner_html_a00d04ce0272197d0ca502721546e81dd"><div class="ttname"><a href="../classug_1_1_i_refiner.html#a00d04ce0272197d0ca502721546e81dd">ug::IRefiner::mark</a></div><div class="ttdeci">void mark(const TIterator &amp;iterBegin, const TIterator &amp;iterEnd, RefinementMark refMark=RM_REFINE)</div></div>
@@ -2685,15 +2665,16 @@ $(document).ready(function(){initNavTree('damage__impl_8h_source.html','');});
 <div class="ttc" id="agroup__ugbase__mathutil_html_ga9b4f7025a21625a7fca753dfd0a11f11"><div class="ttname"><a href="../group__ugbase__mathutil.html#ga9b4f7025a21625a7fca753dfd0a11f11">ug::ProjectPointToPlane</a></div><div class="ttdeci">void ProjectPointToPlane(vector_t &amp;vOut, const vector_t &amp;v, const vector_t &amp;p, const vector_t &amp;n)</div></div>
 <div class="ttc" id="astructug_1_1grid__dim__traits_html"><div class="ttname"><a href="../structug_1_1grid__dim__traits.html">ug::grid_dim_traits</a></div></div>
 <div class="ttc" id="aclassug_1_1_dense_matrix_html"><div class="ttname"><a href="../classug_1_1_dense_matrix.html">ug::DenseMatrix</a></div></div>
+<div class="ttc" id="anamespaceug_1_1_small_strain_mechanics_html_a235e6019224cc5b87db4f9f65ee67714"><div class="ttname"><a href="namespaceug_1_1_small_strain_mechanics.html#a235e6019224cc5b87db4f9f65ee67714">ug::SmallStrainMechanics::MarkForAdaption_ValueRangeIndicator</a></div><div class="ttdeci">void MarkForAdaption_ValueRangeIndicator(SmartPtr&lt; GridFunction&lt; TDomain, CPUAlgebra &gt; &gt; spChi, IRefiner &amp;refiner, number lowerValueToCoarsen, number minValueToRefine, number maxValueToRefine, number upperValueToCoarsen, number maxJumpDifferenceToNeighborsForCoarsen, number minJumpDifferenceToNeighborsForRefine, int maxLevel)</div><div class="ttdef"><b>Definition:</b> damage_impl.h:2160</div></div>
 <div class="ttc" id="agroup__ugbase__common__types_html_ga01d7b504413942e28875b53c6dc43eef"><div class="ttname"><a href="../group__ugbase__common__types.html#ga01d7b504413942e28875b53c6dc43eef">type</a></div><div class="ttdeci">Variant::Type type()</div></div>
-<div class="ttc" id="anamespaceug_1_1_small_strain_mechanics_html_ae8567d57ea16ec30cfea99b705e4b0ec"><div class="ttname"><a href="namespaceug_1_1_small_strain_mechanics.html#ae8567d57ea16ec30cfea99b705e4b0ec">ug::SmallStrainMechanics::DamageStatistic</a></div><div class="ttdeci">std::vector&lt; number &gt; DamageStatistic(SmartPtr&lt; GridFunction&lt; TDomain, CPUAlgebra &gt; &gt; spF, SmartPtr&lt; GridFunction&lt; TDomain, CPUAlgebra &gt; &gt; spPsi0)</div><div class="ttdef"><b>Definition:</b> damage_impl.h:2538</div></div>
+<div class="ttc" id="anamespaceug_1_1_small_strain_mechanics_html_ae8567d57ea16ec30cfea99b705e4b0ec"><div class="ttname"><a href="namespaceug_1_1_small_strain_mechanics.html#ae8567d57ea16ec30cfea99b705e4b0ec">ug::SmallStrainMechanics::DamageStatistic</a></div><div class="ttdeci">std::vector&lt; number &gt; DamageStatistic(SmartPtr&lt; GridFunction&lt; TDomain, CPUAlgebra &gt; &gt; spF, SmartPtr&lt; GridFunction&lt; TDomain, CPUAlgebra &gt; &gt; spPsi0)</div><div class="ttdef"><b>Definition:</b> damage_impl.h:2519</div></div>
 <div class="ttc" id="aclassug_1_1_small_strain_mechanics_1_1_damage_function_updater_html_a3fafc3c950e014c0ec997194abe41bb9"><div class="ttname"><a href="classug_1_1_small_strain_mechanics_1_1_damage_function_updater.html#a3fafc3c950e014c0ec997194abe41bb9">ug::SmallStrainMechanics::DamageFunctionUpdater::set_debug</a></div><div class="ttdeci">void set_debug(SmartPtr&lt; GridFunctionDebugWriter&lt; TDomain, CPUAlgebra &gt; &gt; spDebugWriter)</div><div class="ttdef"><b>Definition:</b> damage_impl.h:1767</div></div>
 <div class="ttc" id="aclassug_1_1_small_strain_mechanics_1_1_damage_function_updater_html_adb12a07fc774b988cd57f789f3809721"><div class="ttname"><a href="classug_1_1_small_strain_mechanics_1_1_damage_function_updater.html#adb12a07fc774b988cd57f789f3809721">ug::SmallStrainMechanics::DamageFunctionUpdater::write_stencil_matrix_debug</a></div><div class="ttdeci">void write_stencil_matrix_debug(SmartPtr&lt; GridFunction&lt; TDomain, CPUAlgebra &gt; &gt; spGF, std::string name, int call)</div><div class="ttdef"><b>Definition:</b> damage_impl.h:1794</div></div>
 <div class="ttc" id="agroup__pcl_html_ga23ba716caa4857afe6a36d2a6065ea8a"><div class="ttname"><a href="../group__pcl.html#ga23ba716caa4857afe6a36d2a6065ea8a">PCL_RO_SUM</a></div><div class="ttdeci">#define PCL_RO_SUM</div></div>
 <div class="ttc" id="agroup__ugbase__common_html_ga43687df88af405f6ac7058dd3639993d"><div class="ttname"><a href="../group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a></div><div class="ttdeci">#define UG_THROW(msg)</div></div>
-<div class="ttc" id="anamespaceug_1_1_small_strain_mechanics_html_a9e0204b93783fa8666c5c0c40f67f89f"><div class="ttname"><a href="namespaceug_1_1_small_strain_mechanics.html#a9e0204b93783fa8666c5c0c40f67f89f">ug::SmallStrainMechanics::MinMaxElementDiameter</a></div><div class="ttdeci">std::vector&lt; number &gt; MinMaxElementDiameter(SmartPtr&lt; GridFunction&lt; TDomain, CPUAlgebra &gt; &gt; spF)</div><div class="ttdef"><b>Definition:</b> damage_impl.h:2637</div></div>
+<div class="ttc" id="anamespaceug_1_1_small_strain_mechanics_html_a9e0204b93783fa8666c5c0c40f67f89f"><div class="ttname"><a href="namespaceug_1_1_small_strain_mechanics.html#a9e0204b93783fa8666c5c0c40f67f89f">ug::SmallStrainMechanics::MinMaxElementDiameter</a></div><div class="ttdeci">std::vector&lt; number &gt; MinMaxElementDiameter(SmartPtr&lt; GridFunction&lt; TDomain, CPUAlgebra &gt; &gt; spF)</div><div class="ttdef"><b>Definition:</b> damage_impl.h:2618</div></div>
 <div class="ttc" id="agroup__lib__disc__domain_html_ga0cde3052ec2d8ff36f0851dc8abbe959"><div class="ttname"><a href="../group__lib__disc__domain.html#ga0cde3052ec2d8ff36f0851dc8abbe959">position_accessor_type</a></div><div class="ttdeci">Grid::VertexAttachmentAccessor&lt; position_attachment_type &gt; position_accessor_type</div></div>
-<div class="ttc" id="anamespaceug_1_1_small_strain_mechanics_html_a7bc0629d8a92d7ef4ef84ece9b3ec4ef"><div class="ttname"><a href="namespaceug_1_1_small_strain_mechanics.html#a7bc0629d8a92d7ef4ef84ece9b3ec4ef">ug::SmallStrainMechanics::HadamardProd</a></div><div class="ttdeci">void HadamardProd(SmartPtr&lt; GridFunction&lt; TDomain, CPUAlgebra &gt; &gt; spFPsi0, ConstSmartPtr&lt; GridFunction&lt; TDomain, CPUAlgebra &gt; &gt; spF, ConstSmartPtr&lt; GridFunction&lt; TDomain, CPUAlgebra &gt; &gt; spPsi0)</div><div class="ttdef"><b>Definition:</b> damage_impl.h:2621</div></div>
+<div class="ttc" id="anamespaceug_1_1_small_strain_mechanics_html_a7bc0629d8a92d7ef4ef84ece9b3ec4ef"><div class="ttname"><a href="namespaceug_1_1_small_strain_mechanics.html#a7bc0629d8a92d7ef4ef84ece9b3ec4ef">ug::SmallStrainMechanics::HadamardProd</a></div><div class="ttdeci">void HadamardProd(SmartPtr&lt; GridFunction&lt; TDomain, CPUAlgebra &gt; &gt; spFPsi0, ConstSmartPtr&lt; GridFunction&lt; TDomain, CPUAlgebra &gt; &gt; spF, ConstSmartPtr&lt; GridFunction&lt; TDomain, CPUAlgebra &gt; &gt; spPsi0)</div><div class="ttdef"><b>Definition:</b> damage_impl.h:2602</div></div>
 <div class="ttc" id="agroup__vectors_html_gae9174d47662deb0ba119e0e21f28ec71"><div class="ttname"><a href="../group__vectors.html#gae9174d47662deb0ba119e0e21f28ec71">ug::VecDot</a></div><div class="ttdeci">vector_t::value_type VecDot(const vector_t &amp;v1, const vector_t &amp;v2)</div></div>
 <div class="ttc" id="agroup__pcl_html_ga7a09a2eab069305ca735847eed023d2f"><div class="ttname"><a href="../group__pcl.html#ga7a09a2eab069305ca735847eed023d2f">pcl::NumProcs</a></div><div class="ttdeci">int NumProcs()</div></div>
 <div class="ttc" id="agroup__ugbase__common_html_gaf349a0d1e8189254086eb3267fd4f460"><div class="ttname"><a href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a></div><div class="ttdeci">double number</div></div>
@@ -2711,7 +2692,7 @@ $(document).ready(function(){initNavTree('damage__impl_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_38c8d24aef3972a7f87b834274e76e31.html">plugins</a></li><li class="navelem"><a class="el" href="dir_3b4c9cd7b72435c8ef37093ef766bedc.html">SmallStrainMechanics</a></li><li class="navelem"><a class="el" href="damage__impl_8h.html">damage_impl.h</a></li>
-    <li class="footer">Generated on Fri Dec 13 2019 23:52:11 for Plugins by
+    <li class="footer">Generated on Tue Oct 27 2020 05:27:31 for Plugins by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

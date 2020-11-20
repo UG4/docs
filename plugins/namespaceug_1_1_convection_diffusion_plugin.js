@@ -3,7 +3,7 @@ var namespaceug_1_1_convection_diffusion_plugin =
     [ "cd_line_sss_data", "classug_1_1_convection_diffusion_plugin_1_1cd__line__sss__data.html", null ],
     [ "cd_point_sss_data", "classug_1_1_convection_diffusion_plugin_1_1cd__point__sss__data.html", null ],
     [ "cd_sss_data", "classug_1_1_convection_diffusion_plugin_1_1cd__sss__data.html", "classug_1_1_convection_diffusion_plugin_1_1cd__sss__data" ],
-    [ "CDSingularSourcesAndSinks", "classug_1_1_convection_diffusion_plugin_1_1_c_d_singular_sources_and_sinks.html", null ],
+    [ "CDSingularSourcesAndSinks", "classug_1_1_convection_diffusion_plugin_1_1_c_d_singular_sources_and_sinks.html", "classug_1_1_convection_diffusion_plugin_1_1_c_d_singular_sources_and_sinks" ],
     [ "ConvectionDiffusionBase", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base.html", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base" ],
     [ "ConvectionDiffusionFE", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_e.html", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_e" ],
     [ "ConvectionDiffusionFractFV1", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_fract_f_v1.html", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_fract_f_v1" ],

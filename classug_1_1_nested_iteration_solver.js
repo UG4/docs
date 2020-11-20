@@ -1,6 +1,7 @@
 var classug_1_1_nested_iteration_solver =
 [
     [ "algebra_type", "classug_1_1_nested_iteration_solver.html#a371b0dde8c07ee7f3d6e6e326cbf23d2", null ],
+    [ "error_function_type", "classug_1_1_nested_iteration_solver.html#aaedb790ec59baae1763a9d6a4070b7c4", null ],
     [ "grid_function_type", "classug_1_1_nested_iteration_solver.html#a5a416e50e3df6c3f83af70d6795bb31c", null ],
     [ "matrix_type", "classug_1_1_nested_iteration_solver.html#ac7ea266cc1d14f3c94f1245ba46b89b6", null ],
     [ "vector_type", "classug_1_1_nested_iteration_solver.html#ae6f456148b71328df8d535197027a7f4", null ],
@@ -24,7 +25,7 @@ var classug_1_1_nested_iteration_solver =
     [ "set_associated_space", "classug_1_1_nested_iteration_solver.html#ae2d2bef3acd9f02e41f4dbd161e3f71b", null ],
     [ "set_base_level", "classug_1_1_nested_iteration_solver.html#a41da29254579ba0ff83d385b7973c408", null ],
     [ "set_coarsening_marking", "classug_1_1_nested_iteration_solver.html#a19d86d821b3e3d2e2b34fbbd21ea7920", null ],
-    [ "set_debug_elem_error", "classug_1_1_nested_iteration_solver.html#ac71b0e0947672a2ac7e5f7ab5f10a822", null ],
+    [ "set_debug_elem_error", "classug_1_1_nested_iteration_solver.html#a527e17a930af3a4a43f74a8dafb6e0e8", null ],
     [ "set_linear_solver", "classug_1_1_nested_iteration_solver.html#a389a4855b38dc61868e715aef10bb52c", null ],
     [ "set_max_steps", "classug_1_1_nested_iteration_solver.html#a2689c1f8977dc67db13913cf3f5b825a", null ],
     [ "set_refinement_marking", "classug_1_1_nested_iteration_solver.html#a8de1918d6ec14e16151a1edfb02e1c0c", null ],
@@ -46,7 +47,7 @@ var classug_1_1_nested_iteration_solver =
     [ "m_spAssociatedSpace", "classug_1_1_nested_iteration_solver.html#a4ab036feb75250036a67c9d6092c87c5", null ],
     [ "m_spCoarseningMarking", "classug_1_1_nested_iteration_solver.html#a0d5ae6e136e5caf969b7c16c0b66491c", null ],
     [ "m_spDomErr", "classug_1_1_nested_iteration_solver.html#a09641530c153a9388da424ceb5990c67", null ],
-    [ "m_spElemError", "classug_1_1_nested_iteration_solver.html#a906ceeb8e72cae55ddb19469b71b262b", null ],
+    [ "m_spElemError", "classug_1_1_nested_iteration_solver.html#a9064f5741c47d0eae06b7147d8df68a5", null ],
     [ "m_spLinearSolver", "classug_1_1_nested_iteration_solver.html#ac46baed66730afdfbd2fd8839e15ee2a", null ],
     [ "m_spRefinementMarking", "classug_1_1_nested_iteration_solver.html#a74b2021ae1f471414121c9c761efa9fd", null ],
     [ "m_spRefiner", "classug_1_1_nested_iteration_solver.html#a3333549ae590d372f063d8766ed109e2", null ],

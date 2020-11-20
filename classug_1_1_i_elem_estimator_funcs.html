@@ -118,13 +118,14 @@ $(document).ready(function(){initNavTree('classug_1_1_i_elem_estimator_funcs.htm
  <div class="center">
   <img src="classug_1_1_i_elem_estimator_funcs.png" usemap="#ug::IElemEstimatorFuncs_3C_20TLeaf_2C_20TDomain_20_3E_map" alt=""/>
   <map id="ug::IElemEstimatorFuncs_3C_20TLeaf_2C_20TDomain_20_3E_map" name="ug::IElemEstimatorFuncs_3C_20TLeaf_2C_20TDomain_20_3E_map">
-<area href="classug_1_1_i_elem_error.html" alt="ug::IElemError&lt; TDomain &gt;" shape="rect" coords="137,56,402,80"/>
-<area href="classug_1_1_i_elem_disc.html" alt="ug::IElemDisc&lt; TDomain &gt;" shape="rect" coords="137,112,402,136"/>
-<area href="classug_1_1_f_v1_inner_boundary_elem_disc.html" alt="ug::FV1InnerBoundaryElemDisc&lt; TDomain &gt;" shape="rect" coords="0,168,265,192"/>
-<area href="classug_1_1_neumann_boundary_base.html" alt="ug::NeumannBoundaryBase&lt; TDomain &gt;" shape="rect" coords="275,168,540,192"/>
-<area href="classug_1_1_neumann_boundary_f_e.html" alt="ug::NeumannBoundaryFE&lt; TDomain &gt;" shape="rect" coords="0,224,265,248"/>
-<area href="classug_1_1_neumann_boundary_f_v.html" alt="ug::NeumannBoundaryFV&lt; TDomain &gt;" shape="rect" coords="275,224,540,248"/>
-<area href="classug_1_1_neumann_boundary_f_v1.html" alt="ug::NeumannBoundaryFV1&lt; TDomain &gt;" shape="rect" coords="550,224,815,248"/>
+<area href="classug_1_1_i_elem_error.html" alt="ug::IElemError&lt; TDomain &gt;" shape="rect" coords="275,56,540,80"/>
+<area href="classug_1_1_i_elem_disc.html" alt="ug::IElemDisc&lt; TDomain &gt;" shape="rect" coords="275,112,540,136"/>
+<area href="classug_1_1_dirac_source_disc.html" alt="ug::DiracSourceDisc&lt; TDomain &gt;" shape="rect" coords="0,168,265,192"/>
+<area href="classug_1_1_f_v1_inner_boundary_elem_disc.html" alt="ug::FV1InnerBoundaryElemDisc&lt; TDomain &gt;" shape="rect" coords="275,168,540,192"/>
+<area href="classug_1_1_neumann_boundary_base.html" alt="ug::NeumannBoundaryBase&lt; TDomain &gt;" shape="rect" coords="550,168,815,192"/>
+<area href="classug_1_1_neumann_boundary_f_e.html" alt="ug::NeumannBoundaryFE&lt; TDomain &gt;" shape="rect" coords="275,224,540,248"/>
+<area href="classug_1_1_neumann_boundary_f_v.html" alt="ug::NeumannBoundaryFV&lt; TDomain &gt;" shape="rect" coords="550,224,815,248"/>
+<area href="classug_1_1_neumann_boundary_f_v1.html" alt="ug::NeumannBoundaryFV1&lt; TDomain &gt;" shape="rect" coords="825,224,1090,248"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -723,7 +724,7 @@ template&lt;typename TLeaf , typename TDomain &gt; </div>
 
 <p>virtual compute the error estimator (stiffness part) contribution for one element </p>
 
-<p>Reimplemented in <a class="el" href="classug_1_1_f_v1_inner_boundary_elem_disc.html#a757fa4fd1790a69d9f52c4506325b835">ug::FV1InnerBoundaryElemDisc&lt; TDomain &gt;</a>, <a class="elRef" href="../plugins/classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_e.html#af5fafee5690a9d7da2e470efdd579478">ug::ConvectionDiffusionPlugin::ConvectionDiffusionFE&lt; class &gt;</a>, <a class="elRef" href="../plugins/classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html#ae666200dcf23b171accce746d129df0b">ug::ConvectionDiffusionPlugin::ConvectionDiffusionFV1&lt; TDomain &gt;</a>, and <a class="elRef" href="../plugins/classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_stab_f_e.html#af62525077bb2d47d47cd0851fd4a1d5e">ug::ConvectionDiffusionPlugin::ConvectionDiffusionStabFE&lt; class &gt;</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_f_v1_inner_boundary_elem_disc.html#a757fa4fd1790a69d9f52c4506325b835">ug::FV1InnerBoundaryElemDisc&lt; TDomain &gt;</a>, <a class="el" href="classug_1_1_dirac_source_disc.html#a013b42cda1141538250c2b55ad605498">ug::DiracSourceDisc&lt; TDomain &gt;</a>, <a class="elRef" href="../plugins/classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_e.html#af5fafee5690a9d7da2e470efdd579478">ug::ConvectionDiffusionPlugin::ConvectionDiffusionFE&lt; class &gt;</a>, <a class="elRef" href="../plugins/classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html#ae666200dcf23b171accce746d129df0b">ug::ConvectionDiffusionPlugin::ConvectionDiffusionFV1&lt; TDomain &gt;</a>, and <a class="elRef" href="../plugins/classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_stab_f_e.html#af62525077bb2d47d47cd0851fd4a1d5e">ug::ConvectionDiffusionPlugin::ConvectionDiffusionStabFE&lt; class &gt;</a>.</p>
 
 </div>
 </div>
@@ -1119,7 +1120,7 @@ template&lt;typename TLeaf , typename TDomain &gt; </div>
 
 <p>virtual postprocesses the loop over all elements of one type in the computation of the error estimator </p>
 
-<p>Reimplemented in <a class="el" href="classug_1_1_f_v1_inner_boundary_elem_disc.html#a87742d949a578ff23fb838ed07e25bed">ug::FV1InnerBoundaryElemDisc&lt; TDomain &gt;</a>, <a class="el" href="classug_1_1_neumann_boundary_f_v1.html#ace18bb26389c7e6eed59fb66e521d745">ug::NeumannBoundaryFV1&lt; TDomain &gt;</a>, <a class="elRef" href="../plugins/classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_e.html#af80bed2c82cfeab3fd31cc88be4d6571">ug::ConvectionDiffusionPlugin::ConvectionDiffusionFE&lt; class &gt;</a>, <a class="elRef" href="../plugins/classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html#ade50f1dde635d6f107ed5c69f684240a">ug::ConvectionDiffusionPlugin::ConvectionDiffusionFV1&lt; TDomain &gt;</a>, and <a class="elRef" href="../plugins/classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_stab_f_e.html#aa08cb3a8d40291b889063abf536c7251">ug::ConvectionDiffusionPlugin::ConvectionDiffusionStabFE&lt; class &gt;</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_f_v1_inner_boundary_elem_disc.html#a87742d949a578ff23fb838ed07e25bed">ug::FV1InnerBoundaryElemDisc&lt; TDomain &gt;</a>, <a class="el" href="classug_1_1_dirac_source_disc.html#a7a8d2297f5470be8477abc4856d33549">ug::DiracSourceDisc&lt; TDomain &gt;</a>, <a class="el" href="classug_1_1_neumann_boundary_f_v1.html#ace18bb26389c7e6eed59fb66e521d745">ug::NeumannBoundaryFV1&lt; TDomain &gt;</a>, <a class="elRef" href="../plugins/classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_e.html#af80bed2c82cfeab3fd31cc88be4d6571">ug::ConvectionDiffusionPlugin::ConvectionDiffusionFE&lt; class &gt;</a>, <a class="elRef" href="../plugins/classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html#ade50f1dde635d6f107ed5c69f684240a">ug::ConvectionDiffusionPlugin::ConvectionDiffusionFV1&lt; TDomain &gt;</a>, and <a class="elRef" href="../plugins/classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_stab_f_e.html#aa08cb3a8d40291b889063abf536c7251">ug::ConvectionDiffusionPlugin::ConvectionDiffusionStabFE&lt; class &gt;</a>.</p>
 
 </div>
 </div>
@@ -1167,7 +1168,7 @@ template&lt;typename TLeaf , typename TDomain &gt; </div>
 
 <p>virtual prepares the loop over all elements of one type for the computation of the error estimator </p>
 
-<p>Reimplemented in <a class="el" href="classug_1_1_f_v1_inner_boundary_elem_disc.html#a8572df1cd0977a89a8a81bb78b6b243f">ug::FV1InnerBoundaryElemDisc&lt; TDomain &gt;</a>, <a class="el" href="classug_1_1_neumann_boundary_f_v1.html#a30ef545fcddd0a6276c9511485bba56e">ug::NeumannBoundaryFV1&lt; TDomain &gt;</a>, <a class="elRef" href="../plugins/classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_e.html#a0ea7165c232122b51f3659a83ce2cd4c">ug::ConvectionDiffusionPlugin::ConvectionDiffusionFE&lt; class &gt;</a>, <a class="elRef" href="../plugins/classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html#aa07a54e8798a42acc1cc363e885dee57">ug::ConvectionDiffusionPlugin::ConvectionDiffusionFV1&lt; TDomain &gt;</a>, and <a class="elRef" href="../plugins/classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_stab_f_e.html#a30198a5018a0d82c604263be626a8cbc">ug::ConvectionDiffusionPlugin::ConvectionDiffusionStabFE&lt; class &gt;</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_f_v1_inner_boundary_elem_disc.html#a8572df1cd0977a89a8a81bb78b6b243f">ug::FV1InnerBoundaryElemDisc&lt; TDomain &gt;</a>, <a class="el" href="classug_1_1_dirac_source_disc.html#a95021b72039d0744e2b9ab3393d3499e">ug::DiracSourceDisc&lt; TDomain &gt;</a>, <a class="el" href="classug_1_1_neumann_boundary_f_v1.html#a30ef545fcddd0a6276c9511485bba56e">ug::NeumannBoundaryFV1&lt; TDomain &gt;</a>, <a class="elRef" href="../plugins/classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_e.html#a0ea7165c232122b51f3659a83ce2cd4c">ug::ConvectionDiffusionPlugin::ConvectionDiffusionFE&lt; class &gt;</a>, <a class="elRef" href="../plugins/classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html#aa07a54e8798a42acc1cc363e885dee57">ug::ConvectionDiffusionPlugin::ConvectionDiffusionFV1&lt; TDomain &gt;</a>, and <a class="elRef" href="../plugins/classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_stab_f_e.html#a30198a5018a0d82c604263be626a8cbc">ug::ConvectionDiffusionPlugin::ConvectionDiffusionStabFE&lt; class &gt;</a>.</p>
 
 </div>
 </div>
@@ -1209,7 +1210,7 @@ template&lt;typename TLeaf , typename TDomain &gt; </div>
 
 <p>virtual prepares the loop over all elements of one type for the computation of the error estimator </p>
 
-<p>Reimplemented in <a class="el" href="classug_1_1_f_v1_inner_boundary_elem_disc.html#a34b74d51ba238e13bc411b95cc6f76cf">ug::FV1InnerBoundaryElemDisc&lt; TDomain &gt;</a>, <a class="el" href="classug_1_1_neumann_boundary_f_v1.html#a08440c100b37a3dae8f0776fa4c5aa55">ug::NeumannBoundaryFV1&lt; TDomain &gt;</a>, <a class="elRef" href="../plugins/classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_e.html#a6157cf3eea291f69651346d7ebb017e8">ug::ConvectionDiffusionPlugin::ConvectionDiffusionFE&lt; class &gt;</a>, <a class="elRef" href="../plugins/classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html#aaad92ed1eed6366154951e5c8cd83ad4">ug::ConvectionDiffusionPlugin::ConvectionDiffusionFV1&lt; TDomain &gt;</a>, and <a class="elRef" href="../plugins/classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_stab_f_e.html#a94da6f7f652d1a7e5234b4b3182156a8">ug::ConvectionDiffusionPlugin::ConvectionDiffusionStabFE&lt; class &gt;</a>.</p>
+<p>Reimplemented in <a class="el" href="classug_1_1_f_v1_inner_boundary_elem_disc.html#a34b74d51ba238e13bc411b95cc6f76cf">ug::FV1InnerBoundaryElemDisc&lt; TDomain &gt;</a>, <a class="el" href="classug_1_1_dirac_source_disc.html#a2e9c6199497e6028ee71fdab522c5a30">ug::DiracSourceDisc&lt; TDomain &gt;</a>, <a class="el" href="classug_1_1_neumann_boundary_f_v1.html#a08440c100b37a3dae8f0776fa4c5aa55">ug::NeumannBoundaryFV1&lt; TDomain &gt;</a>, <a class="elRef" href="../plugins/classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_e.html#a6157cf3eea291f69651346d7ebb017e8">ug::ConvectionDiffusionPlugin::ConvectionDiffusionFE&lt; class &gt;</a>, <a class="elRef" href="../plugins/classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html#aaad92ed1eed6366154951e5c8cd83ad4">ug::ConvectionDiffusionPlugin::ConvectionDiffusionFV1&lt; TDomain &gt;</a>, and <a class="elRef" href="../plugins/classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_stab_f_e.html#a94da6f7f652d1a7e5234b4b3182156a8">ug::ConvectionDiffusionPlugin::ConvectionDiffusionStabFE&lt; class &gt;</a>.</p>
 
 </div>
 </div>
@@ -1988,7 +1989,7 @@ template&lt;typename TLeaf, typename TDomain&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_i_elem_estimator_funcs.html">IElemEstimatorFuncs</a></li>
-    <li class="footer">Generated on Fri Dec 13 2019 23:55:02 for ug4 by
+    <li class="footer">Generated on Tue Oct 27 2020 05:30:26 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

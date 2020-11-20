@@ -93,14 +93,15 @@ $(document).ready(function(){initNavTree('structug_1_1fv1__traits_3_01_reference
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="structug_1_1fv1__traits_3_01_reference_pyramid_00_013_01_4-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ug::fv1_traits&lt; ReferencePyramid, 3 &gt; Struct Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Pyramids: the FV1 traits.  
+ <a href="structug_1_1fv1__traits_3_01_reference_pyramid_00_013_01_4.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="fv__util_8h_source.html">fv_util.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -111,18 +112,39 @@ $(document).ready(function(){initNavTree('structug_1_1fv1__traits_3_01_reference
  <div class="center">
   <img src="structug_1_1fv1__traits_3_01_reference_pyramid_00_013_01_4.png" usemap="#ug::fv1_5Ftraits_3C_20ReferencePyramid_2C_203_20_3E_map" alt=""/>
   <map id="ug::fv1_5Ftraits_3C_20ReferencePyramid_2C_203_20_3E_map" name="ug::fv1_5Ftraits_3C_20ReferencePyramid_2C_203_20_3E_map">
+<area href="structug_1_1fv1__traits___reference_pyramid.html" title="Pyramids: dimension-independent part of the FV1 traits." alt="ug::fv1_traits_ReferencePyramid" shape="rect" coords="0,56,229,80"/>
 <area href="structug_1_1fv1__traits___reference_volume.html" alt="ug::fv1_traits_ReferenceVolume" shape="rect" coords="0,0,229,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:aca8620fa718d6d64785277dad0adbe23"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classug_1_1_reference_quadrilateral.html">ReferenceQuadrilateral</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1fv1__traits_3_01_reference_pyramid_00_013_01_4.html#aca8620fa718d6d64785277dad0adbe23">bf_type</a></td></tr>
-<tr class="separator:aca8620fa718d6d64785277dad0adbe23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66eb3b5a813705f89fb1dc9e30bcb466"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classug_1_1_reference_tetrahedron.html">ReferenceTetrahedron</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1fv1__traits_3_01_reference_pyramid_00_013_01_4.html#a66eb3b5a813705f89fb1dc9e30bcb466">scv_type</a></td></tr>
-<tr class="separator:a66eb3b5a813705f89fb1dc9e30bcb466"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18f31c47930bc464061da8d42a5ddfe2"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classug_1_1_reference_triangle.html">ReferenceTriangle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1fv1__traits_3_01_reference_pyramid_00_013_01_4.html#a18f31c47930bc464061da8d42a5ddfe2">scvf_type</a></td></tr>
-<tr class="separator:a18f31c47930bc464061da8d42a5ddfe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a8652af31953b7a4105011a2578acd2b2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1fv1__traits_3_01_reference_pyramid_00_013_01_4.html#a8652af31953b7a4105011a2578acd2b2">NormalOnBF</a> (<a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; 3 &gt; &amp;outNormal, const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; 3 &gt; *vSCVFCorner, const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; 3 &gt; *vElemCorner)</td></tr>
+<tr class="separator:a8652af31953b7a4105011a2578acd2b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af82e8a3e4604bf02dfe8fee371f3c955"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1fv1__traits_3_01_reference_pyramid_00_013_01_4.html#af82e8a3e4604bf02dfe8fee371f3c955">NormalOnSCVF</a> (<a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; 3 &gt; &amp;outNormal, const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; 3 &gt; *vSCVFCorner, const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; 3 &gt; *vElemCorner)</td></tr>
+<tr class="separator:af82e8a3e4604bf02dfe8fee371f3c955"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_methods_structug_1_1fv1__traits___reference_pyramid"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_structug_1_1fv1__traits___reference_pyramid')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="structug_1_1fv1__traits___reference_pyramid.html">ug::fv1_traits_ReferencePyramid</a></td></tr>
+<tr class="memitem:ae574518afafd3348d8fbd9e6f762e62a inherit pub_static_methods_structug_1_1fv1__traits___reference_pyramid"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1fv1__traits___reference_pyramid.html#ae574518afafd3348d8fbd9e6f762e62a">scv_node_id</a> (const <a class="el" href="classug_1_1_reference_pyramid.html">ReferencePyramid</a> &amp;refElem, size_t i)</td></tr>
+<tr class="memdesc:ae574518afafd3348d8fbd9e6f762e62a inherit pub_static_methods_structug_1_1fv1__traits___reference_pyramid"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the node id for a scv (overridden function form <a class="el" href="structug_1_1fv1__traits__most__common.html" title="Base class, some fields are redefined in the instantiations for particular elements.">fv1_traits_most_common</a>)  <a href="structug_1_1fv1__traits___reference_pyramid.html#ae574518afafd3348d8fbd9e6f762e62a">More...</a><br /></td></tr>
+<tr class="separator:ae574518afafd3348d8fbd9e6f762e62a inherit pub_static_methods_structug_1_1fv1__traits___reference_pyramid"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ae925519ac7bfed5886bfbff4458f08 inherit pub_static_methods_structug_1_1fv1__traits___reference_pyramid"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1fv1__traits___reference_pyramid.html#a6ae925519ac7bfed5886bfbff4458f08">scvf_from_to</a> (const <a class="el" href="classug_1_1_reference_pyramid.html">ReferencePyramid</a> &amp;refElem, size_t i, size_t ft)</td></tr>
+<tr class="memdesc:a6ae925519ac7bfed5886bfbff4458f08 inherit pub_static_methods_structug_1_1fv1__traits___reference_pyramid"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the 'from' and 'to' corner indices for a scvf (overridden function form <a class="el" href="structug_1_1fv1__traits__most__common.html" title="Base class, some fields are redefined in the instantiations for particular elements.">fv1_traits_most_common</a>)  <a href="structug_1_1fv1__traits___reference_pyramid.html#a6ae925519ac7bfed5886bfbff4458f08">More...</a><br /></td></tr>
+<tr class="separator:a6ae925519ac7bfed5886bfbff4458f08 inherit pub_static_methods_structug_1_1fv1__traits___reference_pyramid"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_methods_structug_1_1fv1__traits___reference_volume"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_structug_1_1fv1__traits___reference_volume')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="structug_1_1fv1__traits___reference_volume.html">ug::fv1_traits_ReferenceVolume</a></td></tr>
+<tr class="memitem:a8eb01e8aa53e27d40f374ddfda91f848 inherit pub_static_methods_structug_1_1fv1__traits___reference_volume"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1fv1__traits___reference_volume.html#a8eb01e8aa53e27d40f374ddfda91f848">NormalOnBF</a> (<a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; 3 &gt; &amp;outNormal, const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; 3 &gt; *vSCVFCorner, const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; 3 &gt; *vElemCorner)</td></tr>
+<tr class="separator:a8eb01e8aa53e27d40f374ddfda91f848 inherit pub_static_methods_structug_1_1fv1__traits___reference_volume"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb36bdddae1b5f05c0b26911b6a0aa81 inherit pub_static_methods_structug_1_1fv1__traits___reference_volume"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1fv1__traits___reference_volume.html#adb36bdddae1b5f05c0b26911b6a0aa81">NormalOnSCVF</a> (<a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; 3 &gt; &amp;outNormal, const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; 3 &gt; *vSCVFCorner, const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; 3 &gt; *vElemCorner)</td></tr>
+<tr class="separator:adb36bdddae1b5f05c0b26911b6a0aa81 inherit pub_static_methods_structug_1_1fv1__traits___reference_volume"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_types_structug_1_1fv1__traits___reference_pyramid"><td colspan="2" onclick="javascript:toggleInherit('pub_types_structug_1_1fv1__traits___reference_pyramid')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="structug_1_1fv1__traits___reference_pyramid.html">ug::fv1_traits_ReferencePyramid</a></td></tr>
+<tr class="memitem:a2d379b12675969da8761c30629b376c2 inherit pub_types_structug_1_1fv1__traits___reference_pyramid"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classug_1_1_reference_quadrilateral.html">ReferenceQuadrilateral</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1fv1__traits___reference_pyramid.html#a2d379b12675969da8761c30629b376c2">bf_type</a></td></tr>
+<tr class="separator:a2d379b12675969da8761c30629b376c2 inherit pub_types_structug_1_1fv1__traits___reference_pyramid"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2485f0b83e01f1cf45f439e0719f27fc inherit pub_types_structug_1_1fv1__traits___reference_pyramid"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classug_1_1_reference_tetrahedron.html">ReferenceTetrahedron</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1fv1__traits___reference_pyramid.html#a2485f0b83e01f1cf45f439e0719f27fc">scv_type</a></td></tr>
+<tr class="separator:a2485f0b83e01f1cf45f439e0719f27fc inherit pub_types_structug_1_1fv1__traits___reference_pyramid"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad930c90ec41624bad23446726f55f2b inherit pub_types_structug_1_1fv1__traits___reference_pyramid"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classug_1_1_reference_triangle.html">ReferenceTriangle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1fv1__traits___reference_pyramid.html#aad930c90ec41624bad23446726f55f2b">scvf_type</a></td></tr>
+<tr class="separator:aad930c90ec41624bad23446726f55f2b inherit pub_types_structug_1_1fv1__traits___reference_pyramid"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_structug_1_1fv1__traits___reference_volume"><td colspan="2" onclick="javascript:toggleInherit('pub_types_structug_1_1fv1__traits___reference_volume')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="structug_1_1fv1__traits___reference_volume.html">ug::fv1_traits_ReferenceVolume</a></td></tr>
 <tr class="memitem:a581b5d0ba7cd3cb9404f784f78749fcc inherit pub_types_structug_1_1fv1__traits___reference_volume"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classug_1_1_reference_quadrilateral.html">ReferenceQuadrilateral</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1fv1__traits___reference_volume.html#a581b5d0ba7cd3cb9404f784f78749fcc">bf_type</a></td></tr>
 <tr class="separator:a581b5d0ba7cd3cb9404f784f78749fcc inherit pub_types_structug_1_1fv1__traits___reference_volume"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -130,27 +152,19 @@ Public Types</h2></td></tr>
 <tr class="separator:a9780656cb8ea50024d61c4016f164995 inherit pub_types_structug_1_1fv1__traits___reference_volume"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af81035dbee98dd8e97c1811c906c3032 inherit pub_types_structug_1_1fv1__traits___reference_volume"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classug_1_1_reference_quadrilateral.html">ReferenceQuadrilateral</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1fv1__traits___reference_volume.html#af81035dbee98dd8e97c1811c906c3032">scvf_type</a></td></tr>
 <tr class="separator:af81035dbee98dd8e97c1811c906c3032 inherit pub_types_structug_1_1fv1__traits___reference_volume"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a8652af31953b7a4105011a2578acd2b2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1fv1__traits_3_01_reference_pyramid_00_013_01_4.html#a8652af31953b7a4105011a2578acd2b2">NormalOnBF</a> (<a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; 3 &gt; &amp;outNormal, const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; 3 &gt; *vSCVFCorner, const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; 3 &gt; *vElemCorner)</td></tr>
-<tr class="separator:a8652af31953b7a4105011a2578acd2b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af82e8a3e4604bf02dfe8fee371f3c955"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1fv1__traits_3_01_reference_pyramid_00_013_01_4.html#af82e8a3e4604bf02dfe8fee371f3c955">NormalOnSCVF</a> (<a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; 3 &gt; &amp;outNormal, const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; 3 &gt; *vSCVFCorner, const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; 3 &gt; *vElemCorner)</td></tr>
-<tr class="separator:af82e8a3e4604bf02dfe8fee371f3c955"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_static_methods_structug_1_1fv1__traits___reference_volume"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_structug_1_1fv1__traits___reference_volume')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="structug_1_1fv1__traits___reference_volume.html">ug::fv1_traits_ReferenceVolume</a></td></tr>
-<tr class="memitem:a8eb01e8aa53e27d40f374ddfda91f848 inherit pub_static_methods_structug_1_1fv1__traits___reference_volume"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1fv1__traits___reference_volume.html#a8eb01e8aa53e27d40f374ddfda91f848">NormalOnBF</a> (<a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; 3 &gt; &amp;outNormal, const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; 3 &gt; *vSCVFCorner, const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; 3 &gt; *vElemCorner)</td></tr>
-<tr class="separator:a8eb01e8aa53e27d40f374ddfda91f848 inherit pub_static_methods_structug_1_1fv1__traits___reference_volume"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb36bdddae1b5f05c0b26911b6a0aa81 inherit pub_static_methods_structug_1_1fv1__traits___reference_volume"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1fv1__traits___reference_volume.html#adb36bdddae1b5f05c0b26911b6a0aa81">NormalOnSCVF</a> (<a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; 3 &gt; &amp;outNormal, const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; 3 &gt; *vSCVFCorner, const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; 3 &gt; *vElemCorner)</td></tr>
-<tr class="separator:adb36bdddae1b5f05c0b26911b6a0aa81 inherit pub_static_methods_structug_1_1fv1__traits___reference_volume"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:aac3654e1c8234f02fddf85c745057320"><td class="memItemLeft" align="right" valign="top">const static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1fv1__traits_3_01_reference_pyramid_00_013_01_4.html#aac3654e1c8234f02fddf85c745057320">NumCornersOfBF</a> = 4</td></tr>
-<tr class="separator:aac3654e1c8234f02fddf85c745057320"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a721677980ac35355425775228b826fc6"><td class="memItemLeft" align="right" valign="top">const static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1fv1__traits_3_01_reference_pyramid_00_013_01_4.html#a721677980ac35355425775228b826fc6">NumCornersOfSCV</a> = 4</td></tr>
-<tr class="separator:a721677980ac35355425775228b826fc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86b111020ef387c01c85cb5ca18053b4"><td class="memItemLeft" align="right" valign="top">const static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1fv1__traits_3_01_reference_pyramid_00_013_01_4.html#a86b111020ef387c01c85cb5ca18053b4">NumCornersOfSCVF</a> = 3</td></tr>
-<tr class="separator:a86b111020ef387c01c85cb5ca18053b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_structug_1_1fv1__traits___reference_pyramid"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_structug_1_1fv1__traits___reference_pyramid')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="structug_1_1fv1__traits___reference_pyramid.html">ug::fv1_traits_ReferencePyramid</a></td></tr>
+<tr class="memitem:ac96a9d84909e2501fae43594d6dfaad2 inherit pub_static_attribs_structug_1_1fv1__traits___reference_pyramid"><td class="memItemLeft" align="right" valign="top">const static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1fv1__traits___reference_pyramid.html#ac96a9d84909e2501fae43594d6dfaad2">NumCornersOfBF</a> = 4</td></tr>
+<tr class="separator:ac96a9d84909e2501fae43594d6dfaad2 inherit pub_static_attribs_structug_1_1fv1__traits___reference_pyramid"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6eb23becab7ebbf477dcab4cf564ff74 inherit pub_static_attribs_structug_1_1fv1__traits___reference_pyramid"><td class="memItemLeft" align="right" valign="top">const static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1fv1__traits___reference_pyramid.html#a6eb23becab7ebbf477dcab4cf564ff74">NumCornersOfSCV</a> = 4</td></tr>
+<tr class="separator:a6eb23becab7ebbf477dcab4cf564ff74 inherit pub_static_attribs_structug_1_1fv1__traits___reference_pyramid"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a3fd0f08a3edd465c8b1c9e2c996130 inherit pub_static_attribs_structug_1_1fv1__traits___reference_pyramid"><td class="memItemLeft" align="right" valign="top">const static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1fv1__traits___reference_pyramid.html#a6a3fd0f08a3edd465c8b1c9e2c996130">NumCornersOfSCVF</a> = 3</td></tr>
+<tr class="separator:a6a3fd0f08a3edd465c8b1c9e2c996130 inherit pub_static_attribs_structug_1_1fv1__traits___reference_pyramid"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec65e82dae0a89518589f93c971b827d inherit pub_static_attribs_structug_1_1fv1__traits___reference_pyramid"><td class="memItemLeft" align="right" valign="top">static const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1fv1__traits___reference_pyramid.html#aec65e82dae0a89518589f93c971b827d">numSCV</a> = 4 * <a class="el" href="classug_1_1_reference_pyramid.html#a7c392c8e8a5328bdf457c133a4bed58c">ReferencePyramid::numEdges</a></td></tr>
+<tr class="memdesc:aec65e82dae0a89518589f93c971b827d inherit pub_static_attribs_structug_1_1fv1__traits___reference_pyramid"><td class="mdescLeft">&#160;</td><td class="mdescRight">overridden field from <a class="el" href="structug_1_1fv1__traits__most__common.html" title="Base class, some fields are redefined in the instantiations for particular elements.">fv1_traits_most_common</a>  <a href="structug_1_1fv1__traits___reference_pyramid.html#aec65e82dae0a89518589f93c971b827d">More...</a><br /></td></tr>
+<tr class="separator:aec65e82dae0a89518589f93c971b827d inherit pub_static_attribs_structug_1_1fv1__traits___reference_pyramid"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf59fcb5b99d459ea0f6e319913dcd30 inherit pub_static_attribs_structug_1_1fv1__traits___reference_pyramid"><td class="memItemLeft" align="right" valign="top">static const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1fv1__traits___reference_pyramid.html#aaf59fcb5b99d459ea0f6e319913dcd30">numSCVF</a> = 2 * <a class="el" href="classug_1_1_reference_pyramid.html#a7c392c8e8a5328bdf457c133a4bed58c">ReferencePyramid::numEdges</a></td></tr>
+<tr class="memdesc:aaf59fcb5b99d459ea0f6e319913dcd30 inherit pub_static_attribs_structug_1_1fv1__traits___reference_pyramid"><td class="mdescLeft">&#160;</td><td class="mdescRight">overridden field from <a class="el" href="structug_1_1fv1__traits__most__common.html" title="Base class, some fields are redefined in the instantiations for particular elements.">fv1_traits_most_common</a>  <a href="structug_1_1fv1__traits___reference_pyramid.html#aaf59fcb5b99d459ea0f6e319913dcd30">More...</a><br /></td></tr>
+<tr class="separator:aaf59fcb5b99d459ea0f6e319913dcd30 inherit pub_static_attribs_structug_1_1fv1__traits___reference_pyramid"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_attribs_structug_1_1fv1__traits___reference_volume"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_structug_1_1fv1__traits___reference_volume')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="structug_1_1fv1__traits___reference_volume.html">ug::fv1_traits_ReferenceVolume</a></td></tr>
 <tr class="memitem:a95fd04df63bb518cf2fd9d09b02a61db inherit pub_static_attribs_structug_1_1fv1__traits___reference_volume"><td class="memItemLeft" align="right" valign="top">static const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1fv1__traits___reference_volume.html#a95fd04df63bb518cf2fd9d09b02a61db">maxNSH</a> = 8</td></tr>
 <tr class="separator:a95fd04df63bb518cf2fd9d09b02a61db inherit pub_static_attribs_structug_1_1fv1__traits___reference_volume"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -165,50 +179,13 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a309997d507c3319a7b227306e7a09703 inherit pub_static_attribs_structug_1_1fv1__traits___reference_volume"><td class="memItemLeft" align="right" valign="top">const static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1fv1__traits___reference_volume.html#a309997d507c3319a7b227306e7a09703">NumCornersOfSCVF</a> = 4</td></tr>
 <tr class="separator:a309997d507c3319a7b227306e7a09703 inherit pub_static_attribs_structug_1_1fv1__traits___reference_volume"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="aca8620fa718d6d64785277dad0adbe23"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca8620fa718d6d64785277dad0adbe23">&#9670;&nbsp;</a></span>bf_type</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;&gt;<br />
+struct ug::fv1_traits&lt; ReferencePyramid, 3 &gt;</h3>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="classug_1_1_reference_quadrilateral.html">ReferenceQuadrilateral</a> <a class="el" href="structug_1_1fv1__traits.html">ug::fv1_traits</a>&lt; <a class="el" href="classug_1_1_reference_pyramid.html">ReferencePyramid</a>, 3 &gt;::<a class="el" href="structug_1_1fv1__traits___reference_volume.html#a581b5d0ba7cd3cb9404f784f78749fcc">bf_type</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a66eb3b5a813705f89fb1dc9e30bcb466"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66eb3b5a813705f89fb1dc9e30bcb466">&#9670;&nbsp;</a></span>scv_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="classug_1_1_reference_tetrahedron.html">ReferenceTetrahedron</a> <a class="el" href="structug_1_1fv1__traits.html">ug::fv1_traits</a>&lt; <a class="el" href="classug_1_1_reference_pyramid.html">ReferencePyramid</a>, 3 &gt;::<a class="el" href="structug_1_1fv1__traits___reference_volume.html#a9780656cb8ea50024d61c4016f164995">scv_type</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a18f31c47930bc464061da8d42a5ddfe2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18f31c47930bc464061da8d42a5ddfe2">&#9670;&nbsp;</a></span>scvf_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="classug_1_1_reference_triangle.html">ReferenceTriangle</a> <a class="el" href="structug_1_1fv1__traits.html">ug::fv1_traits</a>&lt; <a class="el" href="classug_1_1_reference_pyramid.html">ReferencePyramid</a>, 3 &gt;::<a class="el" href="structug_1_1fv1__traits___reference_volume.html#af81035dbee98dd8e97c1811c906c3032">scvf_type</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
+<p>Pyramids: the FV1 traits. </p>
+<p>For Pyramids we use triangular scvf, since the quadrilateral scvf would not be flat in general by the positions where its corners are placed </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a8652af31953b7a4105011a2578acd2b2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8652af31953b7a4105011a2578acd2b2">&#9670;&nbsp;</a></span>NormalOnBF()</h2>
 
@@ -297,73 +274,6 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="aac3654e1c8234f02fddf85c745057320"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac3654e1c8234f02fddf85c745057320">&#9670;&nbsp;</a></span>NumCornersOfBF</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const static size_t <a class="el" href="structug_1_1fv1__traits.html">ug::fv1_traits</a>&lt; <a class="el" href="classug_1_1_reference_pyramid.html">ReferencePyramid</a>, 3 &gt;::NumCornersOfBF = 4</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a721677980ac35355425775228b826fc6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a721677980ac35355425775228b826fc6">&#9670;&nbsp;</a></span>NumCornersOfSCV</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const static size_t <a class="el" href="structug_1_1fv1__traits.html">ug::fv1_traits</a>&lt; <a class="el" href="classug_1_1_reference_pyramid.html">ReferencePyramid</a>, 3 &gt;::NumCornersOfSCV = 4</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a86b111020ef387c01c85cb5ca18053b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86b111020ef387c01c85cb5ca18053b4">&#9670;&nbsp;</a></span>NumCornersOfSCVF</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const static size_t <a class="el" href="structug_1_1fv1__traits.html">ug::fv1_traits</a>&lt; <a class="el" href="classug_1_1_reference_pyramid.html">ReferencePyramid</a>, 3 &gt;::NumCornersOfSCVF = 3</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li>ugbase/lib_disc/spatial_disc/disc_util/<a class="el" href="fv__util_8h_source.html">fv_util.h</a></li>
 </ul>
@@ -373,7 +283,7 @@ Static Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="structug_1_1fv1__traits_3_01_reference_pyramid_00_013_01_4.html">fv1_traits&lt; ReferencePyramid, 3 &gt;</a></li>
-    <li class="footer">Generated on Fri Dec 13 2019 23:54:55 for ug4 by
+    <li class="footer">Generated on Tue Oct 27 2020 05:30:18 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

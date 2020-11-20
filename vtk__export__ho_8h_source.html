@@ -340,214 +340,215 @@ $(document).ready(function(){initNavTree('vtk__export__ho_8h_source.html','');})
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;  }</div>
 <div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160; </div>
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> TGridFunction::domain_type dom_type;</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> dom_type::position_attachment_type position_attachment_type;</div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> TGridFunction::approximation_space_type approx_space_type;</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> TGridFunction::template dim_traits&lt;trueDim&gt;::grid_base_object elem_type;</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160; </div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;  <a class="code" href="class_smart_ptr.html">SmartPtr&lt;approx_space_type&gt;</a> srcApproxSpace = u-&gt;approx_space();</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;  <a class="code" href="class_smart_ptr.html">SmartPtr&lt;dom_type&gt;</a> srcDom = srcApproxSpace-&gt;domain();</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160; </div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;  <span class="comment">// select surface elements in old grid</span></div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;  <a class="code" href="classug_1_1_multi_grid.html">MultiGrid</a>&amp; srcGrid = *srcDom-&gt;grid();</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;  <a class="code" href="classug_1_1_selector.html">Selector</a> srcSel(srcGrid);</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;  srcSel.<a class="code" href="classug_1_1_i_selector.html#a363d594b7adf4196fccc0d6afd24f542">select</a>(u-&gt;template begin&lt;elem_type&gt;(), u-&gt;template end&lt;elem_type&gt;());</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160; </div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;  <span class="comment">// create new domain</span></div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;  dom_type* dom_ptr;</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;  <span class="keywordflow">try</span> {dom_ptr = <span class="keyword">new</span> dom_type();}</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;  <a class="code" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>(<span class="stringliteral">&quot;Temporary domain could not be created.&quot;</span>);</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;  <a class="code" href="class_smart_ptr.html">SmartPtr&lt;dom_type&gt;</a> destDom = <a class="code" href="smart__pointer_8h.html#a8ba0055baeb80cdf31c501403f7f302f">make_sp</a>(dom_ptr);</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160; </div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;  <span class="comment">// copy grid from old domain to new domain (into a flat grid!)</span></div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;  <span class="keywordflow">try</span> {<a class="code" href="namespaceug.html#aa9c5a3b2bcffa230dbeed54b7fbc5d62">CopySelected</a>(destDom, srcDom, srcSel);}</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;  <a class="code" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>(<span class="stringliteral">&quot;Temporary grid could not be created.&quot;</span>);</div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160; </div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;  <span class="comment">// refine</span></div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;<span class="preprocessor">#ifdef UG_PARALLEL</span></div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;  <a class="code" href="classug_1_1_t_parallel_global_refiner.html">ParallelGlobalRefiner_MultiGrid</a> refiner(*destDom-&gt;distributed_grid_manager());</div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;  <a class="code" href="classug_1_1_multi_grid.html">MultiGrid</a>&amp; destGrid = *destDom-&gt;grid();</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;  <a class="code" href="classug_1_1_global_multi_grid_refiner.html">GlobalMultiGridRefiner</a> refiner(destGrid);</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;  <span class="keywordtype">size_t</span> numRefs = (size_t) ceil(log2(order));</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> iref = 0; iref &lt; numRefs; ++iref)</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;  {</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    <span class="keywordflow">try</span> {refiner.<a class="code" href="classug_1_1_i_refiner.html#acaa9d25a70aef058969b312840c4c5be">refine</a>();}</div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    <a class="code" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>(<span class="stringliteral">&quot;Refinement step &quot;</span> &lt;&lt; iref &lt;&lt; <span class="stringliteral">&quot; could not be carried out.&quot;</span>);</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;  }</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160; </div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;  <span class="comment">// retain function group for functions being exported</span></div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;  <a class="code" href="classug_1_1_function_group.html">FunctionGroup</a> fg(srcApproxSpace-&gt;dof_distribution_info(), vFct);</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160; </div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;  <span class="comment">// create approx space and add functions</span></div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;  approx_space_type* approx_ptr;</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;  <span class="keywordflow">try</span> {approx_ptr = <span class="keyword">new</span> approx_space_type(destDom);}</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;  <a class="code" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>(<span class="stringliteral">&quot;Temporary approximation space could not be created.&quot;</span>);</div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;  <a class="code" href="class_smart_ptr.html">SmartPtr&lt;approx_space_type&gt;</a> destApproxSpace = <a class="code" href="smart__pointer_8h.html#a8ba0055baeb80cdf31c501403f7f302f">make_sp</a>(approx_ptr);</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160; </div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> fct = 0; fct &lt; fg.size(); ++fct)</div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;  {</div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    <span class="keywordflow">if</span> (fg.function_pattern()-&gt;is_def_everywhere(fg.unique_id(fct)))</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;      destApproxSpace-&gt;add(fg.name(fct), <span class="stringliteral">&quot;Lagrange&quot;</span>, 1);</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    {</div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;      <span class="keywordtype">int</span> num_subsets = fg.function_pattern()-&gt;num_subsets();</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;      std::string subsets;</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> si = 0; si &lt; num_subsets; ++si)</div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;      {</div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;        <span class="keywordflow">if</span> (fg.function_pattern()-&gt;is_def_in_subset(fct, si))</div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;          subsets += std::string(<span class="stringliteral">&quot;,&quot;</span>) + fg.function_pattern()-&gt;subset_name(si);</div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;      }</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;      <span class="keywordflow">if</span> (!subsets.empty())</div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;        subsets.erase(0,1); <span class="comment">// delete leading &quot;,&quot;</span></div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160; </div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;      destApproxSpace-&gt;add(fg.name(fct), <span class="stringliteral">&quot;Lagrange&quot;</span>, 1, subsets.c_str());</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;    }</div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;  }</div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;  destApproxSpace-&gt;init_top_surface();</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160; </div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;  TGridFunction* gridFct_ptr;</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;  <span class="keywordflow">try</span> {gridFct_ptr = <span class="keyword">new</span> TGridFunction(destApproxSpace);}</div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;  <a class="code" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>(<span class="stringliteral">&quot;Temporary grid function could not be created.&quot;</span>);</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;  <a class="code" href="class_smart_ptr.html">SmartPtr&lt;TGridFunction&gt;</a> u_new = <a class="code" href="smart__pointer_8h.html#a8ba0055baeb80cdf31c501403f7f302f">make_sp</a>(gridFct_ptr);</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160; </div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;  <span class="comment">// interpolate onto new grid</span></div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> fct = 0; fct &lt; fg.size(); ++fct)</div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;  {</div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    <span class="keyword">const</span> <a class="code" href="classug_1_1_l_f_e_i_d.html">LFEID</a> lfeid = u_new-&gt;dof_distribution()-&gt;lfeid(fct);</div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160; </div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    <a class="code" href="classug_1_1_global_grid_function_number_data.html">GlobalGridFunctionNumberData&lt;TGridFunction, trueDim&gt;</a> ggfnd =</div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;      <a class="code" href="classug_1_1_global_grid_function_number_data.html">GlobalGridFunctionNumberData&lt;TGridFunction, trueDim&gt;</a>(u, fg.name(fct));</div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160; </div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;    <span class="comment">// iterate over DoFs in new function and evaluate</span></div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;    <span class="comment">// should be vertices only for Lagrange-1</span></div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;    <span class="keywordflow">if</span> (u_new-&gt;max_dofs(<a class="code" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13ca82c85a54f294f9a7576aedbffafbbe38">VERTEX</a>))</div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;      <a class="code" href="namespaceug.html#ab2243b3d19f60ef09a5bb817d71378d5">interpolate_from_original_fct</a>&lt;<a class="code" href="classug_1_1_vertex.html">Vertex</a>, TGridFunction, <a class="code" href="classug_1_1_global_grid_function_number_data.html">GlobalGridFunctionNumberData&lt;TGridFunction, trueDim&gt;</a> &gt;</div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;        (u_new, ggfnd, fct, lfeid);</div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;    <span class="comment">/*</span></div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;<span class="comment">    if (u_new-&gt;max_dofs(EDGE))</span></div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;<span class="comment">      interpolate_from_original_fct&lt;Edge, TGridFunction, GlobalGridFunctionNumberData&lt;TGridFunction, trueDim&gt; &gt;</span></div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;<span class="comment">        (u_new, ggfnd, fct, lfeid);</span></div>
-<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;<span class="comment">    if (u_new-&gt;max_dofs(FACE))</span></div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;<span class="comment">      interpolate_from_original_fct&lt;Face, TGridFunction, GlobalGridFunctionNumberData&lt;TGridFunction, trueDim&gt; &gt;</span></div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;<span class="comment">        (u_new, ggfnd, fct, lfeid);</span></div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;<span class="comment">    if (u_new-&gt;max_dofs(VOLUME))</span></div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;<span class="comment">      interpolate_from_original_fct&lt;Volume, TGridFunction, GlobalGridFunctionNumberData&lt;TGridFunction, trueDim&gt; &gt;</span></div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;<span class="comment">        (u_new, ggfnd, fct, lfeid);</span></div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;<span class="comment">    */</span></div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;  }</div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160; </div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;<span class="preprocessor">#ifdef UG_PARALLEL</span></div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;  <span class="comment">// copy storage type and layouts</span></div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;  u_new-&gt;set_storage_type(u-&gt;get_storage_mask());</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;  u_new-&gt;set_layouts(u-&gt;layouts());</div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160; </div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;  <span class="comment">// print out new grid function on desired subsets</span></div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;  <span class="keywordtype">bool</span> printAll = ssg.<a class="code" href="classug_1_1_subset_group.html#a94df9ed7e52055ca077c3727c2e69991">size</a>() == (size_t) u-&gt;subset_handler()-&gt;num_subsets();</div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;  <span class="keywordflow">if</span> (printAll)</div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;    vtkOutput-&gt;print(filename, *u_new, step, time);</div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;  <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;  {</div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> s = 0; s &lt; ssg.<a class="code" href="classug_1_1_subset_group.html#a94df9ed7e52055ca077c3727c2e69991">size</a>(); ++s)</div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;      vtkOutput-&gt;print_subset(filename, *u_new, ssg[s], step, time);</div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;  }</div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;}</div>
-<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160; </div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> TGridFunction::algebra_type algebra_type;</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> dom_type::position_attachment_type position_attachment_type;</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> TGridFunction::approximation_space_type approx_space_type;</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> TGridFunction::template dim_traits&lt;trueDim&gt;::grid_base_object elem_type;</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160; </div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;  <a class="code" href="class_smart_ptr.html">SmartPtr&lt;approx_space_type&gt;</a> srcApproxSpace = u-&gt;approx_space();</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;  <a class="code" href="class_smart_ptr.html">SmartPtr&lt;dom_type&gt;</a> srcDom = srcApproxSpace-&gt;domain();</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160; </div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;  <span class="comment">// select surface elements in old grid</span></div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;  <a class="code" href="classug_1_1_multi_grid.html">MultiGrid</a>&amp; srcGrid = *srcDom-&gt;grid();</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;  <a class="code" href="classug_1_1_selector.html">Selector</a> srcSel(srcGrid);</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;  srcSel.<a class="code" href="classug_1_1_i_selector.html#a363d594b7adf4196fccc0d6afd24f542">select</a>(u-&gt;template begin&lt;elem_type&gt;(), u-&gt;template end&lt;elem_type&gt;());</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160; </div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;  <span class="comment">// create new domain</span></div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;  dom_type* dom_ptr;</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;  <span class="keywordflow">try</span> {dom_ptr = <span class="keyword">new</span> dom_type();}</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;  <a class="code" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>(<span class="stringliteral">&quot;Temporary domain could not be created.&quot;</span>);</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;  <a class="code" href="class_smart_ptr.html">SmartPtr&lt;dom_type&gt;</a> destDom = <a class="code" href="smart__pointer_8h.html#a8ba0055baeb80cdf31c501403f7f302f">make_sp</a>(dom_ptr);</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160; </div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;  <span class="comment">// copy grid from old domain to new domain (into a flat grid!)</span></div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;  <span class="keywordflow">try</span> {<a class="code" href="namespaceug.html#aa9c5a3b2bcffa230dbeed54b7fbc5d62">CopySelected</a>(destDom, srcDom, srcSel);}</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;  <a class="code" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>(<span class="stringliteral">&quot;Temporary grid could not be created.&quot;</span>);</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160; </div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;  <span class="comment">// refine</span></div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;<span class="preprocessor">#ifdef UG_PARALLEL</span></div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;  <a class="code" href="classug_1_1_t_parallel_global_refiner.html">ParallelGlobalRefiner_MultiGrid</a> refiner(*destDom-&gt;distributed_grid_manager());</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;  <a class="code" href="classug_1_1_multi_grid.html">MultiGrid</a>&amp; destGrid = *destDom-&gt;grid();</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;  <a class="code" href="classug_1_1_global_multi_grid_refiner.html">GlobalMultiGridRefiner</a> refiner(destGrid);</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;  <span class="keywordtype">size_t</span> numRefs = (size_t) ceil(log2(order));</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> iref = 0; iref &lt; numRefs; ++iref)</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;  {</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    <span class="keywordflow">try</span> {refiner.<a class="code" href="classug_1_1_i_refiner.html#acaa9d25a70aef058969b312840c4c5be">refine</a>();}</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    <a class="code" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>(<span class="stringliteral">&quot;Refinement step &quot;</span> &lt;&lt; iref &lt;&lt; <span class="stringliteral">&quot; could not be carried out.&quot;</span>);</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;  }</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160; </div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;  <span class="comment">// retain function group for functions being exported</span></div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;  <a class="code" href="classug_1_1_function_group.html">FunctionGroup</a> fg(srcApproxSpace-&gt;dof_distribution_info(), vFct);</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160; </div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;  <span class="comment">// create approx space and add functions</span></div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;  approx_space_type* approx_ptr;</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;  <span class="keywordflow">try</span> {approx_ptr = <span class="keyword">new</span> approx_space_type(destDom, algebra_type::get_type());}</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;  <a class="code" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>(<span class="stringliteral">&quot;Temporary approximation space could not be created.&quot;</span>);</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;  <a class="code" href="class_smart_ptr.html">SmartPtr&lt;approx_space_type&gt;</a> destApproxSpace = <a class="code" href="smart__pointer_8h.html#a8ba0055baeb80cdf31c501403f7f302f">make_sp</a>(approx_ptr);</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160; </div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> fct = 0; fct &lt; fg.size(); ++fct)</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;  {</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;    <span class="keywordflow">if</span> (fg.function_pattern()-&gt;is_def_everywhere(fg.unique_id(fct)))</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;      destApproxSpace-&gt;add(fg.name(fct), <span class="stringliteral">&quot;Lagrange&quot;</span>, 1);</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    {</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;      <span class="keywordtype">int</span> num_subsets = fg.function_pattern()-&gt;num_subsets();</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;      std::string subsets;</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> si = 0; si &lt; num_subsets; ++si)</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;      {</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;        <span class="keywordflow">if</span> (fg.function_pattern()-&gt;is_def_in_subset(fct, si))</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;          subsets += std::string(<span class="stringliteral">&quot;,&quot;</span>) + fg.function_pattern()-&gt;subset_name(si);</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;      }</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;      <span class="keywordflow">if</span> (!subsets.empty())</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;        subsets.erase(0,1); <span class="comment">// delete leading &quot;,&quot;</span></div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160; </div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;      destApproxSpace-&gt;add(fg.name(fct), <span class="stringliteral">&quot;Lagrange&quot;</span>, 1, subsets.c_str());</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    }</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;  }</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;  destApproxSpace-&gt;init_top_surface();</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160; </div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;  TGridFunction* gridFct_ptr;</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;  <span class="keywordflow">try</span> {gridFct_ptr = <span class="keyword">new</span> TGridFunction(destApproxSpace);}</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;  <a class="code" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>(<span class="stringliteral">&quot;Temporary grid function could not be created.&quot;</span>);</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;  <a class="code" href="class_smart_ptr.html">SmartPtr&lt;TGridFunction&gt;</a> u_new = <a class="code" href="smart__pointer_8h.html#a8ba0055baeb80cdf31c501403f7f302f">make_sp</a>(gridFct_ptr);</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160; </div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;  <span class="comment">// interpolate onto new grid</span></div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> fct = 0; fct &lt; fg.size(); ++fct)</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;  {</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    <span class="keyword">const</span> <a class="code" href="classug_1_1_l_f_e_i_d.html">LFEID</a> lfeid = u_new-&gt;dof_distribution()-&gt;lfeid(fct);</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160; </div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    <a class="code" href="classug_1_1_global_grid_function_number_data.html">GlobalGridFunctionNumberData&lt;TGridFunction, trueDim&gt;</a> ggfnd =</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;      <a class="code" href="classug_1_1_global_grid_function_number_data.html">GlobalGridFunctionNumberData&lt;TGridFunction, trueDim&gt;</a>(u, fg.name(fct));</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160; </div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;    <span class="comment">// iterate over DoFs in new function and evaluate</span></div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;    <span class="comment">// should be vertices only for Lagrange-1</span></div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;    <span class="keywordflow">if</span> (u_new-&gt;max_dofs(<a class="code" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13ca82c85a54f294f9a7576aedbffafbbe38">VERTEX</a>))</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;      <a class="code" href="namespaceug.html#ab2243b3d19f60ef09a5bb817d71378d5">interpolate_from_original_fct</a>&lt;<a class="code" href="classug_1_1_vertex.html">Vertex</a>, TGridFunction, <a class="code" href="classug_1_1_global_grid_function_number_data.html">GlobalGridFunctionNumberData&lt;TGridFunction, trueDim&gt;</a> &gt;</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;        (u_new, ggfnd, fct, lfeid);</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;    <span class="comment">/*</span></div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;<span class="comment">    if (u_new-&gt;max_dofs(EDGE))</span></div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;<span class="comment">      interpolate_from_original_fct&lt;Edge, TGridFunction, GlobalGridFunctionNumberData&lt;TGridFunction, trueDim&gt; &gt;</span></div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;<span class="comment">        (u_new, ggfnd, fct, lfeid);</span></div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;<span class="comment">    if (u_new-&gt;max_dofs(FACE))</span></div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;<span class="comment">      interpolate_from_original_fct&lt;Face, TGridFunction, GlobalGridFunctionNumberData&lt;TGridFunction, trueDim&gt; &gt;</span></div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;<span class="comment">        (u_new, ggfnd, fct, lfeid);</span></div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;<span class="comment">    if (u_new-&gt;max_dofs(VOLUME))</span></div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;<span class="comment">      interpolate_from_original_fct&lt;Volume, TGridFunction, GlobalGridFunctionNumberData&lt;TGridFunction, trueDim&gt; &gt;</span></div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;<span class="comment">        (u_new, ggfnd, fct, lfeid);</span></div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;<span class="comment">    */</span></div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;  }</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160; </div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;<span class="preprocessor">#ifdef UG_PARALLEL</span></div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;  <span class="comment">// copy storage type and layouts</span></div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;  u_new-&gt;set_storage_type(u-&gt;get_storage_mask());</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;  u_new-&gt;set_layouts(u-&gt;layouts());</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160; </div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;  <span class="comment">// print out new grid function on desired subsets</span></div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;  <span class="keywordtype">bool</span> printAll = ssg.<a class="code" href="classug_1_1_subset_group.html#a94df9ed7e52055ca077c3727c2e69991">size</a>() == (size_t) u-&gt;subset_handler()-&gt;num_subsets();</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;  <span class="keywordflow">if</span> (printAll)</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;    vtkOutput-&gt;print(filename, *u_new, step, time);</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;  <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;  {</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> s = 0; s &lt; ssg.<a class="code" href="classug_1_1_subset_group.html#a94df9ed7e52055ca077c3727c2e69991">size</a>(); ++s)</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;      vtkOutput-&gt;print_subset(filename, *u_new, ssg[s], step, time);</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;  }</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;}</div>
 <div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160; </div>
-<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160; </div>
-<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> TGr<span class="keywordtype">id</span>Function&gt;</div>
-<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespaceug.html#ab09c294f600ceee4e8a4d16b0f08f877">vtk_export_ho</a></div>
-<div class="line"><a name="l00383"></a><span class="lineno"><a class="line" href="namespaceug.html#a2d4dec0fa0bbb1238fa497557114439a">  383</a></span>&#160;(</div>
-<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;  <a class="code" href="class_smart_ptr.html">SmartPtr&lt;TGridFunction&gt;</a> u,</div>
-<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;  <span class="keyword">const</span> std::vector&lt;std::string&gt;&amp; vFct,</div>
-<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;  <span class="keywordtype">size_t</span> order,</div>
-<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;  <a class="code" href="class_smart_ptr.html">SmartPtr</a>&lt;<a class="code" href="classug_1_1_v_t_k_output.html">VTKOutput&lt;TGridFunction::domain_type::dim&gt;</a> &gt; vtkOutput,</div>
-<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">char</span>* filename,</div>
-<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;  <span class="keywordtype">size_t</span> step,</div>
-<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;  <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> time,</div>
-<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;  <span class="keyword">const</span> std::vector&lt;std::string&gt;&amp; vSubset</div>
-<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;)</div>
-<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;{</div>
-<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;  <span class="comment">// construct subset group from given subsets</span></div>
-<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;  <a class="code" href="classug_1_1_subset_group.html">SubsetGroup</a> ssg(u-&gt;subset_handler());</div>
-<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;  <span class="keywordflow">try</span></div>
-<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;  {</div>
-<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;    <span class="keywordflow">if</span> (vSubset.empty())</div>
-<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;      ssg.<a class="code" href="classug_1_1_subset_group.html#aae1affc91bdd2580ac0e75318c745656">add_all</a>();</div>
-<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;      ssg.<a class="code" href="classug_1_1_subset_group.html#adab58f4c1d90a7749cb7fbcc415ede0c">add</a>(vSubset);</div>
-<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;  }</div>
-<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;  <a class="code" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>(<span class="stringliteral">&quot;Subsets are faulty.&quot;</span>);</div>
-<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160; </div>
-<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;  <span class="comment">// find highest dim that contains any elements</span></div>
-<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;  <a class="code" href="classug_1_1_multi_grid.html">MultiGrid</a>&amp; srcGrid = *u-&gt;approx_space()-&gt;domain()-&gt;grid();</div>
-<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;  <span class="keywordflow">if</span> (srcGrid.<a class="code" href="classug_1_1_grid.html#a70dcd73e1a869fc9b3970c6645a587d0">num_volumes</a>())</div>
-<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;    vtk_export_ho&lt;TGridFunction, TGridFunction::dim &gt;= 3 ? 3 : <a class="codeRef" href="../plugins/group__small__strain__mechanics.html#gaa5511ac5b0e4ea46a0a615a3d9e686de">TGridFunction::dim</a>&gt;</div>
-<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;      (u, vFct, order, vtkOutput, filename, step, time, ssg);</div>
-<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (srcGrid.<a class="code" href="classug_1_1_grid.html#a998c99dbae3769c7168dfc27a9411833">num_faces</a>())</div>
-<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;    vtk_export_ho&lt;TGridFunction, TGridFunction::dim &gt;= 2 ? 2 : <a class="codeRef" href="../plugins/group__small__strain__mechanics.html#gaa5511ac5b0e4ea46a0a615a3d9e686de">TGridFunction::dim</a>&gt;</div>
-<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;      (u, vFct, order, vtkOutput, filename, step, time, ssg);</div>
-<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (srcGrid.<a class="code" href="classug_1_1_grid.html#ad6ab1515b0c210c91a7262e59d9da2d7">num_edges</a>())</div>
-<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;    vtk_export_ho&lt;TGridFunction, TGridFunction::dim &gt;= 1 ? 1 : <a class="codeRef" href="../plugins/group__small__strain__mechanics.html#gaa5511ac5b0e4ea46a0a615a3d9e686de">TGridFunction::dim</a>&gt;</div>
-<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;      (u, vFct, order, vtkOutput, filename, step, time, ssg);</div>
-<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (srcGrid.<a class="code" href="classug_1_1_grid.html#aa4ec9e185aa495cfcced70c2b588be97">num_vertices</a>())</div>
-<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;    vtk_export_ho&lt;TGridFunction, TGridFunction::dim &gt;= 0 ? 0 : <a class="codeRef" href="../plugins/group__small__strain__mechanics.html#gaa5511ac5b0e4ea46a0a615a3d9e686de">TGridFunction::dim</a>&gt;</div>
-<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;      (u, vFct, order, vtkOutput, filename, step, time, ssg);</div>
-<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;  <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;    vtk_export_ho&lt;TGridFunction, TGridFunction::dim&gt;(u, vFct, order, vtkOutput, filename, step, time, ssg);</div>
-<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;}</div>
-<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160; </div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160; </div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160; </div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> TGr<span class="keywordtype">id</span>Function&gt;</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespaceug.html#ab09c294f600ceee4e8a4d16b0f08f877">vtk_export_ho</a></div>
+<div class="line"><a name="l00384"></a><span class="lineno"><a class="line" href="namespaceug.html#a2d4dec0fa0bbb1238fa497557114439a">  384</a></span>&#160;(</div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;  <a class="code" href="class_smart_ptr.html">SmartPtr&lt;TGridFunction&gt;</a> u,</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;  <span class="keyword">const</span> std::vector&lt;std::string&gt;&amp; vFct,</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;  <span class="keywordtype">size_t</span> order,</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;  <a class="code" href="class_smart_ptr.html">SmartPtr</a>&lt;<a class="code" href="classug_1_1_v_t_k_output.html">VTKOutput&lt;TGridFunction::domain_type::dim&gt;</a> &gt; vtkOutput,</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">char</span>* filename,</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;  <span class="keywordtype">size_t</span> step,</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;  <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> time,</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;  <span class="keyword">const</span> std::vector&lt;std::string&gt;&amp; vSubset</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;)</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;{</div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;  <span class="comment">// construct subset group from given subsets</span></div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;  <a class="code" href="classug_1_1_subset_group.html">SubsetGroup</a> ssg(u-&gt;subset_handler());</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;  <span class="keywordflow">try</span></div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;  {</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;    <span class="keywordflow">if</span> (vSubset.empty())</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;      ssg.<a class="code" href="classug_1_1_subset_group.html#aae1affc91bdd2580ac0e75318c745656">add_all</a>();</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;      ssg.<a class="code" href="classug_1_1_subset_group.html#adab58f4c1d90a7749cb7fbcc415ede0c">add</a>(vSubset);</div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;  }</div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;  <a class="code" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>(<span class="stringliteral">&quot;Subsets are faulty.&quot;</span>);</div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160; </div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;  <span class="comment">// find highest dim that contains any elements</span></div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;  <a class="code" href="classug_1_1_multi_grid.html">MultiGrid</a>&amp; srcGrid = *u-&gt;approx_space()-&gt;domain()-&gt;grid();</div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;  <span class="keywordflow">if</span> (srcGrid.<a class="code" href="classug_1_1_grid.html#a70dcd73e1a869fc9b3970c6645a587d0">num_volumes</a>())</div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;    vtk_export_ho&lt;TGridFunction, TGridFunction::dim &gt;= 3 ? 3 : <a class="codeRef" href="../plugins/group__small__strain__mechanics.html#gaa5511ac5b0e4ea46a0a615a3d9e686de">TGridFunction::dim</a>&gt;</div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;      (u, vFct, order, vtkOutput, filename, step, time, ssg);</div>
+<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (srcGrid.<a class="code" href="classug_1_1_grid.html#a998c99dbae3769c7168dfc27a9411833">num_faces</a>())</div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;    vtk_export_ho&lt;TGridFunction, TGridFunction::dim &gt;= 2 ? 2 : <a class="codeRef" href="../plugins/group__small__strain__mechanics.html#gaa5511ac5b0e4ea46a0a615a3d9e686de">TGridFunction::dim</a>&gt;</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;      (u, vFct, order, vtkOutput, filename, step, time, ssg);</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (srcGrid.<a class="code" href="classug_1_1_grid.html#ad6ab1515b0c210c91a7262e59d9da2d7">num_edges</a>())</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;    vtk_export_ho&lt;TGridFunction, TGridFunction::dim &gt;= 1 ? 1 : <a class="codeRef" href="../plugins/group__small__strain__mechanics.html#gaa5511ac5b0e4ea46a0a615a3d9e686de">TGridFunction::dim</a>&gt;</div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;      (u, vFct, order, vtkOutput, filename, step, time, ssg);</div>
+<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (srcGrid.<a class="code" href="classug_1_1_grid.html#aa4ec9e185aa495cfcced70c2b588be97">num_vertices</a>())</div>
+<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;    vtk_export_ho&lt;TGridFunction, TGridFunction::dim &gt;= 0 ? 0 : <a class="codeRef" href="../plugins/group__small__strain__mechanics.html#gaa5511ac5b0e4ea46a0a615a3d9e686de">TGridFunction::dim</a>&gt;</div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;      (u, vFct, order, vtkOutput, filename, step, time, ssg);</div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;  <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;    vtk_export_ho&lt;TGridFunction, TGridFunction::dim&gt;(u, vFct, order, vtkOutput, filename, step, time, ssg);</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;}</div>
 <div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160; </div>
-<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> TGr<span class="keywordtype">id</span>Function&gt;</div>
-<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespaceug.html#ab09c294f600ceee4e8a4d16b0f08f877">vtk_export_ho</a></div>
-<div class="line"><a name="l00426"></a><span class="lineno"><a class="line" href="namespaceug.html#a0ae68735a22c668fd7377c699c29eaff">  426</a></span>&#160;(</div>
-<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;  <a class="code" href="class_smart_ptr.html">SmartPtr&lt;TGridFunction&gt;</a> u,</div>
-<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;  <span class="keyword">const</span> std::vector&lt;std::string&gt;&amp; vFct,</div>
-<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;  <span class="keywordtype">size_t</span> order,</div>
-<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;  <a class="code" href="class_smart_ptr.html">SmartPtr</a>&lt;<a class="code" href="classug_1_1_v_t_k_output.html">VTKOutput&lt;TGridFunction::domain_type::dim&gt;</a> &gt; vtkOutput,</div>
-<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">char</span>* filename,</div>
-<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;  <span class="keyword">const</span> std::vector&lt;std::string&gt;&amp; vSubset</div>
-<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;  )</div>
-<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;{</div>
-<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;  <a class="code" href="namespaceug.html#ab09c294f600ceee4e8a4d16b0f08f877">vtk_export_ho</a>(u, vFct, order, vtkOutput, filename, 0, 0.0, vSubset);</div>
-<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;}</div>
-<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160; </div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160; </div>
+<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> TGr<span class="keywordtype">id</span>Function&gt;</div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespaceug.html#ab09c294f600ceee4e8a4d16b0f08f877">vtk_export_ho</a></div>
+<div class="line"><a name="l00427"></a><span class="lineno"><a class="line" href="namespaceug.html#a0ae68735a22c668fd7377c699c29eaff">  427</a></span>&#160;(</div>
+<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;  <a class="code" href="class_smart_ptr.html">SmartPtr&lt;TGridFunction&gt;</a> u,</div>
+<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;  <span class="keyword">const</span> std::vector&lt;std::string&gt;&amp; vFct,</div>
+<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;  <span class="keywordtype">size_t</span> order,</div>
+<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;  <a class="code" href="class_smart_ptr.html">SmartPtr</a>&lt;<a class="code" href="classug_1_1_v_t_k_output.html">VTKOutput&lt;TGridFunction::domain_type::dim&gt;</a> &gt; vtkOutput,</div>
+<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">char</span>* filename,</div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;  <span class="keyword">const</span> std::vector&lt;std::string&gt;&amp; vSubset</div>
+<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;  )</div>
+<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;{</div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;  <a class="code" href="namespaceug.html#ab09c294f600ceee4e8a4d16b0f08f877">vtk_export_ho</a>(u, vFct, order, vtkOutput, filename, 0, 0.0, vSubset);</div>
+<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;}</div>
 <div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160; </div>
-<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> TGr<span class="keywordtype">id</span>Function&gt;</div>
-<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespaceug.html#ab09c294f600ceee4e8a4d16b0f08f877">vtk_export_ho</a></div>
-<div class="line"><a name="l00441"></a><span class="lineno"><a class="line" href="namespaceug.html#a10168d274ff6b21cbe8f4a6df2cabcf9">  441</a></span>&#160;(</div>
-<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;  <a class="code" href="class_smart_ptr.html">SmartPtr&lt;TGridFunction&gt;</a> u,</div>
-<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;  <span class="keyword">const</span> std::vector&lt;std::string&gt;&amp; vFct,</div>
-<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;  <span class="keywordtype">size_t</span> order,</div>
-<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;  <a class="code" href="class_smart_ptr.html">SmartPtr</a>&lt;<a class="code" href="classug_1_1_v_t_k_output.html">VTKOutput&lt;TGridFunction::domain_type::dim&gt;</a> &gt; vtkOutput,</div>
-<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">char</span>* filename,</div>
-<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;  <span class="keywordtype">size_t</span> step,</div>
-<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;  <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> time</div>
-<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;)</div>
-<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;{</div>
-<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;  <a class="code" href="namespaceug.html#ab09c294f600ceee4e8a4d16b0f08f877">vtk_export_ho</a>(u, vFct, order, vtkOutput, filename, step, time, std::vector&lt;std::string&gt;());</div>
-<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;}</div>
-<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160; </div>
+<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160; </div>
+<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> TGr<span class="keywordtype">id</span>Function&gt;</div>
+<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespaceug.html#ab09c294f600ceee4e8a4d16b0f08f877">vtk_export_ho</a></div>
+<div class="line"><a name="l00442"></a><span class="lineno"><a class="line" href="namespaceug.html#a10168d274ff6b21cbe8f4a6df2cabcf9">  442</a></span>&#160;(</div>
+<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;  <a class="code" href="class_smart_ptr.html">SmartPtr&lt;TGridFunction&gt;</a> u,</div>
+<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;  <span class="keyword">const</span> std::vector&lt;std::string&gt;&amp; vFct,</div>
+<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;  <span class="keywordtype">size_t</span> order,</div>
+<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;  <a class="code" href="class_smart_ptr.html">SmartPtr</a>&lt;<a class="code" href="classug_1_1_v_t_k_output.html">VTKOutput&lt;TGridFunction::domain_type::dim&gt;</a> &gt; vtkOutput,</div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">char</span>* filename,</div>
+<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;  <span class="keywordtype">size_t</span> step,</div>
+<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;  <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> time</div>
+<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;)</div>
+<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;{</div>
+<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;  <a class="code" href="namespaceug.html#ab09c294f600ceee4e8a4d16b0f08f877">vtk_export_ho</a>(u, vFct, order, vtkOutput, filename, step, time, std::vector&lt;std::string&gt;());</div>
+<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;}</div>
 <div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160; </div>
-<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> TGr<span class="keywordtype">id</span>Function&gt;</div>
-<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespaceug.html#ab09c294f600ceee4e8a4d16b0f08f877">vtk_export_ho</a></div>
-<div class="line"><a name="l00457"></a><span class="lineno"><a class="line" href="namespaceug.html#acc2af1cb47dab06b5ce0f5e0765c4ffc">  457</a></span>&#160;(</div>
-<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;  <a class="code" href="class_smart_ptr.html">SmartPtr&lt;TGridFunction&gt;</a> u,</div>
-<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;  <span class="keyword">const</span> std::vector&lt;std::string&gt;&amp; vFct,</div>
-<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;  <span class="keywordtype">size_t</span> order,</div>
-<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;  <a class="code" href="class_smart_ptr.html">SmartPtr</a>&lt;<a class="code" href="classug_1_1_v_t_k_output.html">VTKOutput&lt;TGridFunction::domain_type::dim&gt;</a> &gt; vtkOutput,</div>
-<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">char</span>* filename</div>
-<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;  )</div>
-<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;{</div>
-<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;  <a class="code" href="namespaceug.html#ab09c294f600ceee4e8a4d16b0f08f877">vtk_export_ho</a>(u, vFct, order, vtkOutput, filename, 0, 0.0, std::vector&lt;std::string&gt;());</div>
-<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;}</div>
-<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160; </div>
+<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160; </div>
+<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> TGr<span class="keywordtype">id</span>Function&gt;</div>
+<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespaceug.html#ab09c294f600ceee4e8a4d16b0f08f877">vtk_export_ho</a></div>
+<div class="line"><a name="l00458"></a><span class="lineno"><a class="line" href="namespaceug.html#acc2af1cb47dab06b5ce0f5e0765c4ffc">  458</a></span>&#160;(</div>
+<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;  <a class="code" href="class_smart_ptr.html">SmartPtr&lt;TGridFunction&gt;</a> u,</div>
+<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;  <span class="keyword">const</span> std::vector&lt;std::string&gt;&amp; vFct,</div>
+<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;  <span class="keywordtype">size_t</span> order,</div>
+<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;  <a class="code" href="class_smart_ptr.html">SmartPtr</a>&lt;<a class="code" href="classug_1_1_v_t_k_output.html">VTKOutput&lt;TGridFunction::domain_type::dim&gt;</a> &gt; vtkOutput,</div>
+<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">char</span>* filename</div>
+<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;  )</div>
+<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;{</div>
+<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;  <a class="code" href="namespaceug.html#ab09c294f600ceee4e8a4d16b0f08f877">vtk_export_ho</a>(u, vFct, order, vtkOutput, filename, 0, 0.0, std::vector&lt;std::string&gt;());</div>
+<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;}</div>
 <div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160; </div>
-<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;} <span class="comment">// end namespace ug</span></div>
-<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160; </div>
+<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160; </div>
+<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;} <span class="comment">// end namespace ug</span></div>
 <div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160; </div>
-<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;<span class="preprocessor">#endif // __H__UG__LIB_DISC__IO__VTK_EXPORT_HO__</span></div>
+<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160; </div>
+<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;<span class="preprocessor">#endif // __H__UG__LIB_DISC__IO__VTK_EXPORT_HO__</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="amulti__grid_8h_html"><div class="ttname"><a href="multi__grid_8h.html">multi_grid.h</a></div></div>
@@ -628,7 +629,7 @@ $(document).ready(function(){initNavTree('vtk__export__ho_8h_source.html','');})
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_df0e37446a9fd4242d0753cd346d4a6c.html">lib_disc</a></li><li class="navelem"><a class="el" href="dir_a2174e1d7358accf8a306bfec876d833.html">io</a></li><li class="navelem"><a class="el" href="vtk__export__ho_8h.html">vtk_export_ho.h</a></li>
-    <li class="footer">Generated on Fri Dec 13 2019 23:53:57 for ug4 by
+    <li class="footer">Generated on Tue Oct 27 2020 05:29:18 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

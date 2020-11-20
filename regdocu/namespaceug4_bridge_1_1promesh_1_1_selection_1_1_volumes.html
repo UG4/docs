@@ -128,6 +128,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ab40d80f263e425b3b7e335cbbd33671a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes.html#ab40d80f263e425b3b7e335cbbd33671a">SelectVolumeByIndex</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, int index)</td></tr>
 <tr class="memdesc:ab40d80f263e425b3b7e335cbbd33671a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects a volume given its index.  <a href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes.html#ab40d80f263e425b3b7e335cbbd33671a">More...</a><br /></td></tr>
 <tr class="separator:ab40d80f263e425b3b7e335cbbd33671a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9975f9fa468c5e0fd23813e8c94966c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes.html#ac9975f9fa468c5e0fd23813e8c94966c">SelectVolumesByType</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, bool Hexahedra, bool Octahedra, bool Prisms, bool Pyramids, bool Tetrahedra)</td></tr>
+<tr class="memdesc:ac9975f9fa468c5e0fd23813e8c94966c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects all volumes of a given type.  <a href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes.html#ac9975f9fa468c5e0fd23813e8c94966c">More...</a><br /></td></tr>
+<tr class="separator:ac9975f9fa468c5e0fd23813e8c94966c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdc141595835b506957feff5c75ddda1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes.html#acdc141595835b506957feff5c75ddda1">VolumeSelectionFill</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh)</td></tr>
 <tr class="memdesc:acdc141595835b506957feff5c75ddda1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects neighbours of selected volumes over non-selected faces.  <a href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes.html#acdc141595835b506957feff5c75ddda1">More...</a><br /></td></tr>
 <tr class="separator:acdc141595835b506957feff5c75ddda1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -348,6 +351,71 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ac9975f9fa468c5e0fd23813e8c94966c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9975f9fa468c5e0fd23813e8c94966c">&#9670;&nbsp;</a></span>SelectVolumesByType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug4Bridge::promesh::Selection::Volumes::SelectVolumesByType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>Hexahedra</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>Octahedra</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>Prisms</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>Pyramids</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>Tetrahedra</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Selects all volumes of a given type. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Hexahedra</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Octahedra</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Prisms</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Pyramids</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Tetrahedra</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="acdc141595835b506957feff5c75ddda1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acdc141595835b506957feff5c75ddda1">&#9670;&nbsp;</a></span>VolumeSelectionFill()</h2>
 
@@ -380,7 +448,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug4_bridge.html">ug4Bridge</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh.html">promesh</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection.html">Selection</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_volumes.html">Volumes</a></li>
-    <li class="footer">Generated on Fri Dec 13 2019 23:52:41 for Registry by
+    <li class="footer">Generated on Tue Oct 27 2020 05:28:01 for Registry by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

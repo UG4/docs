@@ -7,6 +7,7 @@ var group__lib__grid__algorithms__volume__util =
     [ "CalculatePyramidAspectRatio", "../group__lib__grid__algorithms__volume__util.html#ga7593bdd93fe16436972e95d38b3d2134", null ],
     [ "CalculateTetrahedronAspectRatio", "../group__lib__grid__algorithms__volume__util.html#gaf31820d91f65e3dd5680a7d6e4652dea", null ],
     [ "CalculateTetrahedronRootMeanSquareFaceArea", "../group__lib__grid__algorithms__volume__util.html#ga57672e0c3f4904f54c95d7c20294e6b0", null ],
+    [ "CalculateTetrahedronVolToRMSFaceAreaRatio", "../group__lib__grid__algorithms__volume__util.html#gab1cfd58ca383d59ca40fe7138108daeb", null ],
     [ "CalculateTetrahedronVolToRMSFaceAreaRatio", "../group__lib__grid__algorithms__volume__util.html#ga298da598a9dbce8d5539d3658a261fe1", null ],
     [ "CompareVertices", "../group__lib__grid__algorithms__volume__util.html#ga71697540df69ad33d455c45ac337f9fe", null ],
     [ "ContainsPoint", "../group__lib__grid__algorithms__volume__util.html#gae7afd0751a91503c97c0d834bd7baa74", null ],

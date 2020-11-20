@@ -2,6 +2,7 @@ var group__lib__grid__algorithms__edge__util =
 [
     [ "AdjustEdgeOrientationToFaceOrientation", "../group__lib__grid__algorithms__edge__util.html#ga7e1d8942c72eeed23cb74ad52711e3f1", null ],
     [ "AdjustEdgeOrientationToFaceOrientation", "../group__lib__grid__algorithms__edge__util.html#ga4db6283daf3248ee63b01cedfe70b830", null ],
+    [ "CalculateAverageEdgeLength", "../group__lib__grid__algorithms__edge__util.html#ga4bb56348bfa70c7a5760f20a6bc2963b", null ],
     [ "CalculateCenter", "../group__lib__grid__algorithms__edge__util.html#ga13347b068653f9addb2fc2ccf1aba4f1", null ],
     [ "CalculateCenter", "../group__lib__grid__algorithms__edge__util.html#ga352532e6dd0af093674471d36257479e", null ],
     [ "CalculateNormal", "../group__lib__grid__algorithms__edge__util.html#ga47d8d9dc1634d72a7500de9fe2e1f7a3", null ],

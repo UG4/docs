@@ -93,17 +93,15 @@ $(document).ready(function(){initNavTree('classug_1_1_explicit_grid_function_val
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pri-types">Private Types</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classug_1_1_explicit_grid_function_value-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ug::ExplicitGridFunctionValue&lt; TGridFunction &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>This grid function can be used as an explicit input (w/o additional derivativ)  
- <a href="classug_1_1_explicit_grid_function_value.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="grid__function__user__data__explicit_8h_source.html">grid_function_user_data_explicit.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -124,20 +122,6 @@ $(document).ready(function(){initNavTree('classug_1_1_explicit_grid_function_val
   </map>
 </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a541309772114a6ddfbca288963555a65"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classug_1_1_std_explicit_grid_function_data.html">StdExplicitGridFunctionData</a>&lt; <a class="el" href="classug_1_1_explicit_grid_function_value.html">ExplicitGridFunctionValue</a>&lt; TGridFunction &gt;, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>, TGridFunction &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_explicit_grid_function_value.html#a541309772114a6ddfbca288963555a65">base_type</a></td></tr>
-<tr class="separator:a541309772114a6ddfbca288963555a65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_types_classug_1_1_cpl_user_data"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classug_1_1_cpl_user_data')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classug_1_1_cpl_user_data.html">ug::CplUserData&lt; number, dim, void &gt;</a></td></tr>
-<tr class="memitem:a261ea38637931e28c83824cb381bfa5e inherit pub_types_classug_1_1_cpl_user_data"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classug_1_1_i_cpl_user_data.html">ICplUserData</a>&lt; <a class="elRef" href="../plugins/group__small__strain__mechanics.html#ga884d1b406bedb21e341d11cd30fb5079">dim</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_cpl_user_data.html#a261ea38637931e28c83824cb381bfa5e">base_type</a></td></tr>
-<tr class="memdesc:a261ea38637931e28c83824cb381bfa5e inherit pub_types_classug_1_1_cpl_user_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">type of base class  <a href="classug_1_1_cpl_user_data.html#a261ea38637931e28c83824cb381bfa5e">More...</a><br /></td></tr>
-<tr class="separator:a261ea38637931e28c83824cb381bfa5e inherit pub_types_classug_1_1_cpl_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_types_classug_1_1_user_data"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classug_1_1_user_data')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classug_1_1_user_data.html">ug::UserData&lt; number, dim, void &gt;</a></td></tr>
-<tr class="memitem:a8aeb372d3a0554708867acbb8185be69 inherit pub_types_classug_1_1_user_data"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_user_data.html#a8aeb372d3a0554708867acbb8185be69">data_type</a></td></tr>
-<tr class="separator:a8aeb372d3a0554708867acbb8185be69 inherit pub_types_classug_1_1_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fabcb836d19a326205148c11554fc7a inherit pub_types_classug_1_1_user_data"><td class="memItemLeft" align="right" valign="top">typedef void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_user_data.html#a0fabcb836d19a326205148c11554fc7a">return_type</a></td></tr>
-<tr class="separator:a0fabcb836d19a326205148c11554fc7a inherit pub_types_classug_1_1_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a0ee423f7a650c8ef8010ecf7750fac16"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_explicit_grid_function_value.html#a0ee423f7a650c8ef8010ecf7750fac16">continuous</a> () const</td></tr>
@@ -173,9 +157,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5461d3d8c4b329e1942b886870014eca inherit pub_methods_classug_1_1_std_explicit_grid_function_data"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_std_explicit_grid_function_data.html#a5461d3d8c4b329e1942b886870014eca">requires_grid_fct</a> () const</td></tr>
 <tr class="memdesc:a5461d3d8c4b329e1942b886870014eca inherit pub_methods_classug_1_1_std_explicit_grid_function_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns if grid function is needed for evaluation  <a href="classug_1_1_std_explicit_grid_function_data.html#a5461d3d8c4b329e1942b886870014eca">More...</a><br /></td></tr>
 <tr class="separator:a5461d3d8c4b329e1942b886870014eca inherit pub_methods_classug_1_1_std_explicit_grid_function_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae32b3cc6c03cafd0233d874494934a28 inherit pub_methods_classug_1_1_std_explicit_grid_function_data"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_std_explicit_grid_function_data.html#ae32b3cc6c03cafd0233d874494934a28">StdExplicitGridFunctionData</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; TGridFunction &gt; spGridFct, const char *cmp)</td></tr>
-<tr class="memdesc:ae32b3cc6c03cafd0233d874494934a28 inherit pub_methods_classug_1_1_std_explicit_grid_function_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">common constructor  <a href="classug_1_1_std_explicit_grid_function_data.html#ae32b3cc6c03cafd0233d874494934a28">More...</a><br /></td></tr>
-<tr class="separator:ae32b3cc6c03cafd0233d874494934a28 inherit pub_methods_classug_1_1_std_explicit_grid_function_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a473f015afae1524f5e6da67fe3481000 inherit pub_methods_classug_1_1_std_explicit_grid_function_data"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_std_explicit_grid_function_data.html#a473f015afae1524f5e6da67fe3481000">StdExplicitGridFunctionData</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; TGridFunction &gt; spGridFct)</td></tr>
+<tr class="memdesc:a473f015afae1524f5e6da67fe3481000 inherit pub_methods_classug_1_1_std_explicit_grid_function_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">common constructor  <a href="classug_1_1_std_explicit_grid_function_data.html#a473f015afae1524f5e6da67fe3481000">More...</a><br /></td></tr>
+<tr class="separator:a473f015afae1524f5e6da67fe3481000 inherit pub_methods_classug_1_1_std_explicit_grid_function_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classug_1_1_std_user_data"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classug_1_1_std_user_data')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classug_1_1_std_user_data.html">ug::StdUserData&lt; StdExplicitGridFunctionData&lt; ExplicitGridFunctionValue&lt; TGridFunction &gt;, number, TGridFunction &gt;, number, TGridFunction::dim &gt;</a></td></tr>
 <tr class="memitem:a2fdc05b3e06865110ab2170061c58aa4 inherit pub_methods_classug_1_1_std_user_data"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_std_user_data.html#a2fdc05b3e06865110ab2170061c58aa4">operator()</a> (<a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> vValue[], const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; <a class="elRef" href="../plugins/group__small__strain__mechanics.html#ga884d1b406bedb21e341d11cd30fb5079">dim</a> &gt; vGlobIP[], <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> <a class="el" href="classug_1_1_i_cpl_user_data.html#a7610eacf8accee89afbd763a6508ff0e">time</a>, int si, <a class="el" href="classug_1_1_grid_object.html">GridObject</a> *elem, const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; <a class="elRef" href="../plugins/group__small__strain__mechanics.html#ga884d1b406bedb21e341d11cd30fb5079">dim</a> &gt; vCornerCoords[], const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; 1 &gt; vLocIP[], const size_t nip, <a class="el" href="classug_1_1_local_vector.html">LocalVector</a> *u, const <a class="el" href="classug_1_1_math_matrix.html">MathMatrix</a>&lt; 1, <a class="elRef" href="../plugins/group__small__strain__mechanics.html#ga884d1b406bedb21e341d11cd30fb5079">dim</a> &gt; *vJT=NULL) const</td></tr>
 <tr class="separator:a2fdc05b3e06865110ab2170061c58aa4 inherit pub_methods_classug_1_1_std_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -349,10 +333,34 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:aefd25eb4653296bb9ff9a7cd7fd91739"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_attribs_classug_1_1_std_explicit_grid_function_data"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_classug_1_1_std_explicit_grid_function_data')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="classug_1_1_std_explicit_grid_function_data.html">ug::StdExplicitGridFunctionData&lt; ExplicitGridFunctionValue&lt; TGridFunction &gt;, number, TGridFunction &gt;</a></td></tr>
 <tr class="memitem:ad06f47e39da5b773fa3683905083137a inherit pub_static_attribs_classug_1_1_std_explicit_grid_function_data"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_std_explicit_grid_function_data.html#ad06f47e39da5b773fa3683905083137a">dim</a></td></tr>
+<tr class="memdesc:ad06f47e39da5b773fa3683905083137a inherit pub_static_attribs_classug_1_1_std_explicit_grid_function_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">world dimension of grid function  <a href="classug_1_1_std_explicit_grid_function_data.html#ad06f47e39da5b773fa3683905083137a">More...</a><br /></td></tr>
 <tr class="separator:ad06f47e39da5b773fa3683905083137a inherit pub_static_attribs_classug_1_1_std_explicit_grid_function_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
+Private Types</h2></td></tr>
+<tr class="memitem:a541309772114a6ddfbca288963555a65"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classug_1_1_std_explicit_grid_function_data.html">StdExplicitGridFunctionData</a>&lt; <a class="el" href="classug_1_1_explicit_grid_function_value.html">ExplicitGridFunctionValue</a>&lt; TGridFunction &gt;, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>, TGridFunction &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_explicit_grid_function_value.html#a541309772114a6ddfbca288963555a65">base_type</a></td></tr>
+<tr class="separator:a541309772114a6ddfbca288963555a65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:afd892fb0024828713bee0ebcfde9e88a"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_explicit_grid_function_value.html#afd892fb0024828713bee0ebcfde9e88a">m_fct</a></td></tr>
+<tr class="memdesc:afd892fb0024828713bee0ebcfde9e88a"><td class="mdescLeft">&#160;</td><td class="mdescRight">component of the function  <a href="classug_1_1_explicit_grid_function_value.html#afd892fb0024828713bee0ebcfde9e88a">More...</a><br /></td></tr>
+<tr class="separator:afd892fb0024828713bee0ebcfde9e88a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedfc8a7d0e83c06670f0793982cf4c61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_l_f_e_i_d.html">LFEID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_explicit_grid_function_value.html#aedfc8a7d0e83c06670f0793982cf4c61">m_lfeID</a></td></tr>
+<tr class="memdesc:aedfc8a7d0e83c06670f0793982cf4c61"><td class="mdescLeft">&#160;</td><td class="mdescRight">type of the shape functions  <a href="classug_1_1_explicit_grid_function_value.html#aedfc8a7d0e83c06670f0793982cf4c61">More...</a><br /></td></tr>
+<tr class="separator:aedfc8a7d0e83c06670f0793982cf4c61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_types_classug_1_1_cpl_user_data"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classug_1_1_cpl_user_data')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classug_1_1_cpl_user_data.html">ug::CplUserData&lt; number, dim, void &gt;</a></td></tr>
+<tr class="memitem:a261ea38637931e28c83824cb381bfa5e inherit pub_types_classug_1_1_cpl_user_data"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classug_1_1_i_cpl_user_data.html">ICplUserData</a>&lt; <a class="elRef" href="../plugins/group__small__strain__mechanics.html#ga884d1b406bedb21e341d11cd30fb5079">dim</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_cpl_user_data.html#a261ea38637931e28c83824cb381bfa5e">base_type</a></td></tr>
+<tr class="memdesc:a261ea38637931e28c83824cb381bfa5e inherit pub_types_classug_1_1_cpl_user_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">type of base class  <a href="classug_1_1_cpl_user_data.html#a261ea38637931e28c83824cb381bfa5e">More...</a><br /></td></tr>
+<tr class="separator:a261ea38637931e28c83824cb381bfa5e inherit pub_types_classug_1_1_cpl_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_classug_1_1_user_data"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classug_1_1_user_data')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classug_1_1_user_data.html">ug::UserData&lt; number, dim, void &gt;</a></td></tr>
+<tr class="memitem:a8aeb372d3a0554708867acbb8185be69 inherit pub_types_classug_1_1_user_data"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_user_data.html#a8aeb372d3a0554708867acbb8185be69">data_type</a></td></tr>
+<tr class="separator:a8aeb372d3a0554708867acbb8185be69 inherit pub_types_classug_1_1_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fabcb836d19a326205148c11554fc7a inherit pub_types_classug_1_1_user_data"><td class="memItemLeft" align="right" valign="top">typedef void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_user_data.html#a0fabcb836d19a326205148c11554fc7a">return_type</a></td></tr>
+<tr class="separator:a0fabcb836d19a326205148c11554fc7a inherit pub_types_classug_1_1_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classug_1_1_std_explicit_grid_function_data"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classug_1_1_std_explicit_grid_function_data')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classug_1_1_std_explicit_grid_function_data.html">ug::StdExplicitGridFunctionData&lt; ExplicitGridFunctionValue&lt; TGridFunction &gt;, number, TGridFunction &gt;</a></td></tr>
 <tr class="memitem:a2e8e28d3da44bca79b38abf1dbdb7a31 inherit pro_methods_classug_1_1_std_explicit_grid_function_data"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_explicit_grid_function_value.html">ExplicitGridFunctionValue</a>&lt; TGridFunction &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_std_explicit_grid_function_data.html#a2e8e28d3da44bca79b38abf1dbdb7a31">getImpl</a> ()</td></tr>
 <tr class="memdesc:a2e8e28d3da44bca79b38abf1dbdb7a31 inherit pro_methods_classug_1_1_std_explicit_grid_function_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">access to implementation  <a href="classug_1_1_std_explicit_grid_function_data.html#a2e8e28d3da44bca79b38abf1dbdb7a31">More...</a><br /></td></tr>
@@ -468,7 +476,8 @@ Additional Inherited Members</h2></td></tr>
 <div class="textblock"><h3>template&lt;typename TGridFunction&gt;<br />
 class ug::ExplicitGridFunctionValue&lt; TGridFunction &gt;</h3>
 
-<p>This grid function can be used as an explicit input (w/o additional derivativ) </p>
+<p>Class for the CplUserData-interface for the interpolation of a scalar component of a grid function.</p>
+<p>This class provides the <a class="el" href="classug_1_1_cpl_user_data.html" title="Type based UserData.">CplUserData</a> interface for the interpolation of a scalar component of a <a class="el" href="classug_1_1_grid_function.html" title="represents numerical solutions on a grid using an algebraic vector">GridFunction</a> at integration points. It can be used in particular to specify constant (or explicit) import parameters for discretizations. Note that this interface does NOT compute derivatives (so, assuming that the data are constant and do not depend on the current guess of the solution). For the interpolation of the current solution in discretizations, so that the derivatives w.r.t. the DoFs are taken into account, use the <a class="el" href="classug_1_1_grid_function_number_data.html">GridFunctionNumberData</a> class. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a541309772114a6ddfbca288963555a65"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a541309772114a6ddfbca288963555a65">&#9670;&nbsp;</a></span>base_type</h2>
@@ -477,11 +486,19 @@ class ug::ExplicitGridFunctionValue&lt; TGridFunction &gt;</h3>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename TGridFunction &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">typedef <a class="el" href="classug_1_1_std_explicit_grid_function_data.html">StdExplicitGridFunctionData</a>&lt;<a class="el" href="classug_1_1_explicit_grid_function_value.html">ExplicitGridFunctionValue</a>&lt;TGridFunction&gt;, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>, TGridFunction&gt; <a class="el" href="classug_1_1_explicit_grid_function_value.html">ug::ExplicitGridFunctionValue</a>&lt; TGridFunction &gt;::<a class="el" href="classug_1_1_explicit_grid_function_value.html#a541309772114a6ddfbca288963555a65">base_type</a></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -522,6 +539,15 @@ template&lt;typename TGridFunction &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gf</td><td>grid function </td></tr>
+    <tr><td class="paramname">cmp</td><td>its component </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">References <a class="el" href="classug_1_1_explicit_grid_function_value.html#afd892fb0024828713bee0ebcfde9e88a">ug::ExplicitGridFunctionValue&lt; TGridFunction &gt;::m_fct</a>, <a class="el" href="classug_1_1_explicit_grid_function_value.html#aedfc8a7d0e83c06670f0793982cf4c61">ug::ExplicitGridFunctionValue&lt; TGridFunction &gt;::m_lfeID</a>, <a class="el" href="classug_1_1_std_explicit_grid_function_data.html#adab6901cbd2225e0000fbd9653e77b65">ug::StdExplicitGridFunctionData&lt; ExplicitGridFunctionValue&lt; TGridFunction &gt;, number, TGridFunction &gt;::m_spGridFct</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
 
 </div>
 </div>
@@ -555,7 +581,7 @@ template&lt;typename TGridFunction &gt; </div>
 
 <p>Reimplemented from <a class="el" href="classug_1_1_std_explicit_grid_function_data.html#ab07106a2bb0e26fa54b06005fc12b2c4">ug::StdExplicitGridFunctionData&lt; ExplicitGridFunctionValue&lt; TGridFunction &gt;, number, TGridFunction &gt;</a>.</p>
 
-<p class="reference">References <a class="el" href="classug_1_1_local_finite_element_provider.html#a235ca8334a9d71b4e43449523cd7fb3f">ug::LocalFiniteElementProvider::continuous()</a>, and <a class="el" href="classug_1_1_std_explicit_grid_function_data.html#a509023f77c707a1fcdafcc0f7b1d1b8c">ug::StdExplicitGridFunctionData&lt; ExplicitGridFunctionValue&lt; TGridFunction &gt;, number, TGridFunction &gt;::m_lfeID</a>.</p>
+<p class="reference">References <a class="el" href="classug_1_1_local_finite_element_provider.html#a235ca8334a9d71b4e43449523cd7fb3f">ug::LocalFiniteElementProvider::continuous()</a>, and <a class="el" href="classug_1_1_explicit_grid_function_value.html#aedfc8a7d0e83c06670f0793982cf4c61">ug::ExplicitGridFunctionValue&lt; TGridFunction &gt;::m_lfeID</a>.</p>
 
 </div>
 </div>
@@ -645,7 +671,7 @@ template&lt;int refDim&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespaceug.html#a28505c00901b4dfa87cb8e43a738078f">ug::DoFRef()</a>, <a class="el" href="classug_1_1_i_cpl_user_data.html#a0515c6cd5a672d05d05f7a3c12bb25ef">ug::ICplUserData&lt; dim &gt;::ip()</a>, <a class="el" href="classug_1_1_std_explicit_grid_function_data.html#a19f4009e8c3ff7aac67cf119be226a67">ug::StdExplicitGridFunctionData&lt; ExplicitGridFunctionValue&lt; TGridFunction &gt;, number, TGridFunction &gt;::m_fct</a>, <a class="el" href="classug_1_1_std_explicit_grid_function_data.html#a509023f77c707a1fcdafcc0f7b1d1b8c">ug::StdExplicitGridFunctionData&lt; ExplicitGridFunctionValue&lt; TGridFunction &gt;, number, TGridFunction &gt;::m_lfeID</a>, <a class="el" href="classug_1_1_std_explicit_grid_function_data.html#adab6901cbd2225e0000fbd9653e77b65">ug::StdExplicitGridFunctionData&lt; ExplicitGridFunctionValue&lt; TGridFunction &gt;, number, TGridFunction &gt;::m_spGridFct</a>, <a class="el" href="classug_1_1_grid_object.html#acfaabf249961773ef13ac5efc2a9c51f">ug::GridObject::reference_object_id()</a>, <a class="el" href="classug_1_1_local_shape_function_set.html#a9300ed9d001a2565b955af5617767a6f">ug::LocalShapeFunctionSet&lt; TDim, TShape, TGrad &gt;::shapes()</a>, and <a class="el" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>.</p>
+<p class="reference">References <a class="el" href="namespaceug.html#a28505c00901b4dfa87cb8e43a738078f">ug::DoFRef()</a>, <a class="el" href="classug_1_1_i_cpl_user_data.html#a0515c6cd5a672d05d05f7a3c12bb25ef">ug::ICplUserData&lt; dim &gt;::ip()</a>, <a class="el" href="classug_1_1_explicit_grid_function_value.html#afd892fb0024828713bee0ebcfde9e88a">ug::ExplicitGridFunctionValue&lt; TGridFunction &gt;::m_fct</a>, <a class="el" href="classug_1_1_explicit_grid_function_value.html#aedfc8a7d0e83c06670f0793982cf4c61">ug::ExplicitGridFunctionValue&lt; TGridFunction &gt;::m_lfeID</a>, <a class="el" href="classug_1_1_std_explicit_grid_function_data.html#adab6901cbd2225e0000fbd9653e77b65">ug::StdExplicitGridFunctionData&lt; ExplicitGridFunctionValue&lt; TGridFunction &gt;, number, TGridFunction &gt;::m_spGridFct</a>, <a class="el" href="classug_1_1_grid_object.html#acfaabf249961773ef13ac5efc2a9c51f">ug::GridObject::reference_object_id()</a>, <a class="el" href="classug_1_1_local_shape_function_set.html#a9300ed9d001a2565b955af5617767a6f">ug::LocalShapeFunctionSet&lt; TDim, TShape, TGrad &gt;::shapes()</a>, and <a class="el" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>.</p>
 
 </div>
 </div>
@@ -674,6 +700,62 @@ template&lt;typename TGridFunction &gt; </div>
 
 </div>
 </div>
+<a id="afd892fb0024828713bee0ebcfde9e88a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd892fb0024828713bee0ebcfde9e88a">&#9670;&nbsp;</a></span>m_fct</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TGridFunction &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t <a class="el" href="classug_1_1_explicit_grid_function_value.html">ug::ExplicitGridFunctionValue</a>&lt; TGridFunction &gt;::m_fct</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>component of the function </p>
+
+<p class="reference">Referenced by <a class="el" href="classug_1_1_explicit_grid_function_value.html#a6b0f2a9589e682f0394e7a10b70ea8ec">ug::ExplicitGridFunctionValue&lt; TGridFunction &gt;::evaluate()</a>, and <a class="el" href="classug_1_1_explicit_grid_function_value.html#a948fd3ec7a6b9d751b031e744618d1fe">ug::ExplicitGridFunctionValue&lt; TGridFunction &gt;::ExplicitGridFunctionValue()</a>.</p>
+
+</div>
+</div>
+<a id="aedfc8a7d0e83c06670f0793982cf4c61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedfc8a7d0e83c06670f0793982cf4c61">&#9670;&nbsp;</a></span>m_lfeID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TGridFunction &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classug_1_1_l_f_e_i_d.html">LFEID</a> <a class="el" href="classug_1_1_explicit_grid_function_value.html">ug::ExplicitGridFunctionValue</a>&lt; TGridFunction &gt;::m_lfeID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>type of the shape functions </p>
+
+<p class="reference">Referenced by <a class="el" href="classug_1_1_explicit_grid_function_value.html#a0ee423f7a650c8ef8010ecf7750fac16">ug::ExplicitGridFunctionValue&lt; TGridFunction &gt;::continuous()</a>, <a class="el" href="classug_1_1_explicit_grid_function_value.html#a6b0f2a9589e682f0394e7a10b70ea8ec">ug::ExplicitGridFunctionValue&lt; TGridFunction &gt;::evaluate()</a>, and <a class="el" href="classug_1_1_explicit_grid_function_value.html#a948fd3ec7a6b9d751b031e744618d1fe">ug::ExplicitGridFunctionValue&lt; TGridFunction &gt;::ExplicitGridFunctionValue()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>ugbase/lib_disc/function_spaces/<a class="el" href="grid__function__user__data__explicit_8h_source.html">grid_function_user_data_explicit.h</a></li>
 </ul>
@@ -683,7 +765,7 @@ template&lt;typename TGridFunction &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_explicit_grid_function_value.html">ExplicitGridFunctionValue</a></li>
-    <li class="footer">Generated on Fri Dec 13 2019 23:54:54 for ug4 by
+    <li class="footer">Generated on Tue Oct 27 2020 05:30:17 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

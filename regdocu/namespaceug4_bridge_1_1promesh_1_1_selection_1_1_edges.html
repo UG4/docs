@@ -161,6 +161,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ad4914b92f9052cf0ddd61d326013a89a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_edges.html#ad4914b92f9052cf0ddd61d326013a89a">SelectSmoothEdgePath</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, double max_deviation_angle, double normal_weight, bool stop_at_selected_vertices)</td></tr>
 <tr class="memdesc:ad4914b92f9052cf0ddd61d326013a89a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects a smooth edge path.  <a href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_edges.html#ad4914b92f9052cf0ddd61d326013a89a">More...</a><br /></td></tr>
 <tr class="separator:ad4914b92f9052cf0ddd61d326013a89a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59429f4bff8b299abe91e9d625093999"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_edges.html#a59429f4bff8b299abe91e9d625093999">SelectSubsetEdgesByDirection</a> (<a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *mesh, int subset_index, const Vec *direction, double min_deviation_angle, double max_deviation_angle, bool select_flipped_edges)</td></tr>
+<tr class="memdesc:a59429f4bff8b299abe91e9d625093999"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects all subset edges which do not deviate further from the specified direction than the given angle. A minimal required deviation angle can also be specified.  <a href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_edges.html#a59429f4bff8b299abe91e9d625093999">More...</a><br /></td></tr>
+<tr class="separator:a59429f4bff8b299abe91e9d625093999"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ae4a6f8b4f58c9e2d71a32dd8afece704"></a>
@@ -772,13 +775,78 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a59429f4bff8b299abe91e9d625093999"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59429f4bff8b299abe91e9d625093999">&#9670;&nbsp;</a></span>SelectSubsetEdgesByDirection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug4Bridge::promesh::Selection::Edges::SelectSubsetEdgesByDirection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug4_bridge_1_1promesh_1_1_mesh.html">Mesh</a> *&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>subset_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vec *&#160;</td>
+          <td class="paramname"><em>direction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>min_deviation_angle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>max_deviation_angle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>select_flipped_edges</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Selects all subset edges which do not deviate further from the specified direction than the given angle. A minimal required deviation angle can also be specified. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">subset_index</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">direction</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">min_deviation_angle</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">max_deviation_angle</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">select_flipped_edges</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug4_bridge.html">ug4Bridge</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh.html">promesh</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection.html">Selection</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1promesh_1_1_selection_1_1_edges.html">Edges</a></li>
-    <li class="footer">Generated on Fri Dec 13 2019 23:52:40 for Registry by
+    <li class="footer">Generated on Tue Oct 27 2020 05:28:01 for Registry by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

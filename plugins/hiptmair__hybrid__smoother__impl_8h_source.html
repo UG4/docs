@@ -489,46 +489,53 @@ $(document).ready(function(){initNavTree('hiptmair__hybrid__smoother__impl_8h_so
 <div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;  {</div>
 <div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;    <span class="keywordflow">if</span> (! m_spEdgeSmoother-&gt;apply_update_defect (c, auxEdgeDef))</div>
 <div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;  }</div>
-<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;  <span class="keywordflow">else</span> c.set (0.0);</div>
-<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;  </div>
-<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;  <span class="keywordflow">if</span> (! m_bSkipVertex)</div>
-<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;  {</div>
-<div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;  <span class="comment">//  Temporary vectors:</span></div>
-<div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;    <a class="codeRef" href="../classug_1_1_parallel_vector.html">pot_vector_type</a> potDefRe (m_pPotCorRe-&gt;size ());</div>
-<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;    <a class="codeRef" href="../classug_1_1_parallel_vector.html">pot_vector_type</a> potDefIm (m_pPotCorIm-&gt;size ());</div>
-<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;<span class="preprocessor">#   ifdef UG_PARALLEL</span></div>
-<div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;    potDefRe.<a class="codeRef" href="../classug_1_1_parallel_vector.html#aee3a8fc88222f9c1d59a5cd722a43cf0">set_layouts</a> (m_pPotCorRe-&gt;layouts ());</div>
-<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;    potDefRe.<a class="codeRef" href="../classug_1_1_parallel_vector.html#abdcec5762e9d793ecc1c30c1d2a8b60d">set_storage_type</a> (<a class="codeRef" href="../group__lib__algebra__parallelization.html#gga75c6ad52009fea9cf3f582261c814936aead524625869f6f9f10996b622ade866">PST_ADDITIVE</a>);</div>
-<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;    potDefIm.<a class="codeRef" href="../classug_1_1_parallel_vector.html#aee3a8fc88222f9c1d59a5cd722a43cf0">set_layouts</a> (m_pPotCorIm-&gt;layouts ());</div>
-<div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;    potDefIm.<a class="codeRef" href="../classug_1_1_parallel_vector.html#abdcec5762e9d793ecc1c30c1d2a8b60d">set_storage_type</a> (<a class="codeRef" href="../group__lib__algebra__parallelization.html#gga75c6ad52009fea9cf3f582261c814936aead524625869f6f9f10996b622ade866">PST_ADDITIVE</a>);</div>
-<div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;<span class="preprocessor">#   endif</span></div>
-<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;  </div>
-<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;  <span class="comment">//  Compute the &#39;vertex defect&#39; of the potential:</span></div>
-<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;    collect_edge_defect (auxEdgeDef, potDefRe, potDefIm);</div>
-<div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;    </div>
-<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;  <span class="comment">//  Apply the vertex-centered smoother:</span></div>
-<div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;    <span class="keywordflow">if</span> (! m_spVertSmoother-&gt;apply (*m_pPotCorRe, potDefIm))</div>
-<div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;    <span class="keywordflow">if</span> (! m_spVertSmoother-&gt;apply (*m_pPotCorIm, potDefRe))</div>
-<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">false</span>; </div>
-<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;    </div>
-<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;  <span class="comment">//  Add the vertex-centered correction into the edge-centered one:</span></div>
-<div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;    distribute_vertex_correction (*m_pPotCorRe, *m_pPotCorIm, c);</div>
-<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;  }</div>
-<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;  </div>
-<div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;<span class="comment">//  Damping (the standard way, like for IPreconditioner):</span></div>
-<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> kappa = this-&gt;damping()-&gt;damping (c, d, m_spSysMat);</div>
-<div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;  <span class="keywordflow">if</span> (kappa != 1.0)</div>
-<div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;    c *= kappa;</div>
-<div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160; </div>
-<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;}</div>
-<div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160; </div>
-<div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;} <span class="comment">// end namespace Electromagnetism</span></div>
-<div class="line"><a name="l00529"></a><span class="lineno">  529</span>&#160;} <span class="comment">// end namespace ug</span></div>
-<div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160; </div>
-<div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;<span class="comment">/* End of File */</span></div>
+<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;<span class="preprocessor">#   ifdef UG_PARALLEL</span></div>
+<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;    c.change_storage_type (<a class="codeRef" href="../group__lib__algebra__parallelization.html#gga75c6ad52009fea9cf3f582261c814936aae2129777dc4cb8baf20d8802b4fff37">PST_CONSISTENT</a>);</div>
+<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;<span class="preprocessor">#   endif</span></div>
+<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;  }</div>
+<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;  <span class="keywordflow">else</span> c.set (0.0);</div>
+<div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;  </div>
+<div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;  <span class="keywordflow">if</span> (! m_bSkipVertex)</div>
+<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;  {</div>
+<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;  <span class="comment">//  Temporary vectors:</span></div>
+<div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;    <a class="codeRef" href="../classug_1_1_parallel_vector.html">pot_vector_type</a> potDefRe (m_pPotCorRe-&gt;size ());</div>
+<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;    <a class="codeRef" href="../classug_1_1_parallel_vector.html">pot_vector_type</a> potDefIm (m_pPotCorIm-&gt;size ());</div>
+<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;<span class="preprocessor">#   ifdef UG_PARALLEL</span></div>
+<div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;    potDefRe.<a class="codeRef" href="../classug_1_1_parallel_vector.html#aee3a8fc88222f9c1d59a5cd722a43cf0">set_layouts</a> (m_pPotCorRe-&gt;layouts ());</div>
+<div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;    potDefRe.<a class="codeRef" href="../classug_1_1_parallel_vector.html#abdcec5762e9d793ecc1c30c1d2a8b60d">set_storage_type</a> (<a class="codeRef" href="../group__lib__algebra__parallelization.html#gga75c6ad52009fea9cf3f582261c814936aead524625869f6f9f10996b622ade866">PST_ADDITIVE</a>);</div>
+<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;    potDefIm.<a class="codeRef" href="../classug_1_1_parallel_vector.html#aee3a8fc88222f9c1d59a5cd722a43cf0">set_layouts</a> (m_pPotCorIm-&gt;layouts ());</div>
+<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;    potDefIm.<a class="codeRef" href="../classug_1_1_parallel_vector.html#abdcec5762e9d793ecc1c30c1d2a8b60d">set_storage_type</a> (<a class="codeRef" href="../group__lib__algebra__parallelization.html#gga75c6ad52009fea9cf3f582261c814936aead524625869f6f9f10996b622ade866">PST_ADDITIVE</a>);</div>
+<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;<span class="preprocessor">#   endif</span></div>
+<div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;  </div>
+<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;  <span class="comment">//  Compute the &#39;vertex defect&#39; of the potential:</span></div>
+<div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;    collect_edge_defect (auxEdgeDef, potDefRe, potDefIm);</div>
+<div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;    </div>
+<div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;  <span class="comment">//  Apply the vertex-centered smoother:</span></div>
+<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;    <span class="keywordflow">if</span> (! m_spVertSmoother-&gt;apply (*m_pPotCorRe, potDefIm))</div>
+<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;    <span class="keywordflow">if</span> (! m_spVertSmoother-&gt;apply (*m_pPotCorIm, potDefRe))</div>
+<div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">false</span>; </div>
+<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;<span class="preprocessor">#   ifdef UG_PARALLEL</span></div>
+<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;    m_pPotCorRe-&gt;change_storage_type (<a class="codeRef" href="../group__lib__algebra__parallelization.html#gga75c6ad52009fea9cf3f582261c814936aae2129777dc4cb8baf20d8802b4fff37">PST_CONSISTENT</a>);</div>
+<div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;    m_pPotCorIm-&gt;change_storage_type (<a class="codeRef" href="../group__lib__algebra__parallelization.html#gga75c6ad52009fea9cf3f582261c814936aae2129777dc4cb8baf20d8802b4fff37">PST_CONSISTENT</a>);</div>
+<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;<span class="preprocessor">#   endif</span></div>
+<div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;    </div>
+<div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;  <span class="comment">//  Add the vertex-centered correction into the edge-centered one:</span></div>
+<div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;    distribute_vertex_correction (*m_pPotCorRe, *m_pPotCorIm, c);</div>
+<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;  }</div>
+<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;  </div>
+<div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160;<span class="comment">//  Damping (the standard way, like for IPreconditioner):</span></div>
+<div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;  <a class="codeRef" href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> kappa = this-&gt;damping()-&gt;damping (c, d, m_spSysMat);</div>
+<div class="line"><a name="l00529"></a><span class="lineno">  529</span>&#160;  <span class="keywordflow">if</span> (kappa != 1.0)</div>
+<div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;    c *= kappa;</div>
+<div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160; </div>
+<div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160;  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;}</div>
+<div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160; </div>
+<div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;} <span class="comment">// end namespace Electromagnetism</span></div>
+<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;} <span class="comment">// end namespace ug</span></div>
+<div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160; </div>
+<div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;<span class="comment">/* End of File */</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="agroup__lib__algebra__parallelization_html_gga75c6ad52009fea9cf3f582261c814936aead524625869f6f9f10996b622ade866"><div class="ttname"><a href="../group__lib__algebra__parallelization.html#gga75c6ad52009fea9cf3f582261c814936aead524625869f6f9f10996b622ade866">ug::PST_ADDITIVE</a></div><div class="ttdeci">PST_ADDITIVE</div></div>
@@ -586,7 +593,7 @@ $(document).ready(function(){initNavTree('hiptmair__hybrid__smoother__impl_8h_so
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_38c8d24aef3972a7f87b834274e76e31.html">plugins</a></li><li class="navelem"><a class="el" href="dir_044836140707c194a1234f9e2768b8ab.html">Electromagnetism</a></li><li class="navelem"><a class="el" href="dir_e274fb3c7442777bf5a4b0d2a7e28786.html">EddyCurrent_E_Nedelec</a></li><li class="navelem"><a class="el" href="hiptmair__hybrid__smoother__impl_8h.html">hiptmair_hybrid_smoother_impl.h</a></li>
-    <li class="footer">Generated on Fri Dec 13 2019 23:52:05 for Plugins by
+    <li class="footer">Generated on Tue Oct 27 2020 05:27:25 for Plugins by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

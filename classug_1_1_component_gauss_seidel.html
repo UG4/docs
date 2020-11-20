@@ -327,9 +327,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:acbc7ee961be84eb904884e148427f7ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96d88fb5dc690c9286feab86fc8120ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_component_gauss_seidel.html#a96d88fb5dc690c9286feab86fc8120ad">extract_blocks</a> (const <a class="el" href="classug_1_1_debug_writing_object.html#a9d58db67544536cb42d1143434d95854">matrix_type</a> &amp;A, const <a class="el" href="classug_1_1_component_gauss_seidel.html#a8bd5ef5eea33785a595717e787532f2b">GF</a> &amp;c)</td></tr>
 <tr class="separator:a96d88fb5dc690c9286feab86fc8120ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed97ee3edde0c69e277dc10594bff394"><td class="memTemplParams" colspan="2">template&lt;typename TGroupObj &gt; </td></tr>
-<tr class="memitem:aed97ee3edde0c69e277dc10594bff394"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_component_gauss_seidel.html#aed97ee3edde0c69e277dc10594bff394">extract_by_grouping</a> (std::vector&lt; std::vector&lt; <a class="el" href="namespaceug.html#aa8d30d052236b8597b21626904d04edb">DoFIndex</a> &gt; &gt; &amp;vvDoFIndex, const <a class="el" href="classug_1_1_component_gauss_seidel.html#a8bd5ef5eea33785a595717e787532f2b">GF</a> &amp;c, const std::vector&lt; size_t &gt; &amp;vFullRowCmp, const std::vector&lt; size_t &gt; &amp;vRemainCmp)</td></tr>
-<tr class="separator:aed97ee3edde0c69e277dc10594bff394"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6d1d785cf915ef33922069530fb505c"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_component_gauss_seidel.html#ac6d1d785cf915ef33922069530fb505c">name</a> () const</td></tr>
 <tr class="memdesc:ac6d1d785cf915ef33922069530fb505c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of preconditioner.  <a href="classug_1_1_component_gauss_seidel.html#ac6d1d785cf915ef33922069530fb505c">More...</a><br /></td></tr>
 <tr class="separator:ac6d1d785cf915ef33922069530fb505c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -884,62 +881,9 @@ template&lt;typename TDomain , typename TAlgebra &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Create 'm_vGroupObj' contain all dimensions containg objects from 'vFullRowCmp'</p>
 
 <p class="reference">References <a class="el" href="classug_1_1_grid_function.html#a4f3ea888b175ed053ec56e4374a3307a">ug::GridFunction&lt; TDomain, TAlgebra &gt;::approx_space()</a>, <a class="el" href="classug_1_1_grid_function.html#a6096ef394441bf3ff95c334a8ef2b51f">ug::GridFunction&lt; TDomain, TAlgebra &gt;::clone_without_values()</a>, <a class="el" href="namespaceug.html#a28505c00901b4dfa87cb8e43a738078f">ug::DoFRef()</a>, <a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13cad44f88a0fdcb9e7708ce0980b8e200ba">ug::EDGE</a>, <a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13caf19e27843c818933471265612910299c">ug::FACE</a>, <a class="el" href="classug_1_1_function_pattern.html#a82c34b42fe497f0a759e3aab8def982c">ug::FunctionPattern::fct_id_by_name()</a>, <a class="el" href="namespaceug.html#a0d7fd952e3d0f84365c039b56e861cdf">ug::find()</a>, <a class="el" href="namespaceug.html#a602b67a13c89428ca3e72249d50f36ee">ug::Invert()</a>, <a class="el" href="classug_1_1_do_f_distribution_info.html#a0556499ff4581ec28972fe8e263bdd5e">ug::DoFDistributionInfo::max_fct_dofs()</a>, <a class="el" href="classug_1_1_function_pattern.html#a64c114b85c609c9fc503a85a7cf158ce">ug::FunctionPattern::num_fct()</a>, <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>, <a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13ca82c85a54f294f9a7576aedbffafbbe38">ug::VERTEX</a>, and <a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13ca144073d8bdeb81d71cf89e7bd6bbda58">ug::VOLUME</a>.</p>
-
-</div>
-</div>
-<a id="aed97ee3edde0c69e277dc10594bff394"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed97ee3edde0c69e277dc10594bff394">&#9670;&nbsp;</a></span>extract_by_grouping()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename TDomain , typename TAlgebra &gt; </div>
-<div class="memtemplate">
-template&lt;typename TGroupObj &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classug_1_1_component_gauss_seidel.html">ug::ComponentGaussSeidel</a>&lt; TDomain, TAlgebra &gt;::extract_by_grouping </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; std::vector&lt; <a class="el" href="namespaceug.html#aa8d30d052236b8597b21626904d04edb">DoFIndex</a> &gt; &gt; &amp;&#160;</td>
-          <td class="paramname"><em>vvDoFIndex</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classug_1_1_component_gauss_seidel.html#a8bd5ef5eea33785a595717e787532f2b">GF</a> &amp;&#160;</td>
-          <td class="paramname"><em>c</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
-          <td class="paramname"><em>vFullRowCmp</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
-          <td class="paramname"><em>vRemainCmp</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="classug_1_1_grid_function.html#a818bb1a8e7c79e86537a06f86f5370c3">ug::GridFunction&lt; TDomain, TAlgebra &gt;::collect_associated()</a>, <a class="elRef" href="../plugins/group__small__strain__mechanics.html#gaa5511ac5b0e4ea46a0a615a3d9e686de">dim</a>, <a class="el" href="classug_1_1_grid_function.html#a522e0336f665f95ee51afa07dd4a1bd1">ug::GridFunction&lt; TDomain, TAlgebra &gt;::dof_indices()</a>, <a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13cad44f88a0fdcb9e7708ce0980b8e200ba">ug::EDGE</a>, <a class="el" href="classug_1_1_grid_function.html#a35b8186a45ffac3ee33cc1e961573b1d">ug::GridFunction&lt; TDomain, TAlgebra &gt;::inner_dof_indices()</a>, <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>, and <a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13ca82c85a54f294f9a7576aedbffafbbe38">ug::VERTEX</a>.</p>
 
 </div>
 </div>
@@ -1524,7 +1468,7 @@ template&lt;typename TDomain , typename TAlgebra &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_component_gauss_seidel.html">ComponentGaussSeidel</a></li>
-    <li class="footer">Generated on Fri Dec 13 2019 23:54:49 for ug4 by
+    <li class="footer">Generated on Tue Oct 27 2020 05:30:12 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

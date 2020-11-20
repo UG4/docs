@@ -116,6 +116,8 @@ $(document).ready(function(){initNavTree('functions_a.html','');});
 , <a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_dirichlet_boundary.html#adb93f7c1f1e2e48150780616bc273345">DirichletBoundary</a>
 , <a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_domain_discretization.html#a1512626c968859ddc466363f5a75b84b">DomainDiscretization</a>
 , <a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_multiple_side_and_elem_err_est_data.html#abb936fc7bfe3130cffaa577f52694fd2">MultipleSideAndElemErrEstData</a>
+, <a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_composite_user_number.html#a5b109f0e09c8afcfe3c93113f6bc920b">CompositeUserNumber</a>
+, <a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_composite_user_vector.html#a51f5e028450186ea0871b0eb2eeca0bf">CompositeUserVector</a>
 , <a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_scale_add_linker_matrix.html#a5243e73b7b7ff70f1769a4e944d4b56e">ScaleAddLinkerMatrix</a>
 , <a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_scale_add_linker_number.html#a40aa9cd1cb9dbd84b5e4634a83db6c09">ScaleAddLinkerNumber</a>
 , <a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_scale_add_linker_tensor4.html#add8f11a196684c4009835d8225c15290">ScaleAddLinkerTensor4</a>
@@ -185,6 +187,9 @@ $(document).ready(function(){initNavTree('functions_a.html','');});
 </li>
 <li>add_rows()
 : <a class="el" href="classug4_bridge_1_1_util_1_1_string_table.html#addb3e9c6ca14a4bcdcabf4336adef232">StringTable</a>
+</li>
+<li>add_source()
+: <a class="el" href="classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_dirac_source_disc.html#ab923d6620cbb1938527b523c7ab140d2">DiracSourceDisc</a>
 </li>
 <li>add_step_update()
 : <a class="el" href="classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_newton_solver.html#ae638a134fb5f9a4aec4c3f295b73390f">NewtonSolver</a>
@@ -280,7 +285,7 @@ $(document).ready(function(){initNavTree('functions_a.html','');});
 : <a class="el" href="classug4_bridge_1_1_algebra_1_1_i_linear_iterator.html#a8c76daa2056dfac2eb30dd0fab41e171">ILinearIterator</a>
 </li>
 <li>approximation_space()
-: <a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_domain_discretization.html#a4f3fa929b0f5c805b5f6f9d570050a4e">DomainDiscretization</a>
+: <a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_domain_discretization.html#aa9229857b1cf7d94759e633584e2fe54">DomainDiscretization</a>
 </li>
 <li>ApproximationSpace()
 : <a class="el" href="classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_approximation_space.html#a3715ae9be0e3c4d994196cdeea0ef4fc">ApproximationSpace</a>
@@ -310,10 +315,10 @@ $(document).ready(function(){initNavTree('functions_a.html','');});
 : <a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_i_assemble.html#ad06dea60f77cb0840e4e0738a795dd92">IAssemble</a>
 </li>
 <li>AssembledLinearOperator()
-: <a class="el" href="classug4_bridge_1_1_discretization_1_1_assembled_linear_operator.html#afcb99540f77d0560202688e1b4cf7e29">AssembledLinearOperator</a>
+: <a class="el" href="classug4_bridge_1_1_discretization_1_1_assembled_linear_operator.html#a5148aeea9081ac172b83550bd38807b9">AssembledLinearOperator</a>
 </li>
 <li>AssembledOperator()
-: <a class="el" href="classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_assembled_operator.html#a98f5e46026e3948e0e83a6e021a5a398">AssembledOperator</a>
+: <a class="el" href="classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_assembled_operator.html#ae69a0bec8ba6a01566a455ce07348aed">AssembledOperator</a>
 </li>
 <li>assign()
 : <a class="el" href="classug4_bridge_1_1_algebra_1_1_vec_scale_add_class.html#a20639ae15fa0673d9108bafc8e36010a">VecScaleAddClass</a>
@@ -342,13 +347,13 @@ $(document).ready(function(){initNavTree('functions_a.html','');});
 : <a class="el" href="classug4_bridge_1_1_discretization_1_1_ass_tuner.html#a22045dcd8043fff926c4575c79e85e28">AssTuner</a>
 </li>
 <li>AutoLinearSolver()
-: <a class="el" href="classug4_bridge_1_1_algebra_1_1_solver_1_1_auto_linear_solver.html#af62f7a4dd8d7f2ca61b03db5082b0b5e">AutoLinearSolver</a>
+: <a class="el" href="classug4_bridge_1_1_algebra_1_1_solver_1_1_auto_linear_solver.html#a7dd28b902dba92448d2548c2db18c086">AutoLinearSolver</a>
 </li>
 <li>average_linear_steps()
 : <a class="el" href="classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_newton_solver.html#ab73bbbfd38ef8a2b561e4c335e71dff5">NewtonSolver</a>
 </li>
 <li>AverageComponent()
-: <a class="el" href="classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_average_component.html#a55d7199678287f2671f31d891fc3373c">AverageComponent</a>
+: <a class="el" href="classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_average_component.html#ab676b9d0967cb703306961f0b487dc32">AverageComponent</a>
 </li>
 <li>avg_rate()
 : <a class="el" href="classug4_bridge_1_1_algebra_1_1_i_convergence_check.html#ac4dc993845121b104864a294ff717ee7">IConvergenceCheck</a>
@@ -364,7 +369,7 @@ $(document).ready(function(){initNavTree('functions_a.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Dec 13 2019 23:52:41 for Registry by
+    <li class="footer">Generated on Tue Oct 27 2020 05:28:02 for Registry by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

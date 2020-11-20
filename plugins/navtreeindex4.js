@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"classug_1_1_electromagnetism_1_1_nedelec_transfer.html#a3afbdcfc2be3b6ec8f355a515a18320e":[3,0,0,2,31,21],
 "classug_1_1_electromagnetism_1_1_nedelec_transfer.html#a48a107d2926f5fc977487453d7dd30d4":[3,0,0,2,31,16],
 "classug_1_1_electromagnetism_1_1_nedelec_transfer.html#a54fddb6753ef1e70fa241cf2e3aa50bd":[3,0,0,2,31,11],
 "classug_1_1_electromagnetism_1_1_nedelec_transfer.html#a88a3996964371aaee9b159a9859ad1a7":[3,0,0,2,31,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "classug_1_1_navier_stokes_1_1_constant_box_filter.html#a09e9df5116c896c3c808f3b91f368bfa":[3,0,0,4,2,7],
 "classug_1_1_navier_stokes_1_1_constant_box_filter.html#a0eacbec78df1416ccc5a5aae538f59f5":[3,0,0,4,2,13],
 "classug_1_1_navier_stokes_1_1_constant_box_filter.html#a13ac763156f476fdf8f4d202f2673cb0":[3,0,0,4,2,31],
-"classug_1_1_navier_stokes_1_1_constant_box_filter.html#a1926a62864828ec43bed1ad30428a532":[3,0,0,4,2,22],
-"classug_1_1_navier_stokes_1_1_constant_box_filter.html#a220e8b5142895eae798eebe5e116dd09":[3,0,0,4,2,20]
+"classug_1_1_navier_stokes_1_1_constant_box_filter.html#a1926a62864828ec43bed1ad30428a532":[3,0,0,4,2,22]
 };

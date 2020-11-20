@@ -93,7 +93,8 @@ $(document).ready(function(){initNavTree('group__scripts__util__timestep.html','
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">Timestep Utility<div class="ingroups"><a class="el" href="group__scripts.html">Scripts</a> &raquo; <a class="el" href="group__scripts__util.html">Lua Utility Scripts</a></div></div>  </div>
 </div><!--header-->
@@ -105,14 +106,19 @@ Functions</h2></td></tr>
 <tr class="separator:ga04553a0b854cd55ba82db3dd7eb39b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gadc4404b21bf21ea235362e07806e8445"><td class="memItemLeft" align="right" valign="top">function util&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__scripts__util__timestep.html#gadc4404b21bf21ea235362e07806e8445">PrintUsageOfSolveTimeProblem</a> ()</td></tr>
 <tr class="separator:gadc4404b21bf21ea235362e07806e8445"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7ab14d6aabc8f39e18f1c6850595bfa5"><td class="memItemLeft" align="right" valign="top">function util&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__scripts__util__timestep.html#ga7ab14d6aabc8f39e18f1c6850595bfa5">SolveLinearTimeProblem</a> (u, domainDisc, linSolver, out, filename, timeScheme, orderOrTheta, startTime, endTime, maxStepSize, minStepSize, reductionFactor, useCheckpointing)</td></tr>
-<tr class="separator:ga7ab14d6aabc8f39e18f1c6850595bfa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabdc538e0ff103cba2bfcd325f795bbec"><td class="memItemLeft" align="right" valign="top">function util&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__scripts__util__timestep.html#gabdc538e0ff103cba2bfcd325f795bbec">SolveLinearTimeProblem</a> (u, domainDisc, linSolver, out, filename, timeScheme, orderOrTheta, startTime, endTime, maxStepSize, minStepSize, reductionFactor, useCheckpointing, postProcess, startTSNo, endTSNo)</td></tr>
+<tr class="separator:gabdc538e0ff103cba2bfcd325f795bbec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gabd8f271e1f4bc2d9cd7208a5a751b9da"><td class="memItemLeft" align="right" valign="top">function util&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__scripts__util__timestep.html#gabd8f271e1f4bc2d9cd7208a5a751b9da">SolveNonlinearProblemAdaptiveLimex</a> (u, domainDisc, newtonSolver, out, filename, startTime, endTime, dt, minStepSize, maxStepSize, adaptiveStepInfo, bFinishTimeStep, postProcess, startTSNo, endTSNo)</td></tr>
 <tr class="separator:gabd8f271e1f4bc2d9cd7208a5a751b9da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga84d1759654818e0ef176d11b84328b00"><td class="memItemLeft" align="right" valign="top">function util&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__scripts__util__timestep.html#ga84d1759654818e0ef176d11b84328b00">SolveNonlinearProblemAdaptiveTimestep</a> (u, domainDisc, newtonSolver, out, filename, startTime, endTime, dt, minStepSize, maxStepSize, adaptiveStepInfo, bFinishTimeStep, postProcess, startTSNo, endTSNo)</td></tr>
 <tr class="separator:ga84d1759654818e0ef176d11b84328b00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gacdfe135a444b84f4b3af493d4d1d5e36"><td class="memItemLeft" align="right" valign="top">function util&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__scripts__util__timestep.html#gacdfe135a444b84f4b3af493d4d1d5e36">SolveNonlinearTimeProblem</a> (u, domainDisc, newtonSolver, out, filename, timeScheme, orderOrTheta, startTime, endTime, maxStepSize, minStepSize, reductionFactor, bFinishTimeStep, useCheckpointing, postProcess, startTSNo, endTSNo, newtonLineSearchFallbacks)</td></tr>
 <tr class="separator:gacdfe135a444b84f4b3af493d4d1d5e36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:gac4b70166c5b970e171b8e67ac400a187"><td class="memItemLeft" align="right" valign="top">parameterBool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__scripts__util__timestep.html#gac4b70166c5b970e171b8e67ac400a187">restartWithCheckpoint</a></td></tr>
+<tr class="separator:gac4b70166c5b970e171b8e67ac400a187"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
@@ -177,8 +183,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ga7ab14d6aabc8f39e18f1c6850595bfa5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7ab14d6aabc8f39e18f1c6850595bfa5">&#9670;&nbsp;</a></span>SolveLinearTimeProblem()</h2>
+<a id="gabdc538e0ff103cba2bfcd325f795bbec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabdc538e0ff103cba2bfcd325f795bbec">&#9670;&nbsp;</a></span>SolveLinearTimeProblem()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -259,6 +265,24 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">useCheckpointing&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">postProcess&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">startTSNo&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">endTSNo&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -282,12 +306,15 @@ Functions</h2></td></tr>
     <tr><td class="paramname">maxStepSize</td><td>maximal step sized used </td></tr>
     <tr><td class="paramname">minStepSize</td><td>(optinal) minimal step sized used </td></tr>
     <tr><td class="paramname">reductionFactor</td><td>(optinal) factor by which the step size is reduced, if the problem was not solved. Iterated until minStepSize is reached. </td></tr>
-    <tr><td class="paramname">useCheckpointing</td><td>(optional) if true, use checkpointing.</td></tr>
+    <tr><td class="paramname">useCheckpointing</td><td>(optional) if true, use checkpointing. </td></tr>
+    <tr><td class="paramname">postProcess</td><td>(optional) if passed, this can be either a function or a table: a) If this is a function then it is called after solving the linear problem in every time step of the time-stepping scheme; b) if this is a table, it can contain 2 optional functions: preProcess to call before the time step, postProcess as in a), Arguments of the functions are: (u, step, time, dt) u, time: old before the solver, new after it; there may be also values for the return codes: retValAtOK to return if the process ends normally retValAtMinStepSize to return if the min. dt is overcome retValAtSolver to return if the lin. solver failed </td></tr>
+    <tr><td class="paramname">startTSNo</td><td>(optional) time step number of the initial condition (normally 0). </td></tr>
+    <tr><td class="paramname">endTSNo</td><td>(optional) if passed, stop after the time step with this number.</td></tr>
   </table>
   </dd>
 </dl>
-<p>location: /var/lib/jenkins/workspace/ug-docs/ugcore/scripts/util / <a class="el" href="time__step__util_8lua.html">time_step_util.lua</a> :559-728 </p>
-
+<p>location: /var/lib/jenkins/workspace/ug-docs/ugcore/scripts/util / <a class="el" href="time__step__util_8lua.html">time_step_util.lua</a> :578 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.SolveLinearTimeProblem(</div>
+</div><!-- fragment --> 
 </div>
 </div>
 <a id="gabd8f271e1f4bc2d9cd7208a5a751b9da"></a>
@@ -393,7 +420,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /var/lib/jenkins/workspace/ug-docs/ugcore/scripts/util / <a class="el" href="time__step__util_8lua.html">time_step_util.lua</a> :1082 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.SolveNonlinearProblemAdaptiveLimex(</div>
+<p>location: /var/lib/jenkins/workspace/ug-docs/ugcore/scripts/util / <a class="el" href="time__step__util_8lua.html">time_step_util.lua</a> :1162 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.SolveNonlinearProblemAdaptiveLimex(</div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -520,7 +547,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<p>location: /var/lib/jenkins/workspace/ug-docs/ugcore/scripts/util / <a class="el" href="time__step__util_8lua.html">time_step_util.lua</a> :764 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.SolveNonlinearProblemAdaptiveTimestep(</div>
+<p>location: /var/lib/jenkins/workspace/ug-docs/ugcore/scripts/util / <a class="el" href="time__step__util_8lua.html">time_step_util.lua</a> :844 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.SolveNonlinearProblemAdaptiveTimestep(</div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -669,7 +696,22 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<p>location: /var/lib/jenkins/workspace/ug-docs/ugcore/scripts/util / <a class="el" href="time__step__util_8lua.html">time_step_util.lua</a> :175-525 </p>
+<p>location: /var/lib/jenkins/workspace/ug-docs/ugcore/scripts/util / <a class="el" href="time__step__util_8lua.html">time_step_util.lua</a> :175-526 </p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="gac4b70166c5b970e171b8e67ac400a187"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac4b70166c5b970e171b8e67ac400a187">&#9670;&nbsp;</a></span>restartWithCheckpoint</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">parameterBool restartWithCheckpoint</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -678,7 +720,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Dec 13 2019 23:54:39 for ug4 by
+    <li class="footer">Generated on Tue Oct 27 2020 05:30:02 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

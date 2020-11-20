@@ -63,9 +63,9 @@ var hierarchy =
       [ "ug::NavierStokes::FilterImplBaseClass< TImpl, TGridFunction >", "classug_1_1_navier_stokes_1_1_filter_impl_base_class.html", null ]
     ] ],
     [ "ug::ConvectionDiffusionPlugin::Functionality", "structug_1_1_convection_diffusion_plugin_1_1_functionality.html", null ],
-    [ "ug::Electromagnetism::Functionality", "structug_1_1_electromagnetism_1_1_functionality.html", null ],
     [ "ug::NavierStokes::Functionality", "structug_1_1_navier_stokes_1_1_functionality.html", null ],
     [ "ug::SmallStrainMechanics::Functionality", "structug_1_1_small_strain_mechanics_1_1_functionality.html", null ],
+    [ "ug::Electromagnetism::Functionality", "structug_1_1_electromagnetism_1_1_functionality.html", null ],
     [ "ug::ConvectionDiffusionPlugin::Functionality2d3d", "structug_1_1_convection_diffusion_plugin_1_1_functionality2d3d.html", null ],
     [ "ug::NavierStokes::FunctionalityComp", "structug_1_1_navier_stokes_1_1_functionality_comp.html", null ],
     [ "ug::NavierStokes::FunctionalityCompFV1", "structug_1_1_navier_stokes_1_1_functionality_comp_f_v1.html", null ],
@@ -278,13 +278,13 @@ var hierarchy =
     [ "ug::NavierStokes::NavierStokesSymBCFV1< TDomain >::RegisterFV1< TFVGeom >", "structug_1_1_navier_stokes_1_1_navier_stokes_sym_b_c_f_v1_1_1_register_f_v1.html", null ],
     [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFractFV1< TDomain >::RegisterLocalDiscr", "structug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_fract_f_v1_1_1_register_local_discr.html", null ],
     [ "ug::Electromagnetism::EddyCurrent_E_Nedelec< TDomain, TAlgebra >::RegisterLocalDiscr", "structug_1_1_electromagnetism_1_1_eddy_current___e___nedelec_1_1_register_local_discr.html", null ],
-    [ "ug::Electromagnetism::NedelecProject< TDomain, TAlgebra >::AuxLaplaceLocAss::RegisterLocalDiscr", "structug_1_1_electromagnetism_1_1_nedelec_project_1_1_aux_laplace_loc_ass_1_1_register_local_discr.html", null ],
     [ "ug::Electromagnetism::NedelecLoopCurrent< TDomain, TAlgebra >::AuxLaplaceLocAss::RegisterLocalDiscr", "structug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_aux_laplace_loc_ass_1_1_register_local_discr.html", null ],
+    [ "ug::Electromagnetism::NedelecProject< TDomain, TAlgebra >::AuxLaplaceLocAss::RegisterLocalDiscr", "structug_1_1_electromagnetism_1_1_nedelec_project_1_1_aux_laplace_loc_ass_1_1_register_local_discr.html", null ],
     [ "ug::SmallStrainMechanics::RelativeDensityUpdater< TDomain >", "classug_1_1_small_strain_mechanics_1_1_relative_density_updater.html", null ],
     [ "ug::Electromagnetism::NedelecProject< TDomain, TAlgebra >::AuxLaplaceRHS::SetIdentityOnSubset", "structug_1_1_electromagnetism_1_1_nedelec_project_1_1_aux_laplace_r_h_s_1_1_set_identity_on_subset.html", null ],
     [ "ug::Electromagnetism::NedelecProject< TDomain, TAlgebra >::AuxLaplaceRHS::SetValueOnSubset", "structug_1_1_electromagnetism_1_1_nedelec_project_1_1_aux_laplace_r_h_s_1_1_set_value_on_subset.html", null ],
-    [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFE< TDomain >::ShapeValues", "structug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_e_1_1_shape_values.html", null ],
     [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFV1< TDomain >::ShapeValues", "structug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1_1_1_shape_values.html", null ],
+    [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFE< TDomain >::ShapeValues", "structug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_e_1_1_shape_values.html", null ],
     [ "ug::StdUserData< SeparatedPressureSource< TGridFunction >, MathVector< TGridFunction::dim >, TGridFunction::dim >", "../classug_1_1_std_user_data.html", [
       [ "ug::NavierStokes::SeparatedPressureSource< TGridFunction >", "classug_1_1_navier_stokes_1_1_separated_pressure_source.html", null ]
     ] ],

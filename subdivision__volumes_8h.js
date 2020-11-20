@@ -31,6 +31,5 @@ var subdivision__volumes_8h =
     [ "ProjectHierarchyToSubdivisionLimit", "subdivision__volumes_8h.html#a89527e1bbc6cc71eeafe0f1ca66f26c3", null ],
     [ "SetBoundaryRefinementRule", "subdivision__volumes_8h.html#a82e775e9e8f05beef6512d142e6c5eca", null ],
     [ "SplitOctahedronToTetrahedrons", "subdivision__volumes_8h.html#ae15d8bbd0ceb175777bde8d4d87e6cc2", null ],
-    [ "TetrahedralizeHybridTetOctGrid", "subdivision__volumes_8h.html#a7dd19c2637dcbb9c78a7595f00e31f1a", null ],
-    [ "g_boundaryRefinementRule", "subdivision__volumes_8h.html#adeb4d1621450c67327189e0288111a7a", null ]
+    [ "TetrahedralizeHybridTetOctGrid", "subdivision__volumes_8h.html#a7dd19c2637dcbb9c78a7595f00e31f1a", null ]
 ];

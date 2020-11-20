@@ -547,357 +547,391 @@ $(document).ready(function(){initNavTree('selection__util__impl_8hpp_source.html
 <div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;  }<a class="code" href="lg__for__each_8h.html#ae2a0b1e127e668468b449221039b47e7">lg_end_for</a>;</div>
 <div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;}</div>
 <div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160; </div>
-<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160; </div>
-<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> TEdgeIterator&gt;</div>
-<div class="line"><a name="l00465"></a><span class="lineno"><a class="line" href="group__lib__grid__algorithms__selection__util.html#ga196e9956b54046cb9c9eb0e7fb35756b">  465</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__lib__grid__algorithms__selection__util.html#ga196e9956b54046cb9c9eb0e7fb35756b">SelectCreaseEdges</a>(<a class="code" href="classug_1_1_i_selector.html">ISelector</a>&amp; sel, TEdgeIterator edgesBegin, TEdgeIterator edgesEnd,</div>
-<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;            <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> minAngle, <a class="code" href="classug_1_1_attachment.html">APosition</a> aPos,</div>
-<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;            <span class="keywordtype">bool</span> ignoreBoundaryEdges, <a class="code" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a> state)</div>
-<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;{</div>
-<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;  <span class="keywordflow">if</span>(!sel.<a class="code" href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">grid</a>())</div>
-<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;    <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160; </div>
-<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;  <a class="code" href="classug_1_1_grid.html">Grid</a>&amp; grid = *sel.<a class="code" href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">grid</a>();</div>
-<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160; </div>
-<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;<span class="comment">//  get the position accessor</span></div>
-<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;  <span class="keywordflow">if</span>(!grid.<a class="code" href="classug_1_1_grid.html#ace5ab805d91e2051d93f4d54d24fa605">has_vertex_attachment</a>(aPos))</div>
-<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;    <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160; </div>
-<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;  <a class="code" href="classug_1_1_grid_1_1_vertex_attachment_accessor.html">Grid::VertexAttachmentAccessor&lt;APosition&gt;</a> aaPos(grid, aPos);</div>
+<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> TAAPos&gt;</div>
+<div class="line"><a name="l00464"></a><span class="lineno"><a class="line" href="group__lib__grid__algorithms__selection__util.html#ga32a63523dd300d0e48330f1b77ded30b">  464</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__lib__grid__algorithms__selection__util.html#ga32a63523dd300d0e48330f1b77ded30b">SelectSubsetEdgesByDirection</a>(</div>
+<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;        <a class="code" href="classug_1_1_selector.html">Selector</a>&amp; sel,</div>
+<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;        <a class="code" href="classug_1_1_grid_subset_handler.html">SubsetHandler</a>&amp; sh,</div>
+<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;        <span class="keywordtype">int</span> subsetIndex,</div>
+<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;        TAAPos&amp; aaPos,</div>
+<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;        <span class="keyword">const</span> <a class="code" href="classug_1_1_math_vector.html">vector3</a>&amp; dir,</div>
+<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;        <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> minDeviationAngle,</div>
+<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;        <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> maxDeviationAngle,</div>
+<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;        <span class="keywordtype">bool</span> selectFlipped)</div>
+<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;{</div>
+<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160; </div>
+<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;  <a class="code" href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>(!sel.<a class="code" href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">grid</a>(), <span class="stringliteral">&quot;A grid has to be assigned to the given selector&quot;</span>);</div>
+<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160; </div>
+<div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;  <a class="code" href="classug_1_1_math_vector.html">vector3</a> n;</div>
+<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;  <a class="code" href="group__vectors.html#ga53ae2dda87330ab64fb2a5901606b3e4">VecNormalize</a>(n, dir);</div>
 <div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160; </div>
-<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;<span class="comment">//  we&#39;ll store face normals in those vectors:</span></div>
-<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;  <a class="code" href="classug_1_1_math_vector.html">vector3</a> n[2];</div>
+<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;  <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> maxDot = cos(<a class="code" href="group__ugbase__mathutil.html#gaafe016a9ae9cce7dcf37a71079e15209">deg_to_rad</a>(minDeviationAngle));</div>
+<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;  <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> minDot = cos(<a class="code" href="group__ugbase__mathutil.html#gaafe016a9ae9cce7dcf37a71079e15209">deg_to_rad</a>(maxDeviationAngle));</div>
 <div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160; </div>
-<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;<span class="comment">//  associated faces are stored in this array</span></div>
-<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;  <a class="code" href="classug_1_1_face.html">Face</a>* f[2];</div>
-<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160; </div>
-<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;<span class="comment">//  all dot-products between normals lower than minDot mark a crease.</span></div>
-<div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;  <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> minDot = cos(minAngle * 3.14159265 / 180.f);</div>
-<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160; </div>
-<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;<span class="comment">//  iterate through the edges</span></div>
-<div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;  <span class="keywordflow">for</span>(TEdgeIterator iter = edgesBegin; iter != edgesEnd; ++iter)</div>
-<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;  {</div>
-<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;    <a class="code" href="classug_1_1_edge.html">Edge</a>* e = *iter;</div>
-<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;    <span class="keywordflow">if</span>(!(ignoreBoundaryEdges &amp;&amp; <a class="code" href="group__lib__grid__algorithms__edge__util.html#ga5bf1afd38411b7139354752323bbd9d4">IsBoundaryEdge2D</a>(grid, e))){</div>
-<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;    <span class="comment">//  get the associated faces</span></div>
-<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;    <span class="comment">//  all edges that do not have exactly 2 associated edges</span></div>
-<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;    <span class="comment">//  are regarded as crease-edges</span></div>
-<div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;      <span class="keywordflow">if</span>(<a class="code" href="group__lib__grid__algorithms__edge__util.html#ga6530a13a5990c960cfd2f1f066e0be8c">GetAssociatedFaces</a>(f, grid, e, 2) == 2){</div>
-<div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;      <span class="comment">//  get the normals of the associated faces</span></div>
-<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;        <a class="code" href="group__lib__grid__algorithms__edge__util.html#ga47d8d9dc1634d72a7500de9fe2e1f7a3">CalculateNormal</a>(n[0], f[0], aaPos);</div>
-<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;        <a class="code" href="group__lib__grid__algorithms__edge__util.html#ga47d8d9dc1634d72a7500de9fe2e1f7a3">CalculateNormal</a>(n[1], f[1], aaPos);</div>
-<div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;      <span class="comment">//  if the dot-product is lower than minDot, then the edge is a crease edge.</span></div>
-<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="group__vectors.html#gae9174d47662deb0ba119e0e21f28ec71">VecDot</a>(n[0], n[1]) &lt; minDot)</div>
-<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;          sel.<a class="code" href="classug_1_1_i_selector.html#a363d594b7adf4196fccc0d6afd24f542">select</a>(e, state);</div>
-<div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;      }</div>
-<div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;      <span class="keywordflow">else</span>{</div>
-<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;        sel.<a class="code" href="classug_1_1_i_selector.html#a363d594b7adf4196fccc0d6afd24f542">select</a>(e, state);</div>
-<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;      }</div>
-<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;    }</div>
-<div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;  }</div>
-<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;}</div>
+<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;  <a class="code" href="lg__for__each_8h.html#a155e60cbb5d0e2ae830f735b7211621f">lg_for_each_in_subset</a>(<a class="code" href="classug_1_1_edge.html">Edge</a>, e, sh, subsetIndex){</div>
+<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;    <a class="code" href="classug_1_1_math_vector.html">vector3</a> dir;</div>
+<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;    <a class="code" href="group__vectors.html#ga5c7eda5aeb4cd0d53ce04f682d0a0058">VecSubtract</a>(dir, aaPos[e-&gt;vertex(1)], aaPos[e-&gt;vertex(0)]);</div>
+<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;    <a class="code" href="group__vectors.html#ga53ae2dda87330ab64fb2a5901606b3e4">VecNormalize</a>(dir, dir);</div>
+<div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;    <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> d = <a class="code" href="group__vectors.html#gae9174d47662deb0ba119e0e21f28ec71">VecDot</a>(dir, n);</div>
+<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;    <span class="keywordflow">if</span>((d &gt;= minDot - <a class="code" href="namespaceug.html#a33c1491a216aec0f5a603a9a3dd6f758">SMALL</a> &amp;&amp; d &lt;= maxDot + <a class="code" href="namespaceug.html#a33c1491a216aec0f5a603a9a3dd6f758">SMALL</a>) ||</div>
+<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;      (selectFlipped &amp;&amp; (-d &gt;= minDot - <a class="code" href="namespaceug.html#a33c1491a216aec0f5a603a9a3dd6f758">SMALL</a> &amp;&amp; -d &lt;= maxDot + <a class="code" href="namespaceug.html#a33c1491a216aec0f5a603a9a3dd6f758">SMALL</a>)))</div>
+<div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;    {</div>
+<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;      sel.<a class="code" href="classug_1_1_i_selector.html#a363d594b7adf4196fccc0d6afd24f542">select</a>(e);</div>
+<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;    }</div>
+<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;  }<a class="code" href="lg__for__each_8h.html#ae2a0b1e127e668468b449221039b47e7">lg_end_for</a>;</div>
+<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;}</div>
+<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160; </div>
+<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160; </div>
+<div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> TEdgeIterator&gt;</div>
+<div class="line"><a name="l00499"></a><span class="lineno"><a class="line" href="group__lib__grid__algorithms__selection__util.html#ga196e9956b54046cb9c9eb0e7fb35756b">  499</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__lib__grid__algorithms__selection__util.html#ga196e9956b54046cb9c9eb0e7fb35756b">SelectCreaseEdges</a>(<a class="code" href="classug_1_1_i_selector.html">ISelector</a>&amp; sel, TEdgeIterator edgesBegin, TEdgeIterator edgesEnd,</div>
+<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;            <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> minAngle, <a class="code" href="classug_1_1_attachment.html">APosition</a> aPos,</div>
+<div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;            <span class="keywordtype">bool</span> ignoreBoundaryEdges, <a class="code" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a> state)</div>
+<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;{</div>
+<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;  <span class="keywordflow">if</span>(!sel.<a class="code" href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">grid</a>())</div>
+<div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;    <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160; </div>
+<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;  <a class="code" href="classug_1_1_grid.html">Grid</a>&amp; grid = *sel.<a class="code" href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">grid</a>();</div>
+<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160; </div>
+<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;<span class="comment">//  get the position accessor</span></div>
+<div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;  <span class="keywordflow">if</span>(!grid.<a class="code" href="classug_1_1_grid.html#ace5ab805d91e2051d93f4d54d24fa605">has_vertex_attachment</a>(aPos))</div>
+<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;    <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160; </div>
-<div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160; </div>
-<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> TIter&gt;</div>
-<div class="line"><a name="l00515"></a><span class="lineno"><a class="line" href="group__lib__grid__algorithms__selection__util.html#ga43c96d1112eb9a413452f5c6dcd1fe74">  515</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__lib__grid__algorithms__selection__util.html#ga43c96d1112eb9a413452f5c6dcd1fe74">SelectAreaBoundary</a>(<a class="code" href="classug_1_1_i_selector.html">ISelector</a>&amp; sel, <span class="keyword">const</span> TIter begin, <span class="keyword">const</span> TIter end)</div>
-<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;{</div>
-<div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> <a class="code" href="structug_1_1_pointer2_value.html">Pointer2Value&lt;typename TIter::value_type&gt;::type</a>  TElem;</div>
-<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> TElem::side                    TSide;</div>
+<div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;  <a class="code" href="classug_1_1_grid_1_1_vertex_attachment_accessor.html">Grid::VertexAttachmentAccessor&lt;APosition&gt;</a> aaPos(grid, aPos);</div>
+<div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160; </div>
+<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;<span class="comment">//  we&#39;ll store face normals in those vectors:</span></div>
+<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;  <a class="code" href="classug_1_1_math_vector.html">vector3</a> n[2];</div>
+<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160; </div>
+<div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;<span class="comment">//  associated faces are stored in this array</span></div>
+<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;  <a class="code" href="classug_1_1_face.html">Face</a>* f[2];</div>
 <div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160; </div>
-<div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;  <span class="keywordflow">if</span>(!sel.<a class="code" href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">grid</a>())</div>
-<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;    <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;<span class="comment">//  all dot-products between normals lower than minDot mark a crease.</span></div>
+<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;  <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> minDot = cos(minAngle * 3.14159265 / 180.f);</div>
 <div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160; </div>
-<div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;  <a class="code" href="classug_1_1_grid.html">Grid</a>&amp; grid = *sel.<a class="code" href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">grid</a>();</div>
-<div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160; </div>
-<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;  grid.<a class="code" href="classug_1_1_grid.html#a9d45fe5cb040ee7e1be8f683f257790d">begin_marking</a>();</div>
-<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160; </div>
-<div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160;  std::vector&lt;TSide*&gt; sides;</div>
-<div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;  TIter iter = begin;</div>
-<div class="line"><a name="l00529"></a><span class="lineno">  529</span>&#160;  <span class="keywordflow">while</span>(iter != end){</div>
-<div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;    TElem* elem = *iter;</div>
-<div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;    ++iter;</div>
-<div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160;    <a class="code" href="group__lib__grid__algorithms__neighborhood__util.html#ga59988a8aa738a375a58aa9ce74d7d1e3">CollectAssociated</a>(sides, grid, elem);</div>
-<div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i = 0; i &lt; sides.size(); ++i){</div>
-<div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;      TSide* side = sides[i];</div>
-<div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;      <span class="keywordflow">if</span>(!grid.<a class="code" href="classug_1_1_grid.html#a448f44e49cf1facf5346d9ca8b449337">is_marked</a>(side)){</div>
-<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;      <span class="comment">//  if the side was initially selected, it should stay that way</span></div>
-<div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;        <span class="keywordflow">if</span>(!sel.<a class="code" href="classug_1_1_i_selector.html#a114fe907dd506fb701eaadaa713e24d7">is_selected</a>(side)){</div>
-<div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;          grid.<a class="code" href="classug_1_1_grid.html#a886c89b50e8f2980bfcdf74e65b23683">mark</a>(side);</div>
-<div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;          sel.<a class="code" href="classug_1_1_i_selector.html#a363d594b7adf4196fccc0d6afd24f542">select</a>(side);</div>
-<div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;        }</div>
+<div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;<span class="comment">//  iterate through the edges</span></div>
+<div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;  <span class="keywordflow">for</span>(TEdgeIterator iter = edgesBegin; iter != edgesEnd; ++iter)</div>
+<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;  {</div>
+<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;    <a class="code" href="classug_1_1_edge.html">Edge</a>* e = *iter;</div>
+<div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160;    <span class="keywordflow">if</span>(!(ignoreBoundaryEdges &amp;&amp; <a class="code" href="group__lib__grid__algorithms__edge__util.html#ga5bf1afd38411b7139354752323bbd9d4">IsBoundaryEdge2D</a>(grid, e))){</div>
+<div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;    <span class="comment">//  get the associated faces</span></div>
+<div class="line"><a name="l00529"></a><span class="lineno">  529</span>&#160;    <span class="comment">//  all edges that do not have exactly 2 associated edges</span></div>
+<div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;    <span class="comment">//  are regarded as crease-edges</span></div>
+<div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;      <span class="keywordflow">if</span>(<a class="code" href="group__lib__grid__algorithms__edge__util.html#ga6530a13a5990c960cfd2f1f066e0be8c">GetAssociatedFaces</a>(f, grid, e, 2) == 2){</div>
+<div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160;      <span class="comment">//  get the normals of the associated faces</span></div>
+<div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;        <a class="code" href="group__lib__grid__algorithms__edge__util.html#ga47d8d9dc1634d72a7500de9fe2e1f7a3">CalculateNormal</a>(n[0], f[0], aaPos);</div>
+<div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;        <a class="code" href="group__lib__grid__algorithms__edge__util.html#ga47d8d9dc1634d72a7500de9fe2e1f7a3">CalculateNormal</a>(n[1], f[1], aaPos);</div>
+<div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;      <span class="comment">//  if the dot-product is lower than minDot, then the edge is a crease edge.</span></div>
+<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="group__vectors.html#gae9174d47662deb0ba119e0e21f28ec71">VecDot</a>(n[0], n[1]) &lt; minDot)</div>
+<div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;          sel.<a class="code" href="classug_1_1_i_selector.html#a363d594b7adf4196fccc0d6afd24f542">select</a>(e, state);</div>
+<div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;      }</div>
+<div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;      <span class="keywordflow">else</span>{</div>
+<div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;        sel.<a class="code" href="classug_1_1_i_selector.html#a363d594b7adf4196fccc0d6afd24f542">select</a>(e, state);</div>
 <div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;      }</div>
-<div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;      <span class="keywordflow">else</span>{</div>
-<div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;      <span class="comment">//  if the side is marked, then it is an inner side</span></div>
-<div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;        sel.<a class="code" href="classug_1_1_i_selector.html#accd4b0825807c76a6a2f11aea53f6d13">deselect</a>(side);</div>
-<div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;      }</div>
-<div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;    }</div>
-<div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;  }</div>
-<div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160; </div>
-<div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;  grid.<a class="code" href="classug_1_1_grid.html#a0dfadffbcf794fe5136b4a8ba4a86959">end_marking</a>();</div>
-<div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;}</div>
-<div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160; </div>
-<div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> TIter&gt;</div>
-<div class="line"><a name="l00554"></a><span class="lineno"><a class="line" href="group__lib__grid__algorithms__selection__util.html#ga8753835a16e0144aa312cc0b9005c4b6">  554</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__lib__grid__algorithms__selection__util.html#ga8753835a16e0144aa312cc0b9005c4b6">SelectInterfaceElements</a>(<a class="code" href="classug_1_1_i_selector.html">ISelector</a>&amp; sel, <a class="code" href="classug_1_1_i_subset_handler.html">ISubsetHandler</a>&amp; sh,</div>
-<div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;               <span class="keyword">const</span> TIter begin, <span class="keyword">const</span> TIter end,</div>
-<div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;               <span class="keywordtype">bool</span> regardSelectedNbrsOnly)</div>
-<div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;{</div>
-<div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> <a class="code" href="structug_1_1_pointer2_value.html">Pointer2Value&lt;typename TIter::value_type&gt;::type</a>  TElem;</div>
-<div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> TElem::sideof                    TNbr;</div>
+<div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;    }</div>
+<div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;  }</div>
+<div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;}</div>
+<div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160; </div>
+<div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160; </div>
+<div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> TIter&gt;</div>
+<div class="line"><a name="l00549"></a><span class="lineno"><a class="line" href="group__lib__grid__algorithms__selection__util.html#ga43c96d1112eb9a413452f5c6dcd1fe74">  549</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__lib__grid__algorithms__selection__util.html#ga43c96d1112eb9a413452f5c6dcd1fe74">SelectAreaBoundary</a>(<a class="code" href="classug_1_1_i_selector.html">ISelector</a>&amp; sel, <span class="keyword">const</span> TIter begin, <span class="keyword">const</span> TIter end)</div>
+<div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;{</div>
+<div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> <a class="code" href="structug_1_1_pointer2_value.html">Pointer2Value&lt;typename TIter::value_type&gt;::type</a>  TElem;</div>
+<div class="line"><a name="l00552"></a><span class="lineno">  552</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> TElem::side                    TSide;</div>
+<div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160; </div>
+<div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;  <span class="keywordflow">if</span>(!sel.<a class="code" href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">grid</a>())</div>
+<div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;    <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160; </div>
+<div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;  <a class="code" href="classug_1_1_grid.html">Grid</a>&amp; grid = *sel.<a class="code" href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">grid</a>();</div>
+<div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160; </div>
+<div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;  grid.<a class="code" href="classug_1_1_grid.html#a9d45fe5cb040ee7e1be8f683f257790d">begin_marking</a>();</div>
 <div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160; </div>
-<div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;  <span class="keywordflow">if</span>(!TElem::CAN_BE_SIDE)</div>
-<div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;    <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160; </div>
-<div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;  <span class="keywordflow">if</span>(!sel.<a class="code" href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">grid</a>())</div>
-<div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;    <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160; </div>
-<div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;  <a class="code" href="classug_1_1_grid.html">Grid</a>&amp; grid = *sel.<a class="code" href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">grid</a>();</div>
-<div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160; </div>
-<div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;  std::vector&lt;TNbr*&gt; nbrs;</div>
-<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160; </div>
-<div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;  <span class="keywordflow">for</span>(TIter iter = begin; iter != end;){</div>
-<div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;    TElem* elem = *iter;</div>
-<div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;    ++iter;</div>
-<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160; </div>
-<div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;    <a class="code" href="group__lib__grid__algorithms__neighborhood__util.html#ga59988a8aa738a375a58aa9ce74d7d1e3">CollectAssociated</a>(nbrs, grid, elem);</div>
-<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160; </div>
-<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;    <span class="keywordtype">int</span> si = -2;</div>
-<div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i = 0; i &lt; nbrs.size(); ++i){</div>
-<div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;      <span class="keywordflow">if</span>(!regardSelectedNbrsOnly || sel.<a class="code" href="classug_1_1_i_selector.html#a114fe907dd506fb701eaadaa713e24d7">is_selected</a>(nbrs[i])){</div>
-<div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;        <span class="keywordflow">if</span>(sh.<a class="code" href="classug_1_1_i_subset_handler.html#ab322bfc9560e86b563145b9e264d385e">get_subset_index</a>(nbrs[i]) != si){</div>
-<div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;          <span class="keywordflow">if</span>(si == -2)</div>
-<div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;            si = sh.<a class="code" href="classug_1_1_i_subset_handler.html#ab322bfc9560e86b563145b9e264d385e">get_subset_index</a>(nbrs[i]);</div>
-<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;          <span class="keywordflow">else</span>{</div>
-<div class="line"><a name="l00584"></a><span class="lineno">  584</span>&#160;          <span class="comment">//  elem is an interface element</span></div>
-<div class="line"><a name="l00585"></a><span class="lineno">  585</span>&#160;            sel.<a class="code" href="classug_1_1_i_selector.html#a363d594b7adf4196fccc0d6afd24f542">select</a>(elem);</div>
-<div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;          }</div>
-<div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;        }</div>
-<div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160;      }</div>
-<div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;    }</div>
-<div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;  }</div>
-<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;}</div>
-<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160; </div>
-<div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> TElem&gt;</div>
-<div class="line"><a name="l00595"></a><span class="lineno"><a class="line" href="group__lib__grid__algorithms__selection__util.html#gaaeea5ff068776ffbae63185458468c7c">  595</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__lib__grid__algorithms__selection__util.html#gaaeea5ff068776ffbae63185458468c7c">SelectSubsetElements</a>(<a class="code" href="classug_1_1_i_selector.html">ISelector</a>&amp; sel, <a class="code" href="classug_1_1_i_subset_handler.html">ISubsetHandler</a>&amp; sh, <span class="keywordtype">int</span> subsetIndex,</div>
-<div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;              <a class="code" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a> status)</div>
-<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;{</div>
-<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> <a class="code" href="structug_1_1_grid_object_collection_1_1traits.html#a95aa5fc0ea894c6af265be700216c1bb">GridObjectCollection::traits&lt;TElem&gt;::iterator</a>  TIter;</div>
-<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;  <a class="code" href="classug_1_1_grid_object_collection.html">GridObjectCollection</a> goc = sh.<a class="code" href="classug_1_1_i_subset_handler.html#abc948ffa95097383eaa76a17711245dc">get_grid_objects_in_subset</a>(subsetIndex);</div>
+<div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;  std::vector&lt;TSide*&gt; sides;</div>
+<div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;  TIter iter = begin;</div>
+<div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;  <span class="keywordflow">while</span>(iter != end){</div>
+<div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;    TElem* elem = *iter;</div>
+<div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;    ++iter;</div>
+<div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;    <a class="code" href="group__lib__grid__algorithms__neighborhood__util.html#ga59988a8aa738a375a58aa9ce74d7d1e3">CollectAssociated</a>(sides, grid, elem);</div>
+<div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i = 0; i &lt; sides.size(); ++i){</div>
+<div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;      TSide* side = sides[i];</div>
+<div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;      <span class="keywordflow">if</span>(!grid.<a class="code" href="classug_1_1_grid.html#a448f44e49cf1facf5346d9ca8b449337">is_marked</a>(side)){</div>
+<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;      <span class="comment">//  if the side was initially selected, it should stay that way</span></div>
+<div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;        <span class="keywordflow">if</span>(!sel.<a class="code" href="classug_1_1_i_selector.html#a114fe907dd506fb701eaadaa713e24d7">is_selected</a>(side)){</div>
+<div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;          grid.<a class="code" href="classug_1_1_grid.html#a886c89b50e8f2980bfcdf74e65b23683">mark</a>(side);</div>
+<div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;          sel.<a class="code" href="classug_1_1_i_selector.html#a363d594b7adf4196fccc0d6afd24f542">select</a>(side);</div>
+<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;        }</div>
+<div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;      }</div>
+<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;      <span class="keywordflow">else</span>{</div>
+<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;      <span class="comment">//  if the side is marked, then it is an inner side</span></div>
+<div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;        sel.<a class="code" href="classug_1_1_i_selector.html#accd4b0825807c76a6a2f11aea53f6d13">deselect</a>(side);</div>
+<div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;      }</div>
+<div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;    }</div>
+<div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;  }</div>
+<div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160; </div>
+<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;  grid.<a class="code" href="classug_1_1_grid.html#a0dfadffbcf794fe5136b4a8ba4a86959">end_marking</a>();</div>
+<div class="line"><a name="l00584"></a><span class="lineno">  584</span>&#160;}</div>
+<div class="line"><a name="l00585"></a><span class="lineno">  585</span>&#160; </div>
+<div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> TIter&gt;</div>
+<div class="line"><a name="l00588"></a><span class="lineno"><a class="line" href="group__lib__grid__algorithms__selection__util.html#ga8753835a16e0144aa312cc0b9005c4b6">  588</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__lib__grid__algorithms__selection__util.html#ga8753835a16e0144aa312cc0b9005c4b6">SelectInterfaceElements</a>(<a class="code" href="classug_1_1_i_selector.html">ISelector</a>&amp; sel, <a class="code" href="classug_1_1_i_subset_handler.html">ISubsetHandler</a>&amp; sh,</div>
+<div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160;               <span class="keyword">const</span> TIter begin, <span class="keyword">const</span> TIter end,</div>
+<div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;               <span class="keywordtype">bool</span> regardSelectedNbrsOnly)</div>
+<div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;{</div>
+<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> <a class="code" href="structug_1_1_pointer2_value.html">Pointer2Value&lt;typename TIter::value_type&gt;::type</a>  TElem;</div>
+<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> TElem::sideof                    TNbr;</div>
+<div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160; </div>
+<div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;  <span class="keywordflow">if</span>(!TElem::CAN_BE_SIDE)</div>
+<div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;    <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160; </div>
+<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;  <span class="keywordflow">if</span>(!sel.<a class="code" href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">grid</a>())</div>
+<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;    <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160; </div>
-<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> lvl = 0; lvl &lt; goc.<a class="code" href="classug_1_1_grid_object_collection.html#a739b8981d74007cb22567427f0603dcc">num_levels</a>(); ++lvl){</div>
-<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;    <span class="keywordflow">for</span>(TIter iter = goc.<a class="code" href="classug_1_1_grid_object_collection.html#a27adf57d1074ce4a21655998cd787690">begin</a>&lt;TElem&gt;(lvl); iter != goc.<a class="code" href="classug_1_1_grid_object_collection.html#a3c2e63747a8e9e0c90e9e281cd49fa42">end</a>&lt;TElem&gt;(lvl); ++iter)</div>
-<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;      sel.<a class="code" href="classug_1_1_i_selector.html#a363d594b7adf4196fccc0d6afd24f542">select</a>(*iter, status);</div>
-<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;  }</div>
-<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;}</div>
-<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160; </div>
-<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160; </div>
-<div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> TGeomObj, <span class="keyword">class</span> TAAPos&gt;</div>
-<div class="line"><a name="l00609"></a><span class="lineno"><a class="line" href="group__lib__grid__algorithms__selection__util.html#ga51e9480950b7c07be13b9854259703fd">  609</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="group__lib__grid__algorithms__selection__util.html#ga51e9480950b7c07be13b9854259703fd">SelectRegion</a>(<a class="code" href="classug_1_1_selector.html">Selector</a>&amp; sel, <span class="keyword">const</span> <span class="keyword">typename</span> TAAPos::ValueType&amp; p, TAAPos&amp; aaPos,</div>
-<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;            <span class="keyword">typename</span> <a class="code" href="structug_1_1_grid_1_1traits.html#a1bd114991c12becc6ca48862967dd9f2">Grid::traits&lt;typename TGeomObj::side&gt;::callback</a> cbRegionBoundary)</div>
-<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;{</div>
-<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> <a class="code" href="structug_1_1_grid_1_1traits.html#a9977a8ea65a1f2b0e2a064d992babbb9">Grid::traits&lt;TGeomObj&gt;::iterator</a> TIter;</div>
-<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160; </div>
-<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;  <span class="keywordflow">if</span>(!sel.<a class="code" href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">grid</a>())</div>
-<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160; </div>
-<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;  <a class="code" href="classug_1_1_grid.html">Grid</a>&amp; g = *sel.<a class="code" href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">grid</a>();</div>
-<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160; </div>
-<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;<span class="comment">//  first try to find the element which contains p</span></div>
-<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;  TGeomObj* startElem = NULL;</div>
-<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;  <span class="keywordflow">for</span>(TIter iter = g.<a class="code" href="classug_1_1_grid.html#ac61deaa5a86f28e8e78fa481467f5d45">begin</a>&lt;TGeomObj&gt;(); iter != g.<a class="code" href="classug_1_1_grid.html#aecec2b9e3e45241347497a58de7aa13a">end</a>&lt;TGeomObj&gt;(); ++iter){</div>
-<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="group__lib__grid__algorithms__edge__util.html#gaed91ccbc1b4b95c2ef09c3f79aabd6ab">ContainsPoint</a>(*iter, p, aaPos)){</div>
-<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;      startElem = *iter;</div>
-<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;      <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;    }</div>
-<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;  }</div>
+<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;  <a class="code" href="classug_1_1_grid.html">Grid</a>&amp; grid = *sel.<a class="code" href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">grid</a>();</div>
+<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160; </div>
+<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;  std::vector&lt;TNbr*&gt; nbrs;</div>
+<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160; </div>
+<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;  <span class="keywordflow">for</span>(TIter iter = begin; iter != end;){</div>
+<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;    TElem* elem = *iter;</div>
+<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;    ++iter;</div>
+<div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160; </div>
+<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;    <a class="code" href="group__lib__grid__algorithms__neighborhood__util.html#ga59988a8aa738a375a58aa9ce74d7d1e3">CollectAssociated</a>(nbrs, grid, elem);</div>
+<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160; </div>
+<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;    <span class="keywordtype">int</span> si = -2;</div>
+<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i = 0; i &lt; nbrs.size(); ++i){</div>
+<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;      <span class="keywordflow">if</span>(!regardSelectedNbrsOnly || sel.<a class="code" href="classug_1_1_i_selector.html#a114fe907dd506fb701eaadaa713e24d7">is_selected</a>(nbrs[i])){</div>
+<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;        <span class="keywordflow">if</span>(sh.<a class="code" href="classug_1_1_i_subset_handler.html#ab322bfc9560e86b563145b9e264d385e">get_subset_index</a>(nbrs[i]) != si){</div>
+<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;          <span class="keywordflow">if</span>(si == -2)</div>
+<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;            si = sh.<a class="code" href="classug_1_1_i_subset_handler.html#ab322bfc9560e86b563145b9e264d385e">get_subset_index</a>(nbrs[i]);</div>
+<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;          <span class="keywordflow">else</span>{</div>
+<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;          <span class="comment">//  elem is an interface element</span></div>
+<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;            sel.<a class="code" href="classug_1_1_i_selector.html#a363d594b7adf4196fccc0d6afd24f542">select</a>(elem);</div>
+<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;          }</div>
+<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;        }</div>
+<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;      }</div>
+<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;    }</div>
+<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;  }</div>
+<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;}</div>
 <div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160; </div>
-<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;  <span class="keywordflow">if</span>(!startElem)</div>
-<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160; </div>
-<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;  sel.<a class="code" href="classug_1_1_selector.html#a4c9de9f499200372a79af3d59680c2f1">clear</a>&lt;TGeomObj&gt;();</div>
-<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;  sel.<a class="code" href="classug_1_1_i_selector.html#a363d594b7adf4196fccc0d6afd24f542">select</a>(startElem);</div>
-<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;  SelectionFill&lt;TGeomObj&gt;(sel, cbRegionBoundary);</div>
+<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> TElem&gt;</div>
+<div class="line"><a name="l00629"></a><span class="lineno"><a class="line" href="group__lib__grid__algorithms__selection__util.html#gaaeea5ff068776ffbae63185458468c7c">  629</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__lib__grid__algorithms__selection__util.html#gaaeea5ff068776ffbae63185458468c7c">SelectSubsetElements</a>(<a class="code" href="classug_1_1_i_selector.html">ISelector</a>&amp; sel, <a class="code" href="classug_1_1_i_subset_handler.html">ISubsetHandler</a>&amp; sh, <span class="keywordtype">int</span> subsetIndex,</div>
+<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;              <a class="code" href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ISelector::status_t</a> status)</div>
+<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;{</div>
+<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> <a class="code" href="structug_1_1_grid_object_collection_1_1traits.html#a95aa5fc0ea894c6af265be700216c1bb">GridObjectCollection::traits&lt;TElem&gt;::iterator</a>  TIter;</div>
+<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;  <a class="code" href="classug_1_1_grid_object_collection.html">GridObjectCollection</a> goc = sh.<a class="code" href="classug_1_1_i_subset_handler.html#abc948ffa95097383eaa76a17711245dc">get_grid_objects_in_subset</a>(subsetIndex);</div>
 <div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160; </div>
-<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;}</div>
-<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160; </div>
-<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> TAAPos&gt;</div>
-<div class="line"><a name="l00639"></a><span class="lineno"><a class="line" href="group__lib__grid__algorithms__selection__util.html#gae74e88e4c32326bebcab322baa9416bf">  639</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__lib__grid__algorithms__selection__util.html#gae74e88e4c32326bebcab322baa9416bf">SelectShortPolychains</a>(<a class="code" href="classug_1_1_i_selector.html">ISelector</a>&amp; sel, <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> maxLength, <span class="keywordtype">bool</span> closedChainsOnly,</div>
-<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;               TAAPos aaPos)</div>
-<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;{</div>
-<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;  <span class="keywordflow">if</span>(!sel.<a class="code" href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">grid</a>())</div>
-<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;    <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;  <a class="code" href="classug_1_1_grid.html">Grid</a>&amp; grid = *sel.<a class="code" href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">grid</a>();</div>
-<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160; </div>
-<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;<span class="comment">//  we&#39;ll collect all contained short polychains in this vector before deciding</span></div>
-<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;<span class="comment">//  to select them or not. If a polychain is already longer than maxLength</span></div>
-<div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;<span class="comment">//  we won&#39;t add its edges to the vector</span></div>
-<div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;  std::vector&lt;Edge*&gt; curChain;</div>
-<div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;  std::queue&lt;Edge*&gt; nextEdges;</div>
-<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;  <a class="code" href="classug_1_1_pointer_const_array.html">Grid::edge_traits::secure_container</a> edges;</div>
+<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> lvl = 0; lvl &lt; goc.<a class="code" href="classug_1_1_grid_object_collection.html#a739b8981d74007cb22567427f0603dcc">num_levels</a>(); ++lvl){</div>
+<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;    <span class="keywordflow">for</span>(TIter iter = goc.<a class="code" href="classug_1_1_grid_object_collection.html#a27adf57d1074ce4a21655998cd787690">begin</a>&lt;TElem&gt;(lvl); iter != goc.<a class="code" href="classug_1_1_grid_object_collection.html#a3c2e63747a8e9e0c90e9e281cd49fa42">end</a>&lt;TElem&gt;(lvl); ++iter)</div>
+<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;      sel.<a class="code" href="classug_1_1_i_selector.html#a363d594b7adf4196fccc0d6afd24f542">select</a>(*iter, status);</div>
+<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;  }</div>
+<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;}</div>
+<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160; </div>
+<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160; </div>
+<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> TGeomObj, <span class="keyword">class</span> TAAPos&gt;</div>
+<div class="line"><a name="l00643"></a><span class="lineno"><a class="line" href="group__lib__grid__algorithms__selection__util.html#ga51e9480950b7c07be13b9854259703fd">  643</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="group__lib__grid__algorithms__selection__util.html#ga51e9480950b7c07be13b9854259703fd">SelectRegion</a>(<a class="code" href="classug_1_1_selector.html">Selector</a>&amp; sel, <span class="keyword">const</span> <span class="keyword">typename</span> TAAPos::ValueType&amp; p, TAAPos&amp; aaPos,</div>
+<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;            <span class="keyword">typename</span> <a class="code" href="structug_1_1_grid_1_1traits.html#a1bd114991c12becc6ca48862967dd9f2">Grid::traits&lt;typename TGeomObj::side&gt;::callback</a> cbRegionBoundary)</div>
+<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;{</div>
+<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> <a class="code" href="structug_1_1_grid_1_1traits.html#a9977a8ea65a1f2b0e2a064d992babbb9">Grid::traits&lt;TGeomObj&gt;::iterator</a> TIter;</div>
+<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160; </div>
+<div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;  <span class="keywordflow">if</span>(!sel.<a class="code" href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">grid</a>())</div>
+<div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160; </div>
+<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;  <a class="code" href="classug_1_1_grid.html">Grid</a>&amp; g = *sel.<a class="code" href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">grid</a>();</div>
 <div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160; </div>
-<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;  std::vector&lt;Vertex*&gt; junctionPoints;</div>
-<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160; </div>
-<div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;  grid.<a class="code" href="classug_1_1_grid.html#a9d45fe5cb040ee7e1be8f683f257790d">begin_marking</a>();</div>
-<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160; </div>
-<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;  <span class="keywordflow">for</span>(<a class="code" href="namespaceug.html#a499d06e0979bcf1e0eec2d93e1cb44ce">EdgeIterator</a> eiter = grid.<a class="code" href="classug_1_1_grid.html#ac61deaa5a86f28e8e78fa481467f5d45">begin</a>&lt;<a class="code" href="classug_1_1_edge.html">Edge</a>&gt;(); eiter != grid.<a class="code" href="classug_1_1_grid.html#aecec2b9e3e45241347497a58de7aa13a">end</a>&lt;<a class="code" href="classug_1_1_edge.html">Edge</a>&gt;(); ++eiter){</div>
-<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;    <span class="keywordflow">if</span>(grid.<a class="code" href="classug_1_1_grid.html#a448f44e49cf1facf5346d9ca8b449337">is_marked</a>(*eiter))</div>
-<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;      <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160; </div>
-<div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;    <span class="keywordtype">bool</span> curChainIsClosed = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;    <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> curChainLength = 0;</div>
-<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160; </div>
-<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;    curChain.clear();</div>
-<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;    junctionPoints.clear();</div>
-<div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160;    </div>
-<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;    nextEdges.push(*eiter);</div>
-<div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;    grid.<a class="code" href="classug_1_1_grid.html#a886c89b50e8f2980bfcdf74e65b23683">mark</a>(*eiter);</div>
-<div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160; </div>
-<div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;    <span class="keywordflow">while</span>(!nextEdges.empty()){</div>
-<div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160;      <a class="code" href="classug_1_1_edge.html">Edge</a>* e = nextEdges.front();</div>
-<div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160;      nextEdges.pop();</div>
-<div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160;      </div>
-<div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;      curChainLength += <a class="code" href="group__lib__grid__algorithms__edge__util.html#gae641a616a9dade33b7435c7e1f98fe0d">EdgeLength</a>(e, aaPos);</div>
-<div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;      <span class="keywordflow">if</span>(curChainLength &lt;= maxLength)</div>
-<div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;        curChain.push_back(e);</div>
-<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160; </div>
-<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;      <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> ivrt = 0; ivrt &lt; 2; ++ivrt){</div>
-<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;        <a class="code" href="classug_1_1_vertex.html">Vertex</a>* vrt = e-&gt;<a class="code" href="classug_1_1_edge_vertices.html#a0f2ec2644877a1354489544f43c71206">vertex</a>(ivrt);</div>
-<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;        grid.<a class="code" href="classug_1_1_grid.html#acfb4b5a6a7a0d46df0bdd25bbe55e74b">associated_elements</a>(edges, vrt);</div>
-<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;        <span class="keywordflow">if</span>(edges.<a class="code" href="classug_1_1_pointer_const_array.html#a4f421ad36ddde79f62d80a4f1a633dc0">size</a>() &lt; 2)</div>
-<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;          curChainIsClosed = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(edges.<a class="code" href="classug_1_1_pointer_const_array.html#a4f421ad36ddde79f62d80a4f1a633dc0">size</a>() == 2){</div>
-<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;          <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> iedge = 0; iedge &lt; 2; ++iedge){</div>
-<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;            <a class="code" href="classug_1_1_edge.html">Edge</a>* nextEdge = edges[iedge];</div>
-<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;            <span class="keywordflow">if</span>(!grid.<a class="code" href="classug_1_1_grid.html#a448f44e49cf1facf5346d9ca8b449337">is_marked</a>(nextEdge)){</div>
-<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;              grid.<a class="code" href="classug_1_1_grid.html#a886c89b50e8f2980bfcdf74e65b23683">mark</a>(nextEdge);</div>
-<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;              nextEdges.push(nextEdge);</div>
-<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;            }</div>
-<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;          }</div>
-<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;        }</div>
-<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;        <span class="keywordflow">else</span>{</div>
-<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;          junctionPoints.push_back(vrt);</div>
-<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;        }</div>
-<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;      }</div>
-<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;    }</div>
+<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;<span class="comment">//  first try to find the element which contains p</span></div>
+<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;  TGeomObj* startElem = NULL;</div>
+<div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;  <span class="keywordflow">for</span>(TIter iter = g.<a class="code" href="classug_1_1_grid.html#ac61deaa5a86f28e8e78fa481467f5d45">begin</a>&lt;TGeomObj&gt;(); iter != g.<a class="code" href="classug_1_1_grid.html#aecec2b9e3e45241347497a58de7aa13a">end</a>&lt;TGeomObj&gt;(); ++iter){</div>
+<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="group__lib__grid__algorithms__edge__util.html#gaed91ccbc1b4b95c2ef09c3f79aabd6ab">ContainsPoint</a>(*iter, p, aaPos)){</div>
+<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;      startElem = *iter;</div>
+<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;      <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;    }</div>
+<div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;  }</div>
+<div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160; </div>
+<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;  <span class="keywordflow">if</span>(!startElem)</div>
+<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160; </div>
+<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;  sel.<a class="code" href="classug_1_1_selector.html#a4c9de9f499200372a79af3d59680c2f1">clear</a>&lt;TGeomObj&gt;();</div>
+<div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160;  sel.<a class="code" href="classug_1_1_i_selector.html#a363d594b7adf4196fccc0d6afd24f542">select</a>(startElem);</div>
+<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;  SelectionFill&lt;TGeomObj&gt;(sel, cbRegionBoundary);</div>
+<div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160; </div>
+<div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;}</div>
+<div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160; </div>
+<div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> TAAPos&gt;</div>
+<div class="line"><a name="l00673"></a><span class="lineno"><a class="line" href="group__lib__grid__algorithms__selection__util.html#gae74e88e4c32326bebcab322baa9416bf">  673</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__lib__grid__algorithms__selection__util.html#gae74e88e4c32326bebcab322baa9416bf">SelectShortPolychains</a>(<a class="code" href="classug_1_1_i_selector.html">ISelector</a>&amp; sel, <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> maxLength, <span class="keywordtype">bool</span> closedChainsOnly,</div>
+<div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;               TAAPos aaPos)</div>
+<div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;{</div>
+<div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;  <span class="keywordflow">if</span>(!sel.<a class="code" href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">grid</a>())</div>
+<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;    <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;  <a class="code" href="classug_1_1_grid.html">Grid</a>&amp; grid = *sel.<a class="code" href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">grid</a>();</div>
+<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160; </div>
+<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;<span class="comment">//  we&#39;ll collect all contained short polychains in this vector before deciding</span></div>
+<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;<span class="comment">//  to select them or not. If a polychain is already longer than maxLength</span></div>
+<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;<span class="comment">//  we won&#39;t add its edges to the vector</span></div>
+<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;  std::vector&lt;Edge*&gt; curChain;</div>
+<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;  std::queue&lt;Edge*&gt; nextEdges;</div>
+<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;  <a class="code" href="classug_1_1_pointer_const_array.html">Grid::edge_traits::secure_container</a> edges;</div>
+<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160; </div>
+<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;  std::vector&lt;Vertex*&gt; junctionPoints;</div>
+<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160; </div>
+<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;  grid.<a class="code" href="classug_1_1_grid.html#a9d45fe5cb040ee7e1be8f683f257790d">begin_marking</a>();</div>
+<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160; </div>
+<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;  <span class="keywordflow">for</span>(<a class="code" href="namespaceug.html#a499d06e0979bcf1e0eec2d93e1cb44ce">EdgeIterator</a> eiter = grid.<a class="code" href="classug_1_1_grid.html#ac61deaa5a86f28e8e78fa481467f5d45">begin</a>&lt;<a class="code" href="classug_1_1_edge.html">Edge</a>&gt;(); eiter != grid.<a class="code" href="classug_1_1_grid.html#aecec2b9e3e45241347497a58de7aa13a">end</a>&lt;<a class="code" href="classug_1_1_edge.html">Edge</a>&gt;(); ++eiter){</div>
+<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;    <span class="keywordflow">if</span>(grid.<a class="code" href="classug_1_1_grid.html#a448f44e49cf1facf5346d9ca8b449337">is_marked</a>(*eiter))</div>
+<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;      <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160; </div>
+<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;    <span class="keywordtype">bool</span> curChainIsClosed = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;    <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> curChainLength = 0;</div>
 <div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160; </div>
-<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;    <span class="keywordflow">if</span>((curChainLength &lt;= maxLength)){</div>
-<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;      <span class="keywordflow">if</span>(closedChainsOnly &amp;&amp; curChainIsClosed &amp;&amp; !junctionPoints.empty()){</div>
-<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;      <span class="comment">//  count the number of associated edges of each junction-point</span></div>
-<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;      <span class="comment">//  in curChain. If one is associated with != 2 vertices the chain</span></div>
-<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;      <span class="comment">//  is considered as not closed </span></div>
-<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> ivrt = 0; ivrt &lt; junctionPoints.size(); ++ivrt){</div>
-<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;          <a class="code" href="classug_1_1_vertex.html">Vertex</a>* vrt = junctionPoints[ivrt];</div>
-<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;          <span class="keywordtype">size_t</span> numConnectedEdges = 0;</div>
-<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;          <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> iedge = 0; iedge &lt; curChain.size(); ++iedge){</div>
-<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="group__lib__grid__algorithms__edge__util.html#ga0cce38c830ab3f7e4257d0e62f690868">EdgeContains</a>(curChain[iedge], vrt))</div>
-<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;              ++numConnectedEdges;</div>
-<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;          }</div>
-<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160; </div>
-<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;          <span class="keywordflow">if</span>(numConnectedEdges != 2){</div>
-<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;            curChainIsClosed = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;          }</div>
-<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;        }</div>
-<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160; </div>
-<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;      }</div>
-<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160; </div>
-<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;      <span class="keywordflow">if</span>(curChainIsClosed || !closedChainsOnly)</div>
-<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;        sel.<a class="code" href="classug_1_1_i_selector.html#a363d594b7adf4196fccc0d6afd24f542">select</a>(curChain.begin(), curChain.end());</div>
-<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;    }</div>
-<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;  }</div>
-<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160; </div>
-<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;  grid.<a class="code" href="classug_1_1_grid.html#a0dfadffbcf794fe5136b4a8ba4a86959">end_marking</a>();</div>
-<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;}</div>
-<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160; </div>
-<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> TElem&gt;</div>
-<div class="line"><a name="l00728"></a><span class="lineno"><a class="line" href="group__lib__grid__algorithms__selection__util.html#ga297bcaea7f2f7c9ac2b79f831e1aac9e">  728</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__lib__grid__algorithms__selection__util.html#ga297bcaea7f2f7c9ac2b79f831e1aac9e">SelectLinkedElements</a>(<a class="code" href="classug_1_1_i_selector.html">ISelector</a>&amp; sel,</div>
-<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;      <span class="keyword">typename</span> <a class="code" href="structug_1_1_grid_1_1traits.html#a1bd114991c12becc6ca48862967dd9f2">Grid::traits&lt;TElem&gt;::callback</a> cbIsSelectable,</div>
-<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;      <span class="keyword">typename</span> <a class="code" href="structug_1_1_grid_1_1traits.html#a1bd114991c12becc6ca48862967dd9f2">Grid::traits&lt;typename TElem::side&gt;::callback</a> cbIsTraversable)</div>
-<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;{</div>
-<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;  <span class="keyword">using namespace </span><a class="code" href="namespacestd.html">std</a>;</div>
-<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> <a class="code" href="structug_1_1_grid_1_1traits.html#a9977a8ea65a1f2b0e2a064d992babbb9">Grid::traits&lt;TElem&gt;::iterator</a>  ElemIter;</div>
-<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> TElem::side Side;</div>
-<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160; </div>
-<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;  <span class="keywordflow">if</span>(!sel.<a class="code" href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">grid</a>())</div>
-<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;    <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;  <a class="code" href="classug_1_1_grid.html">Grid</a>&amp; grid = *sel.<a class="code" href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">grid</a>();</div>
-<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;  </div>
-<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;  queue&lt;TElem*&gt; qElems;</div>
-<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;  </div>
-<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;<span class="comment">//  add all currently selected elements to the qElems queue</span></div>
-<div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;  <a class="code" href="classug_1_1_grid_object_collection.html">GridObjectCollection</a> goc = sel.<a class="code" href="classug_1_1_i_selector.html#a06b786148f9caeeb5dbbb005a8f38f3f">get_grid_objects</a>();</div>
-<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i = 0; i &lt; goc.<a class="code" href="classug_1_1_grid_object_collection.html#a739b8981d74007cb22567427f0603dcc">num_levels</a>(); ++i){</div>
-<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;    <span class="keywordflow">for</span>(ElemIter iter = goc.<a class="code" href="classug_1_1_grid_object_collection.html#a27adf57d1074ce4a21655998cd787690">begin</a>&lt;TElem&gt;(i); iter != goc.<a class="code" href="classug_1_1_grid_object_collection.html#a3c2e63747a8e9e0c90e9e281cd49fa42">end</a>&lt;TElem&gt;(i); ++iter)</div>
-<div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;      qElems.push(*iter);</div>
-<div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;  }</div>
-<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;  </div>
-<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;  <span class="keyword">typename</span> <a class="code" href="classug_1_1_pointer_const_array.html">Grid::traits&lt;TElem&gt;::secure_container</a>  nbrs;</div>
-<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;  <span class="keyword">typename</span> <a class="code" href="classug_1_1_pointer_const_array.html">Grid::traits&lt;Side&gt;::secure_container</a> sides;</div>
-<div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;  </div>
-<div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;  <span class="keywordflow">while</span>(!qElems.empty()){</div>
-<div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;    TElem* e = qElems.front();</div>
-<div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;    qElems.pop();</div>
-<div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;    </div>
-<div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;    grid.<a class="code" href="classug_1_1_grid.html#acfb4b5a6a7a0d46df0bdd25bbe55e74b">associated_elements</a>(sides, e);</div>
-<div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;    </div>
-<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i_side = 0; i_side &lt; sides.<a class="code" href="classug_1_1_pointer_const_array.html#a4f421ad36ddde79f62d80a4f1a633dc0">size</a>(); ++i_side){</div>
-<div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;      Side* side = sides[i_side];</div>
-<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;    <span class="comment">//  if stopAtSelectedSides is active and if the side is selected,</span></div>
-<div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;    <span class="comment">//  we won&#39;t traverse it.</span></div>
-<div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;      <span class="keywordflow">if</span>(!cbIsTraversable(side))</div>
-<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;        <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;      </div>
-<div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;    <span class="comment">//  get all neighboring elements of side. Check for each unselected,</span></div>
-<div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;    <span class="comment">//  whether it lies on a boundary. If it does, select it and push it</span></div>
-<div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160;    <span class="comment">//  to the queue.</span></div>
-<div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;      grid.<a class="code" href="classug_1_1_grid.html#acfb4b5a6a7a0d46df0bdd25bbe55e74b">associated_elements</a>(nbrs, side);</div>
-<div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160;      </div>
-<div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160;      <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i_nbr = 0; i_nbr &lt; nbrs.<a class="code" href="classug_1_1_pointer_const_array.html#a4f421ad36ddde79f62d80a4f1a633dc0">size</a>(); ++i_nbr){</div>
-<div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;        TElem* nbr = nbrs[i_nbr];</div>
-<div class="line"><a name="l00772"></a><span class="lineno">  772</span>&#160;        <span class="keywordflow">if</span>(sel.<a class="code" href="classug_1_1_i_selector.html#a114fe907dd506fb701eaadaa713e24d7">is_selected</a>(nbr))</div>
-<div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;          <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;        <span class="keywordflow">if</span>(!cbIsSelectable(nbr))</div>
-<div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;          <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;        </div>
-<div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;      <span class="comment">//  we found a new linked boundary element</span></div>
-<div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;        sel.<a class="code" href="classug_1_1_i_selector.html#a363d594b7adf4196fccc0d6afd24f542">select</a>(nbr);</div>
-<div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;        qElems.push(nbr);</div>
-<div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;      }</div>
-<div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;    }</div>
-<div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;  }</div>
-<div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;}</div>
-<div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160; </div>
-<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> TAAPosVRT&gt;</div>
-<div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;<a class="code" href="group__ugbase__common.html#ga6a442be2e75e98247f82d1aa90a06aac">UG_API</a></div>
-<div class="line"><a name="l00787"></a><span class="lineno"><a class="line" href="group__lib__grid__algorithms__selection__util.html#gaa60d04ed2f5ef009aadb2365a39eb96d">  787</a></span>&#160;<a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> <a class="code" href="group__domain__bridge.html#ga92317ceec1e4b3340d0956d8709024e4">FaceArea</a>(<a class="code" href="classug_1_1_i_selector.html">ISelector</a>&amp; sel, TAAPosVRT&amp; aaPos)</div>
-<div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;{</div>
-<div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;  <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> sum = 0.;</div>
-<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160; </div>
-<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;  <span class="keywordflow">if</span>(!sel.<a class="code" href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">grid</a>()) {</div>
-<div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;    <a class="code" href="group__ugbase__common.html#gaa945a085bdd4070ca7446c50aec1f20c">UG_WARNING</a>(<span class="stringliteral">&quot;A grid has to be associated with the selector!&quot;</span>);</div>
-<div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160;    <span class="keywordflow">return</span> sum;</div>
-<div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;  }</div>
-<div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160; </div>
-<div class="line"><a name="l00796"></a><span class="lineno">  796</span>&#160;  <span class="keyword">typedef</span> <a class="code" href="structug_1_1_grid_1_1traits.html#a73e2fcb5139de065fbeba2fe75f859ae">Grid::traits&lt;Face&gt;::const_iterator</a> FaceIter;</div>
-<div class="line"><a name="l00797"></a><span class="lineno">  797</span>&#160;  <a class="code" href="classug_1_1_grid_object_collection.html">GridObjectCollection</a> goc = sel.<a class="code" href="classug_1_1_i_selector.html#a06b786148f9caeeb5dbbb005a8f38f3f">get_grid_objects</a>();</div>
-<div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160; </div>
-<div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i = 0; i &lt; goc.<a class="code" href="classug_1_1_grid_object_collection.html#a739b8981d74007cb22567427f0603dcc">num_levels</a>(); ++i)</div>
-<div class="line"><a name="l00800"></a><span class="lineno">  800</span>&#160;    <span class="keywordflow">for</span>(FaceIter iter = goc.<a class="code" href="classug_1_1_grid_object_collection.html#a27adf57d1074ce4a21655998cd787690">begin</a>&lt;<a class="code" href="classug_1_1_face.html">Face</a>&gt;(i); iter != goc.<a class="code" href="classug_1_1_grid_object_collection.html#a3c2e63747a8e9e0c90e9e281cd49fa42">end</a>&lt;<a class="code" href="classug_1_1_face.html">Face</a>&gt;(i); ++iter)</div>
-<div class="line"><a name="l00801"></a><span class="lineno">  801</span>&#160;      sum += <a class="code" href="group__domain__bridge.html#ga92317ceec1e4b3340d0956d8709024e4">FaceArea</a>(*iter, aaPos);</div>
-<div class="line"><a name="l00802"></a><span class="lineno">  802</span>&#160; </div>
-<div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160;  <span class="keywordflow">return</span> sum;</div>
-<div class="line"><a name="l00804"></a><span class="lineno">  804</span>&#160;}</div>
-<div class="line"><a name="l00805"></a><span class="lineno">  805</span>&#160; </div>
-<div class="line"><a name="l00806"></a><span class="lineno">  806</span>&#160;}<span class="comment">// end of namespace</span></div>
-<div class="line"><a name="l00807"></a><span class="lineno">  807</span>&#160; </div>
-<div class="line"><a name="l00808"></a><span class="lineno">  808</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;    curChain.clear();</div>
+<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;    junctionPoints.clear();</div>
+<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;    </div>
+<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;    nextEdges.push(*eiter);</div>
+<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;    grid.<a class="code" href="classug_1_1_grid.html#a886c89b50e8f2980bfcdf74e65b23683">mark</a>(*eiter);</div>
+<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160; </div>
+<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;    <span class="keywordflow">while</span>(!nextEdges.empty()){</div>
+<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;      <a class="code" href="classug_1_1_edge.html">Edge</a>* e = nextEdges.front();</div>
+<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;      nextEdges.pop();</div>
+<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;      </div>
+<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;      curChainLength += <a class="code" href="group__lib__grid__algorithms__edge__util.html#gae641a616a9dade33b7435c7e1f98fe0d">EdgeLength</a>(e, aaPos);</div>
+<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;      <span class="keywordflow">if</span>(curChainLength &lt;= maxLength)</div>
+<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;        curChain.push_back(e);</div>
+<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160; </div>
+<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;      <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> ivrt = 0; ivrt &lt; 2; ++ivrt){</div>
+<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;        <a class="code" href="classug_1_1_vertex.html">Vertex</a>* vrt = e-&gt;<a class="code" href="classug_1_1_edge_vertices.html#a0f2ec2644877a1354489544f43c71206">vertex</a>(ivrt);</div>
+<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;        grid.<a class="code" href="classug_1_1_grid.html#acfb4b5a6a7a0d46df0bdd25bbe55e74b">associated_elements</a>(edges, vrt);</div>
+<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;        <span class="keywordflow">if</span>(edges.<a class="code" href="classug_1_1_pointer_const_array.html#a4f421ad36ddde79f62d80a4f1a633dc0">size</a>() &lt; 2)</div>
+<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;          curChainIsClosed = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(edges.<a class="code" href="classug_1_1_pointer_const_array.html#a4f421ad36ddde79f62d80a4f1a633dc0">size</a>() == 2){</div>
+<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;          <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> iedge = 0; iedge &lt; 2; ++iedge){</div>
+<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;            <a class="code" href="classug_1_1_edge.html">Edge</a>* nextEdge = edges[iedge];</div>
+<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;            <span class="keywordflow">if</span>(!grid.<a class="code" href="classug_1_1_grid.html#a448f44e49cf1facf5346d9ca8b449337">is_marked</a>(nextEdge)){</div>
+<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;              grid.<a class="code" href="classug_1_1_grid.html#a886c89b50e8f2980bfcdf74e65b23683">mark</a>(nextEdge);</div>
+<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;              nextEdges.push(nextEdge);</div>
+<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;            }</div>
+<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;          }</div>
+<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;        }</div>
+<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;        <span class="keywordflow">else</span>{</div>
+<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;          junctionPoints.push_back(vrt);</div>
+<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;        }</div>
+<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;      }</div>
+<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;    }</div>
+<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160; </div>
+<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;    <span class="keywordflow">if</span>((curChainLength &lt;= maxLength)){</div>
+<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;      <span class="keywordflow">if</span>(closedChainsOnly &amp;&amp; curChainIsClosed &amp;&amp; !junctionPoints.empty()){</div>
+<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;      <span class="comment">//  count the number of associated edges of each junction-point</span></div>
+<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;      <span class="comment">//  in curChain. If one is associated with != 2 vertices the chain</span></div>
+<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;      <span class="comment">//  is considered as not closed </span></div>
+<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> ivrt = 0; ivrt &lt; junctionPoints.size(); ++ivrt){</div>
+<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;          <a class="code" href="classug_1_1_vertex.html">Vertex</a>* vrt = junctionPoints[ivrt];</div>
+<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;          <span class="keywordtype">size_t</span> numConnectedEdges = 0;</div>
+<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;          <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> iedge = 0; iedge &lt; curChain.size(); ++iedge){</div>
+<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="group__lib__grid__algorithms__edge__util.html#ga0cce38c830ab3f7e4257d0e62f690868">EdgeContains</a>(curChain[iedge], vrt))</div>
+<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;              ++numConnectedEdges;</div>
+<div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;          }</div>
+<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160; </div>
+<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;          <span class="keywordflow">if</span>(numConnectedEdges != 2){</div>
+<div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;            curChainIsClosed = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;          }</div>
+<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;        }</div>
+<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160; </div>
+<div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;      }</div>
+<div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160; </div>
+<div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;      <span class="keywordflow">if</span>(curChainIsClosed || !closedChainsOnly)</div>
+<div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;        sel.<a class="code" href="classug_1_1_i_selector.html#a363d594b7adf4196fccc0d6afd24f542">select</a>(curChain.begin(), curChain.end());</div>
+<div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;    }</div>
+<div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;  }</div>
+<div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160; </div>
+<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;  grid.<a class="code" href="classug_1_1_grid.html#a0dfadffbcf794fe5136b4a8ba4a86959">end_marking</a>();</div>
+<div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;}</div>
+<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160; </div>
+<div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> TElem&gt;</div>
+<div class="line"><a name="l00762"></a><span class="lineno"><a class="line" href="group__lib__grid__algorithms__selection__util.html#ga297bcaea7f2f7c9ac2b79f831e1aac9e">  762</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__lib__grid__algorithms__selection__util.html#ga297bcaea7f2f7c9ac2b79f831e1aac9e">SelectLinkedElements</a>(<a class="code" href="classug_1_1_i_selector.html">ISelector</a>&amp; sel,</div>
+<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;      <span class="keyword">typename</span> <a class="code" href="structug_1_1_grid_1_1traits.html#a1bd114991c12becc6ca48862967dd9f2">Grid::traits&lt;TElem&gt;::callback</a> cbIsSelectable,</div>
+<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;      <span class="keyword">typename</span> <a class="code" href="structug_1_1_grid_1_1traits.html#a1bd114991c12becc6ca48862967dd9f2">Grid::traits&lt;typename TElem::side&gt;::callback</a> cbIsTraversable)</div>
+<div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;{</div>
+<div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;  <span class="keyword">using namespace </span><a class="code" href="namespacestd.html">std</a>;</div>
+<div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> <a class="code" href="structug_1_1_grid_1_1traits.html#a9977a8ea65a1f2b0e2a064d992babbb9">Grid::traits&lt;TElem&gt;::iterator</a>  ElemIter;</div>
+<div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">typename</span> TElem::side Side;</div>
+<div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160; </div>
+<div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160;  <span class="keywordflow">if</span>(!sel.<a class="code" href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">grid</a>())</div>
+<div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;    <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00772"></a><span class="lineno">  772</span>&#160;  <a class="code" href="classug_1_1_grid.html">Grid</a>&amp; grid = *sel.<a class="code" href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">grid</a>();</div>
+<div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;  </div>
+<div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;  queue&lt;TElem*&gt; qElems;</div>
+<div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;  </div>
+<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;<span class="comment">//  add all currently selected elements to the qElems queue</span></div>
+<div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;  <a class="code" href="classug_1_1_grid_object_collection.html">GridObjectCollection</a> goc = sel.<a class="code" href="classug_1_1_i_selector.html#a06b786148f9caeeb5dbbb005a8f38f3f">get_grid_objects</a>();</div>
+<div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i = 0; i &lt; goc.<a class="code" href="classug_1_1_grid_object_collection.html#a739b8981d74007cb22567427f0603dcc">num_levels</a>(); ++i){</div>
+<div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;    <span class="keywordflow">for</span>(ElemIter iter = goc.<a class="code" href="classug_1_1_grid_object_collection.html#a27adf57d1074ce4a21655998cd787690">begin</a>&lt;TElem&gt;(i); iter != goc.<a class="code" href="classug_1_1_grid_object_collection.html#a3c2e63747a8e9e0c90e9e281cd49fa42">end</a>&lt;TElem&gt;(i); ++iter)</div>
+<div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;      qElems.push(*iter);</div>
+<div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;  }</div>
+<div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;  </div>
+<div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;  <span class="keyword">typename</span> <a class="code" href="classug_1_1_pointer_const_array.html">Grid::traits&lt;TElem&gt;::secure_container</a>  nbrs;</div>
+<div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;  <span class="keyword">typename</span> <a class="code" href="classug_1_1_pointer_const_array.html">Grid::traits&lt;Side&gt;::secure_container</a> sides;</div>
+<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;  </div>
+<div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;  <span class="keywordflow">while</span>(!qElems.empty()){</div>
+<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;    TElem* e = qElems.front();</div>
+<div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;    qElems.pop();</div>
+<div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;    </div>
+<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;    grid.<a class="code" href="classug_1_1_grid.html#acfb4b5a6a7a0d46df0bdd25bbe55e74b">associated_elements</a>(sides, e);</div>
+<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;    </div>
+<div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i_side = 0; i_side &lt; sides.<a class="code" href="classug_1_1_pointer_const_array.html#a4f421ad36ddde79f62d80a4f1a633dc0">size</a>(); ++i_side){</div>
+<div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160;      Side* side = sides[i_side];</div>
+<div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;    <span class="comment">//  if stopAtSelectedSides is active and if the side is selected,</span></div>
+<div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160;    <span class="comment">//  we won&#39;t traverse it.</span></div>
+<div class="line"><a name="l00796"></a><span class="lineno">  796</span>&#160;      <span class="keywordflow">if</span>(!cbIsTraversable(side))</div>
+<div class="line"><a name="l00797"></a><span class="lineno">  797</span>&#160;        <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160;      </div>
+<div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160;    <span class="comment">//  get all neighboring elements of side. Check for each unselected,</span></div>
+<div class="line"><a name="l00800"></a><span class="lineno">  800</span>&#160;    <span class="comment">//  whether it lies on a boundary. If it does, select it and push it</span></div>
+<div class="line"><a name="l00801"></a><span class="lineno">  801</span>&#160;    <span class="comment">//  to the queue.</span></div>
+<div class="line"><a name="l00802"></a><span class="lineno">  802</span>&#160;      grid.<a class="code" href="classug_1_1_grid.html#acfb4b5a6a7a0d46df0bdd25bbe55e74b">associated_elements</a>(nbrs, side);</div>
+<div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160;      </div>
+<div class="line"><a name="l00804"></a><span class="lineno">  804</span>&#160;      <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i_nbr = 0; i_nbr &lt; nbrs.<a class="code" href="classug_1_1_pointer_const_array.html#a4f421ad36ddde79f62d80a4f1a633dc0">size</a>(); ++i_nbr){</div>
+<div class="line"><a name="l00805"></a><span class="lineno">  805</span>&#160;        TElem* nbr = nbrs[i_nbr];</div>
+<div class="line"><a name="l00806"></a><span class="lineno">  806</span>&#160;        <span class="keywordflow">if</span>(sel.<a class="code" href="classug_1_1_i_selector.html#a114fe907dd506fb701eaadaa713e24d7">is_selected</a>(nbr))</div>
+<div class="line"><a name="l00807"></a><span class="lineno">  807</span>&#160;          <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00808"></a><span class="lineno">  808</span>&#160;        <span class="keywordflow">if</span>(!cbIsSelectable(nbr))</div>
+<div class="line"><a name="l00809"></a><span class="lineno">  809</span>&#160;          <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00810"></a><span class="lineno">  810</span>&#160;        </div>
+<div class="line"><a name="l00811"></a><span class="lineno">  811</span>&#160;      <span class="comment">//  we found a new linked boundary element</span></div>
+<div class="line"><a name="l00812"></a><span class="lineno">  812</span>&#160;        sel.<a class="code" href="classug_1_1_i_selector.html#a363d594b7adf4196fccc0d6afd24f542">select</a>(nbr);</div>
+<div class="line"><a name="l00813"></a><span class="lineno">  813</span>&#160;        qElems.push(nbr);</div>
+<div class="line"><a name="l00814"></a><span class="lineno">  814</span>&#160;      }</div>
+<div class="line"><a name="l00815"></a><span class="lineno">  815</span>&#160;    }</div>
+<div class="line"><a name="l00816"></a><span class="lineno">  816</span>&#160;  }</div>
+<div class="line"><a name="l00817"></a><span class="lineno">  817</span>&#160;}</div>
+<div class="line"><a name="l00818"></a><span class="lineno">  818</span>&#160; </div>
+<div class="line"><a name="l00819"></a><span class="lineno">  819</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> TAAPosVRT&gt;</div>
+<div class="line"><a name="l00820"></a><span class="lineno">  820</span>&#160;<a class="code" href="group__ugbase__common.html#ga6a442be2e75e98247f82d1aa90a06aac">UG_API</a></div>
+<div class="line"><a name="l00821"></a><span class="lineno"><a class="line" href="group__lib__grid__algorithms__selection__util.html#gaa60d04ed2f5ef009aadb2365a39eb96d">  821</a></span>&#160;<a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> <a class="code" href="group__domain__bridge.html#ga92317ceec1e4b3340d0956d8709024e4">FaceArea</a>(<a class="code" href="classug_1_1_i_selector.html">ISelector</a>&amp; sel, TAAPosVRT&amp; aaPos)</div>
+<div class="line"><a name="l00822"></a><span class="lineno">  822</span>&#160;{</div>
+<div class="line"><a name="l00823"></a><span class="lineno">  823</span>&#160;  <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> sum = 0.;</div>
+<div class="line"><a name="l00824"></a><span class="lineno">  824</span>&#160; </div>
+<div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160;  <span class="keywordflow">if</span>(!sel.<a class="code" href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">grid</a>()) {</div>
+<div class="line"><a name="l00826"></a><span class="lineno">  826</span>&#160;    <a class="code" href="group__ugbase__common.html#gaa945a085bdd4070ca7446c50aec1f20c">UG_WARNING</a>(<span class="stringliteral">&quot;A grid has to be associated with the selector!&quot;</span>);</div>
+<div class="line"><a name="l00827"></a><span class="lineno">  827</span>&#160;    <span class="keywordflow">return</span> sum;</div>
+<div class="line"><a name="l00828"></a><span class="lineno">  828</span>&#160;  }</div>
+<div class="line"><a name="l00829"></a><span class="lineno">  829</span>&#160; </div>
+<div class="line"><a name="l00830"></a><span class="lineno">  830</span>&#160;  <span class="keyword">typedef</span> <a class="code" href="structug_1_1_grid_1_1traits.html#a73e2fcb5139de065fbeba2fe75f859ae">Grid::traits&lt;Face&gt;::const_iterator</a> FaceIter;</div>
+<div class="line"><a name="l00831"></a><span class="lineno">  831</span>&#160;  <a class="code" href="classug_1_1_grid_object_collection.html">GridObjectCollection</a> goc = sel.<a class="code" href="classug_1_1_i_selector.html#a06b786148f9caeeb5dbbb005a8f38f3f">get_grid_objects</a>();</div>
+<div class="line"><a name="l00832"></a><span class="lineno">  832</span>&#160; </div>
+<div class="line"><a name="l00833"></a><span class="lineno">  833</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i = 0; i &lt; goc.<a class="code" href="classug_1_1_grid_object_collection.html#a739b8981d74007cb22567427f0603dcc">num_levels</a>(); ++i)</div>
+<div class="line"><a name="l00834"></a><span class="lineno">  834</span>&#160;    <span class="keywordflow">for</span>(FaceIter iter = goc.<a class="code" href="classug_1_1_grid_object_collection.html#a27adf57d1074ce4a21655998cd787690">begin</a>&lt;<a class="code" href="classug_1_1_face.html">Face</a>&gt;(i); iter != goc.<a class="code" href="classug_1_1_grid_object_collection.html#a3c2e63747a8e9e0c90e9e281cd49fa42">end</a>&lt;<a class="code" href="classug_1_1_face.html">Face</a>&gt;(i); ++iter)</div>
+<div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;      sum += <a class="code" href="group__domain__bridge.html#ga92317ceec1e4b3340d0956d8709024e4">FaceArea</a>(*iter, aaPos);</div>
+<div class="line"><a name="l00836"></a><span class="lineno">  836</span>&#160; </div>
+<div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160;  <span class="keywordflow">return</span> sum;</div>
+<div class="line"><a name="l00838"></a><span class="lineno">  838</span>&#160;}</div>
+<div class="line"><a name="l00839"></a><span class="lineno">  839</span>&#160; </div>
+<div class="line"><a name="l00840"></a><span class="lineno">  840</span>&#160;}<span class="comment">// end of namespace</span></div>
+<div class="line"><a name="l00841"></a><span class="lineno">  841</span>&#160; </div>
+<div class="line"><a name="l00842"></a><span class="lineno">  842</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="aclassug_1_1_i_selector_html_ad6a357e415d93d79798c415f3aeb1a71"><div class="ttname"><a href="classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71">ug::ISelector::status_t</a></div><div class="ttdeci">byte status_t</div><div class="ttdef"><b>Definition:</b> selector_interface.h:128</div></div>
 <div class="ttc" id="aclassug_1_1_grid_object_collection_html"><div class="ttname"><a href="classug_1_1_grid_object_collection.html">ug::GridObjectCollection</a></div><div class="ttdoc">a helper class that holds a collection of possibly unconnected geometric-objects.</div><div class="ttdef"><b>Definition:</b> grid_object_collection.h:95</div></div>
 <div class="ttc" id="agroup__lib__grid__algorithms__selection__util_html_gaac50cb8106ea84388389da555fcc24a0"><div class="ttname"><a href="group__lib__grid__algorithms__selection__util.html#gaac50cb8106ea84388389da555fcc24a0">ug::ExtendSelectionInDirection</a></div><div class="ttdeci">UG_API void ExtendSelectionInDirection(TSelector &amp;sel, size_t extSize, const typename TAAPos::ValueType &amp;dir, number minAngle, number maxAngle, const TAAPos &amp;aaPos, ISelector::status_t status=ISelector::SELECTED)</div><div class="ttdoc">extends the selection to neighbours of selected elements in the given direction.</div><div class="ttdef"><b>Definition:</b> selection_util_impl.hpp:358</div></div>
-<div class="ttc" id="agroup__lib__grid__algorithms__selection__util_html_gaaeea5ff068776ffbae63185458468c7c"><div class="ttname"><a href="group__lib__grid__algorithms__selection__util.html#gaaeea5ff068776ffbae63185458468c7c">ug::SelectSubsetElements</a></div><div class="ttdeci">void SelectSubsetElements(ISelector &amp;sel, ISubsetHandler &amp;sh, int subsetIndex, ISelector::status_t status=ISelector::SELECTED)</div><div class="ttdoc">selects all elements of the given type in the given subset</div><div class="ttdef"><b>Definition:</b> selection_util_impl.hpp:595</div></div>
+<div class="ttc" id="agroup__lib__grid__algorithms__selection__util_html_gaaeea5ff068776ffbae63185458468c7c"><div class="ttname"><a href="group__lib__grid__algorithms__selection__util.html#gaaeea5ff068776ffbae63185458468c7c">ug::SelectSubsetElements</a></div><div class="ttdeci">void SelectSubsetElements(ISelector &amp;sel, ISubsetHandler &amp;sh, int subsetIndex, ISelector::status_t status=ISelector::SELECTED)</div><div class="ttdoc">selects all elements of the given type in the given subset</div><div class="ttdef"><b>Definition:</b> selection_util_impl.hpp:629</div></div>
 <div class="ttc" id="aclassug_1_1_grid_html_ab9a41c2c814038390f068d76a4792af3"><div class="ttname"><a href="classug_1_1_grid.html#ab9a41c2c814038390f068d76a4792af3">ug::Grid::associated_faces_end</a></div><div class="ttdeci">AssociatedFaceIterator associated_faces_end(Vertex *vrt)</div><div class="ttdoc">DO NOT INVOKE! Subject to change.</div><div class="ttdef"><b>Definition:</b> grid.cpp:954</div></div>
+<div class="ttc" id="agroup__lib__grid__algorithms__selection__util_html_ga32a63523dd300d0e48330f1b77ded30b"><div class="ttname"><a href="group__lib__grid__algorithms__selection__util.html#ga32a63523dd300d0e48330f1b77ded30b">ug::SelectSubsetEdgesByDirection</a></div><div class="ttdeci">void SelectSubsetEdgesByDirection(Selector &amp;sel, SubsetHandler &amp;sh, int subsetIndex, TAAPos &amp;aaPos, const vector3 &amp;dir, number minDeviationAngle, number maxDeviationAngle, bool selectFlipped)</div><div class="ttdoc">Selects all subset edges that face a given direction.</div><div class="ttdef"><b>Definition:</b> selection_util_impl.hpp:464</div></div>
 <div class="ttc" id="aclassug_1_1_grid_object_collection_html_a739b8981d74007cb22567427f0603dcc"><div class="ttname"><a href="classug_1_1_grid_object_collection.html#a739b8981d74007cb22567427f0603dcc">ug::GridObjectCollection::num_levels</a></div><div class="ttdeci">size_t num_levels() const</div><div class="ttdoc">returns the number of levels</div><div class="ttdef"><b>Definition:</b> grid_object_collection.h:128</div></div>
 <div class="ttc" id="agroup__lib__grid__algorithms__neighborhood__util_html_ga59988a8aa738a375a58aa9ce74d7d1e3"><div class="ttname"><a href="group__lib__grid__algorithms__neighborhood__util.html#ga59988a8aa738a375a58aa9ce74d7d1e3">ug::CollectAssociated</a></div><div class="ttdeci">UG_API void CollectAssociated(std::vector&lt; Vertex * &gt; &amp;vVertexOut, Grid &amp;grid, GridObject *obj, bool clearContainer=true)</div><div class="ttdef"><b>Definition:</b> grid_util_impl.hpp:160</div></div>
 <div class="ttc" id="agroup__domain__bridge_html_ga92317ceec1e4b3340d0956d8709024e4"><div class="ttname"><a href="group__domain__bridge.html#ga92317ceec1e4b3340d0956d8709024e4">ug::FaceArea</a></div><div class="ttdeci">static number FaceArea(TDomain &amp;dom, ISubsetHandler &amp;sh, int si, size_t lvl)</div><div class="ttdef"><b>Definition:</b> domain_bridge.cpp:262</div></div>
@@ -905,11 +939,13 @@ $(document).ready(function(){initNavTree('selection__util__impl_8hpp_source.html
 <div class="ttc" id="aclassug_1_1_selector_html_ac39d53d031cab701baa668a3fe31952d"><div class="ttname"><a href="classug_1_1_selector.html#ac39d53d031cab701baa668a3fe31952d">ug::Selector::edges_begin</a></div><div class="ttdeci">EdgeIterator edges_begin()</div><div class="ttdef"><b>Definition:</b> selector_grid.h:174</div></div>
 <div class="ttc" id="agroup__lib__grid__algorithms__selection__util_html_gab59640a4f6a3143efcd0fd5d690a81a5"><div class="ttname"><a href="group__lib__grid__algorithms__selection__util.html#gab59640a4f6a3143efcd0fd5d690a81a5">ug::TranslateSelection</a></div><div class="ttdeci">void TranslateSelection(Selector &amp;sel, const typename TAAPosVRT::ValueType &amp;offset, TAAPosVRT &amp;aaPos)</div><div class="ttdoc">moves all vertices touching the selection by the specified offset.</div><div class="ttdef"><b>Definition:</b> selection_util_impl.hpp:128</div></div>
 <div class="ttc" id="aclassug_1_1_i_selector_html_a114fe907dd506fb701eaadaa713e24d7"><div class="ttname"><a href="classug_1_1_i_selector.html#a114fe907dd506fb701eaadaa713e24d7">ug::ISelector::is_selected</a></div><div class="ttdeci">bool is_selected(TElem *elem) const</div><div class="ttdoc">returns true if an element is selected</div><div class="ttdef"><b>Definition:</b> selector_interface.h:215</div></div>
+<div class="ttc" id="alg__for__each_8h_html_a155e60cbb5d0e2ae830f735b7211621f"><div class="ttname"><a href="lg__for__each_8h.html#a155e60cbb5d0e2ae830f735b7211621f">lg_for_each_in_subset</a></div><div class="ttdeci">#define lg_for_each_in_subset(_feType, _feVar, _feCon, _feSubset)</div><div class="ttdef"><b>Definition:</b> lg_for_each.h:64</div></div>
 <div class="ttc" id="alg__for__each_8h_html_adfd673aeb3e3dc2596e8950162b600bc"><div class="ttname"><a href="lg__for__each_8h.html#adfd673aeb3e3dc2596e8950162b600bc">lg_for_each</a></div><div class="ttdeci">#define lg_for_each(_feType, _feVar, _feCon)</div><div class="ttdef"><b>Definition:</b> lg_for_each.h:38</div></div>
 <div class="ttc" id="agroup__lib__grid__algorithms__selection__util_html_ga3d0a5db38167bc16ba7e7f1dcec191d4"><div class="ttname"><a href="group__lib__grid__algorithms__selection__util.html#ga3d0a5db38167bc16ba7e7f1dcec191d4">ug::SelectAssociated</a></div><div class="ttdeci">void SelectAssociated(ISelector &amp;sel, TIterator begin, TIterator end, ISelector::status_t status=ISelector::SELECTED)</div><div class="ttdoc">Selects all elements of type TElem, which touch an element between begin and end.</div><div class="ttdef"><b>Definition:</b> selection_util_impl.hpp:209</div></div>
 <div class="ttc" id="aclassug_1_1_selector_html_aa2b57498be205b01f3a617b1e43f44b8"><div class="ttname"><a href="classug_1_1_selector.html#aa2b57498be205b01f3a617b1e43f44b8">ug::Selector::vertices_begin</a></div><div class="ttdeci">VertexIterator vertices_begin()</div><div class="ttdef"><b>Definition:</b> selector_grid.h:172</div></div>
 <div class="ttc" id="agroup__lib__grid__algorithms__selection__util_html_gaeb7f5767ae41c23f5edf7ed089c92bb5"><div class="ttname"><a href="group__lib__grid__algorithms__selection__util.html#gaeb7f5767ae41c23f5edf7ed089c92bb5">ug::SelectEdgesByDirection</a></div><div class="ttdeci">void SelectEdgesByDirection(Selector &amp;sel, TAAPos &amp;aaPos, const vector3 &amp;dir, number minDeviationAngle, number maxDeviationAngle, bool selectFlipped)</div><div class="ttdoc">Selects all edges that face a given direction.</div><div class="ttdef"><b>Definition:</b> selection_util_impl.hpp:431</div></div>
 <div class="ttc" id="aclassug_1_1_grid_html_ae4fba41614633b0b6e56e2bed4cf4e26"><div class="ttname"><a href="classug_1_1_grid.html#ae4fba41614633b0b6e56e2bed4cf4e26">ug::Grid::associated_volumes_end</a></div><div class="ttdeci">AssociatedVolumeIterator associated_volumes_end(Vertex *vrt)</div><div class="ttdoc">DO NOT INVOKE! Subject to change.</div><div class="ttdef"><b>Definition:</b> grid.cpp:1016</div></div>
+<div class="ttc" id="aclassug_1_1_grid_subset_handler_html"><div class="ttname"><a href="classug_1_1_grid_subset_handler.html">ug::GridSubsetHandler</a></div><div class="ttdoc">Partitions elements of a grid into several subsets.</div><div class="ttdef"><b>Definition:</b> subset_handler_grid.h:52</div></div>
 <div class="ttc" id="aclassug_1_1_grid_html_a9b6fe1a67b9fa0d1dcb5b18d8cc23dd9"><div class="ttname"><a href="classug_1_1_grid.html#a9b6fe1a67b9fa0d1dcb5b18d8cc23dd9">ug::Grid::associated_volumes_begin</a></div><div class="ttdeci">AssociatedVolumeIterator associated_volumes_begin(Vertex *vrt)</div><div class="ttdoc">DO NOT INVOKE! Subject to change.</div><div class="ttdef"><b>Definition:</b> grid.cpp:1006</div></div>
 <div class="ttc" id="alg__for__each_8h_html_ae2a0b1e127e668468b449221039b47e7"><div class="ttname"><a href="lg__for__each_8h.html#ae2a0b1e127e668468b449221039b47e7">lg_end_for</a></div><div class="ttdeci">#define lg_end_for</div><div class="ttdef"><b>Definition:</b> lg_for_each.h:88</div></div>
 <div class="ttc" id="aclassug_1_1_grid_object_collection_html_a3c2e63747a8e9e0c90e9e281cd49fa42"><div class="ttname"><a href="classug_1_1_grid_object_collection.html#a3c2e63747a8e9e0c90e9e281cd49fa42">ug::GridObjectCollection::end</a></div><div class="ttdeci">geometry_traits&lt; TGeomObj &gt;::iterator end(size_t level=0)</div><div class="ttdef"><b>Definition:</b> grid_object_collection_impl.hpp:106</div></div>
@@ -925,7 +961,7 @@ $(document).ready(function(){initNavTree('selection__util__impl_8hpp_source.html
 <div class="ttc" id="agroup__lib__grid__algorithms__selection__util_html_gaad1a00f532621a225fea7234a8d73b7f"><div class="ttname"><a href="group__lib__grid__algorithms__selection__util.html#gaad1a00f532621a225fea7234a8d73b7f">ug::SelectBoundaryElements</a></div><div class="ttdeci">void SelectBoundaryElements(ISelector &amp;sel, TElemIterator elemsBegin, TElemIterator elemsEnd)</div><div class="ttdoc">selects elements that lie on the associated grid's boundary</div><div class="ttdef"><b>Definition:</b> selection_util_impl.hpp:326</div></div>
 <div class="ttc" id="aclassug_1_1_selector_html_a7d16bef8b0859562c7850c8a5c72107d"><div class="ttname"><a href="classug_1_1_selector.html#a7d16bef8b0859562c7850c8a5c72107d">ug::Selector::volumes_end</a></div><div class="ttdeci">VolumeIterator volumes_end()</div><div class="ttdef"><b>Definition:</b> selector_grid.h:179</div></div>
 <div class="ttc" id="agroup__lib__grid__algorithms__selection__util_html_gab6c4c8494cf6a4186bad07b3745e7220"><div class="ttname"><a href="group__lib__grid__algorithms__selection__util.html#gab6c4c8494cf6a4186bad07b3745e7220">ug::SelectAssociatedEdges</a></div><div class="ttdeci">void SelectAssociatedEdges(TSelector &amp;sel, TElemIterator elemsBegin, TElemIterator elemsEnd, ISelector::status_t status=ISelector::SELECTED)</div><div class="ttdoc">selects all associated edges of the elements between elemsBegin and elemsEnd</div><div class="ttdef"><b>Definition:</b> selection_util_impl.hpp:244</div></div>
-<div class="ttc" id="agroup__lib__grid__algorithms__edge__util_html_gaed91ccbc1b4b95c2ef09c3f79aabd6ab"><div class="ttname"><a href="group__lib__grid__algorithms__edge__util.html#gaed91ccbc1b4b95c2ef09c3f79aabd6ab">ug::ContainsPoint</a></div><div class="ttdeci">UG_API bool ContainsPoint(const EdgeVertices *e, const vector_t &amp;p, TAAPos aaPos)</div><div class="ttdoc">Returns true if the given point lies on the given edge.</div><div class="ttdef"><b>Definition:</b> edge_util_impl.hpp:512</div></div>
+<div class="ttc" id="agroup__lib__grid__algorithms__edge__util_html_gaed91ccbc1b4b95c2ef09c3f79aabd6ab"><div class="ttname"><a href="group__lib__grid__algorithms__edge__util.html#gaed91ccbc1b4b95c2ef09c3f79aabd6ab">ug::ContainsPoint</a></div><div class="ttdeci">UG_API bool ContainsPoint(const EdgeVertices *e, const vector_t &amp;p, TAAPos aaPos)</div><div class="ttdoc">Returns true if the given point lies on the given edge.</div><div class="ttdef"><b>Definition:</b> edge_util_impl.hpp:513</div></div>
 <div class="ttc" id="anamespaceug_html_afb14ebd4def5f0a60426e46bde434140"><div class="ttname"><a href="namespaceug.html#afb14ebd4def5f0a60426e46bde434140">ug::VolumeIterator</a></div><div class="ttdeci">ElementStorage&lt; Volume &gt;::SectionContainer::iterator VolumeIterator</div><div class="ttdef"><b>Definition:</b> grid_base_object_traits.h:82</div></div>
 <div class="ttc" id="aclassug_1_1_i_selector_html"><div class="ttname"><a href="classug_1_1_i_selector.html">ug::ISelector</a></div><div class="ttdoc">base-implementation of a selector</div><div class="ttdef"><b>Definition:</b> selector_interface.h:125</div></div>
 <div class="ttc" id="astructug_1_1_pointer2_value_html"><div class="ttname"><a href="structug_1_1_pointer2_value.html">ug::Pointer2Value</a></div><div class="ttdef"><b>Definition:</b> metaprogramming_util.h:48</div></div>
@@ -969,7 +1005,7 @@ $(document).ready(function(){initNavTree('selection__util__impl_8hpp_source.html
 <div class="ttc" id="ageom__obj__util_8h_html"><div class="ttname"><a href="geom__obj__util_8h.html">geom_obj_util.h</a></div></div>
 <div class="ttc" id="agroup__ugbase__common_html_ga91ad9478d81a7aaf2593e8d9c3d06a14"><div class="ttname"><a href="group__ugbase__common.html#ga91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></div><div class="ttdeci">unsigned int uint</div><div class="ttdef"><b>Definition:</b> types.h:114</div></div>
 <div class="ttc" id="agroup__lib__grid__algorithms__edge__util_html_ga0cce38c830ab3f7e4257d0e62f690868"><div class="ttname"><a href="group__lib__grid__algorithms__edge__util.html#ga0cce38c830ab3f7e4257d0e62f690868">ug::EdgeContains</a></div><div class="ttdeci">bool EdgeContains(EdgeVertices *e, Vertex *vrt)</div><div class="ttdef"><b>Definition:</b> grid_util_impl.hpp:45</div></div>
-<div class="ttc" id="agroup__lib__grid__algorithms__selection__util_html_ga43c96d1112eb9a413452f5c6dcd1fe74"><div class="ttname"><a href="group__lib__grid__algorithms__selection__util.html#ga43c96d1112eb9a413452f5c6dcd1fe74">ug::SelectAreaBoundary</a></div><div class="ttdeci">void SelectAreaBoundary(ISelector &amp;sel, const TIter begin, const TIter end)</div><div class="ttdoc">selects sides that are only adjacent to one of the given inner elements</div><div class="ttdef"><b>Definition:</b> selection_util_impl.hpp:515</div></div>
+<div class="ttc" id="agroup__lib__grid__algorithms__selection__util_html_ga43c96d1112eb9a413452f5c6dcd1fe74"><div class="ttname"><a href="group__lib__grid__algorithms__selection__util.html#ga43c96d1112eb9a413452f5c6dcd1fe74">ug::SelectAreaBoundary</a></div><div class="ttdeci">void SelectAreaBoundary(ISelector &amp;sel, const TIter begin, const TIter end)</div><div class="ttdoc">selects sides that are only adjacent to one of the given inner elements</div><div class="ttdef"><b>Definition:</b> selection_util_impl.hpp:549</div></div>
 <div class="ttc" id="aclassug_1_1_grid_object_collection_html_a27adf57d1074ce4a21655998cd787690"><div class="ttname"><a href="classug_1_1_grid_object_collection.html#a27adf57d1074ce4a21655998cd787690">ug::GridObjectCollection::begin</a></div><div class="ttdeci">geometry_traits&lt; TGeomObj &gt;::iterator begin(size_t level=0)</div><div class="ttdef"><b>Definition:</b> grid_object_collection_impl.hpp:95</div></div>
 <div class="ttc" id="aclassug_1_1_selector_html_ae9d1e8f13fcbd4d3b51e65b1d539ba74"><div class="ttname"><a href="classug_1_1_selector.html#ae9d1e8f13fcbd4d3b51e65b1d539ba74">ug::Selector::faces_begin</a></div><div class="ttdeci">FaceIterator faces_begin()</div><div class="ttdef"><b>Definition:</b> selector_grid.h:176</div></div>
 <div class="ttc" id="aclassug_1_1_grid_html_a106cc182d347f7dcbb80cb166b9cba4e"><div class="ttname"><a href="classug_1_1_grid.html#a106cc182d347f7dcbb80cb166b9cba4e">ug::Grid::associated_faces_begin</a></div><div class="ttdeci">AssociatedFaceIterator associated_faces_begin(Vertex *vrt)</div><div class="ttdoc">DO NOT INVOKE! Subject to change.</div><div class="ttdef"><b>Definition:</b> grid.cpp:944</div></div>
@@ -977,17 +1013,17 @@ $(document).ready(function(){initNavTree('selection__util__impl_8hpp_source.html
 <div class="ttc" id="aclassug_1_1_grid_html_a682f50e7b838710fc3d4d6af535a2182"><div class="ttname"><a href="classug_1_1_grid.html#a682f50e7b838710fc3d4d6af535a2182">ug::Grid::AssociatedVolumeIterator</a></div><div class="ttdeci">VolumeContainer::iterator AssociatedVolumeIterator</div><div class="ttdoc">used to iterate over associated volumes of vertices, edges and faces</div><div class="ttdef"><b>Definition:</b> grid.h:253</div></div>
 <div class="ttc" id="aclassug_1_1_selector_html_a4c00e8f2c71c368cc542ba0e6f8a0a6e"><div class="ttname"><a href="classug_1_1_selector.html#a4c00e8f2c71c368cc542ba0e6f8a0a6e">ug::Selector::vertices_end</a></div><div class="ttdeci">VertexIterator vertices_end()</div><div class="ttdef"><b>Definition:</b> selector_grid.h:173</div></div>
 <div class="ttc" id="aclassug_1_1_selector_html_a4c9de9f499200372a79af3d59680c2f1"><div class="ttname"><a href="classug_1_1_selector.html#a4c9de9f499200372a79af3d59680c2f1">ug::Selector::clear</a></div><div class="ttdeci">virtual void clear()</div><div class="ttdef"><b>Definition:</b> selector_grid.cpp:155</div></div>
-<div class="ttc" id="agroup__lib__grid__algorithms__selection__util_html_ga8753835a16e0144aa312cc0b9005c4b6"><div class="ttname"><a href="group__lib__grid__algorithms__selection__util.html#ga8753835a16e0144aa312cc0b9005c4b6">ug::SelectInterfaceElements</a></div><div class="ttdeci">void SelectInterfaceElements(ISelector &amp;sel, ISubsetHandler &amp;sh, const TIter begin, const TIter end, bool regardSelectedNbrsOnly=false)</div><div class="ttdoc">Selects elements which are adjacent to higher dimensional elements of different subsets.</div><div class="ttdef"><b>Definition:</b> selection_util_impl.hpp:554</div></div>
+<div class="ttc" id="agroup__lib__grid__algorithms__selection__util_html_ga8753835a16e0144aa312cc0b9005c4b6"><div class="ttname"><a href="group__lib__grid__algorithms__selection__util.html#ga8753835a16e0144aa312cc0b9005c4b6">ug::SelectInterfaceElements</a></div><div class="ttdeci">void SelectInterfaceElements(ISelector &amp;sel, ISubsetHandler &amp;sh, const TIter begin, const TIter end, bool regardSelectedNbrsOnly=false)</div><div class="ttdoc">Selects elements which are adjacent to higher dimensional elements of different subsets.</div><div class="ttdef"><b>Definition:</b> selection_util_impl.hpp:588</div></div>
 <div class="ttc" id="anamespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div><div class="ttdef"><b>Definition:</b> smart_pointer.h:801</div></div>
 <div class="ttc" id="agroup__lib__grid__algorithms__edge__util_html_ga47d8d9dc1634d72a7500de9fe2e1f7a3"><div class="ttname"><a href="group__lib__grid__algorithms__edge__util.html#ga47d8d9dc1634d72a7500de9fe2e1f7a3">ug::CalculateNormal</a></div><div class="ttdeci">int CalculateNormal(vector3 &amp;vNormOut, Grid &amp;grid, Edge *e, Grid::AttachmentAccessor&lt; Vertex, APosition &gt; &amp;aaPos, Grid::AttachmentAccessor&lt; Face, ANormal &gt; *paaNormFACE)</div><div class="ttdoc">Calculates the normal of the given edge.</div><div class="ttdef"><b>Definition:</b> edge_util.cpp:314</div></div>
 <div class="ttc" id="agroup__lib__grid__algorithms__selection__util_html_ga5b7e771a13eff1d7b38ce51d83fe0428"><div class="ttname"><a href="group__lib__grid__algorithms__selection__util.html#ga5b7e771a13eff1d7b38ce51d83fe0428">ug::SelectAssociatedGridObjects</a></div><div class="ttdeci">void SelectAssociatedGridObjects(TSelector &amp;sel, ISelector::status_t status)</div><div class="ttdoc">selects associated geometric objects of selected ones on each level.</div><div class="ttdef"><b>Definition:</b> selection_util.cpp:221</div></div>
 <div class="ttc" id="aclassug_1_1_i_selector_html_a331d94c5fb29966f18a3f24625be0ea5"><div class="ttname"><a href="classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5">ug::ISelector::grid</a></div><div class="ttdeci">Grid * grid() const</div><div class="ttdef"><b>Definition:</b> selector_interface.h:218</div></div>
-<div class="ttc" id="agroup__lib__grid__algorithms__selection__util_html_ga297bcaea7f2f7c9ac2b79f831e1aac9e"><div class="ttname"><a href="group__lib__grid__algorithms__selection__util.html#ga297bcaea7f2f7c9ac2b79f831e1aac9e">ug::SelectLinkedElements</a></div><div class="ttdeci">void SelectLinkedElements(ISelector &amp;sel, typename Grid::traits&lt; TElem &gt;::callback cbIsSelectable=ConsiderAll(), typename Grid::traits&lt; typename TElem::side &gt;::callback cbIsTraversable=ConsiderAll())</div><div class="ttdoc">Repeatedly traverses sides of selected elements and selects associated elements.</div><div class="ttdef"><b>Definition:</b> selection_util_impl.hpp:728</div></div>
+<div class="ttc" id="agroup__lib__grid__algorithms__selection__util_html_ga297bcaea7f2f7c9ac2b79f831e1aac9e"><div class="ttname"><a href="group__lib__grid__algorithms__selection__util.html#ga297bcaea7f2f7c9ac2b79f831e1aac9e">ug::SelectLinkedElements</a></div><div class="ttdeci">void SelectLinkedElements(ISelector &amp;sel, typename Grid::traits&lt; TElem &gt;::callback cbIsSelectable=ConsiderAll(), typename Grid::traits&lt; typename TElem::side &gt;::callback cbIsTraversable=ConsiderAll())</div><div class="ttdoc">Repeatedly traverses sides of selected elements and selects associated elements.</div><div class="ttdef"><b>Definition:</b> selection_util_impl.hpp:762</div></div>
 <div class="ttc" id="agroup__lib__grid__algorithms__selection__util_html_ga859152ce784194858c66fece4699328d"><div class="ttname"><a href="group__lib__grid__algorithms__selection__util.html#ga859152ce784194858c66fece4699328d">ug::AssignSelectionStateToSides</a></div><div class="ttdeci">void AssignSelectionStateToSides(TSelector &amp;sel, bool recursive)</div><div class="ttdoc">Assigns the selection state of selected elements to associated sides.</div><div class="ttdef"><b>Definition:</b> selection_util_impl.hpp:294</div></div>
 <div class="ttc" id="anamespaceug_html_a238c06e12b8d23c6fbdf6a9a6de07032"><div class="ttname"><a href="namespaceug.html#a238c06e12b8d23c6fbdf6a9a6de07032">ug::FaceIterator</a></div><div class="ttdeci">ElementStorage&lt; Face &gt;::SectionContainer::iterator FaceIterator</div><div class="ttdef"><b>Definition:</b> grid_base_object_traits.h:79</div></div>
 <div class="ttc" id="aclassug_1_1_edge_html"><div class="ttname"><a href="classug_1_1_edge.html">ug::Edge</a></div><div class="ttdoc">Base-class for edges.</div><div class="ttdef"><b>Definition:</b> grid_base_objects.h:396</div></div>
-<div class="ttc" id="agroup__lib__grid__algorithms__selection__util_html_ga196e9956b54046cb9c9eb0e7fb35756b"><div class="ttname"><a href="group__lib__grid__algorithms__selection__util.html#ga196e9956b54046cb9c9eb0e7fb35756b">ug::SelectCreaseEdges</a></div><div class="ttdeci">void SelectCreaseEdges(ISelector &amp;sel, TEdgeIterator edgesBegin, TEdgeIterator edgesEnd, number minAngle, APosition aVrtPos, bool ignoreBoundaryEdges=true, ISelector::status_t state=ISelector::SELECTED)</div><div class="ttdoc">Selects edges which at which triangles meet in a large angle.</div><div class="ttdef"><b>Definition:</b> selection_util_impl.hpp:465</div></div>
-<div class="ttc" id="agroup__lib__grid__algorithms__selection__util_html_gae74e88e4c32326bebcab322baa9416bf"><div class="ttname"><a href="group__lib__grid__algorithms__selection__util.html#gae74e88e4c32326bebcab322baa9416bf">ug::SelectShortPolychains</a></div><div class="ttdeci">void SelectShortPolychains(ISelector &amp;sel, number maxLength, bool closedChainsOnly, TAAPos aaPos)</div><div class="ttdoc">Selects regular polygonal chains which are shorter than a given threshold.</div><div class="ttdef"><b>Definition:</b> selection_util_impl.hpp:639</div></div>
+<div class="ttc" id="agroup__lib__grid__algorithms__selection__util_html_ga196e9956b54046cb9c9eb0e7fb35756b"><div class="ttname"><a href="group__lib__grid__algorithms__selection__util.html#ga196e9956b54046cb9c9eb0e7fb35756b">ug::SelectCreaseEdges</a></div><div class="ttdeci">void SelectCreaseEdges(ISelector &amp;sel, TEdgeIterator edgesBegin, TEdgeIterator edgesEnd, number minAngle, APosition aVrtPos, bool ignoreBoundaryEdges=true, ISelector::status_t state=ISelector::SELECTED)</div><div class="ttdoc">Selects edges which at which triangles meet in a large angle.</div><div class="ttdef"><b>Definition:</b> selection_util_impl.hpp:499</div></div>
+<div class="ttc" id="agroup__lib__grid__algorithms__selection__util_html_gae74e88e4c32326bebcab322baa9416bf"><div class="ttname"><a href="group__lib__grid__algorithms__selection__util.html#gae74e88e4c32326bebcab322baa9416bf">ug::SelectShortPolychains</a></div><div class="ttdeci">void SelectShortPolychains(ISelector &amp;sel, number maxLength, bool closedChainsOnly, TAAPos aaPos)</div><div class="ttdoc">Selects regular polygonal chains which are shorter than a given threshold.</div><div class="ttdef"><b>Definition:</b> selection_util_impl.hpp:673</div></div>
 <div class="ttc" id="agroup__vectors_html_ga945c247d94409091fd35fdbbcb5032c2"><div class="ttname"><a href="group__vectors.html#ga945c247d94409091fd35fdbbcb5032c2">ug::VecAdd</a></div><div class="ttdeci">void VecAdd(vector_t &amp;vOut, const vector_t &amp;v1, const vector_t &amp;v2)</div><div class="ttdoc">adds two MathVector&lt;N&gt;s and stores the result in a third one</div><div class="ttdef"><b>Definition:</b> math_vector_functions_common_impl.hpp:185</div></div>
 <div class="ttc" id="agroup__ugbase__common_html_ga0b928ef153b78f1b5e025638cf28f841"><div class="ttname"><a href="group__ugbase__common.html#ga0b928ef153b78f1b5e025638cf28f841">UG_ASSERT</a></div><div class="ttdeci">#define UG_ASSERT(expr, msg)</div><div class="ttdef"><b>Definition:</b> assert.h:70</div></div>
 <div class="ttc" id="agroup__lib__grid__algorithms__neighborhood__util_html_gab0cfc71ae819c5d62a6b9820e95a7697"><div class="ttname"><a href="group__lib__grid__algorithms__neighborhood__util.html#gab0cfc71ae819c5d62a6b9820e95a7697">ug::CollectEdges</a></div><div class="ttdeci">void CollectEdges(std::vector&lt; Edge * &gt; &amp;vEdgesOut, Grid &amp;grid, Vertex *vrt, bool clearContainer)</div><div class="ttdoc">Collects all edges which exist in the given grid and which are part of the given vertex.</div><div class="ttdef"><b>Definition:</b> grid_util.cpp:304</div></div>
@@ -1003,7 +1039,7 @@ $(document).ready(function(){initNavTree('selection__util__impl_8hpp_source.html
 <div class="ttc" id="agroup__ugbase__common_html_gaf0ce958f12c62aa44c231a700b830374"><div class="ttname"><a href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a></div><div class="ttdeci">#define UG_COND_THROW(cond, msg)</div><div class="ttdoc">UG_COND_THROW(cond, msg) : performs a UG_THROW(msg) if cond == true.</div><div class="ttdef"><b>Definition:</b> error.h:61</div></div>
 <div class="ttc" id="anamespaceug_html_a1903407556f1e2b80c006ae920ea8e0e"><div class="ttname"><a href="namespaceug.html#a1903407556f1e2b80c006ae920ea8e0e">ug::VertexIterator</a></div><div class="ttdeci">ElementStorage&lt; Vertex &gt;::SectionContainer::iterator VertexIterator</div><div class="ttdoc">This Iterator will be used as base-class for iterators of specialized geometric objects.</div><div class="ttdef"><b>Definition:</b> grid_base_object_traits.h:73</div></div>
 <div class="ttc" id="astructug_1_1_grid_1_1traits_html_a73e2fcb5139de065fbeba2fe75f859ae"><div class="ttname"><a href="structug_1_1_grid_1_1traits.html#a73e2fcb5139de065fbeba2fe75f859ae">ug::Grid::traits::const_iterator</a></div><div class="ttdeci">geometry_traits&lt; TElem &gt;::const_iterator const_iterator</div><div class="ttdef"><b>Definition:</b> grid.h:144</div></div>
-<div class="ttc" id="agroup__lib__grid__algorithms__selection__util_html_ga51e9480950b7c07be13b9854259703fd"><div class="ttname"><a href="group__lib__grid__algorithms__selection__util.html#ga51e9480950b7c07be13b9854259703fd">ug::SelectRegion</a></div><div class="ttdeci">bool SelectRegion(Selector &amp;sel, const typename TAAPos::ValueType &amp;p, TAAPos &amp;aaPos, typename Grid::traits&lt; typename TGeomObj::side &gt;::callback cbRegionBoundary)</div><div class="ttdoc">Selects the region which contains the given point.</div><div class="ttdef"><b>Definition:</b> selection_util_impl.hpp:609</div></div>
+<div class="ttc" id="agroup__lib__grid__algorithms__selection__util_html_ga51e9480950b7c07be13b9854259703fd"><div class="ttname"><a href="group__lib__grid__algorithms__selection__util.html#ga51e9480950b7c07be13b9854259703fd">ug::SelectRegion</a></div><div class="ttdeci">bool SelectRegion(Selector &amp;sel, const typename TAAPos::ValueType &amp;p, TAAPos &amp;aaPos, typename Grid::traits&lt; typename TGeomObj::side &gt;::callback cbRegionBoundary)</div><div class="ttdoc">Selects the region which contains the given point.</div><div class="ttdef"><b>Definition:</b> selection_util_impl.hpp:643</div></div>
 <div class="ttc" id="aclassug_1_1_grid_html_a12abfbc3c3ea8447b9297cc67d37d39a"><div class="ttname"><a href="classug_1_1_grid.html#a12abfbc3c3ea8447b9297cc67d37d39a">ug::Grid::associated_edges_begin</a></div><div class="ttdeci">AssociatedEdgeIterator associated_edges_begin(Vertex *vrt)</div><div class="ttdoc">DO NOT INVOKE! Subject to change.</div><div class="ttdef"><b>Definition:</b> grid.cpp:882</div></div>
 <div class="ttc" id="aclassug_1_1_grid_1_1_vertex_attachment_accessor_html"><div class="ttname"><a href="classug_1_1_grid_1_1_vertex_attachment_accessor.html">ug::Grid::VertexAttachmentAccessor</a></div><div class="ttdef"><b>Definition:</b> grid.h:200</div></div>
 <div class="ttc" id="aclassug_1_1_grid_html_ae5d2b0723896159a16f4f68168cc621d"><div class="ttname"><a href="classug_1_1_grid.html#ae5d2b0723896159a16f4f68168cc621d">ug::Grid::AssociatedFaceIterator</a></div><div class="ttdeci">FaceContainer::iterator AssociatedFaceIterator</div><div class="ttdoc">used to iterate over associated faces of vertices, edges and volumes</div><div class="ttdef"><b>Definition:</b> grid.h:251</div></div>
@@ -1014,7 +1050,7 @@ $(document).ready(function(){initNavTree('selection__util__impl_8hpp_source.html
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_9cb5fcd0cbd108e4de7ac968a9e51f3d.html">lib_grid</a></li><li class="navelem"><a class="el" href="dir_8e43e1519d22ef2ce28107ef4364eb7f.html">algorithms</a></li><li class="navelem"><a class="el" href="selection__util__impl_8hpp.html">selection_util_impl.hpp</a></li>
-    <li class="footer">Generated on Fri Dec 13 2019 23:54:22 for ug4 by
+    <li class="footer">Generated on Tue Oct 27 2020 05:29:45 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

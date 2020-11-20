@@ -10,6 +10,7 @@ var element__aspect__ratios_8h =
     [ "CalculateAspectRatio", "element__aspect__ratios_8h.html#ab3b2e2be97212768e747ddf824450654", null ],
     [ "CalculateMinTriangleHeight", "element__aspect__ratios_8h.html#aee7f7132b14642f534693cef202fdd17", null ],
     [ "CalculateVolToRMSFaceAreaRatio", "element__aspect__ratios_8h.html#aef152524b647e0fdce5d0143edb599c2", null ],
+    [ "CalculateVolToRMSFaceAreaRatio", "element__aspect__ratios_8h.html#a10f44819e9d918b7c4c486091ca7337a", null ],
     [ "CalculateVolToRMSFaceAreaRatio", "element__aspect__ratios_8h.html#a541939f16fd4e34b20fb1a9b2c23f431", null ],
     [ "CalculateVolToRMSFaceAreaRatio", "element__aspect__ratios_8h.html#acfc7c8f63a190edf9ed2b735f0a1879d", null ],
     [ "CalculateVolToRMSFaceAreaRatio", "element__aspect__ratios_8h.html#a358c467ecfd879a85aa543f2be305b8e", null ],

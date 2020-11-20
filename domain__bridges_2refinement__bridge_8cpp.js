@@ -15,7 +15,7 @@ var domain__bridges_2refinement__bridge_8cpp =
     [ "MarkForAdaption_ElementsTouchingSubset", "domain__bridges_2refinement__bridge_8cpp.html#ga3e5bf6bd7e4eb70710c7cc07accb9aab", null ],
     [ "MarkForAdaption_ElementsTouchingSubsets", "domain__bridges_2refinement__bridge_8cpp.html#ga4931ac3b76714b07f0fa39087cb52c9b", null ],
     [ "MarkForAdaption_VerticesInCube", "domain__bridges_2refinement__bridge_8cpp.html#ga23402ee0f75ed6ce48cf58a2fa2808d5", null ],
-    [ "MarkForAdaption_VerticesInSphere", "domain__bridges_2refinement__bridge_8cpp.html#ga8d55e4f05df4f9a7a08a9438cec15e1e", null ],
+    [ "MarkForAdaption_VerticesInSphere", "domain__bridges_2refinement__bridge_8cpp.html#ga443febb940d31136e143e582662972ee", null ],
     [ "MarkForAdaption_VerticesInSphereMaxLvl", "domain__bridges_2refinement__bridge_8cpp.html#gad309f33273903d1215b547a7cc6647a9", null ],
     [ "MarkForCoarsen_ElementsByLuaCallback", "domain__bridges_2refinement__bridge_8cpp.html#gac7f7853e583eac879646fcce82dcf2c1", null ],
     [ "MarkForRefinement_All", "domain__bridges_2refinement__bridge_8cpp.html#gaa064c021beca7575d99da6f728f91573", null ],

@@ -36,6 +36,7 @@ var dir_2377bdc3bce2db83d3a95ac44ec5f4e1 =
     [ "grid_function_user_data_explicit.h", "grid__function__user__data__explicit_8h.html", [
       [ "ExplicitGridFunctionGradient", "classug_1_1_explicit_grid_function_gradient.html", "classug_1_1_explicit_grid_function_gradient" ],
       [ "ExplicitGridFunctionValue", "classug_1_1_explicit_grid_function_value.html", "classug_1_1_explicit_grid_function_value" ],
+      [ "ExplicitGridFunctionVector", "classug_1_1_explicit_grid_function_vector.html", "classug_1_1_explicit_grid_function_vector" ],
       [ "StdExplicitGridFunctionData", "classug_1_1_std_explicit_grid_function_data.html", "classug_1_1_std_explicit_grid_function_data" ]
     ] ],
     [ "grid_function_util.h", "grid__function__util_8h.html", "grid__function__util_8h" ],

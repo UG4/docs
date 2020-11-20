@@ -155,8 +155,8 @@ Functions</h2></td></tr>
 <tr class="separator:a4297c1b358dc16100375a358d29a3e31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ab149e70bb2133f2d1362b7021e6093"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1_refinement.html#a8ab149e70bb2133f2d1362b7021e6093">MarkForAdaption_VerticesInCube</a> (<a class="elRef" href="../group__lib__disc__domain.html#ga33ea717e5cb1419d212b7f5d0eb695eb">Domain</a> *dom, <a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; IRefiner &gt; refiner, const Vec *min, const Vec *max, std::string adaption_type)</td></tr>
 <tr class="separator:a8ab149e70bb2133f2d1362b7021e6093"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfc28edd86b48a2b77ec7b5119ed2dbb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1_refinement.html#adfc28edd86b48a2b77ec7b5119ed2dbb">MarkForAdaption_VerticesInSphere</a> (<a class="elRef" href="../group__lib__disc__domain.html#ga33ea717e5cb1419d212b7f5d0eb695eb">Domain</a> *dom, <a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; IRefiner &gt; refiner, const Vec *center, double radius, std::string adaption_type, int unnamed)</td></tr>
-<tr class="separator:adfc28edd86b48a2b77ec7b5119ed2dbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afaa26d125815c6c8a753deb8f5e48610"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1_refinement.html#afaa26d125815c6c8a753deb8f5e48610">MarkForAdaption_VerticesInSphere</a> (<a class="elRef" href="../group__lib__disc__domain.html#ga33ea717e5cb1419d212b7f5d0eb695eb">Domain</a> *dom, <a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; IRefiner &gt; refiner, const Vec *center, double radius, std::string adaption_type)</td></tr>
+<tr class="separator:afaa26d125815c6c8a753deb8f5e48610"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfeaaa4648b9b2bb89031928b6b8d25b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1_refinement.html#adfeaaa4648b9b2bb89031928b6b8d25b">MarkForAdaption_VerticesInSphereMaxLvl</a> (<a class="elRef" href="../group__lib__disc__domain.html#ga33ea717e5cb1419d212b7f5d0eb695eb">Domain</a> *dom, <a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; IRefiner &gt; refiner, const Vec *center, double radius, std::string adaption_type, int unnamed)</td></tr>
 <tr class="separator:adfeaaa4648b9b2bb89031928b6b8d25b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac197c7d4313f6e286373bd0e976069e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug4_bridge_1_1_refinement.html#ac197c7d4313f6e286373bd0e976069e5">MarkForCoarsen_ElementsByLuaCallback</a> (<a class="elRef" href="../group__lib__disc__domain.html#ga33ea717e5cb1419d212b7f5d0eb695eb">Domain</a> *dom, <a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; IRefiner &gt; refiner, double time, const char *callbackName)</td></tr>
@@ -1670,8 +1670,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="adfc28edd86b48a2b77ec7b5119ed2dbb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adfc28edd86b48a2b77ec7b5119ed2dbb">&#9670;&nbsp;</a></span>MarkForAdaption_VerticesInSphere()</h2>
+<a id="afaa26d125815c6c8a753deb8f5e48610"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afaa26d125815c6c8a753deb8f5e48610">&#9670;&nbsp;</a></span>MarkForAdaption_VerticesInSphere()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1704,13 +1704,7 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>adaption_type</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>unnamed</em>&#160;</td>
+          <td class="paramname"><em>adaption_type</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1726,7 +1720,6 @@ Functions</h2></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">center</td><td></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">radius</td><td></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">adaption_type</td><td></td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">unnamed</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -3087,7 +3080,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug4_bridge.html">ug4Bridge</a></li><li class="navelem"><a class="el" href="namespaceug4_bridge_1_1_refinement.html">Refinement</a></li>
-    <li class="footer">Generated on Fri Dec 13 2019 23:52:41 for Registry by
+    <li class="footer">Generated on Tue Oct 27 2020 05:28:01 for Registry by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

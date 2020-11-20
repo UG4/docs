@@ -126,6 +126,9 @@ Public Types</h2></td></tr>
 <tr class="memitem:a371b0dde8c07ee7f3d6e6e326cbf23d2"><td class="memItemLeft" align="right" valign="top">typedef TAlgebra&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_nested_iteration_solver.html#a371b0dde8c07ee7f3d6e6e326cbf23d2">algebra_type</a></td></tr>
 <tr class="memdesc:a371b0dde8c07ee7f3d6e6e326cbf23d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Algebra type.  <a href="classug_1_1_nested_iteration_solver.html#a371b0dde8c07ee7f3d6e6e326cbf23d2">More...</a><br /></td></tr>
 <tr class="separator:a371b0dde8c07ee7f3d6e6e326cbf23d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaedb790ec59baae1763a9d6a4070b7c4"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classug_1_1_grid_function.html">GridFunction</a>&lt; TDomain, <a class="el" href="structug_1_1_c_p_u_algebra.html">CPUAlgebra</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_nested_iteration_solver.html#aaedb790ec59baae1763a9d6a4070b7c4">error_function_type</a></td></tr>
+<tr class="memdesc:aaedb790ec59baae1763a9d6a4070b7c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error function type.  <a href="classug_1_1_nested_iteration_solver.html#aaedb790ec59baae1763a9d6a4070b7c4">More...</a><br /></td></tr>
+<tr class="separator:aaedb790ec59baae1763a9d6a4070b7c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a416e50e3df6c3f83af70d6795bb31c"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classug_1_1_grid_function.html">GridFunction</a>&lt; TDomain, TAlgebra &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_nested_iteration_solver.html#a5a416e50e3df6c3f83af70d6795bb31c">grid_function_type</a></td></tr>
 <tr class="memdesc:a5a416e50e3df6c3f83af70d6795bb31c"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classug_1_1_grid_function.html" title="represents numerical solutions on a grid using an algebraic vector">GridFunction</a> type.  <a href="classug_1_1_nested_iteration_solver.html#a5a416e50e3df6c3f83af70d6795bb31c">More...</a><br /></td></tr>
 <tr class="separator:a5a416e50e3df6c3f83af70d6795bb31c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,8 +180,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a46444f752d04bfc0303a94bcde1abdb3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_nested_iteration_solver.html#a46444f752d04bfc0303a94bcde1abdb3">NestedIterationSolver</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_operator.html">IOperator</a>&lt; <a class="el" href="classug_1_1_debug_writing_object.html#a5438429e899dad230e07ca3927d5e06f">vector_type</a> &gt; &gt; N)</td></tr>
 <tr class="memdesc:a46444f752d04bfc0303a94bcde1abdb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor setting operator  <a href="classug_1_1_nested_iteration_solver.html#a46444f752d04bfc0303a94bcde1abdb3">More...</a><br /></td></tr>
 <tr class="separator:a46444f752d04bfc0303a94bcde1abdb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac71b0e0947672a2ac7e5f7ab5f10a822"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_nested_iteration_solver.html#ac71b0e0947672a2ac7e5f7ab5f10a822">set_debug_elem_error</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_nested_iteration_solver.html#a5a416e50e3df6c3f83af70d6795bb31c">grid_function_type</a> &gt; spErrEta)</td></tr>
-<tr class="separator:ac71b0e0947672a2ac7e5f7ab5f10a822"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a527e17a930af3a4a43f74a8dafb6e0e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_nested_iteration_solver.html#a527e17a930af3a4a43f74a8dafb6e0e8">set_debug_elem_error</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_nested_iteration_solver.html#aaedb790ec59baae1763a9d6a4070b7c4">error_function_type</a> &gt; spErrEta)</td></tr>
+<tr class="separator:a527e17a930af3a4a43f74a8dafb6e0e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a389a4855b38dc61868e715aef10bb52c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_nested_iteration_solver.html#a389a4855b38dc61868e715aef10bb52c">set_linear_solver</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_linear_operator_inverse.html">ILinearOperatorInverse</a>&lt; <a class="el" href="classug_1_1_debug_writing_object.html#a5438429e899dad230e07ca3927d5e06f">vector_type</a> &gt; &gt; <a class="el" href="classug_1_1_linear_solver.html">LinearSolver</a>)</td></tr>
 <tr class="memdesc:a389a4855b38dc61868e715aef10bb52c"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the linear solver (this should be a fixed number of multi-grid cycles )  <a href="classug_1_1_nested_iteration_solver.html#a389a4855b38dc61868e715aef10bb52c">More...</a><br /></td></tr>
 <tr class="separator:a389a4855b38dc61868e715aef10bb52c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -209,10 +212,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a72826857a47ac415667b7f4a731e1cf2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_nested_iteration_solver.html#a72826857a47ac415667b7f4a731e1cf2">set_refiner</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_refiner.html">IRefiner</a> &gt; r)</td></tr>
 <tr class="memdesc:a72826857a47ac415667b7f4a731e1cf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">set grid refiner  <a href="classug_1_1_nested_iteration_solver.html#a72826857a47ac415667b7f4a731e1cf2">More...</a><br /></td></tr>
 <tr class="separator:a72826857a47ac415667b7f4a731e1cf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8de1918d6ec14e16151a1edfb02e1c0c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_nested_iteration_solver.html#a8de1918d6ec14e16151a1edfb02e1c0c">set_refinement_marking</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="structug_1_1_i_element_marking_strategy.html">IElementMarkingStrategy</a>&lt; TDomain &gt; &gt; m)</td></tr>
+<tr class="memitem:a8de1918d6ec14e16151a1edfb02e1c0c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_nested_iteration_solver.html#a8de1918d6ec14e16151a1edfb02e1c0c">set_refinement_marking</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_element_marking_strategy.html">IElementMarkingStrategy</a>&lt; TDomain &gt; &gt; m)</td></tr>
 <tr class="memdesc:a8de1918d6ec14e16151a1edfb02e1c0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">set marking strategy  <a href="classug_1_1_nested_iteration_solver.html#a8de1918d6ec14e16151a1edfb02e1c0c">More...</a><br /></td></tr>
 <tr class="separator:a8de1918d6ec14e16151a1edfb02e1c0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19d86d821b3e3d2e2b34fbbd21ea7920"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_nested_iteration_solver.html#a19d86d821b3e3d2e2b34fbbd21ea7920">set_coarsening_marking</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="structug_1_1_i_element_marking_strategy.html">IElementMarkingStrategy</a>&lt; TDomain &gt; &gt; m)</td></tr>
+<tr class="memitem:a19d86d821b3e3d2e2b34fbbd21ea7920"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_nested_iteration_solver.html#a19d86d821b3e3d2e2b34fbbd21ea7920">set_coarsening_marking</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_element_marking_strategy.html">IElementMarkingStrategy</a>&lt; TDomain &gt; &gt; m)</td></tr>
 <tr class="memdesc:a19d86d821b3e3d2e2b34fbbd21ea7920"><td class="mdescLeft">&#160;</td><td class="mdescRight">getter/setter for top level  <a href="classug_1_1_nested_iteration_solver.html#a19d86d821b3e3d2e2b34fbbd21ea7920">More...</a><br /></td></tr>
 <tr class="separator:a19d86d821b3e3d2e2b34fbbd21ea7920"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6c8cfa853a3059ed1a6491c5cf3a6d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_nested_iteration_solver.html#ab6c8cfa853a3059ed1a6491c5cf3a6d3">set_tolerance</a> (<a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> tol)</td></tr>
@@ -293,7 +296,7 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:ab53b5c9a88eeeca0d08c0e8c1a6c9b31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_nested_iteration_solver.html#ab53b5c9a88eeeca0d08c0e8c1a6c9b31">coarsen_domain</a> (const <a class="el" href="classug_1_1_nested_iteration_solver.html#a5a416e50e3df6c3f83af70d6795bb31c">grid_function_type</a> &amp;u)</td></tr>
 <tr class="memdesc:ab53b5c9a88eeeca0d08c0e8c1a6c9b31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coarsen all elements.  <a href="classug_1_1_nested_iteration_solver.html#ab53b5c9a88eeeca0d08c0e8c1a6c9b31">More...</a><br /></td></tr>
 <tr class="separator:ab53b5c9a88eeeca0d08c0e8c1a6c9b31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9e27ce4a4a69d604eb89dacbab93e1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_nested_iteration_solver.html#ad9e27ce4a4a69d604eb89dacbab93e1a">estimate_and_mark_domain</a> (const <a class="el" href="classug_1_1_nested_iteration_solver.html#a5a416e50e3df6c3f83af70d6795bb31c">grid_function_type</a> &amp;u, <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="structug_1_1_i_element_marking_strategy.html">IElementMarkingStrategy</a>&lt; TDomain &gt; &gt; spMarking, bool bClearMarks=true)</td></tr>
+<tr class="memitem:ad9e27ce4a4a69d604eb89dacbab93e1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_nested_iteration_solver.html#ad9e27ce4a4a69d604eb89dacbab93e1a">estimate_and_mark_domain</a> (const <a class="el" href="classug_1_1_nested_iteration_solver.html#a5a416e50e3df6c3f83af70d6795bb31c">grid_function_type</a> &amp;u, <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_element_marking_strategy.html">IElementMarkingStrategy</a>&lt; TDomain &gt; &gt; spMarking, bool bClearMarks=true)</td></tr>
 <tr class="memdesc:ad9e27ce4a4a69d604eb89dacbab93e1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refines domain and provides error estimate.  <a href="classug_1_1_nested_iteration_solver.html#ad9e27ce4a4a69d604eb89dacbab93e1a">More...</a><br /></td></tr>
 <tr class="separator:ad9e27ce4a4a69d604eb89dacbab93e1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a717c6f9052a6ff3a2edf478d516627a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_nested_iteration_solver.html#a717c6f9052a6ff3a2edf478d516627a2">refine_domain</a> (const <a class="el" href="classug_1_1_nested_iteration_solver.html#a5a416e50e3df6c3f83af70d6795bb31c">grid_function_type</a> &amp;u)</td></tr>
@@ -367,17 +370,17 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a4ab036feb75250036a67c9d6092c87c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_grid_function_space.html">IGridFunctionSpace</a>&lt; <a class="el" href="classug_1_1_nested_iteration_solver.html#a5a416e50e3df6c3f83af70d6795bb31c">grid_function_type</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_nested_iteration_solver.html#a4ab036feb75250036a67c9d6092c87c5">m_spAssociatedSpace</a></td></tr>
 <tr class="memdesc:a4ab036feb75250036a67c9d6092c87c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">associated norm (for relative error)  <a href="classug_1_1_nested_iteration_solver.html#a4ab036feb75250036a67c9d6092c87c5">More...</a><br /></td></tr>
 <tr class="separator:a4ab036feb75250036a67c9d6092c87c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d5ae6e136e5caf969b7c16c0b66491c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="structug_1_1_i_element_marking_strategy.html">IElementMarkingStrategy</a>&lt; TDomain &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_nested_iteration_solver.html#a0d5ae6e136e5caf969b7c16c0b66491c">m_spCoarseningMarking</a></td></tr>
+<tr class="memitem:a0d5ae6e136e5caf969b7c16c0b66491c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_element_marking_strategy.html">IElementMarkingStrategy</a>&lt; TDomain &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_nested_iteration_solver.html#a0d5ae6e136e5caf969b7c16c0b66491c">m_spCoarseningMarking</a></td></tr>
 <tr class="separator:a0d5ae6e136e5caf969b7c16c0b66491c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09641530c153a9388da424ceb5990c67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_assemble.html">IAssemble</a>&lt; TAlgebra &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_nested_iteration_solver.html#a09641530c153a9388da424ceb5990c67">m_spDomErr</a></td></tr>
 <tr class="separator:a09641530c153a9388da424ceb5990c67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a906ceeb8e72cae55ddb19469b71b262b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_nested_iteration_solver.html#a5a416e50e3df6c3f83af70d6795bb31c">grid_function_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_nested_iteration_solver.html#a906ceeb8e72cae55ddb19469b71b262b">m_spElemError</a></td></tr>
-<tr class="memdesc:a906ceeb8e72cae55ddb19469b71b262b"><td class="mdescLeft">&#160;</td><td class="mdescRight">(optional) debug info for adaptive refinement  <a href="classug_1_1_nested_iteration_solver.html#a906ceeb8e72cae55ddb19469b71b262b">More...</a><br /></td></tr>
-<tr class="separator:a906ceeb8e72cae55ddb19469b71b262b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9064f5741c47d0eae06b7147d8df68a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_nested_iteration_solver.html#aaedb790ec59baae1763a9d6a4070b7c4">error_function_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_nested_iteration_solver.html#a9064f5741c47d0eae06b7147d8df68a5">m_spElemError</a></td></tr>
+<tr class="memdesc:a9064f5741c47d0eae06b7147d8df68a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">(optional) debug info for adaptive refinement  <a href="classug_1_1_nested_iteration_solver.html#a9064f5741c47d0eae06b7147d8df68a5">More...</a><br /></td></tr>
+<tr class="separator:a9064f5741c47d0eae06b7147d8df68a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac46baed66730afdfbd2fd8839e15ee2a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_linear_operator_inverse.html">ILinearOperatorInverse</a>&lt; <a class="el" href="classug_1_1_debug_writing_object.html#a5438429e899dad230e07ca3927d5e06f">vector_type</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_nested_iteration_solver.html#ac46baed66730afdfbd2fd8839e15ee2a">m_spLinearSolver</a></td></tr>
 <tr class="memdesc:ac46baed66730afdfbd2fd8839e15ee2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">linear solver  <a href="classug_1_1_nested_iteration_solver.html#ac46baed66730afdfbd2fd8839e15ee2a">More...</a><br /></td></tr>
 <tr class="separator:ac46baed66730afdfbd2fd8839e15ee2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74b2021ae1f471414121c9c761efa9fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="structug_1_1_i_element_marking_strategy.html">IElementMarkingStrategy</a>&lt; TDomain &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_nested_iteration_solver.html#a74b2021ae1f471414121c9c761efa9fd">m_spRefinementMarking</a></td></tr>
+<tr class="memitem:a74b2021ae1f471414121c9c761efa9fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_element_marking_strategy.html">IElementMarkingStrategy</a>&lt; TDomain &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_nested_iteration_solver.html#a74b2021ae1f471414121c9c761efa9fd">m_spRefinementMarking</a></td></tr>
 <tr class="separator:a74b2021ae1f471414121c9c761efa9fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3333549ae590d372f063d8766ed109e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_refiner.html">IRefiner</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_nested_iteration_solver.html#a3333549ae590d372f063d8766ed109e2">m_spRefiner</a></td></tr>
 <tr class="memdesc:a3333549ae590d372f063d8766ed109e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">(adaptive) refinement  <a href="classug_1_1_nested_iteration_solver.html#a3333549ae590d372f063d8766ed109e2">More...</a><br /></td></tr>
@@ -421,6 +424,24 @@ template&lt;typename TDomain , typename TAlgebra &gt; </div>
 </div><div class="memdoc">
 
 <p>Algebra type. </p>
+
+</div>
+</div>
+<a id="aaedb790ec59baae1763a9d6a4070b7c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaedb790ec59baae1763a9d6a4070b7c4">&#9670;&nbsp;</a></span>error_function_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TDomain , typename TAlgebra &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="classug_1_1_grid_function.html">GridFunction</a>&lt;TDomain, <a class="el" href="structug_1_1_c_p_u_algebra.html">CPUAlgebra</a>&gt; <a class="el" href="classug_1_1_nested_iteration_solver.html">ug::NestedIterationSolver</a>&lt; TDomain, TAlgebra &gt;::<a class="el" href="classug_1_1_nested_iteration_solver.html#aaedb790ec59baae1763a9d6a4070b7c4">error_function_type</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Error function type. </p>
 
 </div>
 </div>
@@ -819,7 +840,7 @@ template&lt;typename TDomain , typename TAlgebra &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="structug_1_1_i_element_marking_strategy.html">IElementMarkingStrategy</a>&lt; TDomain &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_element_marking_strategy.html">IElementMarkingStrategy</a>&lt; TDomain &gt; &gt;&#160;</td>
           <td class="paramname"><em>spMarking</em>, </td>
         </tr>
         <tr>
@@ -1084,7 +1105,7 @@ template&lt;typename TDomain , typename TAlgebra &gt; </div>
         <tr>
           <td class="memname">void <a class="el" href="classug_1_1_nested_iteration_solver.html">ug::NestedIterationSolver</a>&lt; TDomain, TAlgebra &gt;::set_coarsening_marking </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="structug_1_1_i_element_marking_strategy.html">IElementMarkingStrategy</a>&lt; TDomain &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_element_marking_strategy.html">IElementMarkingStrategy</a>&lt; TDomain &gt; &gt;&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1102,8 +1123,8 @@ template&lt;typename TDomain , typename TAlgebra &gt; </div>
 
 </div>
 </div>
-<a id="ac71b0e0947672a2ac7e5f7ab5f10a822"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac71b0e0947672a2ac7e5f7ab5f10a822">&#9670;&nbsp;</a></span>set_debug_elem_error()</h2>
+<a id="a527e17a930af3a4a43f74a8dafb6e0e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a527e17a930af3a4a43f74a8dafb6e0e8">&#9670;&nbsp;</a></span>set_debug_elem_error()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1116,7 +1137,7 @@ template&lt;typename TDomain , typename TAlgebra &gt; </div>
         <tr>
           <td class="memname">void <a class="el" href="classug_1_1_nested_iteration_solver.html">ug::NestedIterationSolver</a>&lt; TDomain, TAlgebra &gt;::set_debug_elem_error </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_nested_iteration_solver.html#a5a416e50e3df6c3f83af70d6795bb31c">grid_function_type</a> &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_nested_iteration_solver.html#aaedb790ec59baae1763a9d6a4070b7c4">error_function_type</a> &gt;&#160;</td>
           <td class="paramname"><em>spErrEta</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1128,7 +1149,7 @@ template&lt;typename TDomain , typename TAlgebra &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="classug_1_1_nested_iteration_solver.html#a906ceeb8e72cae55ddb19469b71b262b">ug::NestedIterationSolver&lt; TDomain, TAlgebra &gt;::m_spElemError</a>.</p>
+<p class="reference">References <a class="el" href="classug_1_1_nested_iteration_solver.html#a9064f5741c47d0eae06b7147d8df68a5">ug::NestedIterationSolver&lt; TDomain, TAlgebra &gt;::m_spElemError</a>.</p>
 
 </div>
 </div>
@@ -1210,7 +1231,7 @@ template&lt;typename TDomain , typename TAlgebra &gt; </div>
         <tr>
           <td class="memname">void <a class="el" href="classug_1_1_nested_iteration_solver.html">ug::NestedIterationSolver</a>&lt; TDomain, TAlgebra &gt;::set_refinement_marking </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="structug_1_1_i_element_marking_strategy.html">IElementMarkingStrategy</a>&lt; TDomain &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_element_marking_strategy.html">IElementMarkingStrategy</a>&lt; TDomain &gt; &gt;&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1691,7 +1712,7 @@ template&lt;typename TDomain , typename TAlgebra &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt;<a class="el" href="structug_1_1_i_element_marking_strategy.html">IElementMarkingStrategy</a>&lt;TDomain&gt; &gt; <a class="el" href="classug_1_1_nested_iteration_solver.html">ug::NestedIterationSolver</a>&lt; TDomain, TAlgebra &gt;::m_spCoarseningMarking</td>
+          <td class="memname"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt;<a class="el" href="classug_1_1_i_element_marking_strategy.html">IElementMarkingStrategy</a>&lt;TDomain&gt; &gt; <a class="el" href="classug_1_1_nested_iteration_solver.html">ug::NestedIterationSolver</a>&lt; TDomain, TAlgebra &gt;::m_spCoarseningMarking</td>
         </tr>
       </table>
   </td>
@@ -1729,8 +1750,8 @@ template&lt;typename TDomain , typename TAlgebra &gt; </div>
 
 </div>
 </div>
-<a id="a906ceeb8e72cae55ddb19469b71b262b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a906ceeb8e72cae55ddb19469b71b262b">&#9670;&nbsp;</a></span>m_spElemError</h2>
+<a id="a9064f5741c47d0eae06b7147d8df68a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9064f5741c47d0eae06b7147d8df68a5">&#9670;&nbsp;</a></span>m_spElemError</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1741,7 +1762,7 @@ template&lt;typename TDomain , typename TAlgebra &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt;<a class="el" href="classug_1_1_nested_iteration_solver.html#a5a416e50e3df6c3f83af70d6795bb31c">grid_function_type</a>&gt; <a class="el" href="classug_1_1_nested_iteration_solver.html">ug::NestedIterationSolver</a>&lt; TDomain, TAlgebra &gt;::m_spElemError</td>
+          <td class="memname"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt;<a class="el" href="classug_1_1_nested_iteration_solver.html#aaedb790ec59baae1763a9d6a4070b7c4">error_function_type</a>&gt; <a class="el" href="classug_1_1_nested_iteration_solver.html">ug::NestedIterationSolver</a>&lt; TDomain, TAlgebra &gt;::m_spElemError</td>
         </tr>
       </table>
   </td>
@@ -1753,7 +1774,7 @@ template&lt;typename TDomain , typename TAlgebra &gt; </div>
 
 <p>(optional) debug info for adaptive refinement </p>
 
-<p class="reference">Referenced by <a class="el" href="classug_1_1_nested_iteration_solver.html#ac71b0e0947672a2ac7e5f7ab5f10a822">ug::NestedIterationSolver&lt; TDomain, TAlgebra &gt;::set_debug_elem_error()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classug_1_1_nested_iteration_solver.html#a527e17a930af3a4a43f74a8dafb6e0e8">ug::NestedIterationSolver&lt; TDomain, TAlgebra &gt;::set_debug_elem_error()</a>.</p>
 
 </div>
 </div>
@@ -1797,7 +1818,7 @@ template&lt;typename TDomain , typename TAlgebra &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt;<a class="el" href="structug_1_1_i_element_marking_strategy.html">IElementMarkingStrategy</a>&lt;TDomain&gt; &gt; <a class="el" href="classug_1_1_nested_iteration_solver.html">ug::NestedIterationSolver</a>&lt; TDomain, TAlgebra &gt;::m_spRefinementMarking</td>
+          <td class="memname"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt;<a class="el" href="classug_1_1_i_element_marking_strategy.html">IElementMarkingStrategy</a>&lt;TDomain&gt; &gt; <a class="el" href="classug_1_1_nested_iteration_solver.html">ug::NestedIterationSolver</a>&lt; TDomain, TAlgebra &gt;::m_spRefinementMarking</td>
         </tr>
       </table>
   </td>
@@ -1903,7 +1924,7 @@ template&lt;typename TDomain , typename TAlgebra &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_nested_iteration_solver.html">NestedIterationSolver</a></li>
-    <li class="footer">Generated on Fri Dec 13 2019 23:55:16 for ug4 by
+    <li class="footer">Generated on Tue Oct 27 2020 05:30:40 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

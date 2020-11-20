@@ -14,7 +14,6 @@ var classug_1_1_h_f_v1_manifold_geometry =
     [ "compute_side_midpoints", "classug_1_1_h_f_v1_manifold_geometry.html#a959975388b8037be079f4088b5df4cd9", null ],
     [ "compute_side_midpoints", "classug_1_1_h_f_v1_manifold_geometry.html#a2d396ffa4ea8d990140911c4c2288cf6", null ],
     [ "compute_side_midpoints", "classug_1_1_h_f_v1_manifold_geometry.html#aec3ffd4ffff1e12842c3ab578aae3154", null ],
-    [ "get_child_edge_of_corner", "classug_1_1_h_f_v1_manifold_geometry.html#a803ed2c8918005200bb864da269c8ab7", null ],
     [ "num_bf", "classug_1_1_h_f_v1_manifold_geometry.html#a4562953bc3ea3472c7a937c4a2e43f75", null ],
     [ "num_bf_global_ips", "classug_1_1_h_f_v1_manifold_geometry.html#a1b240e2d201de177aa22a760efc668a2", null ],
     [ "num_bf_local_ips", "classug_1_1_h_f_v1_manifold_geometry.html#a01307cdf95f898289fd91e37dcf0c720", null ],

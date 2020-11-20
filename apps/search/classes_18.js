@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['zeroaverage_18720',['ZeroAverage',['../../../plugins/classug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_zero_average.html',1,'ug::Electromagnetism::NedelecLoopCurrent']]]
+  ['zeroaverage_18867',['ZeroAverage',['../../../plugins/classug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_zero_average.html',1,'ug::Electromagnetism::NedelecLoopCurrent']]]
 ];

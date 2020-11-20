@@ -122,7 +122,7 @@ $(document).ready(function(){initNavTree('functions_type_e.html','');});
 , <a class="el" href="structpcl_1_1type__traits_3_01ug_1_1_volume_01_4.html#add1661773d801e6d8eb798b96035da21">pcl::type_traits&lt; ug::Volume &gt;</a>
 </li>
 <li>elem_accessor_type
-: <a class="el" href="structug_1_1_i_element_marking_strategy.html#a4a9d24f474ae43dec1ca568f40cd86b6">ug::IElementMarkingStrategy&lt; TDomain &gt;</a>
+: <a class="el" href="classug_1_1_i_element_marking_strategy.html#a4a9d24f474ae43dec1ca568f40cd86b6">ug::IElementMarkingStrategy&lt; TDomain &gt;</a>
 </li>
 <li>elem_iterator_t
 : <a class="el" href="classug_1_1ntree.html#ad840ef8fd07ae4bfea943394e2a0eb99">ug::ntree&lt; tree_dim, world_dim, TElem, TCommonData &gt;</a>
@@ -145,15 +145,15 @@ $(document).ready(function(){initNavTree('functions_type_e.html','');});
 </li>
 <li>elem_type
 : <a class="el" href="classug_1_1_c_r_f_v_geometry.html#a879182b1660103d6f81ea0e5f0c68ec7">ug::CRFVGeometry&lt; TElem, TWorldDim &gt;</a>
-, <a class="el" href="classug_1_1_domain_discretization_base.html#aa1cb922ef9d7f1d25bf48f6e4f92664f">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, TGlobAssembler &gt;</a>
 , <a class="el" href="structug_1_1_elem_error_sort_desc.html#aca8c87d6119b289011312f89a629642e">ug::ElemErrorSortDesc&lt; TDomain &gt;</a>
-, <a class="el" href="classug_1_1_f_v1_geometry.html#a6faf711d03310fc7d0e841303ed1c985">ug::FV1Geometry&lt; TElem, TWorldDim &gt;</a>
+, <a class="el" href="classug_1_1_f_v1_geometry__gen.html#aac651c8f72d1a9cf50243ebb273e25e1">ug::FV1Geometry_gen&lt; TElem, TWorldDim, TCondensed &gt;</a>
 , <a class="el" href="classug_1_1_f_v1_i_b_geometry.html#affeea81914b4c3d37e80f0bf0de94212">ug::FV1IBGeometry&lt; TElem, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_f_v1_manifold_geometry.html#ab584a34c777db53072bfd7ef31d5b8c4">ug::FV1ManifoldGeometry&lt; TElem, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_f_v_geometry.html#aec6f5ad993c7a6b1a7187eb70eae1adc">ug::FVGeometry&lt; TOrder, TElem, TWorldDim, TQuadOrder &gt;</a>
 , <a class="el" href="classug_1_1_h_c_r_f_v_geometry.html#af26d93c21815a1e41d63e48c4b7a09e4">ug::HCRFVGeometry&lt; TElem, TWorldDim &gt;</a>
 , <a class="el" href="classug_1_1_h_f_v1_manifold_geometry.html#a5a25fdf3fa1eb2b8204bf160a48ace72">ug::HFV1ManifoldGeometry&lt; TElem, TWorldDim &gt;</a>
-, <a class="el" href="structug_1_1_i_element_marking_strategy.html#a4fe15eaa5bbf28ad2baf76f427449206">ug::IElementMarkingStrategy&lt; TDomain &gt;</a>
+, <a class="el" href="classug_1_1_i_element_marking_strategy.html#a4fe15eaa5bbf28ad2baf76f427449206">ug::IElementMarkingStrategy&lt; TDomain &gt;</a>
+, <a class="el" href="classug_1_1_i_multigrid_element_indicators.html#a1b4479d481bad49bf12e9b4224b20274">ug::IMultigridElementIndicators&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_multiple_side_and_elem_err_est_data.html#ac9172e31252e29328cd473d64b71814e">ug::MultipleSideAndElemErrEstData&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_side_and_elem_err_est_data.html#ae7902c6e1b12d471cc3c1ebf467185bc">ug::SideAndElemErrEstData&lt; TDomain &gt;</a>
 </li>
@@ -355,6 +355,17 @@ $(document).ready(function(){initNavTree('functions_type_e.html','');});
 <li>error_accessor_type
 : <a class="el" href="structug_1_1_elem_error_sort_desc.html#a066eaf701adeef6775cc4dac9431d03c">ug::ElemErrorSortDesc&lt; TDomain &gt;</a>
 </li>
+<li>error_attachment_type
+: <a class="el" href="classug_1_1_i_multigrid_element_indicators.html#a12481ce5f079e0984f3e9ebdd9c356b9">ug::IMultigridElementIndicators&lt; TDomain &gt;</a>
+</li>
+<li>error_function_type
+: <a class="el" href="classug_1_1_nested_iteration_solver.html#aaedb790ec59baae1763a9d6a4070b7c4">ug::NestedIterationSolver&lt; TDomain, TAlgebra &gt;</a>
+</li>
+<li>error_vector_type
+: <a class="el" href="classug_1_1_domain_discretization_base.html#a9dd579f7974d44d4e43d2f9240589c65">ug::DomainDiscretizationBase&lt; TDomain, TAlgebra, TGlobAssembler &gt;</a>
+, <a class="el" href="classug_1_1_i_domain_error_indicator.html#acbc7063915d397c02ccf7c3d95badb97">ug::IDomainErrorIndicator&lt; TAlgebra &gt;</a>
+, <a class="el" href="classug_1_1_multi_step_time_discretization.html#a6b89c381cc2ca3a2bdb2afe1a419ed90">ug::MultiStepTimeDiscretization&lt; TAlgebra &gt;</a>
+</li>
 <li>estimator_base_type
 : <a class="el" href="classug_1_1_i_elem_disc.html#ab22a0f8f3e84f77d2d5b8a3e68dd1c7b">ug::IElemDisc&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_i_elem_error.html#a861fa5fbfe8454c9c046e3fc59d0a347">ug::IElemError&lt; TDomain &gt;</a>
@@ -368,7 +379,7 @@ $(document).ready(function(){initNavTree('functions_type_e.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Dec 13 2019 23:55:41 for ug4 by
+    <li class="footer">Generated on Tue Oct 27 2020 05:31:06 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

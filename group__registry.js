@@ -364,6 +364,11 @@ var group__registry =
       [ "return_type", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_5_08_07_t1_00_01_t2_00_01_t3_00_01_t4_00_01_t5_578e72df3570d3fe969e1f67a6d22f65.html#ae7b82e5b9cf8c1e5ae50672d90166694", null ],
       [ "apply", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_5_08_07_t1_00_01_t2_00_01_t3_00_01_t4_00_01_t5_578e72df3570d3fe969e1f67a6d22f65.html#afe400046a997d64ffd3bca8ddb162ea0", null ]
     ] ],
+    [ "func_traits< TRet(*)(T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12)>", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_5_08_07_t1_00_01_t2_00_01_t3_00_01_t4_00_01_t5_b4110e9eeeb3c7e8e954cbc727aa007b.html", [
+      [ "params_type", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_5_08_07_t1_00_01_t2_00_01_t3_00_01_t4_00_01_t5_b4110e9eeeb3c7e8e954cbc727aa007b.html#aed5b540b9187845f1b172a355b6338c7", null ],
+      [ "return_type", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_5_08_07_t1_00_01_t2_00_01_t3_00_01_t4_00_01_t5_b4110e9eeeb3c7e8e954cbc727aa007b.html#a25b4305069118f879ca3ae1aee99766d", null ],
+      [ "apply", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_5_08_07_t1_00_01_t2_00_01_t3_00_01_t4_00_01_t5_b4110e9eeeb3c7e8e954cbc727aa007b.html#a6f3c90531152de841d3d7c7b91c7d5bf", null ]
+    ] ],
     [ "func_traits< TRet(TClass::*)() const >", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_08_01const_01_4.html", [
       [ "params_type", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_08_01const_01_4.html#a992686d2bec32033780ccee4feb77b1b", null ],
       [ "apply", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_t_class_1_1_5_08_07_08_01const_01_4.html#af3f43a4e305206a41a3fbd19f3a89ee8", null ],

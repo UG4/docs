@@ -14,6 +14,7 @@ var dir_46f23659e18aa5fa06de6ff2c04a1a12 =
     [ "easy_util.lua", "easy__util_8lua.html", "easy__util_8lua" ],
     [ "gnuplot.lua", "gnuplot_8lua.html", "gnuplot_8lua" ],
     [ "gnuplot_rgb_color.lua", "gnuplot__rgb__color_8lua.html", null ],
+    [ "json_util.lua", "json__util_8lua.html", null ],
     [ "load_balancing_util.lua", "load__balancing__util_8lua.html", "load__balancing__util_8lua" ],
     [ "load_balancing_util_2.lua", "load__balancing__util__2_8lua.html", "load__balancing__util__2_8lua" ],
     [ "mac_util.lua", "mac__util_8lua.html", "mac__util_8lua" ],

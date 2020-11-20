@@ -1,0 +1,4 @@
+var classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_explicit_grid_function_vector =
+[
+    [ "ExplicitGridFunctionVector", "classug4_bridge_1_1_discretization_1_1_approximation_space_1_1_explicit_grid_function_vector.html#a26b2091f8384fc1087fc99aa172e2b22", null ]
+];

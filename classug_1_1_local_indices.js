@@ -9,6 +9,7 @@ var classug_1_1_local_indices =
     [ "clear_dof", "classug_1_1_local_indices.html#a3e9956a8bf32981e4d24cda4215c30b5", null ],
     [ "comp", "classug_1_1_local_indices.html#a1d4e17465ef51a216e59f2315f34e1d5", null ],
     [ "comp", "classug_1_1_local_indices.html#adafdc88f908d2788b0fe9fc1ca147458", null ],
+    [ "contains_index", "classug_1_1_local_indices.html#aaa860ef85ea1f1ca3486196bd6f0778a", null ],
     [ "index", "classug_1_1_local_indices.html#a697761dde5cfeef2a868d11d6a9af41d", null ],
     [ "index", "classug_1_1_local_indices.html#a3f9a311fef1fe4b2c8c62e8873cb8736", null ],
     [ "local_finite_element_id", "classug_1_1_local_indices.html#a9a39d21cf6f4ee6f885d0151b6996f33", null ],

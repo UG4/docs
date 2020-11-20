@@ -31,6 +31,7 @@ var misc__bridges_2misc__bridge_8cpp =
     [ "IsDefinedUG_FOR_VRL", "misc__bridges_2misc__bridge_8cpp.html#gac7f9112b82cb626878cbd13baec2c176", null ],
     [ "IsDefinedUG_HLIBPRO", "misc__bridges_2misc__bridge_8cpp.html#ga1d416274a62694c9490e90955123a475", null ],
     [ "IsDefinedUG_HYPRE", "misc__bridges_2misc__bridge_8cpp.html#ga184bdb3766b4b8efe548453d5a691b85", null ],
+    [ "IsDefinedUG_JSON", "misc__bridges_2misc__bridge_8cpp.html#ga5a496086348ac6093061b3335c4d14bd", null ],
     [ "IsDefinedUG_PARALLEL", "misc__bridges_2misc__bridge_8cpp.html#ga32f5d0ff8b800ec36bf2a2bd7c5202a4", null ],
     [ "IsDefinedUG_PLUGINS", "misc__bridges_2misc__bridge_8cpp.html#gad04e582fd99e8f6b057b8b343671860f", null ],
     [ "IsDefinedUG_PROFILER", "misc__bridges_2misc__bridge_8cpp.html#ga97faf6b7c6a4a4ea692683b81cfe8fdd", null ],

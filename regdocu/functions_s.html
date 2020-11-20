@@ -160,7 +160,6 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 </li>
 <li>set()
 : <a class="el" href="classug4_bridge_1_1_algebra_1_1_vector.html#aaacdd6f02a1db61ea02f521a4750f4d5">Vector</a>
-, <a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_const_user_number.html#a8758843f3e3d2bfe91ff2b7eef443a3b">ConstUserNumber</a>
 , <a class="el" href="classug4_bridge_1_1_lua_shell_1_1_lua_shell.html#a16dd929078385ce81f8ba2f5fd06c513">LuaShell</a>
 , <a class="el" href="classug4_bridge_1_1_spatial_disc_1_1_electromagnetism_1_1_nedelec_loop_current.html#a5c78053d06cf0e101908f38ee7a42701">NedelecLoopCurrent</a>
 , <a class="el" href="classug4_bridge_1_1_spatial_disc_1_1_elem_disc_1_1_c_d_line_sources_sink.html#af0c5f9616df211a827845c2500fb78e7">CDLineSourcesSink</a>
@@ -373,6 +372,9 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="classug4_bridge_1_1_lua_user_function_matrix_number.html#af2fa2d39d7bd5f1562885b837da5ca78">LuaUserFunctionMatrixNumber</a>
 , <a class="el" href="classug4_bridge_1_1_lua_user_function_number.html#af2fa2d39d7bd5f1562885b837da5ca78">LuaUserFunctionNumber</a>
 , <a class="el" href="classug4_bridge_1_1_lua_user_function_vector_number.html#af2fa2d39d7bd5f1562885b837da5ca78">LuaUserFunctionVectorNumber</a>
+</li>
+<li>set_derivative_mask()
+: <a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_darcy_velocity_linker.html#ae20589b4350075abda140b48e7f79b62">DarcyVelocityLinker</a>
 </li>
 <li>set_diag_tensor()
 : <a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_const_user_matrix.html#ad8f796ea209bfce7815ad8fcb104a6cd">ConstUserMatrix</a>
@@ -697,6 +699,7 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 </li>
 <li>set_order()
 : <a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_i_d_w_user_data.html#a162a99f01f8f94f23a8c64950c81be9f">IDWUserData</a>
+, <a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_raster_number_data.html#a5a86ea1984e5bbb70c3fb60597750ac2">RasterNumberData</a>
 , <a class="el" href="classug4_bridge_1_1_discretization_1_1_time_disc_1_1_b_d_f.html#ae7e7111dd2a94ffe70aa7d4a991e911a">BDF</a>
 , <a class="el" href="classug4_bridge_1_1_discretization_1_1_time_disc_1_1_s_d_i_r_k.html#a856fcffa1833019cea0be9b1f531f4fa">SDIRK</a>
 </li>
@@ -880,6 +883,9 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 <li>set_safety_factor()
 : <a class="el" href="classug4_bridge_1_1_discretization_1_1_adaptive_1_1_expected_error_marking_strategy.html#ac946ff66a48f169022669e1684664ebf">ExpectedErrorMarkingStrategy</a>
 , <a class="el" href="classug4_bridge_1_1_discretization_1_1_adaptive_1_1_std_coarsening_marking.html#ac946ff66a48f169022669e1684664ebf">StdCoarseningMarking</a>
+</li>
+<li>set_scale()
+: <a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_user_data_1_1_raster_number_data.html#ad0fc32286c0b85fe6713348fca698153">RasterNumberData</a>
 </li>
 <li>set_scaling_factor()
 : <a class="el" href="classug4_bridge_1_1_discretization_1_1_spatial_disc_1_1_err_est_data.html#aaab368ebe6eac600211b146c12e1d592">ErrEstData</a>
@@ -1137,7 +1143,7 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="classug4_bridge_1_1_spatial_disc_1_1_small_strain_mechanics_1_1_small_strain_mechanics.html#a4357653c7adaa9befe26006b48dca40e">SmallStrainMechanics</a>
 </li>
 <li>SmoothProjector()
-: <a class="el" href="classug4_bridge_1_1_grid_1_1_smooth_projector.html#ae265e8a14976d8cb804f54f91c1490fc">SmoothProjector</a>
+: <a class="el" href="classug4_bridge_1_1_grid_1_1_smooth_projector.html#a609c20a5efc40d9b8618c0e4e5463a96">SmoothProjector</a>
 </li>
 <li>snap_cells_to_higher_layers()
 : <a class="el" href="classug4_bridge_1_1_grid_1_1_raster_layers.html#a8485f4f3a1b9183058d246372a656dca">RasterLayers</a>
@@ -1159,7 +1165,7 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_sparse_block_gauss_seidel.html#aab332d3c8833046493958c52f57b5d5d">SparseBlockGaussSeidel</a>
 </li>
 <li>SparseBlockGaussSeidel2()
-: <a class="el" href="classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_sparse_block_gauss_seidel2.html#a3c24e1c51f164f948cf8eb11302e6185">SparseBlockGaussSeidel2</a>
+: <a class="el" href="classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_sparse_block_gauss_seidel2.html#a21eea45ec8ac7da698243d76a6468591">SparseBlockGaussSeidel2</a>
 </li>
 <li>SparseSymmetricBlockGaussSeidel()
 : <a class="el" href="classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_sparse_symmetric_block_gauss_seidel.html#a8156ca8dba9b3239e5d39f630954202e">SparseSymmetricBlockGaussSeidel</a>
@@ -1168,10 +1174,10 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="classug4_bridge_1_1_grid_1_1_sphere_projector.html#a3caf66d71dced78c9366671de98ee9c4">SphereProjector</a>
 </li>
 <li>StandardLineSearch()
-: <a class="el" href="classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_standard_line_search.html#ac3cdfc9f1d9f997239d1b94f7d3fbc70">StandardLineSearch</a>
+: <a class="el" href="classug4_bridge_1_1_discretization_1_1_nonlinear_1_1_standard_line_search.html#adedf688cd75dcae0424f440cf3c8fd85">StandardLineSearch</a>
 </li>
 <li>StdCoarseningMarking()
-: <a class="el" href="classug4_bridge_1_1_discretization_1_1_adaptive_1_1_std_coarsening_marking.html#a451583bdc56b20ef16643280fcae1460">StdCoarseningMarking</a>
+: <a class="el" href="classug4_bridge_1_1_discretization_1_1_adaptive_1_1_std_coarsening_marking.html#a7a190280005f3a7907a48a888783329c">StdCoarseningMarking</a>
 </li>
 <li>StdInjection()
 : <a class="el" href="classug4_bridge_1_1_discretization_1_1_multi_grid_1_1_std_injection.html#a39f75af55873098215f0aa140d3e53bf">StdInjection</a>
@@ -1191,7 +1197,7 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="classug4_bridge_1_1_spatial_disc_1_1_small_strain_mechanics_1_1_mech_output_writer.html#a7bf1159caabd34ee8bb04b8ab629c760">MechOutputWriter</a>
 </li>
 <li>StringTable()
-: <a class="el" href="classug4_bridge_1_1_util_1_1_string_table.html#ae83c6893eee1ede832cd253d0d6379a4">StringTable</a>
+: <a class="el" href="classug4_bridge_1_1_util_1_1_string_table.html#afa5d958b545ce9e4788f68a23b300802">StringTable</a>
 </li>
 <li>SubdivisionProjector()
 : <a class="el" href="classug4_bridge_1_1_grid_1_1_subdivision_projector.html#a4b56379ca70577caab5265cb878884cb">SubdivisionProjector</a>
@@ -1232,7 +1238,7 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_symmetric_block_gauss_seidel.html#a94a199367be167c622bc01f95ec4393d">SymmetricBlockGaussSeidel</a>
 </li>
 <li>SymmetricBlockGaussSeidelIterative()
-: <a class="el" href="classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_symmetric_block_gauss_seidel_iterative.html#a924fac1961a4115284bed5dac455d03e">SymmetricBlockGaussSeidelIterative</a>
+: <a class="el" href="classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_symmetric_block_gauss_seidel_iterative.html#ae3f6efe8909d646aa96c6e61592df020">SymmetricBlockGaussSeidelIterative</a>
 </li>
 <li>SymmetricGaussSeidel()
 : <a class="el" href="classug4_bridge_1_1_algebra_1_1_preconditioner_1_1_symmetric_gauss_seidel.html#a00f2eb67abf6105f9a08df66f77e3565">SymmetricGaussSeidel</a>
@@ -1246,7 +1252,7 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Dec 13 2019 23:52:41 for Registry by
+    <li class="footer">Generated on Tue Oct 27 2020 05:28:02 for Registry by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

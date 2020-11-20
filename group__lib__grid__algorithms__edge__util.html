@@ -104,6 +104,10 @@ $(document).ready(function(){initNavTree('group__lib__grid__algorithms__edge__ut
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ga4bb56348bfa70c7a5760f20a6bc2963b"><td class="memTemplParams" colspan="2">template&lt;class TAAPosVRT &gt; </td></tr>
+<tr class="memitem:ga4bb56348bfa70c7a5760f20a6bc2963b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__edge__util.html#ga4bb56348bfa70c7a5760f20a6bc2963b">ug::CalculateAverageEdgeLength</a> (<a class="el" href="classug_1_1_grid.html">Grid</a> &amp;grid, TAAPosVRT &amp;aaPos)</td></tr>
+<tr class="memdesc:ga4bb56348bfa70c7a5760f20a6bc2963b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the average length of edges in the given grid.  <a href="group__lib__grid__algorithms__edge__util.html#ga4bb56348bfa70c7a5760f20a6bc2963b">More...</a><br /></td></tr>
+<tr class="separator:ga4bb56348bfa70c7a5760f20a6bc2963b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga13347b068653f9addb2fc2ccf1aba4f1"><td class="memTemplParams" colspan="2">template&lt;class TVertexPositionAttachmentAccessor &gt; </td></tr>
 <tr class="memitem:ga13347b068653f9addb2fc2ccf1aba4f1"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#ga6a442be2e75e98247f82d1aa90a06aac">UG_API</a> TVertexPositionAttachmentAccessor::ValueType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__edge__util.html#ga13347b068653f9addb2fc2ccf1aba4f1">ug::CalculateCenter</a> (const <a class="el" href="classug_1_1_edge.html">Edge</a> *e, TVertexPositionAttachmentAccessor &amp;aaPosVRT)</td></tr>
 <tr class="memdesc:ga13347b068653f9addb2fc2ccf1aba4f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the center of an edge.  <a href="group__lib__grid__algorithms__edge__util.html#ga13347b068653f9addb2fc2ccf1aba4f1">More...</a><br /></td></tr>
@@ -315,6 +319,53 @@ template&lt;class TEdgeIterator &gt; </div>
 </div><!-- fragment --><p>where 'sel' is an instance of the <a class="el" href="classug_1_1_selector.html" title="specialization of ISelector for a grid of class Grid.">Selector</a> class containing the selection performed above. </p>
 
 <p class="reference">References <a class="el" href="classug_1_1_grid.html#acfb4b5a6a7a0d46df0bdd25bbe55e74b">ug::Grid::associated_elements()</a>, <a class="el" href="namespaceug.html#ad3a9c81a5448666d75346e675adb7f5f">ug::EdgeOrientationMatches()</a>, <a class="el" href="classug_1_1_grid.html#a94546f0aa0a88b0fe61497ee993cf6b7">ug::Grid::flip_orientation()</a>, and <a class="el" href="classug_1_1_pointer_const_array.html#a4f421ad36ddde79f62d80a4f1a633dc0">ug::PointerConstArray&lt; TPtr &gt;::size()</a>.</p>
+
+</div>
+</div>
+<a id="ga4bb56348bfa70c7a5760f20a6bc2963b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4bb56348bfa70c7a5760f20a6bc2963b">&#9670;&nbsp;</a></span>CalculateAverageEdgeLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TAAPosVRT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> ug::CalculateAverageEdgeLength </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_grid.html">Grid</a> &amp;&#160;</td>
+          <td class="paramname"><em>grid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TAAPosVRT &amp;&#160;</td>
+          <td class="paramname"><em>aaPos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the average length of edges in the given grid. </p>
+<dl class="section note"><dt>Note</dt><dd>The method works properly, but is not necessarily optimized for speed </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">grid</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname"></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">References <a class="el" href="classug_1_1_grid.html#ac61deaa5a86f28e8e78fa481467f5d45">ug::Grid::begin()</a>, <a class="el" href="group__lib__grid__algorithms__edge__util.html#gae641a616a9dade33b7435c7e1f98fe0d">ug::EdgeLength()</a>, <a class="el" href="classug_1_1_grid.html#aecec2b9e3e45241347497a58de7aa13a">ug::Grid::end()</a>, and <a class="el" href="classug_1_1_grid.html#ad6ab1515b0c210c91a7262e59d9da2d7">ug::Grid::num_edges()</a>.</p>
 
 </div>
 </div>
@@ -902,7 +953,7 @@ template&lt;class TAAPosVRT &gt; </div>
 
 <p class="reference">References <a class="el" href="group__vectors.html#ga92e42e49d0d212e50fc214803cf06e78">ug::VecDistance()</a>, and <a class="el" href="classug_1_1_edge_vertices.html#a0f2ec2644877a1354489544f43c71206">ug::EdgeVertices::vertex()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classug_1_1_fractured_media_refiner.html#a55a77856c20851eb4482b644c53286d7">ug::FracturedMediaRefiner&lt; TGrid, TAPosition &gt;::aspect_ratio()</a>, <a class="el" href="namespaceug.html#ac1709b8c75763105d4723cbb2c4bd60a">ug::CalculateAspectRatio()</a>, <a class="el" href="group__lib__grid__algorithms__volume__util.html#gaf31820d91f65e3dd5680a7d6e4652dea">ug::CalculateTetrahedronAspectRatio()</a>, <a class="el" href="group__lib__grid__algorithms__volume__calculation.html#ga6fed646b68ed38f15cdfedfcdeddaea4">ug::CalculateVolume()</a>, <a class="el" href="classug_1_1_fractured_media_refiner.html#a7c963b9282b4db1f54c93bdffa5dbe51">ug::FracturedMediaRefiner&lt; TGrid, TAPosition &gt;::collect_objects_for_refine()</a>, <a class="el" href="group__lib__grid__algorithms__volume__util.html#gae7afd0751a91503c97c0d834bd7baa74">ug::ContainsPoint()</a>, <a class="el" href="namespaceug.html#af5c32ece8ebe92182c0150208f16cb5a">ug::PrintElementEdgeRatios()</a>, and <a class="el" href="group__lib__grid__algorithms__selection__util.html#gae74e88e4c32326bebcab322baa9416bf">ug::SelectShortPolychains()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classug_1_1_fractured_media_refiner.html#a55a77856c20851eb4482b644c53286d7">ug::FracturedMediaRefiner&lt; TGrid, TAPosition &gt;::aspect_ratio()</a>, <a class="el" href="namespaceug.html#ac1709b8c75763105d4723cbb2c4bd60a">ug::CalculateAspectRatio()</a>, <a class="el" href="group__lib__grid__algorithms__edge__util.html#ga4bb56348bfa70c7a5760f20a6bc2963b">ug::CalculateAverageEdgeLength()</a>, <a class="el" href="group__lib__grid__algorithms__volume__util.html#gaf31820d91f65e3dd5680a7d6e4652dea">ug::CalculateTetrahedronAspectRatio()</a>, <a class="el" href="group__lib__grid__algorithms__volume__calculation.html#ga6fed646b68ed38f15cdfedfcdeddaea4">ug::CalculateVolume()</a>, <a class="el" href="classug_1_1_fractured_media_refiner.html#a7c963b9282b4db1f54c93bdffa5dbe51">ug::FracturedMediaRefiner&lt; TGrid, TAPosition &gt;::collect_objects_for_refine()</a>, <a class="el" href="group__lib__grid__algorithms__volume__util.html#gae7afd0751a91503c97c0d834bd7baa74">ug::ContainsPoint()</a>, <a class="el" href="namespaceug.html#af5c32ece8ebe92182c0150208f16cb5a">ug::PrintElementEdgeRatios()</a>, and <a class="el" href="group__lib__grid__algorithms__selection__util.html#gae74e88e4c32326bebcab322baa9416bf">ug::SelectShortPolychains()</a>.</p>
 
 </div>
 </div>
@@ -1645,7 +1696,7 @@ template&lt;class TVertex &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Dec 13 2019 23:54:38 for ug4 by
+    <li class="footer">Generated on Tue Oct 27 2020 05:30:01 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

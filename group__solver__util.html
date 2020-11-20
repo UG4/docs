@@ -118,14 +118,14 @@ Functions</h2></td></tr>
 <tr class="separator:ga1c53a785f30cb57353901b97cd7db905"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae5a587be3951f4a4c6bd677c2bdc84e7"><td class="memItemLeft" align="right" valign="top">function util solver&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__solver__util.html#gae5a587be3951f4a4c6bd677c2bdc84e7">CreateSolver</a> (solverDesc, solverutil)</td></tr>
 <tr class="separator:gae5a587be3951f4a4c6bd677c2bdc84e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac42bc1add5d7f02c98ee686fa189d60d"><td class="memItemLeft" align="right" valign="top">function util solver&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__solver__util.html#gac42bc1add5d7f02c98ee686fa189d60d">CreateTransfer</a> (transferDesc)</td></tr>
-<tr class="separator:gac42bc1add5d7f02c98ee686fa189d60d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa72e0b6befefcda296fbcdbf9c8a69d8"><td class="memItemLeft" align="right" valign="top">function util solver&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__solver__util.html#gaa72e0b6befefcda296fbcdbf9c8a69d8">CreateTransfer</a> (transferDesc, solverutil)</td></tr>
+<tr class="separator:gaa72e0b6befefcda296fbcdbf9c8a69d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5a8b0b8defb5edc53f2778e51b20b463"><td class="memItemLeft" align="right" valign="top">function util solver&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__solver__util.html#ga5a8b0b8defb5edc53f2778e51b20b463">PrepareSolverUtil</a> (solverDesc, solverutil)</td></tr>
 <tr class="separator:ga5a8b0b8defb5edc53f2778e51b20b463"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8aae52c36cb6f4043d36e874f0196319"><td class="memItemLeft" align="right" valign="top">function util solver&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__solver__util.html#ga8aae52c36cb6f4043d36e874f0196319">PrepareStep</a> (desc, nestedStep, timeStep)</td></tr>
 <tr class="separator:ga8aae52c36cb6f4043d36e874f0196319"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa293f373fc67308922934d28d9512a00"><td class="memItemLeft" align="right" valign="top">function util solver&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__solver__util.html#gaa293f373fc67308922934d28d9512a00">SetDebugWriter</a> (obj, desc, defaults)</td></tr>
-<tr class="separator:gaa293f373fc67308922934d28d9512a00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8f7d50aa42b49057fcc6b00f750c02cc"><td class="memItemLeft" align="right" valign="top">function util solver&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__solver__util.html#ga8f7d50aa42b49057fcc6b00f750c02cc">SetDebugWriter</a> (obj, desc, defaults, solverutil)</td></tr>
+<tr class="separator:ga8f7d50aa42b49057fcc6b00f750c02cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7a5cb97cfc517b836aace18523167d20"><td class="memItemLeft" align="right" valign="top">function util solver&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__solver__util.html#ga7a5cb97cfc517b836aace18523167d20">SolveLinearProblem</a> (domDisc, solverDesc, outFilePrefix, startValueCB)</td></tr>
 <tr class="separator:ga7a5cb97cfc517b836aace18523167d20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gadd539f3487982739c3e1e0ee2ebe3fad"><td class="memItemLeft" align="right" valign="top">function util solver&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__solver__util.html#gadd539f3487982739c3e1e0ee2ebe3fad">SolveLinearTimeProblem</a> (domDisc, solverDesc, timeDesc, outDesc, startValueCB)</td></tr>
@@ -570,8 +570,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="gac42bc1add5d7f02c98ee686fa189d60d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac42bc1add5d7f02c98ee686fa189d60d">&#9670;&nbsp;</a></span>CreateTransfer()</h2>
+<a id="gaa72e0b6befefcda296fbcdbf9c8a69d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa72e0b6befefcda296fbcdbf9c8a69d8">&#9670;&nbsp;</a></span>CreateTransfer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -580,8 +580,18 @@ Functions</h2></td></tr>
           <td class="memname">function util solver CreateTransfer </td>
           <td>(</td>
           <td class="paramtype">transferDesc&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">solverutil&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -665,12 +675,12 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<p>location: /var/lib/jenkins/workspace/ug-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :1062-1087 </p>
+<p>location: /var/lib/jenkins/workspace/ug-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :1064-1089 </p>
 
 </div>
 </div>
-<a id="gaa293f373fc67308922934d28d9512a00"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa293f373fc67308922934d28d9512a00">&#9670;&nbsp;</a></span>SetDebugWriter()</h2>
+<a id="ga8f7d50aa42b49057fcc6b00f750c02cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8f7d50aa42b49057fcc6b00f750c02cc">&#9670;&nbsp;</a></span>SetDebugWriter()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -691,6 +701,12 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">defaults&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">solverutil&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -700,7 +716,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /var/lib/jenkins/workspace/ug-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :995-1050 </p>
+<p>location: /var/lib/jenkins/workspace/ug-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :995-1052 </p>
 
 </div>
 </div>
@@ -750,7 +766,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A, u, b, where A is the system matrix, u is the solution and b is the right hand side</dd></dl>
-<p>location: /var/lib/jenkins/workspace/ug-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :1096-1124 </p>
+<p>location: /var/lib/jenkins/workspace/ug-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :1098-1126 </p>
 
 </div>
 </div>
@@ -797,7 +813,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /var/lib/jenkins/workspace/ug-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :1127-1164 </p>
+<p>location: /var/lib/jenkins/workspace/ug-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :1129-1166 </p>
 
 </div>
 </div>
@@ -844,7 +860,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /var/lib/jenkins/workspace/ug-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :1167-1204 </p>
+<p>location: /var/lib/jenkins/workspace/ug-docs/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :1169-1206 </p>
 
 </div>
 </div>
@@ -858,7 +874,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Dec 13 2019 23:54:39 for ug4 by
+    <li class="footer">Generated on Tue Oct 27 2020 05:30:02 for ug4 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>
