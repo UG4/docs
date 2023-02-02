@@ -1,5 +1,6 @@
 var NAVTREEINDEX95 =
 {
+"gnuplot__output_8h_source.html":[4,0,2,4,3,9],
 "gnuplot__rgb__color_8lua.html":[4,0,1,1,13],
 "gpu__bridge_8cpp.html":[4,0,2,1,0,5],
 "gpu__bridge_8cpp.html#a71933dbed2616284817d7e523d1605f9":[4,0,2,1,0,5,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX95 =
 "grid__dim__traits_8h_source.html":[4,0,2,6,5,2],
 "grid__function_8cpp.html":[4,0,2,5,2,11],
 "grid__function_8h.html":[4,0,2,5,2,12],
-"grid__function_8h.html#a6d2bf6723be24e68a1705e296c60b243":[4,0,2,5,2,12,4],
-"grid__function_8h.html#abe0fb4e4139b7a3f3d2bfb236a646c9b":[4,0,2,5,2,12,5]
+"grid__function_8h.html#a6d2bf6723be24e68a1705e296c60b243":[4,0,2,5,2,12,4]
 };

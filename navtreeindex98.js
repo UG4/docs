@@ -1,5 +1,6 @@
 var NAVTREEINDEX98 =
 {
+"group__crs__algebra.html#gacba1690bd8bc1995e7ba15a3e37f60c5":[1,0,0,1,0,1,0],
 "group__crs__algebra.html#gacba1690bd8bc1995e7ba15a3e37f60c5":[1,0,0,0,1,0],
 "group__crs__algebra.html#gacda89bea90b8880e5a5ca4285dfd73ca":[1,0,0,1,7],
 "group__crs__algebra.html#gacda89bea90b8880e5a5ca4285dfd73ca":[1,0,0,1,0,1,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX98 =
 "group__lib__disc__domain.html#ga0e46e58f9b48c5dee1e44b278164af6e":[1,0,1,1,77],
 "group__lib__disc__domain.html#ga0e46e58f9b48c5dee1e44b278164af6e":[1,0,1,1,2,3],
 "group__lib__disc__domain.html#ga0f508b8ac73f2305dcb186dd34c63ccb":[2,0,5,1371],
-"group__lib__disc__domain.html#ga0f508b8ac73f2305dcb186dd34c63ccb":[1,0,1,1,6],
-"group__lib__disc__domain.html#ga110951135d857d0423f847c41a502577":[1,0,1,1,12]
+"group__lib__disc__domain.html#ga0f508b8ac73f2305dcb186dd34c63ccb":[1,0,1,1,6]
 };

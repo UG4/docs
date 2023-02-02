@@ -1,5 +1,6 @@
 var NAVTREEINDEX81 =
 {
+"classug_1_1bridge_1_1_evaluate_1_1_vector_valued_user_data_evaluator.html#a0c5bdee0ae16f8ec15eee47f0fd7b2ee":[3,0,4,0,9,5,2],
 "classug_1_1bridge_1_1_evaluate_1_1_vector_valued_user_data_evaluator.html#a231720910c49fb3ad07a29eb4c8e4b2c":[3,0,4,0,9,5,3],
 "classug_1_1bridge_1_1_evaluate_1_1_vector_valued_user_data_evaluator.html#a504a217c44e2dd2169c6a5c9cf91220d":[3,0,4,0,9,5,4],
 "classug_1_1bridge_1_1_evaluate_1_1_vector_valued_user_data_evaluator.html#a53048787756a4e48ab6eb58ceb914fef":[3,0,4,0,9,5,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX81 =
 "classug_1_1bridge_1_1_lua_stack_check.html":[3,0,4,0,116],
 "classug_1_1bridge_1_1_lua_stack_check.html#a1876de173c792787581238bf1b253889":[3,0,4,0,116,4],
 "classug_1_1bridge_1_1_lua_stack_check.html#a22e89d99ace88d81f82ad48ce87d3b96":[3,0,4,0,116,2],
-"classug_1_1bridge_1_1_lua_stack_check.html#a5842f088f3a31fc39a4b9c55115c5563":[3,0,4,0,116,0],
-"classug_1_1bridge_1_1_lua_stack_check.html#a596fc9aaf44b150f9efa69b44d6e6a9f":[3,0,4,0,116,1]
+"classug_1_1bridge_1_1_lua_stack_check.html#a5842f088f3a31fc39a4b9c55115c5563":[3,0,4,0,116,0]
 };
