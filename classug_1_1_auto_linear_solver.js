@@ -11,6 +11,8 @@ var classug_1_1_auto_linear_solver =
     [ "init", "classug_1_1_auto_linear_solver.html#afed1fab063bd2db12bde2e96a5ed958b", null ],
     [ "init_op", "classug_1_1_auto_linear_solver.html#a4e0289eaa2b144635d0ea466c63f85d3", null ],
     [ "name", "classug_1_1_auto_linear_solver.html#aa029ae5acdcba4c8186c1b4019fda153", null ],
+    [ "preconditioner", "classug_1_1_auto_linear_solver.html#aab9d760eafb30d055a26f2cee4da8837", null ],
+    [ "preconditioner", "classug_1_1_auto_linear_solver.html#a27fed2ad880be1d14d6b34c34362b9b9", null ],
     [ "prepare_conv_check", "classug_1_1_auto_linear_solver.html#a29b078fdb23edf4a627108a98792a44b", null ],
     [ "print_information", "classug_1_1_auto_linear_solver.html#aff10738eded9f781857b7217db576d2a", null ],
     [ "reinit", "classug_1_1_auto_linear_solver.html#a8a7542a3cd546cd5e9416e816e266d71", null ],

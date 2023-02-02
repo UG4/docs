@@ -1,6 +1,5 @@
 var dir_ce13f199a6e9b14f2b60ceebe07de022 =
 [
-    [ "ordering", "dir_24fa3583a78abf04ff1d831424dc0efd.html", "dir_24fa3583a78abf04ff1d831424dc0efd" ],
     [ "dof_count.cpp", "dof__count_8cpp.html", null ],
     [ "dof_count.h", "dof__count_8h.html", [
       [ "Cnt", "structug_1_1_do_f_count_1_1_cnt.html", "structug_1_1_do_f_count_1_1_cnt" ],

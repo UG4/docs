@@ -21,7 +21,6 @@ var dir_c7c655306aff28a5e61a1dd2da898541 =
     [ "hanging_node_refiner_multi_grid.cpp", "hanging__node__refiner__multi__grid_8cpp.html", "hanging__node__refiner__multi__grid_8cpp" ],
     [ "hanging_node_refiner_multi_grid.h", "hanging__node__refiner__multi__grid_8h.html", null ],
     [ "hanging_node_refiner_t.h", "hanging__node__refiner__t_8h.html", [
-      [ "THangingNodeRefiner", "classug_1_1_t_hanging_node_refiner.html", null ],
       [ "THangingNodeRefiner< Grid >", "classug_1_1_t_hanging_node_refiner_3_01_grid_01_4.html", "classug_1_1_t_hanging_node_refiner_3_01_grid_01_4" ],
       [ "THangingNodeRefiner< MultiGrid >", "classug_1_1_t_hanging_node_refiner_3_01_multi_grid_01_4.html", "classug_1_1_t_hanging_node_refiner_3_01_multi_grid_01_4" ]
     ] ],

@@ -1,6 +1,5 @@
 var classug_1_1_grid_level =
 [
-    [ "TOP", "classug_1_1_grid_level.html#ad518c9c878ed6e5591aae5e6eb870f2eabc4a3eee7b9cef80d852f58ec1c106b3", null ],
     [ "ViewType", "classug_1_1_grid_level.html#ae5b23ae83f01521dd7a65b40caae12a4", [
       [ "LEVEL", "classug_1_1_grid_level.html#ae5b23ae83f01521dd7a65b40caae12a4a0cc9e46d937b4655484f2bfe9d41af21", null ],
       [ "SURFACE", "classug_1_1_grid_level.html#ae5b23ae83f01521dd7a65b40caae12a4a02dc065c02653e35dd0851c156ea472c", null ]

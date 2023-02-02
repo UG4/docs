@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['ug_5fnsstab_5fassert_32471',['UG_NSSTAB_ASSERT',['../stabilization_8h.html#a6b9f65b2e0909de4e2a6c4d7fe84f152',1,'stabilization.h']]],
-  ['ug_5fnsupwind_5fassert_32472',['UG_NSUPWIND_ASSERT',['../upwind_8h.html#a8ec19f8d450a4a71f8c3aa2985ef4ad0',1,'UG_NSUPWIND_ASSERT():&#160;upwind.h'],['../upwind__interface_8h.html#a8ec19f8d450a4a71f8c3aa2985ef4ad0',1,'UG_NSUPWIND_ASSERT():&#160;upwind_interface.h']]]
+  ['override_34193',['OVERRIDE',['../time__integrator_8hpp.html#a5dea698950629d9e51d19c1a25be1c30',1,'time_integrator.hpp']]]
 ];

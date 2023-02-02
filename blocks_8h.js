@@ -1,7 +1,5 @@
 var blocks_8h =
 [
-    [ "block_multiply_traits", "structug_1_1block__multiply__traits.html", null ],
-    [ "block_traits", "structug_1_1block__traits.html", "structug_1_1block__traits" ],
     [ "AddMult", "blocks_8h.html#adb7421dbbbe05ceb45d60d0770a48908", null ],
     [ "AssignMult", "blocks_8h.html#a27d325a963eea27d1ef3693f501f123e", null ],
     [ "BlockNorm", "blocks_8h.html#af526bb9c77c4ced2467ac7867ceb9a9e", null ],

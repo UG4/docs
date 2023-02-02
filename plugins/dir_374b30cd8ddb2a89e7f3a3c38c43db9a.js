@@ -10,5 +10,8 @@ var dir_374b30cd8ddb2a89e7f3a3c38c43db9a =
     [ "prandtl_reuss_impl.h", "prandtl__reuss__impl_8h.html", "prandtl__reuss__impl_8h" ],
     [ "scaled_hooke_law.h", "scaled__hooke__law_8h.html", null ],
     [ "skin_law.h", "skin__law_8h.html", null ],
-    [ "skin_law_impl.h", "skin__law__impl_8h.html", "skin__law__impl_8h" ]
+    [ "skin_law_impl.h", "skin__law__impl_8h.html", "skin__law__impl_8h" ],
+    [ "voigtian_notation.h", "voigtian__notation_8h.html", [
+      [ "VoigtianMatrix", "classug_1_1_small_strain_mechanics_1_1_voigtian_matrix.html", "classug_1_1_small_strain_mechanics_1_1_voigtian_matrix" ]
+    ] ]
 ];

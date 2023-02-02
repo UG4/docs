@@ -6,6 +6,7 @@ var group__convection__diffusion =
       [ "NumberExport", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base.html#a26bc00d96c636ed4dca6bea0670588f6", null ],
       [ "ConvectionDiffusionBase", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base.html#aae39d6a4c86f16db973de48182c3ca02", null ],
       [ "gradient", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base.html#a4297b533b66779c623b90401986d42a5", null ],
+      [ "init_imports", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base.html#a965fb3b3cb9679649c3d4648df64b922", null ],
       [ "requests_local_time_series", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base.html#a9f71c6ca96d83e3013144e417bfc91ac", null ],
       [ "set_diffusion", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base.html#a4cb4e88cebb6f9a2e4eebb4ef656824b", null ],
       [ "set_diffusion", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base.html#a08c5f1883d6908f82f5ae48d27665f0c", null ],
@@ -99,7 +100,7 @@ var group__convection__diffusion =
       [ "m_bQuadOrderUserDef", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_e.html#a2cf07b1e1a7aa3b945c54d948af5cecf", null ],
       [ "m_lfeID", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_e.html#ad47c99467bf2861a927491804120487b", null ],
       [ "m_quadOrder", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_e.html#a75767c647d7abfe926d2eeac41c6e4d3", null ],
-      [ "m_shapeValues", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_e.html#aefa9a878c5923fe9ca97accb9d47d818", null ]
+      [ "m_shapeValues", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_e.html#a9de6fd4a3887890084c7acbed0de2bc9", null ]
     ] ],
     [ "ConvectionDiffusionFV", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v.html", [
       [ "base_type", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v.html#a4b998d6c48ced9ccc23273bbc2390edc", null ],
@@ -136,6 +137,12 @@ var group__convection__diffusion =
       [ "m_quadOrder", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v.html#ae1269df7e18dbbf5acf820d6669a0a44", null ]
     ] ],
     [ "ConvectionDiffusionFV1", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html", [
+      [ "RegisterLocalDiscr", "structug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1_1_1_register_local_discr.html", [
+        [ "RegisterLocalDiscr", "structug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1_1_1_register_local_discr.html#a960372e926345a90c043a1cd74dd030b", null ],
+        [ "operator()", "structug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1_1_1_register_local_discr.html#a2ea4a5c9871b478e258c860bd298afe6", null ],
+        [ "m_bHang", "structug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1_1_1_register_local_discr.html#a8767f0df676f09546d64f6daf9b28eed", null ],
+        [ "m_pThis", "structug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1_1_1_register_local_discr.html#aa8860efc945b70628f521c35cd44b4d3", null ]
+      ] ],
       [ "ShapeValues", "structug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1_1_1_shape_values.html", [
         [ "num_sh", "structug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1_1_1_shape_values.html#a0e03e32243213af33e54167511ed15e9", null ],
         [ "resize", "structug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1_1_1_shape_values.html#a53152b758a69192610c043891d394d1e", null ],
@@ -163,6 +170,7 @@ var group__convection__diffusion =
       [ "compute_err_est_A_elem", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html#ae666200dcf23b171accce746d129df0b", null ],
       [ "compute_err_est_M_elem", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html#aa7bf71c1b1199499348f935f14420a8a", null ],
       [ "compute_err_est_rhs_elem", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html#afbecb22fa7c2ec20dc8ba098aeaea48a", null ],
+      [ "condensed_FV", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html#ae171b17d4ffc190c56e2c7ac769536f0", null ],
       [ "ex_grad", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html#ab0254879bd7253e8e04749267da848c7", null ],
       [ "ex_value", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html#a72ea361b8449e9ae575e8f7b48bbb4f3", null ],
       [ "fsh_elem_loop", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html#a755a1f575c5abc6ad27943b95e3d12b7", null ],
@@ -185,14 +193,17 @@ var group__convection__diffusion =
       [ "prepare_setting", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html#a84b76a531c3023142f2df6fca21dd8a5", null ],
       [ "register_all_funcs", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html#a12d19b7ea3244473e204e48f2b6f1d41", null ],
       [ "register_func", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html#a98b356b7fe6e521ddba911cea5459580", null ],
+      [ "register_func_for_", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html#a9c9508849357d2e74fa8d4e6f3809871", null ],
+      [ "set_condensed_FV", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html#a65513433694f242146a516b3efdb6998", null ],
       [ "set_sss_manager", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html#af5455cc0ab5b6f6f14d8dc21788cabf3", null ],
       [ "set_upwind", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html#adeb975b60b9e43a2551b7e18ef70e2f2", null ],
       [ "sss_manager", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html#a26f71cc022fbb254bfa4956cb831eb0d", null ],
       [ "use_hanging", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html#a82affe529a89c29c9e48aa1846ca89b1", null ],
       [ "_C_", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html#ad55f7239494b5fff1545a46c0b96341b", null ],
       [ "dim", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html#ada19a99dff333dd240610d5121985f8e", null ],
+      [ "m_bCondensedFV", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html#adaf4f8cc41b37bf0c877ecc873a1f3c8", null ],
       [ "m_bNonRegularGrid", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html#a3617b393d5bcb64a6883441959711350", null ],
-      [ "m_shapeValues", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html#a7af53454dbaa412290bd00e228fd65f9", null ],
+      [ "m_shapeValues", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html#a99d8130c5768726a9fb11cdffadc7bc5", null ],
       [ "m_spConvShape", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html#a0adad870624561142c1ba127687dd82b", null ],
       [ "m_sss_mngr", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html#a403428a901188226c72da8fe229f2a05", null ]
     ] ],
@@ -266,10 +277,10 @@ var group__convection__diffusion =
       [ "m_stabParamM", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_stab_f_e.html#a7e1fc668c89f72e977634b9218833e9e", null ]
     ] ],
     [ "Functionality", "structug_1_1_convection_diffusion_plugin_1_1_functionality.html", [
-      [ "Dimension", "structug_1_1_convection_diffusion_plugin_1_1_functionality.html#ab0497891eaebb96163db8aa50662a2f3", null ],
-      [ "Domain", "structug_1_1_convection_diffusion_plugin_1_1_functionality.html#ade756830bb9e96813c5849d4c911d23d", null ]
+      [ "Dimension", "structug_1_1_convection_diffusion_plugin_1_1_functionality.html#a01ba49a961538c7214d9f0e6faba1276", null ],
+      [ "Domain", "structug_1_1_convection_diffusion_plugin_1_1_functionality.html#a0895f872a3acf2f6095048f2eff14857", null ]
     ] ],
     [ "Functionality2d3d", "structug_1_1_convection_diffusion_plugin_1_1_functionality2d3d.html", [
-      [ "Domain", "structug_1_1_convection_diffusion_plugin_1_1_functionality2d3d.html#af7871a8ba4fc72a58e1c7b5d9798b3fe", null ]
+      [ "Domain", "structug_1_1_convection_diffusion_plugin_1_1_functionality2d3d.html#a7d888195eb619b749a58c3eaa3829473", null ]
     ] ]
 ];

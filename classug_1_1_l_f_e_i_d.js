@@ -1,7 +1,5 @@
 var classug_1_1_l_f_e_i_d =
 [
-    [ "ADAPTIV", "classug_1_1_l_f_e_i_d.html#acb7304472271fcae2f8b49e3eb5b8efea29c05b9ed2a51283ec09e63ab7f5dcf1", null ],
-    [ "INVALID", "classug_1_1_l_f_e_i_d.html#acb7304472271fcae2f8b49e3eb5b8efea737012a2e6902411dd2b4beeeccf7280", null ],
     [ "SpaceType", "classug_1_1_l_f_e_i_d.html#af73992784d8d28c212f44ad976b17b13", [
       [ "NONE", "classug_1_1_l_f_e_i_d.html#af73992784d8d28c212f44ad976b17b13ab8e89129b10a6ff108762b7e07d4f926", null ],
       [ "LAGRANGE", "classug_1_1_l_f_e_i_d.html#af73992784d8d28c212f44ad976b17b13a87506500bee7d97436b59a02b6080dff", null ],

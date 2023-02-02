@@ -1,6 +1,5 @@
 var group__promesh =
 [
-    [ "detail", "namespaceug_1_1promesh_1_1detail.html", null ],
     [ "Box", "classug_1_1promesh_1_1_box.html", [
       [ "get_max", "classug_1_1promesh_1_1_box.html#af6b1660de4dbfe84eadf39d89e11c24f", null ],
       [ "get_min", "classug_1_1promesh_1_1_box.html#ab5106c6f0a33836e52c531c15c3f64cf", null ],
@@ -266,6 +265,7 @@ var group__promesh =
     [ "SelectBoundaryEdges", "group__promesh.html#ga821c1c4a8bbd478ddcce9973b2e05811", null ],
     [ "SelectBoundaryFaces", "group__promesh.html#gae25f5bce57b4b5ad18bf675c5b871215", null ],
     [ "SelectBoundaryVertices", "group__promesh.html#gac08343f56c9e51796fda499976addae0", null ],
+    [ "SelectClosestEdge", "group__promesh.html#ga5eebb23ee01ccf2a97a91d6e1080de1a", null ],
     [ "SelectCreaseEdges", "group__promesh.html#ga9025d88e195c7285d097f24b54c8c9f2", null ],
     [ "SelectDegenerateFaces", "group__promesh.html#ga1e0950d517996039a6b68cbf37a7bcc3", null ],
     [ "SelectEdgeByIndex", "group__promesh.html#ga8c351240f0b761008fd6ef558c060430", null ],

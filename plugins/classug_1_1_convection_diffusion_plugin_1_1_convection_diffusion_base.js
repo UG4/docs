@@ -5,6 +5,7 @@ var classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base =
     [ "NumberExport", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base.html#a26bc00d96c636ed4dca6bea0670588f6", null ],
     [ "ConvectionDiffusionBase", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base.html#aae39d6a4c86f16db973de48182c3ca02", null ],
     [ "gradient", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base.html#a4297b533b66779c623b90401986d42a5", null ],
+    [ "init_imports", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base.html#a965fb3b3cb9679649c3d4648df64b922", null ],
     [ "requests_local_time_series", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base.html#a9f71c6ca96d83e3013144e417bfc91ac", null ],
     [ "set_diffusion", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base.html#a4cb4e88cebb6f9a2e4eebb4ef656824b", null ],
     [ "set_diffusion", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base.html#a08c5f1883d6908f82f5ae48d27665f0c", null ],

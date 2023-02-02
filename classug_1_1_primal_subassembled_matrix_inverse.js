@@ -10,6 +10,8 @@ var classug_1_1_primal_subassembled_matrix_inverse =
     [ "apply", "classug_1_1_primal_subassembled_matrix_inverse.html#adcad50d781980348c559c2aa5ef42126", null ],
     [ "apply_return_defect", "classug_1_1_primal_subassembled_matrix_inverse.html#aa1b743b0112fed60c81ec75dd0247748", null ],
     [ "clear_total_itercnt_of_inner_solvers", "classug_1_1_primal_subassembled_matrix_inverse.html#a3ab16f9708827c9486d628ddab826613", null ],
+    [ "convergence_check", "classug_1_1_primal_subassembled_matrix_inverse.html#a0eb8c047393d33c62e600e594f2ecafb", null ],
+    [ "convergence_check", "classug_1_1_primal_subassembled_matrix_inverse.html#a05e69e2b18c15a9161524d4ff5aa798b", null ],
     [ "get_total_itercnt_of_inner_solvers", "classug_1_1_primal_subassembled_matrix_inverse.html#a4a074e924d69fd11b07571803d856934", null ],
     [ "init", "classug_1_1_primal_subassembled_matrix_inverse.html#a323a676b0e25a120e7844185c49ab7ec", null ],
     [ "init", "classug_1_1_primal_subassembled_matrix_inverse.html#a86c371a48729bd72c6b983f24883f549", null ],

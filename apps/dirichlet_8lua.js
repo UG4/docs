@@ -1,0 +1,25 @@
+var dirichlet_8lua =
+[
+    [ "convRate", "dirichlet_8lua.html#abf007d3b78c7a6b7511e4281e5a75c9f", null ],
+    [ "dcRate", "dirichlet_8lua.html#a55494749a2b66f06cf308ac26cd30ada", null ],
+    [ "difflength", "dirichlet_8lua.html#ac2d04b7ab45825946b3753eb545a7e1a", null ],
+    [ "dim", "dirichlet_8lua.html#a551e214afa3d78d3b8520b3f800f94de", null ],
+    [ "dt", "dirichlet_8lua.html#a8a048e938cde337ee9ef6b6379bdd1ef", null ],
+    [ "exactjac", "dirichlet_8lua.html#a8184aa32dd8221a4888a2cd87448f7bd", null ],
+    [ "grid", "dirichlet_8lua.html#abbb6d7a4fe6339ba6a47e5580c736932", null ],
+    [ "instat", "dirichlet_8lua.html#a2ec75be3efda5ec7e9ee996469a4f591", null ],
+    [ "linred", "dirichlet_8lua.html#a41e83c1d21766bfc67afb4eae1804638", null ],
+    [ "lintol", "dirichlet_8lua.html#a8d46270fadc5707c7165c1c7467331b0", null ],
+    [ "nlinred", "dirichlet_8lua.html#af1d1e15c8061b3fa81bf9784af5b90cd", null ],
+    [ "nlintol", "dirichlet_8lua.html#ac07849372aa79ef4323eb0cb381a8bce", null ],
+    [ "nolaplace", "dirichlet_8lua.html#aba8b4a8e968e4c4629194d4e15498ae6", null ],
+    [ "numPreRefs", "dirichlet_8lua.html#a517d17fd575de09b31c18c9d3793d048", null ],
+    [ "numRefs", "dirichlet_8lua.html#ad2464918eb8162cae4af3f470845f0d9", null ],
+    [ "numTimeSteps", "dirichlet_8lua.html#a9158057a1749ff844b1325a7c060d48d", null ],
+    [ "pac", "dirichlet_8lua.html#a83d490973b249fa183c4768ad34df023", null ],
+    [ "pecletblend", "dirichlet_8lua.html#a2784a828856341c893abfb2d72f49365", null ],
+    [ "R", "dirichlet_8lua.html#a4ab04af4b882d3dc7a2482e1fe99aba7", null ],
+    [ "stab", "dirichlet_8lua.html#a71e2d2fce0539de9e975a5b46474606c", null ],
+    [ "stokes", "dirichlet_8lua.html#ae8dbba418be74b40ea647351f33f88b9", null ],
+    [ "upwind", "dirichlet_8lua.html#a7347b730f027b789b6893411fe6e3976", null ]
+];

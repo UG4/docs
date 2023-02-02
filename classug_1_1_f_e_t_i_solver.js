@@ -12,6 +12,8 @@ var classug_1_1_f_e_t_i_solver =
     [ "apply_return_defect", "classug_1_1_f_e_t_i_solver.html#a43b2692faa409092411b5febb8035ed6", null ],
     [ "apply_scaling_matrix", "classug_1_1_f_e_t_i_solver.html#a4b193c10ee90df893ab8c5b1e2504e94", null ],
     [ "compute_d", "classug_1_1_f_e_t_i_solver.html#ac352fbc8c30d1fb3b3d77c59182c620d", null ],
+    [ "convergence_check", "classug_1_1_f_e_t_i_solver.html#a0eb8c047393d33c62e600e594f2ecafb", null ],
+    [ "convergence_check", "classug_1_1_f_e_t_i_solver.html#a05e69e2b18c15a9161524d4ff5aa798b", null ],
     [ "init", "classug_1_1_f_e_t_i_solver.html#a35465fdf7c5a50213b2641772468372a", null ],
     [ "name", "classug_1_1_f_e_t_i_solver.html#a2e9d64120f3192207bb67587b7c428d4", null ],
     [ "prepare_conv_check", "classug_1_1_f_e_t_i_solver.html#a45cf6664847d11a01a56173f55bf9a51", null ],

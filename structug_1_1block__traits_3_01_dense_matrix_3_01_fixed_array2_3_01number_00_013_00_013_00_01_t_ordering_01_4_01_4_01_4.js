@@ -1,8 +1,4 @@
 var structug_1_1block__traits_3_01_dense_matrix_3_01_fixed_array2_3_01number_00_013_00_013_00_01_t_ordering_01_4_01_4_01_4 =
 [
-    [ "inverse_type", "structug_1_1block__traits_3_01_dense_matrix_3_01_fixed_array2_3_01number_00_013_00_013_00_01_t_ordering_01_4_01_4_01_4.html#ade9d87d20a8cd2075f9d7bb179264e2d", null ],
-    [ "ordering", "structug_1_1block__traits_3_01_dense_matrix_3_01_fixed_array2_3_01number_00_013_00_013_00_01_t_ordering_01_4_01_4_01_4.html#af8240ba1e00011cb853d132f9ce1a862a96ccbc818a8657c8715a42c2a08803d6", null ],
-    [ "is_static", "structug_1_1block__traits_3_01_dense_matrix_3_01_fixed_array2_3_01number_00_013_00_013_00_01_t_ordering_01_4_01_4_01_4.html#a8e20861dd448b3a488fbdebc23d97004a6e83e9142fce9bf0ddfa6b45ab10609d", null ],
-    [ "static_num_rows", "structug_1_1block__traits_3_01_dense_matrix_3_01_fixed_array2_3_01number_00_013_00_013_00_01_t_ordering_01_4_01_4_01_4.html#a808481b59632ae016ff3adc4899a7367a3e76932ff766befa5383193f3f59cae6", null ],
-    [ "static_num_cols", "structug_1_1block__traits_3_01_dense_matrix_3_01_fixed_array2_3_01number_00_013_00_013_00_01_t_ordering_01_4_01_4_01_4.html#acc7b226b2a61e8a023a4fd824a192402ac543f19a3d7f42b58d10a1ad892492fc", null ]
+    [ "inverse_type", "structug_1_1block__traits_3_01_dense_matrix_3_01_fixed_array2_3_01number_00_013_00_013_00_01_t_ordering_01_4_01_4_01_4.html#ade9d87d20a8cd2075f9d7bb179264e2d", null ]
 ];

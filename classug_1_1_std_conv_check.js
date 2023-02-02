@@ -8,6 +8,7 @@ var classug_1_1_std_conv_check =
     [ "clone", "classug_1_1_std_conv_check.html#a8918c6237a43ab6c6422eb5d29527085", null ],
     [ "config_string", "classug_1_1_std_conv_check.html#a67c29cf3e06e0b827d142e98711e8722", null ],
     [ "defect", "classug_1_1_std_conv_check.html#ae5436aea1caa00a6aa4796bb66e8e76d", null ],
+    [ "get_defect", "classug_1_1_std_conv_check.html#a02ee44f287917e01776d8c84fcb42a45", null ],
     [ "get_defects", "classug_1_1_std_conv_check.html#a682ca540b616598e3fafb01874e3a683", null ],
     [ "get_offset", "classug_1_1_std_conv_check.html#a287f413d3a13d4a1d468fb263efeba69", null ],
     [ "is_valid_number", "classug_1_1_std_conv_check.html#a4f9010619e14ea2b4fba7ee5c0c57bb5", null ],

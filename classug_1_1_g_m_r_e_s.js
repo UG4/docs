@@ -8,6 +8,8 @@ var classug_1_1_g_m_r_e_s =
     [ "apply_return_defect", "classug_1_1_g_m_r_e_s.html#a25da68a94ae8ccf497c1f8a7c26384de", null ],
     [ "config_string", "classug_1_1_g_m_r_e_s.html#a0deffbba6fe472cb26d8ed35cd23a26d", null ],
     [ "name", "classug_1_1_g_m_r_e_s.html#a531f1cad577d53737639a54bb3e77a4d", null ],
+    [ "preconditioner", "classug_1_1_g_m_r_e_s.html#aab9d760eafb30d055a26f2cee4da8837", null ],
+    [ "preconditioner", "classug_1_1_g_m_r_e_s.html#a27fed2ad880be1d14d6b34c34362b9b9", null ],
     [ "prepare_conv_check", "classug_1_1_g_m_r_e_s.html#a304e67cd2a81693c5b1a66f3eb62491a", null ],
     [ "remove_postprocess_corr", "classug_1_1_g_m_r_e_s.html#a0178de084838fdea2307f393b2af9847", null ],
     [ "supports_parallel", "classug_1_1_g_m_r_e_s.html#a71721cd7af6b621a4d4c9beb0fdd9411", null ],

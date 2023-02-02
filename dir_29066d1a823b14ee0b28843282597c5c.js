@@ -8,9 +8,15 @@ var dir_29066d1a823b14ee0b28843282597c5c =
     [ "ass_tuner.h", "ass__tuner_8h.html", "ass__tuner_8h" ],
     [ "ass_tuner_impl.h", "ass__tuner__impl_8h.html", null ],
     [ "disc_item.h", "disc__item_8h.html", [
-      [ "IDiscretizationItem", "classug_1_1_i_discretization_item.html", "classug_1_1_i_discretization_item" ],
-      [ "IDomainConstraint", "classug_1_1_i_domain_constraint.html", "classug_1_1_i_domain_constraint" ]
+      [ "IDiscretizationItem", "classug_1_1_i_discretization_item.html", "classug_1_1_i_discretization_item" ]
     ] ],
+    [ "dom_disc_embb.h", "dom__disc__embb_8h.html", [
+      [ "IInterfaceExtrapolation", "classug_1_1_i_interface_extrapolation.html", "classug_1_1_i_interface_extrapolation" ],
+      [ "LSGFConstraint", "classug_1_1_l_s_g_f_constraint.html", "classug_1_1_l_s_g_f_constraint" ],
+      [ "LSGFDomainDiscretization", "classug_1_1_l_s_g_f_domain_discretization.html", "classug_1_1_l_s_g_f_domain_discretization" ],
+      [ "LSGFGlobAssembler", "classug_1_1_l_s_g_f_glob_assembler.html", "classug_1_1_l_s_g_f_glob_assembler" ]
+    ] ],
+    [ "dom_disc_embb_impl.h", "dom__disc__embb__impl_8h.html", null ],
     [ "domain_disc.h", "domain__disc_8h.html", [
       [ "DomainDiscretization", "classug_1_1_domain_discretization.html", "classug_1_1_domain_discretization" ],
       [ "DomainDiscretizationBase", "classug_1_1_domain_discretization_base.html", "classug_1_1_domain_discretization_base" ]

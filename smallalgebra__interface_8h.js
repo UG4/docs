@@ -1,8 +1,6 @@
 var smallalgebra__interface_8h =
 [
-    [ "block_multiply_traits", "structug_1_1block__multiply__traits.html", null ],
     [ "block_multiply_traits< T1, T2 >", "structug_1_1block__multiply__traits_3_01_t1_00_01_t2_01_4.html", "structug_1_1block__multiply__traits_3_01_t1_00_01_t2_01_4" ],
-    [ "block_traits", "structug_1_1block__traits.html", "structug_1_1block__traits" ],
     [ "block_traits< T >", "structug_1_1block__traits_3_01_t_01_4.html", "structug_1_1block__traits_3_01_t_01_4" ],
     [ "BlockNorm", "smallalgebra__interface_8h.html#af526bb9c77c4ced2467ac7867ceb9a9e", null ],
     [ "BlockNorm2", "smallalgebra__interface_8h.html#abc77c0f3b7c712f835594575ca00c133", null ],

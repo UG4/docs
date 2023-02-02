@@ -5,7 +5,7 @@ var dir_806e472b0b1c0adc459f6ac1c438e5fb =
     [ "algebra_layouts.h", "algebra__layouts_8h.html", "algebra__layouts_8h" ],
     [ "collect_matrix.h", "collect__matrix_8h.html", "collect__matrix_8h" ],
     [ "communication_policies.h", "communication__policies_8h.html", [
-      [ "block_traits", "structug_1_1block__traits.html", "structug_1_1block__traits" ]
+      [ "block_traits", "structug_1_1block__traits.html", null ]
     ] ],
     [ "communication_scheme.h", "communication__scheme_8h.html", "communication__scheme_8h" ],
     [ "consistency_check.h", "consistency__check_8h.html", "consistency__check_8h" ],
@@ -24,8 +24,8 @@ var dir_806e472b0b1c0adc459f6ac1c438e5fb =
     [ "parallel_coloring.h", "parallel__coloring_8h.html", "parallel__coloring_8h" ],
     [ "parallel_index_layout.cpp", "parallel__index__layout_8cpp.html", "parallel__index__layout_8cpp" ],
     [ "parallel_index_layout.h", "parallel__index__layout_8h.html", "parallel__index__layout_8h" ],
-    [ "parallel_matrix.h", "parallel__matrix_8h.html", [
-      [ "matrix_algebra_type_traits< ParallelMatrix< T > >", "structug_1_1matrix__algebra__type__traits_3_01_parallel_matrix_3_01_t_01_4_01_4.html", "structug_1_1matrix__algebra__type__traits_3_01_parallel_matrix_3_01_t_01_4_01_4" ]
+    [ "parallel_matrix.h", "parallelization_2parallel__matrix_8h.html", [
+      [ "matrix_algebra_type_traits< ParallelMatrix< T > >", "structug_1_1matrix__algebra__type__traits_3_01_parallel_matrix_3_01_t_01_4_01_4.html", null ]
     ] ],
     [ "parallel_matrix_impl.h", "parallel__matrix__impl_8h.html", "parallel__matrix__impl_8h" ],
     [ "parallel_matrix_overlap_impl.h", "parallel__matrix__overlap__impl_8h.html", "parallel__matrix__overlap__impl_8h" ],

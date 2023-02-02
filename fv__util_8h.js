@@ -1,6 +1,5 @@
 var fv__util_8h =
 [
-    [ "fv1_dim_traits", "structug_1_1fv1__dim__traits.html", null ],
     [ "fv1_dim_traits< 1, 1 >", "structug_1_1fv1__dim__traits_3_011_00_011_01_4.html", null ],
     [ "fv1_dim_traits< 1, 2 >", "structug_1_1fv1__dim__traits_3_011_00_012_01_4.html", null ],
     [ "fv1_dim_traits< 1, 3 >", "structug_1_1fv1__dim__traits_3_011_00_013_01_4.html", null ],

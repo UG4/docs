@@ -1,8 +1,9 @@
 var classug_1_1cgraph =
 [
+    [ "const_row_iterator", "classug_1_1cgraph.html#a85f7b699adf6ad5e11fc4f99f6d851d0", null ],
     [ "const_row_iterator", "classug_1_1cgraph.html#a9bfda3f69bf1521bbcc793e6402722f0", null ],
-    [ "row_iterator", "classug_1_1cgraph.html#ac434f95f6ffe3c590d50e2c8273194f6", null ],
     [ "row_iterator", "classug_1_1cgraph.html#a9c25d549bdc5f84d52e76b0f2d469eac", null ],
+    [ "row_iterator", "classug_1_1cgraph.html#ac434f95f6ffe3c590d50e2c8273194f6", null ],
     [ "cgraph", "classug_1_1cgraph.html#a601f0fba1f78858e77184449621b3ef9", null ],
     [ "cgraph", "classug_1_1cgraph.html#abfe42e7c8dc3dd80350913dbe81282a3", null ],
     [ "~cgraph", "classug_1_1cgraph.html#a51925f3d7924fa16d969c71bad467692", null ],
@@ -46,7 +47,6 @@ var classug_1_1cgraph =
     [ "operator<<", "classug_1_1cgraph.html#ac404267357f03200f4d436164c8f425e", null ],
     [ "cons", "classug_1_1cgraph.html#a0d2806c22e94b9144c8bc7c523dc8ed2", null ],
     [ "consmem", "classug_1_1cgraph.html#a7c4519295f58d70d954111f18dcb7499", null ],
-    [ "const_row_iterator", "classug_1_1cgraph.html#a038ef53cccf4e2603ad288b63dd3d113", null ],
     [ "iMaxTotalNrOfConnections", "classug_1_1cgraph.html#a41699930a66c6287985fc2922d8c26ae", null ],
     [ "iTotalNrOfConnections", "classug_1_1cgraph.html#ae1ffd1c229dc5950b4ccc29c6a5b2f4c", null ],
     [ "m_data", "classug_1_1cgraph.html#a09f916711e42ba81a54b2fa9acc9c5b9", null ]

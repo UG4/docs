@@ -16,8 +16,8 @@ var file__util_8h =
     [ "FileTypeIs", "file__util_8h.html#ga31f29d12272a9504d5a0bc678b65156c", null ],
     [ "FindDirInStandardPaths", "file__util_8h.html#ga86f2e4c57a0648fe306282bbc4de20bd", null ],
     [ "FindFileInStandardPaths", "file__util_8h.html#ga8b4c020767f83bf698edb4d77111fb6e", null ],
-    [ "GetDirectoriesInDirectory", "file__util_8h.html#ga4b23fb613031653a3520fba41d6b01a1", null ],
-    [ "GetFilesInDirectory", "file__util_8h.html#ga98ad84271861c936879ed30d1878653f", null ],
+    [ "GetDirectoriesInDirectory", "file__util_8h.html#gae1bdd2602631c1d19b8e2532277f62a0", null ],
+    [ "GetFilesInDirectory", "file__util_8h.html#ga3d8e61f5606455d39852563501b783d1", null ],
     [ "GetTmpPath", "file__util_8h.html#ga77a6ef9018c9894ac779f72a9e7404f2", null ],
     [ "MakeTmpFile", "file__util_8h.html#gaa1faaf8723866d4ec516f5384cd1ab15", null ],
     [ "ReadFile", "file__util_8h.html#gaee07587ffcc6b2ac86023f00996fc9f4", null ]

@@ -14,5 +14,7 @@ var namespaceug_1_1_convection_diffusion_plugin =
     [ "Functionality", "structug_1_1_convection_diffusion_plugin_1_1_functionality.html", "structug_1_1_convection_diffusion_plugin_1_1_functionality" ],
     [ "Functionality2d3d", "structug_1_1_convection_diffusion_plugin_1_1_functionality2d3d.html", "structug_1_1_convection_diffusion_plugin_1_1_functionality2d3d" ],
     [ "line_sss_marker", "classug_1_1_convection_diffusion_plugin_1_1line__sss__marker.html", "classug_1_1_convection_diffusion_plugin_1_1line__sss__marker" ],
-    [ "point_sss_marker", "classug_1_1_convection_diffusion_plugin_1_1point__sss__marker.html", "classug_1_1_convection_diffusion_plugin_1_1point__sss__marker" ]
+    [ "point_sss_marker", "classug_1_1_convection_diffusion_plugin_1_1point__sss__marker.html", "classug_1_1_convection_diffusion_plugin_1_1point__sss__marker" ],
+    [ "CalculateCenter", "namespaceug_1_1_convection_diffusion_plugin.html#aaad08576b400cd43a9a98fdc4a81f666", null ],
+    [ "DID_CONV_DIFF_FV1", "namespaceug_1_1_convection_diffusion_plugin.html#a019f9d236b525a28442966fb09085d75", null ]
 ];

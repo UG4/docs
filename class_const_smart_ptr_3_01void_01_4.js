@@ -12,6 +12,7 @@ var class_const_smart_ptr_3_01void_01_4 =
     [ "get", "class_const_smart_ptr_3_01void_01_4.html#a8f6c2cc635a074652f97c316ea6806a5", null ],
     [ "invalid", "class_const_smart_ptr_3_01void_01_4.html#ac1323ec47fb6a3fd38b441513c8b6163", null ],
     [ "invalidate", "class_const_smart_ptr_3_01void_01_4.html#aa02fc34478e056dca83d4b42c9c00025", null ],
+    [ "operator bool", "class_const_smart_ptr_3_01void_01_4.html#aa5b83ac9e41921983e7b02389e04100c", null ],
     [ "operator=", "class_const_smart_ptr_3_01void_01_4.html#a677e02c1331d16edf413edf70ec9f5ff", null ],
     [ "operator=", "class_const_smart_ptr_3_01void_01_4.html#a79669be63567bff0c93ec74bd485104b", null ],
     [ "operator=", "class_const_smart_ptr_3_01void_01_4.html#afc3fb3b8463b190ae518d0118ddb7629", null ],

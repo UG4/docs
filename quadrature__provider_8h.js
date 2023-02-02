@@ -9,5 +9,5 @@ var quadrature__provider_8h =
       [ "NUM_QUADRATURE_TYPES", "quadrature__provider_8h.html#a35e2e7ec4c571cf5c38889b9b274aeb0a7347276ea99b4b8c2f9c9e3e27e9ae25", null ]
     ] ],
     [ "GetQuadratureType", "quadrature__provider_8h.html#a1a081693d793bc8188875a7fc6cea2d6", null ],
-    [ "operator<<", "quadrature__provider_8h.html#ad5e82c4cf18071bbf400eec973da584f", null ]
+    [ "operator<<", "quadrature__provider_8h.html#ab228130e31c875ff4f30b29d25397388", null ]
 ];

@@ -8,7 +8,7 @@ var structug_1_1fv1__traits =
     [ "maxNSH", "structug_1_1fv1__traits.html#a0facd3886a90026070e9a6d01f0debf1", null ],
     [ "maxNumSCV", "structug_1_1fv1__traits.html#aa674bc033d38e551e325ef153e18d232", null ],
     [ "maxNumSCVF", "structug_1_1fv1__traits.html#ab325397862d03a82e6746f4334956a28", null ],
-    [ "NumCornersOfBF", "structug_1_1fv1__traits.html#ac92291183879a755e11e07ff6d848a96", null ],
-    [ "NumCornersOfSCV", "structug_1_1fv1__traits.html#a3fb78e3ecb5c4a4335ef3cbf6b006daa", null ],
-    [ "NumCornersOfSCVF", "structug_1_1fv1__traits.html#a413b2109adc58ca9365460a6a032ff7a", null ]
+    [ "NumCornersOfBF", "structug_1_1fv1__traits.html#a94fc11ed0eb6c910bab2b55ec0192d53", null ],
+    [ "NumCornersOfSCV", "structug_1_1fv1__traits.html#a04fe26e8204ca05260ec42618b200fe0", null ],
+    [ "NumCornersOfSCVF", "structug_1_1fv1__traits.html#a8634596d8e9193668fff9568b0abfc97", null ]
 ];

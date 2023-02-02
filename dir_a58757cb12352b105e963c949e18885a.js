@@ -8,7 +8,6 @@ var dir_a58757cb12352b105e963c949e18885a =
     [ "elem_disc_interface.h", "elem__disc__interface_8h.html", "elem__disc__interface_8h" ],
     [ "elem_disc_interface_impl.h", "elem__disc__interface__impl_8h.html", null ],
     [ "elem_modifier.h", "elem__modifier_8h.html", [
-      [ "IElemDisc", "classug_1_1_i_elem_disc.html", "classug_1_1_i_elem_disc" ],
       [ "IElemDiscModifier", "classug_1_1_i_elem_disc_modifier.html", "classug_1_1_i_elem_disc_modifier" ]
     ] ],
     [ "elem_modifier_impl.h", "elem__modifier__impl_8h.html", null ],

@@ -6,7 +6,7 @@ var structug_1_1fv1__traits___reference_face =
     [ "maxNSH", "structug_1_1fv1__traits___reference_face.html#a9fd0ba75bddc626c0d8e8a24347fbed5", null ],
     [ "maxNumSCV", "structug_1_1fv1__traits___reference_face.html#aa205cdf5f1e93a1765dfce4d9daf1e06", null ],
     [ "maxNumSCVF", "structug_1_1fv1__traits___reference_face.html#a0210b514ed9ce21312b4fa901b6449ff", null ],
-    [ "NumCornersOfBF", "structug_1_1fv1__traits___reference_face.html#aea73d4aa7300df2ed33bcde46c87244f", null ],
-    [ "NumCornersOfSCV", "structug_1_1fv1__traits___reference_face.html#a70fe36fa401645a5d21bc317e5c55761", null ],
-    [ "NumCornersOfSCVF", "structug_1_1fv1__traits___reference_face.html#a61864db6bea15d6c2e14d22399b52a94", null ]
+    [ "NumCornersOfBF", "structug_1_1fv1__traits___reference_face.html#a5bc095492e0abe61108adf09d2c9764c", null ],
+    [ "NumCornersOfSCV", "structug_1_1fv1__traits___reference_face.html#a69337033b205b15e0852ef5dde2184d2", null ],
+    [ "NumCornersOfSCVF", "structug_1_1fv1__traits___reference_face.html#ab59d33e5e39d53fc9a382a189355e86d", null ]
 ];

@@ -8,7 +8,6 @@ var dir_660e878637aab645dd623121eb9e60db =
       [ "ntree_traits", "structug_1_1ntree__traits.html", "structug_1_1ntree__traits" ],
       [ "NTreeDesc", "structug_1_1_n_tree_desc.html", "structug_1_1_n_tree_desc" ],
       [ "pow", "structug_1_1ntree_1_1pow.html", "structug_1_1ntree_1_1pow" ],
-      [ "pow", "structug_1_1ntree_1_1pow.html", "structug_1_1ntree_1_1pow" ],
       [ "pow< n, 0 >", "structug_1_1ntree_1_1pow_3_01n_00_010_01_4.html", "structug_1_1ntree_1_1pow_3_01n_00_010_01_4" ]
     ] ],
     [ "ntree_impl.hpp", "ntree__impl_8hpp.html", null ],

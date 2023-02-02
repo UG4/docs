@@ -13,8 +13,6 @@ var dir_8c26a127a0eea13c4724b5310584fbab =
     [ "boost_serialization_routines.h", "boost__serialization__routines_8h.html", "boost__serialization__routines_8h" ],
     [ "catch_std.h", "catch__std_8h.html", null ],
     [ "common.h", "common_8h.html", "common_8h" ],
-    [ "cuthill_mckee.cpp", "common_2cuthill__mckee_8cpp.html", "common_2cuthill__mckee_8cpp" ],
-    [ "cuthill_mckee.h", "common_2cuthill__mckee_8h.html", "common_2cuthill__mckee_8h" ],
     [ "debug_id.cpp", "debug__id_8cpp.html", null ],
     [ "debug_id.h", "debug__id_8h.html", "debug__id_8h" ],
     [ "debug_print.h", "debug__print_8h.html", "debug__print_8h" ],

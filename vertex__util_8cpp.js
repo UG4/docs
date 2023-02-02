@@ -2,7 +2,7 @@ var vertex__util_8cpp =
 [
     [ "CalculateVertexNormals", "vertex__util_8cpp.html#ga95754779ac568465423ab030b6421c7f", null ],
     [ "CalculateVertexNormals", "vertex__util_8cpp.html#gabe72050ecf543aeda3950e6bd039e402", null ],
-    [ "CollectSurfaceNeighborsSorted", "vertex__util_8cpp.html#ga035996e064b6f7bc1fc472b6c5cc2f1b", null ],
+    [ "CollectSurfaceNeighborsSorted", "vertex__util_8cpp.html#ga5221e89301cf0272f1a19cfe2ba9bab3", null ],
     [ "FindVertexByCoordiante", "vertex__util_8cpp.html#gaefad3008d43f5a281ec1d7d5dca78cc0", null ],
     [ "GetConnectedEdge", "vertex__util_8cpp.html#ga3462fadc3d0f59d6a4177d60e647a2e8", null ],
     [ "GetConnectedVertex", "vertex__util_8cpp.html#gaee1128b8bc4a8fed99814b0126b9b454", null ],

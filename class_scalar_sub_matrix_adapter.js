@@ -28,6 +28,6 @@ var class_scalar_sub_matrix_adapter =
     [ "total_num_connections", "class_scalar_sub_matrix_adapter.html#a76fe84e043dca7c8761e5c3e53fec6f4", null ],
     [ "m_const", "class_scalar_sub_matrix_adapter.html#a2509fc32bcbf00cedc528e388baf78d0", null ],
     [ "m_src", "class_scalar_sub_matrix_adapter.html#a7db2acb82f57dcda9b9e33357ba80d6c", null ],
-    [ "m_subc", "class_scalar_sub_matrix_adapter.html#ab2d284fd1448949df94a9228c17171f5", null ],
-    [ "m_subr", "class_scalar_sub_matrix_adapter.html#a2c81241be17c01cd4e94081bafe816d7", null ]
+    [ "m_subc", "class_scalar_sub_matrix_adapter.html#a346548dd9c53aa68e02e06e6dcee53b6", null ],
+    [ "m_subr", "class_scalar_sub_matrix_adapter.html#a341b3c884210e91f318a70bdc069eeb8", null ]
 ];

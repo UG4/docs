@@ -16,7 +16,7 @@ var dir_56e2ae5e1f636b1619b1af0757b00c03 =
     ] ],
     [ "linear_solver_profiling.h", "linear__solver__profiling_8h.html", "linear__solver__profiling_8h" ],
     [ "matrix_operator.h", "matrix__operator_8h.html", [
-      [ "matrix_algebra_type_traits< MatrixOperator< M, X, Y > >", "structug_1_1matrix__algebra__type__traits_3_01_matrix_operator_3_01_m_00_01_x_00_01_y_01_4_01_4.html", "structug_1_1matrix__algebra__type__traits_3_01_matrix_operator_3_01_m_00_01_x_00_01_y_01_4_01_4" ],
+      [ "matrix_algebra_type_traits< MatrixOperator< M, X, Y > >", "structug_1_1matrix__algebra__type__traits_3_01_matrix_operator_3_01_m_00_01_x_00_01_y_01_4_01_4.html", null ],
       [ "MatrixOperator", "classug_1_1_matrix_operator.html", "classug_1_1_matrix_operator" ]
     ] ],
     [ "matrix_operator_inverse.h", "matrix__operator__inverse_8h.html", [

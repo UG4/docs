@@ -6,5 +6,5 @@ var structug_1_1grid__dim__traits_3_010_01_4 =
     [ "element_type", "structug_1_1grid__dim__traits_3_010_01_4.html#a1b937bdd9c24820a655bf702d88f4122", null ],
     [ "grid_base_object", "structug_1_1grid__dim__traits_3_010_01_4.html#a9370aad8fbcd16e6fba32a7d40677754", null ],
     [ "iterator", "structug_1_1grid__dim__traits_3_010_01_4.html#a7a293b9d98c00cb6e023cbdeb75c44b4", null ],
-    [ "MaxNumVerticesOfElem", "structug_1_1grid__dim__traits_3_010_01_4.html#a5fff6f69b433c5b2073fbb642b8ba74d", null ]
+    [ "MaxNumVerticesOfElem", "structug_1_1grid__dim__traits_3_010_01_4.html#af0153794631c38e3b67e516691f5d21e", null ]
 ];

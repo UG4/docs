@@ -3,7 +3,7 @@ var group__lib__grid__algorithms__selection__util =
     [ "AssignSelectionStateToSides", "group__lib__grid__algorithms__selection__util.html#ga859152ce784194858c66fece4699328d", null ],
     [ "CalculateCenter", "group__lib__grid__algorithms__selection__util.html#gae18a702589e6f00deab8ee9d2060bca1", null ],
     [ "CloseSelection", "group__lib__grid__algorithms__selection__util.html#ga8ed839e8395106abc07bd43ca814fbef", null ],
-    [ "CollectVerticesTouchingSelection", "group__lib__grid__algorithms__selection__util.html#ga06422faeed8fc3b507ce9ccc72925bd0", null ],
+    [ "CollectVerticesTouchingSelection", "group__lib__grid__algorithms__selection__util.html#gacd3ae9a0df6c3c86c9a9581b04d77b7f", null ],
     [ "DeselectBoundarySelectionEdges", "group__lib__grid__algorithms__selection__util.html#ga61890f4a326b8bb8b8ed4821b13fb765", null ],
     [ "DeselectBoundarySelectionFaces", "group__lib__grid__algorithms__selection__util.html#ga6e249e072aee5e0311ce9e667b037ae0", null ],
     [ "DeselectBoundarySelectionVertices", "group__lib__grid__algorithms__selection__util.html#ga0cb43743acaecd5e3412aadd8d9c5251", null ],

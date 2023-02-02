@@ -16,6 +16,7 @@ var class_const_smart_ptr =
     [ "get", "class_const_smart_ptr.html#af02fe473a6b1ca143741ad28d5edda5c", null ],
     [ "invalid", "class_const_smart_ptr.html#a56b971e419f389cbc1e2b381c9842478", null ],
     [ "is_of_type", "class_const_smart_ptr.html#a5b34fb300d7012b6905b802ca4d67643", null ],
+    [ "operator bool", "class_const_smart_ptr.html#a48548550b5765b051b328e6661c17f3b", null ],
     [ "operator!=", "class_const_smart_ptr.html#ab076fd90edafd083f1cbac332230cb98", null ],
     [ "operator!=", "class_const_smart_ptr.html#afc5b079b5d0362e66a93a6af987dc58b", null ],
     [ "operator!=", "class_const_smart_ptr.html#ab34549ad26070ca371f7c1c9564768fd", null ],

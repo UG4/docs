@@ -17,6 +17,7 @@ var class_smart_ptr =
     [ "get_nonconst", "class_smart_ptr.html#a1826618ad67725f6b0967184f73599d3", null ],
     [ "invalid", "class_smart_ptr.html#aef72a5d2f077520fc9b0b145a74bed3d", null ],
     [ "is_of_type", "class_smart_ptr.html#a7cdcc05acf7c21d8b2c87688d7ccee35", null ],
+    [ "operator bool", "class_smart_ptr.html#acb875ca30051179ad568fb7897997bdb", null ],
     [ "operator!=", "class_smart_ptr.html#a9e0e9abd9ed79c390b11b4daf4c07c02", null ],
     [ "operator!=", "class_smart_ptr.html#afb12cffd2fa20a845650d0ddfa9791e6", null ],
     [ "operator!=", "class_smart_ptr.html#a122c52152667d0b72e89f842eac06fde", null ],

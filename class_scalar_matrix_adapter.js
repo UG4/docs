@@ -12,7 +12,7 @@ var class_scalar_matrix_adapter =
     [ "num_cols", "class_scalar_matrix_adapter.html#ad58dd9e6c2edfbd7dd0073a08d17c5d3", null ],
     [ "num_rows", "class_scalar_matrix_adapter.html#a77f828654f8ab77ab8c49e1a9d6cf9b1", null ],
     [ "operator()", "class_scalar_matrix_adapter.html#a46a2348d49b26665946f463979ae3c2b", null ],
-    [ "operator()", "class_scalar_matrix_adapter.html#a530fc33dea83d280895db385230dcdfc", null ],
+    [ "operator()", "class_scalar_matrix_adapter.html#aa62f0d71ea6995ed9ad9d93570e64ebc", null ],
     [ "operator()", "class_scalar_matrix_adapter.html#a29dab585c77523f40e45869d45af756e", null ],
     [ "outputToStream", "class_scalar_matrix_adapter.html#ae4752460699b5d62d86ed468590f5753", null ],
     [ "print", "class_scalar_matrix_adapter.html#af611d7f21d275f99906a245901fcb0c7", null ],

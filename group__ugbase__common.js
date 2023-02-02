@@ -1,7 +1,6 @@
 var group__ugbase__common =
 [
     [ "Common Utilities", "group__ugbase__common__util.html", "group__ugbase__common__util" ],
-    [ "ugtypes", "namespaceugtypes.html", null ],
     [ "CompileTimeAssertion", "struct_compile_time_assertion.html", null ],
     [ "CompileTimeAssertion< true >", "struct_compile_time_assertion_3_01true_01_4.html", [
       [ "do_assert", "struct_compile_time_assertion_3_01true_01_4.html#a3c7e8028693133a4e30931fff1625b0a", null ]

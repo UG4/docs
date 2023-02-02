@@ -1,11 +1,5 @@
 var classug_1_1_reference_element =
 [
-    [ "POINT", "classug_1_1_reference_element.html#abf0df41ab82d3536970a5ef73ab0d61ba9b918f2796c43efeb153e820230609a2", null ],
-    [ "EDGE", "classug_1_1_reference_element.html#abf0df41ab82d3536970a5ef73ab0d61ba7ed3bdfedc86d948d4ee218e41b26439", null ],
-    [ "FACE", "classug_1_1_reference_element.html#abf0df41ab82d3536970a5ef73ab0d61bae8f260a5049e070cc9bf7bb5e18ab253", null ],
-    [ "VOLUME", "classug_1_1_reference_element.html#abf0df41ab82d3536970a5ef73ab0d61ba5cbbe65a2c152d0f50689e5e23a37606", null ],
-    [ "MAXOBJECTS", "classug_1_1_reference_element.html#a024667800bd3251af1a37f99f28f3435af29b7108aac5fc2ffca0b59d258865fd", null ],
-    [ "MAXDIM", "classug_1_1_reference_element.html#a903ff556e233798deef01d103adf7442a9cc625067747add35ace7910e5414da7", null ],
     [ "ReferenceElement", "classug_1_1_reference_element.html#a0df9167dd6908a319802080a17c68b52", null ],
     [ "dimension", "classug_1_1_reference_element.html#a8837f08d2a8461f5958b59fa8bfb6cea", null ],
     [ "id", "classug_1_1_reference_element.html#a756e048f540488a23c5c2c5beacf942d", null ],

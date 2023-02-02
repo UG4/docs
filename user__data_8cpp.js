@@ -2,7 +2,6 @@ var user__data_8cpp =
 [
     [ "PrintCondUserData2d", "classug_1_1vrl_1_1_print_cond_user_data2d.html", "classug_1_1vrl_1_1_print_cond_user_data2d" ],
     [ "PrintUserData2d", "classug_1_1vrl_1_1_print_user_data2d.html", "classug_1_1vrl_1_1_print_user_data2d" ],
-    [ "vrl_traits", "structug_1_1vrl_1_1vrl__traits.html", null ],
     [ "vrl_traits< number >", "structug_1_1vrl_1_1vrl__traits_3_01number_01_4.html", "structug_1_1vrl_1_1vrl__traits_3_01number_01_4" ],
     [ "vrl_traits< ug::MathMatrix< dim, dim > >", "structug_1_1vrl_1_1vrl__traits_3_01ug_1_1_math_matrix_3_01dim_00_01dim_01_4_01_4.html", "structug_1_1vrl_1_1vrl__traits_3_01ug_1_1_math_matrix_3_01dim_00_01dim_01_4_01_4" ],
     [ "vrl_traits< ug::MathVector< dim > >", "structug_1_1vrl_1_1vrl__traits_3_01ug_1_1_math_vector_3_01dim_01_4_01_4.html", "structug_1_1vrl_1_1vrl__traits_3_01ug_1_1_math_vector_3_01dim_01_4_01_4" ],

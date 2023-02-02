@@ -18,11 +18,14 @@ var classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base =
     [ "set_source", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#a9bb59d5ee88f67b937f206a3e618fafa", null ],
     [ "set_stokes", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#a347a8a7950edecffa5991d824e55627d", null ],
     [ "stokes", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#ac8fc929796d70bc8eba9a092024df4d9", null ],
+    [ "velocity", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#a1fb8056be3ffd9bbf344a724a58b5f78", null ],
     [ "velocity_grad", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#a8693348850999b928c3badaf016b207f", null ],
     [ "dim", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#af558305b758becfa30a768c7ece19ba5", null ],
+    [ "m_bFullNewtonFactor", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#a5fee9ce7958a9c57131a42bcb76c4d5e", null ],
     [ "m_bLaplace", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#a949e23d8f0584d8eea774a4f65dcc7a8", null ],
     [ "m_bPecletBlend", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#aa0f24d159f745cafa7174ec9c351c53e", null ],
     [ "m_bStokes", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#a9b720438bd17a65e4e6db4475d42df56", null ],
+    [ "m_exVelocity", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#a99cb64c7a8eeec9cbb52d15bd8dcf418", null ],
     [ "m_exVelocityGrad", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#a0d395f1d03452364e3f62c0172e463da", null ],
     [ "m_gradDivFactor", "classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#ad5106df524d45b0de24102af322bcabf", null ]
 ];

@@ -20,6 +20,7 @@ var classug_1_1_slicing_data =
     [ "reset_set_mappings", "classug_1_1_slicing_data.html#a5fcd7986d960bf0836bd06734c6c65bd", null ],
     [ "set_types", "classug_1_1_slicing_data.html#aece5bef77ad183212278cf5e66af09ec", null ],
     [ "set_vector_slice", "classug_1_1_slicing_data.html#a978429f165cae0a03003afe01240f481", null ],
+    [ "setup_slice_like", "classug_1_1_slicing_data.html#aa5a20652806c4d1279d338573077db82", null ],
     [ "slice", "classug_1_1_slicing_data.html#a7bff60673ce58610309e65e741c3f3dd", null ],
     [ "slice", "classug_1_1_slicing_data.html#a915b2d8f333d5ee7d311832991745ba1", null ],
     [ "slice_clone", "classug_1_1_slicing_data.html#ad7cadee3c10d6bc34a39e2695646f619", null ],

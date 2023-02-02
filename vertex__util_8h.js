@@ -10,7 +10,7 @@ var vertex__util_8h =
     [ "CalculateVertexNormal", "vertex__util_8h.html#ga8c98c2d1d058d59c32717dd75d97055c", null ],
     [ "CalculateVertexNormals", "vertex__util_8h.html#ga95754779ac568465423ab030b6421c7f", null ],
     [ "CalculateVertexNormals", "vertex__util_8h.html#gabe72050ecf543aeda3950e6bd039e402", null ],
-    [ "CollectSurfaceNeighborsSorted", "vertex__util_8h.html#ga035996e064b6f7bc1fc472b6c5cc2f1b", null ],
+    [ "CollectSurfaceNeighborsSorted", "vertex__util_8h.html#ga5221e89301cf0272f1a19cfe2ba9bab3", null ],
     [ "ContainsPoint", "vertex__util_8h.html#ga6714b9ccee3ac300ae8bb4493ede02e1", null ],
     [ "FindVertexByCoordiante", "vertex__util_8h.html#gaefad3008d43f5a281ec1d7d5dca78cc0", null ],
     [ "FindVertexByCoordinate", "vertex__util_8h.html#gad0385a01ac0f134d52a1398e6d826066", null ],

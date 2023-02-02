@@ -1,6 +1,5 @@
 var lua__traits_8h =
 [
-    [ "lua_traits", "structug_1_1lua__traits.html", null ],
     [ "lua_traits< bool >", "structug_1_1lua__traits_3_01bool_01_4.html", "structug_1_1lua__traits_3_01bool_01_4" ],
     [ "lua_traits< int >", "structug_1_1lua__traits_3_01int_01_4.html", "structug_1_1lua__traits_3_01int_01_4" ],
     [ "lua_traits< MathMatrix< dim, dim > >", "structug_1_1lua__traits_3_01_math_matrix_3_01dim_00_01dim_01_4_01_4.html", "structug_1_1lua__traits_3_01_math_matrix_3_01dim_00_01dim_01_4_01_4" ],

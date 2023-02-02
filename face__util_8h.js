@@ -12,7 +12,7 @@ var face__util_8h =
     [ "FaceQuality", "face__util_8h.html#ga69c2b459338a1d7007d19daabba2df32", null ],
     [ "FindSmallestFace", "face__util_8h.html#gad08429cf628013edea965ef6acd036c7", null ],
     [ "GetFaceIndex", "face__util_8h.html#gad06618d95786eda8fbc7030319075608", null ],
-    [ "GetNeighbours", "face__util_8h.html#ga63ba41f1803819161f2b0593fba3d4a8", null ],
+    [ "GetNeighbours", "face__util_8h.html#ga8cc5bf9ce5eff9eb09058c99938b6aa0", null ],
     [ "InsertCenterVertex", "face__util_8h.html#gad75663712608cfcd1d1e432a0198593a", null ],
     [ "IsBoundaryFace3D", "face__util_8h.html#ga13333d7cf4577f562d1a92d1b3fc4c5e", null ],
     [ "IsDegenerated", "face__util_8h.html#ga07103928668c01fbc9a92a670a9ba9e4", null ],

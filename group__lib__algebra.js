@@ -6,7 +6,6 @@ var group__lib__algebra =
     [ "Parallel Algebra", "group__lib__algebra__parallelization.html", "group__lib__algebra__parallelization" ],
     [ "Small Algebra", "group__small__algebra.html", "group__small__algebra" ],
     [ "AlgebraType", "classug_1_1_algebra_type.html", [
-      [ "VariableBlockSize", "classug_1_1_algebra_type.html#a2eceed97255bb8287b6513c67488d701ab062a81643e4a4eb85ebb0cdb05b3f95", null ],
       [ "Type", "classug_1_1_algebra_type.html#ab3a264146f087f78d70761091f5520e8", [
         [ "CPU", "classug_1_1_algebra_type.html#ab3a264146f087f78d70761091f5520e8a5a9452f6c24214482c886dd91f8aa847", null ],
         [ "GPU", "classug_1_1_algebra_type.html#ab3a264146f087f78d70761091f5520e8aafd37365290e1ccab251d25ff1f4d8fe", null ]
@@ -53,7 +52,6 @@ var group__lib__algebra =
       ] ],
       [ "this_type", "classug_1_1_map_sparse_matrix.html#a341ec108f736136f76499d64e82fbb81", null ],
       [ "value_type", "classug_1_1_map_sparse_matrix.html#a70b8177d2e2d6ef00c3a6c8e0e1044fb", null ],
-      [ "rows_sorted", "classug_1_1_map_sparse_matrix.html#a522b0aa4dff6b0846b850dd010f9ce5ca5c4594c95173ba08f5593384a882bb7c", null ],
       [ "MapSparseMatrix", "classug_1_1_map_sparse_matrix.html#ab2aa0aa2a382839f6abd717f6e4d259b", null ],
       [ "~MapSparseMatrix", "classug_1_1_map_sparse_matrix.html#a9c424a4ac88837750a17595b860e64de", null ],
       [ "MapSparseMatrix", "classug_1_1_map_sparse_matrix.html#aecf2a10b132a821e42394133bf2c44be", null ],
@@ -156,7 +154,7 @@ var group__lib__algebra =
     [ "MatAdd", "group__lib__algebra.html#gae0a2f1ced18e6724fa6174a860f91143", null ],
     [ "MatAddNonDirichlet", "group__lib__algebra.html#gad9ebaabd22c0563f8ad332acb3d5634d", null ],
     [ "MatMultTransposedAdd", "group__lib__algebra.html#ga900386dcaad538841307de03ccf59bae", null ],
-    [ "operator<<", "group__lib__algebra.html#gadfb8081cfcbac4a668a73d558a0a9a54", null ],
+    [ "operator<<", "group__lib__algebra.html#ga2bedbec132c5ec0328fbfc2d1e4fe2b2", null ],
     [ "ScaleRow", "group__lib__algebra.html#ga025e14dfd65cb4169e5955a59df0f5c5", null ],
     [ "ScaleSparseMatrixCommon", "group__lib__algebra.html#gaf1ebe41ef745874c5bd31f77ec75a94e", null ],
     [ "SerializeMatrix", "group__lib__algebra.html#gafff5f870be2d5be78c9488565d81abb7", null ],

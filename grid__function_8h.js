@@ -1,6 +1,5 @@
 var grid__function_8h =
 [
-    [ "AdaptionSurfaceGridFunction", "classug_1_1_adaption_surface_grid_function.html", "classug_1_1_adaption_surface_grid_function" ],
     [ "dim_traits", "structug_1_1_grid_function_1_1dim__traits.html", "structug_1_1_grid_function_1_1dim__traits" ],
     [ "GridFunction", "classug_1_1_grid_function.html", "classug_1_1_grid_function" ],
     [ "IGridFunction", "classug_1_1_i_grid_function.html", "classug_1_1_i_grid_function" ],

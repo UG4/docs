@@ -44,7 +44,7 @@ var group__lib__algebra =
     [ "MatAdd", "../group__lib__algebra.html#gae0a2f1ced18e6724fa6174a860f91143", null ],
     [ "MatAddNonDirichlet", "../group__lib__algebra.html#gad9ebaabd22c0563f8ad332acb3d5634d", null ],
     [ "MatMultTransposedAdd", "../group__lib__algebra.html#ga900386dcaad538841307de03ccf59bae", null ],
-    [ "operator<<", "../group__lib__algebra.html#gadfb8081cfcbac4a668a73d558a0a9a54", null ],
+    [ "operator<<", "../group__lib__algebra.html#ga2bedbec132c5ec0328fbfc2d1e4fe2b2", null ],
     [ "ScaleRow", "../group__lib__algebra.html#ga025e14dfd65cb4169e5955a59df0f5c5", null ],
     [ "ScaleSparseMatrixCommon", "../group__lib__algebra.html#gaf1ebe41ef745874c5bd31f77ec75a94e", null ],
     [ "SerializeMatrix", "../group__lib__algebra.html#gafff5f870be2d5be78c9488565d81abb7", null ],

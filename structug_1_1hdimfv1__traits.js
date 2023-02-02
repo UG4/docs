@@ -6,6 +6,6 @@ var structug_1_1hdimfv1__traits =
     [ "elem_type_3", "structug_1_1hdimfv1__traits.html#a040360986435ab9892bc18e54aa31def", null ],
     [ "elem_type_4", "structug_1_1hdimfv1__traits.html#a6daa88f293fc121dcff98676648982b6", null ],
     [ "scv_type", "structug_1_1hdimfv1__traits.html#ac3f3fcbf904481892610de20e4ed256e", null ],
-    [ "MaxNumCornersOfSCV", "structug_1_1hdimfv1__traits.html#a79f63bec0bcc0d49ea1ecb11751ace74", null ],
-    [ "NumCornersOfSCVF", "structug_1_1hdimfv1__traits.html#a241c9ef4e8c071d94f920d2803b31a81", null ]
+    [ "MaxNumCornersOfSCV", "structug_1_1hdimfv1__traits.html#ad4f19df8b354df27e2e9c4396981e4e8", null ],
+    [ "NumCornersOfSCVF", "structug_1_1hdimfv1__traits.html#aec3fa6eae8beea87e052c9a1606dc7bf", null ]
 ];

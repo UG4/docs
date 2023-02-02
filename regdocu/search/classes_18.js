@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['zeroaverage_18864',['ZeroAverage',['../../plugins/classug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_zero_average.html',1,'ug::Electromagnetism::NedelecLoopCurrent']]]
+  ['yy_5fbuffer_5fstate_19306',['yy_buffer_state',['../../structyy__buffer__state.html',1,'']]],
+  ['yy_5ftrans_5finfo_19307',['yy_trans_info',['../../structyy__trans__info.html',1,'']]],
+  ['yyalloc_19308',['yyalloc',['../../unionyyalloc.html',1,'']]],
+  ['yystype_19309',['YYSTYPE',['../../union_y_y_s_t_y_p_e.html',1,'']]]
 ];

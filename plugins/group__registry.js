@@ -13,7 +13,7 @@ var group__registry =
     [ "ConstructorInfo", "../group__registry.html#ga9b3e1a125b43481b47e0f91df247343f", null ],
     [ "DestructorProxy", "../group__registry.html#gaaf9b1223add38cf839eef233976a7872", null ],
     [ "ExtractClassNameVec", "../group__registry.html#gae16f3af474106398b413dfb62768c099", null ],
-    [ "FindFunction", "../group__registry.html#gad4f43dd8f18f1b8fa16f217d84779e5f", null ],
+    [ "FindFunction", "../group__registry.html#ga96a4c5bf9baeb2d970b7055e1dfd3166", null ],
     [ "FunctionInfo", "../group__registry.html#ga37acde2c5cf3eb7e06745ebb458d7fc1", null ],
     [ "FunctionInfo", "../group__registry.html#gacb05b962c365961d8d9c00da94ca4114", null ],
     [ "GetClassHierarchy", "../group__registry.html#ga0393617baa93152a3bb93c802ffda5a6", null ],

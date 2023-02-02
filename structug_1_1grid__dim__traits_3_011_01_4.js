@@ -8,5 +8,5 @@ var structug_1_1grid__dim__traits_3_011_01_4 =
     [ "iterator", "structug_1_1grid__dim__traits_3_011_01_4.html#a0f3f404722b6d122d37695c367f769be", null ],
     [ "ManifoldElemList", "structug_1_1grid__dim__traits_3_011_01_4.html#ab2c7a0d8d35713df4ef70a26aeb2d4b5", null ],
     [ "side_type", "structug_1_1grid__dim__traits_3_011_01_4.html#ad1a6e756eba6203016cfdc6b7b3ecb6b", null ],
-    [ "MaxNumVerticesOfElem", "structug_1_1grid__dim__traits_3_011_01_4.html#a4d3848b182d7bf1c20477911c4f5f859", null ]
+    [ "MaxNumVerticesOfElem", "structug_1_1grid__dim__traits_3_011_01_4.html#a2ab5d1befa0d113362ec287ebeb988a2", null ]
 ];

@@ -1,6 +1,5 @@
 var classug_1_1_algebra_type =
 [
-    [ "VariableBlockSize", "classug_1_1_algebra_type.html#a2eceed97255bb8287b6513c67488d701ab062a81643e4a4eb85ebb0cdb05b3f95", null ],
     [ "Type", "classug_1_1_algebra_type.html#ab3a264146f087f78d70761091f5520e8", [
       [ "CPU", "classug_1_1_algebra_type.html#ab3a264146f087f78d70761091f5520e8a5a9452f6c24214482c886dd91f8aa847", null ],
       [ "GPU", "classug_1_1_algebra_type.html#ab3a264146f087f78d70761091f5520e8aafd37365290e1ccab251d25ff1f4d8fe", null ]

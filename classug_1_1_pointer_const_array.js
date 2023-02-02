@@ -9,7 +9,7 @@ var classug_1_1_pointer_const_array =
     [ "clear", "classug_1_1_pointer_const_array.html#a44160bce8796f635edc1b6b9cdba1faa", null ],
     [ "empty", "classug_1_1_pointer_const_array.html#ab3cb3872cc6c7533573c5dbd588fd647", null ],
     [ "operator=", "classug_1_1_pointer_const_array.html#a494a69b37e7844323b6baae4ccfdd6ca", null ],
-    [ "operator[]", "classug_1_1_pointer_const_array.html#a5a7840e815e0d36d5d163b22ce6024d4", null ],
+    [ "operator[]", "classug_1_1_pointer_const_array.html#a9ba3f3364c87bc9b6893d56c3489b4fd", null ],
     [ "push_back", "classug_1_1_pointer_const_array.html#a80dbb3ff98388a81ff824eb5dcb8c72d", null ],
     [ "reserve", "classug_1_1_pointer_const_array.html#a5d76aebfdafb7597ba76090ba2e58902", null ],
     [ "reserve", "classug_1_1_pointer_const_array.html#a12460cd25071ba111c0c06b7b01920ca", null ],

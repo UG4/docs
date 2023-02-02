@@ -29,6 +29,7 @@ var classug_1_1_variant =
     [ "Variant", "classug_1_1_variant.html#a18b304af26f4900d68ac2885ba0d0588", null ],
     [ "~Variant", "classug_1_1_variant.html#a05bfb3ada38a4af0d06dc49b2bfdc129", null ],
     [ "assign_variant", "classug_1_1_variant.html#a81172059cfd69d0c2c71736a69d196b1", null ],
+    [ "is_valid", "classug_1_1_variant.html#a77d541b4b5306c8c4f02a54ea9d0b5e0", null ],
     [ "operator=", "classug_1_1_variant.html#a7bf3ff8c86ddbc907381e8e977b2c1e3", null ],
     [ "to", "classug_1_1_variant.html#ac2aad9fe4e71ed44265ff368dda6ae49", null ],
     [ "to", "group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6", null ],

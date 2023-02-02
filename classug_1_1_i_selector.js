@@ -10,8 +10,6 @@ var classug_1_1_i_selector =
     [ "status_t", "classug_1_1_i_selector.html#ad6a357e415d93d79798c415f3aeb1a71", null ],
     [ "VertexSectionContainer", "classug_1_1_i_selector.html#a64479b43c47acfbd151c8c620c3b8188", null ],
     [ "VolumeSectionContainer", "classug_1_1_i_selector.html#a7be406011e7eb3763d969d5f09a500cb", null ],
-    [ "DESELECTED", "classug_1_1_i_selector.html#a0f837719414de334f887b3dc383c0714a23dcc432c416ef9d04412bf10da9ec33", null ],
-    [ "SELECTED", "classug_1_1_i_selector.html#a0f837719414de334f887b3dc383c0714a851d0b56336261b9bc3fa08a5c7531db", null ],
     [ "ISelector", "classug_1_1_i_selector.html#a65bbab4c767a5a13038994095131d87d", null ],
     [ "ISelector", "classug_1_1_i_selector.html#a9ca2448f71d9443011b13f28b619b79e", null ],
     [ "~ISelector", "classug_1_1_i_selector.html#a4647d2e09f5d4d257db365580833a164", null ],

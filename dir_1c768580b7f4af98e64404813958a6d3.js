@@ -4,7 +4,6 @@ var dir_1c768580b7f4af98e64404813958a6d3 =
       [ "AttachedElementList", "classug_1_1_attached_element_list.html", "classug_1_1_attached_element_list" ],
       [ "AttachedElementListIterator", "classug_1_1_attached_element_list_iterator.html", "classug_1_1_attached_element_list_iterator" ],
       [ "ConstAttachedElementListIterator", "classug_1_1_const_attached_element_list_iterator.html", "classug_1_1_const_attached_element_list_iterator" ],
-      [ "ConstAttachedElementListIterator", "classug_1_1_const_attached_element_list_iterator.html", "classug_1_1_const_attached_element_list_iterator" ],
       [ "Entry", "structug_1_1_attached_element_list_1_1_entry.html", "structug_1_1_attached_element_list_1_1_entry" ]
     ] ],
     [ "attachment_info_traits.h", "attachment__info__traits_8h.html", "attachment__info__traits_8h" ],

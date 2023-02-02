@@ -186,8 +186,6 @@ var parser_8cpp =
     [ "YY_SYMBOL_PRINT", "parser_8cpp.html#a6115b3c0a2ab359943afdd62ca25f6ba", null ],
     [ "yydestruct", "parser_8cpp.html#a164f2f81ce9c9677c36ded9ca2a62d5c", null ],
     [ "yyerror", "parser_8cpp.html#ae371ab4e1b717065bd443abf723aab77", null ],
-    [ "yylex", "parser_8cpp.html#a9a7bd1b3d14701eb97c03f3ef34deff1", null ],
-    [ "yyparse", "parser_8cpp.html#acd8617a8f2ac0de8bc1cc032cf449e19", null ],
     [ "yystpcpy", "parser_8cpp.html#a2c76bdd60e2c94f438cbe6cbad9502f7", null ],
     [ "yystrlen", "parser_8cpp.html#ae784bf204b64e876b23107c82e095d15", null ],
     [ "yysyntax_error", "parser_8cpp.html#a74a53251dee1d5e66d839837e446049b", null ],

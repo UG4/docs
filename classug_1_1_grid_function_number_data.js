@@ -1,6 +1,8 @@
 var classug_1_1_grid_function_number_data =
 [
     [ "GridFunctionNumberData", "classug_1_1_grid_function_number_data.html#a3150b364563370583a3b7f39674c53d9", null ],
+    [ "GridFunctionNumberData", "classug_1_1_grid_function_number_data.html#a211221a735788445823e401f07913fce", null ],
+    [ "assign", "classug_1_1_grid_function_number_data.html#ae998f3b256d9e28361b080dafe58491c", null ],
     [ "continuous", "classug_1_1_grid_function_number_data.html#af88cb640bd8fe8b86f276ff69e842633", null ],
     [ "eval_and_deriv", "classug_1_1_grid_function_number_data.html#a9a8192bad858f24509341488c9e4be3a", null ],
     [ "operator()", "classug_1_1_grid_function_number_data.html#a39d05fcb615795623d16a60b915a49a0", null ],

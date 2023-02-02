@@ -4,6 +4,7 @@ var dir_8e43e1519d22ef2ce28107ef4364eb7f =
     [ "geom_obj_util", "dir_1b1a27f1c6c60efb3c79950cb2bb672f.html", "dir_1b1a27f1c6c60efb3c79950cb2bb672f" ],
     [ "graph", "dir_84260df41166948f3831cba79976620b.html", "dir_84260df41166948f3831cba79976620b" ],
     [ "grid_generation", "dir_e71b967406155de599dd77ea79066eaa.html", "dir_e71b967406155de599dd77ea79066eaa" ],
+    [ "projections", "dir_c19f4af4ec76f2781e73137cf41ffe54.html", "dir_c19f4af4ec76f2781e73137cf41ffe54" ],
     [ "remeshing", "dir_1ecd9c8a6ac850637239ff23751379c0.html", "dir_1ecd9c8a6ac850637239ff23751379c0" ],
     [ "smoothing", "dir_40cf47c7df248c74f329e80259747f76.html", "dir_40cf47c7df248c74f329e80259747f76" ],
     [ "space_partitioning", "dir_3e5e74c9a39d08c4be7d8ae068f3c40d.html", "dir_3e5e74c9a39d08c4be7d8ae068f3c40d" ],

@@ -1,0 +1,5 @@
+var structboost_1_1property__map_3_01ug_1_1_bidirectional_matrix_3_01ug_1_1_sparse_matrix_3_01_t_01_ae1a13630abcba99f975b5c3e410cb69 =
+[
+    [ "const_type", "structboost_1_1property__map_3_01ug_1_1_bidirectional_matrix_3_01ug_1_1_sparse_matrix_3_01_t_01_ae1a13630abcba99f975b5c3e410cb69.html#a13ff49c6ef3511e8cc6ad8943dbd2571", null ],
+    [ "type", "structboost_1_1property__map_3_01ug_1_1_bidirectional_matrix_3_01ug_1_1_sparse_matrix_3_01_t_01_ae1a13630abcba99f975b5c3e410cb69.html#a2406998e33d007992c0aed91be3c9c2c", null ]
+];

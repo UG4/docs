@@ -11,7 +11,6 @@ var dir_7add5229f4259b568b2c65dc809da782 =
       [ "LuaFunctionHandle", "classug_1_1_lua_function_handle.html", "classug_1_1_lua_function_handle" ]
     ] ],
     [ "lua_parsing.h", "lua__parsing_8h.html", [
-      [ "LuaParsing", "structug_1_1bridge_1_1lua_1_1_lua_parsing.html", null ],
       [ "LuaParsing< bool >", "structug_1_1bridge_1_1lua_1_1_lua_parsing_3_01bool_01_4.html", "structug_1_1bridge_1_1lua_1_1_lua_parsing_3_01bool_01_4" ],
       [ "LuaParsing< const char * >", "structug_1_1bridge_1_1lua_1_1_lua_parsing_3_01const_01char_01_5_01_4.html", "structug_1_1bridge_1_1lua_1_1_lua_parsing_3_01const_01char_01_5_01_4" ],
       [ "LuaParsing< const std::string & >", "structug_1_1bridge_1_1lua_1_1_lua_parsing_3_01const_01std_1_1string_01_6_01_4.html", "structug_1_1bridge_1_1lua_1_1_lua_parsing_3_01const_01std_1_1string_01_6_01_4" ],
@@ -29,6 +28,8 @@ var dir_7add5229f4259b568b2c65dc809da782 =
     [ "lua_stack.cpp", "lua__stack_8cpp.html", "lua__stack_8cpp" ],
     [ "lua_stack.h", "lua__stack_8h.html", "lua__stack_8h" ],
     [ "lua_stack_check.h", "lua__stack__check_8h.html", "lua__stack__check_8h" ],
+    [ "lua_table_handle.cpp", "lua__table__handle_8cpp.html", "lua__table__handle_8cpp" ],
+    [ "lua_table_handle.h", "lua__table__handle_8h.html", "lua__table__handle_8h" ],
     [ "lua_traits.h", "lua__traits_8h.html", "lua__traits_8h" ],
     [ "lua_user_data.cpp", "lua__user__data_8cpp.html", "lua__user__data_8cpp" ],
     [ "lua_user_data.h", "lua__user__data_8h.html", "lua__user__data_8h" ],

@@ -1,16 +1,17 @@
 var classug_1_1_i_local_subspace =
 [
-    [ "algebra_type", "classug_1_1_i_local_subspace.html#adb866435dd3f3aa8081bbf1e87382f71", null ],
-    [ "matrix_type", "classug_1_1_i_local_subspace.html#abbbf6336847bd8c87ffcb494a3cdf1c7", null ],
-    [ "matrix_type_local", "classug_1_1_i_local_subspace.html#ac6961e41247a910c417f6a6303fc0376", null ],
-    [ "vector_type", "classug_1_1_i_local_subspace.html#a54ae7315f3f842fa2701e295ebda6e24", null ],
-    [ "vector_type_local", "classug_1_1_i_local_subspace.html#a8982012afc58a2f406eca820fe073c31", null ],
-    [ "~ILocalSubspace", "classug_1_1_i_local_subspace.html#a3ea7b496640f871a492558690daf91b6", null ],
-    [ "extract_matrix", "classug_1_1_i_local_subspace.html#ac09c0098c22d2696196fa3824482433f", null ],
-    [ "extract_rhs", "classug_1_1_i_local_subspace.html#af092483cead5733302396589e94042b3", null ],
-    [ "extract_rhs", "classug_1_1_i_local_subspace.html#aed3b620fd2eeeaef59b8d02bddfd0d96", null ],
-    [ "init", "classug_1_1_i_local_subspace.html#acd5da66bb8b7171240f1bdfa8c33ac1d", null ],
-    [ "preprocess", "classug_1_1_i_local_subspace.html#ab4932c14151bb13701d0a3fc597fe242", null ],
-    [ "size", "classug_1_1_i_local_subspace.html#a97d3e18b9209f9e39c08415b92c96d03", null ],
-    [ "update_solution", "classug_1_1_i_local_subspace.html#a8d7aa47b6a657c8bfd72bbc393557301", null ]
+    [ "algebra_type", "classug_1_1_i_local_subspace.html#aeaeb3fd3724db3954f8b40536326a465", null ],
+    [ "grid_function_type", "classug_1_1_i_local_subspace.html#a5aab3936c4e0499aee9863b6b4852226", null ],
+    [ "matrix_type", "classug_1_1_i_local_subspace.html#adf02cb3e7924539c50131d531786d68c", null ],
+    [ "matrix_type_local", "classug_1_1_i_local_subspace.html#a950560bc8480f0d9202b419030a32220", null ],
+    [ "vector_type", "classug_1_1_i_local_subspace.html#a939bc652c9eb55997c8454d74e5d74c2", null ],
+    [ "vector_type_local", "classug_1_1_i_local_subspace.html#a4d8aa0033037140c9af7b550ea439699", null ],
+    [ "~ILocalSubspace", "classug_1_1_i_local_subspace.html#a6e91cc391663c9c3551b2f990300051e", null ],
+    [ "extract_matrix", "classug_1_1_i_local_subspace.html#aa50f60ec1d4f1026034057c2cbb9fc86", null ],
+    [ "extract_rhs", "classug_1_1_i_local_subspace.html#a2d8a8c1e6748d79cb753d41b41bc90eb", null ],
+    [ "extract_rhs", "classug_1_1_i_local_subspace.html#a37dec6593219db042263ce5746471341", null ],
+    [ "init", "classug_1_1_i_local_subspace.html#a205dd89874db04efc427a3ae2508785a", null ],
+    [ "preprocess", "classug_1_1_i_local_subspace.html#a6698948055c3ff2956d8c1d14b901646", null ],
+    [ "size", "classug_1_1_i_local_subspace.html#ab0a034844a8ef3f10ae2c3cfe863e20b", null ],
+    [ "update_solution", "classug_1_1_i_local_subspace.html#a13ef61660738bbea65cd8f8b86c5d5d6", null ]
 ];

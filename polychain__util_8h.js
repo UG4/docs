@@ -10,7 +10,7 @@ var polychain__util_8h =
     ] ],
     [ "CreatePolyChain", "polychain__util_8h.html#gaf931eaa7c43bd6777b19c2d8e624bc0f", null ],
     [ "GetFirstSectionOfPolyChain", "polychain__util_8h.html#ga3169521f903204a5df10d043005aa1be", null ],
-    [ "GetNextSectionOfPolyChain", "polychain__util_8h.html#ga6e80308db5450da3eb8628a37245785e", null ],
+    [ "GetNextSectionOfPolyChain", "polychain__util_8h.html#ga62c755743eeea86198da2e6346d90ac2", null ],
     [ "GetPolyChainType", "polychain__util_8h.html#ga14dfab30fa174708124ff9d604695ce1", null ],
     [ "SplitIrregularPolyChain", "polychain__util_8h.html#ga75568f0b7fca5283caf4bd72371eaeac", null ]
 ];

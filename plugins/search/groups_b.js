@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['obstacle_20bridge_32535',['Obstacle Bridge',['../../group__obstacle__bridge.html',1,'']]],
-  ['ordering_20bridge_32536',['Ordering Bridge',['../../group__ordering__bridge.html',1,'']]],
-  ['output_20bridge_32537',['Output Bridge',['../../group__output__bridge.html',1,'']]]
+  ['neighborhood_20util_34542',['neighborhood util',['../../group__lib__grid__algorithms__neighborhood__util.html',1,'']]],
+  ['normal_5fcalculation_34543',['normal_calculation',['../../group__lib__grid__algorithms__normal__calculation.html',1,'']]]
 ];

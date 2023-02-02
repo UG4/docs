@@ -5,7 +5,6 @@ var classug_1_1_map_sparse_matrix =
     [ "row_iterator", "classug_1_1_map_sparse_matrix_1_1row__iterator.html", "classug_1_1_map_sparse_matrix_1_1row__iterator" ],
     [ "this_type", "classug_1_1_map_sparse_matrix.html#a341ec108f736136f76499d64e82fbb81", null ],
     [ "value_type", "classug_1_1_map_sparse_matrix.html#a70b8177d2e2d6ef00c3a6c8e0e1044fb", null ],
-    [ "rows_sorted", "classug_1_1_map_sparse_matrix.html#a522b0aa4dff6b0846b850dd010f9ce5ca5c4594c95173ba08f5593384a882bb7c", null ],
     [ "MapSparseMatrix", "classug_1_1_map_sparse_matrix.html#ab2aa0aa2a382839f6abd717f6e4d259b", null ],
     [ "~MapSparseMatrix", "classug_1_1_map_sparse_matrix.html#a9c424a4ac88837750a17595b860e64de", null ],
     [ "MapSparseMatrix", "classug_1_1_map_sparse_matrix.html#aecf2a10b132a821e42394133bf2c44be", null ],

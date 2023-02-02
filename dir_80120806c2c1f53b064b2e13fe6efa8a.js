@@ -12,6 +12,7 @@ var dir_80120806c2c1f53b064b2e13fe6efa8a =
     [ "binary_buffer_impl.h", "binary__buffer__impl_8h.html", null ],
     [ "binary_stream.cpp", "binary__stream_8cpp.html", null ],
     [ "binary_stream.h", "binary__stream_8h.html", null ],
+    [ "bucket_sorter.hpp", "bucket__sorter_8hpp.html", "bucket__sorter_8hpp" ],
     [ "crc32.cpp", "crc32_8cpp.html", "crc32_8cpp" ],
     [ "crc32.h", "crc32_8h.html", "crc32_8h" ],
     [ "demangle.cpp", "demangle_8cpp.html", "demangle_8cpp" ],
@@ -19,8 +20,8 @@ var dir_80120806c2c1f53b064b2e13fe6efa8a =
     [ "dynamic_library_util.h", "dynamic__library__util_8h.html", "dynamic__library__util_8h" ],
     [ "empty_stream.h", "empty__stream_8h.html", null ],
     [ "end_boost_list.h", "end__boost__list_8h.html", [
-      [ "empty< list1< ug::end_boost_list > >", "structboost_1_1mpl_1_1empty_3_01list1_3_01ug_1_1end__boost__list_01_4_01_4.html", "structboost_1_1mpl_1_1empty_3_01list1_3_01ug_1_1end__boost__list_01_4_01_4" ],
-      [ "empty< list< ug::end_boost_list > >", "structboost_1_1mpl_1_1empty_3_01list_3_01ug_1_1end__boost__list_01_4_01_4.html", "structboost_1_1mpl_1_1empty_3_01list_3_01ug_1_1end__boost__list_01_4_01_4" ],
+      [ "empty< list1< ug::end_boost_list > >", "structboost_1_1mpl_1_1empty_3_01list1_3_01ug_1_1end__boost__list_01_4_01_4.html", null ],
+      [ "empty< list< ug::end_boost_list > >", "structboost_1_1mpl_1_1empty_3_01list_3_01ug_1_1end__boost__list_01_4_01_4.html", null ],
       [ "end_boost_list", "structug_1_1end__boost__list.html", null ]
     ] ],
     [ "endian_detection.h", "endian__detection_8h.html", "endian__detection_8h" ],
@@ -100,6 +101,7 @@ var dir_80120806c2c1f53b064b2e13fe6efa8a =
     [ "tar.h", "tar_8h.html", [
       [ "TarHeader", "structug_1_1_tar_header.html", "structug_1_1_tar_header" ]
     ] ],
+    [ "trace.h", "trace_8h.html", "trace_8h" ],
     [ "typename.h", "typename_8h.html", "typename_8h" ],
     [ "uid.h", "uid_8h.html", null ],
     [ "util.doxygen", "util_8doxygen.html", null ],

@@ -1,6 +1,5 @@
 var classug_1_1_dim_reference_element =
 [
-    [ "MAXCORNERS", "classug_1_1_dim_reference_element.html#ad01b3e21bacd26777de32032a85077d9a47efeb2c485a415b6aca323bc474a486", null ],
     [ "corner", "classug_1_1_dim_reference_element.html#ab8d6b270771c82ff5fec97548a6de043", null ],
     [ "corner", "classug_1_1_dim_reference_element.html#a822add29191c032eb5c59acb913c9bc9", null ],
     [ "corners", "classug_1_1_dim_reference_element.html#aff40ebcbcdad25ac37b81babcc171f1a", null ],

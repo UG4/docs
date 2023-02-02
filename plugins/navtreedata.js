@@ -1,24 +1,26 @@
 /*
-@licstart  The following is the entire license notice for the
-JavaScript code in this file.
+ @licstart  The following is the entire license notice for the JavaScript code in this file.
 
-Copyright (C) 1997-2019 by Dimitri van Heesch
+ The MIT License (MIT)
 
-This program is free software; you can redistribute it and/or modify
-it under the terms of version 2 of the GNU General Public License as published by
-the Free Software Foundation
+ Copyright (C) 1997-2020 by Dimitri van Heesch
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
+ Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+ and associated documentation files (the "Software"), to deal in the Software without restriction,
+ including without limitation the rights to use, copy, modify, merge, publish, distribute,
+ sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
 
-You should have received a copy of the GNU General Public License along
-with this program; if not, write to the Free Software Foundation, Inc.,
-51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ The above copyright notice and this permission notice shall be included in all copies or
+ substantial portions of the Software.
 
-@licend  The above is the entire license notice
-for the JavaScript code in this file
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+ BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+ DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+ @licend  The above is the entire license notice for the JavaScript code in this file
 */
 var NAVTREE =
 [
@@ -41,6 +43,7 @@ var NAVTREE =
         [ "All", "namespacemembers.html", "namespacemembers_dup" ],
         [ "Functions", "namespacemembers_func.html", "namespacemembers_func" ],
         [ "Variables", "namespacemembers_vars.html", null ],
+        [ "Typedefs", "namespacemembers_type.html", null ],
         [ "Enumerations", "namespacemembers_enum.html", null ],
         [ "Enumerator", "namespacemembers_eval.html", null ]
       ] ]
@@ -62,6 +65,7 @@ var NAVTREE =
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", "globals_dup" ],
+        [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ],
         [ "Macros", "globals_defs.html", "globals_defs" ]
       ] ]
@@ -72,33 +76,56 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../apps/group__apps.html",
-"classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v_c_r.html#ac4c02ee356a801f570624325c654aebe",
-"classug_1_1_docu_gen_1_1_cpp_generator.html#ad4cee325725bb5c51b870913ffff8076",
-"classug_1_1_electromagnetism_1_1_nedelec_interpolation_3_01_t_domain_00_013_00_013_01_4.html",
-"classug_1_1_electromagnetism_1_1_nedelec_transfer.html#a3afbdcfc2be3b6ec8f355a515a18320e",
-"classug_1_1_navier_stokes_1_1_constant_box_filter.html#a220e8b5142895eae798eebe5e116dd09",
-"classug_1_1_navier_stokes_1_1_filter_impl_base_class.html#aa797462f2c90096b516cb024c8b56383",
-"classug_1_1_navier_stokes_1_1_navier_stokes_f_v1.html#a1fb798ab4867c1207c102abc39dc3800",
-"classug_1_1_navier_stokes_1_1_navier_stokes_no_normal_stress_outflow_f_v_c_r.html#ab867c92190acebc1afaeb3fc8559e4dc",
-"classug_1_1_navier_stokes_1_1_std_turbulent_viscosity_data_f_v1.html#a344ffa6d4ab0b154dcda316b34a47a40",
-"classug_1_1_small_strain_mechanics_1_1_small_strain_mechanics_elem_disc.html#a09588fac493a849b08b6c816c5794f2e",
-"classug_1_1promesh_1_1detail_1_1_pro_mesh_function.html#af040ea772ebad004898fbc98aa9530df",
-"dir_9005eaae43454bf2162925dd69e65e53.html",
-"group__apps__ugdocu.html#ga6e5640d9c26c8ae4c72fe7d04ec2b6f5",
-"group__lib__disc__domain.html#ga47cf17494c8656e5e9e0039957f1dab8",
-"group__lib__grid__algorithms__neighborhood__util.html#ga601df053f08b92f7867f9395f7e8c264",
-"group__lib__grid__algorithms__vertex__util.html#gabe72050ecf543aeda3950e6bd039e402",
-"group__misc__bridge.html#ga972345f36bba2417f32e9df55c007fd5",
-"group__promesh.html#ga72f7b40f954cf4ddfde91417d3f5f69a",
-"group__small__strain__mechanics.html#ga0aa8a7651444dce4f1741e9f11dc62cb",
-"group__test__bridge.html#ga085925b9caabf8ca9c75f9369faf583c",
-"group__ugbase__common__util.html#ga817dc40f44ef475c2204e34c8d9b65b5",
-"group__vectors.html#gae2416cc4b7a9616b911cb4a208c15cf4",
-"measure__tools_8h.html#ga2eee3ae885690ac9fb6fdbe7616612fb",
-"refinement__tools_8h.html",
-"selection__tools_8cpp.html#gaf5ce284d6fe9f6e04d219a8c19929c13",
-"structug_1_1_electromagnetism_1_1_nedelec_dirichlet_b_c_1_1_t_const_b_c.html#a038e71cf66a02385f26e120d1ba085ec",
-"subset__tools_8h.html#ga0a0eb0838c2b3c836d71184ae57370ba"
+"classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v.html#ad3f8a42bafc6ea3f1674aab2932ca67e",
+"classug_1_1_demo_plugin_1_1_demo_class.html#ab63855d7e1ad024cd6adcdeba2895c77",
+"classug_1_1_electromagnetism_1_1_eddy_current___e___nedelec.html#aa26dcafc627e1bc2b1c92d3f590465c7",
+"classug_1_1_electromagnetism_1_1_nedelec_project.html#ae05009d70f0e323b376eaa3a962105e9",
+"classug_1_1_i_time_integrator.html#abc37f83d950f3a1548f328b50f3f7428",
+"classug_1_1_navier_stokes_1_1_c_r_dynamic_turb_visc_data.html#ad2627b85441f41224f7e643c0c4bf6fe",
+"classug_1_1_navier_stokes_1_1_f_v1_dynamic_turb_visc_data.html#aa99cd8a51749d5adf058613f41621d5c",
+"classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#ab8b8b8e88e7aa8a5c1a374cd2c2ab928",
+"classug_1_1_navier_stokes_1_1_navier_stokes_inflow_f_e.html#a00a86447b656b8cf3adc60aa4cee4dc0",
+"classug_1_1_navier_stokes_1_1_navier_stokes_w_s_b_c_f_v1.html#adca17af3ce2c84bc11dd4d17128f5e0f",
+"classug_1_1_p_c_r_i_l_u_t_preconditioner.html#a1dd7fc99dd109973d2718252728e518b",
+"classug_1_1_small_strain_mechanics_1_1_small_strain_mechanics_elem_disc.html#a95a89bc9c82c36ead0978833bdf012d3",
+"classug_1_1promesh_1_1_mesh_object.html#a9bf2242f5b65a344fb3d4d72ae942ab4",
+"damage_8h.html",
+"functions_func_z.html",
+"group__bridge.html#ga5adb245359af09cdf81da53c9f843815",
+"group__lib__algebra.html#gae0a2f1ced18e6724fa6174a860f91143",
+"group__lib__grid.html#gga724c038eb958956818bf64b9d7c70ceba9a2391db39b3d5c4286ceee7ced3bbaa",
+"group__lib__grid__algorithms__log__util.html#gac6e3c8d0b803095ed0733d951f00092e",
+"group__lib__grid__algorithms__selection__util.html#ga2abe8d00447cb9ab584abf19657bbd14",
+"group__lib__grid__algorithms__vertex__util.html#ga48792c2aba7f3a2a37275b90b9ac8b9d",
+"group__loadbalance__bridge.html#gaa2cc435fc61ef31a9c9d6e2f02484231",
+"group__misc__bridge.html#ga5a496086348ac6093061b3335c4d14bd",
+"group__promesh.html#ga0187f5a3e46a43e10acfac59585a94cb",
+"group__promesh.html#ga85b99236208172271d52ec3929062148",
+"group__refinement__bridge.html#ga3e5bf6bd7e4eb70710c7cc07accb9aab",
+"group__small__strain__mechanics.html#ga2ebd7b70ac1971e84f347fab27f69c3c",
+"group__test__bridge.html#ga6b484a16f700fb25a153e36c1f22d11e",
+"group__ugbase__common__io.html#ga44b85268df7a3794a92998f6d2d16ab2",
+"group__ugbase__compileinfo.html#ga9e67f1a23fefc10628c284713d83eb82",
+"group__vectors.html#ga385f702a22b3b6236e783b2bc014f87f",
+"keys_8h.html#a72fdf7da722fc662ed875ea166c9031fa5323df2bfc8abbaea5e4f6ba8faa4a9d",
+"namespacemembers_g.html",
+"namespaceug.html#a1945715f3a56b2bfa9e5c041c8787a03",
+"namespaceug.html#a32dc791233b4102b58dfdc4c11f2a385",
+"namespaceug.html#a50214df4f082ff14f00bbe4bc9fa2f0f",
+"namespaceug.html#a690c8b4f9931ebcda8732d3a0179abbb",
+"namespaceug.html#a88b76662c638f5d2ee691c20c9fb46b1",
+"namespaceug.html#aa5a5ff5d1687f560c10edc3ce0783e4e",
+"namespaceug.html#ac29c65a41d313e4089df424cea3680de",
+"namespaceug.html#ae1660a39fa6989484166f88dc63d47b5",
+"namespaceug.html#ga0b1ada60c0591d6b1df3b1c3afbac11fa864f64170506cf6acc55a36ad087b18b",
+"namespaceug_1_1bridge.html#ab019f83913fb38530ac1b2d01ce27915",
+"namespaceug_1_1promesh.html#a72fdf7da722fc662ed875ea166c9031fa6a4265e632a31832e386fbc31b70523a",
+"namespaceug_1_1vrl.html#a1ef9eef3cadd7babca5113f6caf57197",
+"promesh__registry_8h_source.html",
+"selection__tools_8cpp.html#ga7dd027c95d3115062b33921e3623cbdd",
+"structug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1_1_1_shape_values.html#a0e03e32243213af33e54167511ed15e9",
+"structug_1_1_small_strain_mechanics_1_1face__type__traits_3_012_01_4.html#a20f85a9ca6625ce7927b04eae256018f",
+"tst__string__util_8cpp.html#af1f893a6c8ad76e9c48f617a71a45716"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

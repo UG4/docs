@@ -3,7 +3,7 @@ var selection__util_8cpp =
     [ "CloseSelection", "selection__util_8cpp.html#ga8ed839e8395106abc07bd43ca814fbef", null ],
     [ "CloseSelection< MGSelector >", "selection__util_8cpp.html#a7b11b739e27c9a0cd47f7f30f3c5c8b4", null ],
     [ "CloseSelection< Selector >", "selection__util_8cpp.html#a4a7cc0db4a6fe6e15c6bcf566798d3af", null ],
-    [ "CollectVerticesTouchingSelection", "selection__util_8cpp.html#ga06422faeed8fc3b507ce9ccc72925bd0", null ],
+    [ "CollectVerticesTouchingSelection", "selection__util_8cpp.html#gacd3ae9a0df6c3c86c9a9581b04d77b7f", null ],
     [ "DeselectBoundarySelectionEdges", "selection__util_8cpp.html#ga61890f4a326b8bb8b8ed4821b13fb765", null ],
     [ "DeselectBoundarySelectionEdges< MGSelector >", "selection__util_8cpp.html#af41b1202b252ea7adf5740277947529d", null ],
     [ "DeselectBoundarySelectionEdges< Selector >", "selection__util_8cpp.html#abf60b88d952efa5301de4ad79e3620e3", null ],

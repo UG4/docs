@@ -9,6 +9,8 @@ var classug_1_1_c_g =
     [ "apply_return_defect", "classug_1_1_c_g.html#a968edfb0b5846aedf3946f57e5b892c3", null ],
     [ "enter_precond_debug_section", "classug_1_1_c_g.html#a4d2c0a898620d8b1eab718feb6b2456b", null ],
     [ "name", "classug_1_1_c_g.html#a34345abeff4369a1d900b7f0e88d833d", null ],
+    [ "preconditioner", "classug_1_1_c_g.html#aab9d760eafb30d055a26f2cee4da8837", null ],
+    [ "preconditioner", "classug_1_1_c_g.html#a27fed2ad880be1d14d6b34c34362b9b9", null ],
     [ "prepare_conv_check", "classug_1_1_c_g.html#aac6a7fd1d1d2d2c91985a280393f4fa7", null ],
     [ "remove_postprocess_corr", "classug_1_1_c_g.html#a53f142a928e4a65a334ddc067fab2acd", null ],
     [ "supports_parallel", "classug_1_1_c_g.html#aad60e81d3fd2381447bea55565d43fd2", null ],

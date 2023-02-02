@@ -31,7 +31,7 @@ var group__lib__grid__algorithms__subset__util =
     [ "GetMaxSubsetIndex", "group__lib__grid__algorithms__subset__util.html#gae9a7b3ee190321a67a1d75dd656d1792", null ],
     [ "MakeSubsetsConsecutive", "group__lib__grid__algorithms__subset__util.html#ga95180320df6b0d8ab3719843f6b0c223", null ],
     [ "SeparateFaceSubsetsByNormal", "group__lib__grid__algorithms__subset__util.html#gab4ff9fcf87ef92ab95ce3f2772c45eb1", null ],
-    [ "SeparateFaceSubsetsByNormal", "group__lib__grid__algorithms__subset__util.html#ga420783a16c5e182e38bc69b4d0077b2e", null ],
+    [ "SeparateFaceSubsetsByNormal", "group__lib__grid__algorithms__subset__util.html#ga5b76231c8d53b10ec852d19b7fe66266", null ],
     [ "SeparateRegions", "group__lib__grid__algorithms__subset__util.html#ga6324c2d9db7c8e072908dd0872f05ceb", null ],
     [ "SeparateSubsetsByLowerDimSelection", "group__lib__grid__algorithms__subset__util.html#ga9a735b485f4161c00a4695d1c28cc950", null ],
     [ "SeparateSubsetsByLowerDimSeparators", "group__lib__grid__algorithms__subset__util.html#ga7948368a92d94533f6daa84dc0d0150e", null ],

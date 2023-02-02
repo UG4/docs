@@ -1,9 +1,6 @@
 var classug_1_1_do_f_distribution_info =
 [
     [ "FctInfo", "structug_1_1_do_f_distribution_info_1_1_fct_info.html", "structug_1_1_do_f_distribution_info_1_1_fct_info" ],
-    [ "NOT_DEF_ON_SUBSET", "classug_1_1_do_f_distribution_info.html#af0713073b4b5d59d7b455e7d554894c6a4b967c240099d3f8efc07ee0f0e58962", null ],
-    [ "NOT_YET_ASSIGNED", "classug_1_1_do_f_distribution_info.html#ac183a0d32e28d888fe8c082c056d0c2aa49b17e919777e8a1a43f94fe268fc8db", null ],
-    [ "NOT_SPECIFIED", "classug_1_1_do_f_distribution_info.html#abf59c74e537f7933b6db9876b19b5619a2ecde74ab2d1ed1e3ee340daa9e0690a", null ],
     [ "DoFDistributionInfo", "classug_1_1_do_f_distribution_info.html#aaf80406d6d95e90523180525f606820c", null ],
     [ "create_offsets", "classug_1_1_do_f_distribution_info.html#a7cf428de63b41f084ef5a5ad37844ed4", null ],
     [ "init", "classug_1_1_do_f_distribution_info.html#aa65abefd71b29eef99ea4f2f4b84ba48", null ],

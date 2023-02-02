@@ -2,8 +2,7 @@ var dir_3ad4976311e8b20f14d54d5a6abc93f8 =
 [
     [ "gauss_quad.h", "gauss__quad_8h.html", [
       [ "FlexGaussQuadrature", "classug_1_1_flex_gauss_quadrature.html", "classug_1_1_flex_gauss_quadrature" ],
-      [ "GaussQuadBase", "classug_1_1_gauss_quad_base.html", "classug_1_1_gauss_quad_base" ],
-      [ "GaussQuadrature", "classug_1_1_gauss_quadrature.html", null ]
+      [ "GaussQuadBase", "classug_1_1_gauss_quad_base.html", "classug_1_1_gauss_quad_base" ]
     ] ],
     [ "gauss_quad_edge.cpp", "gauss__quad__edge_8cpp.html", null ],
     [ "gauss_quad_edge.h", "gauss__quad__edge_8h.html", [

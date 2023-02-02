@@ -1,6 +1,5 @@
 var damage_8h =
 [
-    [ "contrained_dim_traits", "structug_1_1_small_strain_mechanics_1_1contrained__dim__traits.html", null ],
     [ "contrained_dim_traits< 2 >", "structug_1_1_small_strain_mechanics_1_1contrained__dim__traits_3_012_01_4.html", "structug_1_1_small_strain_mechanics_1_1contrained__dim__traits_3_012_01_4" ],
     [ "contrained_dim_traits< 3 >", "structug_1_1_small_strain_mechanics_1_1contrained__dim__traits_3_013_01_4.html", "structug_1_1_small_strain_mechanics_1_1contrained__dim__traits_3_013_01_4" ],
     [ "DamageFunctionUpdater", "classug_1_1_small_strain_mechanics_1_1_damage_function_updater.html", "classug_1_1_small_strain_mechanics_1_1_damage_function_updater" ],

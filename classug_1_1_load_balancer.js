@@ -20,6 +20,7 @@ var classug_1_1_load_balancer =
     [ "set_balance_weights", "classug_1_1_load_balancer.html#a192f3d30f900d6664c8b669184ff31b6", null ],
     [ "set_element_threshold", "classug_1_1_load_balancer.html#af398c3061e1761cdf6780a9e78102a08", null ],
     [ "set_grid", "classug_1_1_load_balancer.html#a3ca2dca02423eeb6fc34b6e2de48f356", null ],
+    [ "set_next_process_hierarchy", "classug_1_1_load_balancer.html#a0a1c09d5e25d7776296b2902595248e3", null ],
     [ "set_partitioner", "classug_1_1_load_balancer.html#aab7e026075dfb9f7af341e5ecd3dd33b", null ],
     [ "m_balanceThreshold", "classug_1_1_load_balancer.html#ae9c2ac80b9ffe237a052e9484702c15d", null ],
     [ "m_balanceWeights", "classug_1_1_load_balancer.html#abea2c74dd93cab6de5cd51907d2235e8", null ],

@@ -1,11 +1,11 @@
 var dir_9d052ea71984eecf228fc5a259e19cfe =
 [
     [ "element_list_traits.h", "element__list__traits_8h.html", [
-      [ "apply", "classug_1_1element__list__traits_1_1mfc__num__sides__of__elem_1_1apply.html", "classug_1_1element__list__traits_1_1mfc__num__sides__of__elem_1_1apply" ],
-      [ "apply", "classug_1_1element__list__traits_1_1mfc__num__volumes__of__elem_1_1apply.html", "classug_1_1element__list__traits_1_1mfc__num__volumes__of__elem_1_1apply" ],
-      [ "apply", "classug_1_1element__list__traits_1_1mfc__num__faces__of__elem_1_1apply.html", "classug_1_1element__list__traits_1_1mfc__num__faces__of__elem_1_1apply" ],
-      [ "apply", "classug_1_1element__list__traits_1_1mfc__num__edges__of__elem_1_1apply.html", "classug_1_1element__list__traits_1_1mfc__num__edges__of__elem_1_1apply" ],
       [ "apply", "classug_1_1element__list__traits_1_1mfc__num__corners__of__elem_1_1apply.html", "classug_1_1element__list__traits_1_1mfc__num__corners__of__elem_1_1apply" ],
+      [ "apply", "classug_1_1element__list__traits_1_1mfc__num__edges__of__elem_1_1apply.html", "classug_1_1element__list__traits_1_1mfc__num__edges__of__elem_1_1apply" ],
+      [ "apply", "classug_1_1element__list__traits_1_1mfc__num__faces__of__elem_1_1apply.html", "classug_1_1element__list__traits_1_1mfc__num__faces__of__elem_1_1apply" ],
+      [ "apply", "classug_1_1element__list__traits_1_1mfc__num__volumes__of__elem_1_1apply.html", "classug_1_1element__list__traits_1_1mfc__num__volumes__of__elem_1_1apply" ],
+      [ "apply", "classug_1_1element__list__traits_1_1mfc__num__sides__of__elem_1_1apply.html", "classug_1_1element__list__traits_1_1mfc__num__sides__of__elem_1_1apply" ],
       [ "element_list_traits", "classug_1_1element__list__traits.html", "classug_1_1element__list__traits" ],
       [ "mfc_num_corners_of_elem", "structug_1_1element__list__traits_1_1mfc__num__corners__of__elem.html", [
         [ "apply", "classug_1_1element__list__traits_1_1mfc__num__corners__of__elem_1_1apply.html", "classug_1_1element__list__traits_1_1mfc__num__corners__of__elem_1_1apply" ]
@@ -40,7 +40,6 @@ var dir_9d052ea71984eecf228fc5a259e19cfe =
       [ "UGError_ReferenceElementMissing", "structug_1_1_u_g_error___reference_element_missing.html", "structug_1_1_u_g_error___reference_element_missing" ]
     ] ],
     [ "reference_element_traits.h", "reference__element__traits_8h.html", [
-      [ "reference_element_traits", "structug_1_1reference__element__traits.html", null ],
       [ "reference_element_traits< ConstrainedEdge >", "structug_1_1reference__element__traits_3_01_constrained_edge_01_4.html", null ],
       [ "reference_element_traits< ConstrainedQuadrilateral >", "structug_1_1reference__element__traits_3_01_constrained_quadrilateral_01_4.html", null ],
       [ "reference_element_traits< ConstrainedTriangle >", "structug_1_1reference__element__traits_3_01_constrained_triangle_01_4.html", null ],

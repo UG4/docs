@@ -13,8 +13,8 @@ var dir_e1a9232d2d4f3fcb740789b60d01e8bd =
     [ "index_view.h", "index__view_8h.html", [
       [ "BlockSliceIndexView", "classug_1_1_block_slice_index_view.html", "classug_1_1_block_slice_index_view" ],
       [ "IndexView", "classug_1_1_index_view.html", "classug_1_1_index_view" ],
-      [ "iterator", "structug_1_1_block_slice_index_view_1_1iterator.html", "structug_1_1_block_slice_index_view_1_1iterator" ],
       [ "iterator", "structug_1_1_slice_index_view_1_1iterator.html", "structug_1_1_slice_index_view_1_1iterator" ],
+      [ "iterator", "structug_1_1_block_slice_index_view_1_1iterator.html", "structug_1_1_block_slice_index_view_1_1iterator" ],
       [ "SliceIndexView", "classug_1_1_slice_index_view.html", "classug_1_1_slice_index_view" ]
     ] ],
     [ "operations.h", "operations_8h.html", "operations_8h" ],

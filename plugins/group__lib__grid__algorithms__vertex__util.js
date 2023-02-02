@@ -10,7 +10,7 @@ var group__lib__grid__algorithms__vertex__util =
     [ "CalculateVertexNormal", "../group__lib__grid__algorithms__vertex__util.html#ga8c98c2d1d058d59c32717dd75d97055c", null ],
     [ "CalculateVertexNormals", "../group__lib__grid__algorithms__vertex__util.html#ga95754779ac568465423ab030b6421c7f", null ],
     [ "CalculateVertexNormals", "../group__lib__grid__algorithms__vertex__util.html#gabe72050ecf543aeda3950e6bd039e402", null ],
-    [ "CollectSurfaceNeighborsSorted", "../group__lib__grid__algorithms__vertex__util.html#ga035996e064b6f7bc1fc472b6c5cc2f1b", null ],
+    [ "CollectSurfaceNeighborsSorted", "../group__lib__grid__algorithms__vertex__util.html#ga5221e89301cf0272f1a19cfe2ba9bab3", null ],
     [ "CompareVertexContainer", "../group__lib__grid__algorithms__vertex__util.html#ga70e52bc98786dfb349944e4aea1a4b93", null ],
     [ "ContainsPoint", "../group__lib__grid__algorithms__vertex__util.html#ga6714b9ccee3ac300ae8bb4493ede02e1", null ],
     [ "FindVertexByCoordiante", "../group__lib__grid__algorithms__vertex__util.html#gaefad3008d43f5a281ec1d7d5dca78cc0", null ],

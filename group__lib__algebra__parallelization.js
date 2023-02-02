@@ -6,7 +6,6 @@ var group__lib__algebra__parallelization =
     [ "Parallel Algebra Util", "group__lib__algebra__parallelization__util.html", "group__lib__algebra__parallelization__util" ],
     [ "ParallelMatrix", "classug_1_1_parallel_matrix.html", [
       [ "this_type", "classug_1_1_parallel_matrix.html#ad5aaa1c1acd8c61d58e7ce17ae620479", null ],
-      [ "rows_sorted", "classug_1_1_parallel_matrix.html#aa8a85c9168729164ed626dbcf8fabf67ac57dde9efd8a144196cf0e76588e2d59", null ],
       [ "ParallelMatrix", "classug_1_1_parallel_matrix.html#a51c4bd8ea755921351d9d4d3756567b5", null ],
       [ "ParallelMatrix", "classug_1_1_parallel_matrix.html#afbbb2f323d994f8f52ace0ef8963c70f", null ],
       [ "ParallelMatrix", "classug_1_1_parallel_matrix.html#a34a7605166a44eecfe77879c225ff253", null ],

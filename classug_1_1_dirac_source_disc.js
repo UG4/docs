@@ -2,6 +2,7 @@ var classug_1_1_dirac_source_disc =
 [
     [ "base_type", "classug_1_1_dirac_source_disc.html#a786b807e895e0805517f5ae084ef635f", null ],
     [ "domain_type", "classug_1_1_dirac_source_disc.html#a749b054436ae967a79995abffd0d68d6", null ],
+    [ "NumberExport", "classug_1_1_dirac_source_disc.html#a924e76fa53550a66b3cadef6fcee95b1", null ],
     [ "position_type", "classug_1_1_dirac_source_disc.html#ac3f25b9177aa06547ce092a83bf3adad", null ],
     [ "this_type", "classug_1_1_dirac_source_disc.html#a76be2901f7775c887d8168cbca98fe32", null ],
     [ "DiracSourceDisc", "classug_1_1_dirac_source_disc.html#a7ca86dd27b5b858110dadc157572b7b5", null ],
@@ -14,6 +15,8 @@ var classug_1_1_dirac_source_disc =
     [ "add_rhs_elem", "classug_1_1_dirac_source_disc.html#af3c172c9074aa104d945077ce9977ca4", null ],
     [ "add_source", "classug_1_1_dirac_source_disc.html#a49175369fc26422121cab878fe3ff941", null ],
     [ "add_source", "classug_1_1_dirac_source_disc.html#aa18b09d95956b60498a473d6416b1271", null ],
+    [ "add_transport_sink", "classug_1_1_dirac_source_disc.html#aae3b1be29686914a5ab672045c90833e", null ],
+    [ "add_transport_sink", "classug_1_1_dirac_source_disc.html#a7cf36dc437e4f98df639df96cd40f5c6", null ],
     [ "compute_err_est_A_elem", "classug_1_1_dirac_source_disc.html#a013b42cda1141538250c2b55ad605498", null ],
     [ "fsh_elem_loop", "classug_1_1_dirac_source_disc.html#ad1d59c1f882f56dd30d1cfe9bd9656b9", null ],
     [ "fsh_err_est_elem_loop", "classug_1_1_dirac_source_disc.html#a7a8d2297f5470be8477abc4856d33549", null ],
@@ -25,8 +28,11 @@ var classug_1_1_dirac_source_disc =
     [ "register_all_funcs", "classug_1_1_dirac_source_disc.html#aa993373db6b11089ffbdebee845e0cb8", null ],
     [ "register_func", "classug_1_1_dirac_source_disc.html#a713c76b78e7c9274fc31b5f5ac5fd842", null ],
     [ "use_hanging", "classug_1_1_dirac_source_disc.html#a5ce3cb4c8d3c638a3fb4359af0f3f132", null ],
+    [ "_C_", "classug_1_1_dirac_source_disc.html#a47dc5943b36f1528bc95e6ff009940d2", null ],
     [ "dim", "classug_1_1_dirac_source_disc.html#a408269a374c512ec18025cd3f8077cba", null ],
     [ "m_bNonRegularGrid", "classug_1_1_dirac_source_disc.html#afef08b63e220c9d208dff0513cdd9555", null ],
+    [ "m_exRate", "classug_1_1_dirac_source_disc.html#a90bb004c3b7c61a0c431f2ad1453ec75", null ],
+    [ "m_snkTransportData", "classug_1_1_dirac_source_disc.html#a0cd298b2c6a98da4ff7c0d5c62ce8d2c", null ],
     [ "m_srcCoord", "classug_1_1_dirac_source_disc.html#a4d754469aa7a350d8ec3241b03f5f31b", null ],
     [ "m_srcData", "classug_1_1_dirac_source_disc.html#a6f50c9eefe168f4072764ced26cd2495", null ]
 ];

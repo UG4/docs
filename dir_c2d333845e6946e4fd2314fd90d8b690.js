@@ -25,8 +25,6 @@ var dir_c2d333845e6946e4fd2314fd90d8b690 =
     [ "jacobi.h", "jacobi_8h.html", [
       [ "Jacobi", "classug_1_1_jacobi.html", "classug_1_1_jacobi" ]
     ] ],
-    [ "line_smoothers.cpp", "line__smoothers_8cpp.html", "line__smoothers_8cpp" ],
-    [ "line_smoothers.h", "line__smoothers_8h.html", "line__smoothers_8h" ],
     [ "operator_inverse_iterator.h", "operator__inverse__iterator_8h.html", [
       [ "OperatorInverseIterator", "classug_1_1_operator_inverse_iterator.html", "classug_1_1_operator_inverse_iterator" ]
     ] ],

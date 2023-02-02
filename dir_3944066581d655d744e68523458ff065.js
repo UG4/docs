@@ -10,7 +10,6 @@ var dir_3944066581d655d744e68523458ff065 =
       [ "constraint_traits< Vertex >", "structug_1_1constraint__traits_3_01_vertex_01_4.html", "structug_1_1constraint__traits_3_01_vertex_01_4" ]
     ] ],
     [ "grid_dim_traits.h", "grid__dim__traits_8h.html", [
-      [ "grid_dim_traits", "structug_1_1grid__dim__traits.html", null ],
       [ "grid_dim_traits< 0 >", "structug_1_1grid__dim__traits_3_010_01_4.html", "structug_1_1grid__dim__traits_3_010_01_4" ],
       [ "grid_dim_traits< 1 >", "structug_1_1grid__dim__traits_3_011_01_4.html", "structug_1_1grid__dim__traits_3_011_01_4" ],
       [ "grid_dim_traits< 2 >", "structug_1_1grid__dim__traits_3_012_01_4.html", "structug_1_1grid__dim__traits_3_012_01_4" ],

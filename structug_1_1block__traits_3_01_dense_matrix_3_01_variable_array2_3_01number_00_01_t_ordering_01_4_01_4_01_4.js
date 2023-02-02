@@ -1,9 +1,4 @@
 var structug_1_1block__traits_3_01_dense_matrix_3_01_variable_array2_3_01number_00_01_t_ordering_01_4_01_4_01_4 =
 [
-    [ "inverse_type", "structug_1_1block__traits_3_01_dense_matrix_3_01_variable_array2_3_01number_00_01_t_ordering_01_4_01_4_01_4.html#aac2383524c3f92b6a524dbcc08eaafe0", null ],
-    [ "ordering", "structug_1_1block__traits_3_01_dense_matrix_3_01_variable_array2_3_01number_00_01_t_ordering_01_4_01_4_01_4.html#aa767d26de1f31b43b4ede962a2c73a38a4874aa6ea354fdb2bcf92098d6c851f8", null ],
-    [ "is_static", "structug_1_1block__traits_3_01_dense_matrix_3_01_variable_array2_3_01number_00_01_t_ordering_01_4_01_4_01_4.html#ad01a8236e6ce748efd0412f2de1f9e76a185498949983973322e30e677e087508", null ],
-    [ "static_num_rows", "structug_1_1block__traits_3_01_dense_matrix_3_01_variable_array2_3_01number_00_01_t_ordering_01_4_01_4_01_4.html#af05bfc1149bb7d5444432fcd3b17365fa8f84741b2c6354141cc3779249b0c78b", null ],
-    [ "static_num_cols", "structug_1_1block__traits_3_01_dense_matrix_3_01_variable_array2_3_01number_00_01_t_ordering_01_4_01_4_01_4.html#afcd34aea9aefda5f41de8af03ab96dffafa52becb2832a27ed070548365506a38", null ],
-    [ "depth", "structug_1_1block__traits_3_01_dense_matrix_3_01_variable_array2_3_01number_00_01_t_ordering_01_4_01_4_01_4.html#a8da500ccde8e9ffd8c522ec9c7482c9fa2fa78f3869376675bc1bb7912aba7a7d", null ]
+    [ "inverse_type", "structug_1_1block__traits_3_01_dense_matrix_3_01_variable_array2_3_01number_00_01_t_ordering_01_4_01_4_01_4.html#aac2383524c3f92b6a524dbcc08eaafe0", null ]
 ];

@@ -55,6 +55,7 @@ var dir_2377bdc3bce2db83d3a95ac44ec5f4e1 =
     [ "local_transfer_interface.h", "local__transfer__interface_8h.html", "local__transfer__interface_8h" ],
     [ "max_error.h", "max__error_8h.html", "max__error_8h" ],
     [ "metric_spaces.h", "metric__spaces_8h.html", [
+      [ "AlgebraicSpace", "classug_1_1_algebraic_space.html", "classug_1_1_algebraic_space" ],
       [ "CompositeSpace", "classug_1_1_composite_space.html", "classug_1_1_composite_space" ],
       [ "GridFunctionComponentSpace", "classug_1_1_grid_function_component_space.html", "classug_1_1_grid_function_component_space" ],
       [ "H1ComponentSpace", "classug_1_1_h1_component_space.html", "classug_1_1_h1_component_space" ],

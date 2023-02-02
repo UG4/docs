@@ -160,6 +160,7 @@ var group__promesh =
     [ "SelectBoundaryEdges", "../../plugins/group__promesh.html#ga821c1c4a8bbd478ddcce9973b2e05811", null ],
     [ "SelectBoundaryFaces", "../../plugins/group__promesh.html#gae25f5bce57b4b5ad18bf675c5b871215", null ],
     [ "SelectBoundaryVertices", "../../plugins/group__promesh.html#gac08343f56c9e51796fda499976addae0", null ],
+    [ "SelectClosestEdge", "../../plugins/group__promesh.html#ga5eebb23ee01ccf2a97a91d6e1080de1a", null ],
     [ "SelectCreaseEdges", "../../plugins/group__promesh.html#ga9025d88e195c7285d097f24b54c8c9f2", null ],
     [ "SelectDegenerateFaces", "../../plugins/group__promesh.html#ga1e0950d517996039a6b68cbf37a7bcc3", null ],
     [ "SelectEdgeByIndex", "../../plugins/group__promesh.html#ga8c351240f0b761008fd6ef558c060430", null ],

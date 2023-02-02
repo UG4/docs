@@ -1,8 +1,5 @@
 var classug_1_1_l_u_a_parser_class =
 [
-    [ "LUAParserError", "classug_1_1_l_u_a_parser_class.html#affb5c2af88a772d75394817e7beba103a95182d6a4d29e8719ab0155056ab8f9e", null ],
-    [ "LUAParserIgnore", "classug_1_1_l_u_a_parser_class.html#affb5c2af88a772d75394817e7beba103a85f93bc42ad220b7a4bf0597e41badd0", null ],
-    [ "LUAParserOK", "classug_1_1_l_u_a_parser_class.html#affb5c2af88a772d75394817e7beba103afa56ac0e3a928ea04e74b752511ab95d", null ],
     [ "eReturnType", "classug_1_1_l_u_a_parser_class.html#a45913b53a184cc502de9138a1b687dfb", [
       [ "RT_SUBFUNCTION", "classug_1_1_l_u_a_parser_class.html#a45913b53a184cc502de9138a1b687dfbac88237772837ddb58801acfc3c71d34b", null ],
       [ "RT_DIFFUSION", "classug_1_1_l_u_a_parser_class.html#a45913b53a184cc502de9138a1b687dfbadf1e825c48ed78c56eec58e7bb4a0f6f", null ],

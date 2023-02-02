@@ -7,7 +7,6 @@ var classug_1_1_g_p_u_sparse_matrix =
     [ "row_type", "classug_1_1_g_p_u_sparse_matrix.html#a6ac8d4a79d422d2b503666965c7fd7b7", null ],
     [ "this_type", "classug_1_1_g_p_u_sparse_matrix.html#a743086f0d2a0eecf6db0dc256a1a312d", null ],
     [ "value_type", "classug_1_1_g_p_u_sparse_matrix.html#a54e78e293d0442d184f49af9d9d5cc0a", null ],
-    [ "rows_sorted", "classug_1_1_g_p_u_sparse_matrix.html#ac737442bdf6945deef981f5e33ec0930ae7fff3afa914d41e58149c01789d4e2d", null ],
     [ "GPUSparseMatrix", "classug_1_1_g_p_u_sparse_matrix.html#adc14f8d6b4448c7d7b1de4a924e8a413", null ],
     [ "~GPUSparseMatrix", "classug_1_1_g_p_u_sparse_matrix.html#a5a1112c247e04494b1117882305d70c8", null ],
     [ "GPUSparseMatrix", "classug_1_1_g_p_u_sparse_matrix.html#a9a231739127bb5349639585c80695e33", null ],

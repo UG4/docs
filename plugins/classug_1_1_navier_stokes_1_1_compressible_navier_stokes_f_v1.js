@@ -30,6 +30,7 @@ var classug_1_1_navier_stokes_1_1_compressible_navier_stokes_f_v1 =
     [ "_P_", "classug_1_1_navier_stokes_1_1_compressible_navier_stokes_f_v1.html#a2c90855fe90beb9dd44f3c2c1df857f5", null ],
     [ "_Rho_", "classug_1_1_navier_stokes_1_1_compressible_navier_stokes_f_v1.html#a448353b0d88c028b4bf5fa626cf99180", null ],
     [ "dim", "classug_1_1_navier_stokes_1_1_compressible_navier_stokes_f_v1.html#a345dbea4fc2d4ef5959d604c72da7361", null ],
+    [ "m_bFullNewtonFactor", "classug_1_1_navier_stokes_1_1_compressible_navier_stokes_f_v1.html#a5fee9ce7958a9c57131a42bcb76c4d5e", null ],
     [ "m_imAdiabaticIndex", "classug_1_1_navier_stokes_1_1_compressible_navier_stokes_f_v1.html#abc0c17f524e6b43add10e2c0fac93377", null ],
     [ "m_imKinViscosity", "classug_1_1_navier_stokes_1_1_compressible_navier_stokes_f_v1.html#adb1b25395c5c357e3616b6f2fefd5ec0", null ],
     [ "m_imSourceSCV", "classug_1_1_navier_stokes_1_1_compressible_navier_stokes_f_v1.html#acac19d05d4354f2345c472318b783859", null ],

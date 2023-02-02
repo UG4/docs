@@ -2,5 +2,6 @@ var structug_1_1bridge_1_1func__traits_3_01_t_ret_07_5_08_07_t1_00_01_t2_00_01_t
 [
     [ "params_type", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_5_08_07_t1_00_01_t2_00_01_t3_00_01_t4_00_01_t5_00_01_t6_00_01_t7_00_01_t8_08_4.html#a4c99df3957c8d46665952c47008962c3", null ],
     [ "return_type", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_5_08_07_t1_00_01_t2_00_01_t3_00_01_t4_00_01_t5_00_01_t6_00_01_t7_00_01_t8_08_4.html#a2c24032b0509f2949d53f98d28843b87", null ],
-    [ "apply", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_5_08_07_t1_00_01_t2_00_01_t3_00_01_t4_00_01_t5_00_01_t6_00_01_t7_00_01_t8_08_4.html#a1c29b8fc89d96ecd3d0121d1dff473d2", null ]
+    [ "apply", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_5_08_07_t1_00_01_t2_00_01_t3_00_01_t4_00_01_t5_00_01_t6_00_01_t7_00_01_t8_08_4.html#a1c29b8fc89d96ecd3d0121d1dff473d2", null ],
+    [ "custom_return", "structug_1_1bridge_1_1func__traits_3_01_t_ret_07_5_08_07_t1_00_01_t2_00_01_t3_00_01_t4_00_01_t5_00_01_t6_00_01_t7_00_01_t8_08_4.html#a390909868b1e889e710f98a4dfa7b141", null ]
 ];

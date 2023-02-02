@@ -8,7 +8,7 @@ var group__lib__grid__algorithms__edge__util =
     [ "CalculateNormal", "group__lib__grid__algorithms__edge__util.html#ga47d8d9dc1634d72a7500de9fe2e1f7a3", null ],
     [ "CalculateNormalNoNormalize", "group__lib__grid__algorithms__edge__util.html#gae1a37eb30f8e26ad848d0aa2f79a81d1", null ],
     [ "CollapseEdge", "group__lib__grid__algorithms__edge__util.html#ga2c12f2972755f9635e2834b0d954ead2", null ],
-    [ "CompareVertices", "group__lib__grid__algorithms__edge__util.html#ga4327a0e4233303f4fd11f307465e0244", null ],
+    [ "CompareVertices", "group__lib__grid__algorithms__edge__util.html#gafca790d4845369d2f52a21fe80685aa0", null ],
     [ "ContainsPoint", "group__lib__grid__algorithms__edge__util.html#gaed91ccbc1b4b95c2ef09c3f79aabd6ab", null ],
     [ "CreateEdgeSplitGeometry", "group__lib__grid__algorithms__edge__util.html#ga510e2902b9bf9775fcd178289e616cec", null ],
     [ "CutEdgesWithPlane", "group__lib__grid__algorithms__edge__util.html#ga8d08da8a4c117456ba10f1e2809ffee7", null ],

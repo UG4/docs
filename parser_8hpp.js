@@ -38,7 +38,7 @@ var parser_8hpp =
     [ "yystype", "parser_8hpp.html#a4ccf5315e8f5c1cec48ec67ca1771e3a", null ],
     [ "YYSTYPE_IS_DECLARED", "parser_8hpp.html#af0232d21120b2cfc5e5f82f0fbadab3c", null ],
     [ "YYSTYPE_IS_TRIVIAL", "parser_8hpp.html#a2e3dbf169c5ee24cf6af37c61cf3995d", null ],
-    [ "YYSTYPE", "parser_8hpp.html#af2bb2348b7b2379f06e8c6aea49cb742", null ],
+    [ "YYSTYPE", "parser_8hpp.html#ac56824fbd095909aa72c2a98afb4b9f0", null ],
     [ "yytokentype", "parser_8hpp.html#a15c9f7bd2f0e9686df5d9df4f3314aa9", [
       [ "YY_INTEGER", "parser_8cpp.html#a15c9f7bd2f0e9686df5d9df4f3314aa9a1dd6cc0bb6f2f78f2da979dc9b8da936", null ],
       [ "LUAPARSER_VARIABLE", "parser_8cpp.html#a15c9f7bd2f0e9686df5d9df4f3314aa9a513384efc0a61f5cf247b9df87a4da54", null ],

@@ -7,7 +7,6 @@ var error__elem__marking__strategy_8h =
     [ "ExpectedErrorMarkingStrategy", "classug_1_1_expected_error_marking_strategy.html", "classug_1_1_expected_error_marking_strategy" ],
     [ "GlobalMarking", "classug_1_1_global_marking.html", "classug_1_1_global_marking" ],
     [ "IElementMarkingStrategy", "classug_1_1_i_element_marking_strategy.html", "classug_1_1_i_element_marking_strategy" ],
-    [ "IElementMarkingStrategy", "classug_1_1_i_element_marking_strategy.html", "classug_1_1_i_element_marking_strategy" ],
     [ "IMultigridElementIndicators", "classug_1_1_i_multigrid_element_indicators.html", "classug_1_1_i_multigrid_element_indicators" ],
     [ "MaximumMarking", "classug_1_1_maximum_marking.html", "classug_1_1_maximum_marking" ],
     [ "MeanValueMarking", "classug_1_1_mean_value_marking.html", "classug_1_1_mean_value_marking" ],

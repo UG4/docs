@@ -4,6 +4,7 @@ var classug_1_1_sub_local_do_f_set =
     [ "exact_position_available", "classug_1_1_sub_local_do_f_set.html#a69aa416e8f25364d18a70a7d7aa9b456", null ],
     [ "local_dof", "classug_1_1_sub_local_do_f_set.html#a103cb939d552aba6c3dc2bad66db089a", null ],
     [ "num_dof", "classug_1_1_sub_local_do_f_set.html#a67b78f65b0e8b52b7685c9ad915be9e2", null ],
+    [ "num_sh", "classug_1_1_sub_local_do_f_set.html#a50a926962f0d6edd4e024ce3f98bbaa5", null ],
     [ "position", "classug_1_1_sub_local_do_f_set.html#a876064f07b404187f251c7e76d7c31c3", null ],
     [ "roid", "classug_1_1_sub_local_do_f_set.html#a47366c66d55b885e42a47a89d6f070cf", null ],
     [ "set", "classug_1_1_sub_local_do_f_set.html#a6647bc2ffaa6d812640a60f2c2d08fbf", null ],

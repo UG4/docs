@@ -12,5 +12,6 @@ var classug_1_1bridge_1_1_exported_class =
     [ "class_names", "classug_1_1bridge_1_1_exported_class.html#afea2f998f19cc6fe0e9fe35bd3b15ab0", null ],
     [ "get_delete_function", "classug_1_1bridge_1_1_exported_class.html#a469964b47e018162777b7f5565e39c9a", null ],
     [ "group", "classug_1_1bridge_1_1_exported_class.html#a7037669062b95a6d5b55aed0561edb5b", null ],
+    [ "is_json_constructible", "classug_1_1bridge_1_1_exported_class.html#a5ff0ebf08c37a2610315bf233e395f06", null ],
     [ "name", "classug_1_1bridge_1_1_exported_class.html#a557fecc304d901ff2a75146ea8a8d0ad", null ]
 ];

@@ -3,7 +3,7 @@ var sparsematrix__interface_8h =
     [ "SparseMatrix", "class_sparse_matrix.html", "class_sparse_matrix" ],
     [ "value_type", "sparsematrix__interface_8h.html#a265a253612b46abed17c61b0a5e5ce30", null ],
     [ "begin_row", "sparsematrix__interface_8h.html#a6b29d0abb0e1864ab81f18514f13b778", null ],
-    [ "CreateAsMultiplyOf", "group__lib__algebra.html#gaec865da3d07ee7bcf932b2ee5d3a8e77", null ],
+    [ "CreateAsMultiplyOf", "sparsematrix__interface_8h.html#a4230ebfcf8291c26f48b7a6eecab10aa", null ],
     [ "CreateAsProductOf", "sparsematrix__interface_8h.html#aca0d09aca532b50404f9f49cb41d6958", null ],
     [ "defragment", "sparsematrix__interface_8h.html#a5d522ce8c68a92bec9205828c10111ce", null ],
     [ "end_row", "sparsematrix__interface_8h.html#a4340460718e70e6494f93c9b31600881", null ],

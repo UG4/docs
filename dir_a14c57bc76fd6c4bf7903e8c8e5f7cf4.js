@@ -53,8 +53,6 @@ var dir_a14c57bc76fd6c4bf7903e8c8e5f7cf4 =
     ] ],
     [ "surface_view.h", "surface__view_8h.html", [
       [ "ConstSurfaceViewElementIterator", "classug_1_1_surface_view_1_1_const_surface_view_element_iterator.html", "classug_1_1_surface_view_1_1_const_surface_view_element_iterator" ],
-      [ "ConstSurfaceViewElementIterator", "classug_1_1_surface_view_1_1_const_surface_view_element_iterator.html", "classug_1_1_surface_view_1_1_const_surface_view_element_iterator" ],
-      [ "SurfaceViewElementIterator", "classug_1_1_surface_view_1_1_surface_view_element_iterator.html", "classug_1_1_surface_view_1_1_surface_view_element_iterator" ],
       [ "SurfaceViewElementIterator", "classug_1_1_surface_view_1_1_surface_view_element_iterator.html", "classug_1_1_surface_view_1_1_surface_view_element_iterator" ],
       [ "traits", "structug_1_1_surface_view_1_1traits.html", "structug_1_1_surface_view_1_1traits" ]
     ] ],

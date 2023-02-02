@@ -3,24 +3,12 @@ var group__ugbase__common__util =
     [ "String Utilities", "group__ugbase__common__util__strings.html", "group__ugbase__common__util__strings" ],
     [ "Common IO", "group__ugbase__common__io.html", "group__ugbase__common__io" ],
     [ "Common Types", "group__ugbase__common__types.html", "group__ugbase__common__types" ],
-    [ "BinomialCoefficient", "structug_1_1_binomial_coefficient.html", [
-      [ "value", "structug_1_1_binomial_coefficient.html#a559a164e9cbc3f0492ca59197d7e1d50aa4f253d6d0d16ce9e00dcf0bab985a8f", null ]
-    ] ],
-    [ "BinomialCoefficient< n, 0 >", "structug_1_1_binomial_coefficient_3_01n_00_010_01_4.html", [
-      [ "value", "structug_1_1_binomial_coefficient_3_01n_00_010_01_4.html#a9c82195c722a1b67a12fb1915f9d84e2aa0e0b1b9b16545d3c927540d8ed56815", null ]
-    ] ],
-    [ "BinomialCoefficient< n,-1 >", "structug_1_1_binomial_coefficient_3_01n_00-1_01_4.html", [
-      [ "value", "structug_1_1_binomial_coefficient_3_01n_00-1_01_4.html#a91a7f885913f889093e188696a318213ada99bac3c27e9e71e2f188243e5ed715", null ]
-    ] ],
-    [ "BinomialCoefficient< n,-2 >", "structug_1_1_binomial_coefficient_3_01n_00-2_01_4.html", [
-      [ "value", "structug_1_1_binomial_coefficient_3_01n_00-2_01_4.html#a871b0bfded74960bdea0de44a57f15efa526e7bb3d7103b1446a748f1331add0a", null ]
-    ] ],
-    [ "BinomialCoefficient< n,-3 >", "structug_1_1_binomial_coefficient_3_01n_00-3_01_4.html", [
-      [ "value", "structug_1_1_binomial_coefficient_3_01n_00-3_01_4.html#af18f41198778540a4f1a605bddfa7e34ac76327bac50275a72afdb7e780abeb99", null ]
-    ] ],
-    [ "BinomialCoefficient< n,-4 >", "structug_1_1_binomial_coefficient_3_01n_00-4_01_4.html", [
-      [ "value", "structug_1_1_binomial_coefficient_3_01n_00-4_01_4.html#a625c6ee26f01e776b3c383b252f9803eaf407a18174127bb594f1683ea595f523", null ]
-    ] ],
+    [ "BinomialCoefficient", "structug_1_1_binomial_coefficient.html", null ],
+    [ "BinomialCoefficient< n, 0 >", "structug_1_1_binomial_coefficient_3_01n_00_010_01_4.html", null ],
+    [ "BinomialCoefficient< n,-1 >", "structug_1_1_binomial_coefficient_3_01n_00-1_01_4.html", null ],
+    [ "BinomialCoefficient< n,-2 >", "structug_1_1_binomial_coefficient_3_01n_00-2_01_4.html", null ],
+    [ "BinomialCoefficient< n,-3 >", "structug_1_1_binomial_coefficient_3_01n_00-3_01_4.html", null ],
+    [ "BinomialCoefficient< n,-4 >", "structug_1_1_binomial_coefficient_3_01n_00-4_01_4.html", null ],
     [ "CompareIndicesByClass", "class_compare_indices_by_class.html", [
       [ "CompareIndicesByClass", "class_compare_indices_by_class.html#a2d780b66609ce0619238f0f09b35568c", null ],
       [ "operator()", "class_compare_indices_by_class.html#acf7e66b722503468696ec37b3068aabf", null ],
@@ -49,6 +37,7 @@ var group__ugbase__common__util =
       [ "get", "class_const_smart_ptr.html#af02fe473a6b1ca143741ad28d5edda5c", null ],
       [ "invalid", "class_const_smart_ptr.html#a56b971e419f389cbc1e2b381c9842478", null ],
       [ "is_of_type", "class_const_smart_ptr.html#a5b34fb300d7012b6905b802ca4d67643", null ],
+      [ "operator bool", "class_const_smart_ptr.html#a48548550b5765b051b328e6661c17f3b", null ],
       [ "operator!=", "class_const_smart_ptr.html#ab076fd90edafd083f1cbac332230cb98", null ],
       [ "operator!=", "class_const_smart_ptr.html#afc5b079b5d0362e66a93a6af987dc58b", null ],
       [ "operator!=", "class_const_smart_ptr.html#ab34549ad26070ca371f7c1c9564768fd", null ],
@@ -71,12 +60,8 @@ var group__ugbase__common__util =
       [ "m_refCount", "class_const_smart_ptr.html#a4e00494263a246175b79296e321a80b9", null ]
     ] ],
     [ "EmptyType", "structug_1_1_empty_type.html", null ],
-    [ "Factorial", "structug_1_1_factorial.html", [
-      [ "value", "structug_1_1_factorial.html#aaf299217e34f394e9bbab693172b89a4a582c7f8fc076e1bf03cf39a829ddc943", null ]
-    ] ],
-    [ "Factorial< 1 >", "structug_1_1_factorial_3_011_01_4.html", [
-      [ "value", "structug_1_1_factorial_3_011_01_4.html#acc984c07541760c931588fc38b10992aad22d2b61fdb5a171312623289eac449e", null ]
-    ] ],
+    [ "Factorial", "structug_1_1_factorial.html", null ],
+    [ "Factorial< 1 >", "structug_1_1_factorial_3_011_01_4.html", null ],
     [ "FreeArrayDelete", "class_free_array_delete.html", [
       [ "free", "class_free_array_delete.html#aaeece2bd17fdf9aeffd186335150b996", null ]
     ] ],
@@ -87,8 +72,7 @@ var group__ugbase__common__util =
       [ "free", "class_free_release.html#ad55462165e44a7b5cf383db597965941", null ]
     ] ],
     [ "Int2Type", "structug_1_1_int2_type.html", [
-      [ "value_type", "structug_1_1_int2_type.html#ae66f05ff581f195aded6b4420d27481e", null ],
-      [ "value", "structug_1_1_int2_type.html#a5ef47088d1ca0e370adbf83df3ebe875a75fb923339ea239ba678cded97d1f28a", null ]
+      [ "value_type", "structug_1_1_int2_type.html#ae66f05ff581f195aded6b4420d27481e", null ]
     ] ],
     [ "LoaderObj", "classug_1_1_loader_obj.html", [
       [ "Material", "classug_1_1_loader_obj_1_1_material.html", [
@@ -230,7 +214,7 @@ var group__ugbase__common__util =
       [ "clear", "classug_1_1_pointer_const_array.html#a44160bce8796f635edc1b6b9cdba1faa", null ],
       [ "empty", "classug_1_1_pointer_const_array.html#ab3cb3872cc6c7533573c5dbd588fd647", null ],
       [ "operator=", "classug_1_1_pointer_const_array.html#a494a69b37e7844323b6baae4ccfdd6ca", null ],
-      [ "operator[]", "classug_1_1_pointer_const_array.html#a5a7840e815e0d36d5d163b22ce6024d4", null ],
+      [ "operator[]", "classug_1_1_pointer_const_array.html#a9ba3f3364c87bc9b6893d56c3489b4fd", null ],
       [ "push_back", "classug_1_1_pointer_const_array.html#a80dbb3ff98388a81ff824eb5dcb8c72d", null ],
       [ "reserve", "classug_1_1_pointer_const_array.html#a5d76aebfdafb7597ba76090ba2e58902", null ],
       [ "reserve", "classug_1_1_pointer_const_array.html#a12460cd25071ba111c0c06b7b01920ca", null ],
@@ -241,12 +225,8 @@ var group__ugbase__common__util =
       [ "m_data", "classug_1_1_pointer_const_array.html#a92a391e1b7f2e92ec30994f5cd7052b0", null ],
       [ "m_size", "classug_1_1_pointer_const_array.html#ae11da781b2cdf1611d9ba10c41949412", null ]
     ] ],
-    [ "Pow", "structug_1_1_pow.html", [
-      [ "value", "structug_1_1_pow.html#aa0a9caa3e6db9cbbdd47cb49b43b905daf229b524e345894656d76b07c61b3b0e", null ]
-    ] ],
-    [ "Pow< n, 0 >", "structug_1_1_pow_3_01n_00_010_01_4.html", [
-      [ "value", "structug_1_1_pow_3_01n_00_010_01_4.html#a7a19d581203bdff0918d387b86fc325fa2d7c28615948f3c97eccf0bb845411e3", null ]
-    ] ],
+    [ "Pow", "structug_1_1_pow.html", null ],
+    [ "Pow< n, 0 >", "structug_1_1_pow_3_01n_00_010_01_4.html", null ],
     [ "Provider", "classug_1_1_provider.html", [
       [ "Type", "classug_1_1_provider.html#a4a3c1b6ded6788e89336e077066457a3", null ],
       [ "get", "classug_1_1_provider.html#a10d94e8638c9d3919e6e3ba7876acf3b", null ]
@@ -308,6 +288,7 @@ var group__ugbase__common__util =
       [ "get_nonconst", "class_smart_ptr.html#a1826618ad67725f6b0967184f73599d3", null ],
       [ "invalid", "class_smart_ptr.html#aef72a5d2f077520fc9b0b145a74bed3d", null ],
       [ "is_of_type", "class_smart_ptr.html#a7cdcc05acf7c21d8b2c87688d7ccee35", null ],
+      [ "operator bool", "class_smart_ptr.html#acb875ca30051179ad568fb7897997bdb", null ],
       [ "operator!=", "class_smart_ptr.html#a9e0e9abd9ed79c390b11b4daf4c07c02", null ],
       [ "operator!=", "class_smart_ptr.html#afb12cffd2fa20a845650d0ddfa9791e6", null ],
       [ "operator!=", "class_smart_ptr.html#a122c52152667d0b72e89f842eac06fde", null ],
@@ -342,15 +323,13 @@ var group__ugbase__common__util =
     ] ],
     [ "TypeList", "structug_1_1_type_list.html", [
       [ "head", "structug_1_1_type_list.html#a7d7db77e590faeb6d8beb7af75ae442d", null ],
-      [ "tail", "structug_1_1_type_list.html#a1607da23427cfcd9e8fc1a307e576016", null ],
-      [ "length", "structug_1_1_type_list.html#af034dfd750056d0a02490beca4a95706ac5b1c8db0436b92b6656a4abb7b58471", null ]
+      [ "tail", "structug_1_1_type_list.html#a1607da23427cfcd9e8fc1a307e576016", null ]
     ] ],
-    [ "TypeList< EmptyType, EmptyType, EmptyType, EmptyType, EmptyType, EmptyType, EmptyType, EmptyType, EmptyType, EmptyType, EmptyType, EmptyType >", "structug_1_1_type_list_3_01_empty_type_00_01_empty_type_00_01_empty_type_00_01_empty_type_00_01_7430b704a440bb9a6c7f44cac5588a90.html", [
-      [ "length", "structug_1_1_type_list_3_01_empty_type_00_01_empty_type_00_01_empty_type_00_01_empty_type_00_01_7430b704a440bb9a6c7f44cac5588a90.html#a22e706d38798ca57bcf1a197bc70294aa849f7f2453088d5602aa5484e24edd45", null ]
-    ] ],
+    [ "TypeList< EmptyType, EmptyType, EmptyType, EmptyType, EmptyType, EmptyType, EmptyType, EmptyType, EmptyType, EmptyType, EmptyType, EmptyType >", "structug_1_1_type_list_3_01_empty_type_00_01_empty_type_00_01_empty_type_00_01_empty_type_00_01_7430b704a440bb9a6c7f44cac5588a90.html", null ],
     [ "TypeValueList", "structug_1_1_type_value_list.html", [
       [ "head", "structug_1_1_type_value_list.html#a18287ff40fa6ceec8939eab03f0523ba", null ],
       [ "tail", "structug_1_1_type_value_list.html#ae714e9482cfa1395c29c50939611457f", null ],
+      [ "TypeValueList", "structug_1_1_type_value_list.html#af2fa5d7f79b9db3bcee472faea5628a7", null ],
       [ "TypeValueList", "structug_1_1_type_value_list.html#a8f2ae78587868a9b44808ef00635bd4a", null ],
       [ "hd", "structug_1_1_type_value_list.html#aed00983c877b43025fda0ecab14c20b3", null ],
       [ "tl", "structug_1_1_type_value_list.html#a0582235663020df6bf5147143b6712fc", null ]
@@ -391,11 +370,12 @@ var group__ugbase__common__util =
     [ "function_cast", "group__ugbase__common__util.html#ga73ada701592f4214c9297db5fc1aa882", null ],
     [ "GetDataPtr", "group__ugbase__common__util.html#ga695d1babeff1a447ddcae3ca647c9d5c", null ],
     [ "GetDataPtr", "group__ugbase__common__util.html#ga0c629a903fff8db003dafaf36aca4db7", null ],
-    [ "GetDynamicLibraryPrefix", "group__ugbase__common__util.html#ga753ec862ba86c30e71f349b3aa68bc3e", null ],
-    [ "GetDynamicLibrarySuffix", "group__ugbase__common__util.html#ga4d852549a76d3127cf73f25d0468d0b8", null ],
+    [ "GetDynamicLibraryPrefix", "group__ugbase__common__util.html#ga33e4e91f804e6ce045ccc3b8d1c58047", null ],
+    [ "GetDynamicLibrarySuffix", "group__ugbase__common__util.html#ga01a736aad1904ddee70b3f7d2e0fd98e", null ],
     [ "GetLibraryProcedure", "group__ugbase__common__util.html#gac56e11490c1de6b380089d2296cc1583", null ],
+    [ "GetLoadedPlugins", "group__ugbase__common__util.html#ga4118d600e46d25c034b9af2dcd551000", null ],
     [ "GetParamIndex", "group__ugbase__common__util.html#gaf91515f74a52c9178f5dd8683ad70615", null ],
-    [ "GetPathSeparator", "group__ugbase__common__util.html#ga2066e3000c71999d61217b5320267b06", null ],
+    [ "GetPathSeparator", "group__ugbase__common__util.html#ga38ed3566420707561d5fb97c568a8940", null ],
     [ "GetSortedIndices", "group__ugbase__common__util.html#gaafe0cbe807ad3e918dc41c97afa4b6ee", null ],
     [ "GetSortedIndices", "group__ugbase__common__util.html#ga69f1ab00bdeb01a176691d74567ba8cf", null ],
     [ "GetSortedIndices", "group__ugbase__common__util.html#ga62c15b33385307d24bb2656ee3c13619", null ],

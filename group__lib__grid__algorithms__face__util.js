@@ -15,7 +15,7 @@ var group__lib__grid__algorithms__face__util =
     [ "FaceQuality", "group__lib__grid__algorithms__face__util.html#ga69c2b459338a1d7007d19daabba2df32", null ],
     [ "FindSmallestFace", "group__lib__grid__algorithms__face__util.html#gad08429cf628013edea965ef6acd036c7", null ],
     [ "GetFaceIndex", "group__lib__grid__algorithms__face__util.html#gad06618d95786eda8fbc7030319075608", null ],
-    [ "GetNeighbours", "group__lib__grid__algorithms__face__util.html#ga63ba41f1803819161f2b0593fba3d4a8", null ],
+    [ "GetNeighbours", "group__lib__grid__algorithms__face__util.html#ga8cc5bf9ce5eff9eb09058c99938b6aa0", null ],
     [ "GetVertex", "group__lib__grid__algorithms__face__util.html#ga9b62fea37b09cfc002c1930766d5fdd6", null ],
     [ "InsertCenterVertex", "group__lib__grid__algorithms__face__util.html#gad75663712608cfcd1d1e432a0198593a", null ],
     [ "IsBoundaryFace3D", "group__lib__grid__algorithms__face__util.html#ga13333d7cf4577f562d1a92d1b3fc4c5e", null ],

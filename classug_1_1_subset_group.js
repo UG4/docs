@@ -15,7 +15,7 @@ var classug_1_1_subset_group =
     [ "contains", "classug_1_1_subset_group.html#a099c070712846677eb2c23556d3ed162", null ],
     [ "contains", "classug_1_1_subset_group.html#afd28b87b801c26702144c7eb03d9eb2f", null ],
     [ "dim", "classug_1_1_subset_group.html#ad931aea39c38cb27ba7269d4950b34e5", null ],
-    [ "empty", "classug_1_1_subset_group.html#af6d7fe1d190b9a4f2c7e2f72e5ca9f96", null ],
+    [ "empty", "classug_1_1_subset_group.html#a49c04ddf9f702e6a36141159874accc5", null ],
     [ "get_highest_subset_dimension", "classug_1_1_subset_group.html#aedc2ec46d5329ab7ee254db8a9d2d23e", null ],
     [ "index_vector", "classug_1_1_subset_group.html#a40754fab750115fc589f998f123bfc1a", null ],
     [ "is_init", "classug_1_1_subset_group.html#a4d32af242f65707471ef72606dce1435", null ],

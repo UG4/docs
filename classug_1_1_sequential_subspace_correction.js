@@ -2,9 +2,11 @@ var classug_1_1_sequential_subspace_correction =
 [
     [ "algebra_type", "classug_1_1_sequential_subspace_correction.html#a00b6cbfd1c6052013735fcbb8e76d969", null ],
     [ "base_type", "classug_1_1_sequential_subspace_correction.html#aac9197f0013015b50fa9dfd078b14853", null ],
+    [ "Element", "classug_1_1_sequential_subspace_correction.html#a3905bdf9251538b076f4d4ad09c16a21", null ],
     [ "grid_function_type", "classug_1_1_sequential_subspace_correction.html#a30931dccc2d6715ad2135e12e9a90db9", null ],
     [ "matrix_operator_type", "classug_1_1_sequential_subspace_correction.html#a9e4b1e419ea4b210a3d8bb837997e39a", null ],
     [ "matrix_type", "classug_1_1_sequential_subspace_correction.html#a1818cd7f7f752e94be25903fda6b001b", null ],
+    [ "TVertexSubspace", "classug_1_1_sequential_subspace_correction.html#a8e78414fae99fdd1c2bbf4176a958ab6", null ],
     [ "vector_type", "classug_1_1_sequential_subspace_correction.html#a03515763239c45498b644482fc90b623", null ],
     [ "SequentialSubspaceCorrection", "classug_1_1_sequential_subspace_correction.html#acafcd8e6bbc0e7bfb1a535700229f447", null ],
     [ "SequentialSubspaceCorrection", "classug_1_1_sequential_subspace_correction.html#a579b93924afc7797955919b62d59568f", null ],
@@ -15,13 +17,13 @@ var classug_1_1_sequential_subspace_correction =
     [ "preprocess", "classug_1_1_sequential_subspace_correction.html#a78ce5b55c97227eb8e69879372697e2e", null ],
     [ "set_relax", "classug_1_1_sequential_subspace_correction.html#abf81ca864bf91286f2e79eb61adf624d", null ],
     [ "set_type", "classug_1_1_sequential_subspace_correction.html#a998fec24926d6513bba8114a67b84f6f", null ],
-    [ "set_vertex_subspace", "classug_1_1_sequential_subspace_correction.html#a51dff4ce0fdb05c428784d2282fa581e", null ],
+    [ "set_vertex_subspace", "classug_1_1_sequential_subspace_correction.html#a56402d222246ca339e36c615ee5734b3", null ],
     [ "step", "classug_1_1_sequential_subspace_correction.html#a443b1ae987ba34a219c7584203eb078d", null ],
     [ "supports_parallel", "classug_1_1_sequential_subspace_correction.html#a5119e4647530e20e1debb3ceb85130f7", null ],
     [ "m_A", "classug_1_1_sequential_subspace_correction.html#a4f5b403661c4bb19234fd6905b26a1e2", null ],
     [ "m_oC", "classug_1_1_sequential_subspace_correction.html#a1a1f64fbac7538dbc069ea7bdd6c5820", null ],
     [ "m_oD", "classug_1_1_sequential_subspace_correction.html#a042d24166a84530950b0583db162fdc3", null ],
     [ "m_relax", "classug_1_1_sequential_subspace_correction.html#a1bcfdc906ee3dea6cd7a25275c378541", null ],
-    [ "m_spVertexSubspace", "classug_1_1_sequential_subspace_correction.html#afc78ef4be3c73cc34b6f818ec5399f03", null ],
+    [ "m_spVertexSubspace", "classug_1_1_sequential_subspace_correction.html#a9ea1f92873da8876b87f89204ea1b79e", null ],
     [ "m_type", "classug_1_1_sequential_subspace_correction.html#a185532bab7c0f3302e5451c95ef5d0bf", null ]
 ];

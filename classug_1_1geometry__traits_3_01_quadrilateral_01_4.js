@@ -4,7 +4,5 @@ var classug_1_1geometry__traits_3_01_quadrilateral_01_4 =
     [ "Descriptor", "classug_1_1geometry__traits_3_01_quadrilateral_01_4.html#ad87ecb65f74f6d16381e7071ca3f34f3", null ],
     [ "grid_base_object", "classug_1_1geometry__traits_3_01_quadrilateral_01_4.html#ad5152211c6b118b8794ad849204e3de0", null ],
     [ "iterator", "classug_1_1geometry__traits_3_01_quadrilateral_01_4.html#a227bafdb9befcb36ba11bbd0a074c8cf", null ],
-    [ "CONTAINER_SECTION", "classug_1_1geometry__traits_3_01_quadrilateral_01_4.html#a560171df0119a87b57adfbf81ab5fc50a87d7898ddbd5d71653a4ea88d5c591ff", null ],
-    [ "BASE_OBJECT_ID", "classug_1_1geometry__traits_3_01_quadrilateral_01_4.html#a560171df0119a87b57adfbf81ab5fc50a912f89ec0c461d7292567d8d5c82e958", null ],
     [ "REFERENCE_OBJECT_ID", "classug_1_1geometry__traits_3_01_quadrilateral_01_4.html#aac305c78d6c34f365c12206d0c7abf24", null ]
 ];

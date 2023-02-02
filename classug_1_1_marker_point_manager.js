@@ -4,7 +4,7 @@ var classug_1_1_marker_point_manager =
     [ "add_marker", "classug_1_1_marker_point_manager.html#a6c9ff07b6391733778ab867dbbdfec86", null ],
     [ "add_markers", "classug_1_1_marker_point_manager.html#aee450e3f5946a1a1bb542d134b05e2eb", null ],
     [ "clear", "classug_1_1_marker_point_manager.html#a8dbe7b205735e7ea686f01e17f03dd3d", null ],
-    [ "get_array", "classug_1_1_marker_point_manager.html#a0aadd92b53ba4f31cd9ead3f9a58be75", null ],
+    [ "get_array", "classug_1_1_marker_point_manager.html#ab138cd2e3c676dd7a496f836e6d8664f", null ],
     [ "get_marker", "classug_1_1_marker_point_manager.html#a839ac54654a4604c6c9642f0c0b2dc97", null ],
     [ "get_marker", "classug_1_1_marker_point_manager.html#ad7ac7d17540ee053b02a9839eae877b4", null ],
     [ "num_markers", "classug_1_1_marker_point_manager.html#a494b72abb101d0dc2bae0e97c4b8fc9a", null ],

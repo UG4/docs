@@ -1,0 +1,27 @@
+var classug_1_1_directional_ordering =
+[
+    [ "baseclass", "classug_1_1_directional_ordering.html#a0cba7a2cfd3ced1bbf96205d3d64a0b1", null ],
+    [ "GridFunc_t", "classug_1_1_directional_ordering.html#aaa4ae27989dbd204a65d86986862e554", null ],
+    [ "M_t", "classug_1_1_directional_ordering.html#a99e26ca15d952752307f60fcad90dbc3", null ],
+    [ "Position_t", "classug_1_1_directional_ordering.html#a91a16470075bb645c991da95eac0ce35", null ],
+    [ "Scalar_t", "classug_1_1_directional_ordering.html#a749f92d7ac142517eb14765060740924", null ],
+    [ "small_vec_t", "classug_1_1_directional_ordering.html#a44194d0dcc167e9dccca22a2f3ef3f9c", null ],
+    [ "TSpUserData", "classug_1_1_directional_ordering.html#afe0d8da9549a1850022864e0c69bfa92", null ],
+    [ "V_t", "classug_1_1_directional_ordering.html#a9cf36f8cb9cb4d9c8328a7409e6ab887", null ],
+    [ "DirectionalOrdering", "classug_1_1_directional_ordering.html#a7a92c851d66cd3a802aa5198796369d2", null ],
+    [ "DirectionalOrdering", "classug_1_1_directional_ordering.html#a47b5ec3fa804140fd8f072265e0fe472", null ],
+    [ "check", "classug_1_1_directional_ordering.html#a807aa029ed8e15d52b2f8f9799ca209a", null ],
+    [ "clone", "classug_1_1_directional_ordering.html#a1cc5df534a5272e7b1a2aaded0b7952c", null ],
+    [ "compute", "classug_1_1_directional_ordering.html#a7a42c9ee418c91e917b7bf05f34e5805", null ],
+    [ "init", "classug_1_1_directional_ordering.html#a5e1aaba8df1146b1273e27f6f4af6099", null ],
+    [ "init", "classug_1_1_directional_ordering.html#ae8d93504d2e899ca4cc35ca2ce311df1", null ],
+    [ "init", "classug_1_1_directional_ordering.html#a42a9f52cef9d39f34d98077723c1ec44", null ],
+    [ "init", "classug_1_1_directional_ordering.html#a3ae93ae3e797de398a3523f4a0328b8a", null ],
+    [ "name", "classug_1_1_directional_ordering.html#ab53d6d0a233b5f1ad209334d975df68f", null ],
+    [ "ordering", "classug_1_1_directional_ordering.html#a8c6229ad468ebea9c816f7990e1c2627", null ],
+    [ "set_direction", "classug_1_1_directional_ordering.html#a69d9bb931744cba9ff7751099237ad44", null ],
+    [ "m_dir", "classug_1_1_directional_ordering.html#a8c2231736c36922979190371e87a3cc4", null ],
+    [ "m_vPositions", "classug_1_1_directional_ordering.html#adc14247684cd7f837b1dcc3c8afa7236", null ],
+    [ "m_vScalars", "classug_1_1_directional_ordering.html#a71ee7b78cc75e0bbfde1541065eea794", null ],
+    [ "o", "classug_1_1_directional_ordering.html#aa8eff2b4efb4eacb4dfe367cee3638da", null ]
+];

@@ -18,6 +18,7 @@ var classug_1_1bridge_1_1_exported_class_base_impl =
     [ "get_constructor", "classug_1_1bridge_1_1_exported_class_base_impl.html#a7fdc139f28e574f97eb4a16f9ef6381f", null ],
     [ "get_exported_method_group", "classug_1_1bridge_1_1_exported_class_base_impl.html#aa5ff8d15c0d2a697ca2817eb0d11fa1b", null ],
     [ "get_exported_method_group", "classug_1_1bridge_1_1_exported_class_base_impl.html#aa0b333350b478e7094ca1639cf1e8c30", null ],
+    [ "get_json_constructor", "classug_1_1bridge_1_1_exported_class_base_impl.html#ab3c0f794b7105036ab8271e13d947267", null ],
     [ "get_method", "classug_1_1bridge_1_1_exported_class_base_impl.html#a807666babd18372f41b4fc2588b5b3de", null ],
     [ "get_method_group", "classug_1_1bridge_1_1_exported_class_base_impl.html#abe39aea33c5ed3624d1a487f86831b47", null ],
     [ "get_overload", "classug_1_1bridge_1_1_exported_class_base_impl.html#af5e5ac6f742a3d02d20a9cc0adfa2495", null ],

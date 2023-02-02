@@ -29,7 +29,6 @@ var dir_d86f4a34bdaa751616bc5c1cc6b129e5 =
     ] ],
     [ "user_data.h", "lib__disc_2spatial__disc_2user__data_2user__data_8h.html", [
       [ "CplUserData", "classug_1_1_cpl_user_data.html", "classug_1_1_cpl_user_data" ],
-      [ "DataImport", "classug_1_1_data_import.html", "classug_1_1_data_import" ],
       [ "DependentUserData", "classug_1_1_dependent_user_data.html", "classug_1_1_dependent_user_data" ],
       [ "ICplUserData", "classug_1_1_i_cpl_user_data.html", "classug_1_1_i_cpl_user_data" ],
       [ "user_data_traits", "structug_1_1user__data__traits.html", "structug_1_1user__data__traits" ],

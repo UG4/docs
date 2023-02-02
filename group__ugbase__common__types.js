@@ -1,6 +1,5 @@
 var group__ugbase__common__types =
 [
-    [ "ug", "namespaceug.html", null ],
     [ "RepeatedCol", "structug_1_1_string_table_stream_1_1_repeated_col.html", [
       [ "RepeatedCol", "group__ugbase__common__types.html#gadfa983ab8bc12107e28c3b05594c0d03", null ],
       [ "content", "group__ugbase__common__types.html#ga9f8c638166b2340a220b942cd45a9372", null ],
@@ -93,6 +92,7 @@ var group__ugbase__common__types =
       [ "Variant", "classug_1_1_variant.html#a18b304af26f4900d68ac2885ba0d0588", null ],
       [ "~Variant", "classug_1_1_variant.html#a05bfb3ada38a4af0d06dc49b2bfdc129", null ],
       [ "assign_variant", "classug_1_1_variant.html#a81172059cfd69d0c2c71736a69d196b1", null ],
+      [ "is_valid", "classug_1_1_variant.html#a77d541b4b5306c8c4f02a54ea9d0b5e0", null ],
       [ "operator=", "classug_1_1_variant.html#a7bf3ff8c86ddbc907381e8e977b2c1e3", null ],
       [ "to", "classug_1_1_variant.html#ac2aad9fe4e71ed44265ff368dda6ae49", null ],
       [ "to", "group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6", null ],
@@ -156,7 +156,7 @@ var group__ugbase__common__types =
     [ "operator<<", "group__ugbase__common__types.html#ga7508a539e923f06d5943381cebaebeed", null ],
     [ "operator<<", "group__ugbase__common__types.html#gad811a27080e71230047369aa0777c251", null ],
     [ "operator<<", "group__ugbase__common__types.html#ga30fc152b259140c1df4176ca7035e892", null ],
-    [ "operator<<", "group__ugbase__common__types.html#ga07957934b09316dd54fd758ad6ff2b1b", null ],
+    [ "operator<<", "group__ugbase__common__types.html#ga801ef3296b01f22be5f7d35882747866", null ],
     [ "operator<<", "group__ugbase__common__types.html#gafdd62242ff3ddd717bc7740006aabeb4", null ],
     [ "operator<<", "group__ugbase__common__types.html#ga486bb469a75e6b3521db48acf891ebc7", null ],
     [ "repeat_col", "group__ugbase__common__types.html#gab5850af7c2daba854cf158354f6ef9d7", null ],

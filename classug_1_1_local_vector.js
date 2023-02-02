@@ -22,6 +22,7 @@ var classug_1_1_local_vector =
     [ "operator*=", "classug_1_1_local_vector.html#a8bdd856929e032b23473b6f82fec8ca3", null ],
     [ "operator+=", "classug_1_1_local_vector.html#afc22b42ac2035d482e55555d0d2b81a1", null ],
     [ "operator-=", "classug_1_1_local_vector.html#ac071b0142e758e73db0f848330199135", null ],
+    [ "operator=", "classug_1_1_local_vector.html#ac84ba26e16cf9d2927f907381d387449", null ],
     [ "operator=", "classug_1_1_local_vector.html#a4ce89cda50e5050b5a43745952e9e6df", null ],
     [ "resize", "classug_1_1_local_vector.html#abce2dcf8ef3003c039fd57a6778fefb7", null ],
     [ "scale_append", "classug_1_1_local_vector.html#a742f0861d74b2748ab505d9acc5ee535", null ],

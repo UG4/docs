@@ -1,7 +1,6 @@
 var ass__tuner_8h =
 [
     [ "AssemblingTuner", "classug_1_1_assembling_tuner.html", "classug_1_1_assembling_tuner" ],
-    [ "IDomainConstraint", "classug_1_1_i_domain_constraint.html", "classug_1_1_i_domain_constraint" ],
     [ "LocalToGlobalMapper", "classug_1_1_local_to_global_mapper.html", "classug_1_1_local_to_global_mapper" ],
     [ "ConstraintType", "ass__tuner_8h.html#a15cceed2ee5077a2edb88beb74336e8f", [
       [ "CT_NONE", "ass__tuner_8h.html#adbb30c08b7e312d7c482608b977c6617a7a59adb085746ed54541f45cd4f25c02", null ],

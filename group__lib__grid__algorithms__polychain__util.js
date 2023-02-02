@@ -10,7 +10,7 @@ var group__lib__grid__algorithms__polychain__util =
     ] ],
     [ "CreatePolyChain", "group__lib__grid__algorithms__polychain__util.html#gaf931eaa7c43bd6777b19c2d8e624bc0f", null ],
     [ "GetFirstSectionOfPolyChain", "group__lib__grid__algorithms__polychain__util.html#ga3169521f903204a5df10d043005aa1be", null ],
-    [ "GetNextSectionOfPolyChain", "group__lib__grid__algorithms__polychain__util.html#ga6e80308db5450da3eb8628a37245785e", null ],
+    [ "GetNextSectionOfPolyChain", "group__lib__grid__algorithms__polychain__util.html#ga62c755743eeea86198da2e6346d90ac2", null ],
     [ "GetPolyChainType", "group__lib__grid__algorithms__polychain__util.html#ga14dfab30fa174708124ff9d604695ce1", null ],
     [ "SplitIrregularPolyChain", "group__lib__grid__algorithms__polychain__util.html#ga75568f0b7fca5283caf4bd72371eaeac", null ]
 ];

@@ -1,5 +1,6 @@
 var group__disc__bridge =
 [
+    [ "Ordering Bridge", "../group__ordering__bridge.html", null ],
     [ "Adaptive Tools Bridge", "../group__adaptivetools__bridge.html", null ],
     [ "Discretization Algebra Bridge", "../group__discalgebra__bridge.html", null ],
     [ "Common Discretization Bridge", "../group__disccommon__bridge.html", "group__disccommon__bridge" ],
@@ -11,7 +12,6 @@ var group__disc__bridge =
     [ "Grid Function Bridge", "../group__gridfnct__bridge.html", null ],
     [ "Integration Bridge", "../group__integrate__bridge.html", null ],
     [ "Multi Grid Bridge", "../group__multigrid__bridge.html", null ],
-    [ "Ordering Bridge", "../group__ordering__bridge.html", null ],
     [ "Output Bridge", "../group__output__bridge.html", "group__output__bridge" ],
     [ "User Data Bridge", "../group__userdata__bridge.html", "group__userdata__bridge" ]
 ];

@@ -10,6 +10,8 @@ var classug_1_1_bi_c_g_stab =
     [ "config_string", "classug_1_1_bi_c_g_stab.html#aec6615fb29f3161b9430b49bf1b8f50b", null ],
     [ "enter_precond_debug_section", "classug_1_1_bi_c_g_stab.html#a297ce3bdbb2229b038262c29c6a5b9da", null ],
     [ "name", "classug_1_1_bi_c_g_stab.html#aa9055666add5689fc7f28aec0013f0c8", null ],
+    [ "preconditioner", "classug_1_1_bi_c_g_stab.html#aab9d760eafb30d055a26f2cee4da8837", null ],
+    [ "preconditioner", "classug_1_1_bi_c_g_stab.html#a27fed2ad880be1d14d6b34c34362b9b9", null ],
     [ "prepare_conv_check", "classug_1_1_bi_c_g_stab.html#aea3d85e17d98de056e10ecff5591b0ae", null ],
     [ "remove_postprocess_corr", "classug_1_1_bi_c_g_stab.html#a6d7b8371cd57c58e82837ebaa0e0f795", null ],
     [ "set_min_orthogonality", "classug_1_1_bi_c_g_stab.html#a711839fe4bb26b6c1bbde9eb5c54fd77", null ],

@@ -22,6 +22,10 @@ var dir_9cb5fcd0cbd108e4de7ac968a9e51f3d =
       [ "IAttachmentType", "structug_1_1_global_attachments_1_1_i_attachment_type.html", "structug_1_1_global_attachments_1_1_i_attachment_type" ],
       [ "IFunctionEntry", "structug_1_1_global_attachments_1_1_i_function_entry.html", "structug_1_1_global_attachments_1_1_i_function_entry" ]
     ] ],
+    [ "grid_debug.cpp", "grid__debug_8cpp.html", null ],
+    [ "grid_debug.h", "grid__debug_8h.html", [
+      [ "grid_global_debug_info_provider", "classug_1_1grid__global__debug__info__provider.html", "classug_1_1grid__global__debug__info__provider" ]
+    ] ],
     [ "lg_base.h", "lg__base_8h.html", null ],
     [ "lib_grid.h", "lib__grid_8h.html", null ],
     [ "lib_grid_messages.cpp", "lib__grid__messages_8cpp.html", null ],
