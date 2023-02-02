@@ -1,0 +1,46 @@
+name: UG4 Doxygen Documentation
+
+on:
+  repository_dispatch:
+    types:
+      - trigger-doxygen
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Docs
+        uses: actions/checkout@v3
+        with:
+          path: docs
+
+      - name: Get ughub
+        uses: actions/checkout@v3
+        with:
+          repository: UG4/ughub
+          path: ug4/ughub
+
+      - name: Get ug4
+        working-directory: ug4
+        run: |
+          ughub/ughub init
+          ughub/ughub installall
+
+      - name: Generate Docs
+        working-directory: ug4/ugcore/docs
+        run: |
+          sudo apt-get install doxygen
+          sudo bash generate_amalgamated_docu.sh doxylog.log 1
+
+      - name: Copy Docs
+        run: |
+          sudo \cp -rf ug4/ugcore/docs/ug4/html/* docs/
+
+      - name: Commit and Push Docs
+        working-directory: docs
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add --all
+          git commit -m "Documentation"
+          git push
