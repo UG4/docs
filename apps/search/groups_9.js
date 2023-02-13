@@ -8,8 +8,9 @@ var searchData=
   ['lib_5fgrid_5fparallelization_5fdistribution_34265',['Lib_grid_parallelization_distribution',['../../group__lib__grid__parallelization__distribution.html',1,'']]],
   ['lib_5fgrid_5fparallelization_5frefinement_34266',['Lib_grid_parallelization_refinement',['../../group__lib__grid__parallelization__refinement.html',1,'']]],
   ['libgrid_20bridge_34267',['libGrid Bridge',['../../group__libgrid__bridge.html',1,'']]],
-  ['load_20balancing_20bridge_34268',['Load Balancing Bridge',['../../group__loadbalance__bridge.html',1,'']]],
-  ['local_20finite_20elements_34269',['Local Finite Elements',['../../group__lib__disc__local__finite__elements.html',1,'']]],
-  ['log_20util_34270',['log util',['../../group__lib__grid__algorithms__log__util.html',1,'']]],
-  ['lua_20shell_34271',['Lua Shell',['../../../plugins/group__lua__shell.html',1,'']]]
+  ['limex_34268',['Limex',['../../../plugins/group__limex.html',1,'']]],
+  ['load_20balancing_20bridge_34269',['Load Balancing Bridge',['../../group__loadbalance__bridge.html',1,'']]],
+  ['local_20finite_20elements_34270',['Local Finite Elements',['../../group__lib__disc__local__finite__elements.html',1,'']]],
+  ['log_20util_34271',['log util',['../../group__lib__grid__algorithms__log__util.html',1,'']]],
+  ['lua_20shell_34272',['Lua Shell',['../../../plugins/group__lua__shell.html',1,'']]]
 ];

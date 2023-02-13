@@ -1,16 +1,5 @@
 var NAVTREEINDEX143 =
 {
-"partitioner_8h_source.html":[4,0,2,6,7,27],
-"partitioner__dynamic__bisection_8cpp.html":[4,0,2,6,7,28],
-"partitioner__dynamic__bisection_8h.html":[4,0,2,6,7,29],
-"partitioner__dynamic__bisection_8h_source.html":[4,0,2,6,7,29],
-"path__provider_8h.html":[4,0,2,2,5,52],
-"path__provider_8h.html#ga72a67cfeae3e674ed54d159e32af7622":[4,0,2,2,5,52,0],
-"path__provider_8h.html#gga72a67cfeae3e674ed54d159e32af7622a370bd2c03adbb5e316698a9755024026":[4,0,2,2,5,52,0,1],
-"path__provider_8h.html#gga72a67cfeae3e674ed54d159e32af7622a49e4a515fdc1e03653c1c27506178a4c":[4,0,2,2,5,52,0,2],
-"path__provider_8h.html#gga72a67cfeae3e674ed54d159e32af7622a5e0d7f4d25bf389a8a978c54ad6f8619":[4,0,2,2,5,52,0,5],
-"path__provider_8h.html#gga72a67cfeae3e674ed54d159e32af7622a7467da5ea17a5d7cbaee1a50be390cae":[4,0,2,2,5,52,0,4],
-"path__provider_8h.html#gga72a67cfeae3e674ed54d159e32af7622a920e54f01cf6d7e8990f2e600638f978":[4,0,2,2,5,52,0,3],
 "path__provider_8h.html#gga72a67cfeae3e674ed54d159e32af7622adda399c0c6c5675025f0e86f1320b0e0":[4,0,2,2,5,52,0,0],
 "path__provider_8h_source.html":[4,0,2,2,5,52],
 "pcl_8h.html":[4,0,2,7,4],
@@ -249,5 +238,16 @@ var NAVTREEINDEX143 =
 "polychain__util_8h.html#ggaed934cbb2fbb8eec0e5d7ac21f825089a1416ca8cbd38de5b03b2163b0622d294":[4,0,2,6,0,52,0,2],
 "polychain__util_8h.html#ggaed934cbb2fbb8eec0e5d7ac21f825089a728067c630f0018114347ea2d27f64c5":[4,0,2,6,0,52,0,5],
 "polychain__util_8h.html#ggaed934cbb2fbb8eec0e5d7ac21f825089a76c04328ecabff126c9b1f3016f26bea":[4,0,2,6,0,52,0,3],
-"polychain__util_8h.html#ggaed934cbb2fbb8eec0e5d7ac21f825089ac282117d4f9a3be4dc2b99cb096aaa44":[4,0,2,6,0,52,0,1]
+"polychain__util_8h.html#ggaed934cbb2fbb8eec0e5d7ac21f825089ac282117d4f9a3be4dc2b99cb096aaa44":[4,0,2,6,0,52,0,1],
+"polychain__util_8h.html#ggaed934cbb2fbb8eec0e5d7ac21f825089ad65712d1a009372f7f990be85365d5fb":[4,0,2,6,0,52,0,4],
+"polychain__util_8h.html#ggaed934cbb2fbb8eec0e5d7ac21f825089af645db00b5566d136c5fec7136cf834e":[4,0,2,6,0,52,0,0],
+"polychain__util_8h_source.html":[4,0,2,6,0,52],
+"polychain__util__impl_8hpp.html":[4,0,2,6,0,53],
+"polychain__util__impl_8hpp.html#ga14dfab30fa174708124ff9d604695ce1":[4,0,2,6,0,53,2],
+"polychain__util__impl_8hpp.html#ga3169521f903204a5df10d043005aa1be":[4,0,2,6,0,53,1],
+"polychain__util__impl_8hpp.html#gaf931eaa7c43bd6777b19c2d8e624bc0f":[4,0,2,6,0,53,0],
+"polychain__util__impl_8hpp_source.html":[4,0,2,6,0,53],
+"polynomial1d_8h.html":[4,0,2,5,4,0,1],
+"polynomial1d_8h.html#gafc9f0b6c6a2e8b7f7b76df05e244b5ac":[4,0,2,5,4,0,1,0],
+"polynomial1d_8h_source.html":[4,0,2,5,4,0,1]
 };
