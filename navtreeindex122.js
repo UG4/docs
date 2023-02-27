@@ -1,5 +1,17 @@
 var NAVTREEINDEX122 =
 {
+"math__util_8cpp.html#gaf78d307535525224ee9459f5eb57fda0":[4,0,2,2,1,1,5,9],
+"math__util_8cpp.html#gafa8bf254a6ebeb91993c938798fac092":[4,0,2,2,1,1,5,8],
+"math__util_8h.html":[4,0,2,2,1,1,6],
+"math__util_8h.html#ga041878d0cb4c83183816c22da883270e":[4,0,2,2,1,1,6,9],
+"math__util_8h.html#ga0d8b23331ba6dc60c99af44d50758e9f":[4,0,2,2,1,1,6,52],
+"math__util_8h.html#ga107c794ebf00bd0aeaa7e04f41ba28b6":[4,0,2,2,1,1,6,34],
+"math__util_8h.html#ga12420c0cea8525dc03d099130a8dc8a3":[4,0,2,2,1,1,6,51],
+"math__util_8h.html#ga12b0b08f91921b42142c8df4cbbacd10":[4,0,2,2,1,1,6,25],
+"math__util_8h.html#ga12b4ed922ad23eb842a5f2fc18e0f6be":[4,0,2,2,1,1,6,29],
+"math__util_8h.html#ga146c0fe218bab3fe3161b4adf276c916":[4,0,2,2,1,1,6,27],
+"math__util_8h.html#ga16d138eeff48337c2b16b75f2f2575d9":[4,0,2,2,1,1,6,37],
+"math__util_8h.html#ga26752ebe5a26f43f9db4d7ffcb466e82":[4,0,2,2,1,1,6,6],
 "math__util_8h.html#ga2d352a0406e02303c63a29ed4c5168fb":[4,0,2,2,1,1,6,53],
 "math__util_8h.html#ga32fbbd5b0ca51331127cfa63fc643d63":[4,0,2,2,1,1,6,42],
 "math__util_8h.html#ga33f932e6378851cea1d3b955ba750566":[4,0,2,2,1,1,6,39],
@@ -237,17 +249,5 @@ var NAVTREEINDEX122 =
 "math__vector__functions__common__impl_8hpp.html#gacf93d8c3159a9eb94ba37b1d1591ef42":[4,0,2,2,1,0,13,39],
 "math__vector__functions__common__impl_8hpp.html#gae2416cc4b7a9616b911cb4a208c15cf4":[4,0,2,2,1,0,13,36],
 "math__vector__functions__common__impl_8hpp.html#gae4e5784610945b34f533db1efc9b474d":[4,0,2,2,1,0,13,26],
-"math__vector__functions__common__impl_8hpp.html#gae9174d47662deb0ba119e0e21f28ec71":[4,0,2,2,1,0,13,22],
-"math__vector__functions__common__impl_8hpp.html#gaf2a76e41d7de66eee216ad1ad0eaa447":[4,0,2,2,1,0,13,25],
-"math__vector__functions__common__impl_8hpp.html#gafb045a0b927d9715ca9f6a6858745da0":[4,0,2,2,1,0,13,32],
-"math__vector__functions__common__impl_8hpp_source.html":[4,0,2,2,1,0,13],
-"matrix__algebra__types_8h.html":[4,0,2,4,3,3,0],
-"matrix__algebra__types_8h.html#a40cd1de0648373f7765f132a2b81b0f7":[4,0,2,4,3,3,0,0],
-"matrix__algebra__types_8h.html#a40cd1de0648373f7765f132a2b81b0f7a30c5588be1cdb2b271a75a0516fbcdae":[4,0,2,4,3,3,0,0,2],
-"matrix__algebra__types_8h.html#a40cd1de0648373f7765f132a2b81b0f7a9f79b9bb5952caaa386e3410da963107":[4,0,2,4,3,3,0,0,0],
-"matrix__algebra__types_8h.html#a40cd1de0648373f7765f132a2b81b0f7ae34849af1d5e209e3107ea93d6fd7dd0":[4,0,2,4,3,3,0,0,3],
-"matrix__algebra__types_8h.html#a40cd1de0648373f7765f132a2b81b0f7afdd58b589e0e67d8c54502d27479f035":[4,0,2,4,3,3,0,0,1],
-"matrix__algebra__types_8h_source.html":[4,0,2,4,3,3,0],
-"matrix__diagonal_8h.html":[4,0,2,1,0,6],
-"matrix__diagonal_8h_source.html":[4,0,2,1,0,6]
+"math__vector__functions__common__impl_8hpp.html#gae9174d47662deb0ba119e0e21f28ec71":[4,0,2,2,1,0,13,22]
 };
