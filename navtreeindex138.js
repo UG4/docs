@@ -1,17 +1,5 @@
 var NAVTREEINDEX138 =
 {
-"nolapack__invert_8h.html#a22abaf519299ad7cb825644de6e13b50":[4,0,2,4,12,1,2,0],
-"nolapack__invert_8h.html#a4dcf3c596d2d5b9bd90ceb8466d4da8f":[4,0,2,4,12,1,2,1],
-"nolapack__invert_8h.html#ab19b8dd6636b4df70c1f35734837d7f6":[4,0,2,4,12,1,2,3],
-"nolapack__invert_8h.html#abc81d18a70b10de91e05f52ac9764949":[4,0,2,4,12,1,2,2],
-"nolapack__invert_8h_source.html":[4,0,2,4,12,1,2],
-"normal__calculation_8h.html":[4,0,2,6,0,46],
-"normal__calculation_8h.html#ga116fef3a5a3f4d845502fdb6539a1f22":[4,0,2,6,0,46,5],
-"normal__calculation_8h.html#ga1af4728ce7b74e34cf9371baf3f8a0b1":[4,0,2,6,0,46,6],
-"normal__calculation_8h.html#ga6b54b5599e93e9b131555ec25527b63d":[4,0,2,6,0,46,2],
-"normal__calculation_8h.html#gaa14ffb728f881c23ce3ed996e63a9b9b":[4,0,2,6,0,46,4],
-"normal__calculation_8h.html#gab25ae86e5e7b2f75e241b147280e255c":[4,0,2,6,0,46,1],
-"normal__calculation_8h.html#gade802ced92e1e08642c559584a2d14a2":[4,0,2,6,0,46,3],
 "normal__calculation_8h.html#gaf7a52745f2b77836d413136f9aea1f2e":[4,0,2,6,0,46,0],
 "normal__calculation_8h_source.html":[4,0,2,6,0,46],
 "normal__calculation__impl_8h.html":[4,0,2,6,0,47],
@@ -249,5 +237,17 @@ var NAVTREEINDEX138 =
 "orientation__util__impl_8hpp.html#a1945715f3a56b2bfa9e5c041c8787a03":[4,0,2,6,0,50,0],
 "orientation__util__impl_8hpp.html#a3312ff13a7432c0e863592e6d8e81226":[4,0,2,6,0,50,2],
 "orientation__util__impl_8hpp.html#ab1e696846713b178f0c15b488dd92f89":[4,0,2,6,0,50,3],
-"orientation__util__impl_8hpp.html#ad8fcb675b0b87b9fa3379d8d71d1cf94":[4,0,2,6,0,50,1]
+"orientation__util__impl_8hpp.html#ad8fcb675b0b87b9fa3379d8d71d1cf94":[4,0,2,6,0,50,1],
+"orientation__util__impl_8hpp_source.html":[4,0,2,6,0,50],
+"orthopoly_8cpp.html":[4,0,2,2,1,1,8],
+"orthopoly_8cpp.html#a157d789e356244eec2a9cc79999f2aac":[4,0,2,2,1,1,8,1],
+"orthopoly_8cpp.html#a3601627558e49163116ee6b9c84bde09":[4,0,2,2,1,1,8,2],
+"orthopoly_8cpp.html#a3cc1851c066414ec3fe710d72104216f":[4,0,2,2,1,1,8,5],
+"orthopoly_8cpp.html#a4417aa5f14a5cacb4e167b4f5399327d":[4,0,2,2,1,1,8,6],
+"orthopoly_8cpp.html#a608fe903f2e5a780a93ebe1c34bc7c35":[4,0,2,2,1,1,8,8],
+"orthopoly_8cpp.html#a729b1eb9c2e3a989b1284f90dd7c1ec0":[4,0,2,2,1,1,8,4],
+"orthopoly_8cpp.html#a7ebf52047b650a850288fb33c1269acc":[4,0,2,2,1,1,8,3],
+"orthopoly_8cpp.html#ab4166b30a1b5f963f11fc97884f16101":[4,0,2,2,1,1,8,0],
+"orthopoly_8cpp.html#afd2809de6bb1b1a6734114259fc11d5c":[4,0,2,2,1,1,8,7],
+"orthopoly_8h.html":[4,0,2,2,1,1,9]
 };
