@@ -1,5 +1,17 @@
 var NAVTREEINDEX95 =
 {
+"globals_v.html":[4,1,0,21],
+"globals_vars.html":[4,1,2],
+"globals_w.html":[4,1,0,22],
+"globals_x.html":[4,1,0,23],
+"globals_y.html":[4,1,0,24],
+"globals_z.html":[4,1,0,25],
+"globals_~.html":[4,1,0,26],
+"gmres_8h.html":[4,0,2,4,9,2,10],
+"gmres_8h_source.html":[4,0,2,4,9,2,10],
+"gnuplot_8lua.html":[4,0,1,1,12],
+"gnuplot__output_8h.html":[4,0,2,4,3,9],
+"gnuplot__output_8h.html#a60e587cec9c60330af80c8347177ffdf":[4,0,2,4,3,9,0],
 "gnuplot__output_8h_source.html":[4,0,2,4,3,9],
 "gnuplot__rgb__color_8lua.html":[4,0,1,1,13],
 "gpu__bridge_8cpp.html":[4,0,2,1,0,5],
@@ -237,17 +249,5 @@ var NAVTREEINDEX95 =
 "grid__constants_8h.html#gga724c038eb958956818bf64b9d7c70cebabbbbaa1ed9dc73d4d28f7199659e31d2":[4,0,2,6,4,9,2,3],
 "grid__constants_8h.html#gga724c038eb958956818bf64b9d7c70cebabf66268d7c88fabe3777b5db06ff4a6e":[4,0,2,6,4,9,2,4],
 "grid__constants_8h.html#gga724c038eb958956818bf64b9d7c70cebafb34d9d1dcaeb43d1fa0c99046d82b01":[4,0,2,6,4,9,2,6],
-"grid__constants_8h.html#ggad5f5a639937a67f1018d12996992f6f3a22be3452679b2b3acd0167464269d9d1":[4,0,2,6,4,9,1,1],
-"grid__constants_8h.html#ggad5f5a639937a67f1018d12996992f6f3a3d8b76c15b6f0e744e727f23e0150932":[4,0,2,6,4,9,1,2],
-"grid__constants_8h.html#ggad5f5a639937a67f1018d12996992f6f3a6c7088f58a90e48011ac336435ec413e":[4,0,2,6,4,9,1,0],
-"grid__constants_8h.html#ggad5f5a639937a67f1018d12996992f6f3a91ebc7149fdaed37fc203643bb6e3994":[4,0,2,6,4,9,1,3],
-"grid__constants_8h_source.html":[4,0,2,6,4,9],
-"grid__debug_8cpp.html":[4,0,2,6,15],
-"grid__debug_8h.html":[4,0,2,6,16],
-"grid__debug_8h_source.html":[4,0,2,6,16],
-"grid__dim__traits_8h.html":[4,0,2,6,5,2],
-"grid__dim__traits_8h_source.html":[4,0,2,6,5,2],
-"grid__function_8cpp.html":[4,0,2,5,2,11],
-"grid__function_8h.html":[4,0,2,5,2,12],
-"grid__function_8h.html#a6d2bf6723be24e68a1705e296c60b243":[4,0,2,5,2,12,4]
+"grid__constants_8h.html#ggad5f5a639937a67f1018d12996992f6f3a22be3452679b2b3acd0167464269d9d1":[4,0,2,6,4,9,1,1]
 };
