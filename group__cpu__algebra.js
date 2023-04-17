@@ -251,6 +251,7 @@ var group__cpu__algebra =
       [ "get_nnz_max_cols", "classug_1_1_sparse_matrix.html#ae3327a3a164a6a1896125aa8629ccd6d", null ],
       [ "get_row", "classug_1_1_sparse_matrix.html#af0e94b13c1c260291a512628f6fae144", null ],
       [ "get_row", "classug_1_1_sparse_matrix.html#a3d2ece58deaa7f7ba6f495cb225d44da", null ],
+      [ "get_values", "classug_1_1_sparse_matrix.html#a40546db576e2e336e4eb6bdf5a59142b", null ],
       [ "has_connection", "classug_1_1_sparse_matrix.html#a00d6ac22df8d68490344e3b2ceb8494a", null ],
       [ "is_isolated", "classug_1_1_sparse_matrix.html#a8c571277d529422c095be7276cf0255e", null ],
       [ "iters", "classug_1_1_sparse_matrix.html#a83b9c53177af0fe124e1d3eaf94d33d1", null ],

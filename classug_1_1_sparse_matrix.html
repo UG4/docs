@@ -208,6 +208,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af0e94b13c1c260291a512628f6fae144"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d2ece58deaa7f7ba6f495cb225d44da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_sparse_matrix.html#afe1c346af03a4e20b812a0b01b238805">const_row_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_sparse_matrix.html#a3d2ece58deaa7f7ba6f495cb225d44da">get_row</a> (size_t r) const</td></tr>
 <tr class="separator:a3d2ece58deaa7f7ba6f495cb225d44da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40546db576e2e336e4eb6bdf5a59142b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_sparse_matrix.html#a40546db576e2e336e4eb6bdf5a59142b">get_values</a> (std::vector&lt; <a class="el" href="classug_1_1_sparse_matrix.html#a642230a6691beb13e5b82bbf69b9df78">value_type</a> &gt; &amp;argValues) const</td></tr>
+<tr class="separator:a40546db576e2e336e4eb6bdf5a59142b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00d6ac22df8d68490344e3b2ceb8494a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_sparse_matrix.html#a00d6ac22df8d68490344e3b2ceb8494a">has_connection</a> (size_t r, size_t c) const</td></tr>
 <tr class="separator:a00d6ac22df8d68490344e3b2ceb8494a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c571277d529422c095be7276cf0255e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_sparse_matrix.html#a8c571277d529422c095be7276cf0255e">is_isolated</a> (size_t i) const</td></tr>
@@ -1414,7 +1416,7 @@ template&lt;typename TValueType &gt; </div>
 
 <p class="reference">References <a class="el" href="classug_1_1_sparse_matrix.html#a3102783cf67a5d49902c0d5673cdda44">ug::SparseMatrix&lt; TValueType &gt;::copyToNewSize()</a>, <a class="el" href="classug_1_1_sparse_matrix.html#a22b307f1040ac45883c54e5d6e93f528">ug::SparseMatrix&lt; TValueType &gt;::nnz</a>, <a class="el" href="classug_1_1_sparse_matrix.html#acc3a0a25fc74a4286b455ec894516aca">ug::SparseMatrix&lt; TValueType &gt;::num_cols()</a>, and <a class="el" href="classug_1_1_sparse_matrix.html#a66fbbc0d92601e530763eaab6619b664">ug::SparseMatrix&lt; TValueType &gt;::num_rows()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classug_1_1_sparse_matrix.html#aecd2df0b30c3da65221f29f6b125d1ee">ug::SparseMatrix&lt; TValueType &gt;::copy_crs()</a>, and <a class="el" href="classug_1_1_sparse_matrix.html#ad81409598b20135c423a2a59a1ca9df8">ug::SparseMatrix&lt; TValueType &gt;::get_crs()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classug_1_1_sparse_matrix.html#aecd2df0b30c3da65221f29f6b125d1ee">ug::SparseMatrix&lt; TValueType &gt;::copy_crs()</a>, <a class="el" href="classug_1_1_sparse_matrix.html#ad81409598b20135c423a2a59a1ca9df8">ug::SparseMatrix&lt; TValueType &gt;::get_crs()</a>, and <a class="el" href="classug_1_1_sparse_matrix.html#a40546db576e2e336e4eb6bdf5a59142b">ug::SparseMatrix&lt; TValueType &gt;::get_values()</a>.</p>
 
 </div>
 </div>
@@ -2095,6 +2097,43 @@ template&lt;typename TValueType &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a40546db576e2e336e4eb6bdf5a59142b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40546db576e2e336e4eb6bdf5a59142b">&#9670;&nbsp;</a></span>get_values()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TValueType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_sparse_matrix.html">ug::SparseMatrix</a>&lt; TValueType &gt;::get_values </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classug_1_1_sparse_matrix.html#a642230a6691beb13e5b82bbf69b9df78">value_type</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>argValues</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>assigns a reference to the values vector to argument vector</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">argValues</td><td>vector to be assigned </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">References <a class="el" href="classug_1_1_sparse_matrix.html#a848da989f9b26de53ea91788f8013843">ug::SparseMatrix&lt; TValueType &gt;::defragment()</a>, and <a class="el" href="classug_1_1_sparse_matrix.html#a8b9755bc95c1957576311367cde33ce2">ug::SparseMatrix&lt; TValueType &gt;::values</a>.</p>
 
 </div>
 </div>
@@ -3359,7 +3398,7 @@ template&lt;typename TValueType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classug_1_1_sparse_matrix.html#aecd2df0b30c3da65221f29f6b125d1ee">ug::SparseMatrix&lt; TValueType &gt;::copy_crs()</a>, <a class="el" href="classug_1_1_sparse_matrix.html#ad81409598b20135c423a2a59a1ca9df8">ug::SparseMatrix&lt; TValueType &gt;::get_crs()</a>, <a class="el" href="classug_1_1_sparse_matrix.html#a9fc3554d9828a15fd86a5e55af9f108d">ug::SparseMatrix&lt; TValueType &gt;::operator()()</a>, <a class="el" href="classug_1_1_sparse_matrix_1_1row__iterator.html#af4e5a3696fe7260b08479e5f66dc344b">ug::SparseMatrix&lt; TValueType &gt;::row_iterator::value()</a>, and <a class="el" href="classug_1_1_sparse_matrix_1_1const__row__iterator.html#af0b729b7027d223575404971d09acfb4">ug::SparseMatrix&lt; TValueType &gt;::const_row_iterator::value()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classug_1_1_sparse_matrix.html#aecd2df0b30c3da65221f29f6b125d1ee">ug::SparseMatrix&lt; TValueType &gt;::copy_crs()</a>, <a class="el" href="classug_1_1_sparse_matrix.html#ad81409598b20135c423a2a59a1ca9df8">ug::SparseMatrix&lt; TValueType &gt;::get_crs()</a>, <a class="el" href="classug_1_1_sparse_matrix.html#a40546db576e2e336e4eb6bdf5a59142b">ug::SparseMatrix&lt; TValueType &gt;::get_values()</a>, <a class="el" href="classug_1_1_sparse_matrix.html#a9fc3554d9828a15fd86a5e55af9f108d">ug::SparseMatrix&lt; TValueType &gt;::operator()()</a>, <a class="el" href="classug_1_1_sparse_matrix_1_1row__iterator.html#af4e5a3696fe7260b08479e5f66dc344b">ug::SparseMatrix&lt; TValueType &gt;::row_iterator::value()</a>, and <a class="el" href="classug_1_1_sparse_matrix_1_1const__row__iterator.html#af0b729b7027d223575404971d09acfb4">ug::SparseMatrix&lt; TValueType &gt;::const_row_iterator::value()</a>.</p>
 
 </div>
 </div>
@@ -3374,7 +3413,7 @@ template&lt;typename TValueType &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_sparse_matrix.html">SparseMatrix</a></li>
-    <li class="footer">Generated on Mon Apr 10 2023 01:00:23 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Apr 17 2023 01:01:49 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

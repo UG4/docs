@@ -1,15 +1,5 @@
 var NAVTREEINDEX13 =
 {
-"classug_1_1_com_pol___check_distributed_parent_states.html#a25fd39e71afdb08be3b1c899476eed42":[3,0,4,145,1],
-"classug_1_1_com_pol___check_distributed_parent_states.html#a29da519e3613bdeafed57333b1f1d9ab":[3,0,4,145,9],
-"classug_1_1_com_pol___check_distributed_parent_states.html#a2a285d3a29bd455bb52d34ff8785b641":[3,0,4,145,11],
-"classug_1_1_com_pol___check_distributed_parent_states.html#a44988e45f70ab6318d1deb7dac5c6846":[3,0,4,145,4],
-"classug_1_1_com_pol___check_distributed_parent_states.html#a48ba66982637304c86beb3a898fc9bb1":[3,0,4,145,6],
-"classug_1_1_com_pol___check_distributed_parent_states.html#a4eee88d92e2d3387dcb49630e46f8dc9":[3,0,4,145,10],
-"classug_1_1_com_pol___check_distributed_parent_states.html#ac568f23f4fc012a66b44be88825d73c2":[3,0,4,145,13],
-"classug_1_1_com_pol___check_distributed_parent_states.html#ae439b6c2b7ed2be7b16280d4f686b321":[3,0,4,145,12],
-"classug_1_1_com_pol___check_distributed_parent_states.html#af20b290293642f3aa9ef5e904cc97cb6":[3,0,4,145,0],
-"classug_1_1_com_pol___check_distributed_parent_states.html#af59ec5f631fae9edc3b2ae5936bcafbd":[3,0,4,145,5],
 "classug_1_1_com_pol___check_distributed_parent_states.html#af5db74f8a6604db7355f397b1df15381":[3,0,4,145,14],
 "classug_1_1_com_pol___copy_attachment.html":[1,0,7,0],
 "classug_1_1_com_pol___copy_attachment.html#a000727663f5e69bbb9990bc63dbdfc3d":[1,0,7,0,0],
@@ -249,5 +239,15 @@ var NAVTREEINDEX13 =
 "classug_1_1_com_pol___vec_scale_copy.html#aa03e1efef35ba8b5d2bac9aadf9005a2":[1,0,0,3,0,9,1],
 "classug_1_1_com_pol___vec_scale_copy.html#aa193d39b59164c5d246672f7c019aeac":[1,0,0,3,0,9,6],
 "classug_1_1_com_pol___vec_scale_copy.html#ac2d3ec8fa07be5b12c134ab26dd99d8f":[1,0,0,3,0,9,3],
-"classug_1_1_com_pol___vec_scale_copy.html#ac9d6ab40b40c14c62aafc74b3048a58b":[1,0,0,3,0,9,8]
+"classug_1_1_com_pol___vec_scale_copy.html#ac9d6ab40b40c14c62aafc74b3048a58b":[1,0,0,3,0,9,8],
+"classug_1_1_com_pol___vec_scale_copy.html#ad8a5e37101158f7422a25b4192456c8d":[1,0,0,3,0,9,2],
+"classug_1_1_com_pol___vec_subtract.html":[1,0,0,3,0,10],
+"classug_1_1_com_pol___vec_subtract.html#aa008b10b85d8b76db11b5ccb067d0922":[1,0,0,3,0,10,6],
+"classug_1_1_com_pol___vec_subtract.html#ac59bbbd65a94c89e0358d8eb40482b1f":[1,0,0,3,0,10,5],
+"classug_1_1_com_pol___vec_subtract_only_one_slave.html":[1,0,0,3,0,11],
+"classug_1_1_com_pol___vec_subtract_only_one_slave.html#a0f0c3f9f65cb1307ce4a4a157be1ebc0":[1,0,0,3,0,11,5],
+"classug_1_1_com_pol___vec_subtract_only_one_slave.html#a20ed3209b14672de9d38b562977c1709":[1,0,0,3,0,11,3],
+"classug_1_1_com_pol___vec_subtract_only_one_slave.html#a7c54c3c0134d3a2784b056eb624ff7cc":[1,0,0,3,0,11,1],
+"classug_1_1_com_pol___vec_subtract_only_one_slave.html#abeec8a6cc1f7db060a1d377126dba816":[1,0,0,3,0,11,6],
+"classug_1_1_com_pol___vec_subtract_only_one_slave.html#acb70e5c8c05dfb3c8d25eab952866978":[1,0,0,3,0,11,0]
 };
