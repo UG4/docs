@@ -447,7 +447,8 @@ var hierarchy =
     [ "VectorDebugWritingObject< TAlgebra::vector_type >", "../classug_1_1_vector_debug_writing_object.html", [
       [ "ug::DebugWritingObject< TAlgebra >", "../classug_1_1_debug_writing_object.html", [
         [ "ug::Electromagnetism::TimeHarmonicNedelecHybridSmoother< TDomain, TAlgebra >", "classug_1_1_electromagnetism_1_1_time_harmonic_nedelec_hybrid_smoother.html", null ],
-        [ "ug::LinearImplicitEuler< TAlgebra >", "classug_1_1_linear_implicit_euler.html", null ]
+        [ "ug::LinearImplicitEuler< TAlgebra >", "classug_1_1_linear_implicit_euler.html", null ],
+        [ "ug::SimpleTimeIntegrator< TDomain, TAlgebra >", "classug_1_1_simple_time_integrator.html", null ]
       ] ],
       [ "ug::DebugWritingObject< class >", "../classug_1_1_debug_writing_object.html", [
         [ "ug::IPreconditioner< TAlgebra >", "../classug_1_1_i_preconditioner.html", null ]
