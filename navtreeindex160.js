@@ -1,5 +1,17 @@
 var NAVTREEINDEX160 =
 {
+"structug_1_1lua__traits_3_01int_01_4.html#a1f8d0676464c0ce4120fdb4c72953b04":[3,0,4,847,0],
+"structug_1_1lua__traits_3_01int_01_4.html#a2d7b067653db39fd62c20151e9f34e62":[3,0,4,847,4],
+"structug_1_1lua__traits_3_01int_01_4.html#a3c332a4fa9b629aa764c2b0e4d414509":[3,0,4,847,3],
+"structug_1_1lua__traits_3_01int_01_4.html#a6bc1a7b01b8f09d2452d64473879260b":[3,0,4,847,5],
+"structug_1_1lua__traits_3_01int_01_4.html#ab7107a3b50c2188b2a9ff0c2f6a2d064":[3,0,4,847,1],
+"structug_1_1lua__traits_3_01int_01_4.html#af3121c168cedcddb89a79b42034db8fb":[3,0,4,847,2],
+"structug_1_1lua__traits_3_01number_01_4.html":[3,0,4,849],
+"structug_1_1lua__traits_3_01number_01_4.html#a624fec3386ab52431f525190f3f4612a":[3,0,4,849,4],
+"structug_1_1lua__traits_3_01number_01_4.html#a769eb6bd9fa39d0efe90d28cf3ccc0f1":[3,0,4,849,2],
+"structug_1_1lua__traits_3_01number_01_4.html#a802b104d13e7ba909e003fd37ebba085":[3,0,4,849,0],
+"structug_1_1lua__traits_3_01number_01_4.html#a946b9961fd2ef90009a88180809af4fb":[3,0,4,849,7],
+"structug_1_1lua__traits_3_01number_01_4.html#ad32e8dc9ddfed004dd35d253eb6580df":[3,0,4,849,5],
 "structug_1_1lua__traits_3_01number_01_4.html#ae05f901a3ebd23490cc860e3efb8e671":[3,0,4,849,1],
 "structug_1_1lua__traits_3_01number_01_4.html#ae2dfcfdb15d7ab3cc5cb4ba95f376da5":[3,0,4,849,6],
 "structug_1_1lua__traits_3_01number_01_4.html#af79b4f648b6d3be9684ef86eaba9fa7c":[3,0,4,849,3],
@@ -237,17 +249,5 @@ var NAVTREEINDEX160 =
 "structug_1_1vrl_1_1vrl__traits_3_01ug_1_1_math_matrix_3_01dim_00_01dim_01_4_01_4.html#a14c0c483fc64a8519cf3044d8e887486":[3,0,4,8,12,2],
 "structug_1_1vrl_1_1vrl__traits_3_01ug_1_1_math_matrix_3_01dim_00_01dim_01_4_01_4.html#a4672c484cf87a75485e2b17079eb3217":[3,0,4,8,12,5],
 "structug_1_1vrl_1_1vrl__traits_3_01ug_1_1_math_matrix_3_01dim_00_01dim_01_4_01_4.html#a4f3eea9286772ae0969abe1853376d8f":[3,0,4,8,12,3],
-"structug_1_1vrl_1_1vrl__traits_3_01ug_1_1_math_matrix_3_01dim_00_01dim_01_4_01_4.html#a6550e8dc77d9d1c9c76c885add445fe7":[3,0,4,8,12,4],
-"structug_1_1vrl_1_1vrl__traits_3_01ug_1_1_math_matrix_3_01dim_00_01dim_01_4_01_4.html#a663ca19186d755d48786bacfc41a462b":[3,0,4,8,12,0],
-"structug_1_1vrl_1_1vrl__traits_3_01ug_1_1_math_vector_3_01dim_01_4_01_4.html":[3,0,4,8,13],
-"structug_1_1vrl_1_1vrl__traits_3_01ug_1_1_math_vector_3_01dim_01_4_01_4.html#a03ca2670a27201882d6435fadcc0663a":[3,0,4,8,13,2],
-"structug_1_1vrl_1_1vrl__traits_3_01ug_1_1_math_vector_3_01dim_01_4_01_4.html#a4eade43e4cde27a42ad71f76720fb978":[3,0,4,8,13,7],
-"structug_1_1vrl_1_1vrl__traits_3_01ug_1_1_math_vector_3_01dim_01_4_01_4.html#a56610566cc8944af8c35aa0ab8b6e654":[3,0,4,8,13,5],
-"structug_1_1vrl_1_1vrl__traits_3_01ug_1_1_math_vector_3_01dim_01_4_01_4.html#a57a61514c37f7d9d8cf08a9b48558525":[3,0,4,8,13,3],
-"structug_1_1vrl_1_1vrl__traits_3_01ug_1_1_math_vector_3_01dim_01_4_01_4.html#a5ae2d82ba19a921345feb15e35be99ff":[3,0,4,8,13,1],
-"structug_1_1vrl_1_1vrl__traits_3_01ug_1_1_math_vector_3_01dim_01_4_01_4.html#a5dbc4e3a7be832f870afc26cfabf8d6c":[3,0,4,8,13,4],
-"structug_1_1vrl_1_1vrl__traits_3_01ug_1_1_math_vector_3_01dim_01_4_01_4.html#a7ab53e73dedd65443f1bb1acf6886225":[3,0,4,8,13,0],
-"structug_1_1vrl_1_1vrl__traits_3_01ug_1_1_math_vector_3_01dim_01_4_01_4.html#a8397ea556a7141b58dfd07add17f7ae0":[3,0,4,8,13,8],
-"structug_1_1vrl_1_1vrl__traits_3_01ug_1_1_math_vector_3_01dim_01_4_01_4.html#a9676cff9e4d09637a091cfb36a4697e0":[3,0,4,8,13,6],
-"structug_1_1vrl_1_1vrl__traits_3_01ug_1_1_math_vector_3_01dim_01_4_01_4.html#a9b3c6d2199d5e26eef135a774b824523":[3,0,4,8,13,10]
+"structug_1_1vrl_1_1vrl__traits_3_01ug_1_1_math_matrix_3_01dim_00_01dim_01_4_01_4.html#a6550e8dc77d9d1c9c76c885add445fe7":[3,0,4,8,12,4]
 };

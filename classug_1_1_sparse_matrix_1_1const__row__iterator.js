@@ -10,7 +10,7 @@ var classug_1_1_sparse_matrix_1_1const__row__iterator =
     [ "operator!=", "classug_1_1_sparse_matrix_1_1const__row__iterator.html#ac0cdbda7404b3a74cbc103738b885738", null ],
     [ "operator++", "classug_1_1_sparse_matrix_1_1const__row__iterator.html#a10bad257b430bccada1be4a0ab4ad846", null ],
     [ "operator+=", "classug_1_1_sparse_matrix_1_1const__row__iterator.html#a874b1f9715240101afff111aed9f5c7c", null ],
-    [ "operator->", "classug_1_1_sparse_matrix_1_1const__row__iterator.html#ab3810b11171abc81b7783f1720325ca9", null ],
+    [ "operator->", "classug_1_1_sparse_matrix_1_1const__row__iterator.html#adbc42daedd4bea652c4aaaa5eef5027b", null ],
     [ "operator=", "classug_1_1_sparse_matrix_1_1const__row__iterator.html#a16d9dcc147b6d255ff657d10608977d1", null ],
     [ "operator=", "classug_1_1_sparse_matrix_1_1const__row__iterator.html#ad36b8832d63e97eabe061e98b23caabb", null ],
     [ "operator==", "classug_1_1_sparse_matrix_1_1const__row__iterator.html#a8d0259756b3cc740590bd940a6e6ec38", null ],
