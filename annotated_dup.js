@@ -1661,6 +1661,7 @@ var annotated_dup =
       [ "VolumeDescriptor", "classug_1_1_volume_descriptor.html", "classug_1_1_volume_descriptor" ],
       [ "VolumeVertices", "classug_1_1_volume_vertices.html", "classug_1_1_volume_vertices" ],
       [ "VTKOutput", "classug_1_1_v_t_k_output.html", "classug_1_1_v_t_k_output" ],
+      [ "xy", "structug_1_1xy.html", "structug_1_1xy" ],
       [ "xyz", "structug_1_1xyz.html", "structug_1_1xyz" ],
       [ "ZRayTracer", "classug_1_1_z_ray_tracer.html", "classug_1_1_z_ray_tracer" ]
     ] ],

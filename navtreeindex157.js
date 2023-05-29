@@ -1,14 +1,5 @@
 var NAVTREEINDEX157 =
 {
-"structug_1_1bridge_1_1_solver_1_1_functionality.html#a982398dc9be887e8dc79835bb01e56a5":[1,0,3,0,0,4,0,0],
-"structug_1_1bridge_1_1_transform_1_1_functionality.html":[1,0,3,0,2,4,0],
-"structug_1_1bridge_1_1_transform_1_1_functionality.html#a9bdd107516ff85b79b532529dc1fb8e1":[1,0,3,0,2,4,0,0],
-"structug_1_1bridge_1_1_u_g___r_e_g_i_s_t_r_y___e_r_r_o_r___function_or_method_name_missing.html":[1,0,3,0,4,193],
-"structug_1_1bridge_1_1_u_g_error___class_cast_failed.html":[1,0,3,0,4,194],
-"structug_1_1bridge_1_1_u_g_error___class_cast_failed.html#a4b9d8c15f80edee39dd4199c0a69a66b":[1,0,3,0,4,194,2],
-"structug_1_1bridge_1_1_u_g_error___class_cast_failed.html#a8de25235528efc9b589911902c5f37ba":[1,0,3,0,4,194,0],
-"structug_1_1bridge_1_1_u_g_error___class_cast_failed.html#a8f9b1ba79db84b4857034538b9546174":[1,0,3,0,4,194,1],
-"structug_1_1bridge_1_1_u_g_registry_error.html":[1,0,3,0,4,195],
 "structug_1_1bridge_1_1_u_g_registry_error.html#a197246f13178259403b434996e07a3f4":[1,0,3,0,4,195,3],
 "structug_1_1bridge_1_1_u_g_registry_error.html#a8a095675884c796851b54364a06afc09":[1,0,3,0,4,195,0],
 "structug_1_1bridge_1_1_u_g_registry_error.html#aa7c60a5ebc474d7ff4d809bc7cdfe654":[1,0,3,0,4,195,1],
@@ -249,5 +240,14 @@ var NAVTREEINDEX157 =
 "structug_1_1bridge_1_1lua_1_1_user_data_wrapper.html#a00c5b8ecee12b9308c7d70b293b50b0f":[3,0,4,0,15,16,3],
 "structug_1_1bridge_1_1lua_1_1_user_data_wrapper.html#a2be37ca6c832ae248ec064f24f76c48b":[3,0,4,0,15,16,0],
 "structug_1_1bridge_1_1lua_1_1_user_data_wrapper.html#a7307ce25e3466fd9b52c891173fc9d13":[3,0,4,0,15,16,1],
-"structug_1_1bridge_1_1lua_1_1_user_data_wrapper.html#ab44bd2f9b54e72485d4f4be233a3e91d":[3,0,4,0,15,16,2]
+"structug_1_1bridge_1_1lua_1_1_user_data_wrapper.html#ab44bd2f9b54e72485d4f4be233a3e91d":[3,0,4,0,15,16,2],
+"structug_1_1bridge_1_1periodic_boundary_1_1_functionality.html":[1,0,3,0,2,1,0],
+"structug_1_1bridge_1_1periodic_boundary_1_1_functionality.html#a66a8a88c2d4641e0e96df3ca8400be24":[1,0,3,0,2,1,0,0],
+"structug_1_1bridge_1_1periodic_boundary_1_1_functionality.html#a874bc4b50f6e3497d449b8646713c3f1":[1,0,3,0,2,1,0,1],
+"structug_1_1constraint__traits.html":[3,0,4,195],
+"structug_1_1constraint__traits.html#aca92eb6918e7c1ae3647cbf271ab0356":[3,0,4,195,0],
+"structug_1_1constraint__traits.html#ae31633839e9a5afe528771145365c4de":[3,0,4,195,1],
+"structug_1_1constraint__traits.html#afc4e4f0be4db2bb033f46f6a8707c2b4":[3,0,4,195,2],
+"structug_1_1constraint__traits_3_01_edge_01_4.html":[3,0,4,196],
+"structug_1_1constraint__traits_3_01_edge_01_4.html#a9473536d17260e9b3686f59d8c135f46":[3,0,4,196,0]
 };

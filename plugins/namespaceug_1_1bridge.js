@@ -64,6 +64,7 @@ var namespaceug_1_1bridge =
     [ "periodicBoundary", null, [
       [ "print_all_identifications", "../group__periodic__bridge.html#gae3a3c45eddbcfd1cd854d170c389e651", null ]
     ] ],
+    [ "SuperLUBridge", "namespaceug_1_1bridge_1_1_super_l_u_bridge.html", "namespaceug_1_1bridge_1_1_super_l_u_bridge" ],
     [ "func_traits< xp::xproperty< V, M > O::* >", "structug_1_1bridge_1_1func__traits_3_01xp_1_1xproperty_3_01_v_00_01_m_01_4_01_o_1_1_5_01_4.html", "structug_1_1bridge_1_1func__traits_3_01xp_1_1xproperty_3_01_v_00_01_m_01_4_01_o_1_1_5_01_4" ],
     [ "xproperty_traits", "structug_1_1bridge_1_1xproperty__traits.html", "structug_1_1bridge_1_1xproperty__traits" ],
     [ "CompileAlgebraList", "../group__bridge.html#ga97099fa000ff3521ef545b54e3b84d5c", null ],
@@ -171,6 +172,7 @@ var namespaceug_1_1bridge =
     [ "InitSignals", "../namespaceug_1_1bridge.html#ad84c6a19c6c036ac58794aa5dfa3212f", null ],
     [ "InitUG", "../group__bridge.html#ga32f109c21ee8d3acf55a5e0deea99377", null ],
     [ "InitUG", "../namespaceug_1_1bridge.html#a3826dc04b4f43b11c1660077d05cc561", null ],
+    [ "InitUGPlugin_SuperLU6", "namespaceug_1_1bridge.html#aadcf195e18853d86b9b170b5db90b9b3", null ],
     [ "int_srand", "../group__util__bridge.html#gacd40307966e11e8925f980a1044bc9e3", null ],
     [ "IsClassInParameters", "../group__registry.html#ga8beb1a88cc050604eb4cdeccb82d479a", null ],
     [ "IsDefinedBLAS_AVAILABLE", "../group__misc__bridge.html#gad95760b35a9b78be6b0e9d1ff44293d2", null ],
@@ -319,6 +321,7 @@ var namespaceug_1_1bridge =
     [ "RegisterBridge_Selection", "../group__bridge.html#gac49efaf1d65ad3c10d4664f3e519240a", null ],
     [ "RegisterBridge_Selection", "../namespaceug_1_1bridge.html#a0842583396380e98cbe7ab692378db6f", null ],
     [ "RegisterBridge_Solver", "../namespaceug_1_1bridge.html#aa9c12b71dd281768e1bc0515bba5f6f5", null ],
+    [ "RegisterBridge_SuperLU", "namespaceug_1_1bridge.html#a3d70142df785e8458129e529480a0801", null ],
     [ "RegisterBridge_Test", "../group__bridge.html#ga7cfda7dfde147f558ad427c4ce43b66a", null ],
     [ "RegisterBridge_Test", "../group__test__bridge.html#ga0ee20ac2426fe928cc7f09bab6b7f9a4", null ],
     [ "RegisterBridge_Transform", "../group__bridge.html#gab22d49ad02b4cf5d0f17c7d25f94f31a", null ],

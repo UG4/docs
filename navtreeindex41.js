@@ -1,17 +1,5 @@
 var NAVTREEINDEX41 =
 {
-"classug_1_1_hanging_node_refiner___multi_grid.html#a3a865ef130f6ddfad4ceb2d313a8a131":[1,0,2,0,0,6,29],
-"classug_1_1_hanging_node_refiner___multi_grid.html#a3a987cc1ab738fe40a29179cb2a8f0fa":[1,0,2,0,0,6,50],
-"classug_1_1_hanging_node_refiner___multi_grid.html#a3d979aac576b8bbd783db66cf834b857":[1,0,2,0,0,6,36],
-"classug_1_1_hanging_node_refiner___multi_grid.html#a4457337edae104e271e5088c4d194bdb":[1,0,2,0,0,6,14],
-"classug_1_1_hanging_node_refiner___multi_grid.html#a47aa5bf14dbcfabda8c2c47ea500b3f1":[1,0,2,0,0,6,44],
-"classug_1_1_hanging_node_refiner___multi_grid.html#a483e995012167857b6eabaab05dc4213":[1,0,2,0,0,6,30],
-"classug_1_1_hanging_node_refiner___multi_grid.html#a4a1668d88915d65455834e372cadd9c5":[1,0,2,0,0,6,13],
-"classug_1_1_hanging_node_refiner___multi_grid.html#a509eb481488e668374c396940169e369":[1,0,2,0,0,6,39],
-"classug_1_1_hanging_node_refiner___multi_grid.html#a5315d7fbd6185b4814c61854ef7a50e0":[1,0,2,0,0,6,32],
-"classug_1_1_hanging_node_refiner___multi_grid.html#a551341dfbd4e42161cec8152a0dcd765":[1,0,2,0,0,6,21],
-"classug_1_1_hanging_node_refiner___multi_grid.html#a566a7aa342b0b8d5cb34ec94fd85bdc8":[1,0,2,0,0,6,19],
-"classug_1_1_hanging_node_refiner___multi_grid.html#a5de86915bbe70e6ace879938c7b3862b":[1,0,2,0,0,6,24],
 "classug_1_1_hanging_node_refiner___multi_grid.html#a6caaa3d28bab67211d7dca62fe7a85e1":[1,0,2,0,0,6,18],
 "classug_1_1_hanging_node_refiner___multi_grid.html#a73c71e7109dc86088984242d79935fd6":[1,0,2,0,0,6,38],
 "classug_1_1_hanging_node_refiner___multi_grid.html#a7759ec8f63fb7935f52f3ce1bfc68c10":[1,0,2,0,0,6,37],
@@ -249,5 +237,17 @@ var NAVTREEINDEX41 =
 "classug_1_1_horizontal_algebra_layouts.html#a96be8daf54179eb6de9ec2c18be0b30a":[3,0,4,662,0],
 "classug_1_1_horizontal_algebra_layouts.html#a9aeb133100d9fab3987dacdfc7a799cc":[3,0,4,662,20],
 "classug_1_1_horizontal_algebra_layouts.html#abacdc911d1c12c83db0661e7c0e73722":[3,0,4,662,13],
-"classug_1_1_horizontal_algebra_layouts.html#ac4fa0bf50a10c83ba25297f6aa1a4ba7":[3,0,4,662,21]
+"classug_1_1_horizontal_algebra_layouts.html#ac4fa0bf50a10c83ba25297f6aa1a4ba7":[3,0,4,662,21],
+"classug_1_1_horizontal_algebra_layouts.html#ac706fb8a2b7b265210dc06a4574fff68":[3,0,4,662,6],
+"classug_1_1_horizontal_algebra_layouts.html#ac7e761e55bb6904c1e0b3e24384b5d72":[3,0,4,662,3],
+"classug_1_1_horizontal_algebra_layouts.html#acfddab3c53ec513f82aa264e9f2cca34":[3,0,4,662,16],
+"classug_1_1_horizontal_algebra_layouts.html#ad55df09731107cecaeaa6a69e1d684a7":[3,0,4,662,2],
+"classug_1_1_horizontal_algebra_layouts.html#adada3869e3f2779fd3594d7e5af1e96e":[3,0,4,662,18],
+"classug_1_1_horizontal_algebra_layouts.html#aea1c0b6f0c9f40808ee4eeb88951450a":[3,0,4,662,19],
+"classug_1_1_horizontal_algebra_layouts.html#aed5acd531a51ddf6114a223b74fe0973":[3,0,4,662,1],
+"classug_1_1_horizontal_algebra_layouts.html#aee60307f17d3c1a84b320cab1fd4dba9":[3,0,4,662,15],
+"classug_1_1_horizontal_anisotropy_adjuster.html":[3,0,4,663],
+"classug_1_1_horizontal_anisotropy_adjuster.html#a13414e45e3a4e214b1103f6d12773a28":[3,0,4,663,1],
+"classug_1_1_horizontal_anisotropy_adjuster.html#a3ba93a7d88bbf6eeca83b45a5d97853d":[3,0,4,663,0],
+"classug_1_1_horizontal_anisotropy_adjuster.html#a50bcafa93db4016a1a4f5cdc967fa897":[3,0,4,663,2]
 };

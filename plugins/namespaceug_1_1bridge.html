@@ -172,6 +172,8 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceug_1_1bridge_1_1_solver"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../namespaceug_1_1bridge_1_1_solver.html">Solver</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespaceug_1_1bridge_1_1_super_l_u_bridge"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug_1_1bridge_1_1_super_l_u_bridge.html">SuperLUBridge</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceug_1_1bridge_1_1_transform"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../namespaceug_1_1bridge_1_1_transform.html">Transform</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceug_1_1bridge_1_1_user_data_bridge"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../namespaceug_1_1bridge_1_1_user_data_bridge.html">UserDataBridge</a></td></tr>
@@ -636,6 +638,8 @@ Functions</h2></td></tr>
 <tr class="separator:ga32f109c21ee8d3acf55a5e0deea99377"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3826dc04b4f43b11c1660077d05cc561"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../namespaceug_1_1bridge.html#a3826dc04b4f43b11c1660077d05cc561">InitUG</a> (int <a class="elRef" href="../group__lib__disc__domain.html#gaade1bc529aade0f7ae20efc0c8b27057">dim</a>, const <a class="elRef" href="../classug_1_1_algebra_type.html">AlgebraType</a> &amp;algType, bool verbose)</td></tr>
 <tr class="separator:a3826dc04b4f43b11c1660077d05cc561"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadcf195e18853d86b9b170b5db90b9b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug_1_1bridge.html#aadcf195e18853d86b9b170b5db90b9b3">InitUGPlugin_SuperLU6</a> (<a class="elRef" href="../classug_1_1bridge_1_1_registry.html">Registry</a> *reg, string grp)</td></tr>
+<tr class="separator:aadcf195e18853d86b9b170b5db90b9b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gacd40307966e11e8925f980a1044bc9e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../group__util__bridge.html#gacd40307966e11e8925f980a1044bc9e3">int_srand</a> (int seed)</td></tr>
 <tr class="separator:gacd40307966e11e8925f980a1044bc9e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8beb1a88cc050604eb4cdeccb82d479a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../group__registry.html#ga8beb1a88cc050604eb4cdeccb82d479a">IsClassInParameters</a> (const <a class="elRef" href="../classug_1_1bridge_1_1_parameter_info.html">ParameterInfo</a> &amp;par, const char *classname)</td></tr>
@@ -932,6 +936,9 @@ Functions</h2></td></tr>
 <tr class="separator:a0842583396380e98cbe7ab692378db6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9c12b71dd281768e1bc0515bba5f6f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../namespaceug_1_1bridge.html#aa9c12b71dd281768e1bc0515bba5f6f5">RegisterBridge_Solver</a> (<a class="elRef" href="../classug_1_1bridge_1_1_registry.html">Registry</a> &amp;reg, string grp)</td></tr>
 <tr class="separator:aa9c12b71dd281768e1bc0515bba5f6f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d70142df785e8458129e529480a0801"><td class="memTemplParams" colspan="2">template&lt;typename TRegistry  = ug::bridge::Registry&gt; </td></tr>
+<tr class="memitem:a3d70142df785e8458129e529480a0801"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug_1_1bridge.html#a3d70142df785e8458129e529480a0801">RegisterBridge_SuperLU</a> (TRegistry &amp;reg, string grp)</td></tr>
+<tr class="separator:a3d70142df785e8458129e529480a0801"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7cfda7dfde147f558ad427c4ce43b66a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../group__bridge.html#ga7cfda7dfde147f558ad427c4ce43b66a">RegisterBridge_Test</a> (<a class="elRef" href="../classug_1_1bridge_1_1_registry.html">Registry</a> &amp;reg, std::string grp=<a class="elRef" href="../group__bridge.html#ga6d56e110f06abb1f7dd2c2095b9eb2ff">UG4_GRP</a>)</td></tr>
 <tr class="separator:ga7cfda7dfde147f558ad427c4ce43b66a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0ee20ac2426fe928cc7f09bab6b7f9a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../group__test__bridge.html#ga0ee20ac2426fe928cc7f09bab6b7f9a4">RegisterBridge_Test</a> (<a class="elRef" href="../classug_1_1bridge_1_1_registry.html">Registry</a> &amp;reg, string parentGroup)</td></tr>
@@ -1132,13 +1139,78 @@ Variables</h2></td></tr>
 <tr class="memitem:ga6d56e110f06abb1f7dd2c2095b9eb2ff"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../group__bridge.html#ga6d56e110f06abb1f7dd2c2095b9eb2ff">UG4_GRP</a></td></tr>
 <tr class="separator:ga6d56e110f06abb1f7dd2c2095b9eb2ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="aadcf195e18853d86b9b170b5db90b9b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadcf195e18853d86b9b170b5db90b9b3">&#9670;&nbsp;</a></span>InitUGPlugin_SuperLU6()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug::bridge::InitUGPlugin_SuperLU6 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" href="../classug_1_1bridge_1_1_registry.html">Registry</a> *&#160;</td>
+          <td class="paramname"><em>reg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>grp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="namespaceug_1_1bridge.html#a3d70142df785e8458129e529480a0801">RegisterBridge_SuperLU()</a>.</p>
+
+</div>
+</div>
+<a id="a3d70142df785e8458129e529480a0801"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d70142df785e8458129e529480a0801">&#9670;&nbsp;</a></span>RegisterBridge_SuperLU()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TRegistry  = ug::bridge::Registry&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug::bridge::RegisterBridge_SuperLU </td>
+          <td>(</td>
+          <td class="paramtype">TRegistry &amp;&#160;</td>
+          <td class="paramname"><em>reg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>grp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="elRef" href="../bridge_2util_8h.html#a7e4054339d4af9dcbb46114a4cdbf6ce">UG_REGISTRY_CATCH_THROW</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespaceug_1_1bridge.html#aadcf195e18853d86b9b170b5db90b9b3">InitUGPlugin_SuperLU6()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="namespaceug_1_1bridge.html">bridge</a></li>
-    <li class="footer">Generated on Mon May 22 2023 01:04:33 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon May 29 2023 01:04:30 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

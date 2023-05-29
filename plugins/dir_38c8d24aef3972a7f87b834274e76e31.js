@@ -12,6 +12,7 @@ var dir_38c8d24aef3972a7f87b834274e76e31 =
     [ "ParameterEstimation", "dir_81b7b7688c12ee3ee59ab34e76a0ca43.html", "dir_81b7b7688c12ee3ee59ab34e76a0ca43" ],
     [ "ProMesh", "dir_763ed3e91742c64da7339b855c065f8b.html", "dir_763ed3e91742c64da7339b855c065f8b" ],
     [ "SmallStrainMechanics", "dir_3b4c9cd7b72435c8ef37093ef766bedc.html", "dir_3b4c9cd7b72435c8ef37093ef766bedc" ],
+    [ "SuperLU6", "dir_9f8bb7cad0f9383aebc9d04e7258195b.html", "dir_9f8bb7cad0f9383aebc9d04e7258195b" ],
     [ "TemplatePlugin", "dir_c87757151563e62388a8344584e99b6d.html", "dir_c87757151563e62388a8344584e99b6d" ],
     [ "UGTest", "dir_c30de8227e17e42a878210ddfeebc0f3.html", "dir_c30de8227e17e42a878210ddfeebc0f3" ]
 ];

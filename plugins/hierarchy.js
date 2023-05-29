@@ -58,6 +58,7 @@ var hierarchy =
       ] ],
       [ "ug::NavierStokes::FilterImplBaseClass< TImpl, TGridFunction >", "classug_1_1_navier_stokes_1_1_filter_impl_base_class.html", null ]
     ] ],
+    [ "ug::bridge::SuperLUBridge::Functionality", "structug_1_1bridge_1_1_super_l_u_bridge_1_1_functionality.html", null ],
     [ "ug::ConvectionDiffusionPlugin::Functionality", "structug_1_1_convection_diffusion_plugin_1_1_functionality.html", null ],
     [ "ug::Electromagnetism::Functionality", "structug_1_1_electromagnetism_1_1_functionality.html", null ],
     [ "ug::Jupyter::Functionality", "structug_1_1_jupyter_1_1_functionality.html", null ],
@@ -160,6 +161,9 @@ var hierarchy =
     [ "IElemEstimatorFuncs< IElemDisc< TDomain >, TDomain >", "../classug_1_1_i_elem_estimator_funcs.html", [
       [ "ug::IElemError< class >", "../classug_1_1_i_elem_error.html", null ]
     ] ],
+    [ "ug::IExternalSolverImplementation", "../classug_1_1_i_external_solver_implementation.html", [
+      [ "ug::SuperLUImplementation", "classug_1_1_super_l_u_implementation.html", null ]
+    ] ],
     [ "ug::IIntegrand< class, TWorldDim >", "../classug_1_1_i_integrand.html", [
       [ "ug::StdIntegrand< number, TGridFunction::dim, DeltaSquareIntegrand< TDataIn, TGridFunction > >", "../classug_1_1_std_integrand.html", [
         [ "ug::DeltaSquareIntegrand< TDataIn, TGridFunction >", "classug_1_1_delta_square_integrand.html", null ]
@@ -174,6 +178,13 @@ var hierarchy =
     ] ],
     [ "ug::ILimexRefiner", "classug_1_1_i_limex_refiner.html", null ],
     [ "ug::ILinearIterator< class, class >", "../classug_1_1_i_linear_iterator.html", [
+      [ "ILinearOperatorInverse< TAlgebra::vector_type, TAlgebra::vector_type >", "../classug_1_1_i_linear_operator_inverse.html", [
+        [ "IMatrixOperatorInverse< TAlgebra::matrix_type, TAlgebra::vector_type >", "../classug_1_1_i_matrix_operator_inverse.html", [
+          [ "ug::IExternalSolver< TAlgebra >", "../classug_1_1_i_external_solver.html", [
+            [ "ug::SuperLUSolver< TAlgebra >", "classug_1_1_super_l_u_solver.html", null ]
+          ] ]
+        ] ]
+      ] ],
       [ "ug::Electromagnetism::TimeHarmonicNedelecHybridSmoother< TDomain, TAlgebra >", "classug_1_1_electromagnetism_1_1_time_harmonic_nedelec_hybrid_smoother.html", null ]
     ] ],
     [ "ILinearIterator< TAlgebra::vector_type >", "../classug_1_1_i_linear_iterator.html", [
@@ -362,6 +373,7 @@ var hierarchy =
     [ "ug::Electromagnetism::NedelecProject< TDomain, TAlgebra >::AuxLaplaceRHS::SetValueOnSubset", "structug_1_1_electromagnetism_1_1_nedelec_project_1_1_aux_laplace_r_h_s_1_1_set_value_on_subset.html", null ],
     [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFE< TDomain >::ShapeValues", "structug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_e_1_1_shape_values.html", null ],
     [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFV1< TDomain >::ShapeValues", "structug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1_1_1_shape_values.html", null ],
+    [ "ug::SuperLUConfiguration", "structug_1_1_super_l_u_configuration.html", null ],
     [ "ug::ConvectionDiffusionPlugin::line_sss_marker::t_fract_elem", "structug_1_1_convection_diffusion_plugin_1_1line__sss__marker_1_1t__fract__elem.html", null ],
     [ "ug::Electromagnetism::TimeHarmonicNedelecHybridSmoother< TDomain, TAlgebra >::t_red_op_and", "structug_1_1_electromagnetism_1_1_time_harmonic_nedelec_hybrid_smoother_1_1t__red__op__and.html", null ],
     [ "ug::Electromagnetism::TimeHarmonicNedelecHybridSmoother< TDomain, TAlgebra >::t_red_op_or", "structug_1_1_electromagnetism_1_1_time_harmonic_nedelec_hybrid_smoother_1_1t__red__op__or.html", null ],
@@ -450,6 +462,7 @@ var hierarchy =
         [ "ug::LinearImplicitEuler< TAlgebra >", "classug_1_1_linear_implicit_euler.html", null ],
         [ "ug::SimpleTimeIntegrator< TDomain, TAlgebra >", "classug_1_1_simple_time_integrator.html", null ]
       ] ],
+      [ "ug::IExternalSolver< TAlgebra >", "../classug_1_1_i_external_solver.html", null ],
       [ "ug::DebugWritingObject< class >", "../classug_1_1_debug_writing_object.html", [
         [ "ug::IPreconditioner< TAlgebra >", "../classug_1_1_i_preconditioner.html", null ]
       ] ]

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['kdsplitdimension_33940',['KDSplitDimension',['../../group__lib__grid__algorithms__trees.html#gac7c3d5a00e1647b0ce7e2b00d57fe0da',1,'ug::KDSplitDimension()'],['../../group__lib__grid__algorithms__trees.html#gac7c3d5a00e1647b0ce7e2b00d57fe0da',1,'KDSplitDimension()(Global Namespace)']]],
-  ['kdtreesplitstrategy_33941',['KDTreeSplitStrategy',['../../namespaceug.html#ae1fe76a4a3249b261c97645b045a2b6c',1,'ug']]]
+  ['kdsplitdimension_34023',['KDSplitDimension',['../../group__lib__grid__algorithms__trees.html#gac7c3d5a00e1647b0ce7e2b00d57fe0da',1,'ug::KDSplitDimension()'],['../../group__lib__grid__algorithms__trees.html#gac7c3d5a00e1647b0ce7e2b00d57fe0da',1,'KDSplitDimension()(Global Namespace)']]],
+  ['kdtreesplitstrategy_34024',['KDTreeSplitStrategy',['../../namespaceug.html#ae1fe76a4a3249b261c97645b045a2b6c',1,'ug']]]
 ];

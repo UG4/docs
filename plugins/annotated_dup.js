@@ -2,6 +2,9 @@ var annotated_dup =
 [
     [ "ug", "namespaceug.html", [
       [ "bridge", "namespaceug_1_1bridge.html", [
+        [ "SuperLUBridge", "namespaceug_1_1bridge_1_1_super_l_u_bridge.html", [
+          [ "Functionality", "structug_1_1bridge_1_1_super_l_u_bridge_1_1_functionality.html", "structug_1_1bridge_1_1_super_l_u_bridge_1_1_functionality" ]
+        ] ],
         [ "func_traits< xp::xproperty< V, M > O::* >", "structug_1_1bridge_1_1func__traits_3_01xp_1_1xproperty_3_01_v_00_01_m_01_4_01_o_1_1_5_01_4.html", "structug_1_1bridge_1_1func__traits_3_01xp_1_1xproperty_3_01_v_00_01_m_01_4_01_o_1_1_5_01_4" ],
         [ "xproperty_traits", "structug_1_1bridge_1_1xproperty__traits.html", "structug_1_1bridge_1_1xproperty__traits" ]
       ] ],
@@ -207,6 +210,9 @@ var annotated_dup =
       [ "PlotRefOutputObserver", "classug_1_1_plot_ref_output_observer.html", "classug_1_1_plot_ref_output_observer" ],
       [ "ScaledGridFunctionEstimator", "classug_1_1_scaled_grid_function_estimator.html", "classug_1_1_scaled_grid_function_estimator" ],
       [ "SimpleTimeIntegrator", "classug_1_1_simple_time_integrator.html", "classug_1_1_simple_time_integrator" ],
+      [ "SuperLUConfiguration", "structug_1_1_super_l_u_configuration.html", "structug_1_1_super_l_u_configuration" ],
+      [ "SuperLUImplementation", "classug_1_1_super_l_u_implementation.html", "classug_1_1_super_l_u_implementation" ],
+      [ "SuperLUSolver", "classug_1_1_super_l_u_solver.html", "classug_1_1_super_l_u_solver" ],
       [ "SupErrorEvaluator", "classug_1_1_sup_error_evaluator.html", "classug_1_1_sup_error_evaluator" ],
       [ "TimeIntegratorLinearAdaptive", "classug_1_1_time_integrator_linear_adaptive.html", "classug_1_1_time_integrator_linear_adaptive" ],
       [ "TimeStepBounds", "classug_1_1_time_step_bounds.html", "classug_1_1_time_step_bounds" ],

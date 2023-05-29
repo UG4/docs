@@ -3373,6 +3373,7 @@ var hierarchy =
     [ "ug::vrl::vrl_traits< ug::MathVector< dim > >", "structug_1_1vrl_1_1vrl__traits_3_01ug_1_1_math_vector_3_01dim_01_4_01_4.html", null ],
     [ "ug::vrl::VTest", "classug_1_1vrl_1_1_v_test.html", null ],
     [ "ug::VTKOutput< TDim >", "classug_1_1_v_t_k_output.html", null ],
+    [ "ug::xy", "structug_1_1xy.html", null ],
     [ "ug::xyz", "structug_1_1xyz.html", null ],
     [ "yy_buffer_state", "structyy__buffer__state.html", null ],
     [ "yy_trans_info", "structyy__trans__info.html", null ],

@@ -1,6 +1,7 @@
 var file__io__grdecl_8cpp =
 [
     [ "ab", "structug_1_1ab.html", "structug_1_1ab" ],
+    [ "xy", "structug_1_1xy.html", "structug_1_1xy" ],
     [ "xyz", "structug_1_1xyz.html", "structug_1_1xyz" ],
     [ "AttachAct", "file__io__grdecl_8cpp.html#a9e47ee9a76fe7eab6118cab76f1e9e57", null ],
     [ "AttachProperty", "file__io__grdecl_8cpp.html#ae854eca73c243e3a76015ba36f2514f3", null ],
