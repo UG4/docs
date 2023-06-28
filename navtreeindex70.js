@@ -1,17 +1,5 @@
 var NAVTREEINDEX70 =
 {
-"classug_1_1_selector.html#a13366324ac865bea34df9ee43560156b":[1,0,2,4,5,7],
-"classug_1_1_selector.html#a13a583d512f4367a514f4f63a41dd3df":[1,0,2,4,5,36],
-"classug_1_1_selector.html#a14a3b3748ac341c561f8dc829d7db917":[1,0,2,4,5,35],
-"classug_1_1_selector.html#a14f2b2ac3f579af9a0ca18718159a680":[1,0,2,4,5,46],
-"classug_1_1_selector.html#a15cc18ddf41c13090f72a2d0712e72bb":[1,0,2,4,5,8],
-"classug_1_1_selector.html#a1681066effff747cf2eb6c3186d9771a":[1,0,2,4,5,1],
-"classug_1_1_selector.html#a2335d768401d9ea5ca629c7bdd434b9c":[1,0,2,4,5,20],
-"classug_1_1_selector.html#a25ab011c90da52f9deb069f74b5ae3ac":[1,0,2,4,5,3],
-"classug_1_1_selector.html#a297585144b7fac6d524b9b8de062d259":[1,0,2,4,5,51],
-"classug_1_1_selector.html#a2cc5f2c4eed09b977fe2ffddeb08a2b5":[1,0,2,4,5,18],
-"classug_1_1_selector.html#a2d9ce31b429a3db1f73e944ae17685e4":[1,0,2,4,5,39],
-"classug_1_1_selector.html#a2e9fb205f504c10ee7872c3ed252e1bd":[1,0,2,4,5,49],
 "classug_1_1_selector.html#a3d1f4618397bf3940e65899434ed775a":[1,0,2,4,5,6],
 "classug_1_1_selector.html#a3d3af1aacac66aff14b78ff813e3c238":[1,0,2,4,5,29],
 "classug_1_1_selector.html#a4874e6428c5d16d691741e938f913262":[1,0,2,4,5,26],
@@ -249,5 +237,17 @@ var NAVTREEINDEX70 =
 "classug_1_1_smooth_projector.html#af63ae28378107cf5b980094e652e16a5":[3,0,4,1139,12],
 "classug_1_1_smooth_projector.html#af65369110a58fd7100ad1182d8f718fe":[3,0,4,1139,15],
 "classug_1_1_soft_abort.html":[1,0,3,1,6],
-"classug_1_1_soft_abort.html#aea27dcb098c764a23eb9797cba5654b7":[1,0,3,1,6,0]
+"classug_1_1_soft_abort.html#aea27dcb098c764a23eb9797cba5654b7":[1,0,3,1,6,0],
+"classug_1_1_soma_projector.html":[3,0,4,1141],
+"classug_1_1_soma_projector.html#a0cb0dbabaccce7dbd7e8f87fa2049cc4":[3,0,4,1141,6],
+"classug_1_1_soma_projector.html#a19e6563ea802e7c20f8e936d0e5f3bcc":[3,0,4,1141,10],
+"classug_1_1_soma_projector.html#a27ec2ee05b27d64095bb2fa05f93d193":[3,0,4,1141,4],
+"classug_1_1_soma_projector.html#a46892df0765ff2888df95442145a3133":[3,0,4,1141,2],
+"classug_1_1_soma_projector.html#a4e4862707561fcdbcd0d2536a80b040a":[3,0,4,1141,12],
+"classug_1_1_soma_projector.html#a518f5d59ac63cdf73f038baad2362d8d":[3,0,4,1141,3],
+"classug_1_1_soma_projector.html#a5306b2bd1538413e2aa7648a5ef6f8d6":[3,0,4,1141,18],
+"classug_1_1_soma_projector.html#a618c4d877173373efb0ccebbac7deb6e":[3,0,4,1141,0],
+"classug_1_1_soma_projector.html#a6879b733b34b89c4a52a9c53990fe3ef":[3,0,4,1141,19],
+"classug_1_1_soma_projector.html#a712e95a5ef8316d955d153b1c0b0dc8d":[3,0,4,1141,15],
+"classug_1_1_soma_projector.html#a746316cf068cdc889bc0153ebe7b6fd4":[3,0,4,1141,7]
 };
