@@ -1,11 +1,5 @@
 var NAVTREEINDEX71 =
 {
-"classug_1_1_soma_projector.html#ab4419ba3c13986f601a9dddb136f6a0e":[3,0,4,1141,5],
-"classug_1_1_soma_projector.html#ab6ed38b99465953ff03928c73b202bbd":[3,0,4,1141,11],
-"classug_1_1_soma_projector.html#ab83576f1faba70cc2697720f65345ca4":[3,0,4,1141,16],
-"classug_1_1_soma_projector.html#abb7967084398b00251e27ba99d75a9d9":[3,0,4,1141,13],
-"classug_1_1_soma_projector.html#abc03ca97cc5ccc757d67029e1282d9cd":[3,0,4,1141,20],
-"classug_1_1_soma_projector.html#ac0d6b55e2b78515829ba3e2aebc7fdf8":[3,0,4,1141,1],
 "classug_1_1_soma_projector.html#ac47b87b8faa0dfe7a59094cc5abdd371":[3,0,4,1141,17],
 "classug_1_1_soma_projector.html#ac98d07dd8f7b70e16ccb9a01abf56b9c":[3,0,4,1141,14],
 "classug_1_1_soma_projector.html#aeec7e6d423d263cad7c1400dd22cfd73":[3,0,4,1141,8],
@@ -227,7 +221,6 @@ var NAVTREEINDEX71 =
 "classug_1_1_sparse_matrix.html#ad51ec188def53286ddd8d4576b3545b1":[1,0,0,1,0,6,46],
 "classug_1_1_sparse_matrix.html#ad81409598b20135c423a2a59a1ca9df8":[1,0,0,0,6,41],
 "classug_1_1_sparse_matrix.html#ad81409598b20135c423a2a59a1ca9df8":[1,0,0,1,0,6,41],
-"classug_1_1_sparse_matrix.html#ad85efe6c6bccce88b0d6ed3b4b508998":[1,0,0,0,6,83],
 "classug_1_1_sparse_matrix.html#ad85efe6c6bccce88b0d6ed3b4b508998":[1,0,0,1,0,6,83],
 "classug_1_1_sparse_matrix.html#adaca18aa39ba4e9f718a670582f25628":[1,0,0,0,6,90],
 "classug_1_1_sparse_matrix.html#adaca18aa39ba4e9f718a670582f25628":[1,0,0,1,0,6,90],
@@ -249,5 +242,12 @@ var NAVTREEINDEX71 =
 "classug_1_1_sparse_matrix.html#af0e94b13c1c260291a512628f6fae144":[1,0,0,1,0,6,48],
 "classug_1_1_sparse_matrix.html#af70185f27f49b876d830e92f17349968":[1,0,0,0,6,73],
 "classug_1_1_sparse_matrix.html#af70185f27f49b876d830e92f17349968":[1,0,0,1,0,6,73],
-"classug_1_1_sparse_matrix.html#afa85a0934f630374028f7b5894e106c7":[1,0,0,0,6,21]
+"classug_1_1_sparse_matrix.html#afa85a0934f630374028f7b5894e106c7":[1,0,0,0,6,21],
+"classug_1_1_sparse_matrix.html#afa85a0934f630374028f7b5894e106c7":[1,0,0,1,0,6,21],
+"classug_1_1_sparse_matrix.html#afe1c346af03a4e20b812a0b01b238805":[1,0,0,0,6,3],
+"classug_1_1_sparse_matrix.html#afe1c346af03a4e20b812a0b01b238805":[1,0,0,1,0,6,3],
+"classug_1_1_sparse_matrix.html#affb88470fe3392289c2962d9b9d40091":[1,0,0,0,6,91],
+"classug_1_1_sparse_matrix.html#affb88470fe3392289c2962d9b9d40091":[1,0,0,1,0,6,91],
+"classug_1_1_sparse_matrix_1_1const__row__iterator.html":[1,0,0,0,6,0],
+"classug_1_1_sparse_matrix_1_1const__row__iterator.html":[1,0,0,1,0,6,0]
 };

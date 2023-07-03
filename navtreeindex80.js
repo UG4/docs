@@ -1,12 +1,5 @@
 var NAVTREEINDEX80 =
 {
-"classug_1_1_volume.html#a88421e9a9018a0eaad1f6c08bb46b2a4":[1,0,2,3,20,30],
-"classug_1_1_volume.html#aa075f12a30a3f25d4eb21114e387c22c":[1,0,2,3,20,29],
-"classug_1_1_volume.html#aae2e593eea418319c07d89fe887df034":[1,0,2,3,20,0],
-"classug_1_1_volume.html#ab032630d6bd627b55fcdd6e92f9a1d3c":[1,0,2,3,20,16],
-"classug_1_1_volume.html#ab89bab26e93f45b855ff63d251f4c995":[1,0,2,3,20,19],
-"classug_1_1_volume.html#aca582f68cff65068fea0b0f550f17dd9":[1,0,2,3,20,4],
-"classug_1_1_volume.html#ad5ebf3bf21bc267baf2ca25b8c6c746d":[1,0,2,3,20,28],
 "classug_1_1_volume.html#adba622320b9fd1f610ddfbe8e26281bf":[1,0,2,3,20,7],
 "classug_1_1_volume.html#adbca5f25aac929300e37aed9878e9b01":[1,0,2,3,20,25],
 "classug_1_1_volume.html#ade9c76e7ace8fab2b63de266f89380aa":[1,0,2,3,20,26],
@@ -156,8 +149,6 @@ var NAVTREEINDEX80 =
 "classug_1_1bridge_1_1_class_cast_provider.html#abb5507608a00b173b0dc25427deb5f0b":[1,0,3,0,4,0,3],
 "classug_1_1bridge_1_1_class_cast_provider.html#ae4189b7d94409ef207e9da233b19880a":[1,0,3,0,4,0,1],
 "classug_1_1bridge_1_1_class_cast_provider.html#af50aa05c14d54a8d32807ac2825cc32f":[1,0,3,0,4,0,8],
-"classug_1_1bridge_1_1_class_group_desc.html":[1,0,3,0,4,1],
-"classug_1_1bridge_1_1_class_group_desc.html#a000e22597d66d7d4e16b09b6de4b2116":[1,0,3,0,4,1,0],
 "classug_1_1bridge_1_1_class_group_desc.html#a08a95db49485ddec42da79de42b329a5":[1,0,3,0,4,1,1],
 "classug_1_1bridge_1_1_class_group_desc.html#a18b59d6744d75b91d3741119f3a6a301":[1,0,3,0,4,1,9],
 "classug_1_1bridge_1_1_class_group_desc.html#a1ed608a095d522528c588137ef69522d":[1,0,3,0,4,1,8],
@@ -249,5 +240,14 @@ var NAVTREEINDEX80 =
 "classug_1_1bridge_1_1_evaluate_1_1_point_evaluator_base.html#ad5461732b137bd92ce8e4297be42b7e8":[3,0,4,0,9,3,0],
 "classug_1_1bridge_1_1_evaluate_1_1_point_evaluator_base.html#ae30c74e81f8e0ba88c3ffa80c8e2e8bc":[3,0,4,0,9,3,1],
 "classug_1_1bridge_1_1_evaluate_1_1_point_evaluator_base.html#aec348e41fabd9e554a5be99da93b8532":[3,0,4,0,9,3,3],
-"classug_1_1bridge_1_1_evaluate_1_1_point_evaluator_base.html#af23adf73648e517daa0ab389979655d4":[3,0,4,0,9,3,5]
+"classug_1_1bridge_1_1_evaluate_1_1_point_evaluator_base.html#af23adf73648e517daa0ab389979655d4":[3,0,4,0,9,3,5],
+"classug_1_1bridge_1_1_evaluate_1_1_vector_valued_user_data_evaluator.html":[3,0,4,0,9,5],
+"classug_1_1bridge_1_1_evaluate_1_1_vector_valued_user_data_evaluator.html#a06352031c94c843d90d5898dee5c5dfb":[3,0,4,0,9,5,5],
+"classug_1_1bridge_1_1_evaluate_1_1_vector_valued_user_data_evaluator.html#a0c5bdee0ae16f8ec15eee47f0fd7b2ee":[3,0,4,0,9,5,2],
+"classug_1_1bridge_1_1_evaluate_1_1_vector_valued_user_data_evaluator.html#a231720910c49fb3ad07a29eb4c8e4b2c":[3,0,4,0,9,5,3],
+"classug_1_1bridge_1_1_evaluate_1_1_vector_valued_user_data_evaluator.html#a504a217c44e2dd2169c6a5c9cf91220d":[3,0,4,0,9,5,4],
+"classug_1_1bridge_1_1_evaluate_1_1_vector_valued_user_data_evaluator.html#a53048787756a4e48ab6eb58ceb914fef":[3,0,4,0,9,5,1],
+"classug_1_1bridge_1_1_evaluate_1_1_vector_valued_user_data_evaluator.html#a667816248bc86719d6f150854480be2a":[3,0,4,0,9,5,7],
+"classug_1_1bridge_1_1_evaluate_1_1_vector_valued_user_data_evaluator.html#a6804edbfc4bc8ee17094245df17bc7d9":[3,0,4,0,9,5,12],
+"classug_1_1bridge_1_1_evaluate_1_1_vector_valued_user_data_evaluator.html#a877e3426b73ff7517e5929d5990d5c13":[3,0,4,0,9,5,6]
 };

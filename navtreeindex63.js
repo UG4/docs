@@ -1,11 +1,5 @@
 var NAVTREEINDEX63 =
 {
-"classug_1_1_parallel_global_fractured_media_refiner.html":[1,0,8,0],
-"classug_1_1_parallel_global_fractured_media_refiner.html#a06dd69622713ea54638fe2aef0bec98f":[1,0,8,0,10],
-"classug_1_1_parallel_global_fractured_media_refiner.html#a362db2f6fc7e420c702baf6e3ee285f5":[1,0,8,0,2],
-"classug_1_1_parallel_global_fractured_media_refiner.html#a608f40a841366429b725b7b74db916f2":[1,0,8,0,1],
-"classug_1_1_parallel_global_fractured_media_refiner.html#a60f0d147afea471f907c2540e0fd7377":[1,0,8,0,11],
-"classug_1_1_parallel_global_fractured_media_refiner.html#a85d03c46f3f08f48a98e3d9fd462cd4a":[1,0,8,0,4],
 "classug_1_1_parallel_global_fractured_media_refiner.html#a8920e32382faf945b2c607550d75e27d":[1,0,8,0,5],
 "classug_1_1_parallel_global_fractured_media_refiner.html#aa68af3f192d1a03e6831723f81c51a84":[1,0,8,0,3],
 "classug_1_1_parallel_global_fractured_media_refiner.html#aa6bfaa34b7b270d36a8e1b9e9fc6fe2e":[1,0,8,0,9],
@@ -249,5 +243,11 @@ var NAVTREEINDEX63 =
 "classug_1_1_partitioner___dynamic_bisection.html#a097bffe77e4ccb4e66f53bbbe16f4602":[1,0,6,5,18],
 "classug_1_1_partitioner___dynamic_bisection.html#a0ec79b301fa36b5f7968e7905cf8f5bb":[1,0,6,5,31],
 "classug_1_1_partitioner___dynamic_bisection.html#a149293e59daa7900d5a9ebcc2bb3690d":[1,0,6,5,53],
-"classug_1_1_partitioner___dynamic_bisection.html#a1b0268d65fbe59afa44a3ed6f9f85537":[1,0,6,5,8]
+"classug_1_1_partitioner___dynamic_bisection.html#a1b0268d65fbe59afa44a3ed6f9f85537":[1,0,6,5,8],
+"classug_1_1_partitioner___dynamic_bisection.html#a1d853c15eea53322660edf9ec0d18f60":[1,0,6,5,34],
+"classug_1_1_partitioner___dynamic_bisection.html#a1fde835b22111e0d59b3630a13dd2893":[1,0,6,5,30],
+"classug_1_1_partitioner___dynamic_bisection.html#a251986e8911449d1f760593778e83e5a":[1,0,6,5,20],
+"classug_1_1_partitioner___dynamic_bisection.html#a257295cf7a1954ab4efb163ded4d0bab":[1,0,6,5,56],
+"classug_1_1_partitioner___dynamic_bisection.html#a2626e52b24525d976b4ab182779f2d0b":[1,0,6,5,10],
+"classug_1_1_partitioner___dynamic_bisection.html#a2626e52b24525d976b4ab182779f2d0ba1dd325d4d54ad6321ad36d89cdfc3cea":[1,0,6,5,10,7]
 };

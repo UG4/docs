@@ -1,11 +1,5 @@
 var NAVTREEINDEX41 =
 {
-"classug_1_1_hanging_node_refiner___multi_grid.html#a6caaa3d28bab67211d7dca62fe7a85e1":[1,0,2,0,0,6,18],
-"classug_1_1_hanging_node_refiner___multi_grid.html#a73c71e7109dc86088984242d79935fd6":[1,0,2,0,0,6,38],
-"classug_1_1_hanging_node_refiner___multi_grid.html#a7759ec8f63fb7935f52f3ce1bfc68c10":[1,0,2,0,0,6,37],
-"classug_1_1_hanging_node_refiner___multi_grid.html#a77c2e717ed0924ddbcdcfb2abc2e68bd":[1,0,2,0,0,6,1],
-"classug_1_1_hanging_node_refiner___multi_grid.html#a77c2e717ed0924ddbcdcfb2abc2e68bda0a1d8ff56ea5c191b37b6aeee0a167d9":[1,0,2,0,0,6,1,1],
-"classug_1_1_hanging_node_refiner___multi_grid.html#a77c2e717ed0924ddbcdcfb2abc2e68bda2841032b0f241fa7b85ecdc97bf2d650":[1,0,2,0,0,6,1,5],
 "classug_1_1_hanging_node_refiner___multi_grid.html#a77c2e717ed0924ddbcdcfb2abc2e68bda6a79925fd9c75ddca17db268959f883e":[1,0,2,0,0,6,1,6],
 "classug_1_1_hanging_node_refiner___multi_grid.html#a77c2e717ed0924ddbcdcfb2abc2e68bda90fa2f8fadce2317266be34ad46bd2ee":[1,0,2,0,0,6,1,3],
 "classug_1_1_hanging_node_refiner___multi_grid.html#a77c2e717ed0924ddbcdcfb2abc2e68bdaa5e21e22aa4573833e80953732bd98b1":[1,0,2,0,0,6,1,7],
@@ -249,5 +243,11 @@ var NAVTREEINDEX41 =
 "classug_1_1_horizontal_anisotropy_adjuster.html":[3,0,4,663],
 "classug_1_1_horizontal_anisotropy_adjuster.html#a13414e45e3a4e214b1103f6d12773a28":[3,0,4,663,1],
 "classug_1_1_horizontal_anisotropy_adjuster.html#a3ba93a7d88bbf6eeca83b45a5d97853d":[3,0,4,663,0],
-"classug_1_1_horizontal_anisotropy_adjuster.html#a50bcafa93db4016a1a4f5cdc967fa897":[3,0,4,663,2]
+"classug_1_1_horizontal_anisotropy_adjuster.html#a50bcafa93db4016a1a4f5cdc967fa897":[3,0,4,663,2],
+"classug_1_1_horizontal_anisotropy_adjuster.html#a78cd4572b1491202df89838a67237df3":[3,0,4,663,5],
+"classug_1_1_horizontal_anisotropy_adjuster.html#a83e0dd58300a72bb595c9a75b4845247":[3,0,4,663,3],
+"classug_1_1_horizontal_anisotropy_adjuster.html#ac5ded8d76b90b1f357eb79d7980570b5":[3,0,4,663,4],
+"classug_1_1_i_approximation_space.html":[3,0,4,664],
+"classug_1_1_i_approximation_space.html#a01ff3b0255edeca16f6f16e0747a2cdb":[3,0,4,664,6],
+"classug_1_1_i_approximation_space.html#a0b234980d48fab2426510a76a25b0385":[3,0,4,664,30]
 };
