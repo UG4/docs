@@ -1,6 +1,6 @@
 var NAVTREEINDEX10 =
 {
-"classug_1_1_b_o_o_l.html#af15a967f02b8a6004c3a224cc0dd7650":[3,0,4,119,6],
+"classug_1_1_b_o_o_l.html#af15a967f02b8a6004c3a224cc0dd7650":[3,0,4,119,8],
 "classug_1_1_backward_gauss_seidel.html":[3,0,4,76],
 "classug_1_1_backward_gauss_seidel.html#a28d8e6b31825f860039ccb415bc6c41b":[3,0,4,76,7],
 "classug_1_1_backward_gauss_seidel.html#a3d111fcab3c0a7faf6b91b1a6d6f0be9":[3,0,4,76,0],

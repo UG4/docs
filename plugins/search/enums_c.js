@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['neighborhoodtype_34030',['NeighborhoodType',['../../group__lib__grid__algorithms__neighborhood__util.html#ga63180053a571de089489f4ddec67d29e',1,'ug::NeighborhoodType()'],['../../group__lib__grid__algorithms__neighborhood__util.html#ga63180053a571de089489f4ddec67d29e',1,'NeighborhoodType()(Global Namespace)']]],
-  ['numerictype_34031',['NumericType',['../../classug_1_1_m_m_type_code.html#a82b56c890f1261190b468b7c95bb2088',1,'ug::MMTypeCode']]]
+  ['neighborhoodtype_34028',['NeighborhoodType',['../../group__lib__grid__algorithms__neighborhood__util.html#ga63180053a571de089489f4ddec67d29e',1,'ug::NeighborhoodType()'],['../../group__lib__grid__algorithms__neighborhood__util.html#ga63180053a571de089489f4ddec67d29e',1,'NeighborhoodType()(Global Namespace)']]],
+  ['numerictype_34029',['NumericType',['../../classug_1_1_m_m_type_code.html#a82b56c890f1261190b468b7c95bb2088',1,'ug::MMTypeCode']]]
 ];

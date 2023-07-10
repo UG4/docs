@@ -100,6 +100,7 @@ $(document).ready(function(){initNavTree('file__io__ugx__impl_8hpp.html',''); in
 <code>#include &lt;cstring&gt;</code><br />
 <code>#include &quot;<a class="el" href="debug__util_8h_source.html">lib_grid/algorithms/debug_util.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="global__attachments_8h_source.html">lib_grid/global_attachments.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="projection__handler_8h_source.html">lib_grid/refinement/projectors/projection_handler.h</a>&quot;</code><br />
 </div>
 <p><a href="file__io__ugx__impl_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -114,6 +115,9 @@ Functions</h2></td></tr>
 <tr class="memitem:aa6ae17d75b8389cd4addc4d9085f4e1c"><td class="memTemplParams" colspan="2">template&lt;class TAPosition &gt; </td></tr>
 <tr class="memitem:aa6ae17d75b8389cd4addc4d9085f4e1c"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug.html#aa6ae17d75b8389cd4addc4d9085f4e1c">ug::LoadGridFromUGX</a> (Grid &amp;grid, ISubsetHandler &amp;sh, const char *filename, TAPosition &amp;aPos)</td></tr>
 <tr class="separator:aa6ae17d75b8389cd4addc4d9085f4e1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af43172846c5e0ff11abfd0bdd44b2c99"><td class="memTemplParams" colspan="2">template&lt;class TAPosition &gt; </td></tr>
+<tr class="memitem:af43172846c5e0ff11abfd0bdd44b2c99"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug.html#af43172846c5e0ff11abfd0bdd44b2c99">ug::LoadGridFromUGX</a> (Grid &amp;grid, SPProjectionHandler &amp;ph, size_t &amp;num_ph, ISubsetHandler &amp;sh, std::vector&lt; std::string &gt; additionalSHNames, std::vector&lt; <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; ISubsetHandler &gt;&gt; ash, const char *filename, TAPosition &amp;aPos)</td></tr>
+<tr class="separator:af43172846c5e0ff11abfd0bdd44b2c99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac341215465021ae4241067af84f71a9"><td class="memTemplParams" colspan="2">template&lt;class TAPosition &gt; </td></tr>
 <tr class="memitem:aac341215465021ae4241067af84f71a9"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug.html#aac341215465021ae4241067af84f71a9">ug::SaveGridToUGX</a> (Grid &amp;grid, ISubsetHandler &amp;sh, const char *filename, TAPosition &amp;aPos)</td></tr>
 <tr class="memdesc:aac341215465021ae4241067af84f71a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a grid to an ugx file. internally uses <a class="el" href="classug_1_1_grid_writer_u_g_x.html" title="Grants write access to ugx files.">GridWriterUGX</a>.  <a href="namespaceug.html#aac341215465021ae4241067af84f71a9">More...</a><br /></td></tr>
@@ -125,7 +129,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_9cb5fcd0cbd108e4de7ac968a9e51f3d.html">lib_grid</a></li><li class="navelem"><a class="el" href="dir_61516e194be0d9e809ff8d4a42531234.html">file_io</a></li><li class="navelem"><a class="el" href="file__io__ugx__impl_8hpp.html">file_io_ugx_impl.hpp</a></li>
-    <li class="footer">Generated on Mon Jul 3 2023 01:18:19 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Jul 10 2023 01:16:15 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
