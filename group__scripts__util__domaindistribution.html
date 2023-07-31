@@ -216,7 +216,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>create a partition map by performing repeated bisection</p>
-<p>location: /home/runner/work/docs/docs/ug4/ugcore/scripts/util / <a class="el" href="domain__distribution__util_8lua.html">domain_distribution_util.lua</a> :132-162 </p>
+<p>location: /home/runner/work/docs/docs/ug4/ugcore/scripts/util / <a class="el" href="domain__distribution__util_8lua.html">domain_distribution_util.lua</a> :132-165 </p>
 
 </div>
 </div>
@@ -264,7 +264,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>performs lexicographic ordering from the lower left to the upper right. Since each node can consist of multiple processes, we can further perform a 'hierarchical' lexicographic ordering. Set numProcsPerNode to 1 to retrieve a default ordering. Set it to any square of n (n = 2, 3, ...) to retrieve lexicographic ordered subgrids in each node (a node is considered to be a square grid itself). If numProcsPerNode is not a square-number, then it will be defaulted to 1. Since this method adds target procs 0, ..., numNodesX * numNodesY * numProcsPerNode to the given partitionMap, it is not suited for redistribution.</p>
-<p>location: /home/runner/work/docs/docs/ug4/ugcore/scripts/util / <a class="el" href="domain__distribution__util_8lua.html">domain_distribution_util.lua</a> :198-233 </p>
+<p>location: /home/runner/work/docs/docs/ug4/ugcore/scripts/util / <a class="el" href="domain__distribution__util_8lua.html">domain_distribution_util.lua</a> :201-236 </p>
 
 </div>
 </div>
@@ -306,7 +306,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>create a partition map by using metis graph partitioning. This only works if Metis is available in the current build. Use PartitionDomain_MetisKWay directly in this case.</p>
-<p>location: /home/runner/work/docs/docs/ug4/ugcore/scripts/util / <a class="el" href="domain__distribution__util_8lua.html">domain_distribution_util.lua</a> :167-173 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.PartitionMapMetis(dom, partitionMapOut, numProcs, baseLevel)</div>
+<p>location: /home/runner/work/docs/docs/ug4/ugcore/scripts/util / <a class="el" href="domain__distribution__util_8lua.html">domain_distribution_util.lua</a> :170-176 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.PartitionMapMetis(dom, partitionMapOut, numProcs, baseLevel)</div>
 <div class="line">  <span class="keywordflow">if</span>(partitionMapOut:num_target_procs() ~= numProcs) then</div>
 <div class="line">    partitionMapOut:clear()</div>
 <div class="line">    partitionMapOut:add_target_procs(0, numProcs)</div>
@@ -361,7 +361,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>create a partition map by using metis graph partitioning and correct weights of dual graph edges by weighting function. This only works if Metis is available in the current build. Use PartitionDomain_MetisKWay directly in this case.</p>
-<p>location: /home/runner/work/docs/docs/ug4/ugcore/scripts/util / <a class="el" href="domain__distribution__util_8lua.html">domain_distribution_util.lua</a> :179-185 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.PartitionMapMetisReweigh(dom, partitionMapOut, numProcs, baseLevel, wFct)</div>
+<p>location: /home/runner/work/docs/docs/ug4/ugcore/scripts/util / <a class="el" href="domain__distribution__util_8lua.html">domain_distribution_util.lua</a> :182-188 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.PartitionMapMetisReweigh(dom, partitionMapOut, numProcs, baseLevel, wFct)</div>
 <div class="line">  <span class="keywordflow">if</span>(partitionMapOut:num_target_procs() ~= numProcs) then</div>
 <div class="line">    partitionMapOut:clear()</div>
 <div class="line">    partitionMapOut:add_target_procs(0, numProcs)</div>
@@ -415,7 +415,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Partitions the grid by assigning each element to a process corresponding to the index of the cell in which the elements center lies. Make sure that numNodesX, numNodesY and numNodesZ are &gt;= 1.</p>
-<p>location: /home/runner/work/docs/docs/ug4/ugcore/scripts/util / <a class="el" href="domain__distribution__util_8lua.html">domain_distribution_util.lua</a> :238-249 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.PartitionMapRegularGrid(dom, partitionMapOut, numNodesX, numNodesY, numNodesZ)</div>
+<p>location: /home/runner/work/docs/docs/ug4/ugcore/scripts/util / <a class="el" href="domain__distribution__util_8lua.html">domain_distribution_util.lua</a> :241-252 </p><div class="fragment"><div class="line"><span class="keyword">function</span> util.PartitionMapRegularGrid(dom, partitionMapOut, numNodesX, numNodesY, numNodesZ)</div>
 <div class="line">  <a class="code" href="namespaceug_1_1detail.html#a846ed8ea114ba03ffdf4c69f2b7fd5ea">local</a> numProcsRequired = numNodesX * numNodesY * numNodesZ</div>
 <div class="line">  <span class="keywordflow">if</span> <a class="code" href="group__pcl.html#ga7a09a2eab069305ca735847eed023d2f">NumProcs</a>() &lt; (numProcsRequired) then</div>
 <div class="line">    <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(<span class="stringliteral">&quot;Not enough processes allocated. At least &quot;</span> .. numProcsRequired .. <span class="stringliteral">&quot; processes are required!&quot;</span>)</div>
@@ -440,7 +440,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jul 24 2023 01:07:57 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Jul 31 2023 01:03:56 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
