@@ -22,7 +22,6 @@ var classug_1_1_active_set =
     [ "set_obstacle", "classug_1_1_active_set.html#a0c5c92da8f11b4b187fe4576451c6e66", null ],
     [ "dim", "classug_1_1_active_set.html#a09ea5010498f86b944671d0462d308a2", null ],
     [ "m_bObs", "classug_1_1_active_set.html#aa4cf12019f15d164f8833348b9968266", null ],
-    [ "m_nrFcts", "classug_1_1_active_set.html#a68250785664409538be0afd8e9bc1a67", null ],
     [ "m_spDD", "classug_1_1_active_set.html#a241e25ef6dc91ee413adf04f0745386c", null ],
     [ "m_spDom", "classug_1_1_active_set.html#a70f0a48fc41a16e084feed81d6469f19", null ],
     [ "m_spLagMultDisc", "classug_1_1_active_set.html#ad973705ffabacd9cd07d8d9e3e7d8d9e", null ],

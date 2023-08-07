@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['quadtype_34479',['QuadType',['../quadrature__provider_8h.html#a35e2e7ec4c571cf5c38889b9b274aeb0',1,'quadrature_provider.h']]]
+  ['quadtype_34488',['QuadType',['../quadrature__provider_8h.html#a35e2e7ec4c571cf5c38889b9b274aeb0',1,'quadrature_provider.h']]]
 ];

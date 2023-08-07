@@ -57,6 +57,7 @@ var hierarchy =
       [ "ug::Grid::AttachmentAccessor< ug::Face, ug::Attachment< PeriodicStatus > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ],
       [ "ug::Grid::AttachmentAccessor< ug::Vertex, ug::Attachment< ug::PeriodicBoundaryManager::Group< ug::Vertex > * > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ],
       [ "ug::Grid::AttachmentAccessor< ug::Face, Attachment< unsigned char > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ],
+      [ "ug::Grid::AttachmentAccessor< elem_type, Attachment< data_type > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ],
       [ "ug::Grid::AttachmentAccessor< Vertex, ADoF >", "classug_1_1_grid_1_1_attachment_accessor.html", null ],
       [ "ug::Grid::AttachmentAccessor< ug::Edge, Attachment< vector< TargetProcInfo > > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ],
       [ "ug::Grid::AttachmentAccessor< ug::Face, Attachment< bool > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ],
@@ -3086,6 +3087,7 @@ var hierarchy =
         [ "ug::Attachment< vector_t >", "classug_1_1_attachment.html", null ],
         [ "ug::Attachment< subset_pair_t >", "classug_1_1_attachment.html", null ],
         [ "ug::Attachment< Vertex * >", "classug_1_1_attachment.html", null ],
+        [ "ug::Attachment< data_type >", "classug_1_1_attachment.html", null ],
         [ "ug::Attachment< ElemInfoVol >", "classug_1_1_attachment.html", null ],
         [ "ug::Attachment< number >", "classug_1_1_attachment.html", null ],
         [ "ug::Attachment< bool >", "classug_1_1_attachment.html", null ],
@@ -3182,9 +3184,6 @@ var hierarchy =
             [ "ug::StdDependentUserData< GridFunctionVectorData< TGridFunction >, MathVector< TGridFunction::dim >, TGridFunction::dim >", "classug_1_1_std_dependent_user_data.html", [
               [ "ug::GridFunctionVectorData< TGridFunction >", "classug_1_1_grid_function_vector_data.html", null ]
             ] ],
-            [ "ug::StdDependentUserData< GlobAttachmentElementUserData< TDomain >, number, TDomain::dim >", "classug_1_1_std_dependent_user_data.html", [
-              [ "ug::GlobAttachmentElementUserData< TDomain >", "classug_1_1_glob_attachment_element_user_data.html", null ]
-            ] ],
             [ "ug::StdDependentUserData< VectorDataExport< dim >, MathVector< dim >, dim >", "classug_1_1_std_dependent_user_data.html", [
               [ "ug::VectorDataExport< dim >", "classug_1_1_vector_data_export.html", null ]
             ] ],
@@ -3246,6 +3245,9 @@ var hierarchy =
         [ "ug::CplUserData< TData, dim, TRet >", "classug_1_1_cpl_user_data.html", [
           [ "ug::StdUserData< SeparatedPressureSourceInter< TGridFunction >, MathVector< TGridFunction::dim >, TGridFunction::dim >", "classug_1_1_std_user_data.html", null ],
           [ "ug::StdUserData< SeparatedPressureSource< TGridFunction >, MathVector< TGridFunction::dim >, TGridFunction::dim >", "classug_1_1_std_user_data.html", null ],
+          [ "ug::StdUserData< GlobAttachmentElementUserData< WDim, number >, number, WDim >", "classug_1_1_std_user_data.html", [
+            [ "ug::GlobAttachmentElementUserData< WDim, TData >", "classug_1_1_glob_attachment_element_user_data.html", null ]
+          ] ],
           [ "ug::StdUserData< EdgeOrientation< TDomain >, MathVector< TDomain::dim >, TDomain::dim >", "classug_1_1_std_user_data.html", [
             [ "ug::EdgeOrientation< TDomain >", "classug_1_1_edge_orientation.html", null ]
           ] ],

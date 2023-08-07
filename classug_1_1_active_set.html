@@ -178,9 +178,6 @@ Static Public Attributes</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:aa4cf12019f15d164f8833348b9968266"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_active_set.html#aa4cf12019f15d164f8833348b9968266">m_bObs</a></td></tr>
 <tr class="separator:aa4cf12019f15d164f8833348b9968266"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68250785664409538be0afd8e9bc1a67"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_active_set.html#a68250785664409538be0afd8e9bc1a67">m_nrFcts</a></td></tr>
-<tr class="memdesc:a68250785664409538be0afd8e9bc1a67"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of functions  <a href="classug_1_1_active_set.html#a68250785664409538be0afd8e9bc1a67">More...</a><br /></td></tr>
-<tr class="separator:a68250785664409538be0afd8e9bc1a67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a241e25ef6dc91ee413adf04f0745386c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_do_f_distribution.html">DoFDistribution</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_active_set.html#a241e25ef6dc91ee413adf04f0745386c">m_spDD</a></td></tr>
 <tr class="memdesc:a241e25ef6dc91ee413adf04f0745386c"><td class="mdescLeft">&#160;</td><td class="mdescRight">pointer to the DofDistribution on the whole domain  <a href="classug_1_1_active_set.html#a241e25ef6dc91ee413adf04f0745386c">More...</a><br /></td></tr>
 <tr class="separator:a241e25ef6dc91ee413adf04f0745386c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -190,7 +187,7 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:ad973705ffabacd9cd07d8d9e3e7d8d9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">pointer to a lagrangeMultiplier-Disc  <a href="classug_1_1_active_set.html#ad973705ffabacd9cd07d8d9e3e7d8d9e">More...</a><br /></td></tr>
 <tr class="separator:ad973705ffabacd9cd07d8d9e3e7d8d9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf611ba71ad3377cab5ec40325c5eea6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_active_set.html#a18ed28cda171fa80d56a420d49e1c925">function_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_active_set.html#adf611ba71ad3377cab5ec40325c5eea6">m_spObs</a></td></tr>
-<tr class="memdesc:adf611ba71ad3377cab5ec40325c5eea6"><td class="mdescLeft">&#160;</td><td class="mdescRight">pointer to a gridfunction describing an obstacle-constraint  <a href="classug_1_1_active_set.html#adf611ba71ad3377cab5ec40325c5eea6">More...</a><br /></td></tr>
+<tr class="memdesc:adf611ba71ad3377cab5ec40325c5eea6"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of functions  <a href="classug_1_1_active_set.html#adf611ba71ad3377cab5ec40325c5eea6">More...</a><br /></td></tr>
 <tr class="separator:adf611ba71ad3377cab5ec40325c5eea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b4e1f203932f5b92082c4417982cedc"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="namespaceug.html#aa8d30d052236b8597b21626904d04edb">DoFIndex</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_active_set.html#a8b4e1f203932f5b92082c4417982cedc">m_vActiveSetGlob</a></td></tr>
 <tr class="memdesc:a8b4e1f203932f5b92082c4417982cedc"><td class="mdescLeft">&#160;</td><td class="mdescRight">vector of the current active set of global DoFIndices  <a href="classug_1_1_active_set.html#a8b4e1f203932f5b92082c4417982cedc">More...</a><br /></td></tr>
@@ -373,8 +370,6 @@ template&lt;typename TDomain , typename TAlgebra &gt; </div>
 </div><div class="memdoc">
 
 <p>constructor </p>
-
-<p class="reference">References <a class="el" href="namespaceug.html#ae49e2879be5e2ce34a8a9db509c497ee">ug::GetSize()</a>.</p>
 
 </div>
 </div>
@@ -907,32 +902,6 @@ template&lt;typename TDomain , typename TAlgebra &gt; </div>
 
 </div>
 </div>
-<a id="a68250785664409538be0afd8e9bc1a67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68250785664409538be0afd8e9bc1a67">&#9670;&nbsp;</a></span>m_nrFcts</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename TDomain , typename TAlgebra &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t <a class="el" href="classug_1_1_active_set.html">ug::ActiveSet</a>&lt; TDomain, TAlgebra &gt;::m_nrFcts</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>number of functions </p>
-
-</div>
-</div>
 <a id="a241e25ef6dc91ee413adf04f0745386c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a241e25ef6dc91ee413adf04f0745386c">&#9670;&nbsp;</a></span>m_spDD</h2>
 
@@ -1031,6 +1000,7 @@ template&lt;typename TDomain , typename TAlgebra &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>number of functions </p>
 <p>pointer to a gridfunction describing an obstacle-constraint </p>
 
 </div>
@@ -1123,7 +1093,7 @@ template&lt;typename TDomain , typename TAlgebra &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_active_set.html">ActiveSet</a></li>
-    <li class="footer">Generated on Mon Jul 31 2023 01:03:58 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Aug 7 2023 01:03:39 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

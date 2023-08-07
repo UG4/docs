@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['jupyter_34612',['Jupyter',['../group__sample__plugin.html',1,'']]]
+  ['jupyter_34633',['Jupyter',['../group__sample__plugin.html',1,'']]]
 ];

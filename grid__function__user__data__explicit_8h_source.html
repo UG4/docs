@@ -221,7 +221,7 @@ $(document).ready(function(){initNavTree('grid__function__user__data__explicit_8
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;      <span class="keywordflow">case</span> 1: eval&lt;1&gt;(u,elem,vCornerCoords,bDeriv); <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;      <span class="keywordflow">case</span> 2: eval&lt;2&gt;(u,elem,vCornerCoords,bDeriv); <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;      <span class="keywordflow">case</span> 3: eval&lt;3&gt;(u,elem,vCornerCoords,bDeriv); <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;      <span class="keywordflow">default</span>: <a class="code" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>(<span class="stringliteral">&quot;StdDependentUserData: Dimension not supported.&quot;</span>);</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;      <span class="keywordflow">default</span>: <a class="code" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>(<span class="stringliteral">&quot;StdExplicitGridFunctionData: Dimension not supported.&quot;</span>);</div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    }</div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;  }</div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160; </div>
@@ -236,7 +236,7 @@ $(document).ready(function(){initNavTree('grid__function__user__data__explicit_8
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;      <span class="keywordflow">case</span> 1: eval&lt;1&gt;(u,elem,vCornerCoords,bDeriv); <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;      <span class="keywordflow">case</span> 2: eval&lt;2&gt;(u,elem,vCornerCoords,bDeriv); <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;      <span class="keywordflow">case</span> 3: eval&lt;3&gt;(u,elem,vCornerCoords,bDeriv); <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;      <span class="keywordflow">default</span>: <a class="code" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>(<span class="stringliteral">&quot;StdDependentUserData: Dimension not supported.&quot;</span>);</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;      <span class="keywordflow">default</span>: <a class="code" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>(<span class="stringliteral">&quot;StdExplicitGridFunctionData: Dimension not supported.&quot;</span>);</div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    }</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;  }</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160; </div>
@@ -537,7 +537,7 @@ $(document).ready(function(){initNavTree('grid__function__user__data__explicit_8
 <div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160; </div>
 <div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;        <span class="comment">//  store tmp Gradient</span></div>
 <div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;        vJT = &amp;(vJTTmp[0]);</div>
-<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;      }<a class="code" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>(<span class="stringliteral">&quot;GridFunctionGradientData: failed.&quot;</span>);</div>
+<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;      }<a class="code" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>(<span class="stringliteral">&quot;ExplicitGridFunctionGradient: failed.&quot;</span>);</div>
 <div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;    }</div>
 <div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160; </div>
 <div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;    <span class="comment">// scale with coeficient</span></div>
@@ -707,7 +707,7 @@ $(document).ready(function(){initNavTree('grid__function__user__data__explicit_8
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_df0e37446a9fd4242d0753cd346d4a6c.html">lib_disc</a></li><li class="navelem"><a class="el" href="dir_2377bdc3bce2db83d3a95ac44ec5f4e1.html">function_spaces</a></li><li class="navelem"><a class="el" href="grid__function__user__data__explicit_8h.html">grid_function_user_data_explicit.h</a></li>
-    <li class="footer">Generated on Mon Jul 31 2023 01:03:36 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Aug 7 2023 01:03:18 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
