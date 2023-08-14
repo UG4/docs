@@ -1,5 +1,8 @@
 var NAVTREEINDEX151 =
 {
+"structug_1_1_elem_error_sort_desc.html#ad46c3ccb8594a4ed8afbc031e6e41f32":[3,0,4,321,3],
+"structug_1_1_element_side_ray_intersection_wrapper.html":[3,0,4,312],
+"structug_1_1_element_side_ray_intersection_wrapper.html#a6810ce29795db869142cefad45faea0b":[3,0,4,312,0],
 "structug_1_1_element_side_ray_intersection_wrapper_3_01_t_ref_elem_00_012_00_012_01_4.html":[3,0,4,313],
 "structug_1_1_element_side_ray_intersection_wrapper_3_01_t_ref_elem_00_012_00_012_01_4.html#a4460fe8fb49444fd5e5035f29efb5eb0":[3,0,4,313,0],
 "structug_1_1_element_side_ray_intersection_wrapper_3_01_t_ref_elem_00_013_00_013_01_4.html":[3,0,4,314],
@@ -246,8 +249,5 @@ var NAVTREEINDEX151 =
 "structug_1_1_i_obstacle_constraint_1_1_cond_number_data.html#a10896777b700416fd019d153834bb831":[3,0,4,734,0,1],
 "structug_1_1_i_obstacle_constraint_1_1_cond_number_data.html#a25dc1c44d0f6b4b57228b19d994ab389":[3,0,4,734,0,9],
 "structug_1_1_i_obstacle_constraint_1_1_cond_number_data.html#a390cc1aa9cbb337fd46ac0d03eb9a028":[3,0,4,734,0,10],
-"structug_1_1_i_obstacle_constraint_1_1_cond_number_data.html#a40c3cd86ccb621e260a46d4d4322155f":[3,0,4,734,0,11],
-"structug_1_1_i_obstacle_constraint_1_1_cond_number_data.html#a4278f02ef6866f8478684c7e2b194e2f":[3,0,4,734,0,4],
-"structug_1_1_i_obstacle_constraint_1_1_cond_number_data.html#a8b6d9d8ca5697284b5dbc0d7ccd3d2cf":[3,0,4,734,0,2],
-"structug_1_1_i_obstacle_constraint_1_1_cond_number_data.html#a9fb5983d817a2d17998230da67a5e1db":[3,0,4,734,0,3]
+"structug_1_1_i_obstacle_constraint_1_1_cond_number_data.html#a40c3cd86ccb621e260a46d4d4322155f":[3,0,4,734,0,11]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX145 =
 {
+"quadrature__provider_8cpp.html":[4,0,2,5,8,8],
+"quadrature__provider_8cpp.html#a1a081693d793bc8188875a7fc6cea2d6":[4,0,2,5,8,8,0],
+"quadrature__provider_8cpp.html#ab228130e31c875ff4f30b29d25397388":[4,0,2,5,8,8,1],
 "quadrature__provider_8h.html":[4,0,2,5,8,9],
 "quadrature__provider_8h.html#a1a081693d793bc8188875a7fc6cea2d6":[4,0,2,5,8,9,2],
 "quadrature__provider_8h.html#a35e2e7ec4c571cf5c38889b9b274aeb0":[4,0,2,5,8,9,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX145 =
 "scalar__matrix__adapter_8hh.html#a5f2900aa3017e1867eed5c141c4c33b8":[4,0,2,4,1,0,3],
 "scalar__matrix__adapter_8hh.html#acf64bcddf33f2a4ccbd96c9fd80e774a":[4,0,2,4,1,0,4],
 "scalar__matrix__adapter_8hh_source.html":[4,0,2,4,1,0],
-"scalar__obstacle_8h.html":[4,0,2,4,9,3,0,0,5],
-"scalar__obstacle_8h_source.html":[4,0,2,4,9,3,0,0,5],
-"scalar__obstacle__impl_8h.html":[4,0,2,4,9,3,0,0,6],
-"scalar__obstacle__impl_8h_source.html":[4,0,2,4,9,3,0,0,6]
+"scalar__obstacle_8h.html":[4,0,2,4,9,3,0,0,5]
 };

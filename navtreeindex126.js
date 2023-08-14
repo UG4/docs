@@ -1,5 +1,10 @@
 var NAVTREEINDEX126 =
 {
+"namespaceug.html#a1f0e19a0ec74b2ebb64238aeb498c51ba1a00fd81e9c601abf733dbcb69d0f91f":[2,0,5,1503,10],
+"namespaceug.html#a1f0e19a0ec74b2ebb64238aeb498c51ba2e28620d8e39d511824ee28b938599da":[2,0,5,1503,8],
+"namespaceug.html#a1f0e19a0ec74b2ebb64238aeb498c51ba3e6d041f11a7c2e4ab2e2c62c59a9565":[2,0,5,1503,7],
+"namespaceug.html#a1f0e19a0ec74b2ebb64238aeb498c51ba4b332f106283ca658ea73eed678a3da2":[2,0,5,1503,2],
+"namespaceug.html#a1f0e19a0ec74b2ebb64238aeb498c51ba62082cd052db3e2f4dfddce6535fb53a":[2,0,5,1503,0],
 "namespaceug.html#a1f0e19a0ec74b2ebb64238aeb498c51ba630b6009dcce909a079c8aa406dd3538":[2,0,5,1503,9],
 "namespaceug.html#a1f0e19a0ec74b2ebb64238aeb498c51baadb16c2cf63ad1beb7c1576a063adddf":[2,0,5,1503,6],
 "namespaceug.html#a1f0e19a0ec74b2ebb64238aeb498c51bab0a370765b9986643e0408001f84b2d3":[2,0,5,1503,3],
@@ -211,8 +216,6 @@ var NAVTREEINDEX126 =
 "namespaceug.html#a338a954d2bcc56bb2a678fc78315dcfa":[2,0,5,3048],
 "namespaceug.html#a339392619772305bee340864ce645a73":[2,0,5,2063],
 "namespaceug.html#a33c1491a216aec0f5a603a9a3dd6f758":[2,0,5,4395],
-"classug_1_1_hanging_node_refiner_base.html#a5f9fa2b93a8090841dcf9b561c118020":[1,0,2,0,0,7,31],
-"classug_1_1_sparse_matrix.html#a5e30822ac8ca642f62005c8799642b31":[1,0,0,0,6,33],
 "namespaceug.html#a340f7668c9d2be58cb2cab399c9d92fc":[2,0,5,3722],
 "namespaceug.html#a341ca8518a135347359c08689c3ddd9a":[2,0,5,1349],
 "namespaceug.html#a341e5492db35ab1ff839cc3b200556a3":[2,0,5,3424],
@@ -246,8 +249,5 @@ var NAVTREEINDEX126 =
 "namespaceug.html#a37c7fa3cc3b421e4cdaa583f8a3659d9":[2,0,5,2293],
 "namespaceug.html#a37d6393a98d309e10a9578749b6514e7":[2,0,5,3091],
 "namespaceug.html#a380d14d41ba76f3024375838f90945ea":[2,0,5,2286],
-"namespaceug.html#a385d401d358333e128bc992c0e265917":[2,0,5,2219],
-"namespaceug.html#a38976a7e922fd9c32ebc0091bdce06d9":[2,0,5,2914],
-"namespaceug.html#a38df756911663c8621f1af66fc0d97ac":[2,0,5,2834],
-"namespaceug.html#a38f3ec1e1045e394e5caa76651fe0c73":[2,0,5,3779]
+"namespaceug.html#a385d401d358333e128bc992c0e265917":[2,0,5,2219]
 };

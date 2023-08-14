@@ -1,5 +1,7 @@
 var NAVTREEINDEX161 =
 {
+"structug_1_1vector__attachment__reduce__traits.html#aada0d3ed74d938bbb15fe044c83c628c":[3,0,4,1272,3],
+"structug_1_1vector__attachment__reduce__traits.html#abe5a402d5628476bdffbfa4d903d1bbd":[3,0,4,1272,5],
 "structug_1_1vector__attachment__reduce__traits.html#aca84dfce5e0ef863872f64da85bb2741":[3,0,4,1272,0],
 "structug_1_1vector__attachment__reduce__traits.html#adc37777f722d70b15c9c54e32eb635c3":[3,0,4,1272,1],
 "structug_1_1vector__attachment__reduce__traits.html#ae4d3b407f94f1e7d9c7c9be993b90597":[3,0,4,1272,2],
@@ -41,8 +43,6 @@ var NAVTREEINDEX161 =
 "structug_1_1vrl_1_1vrl__traits_3_01ug_1_1_math_vector_3_01dim_01_4_01_4.html#a9676cff9e4d09637a091cfb36a4697e0":[3,0,4,8,13,6],
 "structug_1_1vrl_1_1vrl__traits_3_01ug_1_1_math_vector_3_01dim_01_4_01_4.html#a9b3c6d2199d5e26eef135a774b824523":[3,0,4,8,13,10],
 "structug_1_1vrl_1_1vrl__traits_3_01ug_1_1_math_vector_3_01dim_01_4_01_4.html#ae00b4c95185e676360bfdf4098e6a03e":[3,0,4,8,13,9],
-"":[2,0,5,5,0],
-"page_additional_software.html":[0,5,2,0],
 "structug_1_1xy.html":[3,0,4,1287],
 "structug_1_1xy.html#a0502ec52ca188fd60aa4b407c6133c9c":[3,0,4,1287,0],
 "structug_1_1xy.html#acc68b56ed210582b04108fa36832a5ee":[3,0,4,1287,1],

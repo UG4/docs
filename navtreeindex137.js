@@ -1,5 +1,9 @@
 var NAVTREEINDEX137 =
 {
+"namespaceug_1_1tet__rules.html#af10518055aa3246e6443fb9d6fdc558e":[2,0,5,27,2],
+"namespaceug_1_1tet__rules.html#afa3000c273e6c5fae6d85673cecd816d":[2,0,5,27,11],
+"namespaceug_1_1tet__rules.html#affc5181a744b23d51ce2e4685c23b66d":[2,0,5,27,12],
+"namespaceug_1_1tools.html#a2acc6ef6fe272e612ef897ef690ff9f5":[2,0,5,28,0],
 "namespaceug_1_1tools.html#a8f94e302d544fa0619d14621226ccb32":[2,0,5,28,4],
 "namespaceug_1_1tools.html#acb3d8e1775f7e946024775f0678bff4f":[2,0,5,28,3],
 "namespaceug_1_1tools.html#acf4d28998c31c59ab32dcbd762e69d74":[2,0,5,28,5],
@@ -144,9 +148,6 @@ var NAVTREEINDEX137 =
 "namespaceug_1_1vrl_1_1threading.html#ad5d2391adf4ce478c67bf82ee1e98565a2c1d2139e7928e6dee2f223490b526cf":[2,0,5,30,1,1,2],
 "namespaceug_1_1vrl_1_1threading.html#ad5d2391adf4ce478c67bf82ee1e98565a64601b6cdb933eabffc2356b02ae7483":[2,0,5,30,1,1,1],
 "namespaceugtypes.html":[2,0,6],
-"structug_1_1block__traits_3_01_dense_matrix_3_01_fixed_array2_3_01number_00_013_00_013_00_01_t_ordering_01_4_01_4_01_4.html":[3,0,4,106],
-"":[2,0,5,3],
-"namespaceug_1_1detail_1_1factory.html":[2,0,5,4,1],
 "native__cuthill__mckee_8cpp.html":[4,0,2,4,10,0,4],
 "native__cuthill__mckee_8cpp.html#a1b5b97c7b726efb059a77cc112778b06":[4,0,2,4,10,0,4,3],
 "native__cuthill__mckee_8cpp.html#a26d9061a8c0f68cfc011f5be3182e28c":[4,0,2,4,10,0,4,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX137 =
 "newton__cotes_8h.html":[4,0,2,5,8,4,1],
 "newton__cotes_8h_source.html":[4,0,2,5,8,4,1],
 "newton__impl_8h.html":[4,0,2,5,5,1,0,1],
-"newton__impl_8h.html#a2de04e88b888dde4031e89254b268a46":[4,0,2,5,5,1,0,1,1],
-"newton__impl_8h.html#a6e3b3ffee66f5936d324163de4610c55":[4,0,2,5,5,1,0,1,2]
+"newton__impl_8h.html#a2de04e88b888dde4031e89254b268a46":[4,0,2,5,5,1,0,1,1]
 };

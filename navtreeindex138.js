@@ -1,5 +1,6 @@
 var NAVTREEINDEX138 =
 {
+"newton__impl_8h.html#a6e3b3ffee66f5936d324163de4610c55":[4,0,2,5,5,1,0,1,2],
 "newton__impl_8h.html#ac2f6cfa8a8acce141593606dd4fa5a9b":[4,0,2,5,5,1,0,1,0],
 "newton__impl_8h.html#ae1622dd609ea61c3ee7184ad979c3c96":[4,0,2,5,5,1,0,1,3],
 "newton__impl_8h_source.html":[4,0,2,5,5,1,0,1],
@@ -235,6 +236,7 @@ var NAVTREEINDEX138 =
 "operator_8h_source.html":[4,0,2,4,9,1,7],
 "operator__inverse_8h.html":[4,0,2,4,9,1,8],
 "operator__inverse_8h_source.html":[4,0,2,4,9,1,8],
+"operator__inverse__iterator_8h.html":[4,0,2,4,9,3,10],
 "operator__inverse__iterator_8h_source.html":[4,0,2,4,9,3,10],
 "operator__util_8h.html":[4,0,2,4,9,14],
 "operator__util_8h.html#aaf613eac384df12afe60fdfa22e80721":[4,0,2,4,9,14,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX138 =
 "orientation_8cpp.html#a3b4e2f1d4e4932c1928606e6a2374532":[4,0,2,5,1,10,6],
 "orientation_8cpp.html#a50baeca6f0d797156bdbe5acd77cd3ce":[4,0,2,5,1,10,12],
 "orientation_8cpp.html#a6528f75bb8c2f81be255fb7c98e11a4a":[4,0,2,5,1,10,3],
-"orientation_8cpp.html#a656e210053c7ca69495a8ec1dda2edbb":[4,0,2,5,1,10,5],
-"orientation_8cpp.html#ab72fcfbb4bf4689c56b1b1f1974a2068":[4,0,2,5,1,10,4],
-"orientation_8cpp.html#abb032cb93fdc9683f704ff56475c007f":[4,0,2,5,1,10,9]
+"orientation_8cpp.html#a656e210053c7ca69495a8ec1dda2edbb":[4,0,2,5,1,10,5]
 };

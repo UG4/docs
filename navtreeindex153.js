@@ -1,6 +1,5 @@
 var NAVTREEINDEX153 =
 {
-"structug_1_1_multi_grid_subset_handler_1_1_subset.html#aa17e5b1ce4c8180d3d4f61b9b90240b1":[1,0,2,4,3,0,1],
 "structug_1_1_multi_grid_subset_handler_1_1_subset.html#adefd3f2e3410614a6ed6c80ac1bd139a":[1,0,2,4,3,0,0],
 "structug_1_1_multi_grid_subset_handler_1_1_subset.html#afdae036201bc19d100a5ca524b64dbe7":[1,0,2,4,3,0,2],
 "structug_1_1_my_vector_traits.html":[3,0,4,948],
@@ -249,5 +248,6 @@ var NAVTREEINDEX153 =
 "structug_1_1_raster_layer_desc.html#aca01e38359bd0e7cb1a9db11281ca0fd":[3,0,4,1052,4],
 "structug_1_1_raster_layers_1_1layer__t.html":[3,0,4,1053,0],
 "structug_1_1_raster_layers_1_1layer__t.html#a5337d4b6dae7e5e9f8c6ff6e7f7fc8d9":[3,0,4,1053,0,0],
-"structug_1_1_raster_layers_1_1layer__t.html#a62570407481bc193919e83f54c2969ce":[3,0,4,1053,0,1]
+"structug_1_1_raster_layers_1_1layer__t.html#a62570407481bc193919e83f54c2969ce":[3,0,4,1053,0,1],
+"structug_1_1_raster_layers_1_1layer__t.html#ac566c7b7fa6e1f033854dd04172dab6b":[3,0,4,1053,0,4]
 };

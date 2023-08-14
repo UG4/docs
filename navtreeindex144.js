@@ -1,5 +1,8 @@
 var NAVTREEINDEX144 =
 {
+"plugin__util_8h_source.html":[4,0,2,2,5,53],
+"plugin__util_8lua.html":[4,0,1,1,23],
+"plugin__util_8lua.html#a065d11725120a97315a73f9fe28131a3":[4,0,1,1,23,0],
 "plugin__util_8lua.html#ab240b4ddcbff90dcef81fe4570d2cd9b":[4,0,1,1,23,1],
 "plugin__util__dynamic_8cpp.html":[4,0,2,2,5,54],
 "plugin__util__dynamic_8cpp.html#a4c536fc17b9155a16ce0708598a9825c":[4,0,2,2,5,54,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX144 =
 "quad__test_8h.html#ae529b5632b14beff98a43b8b890cf6a1":[4,0,2,5,8,6,0],
 "quad__test_8h_source.html":[4,0,2,5,8,6],
 "quadrature_8h.html":[4,0,2,5,8,7],
-"quadrature_8h_source.html":[4,0,2,5,8,7],
-"quadrature__provider_8cpp.html":[4,0,2,5,8,8],
-"quadrature__provider_8cpp.html#a1a081693d793bc8188875a7fc6cea2d6":[4,0,2,5,8,8,0],
-"quadrature__provider_8cpp.html#ab228130e31c875ff4f30b29d25397388":[4,0,2,5,8,8,1]
+"quadrature_8h_source.html":[4,0,2,5,8,7]
 };

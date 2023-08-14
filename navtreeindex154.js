@@ -1,6 +1,5 @@
 var NAVTREEINDEX154 =
 {
-"structug_1_1_raster_layers_1_1layer__t.html#ac566c7b7fa6e1f033854dd04172dab6b":[3,0,4,1053,0,4],
 "structug_1_1_raster_layers_1_1layer__t.html#ac98d07dd8f7b70e16ccb9a01abf56b9c":[3,0,4,1053,0,2],
 "structug_1_1_raster_layers_1_1layer__t.html#acbad1b740802cb18e046c2bb9dadf667":[3,0,4,1053,0,3],
 "structug_1_1_ray_elem_intersection_record.html":[3,0,4,1056],
@@ -249,5 +248,6 @@ var NAVTREEINDEX154 =
 "structug_1_1attachment__io__traits_3_01_attachment_3_01vector4_01_4_01_4.html#a818bfce83761b0f5c8ed1278ed09bd4b":[3,0,4,53,0],
 "structug_1_1attachment__io__traits_3_01_attachment_3_01vector4_01_4_01_4.html#aa1cbfe49b7a49bfb880023c469eceb23":[3,0,4,53,3],
 "structug_1_1attachment__io__traits_3_01_attachment_3_01vector4_01_4_01_4.html#adb6da1f8b1a8720a2f5184c849fd494f":[3,0,4,53,1],
-"structug_1_1attachment__reduce__traits.html":[3,0,4,54]
+"structug_1_1attachment__reduce__traits.html":[3,0,4,54],
+"structug_1_1attachment__reduce__traits.html#a16125c7ce98caf5de321b1f2b892d18b":[3,0,4,54,4]
 };
