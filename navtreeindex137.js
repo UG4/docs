@@ -1,13 +1,5 @@
 var NAVTREEINDEX137 =
 {
-"namespaceug_1_1tet__rules.html#af10518055aa3246e6443fb9d6fdc558e":[2,0,5,27,2],
-"namespaceug_1_1tet__rules.html#afa3000c273e6c5fae6d85673cecd816d":[2,0,5,27,11],
-"namespaceug_1_1tet__rules.html#affc5181a744b23d51ce2e4685c23b66d":[2,0,5,27,12],
-"namespaceug_1_1tools.html#a2acc6ef6fe272e612ef897ef690ff9f5":[2,0,5,28,0],
-"namespaceug_1_1tools.html#a8f94e302d544fa0619d14621226ccb32":[2,0,5,28,4],
-"namespaceug_1_1tools.html#acb3d8e1775f7e946024775f0678bff4f":[2,0,5,28,3],
-"namespaceug_1_1tools.html#acf4d28998c31c59ab32dcbd762e69d74":[2,0,5,28,5],
-"namespaceug_1_1tools.html#ad278daf012f8a0fbd735d085cad94335":[2,0,5,28,2],
 "namespaceug_1_1tools.html#af7919b9a7c759279217af204c720d8fd":[2,0,5,28,1],
 "namespaceug_1_1util.html":[2,0,5,29],
 "namespaceug_1_1util.html#ad59fd08a706e6220618db39841ac5a02":[2,0,5,29,0],
@@ -249,5 +241,13 @@ var NAVTREEINDEX137 =
 "newton__cotes_8h.html":[4,0,2,5,8,4,1],
 "newton__cotes_8h_source.html":[4,0,2,5,8,4,1],
 "newton__impl_8h.html":[4,0,2,5,5,1,0,1],
-"newton__impl_8h.html#a2de04e88b888dde4031e89254b268a46":[4,0,2,5,5,1,0,1,1]
+"newton__impl_8h.html#a2de04e88b888dde4031e89254b268a46":[4,0,2,5,5,1,0,1,1],
+"newton__impl_8h.html#a6e3b3ffee66f5936d324163de4610c55":[4,0,2,5,5,1,0,1,2],
+"newton__impl_8h.html#ac2f6cfa8a8acce141593606dd4fa5a9b":[4,0,2,5,5,1,0,1,0],
+"newton__impl_8h.html#ae1622dd609ea61c3ee7184ad979c3c96":[4,0,2,5,5,1,0,1,3],
+"newton__impl_8h_source.html":[4,0,2,5,5,1,0,1],
+"newton__update__interface_8h.html":[4,0,2,5,5,1,0,2],
+"newton__update__interface_8h_source.html":[4,0,2,5,5,1,0,2],
+"nl__gauss__seidel_8h.html":[4,0,2,5,5,1,1,0],
+"nl__gauss__seidel_8h_source.html":[4,0,2,5,5,1,1,0]
 };

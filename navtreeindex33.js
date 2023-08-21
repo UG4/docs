@@ -1,17 +1,5 @@
 var NAVTREEINDEX33 =
 {
-"classug_1_1_gauss_legendre.html#a3c657e657b412f836349fa981ee3d1d4":[3,0,4,422,0],
-"classug_1_1_gauss_legendre.html#a76373cc8cce34c714a5e098ddac9f677":[3,0,4,422,1],
-"classug_1_1_gauss_quad_base.html":[3,0,4,423],
-"classug_1_1_gauss_quad_base.html#a0077b9da529425be11a9e8e1d9e70dad":[3,0,4,423,48],
-"classug_1_1_gauss_quad_base.html#a01240583b494bc0f1dce2ec666b2cdd2":[3,0,4,423,111],
-"classug_1_1_gauss_quad_base.html#a025d0b4c5bf439ab7fd895c7a8e22506":[3,0,4,423,5],
-"classug_1_1_gauss_quad_base.html#a04329f60da92aa66f21bd53406522c6d":[3,0,4,423,97],
-"classug_1_1_gauss_quad_base.html#a050b0ff3c90b734d750d38f16ea7b3f9":[3,0,4,423,79],
-"classug_1_1_gauss_quad_base.html#a0c02159b356ba958e12aef3e03baec91":[3,0,4,423,38],
-"classug_1_1_gauss_quad_base.html#a127f8618857a622d6d916d80b5613f6c":[3,0,4,423,94],
-"classug_1_1_gauss_quad_base.html#a12c9e3a42ea8a9304e395409209ac49b":[3,0,4,423,40],
-"classug_1_1_gauss_quad_base.html#a141d52bb4fd14962046a93062818bd7c":[3,0,4,423,70],
 "classug_1_1_gauss_quad_base.html#a145bc90027c1dc880a8b1ad9add560c3":[3,0,4,423,0],
 "classug_1_1_gauss_quad_base.html#a1a3b381581f79da642a2e045ced8122a":[3,0,4,423,84],
 "classug_1_1_gauss_quad_base.html#a1ace1fec19d5254d67669eb96aabc71c":[3,0,4,423,71],
@@ -249,5 +237,17 @@ var NAVTREEINDEX33 =
 "classug_1_1_gauss_seidel.html#a01026c702e2103c95dcf581b86fed20d":[3,0,4,530,5],
 "classug_1_1_gauss_seidel.html#a0a3cd43defde0cb07cc76ff81b45984f":[3,0,4,530,1],
 "classug_1_1_gauss_seidel.html#a1d0b2ad0688ce20d2d64c2247732a1fe":[3,0,4,530,3],
-"classug_1_1_gauss_seidel.html#a71abb45586214155f368a7d50599ded5":[3,0,4,530,6]
+"classug_1_1_gauss_seidel.html#a71abb45586214155f368a7d50599ded5":[3,0,4,530,6],
+"classug_1_1_gauss_seidel.html#a8f394e2e098e39c808398c17311981c3":[3,0,4,530,7],
+"classug_1_1_gauss_seidel.html#ac4075fb82d323cb83361299fd998100b":[3,0,4,530,0],
+"classug_1_1_gauss_seidel.html#ae56dbf049f7bdef2fe7735cb105be79c":[3,0,4,530,4],
+"classug_1_1_gauss_seidel.html#aef9592646b438ef64e423e27d99f3b38":[3,0,4,530,8],
+"classug_1_1_gauss_seidel.html#afccb3fba7d1e961e77c23c6e7c31fcef":[3,0,4,530,2],
+"classug_1_1_gauss_seidel_base.html":[3,0,4,531],
+"classug_1_1_gauss_seidel_base.html#a0bb6631a705806459d45a05d8ff81f20":[3,0,4,531,1],
+"classug_1_1_gauss_seidel_base.html#a0eb70a7431dd88b727e5597e394a5982":[3,0,4,531,10],
+"classug_1_1_gauss_seidel_base.html#a10a891434aad1b9da61b1591eead5a50":[3,0,4,531,9],
+"classug_1_1_gauss_seidel_base.html#a13e94dbeade95a9687784952aa710ff5":[3,0,4,531,8],
+"classug_1_1_gauss_seidel_base.html#a143ba68626f0c0ae469251b6627ce32e":[3,0,4,531,15],
+"classug_1_1_gauss_seidel_base.html#a1dcc70a61a3971d72a6245a1096869db":[3,0,4,531,20]
 };

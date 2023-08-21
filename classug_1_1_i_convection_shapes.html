@@ -205,9 +205,9 @@ class ug::IConvectionShapes&lt; dim &gt;</h3>
 <li>
 P. Frolkovic, H. De Schepper, Numerical Modelling of Convection Dominated Transport Coupled with Density Driven Flow in Porous Media. Advances in Water Resources 24 (1): 63–72, 2000, DOI: 10.1016/S0309-1708(00)00025-7  </li>
 <li>
-K. W. Morton, D. F. Mayers, Numerical Solution of Partial Differential Equations, Cambridge University Press, 1994  </li>
+K. W. Morton, D. Mayers, Numerical Solution of Partial Differential Equations: An Introduction (2nd ed.), Cambridge: Cambridge University Press, 2005, DOI: 10.1017/CBO9780511812248  </li>
 <li>
-R. J. Le Veque, Numerical Methods for Conservation Laws, Birkhäuser, 1990  </li>
+R. J. LeVeque, Numerical Methods for Conservation Laws (2nd ed.), Springer Basel AG, 1992, DOI: 10.1007/978-3-0348-8629-1  </li>
 </ul>
 <p>Convection shapes is one of possible implementations of upwind methods, in which the upwind is considered as a special kind of interpolation of degrees of freedom of the unknown function (for ex., concentration at the corners of the element) into integration points inside the grid element. E.g. the so-called 'full upwind' method for the vertex-centered FV discretizations sets the concentration in the whole grid element be equal to the concentration at a certain specially selected 'upwind corner' chosen according to the direction of the convection velocity. Like every interpolation, this one can be introduced by a set of shape functions associated with the degrees of freedom of the grid function. These shape functions for an upwind method are said to be its convection shapes.</p>
 <p>But in terms of this interface, the convection shapes are the values of the convection shape functions at the integration points premultiplied by the norm of the projection of the velocity to the normal to the corresponding subcontrol volume faces and by the area of these faces. Thus, for a convective term of the form </p><p class="formulaDsp">
@@ -216,7 +216,7 @@ R. J. Le Veque, Numerical Methods for Conservation Laws, Birkhäuser, 1990  </li
 <p> (with \(\mathbf{v}\) being the convective velocity) the convective flux through a subcontrol volume face with the integration point \(ip\) is </p><p class="formulaDsp">
 \[ \sum_{s=1}^{n_s} \phi_s (ip) \, c_s, \]
 </p>
-<p> where \(\phi_s (ip)\) are the values of the \(n_s\) `&lsquo;convection shapes&rsquo;' at \(ip\), whereas $c_s$ are the degrees of freedom of \(c\) corresponding to the shapes.</p>
+<p> where \(\phi_s (ip)\) are the values of the \(n_s\) `&lsquo;convection shapes&rsquo;' at \(ip\), whereas \(c_s\) are the degrees of freedom of \(c\) corresponding to the shapes.</p>
 <p>Although the convection shapes for every upwind method are based on the same idea, they depend on the geometry of the secondary grid (i.e., on the finite volume geometry). For this, for every FV geometry, an own object of the convection shapes class is registered.</p>
 <p>Note furthermore that the convection shapes may depend not only on the velocity but also on the diffusion. Such methods raise up the asymptotic convergence of the discretization of convection-diffusion problems. As the diffusion tensor may also depend on the unknowns (via its dispersion part), the derivatives of the shapes w.r.t. the components of the diffusion tensor are taken into account.</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
@@ -1079,7 +1079,7 @@ template&lt;int dim&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_i_convection_shapes.html">IConvectionShapes</a></li>
-    <li class="footer">Generated on Mon Aug 14 2023 00:53:11 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Aug 21 2023 00:51:36 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

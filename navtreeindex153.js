@@ -1,10 +1,5 @@
 var NAVTREEINDEX153 =
 {
-"structug_1_1_multi_grid_subset_handler_1_1_subset.html#adefd3f2e3410614a6ed6c80ac1bd139a":[1,0,2,4,3,0,0],
-"structug_1_1_multi_grid_subset_handler_1_1_subset.html#afdae036201bc19d100a5ca524b64dbe7":[1,0,2,4,3,0,2],
-"structug_1_1_my_vector_traits.html":[3,0,4,948],
-"structug_1_1_my_vector_traits.html#a9de1430e3d14e653bd340f6c8076b75d":[3,0,4,948,0],
-"structug_1_1_my_vector_traits_3_01_t_vector_00_01typename_01boost_1_1enable__if__c_3_01_t_vector4040db38a16e4f4bbbb31a251838868d.html":[3,0,4,949],
 "structug_1_1_my_vector_traits_3_01_t_vector_00_01typename_01boost_1_1enable__if__c_3_01_t_vector4040db38a16e4f4bbbb31a251838868d.html#a4093708d5737bbee26b6cb9778205cd1":[3,0,4,949,0],
 "structug_1_1_n_tree_desc.html":[3,0,4,974],
 "structug_1_1_n_tree_desc.html#abc621e6fdd06d1d3c20975a5fc64d19c":[3,0,4,974,1],
@@ -247,7 +242,12 @@ var NAVTREEINDEX153 =
 "structug_1_1_raster_layer_desc.html#ac8fcaae7eacccb3e69fec592b7ffd57e":[3,0,4,1052,3],
 "structug_1_1_raster_layer_desc.html#aca01e38359bd0e7cb1a9db11281ca0fd":[3,0,4,1052,4],
 "structug_1_1_raster_layers_1_1layer__t.html":[3,0,4,1053,0],
-"structug_1_1_raster_layers_1_1layer__t.html#a5337d4b6dae7e5e9f8c6ff6e7f7fc8d9":[3,0,4,1053,0,0],
 "structug_1_1_raster_layers_1_1layer__t.html#a62570407481bc193919e83f54c2969ce":[3,0,4,1053,0,1],
-"structug_1_1_raster_layers_1_1layer__t.html#ac566c7b7fa6e1f033854dd04172dab6b":[3,0,4,1053,0,4]
+"structug_1_1_raster_layers_1_1layer__t.html#ac566c7b7fa6e1f033854dd04172dab6b":[3,0,4,1053,0,4],
+"structug_1_1_raster_layers_1_1layer__t.html#ac98d07dd8f7b70e16ccb9a01abf56b9c":[3,0,4,1053,0,2],
+"structug_1_1_raster_layers_1_1layer__t.html#acbad1b740802cb18e046c2bb9dadf667":[3,0,4,1053,0,3],
+"structug_1_1_ray_elem_intersection_record.html":[3,0,4,1056],
+"structug_1_1_ray_elem_intersection_record.html#a0a47918a8c9ff5c3f3df048d0e40ac54":[3,0,4,1056,4],
+"structug_1_1_ray_elem_intersection_record.html#a0a592b0224a17418af41d821f3218b48":[3,0,4,1056,1],
+"structug_1_1_ray_elem_intersection_record.html#a61d12a8119814a52bf45467f422c7a83":[3,0,4,1056,2]
 };

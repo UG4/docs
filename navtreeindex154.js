@@ -1,11 +1,5 @@
 var NAVTREEINDEX154 =
 {
-"structug_1_1_raster_layers_1_1layer__t.html#ac98d07dd8f7b70e16ccb9a01abf56b9c":[3,0,4,1053,0,2],
-"structug_1_1_raster_layers_1_1layer__t.html#acbad1b740802cb18e046c2bb9dadf667":[3,0,4,1053,0,3],
-"structug_1_1_ray_elem_intersection_record.html":[3,0,4,1056],
-"structug_1_1_ray_elem_intersection_record.html#a0a47918a8c9ff5c3f3df048d0e40ac54":[3,0,4,1056,4],
-"structug_1_1_ray_elem_intersection_record.html#a0a592b0224a17418af41d821f3218b48":[3,0,4,1056,1],
-"structug_1_1_ray_elem_intersection_record.html#a61d12a8119814a52bf45467f422c7a83":[3,0,4,1056,2],
 "structug_1_1_ray_elem_intersection_record.html#aa9d1595e7547d1859ec53831c722d9e4":[3,0,4,1056,3],
 "structug_1_1_ray_elem_intersection_record.html#aad486cdd13c38d2e14b7bf4e4f477175":[3,0,4,1056,0],
 "structug_1_1_s_c_v_fof_s_c_v_ray_intersection_wrapper.html":[3,0,4,1120],
@@ -249,5 +243,11 @@ var NAVTREEINDEX154 =
 "structug_1_1attachment__io__traits_3_01_attachment_3_01vector4_01_4_01_4.html#aa1cbfe49b7a49bfb880023c469eceb23":[3,0,4,53,3],
 "structug_1_1attachment__io__traits_3_01_attachment_3_01vector4_01_4_01_4.html#adb6da1f8b1a8720a2f5184c849fd494f":[3,0,4,53,1],
 "structug_1_1attachment__reduce__traits.html":[3,0,4,54],
-"structug_1_1attachment__reduce__traits.html#a16125c7ce98caf5de321b1f2b892d18b":[3,0,4,54,4]
+"structug_1_1attachment__reduce__traits.html#a16125c7ce98caf5de321b1f2b892d18b":[3,0,4,54,4],
+"structug_1_1attachment__reduce__traits.html#a519be92c87c6d176c5a7b6749f866d0c":[3,0,4,54,8],
+"structug_1_1attachment__reduce__traits.html#a563e5a519592f637fc97a90b529ce233":[3,0,4,54,5],
+"structug_1_1attachment__reduce__traits.html#a5a65429178dfa2e436edcf2b6446483e":[3,0,4,54,0],
+"structug_1_1attachment__reduce__traits.html#a89cc9206c5e2c59667222c402d66615d":[3,0,4,54,7],
+"structug_1_1attachment__reduce__traits.html#a99c141f1cf824a358efb8f8c2f2d9ef7":[3,0,4,54,3],
+"structug_1_1attachment__reduce__traits.html#aaf669f17cc83a1de8099cfbfea7e625e":[3,0,4,54,6]
 };
