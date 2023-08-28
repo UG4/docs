@@ -1,5 +1,9 @@
 var NAVTREEINDEX161 =
 {
+"structug_1_1vector__attachment__reduce__traits.html#a7f82da52f23eb3ef1ae7a2b870c19a77":[3,0,4,1272,8],
+"structug_1_1vector__attachment__reduce__traits.html#aada0d3ed74d938bbb15fe044c83c628c":[3,0,4,1272,3],
+"structug_1_1vector__attachment__reduce__traits.html#abe5a402d5628476bdffbfa4d903d1bbd":[3,0,4,1272,5],
+"structug_1_1vector__attachment__reduce__traits.html#aca84dfce5e0ef863872f64da85bb2741":[3,0,4,1272,0],
 "structug_1_1vector__attachment__reduce__traits.html#adc37777f722d70b15c9c54e32eb635c3":[3,0,4,1272,1],
 "structug_1_1vector__attachment__reduce__traits.html#ae4d3b407f94f1e7d9c7c9be993b90597":[3,0,4,1272,2],
 "structug_1_1vector__attachment__reduce__traits.html#afbd4f5d9993bd633bd9205d1ed3e78c6":[3,0,4,1272,7],
@@ -40,9 +44,6 @@ var NAVTREEINDEX161 =
 "structug_1_1vrl_1_1vrl__traits_3_01ug_1_1_math_vector_3_01dim_01_4_01_4.html#a9676cff9e4d09637a091cfb36a4697e0":[3,0,4,8,13,6],
 "structug_1_1vrl_1_1vrl__traits_3_01ug_1_1_math_vector_3_01dim_01_4_01_4.html#a9b3c6d2199d5e26eef135a774b824523":[3,0,4,8,13,10],
 "structug_1_1vrl_1_1vrl__traits_3_01ug_1_1_math_vector_3_01dim_01_4_01_4.html#ae00b4c95185e676360bfdf4098e6a03e":[3,0,4,8,13,9],
-"":[2,0,5,3],
-"quality__util_8h.html#a22c4cf01bf654d08eff05a0e5a528146":[4,0,2,6,0,61,8],
-"struct_freq_adapt_values_1_1_freq_adapt_point.html#a82dab5a55070611c3dd22591d92c4940":[3,0,19,0,2],
 "structug_1_1xy.html":[3,0,4,1287],
 "structug_1_1xy.html#a0502ec52ca188fd60aa4b407c6133c9c":[3,0,4,1287,0],
 "structug_1_1xy.html#acc68b56ed210582b04108fa36832a5ee":[3,0,4,1287,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX161 =
 "subset__util_8cpp.html#ga3b841f90628e80abc847be861d970e79":[4,0,2,6,0,79,5],
 "subset__util_8cpp.html#ga483667d062ae38ffc2e553f2c0054db1":[4,0,2,6,0,79,27],
 "subset__util_8cpp.html#ga4b12d84a76fc1c24fefbff33413a8948":[4,0,2,6,0,79,0],
-"subset__util_8cpp.html#ga5057ed4b0f1291b50f67dc721451d7ca":[4,0,2,6,0,79,4],
-"subset__util_8cpp.html#ga540f49f0844b9ab2c72796694bdf7d8a":[4,0,2,6,0,79,20]
+"subset__util_8cpp.html#ga5057ed4b0f1291b50f67dc721451d7ca":[4,0,2,6,0,79,4]
 };

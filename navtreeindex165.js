@@ -1,5 +1,6 @@
 var NAVTREEINDEX165 =
 {
+"vec__functions_8h_source.html":[4,0,2,4,13,4],
 "vec__math__bridge_8cpp.html":[4,0,2,1,4,8],
 "vec__math__bridge_8cpp.html#ga03128ce7e416e215b3cc7c541a463ddd":[4,0,2,1,4,8,1],
 "vec__math__bridge_8cpp.html#ga354efa6a4152d80c02817dfa0cadee97":[4,0,2,1,4,8,2],

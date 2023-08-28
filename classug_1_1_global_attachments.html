@@ -151,6 +151,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ab1210dfa66ff409b7d8e50f46a4c1b32"><td class="memTemplParams" colspan="2">template&lt;class TAttachment &gt; </td></tr>
 <tr class="memitem:ab1210dfa66ff409b7d8e50f46a4c1b32"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_global_attachments.html#ab1210dfa66ff409b7d8e50f46a4c1b32">register_attachment_type</a> ()</td></tr>
 <tr class="separator:ab1210dfa66ff409b7d8e50f46a4c1b32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b72f7fa204bc9ef8f7dcf0fb4eae597"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_global_attachments.html#a0b72f7fa204bc9ef8f7dcf0fb4eae597">SynchronizeDeclaredGlobalAttachments</a> (<a class="el" href="classug_1_1_grid.html">Grid</a> &amp;grid, int procId)</td></tr>
+<tr class="separator:a0b72f7fa204bc9ef8f7dcf0fb4eae597"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d761aa8ee67287da58b7c354185b234"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_global_attachments.html#a7d761aa8ee67287da58b7c354185b234">type_is_registered</a> (const std::string &amp;typeName)</td></tr>
 <tr class="separator:a7d761aa8ee67287da58b7c354185b234"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae88474a6cc23b8603522dc2189b749fd"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_global_attachments.html#ae88474a6cc23b8603522dc2189b749fd">type_name</a> (const std::string &amp;<a class="el" href="checkpoint__util_8lua.html#a3c1958e225ed64db3e56badcbdcc8df7">name</a>)</td></tr>
@@ -740,7 +742,7 @@ template&lt;class TAttachment &gt; </div>
 
 <p class="reference">References <a class="el" href="classug_1_1_global_attachments.html#ac634f2dd56d2520ef389134e393b8e51">attachment()</a>, <a class="el" href="classug_1_1_global_attachments.html#a468766f5ae1bfef3e9dcc9479b838b33">attachment_names()</a>, <a class="el" href="classug_1_1_global_attachments.html#af32edfe5c3ccceaacd5a3edd9a0e1bf9">attachments()</a>, <a class="el" href="checkpoint__util_8lua.html#a3c1958e225ed64db3e56badcbdcc8df7">name</a>, <a class="el" href="structug_1_1attachment__info__traits.html#a039f1f7edca7b4ab391359aad72e3440">ug::attachment_info_traits&lt; TAttachment &gt;::type_name()</a>, and <a class="el" href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classug_1_1_grid_reader_u_g_x.html#a873c5c3378480c5143664cd87d94884f">ug::GridReaderUGX::read_attachment()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classug_1_1_grid_reader_u_g_x.html#a873c5c3378480c5143664cd87d94884f">ug::GridReaderUGX::read_attachment()</a>, and <a class="el" href="classug_1_1_global_attachments.html#a0b72f7fa204bc9ef8f7dcf0fb4eae597">SynchronizeDeclaredGlobalAttachments()</a>.</p>
 
 </div>
 </div>
@@ -813,7 +815,7 @@ template&lt;class TAttachment &gt; </div>
 
 <p class="reference">References <a class="el" href="classug_1_1_global_attachments.html#a468766f5ae1bfef3e9dcc9479b838b33">attachment_names()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classug_1_1_grid_writer_u_g_x.html#a9fa7abaa62c9ed53dd6f67fc0becf2c1">ug::GridWriterUGX::process_global_attachments()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classug_1_1_grid_writer_u_g_x.html#a9fa7abaa62c9ed53dd6f67fc0becf2c1">ug::GridWriterUGX::process_global_attachments()</a>, and <a class="el" href="classug_1_1_global_attachments.html#a0b72f7fa204bc9ef8f7dcf0fb4eae597">SynchronizeDeclaredGlobalAttachments()</a>.</p>
 
 </div>
 </div>
@@ -999,7 +1001,7 @@ template&lt;class TElem &gt; </div>
 
 <p class="reference">References <a class="el" href="classug_1_1_global_attachments.html#af32edfe5c3ccceaacd5a3edd9a0e1bf9">attachments()</a>, and <a class="el" href="checkpoint__util_8lua.html#a3c1958e225ed64db3e56badcbdcc8df7">name</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classug_1_1_raster_layers_projector.html#aa634c95db5a6a7bb1fb224b5556f9a2b">ug::RasterLayersProjector::add_attachments()</a>, <a class="el" href="classug_1_1_neurite_projector.html#aa00de49f529bbdf60ea5e964bee5a280">ug::NeuriteProjector::attach_surf_params()</a>, <a class="el" href="classug_1_1_soma_projector.html#a27ec2ee05b27d64095bb2fa05f93d193">ug::SomaProjector::attach_surf_params()</a>, <a class="el" href="classug_1_1_global_attachments.html#a932b8a61b4ac3bc5f7800a0b813f3af0">attachment_pass_on_behaviour()</a>, <a class="el" href="classug_1_1_soma_projector.html#ab4419ba3c13986f601a9dddb136f6a0e">ug::SomaProjector::check_attachment()</a>, <a class="el" href="classug_1_1_glob_attachment_element_user_data.html#a39bbc4716d41267ca5620e91e50513f8">ug::GlobAttachmentElementUserData&lt; WDim, TData &gt;::GlobAttachmentElementUserData()</a>, <a class="el" href="classug_1_1_neurite_projector.html#ad3d28fe5ffb9e6fd055a8a1fca2086cd">ug::NeuriteProjector::NeuriteProjector()</a>, <a class="el" href="classug_1_1_grid_reader_u_g_x.html#a873c5c3378480c5143664cd87d94884f">ug::GridReaderUGX::read_attachment()</a>, <a class="el" href="classug_1_1_soma_projector.html#a618c4d877173373efb0ccebbac7deb6e">ug::SomaProjector::SomaProjector()</a>, and <a class="el" href="classug_1_1_global_attachments.html#a40810b11f74e5a49e6911e5c9eb20dd0">undeclare_attachment()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classug_1_1_raster_layers_projector.html#aa634c95db5a6a7bb1fb224b5556f9a2b">ug::RasterLayersProjector::add_attachments()</a>, <a class="el" href="classug_1_1_neurite_projector.html#aa00de49f529bbdf60ea5e964bee5a280">ug::NeuriteProjector::attach_surf_params()</a>, <a class="el" href="classug_1_1_soma_projector.html#a27ec2ee05b27d64095bb2fa05f93d193">ug::SomaProjector::attach_surf_params()</a>, <a class="el" href="classug_1_1_global_attachments.html#a932b8a61b4ac3bc5f7800a0b813f3af0">attachment_pass_on_behaviour()</a>, <a class="el" href="classug_1_1_soma_projector.html#ab4419ba3c13986f601a9dddb136f6a0e">ug::SomaProjector::check_attachment()</a>, <a class="el" href="classug_1_1_glob_attachment_element_user_data.html#a39bbc4716d41267ca5620e91e50513f8">ug::GlobAttachmentElementUserData&lt; WDim, TData &gt;::GlobAttachmentElementUserData()</a>, <a class="el" href="classug_1_1_neurite_projector.html#ad3d28fe5ffb9e6fd055a8a1fca2086cd">ug::NeuriteProjector::NeuriteProjector()</a>, <a class="el" href="classug_1_1_grid_reader_u_g_x.html#a873c5c3378480c5143664cd87d94884f">ug::GridReaderUGX::read_attachment()</a>, <a class="el" href="classug_1_1_soma_projector.html#a618c4d877173373efb0ccebbac7deb6e">ug::SomaProjector::SomaProjector()</a>, <a class="el" href="classug_1_1_global_attachments.html#a0b72f7fa204bc9ef8f7dcf0fb4eae597">SynchronizeDeclaredGlobalAttachments()</a>, and <a class="el" href="classug_1_1_global_attachments.html#a40810b11f74e5a49e6911e5c9eb20dd0">undeclare_attachment()</a>.</p>
 
 </div>
 </div>
@@ -1178,6 +1180,44 @@ template&lt;class TElem &gt; </div>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="structug_1_1_global_attachments_1_1_attachment_entry.html#a7963e31ca16744ccc4559e40d5494929">ug::GlobalAttachments::AttachmentEntry::functionIndex</a>.</p>
+
+</div>
+</div>
+<a id="a0b72f7fa204bc9ef8f7dcf0fb4eae597"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b72f7fa204bc9ef8f7dcf0fb4eae597">&#9670;&nbsp;</a></span>SynchronizeDeclaredGlobalAttachments()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ug::GlobalAttachments::SynchronizeDeclaredGlobalAttachments </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classug_1_1_grid.html">Grid</a> &amp;&#160;</td>
+          <td class="paramname"><em>grid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>procId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="classpcl_1_1_process_communicator.html#a708b02efa2d765daae9fee02b7b60000">pcl::ProcessCommunicator::allreduce()</a>, <a class="el" href="classpcl_1_1_process_communicator.html#aa219e509eaef84ff08865ccd5ca409c5">pcl::ProcessCommunicator::broadcast()</a>, <a class="el" href="classug_1_1_global_attachments.html#aa6aa456d09f61f747d63a9a175c5dd36">declare_attachment()</a>, <a class="el" href="classug_1_1_global_attachments.html#a1edf422ad98704d583f1d887008fdfbd">declared_attachment_names()</a>, <a class="el" href="classug_1_1_global_attachments.html#ad65ae39d902a1024a0ee53540f28da81">is_declared()</a>, <a class="el" href="group__pcl.html#ga8c356a1aa5e91496e81f527d18d9b4ce">PCL_RO_BOR</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
 
 </div>
 </div>
@@ -1469,7 +1509,7 @@ template&lt;class TElem &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_global_attachments.html">GlobalAttachments</a></li>
-    <li class="footer">Generated on Mon Aug 21 2023 00:51:35 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Aug 28 2023 00:53:13 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

@@ -34,6 +34,7 @@ var classug_1_1_global_attachments =
     [ "register_attachment_type", "classug_1_1_global_attachments.html#ab1210dfa66ff409b7d8e50f46a4c1b32", null ],
     [ "register_standard_attachment_types", "classug_1_1_global_attachments.html#a49d8b13a15065c2de0e17dbda007cc81", null ],
     [ "remove_function_entry", "classug_1_1_global_attachments.html#ab177bd82681a4f46eee42c4437025041", null ],
+    [ "SynchronizeDeclaredGlobalAttachments", "classug_1_1_global_attachments.html#a0b72f7fa204bc9ef8f7dcf0fb4eae597", null ],
     [ "type_is_registered", "classug_1_1_global_attachments.html#a7d761aa8ee67287da58b7c354185b234", null ],
     [ "type_name", "classug_1_1_global_attachments.html#ae88474a6cc23b8603522dc2189b749fd", null ],
     [ "undeclare_attachment", "classug_1_1_global_attachments.html#a40810b11f74e5a49e6911e5c9eb20dd0", null ],

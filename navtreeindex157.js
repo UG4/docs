@@ -1,5 +1,11 @@
 var NAVTREEINDEX157 =
 {
+"structug_1_1bridge_1_1_register_domain1d_algebra_dependent.html":[1,0,3,0,7],
+"structug_1_1bridge_1_1_register_domain1d_algebra_dependent.html#ace33f4be50479f8617aa3992461c0073":[1,0,3,0,7,0],
+"structug_1_1bridge_1_1_register_domain2d3d_algebra_dependent.html":[1,0,3,0,8],
+"structug_1_1bridge_1_1_register_domain2d3d_algebra_dependent.html#ac3880c294e7dbd927601bf8aa68056a9":[1,0,3,0,8,0],
+"structug_1_1bridge_1_1_register_domain2d_algebra_dependent.html":[1,0,3,0,9],
+"structug_1_1bridge_1_1_register_domain2d_algebra_dependent.html#a6367bdf7151922014197e33365503796":[1,0,3,0,9,0],
 "structug_1_1bridge_1_1_register_domain3d_algebra_dependent.html":[1,0,3,0,10],
 "structug_1_1bridge_1_1_register_domain3d_algebra_dependent.html#a275baef480b24ef4374cd70f3ed57880":[1,0,3,0,10,0],
 "structug_1_1bridge_1_1_register_domain_algebra_dependent.html":[1,0,3,0,11],
@@ -243,11 +249,5 @@ var NAVTREEINDEX157 =
 "structug_1_1bridge_1_1lua_1_1_lua_parsing_3_01const_01void_01_5_01_4.html#a609084a57c047a80cf1d319eed5a9f7c":[3,0,4,0,15,5,0],
 "structug_1_1bridge_1_1lua_1_1_lua_parsing_3_01const_01void_01_5_01_4.html#ac7f7857cda14bd977e816a4236fc07b3":[3,0,4,0,15,5,1],
 "structug_1_1bridge_1_1lua_1_1_lua_parsing_3_01double_01_4.html":[3,0,4,0,15,7],
-"structug_1_1bridge_1_1lua_1_1_lua_parsing_3_01double_01_4.html#a21bc5e22332ebf794b5157254a89f6b6":[3,0,4,0,15,7,0],
-"structug_1_1bridge_1_1lua_1_1_lua_parsing_3_01double_01_4.html#a4a70479e2a6fdff7c59b27c25fcfbe48":[3,0,4,0,15,7,2],
-"structug_1_1bridge_1_1lua_1_1_lua_parsing_3_01double_01_4.html#a9198ce1547fdea57a26bb21af4949165":[3,0,4,0,15,7,1],
-"structug_1_1bridge_1_1lua_1_1_lua_parsing_3_01float_01_4.html":[3,0,4,0,15,8],
-"structug_1_1bridge_1_1lua_1_1_lua_parsing_3_01float_01_4.html#a01714ce2dac94b54d76099f81c25126f":[3,0,4,0,15,8,2],
-"structug_1_1bridge_1_1lua_1_1_lua_parsing_3_01float_01_4.html#a7a9f12d46b86ea9f0e2922dedfce9560":[3,0,4,0,15,8,0],
-"structug_1_1bridge_1_1lua_1_1_lua_parsing_3_01float_01_4.html#ad43400f789c33434d841e5a4c186daef":[3,0,4,0,15,8,1]
+"structug_1_1bridge_1_1lua_1_1_lua_parsing_3_01double_01_4.html#a21bc5e22332ebf794b5157254a89f6b6":[3,0,4,0,15,7,0]
 };

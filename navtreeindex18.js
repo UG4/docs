@@ -1,5 +1,17 @@
 var NAVTREEINDEX18 =
 {
+"classug_1_1_debug_writing_object.html#a9d58db67544536cb42d1143434d95854":[3,0,4,257,1],
+"classug_1_1_debug_writing_object.html#aab4a65529fb049fab5823fa318a1e683":[3,0,4,257,5],
+"classug_1_1_debug_writing_object.html#ac6088c43eadaf800cfb5d5f984eb2294":[3,0,4,257,9],
+"classug_1_1_debug_writing_object.html#ae29351023267d936aa22cea6cb2cf39d":[3,0,4,257,12],
+"classug_1_1_default_algebra.html":[1,0,0,6],
+"classug_1_1_default_algebra.html#a1e832b2bafe014c5fbe1f96763fce4af":[1,0,0,6,0],
+"classug_1_1_default_algebra.html#a224a6255542ec9b4c5232debe82d62b0":[1,0,0,6,1],
+"classug_1_1_default_algebra.html#a7d51ac2da6d986a2802044c648ec014d":[1,0,0,6,2],
+"classug_1_1_degenerated_layer_manager.html":[3,0,4,259],
+"classug_1_1_degenerated_layer_manager.html#a0369deec90dfb1f8a81a169c92f305a5":[3,0,4,259,23],
+"classug_1_1_degenerated_layer_manager.html#a0c2ea3723654c4f920522c908ebaf889":[3,0,4,259,10],
+"classug_1_1_degenerated_layer_manager.html#a0c8641af89309391cb40caeac2ca3e3b":[3,0,4,259,28],
 "classug_1_1_degenerated_layer_manager.html#a1fb4520a6cb5becd1e672d2cc9974bc0":[3,0,4,259,25],
 "classug_1_1_degenerated_layer_manager.html#a20af7f9330f6e8ba5d1703477b116365":[3,0,4,259,14],
 "classug_1_1_degenerated_layer_manager.html#a20b24124c6b24dbccf0a4fb057e488d2":[3,0,4,259,19],
@@ -237,17 +249,5 @@ var NAVTREEINDEX18 =
 "classug_1_1_dependent_user_data.html#abab2bde5565c0d2bf2e681ede34c3469":[3,0,4,266,28],
 "classug_1_1_dependent_user_data.html#ac7127183086b42553ea62204c9faad2c":[3,0,4,266,7],
 "classug_1_1_dependent_user_data.html#acdc2149b43a37cf26ba3fa2c0a6dfd26":[3,0,4,266,5],
-"classug_1_1_dependent_user_data.html#acf4461a9b23ba3f0e8b762578ba5ef3e":[3,0,4,266,18],
-"classug_1_1_dependent_user_data.html#ad30be6499a32f35e8c32abcd60467e36":[3,0,4,266,22],
-"classug_1_1_dependent_user_data.html#ada761c0448a2b1ca0470ec44611eedae":[3,0,4,266,16],
-"classug_1_1_dependent_user_data.html#ae102de180b442670977dcedc843eb773":[3,0,4,266,24],
-"classug_1_1_dependent_user_data.html#af45ac53ece1b8e4afbe8b596124e8954":[3,0,4,266,20],
-"classug_1_1_diag_vanka.html":[3,0,4,267],
-"classug_1_1_diag_vanka.html#a0b923a0316934be2b0ca0f6e9ca7644e":[3,0,4,267,15],
-"classug_1_1_diag_vanka.html#a0ef0a77401545a57e82cb920ab118764":[3,0,4,267,6],
-"classug_1_1_diag_vanka.html#a19627ee55925d99c6d3cc4ed2af08a43":[3,0,4,267,1],
-"classug_1_1_diag_vanka.html#a3ef9cc3e03fa7b068e64886eea4fe7bd":[3,0,4,267,3],
-"classug_1_1_diag_vanka.html#a50a9ca10e12f95878f8774f2d72bda16":[3,0,4,267,10],
-"classug_1_1_diag_vanka.html#a5ae92eff2937cd45f9e0dc7cfb228400":[3,0,4,267,5],
-"classug_1_1_diag_vanka.html#a9f28953ba484513615e24578ad64a282":[3,0,4,267,12]
+"classug_1_1_dependent_user_data.html#acf4461a9b23ba3f0e8b762578ba5ef3e":[3,0,4,266,18]
 };

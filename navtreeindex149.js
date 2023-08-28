@@ -1,5 +1,11 @@
 var NAVTREEINDEX149 =
 {
+"structboost_1_1property__map_3_01ug_1_1_sparse_matrix_3_01_t_01_4_00_01vertex__index__t_01_4.html#a5da6561e6d8d0aca50893d6c561f970f":[3,0,0,16,1],
+"structboost_1_1property__map_3_01ug_1_1_sparse_matrix_3_01_t_01_4_00_01vertex__index__t_01_4.html#a7fc24949cf28b7f777478f9f97d967f9":[3,0,0,16,0],
+"structboost_1_1property__map_3_01ug_1_1_undirected_matrix_3_01_t_01_4_00_01vertex__index__t_01_4.html":[3,0,0,17],
+"structboost_1_1property__map_3_01ug_1_1_undirected_matrix_3_01_t_01_4_00_01vertex__index__t_01_4.html#a4d91a655156f39bd2453056e099fedf5":[3,0,0,17,0],
+"structboost_1_1property__map_3_01ug_1_1_undirected_matrix_3_01_t_01_4_00_01vertex__index__t_01_4.html#a646ed4896677210fc7d2b00fe204e07a":[3,0,0,17,1],
+"structcon_node_type.html":[3,0,11],
 "structcon_node_type.html#a35ef2d0dc0a6df61649462997d04065f":[3,0,11,0],
 "structid_node_type.html":[3,0,20],
 "structid_node_type.html#adc1f1089433bac34142babdc88ec8297":[3,0,20,0],
@@ -224,8 +230,8 @@ var NAVTREEINDEX149 =
 "structug_1_1_block_slice_index_view_1_1iterator.html#ad726a097e66a2ed51fd3350c2e58dfb3":[3,0,4,118,0,7],
 "structug_1_1_block_slice_index_view_1_1iterator.html#aec911157e6446504097c17fa57c85ec3":[3,0,4,118,0,3],
 "structug_1_1_block_slice_index_view_1_1iterator.html#af120e6691d4ca17e68e2423b6b93432d":[3,0,4,118,0,2],
-"structug_1_1_c_p_u_algebra.html":[1,0,0,1,0,1],
 "structug_1_1_c_p_u_algebra.html":[1,0,0,0,1],
+"structug_1_1_c_p_u_algebra.html":[1,0,0,1,0,1],
 "structug_1_1_c_p_u_block_algebra.html":[1,0,0,1,1],
 "structug_1_1_c_p_u_variable_block_algebra.html":[1,0,0,1,2],
 "structug_1_1_cell_idx.html":[3,0,4,126],
@@ -243,11 +249,5 @@ var NAVTREEINDEX149 =
 "structug_1_1_chain_info.html#ac1256ce99967e449e3c53fb3f9467639":[3,0,4,129,1],
 "structug_1_1_chain_info.html#ac5fecd6ad754f3ef0406ec0c8347aa35":[3,0,4,129,6],
 "structug_1_1_chain_info.html#acdb6b1375fcac9db9400391a038a0810":[3,0,4,129,5],
-"structug_1_1_com_pol___mat_create_overlap_1_1_ext_con.html":[3,0,4,155,0],
-"structug_1_1_com_pol___mat_create_overlap_1_1_ext_con.html#a012289e6c3bd2e930702bb6dd1e7ef8f":[3,0,4,155,0,3],
-"structug_1_1_com_pol___mat_create_overlap_1_1_ext_con.html#a774ab38fc0be0ad653a7accacd72be67":[3,0,4,155,0,2],
-"structug_1_1_com_pol___mat_create_overlap_1_1_ext_con.html#a8cde519c8c038cea9d98bc22743abb09":[3,0,4,155,0,4],
-"structug_1_1_com_pol___mat_create_overlap_1_1_ext_con.html#ab85d9bf6176e70ba067ed93392d148db":[3,0,4,155,0,0],
-"structug_1_1_com_pol___mat_create_overlap_1_1_ext_con.html#ad23144ef469c0fc75a7a13f17d355b85":[3,0,4,155,0,1],
-"structug_1_1_com_pol___mat_create_overlap_1_1_ext_con.html#aed81e8790f6ab2fadbf2fdd09faef122":[3,0,4,155,0,5]
+"structug_1_1_com_pol___mat_create_overlap_1_1_ext_con.html":[3,0,4,155,0]
 };
