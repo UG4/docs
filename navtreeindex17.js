@@ -1,14 +1,5 @@
 var NAVTREEINDEX17 =
 {
-"classug_1_1_cylinder_projector.html#a1a2657b67cd334f1b03c2cfd8b4b6a1f":[3,0,4,247,21],
-"classug_1_1_cylinder_projector.html#a230f6de999b6ea6d982efbfb0045e7fe":[3,0,4,247,18],
-"classug_1_1_cylinder_projector.html#a53c8c9ca93ae51dc2021cb4e9f59fd29":[3,0,4,247,14],
-"classug_1_1_cylinder_projector.html#a56387abed3906ecd5c14c35bb240c8b1":[3,0,4,247,20],
-"classug_1_1_cylinder_projector.html#a57f46c7ea4634754bc4a6150c8b3fba2":[3,0,4,247,2],
-"classug_1_1_cylinder_projector.html#a5f7169e5e95467e972f2028b478a9ba9":[3,0,4,247,13],
-"classug_1_1_cylinder_projector.html#a6a1dc5fce12ddd611ce8d5628433ea96":[3,0,4,247,5],
-"classug_1_1_cylinder_projector.html#a83c063a29d85eafc5e94edeb56a635cb":[3,0,4,247,7],
-"classug_1_1_cylinder_projector.html#a87bc2b49ec6de2e04f467439f183696e":[3,0,4,247,0],
 "classug_1_1_cylinder_projector.html#a8f4a7ec5e200cfc43399c733d52ffd91":[3,0,4,247,10],
 "classug_1_1_cylinder_projector.html#a9c239fe33b5e332e7bbe5f98d6ab74a9":[3,0,4,247,8],
 "classug_1_1_cylinder_projector.html#ab14ed5c38126f9e854e7c51dea26fdcb":[3,0,4,247,9],
@@ -249,5 +240,14 @@ var NAVTREEINDEX17 =
 "classug_1_1_debug_writing_object.html#a79fad4716044deba38fde94d09c171b7":[3,0,4,257,10],
 "classug_1_1_debug_writing_object.html#a8edfaf8741b6431fbefada4cade2b043":[3,0,4,257,0],
 "classug_1_1_debug_writing_object.html#a93abf5b82b5f2d560bcf8a307783567e":[3,0,4,257,16],
-"classug_1_1_debug_writing_object.html#a947b41828b12248936a9bc1e9b7463ae":[3,0,4,257,7]
+"classug_1_1_debug_writing_object.html#a947b41828b12248936a9bc1e9b7463ae":[3,0,4,257,7],
+"classug_1_1_debug_writing_object.html#a9d58db67544536cb42d1143434d95854":[3,0,4,257,1],
+"classug_1_1_debug_writing_object.html#aab4a65529fb049fab5823fa318a1e683":[3,0,4,257,5],
+"classug_1_1_debug_writing_object.html#ac6088c43eadaf800cfb5d5f984eb2294":[3,0,4,257,9],
+"classug_1_1_debug_writing_object.html#ae29351023267d936aa22cea6cb2cf39d":[3,0,4,257,12],
+"classug_1_1_default_algebra.html":[1,0,0,6],
+"classug_1_1_default_algebra.html#a1e832b2bafe014c5fbe1f96763fce4af":[1,0,0,6,0],
+"classug_1_1_default_algebra.html#a224a6255542ec9b4c5232debe82d62b0":[1,0,0,6,1],
+"classug_1_1_default_algebra.html#a7d51ac2da6d986a2802044c648ec014d":[1,0,0,6,2],
+"classug_1_1_degenerated_layer_manager.html":[3,0,4,259]
 };

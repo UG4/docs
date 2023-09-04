@@ -22,8 +22,8 @@ var classug_1_1_i_convection_shapes =
     [ "m_id", "classug_1_1_i_convection_shapes.html#aa68a5a699335050ff77be97c3766f21b", null ],
     [ "m_numScvf", "classug_1_1_i_convection_shapes.html#aef241523be7475c4579f72e123f28b0e", null ],
     [ "m_numSh", "classug_1_1_i_convection_shapes.html#ab15c710a715a757b8278a1e1cde35889", null ],
-    [ "m_vUpdateFunc", "classug_1_1_i_convection_shapes.html#a0efb12973eb0614ef81ac202c16a077a", null ],
-    [ "m_vUpShape", "classug_1_1_i_convection_shapes.html#a8960558bca8b3cc73518c37a382481b7", null ],
-    [ "m_vUpShapeDiffusion", "classug_1_1_i_convection_shapes.html#a575bac4c415116a2db6671b085f58d7b", null ],
-    [ "m_vUpShapeVel", "classug_1_1_i_convection_shapes.html#acfc92bcaec27f6bc1e38559e36c150dc", null ]
+    [ "m_vConvShape", "classug_1_1_i_convection_shapes.html#a4cbf508c2fef3f438f7e4ca69a3b4a70", null ],
+    [ "m_vConvShapeDiffusion", "classug_1_1_i_convection_shapes.html#a00adb52e60a4649be703a1812a79b534", null ],
+    [ "m_vConvShapeVel", "classug_1_1_i_convection_shapes.html#a628aade04db08048af6351fba13ded90", null ],
+    [ "m_vUpdateFunc", "classug_1_1_i_convection_shapes.html#a0efb12973eb0614ef81ac202c16a077a", null ]
 ];

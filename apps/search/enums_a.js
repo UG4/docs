@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['lgbconstants_34232',['LGBConstants',['../../namespaceug.html#a6251263fc1ced97818cf7bd75a78b611',1,'ug']]]
+  ['lgbconstants_34227',['LGBConstants',['../../namespaceug.html#a6251263fc1ced97818cf7bd75a78b611',1,'ug']]]
 ];
