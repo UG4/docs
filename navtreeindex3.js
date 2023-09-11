@@ -1,5 +1,7 @@
 var NAVTREEINDEX3 =
 {
+"class_fixed_allocator.html#a5128888f0d4f1f52ee969bfe0be443d1":[3,0,14,10],
+"class_fixed_allocator.html#a62b687d887aa9ace5f11e4659e2a6120":[3,0,14,3],
 "class_fixed_allocator.html#a861914cc4a0d1f04648415d8aa7ea910":[3,0,14,5],
 "class_fixed_allocator.html#ab808dbc90cf041c0d7bd89619092d9cf":[3,0,14,2],
 "class_fixed_allocator.html#ad0c9452bc52e4a217337a2c72409a0f5":[3,0,14,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX3 =
 "class_sparse_matrix.html#a8f1aa910e6c91d163c8ecdd56c43dcb8":[3,0,33,12],
 "class_sparse_matrix.html#a9f20660c0a334b1b4390dbd0dce74e8e":[3,0,33,15],
 "class_sparse_matrix.html#aaa7714d6dd25081c4078ad3df3d0d9dc":[3,0,33,2],
-"class_sparse_matrix.html#ac738d1c97cc04cfac465edc141e6bf4e":[3,0,33,4],
-"class_sparse_matrix.html#ad3369b212856bf3d6811dbda8be8e013":[3,0,33,0],
-"class_sparse_matrix.html#ad945ed95eb3a6a74c3ee455ccffb775c":[3,0,33,7]
+"class_sparse_matrix.html#ac738d1c97cc04cfac465edc141e6bf4e":[3,0,33,4]
 };
