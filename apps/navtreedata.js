@@ -41,7 +41,7 @@ var NAVTREE =
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", "globals_dup" ],
-        [ "Functions", "globals_func.html", null ],
+        [ "Functions", "globals_func.html", "globals_func" ],
         [ "Variables", "globals_vars.html", "globals_vars" ]
       ] ]
     ] ]
@@ -52,16 +52,17 @@ var NAVTREEINDEX =
 [
 "../group__lib__algebra.html",
 "bubblepipe_8lua.html#ad2464918eb8162cae4af3f470845f0d9",
-"error__estimation_8lua.html#a551e214afa3d78d3b8520b3f800f94de",
-"group__lib__algebra.html#gac1fce5c9f1b8df00c5218fb982db0b08",
-"group__lib__grid__algorithms__face__util.html#ga6612d9dd1c1ccd191d67a1a1e6718156",
-"group__lib__grid__algorithms__subset__util.html#ga3b841f90628e80abc847be861d970e79",
-"group__math__matrix.html#ga9412244cf8b509bbd6d244846d6901c4",
-"group__promesh.html#ga158bf3daf85b3f2a75dd30a87589b93b",
-"group__registry.html#ga359777603c466596151991045ab34578",
-"group__ugbase__common.html#ga0c8186d9b9b7880309c27230bbb5e69d",
-"group__ugbase__common__util__strings.html#gaee7059d7e8d715ed7adfdeae884e4d7e",
-"mixinglayer_8lua.html#a83d490973b249fa183c4768ad34df023"
+"error__estimation_8lua.html",
+"group__lib__algebra.html#ga5386eec244c7ae060f05b81fc56674f4",
+"group__lib__grid__algorithms__extrusion.html#ga2a2fb643d0fc7129070de249b449c943",
+"group__lib__grid__algorithms__serialization.html#ga536ffc7c2a7e0c6a97e0a76cb0ecbe07",
+"group__math__matrix.html#ga65ecbfa1d406ecad82e1f1bdd8b05ca5",
+"group__promesh.html#ga0667d77ed084595bb9780c4c052fd198",
+"group__refinement__bridge.html#ga53b3fed204cfe7cc8fc732878e6b2209",
+"group__test__bridge.html#gac4c2c04c93ba07c3fd85b2e273afb64a",
+"group__ugbase__common__util__strings.html#ga430c2f750a474e82e1a054d872ac5036",
+"lua-programming_8lua.html#a0f3828fcb07afcbad565cd69ec6d1b9e",
+"tut08__nonlinear__conv__diff__using__self__coupling_8lua.html#a802ffb9dc2f7a64851b9fb600e350d8e"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

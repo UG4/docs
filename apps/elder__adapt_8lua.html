@@ -99,9 +99,9 @@ $(document).ready(function(){initNavTree('elder__adapt_8lua.html',''); initResiz
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a63ee34abd52483d91ece311281f68cdf"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="elder__adapt_8lua.html#a63ee34abd52483d91ece311281f68cdf">DDensityFct_c</a> (<a class="el" href="mixinglayer_8lua.html#a1b7f2af074b32393c0b48bbd03e9b7f4">c</a>) return 200 <a class="el" href="chorin_8lua.html#a7495f932f2d22a4960b4f09b726cd7c0">end</a></td></tr>
+<tr class="memitem:a63ee34abd52483d91ece311281f68cdf"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="elder__adapt_8lua.html#a63ee34abd52483d91ece311281f68cdf">DDensityFct_c</a> (<a class="el" href="mixinglayer_8lua.html#a1b7f2af074b32393c0b48bbd03e9b7f4">c</a>) return 200 <a class="el" href="parallel__scaling__sample_8lua.html#a7495f932f2d22a4960b4f09b726cd7c0">end</a></td></tr>
 <tr class="separator:a63ee34abd52483d91ece311281f68cdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a147bcc25252a55ddd53a525abbd68587"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="elder__adapt_8lua.html#a147bcc25252a55ddd53a525abbd68587">DensityFct</a> (<a class="el" href="mixinglayer_8lua.html#a1b7f2af074b32393c0b48bbd03e9b7f4">c</a>) return 1000+200 *<a class="el" href="mixinglayer_8lua.html#a1b7f2af074b32393c0b48bbd03e9b7f4">c</a> <a class="el" href="chorin_8lua.html#a7495f932f2d22a4960b4f09b726cd7c0">end</a></td></tr>
+<tr class="memitem:a147bcc25252a55ddd53a525abbd68587"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="elder__adapt_8lua.html#a147bcc25252a55ddd53a525abbd68587">DensityFct</a> (<a class="el" href="mixinglayer_8lua.html#a1b7f2af074b32393c0b48bbd03e9b7f4">c</a>) return 1000+200 *<a class="el" href="mixinglayer_8lua.html#a1b7f2af074b32393c0b48bbd03e9b7f4">c</a> <a class="el" href="parallel__scaling__sample_8lua.html#a7495f932f2d22a4960b4f09b726cd7c0">end</a></td></tr>
 <tr class="separator:a147bcc25252a55ddd53a525abbd68587"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
@@ -120,7 +120,7 @@ Variables</h2></td></tr>
 <tr class="separator:a0bc150b6382bb2211afd640554abfa49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8db8d63453f73620011a955a64403e5"><td class="memItemLeft" align="right" valign="top">parameterNumber&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="elder__adapt_8lua.html#ab8db8d63453f73620011a955a64403e5">maxLvl</a> = 5</td></tr>
 <tr class="separator:ab8db8d63453f73620011a955a64403e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3689e247ea07ea7db5c8a21d14d594b4"><td class="memItemLeft" align="right" valign="top">parameterNumber&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="elder__adapt_8lua.html#a3689e247ea07ea7db5c8a21d14d594b4">minStepSize</a> = <a class="el" href="statbubble_8lua.html#a8a048e938cde337ee9ef6b6379bdd1ef">dt</a></td></tr>
+<tr class="memitem:a3689e247ea07ea7db5c8a21d14d594b4"><td class="memItemLeft" align="right" valign="top">parameterNumber&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="elder__adapt_8lua.html#a3689e247ea07ea7db5c8a21d14d594b4">minStepSize</a> = <a class="el" href="parallel__scaling__sample_8lua.html#a8a048e938cde337ee9ef6b6379bdd1ef">dt</a></td></tr>
 <tr class="separator:a3689e247ea07ea7db5c8a21d14d594b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e2438dd2030499d387dabb68c7995e4"><td class="memItemLeft" align="right" valign="top">parameterNumber&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="elder__adapt_8lua.html#a8e2438dd2030499d387dabb68c7995e4">numDampSteps</a> = 3</td></tr>
 <tr class="memdesc:a8e2438dd2030499d387dabb68c7995e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of timesteps in which dt is damped. Damping is reduced with each time step. Default is 3.  <a href="elder__adapt_8lua.html#a8e2438dd2030499d387dabb68c7995e4">More...</a><br /></td></tr>
@@ -283,7 +283,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">parameterNumber minStepSize = <a class="el" href="statbubble_8lua.html#a8a048e938cde337ee9ef6b6379bdd1ef">dt</a></td>
+          <td class="memname">parameterNumber minStepSize = <a class="el" href="parallel__scaling__sample_8lua.html#a8a048e938cde337ee9ef6b6379bdd1ef">dt</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -418,7 +418,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_9654b8d08f4bba4e84b362c5fd320bee.html">apps</a></li><li class="navelem"><a class="el" href="dir_c0ee1f20bf466b0f96af9182d756910f.html">Examples</a></li><li class="navelem"><a class="el" href="elder__adapt_8lua.html">elder_adapt.lua</a></li>
-    <li class="footer">Generated on Mon Sep 18 2023 00:52:43 for Apps by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Sep 25 2023 00:53:19 for Apps by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
