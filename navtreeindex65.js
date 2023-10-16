@@ -1,5 +1,17 @@
 var NAVTREEINDEX65 =
 {
+"classug_1_1_polynomial1_d.html#ab311401e756436af904b6cb573892405":[1,0,1,6,3],
+"classug_1_1_polynomial1_d.html#abd7278891074f4d98565f0965337f217":[1,0,1,6,1],
+"classug_1_1_polynomial1_d.html#abda1f8664de38ffeda69c19f366f6159":[1,0,1,6,5],
+"classug_1_1_polynomial1_d.html#adebc2a0f9f7db5e5d5ac968fa90c24f0":[1,0,1,6,6],
+"classug_1_1_polynomial1_d.html#aee9b8cd4a916e4eebf131f2709230d15":[1,0,1,6,7],
+"classug_1_1_power_method.html":[3,0,4,1022],
+"classug_1_1_power_method.html#a0806193d56272cd4e8d0af4c444392fe":[3,0,4,1022,26],
+"classug_1_1_power_method.html#a0b3e0ace7c77e31c697a2145a441d83a":[3,0,4,1022,37],
+"classug_1_1_power_method.html#a0b5c86c88b4940e377fc494bc7eea04c":[3,0,4,1022,16],
+"classug_1_1_power_method.html#a1f60333290be7b4d981b94b6c24a45c2":[3,0,4,1022,4],
+"classug_1_1_power_method.html#a222eb72f4f86cae0fd62305dc2f02097":[3,0,4,1022,0],
+"classug_1_1_power_method.html#a25e35a0313a9ed46376168c687e5a91d":[3,0,4,1022,36],
 "classug_1_1_power_method.html#a25f6dae27e905263fe7c089d981f391b":[3,0,4,1022,18],
 "classug_1_1_power_method.html#a301c723ebf1d427101181f7ff6e79421":[3,0,4,1022,15],
 "classug_1_1_power_method.html#a415ab67f4492c82e531f9de48b9bd2ec":[3,0,4,1022,12],
@@ -237,17 +249,5 @@ var NAVTREEINDEX65 =
 "classug_1_1_protect_subset_partition_weighting.html#a1bf61a2331d2e07c0fff9c856a879109":[3,0,4,1037,5],
 "classug_1_1_protect_subset_partition_weighting.html#a40c6738924c17633686e8d0efef2d1a5":[3,0,4,1037,8],
 "classug_1_1_protect_subset_partition_weighting.html#a4cdcfcb7fe2bcce3340bf7a724602baa":[3,0,4,1037,6],
-"classug_1_1_protect_subset_partition_weighting.html#a84c2f67602739bb65dd748efb0f69705":[3,0,4,1037,7],
-"classug_1_1_protect_subset_partition_weighting.html#aa3816b1a29afb020463083bb83a95303":[3,0,4,1037,3],
-"classug_1_1_protect_subset_partition_weighting.html#ab5b2ffae918713a94cc7867ead47487a":[3,0,4,1037,9],
-"classug_1_1_protect_subset_partition_weighting.html#ac00c0f3b30aaf5d927ed8bc00302b7c1":[3,0,4,1037,1],
-"classug_1_1_protect_subset_partition_weighting.html#ac727ad496fffe025692bf0ce68258db4":[3,0,4,1037,0],
-"classug_1_1_protect_subset_partition_weighting.html#ad230b0f7083ba1d5ce016144cd1a9bfc":[3,0,4,1037,2],
-"classug_1_1_provider.html":[1,0,3,1,0,29],
-"classug_1_1_provider.html#a10d94e8638c9d3919e6e3ba7876acf3b":[1,0,3,1,0,29,1],
-"classug_1_1_provider.html#a4a3c1b6ded6788e89336e077066457a3":[1,0,3,1,0,29,0],
-"classug_1_1_pyramid.html":[1,0,2,3,13],
-"classug_1_1_pyramid.html#a0118d0a24d069888d7cdba2a56e4ecf3":[1,0,2,3,13,27],
-"classug_1_1_pyramid.html#a02f0b95c35142c8764b0839bdd548dd2":[1,0,2,3,13,22],
-"classug_1_1_pyramid.html#a0da3991c14c5a1ab3bf7476460f58d7d":[1,0,2,3,13,0]
+"classug_1_1_protect_subset_partition_weighting.html#a84c2f67602739bb65dd748efb0f69705":[3,0,4,1037,7]
 };

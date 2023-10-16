@@ -1,5 +1,17 @@
 var NAVTREEINDEX66 =
 {
+"classug_1_1_protect_subset_partition_weighting.html#aa3816b1a29afb020463083bb83a95303":[3,0,4,1037,3],
+"classug_1_1_protect_subset_partition_weighting.html#ab5b2ffae918713a94cc7867ead47487a":[3,0,4,1037,9],
+"classug_1_1_protect_subset_partition_weighting.html#ac00c0f3b30aaf5d927ed8bc00302b7c1":[3,0,4,1037,1],
+"classug_1_1_protect_subset_partition_weighting.html#ac727ad496fffe025692bf0ce68258db4":[3,0,4,1037,0],
+"classug_1_1_protect_subset_partition_weighting.html#ad230b0f7083ba1d5ce016144cd1a9bfc":[3,0,4,1037,2],
+"classug_1_1_provider.html":[1,0,3,1,0,29],
+"classug_1_1_provider.html#a10d94e8638c9d3919e6e3ba7876acf3b":[1,0,3,1,0,29,1],
+"classug_1_1_provider.html#a4a3c1b6ded6788e89336e077066457a3":[1,0,3,1,0,29,0],
+"classug_1_1_pyramid.html":[1,0,2,3,13],
+"classug_1_1_pyramid.html#a0118d0a24d069888d7cdba2a56e4ecf3":[1,0,2,3,13,27],
+"classug_1_1_pyramid.html#a02f0b95c35142c8764b0839bdd548dd2":[1,0,2,3,13,22],
+"classug_1_1_pyramid.html#a0da3991c14c5a1ab3bf7476460f58d7d":[1,0,2,3,13,0],
 "classug_1_1_pyramid.html#a0e13f68ab061b52707c1568144f59803":[1,0,2,3,13,1],
 "classug_1_1_pyramid.html#a0e68f53a944de00e735ce9a5acc7ce70":[1,0,2,3,13,14],
 "classug_1_1_pyramid.html#a10c5ebaf8c6c914295a99e6a091d56d8":[1,0,2,3,13,28],
@@ -237,17 +249,5 @@ var NAVTREEINDEX66 =
 "classug_1_1_raster_user_data.html":[3,0,4,1055],
 "classug_1_1_raster_user_data.html#a022c8baf214829dac3a252dd033533e2":[3,0,4,1055,13],
 "classug_1_1_raster_user_data.html#a13dd5b9e157e2d14b4101f69a4176fc4":[3,0,4,1055,11],
-"classug_1_1_raster_user_data.html#a356aa9e91e900b42d8bcee18ddba2ab0":[3,0,4,1055,10],
-"classug_1_1_raster_user_data.html#a451d0a8b87a09601b189e4fb7975ac4d":[3,0,4,1055,3],
-"classug_1_1_raster_user_data.html#a62b43154cb7d852975671bed0a799254":[3,0,4,1055,5],
-"classug_1_1_raster_user_data.html#a7484632665efcf4deb4931d89b26dc26":[3,0,4,1055,4],
-"classug_1_1_raster_user_data.html#a97d1733d2676b0c2c0b6fec559c0a14b":[3,0,4,1055,9],
-"classug_1_1_raster_user_data.html#aab17b9f918bfa4649d8937efdc34a992":[3,0,4,1055,1],
-"classug_1_1_raster_user_data.html#aba2e5f84ebbd8748505e81184ebfba77":[3,0,4,1055,2],
-"classug_1_1_raster_user_data.html#ac8955e3553bd112601f92225dba65b25":[3,0,4,1055,0],
-"classug_1_1_raster_user_data.html#ad6e980cbde537fd9ad167371833f1d6d":[3,0,4,1055,7],
-"classug_1_1_raster_user_data.html#adbaaa9d79765ab491dc4c3bce4df48ed":[3,0,4,1055,6],
-"classug_1_1_raster_user_data.html#add9a740aa5ee53a78a2be8d541c72f13":[3,0,4,1055,8],
-"classug_1_1_raster_user_data.html#ae6dda83bbb51da710841f1db51730a49":[3,0,4,1055,14],
-"classug_1_1_raster_user_data.html#af5610c307c7321953ed02100eb95efb7":[3,0,4,1055,12]
+"classug_1_1_raster_user_data.html#a356aa9e91e900b42d8bcee18ddba2ab0":[3,0,4,1055,10]
 };
