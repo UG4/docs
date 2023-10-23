@@ -1,8 +1,5 @@
 var NAVTREEINDEX160 =
 {
-"structug_1_1linker__traits_3_01_math_matrix_3_01dim_00_01dim_01_4_00_01number_01_4.html":[3,0,4,812],
-"structug_1_1linker__traits_3_01_math_matrix_3_01dim_00_01dim_01_4_00_01number_01_4.html#a40b961f287a222be859732e76536176d":[3,0,4,812,0],
-"structug_1_1linker__traits_3_01_math_tensor_3_014_00_01dim_01_4_00_01number_01_4.html":[3,0,4,813],
 "structug_1_1linker__traits_3_01_math_tensor_3_014_00_01dim_01_4_00_01number_01_4.html#a5002c72d5429ae2c273050150b604c15":[3,0,4,813,0],
 "structug_1_1linker__traits_3_01_math_vector_3_01dim_01_4_00_01_math_matrix_3_01dim_00_01dim_01_4_01_4.html":[3,0,4,814],
 "structug_1_1linker__traits_3_01_math_vector_3_01dim_01_4_00_01_math_matrix_3_01dim_00_01dim_01_4_01_4.html#a998b68b48336bed42ad6e7fbb9ccb225":[3,0,4,814,0],
@@ -85,7 +82,6 @@ var NAVTREEINDEX160 =
 "structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___o_p_e_r_a_t_o_r_s_01_4.html#a68aca1e7c87a0a91fe6540ce70020ce6":[3,0,4,868,6],
 "structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___o_p_e_r_a_t_o_r_s_01_4.html#a85600006c57e3346f530ee4397577ad3":[3,0,4,868,3],
 "structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___o_p_e_r_a_t_o_r_s_01_4.html#a9a00b301640965e17d84d160866277e4":[3,0,4,868,4],
-"structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___o_p_e_r_a_t_o_r_s_01_4.html#aa61b244f0f711179557f91b54d420ab3":[3,0,4,868,0],
 "structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___o_p_e_r_a_t_o_r_s_01_4.html#abb5a428aac4525d50f2dbcee8e318ae3":[3,0,4,868,5],
 "structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___o_p_e_r_a_t_o_r_s_01_4.html#ac52cf3b78fde796acd1c8f7f4bfaf446":[3,0,4,868,2],
 "structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___r_o_w___f_u_n_c_t_i_o_n_s_01_4.html":[3,0,4,869],
@@ -108,8 +104,8 @@ var NAVTREEINDEX160 =
 "structug_1_1matrix__algebra__type__traits_3_01_map_sparse_matrix_3_01_t_01_4_01_4.html#ae043d128d5262b70a576a35a58294672":[1,0,0,10,0],
 "structug_1_1matrix__algebra__type__traits_3_01_matrix_operator_3_01_m_00_01_x_00_01_y_01_4_01_4.html":[3,0,4,893],
 "structug_1_1matrix__algebra__type__traits_3_01_parallel_matrix_3_01_t_01_4_01_4.html":[3,0,4,894],
-"structug_1_1matrix__algebra__type__traits_3_01_sparse_matrix_3_01_t_01_4_01_4.html":[1,0,0,1,0,4],
 "structug_1_1matrix__algebra__type__traits_3_01_sparse_matrix_3_01_t_01_4_01_4.html":[1,0,0,0,4],
+"structug_1_1matrix__algebra__type__traits_3_01_sparse_matrix_3_01_t_01_4_01_4.html":[1,0,0,1,0,4],
 "structug_1_1node__tree_1_1_collision_element_i_d.html":[3,0,4,4,2],
 "structug_1_1node__tree_1_1_collision_element_i_d.html#a045739c1c729d56d68dc260e10b8a266":[3,0,4,4,2,6],
 "structug_1_1node__tree_1_1_collision_element_i_d.html#a7509b420d46f2d31c4d24ca20b4451c3":[3,0,4,4,2,2],
@@ -249,5 +245,9 @@ var NAVTREEINDEX160 =
 "structug_1_1variable__type.html":[3,0,4,1265],
 "structug_1_1vector__attachment__reduce__traits.html":[3,0,4,1272],
 "structug_1_1vector__attachment__reduce__traits.html#a3bc86cfabcd6b2c649176c10ff11d9fb":[3,0,4,1272,6],
-"structug_1_1vector__attachment__reduce__traits.html#a60d194d7b801b8d6b1497f3b3631c3d6":[3,0,4,1272,4]
+"structug_1_1vector__attachment__reduce__traits.html#a60d194d7b801b8d6b1497f3b3631c3d6":[3,0,4,1272,4],
+"structug_1_1vector__attachment__reduce__traits.html#a7f82da52f23eb3ef1ae7a2b870c19a77":[3,0,4,1272,8],
+"structug_1_1vector__attachment__reduce__traits.html#aada0d3ed74d938bbb15fe044c83c628c":[3,0,4,1272,3],
+"structug_1_1vector__attachment__reduce__traits.html#abe5a402d5628476bdffbfa4d903d1bbd":[3,0,4,1272,5],
+"structug_1_1vector__attachment__reduce__traits.html#aca84dfce5e0ef863872f64da85bb2741":[3,0,4,1272,0]
 };
