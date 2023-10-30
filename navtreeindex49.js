@@ -1,5 +1,10 @@
 var NAVTREEINDEX49 =
 {
+"classug_1_1_i_vector___algebra_down_cast_to.html#a1829d3e6241eded0f6e8e7713d69c94d":[3,0,4,775,1],
+"classug_1_1_i_vector___algebra_down_cast_to.html#a22fa19194748ac562e6fee20c68c72b2":[3,0,4,775,9],
+"classug_1_1_i_vector___algebra_down_cast_to.html#a5141d2a3e8ba7f0b9f18026409a13769":[3,0,4,775,7],
+"classug_1_1_i_vector___algebra_down_cast_to.html#a5ff633fcf956301be062ff671ccde963":[3,0,4,775,5],
+"classug_1_1_i_vector___algebra_down_cast_to.html#a949b084b44e8f67e697a80d9047fc266":[3,0,4,775,11],
 "classug_1_1_i_vector___algebra_down_cast_to.html#ab901eaa38ea87f6abbadac8ea5f69f32":[3,0,4,775,4],
 "classug_1_1_i_vector___algebra_down_cast_to.html#aca9124b56f7c07c6a3f259ab6e8265ac":[3,0,4,775,6],
 "classug_1_1_i_vector___algebra_down_cast_to.html#acc1e947c2c6860543510886b28dcf076":[3,0,4,775,10],
@@ -244,10 +249,5 @@ var NAVTREEINDEX49 =
 "classug_1_1_k_d_tree.html#a21cb724cedb7114836b361b887bf7c99":[3,0,4,780,6],
 "classug_1_1_k_d_tree.html#a2aa279c1dc6ea0ceef800909d0f6dcad":[3,0,4,780,14],
 "classug_1_1_k_d_tree.html#a3c8e3e03820206996554bcade62c4d80":[3,0,4,780,2],
-"classug_1_1_k_d_tree.html#a4b87c45ce270ba12951b6f5924186699":[3,0,4,780,5],
-"classug_1_1_k_d_tree.html#a5b8d50202a2d66975fc24a2d2fbc8580":[3,0,4,780,9],
-"classug_1_1_k_d_tree.html#a63170fd6a4d9bf72b1854ed71b829aec":[3,0,4,780,11],
-"classug_1_1_k_d_tree.html#a79c15b6d0f005f04d87fdc6508d9ee75":[3,0,4,780,16],
-"classug_1_1_k_d_tree.html#a7b50ef201cc8892d4922d4a389c319da":[3,0,4,780,13],
-"classug_1_1_k_d_tree.html#a82df228ae635b5a23bf31264f8c32127":[3,0,4,780,4]
+"classug_1_1_k_d_tree.html#a4b87c45ce270ba12951b6f5924186699":[3,0,4,780,5]
 };

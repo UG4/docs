@@ -1,5 +1,10 @@
 var NAVTREEINDEX64 =
 {
+"classug_1_1_partition_weighting.html#a57f751bcebf6f1d9cef43cd11c2f50a7":[3,0,4,1005,9],
+"classug_1_1_partition_weighting.html#a641add9358dc6f0b473e48d7755c7db9":[3,0,4,1005,1],
+"classug_1_1_partition_weighting.html#a653b4de02761596216482e2b98c87b6c":[3,0,4,1005,7],
+"classug_1_1_partition_weighting.html#a6eb21456163df2264486b2b60a16926e":[3,0,4,1005,2],
+"classug_1_1_partition_weighting.html#a9094ee7503ce5dc2aafa4a056abdb316":[3,0,4,1005,10],
 "classug_1_1_partition_weighting.html#ada086c5bf637043bea4283254e4507d9":[3,0,4,1005,6],
 "classug_1_1_partition_weighting.html#af3db0c9a2c19e18c8045d3ae841d2cd8":[3,0,4,1005,3],
 "classug_1_1_partitioner___dynamic_bisection.html":[1,0,6,5],
@@ -244,10 +249,5 @@ var NAVTREEINDEX64 =
 "classug_1_1_power_method.html#a0b5c86c88b4940e377fc494bc7eea04c":[3,0,4,1022,16],
 "classug_1_1_power_method.html#a1f60333290be7b4d981b94b6c24a45c2":[3,0,4,1022,4],
 "classug_1_1_power_method.html#a222eb72f4f86cae0fd62305dc2f02097":[3,0,4,1022,0],
-"classug_1_1_power_method.html#a25e35a0313a9ed46376168c687e5a91d":[3,0,4,1022,36],
-"classug_1_1_power_method.html#a25f6dae27e905263fe7c089d981f391b":[3,0,4,1022,18],
-"classug_1_1_power_method.html#a301c723ebf1d427101181f7ff6e79421":[3,0,4,1022,15],
-"classug_1_1_power_method.html#a415ab67f4492c82e531f9de48b9bd2ec":[3,0,4,1022,12],
-"classug_1_1_power_method.html#a554e57220173a923ca9f3e859cb3e5ea":[3,0,4,1022,34],
-"classug_1_1_power_method.html#a60e278757ce69e3e3c2cab21a2c61d97":[3,0,4,1022,31]
+"classug_1_1_power_method.html#a25e35a0313a9ed46376168c687e5a91d":[3,0,4,1022,36]
 };

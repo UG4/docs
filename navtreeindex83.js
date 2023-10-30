@@ -1,8 +1,16 @@
 var NAVTREEINDEX83 =
 {
+"classug_1_1dirichlet__iterator.html":[3,0,4,280],
+"classug_1_1dirichlet__iterator.html#a09911eaba9d0241870c7f7c462a7a6cc":[3,0,4,280,2],
+"classug_1_1dirichlet__iterator.html#a0de278bce2c231249d33eb13ba4634fd":[3,0,4,280,8],
+"classug_1_1dirichlet__iterator.html#a1c4cee5bed6704a8f65cf8e76445efb9":[3,0,4,280,5],
+"classug_1_1dirichlet__iterator.html#a2cb68fd8ff1a5276b11a425c29a58a66":[3,0,4,280,7],
+"classug_1_1dirichlet__iterator.html#a4035c816ea8a07e5201c06a48a45dd6e":[3,0,4,280,4],
+"classug_1_1dirichlet__iterator.html#a53fd4cafb8df5bfd2f2151665e8c8891":[3,0,4,280,3],
 "classug_1_1dirichlet__iterator.html#a68e102b4bd816466dfb791c8bebf3e77":[3,0,4,280,6],
 "classug_1_1dirichlet__iterator.html#aa0ff6f64c62b14bd3bc92ff3210e1b1d":[3,0,4,280,1],
 "classug_1_1dirichlet__iterator.html#afee16fa94f54642a12517d60404ae9dd":[3,0,4,280,0],
+"classug_1_1element__list__traits.html":[3,0,4,309],
 "classug_1_1element__list__traits.html#a7173b7a6aded17da0084adade65f1f65":[3,0,4,309,5],
 "classug_1_1element__list__traits.html#abd55033ada619eabab4cafcd441bb7c5":[3,0,4,309,7],
 "classug_1_1element__list__traits.html#ac9a6bc40dfd9765438bb9f1a7597b26f":[3,0,4,309,6],
@@ -241,13 +249,5 @@ var NAVTREEINDEX83 =
 "classug_1_1maxheap.html#a244e4ae77486bbac64a2fc508852e3be":[3,0,4,904,11],
 "classug_1_1maxheap.html#a24ddf3a49a9613b169b154052605d009":[3,0,4,904,9],
 "classug_1_1maxheap.html#a290e40c7ffde7de38efb4c96c92682ca":[3,0,4,904,21],
-"classug_1_1maxheap.html#a297b661d03e10eff0ce5f070bd629ef1":[3,0,4,904,3],
-"classug_1_1maxheap.html#a2d870d4e445d238586bdf55386fb1e0b":[3,0,4,904,16],
-"classug_1_1maxheap.html#a33e3b3f0a4a61383e14b50874571a63f":[3,0,4,904,13],
-"classug_1_1maxheap.html#a611cf9284087b3c9b11e45f06d38ffe5":[3,0,4,904,19],
-"classug_1_1maxheap.html#a6dbdcfd17926116b4c6848ee27162530":[3,0,4,904,27],
-"classug_1_1maxheap.html#a78c85dcea0180025edd2bface28a3d53":[3,0,4,904,23],
-"classug_1_1maxheap.html#a7e395b370b6c8eac4cdecf73caf18294":[3,0,4,904,24],
-"classug_1_1maxheap.html#a85fa7586bccded11f69ed12579d3470f":[3,0,4,904,1],
-"classug_1_1maxheap.html#a8f3fa5ebb8efe5badef78155429557d6":[3,0,4,904,25]
+"classug_1_1maxheap.html#a297b661d03e10eff0ce5f070bd629ef1":[3,0,4,904,3]
 };

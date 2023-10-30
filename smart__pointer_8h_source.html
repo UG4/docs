@@ -814,50 +814,52 @@ $(document).ready(function(){initNavTree('smart__pointer_8h_source.html',''); in
 <div class="line"><a name="l00813"></a><span class="lineno"><a class="line" href="namespacestd.html">  813</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacestd.html">std</a></div>
 <div class="line"><a name="l00814"></a><span class="lineno">  814</span>&#160;{</div>
 <div class="line"><a name="l00815"></a><span class="lineno">  815</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">class</span> T, <span class="keyword">template</span> &lt;<span class="keyword">class</span> TPtr&gt; <span class="keyword">class </span>TFreePolicy&gt;</div>
-<div class="line"><a name="l00816"></a><span class="lineno"><a class="line" href="structstd_1_1less_3_01_smart_ptr_3_01_t_00_01_t_free_policy_01_4_01_4.html">  816</a></span>&#160;  <span class="keyword">struct </span>less&lt;<a class="code" href="class_smart_ptr.html">SmartPtr</a>&lt;T, TFreePolicy&gt; &gt; :</div>
-<div class="line"><a name="l00817"></a><span class="lineno">  817</span>&#160;    <span class="keyword">public</span> binary_function&lt;SmartPtr&lt;T, TFreePolicy&gt;, SmartPtr&lt;T, TFreePolicy&gt;, bool&gt;</div>
-<div class="line"><a name="l00818"></a><span class="lineno">  818</span>&#160;  {</div>
-<div class="line"><a name="l00819"></a><span class="lineno"><a class="line" href="structstd_1_1less_3_01_smart_ptr_3_01_t_00_01_t_free_policy_01_4_01_4.html#a2e2b0c7e3f165569106fdb19f9d1bb36">  819</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="structstd_1_1less_3_01_smart_ptr_3_01_t_00_01_t_free_policy_01_4_01_4.html#a2e2b0c7e3f165569106fdb19f9d1bb36">operator()</a>(<span class="keyword">const</span> <a class="code" href="class_smart_ptr.html">SmartPtr&lt;T, TFreePolicy&gt;</a>&amp; lhs,</div>
-<div class="line"><a name="l00820"></a><span class="lineno">  820</span>&#160;            <span class="keyword">const</span> <a class="code" href="class_smart_ptr.html">SmartPtr&lt;T, TFreePolicy&gt;</a>&amp; rhs)<span class="keyword"> const</span></div>
-<div class="line"><a name="l00821"></a><span class="lineno">  821</span>&#160;<span class="keyword">    </span>{</div>
-<div class="line"><a name="l00822"></a><span class="lineno">  822</span>&#160;      <span class="keywordflow">return</span> less&lt;T*&gt;()(lhs.<a class="code" href="class_smart_ptr.html#a497849ae0df7402decc569d5c73cb8f2">get</a>(), rhs.<a class="code" href="class_smart_ptr.html#a497849ae0df7402decc569d5c73cb8f2">get</a>());</div>
-<div class="line"><a name="l00823"></a><span class="lineno">  823</span>&#160;    }</div>
-<div class="line"><a name="l00824"></a><span class="lineno">  824</span>&#160;  };</div>
-<div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160;}</div>
-<div class="line"><a name="l00826"></a><span class="lineno">  826</span>&#160; </div>
-<div class="line"><a name="l00827"></a><span class="lineno">  827</span>&#160; </div>
-<div class="line"><a name="l00829"></a><span class="lineno">  829</span>&#160;<span class="comment">//  Creation helper for SmartPtr</span></div>
-<div class="line"><a name="l00831"></a><span class="lineno">  831</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00833"></a><span class="lineno">  833</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, <span class="keyword">template</span> &lt;<span class="keyword">class</span> TT&gt; <span class="keyword">class </span>FreePolicy&gt;</div>
-<div class="line"><a name="l00834"></a><span class="lineno"><a class="line" href="smart__pointer_8h.html#a8ba0055baeb80cdf31c501403f7f302f">  834</a></span>&#160;<a class="code" href="class_smart_ptr.html">SmartPtr&lt;T, FreePolicy&gt;</a> <a class="code" href="smart__pointer_8h.html#a8ba0055baeb80cdf31c501403f7f302f">make_sp</a>(T* inst)</div>
-<div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;{</div>
-<div class="line"><a name="l00836"></a><span class="lineno">  836</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="class_smart_ptr.html">SmartPtr&lt;T, FreePolicy&gt;</a>(inst);</div>
-<div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160;}</div>
-<div class="line"><a name="l00838"></a><span class="lineno">  838</span>&#160; </div>
-<div class="line"><a name="l00840"></a><span class="lineno">  840</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="line"><a name="l00841"></a><span class="lineno"><a class="line" href="smart__pointer_8h.html#aee9c17bdba93d054586383a83494d0de">  841</a></span>&#160;<a class="code" href="class_smart_ptr.html">SmartPtr&lt;T&gt;</a> <a class="code" href="smart__pointer_8h.html#a8ba0055baeb80cdf31c501403f7f302f">make_sp</a>(T* inst)</div>
-<div class="line"><a name="l00842"></a><span class="lineno">  842</span>&#160;{</div>
-<div class="line"><a name="l00843"></a><span class="lineno">  843</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="class_smart_ptr.html">SmartPtr&lt;T&gt;</a>(inst);</div>
-<div class="line"><a name="l00844"></a><span class="lineno">  844</span>&#160;}</div>
-<div class="line"><a name="l00845"></a><span class="lineno">  845</span>&#160; </div>
-<div class="line"><a name="l00846"></a><span class="lineno">  846</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceboost.html">boost</a></div>
-<div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;{</div>
-<div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div>
-<div class="line"><a name="l00849"></a><span class="lineno"><a class="line" href="structboost_1_1pointee_3_01_smart_ptr_3_01_t_01_4_01_4.html">  849</a></span>&#160;  <span class="keyword">struct </span>pointee&lt;<a class="code" href="class_smart_ptr.html">SmartPtr</a>&lt;T&gt; &gt;</div>
-<div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160;  {</div>
-<div class="line"><a name="l00851"></a><span class="lineno"><a class="line" href="structboost_1_1pointee_3_01_smart_ptr_3_01_t_01_4_01_4.html#a449f43dacc1680bdc1f4aada620fc1d2">  851</a></span>&#160;      <span class="keyword">typedef</span> T <a class="code" href="structboost_1_1pointee_3_01_smart_ptr_3_01_t_01_4_01_4.html#a449f43dacc1680bdc1f4aada620fc1d2">type</a>;</div>
-<div class="line"><a name="l00852"></a><span class="lineno">  852</span>&#160;  };</div>
-<div class="line"><a name="l00853"></a><span class="lineno">  853</span>&#160; </div>
-<div class="line"><a name="l00854"></a><span class="lineno">  854</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div>
-<div class="line"><a name="l00855"></a><span class="lineno"><a class="line" href="structboost_1_1pointee_3_01_const_smart_ptr_3_01_t_01_4_01_4.html">  855</a></span>&#160;  <span class="keyword">struct </span>pointee&lt;<a class="code" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt;T&gt; &gt;</div>
-<div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160;  {</div>
-<div class="line"><a name="l00857"></a><span class="lineno"><a class="line" href="structboost_1_1pointee_3_01_const_smart_ptr_3_01_t_01_4_01_4.html#a3fd58be186dcc9d53ceff36f892595f6">  857</a></span>&#160;      <span class="keyword">typedef</span> T <a class="code" href="structboost_1_1pointee_3_01_const_smart_ptr_3_01_t_01_4_01_4.html#a3fd58be186dcc9d53ceff36f892595f6">type</a>;</div>
-<div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;  };</div>
-<div class="line"><a name="l00859"></a><span class="lineno">  859</span>&#160;}</div>
-<div class="line"><a name="l00860"></a><span class="lineno">  860</span>&#160; </div>
-<div class="line"><a name="l00861"></a><span class="lineno">  861</span>&#160;<span class="comment">// end group ugbase_common_util</span></div>
-<div class="line"><a name="l00863"></a><span class="lineno">  863</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00864"></a><span class="lineno">  864</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00816"></a><span class="lineno"><a class="line" href="structstd_1_1less_3_01_smart_ptr_3_01_t_00_01_t_free_policy_01_4_01_4.html">  816</a></span>&#160;  <span class="keyword">struct </span>less&lt;<a class="code" href="class_smart_ptr.html">SmartPtr</a>&lt;T, TFreePolicy&gt; &gt;</div>
+<div class="line"><a name="l00817"></a><span class="lineno">  817</span>&#160;#<a class="code" href="lexer_8cpp.html#ad4a65b873df5c05570846b5413b41dfd">if</a> (__cplusplus &lt; 201103L)</div>
+<div class="line"><a name="l00818"></a><span class="lineno">  818</span>&#160;  : <span class="keyword">public</span> binary_function&lt;SmartPtr&lt;T, TFreePolicy&gt;, SmartPtr&lt;T, TFreePolicy&gt;, bool&gt;</div>
+<div class="line"><a name="l00819"></a><span class="lineno">  819</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00820"></a><span class="lineno">  820</span>&#160;  {</div>
+<div class="line"><a name="l00821"></a><span class="lineno"><a class="line" href="structstd_1_1less_3_01_smart_ptr_3_01_t_00_01_t_free_policy_01_4_01_4.html#a2e2b0c7e3f165569106fdb19f9d1bb36">  821</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="structstd_1_1less_3_01_smart_ptr_3_01_t_00_01_t_free_policy_01_4_01_4.html#a2e2b0c7e3f165569106fdb19f9d1bb36">operator()</a>(<span class="keyword">const</span> <a class="code" href="class_smart_ptr.html">SmartPtr&lt;T, TFreePolicy&gt;</a>&amp; lhs,</div>
+<div class="line"><a name="l00822"></a><span class="lineno">  822</span>&#160;            <span class="keyword">const</span> <a class="code" href="class_smart_ptr.html">SmartPtr&lt;T, TFreePolicy&gt;</a>&amp; rhs)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00823"></a><span class="lineno">  823</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00824"></a><span class="lineno">  824</span>&#160;      <span class="keywordflow">return</span> less&lt;T*&gt;()(lhs.<a class="code" href="class_smart_ptr.html#a497849ae0df7402decc569d5c73cb8f2">get</a>(), rhs.<a class="code" href="class_smart_ptr.html#a497849ae0df7402decc569d5c73cb8f2">get</a>());</div>
+<div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160;    }</div>
+<div class="line"><a name="l00826"></a><span class="lineno">  826</span>&#160;  };</div>
+<div class="line"><a name="l00827"></a><span class="lineno">  827</span>&#160;}</div>
+<div class="line"><a name="l00828"></a><span class="lineno">  828</span>&#160; </div>
+<div class="line"><a name="l00829"></a><span class="lineno">  829</span>&#160; </div>
+<div class="line"><a name="l00831"></a><span class="lineno">  831</span>&#160;<span class="comment">//  Creation helper for SmartPtr</span></div>
+<div class="line"><a name="l00833"></a><span class="lineno">  833</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, <span class="keyword">template</span> &lt;<span class="keyword">class</span> TT&gt; <span class="keyword">class </span>FreePolicy&gt;</div>
+<div class="line"><a name="l00836"></a><span class="lineno"><a class="line" href="smart__pointer_8h.html#a8ba0055baeb80cdf31c501403f7f302f">  836</a></span>&#160;<a class="code" href="class_smart_ptr.html">SmartPtr&lt;T, FreePolicy&gt;</a> <a class="code" href="smart__pointer_8h.html#a8ba0055baeb80cdf31c501403f7f302f">make_sp</a>(T* inst)</div>
+<div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160;{</div>
+<div class="line"><a name="l00838"></a><span class="lineno">  838</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="class_smart_ptr.html">SmartPtr&lt;T, FreePolicy&gt;</a>(inst);</div>
+<div class="line"><a name="l00839"></a><span class="lineno">  839</span>&#160;}</div>
+<div class="line"><a name="l00840"></a><span class="lineno">  840</span>&#160; </div>
+<div class="line"><a name="l00842"></a><span class="lineno">  842</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00843"></a><span class="lineno"><a class="line" href="smart__pointer_8h.html#aee9c17bdba93d054586383a83494d0de">  843</a></span>&#160;<a class="code" href="class_smart_ptr.html">SmartPtr&lt;T&gt;</a> <a class="code" href="smart__pointer_8h.html#a8ba0055baeb80cdf31c501403f7f302f">make_sp</a>(T* inst)</div>
+<div class="line"><a name="l00844"></a><span class="lineno">  844</span>&#160;{</div>
+<div class="line"><a name="l00845"></a><span class="lineno">  845</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="class_smart_ptr.html">SmartPtr&lt;T&gt;</a>(inst);</div>
+<div class="line"><a name="l00846"></a><span class="lineno">  846</span>&#160;}</div>
+<div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160; </div>
+<div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceboost.html">boost</a></div>
+<div class="line"><a name="l00849"></a><span class="lineno">  849</span>&#160;{</div>
+<div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div>
+<div class="line"><a name="l00851"></a><span class="lineno"><a class="line" href="structboost_1_1pointee_3_01_smart_ptr_3_01_t_01_4_01_4.html">  851</a></span>&#160;  <span class="keyword">struct </span>pointee&lt;<a class="code" href="class_smart_ptr.html">SmartPtr</a>&lt;T&gt; &gt;</div>
+<div class="line"><a name="l00852"></a><span class="lineno">  852</span>&#160;  {</div>
+<div class="line"><a name="l00853"></a><span class="lineno"><a class="line" href="structboost_1_1pointee_3_01_smart_ptr_3_01_t_01_4_01_4.html#a449f43dacc1680bdc1f4aada620fc1d2">  853</a></span>&#160;      <span class="keyword">typedef</span> T <a class="code" href="structboost_1_1pointee_3_01_smart_ptr_3_01_t_01_4_01_4.html#a449f43dacc1680bdc1f4aada620fc1d2">type</a>;</div>
+<div class="line"><a name="l00854"></a><span class="lineno">  854</span>&#160;  };</div>
+<div class="line"><a name="l00855"></a><span class="lineno">  855</span>&#160; </div>
+<div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div>
+<div class="line"><a name="l00857"></a><span class="lineno"><a class="line" href="structboost_1_1pointee_3_01_const_smart_ptr_3_01_t_01_4_01_4.html">  857</a></span>&#160;  <span class="keyword">struct </span>pointee&lt;<a class="code" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt;T&gt; &gt;</div>
+<div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;  {</div>
+<div class="line"><a name="l00859"></a><span class="lineno"><a class="line" href="structboost_1_1pointee_3_01_const_smart_ptr_3_01_t_01_4_01_4.html#a3fd58be186dcc9d53ceff36f892595f6">  859</a></span>&#160;      <span class="keyword">typedef</span> T <a class="code" href="structboost_1_1pointee_3_01_const_smart_ptr_3_01_t_01_4_01_4.html#a3fd58be186dcc9d53ceff36f892595f6">type</a>;</div>
+<div class="line"><a name="l00860"></a><span class="lineno">  860</span>&#160;  };</div>
+<div class="line"><a name="l00861"></a><span class="lineno">  861</span>&#160;}</div>
+<div class="line"><a name="l00862"></a><span class="lineno">  862</span>&#160; </div>
+<div class="line"><a name="l00863"></a><span class="lineno">  863</span>&#160;<span class="comment">// end group ugbase_common_util</span></div>
+<div class="line"><a name="l00865"></a><span class="lineno">  865</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l00866"></a><span class="lineno">  866</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="a_biogas_8lua_html_a57f1028d958bb73c4e3c64e2077342fc"><div class="ttname"><a href="../plugins/_biogas_8lua.html#a57f1028d958bb73c4e3c64e2077342fc">p</a></div><div class="ttdeci">parameterString p</div></div>
 <div class="ttc" id="aclass_const_smart_ptr_3_01void_01_4_html"><div class="ttname"><a href="class_const_smart_ptr_3_01void_01_4.html">ConstSmartPtr&lt; void &gt;</a></div><div class="ttdef"><b>Definition:</b> smart_pointer.h:650</div></div>
 <div class="ttc" id="aclass_const_smart_ptr_3_01void_01_4_html_a1bf87c50e1181c012529b3ef74891fb3"><div class="ttname"><a href="class_const_smart_ptr_3_01void_01_4.html#a1bf87c50e1181c012529b3ef74891fb3">ConstSmartPtr&lt; void &gt;::ConstSmartPtr</a></div><div class="ttdeci">ConstSmartPtr(const SmartPtr&lt; void &gt; &amp;sp)</div><div class="ttdef"><b>Definition:</b> smart_pointer.h:664</div></div>
@@ -988,19 +990,20 @@ $(document).ready(function(){initNavTree('smart__pointer_8h_source.html',''); in
 <div class="ttc" id="aclass_smart_ptr_html_afb12cffd2fa20a845650d0ddfa9791e6"><div class="ttname"><a href="class_smart_ptr.html#afb12cffd2fa20a845650d0ddfa9791e6">SmartPtr::operator!=</a></div><div class="ttdeci">bool operator!=(const SmartPtr &amp;sp) const</div><div class="ttdef"><b>Definition:</b> smart_pointer.h:174</div></div>
 <div class="ttc" id="aclass_smart_ptr_html_aff52522d43d52c68d3ada27c7cfbbfb9"><div class="ttname"><a href="class_smart_ptr.html#aff52522d43d52c68d3ada27c7cfbbfb9">SmartPtr::operator-&gt;</a></div><div class="ttdeci">T * operator-&gt;()</div><div class="ttdef"><b>Definition:</b> smart_pointer.h:135</div></div>
 <div class="ttc" id="agroup__ugbase__common__util_html_gaaf72bcd4f74729e4a43694267e8590d8"><div class="ttname"><a href="group__ugbase__common__util.html#gaaf72bcd4f74729e4a43694267e8590d8">SPNULL</a></div><div class="ttdeci">const NullSmartPtr SPNULL</div><div class="ttdoc">The equivalent to NULL for smart pointers.</div><div class="ttdef"><b>Definition:</b> smart_pointer.h:90</div></div>
+<div class="ttc" id="alexer_8cpp_html_ad4a65b873df5c05570846b5413b41dfd"><div class="ttname"><a href="lexer_8cpp.html#ad4a65b873df5c05570846b5413b41dfd">if</a></div><div class="ttdeci">if(!(yy_init))</div><div class="ttdef"><b>Definition:</b> lexer.cpp:997</div></div>
 <div class="ttc" id="anamespaceboost_html"><div class="ttname"><a href="namespaceboost.html">boost</a></div><div class="ttdef"><b>Definition:</b> boost_serialization_routines.h:49</div></div>
 <div class="ttc" id="anamespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div><div class="ttdef"><b>Definition:</b> smart_pointer.h:814</div></div>
-<div class="ttc" id="asmart__pointer_8h_html_a8ba0055baeb80cdf31c501403f7f302f"><div class="ttname"><a href="smart__pointer_8h.html#a8ba0055baeb80cdf31c501403f7f302f">make_sp</a></div><div class="ttdeci">SmartPtr&lt; T, FreePolicy &gt; make_sp(T *inst)</div><div class="ttdoc">returns a SmartPtr for the passed raw pointer</div><div class="ttdef"><b>Definition:</b> smart_pointer.h:834</div></div>
-<div class="ttc" id="astructboost_1_1pointee_3_01_const_smart_ptr_3_01_t_01_4_01_4_html_a3fd58be186dcc9d53ceff36f892595f6"><div class="ttname"><a href="structboost_1_1pointee_3_01_const_smart_ptr_3_01_t_01_4_01_4.html#a3fd58be186dcc9d53ceff36f892595f6">boost::pointee&lt; ConstSmartPtr&lt; T &gt; &gt;::type</a></div><div class="ttdeci">T type</div><div class="ttdef"><b>Definition:</b> smart_pointer.h:857</div></div>
-<div class="ttc" id="astructboost_1_1pointee_3_01_smart_ptr_3_01_t_01_4_01_4_html_a449f43dacc1680bdc1f4aada620fc1d2"><div class="ttname"><a href="structboost_1_1pointee_3_01_smart_ptr_3_01_t_01_4_01_4.html#a449f43dacc1680bdc1f4aada620fc1d2">boost::pointee&lt; SmartPtr&lt; T &gt; &gt;::type</a></div><div class="ttdeci">T type</div><div class="ttdef"><b>Definition:</b> smart_pointer.h:851</div></div>
-<div class="ttc" id="astructstd_1_1less_3_01_smart_ptr_3_01_t_00_01_t_free_policy_01_4_01_4_html_a2e2b0c7e3f165569106fdb19f9d1bb36"><div class="ttname"><a href="structstd_1_1less_3_01_smart_ptr_3_01_t_00_01_t_free_policy_01_4_01_4.html#a2e2b0c7e3f165569106fdb19f9d1bb36">std::less&lt; SmartPtr&lt; T, TFreePolicy &gt; &gt;::operator()</a></div><div class="ttdeci">bool operator()(const SmartPtr&lt; T, TFreePolicy &gt; &amp;lhs, const SmartPtr&lt; T, TFreePolicy &gt; &amp;rhs) const</div><div class="ttdef"><b>Definition:</b> smart_pointer.h:819</div></div>
+<div class="ttc" id="asmart__pointer_8h_html_a8ba0055baeb80cdf31c501403f7f302f"><div class="ttname"><a href="smart__pointer_8h.html#a8ba0055baeb80cdf31c501403f7f302f">make_sp</a></div><div class="ttdeci">SmartPtr&lt; T, FreePolicy &gt; make_sp(T *inst)</div><div class="ttdoc">returns a SmartPtr for the passed raw pointer</div><div class="ttdef"><b>Definition:</b> smart_pointer.h:836</div></div>
+<div class="ttc" id="astructboost_1_1pointee_3_01_const_smart_ptr_3_01_t_01_4_01_4_html_a3fd58be186dcc9d53ceff36f892595f6"><div class="ttname"><a href="structboost_1_1pointee_3_01_const_smart_ptr_3_01_t_01_4_01_4.html#a3fd58be186dcc9d53ceff36f892595f6">boost::pointee&lt; ConstSmartPtr&lt; T &gt; &gt;::type</a></div><div class="ttdeci">T type</div><div class="ttdef"><b>Definition:</b> smart_pointer.h:859</div></div>
+<div class="ttc" id="astructboost_1_1pointee_3_01_smart_ptr_3_01_t_01_4_01_4_html_a449f43dacc1680bdc1f4aada620fc1d2"><div class="ttname"><a href="structboost_1_1pointee_3_01_smart_ptr_3_01_t_01_4_01_4.html#a449f43dacc1680bdc1f4aada620fc1d2">boost::pointee&lt; SmartPtr&lt; T &gt; &gt;::type</a></div><div class="ttdeci">T type</div><div class="ttdef"><b>Definition:</b> smart_pointer.h:853</div></div>
+<div class="ttc" id="astructstd_1_1less_3_01_smart_ptr_3_01_t_00_01_t_free_policy_01_4_01_4_html_a2e2b0c7e3f165569106fdb19f9d1bb36"><div class="ttname"><a href="structstd_1_1less_3_01_smart_ptr_3_01_t_00_01_t_free_policy_01_4_01_4.html#a2e2b0c7e3f165569106fdb19f9d1bb36">std::less&lt; SmartPtr&lt; T, TFreePolicy &gt; &gt;::operator()</a></div><div class="ttdeci">bool operator()(const SmartPtr&lt; T, TFreePolicy &gt; &amp;lhs, const SmartPtr&lt; T, TFreePolicy &gt; &amp;rhs) const</div><div class="ttdef"><b>Definition:</b> smart_pointer.h:821</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_8c26a127a0eea13c4724b5310584fbab.html">common</a></li><li class="navelem"><a class="el" href="dir_80120806c2c1f53b064b2e13fe6efa8a.html">util</a></li><li class="navelem"><a class="el" href="smart__pointer_8h.html">smart_pointer.h</a></li>
-    <li class="footer">Generated on Mon Oct 23 2023 00:54:40 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Oct 30 2023 00:54:18 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
