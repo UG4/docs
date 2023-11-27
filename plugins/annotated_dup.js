@@ -151,6 +151,36 @@ var annotated_dup =
         [ "MeshObject", "classug_1_1promesh_1_1_mesh_object.html", "classug_1_1promesh_1_1_mesh_object" ],
         [ "ProMeshRegistry", "classug_1_1promesh_1_1_pro_mesh_registry.html", "classug_1_1promesh_1_1_pro_mesh_registry" ]
       ] ],
+      [ "Richards", "namespaceug_1_1_richards.html", [
+        [ "BrooksCoreyFunctions", "structug_1_1_richards_1_1_brooks_corey_functions.html", "structug_1_1_richards_1_1_brooks_corey_functions" ],
+        [ "ConductivityAdapter", "structug_1_1_richards_1_1_conductivity_adapter.html", "structug_1_1_richards_1_1_conductivity_adapter" ],
+        [ "ExponentialConductivity", "structug_1_1_richards_1_1_exponential_conductivity.html", "structug_1_1_richards_1_1_exponential_conductivity" ],
+        [ "ExponentialModel", "classug_1_1_richards_1_1_exponential_model.html", "classug_1_1_richards_1_1_exponential_model" ],
+        [ "ExponentialModelParameters", "structug_1_1_richards_1_1_exponential_model_parameters.html", "structug_1_1_richards_1_1_exponential_model_parameters" ],
+        [ "ExponentialSaturation", "structug_1_1_richards_1_1_exponential_saturation.html", "structug_1_1_richards_1_1_exponential_saturation" ],
+        [ "Functionality", "structug_1_1_richards_1_1_functionality.html", "structug_1_1_richards_1_1_functionality" ],
+        [ "GardnerConductivity", "classug_1_1_richards_1_1_gardner_conductivity.html", "classug_1_1_richards_1_1_gardner_conductivity" ],
+        [ "GardnerModel", "classug_1_1_richards_1_1_gardner_model.html", "classug_1_1_richards_1_1_gardner_model" ],
+        [ "GardnerSaturation", "classug_1_1_richards_1_1_gardner_saturation.html", "classug_1_1_richards_1_1_gardner_saturation" ],
+        [ "HaverkampConductivity", "classug_1_1_richards_1_1_haverkamp_conductivity.html", "classug_1_1_richards_1_1_haverkamp_conductivity" ],
+        [ "HaverkampModel", "classug_1_1_richards_1_1_haverkamp_model.html", "classug_1_1_richards_1_1_haverkamp_model" ],
+        [ "HaverkampParameters", "structug_1_1_richards_1_1_haverkamp_parameters.html", "structug_1_1_richards_1_1_haverkamp_parameters" ],
+        [ "HaverkampSaturation", "classug_1_1_richards_1_1_haverkamp_saturation.html", "classug_1_1_richards_1_1_haverkamp_saturation" ],
+        [ "IParameterizedModel", "structug_1_1_richards_1_1_i_parameterized_model.html", "structug_1_1_richards_1_1_i_parameterized_model" ],
+        [ "IRichardsLinker", "structug_1_1_richards_1_1_i_richards_linker.html", "structug_1_1_richards_1_1_i_richards_linker" ],
+        [ "IRichardsModel", "classug_1_1_richards_1_1_i_richards_model.html", "classug_1_1_richards_1_1_i_richards_model" ],
+        [ "OnSurfaceCondition", "classug_1_1_richards_1_1_on_surface_condition.html", "classug_1_1_richards_1_1_on_surface_condition" ],
+        [ "RichardsConductivity", "structug_1_1_richards_1_1_richards_conductivity.html", "structug_1_1_richards_1_1_richards_conductivity" ],
+        [ "RichardsElemDisc", "classug_1_1_richards_1_1_richards_elem_disc.html", "classug_1_1_richards_1_1_richards_elem_disc" ],
+        [ "RichardsElemDiscFactory", "classug_1_1_richards_1_1_richards_elem_disc_factory.html", "classug_1_1_richards_1_1_richards_elem_disc_factory" ],
+        [ "RichardsLinker", "classug_1_1_richards_1_1_richards_linker.html", "classug_1_1_richards_1_1_richards_linker" ],
+        [ "RichardsSaturation", "structug_1_1_richards_1_1_richards_saturation.html", "structug_1_1_richards_1_1_richards_saturation" ],
+        [ "SaturationAdapter", "structug_1_1_richards_1_1_saturation_adapter.html", "structug_1_1_richards_1_1_saturation_adapter" ],
+        [ "UserDataFactory", "classug_1_1_richards_1_1_user_data_factory.html", "classug_1_1_richards_1_1_user_data_factory" ],
+        [ "VanGenuchtenFunctions", "structug_1_1_richards_1_1_van_genuchten_functions.html", "structug_1_1_richards_1_1_van_genuchten_functions" ],
+        [ "VanGenuchtenModel", "classug_1_1_richards_1_1_van_genuchten_model.html", "classug_1_1_richards_1_1_van_genuchten_model" ],
+        [ "VanGenuchtenParameters", "structug_1_1_richards_1_1_van_genuchten_parameters.html", "structug_1_1_richards_1_1_van_genuchten_parameters" ]
+      ] ],
       [ "SmallStrainMechanics", "namespaceug_1_1_small_strain_mechanics.html", [
         [ "ContactSmallStrainMechanics", "classug_1_1_small_strain_mechanics_1_1_contact_small_strain_mechanics.html", "classug_1_1_small_strain_mechanics_1_1_contact_small_strain_mechanics" ],
         [ "contrained_dim_traits", "structug_1_1_small_strain_mechanics_1_1contrained__dim__traits.html", null ],
@@ -219,5 +249,6 @@ var annotated_dup =
       [ "UserDataSpace", "classug_1_1_user_data_space.html", "classug_1_1_user_data_space" ],
       [ "VTKOutputObserver", "classug_1_1_v_t_k_output_observer.html", "classug_1_1_v_t_k_output_observer" ]
     ] ],
+    [ "RichardsFixtures", "struct_richards_fixtures.html", "struct_richards_fixtures" ],
     [ "UGTestInit", "struct_u_g_test_init.html", "struct_u_g_test_init" ]
 ];

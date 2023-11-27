@@ -110,6 +110,11 @@ $(document).ready(function(){initNavTree('functions_e.html',''); initResizable()
 <li>edge_iter_t
 : <a class="el" href="classug_1_1promesh_1_1_mesh.html#a5bae0071d1874434cae420f1c7c6b03e">ug::promesh::Mesh</a>
 </li>
+<li>EffSaturation_()
+: <a class="el" href="classug_1_1_richards_1_1_exponential_model.html#ad974fb3ff00b6559df8f7a524507a00b">ug::Richards::ExponentialModel</a>
+, <a class="el" href="classug_1_1_richards_1_1_gardner_model.html#a9b0ba6e6595ffe8c26ee94a9b21b1675">ug::Richards::GardnerModel</a>
+, <a class="el" href="classug_1_1_richards_1_1_van_genuchten_model.html#a519a4d7440e17847981a5bec7dab9015">ug::Richards::VanGenuchtenModel</a>
+</li>
 <li>elasticityTensor()
 : <a class="el" href="group__small__strain__mechanics.html#ga390817b56665e12554146ad6035863cf">ug::SmallStrainMechanics::HookeLaw&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_small_strain_mechanics_1_1_i_material_law.html#a1e21735c1b9aacc5d91d61cd87db51d3">ug::SmallStrainMechanics::IMaterialLaw&lt; TDomain &gt;</a>
@@ -220,6 +225,7 @@ $(document).ready(function(){initNavTree('functions_e.html',''); initResizable()
 , <a class="el" href="classug_1_1_electromagnetism_1_1_nedelec_curl_data.html#ad13affe920db26c70a2d5c9f2aacc3da">ug::Electromagnetism::NedelecCurlData&lt; TGridFunc &gt;</a>
 , <a class="el" href="classug_1_1_electromagnetism_1_1_nedelec_grid_function_data.html#ae33b110847132f918891db37e0ad11b1">ug::Electromagnetism::NedelecGridFunctionData&lt; TGridFunc &gt;</a>
 , <a class="el" href="classug_1_1_electromagnetism_1_1_nedelec_sigma_e_data.html#afb61ff579ad3e3be4a9de04a2c2425aa">ug::Electromagnetism::NedelecSigmaEData&lt; TGridFunc &gt;</a>
+, <a class="el" href="classug_1_1_richards_1_1_richards_linker.html#acd157f92ef8284579b883f69788f4302">ug::Richards::RichardsLinker&lt; dim, TFunctor &gt;</a>
 </li>
 <li>evaluate()
 : <a class="el" href="classug_1_1_delta_square_integrand.html#ae83f446ff4ce83e2bd415fc35d8c2253">ug::DeltaSquareIntegrand&lt; TDataIn, TGridFunction &gt;</a>
@@ -229,6 +235,7 @@ $(document).ready(function(){initNavTree('functions_e.html',''); initResizable()
 , <a class="el" href="classug_1_1_navier_stokes_1_1_separated_pressure_source_inter.html#a948db21293cbeb7c49a7299b990e69c2">ug::NavierStokes::SeparatedPressureSourceInter&lt; TGridFunction &gt;</a>
 , <a class="el" href="classug_1_1_navier_stokes_1_1_std_turbulent_viscosity_data.html#ae649199d9ac5d843ae36a64b435651cd">ug::NavierStokes::StdTurbulentViscosityData&lt; TData, dim, TImpl, TGridFunction &gt;</a>
 , <a class="el" href="classug_1_1_navier_stokes_1_1_std_turbulent_viscosity_data_f_v1.html#a8d0af1022639d17b122fce1d1abd7171">ug::NavierStokes::StdTurbulentViscosityDataFV1&lt; TData, dim, TImpl, TGridFunction &gt;</a>
+, <a class="el" href="classug_1_1_richards_1_1_richards_linker.html#a2dd12a23bf0ffd6b3263e84460fe4bcd">ug::Richards::RichardsLinker&lt; dim, TFunctor &gt;</a>
 </li>
 <li>ex_displacement()
 : <a class="el" href="classug_1_1_small_strain_mechanics_1_1_small_strain_mechanics_elem_disc.html#aff557b93c255cb262a38b45ab816bf26">ug::SmallStrainMechanics::SmallStrainMechanicsElemDisc&lt; TDomain &gt;</a>
@@ -260,8 +267,17 @@ $(document).ready(function(){initNavTree('functions_e.html',''); initResizable()
 <li>ex_velocity_grad()
 : <a class="el" href="classug_1_1_navier_stokes_1_1_navier_stokes_f_v1.html#ad9c7824abade73594756a3c63538a5a4">ug::NavierStokes::NavierStokesFV1&lt; TDomain &gt;</a>
 </li>
+<li>ExponentialConductivity()
+: <a class="el" href="structug_1_1_richards_1_1_exponential_conductivity.html#ad5377eedb193ce396f140e355b0e19bb">ug::Richards::ExponentialConductivity&lt; dim &gt;</a>
+</li>
 <li>ExponentialHardening()
 : <a class="el" href="group__small__strain__mechanics.html#ga84135aeaae9be653ed0b61ab788af1d8">ug::SmallStrainMechanics::PrandtlReuss&lt; TDomain &gt;</a>
+</li>
+<li>ExponentialModel()
+: <a class="el" href="classug_1_1_richards_1_1_exponential_model.html#ad87556d61e6d6c372b6108f35d4959f4">ug::Richards::ExponentialModel</a>
+</li>
+<li>ExponentialSaturation()
+: <a class="el" href="structug_1_1_richards_1_1_exponential_saturation.html#a4785a1c65d7530bfdc1f55d145aa09bb">ug::Richards::ExponentialSaturation&lt; dim &gt;</a>
 </li>
 <li>exported_function()
 : <a class="el" href="classug_1_1promesh_1_1detail_1_1_pro_mesh_function.html#a7d9034425ec73ff64f80bc81b35e2846">ug::promesh::detail::ProMeshFunction</a>
@@ -288,7 +304,7 @@ $(document).ready(function(){initNavTree('functions_e.html',''); initResizable()
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Nov 13 2023 00:55:29 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Nov 27 2023 12:03:48 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

@@ -101,6 +101,9 @@ $(document).ready(function(){initNavTree('functions_func_d.html',''); initResiza
 <li>damp_DVFs()
 : <a class="el" href="classug_1_1_electromagnetism_1_1_nedelec_project.html#acfada2bdd153f369ce9de8e9e1f9e293">ug::Electromagnetism::NedelecProject&lt; TDomain, TAlgebra &gt;</a>
 </li>
+<li>dConductivity_dH()
+: <a class="el" href="classug_1_1_richards_1_1_i_richards_model.html#a988947005aba82e56f268c4574893e30">ug::Richards::IRichardsModel&lt; TDerived &gt;</a>
+</li>
 <li>DeltaSquareIntegrand()
 : <a class="el" href="classug_1_1_delta_square_integrand.html#a9b135c7e17bd6fcae82e9ba7b7bf4e95">ug::DeltaSquareIntegrand&lt; TDataIn, TGridFunction &gt;</a>
 </li>
@@ -151,6 +154,7 @@ $(document).ready(function(){initNavTree('functions_func_d.html',''); initResiza
 , <a class="el" href="structug_1_1_navier_stokes_1_1_functionality_f_v.html#a17f3d5b8da79d16bf3bb9adda2b27d0d">ug::NavierStokes::FunctionalityFV</a>
 , <a class="el" href="structug_1_1_navier_stokes_1_1_functionality_f_v_c_r.html#a0cc53df80c69215c62498dbb6b571638">ug::NavierStokes::FunctionalityFVCR</a>
 , <a class="el" href="structug_1_1_navier_stokes_1_1_functionality_incomp.html#a937f605b75181480379bd357e8a5e244">ug::NavierStokes::FunctionalityIncomp</a>
+, <a class="el" href="structug_1_1_richards_1_1_functionality.html#a252049330994d4e61065c12567518298">ug::Richards::Functionality</a>
 , <a class="el" href="structug_1_1_template_plugin_1_1_functionality.html#a370717a9009319ca61f013ed95906b3e">ug::TemplatePlugin::Functionality</a>
 </li>
 <li>direction()
@@ -236,6 +240,7 @@ $(document).ready(function(){initNavTree('functions_func_d.html',''); initResiza
 , <a class="el" href="structug_1_1_navier_stokes_1_1_functionality_f_v.html#aff29cd6c85584ca36f515a0d557139b5">ug::NavierStokes::FunctionalityFV</a>
 , <a class="el" href="structug_1_1_navier_stokes_1_1_functionality_f_v_c_r.html#a1513b8f398e68e2eb9d8450787d4e12b">ug::NavierStokes::FunctionalityFVCR</a>
 , <a class="el" href="structug_1_1_navier_stokes_1_1_functionality_incomp.html#ae9032207446dd915d18b0a3117fa9270">ug::NavierStokes::FunctionalityIncomp</a>
+, <a class="el" href="structug_1_1_richards_1_1_functionality.html#ab8ace83f0893c7b5b17aa723b9bd7979">ug::Richards::Functionality</a>
 , <a class="el" href="structug_1_1_small_strain_mechanics_1_1_functionality.html#ae8bea30d9d4dda6d82d1f40c6d6f7ebc">ug::SmallStrainMechanics::Functionality</a>
 , <a class="el" href="structug_1_1_template_plugin_1_1_functionality.html#aaf2bbd57b97e02eeb649a07c7a7039e7">ug::TemplatePlugin::Functionality</a>
 </li>
@@ -252,6 +257,7 @@ $(document).ready(function(){initNavTree('functions_func_d.html',''); initResiza
 , <a class="el" href="structug_1_1_navier_stokes_1_1_functionality_f_v.html#aacace7dbd9d9599986d5cfc88b7b43f6">ug::NavierStokes::FunctionalityFV</a>
 , <a class="el" href="structug_1_1_navier_stokes_1_1_functionality_f_v_c_r.html#a3d2f56c2405d927b0e5044a79cbb3993">ug::NavierStokes::FunctionalityFVCR</a>
 , <a class="el" href="structug_1_1_navier_stokes_1_1_functionality_incomp.html#a300dcd2b8eb48547ea301f17ed51158c">ug::NavierStokes::FunctionalityIncomp</a>
+, <a class="el" href="structug_1_1_richards_1_1_functionality.html#a125f1f780f74f0099a290f2217712ea3">ug::Richards::Functionality</a>
 , <a class="el" href="structug_1_1_small_strain_mechanics_1_1_functionality.html#a0945ebd4bad71d682a6cc59d280c2b0e">ug::SmallStrainMechanics::Functionality</a>
 , <a class="el" href="structug_1_1_template_plugin_1_1_functionality.html#a2f13430a5dcb45084b8e2b31d7a48e1f">ug::TemplatePlugin::Functionality</a>
 </li>
@@ -279,13 +285,16 @@ $(document).ready(function(){initNavTree('functions_func_d.html',''); initResiza
 : <a class="el" href="classug_1_1_navier_stokes_1_1_i_navier_stokes_s_r_f_v1_stabilization.html#ae714a92e9efb31bf507ad28e0b95affa">ug::NavierStokes::INavierStokesSRFV1Stabilization&lt; dim &gt;</a>
 , <a class="el" href="classug_1_1_navier_stokes_1_1_i_navier_stokes_upwind.html#a853b69462c34946bad49e14beaea6e2b">ug::NavierStokes::INavierStokesUpwind&lt; dim &gt;</a>
 </li>
+<li>dSaturation_dH()
+: <a class="el" href="classug_1_1_richards_1_1_i_richards_model.html#ab0732bf98d58b64c9fb9ff53b040d4aa">ug::Richards::IRichardsModel&lt; TDerived &gt;</a>
+</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Nov 13 2023 00:55:29 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Nov 27 2023 12:03:48 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

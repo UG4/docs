@@ -92,6 +92,15 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 &#160;
 
 <h3><a id="index_g"></a>- g -</h3><ul>
+<li>GardnerConductivity()
+: <a class="el" href="classug_1_1_richards_1_1_gardner_conductivity.html#ac1f67c701e37fbabcac7068c8d0d5fd8">ug::Richards::GardnerConductivity&lt; dim &gt;</a>
+</li>
+<li>GardnerModel()
+: <a class="el" href="classug_1_1_richards_1_1_gardner_model.html#a2935c7e52000174ca94be4765fe1ddd6">ug::Richards::GardnerModel</a>
+</li>
+<li>GardnerSaturation()
+: <a class="el" href="classug_1_1_richards_1_1_gardner_saturation.html#ae466bed80102b73433b9366ed231d711">ug::Richards::GardnerSaturation&lt; dim &gt;</a>
+</li>
 <li>generate_class_constructors()
 : <a class="el" href="classug_1_1_docu_gen_1_1_cpp_generator.html#abbe5658b5e8dcfa391e504bf5196657b">ug::DocuGen::CppGenerator</a>
 </li>
@@ -125,6 +134,16 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 <li>geometry()
 : <a class="el" href="classug_1_1promesh_1_1_mesh.html#a3c4eb6831e9216aa6f3e91f91e2b1d61">ug::promesh::Mesh</a>
 </li>
+<li>get_conductivities()
+: <a class="el" href="classug_1_1_richards_1_1_i_richards_model.html#a517e034e874b928559c93278295921da">ug::Richards::IRichardsModel&lt; TDerived &gt;</a>
+</li>
+<li>get_conductivity()
+: <a class="el" href="classug_1_1_richards_1_1_gardner_model.html#a4ac637133ddf30085bad6bfe07b82948">ug::Richards::GardnerModel</a>
+, <a class="el" href="classug_1_1_richards_1_1_i_richards_model.html#aa4b8722658ec137b4328949e899f5632">ug::Richards::IRichardsModel&lt; TDerived &gt;</a>
+</li>
+<li>get_conductivity_data()
+: <a class="el" href="classug_1_1_richards_1_1_richards_elem_disc.html#a87f2ebddfb7c53f6a25af871bc1d23c5">ug::Richards::RichardsElemDisc&lt; TDomain &gt;</a>
+</li>
 <li>get_consistency_error()
 : <a class="el" href="classug_1_1_simple_time_integrator.html#a030cccef5a410fb442d346ed9e5512e4">ug::SimpleTimeIntegrator&lt; TDomain, TAlgebra &gt;</a>
 </li>
@@ -147,6 +166,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 <li>get_dirichlet_subsets()
 : <a class="el" href="classug_1_1_electromagnetism_1_1_e_m_dirichlet.html#adeac284e4872e18e2c0ce207a815d5ce">ug::Electromagnetism::EMDirichlet&lt; TDomain, TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_electromagnetism_1_1_nedelec_dirichlet_b_c.html#af5649cebe44bc75f065c1a7d52f073c8">ug::Electromagnetism::NedelecDirichletBC&lt; TDomain, TAlgebra &gt;</a>
+</li>
+<li>get_disc_type()
+: <a class="el" href="classug_1_1_richards_1_1_richards_elem_disc_factory.html#ad94e7131dcd872c8daf2e919c84e928a">ug::Richards::RichardsElemDiscFactory&lt; TDomain &gt;</a>
 </li>
 <li>get_dt_max()
 : <a class="el" href="classug_1_1_i_nonlinear_time_integrator.html#a38e5ae36cdce47c7f66569c70df19588">ug::INonlinearTimeIntegrator&lt; TDomain, TAlgebra &gt;</a>
@@ -171,8 +193,15 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 <li>get_error_estimates()
 : <a class="el" href="classug_1_1_aitken_neville_timex.html#a54991f0ea650ac9228cc53ad6a04654e">ug::AitkenNevilleTimex&lt; TVector &gt;</a>
 </li>
+<li>get_flux_data()
+: <a class="el" href="classug_1_1_richards_1_1_richards_elem_disc.html#ae955c84ff6bd75bd8d9ac7ee5f5eb5e1">ug::Richards::RichardsElemDisc&lt; TDomain &gt;</a>
+</li>
 <li>get_flux_of_pot()
 : <a class="el" href="classug_1_1_electromagnetism_1_1_nedelec_loop_current.html#ad0e461acdb8a1255c7f1ef7a43c1b3c8">ug::Electromagnetism::NedelecLoopCurrent&lt; TDomain, TAlgebra &gt;</a>
+</li>
+<li>get_func_values()
+: <a class="el" href="structug_1_1_richards_1_1_conductivity_adapter.html#a3e2a85ac4ae538f44c84d5c727ed5934">ug::Richards::ConductivityAdapter&lt; M &gt;</a>
+, <a class="el" href="structug_1_1_richards_1_1_saturation_adapter.html#a12ad144789705e1b067df91b4e88a64d">ug::Richards::SaturationAdapter&lt; M &gt;</a>
 </li>
 <li>get_gamma()
 : <a class="el" href="classug_1_1_limex_time_integrator.html#acdae7f1e4cb1d640e3b5296b06b86e16">ug::LimexTimeIntegrator&lt; TDomain, TAlgebra &gt;</a>
@@ -205,6 +234,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 <li>get_options()
 : <a class="el" href="classug_1_1_super_l_u_implementation.html#ac1e4ab320b7bdf5c9804b7c83704dc56">ug::SuperLUImplementation</a>
 </li>
+<li>get_parameters()
+: <a class="el" href="structug_1_1_richards_1_1_i_parameterized_model.html#a4b3e1a7dd4277b29690de6a20595cbed">ug::Richards::IParameterizedModel&lt; TParameter &gt;</a>
+</li>
 <li>get_pivot()
 : <a class="el" href="classug_1_1promesh_1_1_mesh_object.html#a6aa5d30f7e81ddcca7e3546e0dc068d8">ug::promesh::MeshObject</a>
 </li>
@@ -215,9 +247,22 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 : <a class="el" href="classug_1_1_i_nonlinear_time_integrator.html#a0dd6554e772a34c801404720cd7e3622">ug::INonlinearTimeIntegrator&lt; TDomain, TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_time_step_bounds.html#a06c49980ec8d85ac41f2fec4d5b8a9b3">ug::TimeStepBounds</a>
 </li>
+<li>get_relative_permeabilities()
+: <a class="el" href="classug_1_1_richards_1_1_i_richards_model.html#ab758fa44497b25d62d27afe3f0db083d">ug::Richards::IRichardsModel&lt; TDerived &gt;</a>
+</li>
+<li>get_relative_permeability()
+: <a class="el" href="classug_1_1_richards_1_1_i_richards_model.html#a1f96eb3c80d4b803117e84ff3939c294">ug::Richards::IRichardsModel&lt; TDerived &gt;</a>
+</li>
 <li>get_required_buffer_size()
 : <a class="el" href="classug_1_1_electromagnetism_1_1_com_pol___mem_copy.html#ad25832f8660d0971afdeae37bb123faf">ug::Electromagnetism::ComPol_MemCopy&lt; TArray, TLayout &gt;</a>
 , <a class="el" href="classug_1_1_electromagnetism_1_1_com_pol___mem_op.html#a50c87274898b8bb804928183321d4a7a">ug::Electromagnetism::ComPol_MemOp&lt; TArray, TLayout, TOp &gt;</a>
+</li>
+<li>get_saturation()
+: <a class="el" href="classug_1_1_richards_1_1_gardner_model.html#a8536bf422d120f7308a02d3f2a45a83c">ug::Richards::GardnerModel</a>
+, <a class="el" href="classug_1_1_richards_1_1_i_richards_model.html#ae51fcf9a89ec167f5a5d3c4566f935ec">ug::Richards::IRichardsModel&lt; TDerived &gt;</a>
+</li>
+<li>get_saturations()
+: <a class="el" href="classug_1_1_richards_1_1_i_richards_model.html#a48d6530d5a8104b13e4647dddeb3e742">ug::Richards::IRichardsModel&lt; TDerived &gt;</a>
 </li>
 <li>get_selector()
 : <a class="el" href="classug_1_1promesh_1_1_mesh_object.html#a9c7e1433dc52ed3388d5ed27cc9280c3">ug::promesh::MeshObject</a>
@@ -233,6 +278,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 <li>get_solver()
 : <a class="el" href="classug_1_1_i_nonlinear_time_integrator.html#ab8284f2d75a88999c7a5d89ccd48b028">ug::INonlinearTimeIntegrator&lt; TDomain, TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_limex_time_integrator_1_1_thread_data.html#ac5924ff6c27b0145a91aa384b5b643fc">ug::LimexTimeIntegrator&lt; TDomain, TAlgebra &gt;::ThreadData</a>
+</li>
+<li>get_storage_data()
+: <a class="el" href="classug_1_1_richards_1_1_richards_elem_disc.html#a6c53ac7cb7305d2b0ad4692900020d91">ug::Richards::RichardsElemDisc&lt; TDomain &gt;</a>
 </li>
 <li>get_subset_handler()
 : <a class="el" href="classug_1_1promesh_1_1_mesh_object.html#a96a9e3be4e4939294ca98f052b56399f">ug::promesh::MeshObject</a>
@@ -262,6 +310,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 : <a class="el" href="classug_1_1_demo_plugin_1_1_demo_class.html#a2715c064e4140e44963af0582cd5dac6">ug::DemoPlugin::DemoClass</a>
 , <a class="el" href="classug_1_1_electromagnetism_1_1_eddy_current_im_bof_e_user_data.html#a2ab00763268adb8930fe3061f150c4a7">ug::Electromagnetism::EddyCurrentImBofEUserData&lt; TGridFunc &gt;</a>
 , <a class="el" href="classug_1_1_electromagnetism_1_1_eddy_current_re_bof_e_user_data.html#acb3980ba302b17c8be931b0eee71107f">ug::Electromagnetism::EddyCurrentReBofEUserData&lt; TGridFunc &gt;</a>
+</li>
+<li>get_value_and_deriv()
+: <a class="el" href="classug_1_1_richards_1_1_i_richards_model.html#a2c2733320e788f39fa3d60409fc18563">ug::Richards::IRichardsModel&lt; TDerived &gt;</a>
 </li>
 <li>get_values()
 : <a class="el" href="classug_1_1_delta_square_integrand.html#ac670f13dbb4ccf977fd9ab6f24307c21">ug::DeltaSquareIntegrand&lt; TDataIn, TGridFunction &gt;</a>
@@ -306,7 +357,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Nov 13 2023 00:55:29 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Nov 27 2023 12:03:48 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

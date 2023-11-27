@@ -182,6 +182,7 @@ var namespaceug =
       [ "TOP_EDGE_INDS", "../namespaceug_1_1pyra__rules.html#a95053e3060e8ec9a1a10efd3e29e1d3a", null ],
       [ "TOP_VERTEX", "../namespaceug_1_1pyra__rules.html#a95b5eb579e916dcb1e64a251410bdb9e", null ]
     ] ],
+    [ "Richards", "namespaceug_1_1_richards.html", "namespaceug_1_1_richards" ],
     [ "script", null, [
       [ "debug_return", "../namespaceug_1_1script.html#a926bb28ce5c33ddcbb373a017038a000", null ],
       [ "AddBreakpoint", "../namespaceug_1_1script.html#a3dd350e793e44f443c80d93daa473947", null ],
@@ -1651,6 +1652,7 @@ var namespaceug =
     [ "FillDistInfos", "../namespaceug.html#a02671f60ea2187f1ff25d54c1214269d", null ],
     [ "FinalizeUGPlugin_Jupyter", "namespaceug.html#a895491afc127399b26435c3a26440045", null ],
     [ "FinalizeUGPlugin_Limex", "namespaceug.html#a31d5f71df756b841df0d98b9c965bfae", null ],
+    [ "FinalizeUGPlugin_Richards", "namespaceug.html#a5a32a81eb04935e35fd09e37cc2b43dd", null ],
     [ "find", "../namespaceug.html#a0d7fd952e3d0f84365c039b56e861cdf", null ],
     [ "find_pid", "../namespaceug.html#a5f1906de09a22e354fade50a9cb8567b", null ],
     [ "findBlockSize", "../namespaceug.html#af9a0ccc0d1ac207ca67b0589734f440b", null ],
@@ -1999,6 +2001,7 @@ var namespaceug =
     [ "InitUGPlugin_LuaShell", "namespaceug.html#aa0851964f15ffc8685f8add313ac9cf1", null ],
     [ "InitUGPlugin_NavierStokes", "namespaceug.html#a63bbe154252960404940a7a6970e53fe", null ],
     [ "InitUGPlugin_ProMesh", "namespaceug.html#a1a52560f91748e1fd6940d387b978d58", null ],
+    [ "InitUGPlugin_Richards", "namespaceug.html#ad4382f915bc6b9797fca3d3bb6c42816", null ],
     [ "InitUGPlugin_SmallStrainMechanics", "namespaceug.html#afbbb10af1fdd6adcf44fa44a2928414d", null ],
     [ "InitUGPlugin_TemplatePlugin", "namespaceug.html#a7e7088bf9a05a1b061b8eb119afc017e", null ],
     [ "InnerDoFPosition", "../namespaceug.html#ae1e52156d8ecc72d9e6997c00c153844", null ],

@@ -2773,6 +2773,7 @@ var hierarchy =
     [ "SmartPtr< ug::PPP_ReplaceCoordinate >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::Raster >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::RefinementProjector >", "class_smart_ptr.html", null ],
+    [ "SmartPtr< ug::Richards::IRichardsLinker >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::SchurComplementMatrixOperator< TAlgebra, matrix_type, vector_type > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::SchurComplementOperator< algebra_type > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::SchurComplementOperator< TAlgebra > >", "class_smart_ptr.html", null ],
@@ -3171,6 +3172,7 @@ var hierarchy =
             [ "ug::StdDataLinker< DarcyVelocityLinker< dim >, MathVector< dim >, dim >", "classug_1_1_std_data_linker.html", [
               [ "ug::DarcyVelocityLinker< dim >", "classug_1_1_darcy_velocity_linker.html", null ]
             ] ],
+            [ "ug::StdDataLinker< RichardsLinker< dim, TFunctor >, number, dim >", "classug_1_1_std_data_linker.html", null ],
             [ "ug::StdDependentUserData< NedelecGridFunctionData< TGridFunc >, MathVector< TGridFunc::dim >, TGridFunc::dim >", "classug_1_1_std_dependent_user_data.html", null ],
             [ "ug::StdDependentUserData< NedelecCurlData< TGridFunc >, MathVector< TGridFunc::dim >, TGridFunc::dim >", "classug_1_1_std_dependent_user_data.html", null ],
             [ "ug::StdDependentUserData< GradientDataExport< dim >, MathVector< dim >, dim >", "classug_1_1_std_dependent_user_data.html", [
@@ -3261,6 +3263,7 @@ var hierarchy =
           ] ]
         ] ]
       ] ],
+      [ "ug::UserData< number, dim, bool >", "classug_1_1_user_data.html", null ],
       [ "ug::ICplUserData< dim >", "classug_1_1_i_cpl_user_data.html", [
         [ "ug::CplUserData< TData, dim, void >", "classug_1_1_cpl_user_data.html", null ],
         [ "ug::CplUserData< TData, dim, TRet >", "classug_1_1_cpl_user_data.html", null ]

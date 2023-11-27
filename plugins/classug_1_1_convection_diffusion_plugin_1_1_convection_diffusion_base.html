@@ -125,6 +125,7 @@ $(document).ready(function(){initNavTree('classug_1_1_convection_diffusion_plugi
 <area href="classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html" title="FV Discretization for the Convection-Diffusion Equation." alt="ug::ConvectionDiffusionPlugin::ConvectionDiffusionFV1&lt; TDomain &gt;" shape="rect" coords="876,224,1304,248"/>
 <area href="classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v_c_r.html" title="Discretization for the Convection-Diffusion Equation." alt="ug::ConvectionDiffusionPlugin::ConvectionDiffusionFVCR&lt; TDomain &gt;" shape="rect" coords="1314,224,1742,248"/>
 <area href="classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_fract_f_v1.html" title="Discretization for the Convection-Diffusion Equation in fractures." alt="ug::ConvectionDiffusionPlugin::ConvectionDiffusionFractFV1&lt; TDomain &gt;" shape="rect" coords="1752,224,2180,248"/>
+<area href="classug_1_1_richards_1_1_richards_elem_disc.html" alt="ug::Richards::RichardsElemDisc&lt; TDomain &gt;" shape="rect" coords="876,280,1304,304"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -964,6 +965,8 @@ template&lt;typename TDomain &gt; </div>
 <p>sets the diffusion tensor </p>
 <p>This method sets the Diffusion tensor used in computations. If no Tensor is set, a zero value is assumed. </p>
 
+<p class="reference">Referenced by <a class="el" href="classug_1_1_richards_1_1_richards_elem_disc.html#a9deaa665207db8f9156577ffc6ef9f02">ug::Richards::RichardsElemDisc&lt; TDomain &gt;::set_flux_data()</a>.</p>
+
 </div>
 </div>
 <a id="a93c1985ea58dd9fb3c32befcc097dd8b"></a>
@@ -1014,6 +1017,8 @@ template&lt;typename TDomain &gt; </div>
 <p>sets the flux </p>
 <p>This method sets the Flux. If no field is provided a zero value is assumed. </p>
 
+<p class="reference">Referenced by <a class="el" href="classug_1_1_richards_1_1_richards_elem_disc.html#a9deaa665207db8f9156577ffc6ef9f02">ug::Richards::RichardsElemDisc&lt; TDomain &gt;::set_flux_data()</a>.</p>
+
 </div>
 </div>
 <a id="a7ed43a74b8434b7e02fed66d9f3a0d0b"></a>
@@ -1061,6 +1066,8 @@ template&lt;typename TDomain &gt; </div>
 
 <p>sets mass </p>
 <p>This method sets the mass value. The default value is 0.0. </p>
+
+<p class="reference">Referenced by <a class="el" href="classug_1_1_richards_1_1_richards_elem_disc.html#aa36e6a489f378edd12a3452df2a1f026">ug::Richards::RichardsElemDisc&lt; TDomain &gt;::set_storage_data()</a>.</p>
 
 </div>
 </div>
@@ -1110,7 +1117,7 @@ template&lt;typename TDomain &gt; </div>
 <p>sets mass scale </p>
 <p>This method sets the mass scale value. The default value is 1.0. </p>
 
-<p class="reference">Referenced by <a class="el" href="classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base.html#aae39d6a4c86f16db973de48182c3ca02">ug::ConvectionDiffusionPlugin::ConvectionDiffusionBase&lt; TDomain &gt;::ConvectionDiffusionBase()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base.html#aae39d6a4c86f16db973de48182c3ca02">ug::ConvectionDiffusionPlugin::ConvectionDiffusionBase&lt; TDomain &gt;::ConvectionDiffusionBase()</a>, and <a class="el" href="classug_1_1_richards_1_1_richards_elem_disc.html#aa36e6a489f378edd12a3452df2a1f026">ug::Richards::RichardsElemDisc&lt; TDomain &gt;::set_storage_data()</a>.</p>
 
 </div>
 </div>
@@ -1907,7 +1914,7 @@ template&lt;typename TDomain &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="namespaceug_1_1_convection_diffusion_plugin.html">ConvectionDiffusionPlugin</a></li><li class="navelem"><a class="el" href="classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base.html">ConvectionDiffusionBase</a></li>
-    <li class="footer">Generated on Mon Nov 13 2023 00:55:28 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Nov 27 2023 12:03:45 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

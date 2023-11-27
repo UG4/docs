@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['xproperty_5ftraits_19353',['xproperty_traits',['../../plugins/structug_1_1bridge_1_1xproperty__traits.html',1,'ug::bridge']]],
-  ['xwidgetregistryfacade_19354',['XWidgetRegistryFacade',['../../plugins/structug_1_1_jupyter_1_1_x_widget_registry_facade.html',1,'ug::Jupyter']]],
-  ['xy_19355',['xy',['../../structug_1_1xy.html',1,'ug']]],
-  ['xyz_19356',['xyz',['../../structug_1_1xyz.html',1,'ug']]]
+  ['xproperty_5ftraits_19553',['xproperty_traits',['../../plugins/structug_1_1bridge_1_1xproperty__traits.html',1,'ug::bridge']]],
+  ['xwidgetregistryfacade_19554',['XWidgetRegistryFacade',['../../plugins/structug_1_1_jupyter_1_1_x_widget_registry_facade.html',1,'ug::Jupyter']]],
+  ['xy_19555',['xy',['../../structug_1_1xy.html',1,'ug']]],
+  ['xyz_19556',['xyz',['../../structug_1_1xyz.html',1,'ug']]]
 ];

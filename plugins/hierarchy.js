@@ -4,6 +4,7 @@ var hierarchy =
     [ "ug::promesh::AnisoElemInfo", "classug_1_1promesh_1_1_aniso_elem_info.html", null ],
     [ "ug::Electromagnetism::NedelecTransfer< TDomain, TAlgebra >::AssembleProlongationMatrix", "structug_1_1_electromagnetism_1_1_nedelec_transfer_1_1_assemble_prolongation_matrix.html", null ],
     [ "ug::promesh::Box", "classug_1_1promesh_1_1_box.html", null ],
+    [ "ug::Richards::BrooksCoreyFunctions", "structug_1_1_richards_1_1_brooks_corey_functions.html", null ],
     [ "ug::Electromagnetism::CalcVolPowerElemHelperClass< TGridFunc, TElem >", "classug_1_1_electromagnetism_1_1_calc_vol_power_elem_helper_class.html", null ],
     [ "ug::Electromagnetism::CalcVolPowerHelperClass< TGridFunc >", "classug_1_1_electromagnetism_1_1_calc_vol_power_helper_class.html", null ],
     [ "ug::ConvectionDiffusionPlugin::cd_sss_data< dim >", "classug_1_1_convection_diffusion_plugin_1_1cd__sss__data.html", [
@@ -16,6 +17,7 @@ var hierarchy =
     [ "ug::Electromagnetism::ComputeElemFluxHelper< TGridFunc, TElem >", "classug_1_1_electromagnetism_1_1_compute_elem_flux_helper.html", null ],
     [ "ug::Electromagnetism::ComputeElemFluxHelper< TGridFunc, RegularEdge >", "classug_1_1_electromagnetism_1_1_compute_elem_flux_helper_3_01_t_grid_func_00_01_regular_edge_01_4.html", null ],
     [ "ug::Electromagnetism::ComputeFluxHelper< TGridFunc >", "classug_1_1_electromagnetism_1_1_compute_flux_helper.html", null ],
+    [ "ug::Richards::ConductivityAdapter< M >", "structug_1_1_richards_1_1_conductivity_adapter.html", null ],
     [ "ug::SmallStrainMechanics::contrained_dim_traits< dim >", "structug_1_1_small_strain_mechanics_1_1contrained__dim__traits.html", null ],
     [ "ug::SmallStrainMechanics::contrained_dim_traits< 2 >", "structug_1_1_small_strain_mechanics_1_1contrained__dim__traits_3_012_01_4.html", null ],
     [ "ug::SmallStrainMechanics::contrained_dim_traits< 3 >", "structug_1_1_small_strain_mechanics_1_1contrained__dim__traits_3_013_01_4.html", null ],
@@ -36,6 +38,7 @@ var hierarchy =
     [ "ug::SmallStrainMechanics::PrandtlReuss< TDomain >::ElemData", "structug_1_1_small_strain_mechanics_1_1_prandtl_reuss_1_1_elem_data.html", null ],
     [ "ug::promesh::ElementIterator< TElem >", "classug_1_1promesh_1_1_element_iterator.html", null ],
     [ "ug::Electromagnetism::EMaterial< TDomain >", "classug_1_1_electromagnetism_1_1_e_material.html", null ],
+    [ "ug::Richards::ExponentialModelParameters", "structug_1_1_richards_1_1_exponential_model_parameters.html", null ],
     [ "ug::SmallStrainMechanics::face_type_traits< dim >", "structug_1_1_small_strain_mechanics_1_1face__type__traits.html", null ],
     [ "ug::SmallStrainMechanics::face_type_traits< 1 >", "structug_1_1_small_strain_mechanics_1_1face__type__traits_3_011_01_4.html", null ],
     [ "ug::SmallStrainMechanics::face_type_traits< 2 >", "structug_1_1_small_strain_mechanics_1_1face__type__traits_3_012_01_4.html", null ],
@@ -64,6 +67,7 @@ var hierarchy =
     [ "ug::Jupyter::Functionality", "structug_1_1_jupyter_1_1_functionality.html", null ],
     [ "ug::Limex::Functionality", "structug_1_1_limex_1_1_functionality.html", null ],
     [ "ug::NavierStokes::Functionality", "structug_1_1_navier_stokes_1_1_functionality.html", null ],
+    [ "ug::Richards::Functionality", "structug_1_1_richards_1_1_functionality.html", null ],
     [ "ug::SmallStrainMechanics::Functionality", "structug_1_1_small_strain_mechanics_1_1_functionality.html", null ],
     [ "ug::TemplatePlugin::Functionality", "structug_1_1_template_plugin_1_1_functionality.html", null ],
     [ "ug::ConvectionDiffusionPlugin::Functionality2d3d", "structug_1_1_convection_diffusion_plugin_1_1_functionality2d3d.html", null ],
@@ -78,6 +82,7 @@ var hierarchy =
       [ "ug::ConvectionDiffusionPlugin::CDSingularSourcesAndSinks< dim >", "classug_1_1_convection_diffusion_plugin_1_1_c_d_singular_sources_and_sinks.html", null ]
     ] ],
     [ "ug::Electromagnetism::NedelecLoopCurrent< TDomain, TAlgebra >::GetFluxOfPotential", "structug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_get_flux_of_potential.html", null ],
+    [ "ug::Richards::HaverkampParameters", "structug_1_1_richards_1_1_haverkamp_parameters.html", null ],
     [ "ug::IAssemble< class >", "../classug_1_1_i_assemble.html", [
       [ "ug::ITimeDiscretization< TAlgebra >", "../classug_1_1_i_time_discretization.html", [
         [ "ug::LinearImplicitEuler< TAlgebra >", "classug_1_1_linear_implicit_euler.html", null ]
@@ -123,7 +128,9 @@ var hierarchy =
         [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionBase< TDomain >", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base.html", [
           [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFE< TDomain >", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_e.html", null ],
           [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFV< TDomain >", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v.html", null ],
-          [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFV1< TDomain >", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html", null ],
+          [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFV1< TDomain >", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html", [
+            [ "ug::Richards::RichardsElemDisc< TDomain >", "classug_1_1_richards_1_1_richards_elem_disc.html", null ]
+          ] ],
           [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFVCR< TDomain >", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v_c_r.html", null ],
           [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFractFV1< TDomain >", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_fract_f_v1.html", null ]
         ] ],
@@ -249,8 +256,59 @@ var hierarchy =
     [ "ug::IOperatorInverse< class, class >", "../classug_1_1_i_operator_inverse.html", [
       [ "ug::LimexNewtonSolver< TAlgebra >", "classug_1_1_limex_newton_solver.html", null ]
     ] ],
+    [ "ug::Richards::IParameterizedModel< TParameter >", "structug_1_1_richards_1_1_i_parameterized_model.html", null ],
+    [ "ug::Richards::IParameterizedModel< ExponentialModelParameters >", "structug_1_1_richards_1_1_i_parameterized_model.html", [
+      [ "ug::Richards::ExponentialModel", "classug_1_1_richards_1_1_exponential_model.html", null ]
+    ] ],
+    [ "ug::Richards::IParameterizedModel< HaverkampParameters >", "structug_1_1_richards_1_1_i_parameterized_model.html", [
+      [ "ug::Richards::GardnerModel", "classug_1_1_richards_1_1_gardner_model.html", null ],
+      [ "ug::Richards::HaverkampModel", "classug_1_1_richards_1_1_haverkamp_model.html", null ]
+    ] ],
+    [ "ug::Richards::IParameterizedModel< VanGenuchtenParameters >", "structug_1_1_richards_1_1_i_parameterized_model.html", [
+      [ "ug::Richards::VanGenuchtenModel", "classug_1_1_richards_1_1_van_genuchten_model.html", null ]
+    ] ],
     [ "ug::IPProcessVector< TAlgebra::vector_type >", "../classug_1_1_i_p_process_vector.html", [
       [ "ug::Electromagnetism::NedelecProject< TDomain, TAlgebra >", "classug_1_1_electromagnetism_1_1_nedelec_project.html", null ]
+    ] ],
+    [ "ug::Richards::IRichardsLinker< dim >", "structug_1_1_richards_1_1_i_richards_linker.html", [
+      [ "ug::Richards::RichardsLinker< dim, HaverkampConductivityAdapter >", "classug_1_1_richards_1_1_richards_linker.html", [
+        [ "ug::Richards::HaverkampConductivity< dim >", "classug_1_1_richards_1_1_haverkamp_conductivity.html", null ]
+      ] ],
+      [ "ug::Richards::RichardsLinker< dim, vanGenuchtenSaturationAdapter >", "classug_1_1_richards_1_1_richards_linker.html", [
+        [ "ug::Richards::RichardsSaturation< dim >", "structug_1_1_richards_1_1_richards_saturation.html", null ]
+      ] ],
+      [ "ug::Richards::RichardsLinker< dim, GardnerSaturationAdapter >", "classug_1_1_richards_1_1_richards_linker.html", [
+        [ "ug::Richards::GardnerSaturation< dim >", "classug_1_1_richards_1_1_gardner_saturation.html", null ]
+      ] ],
+      [ "ug::Richards::RichardsLinker< dim, SaturationAdapter< ExponentialModel > >", "classug_1_1_richards_1_1_richards_linker.html", [
+        [ "ug::Richards::ExponentialSaturation< dim >", "structug_1_1_richards_1_1_exponential_saturation.html", null ]
+      ] ],
+      [ "ug::Richards::RichardsLinker< dim, ConductivityAdapter< ExponentialModel > >", "classug_1_1_richards_1_1_richards_linker.html", [
+        [ "ug::Richards::ExponentialConductivity< dim >", "structug_1_1_richards_1_1_exponential_conductivity.html", null ]
+      ] ],
+      [ "ug::Richards::RichardsLinker< dim, vanGenuchtenConductivityAdapter >", "classug_1_1_richards_1_1_richards_linker.html", [
+        [ "ug::Richards::RichardsConductivity< dim >", "structug_1_1_richards_1_1_richards_conductivity.html", null ]
+      ] ],
+      [ "ug::Richards::RichardsLinker< dim, HaverkampSaturationAdapter >", "classug_1_1_richards_1_1_richards_linker.html", [
+        [ "ug::Richards::HaverkampSaturation< dim >", "classug_1_1_richards_1_1_haverkamp_saturation.html", null ]
+      ] ],
+      [ "ug::Richards::RichardsLinker< dim, GardnerConductivityAdapter >", "classug_1_1_richards_1_1_richards_linker.html", [
+        [ "ug::Richards::GardnerConductivity< dim >", "classug_1_1_richards_1_1_gardner_conductivity.html", null ]
+      ] ],
+      [ "ug::Richards::RichardsLinker< dim, TFunctor >", "classug_1_1_richards_1_1_richards_linker.html", null ]
+    ] ],
+    [ "ug::Richards::IRichardsModel< TDerived >", "classug_1_1_richards_1_1_i_richards_model.html", null ],
+    [ "ug::Richards::IRichardsModel< ExponentialModel >", "classug_1_1_richards_1_1_i_richards_model.html", [
+      [ "ug::Richards::ExponentialModel", "classug_1_1_richards_1_1_exponential_model.html", null ]
+    ] ],
+    [ "ug::Richards::IRichardsModel< GardnerModel >", "classug_1_1_richards_1_1_i_richards_model.html", [
+      [ "ug::Richards::GardnerModel", "classug_1_1_richards_1_1_gardner_model.html", null ]
+    ] ],
+    [ "ug::Richards::IRichardsModel< HaverkampModel >", "classug_1_1_richards_1_1_i_richards_model.html", [
+      [ "ug::Richards::HaverkampModel", "classug_1_1_richards_1_1_haverkamp_model.html", null ]
+    ] ],
+    [ "ug::Richards::IRichardsModel< VanGenuchtenModel >", "classug_1_1_richards_1_1_i_richards_model.html", [
+      [ "ug::Richards::VanGenuchtenModel", "classug_1_1_richards_1_1_van_genuchten_model.html", null ]
     ] ],
     [ "ug::ISubDiagErrorEst< TVector >", "classug_1_1_i_sub_diag_error_est.html", [
       [ "ug::Norm2Estimator< TVector >", "classug_1_1_norm2_estimator.html", null ],
@@ -369,6 +427,9 @@ var hierarchy =
     [ "ug::Electromagnetism::NedelecLoopCurrent< TDomain, TAlgebra >::AuxLaplaceLocAss::RegisterLocalDiscr", "structug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_aux_laplace_loc_ass_1_1_register_local_discr.html", null ],
     [ "ug::Electromagnetism::NedelecProject< TDomain, TAlgebra >::AuxLaplaceLocAss::RegisterLocalDiscr", "structug_1_1_electromagnetism_1_1_nedelec_project_1_1_aux_laplace_loc_ass_1_1_register_local_discr.html", null ],
     [ "ug::SmallStrainMechanics::RelativeDensityUpdater< TDomain >", "classug_1_1_small_strain_mechanics_1_1_relative_density_updater.html", null ],
+    [ "ug::Richards::RichardsElemDiscFactory< TDomain >", "classug_1_1_richards_1_1_richards_elem_disc_factory.html", null ],
+    [ "RichardsFixtures", "struct_richards_fixtures.html", null ],
+    [ "ug::Richards::SaturationAdapter< M >", "structug_1_1_richards_1_1_saturation_adapter.html", null ],
     [ "ug::Electromagnetism::NedelecProject< TDomain, TAlgebra >::AuxLaplaceRHS::SetIdentityOnSubset", "structug_1_1_electromagnetism_1_1_nedelec_project_1_1_aux_laplace_r_h_s_1_1_set_identity_on_subset.html", null ],
     [ "ug::Electromagnetism::NedelecProject< TDomain, TAlgebra >::AuxLaplaceRHS::SetValueOnSubset", "structug_1_1_electromagnetism_1_1_nedelec_project_1_1_aux_laplace_r_h_s_1_1_set_value_on_subset.html", null ],
     [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFE< TDomain >::ShapeValues", "structug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_e_1_1_shape_values.html", null ],
@@ -392,7 +453,11 @@ var hierarchy =
     [ "ug::DocuGen::UGDocuClassDescription", "classug_1_1_docu_gen_1_1_u_g_docu_class_description.html", null ],
     [ "ug::DocuGen::UGRegistryGroup", "classug_1_1_docu_gen_1_1_u_g_registry_group.html", null ],
     [ "UGTestInit", "struct_u_g_test_init.html", null ],
+    [ "ug::Richards::UserDataFactory< dim >", "classug_1_1_richards_1_1_user_data_factory.html", null ],
     [ "ug::UserDataInfo", "../classug_1_1_user_data_info.html", [
+      [ "ug::UserData< number, dim, bool >", "../classug_1_1_user_data.html", [
+        [ "ug::Richards::OnSurfaceCondition< dim >", "classug_1_1_richards_1_1_on_surface_condition.html", null ]
+      ] ],
       [ "UserData< TData, dim, void >", "../classug_1_1_user_data.html", [
         [ "CplUserData< TData, dim, void >", "../classug_1_1_cpl_user_data.html", [
           [ "ug::StdUserData< StdTurbulentViscosityDataFV1< TData, dim, TImpl, TGridFunction >, TData, dim >", "../classug_1_1_std_user_data.html", [
@@ -439,6 +504,21 @@ var hierarchy =
             [ "ug::NavierStokes::SeparatedPressureSource< TGridFunction >", "classug_1_1_navier_stokes_1_1_separated_pressure_source.html", null ]
           ] ],
           [ "ug::DependentUserData< class, dim >", "../classug_1_1_dependent_user_data.html", [
+            [ "StdUserData< StdDataLinker< TImpl, TData, dim >, TData, dim, void, DependentUserData< TData, dim > >", "../classug_1_1_std_user_data.html", [
+              [ "ug::StdDataLinker< RichardsLinker< dim, TFunctor >, number, dim >", "../classug_1_1_std_data_linker.html", [
+                [ "ug::Richards::RichardsLinker< dim, TFunctor >", "classug_1_1_richards_1_1_richards_linker.html", null ]
+              ] ],
+              [ "ug::StdDataLinker< class, class, dim >", "../classug_1_1_std_data_linker.html", [
+                [ "ug::Richards::RichardsLinker< dim, HaverkampConductivityAdapter >", "classug_1_1_richards_1_1_richards_linker.html", null ],
+                [ "ug::Richards::RichardsLinker< dim, vanGenuchtenSaturationAdapter >", "classug_1_1_richards_1_1_richards_linker.html", null ],
+                [ "ug::Richards::RichardsLinker< dim, GardnerSaturationAdapter >", "classug_1_1_richards_1_1_richards_linker.html", null ],
+                [ "ug::Richards::RichardsLinker< dim, SaturationAdapter< ExponentialModel > >", "classug_1_1_richards_1_1_richards_linker.html", null ],
+                [ "ug::Richards::RichardsLinker< dim, ConductivityAdapter< ExponentialModel > >", "classug_1_1_richards_1_1_richards_linker.html", null ],
+                [ "ug::Richards::RichardsLinker< dim, vanGenuchtenConductivityAdapter >", "classug_1_1_richards_1_1_richards_linker.html", null ],
+                [ "ug::Richards::RichardsLinker< dim, HaverkampSaturationAdapter >", "classug_1_1_richards_1_1_richards_linker.html", null ],
+                [ "ug::Richards::RichardsLinker< dim, GardnerConductivityAdapter >", "classug_1_1_richards_1_1_richards_linker.html", null ]
+              ] ]
+            ] ],
             [ "StdUserData< StdDependentUserData< TImpl, TData, dim >, TData, dim, void, DependentUserData< TData, dim > >", "../classug_1_1_std_user_data.html", [
               [ "ug::StdDependentUserData< class, class, dim >", "../classug_1_1_std_dependent_user_data.html", [
                 [ "ug::Electromagnetism::EddyCurrentCurlEDependentCmpUserData< EddyCurrentReBofEUserData< TGridFunc >, EddyCurrentTraits::_Im_, TGridFunc >", "classug_1_1_electromagnetism_1_1_eddy_current_curl_e_dependent_cmp_user_data.html", null ],
@@ -453,6 +533,8 @@ var hierarchy =
         [ "ug::CplUserData< class, dim, class >", "../classug_1_1_cpl_user_data.html", null ]
       ] ]
     ] ],
+    [ "ug::Richards::VanGenuchtenFunctions", "structug_1_1_richards_1_1_van_genuchten_functions.html", null ],
+    [ "ug::Richards::VanGenuchtenParameters", "structug_1_1_richards_1_1_van_genuchten_parameters.html", null ],
     [ "ug::VectorDebugWritingObject< class >", "../classug_1_1_vector_debug_writing_object.html", [
       [ "ug::LimexTimeIntegrator< TDomain, TAlgebra >", "classug_1_1_limex_time_integrator.html", null ]
     ] ],
