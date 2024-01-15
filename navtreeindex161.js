@@ -1,5 +1,8 @@
 var NAVTREEINDEX161 =
 {
+"structug_1_1storage__traits1_3_01_variable_array1_3_01_t_01_4_01_4.html":[3,0,4,1178],
+"structug_1_1swc__types_1_1_s_w_c_point.html":[3,0,4,7,0],
+"structug_1_1swc__types_1_1_s_w_c_point.html#a2dd6b047c4df19e3d2fd28c9f0f7f56c":[3,0,4,7,0,2],
 "structug_1_1swc__types_1_1_s_w_c_point.html#a2fe2bd9a5f6b1ba863654a15d5cbb7c4":[3,0,4,7,0,3],
 "structug_1_1swc__types_1_1_s_w_c_point.html#a9b5277e9f9f45a9403971b9fa92b5ab9":[3,0,4,7,0,1],
 "structug_1_1swc__types_1_1_s_w_c_point.html#afb3330e0214ab724254f41391a2efc31":[3,0,4,7,0,0],
@@ -61,9 +64,6 @@ var NAVTREEINDEX161 =
 "structug_1_1vrl_1_1vrl__traits_3_01ug_1_1_math_vector_3_01dim_01_4_01_4.html#a9676cff9e4d09637a091cfb36a4697e0":[3,0,4,8,13,6],
 "structug_1_1vrl_1_1vrl__traits_3_01ug_1_1_math_vector_3_01dim_01_4_01_4.html#a9b3c6d2199d5e26eef135a774b824523":[3,0,4,8,13,10],
 "structug_1_1vrl_1_1vrl__traits_3_01ug_1_1_math_vector_3_01dim_01_4_01_4.html#ae00b4c95185e676360bfdf4098e6a03e":[3,0,4,8,13,9],
-"":[2,0,5,3],
-"":[2,0,5,27],
-"dir_c8f9df4d7296e08ffb366d4d09feb125.html":[4,0,2,5,5,0,2],
 "structug_1_1xy.html":[3,0,4,1287],
 "structug_1_1xy.html#a0502ec52ca188fd60aa4b407c6133c9c":[3,0,4,1287,0],
 "structug_1_1xy.html#acc68b56ed210582b04108fa36832a5ee":[3,0,4,1287,1],
