@@ -15,7 +15,7 @@ var bindings__lua_8cpp =
     [ "GetLuaParametersString", "bindings__lua_8cpp.html#acea4063d10916dd051cfb1a3f3d10cd3", null ],
     [ "GetNilWarning", "bindings__lua_8cpp.html#a5be9addf9758384989f8cbf1e1775ab4", null ],
     [ "GetTypeMismatchString", "bindings__lua_8cpp.html#a33dfd0935534c6954ade27e0d33cd448", null ],
-    [ "LuaConstructor", "bindings__lua_8cpp.html#a8dd09bbdb97976982807a6411a94eb3a", null ],
+    [ "LuaConstructor", "bindings__lua_8cpp.html#a2d5a2989a47d843043e9d1b5d55c31b5", null ],
     [ "LuaProxyConstructor", "bindings__lua_8cpp.html#aa904c3d0fd5f8b3261b7291989f38317", null ],
     [ "LuaProxyDelete", "bindings__lua_8cpp.html#a89a853385764f09922662751f9dadd1e", null ],
     [ "LuaProxyFunction", "bindings__lua_8cpp.html#a2eaccbb63cc6a7ba8adc1ecd362bff55", null ],

@@ -3846,6 +3846,7 @@ var namespaceug =
     [ "GetSmallestLocalSubsetDimension", "namespaceug.html#a057255359229c9a160c670a6d3f418d6", null ],
     [ "GetStandardElementProlongation", "namespaceug.html#a8080c30699aaf4dc21f7cca8bdf03b07", null ],
     [ "GetStandardElementRestriction", "namespaceug.html#a597ba76f5d189a67adc23003cfdf62b6", null ],
+    [ "GetStringPrintf", "namespaceug.html#ac34e50aaec3a7e95a82f8eab6ef65e47", null ],
     [ "GetTmpPath", "group__ugbase__common__io.html#ga77a6ef9018c9894ac779f72a9e7404f2", null ],
     [ "GetTotalMem", "namespaceug.html#a8ff49295e52d29f483c4796706b59388", null ],
     [ "GetUniqueFVGeomID", "namespaceug.html#ad29ce34ec98da3ca8a070d01fc0f4523", null ],

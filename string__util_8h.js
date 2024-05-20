@@ -13,6 +13,7 @@ var string__util_8h =
     [ "GetFileLine", "string__util_8h.html#ga83dae99d8fa92c558ec86735cfe663c1", null ],
     [ "GetFileLines", "string__util_8h.html#gacc7d8d4ad52a84766ff05044b0554b60", null ],
     [ "GetFilenameExtension", "string__util_8h.html#gabe728e5cfe5e25bdbaad64cbb3382057", null ],
+    [ "GetStringPrintf", "string__util_8h.html#ac34e50aaec3a7e95a82f8eab6ef65e47", null ],
     [ "hash_key", "string__util_8h.html#gafdc1869d62e10e9f8fb7228c56788d81", null ],
     [ "IsLonger", "string__util_8h.html#ga2fa547711a271819fc74536c532c714d", null ],
     [ "LevenshteinDistance", "string__util_8h.html#ga02a71d0bcd58472cbb6a76fb7942d364", null ],

@@ -405,7 +405,7 @@ $(document).ready(function(){initNavTree('nl__gauss__seidel__impl_8h_source.html
 <div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160; </div>
 <div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;  <span class="comment">//  write start defect for debug</span></div>
 <div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;  <span class="keywordtype">int</span> loopCnt = 0;</div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;  <span class="keywordtype">char</span> ext[20]; <a class="code" href="group__scripts__util__common.html#ga52ede8548aa38f3a221e1b673703c38e">sprintf</a>(ext, <span class="stringliteral">&quot;_iter%03d&quot;</span>, loopCnt);</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;  <span class="keywordtype">char</span> ext[20]; snprintf(ext, <span class="keyword">sizeof</span>(ext),<span class="stringliteral">&quot;_iter%03d&quot;</span>, loopCnt);</div>
 <div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;  std::string <a class="code" href="checkpoint__util_8lua.html#a3c1958e225ed64db3e56badcbdcc8df7">name</a>(<span class="stringliteral">&quot;NLGaussSeidel_Defect&quot;</span>);</div>
 <div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;  <a class="code" href="checkpoint__util_8lua.html#a3c1958e225ed64db3e56badcbdcc8df7">name</a>.append(ext);</div>
 <div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;  write_debug(*spD, <a class="code" href="checkpoint__util_8lua.html#a3c1958e225ed64db3e56badcbdcc8df7">name</a>.c_str());</div>
@@ -534,7 +534,7 @@ $(document).ready(function(){initNavTree('nl__gauss__seidel__impl_8h_source.html
 <div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160; </div>
 <div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;    <span class="comment">//  update counter</span></div>
 <div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;    loopCnt++;</div>
-<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;    <a class="code" href="group__scripts__util__common.html#ga52ede8548aa38f3a221e1b673703c38e">sprintf</a>(ext, <span class="stringliteral">&quot;_iter%03d&quot;</span>, loopCnt);</div>
+<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;    snprintf(ext, <span class="keyword">sizeof</span>(ext),<span class="stringliteral">&quot;_iter%03d&quot;</span>, loopCnt);</div>
 <div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160; </div>
 <div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;    <span class="comment">//  check convergence</span></div>
 <div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;    m_spConvCheck-&gt;update(*spD);</div>
@@ -552,7 +552,7 @@ $(document).ready(function(){initNavTree('nl__gauss__seidel__impl_8h_source.html
 <div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;{</div>
 <div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;<span class="comment">//  add iter count to name</span></div>
 <div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;  std::string <a class="code" href="checkpoint__util_8lua.html#a3c1958e225ed64db3e56badcbdcc8df7">name</a>(filename);</div>
-<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;  <span class="keywordtype">char</span> ext[20]; <a class="code" href="group__scripts__util__common.html#ga52ede8548aa38f3a221e1b673703c38e">sprintf</a>(ext, <span class="stringliteral">&quot;_call%03d&quot;</span>, m_dgbCall);</div>
+<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;  <span class="keywordtype">char</span> ext[20]; snprintf(ext, <span class="keyword">sizeof</span>(ext),<span class="stringliteral">&quot;_call%03d&quot;</span>, m_dgbCall);</div>
 <div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;  <a class="code" href="checkpoint__util_8lua.html#a3c1958e225ed64db3e56badcbdcc8df7">name</a>.append(ext).append(<span class="stringliteral">&quot;.vec&quot;</span>);</div>
 <div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160; </div>
 <div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;<span class="comment">//  write</span></div>
@@ -564,7 +564,7 @@ $(document).ready(function(){initNavTree('nl__gauss__seidel__impl_8h_source.html
 <div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;{</div>
 <div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;<span class="comment">//  add iter count to name</span></div>
 <div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;  std::string <a class="code" href="checkpoint__util_8lua.html#a3c1958e225ed64db3e56badcbdcc8df7">name</a>(filename);</div>
-<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;  <span class="keywordtype">char</span> ext[20]; <a class="code" href="group__scripts__util__common.html#ga52ede8548aa38f3a221e1b673703c38e">sprintf</a>(ext, <span class="stringliteral">&quot;_call%03d&quot;</span>, m_dgbCall);</div>
+<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;  <span class="keywordtype">char</span> ext[20]; snprintf(ext, <span class="keyword">sizeof</span>(ext),<span class="stringliteral">&quot;_call%03d&quot;</span>, m_dgbCall);</div>
 <div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;  <a class="code" href="checkpoint__util_8lua.html#a3c1958e225ed64db3e56badcbdcc8df7">name</a>.append(ext).append(<span class="stringliteral">&quot;.mat&quot;</span>);</div>
 <div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160; </div>
 <div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;<span class="comment">//  write</span></div>
@@ -615,7 +615,6 @@ $(document).ready(function(){initNavTree('nl__gauss__seidel__impl_8h_source.html
 <div class="ttc" id="aclassug_1_1_n_l_gauss_seidel_solver_html_af033657f847b48e0667cbed13aa64584"><div class="ttname"><a href="classug_1_1_n_l_gauss_seidel_solver.html#af033657f847b48e0667cbed13aa64584">ug::NLGaussSeidelSolver::write_debug</a></div><div class="ttdeci">void write_debug(const vector_type &amp;vec, const char *filename)</div><div class="ttdef"><b>Definition:</b> nl_gauss_seidel_impl.h:456</div></div>
 <div class="ttc" id="aclassug_1_1_std_conv_check_html"><div class="ttname"><a href="classug_1_1_std_conv_check.html">ug::StdConvCheck</a></div><div class="ttdef"><b>Definition:</b> convergence_check.h:179</div></div>
 <div class="ttc" id="agrid__function__util_8h_html"><div class="ttname"><a href="grid__function__util_8h.html">grid_function_util.h</a></div></div>
-<div class="ttc" id="agroup__scripts__util__common_html_ga52ede8548aa38f3a221e1b673703c38e"><div class="ttname"><a href="group__scripts__util__common.html#ga52ede8548aa38f3a221e1b673703c38e">sprintf</a></div><div class="ttdeci">function common sprintf(s,...)</div></div>
 <div class="ttc" id="agroup__ugbase__common_html_ga10f56dc5558c42d0e0ab5bb875c73ac7"><div class="ttname"><a href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a></div><div class="ttdeci">#define UG_CATCH_THROW(msg)</div><div class="ttdef"><b>Definition:</b> error.h:64</div></div>
 <div class="ttc" id="agroup__ugbase__common_html_ga43687df88af405f6ac7058dd3639993d"><div class="ttname"><a href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a></div><div class="ttdeci">#define UG_THROW(msg)</div><div class="ttdef"><b>Definition:</b> error.h:57</div></div>
 <div class="ttc" id="alocal__algebra_8h_html"><div class="ttname"><a href="local__algebra_8h.html">local_algebra.h</a></div></div>
@@ -633,7 +632,7 @@ $(document).ready(function(){initNavTree('nl__gauss__seidel__impl_8h_source.html
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_df0e37446a9fd4242d0753cd346d4a6c.html">lib_disc</a></li><li class="navelem"><a class="el" href="dir_c10c68448d12326f8404ddc397ffceaf.html">operator</a></li><li class="navelem"><a class="el" href="dir_422c0edfd2a9dc13c8c2e95cc6fbb215.html">non_linear_operator</a></li><li class="navelem"><a class="el" href="dir_2c130549d28362502045f22fca6c9ac2.html">nl_gauss_seidel</a></li><li class="navelem"><a class="el" href="nl__gauss__seidel__impl_8h.html">nl_gauss_seidel_impl.h</a></li>
-    <li class="footer">Generated on Mon May 13 2024 00:58:24 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon May 20 2024 00:58:18 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

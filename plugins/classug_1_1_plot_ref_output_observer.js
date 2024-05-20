@@ -2,7 +2,6 @@ var classug_1_1_plot_ref_output_observer =
 [
     [ "base_type", "classug_1_1_plot_ref_output_observer.html#aa938cbd64c0426bfe92e0c8bb7d797c0", null ],
     [ "grid_function_type", "classug_1_1_plot_ref_output_observer.html#a492845ba54864e79a763d976a276b426", null ],
-    [ "lua_function_type", "classug_1_1_plot_ref_output_observer.html#a187e8cb9717502a022bf913652ee3046", null ],
     [ "vtk_type", "classug_1_1_plot_ref_output_observer.html#a7d604090cd67924c6ed2d6360a1b0f22", null ],
     [ "PlotRefOutputObserver", "classug_1_1_plot_ref_output_observer.html#a208143f5a56e0969eef8caad4bbfde38", null ],
     [ "~PlotRefOutputObserver", "classug_1_1_plot_ref_output_observer.html#a231f13f58f725675993a8f5ff5826809", null ],

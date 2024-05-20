@@ -164,8 +164,8 @@ Functions</h2></td></tr>
 <tr class="separator:a5be9addf9758384989f8cbf1e1775ab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33dfd0935534c6954ade27e0d33cd448"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug_1_1bridge_1_1lua.html#a33dfd0935534c6954ade27e0d33cd448">GetTypeMismatchString</a> (const <a class="el" href="classug_1_1bridge_1_1_parameter_info.html">ParameterInfo</a> &amp;paramsTemplate, <a class="el" href="lua__table__handle_8h.html#a28186297f2e9f2de0652504633de8fb3">lua_State</a> *L, int offsetToFirstParam, int badParamOneBased)</td></tr>
 <tr class="separator:a33dfd0935534c6954ade27e0d33cd448"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8dd09bbdb97976982807a6411a94eb3a"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug_1_1bridge_1_1lua.html#a8dd09bbdb97976982807a6411a94eb3a">LuaConstructor</a> (<a class="el" href="lua__table__handle_8h.html#a28186297f2e9f2de0652504633de8fb3">lua_State</a> *L, <a class="el" href="classug_1_1bridge_1_1_i_exported_class.html">IExportedClass</a> *c, const char *groupname=NULL)</td></tr>
-<tr class="separator:a8dd09bbdb97976982807a6411a94eb3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d5a2989a47d843043e9d1b5d55c31b5"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug_1_1bridge_1_1lua.html#a2d5a2989a47d843043e9d1b5d55c31b5">LuaConstructor</a> (<a class="el" href="lua__table__handle_8h.html#a28186297f2e9f2de0652504633de8fb3">lua_State</a> *L, <a class="el" href="classug_1_1bridge_1_1_i_exported_class.html">IExportedClass</a> *c, const char *groupname=nullptr)</td></tr>
+<tr class="separator:a2d5a2989a47d843043e9d1b5d55c31b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa904c3d0fd5f8b3261b7291989f38317"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug_1_1bridge_1_1lua.html#aa904c3d0fd5f8b3261b7291989f38317">LuaProxyConstructor</a> (<a class="el" href="lua__table__handle_8h.html#a28186297f2e9f2de0652504633de8fb3">lua_State</a> *L)</td></tr>
 <tr class="separator:aa904c3d0fd5f8b3261b7291989f38317"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89a853385764f09922662751f9dadd1e"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug_1_1bridge_1_1lua.html#a89a853385764f09922662751f9dadd1e">LuaProxyDelete</a> (<a class="el" href="lua__table__handle_8h.html#a28186297f2e9f2de0652504633de8fb3">lua_State</a> *L)</td></tr>
@@ -397,7 +397,7 @@ Variables</h2></td></tr>
 
 <p class="reference">References <a class="el" href="structug_1_1bridge_1_1lua_1_1_raw_user_data_wrapper.html#ab3b7364777ae781db0446ee61edb46b8">ug::bridge::lua::RawUserDataWrapper::deleteFunc</a>, <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a926d1e96b32543aade05ffee5b6e7a28ab7e5112e36b696458f518746fd15c9f8">IS_CONST</a>, <a class="el" href="structug_1_1bridge_1_1lua_1_1_raw_user_data_wrapper.html#a5c43fce594770da2c9bf2d8502f31e89">ug::bridge::lua::RawUserDataWrapper::obj</a>, <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a926d1e96b32543aade05ffee5b6e7a28a7dc64d581dece3442f388c86d599fa33">RAW_POINTER</a>, and <a class="el" href="structug_1_1bridge_1_1lua_1_1_user_data_wrapper.html#a00c5b8ecee12b9308c7d70b293b50b0f">ug::bridge::lua::UserDataWrapper::type</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a8dd09bbdb97976982807a6411a94eb3a">LuaConstructor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a2d5a2989a47d843043e9d1b5d55c31b5">LuaConstructor()</a>.</p>
 
 </div>
 </div>
@@ -633,7 +633,7 @@ Variables</h2></td></tr>
 
 <p class="reference">References <a class="el" href="namespaceug_1_1bridge.html#a2ac15ac5a733d924d6d880fcac91432d">ug::bridge::GetLuaTypeString()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a8dd09bbdb97976982807a6411a94eb3a">LuaConstructor()</a>, <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a2eaccbb63cc6a7ba8adc1ecd362bff55">LuaProxyFunction()</a>, and <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a1a416a7d722c8ae5c8a4db0315f48203">LuaProxyMethod()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a2d5a2989a47d843043e9d1b5d55c31b5">LuaConstructor()</a>, <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a2eaccbb63cc6a7ba8adc1ecd362bff55">LuaProxyFunction()</a>, and <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a1a416a7d722c8ae5c8a4db0315f48203">LuaProxyMethod()</a>.</p>
 
 </div>
 </div>
@@ -673,7 +673,7 @@ Variables</h2></td></tr>
 
 <p class="reference">References <a class="el" href="bindings__lua_8cpp.html#a43230370309803f9c921b7f4631bad32">errSymb</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a8dd09bbdb97976982807a6411a94eb3a">LuaConstructor()</a>, <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a2eaccbb63cc6a7ba8adc1ecd362bff55">LuaProxyFunction()</a>, and <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a1a416a7d722c8ae5c8a4db0315f48203">LuaProxyMethod()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a2d5a2989a47d843043e9d1b5d55c31b5">LuaConstructor()</a>, <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a2eaccbb63cc6a7ba8adc1ecd362bff55">LuaProxyFunction()</a>, and <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a1a416a7d722c8ae5c8a4db0315f48203">LuaProxyMethod()</a>.</p>
 
 </div>
 </div>
@@ -736,12 +736,12 @@ Variables</h2></td></tr>
 
 <p class="reference">References <a class="el" href="namespaceug_1_1bridge.html#a2ac15ac5a733d924d6d880fcac91432d">ug::bridge::GetLuaTypeString()</a>, <a class="elRef" href="../plugins/group__apps__ugdocu.html#ga823ee0d0d0b563d614d5261e2f16a914">ParameterToString()</a>, and <a class="el" href="classug_1_1bridge_1_1_parameter_info.html#ae8a2e81a615138afd3a8cf00d4ed075d">ug::bridge::ParameterInfo::size()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a81c4c8a5fe20b1f6725905c5fce2c87d">ExecuteMethod()</a>, <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a8dd09bbdb97976982807a6411a94eb3a">LuaConstructor()</a>, and <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a2eaccbb63cc6a7ba8adc1ecd362bff55">LuaProxyFunction()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a81c4c8a5fe20b1f6725905c5fce2c87d">ExecuteMethod()</a>, <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a2d5a2989a47d843043e9d1b5d55c31b5">LuaConstructor()</a>, and <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a2eaccbb63cc6a7ba8adc1ecd362bff55">LuaProxyFunction()</a>.</p>
 
 </div>
 </div>
-<a id="a8dd09bbdb97976982807a6411a94eb3a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8dd09bbdb97976982807a6411a94eb3a">&#9670;&nbsp;</a></span>LuaConstructor()</h2>
+<a id="a2d5a2989a47d843043e9d1b5d55c31b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d5a2989a47d843043e9d1b5d55c31b5">&#9670;&nbsp;</a></span>LuaConstructor()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -765,7 +765,7 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>groupname</em> = <code>NULL</code>&#160;</td>
+          <td class="paramname"><em>groupname</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -826,7 +826,7 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The number of items pushed to the stack (should be one = 1 object). </dd></dl>
 
-<p class="reference">References <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a8dd09bbdb97976982807a6411a94eb3a">LuaConstructor()</a>.</p>
+<p class="reference">References <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a2d5a2989a47d843043e9d1b5d55c31b5">LuaConstructor()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="namespaceug_1_1bridge_1_1lua.html#aec2761eb64321f32ed9fe18dad4d457a">CreateBindings_LUA()</a>.</p>
 
@@ -930,7 +930,7 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The number of items pushed to the stack (should be one = 1 object). </dd></dl>
 
-<p class="reference">References <a class="el" href="classug_1_1bridge_1_1_class_group_desc.html#abe97c46cdabd78fa41ef3872b76c718a">ug::bridge::ClassGroupDesc::empty()</a>, <a class="el" href="bindings__lua_8cpp.html#a43230370309803f9c921b7f4631bad32">errSymb</a>, <a class="el" href="classug_1_1bridge_1_1_class_group_desc.html#a94ff15d864aa362afe9d2364c76578b2">ug::bridge::ClassGroupDesc::get_default_class()</a>, <a class="el" href="namespaceug_1_1bridge.html#af4ce5eabd6eb0e6721bb1c7cd47de53d">ug::bridge::GetLuaFileAndLine()</a>, <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a8dd09bbdb97976982807a6411a94eb3a">LuaConstructor()</a>, <a class="el" href="classug_1_1bridge_1_1_class_group_desc.html#a2f6b45dc7032a07f79d0e12113283fe5">ug::bridge::ClassGroupDesc::name()</a>, and <a class="el" href="group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>.</p>
+<p class="reference">References <a class="el" href="classug_1_1bridge_1_1_class_group_desc.html#abe97c46cdabd78fa41ef3872b76c718a">ug::bridge::ClassGroupDesc::empty()</a>, <a class="el" href="bindings__lua_8cpp.html#a43230370309803f9c921b7f4631bad32">errSymb</a>, <a class="el" href="classug_1_1bridge_1_1_class_group_desc.html#a94ff15d864aa362afe9d2364c76578b2">ug::bridge::ClassGroupDesc::get_default_class()</a>, <a class="el" href="namespaceug_1_1bridge.html#af4ce5eabd6eb0e6721bb1c7cd47de53d">ug::bridge::GetLuaFileAndLine()</a>, <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a2d5a2989a47d843043e9d1b5d55c31b5">LuaConstructor()</a>, <a class="el" href="classug_1_1bridge_1_1_class_group_desc.html#a2f6b45dc7032a07f79d0e12113283fe5">ug::bridge::ClassGroupDesc::name()</a>, and <a class="el" href="group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="namespaceug_1_1bridge_1_1lua.html#aec2761eb64321f32ed9fe18dad4d457a">CreateBindings_LUA()</a>.</p>
 
@@ -1086,7 +1086,7 @@ Variables</h2></td></tr>
 
 <p class="reference">References <a class="el" href="namespaceboost.html#a954bd40dc6e30d4773594c7e980d2952">boost::get()</a>, and <a class="elRef" href="../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a81c4c8a5fe20b1f6725905c5fce2c87d">ExecuteMethod()</a>, <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a8dd09bbdb97976982807a6411a94eb3a">LuaConstructor()</a>, and <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a2eaccbb63cc6a7ba8adc1ecd362bff55">LuaProxyFunction()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a81c4c8a5fe20b1f6725905c5fce2c87d">ExecuteMethod()</a>, <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a2d5a2989a47d843043e9d1b5d55c31b5">LuaConstructor()</a>, and <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a2eaccbb63cc6a7ba8adc1ecd362bff55">LuaProxyFunction()</a>.</p>
 
 </div>
 </div>
@@ -1108,7 +1108,7 @@ Variables</h2></td></tr>
 
 <p class="reference">References <a class="el" href="namespaceug_1_1bridge.html#a275b5cce76b89cf744b9ffbcec149551">ug::bridge::LuaStackTraceString()</a>, <a class="elRef" href="../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a>, and <a class="el" href="group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a8dd09bbdb97976982807a6411a94eb3a">LuaConstructor()</a>, <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a2eaccbb63cc6a7ba8adc1ecd362bff55">LuaProxyFunction()</a>, and <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a1a416a7d722c8ae5c8a4db0315f48203">LuaProxyMethod()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a2d5a2989a47d843043e9d1b5d55c31b5">LuaConstructor()</a>, <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a2eaccbb63cc6a7ba8adc1ecd362bff55">LuaProxyFunction()</a>, and <a class="el" href="namespaceug_1_1bridge_1_1lua.html#a1a416a7d722c8ae5c8a4db0315f48203">LuaProxyMethod()</a>.</p>
 
 </div>
 </div>
@@ -1162,7 +1162,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="namespaceug_1_1bridge.html">bridge</a></li><li class="navelem"><a class="el" href="namespaceug_1_1bridge_1_1lua.html">lua</a></li>
-    <li class="footer">Generated on Mon May 13 2024 00:58:48 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon May 20 2024 00:58:42 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

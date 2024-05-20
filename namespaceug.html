@@ -7571,6 +7571,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a597ba76f5d189a67adc23003cfdf62b6"><td class="memTemplParams" colspan="2">template&lt;typename TDomain &gt; </td></tr>
 <tr class="memitem:a597ba76f5d189a67adc23003cfdf62b6"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_elem_restriction.html">IElemRestriction</a>&lt; TDomain &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug.html#a597ba76f5d189a67adc23003cfdf62b6">GetStandardElementRestriction</a> (const <a class="el" href="classug_1_1_l_f_e_i_d.html">LFEID</a> &amp;lfeid)</td></tr>
 <tr class="separator:a597ba76f5d189a67adc23003cfdf62b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac34e50aaec3a7e95a82f8eab6ef65e47"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:ac34e50aaec3a7e95a82f8eab6ef65e47"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug.html#ac34e50aaec3a7e95a82f8eab6ef65e47">GetStringPrintf</a> (const char *format, Args... args)</td></tr>
+<tr class="separator:ac34e50aaec3a7e95a82f8eab6ef65e47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga77a6ef9018c9894ac779f72a9e7404f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#ga6a442be2e75e98247f82d1aa90a06aac">UG_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ugbase__common__io.html#ga77a6ef9018c9894ac779f72a9e7404f2">GetTmpPath</a> ()</td></tr>
 <tr class="memdesc:ga77a6ef9018c9894ac779f72a9e7404f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a path to which an application may write temporary files.  <a href="group__ugbase__common__io.html#ga77a6ef9018c9894ac779f72a9e7404f2">More...</a><br /></td></tr>
 <tr class="separator:ga77a6ef9018c9894ac779f72a9e7404f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -46714,6 +46717,46 @@ template&lt;typename TDomain &gt; </div>
 
 </div>
 </div>
+<a id="ac34e50aaec3a7e95a82f8eab6ef65e47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac34e50aaec3a7e95a82f8eab6ef65e47">&#9670;&nbsp;</a></span>GetStringPrintf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename... Args&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string ug::GetStringPrintf </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>format</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classug_1_1_nested_iteration_solver.html#a5e082392b407690032e0c01ee2c91db7">ug::NestedIterationSolver&lt; TDomain, TAlgebra &gt;::apply()</a>, <a class="el" href="classug_1_1_bi_c_g_stab.html#a297ce3bdbb2229b038262c29c6a5b9da">ug::BiCGStab&lt; TVector &gt;::enter_precond_debug_section()</a>, <a class="el" href="classug_1_1_bi_c_g_stab.html#a1f995d6e52dcea5a9e168f9a00823d64">ug::BiCGStab&lt; TVector &gt;::write_debugXR()</a>, and <a class="el" href="namespaceug_1_1_connection_viewer.html#a9b4f71249c9f546d7d831751a080f8d9">ug::ConnectionViewer::WriteMatrixPar()</a>.</p>
+
+</div>
+</div>
 <a id="a8ff49295e52d29f483c4796706b59388"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8ff49295e52d29f483c4796706b59388">&#9670;&nbsp;</a></span>GetTotalMem()</h2>
 
@@ -59614,7 +59657,7 @@ template&lt;class TAPos &gt; </div>
 
 <p class="reference">References <a class="el" href="group__ugbase__common__io.html#ga0a52af60d2ad305a1c32794641a7123f">FileExists()</a>, <a class="el" href="checkpoint__util_8lua.html#a3c1958e225ed64db3e56badcbdcc8df7">name</a>, and <a class="el" href="profiler_8h.html#acb22c3b80068351d2edad7f6e910a7f9">PROFILE_FUNC</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classug_1_1bridge_1_1_l_u_a_compiler.html#a5e1178b44a57940d99618d18bbc6d95a">ug::bridge::LUACompiler::createC()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classug_1_1bridge_1_1_l_u_a_compiler.html#ae220724c727f6474c5b136872613e656">ug::bridge::LUACompiler::createC()</a>.</p>
 
 </div>
 </div>
@@ -90850,7 +90893,7 @@ template&lt;class TFunction &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classug_1_1_l_u_a_parser_class.html#a8ffa54a589406d6363505b2463d6ea6b">ug::LUAParserClass::add_subfunction()</a>, <a class="el" href="classug_1_1bridge_1_1_l_u_a_compiler.html#a5e1178b44a57940d99618d18bbc6d95a">ug::bridge::LUACompiler::createC()</a>, <a class="el" href="classug_1_1_l_u_a_parser_class.html#abb046c4d4da554fbca26b325727ca1f3">ug::LUAParserClass::createJITSG()</a>, <a class="el" href="classug_1_1bridge_1_1_l_u_a_compiler.html#a0f41beab083a90b9cc867598f0799ff8">ug::bridge::LUACompiler::createVM()</a>, <a class="el" href="classug_1_1_l_u_a_parser_class.html#af07904007b962cf8a6afaf3163bc6264">ug::LUAParserClass::parse_luaFunction()</a>, <a class="el" href="classug_1_1_l_u_a_parser_class.html#ade7cd84666e2817e7b34e3f2c0dfa7d6">ug::LUAParserClass::parse_luaFunction_StackTop()</a>, and <a class="el" href="classug_1_1bridge_1_1_l_u_a_compiler.html#a1d16913cfc17e1e0a1281b264864b536">ug::bridge::LUACompiler::~LUACompiler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classug_1_1_l_u_a_parser_class.html#a8ffa54a589406d6363505b2463d6ea6b">ug::LUAParserClass::add_subfunction()</a>, <a class="el" href="classug_1_1bridge_1_1_l_u_a_compiler.html#ae220724c727f6474c5b136872613e656">ug::bridge::LUACompiler::createC()</a>, <a class="el" href="classug_1_1_l_u_a_parser_class.html#abb046c4d4da554fbca26b325727ca1f3">ug::LUAParserClass::createJITSG()</a>, <a class="el" href="classug_1_1bridge_1_1_l_u_a_compiler.html#adbb2474aa67953a9feddca940b209ccd">ug::bridge::LUACompiler::createVM()</a>, <a class="el" href="classug_1_1_l_u_a_parser_class.html#af07904007b962cf8a6afaf3163bc6264">ug::LUAParserClass::parse_luaFunction()</a>, <a class="el" href="classug_1_1_l_u_a_parser_class.html#ade7cd84666e2817e7b34e3f2c0dfa7d6">ug::LUAParserClass::parse_luaFunction_StackTop()</a>, and <a class="el" href="classug_1_1bridge_1_1_l_u_a_compiler.html#a1d16913cfc17e1e0a1281b264864b536">ug::bridge::LUACompiler::~LUACompiler()</a>.</p>
 
 </div>
 </div>
@@ -91564,7 +91607,7 @@ template&lt;class TFunction &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classug_1_1bridge_1_1_l_u_a_compiler.html#a0a6eb554b7486f3d7c6b4e53c7ba461d">ug::bridge::LUACompiler::create()</a>, <a class="el" href="namespaceug_1_1bridge.html#aeecdb04702a4ffa509c642a551a6cff4">ug::bridge::EnableLUA2C()</a>, and <a class="el" href="namespaceug_1_1bridge.html#adfa93f1d54c74258d3ca55374c5ac215">ug::bridge::EnableLUA2VM()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classug_1_1bridge_1_1_l_u_a_compiler.html#a79c80e47ded4cbb84210060f179435f9">ug::bridge::LUACompiler::create()</a>, <a class="el" href="namespaceug_1_1bridge.html#aeecdb04702a4ffa509c642a551a6cff4">ug::bridge::EnableLUA2C()</a>, and <a class="el" href="namespaceug_1_1bridge.html#adfa93f1d54c74258d3ca55374c5ac215">ug::bridge::EnableLUA2VM()</a>.</p>
 
 </div>
 </div>
@@ -91632,7 +91675,7 @@ template&lt;class TFunction &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li>
-    <li class="footer">Generated on Mon May 13 2024 00:58:33 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon May 20 2024 00:58:27 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
