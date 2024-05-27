@@ -3863,7 +3863,7 @@ var namespaceug =
     [ "GetVertexIndex", "group__lib__grid__algorithms__vertex__util.html#ga5151cea6aa053c8932b2977d99272a4d", null ],
     [ "GetZcorn", "namespaceug.html#a0f2e67c019748ba6dd6a9954a7d0e257", null ],
     [ "GivensMatVecMult", "group__ugbase__math.html#ga50d7b1c87ac30a14f3cd02a29c03f214", null ],
-    [ "GlobalDomainRefiner", "group__refinement__bridge.html#ga34888b25fa66825e5b89aa176aacabd0", null ],
+    [ "GlobalDomainRefiner", "namespaceug.html#a0c32887b23c1b289a3430f24b7ca8a05", null ],
     [ "GlobalSubdivisionDomainRefiner", "group__refinement__bridge.html#ga526151cf15775f2b8ad17da222962415", null ],
     [ "GramDeterminant", "namespaceug.html#a8c0c52b1d21083771d7ac1468601bba0", null ],
     [ "GramDeterminant", "namespaceug.html#aa17e7e2e9ef28b009387fadc2e567297", null ],

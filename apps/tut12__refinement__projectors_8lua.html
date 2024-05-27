@@ -146,7 +146,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>location: /home/runner/work/docs/docs/ug4/apps/Tutorials / <a class="el" href="tut12__refinement__projectors_8lua.html">tut12_refinement_projectors.lua</a> :24-37 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="tut12__refinement__projectors_8lua.html#a185ef6ba1e63715cf1f61d028b78de03">PerformAdaption</a>(dom, outFile, projector, zOffset)</div>
-<div class="line">  <a class="codeRef" href="../namespaceug_1_1detail.html#a846ed8ea114ba03ffdf4c69f2b7fd5ea">local</a> refiner = <a class="codeRef" href="../group__refinement__bridge.html#ga34888b25fa66825e5b89aa176aacabd0">GlobalDomainRefiner</a>(dom)</div>
+<div class="line">  <a class="codeRef" href="../namespaceug_1_1detail.html#a846ed8ea114ba03ffdf4c69f2b7fd5ea">local</a> refiner = GlobalDomainRefiner(dom)</div>
 <div class="line">  refiner:set_refinement_callback(projector)</div>
 <div class="line">  write(<span class="stringliteral">&quot;refining&quot;</span>)</div>
 <div class="line">  for i = 1, <a class="code" href="cubeincube_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a> do</div>
@@ -163,7 +163,6 @@ Variables</h2></td></tr>
 <div class="ttc" id="acubeincube_8lua_html_ad2464918eb8162cae4af3f470845f0d9"><div class="ttname"><a href="cubeincube_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a></div><div class="ttdeci">parameterNumber numRefs</div><div class="ttdoc">number of refinements</div><div class="ttdef"><b>Definition:</b> cubeincube.lua:12</div></div>
 <div class="ttc" id="agroup__crs__algebra_html_ga354171737d057bbaef231dab9e8f9c0b"><div class="ttname"><a href="../group__crs__algebra.html#ga354171737d057bbaef231dab9e8f9c0b">print</a></div><div class="ttdeci">void print(const char *const name=NULL) const</div></div>
 <div class="ttc" id="agroup__lib__disc__domain_html_ga179e5ba81b8476263523e59350300928"><div class="ttname"><a href="../group__lib__disc__domain.html#ga179e5ba81b8476263523e59350300928">subset_handler</a></div><div class="ttdeci">SmartPtr&lt; TSubsetHandler &gt; subset_handler()</div></div>
-<div class="ttc" id="agroup__refinement__bridge_html_ga34888b25fa66825e5b89aa176aacabd0"><div class="ttname"><a href="../group__refinement__bridge.html#ga34888b25fa66825e5b89aa176aacabd0">GlobalDomainRefiner</a></div><div class="ttdeci">static SmartPtr&lt; IRefiner &gt; GlobalDomainRefiner(TDomain *dom)</div></div>
 <div class="ttc" id="agroup__ugbase__common__types_html_gafe2c38306ad4ede23ac7457a200c64e6"><div class="ttname"><a href="../group__ugbase__common__types.html#gafe2c38306ad4ede23ac7457a200c64e6">to</a></div><div class="ttdeci">bool to() const</div></div>
 <div class="ttc" id="anamespaceug_1_1detail_html_a846ed8ea114ba03ffdf4c69f2b7fd5ea"><div class="ttname"><a href="../namespaceug_1_1detail.html#a846ed8ea114ba03ffdf4c69f2b7fd5ea">local</a></div><div class="ttdeci">int local(bglp_vertex_descriptor p)</div></div>
 <div class="ttc" id="atut12__refinement__projectors_8lua_html_a185ef6ba1e63715cf1f61d028b78de03"><div class="ttname"><a href="tut12__refinement__projectors_8lua.html#a185ef6ba1e63715cf1f61d028b78de03">PerformAdaption</a></div><div class="ttdeci">function PerformAdaption(dom, outFile, projector, zOffset)</div></div>
@@ -193,7 +192,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_9654b8d08f4bba4e84b362c5fd320bee.html">apps</a></li><li class="navelem"><a class="el" href="dir_755d042f2328fa534afa8c85c6f6b421.html">Tutorials</a></li><li class="navelem"><a class="el" href="tut12__refinement__projectors_8lua.html">tut12_refinement_projectors.lua</a></li>
-    <li class="footer">Generated on Mon May 20 2024 00:57:57 for Apps by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon May 27 2024 00:58:41 for Apps by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

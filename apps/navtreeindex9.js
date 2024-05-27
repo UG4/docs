@@ -1,6 +1,5 @@
 var NAVTREEINDEX9 =
 {
-"group__test__bridge.html#gab92bc0548a6ace1cebfb1985a201af4f":[1,0,5,0,3,2,13],
 "group__test__bridge.html#gabab7918b36a2bd637e307d5c8c2df878":[1,0,5,0,3,2,31],
 "group__test__bridge.html#gabd8ab01fa39e727d9c2341031ac5bbd0":[1,0,5,0,3,2,22],
 "group__test__bridge.html#gac4c2c04c93ba07c3fd85b2e273afb64a":[1,0,5,0,3,2,15],
@@ -249,5 +248,6 @@ var NAVTREEINDEX9 =
 "group__ugbase__common__util__strings.html#ga0d317951c56f966eb1f55dafba506147":[1,0,5,1,0,0,2],
 "group__ugbase__common__util__strings.html#ga15ab570c580a4bbdd50994c18b1379d4":[1,0,5,1,0,0,18],
 "group__ugbase__common__util__strings.html#ga1b357afc17e220498bc09e8d45cdab2a":[1,0,5,1,0,0,27],
-"group__ugbase__common__util__strings.html#ga2ede77354bb8fb78e8cdea268a702c6d":[1,0,5,1,0,0,5]
+"group__ugbase__common__util__strings.html#ga2ede77354bb8fb78e8cdea268a702c6d":[1,0,5,1,0,0,5],
+"group__ugbase__common__util__strings.html#ga2fa547711a271819fc74536c532c714d":[1,0,5,1,0,0,12]
 };

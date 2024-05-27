@@ -6,7 +6,6 @@ var group__refinement__bridge =
     [ "AssignSubset_VerticesInSphere", "../group__refinement__bridge.html#gaadaa82940aff6e8cc7547e6dfaaa2da9", null ],
     [ "CreateAdaptiveRegularDomainRefiner", "../group__refinement__bridge.html#ga7c91670e8344e926ef8bb206a74ca1e8", null ],
     [ "CreateGlobalFracturedDomainRefiner", "../group__refinement__bridge.html#ga20e21c87d07e22fcf4f45246aa86ed69", null ],
-    [ "GlobalDomainRefiner", "../group__refinement__bridge.html#ga34888b25fa66825e5b89aa176aacabd0", null ],
     [ "GlobalSubdivisionDomainRefiner", "../group__refinement__bridge.html#ga526151cf15775f2b8ad17da222962415", null ],
     [ "HangingNodeDomainRefiner", "../group__refinement__bridge.html#gad965ceddafeca379ef2695213f555e2e", null ],
     [ "MarkAnisotropic_LongEdges", "../group__refinement__bridge.html#ga914e0ae696b7298934f79bda9336ace1", null ],

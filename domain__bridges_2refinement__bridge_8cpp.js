@@ -7,7 +7,6 @@ var domain__bridges_2refinement__bridge_8cpp =
     [ "CreateAdaptiveRegularDomainRefiner", "domain__bridges_2refinement__bridge_8cpp.html#ga7c91670e8344e926ef8bb206a74ca1e8", null ],
     [ "CreateGlobalFracturedDomainRefiner", "domain__bridges_2refinement__bridge_8cpp.html#ga20e21c87d07e22fcf4f45246aa86ed69", null ],
     [ "GetDomainPositionAttachment", "domain__bridges_2refinement__bridge_8cpp.html#a848e77730c4638ce770ad7abde9ad6a8", null ],
-    [ "GlobalDomainRefiner", "domain__bridges_2refinement__bridge_8cpp.html#ga34888b25fa66825e5b89aa176aacabd0", null ],
     [ "GlobalSubdivisionDomainRefiner", "domain__bridges_2refinement__bridge_8cpp.html#ga526151cf15775f2b8ad17da222962415", null ],
     [ "HangingNodeDomainRefiner", "domain__bridges_2refinement__bridge_8cpp.html#gad965ceddafeca379ef2695213f555e2e", null ],
     [ "MarkAnisotropic_LongEdges", "domain__bridges_2refinement__bridge_8cpp.html#ga914e0ae696b7298934f79bda9336ace1", null ],

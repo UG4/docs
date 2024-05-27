@@ -127,10 +127,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga20e21c87d07e22fcf4f45246aa86ed69"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_global_fractured_media_refiner.html">GlobalFracturedMediaRefiner</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__refinement__bridge.html#ga20e21c87d07e22fcf4f45246aa86ed69">ug::CreateGlobalFracturedDomainRefiner</a> (TDomain *dom)</td></tr>
 <tr class="memdesc:ga20e21c87d07e22fcf4f45246aa86ed69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a global fractured domain refiner.  <a href="group__refinement__bridge.html#ga20e21c87d07e22fcf4f45246aa86ed69">More...</a><br /></td></tr>
 <tr class="separator:ga20e21c87d07e22fcf4f45246aa86ed69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga34888b25fa66825e5b89aa176aacabd0"><td class="memTemplParams" colspan="2">template&lt;typename TDomain &gt; </td></tr>
-<tr class="memitem:ga34888b25fa66825e5b89aa176aacabd0"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_refiner.html">IRefiner</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__refinement__bridge.html#ga34888b25fa66825e5b89aa176aacabd0">ug::GlobalDomainRefiner</a> (TDomain *dom)</td></tr>
-<tr class="memdesc:ga34888b25fa66825e5b89aa176aacabd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a global domain refiner.  <a href="group__refinement__bridge.html#ga34888b25fa66825e5b89aa176aacabd0">More...</a><br /></td></tr>
-<tr class="separator:ga34888b25fa66825e5b89aa176aacabd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga526151cf15775f2b8ad17da222962415"><td class="memTemplParams" colspan="2">template&lt;class TDomain &gt; </td></tr>
 <tr class="memitem:ga526151cf15775f2b8ad17da222962415"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_global_subdivision_multi_grid_refiner.html">GlobalSubdivisionMultiGridRefiner</a>&lt; typename TDomain::position_attachment_type &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__refinement__bridge.html#ga526151cf15775f2b8ad17da222962415">ug::GlobalSubdivisionDomainRefiner</a> (TDomain *dom, const char *linearManifoldSubsets, bool constrained)</td></tr>
 <tr class="memdesc:ga526151cf15775f2b8ad17da222962415"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classug_1_1_factory.html" title="A factory class which creates instances given a class-name.">Factory</a> method, that creates a global subdivision domain refiner.  <a href="group__refinement__bridge.html#ga526151cf15775f2b8ad17da222962415">More...</a><br /></td></tr>
@@ -457,39 +453,6 @@ template&lt;class TDomain &gt; </div>
 <p>Creates a global fractured domain refiner. </p>
 
 <p class="reference">References <a class="el" href="group__pcl.html#ga7a09a2eab069305ca735847eed023d2f">pcl::NumProcs()</a>, <a class="el" href="classug_1_1_global_fractured_media_refiner.html#aeaa9174d7e24a4993ce95eceb3d91081">ug::GlobalFracturedMediaRefiner::set_subset_handler()</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
-
-</div>
-</div>
-<a id="ga34888b25fa66825e5b89aa176aacabd0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga34888b25fa66825e5b89aa176aacabd0">&#9670;&nbsp;</a></span>GlobalDomainRefiner()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename TDomain &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt;<a class="el" href="classug_1_1_i_refiner.html">IRefiner</a>&gt; ug::GlobalDomainRefiner </td>
-          <td>(</td>
-          <td class="paramtype">TDomain *&#160;</td>
-          <td class="paramname"><em>dom</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Creates a global domain refiner. </p>
-<p>Automatically chooses whether a parallel refiner is required. </p>
-
-<p class="reference">References <a class="el" href="group__pcl.html#ga7a09a2eab069305ca735847eed023d2f">pcl::NumProcs()</a>.</p>
 
 </div>
 </div>
@@ -1672,7 +1635,7 @@ template&lt;class TDomain &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon May 20 2024 00:58:26 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon May 27 2024 00:59:11 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

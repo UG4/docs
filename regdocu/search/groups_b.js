@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['neighborhood_20util_34324',['neighborhood util',['../../group__lib__grid__algorithms__neighborhood__util.html',1,'']]],
-  ['normal_5fcalculation_34325',['normal_calculation',['../../group__lib__grid__algorithms__normal__calculation.html',1,'']]]
+  ['neighborhood_20util_34322',['neighborhood util',['../../group__lib__grid__algorithms__neighborhood__util.html',1,'']]],
+  ['normal_5fcalculation_34323',['normal_calculation',['../../group__lib__grid__algorithms__normal__calculation.html',1,'']]]
 ];

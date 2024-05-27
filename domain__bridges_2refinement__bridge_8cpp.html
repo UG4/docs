@@ -120,6 +120,7 @@ $(document).ready(function(){initNavTree('domain__bridges_2refinement__bridge_8c
 <code>#include &quot;<a class="el" href="attachment__operations_8hpp_source.html">lib_grid/parallelization/util/attachment_operations.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="parallel__refinement_8h_source.html">lib_grid/parallelization/parallel_refinement/parallel_refinement.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="math__util_8h_source.html">common/math/misc/math_util.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="refiner__factory_8hpp_source.html">lib_grid/refinement/refiner_factory.hpp</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -167,10 +168,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a848e77730c4638ce770ad7abde9ad6a8"><td class="memTemplItemLeft" align="right" valign="top">TDomain::position_attachment_type &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug.html#a848e77730c4638ce770ad7abde9ad6a8">ug::GetDomainPositionAttachment</a> (TDomain &amp;dom)</td></tr>
 <tr class="memdesc:a848e77730c4638ce770ad7abde9ad6a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function for subdivision volumes multigrid smoothing.  <a href="namespaceug.html#a848e77730c4638ce770ad7abde9ad6a8">More...</a><br /></td></tr>
 <tr class="separator:a848e77730c4638ce770ad7abde9ad6a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga34888b25fa66825e5b89aa176aacabd0"><td class="memTemplParams" colspan="2">template&lt;typename TDomain &gt; </td></tr>
-<tr class="memitem:ga34888b25fa66825e5b89aa176aacabd0"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; IRefiner &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__refinement__bridge.html#ga34888b25fa66825e5b89aa176aacabd0">ug::GlobalDomainRefiner</a> (TDomain *dom)</td></tr>
-<tr class="memdesc:ga34888b25fa66825e5b89aa176aacabd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a global domain refiner.  <a href="group__refinement__bridge.html#ga34888b25fa66825e5b89aa176aacabd0">More...</a><br /></td></tr>
-<tr class="separator:ga34888b25fa66825e5b89aa176aacabd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga526151cf15775f2b8ad17da222962415"><td class="memTemplParams" colspan="2">template&lt;class TDomain &gt; </td></tr>
 <tr class="memitem:ga526151cf15775f2b8ad17da222962415"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; GlobalSubdivisionMultiGridRefiner&lt; typename TDomain::position_attachment_type &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__refinement__bridge.html#ga526151cf15775f2b8ad17da222962415">ug::GlobalSubdivisionDomainRefiner</a> (TDomain *dom, const char *linearManifoldSubsets, bool constrained)</td></tr>
 <tr class="memdesc:ga526151cf15775f2b8ad17da222962415"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classug_1_1_factory.html" title="A factory class which creates instances given a class-name.">Factory</a> method, that creates a global subdivision domain refiner.  <a href="group__refinement__bridge.html#ga526151cf15775f2b8ad17da222962415">More...</a><br /></td></tr>
@@ -271,7 +268,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_b0538a14208cacfdb4f78355b238afd2.html">bridge</a></li><li class="navelem"><a class="el" href="dir_d8126e48ed99575cdc53fdea54acb50d.html">domain_bridges</a></li><li class="navelem"><a class="el" href="domain__bridges_2refinement__bridge_8cpp.html">refinement_bridge.cpp</a></li>
-    <li class="footer">Generated on Mon May 20 2024 00:58:26 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon May 27 2024 00:59:10 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

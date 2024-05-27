@@ -25,6 +25,7 @@ var dir_c7c655306aff28a5e61a1dd2da898541 =
       [ "THangingNodeRefiner< MultiGrid >", "classug_1_1_t_hanging_node_refiner_3_01_multi_grid_01_4.html", "classug_1_1_t_hanging_node_refiner_3_01_multi_grid_01_4" ]
     ] ],
     [ "ref_mark_adjuster_interface.h", "ref__mark__adjuster__interface_8h.html", "ref__mark__adjuster__interface_8h" ],
+    [ "refiner_factory.hpp", "refiner__factory_8hpp.html", "refiner__factory_8hpp" ],
     [ "refiner_interface.cpp", "refiner__interface_8cpp.html", null ],
     [ "refiner_interface.h", "refiner__interface_8h.html", "refiner__interface_8h" ],
     [ "regular_refinement.cpp", "regular__refinement_8cpp.html", "regular__refinement_8cpp" ],
