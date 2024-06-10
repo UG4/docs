@@ -69,6 +69,14 @@ var annotated_dup =
         [ "NedelecTransfer", "classug_1_1_electromagnetism_1_1_nedelec_transfer.html", "classug_1_1_electromagnetism_1_1_nedelec_transfer" ],
         [ "TimeHarmonicNedelecHybridSmoother", "classug_1_1_electromagnetism_1_1_time_harmonic_nedelec_hybrid_smoother.html", "classug_1_1_electromagnetism_1_1_time_harmonic_nedelec_hybrid_smoother" ]
       ] ],
+      [ "JSONToolkit", "namespaceug_1_1_j_s_o_n_toolkit.html", [
+        [ "custom_error_handler", "classug_1_1_j_s_o_n_toolkit_1_1custom__error__handler.html", "classug_1_1_j_s_o_n_toolkit_1_1custom__error__handler" ],
+        [ "Functionality", "structug_1_1_j_s_o_n_toolkit_1_1_functionality.html", "structug_1_1_j_s_o_n_toolkit_1_1_functionality" ],
+        [ "JSONSchemaValidator", "structug_1_1_j_s_o_n_toolkit_1_1_j_s_o_n_schema_validator.html", "structug_1_1_j_s_o_n_toolkit_1_1_j_s_o_n_schema_validator" ],
+        [ "JSONTool", "structug_1_1_j_s_o_n_toolkit_1_1_j_s_o_n_tool.html", "structug_1_1_j_s_o_n_toolkit_1_1_j_s_o_n_tool" ],
+        [ "ParameterSet", "classug_1_1_j_s_o_n_toolkit_1_1_parameter_set.html", "classug_1_1_j_s_o_n_toolkit_1_1_parameter_set" ],
+        [ "ParameterValue", "structug_1_1_j_s_o_n_toolkit_1_1_parameter_value.html", "structug_1_1_j_s_o_n_toolkit_1_1_parameter_value" ]
+      ] ],
       [ "Jupyter", "namespaceug_1_1_jupyter.html", [
         [ "Functionality", "structug_1_1_jupyter_1_1_functionality.html", "structug_1_1_jupyter_1_1_functionality" ],
         [ "XWidgetRegistryFacade", "structug_1_1_jupyter_1_1_x_widget_registry_facade.html", "structug_1_1_jupyter_1_1_x_widget_registry_facade" ]
@@ -207,6 +215,9 @@ var annotated_dup =
       [ "TemplatePlugin", "namespaceug_1_1_template_plugin.html", [
         [ "Functionality", "structug_1_1_template_plugin_1_1_functionality.html", "structug_1_1_template_plugin_1_1_functionality" ],
         [ "TemplateSampleClass", "classug_1_1_template_plugin_1_1_template_sample_class.html", "classug_1_1_template_plugin_1_1_template_sample_class" ]
+      ] ],
+      [ "Util", "namespaceug_1_1_util.html", [
+        [ "Functionality", "structug_1_1_util_1_1_functionality.html", "structug_1_1_util_1_1_functionality" ]
       ] ],
       [ "AitkenNevilleTimex", "classug_1_1_aitken_neville_timex.html", "classug_1_1_aitken_neville_timex" ],
       [ "CompareDeg", "structug_1_1_compare_deg.html", "structug_1_1_compare_deg" ],

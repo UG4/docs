@@ -216,10 +216,11 @@ Functions</h2></td></tr>
 <div class="line">    }</div>
 <div class="line">  }</div>
 <div class="line">  kEntry.counter = kEntry.counter+1</div>
-<div class="line">  kEntry.iof:write(<span class="stringliteral">&quot;# Time [h]&quot;</span>)</div>
+<div class="line">  kEntry.iof:<a class="code" href="namespaceug_1_1_util_1_1aux.html#a644544d264cef0a7ae49e123057b4514">write</a>(<span class="stringliteral">&quot;# Time [h]&quot;</span>)</div>
 <div class="line">end</div>
 <div class="ttc" id="a_timestep_output_optimizer_8lua_html_a2d6b67366c357069e34292053c814f43"><div class="ttname"><a href="_timestep_output_optimizer_8lua.html#a2d6b67366c357069e34292053c814f43">writeCSVOutputXTime</a></div><div class="ttdeci">function writeCSVOutputXTime(kEntry)</div></div>
 <div class="ttc" id="agroup__ugbase__common__types_html_ga01d7b504413942e28875b53c6dc43eef"><div class="ttname"><a href="../group__ugbase__common__types.html#ga01d7b504413942e28875b53c6dc43eef">type</a></div><div class="ttdeci">Variant::Type type()</div></div>
+<div class="ttc" id="anamespaceug_1_1_util_1_1aux_html_a644544d264cef0a7ae49e123057b4514"><div class="ttname"><a href="namespaceug_1_1_util_1_1aux.html#a644544d264cef0a7ae49e123057b4514">ug::Util::aux::write</a></div><div class="ttdeci">void write(TObject &amp;text)</div><div class="ttdef"><b>Definition:</b> domain_util.h:26</div></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -257,7 +258,7 @@ Functions</h2></td></tr>
 <p>location: /home/runner/work/docs/docs/ug4/plugins/ParameterEstimation/example/example_biogas / <a class="el" href="_timestep_output_optimizer_8lua.html">TimestepOutputOptimizer.lua</a> :27-31 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="_timestep_output_optimizer_8lua.html#a5f9d5d9c08e19f9cbf29b2ceaaf9e77c">writeOutputY</a>(kEntry, yname, yunit)</div>
 <div class="line">  outFileKeys[kEntry.idtitle].keys.y[yname] = {col = kEntry.counter, unit =yunit}</div>
 <div class="line">  kEntry.counter = kEntry.counter +1</div>
-<div class="line">  kEntry.iof:write(<span class="stringliteral">&quot;\t&quot;</span>..yname..<span class="stringliteral">&quot; &quot;</span>..yunit)</div>
+<div class="line">  kEntry.iof:<a class="code" href="namespaceug_1_1_util_1_1aux.html#a644544d264cef0a7ae49e123057b4514">write</a>(<span class="stringliteral">&quot;\t&quot;</span>..yname..<span class="stringliteral">&quot; &quot;</span>..yunit)</div>
 <div class="line">end</div>
 <div class="ttc" id="a_timestep_output_optimizer_8lua_html_a5f9d5d9c08e19f9cbf29b2ceaaf9e77c"><div class="ttname"><a href="_timestep_output_optimizer_8lua.html#a5f9d5d9c08e19f9cbf29b2ceaaf9e77c">writeOutputY</a></div><div class="ttdeci">function writeOutputY(kEntry, yname, yunit)</div></div>
 </div><!-- fragment --> 
@@ -269,7 +270,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_38c8d24aef3972a7f87b834274e76e31.html">plugins</a></li><li class="navelem"><a class="el" href="dir_81b7b7688c12ee3ee59ab34e76a0ca43.html">ParameterEstimation</a></li><li class="navelem"><a class="el" href="dir_76a0a9583a3f69f0e8b52b288f1f7e5c.html">example</a></li><li class="navelem"><a class="el" href="dir_c5bd68423222083f1fd9f2d2a38a3388.html">example_biogas</a></li><li class="navelem"><a class="el" href="_timestep_output_optimizer_8lua.html">TimestepOutputOptimizer.lua</a></li>
-    <li class="footer">Generated on Mon Jun 3 2024 00:58:55 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Jun 10 2024 01:00:32 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

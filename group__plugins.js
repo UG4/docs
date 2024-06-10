@@ -6,5 +6,6 @@ var group__plugins =
     [ "Limex", "../plugins/group__limex.html", null ],
     [ "Lua Shell", "../plugins/group__lua__shell.html", null ],
     [ "ProMesh", "../plugins/group__promesh.html", "group__promesh" ],
-    [ "Small Strain Mechanics", "../plugins/group__small__strain__mechanics.html", "group__small__strain__mechanics" ]
+    [ "Small Strain Mechanics", "../plugins/group__small__strain__mechanics.html", "group__small__strain__mechanics" ],
+    [ "Util", "../plugins/group__util__plugin.html", null ]
 ];

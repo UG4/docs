@@ -1,5 +1,7 @@
 var NAVTREEINDEX162 =
 {
+"subset__handler__interface_8h_source.html":[4,0,2,6,9,28],
+"subset__handler__interface__impl_8hpp.html":[4,0,2,6,9,29],
 "subset__handler__interface__impl_8hpp_source.html":[4,0,2,6,9,29],
 "subset__handler__multi__grid_8cpp.html":[4,0,2,6,9,30],
 "subset__handler__multi__grid_8h.html":[4,0,2,6,9,31],
@@ -247,7 +249,5 @@ var NAVTREEINDEX162 =
 "tetrahedron__rules_8h.html#a1dab2c9e3961c63fe112e40421c450e8":[4,0,2,6,5,25,4],
 "tetrahedron__rules_8h.html#a3c86c46dc04aa4188846ea7a88ece6cd":[4,0,2,6,5,25,3],
 "tetrahedron__rules_8h.html#a566c1e0b22e0abe654049abf3249a483":[4,0,2,6,5,25,17],
-"tetrahedron__rules_8h.html#a5a9f42a950b7894b2e88547f24b31b06":[4,0,2,6,5,25,7],
-"tetrahedron__rules_8h.html#a6b45d48a4172cf156cef7243778a6bc6":[4,0,2,6,5,25,5],
-"tetrahedron__rules_8h.html#a76aaa0d3db72d7532893684a989d38ee":[4,0,2,6,5,25,0]
+"tetrahedron__rules_8h.html#a5a9f42a950b7894b2e88547f24b31b06":[4,0,2,6,5,25,7]
 };

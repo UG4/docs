@@ -1,5 +1,7 @@
 var NAVTREEINDEX144 =
 {
+"playground_8cpp.html#a18b3562aecc0d4c71fdaed09b71cf857":[4,0,2,0,1,12,8],
+"playground_8cpp.html#a41e466c4e7d9ea9b97b52ad48d1c37bf":[4,0,2,0,1,12,11],
 "playground_8cpp.html#a426448f97a65193cfc9bb5dc0057ada1":[4,0,2,0,1,12,1],
 "playground_8cpp.html#a4f720ba09a3ad2a04cea4854dec666af":[4,0,2,0,1,12,2],
 "playground_8cpp.html#a6790fc19a9b53f5bc162ead81c0571fd":[4,0,2,0,1,12,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX144 =
 "pyramid__rules_8h.html#a5dbd003b3974dee4b474ce4db10757e9":[4,0,2,6,5,20,9],
 "pyramid__rules_8h.html#a62a7b041bd52fbfcc4384914e938ca53":[4,0,2,6,5,20,12],
 "pyramid__rules_8h.html#a746084ecbe70d4ef2e9b133dca5c24d5":[4,0,2,6,5,20,21],
-"pyramid__rules_8h.html#a7926a6c1fa8fcef9e4d47a17c6fe3c78":[4,0,2,6,5,20,22],
-"pyramid__rules_8h.html#a8e8eca2c7bc173d6d0d5ece7413359ea":[4,0,2,6,5,20,1],
-"pyramid__rules_8h.html#a95053e3060e8ec9a1a10efd3e29e1d3a":[4,0,2,6,5,20,23]
+"pyramid__rules_8h.html#a7926a6c1fa8fcef9e4d47a17c6fe3c78":[4,0,2,6,5,20,22]
 };

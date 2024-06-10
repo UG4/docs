@@ -211,12 +211,12 @@ $(document).ready(function(){initNavTree('time__integrator__subject_8hpp_source.
 <div class="line"><a name="l00128"></a><span class="lineno"><a class="line" href="classug_1_1_time_integrator_subject.html#a42bd435c863bb090a4fa6692731000f1">  128</a></span>&#160;  void <a class="code" href="classug_1_1_time_integrator_subject.html#a42bd435c863bb090a4fa6692731000f1">attach_observer</a>(<a class="code" href="class_smart_ptr.html">SmartPtr</a>&lt;<a class="code" href="classug_1_1_i_time_integrator_observer.html">process_observer_type</a>&gt; obs)</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;  {</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">bool</span> isStaticallyAttached =</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;      check_attach_init(obs) |</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;      check_attach_rewind(obs) |</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;      check_attach_finalize(obs) |</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;      check_attach_preprocess(obs) |</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;      check_attach_postprocess(obs) |</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;      check_attach_start(obs) |</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;      check_attach_init(obs) ||</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;      check_attach_rewind(obs) ||</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;      check_attach_finalize(obs) ||</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;      check_attach_preprocess(obs) ||</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;      check_attach_postprocess(obs) ||</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;      check_attach_start(obs) ||</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;      check_attach_end(obs);</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160; </div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    <span class="keywordflow">if</span> (!isStaticallyAttached)</div>
@@ -370,7 +370,7 @@ $(document).ready(function(){initNavTree('time__integrator__subject_8hpp_source.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_df0e37446a9fd4242d0753cd346d4a6c.html">lib_disc</a></li><li class="navelem"><a class="el" href="dir_19b07d542fc74410c650cf2f822fcbd5.html">time_disc</a></li><li class="navelem"><a class="el" href="time__integrator__subject_8hpp.html">time_integrator_subject.hpp</a></li>
-    <li class="footer">Generated on Mon Jun 3 2024 00:59:34 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Jun 10 2024 01:01:12 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

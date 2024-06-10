@@ -1,5 +1,7 @@
 var NAVTREEINDEX152 =
 {
+"structug_1_1_h_f_v1_manifold_geometry_1_1_nat_edge_info.html#a88067053f44aa4728b7517d15e228543":[3,0,4,661,2,7],
+"structug_1_1_h_f_v1_manifold_geometry_1_1_nat_edge_info.html#ac09455f890c4db6e944f85ca57e99e39":[3,0,4,661,2,4],
 "structug_1_1_h_f_v1_manifold_geometry_1_1_nat_edge_info.html#ad0ee6a6a48b9d0821508f2a9f3762ae8":[3,0,4,661,2,0],
 "structug_1_1_h_f_v1_manifold_geometry_1_1_new_edge_info.html":[3,0,4,661,3],
 "structug_1_1_h_f_v1_manifold_geometry_1_1_new_edge_info.html#a2c5d5af4fabe2a348e51fd98cf84705a":[3,0,4,661,3,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX152 =
 "structug_1_1_m_g_volume_info.html#af5194071eda16dd2afe089f577d9f57c":[3,0,4,923,9],
 "structug_1_1_map_sparse_matrix_1_1connection.html":[1,0,0,8,0],
 "structug_1_1_map_sparse_matrix_1_1connection.html#a096054c38083bf2a07af8328ebd00e13":[1,0,0,8,0,0],
-"structug_1_1_map_sparse_matrix_1_1connection.html#a1063252d1f0e5bcb569a32307ec7b4eb":[1,0,0,8,0,2],
-"structug_1_1_map_sparse_matrix_1_1connection.html#a5a38d6300fe01fff53d7be5822ee99a6":[1,0,0,8,0,1],
-"structug_1_1_map_sparse_matrix_1_1connection.html#aaac53c1af633a11d4afa463bc35a30a6":[1,0,0,8,0,4]
+"structug_1_1_map_sparse_matrix_1_1connection.html#a1063252d1f0e5bcb569a32307ec7b4eb":[1,0,0,8,0,2]
 };

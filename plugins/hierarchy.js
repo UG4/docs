@@ -3,6 +3,9 @@ var hierarchy =
     [ "ug::AitkenNevilleTimex< TVector >", "classug_1_1_aitken_neville_timex.html", null ],
     [ "ug::promesh::AnisoElemInfo", "classug_1_1promesh_1_1_aniso_elem_info.html", null ],
     [ "ug::Electromagnetism::NedelecTransfer< TDomain, TAlgebra >::AssembleProlongationMatrix", "structug_1_1_electromagnetism_1_1_nedelec_transfer_1_1_assemble_prolongation_matrix.html", null ],
+    [ "nlohmann::json_schema::basic_error_handler", null, [
+      [ "ug::JSONToolkit::custom_error_handler", "classug_1_1_j_s_o_n_toolkit_1_1custom__error__handler.html", null ]
+    ] ],
     [ "ug::promesh::Box", "classug_1_1promesh_1_1_box.html", null ],
     [ "ug::Richards::BrooksCoreyFunctions", "structug_1_1_richards_1_1_brooks_corey_functions.html", null ],
     [ "ug::Electromagnetism::CalcVolPowerElemHelperClass< TGridFunc, TElem >", "classug_1_1_electromagnetism_1_1_calc_vol_power_elem_helper_class.html", null ],
@@ -64,12 +67,14 @@ var hierarchy =
     [ "ug::bridge::SuperLUBridge::Functionality", "structug_1_1bridge_1_1_super_l_u_bridge_1_1_functionality.html", null ],
     [ "ug::ConvectionDiffusionPlugin::Functionality", "structug_1_1_convection_diffusion_plugin_1_1_functionality.html", null ],
     [ "ug::Electromagnetism::Functionality", "structug_1_1_electromagnetism_1_1_functionality.html", null ],
+    [ "ug::JSONToolkit::Functionality", "structug_1_1_j_s_o_n_toolkit_1_1_functionality.html", null ],
     [ "ug::Jupyter::Functionality", "structug_1_1_jupyter_1_1_functionality.html", null ],
     [ "ug::Limex::Functionality", "structug_1_1_limex_1_1_functionality.html", null ],
     [ "ug::NavierStokes::Functionality", "structug_1_1_navier_stokes_1_1_functionality.html", null ],
     [ "ug::Richards::Functionality", "structug_1_1_richards_1_1_functionality.html", null ],
     [ "ug::SmallStrainMechanics::Functionality", "structug_1_1_small_strain_mechanics_1_1_functionality.html", null ],
     [ "ug::TemplatePlugin::Functionality", "structug_1_1_template_plugin_1_1_functionality.html", null ],
+    [ "ug::Util::Functionality", "structug_1_1_util_1_1_functionality.html", null ],
     [ "ug::ConvectionDiffusionPlugin::Functionality2d3d", "structug_1_1_convection_diffusion_plugin_1_1_functionality2d3d.html", null ],
     [ "ug::NavierStokes::FunctionalityComp", "structug_1_1_navier_stokes_1_1_functionality_comp.html", null ],
     [ "ug::NavierStokes::FunctionalityCompFV1", "structug_1_1_navier_stokes_1_1_functionality_comp_f_v1.html", null ],
@@ -347,6 +352,10 @@ var hierarchy =
     [ "ug::ITransferPostProcess< TDomain, TPotAlgebra >", "../classug_1_1_i_transfer_post_process.html", [
       [ "ug::Electromagnetism::NedelecLoopCurrent< TDomain, TAlgebra >::ZeroAverage", "classug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_zero_average.html", null ]
     ] ],
+    [ "nlohmann::json_schema::json_validator", null, [
+      [ "ug::JSONToolkit::JSONSchemaValidator", "structug_1_1_j_s_o_n_toolkit_1_1_j_s_o_n_schema_validator.html", null ]
+    ] ],
+    [ "ug::JSONToolkit::JSONTool", "structug_1_1_j_s_o_n_toolkit_1_1_j_s_o_n_tool.html", null ],
     [ "ug::LimexTimeIntegratorConfig", "classug_1_1_limex_time_integrator_config.html", [
       [ "ug::LimexTimeIntegrator< TDomain, TAlgebra >", "classug_1_1_limex_time_integrator.html", null ]
     ] ],
@@ -414,6 +423,8 @@ var hierarchy =
     [ "ug::Electromagnetism::NedelecT1_LDisc_forSimplex< TDomain, Triangle >", "classug_1_1_electromagnetism_1_1_nedelec_t1___l_disc__for_simplex.html", [
       [ "ug::Electromagnetism::NedelecT1_LDisc< TDomain, Triangle >", "classug_1_1_electromagnetism_1_1_nedelec_t1___l_disc_3_01_t_domain_00_01_triangle_01_4.html", null ]
     ] ],
+    [ "ug::JSONToolkit::ParameterSet", "classug_1_1_j_s_o_n_toolkit_1_1_parameter_set.html", null ],
+    [ "ug::JSONToolkit::ParameterValue", "structug_1_1_j_s_o_n_toolkit_1_1_parameter_value.html", null ],
     [ "ug::ConvectionDiffusionPlugin::point_sss_marker", "classug_1_1_convection_diffusion_plugin_1_1point__sss__marker.html", [
       [ "ug::ConvectionDiffusionPlugin::cd_point_sss_data< dim >", "classug_1_1_convection_diffusion_plugin_1_1cd__point__sss__data.html", null ]
     ] ],

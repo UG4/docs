@@ -165,6 +165,10 @@ var namespaceug =
       [ "OPPOSED_OBJECT", "namespaceug_1_1hex__rules.html#ad0ff863ade29ce567ff0fd5ddd3bca60", null ]
     ] ],
     [ "impl", "namespaceug_1_1impl.html", "namespaceug_1_1impl" ],
+    [ "JSONToolkit", null, [
+      [ "CreateParameterValue", "../plugins/namespaceug_1_1_j_s_o_n_toolkit.html#adbaf08c213b3f0566e036d9e3377972e", null ],
+      [ "loader", "../plugins/namespaceug_1_1_j_s_o_n_toolkit.html#a81f6d8f9bca7431634945d85838ff1a1", null ]
+    ] ],
     [ "Jupyter", null, [
       [ "CrashFct", "../plugins/group__sample__plugin.html#gaac1a4022d3d62884333839b041b545d7", null ],
       [ "CrashFctFatal", "../plugins/group__sample__plugin.html#gad1deeff17ac052f19a712ca8fa2166fc", null ],
@@ -783,6 +787,16 @@ var namespaceug =
     ] ],
     [ "util", "namespaceug_1_1util.html", [
       [ "omit_loops", "namespaceug_1_1util.html#ad59fd08a706e6220618db39841ac5a02", null ]
+    ] ],
+    [ "Util", null, [
+      [ "aux", null, [
+        [ "write", "../plugins/namespaceug_1_1_util_1_1aux.html#a644544d264cef0a7ae49e123057b4514", null ]
+      ] ],
+      [ "CheckSubsets", "../plugins/namespaceug_1_1_util.html#a767b398a6c10e3839b7e7c61260c264b", null ],
+      [ "CreateDomain", "../plugins/namespaceug_1_1_util.html#aa99ac07d8731ef9796b1d686c340783a", null ],
+      [ "CreateDomain", "../plugins/namespaceug_1_1_util.html#aee08c26826d8e884381b4f844416a12f", null ],
+      [ "CreateDomain", "../plugins/namespaceug_1_1_util.html#a1026a0a7f56cbc3b47e3572e59ffbed7", null ],
+      [ "CreateDomain", "../plugins/namespaceug_1_1_util.html#af4ee84163848085fb0ba1432740c0b1c", null ]
     ] ],
     [ "vrl", "namespaceug_1_1vrl.html", "namespaceug_1_1vrl" ],
     [ "AABox", "structug_1_1_a_a_box.html", "structug_1_1_a_a_box" ],
@@ -3613,9 +3627,11 @@ var namespaceug =
     [ "FillCornerCoordinates", "namespaceug.html#a566e380a7b9063af7c30de8a8a09e997", null ],
     [ "FillCornerCoordinates", "namespaceug.html#a73622f7cd059137269f436d46d411437", null ],
     [ "FillDistInfos", "namespaceug.html#a02671f60ea2187f1ff25d54c1214269d", null ],
+    [ "FinalizeUGPlugin_JSONToolkit", "../plugins/namespaceug.html#a041f346516420d23993b793c5e161265", null ],
     [ "FinalizeUGPlugin_Jupyter", "../plugins/namespaceug.html#a895491afc127399b26435c3a26440045", null ],
     [ "FinalizeUGPlugin_Limex", "../plugins/namespaceug.html#a31d5f71df756b841df0d98b9c965bfae", null ],
     [ "FinalizeUGPlugin_Richards", "../plugins/namespaceug.html#a5a32a81eb04935e35fd09e37cc2b43dd", null ],
+    [ "FinalizeUGPlugin_Util", "../plugins/namespaceug.html#a6036bda6040f28cbb6fec2c10d22c530", null ],
     [ "find", "namespaceug.html#a0d7fd952e3d0f84365c039b56e861cdf", null ],
     [ "find_pid", "namespaceug.html#a5f1906de09a22e354fade50a9cb8567b", null ],
     [ "findBlockSize", "namespaceug.html#af9a0ccc0d1ac207ca67b0589734f440b", null ],
@@ -3965,6 +3981,8 @@ var namespaceug =
     [ "InitUGPlugin_DemoPlugin", "../plugins/namespaceug.html#a3c0aa44de648b1de4183e32053ce22da", null ],
     [ "InitUGPlugin_DocuGen", "../plugins/namespaceug.html#aaeaba86a4a33443c86a8824a1a889e2e", null ],
     [ "InitUGPlugin_Electromagnetism", "../plugins/namespaceug.html#a96d6ea274a61c82c403fb5b71c07fef7", null ],
+    [ "InitUGPlugin_JSONToolkit", "../plugins/namespaceug.html#ae357a366d919fdc82c7f747cd34ad2eb", null ],
+    [ "InitUGPlugin_JSONToolkit_", "../plugins/namespaceug.html#a153585a8f701832ec0c24ba6abb50ad9", null ],
     [ "InitUGPlugin_Jupyter", "../plugins/namespaceug.html#a3f7689c4888add09dd39c8dd39bdf495", null ],
     [ "InitUGPlugin_Limex", "../plugins/namespaceug.html#aea57ae88783edcec25f52aa197b4decb", null ],
     [ "InitUGPlugin_LuaShell", "../plugins/namespaceug.html#aa0851964f15ffc8685f8add313ac9cf1", null ],
@@ -3973,6 +3991,7 @@ var namespaceug =
     [ "InitUGPlugin_Richards", "../plugins/namespaceug.html#ad4382f915bc6b9797fca3d3bb6c42816", null ],
     [ "InitUGPlugin_SmallStrainMechanics", "../plugins/namespaceug.html#afbbb10af1fdd6adcf44fa44a2928414d", null ],
     [ "InitUGPlugin_TemplatePlugin", "../plugins/namespaceug.html#a7e7088bf9a05a1b061b8eb119afc017e", null ],
+    [ "InitUGPlugin_Util", "../plugins/namespaceug.html#a4bb75fca5297947a833769ed0790385d", null ],
     [ "InnerDoFPosition", "namespaceug.html#ae1e52156d8ecc72d9e6997c00c153844", null ],
     [ "InnerDoFPosition", "namespaceug.html#a86d1bb0e17a27c4e42a1b78ce415fe14", null ],
     [ "InnerDoFPositionElem", "namespaceug.html#accc38406bc3707aa8cd2fba1966c39fc", null ],
@@ -4780,6 +4799,7 @@ var namespaceug =
     [ "Refine", "group__lib__grid__algorithms__refinement.html#gab98f7a6e7eef37be3d6f18c88c64562e", null ],
     [ "Refine", "namespaceug.html#ac283b8f2da775914f2f724c22774553b", null ],
     [ "ReflectVectorAtPlane", "group__ugbase__mathutil.html#gadea8d2904c970e40bd39e07df027232b", null ],
+    [ "RegisterBridge_Util", "../plugins/namespaceug.html#a370aff1a0a4e29dffabf1830a940633c", null ],
     [ "release_mem", "namespaceug.html#a80f8d10e55e5e49fc6a9c9349295c655", null ],
     [ "RemoveDoubles", "group__lib__grid__algorithms__vertex__util.html#ga0ef4b61a6c2f18a940efa1cf74d7e47d", null ],
     [ "RemoveDoubles", "group__lib__grid__algorithms__vertex__util.html#ga0ef4b61a6c2f18a940efa1cf74d7e47d", null ],

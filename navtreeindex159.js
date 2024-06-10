@@ -1,5 +1,7 @@
 var NAVTREEINDEX159 =
 {
+"structug_1_1fv1__traits_3_01_reference_tetrahedron_00_013_01_4.html":[3,0,4,396],
+"structug_1_1fv1__traits_3_01_reference_triangle_00_012_01_4.html":[3,0,4,397],
 "structug_1_1fv1__traits_3_01_reference_triangle_00_013_01_4.html":[3,0,4,398],
 "structug_1_1fv1__traits_3_01_reference_triangle_00_013_01_4.html#a6dec1fe8f5938b3cc8d2046349ba75df":[3,0,4,398,1],
 "structug_1_1fv1__traits_3_01_reference_triangle_00_013_01_4.html#ad48b3d3d5d9987f02f858dc1c3863689":[3,0,4,398,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX159 =
 "structug_1_1impl_1_1_lua_table_handle__.html#ac7660fea14e26ed38888ad242d7b84aa":[3,0,4,3,1,6],
 "structug_1_1impl_1_1_lua_table_handle__.html#accea3418f2f1bb59654477cff01beab2":[3,0,4,3,1,7],
 "structug_1_1impl_1_1_lua_table_handle__.html#ad105cebdaf5b62a79693cc52bd6a33c3":[3,0,4,3,1,9],
-"structug_1_1impl_1_1_lua_table_handle__.html#ad885d599b58ff675d85caa8d1e21d9e8":[3,0,4,3,1,3],
-"structug_1_1impl_1_1_project_vertices_to_close_edges_1_1_record.html":[3,0,4,3,0,0],
-"structug_1_1impl_1_1_project_vertices_to_close_edges_1_1_record.html#a5bb97a9f2e72b23aca3a6aaa51a929b3":[3,0,4,3,0,0,0]
+"structug_1_1impl_1_1_lua_table_handle__.html#ad885d599b58ff675d85caa8d1e21d9e8":[3,0,4,3,1,3]
 };

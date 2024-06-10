@@ -144,6 +144,7 @@ var NAVTREEINDEX10 =
 "group__util__bridge.html#gacd40307966e11e8925f980a1044bc9e3":[1,0,5,0,3,3,8],
 "group__util__bridge.html#gaf7c529aba80a6787bce0f3d0a5699a37":[1,0,5,0,3,3,4],
 "group__util__bridge.html#gaf8b34fe7e938c44d1ba6e628afb524f4":[1,0,5,0,3,3,10],
+"group__util__plugin.html":[1,0,10,7],
 "group__vecmath__bridge.html":[1,0,5,0,3,4],
 "group__vecmath__bridge.html#ga03128ce7e416e215b3cc7c541a463ddd":[1,0,5,0,3,4,1],
 "group__vecmath__bridge.html#ga354efa6a4152d80c02817dfa0cadee97":[1,0,5,0,3,4,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "laplace-hpc_8lua.html#ad2464918eb8162cae4af3f470845f0d9":[2,0,0,1,6,8],
 "laplace-hpc_8lua.html#ad6e9e2fa4cb5dd9c02d79f876d76934f":[2,0,0,1,6,4],
 "laplace_8lua.html":[2,0,0,1,7],
-"laplace_8lua.html#a551e214afa3d78d3b8520b3f800f94de":[2,0,0,1,7,0],
-"laplace_8lua.html#abbb6d7a4fe6339ba6a47e5580c736932":[2,0,0,1,7,1]
+"laplace_8lua.html#a551e214afa3d78d3b8520b3f800f94de":[2,0,0,1,7,0]
 };

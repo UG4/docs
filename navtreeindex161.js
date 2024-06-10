@@ -1,5 +1,7 @@
 var NAVTREEINDEX161 =
 {
+"structug_1_1std__number__vector__attachment__reduce__traits.html#a9d7ec0683ef27d5d2e4dbbf539707c33":[3,0,4,1153,1],
+"structug_1_1std__number__vector__attachment__reduce__traits.html#ab9baccc971e45f661d5bc07a5b4fd262":[3,0,4,1153,5],
 "structug_1_1std__number__vector__attachment__reduce__traits.html#ad742ee480a856f185f8e36e5bee2d2b5":[3,0,4,1153,6],
 "structug_1_1storage__traits1.html":[3,0,4,1176],
 "structug_1_1storage__traits1_3_01_fixed_array1_3_01_t_00_01_n_01_4_01_4.html":[3,0,4,1177],
@@ -247,7 +249,5 @@ var NAVTREEINDEX161 =
 "subset__handler__interface_8h.html#gga14ada64191067f5b189b5e291b06892fa8db547098f31ecc5ef385e60b322d2e8":[4,0,2,6,9,28,3,5],
 "subset__handler__interface_8h.html#gga14ada64191067f5b189b5e291b06892fa9e45b67932fb23f87045ce383c27aa3f":[4,0,2,6,9,28,3,2],
 "subset__handler__interface_8h.html#gga14ada64191067f5b189b5e291b06892faa121f94be8b867f809d7526df88af36f":[4,0,2,6,9,28,3,1],
-"subset__handler__interface_8h.html#gga14ada64191067f5b189b5e291b06892fad0044de487d475c44d09d92e66900d9a":[4,0,2,6,9,28,3,3],
-"subset__handler__interface_8h_source.html":[4,0,2,6,9,28],
-"subset__handler__interface__impl_8hpp.html":[4,0,2,6,9,29]
+"subset__handler__interface_8h.html#gga14ada64191067f5b189b5e291b06892fad0044de487d475c44d09d92e66900d9a":[4,0,2,6,9,28,3,3]
 };

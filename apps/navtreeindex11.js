@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"laplace_8lua.html#abbb6d7a4fe6339ba6a47e5580c736932":[2,0,0,1,7,1],
 "laplace_8lua.html#ad2464918eb8162cae4af3f470845f0d9":[2,0,0,1,7,2],
 "lua-programming_8lua.html":[2,0,0,1,8],
 "lua-programming_8lua.html#a0f3828fcb07afcbad565cd69ec6d1b9e":[2,0,0,1,8,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "tut08__nonlinear__conv__diff__using__self__coupling_8lua.html#a4b99a77120d957e1632f10b1715cab4e":[2,0,0,3,7,16],
 "tut08__nonlinear__conv__diff__using__self__coupling_8lua.html#a517d17fd575de09b31c18c9d3793d048":[2,0,0,3,7,21],
 "tut08__nonlinear__conv__diff__using__self__coupling_8lua.html#a551e214afa3d78d3b8520b3f800f94de":[2,0,0,3,7,19],
-"tut08__nonlinear__conv__diff__using__self__coupling_8lua.html#a5d589736f288926911d566ab10400afc":[2,0,0,3,7,14],
-"tut08__nonlinear__conv__diff__using__self__coupling_8lua.html#a63be316b1cb16a2756145737cb2dcf32":[2,0,0,3,7,4]
+"tut08__nonlinear__conv__diff__using__self__coupling_8lua.html#a5d589736f288926911d566ab10400afc":[2,0,0,3,7,14]
 };

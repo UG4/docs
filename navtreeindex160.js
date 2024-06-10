@@ -1,5 +1,7 @@
 var NAVTREEINDEX160 =
 {
+"structug_1_1impl_1_1_project_vertices_to_close_edges_1_1_record.html":[3,0,4,3,0,0],
+"structug_1_1impl_1_1_project_vertices_to_close_edges_1_1_record.html#a5bb97a9f2e72b23aca3a6aaa51a929b3":[3,0,4,3,0,0,0],
 "structug_1_1impl_1_1_project_vertices_to_close_edges_1_1_record.html#adf6cfb1fa887414b8ebe9b61814f649a":[3,0,4,3,0,0,2],
 "structug_1_1impl_1_1_project_vertices_to_close_edges_1_1_record.html#aee470a3277dbede63d483949780bdc4b":[3,0,4,3,0,0,1],
 "structug_1_1lg__ntree__traits__base.html":[3,0,4,805],
@@ -131,8 +133,8 @@ var NAVTREEINDEX160 =
 "structug_1_1matrix__algebra__type__traits_3_01_map_sparse_matrix_3_01_t_01_4_01_4.html#ae043d128d5262b70a576a35a58294672":[1,0,0,10,0],
 "structug_1_1matrix__algebra__type__traits_3_01_matrix_operator_3_01_m_00_01_x_00_01_y_01_4_01_4.html":[3,0,4,893],
 "structug_1_1matrix__algebra__type__traits_3_01_parallel_matrix_3_01_t_01_4_01_4.html":[3,0,4,894],
-"structug_1_1matrix__algebra__type__traits_3_01_sparse_matrix_3_01_t_01_4_01_4.html":[1,0,0,1,0,4],
 "structug_1_1matrix__algebra__type__traits_3_01_sparse_matrix_3_01_t_01_4_01_4.html":[1,0,0,0,4],
+"structug_1_1matrix__algebra__type__traits_3_01_sparse_matrix_3_01_t_01_4_01_4.html":[1,0,0,1,0,4],
 "structug_1_1node__tree_1_1_collision_element_i_d.html":[3,0,4,4,2],
 "structug_1_1node__tree_1_1_collision_element_i_d.html#a045739c1c729d56d68dc260e10b8a266":[3,0,4,4,2,6],
 "structug_1_1node__tree_1_1_collision_element_i_d.html#a7509b420d46f2d31c4d24ca20b4451c3":[3,0,4,4,2,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX160 =
 "structug_1_1std__number__vector__attachment__reduce__traits.html#a62d9deff087dba12bc44cc090f81a099":[3,0,4,1153,4],
 "structug_1_1std__number__vector__attachment__reduce__traits.html#a6a44445515d611389c561874714eb0a0":[3,0,4,1153,9],
 "structug_1_1std__number__vector__attachment__reduce__traits.html#a748329023376c5144ad940c38aed6e62":[3,0,4,1153,3],
-"structug_1_1std__number__vector__attachment__reduce__traits.html#a8a3e75a60de83b0f03c29a068af11394":[3,0,4,1153,2],
-"structug_1_1std__number__vector__attachment__reduce__traits.html#a9d7ec0683ef27d5d2e4dbbf539707c33":[3,0,4,1153,1],
-"structug_1_1std__number__vector__attachment__reduce__traits.html#ab9baccc971e45f661d5bc07a5b4fd262":[3,0,4,1153,5]
+"structug_1_1std__number__vector__attachment__reduce__traits.html#a8a3e75a60de83b0f03c29a068af11394":[3,0,4,1153,2]
 };

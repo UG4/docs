@@ -154,13 +154,14 @@ Variables</h2></td></tr>
 <p>location: /home/runner/work/docs/docs/ug4/plugins/ParameterEstimation/example/example_convection / evaluate.lua :107-112 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="example__convection_2evaluate_8lua.html#a17c9e00ab47491d8fbddfe0239790b51">finishCallback</a>(u, step, time, dt)</div>
 <div class="line">  <a class="codeRef" href="../group__crs__algebra.html#ga354171737d057bbaef231dab9e8f9c0b">print</a>(<span class="stringliteral">&quot;FINISHED&quot;</span>)  </div>
 <div class="line">  file = io.<a class="codeRef" href="../group__ugbase__common__io.html#ga8cbc1c4ea920e4f944c0a88eceba33bf">open</a> (outputfilename, &quot;a&quot;)</div>
-<div class="line">  file:write(&quot;FINISHED,,&quot;)</div>
+<div class="line">  file:<a class="code" href="namespaceug_1_1_util_1_1aux.html#a644544d264cef0a7ae49e123057b4514">write</a>(&quot;FINISHED,,&quot;)</div>
 <div class="line">  file:<a class="codeRef" href="../group__ugbase__common__io.html#ga283ee533adf07f4346aaa6653183b7b6">close</a>()</div>
 <div class="line">end</div>
 <div class="ttc" id="aexample__convection_2evaluate_8lua_html_a17c9e00ab47491d8fbddfe0239790b51"><div class="ttname"><a href="example__convection_2evaluate_8lua.html#a17c9e00ab47491d8fbddfe0239790b51">finishCallback</a></div><div class="ttdeci">function finishCallback(u, step, time, dt)</div></div>
 <div class="ttc" id="agroup__crs__algebra_html_ga354171737d057bbaef231dab9e8f9c0b"><div class="ttname"><a href="../group__crs__algebra.html#ga354171737d057bbaef231dab9e8f9c0b">print</a></div><div class="ttdeci">void print(const char *const name=NULL) const</div></div>
 <div class="ttc" id="agroup__ugbase__common__io_html_ga283ee533adf07f4346aaa6653183b7b6"><div class="ttname"><a href="../group__ugbase__common__io.html#ga283ee533adf07f4346aaa6653183b7b6">close</a></div><div class="ttdeci">void close()</div></div>
 <div class="ttc" id="agroup__ugbase__common__io_html_ga8cbc1c4ea920e4f944c0a88eceba33bf"><div class="ttname"><a href="../group__ugbase__common__io.html#ga8cbc1c4ea920e4f944c0a88eceba33bf">open</a></div><div class="ttdeci">void open(const char *filename, const std::ios_base::openmode mode=std::ios_base::out)</div></div>
+<div class="ttc" id="anamespaceug_1_1_util_1_1aux_html_a644544d264cef0a7ae49e123057b4514"><div class="ttname"><a href="namespaceug_1_1_util_1_1aux.html#a644544d264cef0a7ae49e123057b4514">ug::Util::aux::write</a></div><div class="ttdeci">void write(TObject &amp;text)</div><div class="ttdef"><b>Definition:</b> domain_util.h:26</div></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -252,7 +253,7 @@ Variables</h2></td></tr>
 <div class="line">  <a class="codeRef" href="../group__crs__algebra.html#ga354171737d057bbaef231dab9e8f9c0b">print</a>(<span class="stringliteral">&quot;Step&quot;</span>..step)</div>
 <div class="line">  file = io.open (outputfilename, <span class="stringliteral">&quot;a&quot;</span>)</div>
 <div class="line">  value = <a class="codeRef" href="../group__interpolate__bridge.html#gaaff0bac447d12ebf58c1b3e66ab2cd31">EvaluateAtClosestVertex</a>(Vec2d(0,0), u, <span class="stringliteral">&quot;temp&quot;</span>, <span class="stringliteral">&quot;Inner&quot;</span>, dom:<a class="codeRef" href="../group__lib__disc__domain.html#ga179e5ba81b8476263523e59350300928">subset_handler</a>())</div>
-<div class="line">  file:write(step..&quot;,&quot;..time..&quot;,&quot;..value..&quot;\n&quot;)</div>
+<div class="line">  file:<a class="code" href="namespaceug_1_1_util_1_1aux.html#a644544d264cef0a7ae49e123057b4514">write</a>(step..&quot;,&quot;..time..&quot;,&quot;..value..&quot;\n&quot;)</div>
 <div class="line">  file:<a class="codeRef" href="../group__ugbase__common__io.html#ga283ee533adf07f4346aaa6653183b7b6">close</a>()</div>
 <div class="line">end</div>
 <div class="ttc" id="aexample__convection_2evaluate_8lua_html_adde493f69e8224074995c2b61a3f9ba5"><div class="ttname"><a href="example__convection_2evaluate_8lua.html#adde493f69e8224074995c2b61a3f9ba5">stepCallback</a></div><div class="ttdeci">function stepCallback(u, step, time, dt)</div></div>
@@ -298,7 +299,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_38c8d24aef3972a7f87b834274e76e31.html">plugins</a></li><li class="navelem"><a class="el" href="dir_81b7b7688c12ee3ee59ab34e76a0ca43.html">ParameterEstimation</a></li><li class="navelem"><a class="el" href="dir_76a0a9583a3f69f0e8b52b288f1f7e5c.html">example</a></li><li class="navelem"><a class="el" href="dir_df1cf6734497d66a4bb5ebfc2495f434.html">example_convection</a></li><li class="navelem"><a class="el" href="example__convection_2evaluate_8lua.html">evaluate.lua</a></li>
-    <li class="footer">Generated on Mon Jun 3 2024 00:58:55 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Jun 10 2024 01:00:32 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

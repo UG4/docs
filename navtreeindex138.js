@@ -1,5 +1,7 @@
 var NAVTREEINDEX138 =
 {
+"neurite__projector_8cpp.html#aef6f49678b61916fb352e9daaa8e39e0":[4,0,2,6,8,0,4,15],
+"neurite__projector_8cpp.html#aefa8d9f1d437dfc16e57e18b934dc3f6":[4,0,2,6,8,0,4,9],
 "neurite__projector_8cpp.html#af77dee70110f98b45cf8f30e62a94fbb":[4,0,2,6,8,0,4,7],
 "neurite__projector_8h.html":[4,0,2,6,8,0,5],
 "neurite__projector_8h.html#a272b2528c2b1cab26f1e67bf6ce490d2":[4,0,2,6,8,0,5,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX138 =
 "operator_2eigensolver_2additional__math_8h.html#a59f89dcedf444230c6f5c7d1f90bab31":[4,0,2,4,9,0,0,7],
 "operator_2eigensolver_2additional__math_8h.html#a5a5107910e84455bc914c3ea05674699":[4,0,2,4,9,0,0,12],
 "operator_2eigensolver_2additional__math_8h.html#a6146c1fa89fdb745cf5975d04ea9d3e6":[4,0,2,4,9,0,0,8],
-"operator_2eigensolver_2additional__math_8h.html#a744b1694dd7d7e43781024ecefacb756":[4,0,2,4,9,0,0,4],
-"operator_2eigensolver_2additional__math_8h.html#ac9b8fd3c115c63f7eba0ca44ee61fb26":[4,0,2,4,9,0,0,13],
-"operator_2eigensolver_2additional__math_8h.html#ae92e942ce29fdbf78648cbbd26f0333e":[4,0,2,4,9,0,0,2]
+"operator_2eigensolver_2additional__math_8h.html#a744b1694dd7d7e43781024ecefacb756":[4,0,2,4,9,0,0,4]
 };
