@@ -1836,6 +1836,7 @@ var namespaceug =
     [ "GetNeighbours", "../group__lib__grid__algorithms__volume__util.html#ga721c3b60d7f5bcf9be4364201dc2f84a", null ],
     [ "GetNextSectionOfPolyChain", "../group__lib__grid__algorithms__polychain__util.html#ga62c755743eeea86198da2e6346d90ac2", null ],
     [ "GetNNZs", "../group__lib__algebra.html#ga6cc763c460b57eb9f5b2c6eb2fe2652f", null ],
+    [ "GetNodeNextToCut", "../namespaceug.html#ae33803dc18b4e6f1d2f21e587017c772", null ],
     [ "GetNumberOfDigits", "../namespaceug.html#ab46cb423a51512e82a658acb4a9da016", null ],
     [ "GetNumberOfDoFsOfPyramid", "../namespaceug.html#a663fa302847191648b2f90d1369bd0b7", null ],
     [ "GetOpposingSide", "../namespaceug.html#a46f32e73ec72cb837aec394430d26dbc", null ],

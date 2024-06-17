@@ -192,7 +192,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<p>location: /home/runner/work/docs/docs/ug4/ugcore/scripts/util / <a class="el" href="domain__disc__util_8lua.html">domain_disc_util.lua</a> :57-72 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="group__scripts__util__domaindisc.html#gac1d2c29f9ed6f5ef23138585df8e0b92">UpwindFV1</a>(upwindType, upwindParam)</div>
+<p>location: /home/runner/work/docs/docs/ug4/ugcore/scripts/util / <a class="el" href="domain__disc__util_8lua.html">domain_disc_util.lua</a> :57-74 </p><div class="fragment"><div class="line"><span class="keyword">function</span> <a class="code" href="group__scripts__util__domaindisc.html#gac1d2c29f9ed6f5ef23138585df8e0b92">UpwindFV1</a>(upwindType, upwindParam)</div>
 <div class="line">  <span class="keywordflow">if</span> upwindType == nil then upwindType = <span class="stringliteral">&quot;partial&quot;</span> end</div>
 <div class="line">  <span class="keywordflow">if</span>    upwindType == <span class="stringliteral">&quot;no&quot;</span> then <span class="keywordflow">return</span> NoUpwind()</div>
 <div class="line">  elseif  upwindType == &quot;full&quot; then return FullUpwind ()</div>
@@ -203,6 +203,8 @@ Functions</h2></td></tr>
 <div class="line">    end</div>
 <div class="line">    return upwind</div>
 <div class="line">  elseif  upwindType == &quot;partial&quot; then return PartialUpwind ()</div>
+<div class="line">    elseif  upwindType == &quot;skewed&quot; then return SkewedUpwind ()</div>
+<div class="line">    elseif  upwindType == &quot;lps&quot; then return LinearProfileSkewedUpwind ()</div>
 <div class="line">  else</div>
 <div class="line">    <a class="code" href="group__scripts__util__table.html#ga8ceb72ba6d80f341922c4c0cc8522c4f">print</a>(&quot;<a class="code" href="group__scripts__util__domaindisc.html#gac1d2c29f9ed6f5ef23138585df8e0b92">UpwindFV1</a>: no upwind type &#39;&quot;..upwindType..&quot;&#39; available. Aborting&quot;)</div>
 <div class="line">    exit();</div>
@@ -221,7 +223,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jun 10 2024 01:01:15 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Jun 17 2024 01:02:12 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

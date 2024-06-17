@@ -1418,8 +1418,10 @@ var hierarchy =
     [ "ug::IConvectionShapes< dim >", "classug_1_1_i_convection_shapes.html", null ],
     [ "ug::IConvectionShapes< TDim >", "classug_1_1_i_convection_shapes.html", [
       [ "ug::ConvectionShapesFullUpwind< TDim >", "classug_1_1_convection_shapes_full_upwind.html", null ],
+      [ "ug::ConvectionShapesLinearProfileSkewedUpwind< TDim >", "classug_1_1_convection_shapes_linear_profile_skewed_upwind.html", null ],
       [ "ug::ConvectionShapesNoUpwind< TDim >", "classug_1_1_convection_shapes_no_upwind.html", null ],
       [ "ug::ConvectionShapesPartialUpwind< TDim >", "classug_1_1_convection_shapes_partial_upwind.html", null ],
+      [ "ug::ConvectionShapesSkewedUpwind< TDim >", "classug_1_1_convection_shapes_skewed_upwind.html", null ],
       [ "ug::ConvectionShapesWeightedUpwind< TDim >", "classug_1_1_convection_shapes_weighted_upwind.html", null ]
     ] ],
     [ "ug::IConvergenceCheck< TVector >", "classug_1_1_i_convergence_check.html", [
@@ -2544,13 +2546,17 @@ var hierarchy =
     [ "ug::bridge::RegisterDomainAlgebraDependent< Functionality, DomainList, AlgebraList >", "structug_1_1bridge_1_1_register_domain_algebra_dependent.html", null ],
     [ "ug::bridge::RegisterDomainDependent< Functionality, List >", "structug_1_1bridge_1_1_register_domain_dependent.html", null ],
     [ "ug::ConvectionShapesFullUpwind< TDim >::RegisterElemFunc", "structug_1_1_convection_shapes_full_upwind_1_1_register_elem_func.html", null ],
+    [ "ug::ConvectionShapesLinearProfileSkewedUpwind< TDim >::RegisterElemFunc", "structug_1_1_convection_shapes_linear_profile_skewed_upwind_1_1_register_elem_func.html", null ],
     [ "ug::ConvectionShapesNoUpwind< TDim >::RegisterElemFunc", "structug_1_1_convection_shapes_no_upwind_1_1_register_elem_func.html", null ],
     [ "ug::ConvectionShapesPartialUpwind< TDim >::RegisterElemFunc", "structug_1_1_convection_shapes_partial_upwind_1_1_register_elem_func.html", null ],
+    [ "ug::ConvectionShapesSkewedUpwind< TDim >::RegisterElemFunc", "structug_1_1_convection_shapes_skewed_upwind_1_1_register_elem_func.html", null ],
     [ "ug::ConvectionShapesWeightedUpwind< TDim >::RegisterElemFunc", "structug_1_1_convection_shapes_weighted_upwind_1_1_register_elem_func.html", null ],
     [ "ug::FV1InnerBoundaryElemDisc< TImpl, TDomain >::RegisterPrepTimestep< List >", "structug_1_1_f_v1_inner_boundary_elem_disc_1_1_register_prep_timestep.html", null ],
     [ "ug::ConvectionShapesFullUpwind< TDim >::RegisterRefDimFunc", "structug_1_1_convection_shapes_full_upwind_1_1_register_ref_dim_func.html", null ],
+    [ "ug::ConvectionShapesLinearProfileSkewedUpwind< TDim >::RegisterRefDimFunc", "structug_1_1_convection_shapes_linear_profile_skewed_upwind_1_1_register_ref_dim_func.html", null ],
     [ "ug::ConvectionShapesNoUpwind< TDim >::RegisterRefDimFunc", "structug_1_1_convection_shapes_no_upwind_1_1_register_ref_dim_func.html", null ],
     [ "ug::ConvectionShapesPartialUpwind< TDim >::RegisterRefDimFunc", "structug_1_1_convection_shapes_partial_upwind_1_1_register_ref_dim_func.html", null ],
+    [ "ug::ConvectionShapesSkewedUpwind< TDim >::RegisterRefDimFunc", "structug_1_1_convection_shapes_skewed_upwind_1_1_register_ref_dim_func.html", null ],
     [ "ug::ConvectionShapesWeightedUpwind< TDim >::RegisterRefDimFunc", "structug_1_1_convection_shapes_weighted_upwind_1_1_register_ref_dim_func.html", null ],
     [ "ug::detail::RegisterTypePairFunctor< TRegistry >", "structug_1_1detail_1_1_register_type_pair_functor.html", null ],
     [ "ug::bridge::Registry", "classug_1_1bridge_1_1_registry.html", null ],

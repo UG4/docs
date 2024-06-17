@@ -1,5 +1,6 @@
 var NAVTREEINDEX49 =
 {
+"selection__tools_8h.html#ga2e90d7338f75a1a0d76adf1d6d16f61c":[4,0,1,11,0,16,166],
 "selection__tools_8h.html#ga31026f76fae363372b48a82582b56c8f":[4,0,1,11,0,16,128],
 "selection__tools_8h.html#ga3533360f3d4adceb3bf3f799d2bbd167":[4,0,1,11,0,16,138],
 "selection__tools_8h.html#ga36052b24f09aef9daf9eef01dc37a866":[4,0,1,11,0,16,134],
@@ -248,6 +249,5 @@ var NAVTREEINDEX49 =
 "structug_1_1_electromagnetism_1_1_nedelec_project_1_1_weak_div.html#aea73b909d16a5c31309e7f3b0ad8b93c":[3,0,0,4,23,6,7],
 "structug_1_1_electromagnetism_1_1_nedelec_transfer_1_1_assemble_prolongation_matrix.html":[3,0,0,4,31,0],
 "structug_1_1_electromagnetism_1_1_nedelec_transfer_1_1_assemble_prolongation_matrix.html#a04536bd87ff67786c02112bc1b5aa73d":[3,0,0,4,31,0,0],
-"structug_1_1_electromagnetism_1_1_nedelec_transfer_1_1_assemble_prolongation_matrix.html#a3feee0d831f8c0a9623206fae077ea48":[3,0,0,4,31,0,2],
-"structug_1_1_electromagnetism_1_1_nedelec_transfer_1_1_assemble_prolongation_matrix.html#a589678f22e1ead189e88804986cef2fb":[3,0,0,4,31,0,3]
+"structug_1_1_electromagnetism_1_1_nedelec_transfer_1_1_assemble_prolongation_matrix.html#a3feee0d831f8c0a9623206fae077ea48":[3,0,0,4,31,0,2]
 };

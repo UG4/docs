@@ -1,5 +1,6 @@
 var NAVTREEINDEX52 =
 {
+"ug__docu__class__description_8cpp.html#abce5c1c2aa19f3db760ef1d4af8adf8b":[4,0,1,2,0,8,2],
 "ug__docu__class__description_8cpp.html#ga1c39393190b82869e645c8fa5181dc32":[4,0,1,2,0,8,5],
 "ug__docu__class__description_8cpp.html#ga51f673154ccf020b4206c0137385fd63":[4,0,1,2,0,8,6],
 "ug__docu__class__description_8cpp.html#ga7f1217ea5144d1c41b1a912200792084":[4,0,1,2,0,8,7],

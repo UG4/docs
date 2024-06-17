@@ -4,20 +4,7 @@ var dir_ec4d003034051f6ef6bf4e9034dca541 =
       [ "StdLinConsistentGravity", "classug_1_1_std_lin_consistent_gravity.html", "classug_1_1_std_lin_consistent_gravity" ],
       [ "StdLinConsistentGravityX", "classug_1_1_std_lin_consistent_gravity_x.html", "classug_1_1_std_lin_consistent_gravity_x" ]
     ] ],
-    [ "conv_shape.h", "conv__shape_8h.html", [
-      [ "ConvectionShapesFullUpwind", "classug_1_1_convection_shapes_full_upwind.html", "classug_1_1_convection_shapes_full_upwind" ],
-      [ "ConvectionShapesNoUpwind", "classug_1_1_convection_shapes_no_upwind.html", "classug_1_1_convection_shapes_no_upwind" ],
-      [ "ConvectionShapesPartialUpwind", "classug_1_1_convection_shapes_partial_upwind.html", "classug_1_1_convection_shapes_partial_upwind" ],
-      [ "ConvectionShapesWeightedUpwind", "classug_1_1_convection_shapes_weighted_upwind.html", "classug_1_1_convection_shapes_weighted_upwind" ],
-      [ "RegisterElemFunc", "structug_1_1_convection_shapes_no_upwind_1_1_register_elem_func.html", "structug_1_1_convection_shapes_no_upwind_1_1_register_elem_func" ],
-      [ "RegisterElemFunc", "structug_1_1_convection_shapes_full_upwind_1_1_register_elem_func.html", "structug_1_1_convection_shapes_full_upwind_1_1_register_elem_func" ],
-      [ "RegisterElemFunc", "structug_1_1_convection_shapes_weighted_upwind_1_1_register_elem_func.html", "structug_1_1_convection_shapes_weighted_upwind_1_1_register_elem_func" ],
-      [ "RegisterElemFunc", "structug_1_1_convection_shapes_partial_upwind_1_1_register_elem_func.html", "structug_1_1_convection_shapes_partial_upwind_1_1_register_elem_func" ],
-      [ "RegisterRefDimFunc", "structug_1_1_convection_shapes_no_upwind_1_1_register_ref_dim_func.html", "structug_1_1_convection_shapes_no_upwind_1_1_register_ref_dim_func" ],
-      [ "RegisterRefDimFunc", "structug_1_1_convection_shapes_full_upwind_1_1_register_ref_dim_func.html", "structug_1_1_convection_shapes_full_upwind_1_1_register_ref_dim_func" ],
-      [ "RegisterRefDimFunc", "structug_1_1_convection_shapes_weighted_upwind_1_1_register_ref_dim_func.html", "structug_1_1_convection_shapes_weighted_upwind_1_1_register_ref_dim_func" ],
-      [ "RegisterRefDimFunc", "structug_1_1_convection_shapes_partial_upwind_1_1_register_ref_dim_func.html", "structug_1_1_convection_shapes_partial_upwind_1_1_register_ref_dim_func" ]
-    ] ],
+    [ "conv_shape.h", "conv__shape_8h.html", "conv__shape_8h" ],
     [ "conv_shape_interface.h", "conv__shape__interface_8h.html", [
       [ "IConvectionShapes", "classug_1_1_i_convection_shapes.html", "classug_1_1_i_convection_shapes" ]
     ] ],
