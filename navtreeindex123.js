@@ -1,5 +1,13 @@
 var NAVTREEINDEX123 =
 {
+"math__vector__functions_8h.html#gaaedb3f236ce52671088a819cfa3c169b":[4,0,2,2,1,0,12,16],
+"math__vector__functions_8h.html#gac588f9b706b205ff9c88c75785cd4a1a":[4,0,2,2,1,0,12,30],
+"math__vector__functions_8h.html#gac7ceb6b2dac55c4da1dafcedab81701a":[4,0,2,2,1,0,12,10],
+"math__vector__functions_8h.html#gacf93d8c3159a9eb94ba37b1d1591ef42":[4,0,2,2,1,0,12,36],
+"math__vector__functions_8h.html#gae2416cc4b7a9616b911cb4a208c15cf4":[4,0,2,2,1,0,12,33],
+"math__vector__functions_8h.html#gae4e5784610945b34f533db1efc9b474d":[4,0,2,2,1,0,12,23],
+"math__vector__functions_8h.html#gae9174d47662deb0ba119e0e21f28ec71":[4,0,2,2,1,0,12,19],
+"math__vector__functions_8h.html#gaf2a76e41d7de66eee216ad1ad0eaa447":[4,0,2,2,1,0,12,22],
 "math__vector__functions_8h.html#gafb045a0b927d9715ca9f6a6858745da0":[4,0,2,2,1,0,12,29],
 "math__vector__functions_8h_source.html":[4,0,2,2,1,0,12],
 "math__vector__functions__common__impl_8hpp.html":[4,0,2,2,1,0,13],
@@ -241,13 +249,5 @@ var NAVTREEINDEX123 =
 "misc__bridges_2misc__bridge_8cpp.html#ga972345f36bba2417f32e9df55c007fd5":[4,0,2,1,4,0,27],
 "misc__bridges_2misc__bridge_8cpp.html#ga97faf6b7c6a4a4ea692683b81cfe8fdd":[4,0,2,1,4,0,34],
 "misc__bridges_2misc__bridge_8cpp.html#ga997697bbe451edc2587e0f57ddab6cbf":[4,0,2,1,4,0,17],
-"misc__bridges_2misc__bridge_8cpp.html#gaa06829e094eb21dd9eeb548106d39019":[4,0,2,1,4,0,14],
-"misc__bridges_2misc__bridge_8cpp.html#gaaca8bcbadd0daf175c6b1e97bc2619f1":[4,0,2,1,4,0,12],
-"misc__bridges_2misc__bridge_8cpp.html#gab00f35f1ea98c51e7fbe71a4a0f02f40":[4,0,2,1,4,0,35],
-"misc__bridges_2misc__bridge_8cpp.html#gabadfb3a3e26e0c8e9451220711822143":[4,0,2,1,4,0,25],
-"misc__bridges_2misc__bridge_8cpp.html#gac21124964e445cb7d5c0299019b4f839":[4,0,2,1,4,0,8],
-"misc__bridges_2misc__bridge_8cpp.html#gac7f9112b82cb626878cbd13baec2c176":[4,0,2,1,4,0,28],
-"misc__bridges_2misc__bridge_8cpp.html#gacd002b627fe0f969d0fc658128c5913f":[4,0,2,1,4,0,20],
-"misc__bridges_2misc__bridge_8cpp.html#gad04e582fd99e8f6b057b8b343671860f":[4,0,2,1,4,0,33],
-"misc__bridges_2misc__bridge_8cpp.html#gad2c3519132f19b60759d173f2f27e1a7":[4,0,2,1,4,0,22]
+"misc__bridges_2misc__bridge_8cpp.html#gaa06829e094eb21dd9eeb548106d39019":[4,0,2,1,4,0,14]
 };
