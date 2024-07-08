@@ -1,7 +1,5 @@
 var NAVTREEINDEX160 =
 {
-"structug_1_1hdimfv1__traits_3_013_01_4.html#a9caed7e2564843c45336e3dc74d4825d":[3,0,4,641,7],
-"structug_1_1hdimfv1__traits_3_013_01_4.html#aa6e93b9e98acfb1c41ea8d47d9780ee2":[3,0,4,641,3],
 "structug_1_1hdimfv1__traits_3_013_01_4.html#ada7a3203dfadf60d563c5e34e67fccb4":[3,0,4,641,2],
 "structug_1_1hdimfv1__traits_3_013_01_4.html#adc65f303b3431b615c7cb6da7119a010":[3,0,4,641,4],
 "structug_1_1hdimfv1__traits_3_013_01_4.html#af9d56e93610666dab409e765dee33bd8":[3,0,4,641,6],
@@ -197,8 +195,8 @@ var NAVTREEINDEX160 =
 "structug_1_1matrix__algebra__type__traits_3_01_map_sparse_matrix_3_01_t_01_4_01_4.html#ae043d128d5262b70a576a35a58294672":[1,0,0,10,0],
 "structug_1_1matrix__algebra__type__traits_3_01_matrix_operator_3_01_m_00_01_x_00_01_y_01_4_01_4.html":[3,0,4,895],
 "structug_1_1matrix__algebra__type__traits_3_01_parallel_matrix_3_01_t_01_4_01_4.html":[3,0,4,896],
-"structug_1_1matrix__algebra__type__traits_3_01_sparse_matrix_3_01_t_01_4_01_4.html":[1,0,0,0,4],
 "structug_1_1matrix__algebra__type__traits_3_01_sparse_matrix_3_01_t_01_4_01_4.html":[1,0,0,1,0,4],
+"structug_1_1matrix__algebra__type__traits_3_01_sparse_matrix_3_01_t_01_4_01_4.html":[1,0,0,0,4],
 "structug_1_1node__tree_1_1_collision_element_i_d.html":[3,0,4,4,2],
 "structug_1_1node__tree_1_1_collision_element_i_d.html#a045739c1c729d56d68dc260e10b8a266":[3,0,4,4,2,6],
 "structug_1_1node__tree_1_1_collision_element_i_d.html#a7509b420d46f2d31c4d24ca20b4451c3":[3,0,4,4,2,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX160 =
 "structug_1_1ntree__traits_3_012_00_012_00_01elem__t_00_01_n_tree_grid_data_3_012_01_4_01_4.html":[3,0,4,973],
 "structug_1_1ntree__traits_3_012_00_012_00_01elem__t_00_01_n_tree_grid_data_3_012_01_4_01_4.html#a234229b67ac7ccff45f9bd39e90d3719":[3,0,4,973,2],
 "structug_1_1ntree__traits_3_012_00_012_00_01elem__t_00_01_n_tree_grid_data_3_012_01_4_01_4.html#a2af244c5b235a0c42a5b80454b348a81":[3,0,4,973,0],
-"structug_1_1ntree__traits_3_012_00_012_00_01elem__t_00_01_n_tree_grid_data_3_012_01_4_01_4.html#aa5d8d725e8f76de29559c21c366ca44d":[3,0,4,973,1]
+"structug_1_1ntree__traits_3_012_00_012_00_01elem__t_00_01_n_tree_grid_data_3_012_01_4_01_4.html#aa5d8d725e8f76de29559c21c366ca44d":[3,0,4,973,1],
+"structug_1_1ntree__traits_3_012_00_013_00_01elem__t_00_01_n_tree_grid_data_3_013_01_4_01_4.html":[3,0,4,974],
+"structug_1_1ntree__traits_3_012_00_013_00_01elem__t_00_01_n_tree_grid_data_3_013_01_4_01_4.html#a0f3475b80ce3c863d08f67fc8d7e4bc7":[3,0,4,974,1]
 };

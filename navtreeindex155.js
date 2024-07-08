@@ -1,7 +1,5 @@
 var NAVTREEINDEX155 =
 {
-"structug_1_1_type_list.html#a1607da23427cfcd9e8fc1a307e576016":[1,0,3,1,0,33,1],
-"structug_1_1_type_list.html#a7d7db77e590faeb6d8beb7af75ae442d":[1,0,3,1,0,33,0],
 "structug_1_1_type_list_3_01_empty_type_00_01_empty_type_00_01_empty_type_00_01_empty_type_00_01_7430b704a440bb9a6c7f44cac5588a90.html":[1,0,3,1,0,34],
 "structug_1_1_type_value_list.html":[1,0,3,1,0,35],
 "structug_1_1_type_value_list.html#a0582235663020df6bf5147143b6712fc":[1,0,3,1,0,35,5],
@@ -249,5 +247,7 @@ var NAVTREEINDEX155 =
 "structug_1_1bridge_1_1_exported_class_base_impl_1_1_constructor_overload.html#a81bcc4ea8ca4eb3411b595deb039b199":[1,0,3,0,4,23,0,1],
 "structug_1_1bridge_1_1_exported_class_base_impl_1_1_constructor_overload.html#a99146b4ef2ab6c4159eca43295e99b2f":[1,0,3,0,4,23,0,0],
 "structug_1_1bridge_1_1_exported_class_base_impl_1_1_constructor_overload.html#abc99b621a9b9cbfa2cafe2f2ed150901":[1,0,3,0,4,23,0,2],
-"structug_1_1bridge_1_1_exported_function_group_1_1_overload.html":[1,0,3,0,4,27,0]
+"structug_1_1bridge_1_1_exported_function_group_1_1_overload.html":[1,0,3,0,4,27,0],
+"structug_1_1bridge_1_1_exported_function_group_1_1_overload.html#a46ed7bc810cf9d0fae499c3dc239845b":[1,0,3,0,4,27,0,3],
+"structug_1_1bridge_1_1_exported_function_group_1_1_overload.html#a5770c9e5d4d8fa7f37a8e7195b4dc335":[1,0,3,0,4,27,0,0]
 };

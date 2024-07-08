@@ -1,7 +1,5 @@
 var NAVTREEINDEX145 =
 {
-"proj__gauss__seidel_8h_source.html":[4,0,2,4,9,3,0,1],
-"proj__gauss__seidel__impl_8h.html":[4,0,2,4,9,3,0,2],
 "proj__gauss__seidel__impl_8h.html#a57e400575ca53fa953c2af27b34d9f49":[4,0,2,4,9,3,0,2,0],
 "proj__gauss__seidel__impl_8h.html#acb37aaae6a8c2369809078a6fa457ce4":[4,0,2,4,9,3,0,2,1],
 "proj__gauss__seidel__impl_8h_source.html":[4,0,2,4,9,3,0,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX145 =
 "regular__refinement_8h_source.html":[4,0,2,6,8,24],
 "releases_8doxygen.html":[4,0,0,3,0,8],
 "remove__duplicates__util_8h.html":[4,0,2,6,0,68],
-"remove__duplicates__util_8h.html#ad0e0eb8fc0aac764a89018b792951ee6":[4,0,2,6,0,68,0]
+"remove__duplicates__util_8h.html#ad0e0eb8fc0aac764a89018b792951ee6":[4,0,2,6,0,68,0],
+"remove__duplicates__util_8h_source.html":[4,0,2,6,0,68],
+"replace__coordinate_8h.html":[4,0,2,6,7,3,1]
 };

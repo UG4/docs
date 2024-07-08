@@ -1,7 +1,5 @@
 var NAVTREEINDEX141 =
 {
-"page_u_g4_registry.html#secParamStringsAvaliableOptions":[0,8,4,5,1],
-"page_u_g4_registry.html#secParamStringsName":[0,8,4,5,1,0],
 "page_u_g4_registry.html#secParamStringsStyle":[0,8,4,5,1,1],
 "page_u_g4_registry.html#secSTHowToRegister":[0,8,4,0],
 "page_u_g4_registry.html#secSTHowToRegisterBaseClasses":[0,8,4,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX141 =
 "parameter__parsing_8cpp.html#ga32ddad8d6ab74cc421846718152ff7a1":[4,0,2,2,5,50,0],
 "parameter__parsing_8cpp.html#ga981270923035635034db5d15535421bc":[4,0,2,2,5,50,3],
 "parameter__parsing_8cpp.html#gac49814cf0d85780502590636e1e01f88":[4,0,2,2,5,50,5],
-"parameter__parsing_8cpp.html#gaf91515f74a52c9178f5dd8683ad70615":[4,0,2,2,5,50,1]
+"parameter__parsing_8cpp.html#gaf91515f74a52c9178f5dd8683ad70615":[4,0,2,2,5,50,1],
+"parameter__parsing_8cpp.html#gafceee41ccbae92c92fe338648d0a2508":[4,0,2,2,5,50,6],
+"parameter__parsing_8h.html":[4,0,2,2,5,51]
 };

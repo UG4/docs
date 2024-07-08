@@ -1,7 +1,5 @@
 var NAVTREEINDEX150 =
 {
-"structug_1_1_assembled_multi_grid_cycle_1_1_lev_data.html#a50d7386f79b0ebca0df147fa4c24e14f":[3,0,4,38,0,5],
-"structug_1_1_assembled_multi_grid_cycle_1_1_lev_data.html#a5ba614a7cd2ce30a98d2afa151c09f02":[3,0,4,38,0,9],
 "structug_1_1_assembled_multi_grid_cycle_1_1_lev_data.html#a65f6717e3cc351a4928b31129955af6d":[3,0,4,38,0,6],
 "structug_1_1_assembled_multi_grid_cycle_1_1_lev_data.html#a702e48c573aba381cd8b490a9d5391f2":[3,0,4,38,0,7],
 "structug_1_1_assembled_multi_grid_cycle_1_1_lev_data.html#a796a1e7f557504e26d74cac1eff188af":[3,0,4,38,0,16],
@@ -53,8 +51,8 @@ var NAVTREEINDEX150 =
 "structug_1_1_block_slice_index_view_1_1iterator.html#ad726a097e66a2ed51fd3350c2e58dfb3":[3,0,4,118,0,7],
 "structug_1_1_block_slice_index_view_1_1iterator.html#aec911157e6446504097c17fa57c85ec3":[3,0,4,118,0,3],
 "structug_1_1_block_slice_index_view_1_1iterator.html#af120e6691d4ca17e68e2423b6b93432d":[3,0,4,118,0,2],
-"structug_1_1_c_p_u_algebra.html":[1,0,0,0,1],
 "structug_1_1_c_p_u_algebra.html":[1,0,0,1,0,1],
+"structug_1_1_c_p_u_algebra.html":[1,0,0,0,1],
 "structug_1_1_c_p_u_block_algebra.html":[1,0,0,1,1],
 "structug_1_1_c_p_u_variable_block_algebra.html":[1,0,0,1,2],
 "structug_1_1_cell_idx.html":[3,0,4,126],
@@ -249,5 +247,7 @@ var NAVTREEINDEX150 =
 "structug_1_1_dirichlet_boundary_1_1_const_number_data.html#a1c2106394340775d17ffd8541fd459cd":[3,0,4,283,1,2],
 "structug_1_1_dirichlet_boundary_1_1_const_number_data.html#a42ce0524b10ad808b04858028016ca8e":[3,0,4,283,1,10],
 "structug_1_1_dirichlet_boundary_1_1_const_number_data.html#a483d1eac71be49308b715445a4d862d2":[3,0,4,283,1,9],
-"structug_1_1_dirichlet_boundary_1_1_const_number_data.html#a6a08d2c89c5f8cd0efcc2e07f11a350f":[3,0,4,283,1,8]
+"structug_1_1_dirichlet_boundary_1_1_const_number_data.html#a6a08d2c89c5f8cd0efcc2e07f11a350f":[3,0,4,283,1,8],
+"structug_1_1_dirichlet_boundary_1_1_const_number_data.html#a92f4af87b2632c216f6f9a70a0631394":[3,0,4,283,1,7],
+"structug_1_1_dirichlet_boundary_1_1_const_number_data.html#a9326f77384390ffa270c30c2b03cf3c7":[3,0,4,283,1,0]
 };

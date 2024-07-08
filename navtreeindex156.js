@@ -1,7 +1,5 @@
 var NAVTREEINDEX156 =
 {
-"structug_1_1bridge_1_1_exported_function_group_1_1_overload.html#a46ed7bc810cf9d0fae499c3dc239845b":[1,0,3,0,4,27,0,3],
-"structug_1_1bridge_1_1_exported_function_group_1_1_overload.html#a5770c9e5d4d8fa7f37a8e7195b4dc335":[1,0,3,0,4,27,0,0],
 "structug_1_1bridge_1_1_exported_function_group_1_1_overload.html#a63daa4ed0fd780532ff5ce36dacf264c":[1,0,3,0,4,27,0,2],
 "structug_1_1bridge_1_1_exported_function_group_1_1_overload.html#aeb11ec35354f9f106a8fa9d75a51fda2":[1,0,3,0,4,27,0,1],
 "structug_1_1bridge_1_1_exported_method_group_1_1_overload.html":[1,0,3,0,4,29,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX156 =
 "structug_1_1bridge_1_1_parameter_stack_1_1_to_type_3_01const_01_t_01_5_01_4.html":[1,0,3,0,4,164],
 "structug_1_1bridge_1_1_parameter_stack_1_1_to_type_3_01const_01_t_01_5_01_4.html#a6f4424463dce23e4a9d4fdf3088bef61":[1,0,3,0,4,164,0],
 "structug_1_1bridge_1_1_parameter_stack_1_1_to_type_3_01const_01_t_01_6_01_4.html":[1,0,3,0,4,163],
-"structug_1_1bridge_1_1_parameter_stack_1_1_to_type_3_01const_01_t_01_6_01_4.html#ae7390b3df524bee1c32dbf77a3109056":[1,0,3,0,4,163,0]
+"structug_1_1bridge_1_1_parameter_stack_1_1_to_type_3_01const_01_t_01_6_01_4.html#ae7390b3df524bee1c32dbf77a3109056":[1,0,3,0,4,163,0],
+"structug_1_1bridge_1_1_parameter_stack_1_1_to_type_3_01const_01char_01_5_01_4.html":[1,0,3,0,4,150],
+"structug_1_1bridge_1_1_parameter_stack_1_1_to_type_3_01const_01char_01_5_01_4.html#a0e8acc3668e7e3f9c7aaf6523c90b9e3":[1,0,3,0,4,150,0]
 };
