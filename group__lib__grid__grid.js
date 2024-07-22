@@ -142,6 +142,7 @@ var group__lib__grid__grid =
       [ "clear_geometry", "classug_1_1_grid.html#aa38c8b2d9db90964aa0079f2ccaa01a5", null ],
       [ "clear_marks", "classug_1_1_grid.html#a2da0eef8994b7fb0fd2d98ee7f8b537c", null ],
       [ "copy_user_attachments", "classug_1_1_grid.html#a15a108aad2f35f1cdb55793639d6f93f", null ],
+      [ "copy_user_attachments", "classug_1_1_grid.html#a03056f43b770afa912385aad136d2a70", null ],
       [ "create", "classug_1_1_grid.html#a8b4cbe1b1b886954e85438d7424a7205", null ],
       [ "create", "classug_1_1_grid.html#adfae2fb22706392c881d20f696e97ba9", null ],
       [ "create_and_replace", "classug_1_1_grid.html#ac10ee97eabf9e5cb29d920ce77b82ac6", null ],

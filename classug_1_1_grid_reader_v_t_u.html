@@ -92,8 +92,10 @@ $(document).ready(function(){initNavTree('classug_1_1_grid_reader_v_t_u.html',''
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="classug_1_1_grid_reader_v_t_u-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ug::GridReaderVTU Class Reference</div>  </div>
@@ -141,6 +143,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8113c60dfe3634d2e14ebad05e155546"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_grid_reader_v_t_u.html#a8113c60dfe3634d2e14ebad05e155546">~GridReaderVTU</a> ()</td></tr>
 <tr class="separator:a8113c60dfe3634d2e14ebad05e155546"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a64fe2113c69863c5cf3aa2ecadd7c048"><td class="memItemLeft" align="right" valign="top">static std::string const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_grid_reader_v_t_u.html#a64fe2113c69863c5cf3aa2ecadd7c048">getRegionOfInterestIdentifyer</a> ()</td></tr>
+<tr class="separator:a64fe2113c69863c5cf3aa2ecadd7c048"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec1eabae115f317aa5bb1bf11341143c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_grid_reader_v_t_u.html#aec1eabae115f317aa5bb1bf11341143c">setRegionOfInterestIdentifier</a> (std::string const &amp;regOfInt)</td></tr>
+<tr class="separator:aec1eabae115f317aa5bb1bf11341143c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:af3e4f35251a9727ad65959dc9a2c993c"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
@@ -160,6 +169,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:ab354cedbcd2276b590d5ccbd5dc0da3a"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:ab354cedbcd2276b590d5ccbd5dc0da3a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_grid_reader_v_t_u.html#ab354cedbcd2276b590d5ccbd5dc0da3a">read_scalar_data</a> (std::vector&lt; T &gt; &amp;dataOut, rapidxml::xml_node&lt;&gt; *dataNode, bool clearData=true)</td></tr>
 <tr class="separator:ab354cedbcd2276b590d5ccbd5dc0da3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae920e6a1e2b28867b0a4f74ee35fe755"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_grid_reader_v_t_u.html#ae920e6a1e2b28867b0a4f74ee35fe755">trafoDblVec2Int</a> (std::vector&lt; double &gt; const &amp;dblVec, std::vector&lt; int &gt; &amp;intVec)</td></tr>
+<tr class="separator:ae920e6a1e2b28867b0a4f74ee35fe755"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -172,6 +183,11 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a9359d5c2845ef0ebe5bf813c23803263"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_grid_reader_v_t_u.html#a9359d5c2845ef0ebe5bf813c23803263">m_filename</a></td></tr>
 <tr class="memdesc:a9359d5c2845ef0ebe5bf813c23803263"><td class="mdescLeft">&#160;</td><td class="mdescRight">stores the file-name  <a href="classug_1_1_grid_reader_v_t_u.html#a9359d5c2845ef0ebe5bf813c23803263">More...</a><br /></td></tr>
 <tr class="separator:a9359d5c2845ef0ebe5bf813c23803263"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-attribs"></a>
+Static Protected Attributes</h2></td></tr>
+<tr class="memitem:ad96814c13bc6e2392c030ee9adbfc02e"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_grid_reader_v_t_u.html#ad96814c13bc6e2392c030ee9adbfc02e">m_regionOfInterest</a> = &quot;regions&quot;</td></tr>
+<tr class="separator:ad96814c13bc6e2392c030ee9adbfc02e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Grants read access to vtu (vtk) files. </p>
@@ -492,6 +508,33 @@ template&lt;class TAAPos &gt; </div>
 
 </div>
 </div>
+<a id="a64fe2113c69863c5cf3aa2ecadd7c048"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64fe2113c69863c5cf3aa2ecadd7c048">&#9670;&nbsp;</a></span>getRegionOfInterestIdentifyer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::string const ug::GridReaderVTU::getRegionOfInterestIdentifyer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="classug_1_1_grid_reader_v_t_u.html#ad96814c13bc6e2392c030ee9adbfc02e">m_regionOfInterest</a>.</p>
+
+</div>
+</div>
 <a id="ad62fa922f6674dfe4ddf06b26460168b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad62fa922f6674dfe4ddf06b26460168b">&#9670;&nbsp;</a></span>grid()</h2>
 
@@ -639,7 +682,7 @@ template&lt;class TPositionAttachment &gt; </div>
 
 <p>parses an xml file </p>
 
-<p class="reference">References <a class="el" href="classug_1_1_grid_reader_v_t_u.html#a9ece156dd8ed07605206ab7d9fe5e1ae">m_doc</a>, <a class="el" href="classug_1_1_grid_reader_v_t_u.html#a9359d5c2845ef0ebe5bf813c23803263">m_filename</a>, and <a class="el" href="classug_1_1_grid_reader_v_t_u.html#acb3868e2b6d5cad7fdebc49deb0252df">new_document_parsed()</a>.</p>
+<p class="reference">References <a class="el" href="classug_1_1_grid_reader_v_t_u.html#a9ece156dd8ed07605206ab7d9fe5e1ae">m_doc</a>, <a class="el" href="classug_1_1_grid_reader_v_t_u.html#a9359d5c2845ef0ebe5bf813c23803263">m_filename</a>, <a class="el" href="classug_1_1_grid_reader_v_t_u.html#ad96814c13bc6e2392c030ee9adbfc02e">m_regionOfInterest</a>, and <a class="el" href="classug_1_1_grid_reader_v_t_u.html#acb3868e2b6d5cad7fdebc49deb0252df">new_document_parsed()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="namespaceug.html#adb384c1be8d6437eef1b0afc535a7f4c">ug::LoadGridFromVTU()</a>.</p>
 
@@ -691,6 +734,34 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
+<a id="aec1eabae115f317aa5bb1bf11341143c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec1eabae115f317aa5bb1bf11341143c">&#9670;&nbsp;</a></span>setRegionOfInterestIdentifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ug::GridReaderVTU::setRegionOfInterestIdentifier </td>
+          <td>(</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>regOfInt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="classug_1_1_grid_reader_v_t_u.html#ad96814c13bc6e2392c030ee9adbfc02e">m_regionOfInterest</a>.</p>
+
+</div>
+</div>
 <a id="a85ad56456dbd3c32709204d4b42cf30d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a85ad56456dbd3c32709204d4b42cf30d">&#9670;&nbsp;</a></span>subset_handler()</h2>
 
@@ -725,9 +796,47 @@ template&lt;class T &gt; </div>
 
 <p>fills the given subset-handler </p>
 
-<p class="reference">References <a class="el" href="classug_1_1_i_subset_handler.html#a7c48522f069801cfa8479c3d9c96fc18">ug::ISubsetHandler::assign_subset()</a>, <a class="el" href="structug_1_1_grid_reader_v_t_u_1_1_grid_entry.html#a0e020cabd4762446257f3b0373947fe0">ug::GridReaderVTU::GridEntry::cells</a>, <a class="el" href="classug_1_1_grid_reader_v_t_u.html#acd794c8b99283ccad2e920eecb9ae088">find_child_node_by_argument_value()</a>, <a class="el" href="classug_1_1_grid_reader_v_t_u.html#aaf3a31eb26e52b50f209c433a2654591">get_subset_handler_name()</a>, <a class="el" href="classug_1_1_grid_reader_v_t_u.html#a7b99b23a2a6a27657514feb79012c833">m_entries</a>, <a class="el" href="classug_1_1_grid_reader_v_t_u.html#a9359d5c2845ef0ebe5bf813c23803263">m_filename</a>, <a class="el" href="structug_1_1_subset_info.html#a4d8a5ff937f577c8679ee59636717179">ug::SubsetInfo::name</a>, <a class="el" href="structug_1_1_grid_reader_v_t_u_1_1_subset_handler_entry.html#a859fe930399637bfe17d9d6298620d27">ug::GridReaderVTU::SubsetHandlerEntry::node</a>, <a class="el" href="structug_1_1_grid_reader_v_t_u_1_1_grid_entry.html#a84d44489661688eab0cd4e9208fb9963">ug::GridReaderVTU::GridEntry::node</a>, <a class="el" href="classug_1_1_grid_reader_v_t_u.html#ab354cedbcd2276b590d5ccbd5dc0da3a">read_scalar_data()</a>, <a class="el" href="structug_1_1_grid_reader_v_t_u_1_1_subset_handler_entry.html#a5a77d9252ea1e28010c7d7e8b8379d9d">ug::GridReaderVTU::SubsetHandlerEntry::sh</a>, <a class="el" href="classug_1_1_i_subset_handler.html#a3626ed31918e1780a7c7e5ff939d80d9">ug::ISubsetHandler::subset_info()</a>, <a class="el" href="structug_1_1_grid_reader_v_t_u_1_1_grid_entry.html#ad0dbbc25f8e9eb59aeef84e01713b236">ug::GridReaderVTU::GridEntry::subsetHandlerEntries</a>, <a class="el" href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>, <a class="el" href="group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
+<p class="reference">References <a class="el" href="classug_1_1_i_subset_handler.html#a7c48522f069801cfa8479c3d9c96fc18">ug::ISubsetHandler::assign_subset()</a>, <a class="el" href="structug_1_1_grid_reader_v_t_u_1_1_grid_entry.html#a0e020cabd4762446257f3b0373947fe0">ug::GridReaderVTU::GridEntry::cells</a>, <a class="el" href="classug_1_1_grid_reader_v_t_u.html#acd794c8b99283ccad2e920eecb9ae088">find_child_node_by_argument_value()</a>, <a class="el" href="classug_1_1_grid_reader_v_t_u.html#aaf3a31eb26e52b50f209c433a2654591">get_subset_handler_name()</a>, <a class="el" href="classug_1_1_grid_reader_v_t_u.html#a7b99b23a2a6a27657514feb79012c833">m_entries</a>, <a class="el" href="classug_1_1_grid_reader_v_t_u.html#a9359d5c2845ef0ebe5bf813c23803263">m_filename</a>, <a class="el" href="structug_1_1_subset_info.html#a4d8a5ff937f577c8679ee59636717179">ug::SubsetInfo::name</a>, <a class="el" href="structug_1_1_grid_reader_v_t_u_1_1_subset_handler_entry.html#a859fe930399637bfe17d9d6298620d27">ug::GridReaderVTU::SubsetHandlerEntry::node</a>, <a class="el" href="structug_1_1_grid_reader_v_t_u_1_1_grid_entry.html#a84d44489661688eab0cd4e9208fb9963">ug::GridReaderVTU::GridEntry::node</a>, <a class="el" href="classug_1_1_grid_reader_v_t_u.html#ab354cedbcd2276b590d5ccbd5dc0da3a">read_scalar_data()</a>, <a class="el" href="structug_1_1_grid_reader_v_t_u_1_1_subset_handler_entry.html#a5a77d9252ea1e28010c7d7e8b8379d9d">ug::GridReaderVTU::SubsetHandlerEntry::sh</a>, <a class="el" href="classug_1_1_i_subset_handler.html#a3626ed31918e1780a7c7e5ff939d80d9">ug::ISubsetHandler::subset_info()</a>, <a class="el" href="structug_1_1_grid_reader_v_t_u_1_1_grid_entry.html#ad0dbbc25f8e9eb59aeef84e01713b236">ug::GridReaderVTU::GridEntry::subsetHandlerEntries</a>, <a class="el" href="classug_1_1_grid_reader_v_t_u.html#ae920e6a1e2b28867b0a4f74ee35fe755">trafoDblVec2Int()</a>, <a class="el" href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>, <a class="el" href="group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="namespaceug.html#adb384c1be8d6437eef1b0afc535a7f4c">ug::LoadGridFromVTU()</a>.</p>
+
+</div>
+</div>
+<a id="ae920e6a1e2b28867b0a4f74ee35fe755"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae920e6a1e2b28867b0a4f74ee35fe755">&#9670;&nbsp;</a></span>trafoDblVec2Int()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug::GridReaderVTU::trafoDblVec2Int </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; double &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>dblVec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>intVec</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classug_1_1_grid_reader_v_t_u.html#a85ad56456dbd3c32709204d4b42cf30d">subset_handler()</a>.</p>
 
 </div>
 </div>
@@ -810,6 +919,30 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
+<a id="ad96814c13bc6e2392c030ee9adbfc02e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad96814c13bc6e2392c030ee9adbfc02e">&#9670;&nbsp;</a></span>m_regionOfInterest</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string ug::GridReaderVTU::m_regionOfInterest = &quot;regions&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classug_1_1_grid_reader_v_t_u.html#a64fe2113c69863c5cf3aa2ecadd7c048">getRegionOfInterestIdentifyer()</a>, <a class="el" href="classug_1_1_grid_reader_v_t_u.html#a713e4b6c55b8b011f60cadf0da604c00">parse_file()</a>, and <a class="el" href="classug_1_1_grid_reader_v_t_u.html#aec1eabae115f317aa5bb1bf11341143c">setRegionOfInterestIdentifier()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>ugbase/lib_grid/file_io/<a class="el" href="file__io__vtu_8h_source.html">file_io_vtu.h</a></li>
 <li>ugbase/lib_grid/file_io/<a class="el" href="file__io__vtu_8cpp.html">file_io_vtu.cpp</a></li>
@@ -821,7 +954,7 @@ template&lt;class T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_grid_reader_v_t_u.html">GridReaderVTU</a></li>
-    <li class="footer">Generated on Mon Jul 15 2024 01:04:19 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Jul 22 2024 01:04:24 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

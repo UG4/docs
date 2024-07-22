@@ -248,8 +248,8 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
-<tr class="memitem:a1ab7c861d3d2ba66df6f993538730335"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classpcl_1_1_process_communicator.html">ProcessCommunicator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpcl_1_1_process_communicator.html#a1ab7c861d3d2ba66df6f993538730335">create_communicator</a> (std::vector&lt; int &gt; &amp;newGlobalProcs)</td></tr>
-<tr class="separator:a1ab7c861d3d2ba66df6f993538730335"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8636a669905a16206b4b3519f041ea7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classpcl_1_1_process_communicator.html">ProcessCommunicator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpcl_1_1_process_communicator.html#ac8636a669905a16206b4b3519f041ea7">create_communicator</a> (std::vector&lt; int &gt; &amp;newGlobalProcs)</td></tr>
+<tr class="separator:ac8636a669905a16206b4b3519f041ea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a487b3598828bda6cad9295d09c9b6c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classpcl_1_1_process_communicator.html">ProcessCommunicator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpcl_1_1_process_communicator.html#a1a487b3598828bda6cad9295d09c9b6c">create_communicator</a> (size_t first, size_t num)</td></tr>
 <tr class="separator:a1a487b3598828bda6cad9295d09c9b6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -1195,8 +1195,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a1ab7c861d3d2ba66df6f993538730335"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ab7c861d3d2ba66df6f993538730335">&#9670;&nbsp;</a></span>create_communicator() <span class="overload">[2/2]</span></h2>
+<a id="ac8636a669905a16206b4b3519f041ea7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8636a669905a16206b4b3519f041ea7">&#9670;&nbsp;</a></span>create_communicator() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1205,7 +1205,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classpcl_1_1_process_communicator.html">ProcessCommunicator</a> pcl::ProcessCommunicator::create_communicator </td>
+          <td class="memname">static <a class="el" href="classpcl_1_1_process_communicator.html">ProcessCommunicator</a> pcl::ProcessCommunicator::create_communicator </td>
           <td>(</td>
           <td class="paramtype">std::vector&lt; int &gt; &amp;&#160;</td>
           <td class="paramname"><em>newGlobalProcs</em></td><td>)</td>
@@ -1219,8 +1219,6 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 <p>Make sure that all processes call this method with the same parameters! </p>
-
-<p class="reference">References <a class="el" href="classpcl_1_1_process_communicator.html#a02a2e0dc57c2fedbba3fff6e455948f1">m_comm</a>, <a class="el" href="group__pcl.html#ggaea36d0e20ff31324ba10643d4e939e29a34bdbd48527517907a38b13063226c81">pcl::PCD_EMPTY</a>, <a class="el" href="group__pcl.html#ggaea36d0e20ff31324ba10643d4e939e29aa5c08b5ef97c6bd825508c3901b24c9f">pcl::PCD_WORLD</a>, and <a class="el" href="pcl__comm__world_8cpp.html#aeea8035bdcb7db449f8b4dcc738a8969">PCL_COMM_WORLD</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classug_1_1_process_hierarchy.html#a3bb576f14a239629adae1d0a0a271e68">ug::ProcessHierarchy::add_hierarchy_level()</a>, and <a class="el" href="namespaceug.html#a592e71fc3a4e567b81a8d81cad64554c">ug::Deserialize()</a>.</p>
 
@@ -1266,10 +1264,7 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Make sure that all processes which participate in the current communicator call this method with the same parameters! Process indices are to be specified relative to the current communicator.</p>
-<p>note: ranks in newProcs are ranks in the (group!) communicator m_comm-&gt;m_mpiComm </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classpcl_1_1_process_communicator.html#a1ab7c861d3d2ba66df6f993538730335">create_communicator</a> </dd></dl>
-
-<p class="reference">References <a class="el" href="classpcl_1_1_process_communicator.html#a02a2e0dc57c2fedbba3fff6e455948f1">m_comm</a>, <a class="el" href="group__pcl.html#ga7a09a2eab069305ca735847eed023d2f">pcl::NumProcs()</a>, <a class="el" href="group__pcl.html#ggaea36d0e20ff31324ba10643d4e939e29a34bdbd48527517907a38b13063226c81">pcl::PCD_EMPTY</a>, <a class="el" href="group__pcl.html#ggaea36d0e20ff31324ba10643d4e939e29aa5c08b5ef97c6bd825508c3901b24c9f">pcl::PCD_WORLD</a>, <a class="el" href="pcl__comm__world_8cpp.html#aeea8035bdcb7db449f8b4dcc738a8969">PCL_COMM_WORLD</a>, <a class="el" href="pcl__profiling_8h.html#a2ed0c268a471877fea32f207d9ad4908">PCL_PROFILE</a>, <a class="el" href="pcl__profiling_8h.html#a4f9ee601b343e56343ab77ea32db1a8a">PCL_PROFILE_END</a>, and <a class="el" href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>.</p>
+<p>Make sure that all processes which participate in the current communicator call this method with the same parameters! Process indices are to be specified relative to the current communicator. </p>
 
 </div>
 </div>
@@ -2505,7 +2500,7 @@ template&lt;typename T &gt; </div>
 
 <p>smart-pointer to an instance of a <a class="el" href="structpcl_1_1_process_communicator_1_1_comm_wrapper.html" title="holds an mpi-communicator.">CommWrapper</a>. </p>
 
-<p class="reference">Referenced by <a class="el" href="classpcl_1_1_process_communicator.html#a1ab7c861d3d2ba66df6f993538730335">create_communicator()</a>, <a class="el" href="classpcl_1_1_process_communicator.html#af93712470b06d42fd4e5222415701927">create_sub_communicator()</a>, <a class="el" href="classpcl_1_1_process_communicator.html#a3884294afa70a363fc8529a1f08c3053">empty()</a>, <a class="el" href="classpcl_1_1_process_communicator.html#a17e4ed6988d07c2682c713e79806ac66">get_mpi_communicator()</a>, <a class="el" href="classpcl_1_1_process_communicator.html#a3be8df02f7591a7fd79d2a16a27b85ff">is_local()</a>, and <a class="el" href="classpcl_1_1_process_communicator.html#a50707e6de72a8865546e71249c87f256">is_world()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classpcl_1_1_process_communicator.html#a1a487b3598828bda6cad9295d09c9b6c">create_communicator()</a>, <a class="el" href="classpcl_1_1_process_communicator.html#a3884294afa70a363fc8529a1f08c3053">empty()</a>, <a class="el" href="classpcl_1_1_process_communicator.html#a17e4ed6988d07c2682c713e79806ac66">get_mpi_communicator()</a>, <a class="el" href="classpcl_1_1_process_communicator.html#a3be8df02f7591a7fd79d2a16a27b85ff">is_local()</a>, and <a class="el" href="classpcl_1_1_process_communicator.html#a50707e6de72a8865546e71249c87f256">is_world()</a>.</p>
 
 </div>
 </div>
@@ -2520,7 +2515,7 @@ template&lt;typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacepcl.html">pcl</a></li><li class="navelem"><a class="el" href="classpcl_1_1_process_communicator.html">ProcessCommunicator</a></li>
-    <li class="footer">Generated on Mon Jul 15 2024 01:04:14 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Jul 22 2024 01:04:19 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

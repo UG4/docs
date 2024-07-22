@@ -499,6 +499,7 @@ var hierarchy =
     [ "ug::crfv_traits< 2, 3 >", "structug_1_1crfv__traits_3_012_00_013_01_4.html", null ],
     [ "ug::crfv_traits< 3, 3 >", "structug_1_1crfv__traits_3_013_00_013_01_4.html", null ],
     [ "ug::crfv_traits< 3, 4 >", "structug_1_1crfv__traits_3_013_00_014_01_4.html", null ],
+    [ "CrossingVertexInfo< VRT, IndTyp >", "class_crossing_vertex_info.html", null ],
     [ "ug::CrouzeixRaviartBase< TRefElem >", "classug_1_1_crouzeix_raviart_base.html", null ],
     [ "ug::CrouzeixRaviartBase< ReferenceHexahedron >", "classug_1_1_crouzeix_raviart_base.html", [
       [ "ug::CrouzeixRaviartLSFS< ReferenceHexahedron >", "classug_1_1_crouzeix_raviart_l_s_f_s_3_01_reference_hexahedron_01_4.html", null ]
@@ -2138,6 +2139,7 @@ var hierarchy =
       [ "ug::MatrixIOMtx", "classug_1_1_matrix_i_o_mtx.html", null ]
     ] ],
     [ "ug::MatrixRow< TMatrix >", "classug_1_1_matrix_row.html", null ],
+    [ "MatrixTwoIndices< I, D, type, type >", "class_matrix_two_indices.html", null ],
     [ "ug::maxheap< T >", "classug_1_1maxheap.html", null ],
     [ "ug::MemInfo", "classug_1_1_mem_info.html", null ],
     [ "ug::MemTrackerStruct", "classug_1_1_mem_tracker_struct.html", null ],
@@ -2866,6 +2868,7 @@ var hierarchy =
     [ "ug::SweepLineEdge", "structug_1_1_sweep_line_edge.html", null ],
     [ "ug::SweepLineVertex", "structug_1_1_sweep_line_vertex.html", null ],
     [ "SystemCall", "class_system_call.html", null ],
+    [ "T_min< T >", "class_t__min.html", null ],
     [ "ug::Table< T >", "classug_1_1_table.html", null ],
     [ "ug::Table< std::string >", "classug_1_1_table.html", null ],
     [ "ug::Table< std::stringstream >", "classug_1_1_table.html", null ],
@@ -3377,6 +3380,8 @@ var hierarchy =
       [ "boost::SM_traversal_tag", "structboost_1_1_s_m__traversal__tag.html", null ]
     ] ],
     [ "ug::VertexDescriptor", "classug_1_1_vertex_descriptor.html", null ],
+    [ "VertexFractureProperties< T >", "class_vertex_fracture_properties.html", null ],
+    [ "VertexFractureTriple< ECKENTYP, GESICHTSTYP, SENKRECHTENTYP >", "class_vertex_fracture_triple.html", null ],
     [ "ug::VMAdd", "classug_1_1_v_m_add.html", null ],
     [ "ug::vrl::vrl_traits< TData >", "structug_1_1vrl_1_1vrl__traits.html", null ],
     [ "ug::vrl::vrl_traits< number >", "structug_1_1vrl_1_1vrl__traits_3_01number_01_4.html", null ],

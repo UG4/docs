@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['fixedallocator_19618',['FixedAllocator',['../../struct_fixed_allocator_1_1_chunk.html',1,'']]],
-  ['freqadaptvalues_19619',['FreqAdaptValues',['../../struct_freq_adapt_values_1_1_freq_adapt_point.html',1,'']]]
+  ['fixedallocator_19673',['FixedAllocator',['../../struct_fixed_allocator_1_1_chunk.html',1,'']]],
+  ['freqadaptvalues_19674',['FreqAdaptValues',['../../struct_freq_adapt_values_1_1_freq_adapt_point.html',1,'']]]
 ];

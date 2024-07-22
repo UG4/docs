@@ -255,7 +255,7 @@ var group__pcl =
       [ "broadcast", "classpcl_1_1_process_communicator.html#a58fc01ab1c2361e18b0692972dc5bc8a", null ],
       [ "broadcast", "classpcl_1_1_process_communicator.html#aa219e509eaef84ff08865ccd5ca409c5", null ],
       [ "create_communicator", "classpcl_1_1_process_communicator.html#a1a487b3598828bda6cad9295d09c9b6c", null ],
-      [ "create_communicator", "classpcl_1_1_process_communicator.html#a1ab7c861d3d2ba66df6f993538730335", null ],
+      [ "create_communicator", "classpcl_1_1_process_communicator.html#ac8636a669905a16206b4b3519f041ea7", null ],
       [ "create_sub_communicator", "classpcl_1_1_process_communicator.html#ab9280593c63193e1a3f5a7b85419c31a", null ],
       [ "create_sub_communicator", "classpcl_1_1_process_communicator.html#af93712470b06d42fd4e5222415701927", null ],
       [ "distribute_data", "classpcl_1_1_process_communicator.html#a8cea9e6a3075ff027571cef208d61f42", null ],

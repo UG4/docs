@@ -1418,6 +1418,9 @@ $(document).ready(function(){initNavTree('functions_vars_m.html',''); initResiza
 <li>m_createVerticalInterfaces
 : <a class="el" href="classug_1_1_load_balancer.html#a49c7f23fd1430afe94d6ff74ae509f1f">ug::LoadBalancer</a>
 </li>
+<li>m_crossVrt
+: <a class="el" href="class_crossing_vertex_info.html#a73600665a5a08a24b9f383878a814771">CrossingVertexInfo&lt; VRT, IndTyp &gt;</a>
+</li>
 <li>m_cstring
 : <a class="el" href="classug_1_1_variant.html#a17d4d6e20fbb74f0e6e65902a08af5b0">ug::Variant</a>
 </li>
@@ -1717,6 +1720,9 @@ $(document).ready(function(){initNavTree('functions_vars_m.html',''); initResiza
 <li>m_e
 : <a class="el" href="classug_1_1_cmp_vrts_by_hash.html#a1497b5e9bd47a460bfb3beb188635aec">ug::CmpVrtsByHash&lt; TElem &gt;</a>
 </li>
+<li>m_edge
+: <a class="el" href="class_vertex_fracture_triple.html#a42c911dd0698434b8d02fa0e6de08e5b">VertexFractureTriple&lt; ECKENTYP, GESICHTSTYP, SENKRECHTENTYP &gt;</a>
+</li>
 <li>m_edgeChildren
 : <a class="el" href="structug_1_1_m_g_volume_info.html#aa629b5740be775c1f1619db236469e60">ug::MGVolumeInfo</a>
 </li>
@@ -1892,6 +1898,9 @@ $(document).ready(function(){initNavTree('functions_vars_m.html',''); initResiza
 <li>m_f
 : <a class="el" href="classug_1_1bridge_1_1_l_u_a_compiler.html#aa44e1c0d3ae4906f57ff92ed1fb21620">ug::bridge::LUACompiler</a>
 , <a class="el" href="classug_1_1_data_export_1_1_free_function_functor.html#aa31be67acd1560bae19c06ac509ed3ae">ug::DataExport&lt; TData, dim &gt;::FreeFunctionFunctor&lt; refDim &gt;</a>
+</li>
+<li>m_face
+: <a class="el" href="class_vertex_fracture_triple.html#a733f4b701a85628c8e4413eb157328e1">VertexFractureTriple&lt; ECKENTYP, GESICHTSTYP, SENKRECHTENTYP &gt;</a>
 </li>
 <li>m_faceChildren
 : <a class="el" href="structug_1_1_m_g_volume_info.html#a0f049f98ac8674c3276376e87287b5c7">ug::MGVolumeInfo</a>
@@ -2423,6 +2432,9 @@ $(document).ready(function(){initNavTree('functions_vars_m.html',''); initResiza
 </li>
 <li>m_isAdaptive
 : <a class="el" href="group__lib__disc__domain.html#ga67182034f7219e175af9b73e2bdfbc22">ug::IDomain&lt; TGrid, TSubsetHandler &gt;</a>
+</li>
+<li>m_isBndFracVertex
+: <a class="el" href="class_vertex_fracture_properties.html#a5ee9e11e8a2f6c708bfdb39ce588c3c7">VertexFractureProperties&lt; T &gt;</a>
 </li>
 <li>m_iSplitDimension
 : <a class="el" href="classug_1_1_k_d_tree_static_1_1_node.html#a4a97d12744fd494abd47e42c80a4e7bf">ug::KDTreeStatic&lt; TPositionAttachment, numDimensions, TVector &gt;::Node</a>
@@ -3068,6 +3080,9 @@ $(document).ready(function(){initNavTree('functions_vars_m.html',''); initResiza
 , <a class="el" href="classug_1_1_k_d_tree.html#ad320dc0128a6196222865b13b570ea3f">ug::KDTree&lt; point_t, data_t, real_t &gt;</a>
 , <a class="el" href="classug_1_1ntree.html#afde03e9b60122bcd5c80b092d26666fe">ug::ntree&lt; tree_dim, world_dim, TElem, TCommonData &gt;</a>
 </li>
+<li>m_normal
+: <a class="el" href="class_vertex_fracture_triple.html#a0339e153c8b43c68520ef034b86510f5">VertexFractureTriple&lt; ECKENTYP, GESICHTSTYP, SENKRECHTENTYP &gt;</a>
+</li>
 <li>m_now
 : <a class="el" href="classug_1_1_parallel_progress.html#a3d2a09a33b23692dd2082f2def9714d3">ug::ParallelProgress</a>
 , <a class="el" href="classug_1_1_progress.html#acc9ec31ff3d9d3881d21a374a77390dd">ug::Progress</a>
@@ -3135,8 +3150,14 @@ $(document).ready(function(){initNavTree('functions_vars_m.html',''); initResiza
 <li>m_numAvailableBlocks
 : <a class="el" href="struct_fixed_allocator_1_1_chunk.html#a99eb89866c67f51ec7b95f58e55a1ca7">FixedAllocator::Chunk</a>
 </li>
+<li>m_numbCrossFracs
+: <a class="el" href="class_crossing_vertex_info.html#a0e783ab03ac165c635c3f1df52bc7c23">CrossingVertexInfo&lt; VRT, IndTyp &gt;</a>
+</li>
 <li>m_Number
 : <a class="el" href="classug_1_1_const_user_number.html#ad45d84afbe346e16fb29eb68b92934ab">ug::ConstUserNumber&lt; dim &gt;</a>
+</li>
+<li>m_numberCountedFracsInVertex
+: <a class="el" href="class_vertex_fracture_properties.html#adce8106ee90af4e12e2ce8400ebfdae3">VertexFractureProperties&lt; T &gt;</a>
 </li>
 <li>m_numBF
 : <a class="el" href="classug_1_1_f_v1_manifold_geometry.html#a254b84b650dc23850cc0535ffdec0785">ug::FV1ManifoldGeometry&lt; TElem, TWorldDim &gt;</a>
@@ -4004,6 +4025,9 @@ $(document).ready(function(){initNavTree('functions_vars_m.html',''); initResiza
 </li>
 <li>m_reg
 : <a class="el" href="structug_1_1detail_1_1_register_type_pair_functor.html#a5b53a9032ea50762bc4111f0971c7469">ug::detail::RegisterTypePairFunctor&lt; TRegistry &gt;</a>
+</li>
+<li>m_regionOfInterest
+: <a class="el" href="classug_1_1_grid_reader_v_t_u.html#ad96814c13bc6e2392c030ee9adbfc02e">ug::GridReaderVTU</a>
 </li>
 <li>m_relative_precision_bound
 : <a class="el" href="classug_1_1_temporal_finished_condition.html#aec4dde4ea856e29453bc8a81c3f53b3e">ug::TemporalFinishedCondition</a>
@@ -5255,13 +5279,13 @@ $(document).ready(function(){initNavTree('functions_vars_m.html',''); initResiza
 , <a class="el" href="classug_1_1_grid_function_ordering.html#ae816ad0c9d32bc99f8603ac86433d0a5">ug::GridFunctionOrdering&lt; TDomain, TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_grid_points_ordering.html#a8a6142063a2b7e27aed6d077111d2e21">ug::GridPointsOrdering&lt; TDomain, TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_i_l_u.html#ae14293e5e10aee27cad90ad9ae875e84">ug::ILU&lt; TAlgebra &gt;</a>
+, <a class="el" href="classug_1_1_i_l_u_t_preconditioner.html#a742a7483ed8bd651a6b265e64cbe970c">ug::ILUTPreconditioner&lt; TAlgebra &gt;</a>
 </li>
 <li>m_U
 : <a class="el" href="classug_1_1_i_l_u_t_preconditioner.html#a35317c6299d915b9d0308380bfed64fa">ug::ILUTPreconditioner&lt; TAlgebra &gt;</a>
 </li>
 <li>m_u
-: <a class="el" href="classug_1_1_i_l_u_t_preconditioner.html#a742a7483ed8bd651a6b265e64cbe970c">ug::ILUTPreconditioner&lt; TAlgebra &gt;</a>
-, <a class="el" href="classug_1_1_l_u.html#a6ec682159d8aac19516b20a88853c8fe">ug::LU&lt; TAlgebra &gt;</a>
+: <a class="el" href="classug_1_1_l_u.html#a6ec682159d8aac19516b20a88853c8fe">ug::LU&lt; TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_lua_callback_observer.html#a3d149b532605e958354f24ef6bba0956">ug::LuaCallbackObserver&lt; TDomain, TAlgebra &gt;</a>
 </li>
 <li>m_U
@@ -5496,6 +5520,9 @@ $(document).ready(function(){initNavTree('functions_vars_m.html',''); initResiza
 </li>
 <li>m_vecMaps
 : <a class="el" href="classug_1_1_com_pol___interface_status.html#aa7df6a3bfddd581ce4aad88afbad5612">ug::ComPol_InterfaceStatus&lt; TLayout &gt;</a>
+</li>
+<li>m_vecShiftedVrts
+: <a class="el" href="class_crossing_vertex_info.html#ae9a61fbcabc63c266cd6e4004d3458de">CrossingVertexInfo&lt; VRT, IndTyp &gt;</a>
 </li>
 <li>m_Vector
 : <a class="el" href="classug_1_1_const_user_vector.html#a6941b9cb60f2d9524e9cf752ad750928">ug::ConstUserVector&lt; dim, worldDim &gt;</a>
@@ -6620,6 +6647,9 @@ $(document).ready(function(){initNavTree('functions_vars_m.html',''); initResiza
 <li>minSplitValue
 : <a class="el" href="structug_1_1_partitioner___dynamic_bisection_1_1_tree_node.html#a15502140ffb79565b7f6db676b88c4d5">ug::Partitioner_DynamicBisection&lt; TElem, dim &gt;::TreeNode</a>
 </li>
+<li>minval
+: <a class="el" href="class_t__min.html#ad2a7ebbba95f51f8ba7152188ffbb32c">T_min&lt; T &gt;</a>
+</li>
 <li>MM_LINE_LENGTH
 : <a class="el" href="classug_1_1_m_m_type_code.html#a3a56ae4b7f8b8722b21174845152c70f">ug::MMTypeCode</a>
 </li>
@@ -6641,7 +6671,7 @@ $(document).ready(function(){initNavTree('functions_vars_m.html',''); initResiza
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jul 15 2024 01:04:30 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Jul 22 2024 01:04:36 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

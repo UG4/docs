@@ -10,14 +10,18 @@ var classug_1_1_grid_reader_v_t_u =
     [ "find_child_node_by_argument_value", "classug_1_1_grid_reader_v_t_u.html#acd794c8b99283ccad2e920eecb9ae088", null ],
     [ "get_grid_name", "classug_1_1_grid_reader_v_t_u.html#ae82adca09ab23a0485bca2713700482f", null ],
     [ "get_subset_handler_name", "classug_1_1_grid_reader_v_t_u.html#aaf3a31eb26e52b50f209c433a2654591", null ],
+    [ "getRegionOfInterestIdentifyer", "classug_1_1_grid_reader_v_t_u.html#a64fe2113c69863c5cf3aa2ecadd7c048", null ],
     [ "grid", "classug_1_1_grid_reader_v_t_u.html#ad62fa922f6674dfe4ddf06b26460168b", null ],
     [ "new_document_parsed", "classug_1_1_grid_reader_v_t_u.html#acb3868e2b6d5cad7fdebc49deb0252df", null ],
     [ "num_grids", "classug_1_1_grid_reader_v_t_u.html#a5e7bdf52269d33ebab7ef78f4bee3ed9", null ],
     [ "num_subset_handlers", "classug_1_1_grid_reader_v_t_u.html#ae020c1b79e2dcc9d00643215d86e25b2", null ],
     [ "parse_file", "classug_1_1_grid_reader_v_t_u.html#a713e4b6c55b8b011f60cadf0da604c00", null ],
     [ "read_scalar_data", "classug_1_1_grid_reader_v_t_u.html#ab354cedbcd2276b590d5ccbd5dc0da3a", null ],
+    [ "setRegionOfInterestIdentifier", "classug_1_1_grid_reader_v_t_u.html#aec1eabae115f317aa5bb1bf11341143c", null ],
     [ "subset_handler", "classug_1_1_grid_reader_v_t_u.html#a85ad56456dbd3c32709204d4b42cf30d", null ],
+    [ "trafoDblVec2Int", "classug_1_1_grid_reader_v_t_u.html#ae920e6a1e2b28867b0a4f74ee35fe755", null ],
     [ "m_doc", "classug_1_1_grid_reader_v_t_u.html#a9ece156dd8ed07605206ab7d9fe5e1ae", null ],
     [ "m_entries", "classug_1_1_grid_reader_v_t_u.html#a7b99b23a2a6a27657514feb79012c833", null ],
-    [ "m_filename", "classug_1_1_grid_reader_v_t_u.html#a9359d5c2845ef0ebe5bf813c23803263", null ]
+    [ "m_filename", "classug_1_1_grid_reader_v_t_u.html#a9359d5c2845ef0ebe5bf813c23803263", null ],
+    [ "m_regionOfInterest", "classug_1_1_grid_reader_v_t_u.html#ad96814c13bc6e2392c030ee9adbfc02e", null ]
 ];
