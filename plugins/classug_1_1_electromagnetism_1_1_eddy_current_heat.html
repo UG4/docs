@@ -287,8 +287,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8a6b420d8a76359584dd75eeb9150ae0 inherit pub_methods_classug_1_1_user_data_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1a300e4a07a759005036ac9766d4b14 inherit pub_methods_classug_1_1_user_data_info"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../classug_1_1_user_data_info.html#af1a300e4a07a759005036ac9766d4b14">num_fct</a> () const</td></tr>
 <tr class="separator:af1a300e4a07a759005036ac9766d4b14 inherit pub_methods_classug_1_1_user_data_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a636608a38328422295c22c9fe7f6b351 inherit pub_methods_classug_1_1_user_data_info"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../classug_1_1_user_data_info.html#a636608a38328422295c22c9fe7f6b351">obj_name</a> ()</td></tr>
+<tr class="separator:a636608a38328422295c22c9fe7f6b351 inherit pub_methods_classug_1_1_user_data_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af947a26967f85c98a34dc306b928abed inherit pub_methods_classug_1_1_user_data_info"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../classug_1_1_user_data_info.html#af947a26967f85c98a34dc306b928abed">set_function_pattern</a> (<a class="elRef" href="../class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="elRef" href="../classug_1_1_function_pattern.html">FunctionPattern</a> &gt; fctPatt)</td></tr>
 <tr class="separator:af947a26967f85c98a34dc306b928abed inherit pub_methods_classug_1_1_user_data_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc9b49f932b4519e6c542913154852db inherit pub_methods_classug_1_1_user_data_info"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../classug_1_1_user_data_info.html#acc9b49f932b4519e6c542913154852db">set_obj_name</a> (const char *name)</td></tr>
+<tr class="separator:acc9b49f932b4519e6c542913154852db inherit pub_methods_classug_1_1_user_data_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6f3c020f3eb5c6f5aa5bf5e0c84776e inherit pub_methods_classug_1_1_user_data_info"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../classug_1_1_user_data_info.html#ac6f3c020f3eb5c6f5aa5bf5e0c84776e">~UserDataInfo</a> ()</td></tr>
 <tr class="separator:ac6f3c020f3eb5c6f5aa5bf5e0c84776e inherit pub_methods_classug_1_1_user_data_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classug_1_1_user_data"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classug_1_1_user_data')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el"  href="../classug_1_1_user_data.html">UserData&lt; TData, dim, void &gt;</a></td></tr>
@@ -424,6 +428,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a8f93e7a4c098d08e5f212966e63d8af4 inherit pro_attribs_classug_1_1_user_data_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74ffbb09c9810d5ca4635c606ad6894c inherit pro_attribs_classug_1_1_user_data_info"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../classug_1_1_function_index_mapping.html">FunctionIndexMapping</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../classug_1_1_user_data_info.html#a74ffbb09c9810d5ca4635c606ad6894c">m_map</a></td></tr>
 <tr class="separator:a74ffbb09c9810d5ca4635c606ad6894c inherit pro_attribs_classug_1_1_user_data_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeaf1794bd5007d85bc670c09a2dbe44 inherit pro_attribs_classug_1_1_user_data_info"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; char &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../classug_1_1_user_data_info.html#afeaf1794bd5007d85bc670c09a2dbe44">m_objName</a></td></tr>
+<tr class="separator:afeaf1794bd5007d85bc670c09a2dbe44 inherit pro_attribs_classug_1_1_user_data_info"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename TGridFunc&gt;<br />
@@ -823,7 +829,7 @@ template&lt;typename TGridFunc &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="namespaceug_1_1_electromagnetism.html">Electromagnetism</a></li><li class="navelem"><a class="el" href="classug_1_1_electromagnetism_1_1_eddy_current_heat.html">EddyCurrentHeat</a></li>
-    <li class="footer">Generated on Mon Jul 29 2024 01:03:37 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Aug 5 2024 01:04:08 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

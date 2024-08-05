@@ -90,6 +90,7 @@ $(document).ready(function(){initNavTree('class_crossing_vertex_info.html',''); 
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_crossing_vertex_info-members.html">List of all members</a>  </div>
@@ -100,28 +101,68 @@ $(document).ready(function(){initNavTree('class_crossing_vertex_info.html',''); 
 
 <p><code>#include &lt;<a class="el" href="support_8h_source.html">support.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a808886bff03d6f33765af77e2bfbb842"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_crossing_vertex_info.html#a808886bff03d6f33765af77e2bfbb842">FracTyp</a> { <a class="el" href="class_crossing_vertex_info.html#a808886bff03d6f33765af77e2bfbb842a8cbf888a6d00fa50e5b17bc22dd1a9ff">SingleFrac</a> = 2
+, <a class="el" href="class_crossing_vertex_info.html#a808886bff03d6f33765af77e2bfbb842a03ecc501df0fd2027555108307c493b2">TEnd</a> = 3
+, <a class="el" href="class_crossing_vertex_info.html#a808886bff03d6f33765af77e2bfbb842a370a0a8a69871c5ff24ace58a2777e72">XCross</a> = 4
+ }</td></tr>
+<tr class="separator:a808886bff03d6f33765af77e2bfbb842"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5d8746547797f93c0328d3bdd0d22fe8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_crossing_vertex_info.html#a5d8746547797f93c0328d3bdd0d22fe8">addShiftVrtx</a> (<a class="el" href="file__io__vtu_8cpp.html#ad624029d0e4ecc4d3ddfa84d21452148">VRT</a> const &amp;vrt)</td></tr>
-<tr class="separator:a5d8746547797f93c0328d3bdd0d22fe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87bc5ebe5f50e47a990ea8b5785542e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_crossing_vertex_info.html#a87bc5ebe5f50e47a990ea8b5785542e5">addShiftVrtx</a> (<a class="el" href="file__io__vtu_8cpp.html#ad624029d0e4ecc4d3ddfa84d21452148">VRT</a> const &amp;vrt, bool isAtFreeSide=false)</td></tr>
+<tr class="separator:a87bc5ebe5f50e47a990ea8b5785542e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2634f1af8f2c2177891e276ce524ce1d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_crossing_vertex_info.html#a2634f1af8f2c2177891e276ce524ce1d">CrossingVertexInfo</a> (<a class="el" href="file__io__vtu_8cpp.html#ad624029d0e4ecc4d3ddfa84d21452148">VRT</a> const &amp;crossVrt, IndTyp numbCrossFracs)</td></tr>
 <tr class="separator:a2634f1af8f2c2177891e276ce524ce1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a884a46ac21496fcbe1b31d4e70c8d3d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="file__io__vtu_8cpp.html#ad624029d0e4ecc4d3ddfa84d21452148">VRT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_crossing_vertex_info.html#a884a46ac21496fcbe1b31d4e70c8d3d8">getCrossVertex</a> () const</td></tr>
 <tr class="separator:a884a46ac21496fcbe1b31d4e70c8d3d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7b6cce61045c5ecff2788f2f19e070c"><td class="memItemLeft" align="right" valign="top">IndTyp&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_crossing_vertex_info.html#ad7b6cce61045c5ecff2788f2f19e070c">getNumbCrossFracs</a> () const</td></tr>
-<tr class="separator:ad7b6cce61045c5ecff2788f2f19e070c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cd9712a38f36d4ae5ec5a6b423947a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_crossing_vertex_info.html#a808886bff03d6f33765af77e2bfbb842">FracTyp</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_crossing_vertex_info.html#a0cd9712a38f36d4ae5ec5a6b423947a2">getFracTyp</a> () const</td></tr>
+<tr class="separator:a0cd9712a38f36d4ae5ec5a6b423947a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae684736535c9e7f2053377a1b0a3c4b4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="file__io__vtu_8cpp.html#ad624029d0e4ecc4d3ddfa84d21452148">VRT</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_crossing_vertex_info.html#ae684736535c9e7f2053377a1b0a3c4b4">getVecShiftedVrts</a> () const</td></tr>
 <tr class="separator:ae684736535c9e7f2053377a1b0a3c4b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07f183f9e3598a4761272abf61ebe1b0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; <a class="el" href="file__io__vtu_8cpp.html#ad624029d0e4ecc4d3ddfa84d21452148">VRT</a>, bool &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_crossing_vertex_info.html#a07f183f9e3598a4761272abf61ebe1b0">getVecShiftedVrtsWithTypInfo</a> () const</td></tr>
+<tr class="separator:a07f183f9e3598a4761272abf61ebe1b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae161cd03f80c878c98734c0220767420"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_crossing_vertex_info.html#ae161cd03f80c878c98734c0220767420">setShiftVrtx</a> (std::vector&lt; <a class="el" href="file__io__vtu_8cpp.html#ad624029d0e4ecc4d3ddfa84d21452148">VRT</a> &gt; const &amp;vecVrt)</td></tr>
+<tr class="separator:ae161cd03f80c878c98734c0220767420"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a73600665a5a08a24b9f383878a814771"><td class="memItemLeft" align="right" valign="top"><a class="el" href="file__io__vtu_8cpp.html#ad624029d0e4ecc4d3ddfa84d21452148">VRT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_crossing_vertex_info.html#a73600665a5a08a24b9f383878a814771">m_crossVrt</a></td></tr>
 <tr class="separator:a73600665a5a08a24b9f383878a814771"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a216c73fe0223bcc10f2eda6e5a475c8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_crossing_vertex_info.html#a808886bff03d6f33765af77e2bfbb842">FracTyp</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_crossing_vertex_info.html#a216c73fe0223bcc10f2eda6e5a475c8c">m_fracTyp</a></td></tr>
+<tr class="separator:a216c73fe0223bcc10f2eda6e5a475c8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e783ab03ac165c635c3f1df52bc7c23"><td class="memItemLeft" align="right" valign="top">IndTyp&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_crossing_vertex_info.html#a0e783ab03ac165c635c3f1df52bc7c23">m_numbCrossFracs</a></td></tr>
 <tr class="separator:a0e783ab03ac165c635c3f1df52bc7c23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af318539608bf2b26152f89a8c8236514"><td class="memItemLeft" align="right" valign="top">IndTyp&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_crossing_vertex_info.html#af318539608bf2b26152f89a8c8236514">m_numberAtFreeSide</a></td></tr>
+<tr class="separator:af318539608bf2b26152f89a8c8236514"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9a61fbcabc63c266cd6e4004d3458de"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="file__io__vtu_8cpp.html#ad624029d0e4ecc4d3ddfa84d21452148">VRT</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_crossing_vertex_info.html#ae9a61fbcabc63c266cd6e4004d3458de">m_vecShiftedVrts</a></td></tr>
 <tr class="separator:ae9a61fbcabc63c266cd6e4004d3458de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fe5735ce1dbb299e17405281e07414d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; <a class="el" href="file__io__vtu_8cpp.html#ad624029d0e4ecc4d3ddfa84d21452148">VRT</a>, bool &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_crossing_vertex_info.html#a6fe5735ce1dbb299e17405281e07414d">m_vecShiftedVrtsWithTypInf</a></td></tr>
+<tr class="separator:a6fe5735ce1dbb299e17405281e07414d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a808886bff03d6f33765af77e2bfbb842"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a808886bff03d6f33765af77e2bfbb842">&#9670;&nbsp;</a></span>FracTyp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename VRT , typename IndTyp &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_crossing_vertex_info.html#a808886bff03d6f33765af77e2bfbb842">CrossingVertexInfo::FracTyp</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a808886bff03d6f33765af77e2bfbb842a8cbf888a6d00fa50e5b17bc22dd1a9ff"></a>SingleFrac&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a808886bff03d6f33765af77e2bfbb842a03ecc501df0fd2027555108307c493b2"></a>TEnd&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a808886bff03d6f33765af77e2bfbb842a370a0a8a69871c5ff24ace58a2777e72"></a>XCross&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2634f1af8f2c2177891e276ce524ce1d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2634f1af8f2c2177891e276ce524ce1d">&#9670;&nbsp;</a></span>CrossingVertexInfo()</h2>
@@ -159,11 +200,13 @@ template&lt;typename VRT , typename IndTyp &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p class="reference">References <a class="el" href="class_crossing_vertex_info.html#a216c73fe0223bcc10f2eda6e5a475c8c">CrossingVertexInfo&lt; VRT, IndTyp &gt;::m_fracTyp</a>, <a class="el" href="class_crossing_vertex_info.html#a808886bff03d6f33765af77e2bfbb842a8cbf888a6d00fa50e5b17bc22dd1a9ff">CrossingVertexInfo&lt; VRT, IndTyp &gt;::SingleFrac</a>, <a class="el" href="class_crossing_vertex_info.html#a808886bff03d6f33765af77e2bfbb842a03ecc501df0fd2027555108307c493b2">CrossingVertexInfo&lt; VRT, IndTyp &gt;::TEnd</a>, <a class="el" href="group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>, and <a class="el" href="class_crossing_vertex_info.html#a808886bff03d6f33765af77e2bfbb842a370a0a8a69871c5ff24ace58a2777e72">CrossingVertexInfo&lt; VRT, IndTyp &gt;::XCross</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a5d8746547797f93c0328d3bdd0d22fe8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d8746547797f93c0328d3bdd0d22fe8">&#9670;&nbsp;</a></span>addShiftVrtx()</h2>
+<a id="a87bc5ebe5f50e47a990ea8b5785542e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87bc5ebe5f50e47a990ea8b5785542e5">&#9670;&nbsp;</a></span>addShiftVrtx()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -177,8 +220,18 @@ template&lt;typename VRT , typename IndTyp &gt; </div>
           <td class="memname">void <a class="el" href="class_crossing_vertex_info.html">CrossingVertexInfo</a>&lt; <a class="el" href="file__io__vtu_8cpp.html#ad624029d0e4ecc4d3ddfa84d21452148">VRT</a>, IndTyp &gt;::addShiftVrtx </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="file__io__vtu_8cpp.html#ad624029d0e4ecc4d3ddfa84d21452148">VRT</a> const &amp;&#160;</td>
-          <td class="paramname"><em>vrt</em></td><td>)</td>
+          <td class="paramname"><em>vrt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isAtFreeSide</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -188,7 +241,9 @@ template&lt;typename VRT , typename IndTyp &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="class_crossing_vertex_info.html#ae9a61fbcabc63c266cd6e4004d3458de">CrossingVertexInfo&lt; VRT, IndTyp &gt;::m_vecShiftedVrts</a>.</p>
+<p class="reference">References <a class="el" href="class_crossing_vertex_info.html#a216c73fe0223bcc10f2eda6e5a475c8c">CrossingVertexInfo&lt; VRT, IndTyp &gt;::m_fracTyp</a>, <a class="el" href="class_crossing_vertex_info.html#af318539608bf2b26152f89a8c8236514">CrossingVertexInfo&lt; VRT, IndTyp &gt;::m_numberAtFreeSide</a>, <a class="el" href="class_crossing_vertex_info.html#ae9a61fbcabc63c266cd6e4004d3458de">CrossingVertexInfo&lt; VRT, IndTyp &gt;::m_vecShiftedVrts</a>, <a class="el" href="class_crossing_vertex_info.html#a6fe5735ce1dbb299e17405281e07414d">CrossingVertexInfo&lt; VRT, IndTyp &gt;::m_vecShiftedVrtsWithTypInf</a>, <a class="el" href="class_crossing_vertex_info.html#a808886bff03d6f33765af77e2bfbb842a03ecc501df0fd2027555108307c493b2">CrossingVertexInfo&lt; VRT, IndTyp &gt;::TEnd</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespaceug.html#ae1d32bcf3e8ae0ad9cf7e964cd4dfe4e">ug::ExpandFractures2dArte()</a>, <a class="el" href="namespaceug.html#a54aad73d3b8169e562a3cb14a70f253b">ug::expandSingleFractureAtGivenSide()</a>, and <a class="el" href="namespaceug.html#a064048f58c197b314b26cbf994c76c3b">ug::expandSingleFractureAtGivenSide&lt; VecVertexOfFaceInfo &gt;()</a>.</p>
 
 </div>
 </div>
@@ -221,8 +276,8 @@ template&lt;typename VRT , typename IndTyp &gt; </div>
 
 </div>
 </div>
-<a id="ad7b6cce61045c5ecff2788f2f19e070c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7b6cce61045c5ecff2788f2f19e070c">&#9670;&nbsp;</a></span>getNumbCrossFracs()</h2>
+<a id="a0cd9712a38f36d4ae5ec5a6b423947a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cd9712a38f36d4ae5ec5a6b423947a2">&#9670;&nbsp;</a></span>getFracTyp()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -233,7 +288,7 @@ template&lt;typename VRT , typename IndTyp &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">IndTyp <a class="el" href="class_crossing_vertex_info.html">CrossingVertexInfo</a>&lt; <a class="el" href="file__io__vtu_8cpp.html#ad624029d0e4ecc4d3ddfa84d21452148">VRT</a>, IndTyp &gt;::getNumbCrossFracs </td>
+          <td class="memname"><a class="el" href="class_crossing_vertex_info.html#a808886bff03d6f33765af77e2bfbb842">FracTyp</a> <a class="el" href="class_crossing_vertex_info.html">CrossingVertexInfo</a>&lt; <a class="el" href="file__io__vtu_8cpp.html#ad624029d0e4ecc4d3ddfa84d21452148">VRT</a>, IndTyp &gt;::getFracTyp </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -246,7 +301,7 @@ template&lt;typename VRT , typename IndTyp &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="class_crossing_vertex_info.html#a0e783ab03ac165c635c3f1df52bc7c23">CrossingVertexInfo&lt; VRT, IndTyp &gt;::m_numbCrossFracs</a>.</p>
+<p class="reference">References <a class="el" href="class_crossing_vertex_info.html#a216c73fe0223bcc10f2eda6e5a475c8c">CrossingVertexInfo&lt; VRT, IndTyp &gt;::m_fracTyp</a>.</p>
 
 </div>
 </div>
@@ -266,6 +321,67 @@ template&lt;typename VRT , typename IndTyp &gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="class_crossing_vertex_info.html#ae9a61fbcabc63c266cd6e4004d3458de">CrossingVertexInfo&lt; VRT, IndTyp &gt;::m_vecShiftedVrts</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespaceug.html#ae1d32bcf3e8ae0ad9cf7e964cd4dfe4e">ug::ExpandFractures2dArte()</a>.</p>
+
+</div>
+</div>
+<a id="a07f183f9e3598a4761272abf61ebe1b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07f183f9e3598a4761272abf61ebe1b0">&#9670;&nbsp;</a></span>getVecShiftedVrtsWithTypInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename VRT , typename IndTyp &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::pair&lt;<a class="el" href="file__io__vtu_8cpp.html#ad624029d0e4ecc4d3ddfa84d21452148">VRT</a>,bool&gt; &gt; <a class="el" href="class_crossing_vertex_info.html">CrossingVertexInfo</a>&lt; <a class="el" href="file__io__vtu_8cpp.html#ad624029d0e4ecc4d3ddfa84d21452148">VRT</a>, IndTyp &gt;::getVecShiftedVrtsWithTypInfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="class_crossing_vertex_info.html#a216c73fe0223bcc10f2eda6e5a475c8c">CrossingVertexInfo&lt; VRT, IndTyp &gt;::m_fracTyp</a>, <a class="el" href="class_crossing_vertex_info.html#a6fe5735ce1dbb299e17405281e07414d">CrossingVertexInfo&lt; VRT, IndTyp &gt;::m_vecShiftedVrtsWithTypInf</a>, <a class="el" href="class_crossing_vertex_info.html#a808886bff03d6f33765af77e2bfbb842a03ecc501df0fd2027555108307c493b2">CrossingVertexInfo&lt; VRT, IndTyp &gt;::TEnd</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
+
+</div>
+</div>
+<a id="ae161cd03f80c878c98734c0220767420"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae161cd03f80c878c98734c0220767420">&#9670;&nbsp;</a></span>setShiftVrtx()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename VRT , typename IndTyp &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_crossing_vertex_info.html">CrossingVertexInfo</a>&lt; <a class="el" href="file__io__vtu_8cpp.html#ad624029d0e4ecc4d3ddfa84d21452148">VRT</a>, IndTyp &gt;::setShiftVrtx </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="file__io__vtu_8cpp.html#ad624029d0e4ecc4d3ddfa84d21452148">VRT</a> &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>vecVrt</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -306,6 +422,32 @@ template&lt;typename VRT , typename IndTyp &gt; </div>
 
 </div>
 </div>
+<a id="a216c73fe0223bcc10f2eda6e5a475c8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a216c73fe0223bcc10f2eda6e5a475c8c">&#9670;&nbsp;</a></span>m_fracTyp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename VRT , typename IndTyp &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_crossing_vertex_info.html#a808886bff03d6f33765af77e2bfbb842">FracTyp</a> <a class="el" href="class_crossing_vertex_info.html">CrossingVertexInfo</a>&lt; <a class="el" href="file__io__vtu_8cpp.html#ad624029d0e4ecc4d3ddfa84d21452148">VRT</a>, IndTyp &gt;::m_fracTyp</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="class_crossing_vertex_info.html#a87bc5ebe5f50e47a990ea8b5785542e5">CrossingVertexInfo&lt; VRT, IndTyp &gt;::addShiftVrtx()</a>, <a class="el" href="class_crossing_vertex_info.html#a2634f1af8f2c2177891e276ce524ce1d">CrossingVertexInfo&lt; VRT, IndTyp &gt;::CrossingVertexInfo()</a>, <a class="el" href="class_crossing_vertex_info.html#a0cd9712a38f36d4ae5ec5a6b423947a2">CrossingVertexInfo&lt; VRT, IndTyp &gt;::getFracTyp()</a>, and <a class="el" href="class_crossing_vertex_info.html#a07f183f9e3598a4761272abf61ebe1b0">CrossingVertexInfo&lt; VRT, IndTyp &gt;::getVecShiftedVrtsWithTypInfo()</a>.</p>
+
+</div>
+</div>
 <a id="a0e783ab03ac165c635c3f1df52bc7c23"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0e783ab03ac165c635c3f1df52bc7c23">&#9670;&nbsp;</a></span>m_numbCrossFracs</h2>
 
@@ -328,7 +470,31 @@ template&lt;typename VRT , typename IndTyp &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="class_crossing_vertex_info.html#ad7b6cce61045c5ecff2788f2f19e070c">CrossingVertexInfo&lt; VRT, IndTyp &gt;::getNumbCrossFracs()</a>.</p>
+</div>
+</div>
+<a id="af318539608bf2b26152f89a8c8236514"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af318539608bf2b26152f89a8c8236514">&#9670;&nbsp;</a></span>m_numberAtFreeSide</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename VRT , typename IndTyp &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IndTyp <a class="el" href="class_crossing_vertex_info.html">CrossingVertexInfo</a>&lt; <a class="el" href="file__io__vtu_8cpp.html#ad624029d0e4ecc4d3ddfa84d21452148">VRT</a>, IndTyp &gt;::m_numberAtFreeSide</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="class_crossing_vertex_info.html#a87bc5ebe5f50e47a990ea8b5785542e5">CrossingVertexInfo&lt; VRT, IndTyp &gt;::addShiftVrtx()</a>.</p>
 
 </div>
 </div>
@@ -354,7 +520,33 @@ template&lt;typename VRT , typename IndTyp &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="class_crossing_vertex_info.html#a5d8746547797f93c0328d3bdd0d22fe8">CrossingVertexInfo&lt; VRT, IndTyp &gt;::addShiftVrtx()</a>, and <a class="el" href="class_crossing_vertex_info.html#ae684736535c9e7f2053377a1b0a3c4b4">CrossingVertexInfo&lt; VRT, IndTyp &gt;::getVecShiftedVrts()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="class_crossing_vertex_info.html#a87bc5ebe5f50e47a990ea8b5785542e5">CrossingVertexInfo&lt; VRT, IndTyp &gt;::addShiftVrtx()</a>, <a class="el" href="class_crossing_vertex_info.html#ae684736535c9e7f2053377a1b0a3c4b4">CrossingVertexInfo&lt; VRT, IndTyp &gt;::getVecShiftedVrts()</a>, and <a class="el" href="class_crossing_vertex_info.html#ae161cd03f80c878c98734c0220767420">CrossingVertexInfo&lt; VRT, IndTyp &gt;::setShiftVrtx()</a>.</p>
+
+</div>
+</div>
+<a id="a6fe5735ce1dbb299e17405281e07414d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fe5735ce1dbb299e17405281e07414d">&#9670;&nbsp;</a></span>m_vecShiftedVrtsWithTypInf</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename VRT , typename IndTyp &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::pair&lt;<a class="el" href="file__io__vtu_8cpp.html#ad624029d0e4ecc4d3ddfa84d21452148">VRT</a>,bool&gt; &gt; <a class="el" href="class_crossing_vertex_info.html">CrossingVertexInfo</a>&lt; <a class="el" href="file__io__vtu_8cpp.html#ad624029d0e4ecc4d3ddfa84d21452148">VRT</a>, IndTyp &gt;::m_vecShiftedVrtsWithTypInf</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="class_crossing_vertex_info.html#a87bc5ebe5f50e47a990ea8b5785542e5">CrossingVertexInfo&lt; VRT, IndTyp &gt;::addShiftVrtx()</a>, and <a class="el" href="class_crossing_vertex_info.html#a07f183f9e3598a4761272abf61ebe1b0">CrossingVertexInfo&lt; VRT, IndTyp &gt;::getVecShiftedVrtsWithTypInfo()</a>.</p>
 
 </div>
 </div>
@@ -367,7 +559,7 @@ template&lt;typename VRT , typename IndTyp &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_crossing_vertex_info.html">CrossingVertexInfo</a></li>
-    <li class="footer">Generated on Mon Jul 29 2024 01:04:21 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Aug 5 2024 01:04:50 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

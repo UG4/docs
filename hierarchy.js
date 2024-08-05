@@ -2634,6 +2634,7 @@ var hierarchy =
     [ "SmartPtr< AuxLaplaceLocAss >", "class_smart_ptr.html", null ],
     [ "SmartPtr< AuxLaplaceRHS >", "class_smart_ptr.html", null ],
     [ "SmartPtr< CallbackId >", "class_smart_ptr.html", null ],
+    [ "SmartPtr< char >", "class_smart_ptr.html", null ],
     [ "SmartPtr< CommWrapper >", "class_smart_ptr.html", null ],
     [ "SmartPtr< CplUserData< number, dim > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< domain_type >", "class_smart_ptr.html", null ],

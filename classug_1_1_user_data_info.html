@@ -142,12 +142,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af1a300e4a07a759005036ac9766d4b14"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_user_data_info.html#af1a300e4a07a759005036ac9766d4b14">num_fct</a> () const</td></tr>
 <tr class="memdesc:af1a300e4a07a759005036ac9766d4b14"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of functions this export depends on  <a href="classug_1_1_user_data_info.html#af1a300e4a07a759005036ac9766d4b14">More...</a><br /></td></tr>
 <tr class="separator:af1a300e4a07a759005036ac9766d4b14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a636608a38328422295c22c9fe7f6b351"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_user_data_info.html#a636608a38328422295c22c9fe7f6b351">obj_name</a> ()</td></tr>
+<tr class="memdesc:a636608a38328422295c22c9fe7f6b351"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets the name of the object (s. the field m_objName)  <a href="classug_1_1_user_data_info.html#a636608a38328422295c22c9fe7f6b351">More...</a><br /></td></tr>
+<tr class="separator:a636608a38328422295c22c9fe7f6b351"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73176c7a1676cea24654ed8d40317e49"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_user_data_info.html#a73176c7a1676cea24654ed8d40317e49">requires_grid_fct</a> () const =0</td></tr>
 <tr class="memdesc:a73176c7a1676cea24654ed8d40317e49"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns if grid function is needed for evaluation  <a href="classug_1_1_user_data_info.html#a73176c7a1676cea24654ed8d40317e49">More...</a><br /></td></tr>
 <tr class="separator:a73176c7a1676cea24654ed8d40317e49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af947a26967f85c98a34dc306b928abed"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_user_data_info.html#af947a26967f85c98a34dc306b928abed">set_function_pattern</a> (<a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_function_pattern.html">FunctionPattern</a> &gt; fctPatt)</td></tr>
 <tr class="memdesc:af947a26967f85c98a34dc306b928abed"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the function pattern for a possibly needed grid function  <a href="classug_1_1_user_data_info.html#af947a26967f85c98a34dc306b928abed">More...</a><br /></td></tr>
 <tr class="separator:af947a26967f85c98a34dc306b928abed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc9b49f932b4519e6c542913154852db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_user_data_info.html#acc9b49f932b4519e6c542913154852db">set_obj_name</a> (const char *<a class="el" href="checkpoint__util_8lua.html#a3c1958e225ed64db3e56badcbdcc8df7">name</a>)</td></tr>
+<tr class="memdesc:acc9b49f932b4519e6c542913154852db"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the name of the object (s. the field m_objName)  <a href="classug_1_1_user_data_info.html#acc9b49f932b4519e6c542913154852db">More...</a><br /></td></tr>
+<tr class="separator:acc9b49f932b4519e6c542913154852db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fb2e0b83c4f363ad389b9c898c0ca07"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_user_data_info.html#a0fb2e0b83c4f363ad389b9c898c0ca07">type</a> () const =0</td></tr>
 <tr class="memdesc:a0fb2e0b83c4f363ad389b9c898c0ca07"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns type of data as string (e.g. "Number", "Vector", "Matrix")  <a href="classug_1_1_user_data_info.html#a0fb2e0b83c4f363ad389b9c898c0ca07">More...</a><br /></td></tr>
 <tr class="separator:a0fb2e0b83c4f363ad389b9c898c0ca07"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -163,6 +169,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a74ffbb09c9810d5ca4635c606ad6894c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_function_index_mapping.html">FunctionIndexMapping</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_user_data_info.html#a74ffbb09c9810d5ca4635c606ad6894c">m_map</a></td></tr>
 <tr class="memdesc:a74ffbb09c9810d5ca4635c606ad6894c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mapping for import fct.  <a href="classug_1_1_user_data_info.html#a74ffbb09c9810d5ca4635c606ad6894c">More...</a><br /></td></tr>
 <tr class="separator:a74ffbb09c9810d5ca4635c606ad6894c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeaf1794bd5007d85bc670c09a2dbe44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; char &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_user_data_info.html#afeaf1794bd5007d85bc670c09a2dbe44">m_objName</a></td></tr>
+<tr class="memdesc:afeaf1794bd5007d85bc670c09a2dbe44"><td class="mdescLeft">&#160;</td><td class="mdescRight">This field is used mainly for debugging: One can assign a name to the object to identify it when running.  <a href="classug_1_1_user_data_info.html#afeaf1794bd5007d85bc670c09a2dbe44">More...</a><br /></td></tr>
+<tr class="separator:afeaf1794bd5007d85bc670c09a2dbe44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>base class providing runtime-info on dimension and type </p>
@@ -344,6 +353,36 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a636608a38328422295c22c9fe7f6b351"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a636608a38328422295c22c9fe7f6b351">&#9670;&nbsp;</a></span>obj_name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* ug::UserDataInfo::obj_name </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>gets the name of the object (s. the field m_objName) </p>
+<p>Note that the object name is not unique in general. Several objects may have the same name. </p>
+
+<p class="reference">References <a class="el" href="class_smart_ptr.html#a497849ae0df7402decc569d5c73cb8f2">SmartPtr&lt; T, FreePolicy &gt;::get()</a>, and <a class="el" href="classug_1_1_user_data_info.html#afeaf1794bd5007d85bc670c09a2dbe44">m_objName</a>.</p>
+
+</div>
+</div>
 <a id="a73176c7a1676cea24654ed8d40317e49"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a73176c7a1676cea24654ed8d40317e49">&#9670;&nbsp;</a></span>requires_grid_fct()</h2>
 
@@ -402,6 +441,37 @@ Protected Attributes</h2></td></tr>
 <p>Reimplemented in <a class="el" href="classug_1_1_dependent_user_data.html#aba2b7bac270fa5b108ccdc557225139b">ug::DependentUserData&lt; TData, dim &gt;</a>, <a class="el" href="classug_1_1_std_data_linker.html#a6a39e99841938ad06eeb24c22bb02b19">ug::StdDataLinker&lt; TImpl, TData, dim &gt;</a>, <a class="el" href="classug_1_1_std_data_linker.html#a6a39e99841938ad06eeb24c22bb02b19">ug::StdDataLinker&lt; BinghamViscosityLinker&lt; dim &gt;, number, dim &gt;</a>, <a class="el" href="classug_1_1_std_data_linker.html#a6a39e99841938ad06eeb24c22bb02b19">ug::StdDataLinker&lt; LuaUserFunction&lt; TData, dim, TDataIn &gt;, TData, dim &gt;</a>, <a class="el" href="classug_1_1_std_data_linker.html#a6a39e99841938ad06eeb24c22bb02b19">ug::StdDataLinker&lt; UserVectorEntryAdapter&lt; dim &gt;, number, dim &gt;</a>, <a class="el" href="classug_1_1_std_data_linker.html#a6a39e99841938ad06eeb24c22bb02b19">ug::StdDataLinker&lt; ProjectionLinker&lt; dim &gt;, MathVector&lt; dim &gt;, dim &gt;</a>, <a class="el" href="classug_1_1_std_data_linker.html#a6a39e99841938ad06eeb24c22bb02b19">ug::StdDataLinker&lt; ScaleAddLinker&lt; TData, dim, TDataScale, TData &gt;, TData, dim &gt;</a>, <a class="el" href="classug_1_1_std_data_linker.html#a6a39e99841938ad06eeb24c22bb02b19">ug::StdDataLinker&lt; InverseLinker&lt; dim &gt;, number, dim &gt;</a>, <a class="el" href="classug_1_1_std_data_linker.html#a6a39e99841938ad06eeb24c22bb02b19">ug::StdDataLinker&lt; IntervalNumberLinker&lt; dim &gt;, number, dim &gt;</a>, <a class="el" href="classug_1_1_std_data_linker.html#a6a39e99841938ad06eeb24c22bb02b19">ug::StdDataLinker&lt; VRLUserLinker&lt; TData, dim, TDataIn &gt;, TData, dim &gt;</a>, <a class="el" href="classug_1_1_std_data_linker.html#a6a39e99841938ad06eeb24c22bb02b19">ug::StdDataLinker&lt; DarcyVelocityLinker&lt; dim &gt;, MathVector&lt; dim &gt;, dim &gt;</a>, and <a class="el" href="classug_1_1_std_data_linker.html#a6a39e99841938ad06eeb24c22bb02b19">ug::StdDataLinker&lt; RichardsLinker&lt; dim, TFunctor &gt;, number, dim &gt;</a>.</p>
 
 <p class="reference">References <a class="el" href="classug_1_1_user_data_info.html#a8f93e7a4c098d08e5f212966e63d8af4">m_fctGrp</a>, and <a class="el" href="classug_1_1_function_group.html#afe7a7d92a18e86af43cf887da2fe04d3">ug::FunctionGroup::set_function_pattern()</a>.</p>
+
+</div>
+</div>
+<a id="acc9b49f932b4519e6c542913154852db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc9b49f932b4519e6c542913154852db">&#9670;&nbsp;</a></span>set_obj_name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ug::UserDataInfo::set_obj_name </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>sets the name of the object (s. the field m_objName) </p>
+<p>Note that the object name is not unique in general. Several objects may have the same name. </p>
+
+<p class="reference">References <a class="el" href="class_smart_ptr.html#a497849ae0df7402decc569d5c73cb8f2">SmartPtr&lt; T, FreePolicy &gt;::get()</a>, <a class="el" href="classug_1_1_user_data_info.html#afeaf1794bd5007d85bc670c09a2dbe44">m_objName</a>, <a class="el" href="checkpoint__util_8lua.html#a3c1958e225ed64db3e56badcbdcc8df7">name</a>, <a class="el" href="group__ugbase__common__util.html#gaaf72bcd4f74729e4a43694267e8590d8">SPNULL</a>, <a class="el" href="group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>, and <a class="el" href="class_smart_ptr.html#ab31be10adb38f2b205f0531bb23e7a23">SmartPtr&lt; T, FreePolicy &gt;::valid()</a>.</p>
 
 </div>
 </div>
@@ -487,6 +557,33 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="afeaf1794bd5007d85bc670c09a2dbe44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afeaf1794bd5007d85bc670c09a2dbe44">&#9670;&nbsp;</a></span>m_objName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt;char&gt; ug::UserDataInfo::m_objName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This field is used mainly for debugging: One can assign a name to the object to identify it when running. </p>
+<p>this strange type underlines the debugging nature of this field: it is seldom used but should be easily accessed in a debugger </p>
+
+<p class="reference">Referenced by <a class="el" href="classug_1_1_user_data_info.html#a636608a38328422295c22c9fe7f6b351">obj_name()</a>, and <a class="el" href="classug_1_1_user_data_info.html#acc9b49f932b4519e6c542913154852db">set_obj_name()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>ugbase/lib_disc/spatial_disc/user_data/<a class="el" href="lib__disc_2spatial__disc_2user__data_2user__data_8h_source.html">user_data.h</a></li>
 </ul>
@@ -496,7 +593,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_user_data_info.html">UserDataInfo</a></li>
-    <li class="footer">Generated on Mon Jul 29 2024 01:04:37 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Aug 5 2024 01:05:06 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

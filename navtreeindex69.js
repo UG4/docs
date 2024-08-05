@@ -1,5 +1,16 @@
 var NAVTREEINDEX69 =
 {
+"classug_1_1_river_ordering.html#a9560e40e96783860b93e06b6ce0eb63d":[3,0,4,1105,21],
+"classug_1_1_river_ordering.html#aa39d0c348c89382bafdf78e92ee4936e":[3,0,4,1105,9],
+"classug_1_1_river_ordering.html#ab2252d18be4a0bc5018faab8f1a24b72":[3,0,4,1105,0],
+"classug_1_1_river_ordering.html#ab9ce6270b5f7521fd95ddb9b5b2e8749":[3,0,4,1105,15],
+"classug_1_1_river_ordering.html#abc15fd9e3f765fd56e8399e8739eca3d":[3,0,4,1105,10],
+"classug_1_1_river_ordering.html#acfa946440f1152e82a8951fc6166e06b":[3,0,4,1105,5],
+"classug_1_1_river_ordering.html#ad48bbbac86c92843d9f1b41b19b3c683":[3,0,4,1105,19],
+"classug_1_1_river_ordering.html#ad5ffb131a2fb2ce71b1e2f6076bdae66":[3,0,4,1105,20],
+"classug_1_1_river_ordering.html#ad86fb9ed4d7cf50f9eecdf2ff1222444":[3,0,4,1105,23],
+"classug_1_1_river_ordering.html#ae2dbb57acf99eb22dabab38eecb4c641":[3,0,4,1105,4],
+"classug_1_1_river_ordering.html#aec856fa959964b0cfb854f3b6699a3e7":[3,0,4,1105,6],
 "classug_1_1_rotating_cone2d.html":[3,0,4,1106],
 "classug_1_1_rotating_cone2d.html#a25f2239a929460cdf675e3bbd25bfabc":[3,0,4,1106,7],
 "classug_1_1_rotating_cone2d.html#a3377d0c6fdd07a1b1c2782383180bc29":[3,0,4,1106,6],
@@ -238,16 +249,5 @@ var NAVTREEINDEX69 =
 "classug_1_1_schur_inverse_with_full_matrix.html#a14e47f10fff576e4a2134eb660aabecc":[3,0,4,1119,3],
 "classug_1_1_schur_inverse_with_full_matrix.html#a3880e0bf695bf178dae6ad8eded4df13":[3,0,4,1119,5],
 "classug_1_1_schur_inverse_with_full_matrix.html#a60acdc050da8568aff4d95ab65a2e0ce":[3,0,4,1119,9],
-"classug_1_1_schur_inverse_with_full_matrix.html#a6fa7e1399a6224d575ac00ac6a4d579e":[3,0,4,1119,10],
-"classug_1_1_schur_inverse_with_full_matrix.html#a70e84d0eba1c8516c09300d64f82ec56":[3,0,4,1119,7],
-"classug_1_1_schur_inverse_with_full_matrix.html#aa7b948ef436b46315fd43a11cc89826a":[3,0,4,1119,8],
-"classug_1_1_schur_inverse_with_full_matrix.html#ad0e893221a72d95c831e217ca6c144cd":[3,0,4,1119,2],
-"classug_1_1_schur_inverse_with_full_matrix.html#ae3edbc8e84afa0b3da5b98cf5e5eb174":[3,0,4,1119,4],
-"classug_1_1_schur_inverse_with_full_matrix.html#aeb7609727829736cd5526b16641bd4d3":[3,0,4,1119,6],
-"classug_1_1_schur_inverse_with_full_matrix.html#af3b166a00a5d8f6237f223ee9d64f1ac":[3,0,4,1119,0],
-"classug_1_1_schur_inverse_with_operator.html":[3,0,4,1120],
-"classug_1_1_schur_inverse_with_operator.html#a0a046e8ed098c8bfdec2cf07762b7802":[3,0,4,1120,9],
-"classug_1_1_schur_inverse_with_operator.html#a0e2e7c80d72638063053785ed9c9b3de":[3,0,4,1120,8],
-"classug_1_1_schur_inverse_with_operator.html#a148c5c14bc29c7b401ddadc36094f05a":[3,0,4,1120,5],
-"classug_1_1_schur_inverse_with_operator.html#a1fd1da7a5112afb25f3fbd7d8c4f2fc0":[3,0,4,1120,6]
+"classug_1_1_schur_inverse_with_full_matrix.html#a6fa7e1399a6224d575ac00ac6a4d579e":[3,0,4,1119,10]
 };

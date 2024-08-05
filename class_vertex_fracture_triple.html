@@ -107,8 +107,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7440e89a3d5aecf5f90f30c13c064091"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fcdc5a002a7abbcdd7d8a6bb666faa0"><td class="memItemLeft" align="right" valign="top">GESICHTSTYP const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vertex_fracture_triple.html#a9fcdc5a002a7abbcdd7d8a6bb666faa0">getFace</a> () const</td></tr>
 <tr class="separator:a9fcdc5a002a7abbcdd7d8a6bb666faa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00b4ab7b04fe14e923d2bcd12b29e021"><td class="memItemLeft" align="right" valign="top">SENKRECHTENTYP const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vertex_fracture_triple.html#a00b4ab7b04fe14e923d2bcd12b29e021">getNewNormal</a> () const</td></tr>
+<tr class="separator:a00b4ab7b04fe14e923d2bcd12b29e021"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f21a3fa194e2db9616757e92a88040b"><td class="memItemLeft" align="right" valign="top">SENKRECHTENTYP const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vertex_fracture_triple.html#a2f21a3fa194e2db9616757e92a88040b">getNormal</a> () const</td></tr>
 <tr class="separator:a2f21a3fa194e2db9616757e92a88040b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af212932d8fd846a973698495ce524b53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vertex_fracture_triple.html#af212932d8fd846a973698495ce524b53">setNewNormal</a> (SENKRECHTENTYP const &amp;chNorml)</td></tr>
+<tr class="separator:af212932d8fd846a973698495ce524b53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0eb8825464562b76ed3b7886731103cd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vertex_fracture_triple.html#a0eb8825464562b76ed3b7886731103cd">VertexFractureTriple</a> (ECKENTYP const &amp;edge, GESICHTSTYP const &amp;face, SENKRECHTENTYP const &amp;normal)</td></tr>
 <tr class="separator:a0eb8825464562b76ed3b7886731103cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -123,6 +127,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a42c911dd0698434b8d02fa0e6de08e5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a733f4b701a85628c8e4413eb157328e1"><td class="memItemLeft" align="right" valign="top">GESICHTSTYP&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vertex_fracture_triple.html#a733f4b701a85628c8e4413eb157328e1">m_face</a></td></tr>
 <tr class="separator:a733f4b701a85628c8e4413eb157328e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaeeeb42e619042ae695026c60869018d"><td class="memItemLeft" align="right" valign="top">SENKRECHTENTYP&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vertex_fracture_triple.html#aaeeeb42e619042ae695026c60869018d">m_newNormal</a></td></tr>
+<tr class="separator:aaeeeb42e619042ae695026c60869018d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0339e153c8b43c68520ef034b86510f5"><td class="memItemLeft" align="right" valign="top">SENKRECHTENTYP&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vertex_fracture_triple.html#a0339e153c8b43c68520ef034b86510f5">m_normal</a></td></tr>
 <tr class="separator:a0339e153c8b43c68520ef034b86510f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -226,7 +232,7 @@ template&lt;typename ECKENTYP , typename GESICHTSTYP , typename SENKRECHTENTYP &
 
 <p class="reference">References <a class="el" href="class_vertex_fracture_triple.html#a42c911dd0698434b8d02fa0e6de08e5b">VertexFractureTriple&lt; ECKENTYP, GESICHTSTYP, SENKRECHTENTYP &gt;::m_edge</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="namespaceug.html#ae1d32bcf3e8ae0ad9cf7e964cd4dfe4e">ug::ExpandFractures2dArte()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespaceug.html#a2960ed016ecdedf0b0c12ca4e698b9fc">ug::computeDiamondPointXCrossType()</a>, <a class="el" href="namespaceug.html#a98baf1156ddf931518fb8cff5d3d33c1">ug::createNewFacesForExtXCrossFracs()</a>, <a class="el" href="namespaceug.html#a1ce7030603883b1c7e8bca37b43349d1">ug::determineOrderOfFaces()</a>, and <a class="el" href="namespaceug.html#ae1d32bcf3e8ae0ad9cf7e964cd4dfe4e">ug::ExpandFractures2dArte()</a>.</p>
 
 </div>
 </div>
@@ -257,7 +263,38 @@ template&lt;typename ECKENTYP , typename GESICHTSTYP , typename SENKRECHTENTYP &
 
 <p class="reference">References <a class="el" href="class_vertex_fracture_triple.html#a733f4b701a85628c8e4413eb157328e1">VertexFractureTriple&lt; ECKENTYP, GESICHTSTYP, SENKRECHTENTYP &gt;::m_face</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="namespaceug.html#ae1d32bcf3e8ae0ad9cf7e964cd4dfe4e">ug::ExpandFractures2dArte()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespaceug.html#a2960ed016ecdedf0b0c12ca4e698b9fc">ug::computeDiamondPointXCrossType()</a>, <a class="el" href="namespaceug.html#a9f4adb1ce8f6b9fb7026ec8f4a8484b2">ug::createDiamondFacesXCrossType()</a>, <a class="el" href="namespaceug.html#a98baf1156ddf931518fb8cff5d3d33c1">ug::createNewFacesForExtXCrossFracs()</a>, <a class="el" href="namespaceug.html#a1ce7030603883b1c7e8bca37b43349d1">ug::determineOrderOfFaces()</a>, and <a class="el" href="namespaceug.html#ae1d32bcf3e8ae0ad9cf7e964cd4dfe4e">ug::ExpandFractures2dArte()</a>.</p>
+
+</div>
+</div>
+<a id="a00b4ab7b04fe14e923d2bcd12b29e021"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00b4ab7b04fe14e923d2bcd12b29e021">&#9670;&nbsp;</a></span>getNewNormal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ECKENTYP , typename GESICHTSTYP , typename SENKRECHTENTYP &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SENKRECHTENTYP const <a class="el" href="class_vertex_fracture_triple.html">VertexFractureTriple</a>&lt; ECKENTYP, GESICHTSTYP, SENKRECHTENTYP &gt;::getNewNormal </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="class_vertex_fracture_triple.html#aaeeeb42e619042ae695026c60869018d">VertexFractureTriple&lt; ECKENTYP, GESICHTSTYP, SENKRECHTENTYP &gt;::m_newNormal</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespaceug.html#a9f4adb1ce8f6b9fb7026ec8f4a8484b2">ug::createDiamondFacesXCrossType()</a>, <a class="el" href="namespaceug.html#a98baf1156ddf931518fb8cff5d3d33c1">ug::createNewFacesForExtXCrossFracs()</a>, and <a class="el" href="namespaceug.html#ae1d32bcf3e8ae0ad9cf7e964cd4dfe4e">ug::ExpandFractures2dArte()</a>.</p>
 
 </div>
 </div>
@@ -288,7 +325,39 @@ template&lt;typename ECKENTYP , typename GESICHTSTYP , typename SENKRECHTENTYP &
 
 <p class="reference">References <a class="el" href="class_vertex_fracture_triple.html#a0339e153c8b43c68520ef034b86510f5">VertexFractureTriple&lt; ECKENTYP, GESICHTSTYP, SENKRECHTENTYP &gt;::m_normal</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="namespaceug.html#ae1d32bcf3e8ae0ad9cf7e964cd4dfe4e">ug::ExpandFractures2dArte()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="namespaceug.html#a2960ed016ecdedf0b0c12ca4e698b9fc">ug::computeDiamondPointXCrossType()</a>, <a class="el" href="namespaceug.html#a9f4adb1ce8f6b9fb7026ec8f4a8484b2">ug::createDiamondFacesXCrossType()</a>, <a class="el" href="namespaceug.html#a98baf1156ddf931518fb8cff5d3d33c1">ug::createNewFacesForExtXCrossFracs()</a>, <a class="el" href="namespaceug.html#a1ce7030603883b1c7e8bca37b43349d1">ug::determineOrderOfFaces()</a>, and <a class="el" href="namespaceug.html#ae1d32bcf3e8ae0ad9cf7e964cd4dfe4e">ug::ExpandFractures2dArte()</a>.</p>
+
+</div>
+</div>
+<a id="af212932d8fd846a973698495ce524b53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af212932d8fd846a973698495ce524b53">&#9670;&nbsp;</a></span>setNewNormal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ECKENTYP , typename GESICHTSTYP , typename SENKRECHTENTYP &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_vertex_fracture_triple.html">VertexFractureTriple</a>&lt; ECKENTYP, GESICHTSTYP, SENKRECHTENTYP &gt;::setNewNormal </td>
+          <td>(</td>
+          <td class="paramtype">SENKRECHTENTYP const &amp;&#160;</td>
+          <td class="paramname"><em>chNorml</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="class_vertex_fracture_triple.html#aaeeeb42e619042ae695026c60869018d">VertexFractureTriple&lt; ECKENTYP, GESICHTSTYP, SENKRECHTENTYP &gt;::m_newNormal</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="namespaceug.html#a2960ed016ecdedf0b0c12ca4e698b9fc">ug::computeDiamondPointXCrossType()</a>, and <a class="el" href="namespaceug.html#ae1d32bcf3e8ae0ad9cf7e964cd4dfe4e">ug::ExpandFractures2dArte()</a>.</p>
 
 </div>
 </div>
@@ -345,6 +414,32 @@ template&lt;typename ECKENTYP , typename GESICHTSTYP , typename SENKRECHTENTYP &
 
 </div>
 </div>
+<a id="aaeeeb42e619042ae695026c60869018d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaeeeb42e619042ae695026c60869018d">&#9670;&nbsp;</a></span>m_newNormal</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ECKENTYP , typename GESICHTSTYP , typename SENKRECHTENTYP &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SENKRECHTENTYP <a class="el" href="class_vertex_fracture_triple.html">VertexFractureTriple</a>&lt; ECKENTYP, GESICHTSTYP, SENKRECHTENTYP &gt;::m_newNormal</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="class_vertex_fracture_triple.html#a00b4ab7b04fe14e923d2bcd12b29e021">VertexFractureTriple&lt; ECKENTYP, GESICHTSTYP, SENKRECHTENTYP &gt;::getNewNormal()</a>, and <a class="el" href="class_vertex_fracture_triple.html#af212932d8fd846a973698495ce524b53">VertexFractureTriple&lt; ECKENTYP, GESICHTSTYP, SENKRECHTENTYP &gt;::setNewNormal()</a>.</p>
+
+</div>
+</div>
 <a id="a0339e153c8b43c68520ef034b86510f5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0339e153c8b43c68520ef034b86510f5">&#9670;&nbsp;</a></span>m_normal</h2>
 
@@ -380,7 +475,7 @@ template&lt;typename ECKENTYP , typename GESICHTSTYP , typename SENKRECHTENTYP &
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_vertex_fracture_triple.html">VertexFractureTriple</a></li>
-    <li class="footer">Generated on Mon Jul 29 2024 01:04:21 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Aug 5 2024 01:04:50 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

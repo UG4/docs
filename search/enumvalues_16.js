@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['yy_5finteger_35601',['YY_INTEGER',['../parser_8cpp.html#a15c9f7bd2f0e9686df5d9df4f3314aa9a1dd6cc0bb6f2f78f2da979dc9b8da936',1,'YY_INTEGER():&#160;parser.cpp'],['../parser_8hpp.html#a15c9f7bd2f0e9686df5d9df4f3314aa9a1dd6cc0bb6f2f78f2da979dc9b8da936',1,'YY_INTEGER():&#160;parser.hpp']]]
+  ['xcross_35670',['XCross',['../class_crossing_vertex_info.html#a808886bff03d6f33765af77e2bfbb842a370a0a8a69871c5ff24ace58a2777e72',1,'CrossingVertexInfo']]]
 ];

@@ -100,6 +100,7 @@ $(document).ready(function(){initNavTree('expand__layers__arte_8cpp.html',''); i
 <div class="contents">
 <div class="textblock"><code>#include &lt;boost/function.hpp&gt;</code><br />
 <code>#include &quot;<a class="el" href="expand__layers_8h_source.html">expand_layers.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="expand__layers__arte_8h_source.html">expand_layers_arte.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="geom__obj__util_8h_source.html">lib_grid/algorithms/geom_obj_util/geom_obj_util.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="callbacks_8h_source.html">lib_grid/callbacks/callbacks.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="grid_2grid__util_8h_source.html">lib_grid/grid/grid_util.h</a>&quot;</code><br />
@@ -111,6 +112,8 @@ $(document).ready(function(){initNavTree('expand__layers__arte_8cpp.html',''); i
 <code>#include &lt;atomic&gt;</code><br />
 <code>#include &lt;cstddef&gt;</code><br />
 <code>#include &lt;bitset&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;cmath&gt;</code><br />
 <code>#include &quot;<a class="el" href="support_8h_source.html">support.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -121,19 +124,35 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a9e5b69b4f6708eb0c5a548666cd27a35"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="expand__layers__arte_8cpp.html#a9e5b69b4f6708eb0c5a548666cd27a35">ANSCHAULICH_ERZEUGE_SUDOS_ANHANG</a>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:a9e5b69b4f6708eb0c5a548666cd27a35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35416ccba08b6c442faad42a986af699"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="expand__layers__arte_8cpp.html#a35416ccba08b6c442faad42a986af699">NOTLOESUNG_EINSCHALTEN_SEGFAULT_CREATE_VERTEX</a>&#160;&#160;&#160;1</td></tr>
-<tr class="separator:a35416ccba08b6c442faad42a986af699"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a6e11904d382f2e235d6407824a9aad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="expand__layers__arte_8cpp.html#a3a6e11904d382f2e235d6407824a9aad">OLD_PROFREITER_STUFF</a>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:a3a6e11904d382f2e235d6407824a9aad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a022d524dd55c5b7ea80f3878fad3a6d8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="expand__layers__arte_8cpp.html#a022d524dd55c5b7ea80f3878fad3a6d8">ESTABLISH_DEBUG_SUDOS</a>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a022d524dd55c5b7ea80f3878fad3a6d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b73d76b7f7fa7fa6bed6ef32e33c8e3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="expand__layers__arte_8cpp.html#a8b73d76b7f7fa7fa6bed6ef32e33c8e3">FORMER_PROMESH_FINITE_CLEFT_TECHNIQUE</a>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a8b73d76b7f7fa7fa6bed6ef32e33c8e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a793cdeee217687ca5604aae97523b870"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="expand__layers__arte_8cpp.html#a793cdeee217687ca5604aae97523b870">WORKAROUND_ARTE_SEGFAULT</a>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:a793cdeee217687ca5604aae97523b870"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a7d19105e48fded9ddcdbc9f8efaa9d83"><td class="memItemLeft" align="right" valign="top">typedef Attachment&lt; std::vector&lt; Vertex * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a7d19105e48fded9ddcdbc9f8efaa9d83">ug::AttVrtVec</a></td></tr>
-<tr class="separator:a7d19105e48fded9ddcdbc9f8efaa9d83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afea2e243970a36eb10e1e0b59cd15dbc"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#afea2e243970a36eb10e1e0b59cd15dbc">ug::AttVrtVec</a> = Attachment&lt; vector&lt; Vertex * &gt; &gt;</td></tr>
+<tr class="separator:afea2e243970a36eb10e1e0b59cd15dbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a66ce205b46d42b828d9b6682e60d9a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a2a66ce205b46d42b828d9b6682e60d9a">ug::CrossVertInf</a> = <a class="el" href="class_crossing_vertex_info.html">CrossingVertexInfo</a>&lt; Vertex *, IndexType &gt;</td></tr>
+<tr class="separator:a2a66ce205b46d42b828d9b6682e60d9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f7936443906bb771ba6d35eb896a84f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a7f7936443906bb771ba6d35eb896a84f">ug::ExpandCrossFracInfo</a> = <a class="el" href="class_vertex_fracture_triple.html">VertexFractureTriple</a>&lt; std::pair&lt; Edge *, Edge * &gt;, Face *, std::pair&lt; Vertex *, Vertex * &gt; &gt;</td></tr>
+<tr class="separator:a7f7936443906bb771ba6d35eb896a84f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d10ca9b7b70a07bda79b5b37a8e57c5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a7d10ca9b7b70a07bda79b5b37a8e57c5">ug::IndexType</a> = unsigned short</td></tr>
 <tr class="separator:a7d10ca9b7b70a07bda79b5b37a8e57c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affd4b869026ccfd574028bc8eda84130"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#affd4b869026ccfd574028bc8eda84130">ug::SegmentsFractExtrus</a> = std::vector&lt; VecVertexOfFaceInfo &gt;</td></tr>
+<tr class="separator:affd4b869026ccfd574028bc8eda84130"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a144b4ed1bcbaf5f3d6c4867e887ceef7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a144b4ed1bcbaf5f3d6c4867e887ceef7">ug::VecEdge</a> = std::vector&lt; Edge * &gt;</td></tr>
+<tr class="separator:a144b4ed1bcbaf5f3d6c4867e887ceef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad97d6fd0a714e795b3e300dcc0209423"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#ad97d6fd0a714e795b3e300dcc0209423">ug::VecExpandCrossFracInfo</a> = std::vector&lt; ExpandCrossFracInfo &gt;</td></tr>
+<tr class="separator:ad97d6fd0a714e795b3e300dcc0209423"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed7c7307dbe7c98ebeef923774db1257"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#aed7c7307dbe7c98ebeef923774db1257">ug::VecFace</a> = std::vector&lt; Face * &gt;</td></tr>
+<tr class="separator:aed7c7307dbe7c98ebeef923774db1257"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7388ea0443c20f40963fc8f4829107c6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a7388ea0443c20f40963fc8f4829107c6">ug::VecVertexOfFaceInfo</a> = std::vector&lt; VertexOfFaceInfo &gt;</td></tr>
+<tr class="separator:a7388ea0443c20f40963fc8f4829107c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a079d73c290cf63400c3210c1e1f59db9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a079d73c290cf63400c3210c1e1f59db9">ug::VecVertFracTrip</a> = std::vector&lt; VertFracTrip &gt;</td></tr>
+<tr class="separator:a079d73c290cf63400c3210c1e1f59db9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a6861287e0ecbd7c043364c2f5ada5e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a2a6861287e0ecbd7c043364c2f5ada5e">ug::VertexOfFaceInfo</a> = <a class="el" href="class_vertex_fracture_triple.html">VertexFractureTriple</a>&lt; std::pair&lt; Edge *, Edge * &gt;, Face *, std::pair&lt; vector3, vector3 &gt; &gt;</td></tr>
 <tr class="separator:a2a6861287e0ecbd7c043364c2f5ada5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e734b9cd48cade2a08f7ccbfe31521f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a2e734b9cd48cade2a08f7ccbfe31521f">ug::VertFracTrip</a> = <a class="el" href="class_vertex_fracture_triple.html">VertexFractureTriple</a>&lt; Edge *, Face *, vector3 &gt;</td></tr>
@@ -141,49 +160,72 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a9ffcce8f5a83c0bba29c7934ded62117"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a9ffcce8f5a83c0bba29c7934ded62117">ug::assignFaceSubsetToClosedFace</a> (std::vector&lt; Face * &gt; &amp;faceVec, Grid &amp;grid, SubsetHandler &amp;sh)</td></tr>
+<tr class="separator:a9ffcce8f5a83c0bba29c7934ded62117"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2960ed016ecdedf0b0c12ca4e698b9fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a2960ed016ecdedf0b0c12ca4e698b9fc">ug::computeDiamondPointXCrossType</a> (ExpandCrossFracInfo &amp;expCFIBeforeFracEdg, ExpandCrossFracInfo &amp;expCFIAfterFracEdg, Vertex *const &amp;crossPt, Grid::VertexAttachmentAccessor&lt; APosition &gt; &amp;aaPos, SubsetHandler &amp;sh, Grid &amp;grid, IndexType const &amp;diamantSubsNum, vector3 &amp;distVecNewVrt2SCrossPt)</td></tr>
+<tr class="separator:a2960ed016ecdedf0b0c12ca4e698b9fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f4adb1ce8f6b9fb7026ec8f4a8484b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a9f4adb1ce8f6b9fb7026ec8f4a8484b2">ug::createDiamondFacesXCrossType</a> (ExpandCrossFracInfo &amp;expCFIBeforeFracEdg, ExpandCrossFracInfo &amp;expCFIAfterFracEdg, std::vector&lt; Face * &gt; &amp;newDiamFaceVec, SubsetHandler &amp;sh, Grid &amp;grid, IndexType diamantSubsNum, Vertex *&amp;crossPt, bool isFreeTEnd=false)</td></tr>
+<tr class="separator:a9f4adb1ce8f6b9fb7026ec8f4a8484b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98baf1156ddf931518fb8cff5d3d33c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a98baf1156ddf931518fb8cff5d3d33c1">ug::createNewFacesForExtXCrossFracs</a> (ExpandCrossFracInfo const &amp;ecf, std::vector&lt; Face * &gt; &amp;newFracFaceVec, bool &amp;boundAtShiftVrtEdg, SubsetHandler &amp;sh, Grid &amp;grid, Vertex *const &amp;crossPt, std::vector&lt; IndexType &gt; const &amp;subdomList)</td></tr>
+<tr class="separator:a98baf1156ddf931518fb8cff5d3d33c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ce7030603883b1c7e8bca37b43349d1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a1ce7030603883b1c7e8bca37b43349d1">ug::determineOrderOfFaces</a> (VecVertFracTrip const &amp;vecVertFracTrip, VecFace const &amp;assoFaces, VecVertexOfFaceInfo &amp;orderedFaces, SegmentsFractExtrus &amp;segments, IndexType startIndex, std::vector&lt; Edge * &gt; const &amp;allAssoEdges, SubsetHandler &amp;sh, Grid::EdgeAttachmentAccessor&lt; ABool &gt; const &amp;aaMarkEdgeB, std::vector&lt; Edge * &gt; const &amp;adjBndEdgs=std::vector&lt; Edge * &gt;(), Face *const &amp;attFaceOf1stBndEdg=nullptr)</td></tr>
+<tr class="separator:a1ce7030603883b1c7e8bca37b43349d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1d32bcf3e8ae0ad9cf7e964cd4dfe4e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#ae1d32bcf3e8ae0ad9cf7e964cd4dfe4e">ug::ExpandFractures2dArte</a> (Grid &amp;grid, SubsetHandler &amp;sh, vector&lt; FractureInfo &gt; const &amp;fracInfos, bool expandInnerFracBnds, bool expandOuterFracBnds)</td></tr>
 <tr class="separator:ae1d32bcf3e8ae0ad9cf7e964cd4dfe4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2698a76d1f6ccd5cec223ed7f608efb9"><td class="memTemplParams" colspan="2">template&lt;typename ASOF &gt; </td></tr>
 <tr class="memitem:a2698a76d1f6ccd5cec223ed7f608efb9"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug.html#a2698a76d1f6ccd5cec223ed7f608efb9">ug::expandSingleFractureAtGivenSide</a> (vector3 const &amp;nOne, vector3 const &amp;nTwo, Edge *edgeOne, Edge *edgeTwo, Face *facOne, Face *facTwo, vector&lt; FractureInfo &gt; const &amp;fracInfosBySubset, vector3 const &amp;posOldVrt, Grid::VertexAttachmentAccessor&lt; APosition &gt; &amp;aaPos, Grid &amp;grid, SubsetHandler &amp;sh, ASOF const &amp;assoFaces, std::vector&lt; Vertex * &gt; const &amp;nextFracVrt, Grid::FaceAttachmentAccessor&lt; AttVrtVec &gt; &amp;aaVrtVecFace, int &amp;dbg_flachen_passiert, Vertex *iterV)</td></tr>
 <tr class="separator:a2698a76d1f6ccd5cec223ed7f608efb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54aad73d3b8169e562a3cb14a70f253b"><td class="memTemplParams" colspan="2">template&lt;typename ASOF &gt; </td></tr>
+<tr class="memitem:a54aad73d3b8169e562a3cb14a70f253b"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug.html#a54aad73d3b8169e562a3cb14a70f253b">ug::expandSingleFractureAtGivenSide</a> (vector3 const &amp;nOne, vector3 const &amp;nTwo, Edge *edgeOne, Edge *edgeTwo, Face *facOne, Face *facTwo, vector&lt; FractureInfo &gt; const &amp;fracInfosBySubset, vector3 const &amp;posOldVrt, Grid::VertexAttachmentAccessor&lt; APosition &gt; &amp;aaPos, Grid &amp;grid, SubsetHandler &amp;sh, ASOF const &amp;assoFaces, std::vector&lt; Vertex * &gt; const &amp;nextFracVrt, Grid::FaceAttachmentAccessor&lt; AttVrtVec &gt; &amp;aaVrtVecFace, int &amp;dbg_flachen_passiert, Vertex *iterV, CrossVertInf &amp;crossVrtInf, bool insertCrossVrtInf=true)</td></tr>
+<tr class="separator:a54aad73d3b8169e562a3cb14a70f253b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a064048f58c197b314b26cbf994c76c3b"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a064048f58c197b314b26cbf994c76c3b"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug.html#a064048f58c197b314b26cbf994c76c3b">ug::expandSingleFractureAtGivenSide&lt; VecVertexOfFaceInfo &gt;</a> (vector3 const &amp;nOne, vector3 const &amp;nTwo, Edge *edgeOne, Edge *edgeTwo, Face *facOne, Face *facTwo, vector&lt; FractureInfo &gt; const &amp;fracInfosBySubset, vector3 const &amp;posOldVrt, Grid::VertexAttachmentAccessor&lt; APosition &gt; &amp;aaPos, Grid &amp;grid, SubsetHandler &amp;sh, VecVertexOfFaceInfo const &amp;segPart, std::vector&lt; Vertex * &gt; const &amp;nextFracVrt, Grid::FaceAttachmentAccessor&lt; AttVrtVec &gt; &amp;aaVrtVecFace, int &amp;dbg_flachen_passiert, Vertex *crossPt, CrossVertInf &amp;crossVrtInf, bool insertCrossVrtInf)</td></tr>
+<tr class="separator:a064048f58c197b314b26cbf994c76c3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f26ddd17c869f94b32e9893751cd6dd"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a6f26ddd17c869f94b32e9893751cd6dd"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug.html#a6f26ddd17c869f94b32e9893751cd6dd">ug::expandSingleFractureAtGivenSide&lt; VecVertexOfFaceInfo &gt;</a> (vector3 const &amp;nOne, vector3 const &amp;nTwo, Edge *edgeOne, Edge *edgeTwo, Face *facOne, Face *facTwo, vector&lt; FractureInfo &gt; const &amp;fracInfosBySubset, vector3 const &amp;posOldVrt, Grid::VertexAttachmentAccessor&lt; APosition &gt; &amp;aaPos, Grid &amp;grid, SubsetHandler &amp;sh, VecVertexOfFaceInfo const &amp;segPart, std::vector&lt; Vertex * &gt; const &amp;nextFracVrt, Grid::FaceAttachmentAccessor&lt; AttVrtVec &gt; &amp;aaVrtVecFace, int &amp;dbg_flachen_passiert, Vertex *iterV)</td></tr>
+<tr class="separator:a6f26ddd17c869f94b32e9893751cd6dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a113a6cc532d15d4c38c386b04b114107"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a113a6cc532d15d4c38c386b04b114107">ug::SortFaces4DiamondCreation</a> (SubsetHandler &amp;sh, std::vector&lt; Face * &gt; &amp;assoFacCrossCop, Edge *&amp;firstEdgeFac, Edge *&amp;secondEdgeFac, Face *&amp;assoFacConsider, VecEdge const &amp;origFracEdg, std::vector&lt; Vertex * &gt; const &amp;shiftVrtcs, Vertex *const &amp;crossPt, Edge *&amp;assoFacEdgBeg2Fix, Edge *&amp;assoFacEdgEnd2Fix, Grid &amp;grid, VecExpandCrossFracInfo &amp;vecExpCrossFI, bool isXCross=true)</td></tr>
+<tr class="separator:a113a6cc532d15d4c38c386b04b114107"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a866f9f217e7af2c9d51767c7f0e6c33f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a866f9f217e7af2c9d51767c7f0e6c33f">ug::teachAssoFacesNewVrtx</a> (VecVertexOfFaceInfo const &amp;segPart, Grid::FaceAttachmentAccessor&lt; AttVrtVec &gt; &amp;aaVrtVecFace, Vertex *const &amp;crossPt, Vertex *const &amp;newShiftVrtx)</td></tr>
+<tr class="separator:a866f9f217e7af2c9d51767c7f0e6c33f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a9e5b69b4f6708eb0c5a548666cd27a35"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e5b69b4f6708eb0c5a548666cd27a35">&#9670;&nbsp;</a></span>ANSCHAULICH_ERZEUGE_SUDOS_ANHANG</h2>
+<a id="a022d524dd55c5b7ea80f3878fad3a6d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a022d524dd55c5b7ea80f3878fad3a6d8">&#9670;&nbsp;</a></span>ESTABLISH_DEBUG_SUDOS</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ANSCHAULICH_ERZEUGE_SUDOS_ANHANG&#160;&#160;&#160;0</td>
+          <td class="memname">#define ESTABLISH_DEBUG_SUDOS&#160;&#160;&#160;0</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a35416ccba08b6c442faad42a986af699"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35416ccba08b6c442faad42a986af699">&#9670;&nbsp;</a></span>NOTLOESUNG_EINSCHALTEN_SEGFAULT_CREATE_VERTEX</h2>
+<a id="a8b73d76b7f7fa7fa6bed6ef32e33c8e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b73d76b7f7fa7fa6bed6ef32e33c8e3">&#9670;&nbsp;</a></span>FORMER_PROMESH_FINITE_CLEFT_TECHNIQUE</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define NOTLOESUNG_EINSCHALTEN_SEGFAULT_CREATE_VERTEX&#160;&#160;&#160;1</td>
+          <td class="memname">#define FORMER_PROMESH_FINITE_CLEFT_TECHNIQUE&#160;&#160;&#160;0</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a3a6e11904d382f2e235d6407824a9aad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a6e11904d382f2e235d6407824a9aad">&#9670;&nbsp;</a></span>OLD_PROFREITER_STUFF</h2>
+<a id="a793cdeee217687ca5604aae97523b870"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a793cdeee217687ca5604aae97523b870">&#9670;&nbsp;</a></span>WORKAROUND_ARTE_SEGFAULT</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define OLD_PROFREITER_STUFF&#160;&#160;&#160;0</td>
+          <td class="memname">#define WORKAROUND_ARTE_SEGFAULT&#160;&#160;&#160;1</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -196,7 +238,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_9cb5fcd0cbd108e4de7ac968a9e51f3d.html">lib_grid</a></li><li class="navelem"><a class="el" href="dir_8e43e1519d22ef2ce28107ef4364eb7f.html">algorithms</a></li><li class="navelem"><a class="el" href="dir_d6bad38fbca4b6493b829780a61a20e7.html">extrusion</a></li><li class="navelem"><a class="el" href="expand__layers__arte_8cpp.html">expand_layers_arte.cpp</a></li>
-    <li class="footer">Generated on Mon Jul 29 2024 01:04:20 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Aug 5 2024 01:04:50 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

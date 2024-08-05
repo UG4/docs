@@ -1,5 +1,17 @@
 var NAVTREEINDEX8 =
 {
+"classug_1_1_anisotropic_balance_weights.html#aa3442354ef474c26cf7161880d04de0a":[3,0,4,31,15],
+"classug_1_1_anisotropic_balance_weights.html#aa95eb6f91f9340c71c950742081831c4":[3,0,4,31,12],
+"classug_1_1_anisotropic_balance_weights.html#ab2fb888928bcb8dff989f64e87673d24":[3,0,4,31,13],
+"classug_1_1_anisotropic_balance_weights.html#abebb0a282a177934318b3ec2c9860949":[3,0,4,31,10],
+"classug_1_1_anisotropic_balance_weights.html#ac33d911967b7900aeb2e37d34e4f1cf2":[3,0,4,31,5],
+"classug_1_1_anisotropic_balance_weights.html#acb4a75ca4d599d82f87c59337beb0635":[3,0,4,31,6],
+"classug_1_1_anisotropic_balance_weights.html#adaf016a7cce9d777a3d1f54b30dbe245":[3,0,4,31,2],
+"classug_1_1_anisotropic_balance_weights.html#add01b39d2c5680f60f2001e6860d0c62":[3,0,4,31,7],
+"classug_1_1_approximation_space.html":[3,0,4,33],
+"classug_1_1_approximation_space.html#a14d787e98793f17726a8ffd569caa2ca":[3,0,4,33,2],
+"classug_1_1_approximation_space.html#a5b7827fa4ae50c2f25a484edd8f53e36":[3,0,4,33,1],
+"classug_1_1_approximation_space.html#a5da706ec6e543aa06d674ae8b602647e":[3,0,4,33,8],
 "classug_1_1_approximation_space.html#a84ab0dbd5defbde276130baf44ee676d":[3,0,4,33,6],
 "classug_1_1_approximation_space.html#a99a09de994b9ba84d0a4d87b2cd2ac4c":[3,0,4,33,5],
 "classug_1_1_approximation_space.html#aa6d8b4e6037235376bad36eaddbcba2b":[3,0,4,33,3],
@@ -237,17 +249,5 @@ var NAVTREEINDEX8 =
 "classug_1_1_assembling_tuner.html#ad0515381611202dda0331fc9b78a2f39":[3,0,4,41,48],
 "classug_1_1_assembling_tuner.html#ad602f20f276c60deeff7d27abde2d103":[3,0,4,41,33],
 "classug_1_1_assembling_tuner.html#add743fe024f90fe0405b33fadf54a9e3":[3,0,4,41,21],
-"classug_1_1_assembling_tuner.html#adef2b29e2fd92f6f18f0d84ff2dce904":[3,0,4,41,25],
-"classug_1_1_assembling_tuner.html#ae2dc8a0fce6be04094b54af0e7abd743":[3,0,4,41,35],
-"classug_1_1_assembling_tuner.html#af269f561a3da8cd3b6a360d6868e8338":[3,0,4,41,8],
-"classug_1_1_assembling_tuner.html#af296961269f108877900de2cb2131423":[3,0,4,41,12],
-"classug_1_1_assembling_tuner.html#afe3e830310b32522721df0be2df01255":[3,0,4,41,44],
-"classug_1_1_assoc_elem_iter.html":[3,0,4,42],
-"classug_1_1_assoc_elem_iter.html#a0dba55fdd9c592f7f162f65ba8016f24":[3,0,4,42,12],
-"classug_1_1_assoc_elem_iter.html#a0e557ca3187c3e02d1a3a63d32fb3f8f":[3,0,4,42,1],
-"classug_1_1_assoc_elem_iter.html#a1ea0e5bb15184991ca75001467599c68":[3,0,4,42,8],
-"classug_1_1_assoc_elem_iter.html#a274336402a72e3f54b3889fdea11123c":[3,0,4,42,11],
-"classug_1_1_assoc_elem_iter.html#a39191c9c810bde9d38bedba41ca35a8a":[3,0,4,42,9],
-"classug_1_1_assoc_elem_iter.html#a460f05cf97e0b75ddf63fac0fb1606c9":[3,0,4,42,3],
-"classug_1_1_assoc_elem_iter.html#a4654cb5e5c45e64b246b5afc5b754e67":[3,0,4,42,5]
+"classug_1_1_assembling_tuner.html#adef2b29e2fd92f6f18f0d84ff2dce904":[3,0,4,41,25]
 };
