@@ -1,12 +1,5 @@
 var NAVTREEINDEX154 =
 {
-"structug_1_1_neumann_boundary_f_v_1_1_number_data.html#ab104c19b01fed7c02154eebbc6be6db0":[3,0,4,960,1,1],
-"structug_1_1_neumann_boundary_f_v_1_1_number_data.html#adf353972eef5530eeddd6140411b8323":[3,0,4,960,1,5],
-"structug_1_1_neumann_boundary_f_v_1_1_number_data.html#ae00cef8ee3de9542832304b43c93c5e7":[3,0,4,960,1,7],
-"structug_1_1_neumann_boundary_f_v_1_1_number_data.html#aec75edad4991a9b9ff5d26bf304f840a":[3,0,4,960,1,6],
-"structug_1_1_neumann_boundary_f_v_1_1_number_data.html#af3b738a8033056d3753923c40ef1d191":[3,0,4,960,1,8],
-"structug_1_1_neumann_boundary_f_v_1_1_vector_data.html":[3,0,4,960,2],
-"structug_1_1_neumann_boundary_f_v_1_1_vector_data.html#a1ee8a517d0fb6cbe4a33acb476717722":[3,0,4,960,2,0],
 "structug_1_1_neumann_boundary_f_v_1_1_vector_data.html#aeab095146ec7218c17f061cf90f750b2":[3,0,4,960,2,1],
 "structug_1_1_neurite_projector_1_1_b_p_projection_helper.html":[3,0,4,962,0],
 "structug_1_1_neurite_projector_1_1_b_p_projection_helper.html#a185511eddd52629ba6e36ded44ae3f89":[3,0,4,962,0,0],
@@ -249,5 +242,12 @@ var NAVTREEINDEX154 =
 "structug_1_1_slice_index_view_1_1iterator.html":[3,0,4,1137,0],
 "structug_1_1_slice_index_view_1_1iterator.html#a2f6fdc0e83fd8a41b291ed056155e8a1":[3,0,4,1137,0,5],
 "structug_1_1_slice_index_view_1_1iterator.html#a44b15cfe8da7c1905f64be222ba6cab1":[3,0,4,1137,0,0],
-"structug_1_1_slice_index_view_1_1iterator.html#a863c531418dcc6997fa40e7109967463":[3,0,4,1137,0,3]
+"structug_1_1_slice_index_view_1_1iterator.html#a863c531418dcc6997fa40e7109967463":[3,0,4,1137,0,3],
+"structug_1_1_slice_index_view_1_1iterator.html#ab10eb2410be6e60e7bdbdc18b5cc8d9c":[3,0,4,1137,0,4],
+"structug_1_1_slice_index_view_1_1iterator.html#acb566e33a6979a134e0141ff795777b8":[3,0,4,1137,0,1],
+"structug_1_1_slice_index_view_1_1iterator.html#ae28c44efce016e85a2a7dc3619296c7e":[3,0,4,1137,0,2],
+"structug_1_1_sort_vertex_pos.html":[3,0,4,1146],
+"structug_1_1_sort_vertex_pos.html#a0446cea319371022a7e5b3e11bbabb7e":[3,0,4,1146,0],
+"structug_1_1_sort_vertex_pos.html#a4400c9afd8bd3c42c7d0288126bfa8c7":[3,0,4,1146,4],
+"structug_1_1_sort_vertex_pos.html#a6e169167fe31089139f37e19463e6ef8":[3,0,4,1146,2]
 };

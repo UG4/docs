@@ -27,6 +27,7 @@ var math__vector__functions__common__impl_8hpp =
     [ "VecElemSqrt", "math__vector__functions__common__impl_8hpp.html#af2d5439ada724109438ac34334472bf9", null ],
     [ "VecInftyNorm", "math__vector__functions__common__impl_8hpp.html#gaf2a76e41d7de66eee216ad1ad0eaa447", null ],
     [ "VecInterpolateLinear", "math__vector__functions__common__impl_8hpp.html#gae4e5784610945b34f533db1efc9b474d", null ],
+    [ "VecIsInBB", "math__vector__functions__common__impl_8hpp.html#a026570fa2c2ff577621f668ca4240bbe", null ],
     [ "VecLength", "math__vector__functions__common__impl_8hpp.html#ga017412e0fb3129d2584d77125e692faf", null ],
     [ "VecLengthSq", "math__vector__functions__common__impl_8hpp.html#ga8a0f6280634ba5cd82c4b01ff5302f65", null ],
     [ "VecMaxNorm", "math__vector__functions__common__impl_8hpp.html#ga0a71526a9cdc1ef96ec5c68da7c2cbf9", null ],

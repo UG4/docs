@@ -5349,6 +5349,7 @@ var namespaceug =
     [ "VecHadamardProd", "namespaceug.html#a2a9aaf8418494bc674a777ea1879630a", null ],
     [ "VecInftyNorm", "group__vectors.html#gaf2a76e41d7de66eee216ad1ad0eaa447", null ],
     [ "VecInterpolateLinear", "group__vectors.html#gae4e5784610945b34f533db1efc9b474d", null ],
+    [ "VecIsInBB", "namespaceug.html#a026570fa2c2ff577621f668ca4240bbe", null ],
     [ "VecLength", "group__vectors.html#ga017412e0fb3129d2584d77125e692faf", null ],
     [ "VecLengthSq", "group__vectors.html#ga8a0f6280634ba5cd82c4b01ff5302f65", null ],
     [ "VecLog", "namespaceug.html#a9c50eaad7d84889add3d6b4e05b1e287", null ],

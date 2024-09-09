@@ -1,12 +1,5 @@
 var NAVTREEINDEX161 =
 {
-"structug_1_1lua__traits_3_01void_01_4.html#a57a5307d4970e7f3c641d2070c26080d":[3,0,4,853,3],
-"structug_1_1lua__traits_3_01void_01_4.html#a83c61da85f7272cbf5e3722967597093":[3,0,4,853,1],
-"structug_1_1lua__traits_3_01void_01_4.html#abd5a3b7ca9a04b8016aab527c5ff2ecd":[3,0,4,853,4],
-"structug_1_1lua__traits_3_01void_01_4.html#acccd6ad786a9222b2b8a60f2aa04753a":[3,0,4,853,2],
-"structug_1_1lua__traits_3_01void_01_4.html#ae66cea18f569341fa71019ba0058c8b9":[3,0,4,853,6],
-"structug_1_1mat__operations__class.html":[3,0,4,867],
-"structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___g_l_59e5d97d6410f8808a56dc31cf2bc5b3.html":[3,0,4,868],
 "structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___g_l_59e5d97d6410f8808a56dc31cf2bc5b3.html#a1940840fa5545142b1545cb349ce6890":[3,0,4,868,0],
 "structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___g_l_59e5d97d6410f8808a56dc31cf2bc5b3.html#a30c5cf9a75a1d48069fb7db614d3ec3c":[3,0,4,868,2],
 "structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___g_l_59e5d97d6410f8808a56dc31cf2bc5b3.html#a49de6bf81a30598b93edd9fee2b45bdb":[3,0,4,868,1],
@@ -50,8 +43,8 @@ var NAVTREEINDEX161 =
 "structug_1_1matrix__algebra__type__traits_3_01_map_sparse_matrix_3_01_t_01_4_01_4.html#ae043d128d5262b70a576a35a58294672":[1,0,0,10,0],
 "structug_1_1matrix__algebra__type__traits_3_01_matrix_operator_3_01_m_00_01_x_00_01_y_01_4_01_4.html":[3,0,4,895],
 "structug_1_1matrix__algebra__type__traits_3_01_parallel_matrix_3_01_t_01_4_01_4.html":[3,0,4,896],
-"structug_1_1matrix__algebra__type__traits_3_01_sparse_matrix_3_01_t_01_4_01_4.html":[1,0,0,0,4],
 "structug_1_1matrix__algebra__type__traits_3_01_sparse_matrix_3_01_t_01_4_01_4.html":[1,0,0,1,0,4],
+"structug_1_1matrix__algebra__type__traits_3_01_sparse_matrix_3_01_t_01_4_01_4.html":[1,0,0,0,4],
 "structug_1_1node__tree_1_1_collision_element_i_d.html":[3,0,4,4,2],
 "structug_1_1node__tree_1_1_collision_element_i_d.html#a045739c1c729d56d68dc260e10b8a266":[3,0,4,4,2,6],
 "structug_1_1node__tree_1_1_collision_element_i_d.html#a7509b420d46f2d31c4d24ca20b4451c3":[3,0,4,4,2,2],
@@ -249,5 +242,12 @@ var NAVTREEINDEX161 =
 "structyy__buffer__state.html#a451d39697f006f3922c1f43cf79286b4":[3,0,43,4],
 "structyy__buffer__state.html#a4843d1422e3276b636d475a3095bd948":[3,0,43,8],
 "structyy__buffer__state.html#a58aa927f098b99d99e75da80f9b681ef":[3,0,43,3],
-"structyy__buffer__state.html#a63d2afbb1d79a3fc63df9e12626f827d":[3,0,43,7]
+"structyy__buffer__state.html#a63d2afbb1d79a3fc63df9e12626f827d":[3,0,43,7],
+"structyy__buffer__state.html#a70fd925d37a2f0454fbd0def675d106c":[3,0,43,5],
+"structyy__buffer__state.html#a80ce2431c70dc4f89ced487f18449465":[3,0,43,10],
+"structyy__buffer__state.html#a818e94bc9c766e683c60df1e9fd01199":[3,0,43,2],
+"structyy__buffer__state.html#a9d60c60af6e1a6f69de16871fd64f85f":[3,0,43,0],
+"structyy__buffer__state.html#abf5c70eea75581b58c0ee7bd31b14490":[3,0,43,9],
+"structyy__buffer__state.html#ad7b8df8d8a4688e57b0b8d3ca75adc85":[3,0,43,6],
+"structyy__trans__info.html":[3,0,44]
 };

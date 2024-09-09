@@ -8622,7 +8622,7 @@ Functions</h2></td></tr>
 <tr class="memitem:gaf3ea8ef355a6d10f4ca0f25767fe031f"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__ugbase__mathutil.html#gaf3ea8ef355a6d10f4ca0f25767fe031f">LineSphereIntersection</a> (<a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> &amp;s1Out, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> &amp;s2Out, const vector_t &amp;v1, const vector_t &amp;v2, const vector_t &amp;center, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> radius)</td></tr>
 <tr class="separator:gaf3ea8ef355a6d10f4ca0f25767fe031f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga85d8819fc34a36031729ae38faa669f5"><td class="memTemplParams" colspan="2">template&lt;typename TDomain &gt; </td></tr>
-<tr class="memitem:ga85d8819fc34a36031729ae38faa669f5"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__domain__bridge.html#ga85d8819fc34a36031729ae38faa669f5">LoadAndRefineDomain</a> (TDomain &amp;domain, const char *filename, int <a class="elRef" href="../plugins/example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a>)</td></tr>
+<tr class="memitem:ga85d8819fc34a36031729ae38faa669f5"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__domain__bridge.html#ga85d8819fc34a36031729ae38faa669f5">LoadAndRefineDomain</a> (TDomain &amp;domain, const char *filename, int <a class="elRef" href="../plugins/_parameter_estimation_2example_2example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a>)</td></tr>
 <tr class="separator:ga85d8819fc34a36031729ae38faa669f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37d6393a98d309e10a9578749b6514e7"><td class="memItemLeft" align="right" valign="top">template void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html#a37d6393a98d309e10a9578749b6514e7">LoadDomain&lt; Domain1d &gt;</a> (<a class="el" href="group__lib__disc__domain.html#ga78016743e7f566f7a1f4c55ce3a9ec8c">Domain1d</a> &amp;domain, const char *filename)</td></tr>
 <tr class="separator:a37d6393a98d309e10a9578749b6514e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -11762,6 +11762,10 @@ Functions</h2></td></tr>
 <tr class="memitem:gae4e5784610945b34f533db1efc9b474d"><td class="memTemplParams" colspan="2">template&lt;typename vector_t &gt; </td></tr>
 <tr class="memitem:gae4e5784610945b34f533db1efc9b474d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__vectors.html#gae4e5784610945b34f533db1efc9b474d">VecInterpolateLinear</a> (vector_t &amp;vOut, const vector_t &amp;v1, const vector_t &amp;v2, typename <a class="el" href="sparsematrix__interface_8h.html#a265a253612b46abed17c61b0a5e5ce30">vector_t::value_type</a> interpAmount)</td></tr>
 <tr class="separator:gae4e5784610945b34f533db1efc9b474d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a026570fa2c2ff577621f668ca4240bbe"><td class="memTemplParams" colspan="2">template&lt;typename vector_t &gt; </td></tr>
+<tr class="memitem:a026570fa2c2ff577621f668ca4240bbe"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug.html#a026570fa2c2ff577621f668ca4240bbe">VecIsInBB</a> (const vector_t &amp;v, const vector_t &amp;low, const vector_t &amp;high)</td></tr>
+<tr class="memdesc:a026570fa2c2ff577621f668ca4240bbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks if the given point is in the bounding box given by two other points  <a href="namespaceug.html#a026570fa2c2ff577621f668ca4240bbe">More...</a><br /></td></tr>
+<tr class="separator:a026570fa2c2ff577621f668ca4240bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga017412e0fb3129d2584d77125e692faf"><td class="memTemplParams" colspan="2">template&lt;typename vector_t &gt; </td></tr>
 <tr class="memitem:ga017412e0fb3129d2584d77125e692faf"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="sparsematrix__interface_8h.html#a265a253612b46abed17c61b0a5e5ce30">vector_t::value_type</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__vectors.html#ga017412e0fb3129d2584d77125e692faf">VecLength</a> (const vector_t &amp;v)</td></tr>
 <tr class="memdesc:ga017412e0fb3129d2584d77125e692faf"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the length of v. Slower than VecLengthSq.  <a href="group__vectors.html#ga017412e0fb3129d2584d77125e692faf">More...</a><br /></td></tr>
@@ -54875,7 +54879,7 @@ template&lt;typename TVector &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="group__ugbase__common.html#ga0b928ef153b78f1b5e025638cf28f841">UG_ASSERT</a>, and <a class="el" href="group__vectors.html#ga385f702a22b3b6236e783b2bc014f87f">VecScaleAdd()</a>.</p>
+<p class="reference">References <a class="elRef" href="../plugins/henry-enumath_8lua.html#af449517c06c97b61d9f9c9bd735c6708">frac</a>, <a class="el" href="group__ugbase__common.html#ga0b928ef153b78f1b5e025638cf28f841">UG_ASSERT</a>, and <a class="el" href="group__vectors.html#ga385f702a22b3b6236e783b2bc014f87f">VecScaleAdd()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classug_1_1_sym_p1_constraints.html#ae2b4c08c54541a3a96dd4d5494557ad9">ug::SymP1Constraints&lt; TDomain, TAlgebra &gt;::adjust_solution()</a>, and <a class="el" href="classug_1_1_one_side_p1_constraints.html#a899ebb6a311b41f2c714264ff036ef6e">ug::OneSideP1Constraints&lt; TDomain, TAlgebra &gt;::adjust_solution()</a>.</p>
 
@@ -62816,7 +62820,7 @@ template&lt;typename TDomain , typename TAlgebra &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>the fraction of the residual error in marked elements compared to the total residual error. </dd></dl>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000015">Todo:</a></b></dt><dd>: Add coarsenFrac and apply coarsen-marks, too. </dd></dl>
 
-<p class="reference">References <a class="el" href="classpcl_1_1_process_communicator.html#a708b02efa2d765daae9fee02b7b60000">pcl::ProcessCommunicator::allreduce()</a>, <a class="el" href="classug_1_1_grid_function.html#a323d3e25aa6922cdb86335222e145f0a">ug::GridFunction&lt; TDomain, TAlgebra &gt;::domain()</a>, <a class="el" href="namespaceug.html#a01f09849bdcb1c8f1ef3102a2e0f27f5">EvaluateResidualErrorP1()</a>, <a class="el" href="classug_1_1_i_refiner.html#afa35acc01f60036ea35980c66ee0304c">ug::IRefiner::get_mark()</a>, <a class="el" href="namespaceug.html#a42eb3cd1483805f402483228e1fb69c8">MarkElementsAbsolute()</a>, <a class="el" href="group__pcl.html#ga23ba716caa4857afe6a36d2a6065ea8a">PCL_RO_SUM</a>, <a class="el" href="profiler_8h.html#acb22c3b80068351d2edad7f6e910a7f9">PROFILE_FUNC</a>, <a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209abefa6bbea02a794135acedbccd2f632b">RM_ANISOTROPIC</a>, <a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a84ff78cd530af7d6e3d7662f46c9a618">RM_REFINE</a>, and <a class="el" href="group__ugbase__mathutil.html#ga55d1e59da37b9c8fa87988f6ccef20cc">sq()</a>.</p>
+<p class="reference">References <a class="el" href="classpcl_1_1_process_communicator.html#a708b02efa2d765daae9fee02b7b60000">pcl::ProcessCommunicator::allreduce()</a>, <a class="el" href="classug_1_1_grid_function.html#a323d3e25aa6922cdb86335222e145f0a">ug::GridFunction&lt; TDomain, TAlgebra &gt;::domain()</a>, <a class="el" href="namespaceug.html#a01f09849bdcb1c8f1ef3102a2e0f27f5">EvaluateResidualErrorP1()</a>, <a class="elRef" href="../plugins/henry-enumath_8lua.html#af449517c06c97b61d9f9c9bd735c6708">frac</a>, <a class="el" href="classug_1_1_i_refiner.html#afa35acc01f60036ea35980c66ee0304c">ug::IRefiner::get_mark()</a>, <a class="el" href="namespaceug.html#a42eb3cd1483805f402483228e1fb69c8">MarkElementsAbsolute()</a>, <a class="el" href="group__pcl.html#ga23ba716caa4857afe6a36d2a6065ea8a">PCL_RO_SUM</a>, <a class="el" href="profiler_8h.html#acb22c3b80068351d2edad7f6e910a7f9">PROFILE_FUNC</a>, <a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209abefa6bbea02a794135acedbccd2f632b">RM_ANISOTROPIC</a>, <a class="el" href="group__lib__grid__algorithms__refinement.html#ggaca4c9dab184a59fc18ae86d72288c209a84ff78cd530af7d6e3d7662f46c9a618">RM_REFINE</a>, and <a class="el" href="group__ugbase__mathutil.html#ga55d1e59da37b9c8fa87988f6ccef20cc">sq()</a>.</p>
 
 </div>
 </div>
@@ -80769,7 +80773,7 @@ template&lt;typename TMatrix &gt; </div>
 
 <p>sets a matrix row corresponding to averaging the constrained index </p>
 
-<p class="reference">References <a class="el" href="group__lib__algebra.html#gabf276745a13b918814ff59f9a9607eca">SetRow()</a>, and <a class="el" href="group__ugbase__common.html#ga0b928ef153b78f1b5e025638cf28f841">UG_ASSERT</a>.</p>
+<p class="reference">References <a class="elRef" href="../plugins/henry-enumath_8lua.html#af449517c06c97b61d9f9c9bd735c6708">frac</a>, <a class="el" href="group__lib__algebra.html#gabf276745a13b918814ff59f9a9607eca">SetRow()</a>, and <a class="el" href="group__ugbase__common.html#ga0b928ef153b78f1b5e025638cf28f841">UG_ASSERT</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classug_1_1_sym_p1_constraints.html#a33d9231c9b5083b046c444cf7fc08abc">ug::SymP1Constraints&lt; TDomain, TAlgebra &gt;::adjust_jacobian()</a>, <a class="el" href="classug_1_1_one_side_p1_constraints.html#a3b5d9bde0d2b4e7855a03adf9cc673b9">ug::OneSideP1Constraints&lt; TDomain, TAlgebra &gt;::adjust_jacobian()</a>, <a class="el" href="classug_1_1_sym_p1_constraints.html#ab0bc4f197315a85153b99a1e72b8c230">ug::SymP1Constraints&lt; TDomain, TAlgebra &gt;::adjust_linear()</a>, and <a class="el" href="classug_1_1_one_side_p1_constraints.html#adc643010e105b23335213e3649ba111a">ug::OneSideP1Constraints&lt; TDomain, TAlgebra &gt;::adjust_linear()</a>.</p>
 
@@ -83437,7 +83441,7 @@ template&lt;typename TVector &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="group__ugbase__common.html#ga0b928ef153b78f1b5e025638cf28f841">UG_ASSERT</a>.</p>
+<p class="reference">References <a class="elRef" href="../plugins/henry-enumath_8lua.html#af449517c06c97b61d9f9c9bd735c6708">frac</a>, and <a class="el" href="group__ugbase__common.html#ga0b928ef153b78f1b5e025638cf28f841">UG_ASSERT</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classug_1_1_sym_p1_constraints.html#a1a354973058ff779ec67b2ef2180b3ad">ug::SymP1Constraints&lt; TDomain, TAlgebra &gt;::adjust_defect()</a>, <a class="el" href="classug_1_1_sym_p1_constraints.html#ab0bc4f197315a85153b99a1e72b8c230">ug::SymP1Constraints&lt; TDomain, TAlgebra &gt;::adjust_linear()</a>, and <a class="el" href="classug_1_1_sym_p1_constraints.html#a2e4f0c700e4b17c0485ff612c0c5d3ad">ug::SymP1Constraints&lt; TDomain, TAlgebra &gt;::adjust_rhs()</a>.</p>
 
@@ -83477,7 +83481,7 @@ template&lt;typename TMatrix &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="group__ugbase__common.html#ga0b928ef153b78f1b5e025638cf28f841">UG_ASSERT</a>.</p>
+<p class="reference">References <a class="elRef" href="../plugins/henry-enumath_8lua.html#af449517c06c97b61d9f9c9bd735c6708">frac</a>, and <a class="el" href="group__ugbase__common.html#ga0b928ef153b78f1b5e025638cf28f841">UG_ASSERT</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classug_1_1_one_side_p1_constraints.html#a3b5d9bde0d2b4e7855a03adf9cc673b9">ug::OneSideP1Constraints&lt; TDomain, TAlgebra &gt;::adjust_jacobian()</a>, and <a class="el" href="classug_1_1_one_side_p1_constraints.html#adc643010e105b23335213e3649ba111a">ug::OneSideP1Constraints&lt; TDomain, TAlgebra &gt;::adjust_linear()</a>.</p>
 
@@ -83517,7 +83521,7 @@ template&lt;typename TMatrix &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespaceug.html#a7405db84d59e2fb44d64fcaebca18454">BlockRef()</a>, <a class="el" href="namespaceug.html#a28505c00901b4dfa87cb8e43a738078f">DoFRef()</a>, <a class="el" href="namespaceug.html#a0c4cb807306f9392d69c0ec416e3718b">GetCols()</a>, and <a class="el" href="group__ugbase__common.html#ga0b928ef153b78f1b5e025638cf28f841">UG_ASSERT</a>.</p>
+<p class="reference">References <a class="el" href="namespaceug.html#a7405db84d59e2fb44d64fcaebca18454">BlockRef()</a>, <a class="el" href="namespaceug.html#a28505c00901b4dfa87cb8e43a738078f">DoFRef()</a>, <a class="elRef" href="../plugins/henry-enumath_8lua.html#af449517c06c97b61d9f9c9bd735c6708">frac</a>, <a class="el" href="namespaceug.html#a0c4cb807306f9392d69c0ec416e3718b">GetCols()</a>, and <a class="el" href="group__ugbase__common.html#ga0b928ef153b78f1b5e025638cf28f841">UG_ASSERT</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classug_1_1_sym_p1_constraints.html#a33d9231c9b5083b046c444cf7fc08abc">ug::SymP1Constraints&lt; TDomain, TAlgebra &gt;::adjust_jacobian()</a>, and <a class="el" href="classug_1_1_sym_p1_constraints.html#ab0bc4f197315a85153b99a1e72b8c230">ug::SymP1Constraints&lt; TDomain, TAlgebra &gt;::adjust_linear()</a>.</p>
 
@@ -87624,6 +87628,52 @@ template&lt;typename vector_t &gt; </div>
 
 </div>
 </div>
+<a id="a026570fa2c2ff577621f668ca4240bbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a026570fa2c2ff577621f668ca4240bbe">&#9670;&nbsp;</a></span>VecIsInBB()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename vector_t &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ug::VecIsInBB </td>
+          <td>(</td>
+          <td class="paramtype">const vector_t &amp;&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const vector_t &amp;&#160;</td>
+          <td class="paramname"><em>low</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const vector_t &amp;&#160;</td>
+          <td class="paramname"><em>high</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>checks if the given point is in the bounding box given by two other points </p>
+
+</div>
+</div>
 <a id="a9c50eaad7d84889add3d6b4e05b1e287"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9c50eaad7d84889add3d6b4e05b1e287">&#9670;&nbsp;</a></span>VecLog() <span class="overload">[1/3]</span></h2>
 
@@ -90827,7 +90877,7 @@ template&lt;typename TGridFunction , int trueDim&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="namespaceug.html#aa9c5a3b2bcffa230dbeed54b7fbc5d62">CopySelected()</a>, <a class="el" href="classug_1_1_function_group.html#a3d03f461ba3566f7b41bcf534f5c220e">ug::FunctionGroup::function_pattern()</a>, <a class="el" href="smart__pointer_8h.html#a8ba0055baeb80cdf31c501403f7f302f">make_sp()</a>, <a class="el" href="classug_1_1_function_group.html#a53abecf5a01b4aeb30b239942b955076">ug::FunctionGroup::name()</a>, <a class="elRef" href="../plugins/example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a>, <a class="elRef" href="../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a>, <a class="el" href="classug_1_1_i_selector.html#a363d594b7adf4196fccc0d6afd24f542">ug::ISelector::select()</a>, <a class="el" href="classug_1_1_function_group.html#a96a7f9539f619e76c56cdb9b56208ec4">ug::FunctionGroup::size()</a>, <a class="el" href="classug_1_1_subset_group.html#a94df9ed7e52055ca077c3727c2e69991">ug::SubsetGroup::size()</a>, <a class="el" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>, <a class="el" href="classug_1_1_function_group.html#a720c245e7a1b92d75bc21f365bec97c8">ug::FunctionGroup::unique_id()</a>, and <a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13ca82c85a54f294f9a7576aedbffafbbe38">VERTEX</a>.</p>
+<p class="reference">References <a class="el" href="namespaceug.html#aa9c5a3b2bcffa230dbeed54b7fbc5d62">CopySelected()</a>, <a class="el" href="classug_1_1_function_group.html#a3d03f461ba3566f7b41bcf534f5c220e">ug::FunctionGroup::function_pattern()</a>, <a class="el" href="smart__pointer_8h.html#a8ba0055baeb80cdf31c501403f7f302f">make_sp()</a>, <a class="el" href="classug_1_1_function_group.html#a53abecf5a01b4aeb30b239942b955076">ug::FunctionGroup::name()</a>, <a class="elRef" href="../plugins/_parameter_estimation_2example_2example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a>, <a class="elRef" href="../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a>, <a class="el" href="classug_1_1_i_selector.html#a363d594b7adf4196fccc0d6afd24f542">ug::ISelector::select()</a>, <a class="el" href="classug_1_1_function_group.html#a96a7f9539f619e76c56cdb9b56208ec4">ug::FunctionGroup::size()</a>, <a class="el" href="classug_1_1_subset_group.html#a94df9ed7e52055ca077c3727c2e69991">ug::SubsetGroup::size()</a>, <a class="el" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>, <a class="el" href="classug_1_1_function_group.html#a720c245e7a1b92d75bc21f365bec97c8">ug::FunctionGroup::unique_id()</a>, and <a class="el" href="namespaceug.html#aa6080d1386c107c8bd602be84495c13ca82c85a54f294f9a7576aedbffafbbe38">VERTEX</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="namespaceug.html#a0ae68735a22c668fd7377c699c29eaff">vtk_export_ho()</a>.</p>
 
@@ -93307,7 +93357,7 @@ template&lt;class TFunction &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li>
-    <li class="footer">Generated on Mon Sep 2 2024 01:07:41 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Sep 9 2024 01:08:19 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

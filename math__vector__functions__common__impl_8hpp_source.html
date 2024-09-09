@@ -740,10 +740,21 @@ $(document).ready(function(){initNavTree('math__vector__functions__common__impl_
 <div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;}</div>
 <div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160; </div>
-<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;}<span class="comment">// end of namespace</span></div>
-<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160; </div>
-<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* __H__COMMON__MathVector_FUNCTIONS_COMMON_IMPL__ */</span><span class="preprocessor"></span></div>
-<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160; </div>
+<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> vector_t&gt;</div>
+<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;<span class="keyword">inline</span></div>
+<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;<span class="keywordtype">bool</span></div>
+<div class="line"><a name="l00701"></a><span class="lineno"><a class="line" href="namespaceug.html#a026570fa2c2ff577621f668ca4240bbe">  701</a></span>&#160;<a class="code" href="namespaceug.html#a026570fa2c2ff577621f668ca4240bbe">VecIsInBB</a>(<span class="keyword">const</span> vector_t&amp; v, <span class="keyword">const</span> vector_t&amp; low, <span class="keyword">const</span> vector_t&amp; high)</div>
+<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;{</div>
+<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;  <span class="keywordflow">for</span>(<span class="keyword">typename</span> vector_t::size_type i = 0; i &lt; v.size(); ++i)</div>
+<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;    <span class="keywordflow">if</span> (v[i] &lt; low[i] || high[i] &lt; v[i])</div>
+<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;}</div>
+<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160; </div>
+<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;}<span class="comment">// end of namespace</span></div>
+<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160; </div>
+<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* __H__COMMON__MathVector_FUNCTIONS_COMMON_IMPL__ */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160; </div>
 <div class="ttc" id="a_biogas_8lua_html_a57f1028d958bb73c4e3c64e2077342fc"><div class="ttname"><a href="../plugins/_biogas_8lua.html#a57f1028d958bb73c4e3c64e2077342fc">p</a></div><div class="ttdeci">parameterString p</div></div>
 <div class="ttc" id="a_biogas_8lua_html_a9dda901d5ee6289370201a700f88e789"><div class="ttname"><a href="../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a></div><div class="ttdeci">parameterString s</div></div>
 <div class="ttc" id="aassert_8h_html"><div class="ttname"><a href="assert_8h.html">assert.h</a></div></div>
@@ -784,6 +795,7 @@ $(document).ready(function(){initNavTree('math__vector__functions__common__impl_
 <div class="ttc" id="anamespaceboost_html_aadf83b7df21b3edff92a05274c0d9eac"><div class="ttname"><a href="namespaceboost.html#aadf83b7df21b3edff92a05274c0d9eac">boost::target</a></div><div class="ttdeci">size_t target(SM_edge&lt; typename T::value_type &gt; const &amp;e, ug::BidirectionalMatrix&lt; T &gt; const &amp;m)</div><div class="ttdef"><b>Definition:</b> bidirectional_boost.h:100</div></div>
 <div class="ttc" id="anamespaceboost_html_ad9a310ae133d69a214cf287a62f9c12c"><div class="ttname"><a href="namespaceboost.html#ad9a310ae133d69a214cf287a62f9c12c">boost::source</a></div><div class="ttdeci">size_t source(SM_edge&lt; typename T::value_type &gt; const &amp;e, ug::BidirectionalMatrix&lt; T &gt; const &amp;)</div><div class="ttdef"><b>Definition:</b> bidirectional_boost.h:94</div></div>
 <div class="ttc" id="anamespaceug_html"><div class="ttname"><a href="namespaceug.html">ug</a></div><div class="ttdoc">the ug namespace</div></div>
+<div class="ttc" id="anamespaceug_html_a026570fa2c2ff577621f668ca4240bbe"><div class="ttname"><a href="namespaceug.html#a026570fa2c2ff577621f668ca4240bbe">ug::VecIsInBB</a></div><div class="ttdeci">bool VecIsInBB(const vector_t &amp;v, const vector_t &amp;low, const vector_t &amp;high)</div><div class="ttdoc">checks if the given point is in the bounding box given by two other points</div><div class="ttdef"><b>Definition:</b> math_vector_functions_common_impl.hpp:701</div></div>
 <div class="ttc" id="anamespaceug_html_a305d18187d8fdd00a1fd6fb58534f1fc"><div class="ttname"><a href="namespaceug.html#a305d18187d8fdd00a1fd6fb58534f1fc">ug::PI</a></div><div class="ttdeci">const number PI</div><div class="ttdef"><b>Definition:</b> math_constants.h:45</div></div>
 <div class="ttc" id="anamespaceug_html_a416f767a52a88930cf1a947eaa772ac4"><div class="ttname"><a href="namespaceug.html#a416f767a52a88930cf1a947eaa772ac4">ug::GenVecCross&lt; 2 &gt;</a></div><div class="ttdeci">void GenVecCross&lt; 2 &gt;(MathVector&lt; 2 &gt; &amp;result, const MathVector&lt; 2 &gt; &amp;v_1, const MathVector&lt; 2 &gt; &amp;v_2)</div><div class="ttdoc">specialization of the &quot;generalized vector product&quot; in 2d.</div><div class="ttdef"><b>Definition:</b> math_vector_functions_common_impl.hpp:477</div></div>
 <div class="ttc" id="anamespaceug_html_aadc7da9154a8c302d1cc92bed6aae1ea"><div class="ttname"><a href="namespaceug.html#aadc7da9154a8c302d1cc92bed6aae1ea">ug::GenVecCross&lt; 3 &gt;</a></div><div class="ttdeci">void GenVecCross&lt; 3 &gt;(MathVector&lt; 3 &gt; &amp;result, const MathVector&lt; 3 &gt; &amp;v_1, const MathVector&lt; 3 &gt; &amp;v_2)</div><div class="ttdoc">specialization of the &quot;generalized vector product&quot; in 3d.</div><div class="ttdef"><b>Definition:</b> math_vector_functions_common_impl.hpp:489</div></div>
@@ -798,7 +810,7 @@ $(document).ready(function(){initNavTree('math__vector__functions__common__impl_
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_8c26a127a0eea13c4724b5310584fbab.html">common</a></li><li class="navelem"><a class="el" href="dir_817b18b71fa2d632e06f13379ca310cd.html">math</a></li><li class="navelem"><a class="el" href="dir_d750b7fbb03e176f268476e5e60b7a37.html">math_vector_matrix</a></li><li class="navelem"><a class="el" href="math__vector__functions__common__impl_8hpp.html">math_vector_functions_common_impl.hpp</a></li>
-    <li class="footer">Generated on Mon Sep 2 2024 01:07:24 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Sep 9 2024 01:08:01 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

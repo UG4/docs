@@ -1,12 +1,5 @@
 var NAVTREEINDEX152 =
 {
-"structug_1_1_factory_1_1_class_info.html#ac7ef130d5caff8bb557bfffbbcb1160a":[3,0,4,348,0,1],
-"structug_1_1_fracture_info.html":[3,0,4,375],
-"structug_1_1_fracture_info.html#a5465ade20ad9748fdba0e5670857354b":[3,0,4,375,2],
-"structug_1_1_fracture_info.html#a5947a7e53902c431d15fa1a0c5871e50":[3,0,4,375,0],
-"structug_1_1_fracture_info.html#a8555b7819268c97ac20d8caa39fd1b33":[3,0,4,375,1],
-"structug_1_1_fracture_info.html#ac4b6d760573c1527279ba818690f3be0":[3,0,4,375,3],
-"structug_1_1_function_pattern_1_1_function.html":[3,0,4,379,0],
 "structug_1_1_function_pattern_1_1_function.html#a11127341708b77c96265e82e79431d68":[3,0,4,379,0,4],
 "structug_1_1_function_pattern_1_1_function.html#a1f4de18cd4e31d31cd1e3915cc976aaf":[3,0,4,379,0,0],
 "structug_1_1_function_pattern_1_1_function.html#a35c68ccc12b40759c28e5adf76b6ae40":[3,0,4,379,0,1],
@@ -249,5 +242,12 @@ var NAVTREEINDEX152 =
 "structug_1_1_ind_cmp.html#a75327c0f60dde61e7c4bdce7e703cafd":[3,0,4,725,2],
 "structug_1_1_inner_boundary_constants.html":[3,0,4,728],
 "structug_1_1_inner_boundary_constants.html#ae92177d2a88a9d20aa45ec308c1990a6":[3,0,4,728,0],
-"structug_1_1_inner_boundary_flux_cond.html":[3,0,4,729]
+"structug_1_1_inner_boundary_flux_cond.html":[3,0,4,729],
+"structug_1_1_inner_boundary_flux_cond.html#a6d530d00bae735df2aa9730a2236c90a":[3,0,4,729,1],
+"structug_1_1_inner_boundary_flux_cond.html#a6f2ef9b908bf00bd3225e30e71f8303b":[3,0,4,729,0],
+"structug_1_1_inner_boundary_flux_cond.html#a8d3f5855238ea12a6ef150350623ca53":[3,0,4,729,2],
+"structug_1_1_inner_boundary_flux_deriv_cond.html":[3,0,4,730],
+"structug_1_1_inner_boundary_flux_deriv_cond.html#a34b1194bb8fc12435cbdb32bb1c8d017":[3,0,4,730,1],
+"structug_1_1_inner_boundary_flux_deriv_cond.html#ab814958e69823768ee67fd2bc6810d42":[3,0,4,730,0],
+"structug_1_1_inner_boundary_flux_deriv_cond.html#ae0b5f8c3da763663c7ad46d765197520":[3,0,4,730,2]
 };

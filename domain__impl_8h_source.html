@@ -153,8 +153,8 @@ $(document).ready(function(){initNavTree('domain__impl_8h_source.html',''); init
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> TGr<span class="keywordtype">id</span>, <span class="keyword">typename</span> TSubsetHandler&gt;</div>
 <div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="group__lib__disc__domain.html#ga5cb855c4e088fcd36a87fb723502e8cf">   61</a></span>&#160;<a class="code" href="group__lib__disc__domain.html#ga5cb855c4e088fcd36a87fb723502e8cf">IDomain&lt;TGrid,TSubsetHandler&gt;::IDomain</a>(<span class="keywordtype">bool</span> isAdaptive)</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  :</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  m_spGrid(new TGrid(<a class="code" href="group__lib__grid.html#gga724c038eb958956818bf64b9d7c70ceba9a2391db39b3d5c4286ceee7ced3bbaa">GRIDOPT_NONE</a>)),  <span class="comment">// Note: actual options are set by the derived class (dimension dependent).</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  m_spSH(new TSubsetHandler(*m_spGrid)),</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  m_spGrid(<a class="codeRef" href="../plugins/unsat__flow__util_8lua.html#af90b68fab5a4b3975fa3f601b4730569">new</a> TGrid(<a class="code" href="group__lib__grid.html#gga724c038eb958956818bf64b9d7c70ceba9a2391db39b3d5c4286ceee7ced3bbaa">GRIDOPT_NONE</a>)),  <span class="comment">// Note: actual options are set by the derived class (dimension dependent).</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  m_spSH(<a class="codeRef" href="../plugins/unsat__flow__util_8lua.html#af90b68fab5a4b3975fa3f601b4730569">new</a> TSubsetHandler(*m_spGrid)),</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  m_isAdaptive(isAdaptive),</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  m_adaptionIsActive(false)</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;{</div>
@@ -898,13 +898,14 @@ $(document).ready(function(){initNavTree('domain__impl_8h_source.html',''); init
 <div class="ttc" id="aprofiler_8h_html_acb22c3b80068351d2edad7f6e910a7f9"><div class="ttname"><a href="profiler_8h.html#acb22c3b80068351d2edad7f6e910a7f9">PROFILE_FUNC</a></div><div class="ttdeci">#define PROFILE_FUNC()</div><div class="ttdef"><b>Definition:</b> profiler.h:257</div></div>
 <div class="ttc" id="aprojectors_8h_html"><div class="ttname"><a href="projectors_8h.html">projectors.h</a></div></div>
 <div class="ttc" id="asmart__pointer_8h_html_a8ba0055baeb80cdf31c501403f7f302f"><div class="ttname"><a href="smart__pointer_8h.html#a8ba0055baeb80cdf31c501403f7f302f">make_sp</a></div><div class="ttdeci">SmartPtr&lt; T, FreePolicy &gt; make_sp(T *inst)</div><div class="ttdoc">returns a SmartPtr for the passed raw pointer</div><div class="ttdef"><b>Definition:</b> smart_pointer.h:836</div></div>
+<div class="ttc" id="aunsat__flow__util_8lua_html_af90b68fab5a4b3975fa3f601b4730569"><div class="ttname"><a href="../plugins/unsat__flow__util_8lua.html#af90b68fab5a4b3975fa3f601b4730569">new</a></div><div class="ttdeci">function ProblemDisc new(problemDesc, dom)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_df0e37446a9fd4242d0753cd346d4a6c.html">lib_disc</a></li><li class="navelem"><a class="el" href="domain__impl_8h.html">domain_impl.h</a></li>
-    <li class="footer">Generated on Mon Sep 2 2024 01:07:29 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Sep 9 2024 01:08:06 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

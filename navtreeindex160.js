@@ -1,12 +1,5 @@
 var NAVTREEINDEX160 =
 {
-"structug_1_1grid__dim__traits_3_010_01_4.html#a1b937bdd9c24820a655bf702d88f4122":[3,0,4,582,3],
-"structug_1_1grid__dim__traits_3_010_01_4.html#a3165b49721ec04df61a500c6e8194e35":[3,0,4,582,0],
-"structug_1_1grid__dim__traits_3_010_01_4.html#a6dc80c9f71e609dcaa41aff754e38898":[3,0,4,582,2],
-"structug_1_1grid__dim__traits_3_010_01_4.html#a7a293b9d98c00cb6e023cbdeb75c44b4":[3,0,4,582,5],
-"structug_1_1grid__dim__traits_3_010_01_4.html#a9370aad8fbcd16e6fba32a7d40677754":[3,0,4,582,4],
-"structug_1_1grid__dim__traits_3_010_01_4.html#aacbf66961b6bfae02c7e5a09b77ba87c":[3,0,4,582,1],
-"structug_1_1grid__dim__traits_3_010_01_4.html#af0153794631c38e3b67e516691f5d21e":[3,0,4,582,6],
 "structug_1_1grid__dim__traits_3_011_01_4.html":[3,0,4,583],
 "structug_1_1grid__dim__traits_3_011_01_4.html#a0ed1401acd9e0387ed6b1a5121f7cd9a":[3,0,4,583,4],
 "structug_1_1grid__dim__traits_3_011_01_4.html#a0f3f404722b6d122d37695c367f769be":[3,0,4,583,5],
@@ -249,5 +242,12 @@ var NAVTREEINDEX160 =
 "structug_1_1lua__traits_3_01ug_1_1_math_vector_3_01dim_01_4_01_4.html#ae41f5aa0cc676f3957aa5fe2e2c91b3d":[3,0,4,852,0],
 "structug_1_1lua__traits_3_01void_01_4.html":[3,0,4,853],
 "structug_1_1lua__traits_3_01void_01_4.html#a0fb14a8f25b0a3f4ee095661940bf275":[3,0,4,853,5],
-"structug_1_1lua__traits_3_01void_01_4.html#a5469ab25afaa8c76028d65f58e28dee4":[3,0,4,853,0]
+"structug_1_1lua__traits_3_01void_01_4.html#a5469ab25afaa8c76028d65f58e28dee4":[3,0,4,853,0],
+"structug_1_1lua__traits_3_01void_01_4.html#a57a5307d4970e7f3c641d2070c26080d":[3,0,4,853,3],
+"structug_1_1lua__traits_3_01void_01_4.html#a83c61da85f7272cbf5e3722967597093":[3,0,4,853,1],
+"structug_1_1lua__traits_3_01void_01_4.html#abd5a3b7ca9a04b8016aab527c5ff2ecd":[3,0,4,853,4],
+"structug_1_1lua__traits_3_01void_01_4.html#acccd6ad786a9222b2b8a60f2aa04753a":[3,0,4,853,2],
+"structug_1_1lua__traits_3_01void_01_4.html#ae66cea18f569341fa71019ba0058c8b9":[3,0,4,853,6],
+"structug_1_1mat__operations__class.html":[3,0,4,867],
+"structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___g_l_59e5d97d6410f8808a56dc31cf2bc5b3.html":[3,0,4,868]
 };

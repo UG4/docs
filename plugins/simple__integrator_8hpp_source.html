@@ -117,7 +117,7 @@ $(document).ready(function(){initNavTree('simple__integrator_8hpp_source.html','
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  <span class="comment">// constructor</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classug_1_1_simple_time_integrator.html#a1e693c4ba7317efeca54bfb58bb302bb">   24</a></span>&#160;  <a class="code" href="classug_1_1_simple_time_integrator.html#a1e693c4ba7317efeca54bfb58bb302bb">SimpleTimeIntegrator</a> (<a class="codeRef" href="../class_smart_ptr.html">SmartPtr&lt;time_disc_type&gt;</a> tDisc)</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  : <a class="code" href="classug_1_1_i_nonlinear_time_integrator.html">base_type</a>(), <a class="code" href="classug_1_1_i_time_disc_dependent_object.html">ITimeDiscDependentObject</a>&lt;TAlgebra&gt;(tDisc),</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <a class="code" href="classug_1_1_simple_time_integrator.html#ad6fdb79be3d5801b6e511796d29e3404">m_spBanachSpace</a>(new <a class="codeRef" href="../classug_1_1_algebraic_space.html">AlgebraicSpace</a>&lt;<a class="code" href="classug_1_1_simple_time_integrator.html#ac62f8628db7323f87e8f8c309227195c">grid_function_type</a>&gt;() ),</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <a class="code" href="classug_1_1_simple_time_integrator.html#ad6fdb79be3d5801b6e511796d29e3404">m_spBanachSpace</a>(<a class="code" href="unsat__flow__util_8lua.html#af90b68fab5a4b3975fa3f601b4730569">new</a> <a class="codeRef" href="../classug_1_1_algebraic_space.html">AlgebraicSpace</a>&lt;<a class="code" href="classug_1_1_simple_time_integrator.html#ac62f8628db7323f87e8f8c309227195c">grid_function_type</a>&gt;() ),</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <a class="code" href="classug_1_1_simple_time_integrator.html#a77bd109378a4c0528cd8668d64150f8d">m_spDerivative</a>(<a class="codeRef" href="../group__ugbase__common__util.html#gaaf72bcd4f74729e4a43694267e8590d8">SPNULL</a>), <a class="code" href="classug_1_1_simple_time_integrator.html#ae3417253d1e0f3f3a8a1f59db555f9ef">m_initial_consistency_error</a>(0.0)</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  {}</div>
@@ -482,13 +482,14 @@ $(document).ready(function(){initNavTree('simple__integrator_8hpp_source.html','
 <div class="ttc" id="anamespaceug_html"><div class="ttname"><a href="namespaceug.html">ug</a></div></div>
 <div class="ttc" id="anamespaceug_html_ae90b4d90c57cdd200947b53401dd7f54"><div class="ttname"><a href="../namespaceug.html#ae90b4d90c57cdd200947b53401dd7f54">ug::VecScaleAdd</a></div><div class="ttdeci">void VecScaleAdd(double &amp;dest, double alpha1, const double &amp;v1, double alpha2, const double &amp;v2)</div></div>
 <div class="ttc" id="asmart__pointer_8h_html_a8ba0055baeb80cdf31c501403f7f302f"><div class="ttname"><a href="../smart__pointer_8h.html#a8ba0055baeb80cdf31c501403f7f302f">make_sp</a></div><div class="ttdeci">SmartPtr&lt; T, FreePolicy &gt; make_sp(T *inst)</div></div>
+<div class="ttc" id="aunsat__flow__util_8lua_html_af90b68fab5a4b3975fa3f601b4730569"><div class="ttname"><a href="unsat__flow__util_8lua.html#af90b68fab5a4b3975fa3f601b4730569">new</a></div><div class="ttdeci">function ProblemDisc new(problemDesc, dom)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_38c8d24aef3972a7f87b834274e76e31.html">plugins</a></li><li class="navelem"><a class="el" href="dir_ddbc46a4ddd0bdb2290ac7ec55089202.html">Limex</a></li><li class="navelem"><a class="el" href="dir_ab7bc6756ff89c3050aed546c30ef6cf.html">time_disc</a></li><li class="navelem"><a class="el" href="simple__integrator_8hpp.html">simple_integrator.hpp</a></li>
-    <li class="footer">Generated on Mon Sep 2 2024 01:06:54 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Sep 9 2024 01:07:31 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

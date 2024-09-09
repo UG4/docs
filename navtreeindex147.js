@@ -1,12 +1,5 @@
 var NAVTREEINDEX147 =
 {
-"selection__util_8cpp.html#a680b62b1868294ee1fcde790acf3355b":[4,0,2,6,0,69,39],
-"selection__util_8cpp.html#a68e0855f02ab7a23b312592a3e6ef415":[4,0,2,6,0,69,26],
-"selection__util_8cpp.html#a7087b4598474e7397787217c9daea969":[4,0,2,6,0,69,17],
-"selection__util_8cpp.html#a78638a7a9b781d1b6dff30d69dd88915":[4,0,2,6,0,69,9],
-"selection__util_8cpp.html#a7b11b739e27c9a0cd47f7f30f3c5c8b4":[4,0,2,6,0,69,1],
-"selection__util_8cpp.html#a8e30abae2bb35f1f55cd95c5129d9c0f":[4,0,2,6,0,69,36],
-"selection__util_8cpp.html#a8fa7e12077cdb8b8308c53199bf05769":[4,0,2,6,0,69,14],
 "selection__util_8cpp.html#a9a4299d25cf803c80ba962b64c0a0047":[4,0,2,6,0,69,30],
 "selection__util_8cpp.html#ab7f52d9c11a8be3c31acadee2088475f":[4,0,2,6,0,69,35],
 "selection__util_8cpp.html#abf60b88d952efa5301de4ad79e3620e3":[4,0,2,6,0,69,6],
@@ -249,5 +242,12 @@ var NAVTREEINDEX147 =
 "small__algebra_2additional__math_8h.html#a2b53b2968380379166d41bbb00ea88db":[4,0,2,4,12,4,11],
 "small__algebra_2additional__math_8h.html#a2d6e5ed04b5cb6fbaeee162f3b20c270":[4,0,2,4,12,4,15],
 "small__algebra_2additional__math_8h.html#a4a3a8ddc1718a9bf3ddcecb34593672c":[4,0,2,4,12,4,1],
-"small__algebra_2additional__math_8h.html#a4fa423b68c485dc0bc893639a4f7f321":[4,0,2,4,12,4,14]
+"small__algebra_2additional__math_8h.html#a4fa423b68c485dc0bc893639a4f7f321":[4,0,2,4,12,4,14],
+"small__algebra_2additional__math_8h.html#a54e2cac6c329fcebe9d41cf4c299672d":[4,0,2,4,12,4,8],
+"small__algebra_2additional__math_8h.html#a554c2e66984899176b5448bb132ddb34":[4,0,2,4,12,4,13],
+"small__algebra_2additional__math_8h.html#a5ada04780255e5952586d347630dafa3":[4,0,2,4,12,4,19],
+"small__algebra_2additional__math_8h.html#a6f66f6b97ef32e3556bece0ca55f4b62":[4,0,2,4,12,4,10],
+"small__algebra_2additional__math_8h.html#a70ae7f8fbe447f7ea535dd426c566079":[4,0,2,4,12,4,7],
+"small__algebra_2additional__math_8h.html#a95e63af34155e9b9b25f6236ffd70ae8":[4,0,2,4,12,4,17],
+"small__algebra_2additional__math_8h.html#a95fd362b24275b6cbff4833d272de186":[4,0,2,4,12,4,16]
 };

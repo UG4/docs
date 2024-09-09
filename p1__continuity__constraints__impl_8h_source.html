@@ -163,9 +163,9 @@ $(document).ready(function(){initNavTree('p1__continuity__constraints__impl_8h_s
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  <span class="comment">//  This is only required if assembling for a linear problem.</span></div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordflow">if</span> (assembleLinearProblem)</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    {</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;      <span class="keyword">const</span> <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> frac = -1.0/(vConstrainingIndex.size());</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;      <span class="keyword">const</span> <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> <a class="codeRef" href="../plugins/henry-enumath_8lua.html#af449517c06c97b61d9f9c9bd735c6708">frac</a> = -1.0/(vConstrainingIndex.size());</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;      <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> j=0; j &lt; vConstrainingIndex.size(); ++j)</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        A(ai, vConstrainingIndex[j][i]) = frac;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        A(ai, vConstrainingIndex[j][i]) = <a class="codeRef" href="../plugins/henry-enumath_8lua.html#af449517c06c97b61d9f9c9bd735c6708">frac</a>;</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    }</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  }</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;}</div>
@@ -183,7 +183,7 @@ $(document).ready(function(){initNavTree('p1__continuity__constraints__impl_8h_s
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;          <span class="stringliteral">&quot;Wrong number of indices.&quot;</span>);</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="comment">//  scaling factor</span></div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;  <span class="keyword">const</span> <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> frac = 1./(vConstrainingIndex.size());</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;  <span class="keyword">const</span> <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> <a class="codeRef" href="../plugins/henry-enumath_8lua.html#af449517c06c97b61d9f9c9bd735c6708">frac</a> = 1./(vConstrainingIndex.size());</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="comment">//  loop constrained indices</span></div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i = 0; i &lt; constrainedIndex.size(); ++i)</div>
@@ -196,7 +196,7 @@ $(document).ready(function(){initNavTree('p1__continuity__constraints__impl_8h_s
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160; </div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;  <span class="comment">//  add equally from all constraining indices</span></div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> j=0; j &lt; vConstrainingIndex.size(); ++j)</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;      <a class="code" href="group__vectors.html#ga385f702a22b3b6236e783b2bc014f87f">VecScaleAdd</a>(val, 1.0, val, frac, u[vConstrainingIndex[j][i]]);</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;      <a class="code" href="group__vectors.html#ga385f702a22b3b6236e783b2bc014f87f">VecScaleAdd</a>(val, 1.0, val, <a class="codeRef" href="../plugins/henry-enumath_8lua.html#af449517c06c97b61d9f9c9bd735c6708">frac</a>, u[vConstrainingIndex[j][i]]);</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;      <span class="comment">//val += frac * u[vConstrainingIndex[j][i]];</span></div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  }</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;}</div>
@@ -220,7 +220,7 @@ $(document).ready(function(){initNavTree('p1__continuity__constraints__impl_8h_s
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;          <span class="stringliteral">&quot;Wrong number of indices.&quot;</span>);</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160; </div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<span class="comment">//  scaling factor</span></div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;  <span class="keyword">const</span> <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> frac = 1.0 / nConstrg;</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;  <span class="keyword">const</span> <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> <a class="codeRef" href="../plugins/henry-enumath_8lua.html#af449517c06c97b61d9f9c9bd735c6708">frac</a> = 1.0 / nConstrg;</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160; </div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;<span class="comment">//  handle each constrained index</span></div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i = 0; i &lt; constrainedIndex.size(); ++i)</div>
@@ -233,7 +233,7 @@ $(document).ready(function(){initNavTree('p1__continuity__constraints__impl_8h_s
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    block_type diagEntry = A(algInd, algInd);</div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160; </div>
 <div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;  <span class="comment">//  scale by weight</span></div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    diagEntry *= frac*frac;</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    diagEntry *= <a class="codeRef" href="../plugins/henry-enumath_8lua.html#af449517c06c97b61d9f9c9bd735c6708">frac</a>*<a class="codeRef" href="../plugins/henry-enumath_8lua.html#af449517c06c97b61d9f9c9bd735c6708">frac</a>;</div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160; </div>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;  <span class="comment">//  add coupling constrained dof -&gt; constrained dof</span></div>
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> k = 0; k &lt; vConstrainingIndex.size(); ++k)</div>
@@ -250,7 +250,7 @@ $(document).ready(function(){initNavTree('p1__continuity__constraints__impl_8h_s
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;      <span class="stringliteral">&quot;Number of block cols and number of constrained DoFs in hanging vertex not equal.&quot;</span>);</div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> blockIndConn = 0; blockIndConn &lt; nBlockCols; ++blockIndConn)</div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    {</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;      <span class="keyword">const</span> <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> val = <a class="code" href="namespaceug.html#a7405db84d59e2fb44d64fcaebca18454">BlockRef</a>(block, blockInd, blockIndConn) * frac*frac;</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;      <span class="keyword">const</span> <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> val = <a class="code" href="namespaceug.html#a7405db84d59e2fb44d64fcaebca18454">BlockRef</a>(block, blockInd, blockIndConn) * <a class="codeRef" href="../plugins/henry-enumath_8lua.html#af449517c06c97b61d9f9c9bd735c6708">frac</a>*<a class="codeRef" href="../plugins/henry-enumath_8lua.html#af449517c06c97b61d9f9c9bd735c6708">frac</a>;</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> k = 0; k &lt; nConstrg; ++k)</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> m = 0; m &lt; nConstrg; ++m)</div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;          <a class="code" href="namespaceug.html#a28505c00901b4dfa87cb8e43a738078f">DoFRef</a>(A, vConstrainingIndex[k][i], vConstrainingIndex[m][blockIndConn]) += val;</div>
@@ -274,8 +274,8 @@ $(document).ready(function(){initNavTree('p1__continuity__constraints__impl_8h_s
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;      block_type blockT = A(algIndConn, algInd);</div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160; </div>
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    <span class="comment">//  multiply the cpl value by the inverse number of constraining</span></div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;      block *= frac;</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;      blockT *= frac;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;      block *= <a class="codeRef" href="../plugins/henry-enumath_8lua.html#af449517c06c97b61d9f9c9bd735c6708">frac</a>;</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;      blockT *= <a class="codeRef" href="../plugins/henry-enumath_8lua.html#af449517c06c97b61d9f9c9bd735c6708">frac</a>;</div>
 <div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160; </div>
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <span class="comment">//  add the coupling to the constraining indices rows</span></div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> k = 0; k &lt; nConstrg; ++k)</div>
@@ -310,7 +310,7 @@ $(document).ready(function(){initNavTree('p1__continuity__constraints__impl_8h_s
 <div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;          <span class="stringliteral">&quot;Wrong number of indices.&quot;</span>);</div>
 <div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160; </div>
 <div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;<span class="comment">//  scaling factor</span></div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;  <span class="keyword">const</span> <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> frac = 1./(vConstrainingIndex.size());</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;  <span class="keyword">const</span> <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> <a class="codeRef" href="../plugins/henry-enumath_8lua.html#af449517c06c97b61d9f9c9bd735c6708">frac</a> = 1./(vConstrainingIndex.size());</div>
 <div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160; </div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i = 0; i &lt; constrainedIndex.size(); ++i)</div>
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;  {</div>
@@ -322,7 +322,7 @@ $(document).ready(function(){initNavTree('p1__continuity__constraints__impl_8h_s
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    block_type diagEntry = A(algInd, algInd);</div>
 <div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160; </div>
 <div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;  <span class="comment">//  scale by weight</span></div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    diagEntry *= frac;</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    diagEntry *= <a class="codeRef" href="../plugins/henry-enumath_8lua.html#af449517c06c97b61d9f9c9bd735c6708">frac</a>;</div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160; </div>
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;  <span class="comment">//  add coupling</span></div>
 <div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> k = 0; k &lt; vConstrainingIndex.size(); ++k)</div>
@@ -343,7 +343,7 @@ $(document).ready(function(){initNavTree('p1__continuity__constraints__impl_8h_s
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;      <span class="keyword">const</span> block_type block = conn.value();</div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;      block_type blockT = A(algIndConn, algInd);</div>
 <div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160; </div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;      blockT *= frac;</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;      blockT *= <a class="codeRef" href="../plugins/henry-enumath_8lua.html#af449517c06c97b61d9f9c9bd735c6708">frac</a>;</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160; </div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    <span class="comment">//  add the coupling to the constraining indices rows</span></div>
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;      <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> k = 0; k &lt; vConstrainingIndex.size(); ++k)</div>
@@ -373,7 +373,7 @@ $(document).ready(function(){initNavTree('p1__continuity__constraints__impl_8h_s
 <div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;          <span class="stringliteral">&quot;Wrong number of indices.&quot;</span>);</div>
 <div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160; </div>
 <div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;<span class="comment">//  scaling factor</span></div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;  <span class="keyword">const</span> <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> frac = 1./(vConstrainingIndex.size());</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;  <span class="keyword">const</span> <a class="code" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> <a class="codeRef" href="../plugins/henry-enumath_8lua.html#af449517c06c97b61d9f9c9bd735c6708">frac</a> = 1./(vConstrainingIndex.size());</div>
 <div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160; </div>
 <div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;<span class="comment">//  loop constrained indices</span></div>
 <div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i = 0; i &lt; constrainedIndex.size(); ++i)</div>
@@ -381,7 +381,7 @@ $(document).ready(function(){initNavTree('p1__continuity__constraints__impl_8h_s
 <div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;  <span class="comment">//  get constrained rhs</span></div>
 <div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;  <span class="comment">//  modify block directly since set to zero afterwards</span></div>
 <div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    block_type&amp; val = rhs[constrainedIndex[i]];</div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    val *= frac;</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    val *= <a class="codeRef" href="../plugins/henry-enumath_8lua.html#af449517c06c97b61d9f9c9bd735c6708">frac</a>;</div>
 <div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160; </div>
 <div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;  <span class="comment">//  split equally on all constraining indices</span></div>
 <div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> j=0; j &lt; vConstrainingIndex.size(); ++j)</div>
@@ -1249,6 +1249,7 @@ $(document).ready(function(){initNavTree('p1__continuity__constraints__impl_8h_s
 <div class="ttc" id="agroup__ugbase__common_html_gaf0ce958f12c62aa44c231a700b830374"><div class="ttname"><a href="group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a></div><div class="ttdeci">#define UG_COND_THROW(cond, msg)</div><div class="ttdoc">UG_COND_THROW(cond, msg) : performs a UG_THROW(msg) if cond == true.</div><div class="ttdef"><b>Definition:</b> error.h:61</div></div>
 <div class="ttc" id="agroup__ugbase__common_html_gaf349a0d1e8189254086eb3267fd4f460"><div class="ttname"><a href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a></div><div class="ttdeci">double number</div><div class="ttdef"><b>Definition:</b> types.h:124</div></div>
 <div class="ttc" id="agroup__vectors_html_ga385f702a22b3b6236e783b2bc014f87f"><div class="ttname"><a href="group__vectors.html#ga385f702a22b3b6236e783b2bc014f87f">ug::VecScaleAdd</a></div><div class="ttdeci">void VecScaleAdd(vector_t &amp;vOut, typename vector_t::value_type s1, const vector_t &amp;v1, typename vector_t::value_type s2, const vector_t &amp;v2)</div><div class="ttdoc">Scales two Vectors, adds them and returns the sum in a third vector.</div><div class="ttdef"><b>Definition:</b> math_vector_functions_common_impl.hpp:265</div></div>
+<div class="ttc" id="ahenry-enumath_8lua_html_af449517c06c97b61d9f9c9bd735c6708"><div class="ttname"><a href="../plugins/henry-enumath_8lua.html#af449517c06c97b61d9f9c9bd735c6708">frac</a></div><div class="ttdeci">parameterNumber frac</div></div>
 <div class="ttc" id="anamespaceug_html"><div class="ttname"><a href="namespaceug.html">ug</a></div><div class="ttdoc">the ug namespace</div></div>
 <div class="ttc" id="anamespaceug_html_a0c4cb807306f9392d69c0ec416e3718b"><div class="ttname"><a href="namespaceug.html#a0c4cb807306f9392d69c0ec416e3718b">ug::GetCols</a></div><div class="ttdeci">size_t GetCols(const T &amp;t)</div></div>
 <div class="ttc" id="anamespaceug_html_a28505c00901b4dfa87cb8e43a738078f"><div class="ttname"><a href="namespaceug.html#a28505c00901b4dfa87cb8e43a738078f">ug::DoFRef</a></div><div class="ttdeci">number &amp; DoFRef(TMatrix &amp;mat, const DoFIndex &amp;iInd, const DoFIndex &amp;jInd)</div><div class="ttdef"><b>Definition:</b> multi_index.h:276</div></div>
@@ -1273,7 +1274,7 @@ $(document).ready(function(){initNavTree('p1__continuity__constraints__impl_8h_s
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_df0e37446a9fd4242d0753cd346d4a6c.html">lib_disc</a></li><li class="navelem"><a class="el" href="dir_29066d1a823b14ee0b28843282597c5c.html">spatial_disc</a></li><li class="navelem"><a class="el" href="dir_e73f09c7844ac52154aebb46a902ea97.html">constraints</a></li><li class="navelem"><a class="el" href="dir_8b9400a9ed2bf8841207a1b0b6ac6142.html">continuity_constraints</a></li><li class="navelem"><a class="el" href="p1__continuity__constraints__impl_8h.html">p1_continuity_constraints_impl.h</a></li>
-    <li class="footer">Generated on Mon Sep 2 2024 01:07:33 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Sep 9 2024 01:08:10 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

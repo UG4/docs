@@ -772,7 +772,7 @@ $(document).ready(function(){initNavTree('dom__disc__embb_8h_source.html',''); i
 <div class="line"><a name="l00814"></a><span class="lineno">  814</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00816"></a><span class="lineno"><a class="line" href="classug_1_1_l_s_g_f_domain_discretization.html#a619f716a9941527e4ae3ec01e9d4a6c0">  816</a></span>&#160;  <a class="code" href="classug_1_1_l_s_g_f_domain_discretization.html#a619f716a9941527e4ae3ec01e9d4a6c0">LSGFDomainDiscretization</a> (<a class="code" href="class_smart_ptr.html">SmartPtr&lt;approx_space_type&gt;</a> pApproxSpace)</div>
 <div class="line"><a name="l00817"></a><span class="lineno">  817</span>&#160;  :   <a class="code" href="classug_1_1_domain_discretization_base.html">DomainDiscretizationBase</a>&lt;<a class="code" href="classug_1_1_i_interface_extrapolation.html#ac91199ce8c9836cdf3a867cc7de1e6ed">domain_type</a>, <a class="code" href="classug_1_1_i_assemble.html#a0256c1b40a64ac85ba53155566d50fc8">algebra_type</a>, <a class="code" href="classug_1_1_l_s_g_f_glob_assembler.html">gass_type</a>&gt; (pApproxSpace),</div>
-<div class="line"><a name="l00818"></a><span class="lineno">  818</span>&#160;    <a class="code" href="classug_1_1_l_s_g_f_domain_discretization.html#ab03bd48e8d051635bcd0b58f385b05be">m_spLSFGFConstraint</a> (new <a class="code" href="classug_1_1_l_s_g_f_constraint.html">ls_constraint_type</a> (this-&gt;<a class="code" href="classug_1_1_l_s_g_f_glob_assembler.html#ac38ab87a7bcc3f37901a958f3641028e">extrapolation</a> ()))</div>
+<div class="line"><a name="l00818"></a><span class="lineno">  818</span>&#160;    <a class="code" href="classug_1_1_l_s_g_f_domain_discretization.html#ab03bd48e8d051635bcd0b58f385b05be">m_spLSFGFConstraint</a> (<a class="codeRef" href="../plugins/unsat__flow__util_8lua.html#af90b68fab5a4b3975fa3f601b4730569">new</a> <a class="code" href="classug_1_1_l_s_g_f_constraint.html">ls_constraint_type</a> (this-&gt;<a class="code" href="classug_1_1_l_s_g_f_glob_assembler.html#ac38ab87a7bcc3f37901a958f3641028e">extrapolation</a> ()))</div>
 <div class="line"><a name="l00819"></a><span class="lineno">  819</span>&#160;  {</div>
 <div class="line"><a name="l00820"></a><span class="lineno">  820</span>&#160;  <span class="comment">//  register the constraint</span></div>
 <div class="line"><a name="l00821"></a><span class="lineno">  821</span>&#160;    this-&gt;<a class="code" href="classug_1_1_domain_discretization_base.html#a86fac148eee0fb98954199c246760c28">add</a> (<a class="code" href="class_smart_ptr.html">SmartPtr</a>&lt;<a class="code" href="classug_1_1_i_domain_constraint.html">IDomainConstraint&lt;domain_type, algebra_type&gt;</a> &gt; (<a class="code" href="classug_1_1_l_s_g_f_domain_discretization.html#ab03bd48e8d051635bcd0b58f385b05be">m_spLSFGFConstraint</a>));</div>
@@ -1109,6 +1109,7 @@ $(document).ready(function(){initNavTree('dom__disc__embb_8h_source.html',''); i
 <div class="ttc" id="asmart__pointer_8h_html"><div class="ttname"><a href="smart__pointer_8h.html">smart_pointer.h</a></div></div>
 <div class="ttc" id="asmart__pointer_8h_html_a8ba0055baeb80cdf31c501403f7f302f"><div class="ttname"><a href="smart__pointer_8h.html#a8ba0055baeb80cdf31c501403f7f302f">make_sp</a></div><div class="ttdeci">SmartPtr&lt; T, FreePolicy &gt; make_sp(T *inst)</div><div class="ttdoc">returns a SmartPtr for the passed raw pointer</div><div class="ttdef"><b>Definition:</b> smart_pointer.h:836</div></div>
 <div class="ttc" id="astd__injection_8h_html"><div class="ttname"><a href="std__injection_8h.html">std_injection.h</a></div></div>
+<div class="ttc" id="aunsat__flow__util_8lua_html_af90b68fab5a4b3975fa3f601b4730569"><div class="ttname"><a href="../plugins/unsat__flow__util_8lua.html#af90b68fab5a4b3975fa3f601b4730569">new</a></div><div class="ttdeci">function ProblemDisc new(problemDesc, dom)</div></div>
 <div class="ttc" id="autil__algebra__dependent_8h_html"><div class="ttname"><a href="util__algebra__dependent_8h.html">util_algebra_dependent.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -1116,7 +1117,7 @@ $(document).ready(function(){initNavTree('dom__disc__embb_8h_source.html',''); i
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_df0e37446a9fd4242d0753cd346d4a6c.html">lib_disc</a></li><li class="navelem"><a class="el" href="dir_29066d1a823b14ee0b28843282597c5c.html">spatial_disc</a></li><li class="navelem"><a class="el" href="dom__disc__embb_8h.html">dom_disc_embb.h</a></li>
-    <li class="footer">Generated on Mon Sep 2 2024 01:07:34 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Sep 9 2024 01:08:12 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
