@@ -10,5 +10,7 @@ var classug_1_1_composite_grid_function_estimator =
     [ "add", "classug_1_1_composite_grid_function_estimator.html#a42ef35fc599cea1ca79c1fa1404e456b", null ],
     [ "config_string", "classug_1_1_composite_grid_function_estimator.html#aeea9352fd1637139de8ce64b992c74fe", null ],
     [ "update", "classug_1_1_composite_grid_function_estimator.html#a70bb0214a23ff8bb112099cb2b60910c", null ],
-    [ "m_spSubspaces", "classug_1_1_composite_grid_function_estimator.html#a3a5de3d99f14d3c4f06ed7d095e9d653", null ]
+    [ "use_strict_relative_norms", "classug_1_1_composite_grid_function_estimator.html#ac0a8dddda4cf0c68112b78b7702d8b9d", null ],
+    [ "m_spSubspaces", "classug_1_1_composite_grid_function_estimator.html#a3a5de3d99f14d3c4f06ed7d095e9d653", null ],
+    [ "m_strictRelativeError", "classug_1_1_composite_grid_function_estimator.html#a01f796cf4c75677652dda48dcb9ee2d4", null ]
 ];

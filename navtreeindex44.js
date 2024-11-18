@@ -1,5 +1,11 @@
 var NAVTREEINDEX44 =
 {
+"classug_1_1_i_domain_discretization.html#ac0b210a303ce099e2e39c3869ed7267c":[3,0,4,685,12],
+"classug_1_1_i_domain_discretization.html#ac3109a0a3d803fa4a7463f3598f71dd6":[3,0,4,685,38],
+"classug_1_1_i_domain_discretization.html#ac5315981d132489b925ebe5bfb040523":[3,0,4,685,26],
+"classug_1_1_i_domain_discretization.html#acee8ef0008cdee905e3d029d3008101d":[3,0,4,685,18],
+"classug_1_1_i_domain_discretization.html#ad94b305ca963663eeab860e030b9be7f":[3,0,4,685,31],
+"classug_1_1_i_domain_discretization.html#ada9f56007efe562208d3494a40d5c764":[3,0,4,685,8],
 "classug_1_1_i_domain_discretization.html#ae779588ddac31095eb65918bc4ad87e6":[3,0,4,685,1],
 "classug_1_1_i_domain_discretization.html#aeb159be7249aff62c0961cdb4e6dd714":[3,0,4,685,14],
 "classug_1_1_i_domain_discretization.html#aee58ed36a1a115fea5ab2c2dd66ccc55":[3,0,4,685,32],
@@ -243,11 +249,5 @@ var NAVTREEINDEX44 =
 "classug_1_1_i_elem_estimator_funcs.html#a34c1fd98064a4dfdbdc945bd3d3fdbdd":[3,0,4,697,40],
 "classug_1_1_i_elem_estimator_funcs.html#a352953acf6a281ab0a25dad19902e285":[3,0,4,697,14],
 "classug_1_1_i_elem_estimator_funcs.html#a358248d3153179d567f3b1e789ab1eeb":[3,0,4,697,38],
-"classug_1_1_i_elem_estimator_funcs.html#a36555ee7e19ff8d57ad50c9d4a079cae":[3,0,4,697,44],
-"classug_1_1_i_elem_estimator_funcs.html#a365a13a663041b9e7573036cb067657e":[3,0,4,697,17],
-"classug_1_1_i_elem_estimator_funcs.html#a3b13e581e9723ffb55dc7dc110de53ed":[3,0,4,697,22],
-"classug_1_1_i_elem_estimator_funcs.html#a3f9466b5144dcee2fc6a9b8a30470d08":[3,0,4,697,49],
-"classug_1_1_i_elem_estimator_funcs.html#a4799dcdd64d135b57346489faaa99552":[3,0,4,697,25],
-"classug_1_1_i_elem_estimator_funcs.html#a4bc6354c9e2a83bfd930f484990b2522":[3,0,4,697,42],
-"classug_1_1_i_elem_estimator_funcs.html#a4c849b80de84a892e02edf83878cbfc7":[3,0,4,697,30]
+"classug_1_1_i_elem_estimator_funcs.html#a36555ee7e19ff8d57ad50c9d4a079cae":[3,0,4,697,44]
 };

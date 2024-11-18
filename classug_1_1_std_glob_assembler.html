@@ -158,6 +158,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ad7299c4fc7d6f6f03c0167a8397ba5fd"><td class="memTemplParams" colspan="2">template&lt;typename TElem , typename TIterator &gt; </td></tr>
 <tr class="memitem:ad7299c4fc7d6f6f03c0167a8397ba5fd"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_std_glob_assembler.html#ad7299c4fc7d6f6f03c0167a8397ba5fd">FinishTimestepElem</a> (const std::vector&lt; <a class="el" href="classug_1_1_i_elem_disc.html">IElemDisc</a>&lt; <a class="el" href="classug_1_1_std_glob_assembler.html#a9ff44bf00660bff4ae878acd4485322a">domain_type</a> &gt; * &gt; &amp;vElemDisc, <a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_std_glob_assembler.html#a9ff44bf00660bff4ae878acd4485322a">domain_type</a> &gt; spDomain, <a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_do_f_distribution.html">DoFDistribution</a> &gt; dd, TIterator iterBegin, TIterator iterEnd, int si, bool bNonRegularGrid, <a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_vector_time_series.html">VectorTimeSeries</a>&lt; <a class="el" href="classug_1_1_std_glob_assembler.html#a60d23f1cd9da6d35ea28f24d7e3b4098">vector_type</a> &gt; &gt; vSol, <a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_assembling_tuner.html">AssemblingTuner</a>&lt; TAlgebra &gt; &gt; spAssTuner)</td></tr>
 <tr class="separator:ad7299c4fc7d6f6f03c0167a8397ba5fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af037d3fd35428792c740c247ff21fa0f"><td class="memTemplParams" colspan="2">template&lt;typename TElem , typename TIterator &gt; </td></tr>
+<tr class="memitem:af037d3fd35428792c740c247ff21fa0f"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_std_glob_assembler.html#af037d3fd35428792c740c247ff21fa0f">InitAllExports</a> (const std::vector&lt; <a class="el" href="classug_1_1_i_elem_disc.html">IElemDisc</a>&lt; <a class="el" href="classug_1_1_std_glob_assembler.html#a9ff44bf00660bff4ae878acd4485322a">domain_type</a> &gt; * &gt; &amp;vElemDisc, <a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_do_f_distribution.html">DoFDistribution</a> &gt; dd, TIterator iterBegin, TIterator iterEnd, int si, bool bNonRegularGrid, bool bAsTimeDependent)</td></tr>
+<tr class="separator:af037d3fd35428792c740c247ff21fa0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64cd2b81882c18f5618fcfc9b1d7a8b2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_std_glob_assembler.html#a64cd2b81882c18f5618fcfc9b1d7a8b2">PrepareTimestep</a> (const std::vector&lt; <a class="el" href="classug_1_1_i_elem_disc.html">IElemDisc</a>&lt; <a class="el" href="classug_1_1_std_glob_assembler.html#a9ff44bf00660bff4ae878acd4485322a">domain_type</a> &gt; * &gt; &amp;vElemDisc, <a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_do_f_distribution.html">DoFDistribution</a> &gt; dd, bool bNonRegularGrid, <a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_vector_time_series.html">VectorTimeSeries</a>&lt; <a class="el" href="classug_1_1_std_glob_assembler.html#a60d23f1cd9da6d35ea28f24d7e3b4098">vector_type</a> &gt; &gt; vSol, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> future_time, <a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_assembling_tuner.html">AssemblingTuner</a>&lt; TAlgebra &gt; &gt; spAssTuner)</td></tr>
 <tr class="separator:a64cd2b81882c18f5618fcfc9b1d7a8b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7373ed4767077e0dac17dde66d3cd2df"><td class="memTemplParams" colspan="2">template&lt;typename TElem , typename TIterator &gt; </td></tr>
@@ -1778,6 +1781,91 @@ template&lt;typename TElem , typename TIterator &gt; </div>
 
 </div>
 </div>
+<a id="af037d3fd35428792c740c247ff21fa0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af037d3fd35428792c740c247ff21fa0f">&#9670;&nbsp;</a></span>InitAllExports()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TDomain , typename TAlgebra &gt; </div>
+<div class="memtemplate">
+template&lt;typename TElem , typename TIterator &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="classug_1_1_std_glob_assembler.html">ug::StdGlobAssembler</a>&lt; TDomain, TAlgebra &gt;::InitAllExports </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classug_1_1_i_elem_disc.html">IElemDisc</a>&lt; <a class="el" href="classug_1_1_std_glob_assembler.html#a9ff44bf00660bff4ae878acd4485322a">domain_type</a> &gt; * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>vElemDisc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_do_f_distribution.html">DoFDistribution</a> &gt;&#160;</td>
+          <td class="paramname"><em>dd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TIterator&#160;</td>
+          <td class="paramname"><em>iterBegin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TIterator&#160;</td>
+          <td class="paramname"><em>iterEnd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>si</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>bNonRegularGrid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>bAsTimeDependent</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This function finalizes the global discretization in a time-stepping scheme by calling the "finish_timestep_elem" methods of all passed element discretizations on one given subset. (This version processes elements in a given interval.)</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">vElemDisc</td><td>element discretizations </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dd</td><td>DoF Distribution </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iterBegin</td><td>element iterator </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iterEnd</td><td>element iterator </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">si</td><td>subset index </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">bNonRegularGrid</td><td>flag to indicate if non regular grid is used </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">bAsTimeDependent</td><td>flag to simulate the instationary case for the initialization </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">References <a class="el" href="namespaceug_1_1bridge_1_1_algebra_common.html#a49640e69720378147116efce394cdaf3">ug::bridge::AlgebraCommon::Eval()</a>, <a class="el" href="namespaceug.html#a566d113da734983a6917fbd0febc233fad86c14b30d01f126bccfe6413ae31f85">ug::MASS</a>, <a class="el" href="namespaceug.html#a566d113da734983a6917fbd0febc233fa6ef832385eef343625cc2aa613f02c76">ug::RHS</a>, <a class="el" href="namespaceug.html#a566d113da734983a6917fbd0febc233fa4ad198d022d234dadd95c9382c0252be">ug::STIFF</a>, and <a class="el" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>.</p>
+
+</div>
+</div>
 <a id="a64cd2b81882c18f5618fcfc9b1d7a8b2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a64cd2b81882c18f5618fcfc9b1d7a8b2">&#9670;&nbsp;</a></span>PrepareTimestep()</h2>
 
@@ -1961,7 +2049,7 @@ template&lt;typename TElem , typename TIterator &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_std_glob_assembler.html">StdGlobAssembler</a></li>
-    <li class="footer">Generated on Mon Sep 9 2024 01:08:34 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Nov 18 2024 10:37:51 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

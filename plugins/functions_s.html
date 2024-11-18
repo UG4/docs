@@ -153,8 +153,11 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 : <a class="el" href="classug_1_1_richards_1_1_richards_elem_disc_factory.html#a34b3c3a2b7f7035641d007c2e5e05ddb">ug::Richards::RichardsElemDiscFactory&lt; TDomain &gt;</a>
 </li>
 <li>set_adiabatic_index()
-: <a class="el" href="classug_1_1_navier_stokes_1_1_compressible_navier_stokes_base.html#ae24111124e606c342a2010c61aa67616">ug::NavierStokes::CompressibleNavierStokesBase&lt; TDomain &gt;</a>
+: <a class="el" href="classug_1_1_navier_stokes_1_1_compressible_navier_stokes_base.html#a260e3b7a84db53a0010f07051e35b0dd">ug::NavierStokes::CompressibleNavierStokesBase&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_navier_stokes_1_1_compressible_navier_stokes_f_v1.html#a67dc297b6756cf1d14dca34ab16c8c3d">ug::NavierStokes::CompressibleNavierStokesFV1&lt; TDomain &gt;</a>
+</li>
+<li>set_alpha()
+: <a class="el" href="classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#a4bd3fa4239f23540b83a564b8e9b0d31">ug::Poroelasticity::BiotSubsetParameters</a>
 </li>
 <li>set_aperture()
 : <a class="el" href="classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_fract_f_v1.html#a83678b808098921cca53300e13d62206">ug::ConvectionDiffusionPlugin::ConvectionDiffusionFractFV1&lt; TDomain &gt;</a>
@@ -173,6 +176,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 </li>
 <li>set_base_conductor()
 : <a class="el" href="classug_1_1_electromagnetism_1_1_nedelec_project_1_1_aux_laplace_r_h_s.html#a18ba55cdd61e4e9e6c7af4b304950aca">ug::Electromagnetism::NedelecProject&lt; TDomain, TAlgebra &gt;::AuxLaplaceRHS</a>
+</li>
+<li>set_beta()
+: <a class="el" href="classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#a127dfc8ab2ca95432b2c7445f66fa5bb">ug::Poroelasticity::BiotSubsetParameters</a>
 </li>
 <li>set_bulk_modulus()
 : <a class="el" href="group__small__strain__mechanics.html#gaf0e25bc1e4437e26e24a84d7eb9abed8">ug::SmallStrainMechanics::PrandtlReuss&lt; TDomain &gt;</a>
@@ -211,6 +217,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 </li>
 <li>set_debug_for_timestepper()
 : <a class="el" href="classug_1_1_limex_time_integrator.html#a1cc70f7a5e59a2a030063b8d645933ba">ug::LimexTimeIntegrator&lt; TDomain, TAlgebra &gt;</a>
+</li>
+<li>set_default_parameters()
+: <a class="el" href="classug_1_1_poroelasticity_1_1_barry_mercer_problem.html#afa8b4104aeec1906a5e41637236899f2">ug::Poroelasticity::BarryMercerProblem&lt; TDomain, TAlgebra &gt;</a>
 </li>
 <li>set_defect_upwind()
 : <a class="el" href="classug_1_1_navier_stokes_1_1_navier_stokes_f_v_c_r.html#a3deb08d4fee7e461ea12e31cc04b86f3">ug::NavierStokes::NavierStokesFVCR&lt; TDomain &gt;</a>
@@ -363,12 +372,15 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>set_initial_flow_stress()
 : <a class="el" href="group__small__strain__mechanics.html#ga1917a3901b0611809ebab54db5a5fe02">ug::SmallStrainMechanics::PrandtlReuss&lt; TDomain &gt;</a>
 </li>
+<li>set_kappa()
+: <a class="el" href="classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#a095faf5e4c4f8f03412c0ae2242650da">ug::Poroelasticity::BiotSubsetParameters</a>
+</li>
 <li>set_kinematic_viscosity()
 : <a class="el" href="classug_1_1_navier_stokes_1_1_compressible_navier_stokes_base.html#a8c856fa84909778243044bbe391d07b7">ug::NavierStokes::CompressibleNavierStokesBase&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_navier_stokes_1_1_compressible_navier_stokes_f_v1.html#ac5243ca4289075875ceea2aea9e4fc6e">ug::NavierStokes::CompressibleNavierStokesFV1&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_navier_stokes_1_1_c_r_navier_stokes_sym_b_c.html#ae30b55dca9df69652b406946ece1fe38">ug::NavierStokes::CRNavierStokesSymBC&lt; TDomain &gt;</a>
-, <a class="el" href="classug_1_1_navier_stokes_1_1_f_v1_dynamic_turb_visc_data.html#a86186061278c703dd8bbfbe9b7c40a54">ug::NavierStokes::FV1DynamicTurbViscData&lt; TGridFunction &gt;</a>
-, <a class="el" href="classug_1_1_navier_stokes_1_1_f_v1_smagorinsky_turb_visc_data.html#a92d12354a7ec2f0217a696f903daf662">ug::NavierStokes::FV1SmagorinskyTurbViscData&lt; TGridFunction &gt;</a>
+, <a class="el" href="classug_1_1_navier_stokes_1_1_f_v1_dynamic_turb_visc_data.html#a61f905ebc8a03d4d234ce3bb81aab1ee">ug::NavierStokes::FV1DynamicTurbViscData&lt; TGridFunction &gt;</a>
+, <a class="el" href="classug_1_1_navier_stokes_1_1_f_v1_smagorinsky_turb_visc_data.html#a9ebf19bf7dd1c455f402898b608d0b6a">ug::NavierStokes::FV1SmagorinskyTurbViscData&lt; TGridFunction &gt;</a>
 , <a class="el" href="classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#a7b1209c24758cf5d38f9f7c8460b1094">ug::NavierStokes::IncompressibleNavierStokesBase&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_navier_stokes_1_1_navier_stokes_base.html#afe6f59c69db5c362c82ff6b2b7735282">ug::NavierStokes::NavierStokesBase&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_navier_stokes_1_1_navier_stokes_f_e.html#a35fd34b65f25fed9ae1ad3dbfce6e8f7">ug::NavierStokes::NavierStokesFE&lt; TDomain &gt;</a>
@@ -381,7 +393,10 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 , <a class="el" href="classug_1_1_navier_stokes_1_1_navier_stokes_no_normal_stress_outflow_f_v_c_r.html#a29d36284a0d4101768bfdb4b4e3f98ad">ug::NavierStokes::NavierStokesNoNormalStressOutflowFVCR&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_navier_stokes_1_1_navier_stokes_sym_b_c_f_v1.html#add06f4b25b1a513d7aa3c2adb20742fc">ug::NavierStokes::NavierStokesSymBCFV1&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_navier_stokes_1_1_navier_stokes_w_s_b_c_f_v1.html#a6c37e14cebedcf87a1bc89a383215bf7">ug::NavierStokes::NavierStokesWSBCFV1&lt; TDomain &gt;</a>
-, <a class="el" href="classug_1_1_navier_stokes_1_1_std_turbulent_viscosity_data.html#a840342318ebbeba4c016b6803c248a4a">ug::NavierStokes::StdTurbulentViscosityData&lt; TData, dim, TImpl, TGridFunction &gt;</a>
+, <a class="el" href="classug_1_1_navier_stokes_1_1_std_turbulent_viscosity_data.html#a9dd78080839965a54962e2a3440e1c3b">ug::NavierStokes::StdTurbulentViscosityData&lt; TData, dim, TImpl, TGridFunction &gt;</a>
+</li>
+<li>set_lambda()
+: <a class="el" href="classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#a6dc7d88e7da9cf93f97f6d6aae03c05b">ug::Poroelasticity::BiotSubsetParameters</a>
 </li>
 <li>set_laplace()
 : <a class="el" href="classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#aec6865f43b6d820672c82e1bab78021b">ug::NavierStokes::IncompressibleNavierStokesBase&lt; TDomain &gt;</a>
@@ -403,7 +418,7 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 : <a class="el" href="classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base.html#ab7c6a515bac338fc5ad68a1669190fae">ug::ConvectionDiffusionPlugin::ConvectionDiffusionBase&lt; TDomain &gt;</a>
 </li>
 <li>set_mass_scale()
-: <a class="el" href="classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base.html#a30a8268c65337f31133c79a490c59018">ug::ConvectionDiffusionPlugin::ConvectionDiffusionBase&lt; TDomain &gt;</a>
+: <a class="el" href="classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base.html#a92e85c5f26d0eb772d95da0c4a47e420">ug::ConvectionDiffusionPlugin::ConvectionDiffusionBase&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_small_strain_mechanics_1_1_small_strain_mechanics_elem_disc.html#aaf5c6484cfdc09945e23d01baa78b33e">ug::SmallStrainMechanics::SmallStrainMechanicsElemDisc&lt; TDomain &gt;</a>
 </li>
 <li>set_material_law()
@@ -425,6 +440,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 : <a class="el" href="classug_1_1_navier_stokes_1_1_c_r_smagorinsky_turb_visc_data.html#a84461f9f186bab0f29173a68371b3157">ug::NavierStokes::CRSmagorinskyTurbViscData&lt; TGridFunction &gt;</a>
 , <a class="el" href="classug_1_1_navier_stokes_1_1_f_v1_smagorinsky_turb_visc_data.html#aea46e3a8f13f0f2326b43682fd088347">ug::NavierStokes::FV1SmagorinskyTurbViscData&lt; TGridFunction &gt;</a>
 </li>
+<li>set_mu()
+: <a class="el" href="classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#a00e8aded29b9a17144303a35d16519c3">ug::Poroelasticity::BiotSubsetParameters</a>
+</li>
 <li>set_no_log_out()
 : <a class="el" href="classug_1_1_i_time_integrator.html#a53083c5b65ac1074fbee6c294afd38b9">ug::ITimeIntegrator&lt; TDomain, TAlgebra &gt;</a>
 </li>
@@ -436,7 +454,7 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 , <a class="el" href="classug_1_1_norm_inf_estimator.html#a86b38830d7c993fd80ca524cb641c28d">ug::NormInfEstimator&lt; TVector &gt;</a>
 </li>
 <li>set_ortho_diffusion()
-: <a class="el" href="classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_fract_f_v1.html#a49bd1f30138643fa0d0320625e7a1d2f">ug::ConvectionDiffusionPlugin::ConvectionDiffusionFractFV1&lt; TDomain &gt;</a>
+: <a class="el" href="classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_fract_f_v1.html#aac6fb4ba8d412d7c941613a7ee2e3701">ug::ConvectionDiffusionPlugin::ConvectionDiffusionFractFV1&lt; TDomain &gt;</a>
 </li>
 <li>set_ortho_velocity()
 : <a class="el" href="classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_fract_f_v1.html#aa329bd06d58f875e2ab240f87606ac71">ug::ConvectionDiffusionPlugin::ConvectionDiffusionFractFV1&lt; TDomain &gt;</a>
@@ -458,6 +476,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 </li>
 <li>set_peclet_blend()
 : <a class="el" href="classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#a23cc79423837840a7caf69733e600548">ug::NavierStokes::IncompressibleNavierStokesBase&lt; TDomain &gt;</a>
+</li>
+<li>set_phi()
+: <a class="el" href="classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#a3cb13a5c9bece8480f49d07e61f5cf04">ug::Poroelasticity::BiotSubsetParameters</a>
 </li>
 <li>set_pivot()
 : <a class="el" href="classug_1_1promesh_1_1_mesh.html#aca80d75a4a4f24a1a308d873e526aebb">ug::promesh::Mesh</a>
@@ -512,6 +533,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>set_shear_modulus()
 : <a class="el" href="group__small__strain__mechanics.html#ga7eaed9986d79ff0f06bfd5fe8d95af08">ug::SmallStrainMechanics::PrandtlReuss&lt; TDomain &gt;</a>
 </li>
+<li>set_skip()
+: <a class="el" href="classug_1_1_poroelasticity_1_1_barry_mercer_problem.html#ad5fee15a0920bbd827d3f86f18c0a661">ug::Poroelasticity::BarryMercerProblem&lt; TDomain, TAlgebra &gt;</a>
+</li>
 <li>set_skip_edge_smoother()
 : <a class="el" href="classug_1_1_electromagnetism_1_1_time_harmonic_nedelec_hybrid_smoother.html#a604d1dcb2e04243c8251b6365e1844c5">ug::Electromagnetism::TimeHarmonicNedelecHybridSmoother&lt; TDomain, TAlgebra &gt;</a>
 </li>
@@ -533,7 +557,7 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 , <a class="el" href="classug_1_1_limex_time_integrator_1_1_thread_data.html#aca3701a7aa800e764dea062ba6bc4de4">ug::LimexTimeIntegrator&lt; TDomain, TAlgebra &gt;::ThreadData</a>
 </li>
 <li>set_source()
-: <a class="el" href="classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base.html#af9f1d9ad5688f92a3c89c06c9d64119d">ug::ConvectionDiffusionPlugin::ConvectionDiffusionBase&lt; TDomain &gt;</a>
+: <a class="el" href="classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base.html#a93d69a592c416b0cc92022dc9c3e1ac0">ug::ConvectionDiffusionPlugin::ConvectionDiffusionBase&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_navier_stokes_1_1_compressible_navier_stokes_base.html#adc0dd77ce9807f6d53cea7a8c1f2ab48">ug::NavierStokes::CompressibleNavierStokesBase&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_navier_stokes_1_1_compressible_navier_stokes_f_v1.html#a989c647597ecc44d8382549cae43bdde">ug::NavierStokes::CompressibleNavierStokesFV1&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_navier_stokes_1_1_incompressible_navier_stokes_base.html#a9bb59d5ee88f67b937f206a3e618fafa">ug::NavierStokes::IncompressibleNavierStokesBase&lt; TDomain &gt;</a>
@@ -542,8 +566,8 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 , <a class="el" href="classug_1_1_navier_stokes_1_1_navier_stokes_f_v1.html#a616ae9e0055faae217e500c088a9c190">ug::NavierStokes::NavierStokesFV1&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_navier_stokes_1_1_navier_stokes_f_v.html#a2254fbc0095a831435e4ea701ad0c900">ug::NavierStokes::NavierStokesFV&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_navier_stokes_1_1_navier_stokes_f_v_c_r.html#a75f3a64f851b8946566d63a4e1815c79">ug::NavierStokes::NavierStokesFVCR&lt; TDomain &gt;</a>
-, <a class="el" href="classug_1_1_navier_stokes_1_1_separated_pressure_source.html#a7555905167ef1253fb2b371d6deb1a19">ug::NavierStokes::SeparatedPressureSource&lt; TGridFunction &gt;</a>
-, <a class="el" href="classug_1_1_navier_stokes_1_1_separated_pressure_source_inter.html#a642030931e8597aea4f612de648f495b">ug::NavierStokes::SeparatedPressureSourceInter&lt; TGridFunction &gt;</a>
+, <a class="el" href="classug_1_1_navier_stokes_1_1_separated_pressure_source.html#ab82945582e0b1036066b95983cc12b77">ug::NavierStokes::SeparatedPressureSource&lt; TGridFunction &gt;</a>
+, <a class="el" href="classug_1_1_navier_stokes_1_1_separated_pressure_source_inter.html#ac98ead1ae8bc39f01bd68e8571d5ff52">ug::NavierStokes::SeparatedPressureSourceInter&lt; TGridFunction &gt;</a>
 </li>
 <li>set_source_explicit()
 : <a class="el" href="classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base.html#af934010524cb446881e46e4272875628">ug::ConvectionDiffusionPlugin::ConvectionDiffusionBase&lt; TDomain &gt;</a>
@@ -566,6 +590,7 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>set_stabilization()
 : <a class="el" href="classug_1_1_navier_stokes_1_1_navier_stokes_f_e.html#a69b494758bd5cd9d81b4bd492b89fc45">ug::NavierStokes::NavierStokesFE&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_navier_stokes_1_1_navier_stokes_f_v1.html#aa5f84ae77d75e622b1f263bc8a4daacf">ug::NavierStokes::NavierStokesFV1&lt; TDomain &gt;</a>
+, <a class="el" href="structug_1_1_poroelasticity_1_1_biot_disc_config.html#ab7b26f1214dbae3d47fb645963f6767e">ug::Poroelasticity::BiotDiscConfig</a>
 </li>
 <li>set_stage()
 : <a class="el" href="classug_1_1_linear_implicit_euler.html#a761cdabf8ebcd3fc24e2a3a59273db2e">ug::LinearImplicitEuler&lt; TAlgebra &gt;</a>
@@ -588,6 +613,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>set_stride()
 : <a class="el" href="classug_1_1_norm2_estimator.html#a50be6040cf2d3f6eeffa3f5344ef00e9">ug::Norm2Estimator&lt; TVector &gt;</a>
 , <a class="el" href="classug_1_1_norm_inf_estimator.html#abcc27c26a80189146f25b81d8ba762ee">ug::NormInfEstimator&lt; TVector &gt;</a>
+</li>
+<li>set_subsets()
+: <a class="el" href="classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#a5b0ec4683a340c672c439cd51cf7ad1a">ug::Poroelasticity::BiotSubsetParameters</a>
 </li>
 <li>set_tangent_precision()
 : <a class="el" href="group__small__strain__mechanics.html#ga0812f8046723f045512f463bbcb952fc">ug::SmallStrainMechanics::PrandtlReuss&lt; TDomain &gt;</a>
@@ -628,7 +656,7 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 , <a class="el" href="classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v_c_r.html#a965a6d32239a047dd36b56f94f2c7e5c">ug::ConvectionDiffusionPlugin::ConvectionDiffusionFVCR&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_navier_stokes_1_1_compressible_navier_stokes_f_v1.html#a4e0d3ff74c10db9b5be628d68cf55221">ug::NavierStokes::CompressibleNavierStokesFV1&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_navier_stokes_1_1_i_navier_stokes_f_v1_stabilization.html#a88c6abbc4aa2144d4bff31ab1dcc1664">ug::NavierStokes::INavierStokesFV1Stabilization&lt; dim &gt;</a>
-, <a class="el" href="classug_1_1_navier_stokes_1_1_navier_stokes_f_v1.html#aef5ece7f98c4bdb96a4a47175d3f495c">ug::NavierStokes::NavierStokesFV1&lt; TDomain &gt;</a>
+, <a class="el" href="classug_1_1_navier_stokes_1_1_navier_stokes_f_v1.html#a12f4acb521c7a8af25f570330636a59a">ug::NavierStokes::NavierStokesFV1&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_navier_stokes_1_1_navier_stokes_f_v_c_r.html#ad0dfcf5a9b0d1d20e8d000313a27b9f3">ug::NavierStokes::NavierStokesFVCR&lt; TDomain &gt;</a>
 </li>
 <li>set_user_data()
@@ -647,13 +675,13 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 : <a class="el" href="classug_1_1_navier_stokes_1_1_i_navier_stokes_f_v1_stabilization.html#a2c388351c2debf89ff33149c4ee64834">ug::NavierStokes::INavierStokesFV1Stabilization&lt; dim &gt;</a>
 </li>
 <li>set_velocity()
-: <a class="el" href="classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base.html#a9497dc8356329a125ddde7619f20b1ba">ug::ConvectionDiffusionPlugin::ConvectionDiffusionBase&lt; TDomain &gt;</a>
+: <a class="el" href="classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base.html#a8e5d997f603d14ab3bd84ef87195a272">ug::ConvectionDiffusionPlugin::ConvectionDiffusionBase&lt; TDomain &gt;</a>
 </li>
 <li>set_viscous_forces()
 : <a class="el" href="classug_1_1_small_strain_mechanics_1_1_small_strain_mechanics_elem_disc.html#a1100e24d31340796357d4f948c8fa6a9">ug::SmallStrainMechanics::SmallStrainMechanicsElemDisc&lt; TDomain &gt;</a>
 </li>
 <li>set_volume_forces()
-: <a class="el" href="classug_1_1_small_strain_mechanics_1_1_small_strain_mechanics_elem_disc.html#a9ed299e9d22f91a496e4fbff0e73ebc3">ug::SmallStrainMechanics::SmallStrainMechanicsElemDisc&lt; TDomain &gt;</a>
+: <a class="el" href="classug_1_1_small_strain_mechanics_1_1_small_strain_mechanics_elem_disc.html#add286ab3f67eeceb488df49495f7ec54">ug::SmallStrainMechanics::SmallStrainMechanicsElemDisc&lt; TDomain &gt;</a>
 </li>
 <li>set_zero_average()
 : <a class="el" href="classug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_out_of_source.html#af17ad19056ad160b8ad3d92b76408827">ug::Electromagnetism::NedelecLoopCurrent&lt; TDomain, TAlgebra &gt;::OutOfSource</a>
@@ -663,6 +691,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 </li>
 <li>set_zero_grad_bnd()
 : <a class="el" href="classug_1_1_disc_constraint_f_v_c_r.html#a8b5a2126d0cfd180725b951246240d25">ug::DiscConstraintFVCR&lt; TGridFunction &gt;</a>
+</li>
+<li>setComponent()
+: <a class="el" href="classug_1_1_util_1_1_solver_util.html#a64e00844aafdcf98ad9aa2abf53a1d80">ug::Util::SolverUtil&lt; TDomain, TAlgebra &gt;</a>
 </li>
 <li>SetIdentityOnSubset()
 : <a class="el" href="structug_1_1_electromagnetism_1_1_nedelec_project_1_1_aux_laplace_r_h_s_1_1_set_identity_on_subset.html#a102cf98fc7ae0fcd425ea699018951c1">ug::Electromagnetism::NedelecProject&lt; TDomain, TAlgebra &gt;::AuxLaplaceRHS::SetIdentityOnSubset</a>
@@ -751,6 +782,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 : <a class="el" href="classug_1_1_i_nonlinear_time_integrator.html#a95e10e53954df4a1e41a8adaec09a31d">ug::INonlinearTimeIntegrator&lt; TDomain, TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_limex_time_integrator.html#a3fb83197e98c474aa4f28c9eec4fa4fe">ug::LimexTimeIntegrator&lt; TDomain, TAlgebra &gt;</a>
 </li>
+<li>SolverUtilFunctionProvider()
+: <a class="el" href="classug_1_1_util_1_1_solver_util_function_provider.html#a248605cebb0648e388a628c951449c89">ug::Util::SolverUtilFunctionProvider&lt; TDomain, TAlgebra &gt;</a>
+</li>
 <li>sourceSCVF()
 : <a class="el" href="classug_1_1_navier_stokes_1_1_compressible_navier_stokes_f_v1.html#aba694d11dda17dedfeb1e8787daa66c3">ug::NavierStokes::CompressibleNavierStokesFV1&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_navier_stokes_1_1_navier_stokes_f_v1.html#a40c4ef62fc134dbbb760dfb3b7dc9ec3">ug::NavierStokes::NavierStokesFV1&lt; TDomain &gt;</a>
@@ -793,7 +827,7 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 : <a class="el" href="classug_1_1_navier_stokes_1_1_i_navier_stokes_f_v1_stabilization.html#ac691f2b7ab28598449e3f7e9d5d153d8">ug::NavierStokes::INavierStokesFV1Stabilization&lt; dim &gt;</a>
 </li>
 <li>stab_shape_vel()
-: <a class="el" href="classug_1_1_navier_stokes_1_1_i_navier_stokes_f_v1_stabilization.html#a828fb9c11015739c00e02132960a6c81">ug::NavierStokes::INavierStokesFV1Stabilization&lt; dim &gt;</a>
+: <a class="el" href="classug_1_1_navier_stokes_1_1_i_navier_stokes_f_v1_stabilization.html#a34fae4c74d1cc742a3a0efc8fdcebd74">ug::NavierStokes::INavierStokesFV1Stabilization&lt; dim &gt;</a>
 </li>
 <li>stab_vel()
 : <a class="el" href="classug_1_1_navier_stokes_1_1_i_navier_stokes_f_v1_stabilization.html#aec53a4b0485ea38d27d22c2193c814d7">ug::NavierStokes::INavierStokesFV1Stabilization&lt; dim &gt;</a>
@@ -803,6 +837,10 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 </li>
 <li>start_action()
 : <a class="el" href="classug_1_1_v_t_k_output_observer.html#a97df3f0066f206fea98af514855d6e2a">ug::VTKOutputObserver&lt; TDomain, TAlgebra &gt;</a>
+</li>
+<li>start_time()
+: <a class="el" href="classug_1_1_poroelasticity_1_1_barry_mercer_problem.html#a0a4cc1650dc4c1aa9c1a34d74766a596">ug::Poroelasticity::BarryMercerProblem&lt; TDomain, TAlgebra &gt;</a>
+, <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a2d9fcf923cd13a463a3be253ca892cbb">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;</a>
 </li>
 <li>step()
 : <a class="el" href="classug_1_1_c_r_i_l_u_t_preconditioner.html#a8b64ded10fdacd0b98f46146b521de83">ug::CRILUTPreconditioner&lt; TAlgebra &gt;</a>
@@ -911,7 +949,7 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Sep 9 2024 01:07:36 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Nov 18 2024 10:36:55 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

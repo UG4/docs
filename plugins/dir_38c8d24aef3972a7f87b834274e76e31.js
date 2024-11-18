@@ -11,6 +11,7 @@ var dir_38c8d24aef3972a7f87b834274e76e31 =
     [ "LuaShell", "dir_e64ee33aeebf18d3b291f7e08724e090.html", "dir_e64ee33aeebf18d3b291f7e08724e090" ],
     [ "NavierStokes", "dir_35ece7a12ecd39e3bc7491d8487e323c.html", "dir_35ece7a12ecd39e3bc7491d8487e323c" ],
     [ "ParameterEstimation", "dir_81b7b7688c12ee3ee59ab34e76a0ca43.html", "dir_81b7b7688c12ee3ee59ab34e76a0ca43" ],
+    [ "Poroelasticity", "dir_a13c998afb869ffaf3c01c34ed5ea949.html", "dir_a13c998afb869ffaf3c01c34ed5ea949" ],
     [ "ProMesh", "dir_763ed3e91742c64da7339b855c065f8b.html", "dir_763ed3e91742c64da7339b855c065f8b" ],
     [ "Richards", "dir_287333163026f6956dbf6ea879b025f1.html", "dir_287333163026f6956dbf6ea879b025f1" ],
     [ "SmallStrainMechanics", "dir_3b4c9cd7b72435c8ef37093ef766bedc.html", "dir_3b4c9cd7b72435c8ef37093ef766bedc" ],

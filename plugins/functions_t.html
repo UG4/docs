@@ -121,6 +121,12 @@ $(document).ready(function(){initNavTree('functions_t.html',''); initResizable()
 , <a class="el" href="classug_1_1_small_strain_mechanics_1_1_small_strain_mechanics_elem_disc.html#aae09f6a673023ce77ee34deed26f814b">ug::SmallStrainMechanics::SmallStrainMechanicsElemDisc&lt; TDomain &gt;</a>
 , <a class="el" href="group__small__strain__mechanics.html#ga7d375ab815bd0697a1df6043e92fe21c">ug::SmallStrainMechanics::TopologyOptimLaw&lt; TDomain &gt;</a>
 </li>
+<li>TBiotDisc
+: <a class="el" href="classug_1_1_poroelasticity_1_1_biot_elem_disc_factory.html#aa6f0896a81bf9b0103cd8bf4a28406dc">ug::Poroelasticity::BiotElemDiscFactory&lt; TDomain &gt;</a>
+</li>
+<li>tchar
+: <a class="el" href="structug_1_1_poroelasticity_1_1_barry_mercer_data.html#af19d1b4879a70b0c6a49574e4d24d801">ug::Poroelasticity::BarryMercerData</a>
+</li>
 <li>TConductivity
 : <a class="el" href="classug_1_1_richards_1_1_richards_elem_disc_factory.html#a79ac6570551ad7c71b4725f97ce0fab8">ug::Richards::RichardsElemDiscFactory&lt; TDomain &gt;</a>
 </li>
@@ -144,8 +150,23 @@ $(document).ready(function(){initNavTree('functions_t.html',''); initResizable()
 <li>TConvDiff
 : <a class="el" href="classug_1_1_richards_1_1_richards_elem_disc_factory.html#a62c291c06921e253281302c72d5489f2">ug::Richards::RichardsElemDiscFactory&lt; TDomain &gt;</a>
 </li>
+<li>TConvectionDiffusion
+: <a class="el" href="classug_1_1_poroelasticity_1_1_biot_elem_disc.html#a5781f418ab0623c0173ae89305bf1929">ug::Poroelasticity::BiotElemDisc&lt; TDomain &gt;</a>
+</li>
+<li>TConvectionDiffusionFV1
+: <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#ad1eb806c9e7211857a5366ea5d35e03e">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;</a>
+</li>
+<li>TConvectionDiffusionStab
+: <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a97c99478cd0e9b756d0416bd03046a06">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;</a>
+</li>
 <li>TData
 : <a class="el" href="classug_1_1_richards_1_1_on_surface_condition.html#aba92381a14859e8b8e355a93ddc47426">ug::Richards::OnSurfaceCondition&lt; dim &gt;</a>
+</li>
+<li>TDiracSourceDisc
+: <a class="el" href="classug_1_1_poroelasticity_1_1_barry_mercer_problem.html#abdcb5c86deb511717748ed4a48756d68">ug::Poroelasticity::BarryMercerProblem&lt; TDomain, TAlgebra &gt;</a>
+</li>
+<li>TDirichletBoundary
+: <a class="el" href="classug_1_1_poroelasticity_1_1_barry_mercer_problem.html#a61820623f90ed7719228d4b7f0bde5c0">ug::Poroelasticity::BarryMercerProblem&lt; TDomain, TAlgebra &gt;</a>
 </li>
 <li>tdisc_dep_type
 : <a class="el" href="classug_1_1_const_step_linear_time_integrator.html#acdda2d1bf380d5ca14e1387999010c08">ug::ConstStepLinearTimeIntegrator&lt; TDomain, TAlgebra &gt;</a>
@@ -156,12 +177,18 @@ $(document).ready(function(){initNavTree('functions_t.html',''); initResizable()
 <li>TDomain
 : <a class="el" href="classug_1_1_disc_constraint_f_v_c_r.html#a4806a1fe90cf0dea60bd77fbddaddacd">ug::DiscConstraintFVCR&lt; TGridFunction &gt;</a>
 </li>
+<li>TDomainDisc
+: <a class="el" href="classug_1_1_poroelasticity_1_1_barry_mercer_problem.html#a835f8931c7cf619a4a703f8a19a5f8dc">ug::Poroelasticity::BarryMercerProblem&lt; TDomain, TAlgebra &gt;</a>
+, <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a117a187b13725f6fc94f9992af1e5dfd">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;</a>
+</li>
 <li>TElem
 : <a class="el" href="classug_1_1_small_strain_mechanics_1_1_damage_function_updater.html#ad0bdbfbe22b70fd55fecf8123bc36843">ug::SmallStrainMechanics::DamageFunctionUpdater&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_small_strain_mechanics_1_1_relative_density_updater.html#a73607e498ddd97ec67f05a65fb33e2f3">ug::SmallStrainMechanics::RelativeDensityUpdater&lt; TDomain &gt;</a>
 </li>
 <li>TElemDisc
-: <a class="el" href="classug_1_1_richards_1_1_richards_elem_disc_factory.html#a3bc93e973d1fd187561b6c4b6486428c">ug::Richards::RichardsElemDiscFactory&lt; TDomain &gt;</a>
+: <a class="el" href="classug_1_1_poroelasticity_1_1_biot_elem_disc.html#ae42b696ea27756b254b38cb841a2f231">ug::Poroelasticity::BiotElemDisc&lt; TDomain &gt;</a>
+, <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#ad2e61ecad3cb9aa6e43bceb01c64a5f0">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;</a>
+, <a class="el" href="classug_1_1_richards_1_1_richards_elem_disc_factory.html#a3bc93e973d1fd187561b6c4b6486428c">ug::Richards::RichardsElemDiscFactory&lt; TDomain &gt;</a>
 </li>
 <li>TemplateSampleClass()
 : <a class="el" href="classug_1_1_template_plugin_1_1_template_sample_class.html#a66ae019d832cbd9628f3eb5ca0b3c026">ug::TemplatePlugin::TemplateSampleClass&lt; TDomain, TAlgebra &gt;</a>
@@ -181,6 +208,7 @@ $(document).ready(function(){initNavTree('functions_t.html',''); initResizable()
 </li>
 <li>TGridFunction
 : <a class="el" href="classug_1_1_electromagnetism_1_1_eddy_current___e___nedelec.html#ac2a78afaeb1b1e635c1dc0765156fd6f">ug::Electromagnetism::EddyCurrent_E_Nedelec&lt; TDomain, TAlgebra &gt;</a>
+, <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a5998b4ee8eb2118a01f9a14824c9571e">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;</a>
 </li>
 <li>thetaR
 : <a class="el" href="structug_1_1_richards_1_1_exponential_model_parameters.html#a0209089696bb286b57920f0d0f83b124">ug::Richards::ExponentialModelParameters</a>
@@ -317,7 +345,8 @@ $(document).ready(function(){initNavTree('functions_t.html',''); initResizable()
 : <a class="el" href="classug_1_1_richards_1_1_richards_elem_disc_factory.html#a1edc57ade8f6edca67f0538906e1fc3a">ug::Richards::RichardsElemDiscFactory&lt; TDomain &gt;</a>
 </li>
 <li>TScaleAddLinkerNumber
-: <a class="el" href="classug_1_1_richards_1_1_richards_elem_disc_factory.html#aca3ea65c7992312f99a5803ab39b3b7f">ug::Richards::RichardsElemDiscFactory&lt; TDomain &gt;</a>
+: <a class="el" href="classug_1_1_poroelasticity_1_1_biot_elem_disc.html#a709dced3a57eca50c9b18bd1aec79848">ug::Poroelasticity::BiotElemDisc&lt; TDomain &gt;</a>
+, <a class="el" href="classug_1_1_richards_1_1_richards_elem_disc_factory.html#aca3ea65c7992312f99a5803ab39b3b7f">ug::Richards::RichardsElemDiscFactory&lt; TDomain &gt;</a>
 </li>
 <li>TScaleAddLinkerVector
 : <a class="el" href="classug_1_1_richards_1_1_richards_elem_disc_factory.html#aea2c39e919b78deba0c9526ed7bb1a40">ug::Richards::RichardsElemDiscFactory&lt; TDomain &gt;</a>
@@ -325,6 +354,9 @@ $(document).ready(function(){initNavTree('functions_t.html',''); initResizable()
 <li>TSide
 : <a class="el" href="classug_1_1_small_strain_mechanics_1_1_damage_function_updater.html#a782fd35a9d5cad097f1085903025f739">ug::SmallStrainMechanics::DamageFunctionUpdater&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_small_strain_mechanics_1_1_relative_density_updater.html#af306f31eb92e8a75726581eeb2c4f459">ug::SmallStrainMechanics::RelativeDensityUpdater&lt; TDomain &gt;</a>
+</li>
+<li>TSmallStrainMechanics
+: <a class="el" href="classug_1_1_poroelasticity_1_1_biot_elem_disc.html#abaa401b3d79d476804ac5af0eca46ed8">ug::Poroelasticity::BiotElemDisc&lt; TDomain &gt;</a>
 </li>
 <li>TSrcData()
 : <a class="el" href="structug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_t_src_data.html#a29bc20d9944959a1312a625ce12d5484">ug::Electromagnetism::NedelecLoopCurrent&lt; TDomain, TAlgebra &gt;::TSrcData</a>
@@ -372,7 +404,7 @@ $(document).ready(function(){initNavTree('functions_t.html',''); initResizable()
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Sep 9 2024 01:07:36 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Nov 18 2024 10:36:55 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

@@ -1,5 +1,11 @@
 var NAVTREEINDEX40 =
 {
+"classug_1_1_h_c_r_f_v_geometry.html#a68d2d5d2e0b90a75e71f8b3f58bac2ca":[3,0,4,637,38],
+"classug_1_1_h_c_r_f_v_geometry.html#a6fabaf4e468345cf49d5302468ea0890":[3,0,4,637,50],
+"classug_1_1_h_c_r_f_v_geometry.html#a721a417854a5f652a9e81612f3227b10":[3,0,4,637,21],
+"classug_1_1_h_c_r_f_v_geometry.html#a730b7cb341e0d2852b47ef3595880d6c":[3,0,4,637,19],
+"classug_1_1_h_c_r_f_v_geometry.html#a767639f42a83866af4018c0b3f98271d":[3,0,4,637,45],
+"classug_1_1_h_c_r_f_v_geometry.html#a823fb5b7c2f4e742472d6a1875a12d98":[3,0,4,637,23],
 "classug_1_1_h_c_r_f_v_geometry.html#a8412f7d7635b1ea1489c155e53061a11":[3,0,4,637,60],
 "classug_1_1_h_c_r_f_v_geometry.html#a9b8157278651762019188eadfe23701b":[3,0,4,637,40],
 "classug_1_1_h_c_r_f_v_geometry.html#a9dd4f93462e0d5b35c9fea43b82bcbed":[3,0,4,637,5],
@@ -243,11 +249,5 @@ var NAVTREEINDEX40 =
 "classug_1_1_h_f_v1_manifold_geometry.html#acf861dc821bcac4a8f93519de70ea527":[3,0,4,663,22],
 "classug_1_1_h_f_v1_manifold_geometry.html#ad4d7ce6f6302c1aa1dd9457ab75402e6":[3,0,4,663,27],
 "classug_1_1_h_f_v1_manifold_geometry.html#ad558dded03f64e2be7056bca66c68b71":[3,0,4,663,6],
-"classug_1_1_h_f_v1_manifold_geometry.html#ad565b97b1544823b1730856d8d19265b":[3,0,4,663,35],
-"classug_1_1_h_f_v1_manifold_geometry.html#ae0b051cfcb7d78ccc9eeb095d1d26e6a":[3,0,4,663,33],
-"classug_1_1_h_f_v1_manifold_geometry.html#aeb52e5ae277d3abe0c2cd546308a62a2":[3,0,4,663,8],
-"classug_1_1_h_f_v1_manifold_geometry.html#aec3ffd4ffff1e12842c3ab578aae3154":[3,0,4,663,13],
-"classug_1_1_h_f_v1_manifold_geometry.html#af7c5cc8a9853f95ef7c1e58c2783f309":[3,0,4,663,26],
-"classug_1_1_h_f_v1_manifold_geometry.html#afcd0064e9f53b9435301ddcf4dbbc405":[3,0,4,663,18],
-"classug_1_1_h_f_v1_manifold_geometry_1_1_b_f.html":[3,0,4,663,0]
+"classug_1_1_h_f_v1_manifold_geometry.html#ad565b97b1544823b1730856d8d19265b":[3,0,4,663,35]
 };

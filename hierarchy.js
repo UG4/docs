@@ -2633,6 +2633,9 @@ var hierarchy =
     [ "SmartPtr< T, FreePolicy >", "class_smart_ptr.html", null ],
     [ "SmartPtr< AuxLaplaceLocAss >", "class_smart_ptr.html", null ],
     [ "SmartPtr< AuxLaplaceRHS >", "class_smart_ptr.html", null ],
+    [ "SmartPtr< BarryMercerRefDispX::pos_data_type >", "class_smart_ptr.html", null ],
+    [ "SmartPtr< BarryMercerRefDispY::pos_data_type >", "class_smart_ptr.html", null ],
+    [ "SmartPtr< BarryMercerRefPressure::pos_data_type >", "class_smart_ptr.html", null ],
     [ "SmartPtr< CallbackId >", "class_smart_ptr.html", null ],
     [ "SmartPtr< char >", "class_smart_ptr.html", null ],
     [ "SmartPtr< CommWrapper >", "class_smart_ptr.html", null ],
@@ -2655,6 +2658,9 @@ var hierarchy =
     [ "SmartPtr< ProcessHierarchy >", "class_smart_ptr.html", null ],
     [ "SmartPtr< RasterLayers >", "class_smart_ptr.html", null ],
     [ "SmartPtr< RefinementProjector >", "class_smart_ptr.html", null ],
+    [ "SmartPtr< StdGlobPosData< BarryMercerRefDispX, number, 2, void > >", "class_smart_ptr.html", null ],
+    [ "SmartPtr< StdGlobPosData< BarryMercerRefDispY, number, 2, void > >", "class_smart_ptr.html", null ],
+    [ "SmartPtr< StdGlobPosData< BarryMercerRefPressure, number, 2, void > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< TDomain >", "class_smart_ptr.html", null ],
     [ "SmartPtr< TGFunc >", "class_smart_ptr.html", null ],
     [ "SmartPtr< TGridFunc >", "class_smart_ptr.html", null ],
@@ -2672,6 +2678,7 @@ var hierarchy =
     [ "SmartPtr< ug::AssembledOperator< algebra_type > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::AssemblingTuner< TAlgebra > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::ConvectionDiffusionPlugin::CDSingularSourcesAndSinks< dim > >", "class_smart_ptr.html", null ],
+    [ "SmartPtr< ug::ConvectionDiffusionPlugin::ConvectionDiffusionFE >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::CplUserData >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::CplUserData< number, 2, bool > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::CplUserData< number, dim > >", "class_smart_ptr.html", null ],
@@ -2783,11 +2790,13 @@ var hierarchy =
     [ "SmartPtr< ug::Raster >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::RefinementProjector >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::Richards::IRichardsLinker >", "class_smart_ptr.html", null ],
+    [ "SmartPtr< ug::ScaleAddLinker >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::SchurComplementMatrixOperator< TAlgebra, matrix_type, vector_type > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::SchurComplementOperator< algebra_type > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::SchurComplementOperator< TAlgebra > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::SmallStrainMechanics::IMaterialLaw< TDomain > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::SmallStrainMechanics::MechOutputWriter< TDomain > >", "class_smart_ptr.html", null ],
+    [ "SmartPtr< ug::SmallStrainMechanics::SmallStrainMechanicsElemDisc >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::SmallStrainMechanics::SmallStrainMechanicsElemDisc< TDomain > >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::SurfaceView >", "class_smart_ptr.html", null ],
     [ "SmartPtr< ug::TransferValueAccessor >", "class_smart_ptr.html", null ],
@@ -3236,15 +3245,19 @@ var hierarchy =
             [ "ug::StdGlobPosData< IDWUserData< WDim, number >, number, WDim >", "classug_1_1_std_glob_pos_data.html", [
               [ "ug::IDWUserData< WDim, TData >", "classug_1_1_i_d_w_user_data.html", null ]
             ] ],
+            [ "ug::StdGlobPosData< BarryMercerRefPressure, number, 2, void >", "classug_1_1_std_glob_pos_data.html", null ],
             [ "ug::StdGlobPosData< GlobalGridFunctionGradientData< TGridFunction >, MathVector< TGridFunction::dim >, TGridFunction::dim >", "classug_1_1_std_glob_pos_data.html", [
               [ "ug::GlobalGridFunctionGradientData< TGridFunction >", "classug_1_1_global_grid_function_gradient_data.html", null ]
             ] ],
+            [ "ug::StdGlobPosData< BarryMercerRefDispY, number, 2, void >", "classug_1_1_std_glob_pos_data.html", null ],
+            [ "ug::StdGlobPosData< BarryMercerPointSource, number, 2, void >", "classug_1_1_std_glob_pos_data.html", null ],
             [ "ug::StdGlobPosData< LognormalRandomField< TData, dim, void >, TData, dim, void >", "classug_1_1_std_glob_pos_data.html", [
               [ "ug::LognormalRandomField< TData, dim, TRet >", "classug_1_1_lognormal_random_field.html", null ]
             ] ],
             [ "ug::StdGlobPosData< RotatingCone2d, number, 2 >", "classug_1_1_std_glob_pos_data.html", [
               [ "ug::RotatingCone2d", "classug_1_1_rotating_cone2d.html", null ]
             ] ],
+            [ "ug::StdGlobPosData< BarryMercerRefDispX, number, 2, void >", "classug_1_1_std_glob_pos_data.html", null ],
             [ "ug::StdGlobPosData< GlobalGridFunctionNumberData< TGridFunction, TGridFunction::dim >, number, TGridFunction::dim >", "classug_1_1_std_glob_pos_data.html", [
               [ "ug::GlobalGridFunctionNumberData< TGridFunction, elemDim >", "classug_1_1_global_grid_function_number_data.html", null ]
             ] ],

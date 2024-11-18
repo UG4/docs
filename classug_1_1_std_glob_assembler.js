@@ -18,6 +18,7 @@ var classug_1_1_std_glob_assembler =
     [ "AssembleStiffnessMatrix", "classug_1_1_std_glob_assembler.html#a76c52a8bb5a002b6d745657921ea716e", null ],
     [ "FinishTimestep", "classug_1_1_std_glob_assembler.html#a01d0d035e8bac1704d3630b79f1cc202", null ],
     [ "FinishTimestepElem", "classug_1_1_std_glob_assembler.html#ad7299c4fc7d6f6f03c0167a8397ba5fd", null ],
+    [ "InitAllExports", "classug_1_1_std_glob_assembler.html#af037d3fd35428792c740c247ff21fa0f", null ],
     [ "PrepareTimestep", "classug_1_1_std_glob_assembler.html#a64cd2b81882c18f5618fcfc9b1d7a8b2", null ],
     [ "PrepareTimestepElem", "classug_1_1_std_glob_assembler.html#a7373ed4767077e0dac17dde66d3cd2df", null ]
 ];

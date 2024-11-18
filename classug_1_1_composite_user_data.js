@@ -1,17 +1,19 @@
 var classug_1_1_composite_user_data =
 [
     [ "base_type", "classug_1_1_composite_user_data.html#a1b6acca9751fa65a1907152b377ed9b3", null ],
-    [ "map_type", "classug_1_1_composite_user_data.html#ab3424fed6afd05f40d1aea0329d010d3", null ],
     [ "ref_type", "classug_1_1_composite_user_data.html#afe34d60d16a08d8ef56d5dcf223f0fca", null ],
     [ "TCplUserData", "classug_1_1_composite_user_data.html#add7be504d89f946304bb36cbc487533d", null ],
+    [ "CompositeUserData", "classug_1_1_composite_user_data.html#a08d2729f8990f4406c8af86cb6cbae8f", null ],
     [ "CompositeUserData", "classug_1_1_composite_user_data.html#a9634b5cf8d20ef0c7804d322edda9b11", null ],
     [ "~CompositeUserData", "classug_1_1_composite_user_data.html#a2c89c4b903702e77e505572e01ec6ab0", null ],
-    [ "add", "classug_1_1_composite_user_data.html#a5d1fb7b1ba9bfc36d722be577296d34f", null ],
+    [ "add", "classug_1_1_composite_user_data.html#a1b9bdce9d711f945ba64096a4e5b1e12", null ],
+    [ "add", "classug_1_1_composite_user_data.html#a4c0b11f6c5b4cb670dd4da6bf5fba3a5", null ],
+    [ "add", "classug_1_1_composite_user_data.html#aec79fd57f77647a576bc5d8ad9af424e", null ],
+    [ "check", "classug_1_1_composite_user_data.html#a384009b0e050a59ab00b5c5a3704fc6b", null ],
     [ "continuous", "classug_1_1_composite_user_data.html#a7f0fb2de429fa205dcb0b703043f21ad", null ],
-    [ "find", "classug_1_1_composite_user_data.html#aaa6dd04b02bae21677d64e82bb53fec7", null ],
-    [ "get", "classug_1_1_composite_user_data.html#adc07b04d7678617ca1ffeca9e01cf396", null ],
+    [ "get", "classug_1_1_composite_user_data.html#a979f1cda7c5936be9b736752b5f319a8", null ],
     [ "get_coupled", "classug_1_1_composite_user_data.html#a1b176a24e73654a54f946c955f0ea9e4", null ],
-    [ "has", "classug_1_1_composite_user_data.html#a18a4ff81e49c85ace793035341ba0ace", null ],
+    [ "has", "classug_1_1_composite_user_data.html#add22877077dd47f182719506354bfc52", null ],
     [ "is_coupled", "classug_1_1_composite_user_data.html#a873afdd93e8b2cd6b38d7c7fa996ae2c", null ],
     [ "operator()", "classug_1_1_composite_user_data.html#a008506b0ebfeb1eabf50d8042866ef73", null ],
     [ "operator()", "classug_1_1_composite_user_data.html#a5c7c35ea338592237a16052886663d74", null ],
@@ -19,7 +21,7 @@ var classug_1_1_composite_user_data =
     [ "operator()", "classug_1_1_composite_user_data.html#afda4aa2c401e1f9d878d1994b5a1dd4f", null ],
     [ "operator()", "classug_1_1_composite_user_data.html#ada7d9414b5467e5bb809cab7c9a8f8d7", null ],
     [ "requires_grid_fct", "classug_1_1_composite_user_data.html#a81dd51d5350326d836316984b7e06192", null ],
+    [ "m_bContinuous", "classug_1_1_composite_user_data.html#aba15f3a09ca0e51b6d1fc2b2c6d5ed7c", null ],
     [ "m_bRequiresGridFunction", "classug_1_1_composite_user_data.html#a8dff145b5fc39f84b412837eb3ee2bc7", null ],
-    [ "m_continuous", "classug_1_1_composite_user_data.html#abe6399a1a3e250afd22b0b77301cd935", null ],
-    [ "m_map", "classug_1_1_composite_user_data.html#a19d00233511ea72215c4c759f464b28e", null ]
+    [ "m_vData", "classug_1_1_composite_user_data.html#acff7f2a6968d1c8873fe954d206d62d2", null ]
 ];

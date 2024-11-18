@@ -244,10 +244,10 @@ var NAVTREEINDEX14 =
 "classug_1_1_composite_time_discretization_1_1_composite_ass_tuner.html#a65f381a0d10806dd427cabfd7dda8740":[3,0,4,171,0,0],
 "classug_1_1_composite_time_discretization_1_1_composite_ass_tuner.html#a6ae2e5a7352480343ae3905037e1a961":[3,0,4,171,0,1],
 "classug_1_1_composite_user_data.html":[3,0,4,172],
-"classug_1_1_composite_user_data.html#a008506b0ebfeb1eabf50d8042866ef73":[3,0,4,172,13],
-"classug_1_1_composite_user_data.html#a18a4ff81e49c85ace793035341ba0ace":[3,0,4,172,11],
-"classug_1_1_composite_user_data.html#a19d00233511ea72215c4c759f464b28e":[3,0,4,172,21],
-"classug_1_1_composite_user_data.html#a1b176a24e73654a54f946c955f0ea9e4":[3,0,4,172,10],
+"classug_1_1_composite_user_data.html#a008506b0ebfeb1eabf50d8042866ef73":[3,0,4,172,15],
+"classug_1_1_composite_user_data.html#a08d2729f8990f4406c8af86cb6cbae8f":[3,0,4,172,3],
+"classug_1_1_composite_user_data.html#a1b176a24e73654a54f946c955f0ea9e4":[3,0,4,172,12],
 "classug_1_1_composite_user_data.html#a1b6acca9751fa65a1907152b377ed9b3":[3,0,4,172,0],
+"classug_1_1_composite_user_data.html#a1b9bdce9d711f945ba64096a4e5b1e12":[3,0,4,172,6],
 "classug_1_1_composite_user_data.html#a2c89c4b903702e77e505572e01ec6ab0":[3,0,4,172,5]
 };

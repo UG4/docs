@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('functions_func_e.html',''); initResiza
 </li>
 <li>elasticityTensor()
 : <a class="el" href="group__small__strain__mechanics.html#ga390817b56665e12554146ad6035863cf">ug::SmallStrainMechanics::HookeLaw&lt; TDomain &gt;</a>
-, <a class="el" href="classug_1_1_small_strain_mechanics_1_1_i_material_law.html#a1e21735c1b9aacc5d91d61cd87db51d3">ug::SmallStrainMechanics::IMaterialLaw&lt; TDomain &gt;</a>
+, <a class="el" href="classug_1_1_small_strain_mechanics_1_1_i_material_law.html#a928e5ec78ef55bd2e502e6429d9e517a">ug::SmallStrainMechanics::IMaterialLaw&lt; TDomain &gt;</a>
 , <a class="el" href="group__small__strain__mechanics.html#ga02be14abdcd1b8be13c94eb289425a85">ug::SmallStrainMechanics::PrandtlReuss&lt; TDomain &gt;</a>
 , <a class="el" href="group__small__strain__mechanics.html#ga8fe9bfd8b06a8429e08e5de938051b01">ug::SmallStrainMechanics::SkinMaterialLaw&lt; TDomain &gt;</a>
 </li>
@@ -155,6 +155,10 @@ $(document).ready(function(){initNavTree('functions_func_e.html',''); initResiza
 <li>end_action()
 : <a class="el" href="classug_1_1_v_t_k_output_observer.html#a8b5f913519fe2129e7d3685e42a7b7f8">ug::VTKOutputObserver&lt; TDomain, TAlgebra &gt;</a>
 </li>
+<li>end_time()
+: <a class="el" href="classug_1_1_poroelasticity_1_1_barry_mercer_problem.html#abd202145061fda142effbf5ef8e45445">ug::Poroelasticity::BarryMercerProblem&lt; TDomain, TAlgebra &gt;</a>
+, <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#aed7a5f1993848c74bda9c17fbe1a4240">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;</a>
+</li>
 <li>energy_on_curr_elem()
 : <a class="el" href="group__small__strain__mechanics.html#ga59c3c2a67b79a7f502315f7eeb0b4ece">ug::SmallStrainMechanics::IScaledHookeLaw&lt; TDomain &gt;</a>
 </li>
@@ -169,6 +173,9 @@ $(document).ready(function(){initNavTree('functions_func_e.html',''); initResiza
 </li>
 <li>error()
 : <a class="el" href="classug_1_1_j_s_o_n_toolkit_1_1custom__error__handler.html#a81d290b34bb886e5dcc042bbc021f542">ug::JSONToolkit::custom_error_handler</a>
+</li>
+<li>eval()
+: <a class="el" href="classug_1_1_poroelasticity_1_1_barry_mercer_error_data.html#aec3b7501704d39e4450a805bb13c6613">ug::Poroelasticity::BarryMercerErrorData&lt; TGridFunction &gt;</a>
 </li>
 <li>eval_and_deriv()
 : <a class="el" href="classug_1_1_electromagnetism_1_1_eddy_current_curl_e_dependent_cmp_user_data.html#a7018eea1873376fcbe3a777c07b490f4">ug::Electromagnetism::EddyCurrentCurlEDependentCmpUserData&lt; TImpl, ReIm, TGFunc &gt;</a>
@@ -186,6 +193,10 @@ $(document).ready(function(){initNavTree('functions_func_e.html',''); initResiza
 , <a class="el" href="classug_1_1_navier_stokes_1_1_separated_pressure_source_inter.html#a948db21293cbeb7c49a7299b990e69c2">ug::NavierStokes::SeparatedPressureSourceInter&lt; TGridFunction &gt;</a>
 , <a class="el" href="classug_1_1_navier_stokes_1_1_std_turbulent_viscosity_data.html#ae649199d9ac5d843ae36a64b435651cd">ug::NavierStokes::StdTurbulentViscosityData&lt; TData, dim, TImpl, TGridFunction &gt;</a>
 , <a class="el" href="classug_1_1_navier_stokes_1_1_std_turbulent_viscosity_data_f_v1.html#a8d0af1022639d17b122fce1d1abd7171">ug::NavierStokes::StdTurbulentViscosityDataFV1&lt; TData, dim, TImpl, TGridFunction &gt;</a>
+, <a class="el" href="classug_1_1_poroelasticity_1_1_barry_mercer_point_source.html#a811e33ffc640bd111d51e86b7297da9e">ug::Poroelasticity::BarryMercerPointSource</a>
+, <a class="el" href="classug_1_1_poroelasticity_1_1_barry_mercer_ref_disp_x.html#a8314021d79f84e734b0b91752c740c40">ug::Poroelasticity::BarryMercerRefDispX</a>
+, <a class="el" href="classug_1_1_poroelasticity_1_1_barry_mercer_ref_disp_y.html#a6a999ae66ec20e1d4dca9128662f6be3">ug::Poroelasticity::BarryMercerRefDispY</a>
+, <a class="el" href="classug_1_1_poroelasticity_1_1_barry_mercer_ref_pressure.html#a6ee374270b34f466e0ed877ca34eff9d">ug::Poroelasticity::BarryMercerRefPressure</a>
 , <a class="el" href="classug_1_1_richards_1_1_richards_linker.html#a2dd12a23bf0ffd6b3263e84460fe4bcd">ug::Richards::RichardsLinker&lt; dim, TFunctor &gt;</a>
 </li>
 <li>ex_displacement()
@@ -231,7 +242,7 @@ $(document).ready(function(){initNavTree('functions_func_e.html',''); initResiza
 : <a class="el" href="structug_1_1_richards_1_1_exponential_saturation.html#a4785a1c65d7530bfdc1f55d145aa09bb">ug::Richards::ExponentialSaturation&lt; dim &gt;</a>
 </li>
 <li>exported_function()
-: <a class="el" href="classug_1_1promesh_1_1detail_1_1_pro_mesh_function.html#a1dd3b8347b62fb4c3b89a7c3614e5e7d">ug::promesh::detail::ProMeshFunction</a>
+: <a class="el" href="classug_1_1promesh_1_1detail_1_1_pro_mesh_function.html#a7d9034425ec73ff64f80bc81b35e2846">ug::promesh::detail::ProMeshFunction</a>
 </li>
 <li>extract()
 : <a class="el" href="classug_1_1_electromagnetism_1_1_com_pol___mem_copy.html#a7c2f59631ca1c05bd337094757d2f0d2">ug::Electromagnetism::ComPol_MemCopy&lt; TArray, TLayout &gt;</a>
@@ -255,7 +266,7 @@ $(document).ready(function(){initNavTree('functions_func_e.html',''); initResiza
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Sep 9 2024 01:07:36 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Nov 18 2024 10:36:55 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

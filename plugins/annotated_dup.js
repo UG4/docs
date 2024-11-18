@@ -148,6 +148,23 @@ var annotated_dup =
         [ "VariableBoxFilter", "classug_1_1_navier_stokes_1_1_variable_box_filter.html", "classug_1_1_navier_stokes_1_1_variable_box_filter" ],
         [ "WallObject", "classug_1_1_navier_stokes_1_1_wall_object.html", "classug_1_1_navier_stokes_1_1_wall_object" ]
       ] ],
+      [ "Poroelasticity", "namespaceug_1_1_poroelasticity.html", [
+        [ "BarryMercerData", "structug_1_1_poroelasticity_1_1_barry_mercer_data.html", "structug_1_1_poroelasticity_1_1_barry_mercer_data" ],
+        [ "BarryMercerErrorData", "classug_1_1_poroelasticity_1_1_barry_mercer_error_data.html", "classug_1_1_poroelasticity_1_1_barry_mercer_error_data" ],
+        [ "BarryMercerNondimensional", "classug_1_1_poroelasticity_1_1_barry_mercer_nondimensional.html", "classug_1_1_poroelasticity_1_1_barry_mercer_nondimensional" ],
+        [ "BarryMercerPointSource", "classug_1_1_poroelasticity_1_1_barry_mercer_point_source.html", "classug_1_1_poroelasticity_1_1_barry_mercer_point_source" ],
+        [ "BarryMercerProblem", "classug_1_1_poroelasticity_1_1_barry_mercer_problem.html", "classug_1_1_poroelasticity_1_1_barry_mercer_problem" ],
+        [ "BarryMercerRefDispX", "classug_1_1_poroelasticity_1_1_barry_mercer_ref_disp_x.html", "classug_1_1_poroelasticity_1_1_barry_mercer_ref_disp_x" ],
+        [ "BarryMercerRefDispY", "classug_1_1_poroelasticity_1_1_barry_mercer_ref_disp_y.html", "classug_1_1_poroelasticity_1_1_barry_mercer_ref_disp_y" ],
+        [ "BarryMercerRefPressure", "classug_1_1_poroelasticity_1_1_barry_mercer_ref_pressure.html", "classug_1_1_poroelasticity_1_1_barry_mercer_ref_pressure" ],
+        [ "BiotDiscConfig", "structug_1_1_poroelasticity_1_1_biot_disc_config.html", "structug_1_1_poroelasticity_1_1_biot_disc_config" ],
+        [ "BiotElemDisc", "classug_1_1_poroelasticity_1_1_biot_elem_disc.html", "classug_1_1_poroelasticity_1_1_biot_elem_disc" ],
+        [ "BiotElemDiscFactory", "classug_1_1_poroelasticity_1_1_biot_elem_disc_factory.html", "classug_1_1_poroelasticity_1_1_biot_elem_disc_factory" ],
+        [ "BiotProblem", "classug_1_1_poroelasticity_1_1_biot_problem.html", "classug_1_1_poroelasticity_1_1_biot_problem" ],
+        [ "BiotSubsetParameters", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html", "classug_1_1_poroelasticity_1_1_biot_subset_parameters" ],
+        [ "Functionality", "structug_1_1_poroelasticity_1_1_functionality.html", "structug_1_1_poroelasticity_1_1_functionality" ],
+        [ "FunctionalityFor2D", "structug_1_1_poroelasticity_1_1_functionality_for2_d.html", "structug_1_1_poroelasticity_1_1_functionality_for2_d" ]
+      ] ],
       [ "promesh", "namespaceug_1_1promesh.html", [
         [ "detail", "namespaceug_1_1promesh_1_1detail.html", [
           [ "ProMeshFunction", "classug_1_1promesh_1_1detail_1_1_pro_mesh_function.html", "classug_1_1promesh_1_1detail_1_1_pro_mesh_function" ]
@@ -217,7 +234,9 @@ var annotated_dup =
         [ "TemplateSampleClass", "classug_1_1_template_plugin_1_1_template_sample_class.html", "classug_1_1_template_plugin_1_1_template_sample_class" ]
       ] ],
       [ "Util", "namespaceug_1_1_util.html", [
-        [ "Functionality", "structug_1_1_util_1_1_functionality.html", "structug_1_1_util_1_1_functionality" ]
+        [ "Functionality", "structug_1_1_util_1_1_functionality.html", "structug_1_1_util_1_1_functionality" ],
+        [ "SolverUtil", "classug_1_1_util_1_1_solver_util.html", "classug_1_1_util_1_1_solver_util" ],
+        [ "SolverUtilFunctionProvider", "classug_1_1_util_1_1_solver_util_function_provider.html", "classug_1_1_util_1_1_solver_util_function_provider" ]
       ] ],
       [ "AitkenNevilleTimex", "classug_1_1_aitken_neville_timex.html", "classug_1_1_aitken_neville_timex" ],
       [ "CompareDeg", "structug_1_1_compare_deg.html", "structug_1_1_compare_deg" ],

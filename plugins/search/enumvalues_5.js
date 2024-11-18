@@ -1,10 +1,6 @@
 var searchData=
 [
-  ['raw_34947',['RAW',['../classug_1_1_navier_stokes_1_1_i_navier_stokes_s_r_f_v1_stabilization.html#ad97d66b6427129fc0d2b906cd13e1c6aaab1d7f9aadb0d581b53b66d138467363',1,'ug::NavierStokes::INavierStokesSRFV1Stabilization']]],
-  ['rt_5fdefault_34948',['RT_DEFAULT',['../group__promesh.html#gga6bbd1d59ce7f89cebac1f5f7530ebbd5aef2d7d0352d6034d7f684e8f130d960d',1,'ug::promesh']]],
-  ['rt_5fno_5fpromesh_34949',['RT_NO_PROMESH',['../group__promesh.html#gga6bbd1d59ce7f89cebac1f5f7530ebbd5ad45ac2de5b9cc79da574d72354218ee3',1,'ug::promesh']]],
-  ['rt_5fno_5fugscript_34950',['RT_NO_UGSCRIPT',['../group__promesh.html#gga6bbd1d59ce7f89cebac1f5f7530ebbd5a806188a36030c72c21f1db630031b501',1,'ug::promesh']]],
-  ['rt_5fnone_34951',['RT_NONE',['../group__promesh.html#gga6bbd1d59ce7f89cebac1f5f7530ebbd5af4628cb2ec2e555ab81e0374f2b072a7',1,'ug::promesh']]],
-  ['rt_5fpromesh_34952',['RT_PROMESH',['../group__promesh.html#gga6bbd1d59ce7f89cebac1f5f7530ebbd5ad9f9188d4f8147b52470c6227b60505f',1,'ug::promesh']]],
-  ['rt_5fugscript_34953',['RT_UGSCRIPT',['../group__promesh.html#gga6bbd1d59ce7f89cebac1f5f7530ebbd5a1353437eeb118ff94ae298ed07052a05',1,'ug::promesh']]]
+  ['l2norm_5fp_35270',['L2NORM_P',['../classug_1_1_poroelasticity_1_1_barry_mercer_error_data.html#a8abc9708f5ac9c6949777cf5444d520ba966cdca5c665b92a238c75f00c09fdcc',1,'ug::Poroelasticity::BarryMercerErrorData']]],
+  ['l2norm_5fux_35271',['L2NORM_UX',['../classug_1_1_poroelasticity_1_1_barry_mercer_error_data.html#a8abc9708f5ac9c6949777cf5444d520ba144d5b8b71f456f31f19e0cc618bc2bd',1,'ug::Poroelasticity::BarryMercerErrorData']]],
+  ['l2norm_5fuy_35272',['L2NORM_UY',['../classug_1_1_poroelasticity_1_1_barry_mercer_error_data.html#a8abc9708f5ac9c6949777cf5444d520ba81d198eac02b2456abece2851227b975',1,'ug::Poroelasticity::BarryMercerErrorData']]]
 ];

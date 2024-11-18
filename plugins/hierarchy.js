@@ -3,9 +3,20 @@ var hierarchy =
     [ "ug::AitkenNevilleTimex< TVector >", "classug_1_1_aitken_neville_timex.html", null ],
     [ "ug::promesh::AnisoElemInfo", "classug_1_1promesh_1_1_aniso_elem_info.html", null ],
     [ "ug::Electromagnetism::NedelecTransfer< TDomain, TAlgebra >::AssembleProlongationMatrix", "structug_1_1_electromagnetism_1_1_nedelec_transfer_1_1_assemble_prolongation_matrix.html", null ],
+    [ "ug::Poroelasticity::BarryMercerData", "structug_1_1_poroelasticity_1_1_barry_mercer_data.html", null ],
+    [ "ug::Poroelasticity::BarryMercerErrorData< TGridFunction >", "classug_1_1_poroelasticity_1_1_barry_mercer_error_data.html", null ],
+    [ "ug::Poroelasticity::BarryMercerErrorData< typename ug::GridFunction >", "classug_1_1_poroelasticity_1_1_barry_mercer_error_data.html", null ],
+    [ "ug::Poroelasticity::BarryMercerNondimensional", "classug_1_1_poroelasticity_1_1_barry_mercer_nondimensional.html", null ],
     [ "nlohmann::json_schema::basic_error_handler", null, [
       [ "ug::JSONToolkit::custom_error_handler", "classug_1_1_j_s_o_n_toolkit_1_1custom__error__handler.html", null ]
     ] ],
+    [ "ug::Poroelasticity::BiotDiscConfig", "structug_1_1_poroelasticity_1_1_biot_disc_config.html", null ],
+    [ "ug::Poroelasticity::BiotElemDisc< TDomain >", "classug_1_1_poroelasticity_1_1_biot_elem_disc.html", null ],
+    [ "ug::Poroelasticity::BiotElemDiscFactory< TDomain >", "classug_1_1_poroelasticity_1_1_biot_elem_disc_factory.html", null ],
+    [ "ug::Poroelasticity::BiotProblem< TDomain, TAlgebra >", "classug_1_1_poroelasticity_1_1_biot_problem.html", [
+      [ "ug::Poroelasticity::BarryMercerProblem< TDomain, TAlgebra >", "classug_1_1_poroelasticity_1_1_barry_mercer_problem.html", null ]
+    ] ],
+    [ "ug::Poroelasticity::BiotSubsetParameters", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html", null ],
     [ "ug::promesh::Box", "classug_1_1promesh_1_1_box.html", null ],
     [ "ug::Richards::BrooksCoreyFunctions", "structug_1_1_richards_1_1_brooks_corey_functions.html", null ],
     [ "ug::Electromagnetism::CalcVolPowerElemHelperClass< TGridFunc, TElem >", "classug_1_1_electromagnetism_1_1_calc_vol_power_elem_helper_class.html", null ],
@@ -71,6 +82,7 @@ var hierarchy =
     [ "ug::Jupyter::Functionality", "structug_1_1_jupyter_1_1_functionality.html", null ],
     [ "ug::Limex::Functionality", "structug_1_1_limex_1_1_functionality.html", null ],
     [ "ug::NavierStokes::Functionality", "structug_1_1_navier_stokes_1_1_functionality.html", null ],
+    [ "ug::Poroelasticity::Functionality", "structug_1_1_poroelasticity_1_1_functionality.html", null ],
     [ "ug::Richards::Functionality", "structug_1_1_richards_1_1_functionality.html", null ],
     [ "ug::SmallStrainMechanics::Functionality", "structug_1_1_small_strain_mechanics_1_1_functionality.html", null ],
     [ "ug::TemplatePlugin::Functionality", "structug_1_1_template_plugin_1_1_functionality.html", null ],
@@ -79,6 +91,7 @@ var hierarchy =
     [ "ug::NavierStokes::FunctionalityComp", "structug_1_1_navier_stokes_1_1_functionality_comp.html", null ],
     [ "ug::NavierStokes::FunctionalityCompFV1", "structug_1_1_navier_stokes_1_1_functionality_comp_f_v1.html", null ],
     [ "ug::NavierStokes::FunctionalityFE", "structug_1_1_navier_stokes_1_1_functionality_f_e.html", null ],
+    [ "ug::Poroelasticity::FunctionalityFor2D", "structug_1_1_poroelasticity_1_1_functionality_for2_d.html", null ],
     [ "ug::NavierStokes::FunctionalityFV", "structug_1_1_navier_stokes_1_1_functionality_f_v.html", null ],
     [ "ug::NavierStokes::FunctionalityFV1", "structug_1_1_navier_stokes_1_1_functionality_f_v1.html", null ],
     [ "ug::NavierStokes::FunctionalityFVCR", "structug_1_1_navier_stokes_1_1_functionality_f_v_c_r.html", null ],
@@ -445,6 +458,8 @@ var hierarchy =
     [ "ug::Electromagnetism::NedelecProject< TDomain, TAlgebra >::AuxLaplaceRHS::SetValueOnSubset", "structug_1_1_electromagnetism_1_1_nedelec_project_1_1_aux_laplace_r_h_s_1_1_set_value_on_subset.html", null ],
     [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFE< TDomain >::ShapeValues", "structug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_e_1_1_shape_values.html", null ],
     [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFV1< TDomain >::ShapeValues", "structug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1_1_1_shape_values.html", null ],
+    [ "ug::Util::SolverUtil< TDomain, TAlgebra >", "classug_1_1_util_1_1_solver_util.html", null ],
+    [ "ug::Util::SolverUtilFunctionProvider< TDomain, TAlgebra >", "classug_1_1_util_1_1_solver_util_function_provider.html", null ],
     [ "ug::SuperLUConfiguration", "structug_1_1_super_l_u_configuration.html", null ],
     [ "ug::ConvectionDiffusionPlugin::line_sss_marker::t_fract_elem", "structug_1_1_convection_diffusion_plugin_1_1line__sss__marker_1_1t__fract__elem.html", null ],
     [ "ug::Electromagnetism::TimeHarmonicNedelecHybridSmoother< TDomain, TAlgebra >::t_red_op_and", "structug_1_1_electromagnetism_1_1_time_harmonic_nedelec_hybrid_smoother_1_1t__red__op__and.html", null ],
@@ -477,6 +492,7 @@ var hierarchy =
           [ "ug::StdUserData< StdTurbulentViscosityData< TData, dim, TImpl, TGridFunction >, TData, dim >", "../classug_1_1_std_user_data.html", [
             [ "ug::NavierStokes::StdTurbulentViscosityData< TData, dim, TImpl, TGridFunction >", "classug_1_1_navier_stokes_1_1_std_turbulent_viscosity_data.html", null ]
           ] ],
+          [ "StdUserData< StdGlobPosData< TImpl, TData, dim, void >, TData, dim, void >", "../classug_1_1_std_user_data.html", null ],
           [ "ug::StdUserData< class, class, dim, class, class >", "../classug_1_1_std_user_data.html", [
             [ "ug::NavierStokes::StdTurbulentViscosityData< number, TGridFunction::dim, CRSmagorinskyTurbViscData< TGridFunction >, TGridFunction >", "classug_1_1_navier_stokes_1_1_std_turbulent_viscosity_data.html", [
               [ "ug::NavierStokes::CRSmagorinskyTurbViscData< TGridFunction >", "classug_1_1_navier_stokes_1_1_c_r_smagorinsky_turb_visc_data.html", null ]
@@ -504,6 +520,18 @@ var hierarchy =
             ] ],
             [ "ug::StdDependentUserData< NedelecSigmaEData< TGridFunc >, MathVector< TGridFunc::dim >, TGridFunc::dim >", "../classug_1_1_std_dependent_user_data.html", [
               [ "ug::Electromagnetism::NedelecSigmaEData< TGridFunc >", "classug_1_1_electromagnetism_1_1_nedelec_sigma_e_data.html", null ]
+            ] ],
+            [ "ug::StdGlobPosData< BarryMercerRefPressure, number, 2, void >", "../classug_1_1_std_glob_pos_data.html", [
+              [ "ug::Poroelasticity::BarryMercerRefPressure", "classug_1_1_poroelasticity_1_1_barry_mercer_ref_pressure.html", null ]
+            ] ],
+            [ "ug::StdGlobPosData< BarryMercerRefDispY, number, 2, void >", "../classug_1_1_std_glob_pos_data.html", [
+              [ "ug::Poroelasticity::BarryMercerRefDispY", "classug_1_1_poroelasticity_1_1_barry_mercer_ref_disp_y.html", null ]
+            ] ],
+            [ "ug::StdGlobPosData< BarryMercerPointSource, number, 2, void >", "../classug_1_1_std_glob_pos_data.html", [
+              [ "ug::Poroelasticity::BarryMercerPointSource", "classug_1_1_poroelasticity_1_1_barry_mercer_point_source.html", null ]
+            ] ],
+            [ "ug::StdGlobPosData< BarryMercerRefDispX, number, 2, void >", "../classug_1_1_std_glob_pos_data.html", [
+              [ "ug::Poroelasticity::BarryMercerRefDispX", "classug_1_1_poroelasticity_1_1_barry_mercer_ref_disp_x.html", null ]
             ] ]
           ] ]
         ] ],

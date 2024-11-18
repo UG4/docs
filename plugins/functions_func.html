@@ -110,13 +110,17 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 , <a class="el" href="classug_1_1_navier_stokes_1_1_navier_stokes_sym_b_c_f_v1.html#ad6c5dfaf423921e505aff10f589bd5bd">ug::NavierStokes::NavierStokesSymBCFV1&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_navier_stokes_1_1_navier_stokes_wall.html#a7a28597a99669cd2601df19f1a867a81">ug::NavierStokes::NavierStokesWall&lt; TDomain, TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_navier_stokes_1_1_navier_stokes_w_s_b_c_f_v1.html#a69a13babb1b8c0e0bdaf0d8a22d671c2">ug::NavierStokes::NavierStokesWSBCFV1&lt; TDomain &gt;</a>
-, <a class="el" href="classug_1_1_scaled_grid_function_estimator.html#ac43930ee37cc71263d6e8083d493690f">ug::ScaledGridFunctionEstimator&lt; TDomain, TAlgebra &gt;</a>
+, <a class="el" href="classug_1_1_scaled_grid_function_estimator.html#a667eea2cca4b68fceed34b66bae1e08d">ug::ScaledGridFunctionEstimator&lt; TDomain, TAlgebra &gt;</a>
 </li>
 <li>add_0()
 : <a class="el" href="classug_1_1_electromagnetism_1_1_nedelec_dirichlet_b_c.html#ad73b6ed587791ca31ee5d1264a97ec39">ug::Electromagnetism::NedelecDirichletBC&lt; TDomain, TAlgebra &gt;</a>
 </li>
+<li>add_boundary_conditions()
+: <a class="el" href="classug_1_1_poroelasticity_1_1_barry_mercer_problem.html#ac6d33bb88ae6fbdfc18cc167828ecc68">ug::Poroelasticity::BarryMercerProblem&lt; TDomain, TAlgebra &gt;</a>
+, <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a83b1b7c4ab998427975f3bf1d8a42cae">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;</a>
+</li>
 <li>add_class_()
-: <a class="el" href="classug_1_1promesh_1_1_pro_mesh_registry.html#a368296988498401f3c4bd12766ddd8f3">ug::promesh::ProMeshRegistry</a>
+: <a class="el" href="classug_1_1promesh_1_1_pro_mesh_registry.html#abf978e04f06dfeec3a633245d6a9d2f6">ug::promesh::ProMeshRegistry</a>
 </li>
 <li>add_def_A_elem()
 : <a class="el" href="classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_e.html#a83d6c4fa9539e5ee73a0a17cb9d9cbd4">ug::ConvectionDiffusionPlugin::ConvectionDiffusionFE&lt; TDomain &gt;</a>
@@ -164,6 +168,10 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 </li>
 <li>add_defect()
 : <a class="el" href="classug_1_1_disc_constraint_f_v_c_r.html#a33fbfd7240a7c1b9c956e0ead8afef62">ug::DiscConstraintFVCR&lt; TGridFunction &gt;</a>
+</li>
+<li>add_elem_discs()
+: <a class="el" href="classug_1_1_poroelasticity_1_1_barry_mercer_problem.html#a02a55f837a6a64e5febd89e561561272">ug::Poroelasticity::BarryMercerProblem&lt; TDomain, TAlgebra &gt;</a>
+, <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#ad4fab6ec5143bc0c5f199193937a1bd3">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;</a>
 </li>
 <li>add_error_estimator()
 : <a class="el" href="classug_1_1_limex_time_integrator.html#a3fa1bdad06161d931cb4ce650b32028f">ug::LimexTimeIntegrator&lt; TDomain, TAlgebra &gt;</a>
@@ -248,6 +256,9 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 : <a class="el" href="classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_fract_f_v1.html#a5327735657adab8e13ba5d33516a988c">ug::ConvectionDiffusionPlugin::ConvectionDiffusionFractFV1&lt; TDomain &gt;</a>
 , <a class="el" href="classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1.html#a75f8f68329a850b16520dfc9cab5602b">ug::ConvectionDiffusionPlugin::ConvectionDiffusionFV1&lt; TDomain &gt;</a>
 </li>
+<li>add_stab_discs()
+: <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a4fd034ac2529379f404eaf8321b1355e">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;</a>
+</li>
 <li>add_stage()
 : <a class="el" href="classug_1_1_limex_time_integrator.html#a031ddc4bcfd4344d18b902d753974d47">ug::LimexTimeIntegrator&lt; TDomain, TAlgebra &gt;</a>
 </li>
@@ -260,11 +271,17 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 <li>add_subset()
 : <a class="el" href="classug_1_1_electromagnetism_1_1_nedelec_dirichlet_b_c.html#a5173eb2d6a93d00f0b5125c43ad38da2">ug::Electromagnetism::NedelecDirichletBC&lt; TDomain, TAlgebra &gt;</a>
 </li>
+<li>add_subset_parameters()
+: <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a63e8d608fe83275b46b1ef0691f90f49">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;</a>
+</li>
 <li>add_to_value()
 : <a class="el" href="classug_1_1_demo_plugin_1_1_demo_class.html#a69411999bf7b5ecab4d6b0d9b028b226">ug::DemoPlugin::DemoClass</a>
 </li>
 <li>add_user_data()
 : <a class="el" href="structug_1_1_richards_1_1_functionality.html#a7704dd1025f1bb3804353536038470bf">ug::Richards::Functionality</a>
+</li>
+<li>add_uzawa_discs()
+: <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#acc7869ac46b86da7f40e71c6d26f0a2b">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;</a>
 </li>
 <li>add_wall()
 : <a class="el" href="classug_1_1_navier_stokes_1_1_constant_box_filter.html#ac608f8b6dc1cdb964d882dba6be66fa0">ug::NavierStokes::ConstantBoxFilter&lt; TGridFunction &gt;</a>
@@ -310,7 +327,7 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 </li>
 <li>adjust_solution()
 : <a class="el" href="classug_1_1_disc_constraint_f_v_c_r.html#a57bb3ce3437537adb6b1f6fa1ca475c9">ug::DiscConstraintFVCR&lt; TGridFunction &gt;</a>
-, <a class="el" href="classug_1_1_electromagnetism_1_1_nedelec_dirichlet_b_c.html#a72c9933c81cbad05d5ed4c14a8e09cd1">ug::Electromagnetism::NedelecDirichletBC&lt; TDomain, TAlgebra &gt;</a>
+, <a class="el" href="classug_1_1_electromagnetism_1_1_nedelec_dirichlet_b_c.html#a582d6b62589c7aacebf4a156fb344ddf">ug::Electromagnetism::NedelecDirichletBC&lt; TDomain, TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_out_of_source.html#a0d363fad398f01fd4e5e3ea47aa6acba">ug::Electromagnetism::NedelecLoopCurrent&lt; TDomain, TAlgebra &gt;::OutOfSource</a>
 , <a class="el" href="classug_1_1_electromagnetism_1_1_nedelec_project_1_1_aux_laplace_r_h_s.html#af6d4f3b04f98a61116a86de0c47d908f">ug::Electromagnetism::NedelecProject&lt; TDomain, TAlgebra &gt;::AuxLaplaceRHS</a>
 , <a class="el" href="classug_1_1_linear_implicit_euler.html#a985016c7d87865629a2d220c55b96a20">ug::LinearImplicitEuler&lt; TAlgebra &gt;</a>
@@ -339,9 +356,10 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 , <a class="el" href="structug_1_1_navier_stokes_1_1_functionality_f_v.html#a6d480ef6fce3f11979b5ef901dd41f7a">ug::NavierStokes::FunctionalityFV</a>
 , <a class="el" href="structug_1_1_navier_stokes_1_1_functionality_f_v_c_r.html#a4f75d92ed2006a1916b2a2c1bbc07473">ug::NavierStokes::FunctionalityFVCR</a>
 , <a class="el" href="structug_1_1_navier_stokes_1_1_functionality_incomp.html#a20a393c89af6746e0ba6adfa42ee57ea">ug::NavierStokes::FunctionalityIncomp</a>
+, <a class="el" href="structug_1_1_poroelasticity_1_1_functionality.html#a4df8733d7e1182b9c31ae0e63fc16bc0">ug::Poroelasticity::Functionality</a>
 , <a class="el" href="structug_1_1_richards_1_1_functionality.html#a69d6f3c6f063294f0bf905e45be73e65">ug::Richards::Functionality</a>
 , <a class="el" href="structug_1_1_template_plugin_1_1_functionality.html#aa1959c498d4eb67f6408709472b6ff58">ug::TemplatePlugin::Functionality</a>
-, <a class="el" href="structug_1_1_util_1_1_functionality.html#a5576d16b50857d7c3e3ccc8a10d30ff9">ug::Util::Functionality</a>
+, <a class="el" href="structug_1_1_util_1_1_functionality.html#ac57cfb0a7678d7b4cae0c7914bad7743">ug::Util::Functionality</a>
 </li>
 <li>alloc_DVFs()
 : <a class="el" href="classug_1_1_electromagnetism_1_1_nedelec_project.html#ac0e67ef1b547b928f97493d255fe256c">ug::Electromagnetism::NedelecProject&lt; TDomain, TAlgebra &gt;</a>
@@ -357,7 +375,7 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 , <a class="el" href="structug_1_1bridge_1_1func__traits_3_01xp_1_1xproperty_3_01_v_00_01_m_01_4_01_o_1_1_5_01_4.html#aad29b154656ac2d5df30967ea8ba33c3">ug::bridge::func_traits&lt; xp::xproperty&lt; V, M &gt; O::* &gt;</a>
 , <a class="el" href="classug_1_1_const_step_linear_time_integrator.html#a7cff2bf6f8c41b7ca5bac2f0c7f2b231">ug::ConstStepLinearTimeIntegrator&lt; TDomain, TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_discontinuity_integrator.html#abe960e137ffdea74deeb5eaf8cf6fd25">ug::DiscontinuityIntegrator&lt; TDomain, TAlgebra &gt;</a>
-, <a class="el" href="classug_1_1_electromagnetism_1_1_nedelec_project.html#a91217a1cd3a5c1e7b4dbfa07c0dee99e">ug::Electromagnetism::NedelecProject&lt; TDomain, TAlgebra &gt;</a>
+, <a class="el" href="classug_1_1_electromagnetism_1_1_nedelec_project.html#a91f737a1233555f0f64b731828fefe32">ug::Electromagnetism::NedelecProject&lt; TDomain, TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_electromagnetism_1_1_time_harmonic_nedelec_hybrid_smoother.html#a7f1b5ca23a5c5233107bfff19dfe6f3b">ug::Electromagnetism::TimeHarmonicNedelecHybridSmoother&lt; TDomain, TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_i_time_integrator.html#ae0cc3f44c7582ff523d77d0fd620e234">ug::ITimeIntegrator&lt; TDomain, TAlgebra &gt;</a>
 , <a class="el" href="classug_1_1_limex_newton_solver.html#ac7ae9560935ed89523788525d8b470bf">ug::LimexNewtonSolver&lt; TAlgebra &gt;</a>
@@ -469,7 +487,7 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Sep 9 2024 01:07:36 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Nov 18 2024 10:36:55 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

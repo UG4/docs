@@ -1,5 +1,11 @@
 var NAVTREEINDEX34 =
 {
+"classug_1_1_gauss_quadrature_3_01_reference_tetrahedron_00_018_01_4.html":[3,0,4,490],
+"classug_1_1_gauss_quadrature_3_01_reference_triangle_00_010_01_4.html":[3,0,4,491],
+"classug_1_1_gauss_quadrature_3_01_reference_triangle_00_0110_01_4.html":[3,0,4,493],
+"classug_1_1_gauss_quadrature_3_01_reference_triangle_00_0111_01_4.html":[3,0,4,494],
+"classug_1_1_gauss_quadrature_3_01_reference_triangle_00_0112_01_4.html":[3,0,4,495],
+"classug_1_1_gauss_quadrature_3_01_reference_triangle_00_011_01_4.html":[3,0,4,492],
 "classug_1_1_gauss_quadrature_3_01_reference_triangle_00_012_01_4.html":[3,0,4,496],
 "classug_1_1_gauss_quadrature_3_01_reference_triangle_00_013_01_4.html":[3,0,4,497],
 "classug_1_1_gauss_quadrature_3_01_reference_triangle_00_014_01_4.html":[3,0,4,498],
@@ -243,11 +249,5 @@ var NAVTREEINDEX34 =
 "classug_1_1_global_fractured_media_refiner.html#a7c44974a9b5b4e2f8bab4ae990fbc780":[1,0,2,0,0,2,6],
 "classug_1_1_global_fractured_media_refiner.html#a7c53ae8052af058240909159c134c95d":[1,0,2,0,0,2,30],
 "classug_1_1_global_fractured_media_refiner.html#a7d3eb1a080b6f2fb13e99e288fcba353":[1,0,2,0,0,2,26],
-"classug_1_1_global_fractured_media_refiner.html#a83a4aee67efebbd943c452ba58d5b862":[1,0,2,0,0,2,16],
-"classug_1_1_global_fractured_media_refiner.html#a880e886b71a80263a1a861f7ffffac45":[1,0,2,0,0,2,29],
-"classug_1_1_global_fractured_media_refiner.html#a8c8af8e6c9c583758ba8ff90dae332dc":[1,0,2,0,0,2,31],
-"classug_1_1_global_fractured_media_refiner.html#a934419520be21054f96cdd8f88041f0d":[1,0,2,0,0,2,25],
-"classug_1_1_global_fractured_media_refiner.html#aa025bbbcd7c7d0fca9756f6653f0b71c":[1,0,2,0,0,2,11],
-"classug_1_1_global_fractured_media_refiner.html#aa230eec54cc13becb763b1a5749e9b5a":[1,0,2,0,0,2,3],
-"classug_1_1_global_fractured_media_refiner.html#aa52aea78ab14b0b133e718ec7a578ec1":[1,0,2,0,0,2,33]
+"classug_1_1_global_fractured_media_refiner.html#a83a4aee67efebbd943c452ba58d5b862":[1,0,2,0,0,2,16]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX80 =
 {
+"classug_1_1_vector_time_series.html#abafb44d957257279a87effae89b402c2":[3,0,4,1279,3],
+"classug_1_1_vector_time_series.html#abdf7723ff2cd8538ab1eaf1669a1d3ac":[3,0,4,1279,4],
+"classug_1_1_vector_time_series.html#ad55c13171d1a7985cdaf77e88d2445f4":[3,0,4,1279,11],
+"classug_1_1_vector_time_series.html#ad623feabeace9faaff1b9e86ed23d57d":[3,0,4,1279,14],
+"classug_1_1_vector_time_series.html#ae6e04675ad47b0311bb1fd9c84263ace":[3,0,4,1279,13],
+"classug_1_1_vector_time_series.html#afa3af3d4a3606c653bda3ec9cac85ec0":[3,0,4,1279,19],
+"classug_1_1_vector_time_series_1_1_time_sol.html":[3,0,4,1279,0],
+"classug_1_1_vector_time_series_1_1_time_sol.html#a3ce9daa0c6f95d913b1494df05f9e3ce":[3,0,4,1279,0,1],
 "classug_1_1_vector_time_series_1_1_time_sol.html#a5d35f49ec5bac0676092c372e7ff9ee5":[3,0,4,1279,0,5],
 "classug_1_1_vector_time_series_1_1_time_sol.html#a73258b30b75adf2724ee2c747feed17c":[3,0,4,1279,0,7],
 "classug_1_1_vector_time_series_1_1_time_sol.html#a76b23bf7fa0eb4c6b1b5f205fb36ee99":[3,0,4,1279,0,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX80 =
 "classug_1_1bridge_1_1_class_cast_provider.html#a77e5fe56121f38e3b9c40d76dc907fb5":[1,0,3,0,4,0,5],
 "classug_1_1bridge_1_1_class_cast_provider.html#a9c0a9abacb22b84ac463775507dc55fa":[1,0,3,0,4,0,6],
 "classug_1_1bridge_1_1_class_cast_provider.html#ab2d5caa2542fd0a0faae91cac810269a":[1,0,3,0,4,0,0],
-"classug_1_1bridge_1_1_class_cast_provider.html#ab5597df5d3c4b3b285cbc66046a1e7fd":[1,0,3,0,4,0,4],
-"classug_1_1bridge_1_1_class_cast_provider.html#abb5507608a00b173b0dc25427deb5f0b":[1,0,3,0,4,0,3],
-"classug_1_1bridge_1_1_class_cast_provider.html#ae4189b7d94409ef207e9da233b19880a":[1,0,3,0,4,0,1],
-"classug_1_1bridge_1_1_class_cast_provider.html#af50aa05c14d54a8d32807ac2825cc32f":[1,0,3,0,4,0,8],
-"classug_1_1bridge_1_1_class_group_desc.html":[1,0,3,0,4,1],
-"classug_1_1bridge_1_1_class_group_desc.html#a000e22597d66d7d4e16b09b6de4b2116":[1,0,3,0,4,1,0],
-"classug_1_1bridge_1_1_class_group_desc.html#a08a95db49485ddec42da79de42b329a5":[1,0,3,0,4,1,1],
-"classug_1_1bridge_1_1_class_group_desc.html#a18b59d6744d75b91d3741119f3a6a301":[1,0,3,0,4,1,9],
-"classug_1_1bridge_1_1_class_group_desc.html#a1ed608a095d522528c588137ef69522d":[1,0,3,0,4,1,8]
+"classug_1_1bridge_1_1_class_cast_provider.html#ab5597df5d3c4b3b285cbc66046a1e7fd":[1,0,3,0,4,0,4]
 };

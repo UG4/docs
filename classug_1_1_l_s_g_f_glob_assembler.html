@@ -194,6 +194,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acf6be9edb6c63173f022e7259472e6c9"><td class="memTemplParams" colspan="2">template&lt;typename TElem , typename TIterator &gt; </td></tr>
 <tr class="memitem:acf6be9edb6c63173f022e7259472e6c9"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_l_s_g_f_glob_assembler.html#acf6be9edb6c63173f022e7259472e6c9">FinishTimestepElem</a> (const std::vector&lt; <a class="el" href="classug_1_1_i_elem_disc.html">IElemDisc</a>&lt; <a class="el" href="classug_1_1_l_s_g_f_glob_assembler.html#a2500f296c746c7113c30fd7dfd96c467">domain_type</a> &gt; * &gt; &amp;vElemDisc, <a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_l_s_g_f_glob_assembler.html#a2500f296c746c7113c30fd7dfd96c467">domain_type</a> &gt; spDomain, <a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_do_f_distribution.html">DoFDistribution</a> &gt; dd, TIterator iterBegin, TIterator iterEnd, int si, bool bNonRegularGrid, <a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_vector_time_series.html">VectorTimeSeries</a>&lt; <a class="el" href="classug_1_1_l_s_g_f_glob_assembler.html#ae0980a945de46a2266cc58398641dfb0">vector_type</a> &gt; &gt; vSol, <a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_assembling_tuner.html">AssemblingTuner</a>&lt; TAlgebra &gt; &gt; spAssTuner)</td></tr>
 <tr class="separator:acf6be9edb6c63173f022e7259472e6c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1093df9da22a8679a23c2b8f40a6d3b"><td class="memTemplParams" colspan="2">template&lt;typename TElem , typename TIterator &gt; </td></tr>
+<tr class="memitem:aa1093df9da22a8679a23c2b8f40a6d3b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_l_s_g_f_glob_assembler.html#aa1093df9da22a8679a23c2b8f40a6d3b">InitAllExports</a> (const std::vector&lt; <a class="el" href="classug_1_1_i_elem_disc.html">IElemDisc</a>&lt; <a class="el" href="classug_1_1_l_s_g_f_glob_assembler.html#a2500f296c746c7113c30fd7dfd96c467">domain_type</a> &gt; * &gt; &amp;vElemDisc, <a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_do_f_distribution.html">DoFDistribution</a> &gt; dd, TIterator iterBegin, TIterator iterEnd, int si, bool bNonRegularGrid, bool bAsTimeDependent)</td></tr>
+<tr class="separator:aa1093df9da22a8679a23c2b8f40a6d3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f5e04bae9ea786081f9a4d934c205cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_l_s_g_f_glob_assembler.html#a5f5e04bae9ea786081f9a4d934c205cf">lsf_at</a> (size_t co) const</td></tr>
 <tr class="memdesc:a5f5e04bae9ea786081f9a4d934c205cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the effective value of the LSF at a corner (use after check_elem_lsf)  <a href="classug_1_1_l_s_g_f_glob_assembler.html#a5f5e04bae9ea786081f9a4d934c205cf">More...</a><br /></td></tr>
 <tr class="separator:a5f5e04bae9ea786081f9a4d934c205cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2187,6 +2190,83 @@ template&lt;typename TElem , typename TIterator &gt; </div>
 
 </div>
 </div>
+<a id="aa1093df9da22a8679a23c2b8f40a6d3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1093df9da22a8679a23c2b8f40a6d3b">&#9670;&nbsp;</a></span>InitAllExports()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TDomain , typename TAlgebra , typename TExtrapolation &gt; </div>
+<div class="memtemplate">
+template&lt;typename TElem , typename TIterator &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_l_s_g_f_glob_assembler.html">ug::LSGFGlobAssembler</a>&lt; TDomain, TAlgebra, TExtrapolation &gt;::InitAllExports </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classug_1_1_i_elem_disc.html">IElemDisc</a>&lt; <a class="el" href="classug_1_1_l_s_g_f_glob_assembler.html#a2500f296c746c7113c30fd7dfd96c467">domain_type</a> &gt; * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>vElemDisc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_const_smart_ptr.html">ConstSmartPtr</a>&lt; <a class="el" href="classug_1_1_do_f_distribution.html">DoFDistribution</a> &gt;&#160;</td>
+          <td class="paramname"><em>dd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TIterator&#160;</td>
+          <td class="paramname"><em>iterBegin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TIterator&#160;</td>
+          <td class="paramname"><em>iterEnd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>si</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>bNonRegularGrid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>bAsTimeDependent</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This function finalizes the global discretization in a time-stepping scheme by calling the "finish_timestep_elem" methods of all passed element discretizations on one given subset. (This version processes elements in a given interval.)</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">vElemDisc</td><td>element discretizations </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dd</td><td>DoF Distribution </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iterBegin</td><td>element iterator </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iterEnd</td><td>element iterator </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">si</td><td>subset index </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">bNonRegularGrid</td><td>flag to indicate if non regular grid is used </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">bAsTimeDependent</td><td>flag to simulate the instationary case for the initialization </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">References <a class="el" href="namespaceug_1_1bridge_1_1_algebra_common.html#a49640e69720378147116efce394cdaf3">ug::bridge::AlgebraCommon::Eval()</a>, <a class="el" href="namespaceug.html#a566d113da734983a6917fbd0febc233fad86c14b30d01f126bccfe6413ae31f85">ug::MASS</a>, <a class="el" href="namespaceug.html#a566d113da734983a6917fbd0febc233fa6ef832385eef343625cc2aa613f02c76">ug::RHS</a>, <a class="el" href="namespaceug.html#a566d113da734983a6917fbd0febc233fa4ad198d022d234dadd95c9382c0252be">ug::STIFF</a>, and <a class="el" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>.</p>
+
+</div>
+</div>
 <a id="a5f5e04bae9ea786081f9a4d934c205cf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5f5e04bae9ea786081f9a4d934c205cf">&#9670;&nbsp;</a></span>lsf_at()</h2>
 
@@ -3009,7 +3089,7 @@ template&lt;typename TDomain , typename TAlgebra , typename TExtrapolation &gt; 
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_l_s_g_f_glob_assembler.html">LSGFGlobAssembler</a></li>
-    <li class="footer">Generated on Mon Sep 9 2024 01:08:28 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Nov 18 2024 10:37:46 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

@@ -5,7 +5,8 @@ var group__plugins =
     [ "Jupyter", "../plugins/group__sample__plugin.html", "group__sample__plugin" ],
     [ "Limex", "../plugins/group__limex.html", null ],
     [ "Lua Shell", "../plugins/group__lua__shell.html", null ],
+    [ "Poroelasticity", "../plugins/group___poroelasticity.html", "group___poroelasticity" ],
     [ "ProMesh", "../plugins/group__promesh.html", "group__promesh" ],
     [ "Small Strain Mechanics", "../plugins/group__small__strain__mechanics.html", "group__small__strain__mechanics" ],
-    [ "Util", "../plugins/group__util__plugin.html", null ]
+    [ "Util", "../plugins/group__util__plugin.html", "group__util__plugin" ]
 ];

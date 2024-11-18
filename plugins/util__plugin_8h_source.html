@@ -101,17 +101,17 @@ $(document).ready(function(){initNavTree('util__plugin_8h_source.html',''); init
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="codeRef" href="../bridge_2util_8h.html">bridge/util.h</a>&quot;</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
 <div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="util__plugin_8h.html#ab995f8c8b2bb2ab57bf13efdbe83e341">    8</a></span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> <span class="keywordtype">void</span> <a class="code" href="util__plugin_8h.html#ab995f8c8b2bb2ab57bf13efdbe83e341">InitUGPlugin_Util</a>(<a class="codeRef" href="../classug_1_1bridge_1_1_registry.html">ug::bridge::Registry</a>* reg, std::string grp);</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> <span class="keywordtype">void</span> <a class="code" href="util__plugin_8h.html#aeb2292b9e7e5adfe20c6294dd832fb4c">FinalizeUGPlugin_Util</a>();</div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="util__plugin_8h.html#aeb2292b9e7e5adfe20c6294dd832fb4c">    9</a></span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> <span class="keywordtype">void</span> <a class="code" href="util__plugin_8h.html#aeb2292b9e7e5adfe20c6294dd832fb4c">FinalizeUGPlugin_Util</a>();</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#ifdef UG_USE_PYBIND11</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;bindings/pybind/ug_pybind.h&quot;</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceug.html">ug</a> {</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">namespace </span>Util{</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  <span class="keywordtype">void</span> InitUGPlugin(ug::pybind::Registry* reg, std::string grp);</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">namespace </span>bridge {</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">namespace </span>UtilBridge{</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  <span class="keywordtype">void</span> InitUGPlugin(ug::pybind::Registry* reg, std::string grp);</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;}</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#endif</span></div>
@@ -122,14 +122,14 @@ $(document).ready(function(){initNavTree('util__plugin_8h_source.html',''); init
 <div class="ttc" id="aclassug_1_1bridge_1_1_registry_html"><div class="ttname"><a href="../classug_1_1bridge_1_1_registry.html">ug::bridge::Registry</a></div></div>
 <div class="ttc" id="anamespaceug_html"><div class="ttname"><a href="namespaceug.html">ug</a></div></div>
 <div class="ttc" id="autil__plugin_8h_html_ab995f8c8b2bb2ab57bf13efdbe83e341"><div class="ttname"><a href="util__plugin_8h.html#ab995f8c8b2bb2ab57bf13efdbe83e341">InitUGPlugin_Util</a></div><div class="ttdeci">void InitUGPlugin_Util(ug::bridge::Registry *reg, std::string grp)</div></div>
-<div class="ttc" id="autil__plugin_8h_html_aeb2292b9e7e5adfe20c6294dd832fb4c"><div class="ttname"><a href="util__plugin_8h.html#aeb2292b9e7e5adfe20c6294dd832fb4c">FinalizeUGPlugin_Util</a></div><div class="ttdeci">void FinalizeUGPlugin_Util()</div><div class="ttdef"><b>Definition:</b> util_plugin.cpp:232</div></div>
+<div class="ttc" id="autil__plugin_8h_html_aeb2292b9e7e5adfe20c6294dd832fb4c"><div class="ttname"><a href="util__plugin_8h.html#aeb2292b9e7e5adfe20c6294dd832fb4c">FinalizeUGPlugin_Util</a></div><div class="ttdeci">void FinalizeUGPlugin_Util()</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_38c8d24aef3972a7f87b834274e76e31.html">plugins</a></li><li class="navelem"><a class="el" href="dir_9906d5926353439783a00de9957fe9c7.html">Util</a></li><li class="navelem"><a class="el" href="util__plugin_8h.html">util_plugin.h</a></li>
-    <li class="footer">Generated on Mon Sep 9 2024 01:07:33 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Nov 18 2024 10:36:52 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

@@ -1,0 +1,27 @@
+var classug_1_1_poroelasticity_1_1_biot_subset_parameters =
+[
+    [ "BiotSubsetParameters", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#a79324e5562b2f98ef9693276571ee390", null ],
+    [ "BiotSubsetParameters", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#a4130a6c01bf726ce4edd4299ce80a6c5", null ],
+    [ "get_alpha", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#a8cb46df663c831aae3736c3869eb3cbe", null ],
+    [ "get_beta", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#a9efd25ba14af0613304b3321715bd5c0", null ],
+    [ "get_kappa", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#ad7b5bba823011fad2f6aa8b83e6bb896", null ],
+    [ "get_lambda", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#a13c145467261fa9aef83443d54f58b85", null ],
+    [ "get_mu", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#ac95bb937a7ddca438596c43c39d49b21", null ],
+    [ "get_phi", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#ae967e8568d0acb1fa041077c6dedc7aa", null ],
+    [ "get_subsets", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#aa101ebf22db129962eb0a97433ccd5a0", null ],
+    [ "set_alpha", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#a4bd3fa4239f23540b83a564b8e9b0d31", null ],
+    [ "set_beta", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#a127dfc8ab2ca95432b2c7445f66fa5bb", null ],
+    [ "set_kappa", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#a095faf5e4c4f8f03412c0ae2242650da", null ],
+    [ "set_lambda", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#a6dc7d88e7da9cf93f97f6d6aae03c05b", null ],
+    [ "set_mu", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#a00e8aded29b9a17144303a35d16519c3", null ],
+    [ "set_phi", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#a3cb13a5c9bece8480f49d07e61f5cf04", null ],
+    [ "set_subsets", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#a5b0ec4683a340c672c439cd51cf7ad1a", null ],
+    [ "from_json", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#a13cc83c768335c936280d9e60b05cce9", null ],
+    [ "m_alpha", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#a108840b7621cd63a802b7fe873d6e705", null ],
+    [ "m_beta_uzawa", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#a4c5768ba6b75eaf61d215e7b40aced07", null ],
+    [ "m_kappa", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#aa251cb297ae8596a23080190c27ee281", null ],
+    [ "m_lambda", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#a54320a7e7c34fa7b154c236cdd4dda90", null ],
+    [ "m_mu", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#aacadb9e3b03c76390d614df3ca9e7a68", null ],
+    [ "m_phi", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#a0c5936f0e348cee7cc3ea0c78d06964a", null ],
+    [ "m_subsets", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#abf0c6dbb7e58ce3de45ffe0f0988eb02", null ]
+];
