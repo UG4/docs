@@ -7,5 +7,5 @@ var util__plugin_8cpp =
     [ "PluginCrashes", "util__plugin_8cpp.html#ga065a48689788635a1ad8c232b8bdd5cb", null ],
     [ "PluginCrashesFatal", "util__plugin_8cpp.html#ga4a0dbd99f2d7f4ac5917fb17448dca12", null ],
     [ "PluginSaysHello", "util__plugin_8cpp.html#ga9789494f95c26a380ebb0913abf81021", null ],
-    [ "RegisterBridge_Util", "util__plugin_8cpp.html#a370aff1a0a4e29dffabf1830a940633c", null ]
+    [ "RegisterBridge_Util_", "util__plugin_8cpp.html#ac7b7ba12380cb4f70b793ba02fcbe144", null ]
 ];

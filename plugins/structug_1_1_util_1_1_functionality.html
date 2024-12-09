@@ -99,9 +99,9 @@ $(document).ready(function(){initNavTree('structug_1_1_util_1_1_functionality.ht
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ac57cfb0a7678d7b4cae0c7914bad7743"><td class="memTemplParams" colspan="2">template&lt;typename TAlgebra &gt; </td></tr>
-<tr class="memitem:ac57cfb0a7678d7b4cae0c7914bad7743"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structug_1_1_util_1_1_functionality.html#ac57cfb0a7678d7b4cae0c7914bad7743">Algebra</a> (<a class="elRef" href="../classug_1_1bridge_1_1_registry.html">Registry</a> &amp;reg, string grp)</td></tr>
-<tr class="separator:ac57cfb0a7678d7b4cae0c7914bad7743"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5576d16b50857d7c3e3ccc8a10d30ff9"><td class="memTemplParams" colspan="2">template&lt;typename TAlgebra , typename TRegistry  = ug::bridge::Registry&gt; </td></tr>
+<tr class="memitem:a5576d16b50857d7c3e3ccc8a10d30ff9"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structug_1_1_util_1_1_functionality.html#a5576d16b50857d7c3e3ccc8a10d30ff9">Algebra</a> (TRegistry &amp;reg, string grp)</td></tr>
+<tr class="separator:a5576d16b50857d7c3e3ccc8a10d30ff9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34bfbd5b5ad63e463cc8c50a529cf3ca"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1_util_1_1_functionality.html#a34bfbd5b5ad63e463cc8c50a529cf3ca">Common</a> (<a class="elRef" href="../classug_1_1bridge_1_1_registry.html">Registry</a> &amp;reg, string grp)</td></tr>
 <tr class="separator:a34bfbd5b5ad63e463cc8c50a529cf3ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a589f4e78852cfe6bbabe2b5361a18118"><td class="memTemplParams" colspan="2">template&lt;int dim, typename TRegistry  = ug::bridge::Registry&gt; </td></tr>
@@ -117,13 +117,13 @@ Static Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class exporting the functionality of the plugin. All functionality that is to be used in scripts or visualization must be registered here. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="ac57cfb0a7678d7b4cae0c7914bad7743"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac57cfb0a7678d7b4cae0c7914bad7743">&#9670;&nbsp;</a></span>Algebra()</h2>
+<a id="a5576d16b50857d7c3e3ccc8a10d30ff9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5576d16b50857d7c3e3ccc8a10d30ff9">&#9670;&nbsp;</a></span>Algebra()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TAlgebra &gt; </div>
+template&lt;typename TAlgebra , typename TRegistry  = ug::bridge::Registry&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -131,7 +131,7 @@ template&lt;typename TAlgebra &gt; </div>
         <tr>
           <td class="memname">static void ug::Util::Functionality::Algebra </td>
           <td>(</td>
-          <td class="paramtype"><a class="elRef" href="../classug_1_1bridge_1_1_registry.html">Registry</a> &amp;&#160;</td>
+          <td class="paramtype">TRegistry &amp;&#160;</td>
           <td class="paramname"><em>reg</em>, </td>
         </tr>
         <tr>
@@ -160,8 +160,6 @@ template&lt;typename TAlgebra &gt; </div>
   </table>
   </dd>
 </dl>
-
-<p class="reference">References <a class="elRef" href="../classug_1_1bridge_1_1_registry.html#a8686a8af006e6824318d2ad38a06f3d0">ug::bridge::Registry::add_function()</a>.</p>
 
 </div>
 </div>
@@ -358,7 +356,7 @@ template&lt;typename TDomain , typename TAlgebra , typename TRegistry  = ug::bri
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="namespaceug_1_1_util.html">Util</a></li><li class="navelem"><a class="el" href="structug_1_1_util_1_1_functionality.html">Functionality</a></li>
-    <li class="footer">Generated on Mon Dec 2 2024 07:53:06 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Dec 9 2024 01:18:46 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

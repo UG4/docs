@@ -6,6 +6,7 @@ var math__matrix__functions__common__impl_8hpp =
     [ "Determinant", "math__matrix__functions__common__impl_8hpp.html#ga38e580f261b070c3ae460f859e0982bc", null ],
     [ "Determinant", "math__matrix__functions__common__impl_8hpp.html#a7ab400ec6091bdf7fd527bcb4933d651", null ],
     [ "Determinant", "math__matrix__functions__common__impl_8hpp.html#ga51435539b2bfdafcc54372a96c8be791", null ],
+    [ "GeneralizedInverse", "math__matrix__functions__common__impl_8hpp.html#ga472d59e505151e86c121542264303bb5", null ],
     [ "GramDeterminant", "math__matrix__functions__common__impl_8hpp.html#a8c0c52b1d21083771d7ac1468601bba0", null ],
     [ "GramDeterminant", "math__matrix__functions__common__impl_8hpp.html#aa17e7e2e9ef28b009387fadc2e567297", null ],
     [ "GramDeterminant", "math__matrix__functions__common__impl_8hpp.html#ga24a4d6a4d546d6544548ff7add95fbfd", null ],

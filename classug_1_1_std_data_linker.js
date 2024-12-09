@@ -13,6 +13,7 @@ var classug_1_1_std_data_linker =
     [ "input_common_fct", "classug_1_1_std_data_linker.html#a5131e2fbcb198b952e227498cbe72e3b", null ],
     [ "input_num_fct", "classug_1_1_std_data_linker.html#ae8d1bb1804e900403a72834b68dbf3cf", null ],
     [ "local_ip_series_added", "classug_1_1_std_data_linker.html#ab31458c10620c6e8c993e8126e97f21f", null ],
+    [ "local_ip_series_to_be_cleared", "classug_1_1_std_data_linker.html#a301b07ad910d5a4df39d0c502f1acdef", null ],
     [ "local_ips_changed", "classug_1_1_std_data_linker.html#a1a0e5f5ac8cb381abb99186124259fc4", null ],
     [ "needed_data", "classug_1_1_std_data_linker.html#a40ffa97f24e4381e2c02e20a2c1fdfe1", null ],
     [ "num_input", "classug_1_1_std_data_linker.html#a3451aba2064e367737056ffcd9fc5d08", null ],

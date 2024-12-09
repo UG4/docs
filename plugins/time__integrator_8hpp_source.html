@@ -1003,8 +1003,8 @@ $(document).ready(function(){initNavTree('time__integrator_8hpp_source.html','')
 <div class="line"><a name="l00950"></a><span class="lineno">  950</span>&#160;  m_spSolTimeSeries2-&gt;push(u2old, t0);</div>
 <div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160;  </div>
 <div class="line"><a name="l00952"></a><span class="lineno">  952</span>&#160;  <span class="comment">// automatic selection of min/max time step</span></div>
-<div class="line"><a name="l00953"></a><span class="lineno">  953</span>&#160;  <span class="keywordflow">if</span> (m_dtmin&lt;0.0) m_dtmin = (t1-10.0)/1.0e+5; </div>
-<div class="line"><a name="l00954"></a><span class="lineno">  954</span>&#160;  <span class="keywordflow">if</span> (m_dtmax&lt;0.0) m_dtmax = (t1-10.0)/10.0; </div>
+<div class="line"><a name="l00953"></a><span class="lineno">  953</span>&#160;  <span class="keywordflow">if</span> (m_dtmin &lt;= 0.0) { m_dtmin = (t1 - t0)/1.0e+5; }</div>
+<div class="line"><a name="l00954"></a><span class="lineno">  954</span>&#160;  <span class="keywordflow">if</span> (m_dtmax &lt;= 0.0) { m_dtmax = (t1 - t0)/10.0; }</div>
 <div class="line"><a name="l00955"></a><span class="lineno">  955</span>&#160; </div>
 <div class="line"><a name="l00956"></a><span class="lineno">  956</span>&#160;  <span class="comment">// Aitken Neville extrapolation</span></div>
 <div class="line"><a name="l00957"></a><span class="lineno">  957</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">size_t</span> tsteps[2] = {1,2};</div>
@@ -1478,7 +1478,7 @@ $(document).ready(function(){initNavTree('time__integrator_8hpp_source.html','')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_38c8d24aef3972a7f87b834274e76e31.html">plugins</a></li><li class="navelem"><a class="el" href="dir_ddbc46a4ddd0bdb2290ac7ec55089202.html">Limex</a></li><li class="navelem"><a class="el" href="dir_ab7bc6756ff89c3050aed546c30ef6cf.html">time_disc</a></li><li class="navelem"><a class="el" href="time__integrator_8hpp.html">time_integrator.hpp</a></li>
-    <li class="footer">Generated on Mon Dec 2 2024 07:53:01 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Dec 9 2024 01:18:41 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

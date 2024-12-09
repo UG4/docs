@@ -400,6 +400,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:ae8d1bb1804e900403a72834b68dbf3cf inherit pro_methods_classug_1_1_std_data_linker"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab31458c10620c6e8c993e8126e97f21f inherit pro_methods_classug_1_1_std_data_linker"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../classug_1_1_std_data_linker.html#ab31458c10620c6e8c993e8126e97f21f">local_ip_series_added</a> (const size_t seriesID)</td></tr>
 <tr class="separator:ab31458c10620c6e8c993e8126e97f21f inherit pro_methods_classug_1_1_std_data_linker"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a301b07ad910d5a4df39d0c502f1acdef inherit pro_methods_classug_1_1_std_data_linker"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../classug_1_1_std_data_linker.html#a301b07ad910d5a4df39d0c502f1acdef">local_ip_series_to_be_cleared</a> ()</td></tr>
+<tr class="separator:a301b07ad910d5a4df39d0c502f1acdef inherit pro_methods_classug_1_1_std_data_linker"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a0e5f5ac8cb381abb99186124259fc4 inherit pro_methods_classug_1_1_std_data_linker"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../classug_1_1_std_data_linker.html#a1a0e5f5ac8cb381abb99186124259fc4">local_ips_changed</a> (const size_t seriesID, const size_t newNumIP)</td></tr>
 <tr class="separator:a1a0e5f5ac8cb381abb99186124259fc4 inherit pro_methods_classug_1_1_std_data_linker"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3389f326b2559c3c20c7a25276c6cc70 inherit pro_methods_classug_1_1_std_data_linker"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../classug_1_1_std_data_linker.html#a3389f326b2559c3c20c7a25276c6cc70">series_id</a> (size_t i, size_t <a class="el" href="_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a>) const</td></tr>
@@ -418,8 +420,6 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:ac7127183086b42553ea62204c9faad2c inherit pro_methods_classug_1_1_dependent_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a569138cd9d5fd03d4ae57593697742ed inherit pro_methods_classug_1_1_dependent_user_data"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../classug_1_1_dependent_user_data.html#a569138cd9d5fd03d4ae57593697742ed">extract_fct_grp</a> ()</td></tr>
 <tr class="separator:a569138cd9d5fd03d4ae57593697742ed inherit pro_methods_classug_1_1_dependent_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d8a22a58845a655a33e6e2fadec3a0c inherit pro_methods_classug_1_1_dependent_user_data"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../classug_1_1_dependent_user_data.html#a3d8a22a58845a655a33e6e2fadec3a0c">local_ip_series_to_be_cleared</a> ()</td></tr>
-<tr class="separator:a3d8a22a58845a655a33e6e2fadec3a0c inherit pro_methods_classug_1_1_dependent_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1852843a3d2f055377a6438ec4e4881d inherit pro_methods_classug_1_1_dependent_user_data"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../classug_1_1_dependent_user_data.html#a1852843a3d2f055377a6438ec4e4881d">resize_deriv_array</a> ()</td></tr>
 <tr class="separator:a1852843a3d2f055377a6438ec4e4881d inherit pro_methods_classug_1_1_dependent_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad30be6499a32f35e8c32abcd60467e36 inherit pro_methods_classug_1_1_dependent_user_data"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../classug_1_1_dependent_user_data.html#ad30be6499a32f35e8c32abcd60467e36">resize_deriv_array</a> (const size_t seriesID)</td></tr>
@@ -557,7 +557,7 @@ template&lt;int dim&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="namespaceug_1_1_richards.html">Richards</a></li><li class="navelem"><a class="el" href="structug_1_1_richards_1_1_exponential_conductivity.html">ExponentialConductivity</a></li>
-    <li class="footer">Generated on Mon Dec 2 2024 07:53:05 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Dec 9 2024 01:18:45 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

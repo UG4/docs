@@ -234,9 +234,7 @@ var annotated_dup =
         [ "TemplateSampleClass", "classug_1_1_template_plugin_1_1_template_sample_class.html", "classug_1_1_template_plugin_1_1_template_sample_class" ]
       ] ],
       [ "Util", "namespaceug_1_1_util.html", [
-        [ "Functionality", "structug_1_1_util_1_1_functionality.html", "structug_1_1_util_1_1_functionality" ],
-        [ "SolverUtil", "classug_1_1_util_1_1_solver_util.html", "classug_1_1_util_1_1_solver_util" ],
-        [ "SolverUtilFunctionProvider", "classug_1_1_util_1_1_solver_util_function_provider.html", "classug_1_1_util_1_1_solver_util_function_provider" ]
+        [ "Functionality", "structug_1_1_util_1_1_functionality.html", "structug_1_1_util_1_1_functionality" ]
       ] ],
       [ "AitkenNevilleTimex", "classug_1_1_aitken_neville_timex.html", "classug_1_1_aitken_neville_timex" ],
       [ "CompareDeg", "structug_1_1_compare_deg.html", "structug_1_1_compare_deg" ],

@@ -458,8 +458,6 @@ var hierarchy =
     [ "ug::Electromagnetism::NedelecProject< TDomain, TAlgebra >::AuxLaplaceRHS::SetValueOnSubset", "structug_1_1_electromagnetism_1_1_nedelec_project_1_1_aux_laplace_r_h_s_1_1_set_value_on_subset.html", null ],
     [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFE< TDomain >::ShapeValues", "structug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_e_1_1_shape_values.html", null ],
     [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFV1< TDomain >::ShapeValues", "structug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_v1_1_1_shape_values.html", null ],
-    [ "ug::Util::SolverUtil< TDomain, TAlgebra >", "classug_1_1_util_1_1_solver_util.html", null ],
-    [ "ug::Util::SolverUtilFunctionProvider< TDomain, TAlgebra >", "classug_1_1_util_1_1_solver_util_function_provider.html", null ],
     [ "ug::SuperLUConfiguration", "structug_1_1_super_l_u_configuration.html", null ],
     [ "ug::ConvectionDiffusionPlugin::line_sss_marker::t_fract_elem", "structug_1_1_convection_diffusion_plugin_1_1line__sss__marker_1_1t__fract__elem.html", null ],
     [ "ug::Electromagnetism::TimeHarmonicNedelecHybridSmoother< TDomain, TAlgebra >::t_red_op_and", "structug_1_1_electromagnetism_1_1_time_harmonic_nedelec_hybrid_smoother_1_1t__red__op__and.html", null ],

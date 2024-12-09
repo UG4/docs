@@ -9,6 +9,7 @@ var group__math__matrix =
     [ "Determinant", "../group__math__matrix.html#ga51435539b2bfdafcc54372a96c8be791", null ],
     [ "entry", "../group__math__matrix.html#ga08e4de2797012c74f5aa77bb1c8fa009", null ],
     [ "fnorm", "../group__math__matrix.html#gae37733a9073d9dcc5eba3b28aae60a38", null ],
+    [ "GeneralizedInverse", "../group__math__matrix.html#ga472d59e505151e86c121542264303bb5", null ],
     [ "GramDeterminant", "../group__math__matrix.html#ga24a4d6a4d546d6544548ff7add95fbfd", null ],
     [ "GramDeterminant", "../group__math__matrix.html#ga25420f35d0ee0c35c17f6b7976a0ed11", null ],
     [ "GramDeterminant", "../group__math__matrix.html#ga47d37e02751d5b74a604798085145855", null ],

@@ -89,86 +89,19 @@ $(document).ready(function(){initNavTree('solver__util_8h.html',''); initResizab
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">solver_util.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;nlohmann/json.hpp&gt;</code><br />
-<code>#include &quot;<a class="elRef" href="../common_8h.html">common/common.h</a>&quot;</code><br />
-<code>#include &quot;<a class="elRef" href="../log_8h.html">common/log.h</a>&quot;</code><br />
-<code>#include &quot;<a class="elRef" href="../smart__pointer_8h.html">common/util/smart_pointer.h</a>&quot;</code><br />
-<code>#include &lt;memory&gt;</code><br />
-<code>#include &lt;unordered_map&gt;</code><br />
-<code>#include &lt;variant&gt;</code><br />
-<code>#include &lt;stdexcept&gt;</code><br />
-<code>#include &quot;<a class="elRef" href="../convergence__check_8h.html">lib_algebra/operator/convergence_check.h</a>&quot;</code><br />
-<code>#include &quot;<a class="elRef" href="../linear__solver_8h.html">lib_algebra/operator/linear_solver/linear_solver.h</a>&quot;</code><br />
-<code>#include &quot;<a class="elRef" href="../grid__function_8h.html">lib_disc/function_spaces/grid_function.h</a>&quot;</code><br />
-<code>#include &quot;<a class="elRef" href="../ilu_8h.html">lib_algebra/operator/preconditioner/ilu.h</a>&quot;</code><br />
-<code>#include &quot;<a class="elRef" href="../ilut_8h.html">lib_algebra/operator/preconditioner/ilut.h</a>&quot;</code><br />
-<code>#include &quot;<a class="elRef" href="../jacobi_8h.html">lib_algebra/operator/preconditioner/jacobi.h</a>&quot;</code><br />
-<code>#include &quot;<a class="elRef" href="../block__gauss__seidel_8h.html">lib_algebra/operator/preconditioner/block_gauss_seidel.h</a>&quot;</code><br />
-<code>#include &quot;<a class="elRef" href="../gauss__seidel_8h.html">lib_algebra/operator/preconditioner/gauss_seidel.h</a>&quot;</code><br />
-<code>#include &quot;<a class="elRef" href="../element__gauss__seidel_8h.html">lib_disc/operator/linear_operator/element_gauss_seidel/element_gauss_seidel.h</a>&quot;</code><br />
-<code>#include &quot;<a class="elRef" href="../newton_8h.html">lib_disc/operator/non_linear_operator/newton_solver/newton.h</a>&quot;</code><br />
-</div>
+
 <p><a href="solver__util_8h_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_util_1_1_solver_util.html">ug::Util::SolverUtil&lt; TDomain, TAlgebra &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_util_1_1_solver_util_function_provider.html">ug::Util::SolverUtilFunctionProvider&lt; TDomain, TAlgebra &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:namespaceug"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug.html">ug</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespaceug_1_1_util"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug_1_1_util.html">ug::Util</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a8ee0601d2942f2a4700b57c3f16575e3"><td class="memTemplParams" colspan="2">template&lt;typename TDomain , typename TAlgebra &gt; </td></tr>
-<tr class="memitem:a8ee0601d2942f2a4700b57c3f16575e3"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug_1_1_util.html#a8ee0601d2942f2a4700b57c3f16575e3">ug::Util::SolverComponent</a> = std::variant&lt; <a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; ApproximationSpace&lt; TDomain &gt; &gt;, <a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; ILU&lt; TAlgebra &gt; &gt;, <a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; ILUTPreconditioner&lt; TAlgebra &gt; &gt;, <a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; Jacobi&lt; TAlgebra &gt; &gt;, <a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; BlockGaussSeidel&lt; TAlgebra, false, false &gt; &gt;, <a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; BlockGaussSeidel&lt; TAlgebra, true, false &gt; &gt;, <a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; BlockGaussSeidel&lt; TAlgebra, false, true &gt; &gt;, <a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; BlockGaussSeidel&lt; TAlgebra, true, true &gt; &gt;, <a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; SymmetricGaussSeidel&lt; TAlgebra &gt; &gt;, <a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; GaussSeidel&lt; TAlgebra &gt; &gt;, <a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; ElementGaussSeidel&lt; TDomain, TAlgebra &gt; &gt;, <a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; NewtonSolver&lt; TAlgebra &gt; &gt; &gt;</td></tr>
-<tr class="separator:a8ee0601d2942f2a4700b57c3f16575e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a9a1e2b6964d401df12ca14cfa751c57f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug_1_1_util.html#a9a1e2b6964d401df12ca14cfa751c57f">ug::Util::CondAbort</a> (bool condition, std::string message)</td></tr>
-<tr class="separator:a9a1e2b6964d401df12ca14cfa751c57f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acee3a5a5ced9a598ea0a07f321d5c241"><td class="memTemplParams" colspan="2">template&lt;typename TAlgebra &gt; </td></tr>
-<tr class="memitem:acee3a5a5ced9a598ea0a07f321d5c241"><td class="memTemplItemLeft" align="right" valign="top"><a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; StdConvCheck&lt; typename <a class="elRef" href="../group__lib__algebra.html#gaf11c2aa408d075d1f6fa6e217f6afe13">TAlgebra::vector_type</a> &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug_1_1_util.html#acee3a5a5ced9a598ea0a07f321d5c241">ug::Util::CreateConvCheck</a> (nlohmann::json &amp;descriptor)</td></tr>
-<tr class="separator:acee3a5a5ced9a598ea0a07f321d5c241"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ae0ec87def80d64c9a4c4fed1af55c0"><td class="memTemplParams" colspan="2">template&lt;typename TDomain , typename TAlgebra &gt; </td></tr>
-<tr class="memitem:a7ae0ec87def80d64c9a4c4fed1af55c0"><td class="memTemplItemLeft" align="right" valign="top"><a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; LinearSolver&lt; typename <a class="elRef" href="../group__lib__algebra.html#gaf11c2aa408d075d1f6fa6e217f6afe13">TAlgebra::vector_type</a> &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug_1_1_util.html#a7ae0ec87def80d64c9a4c4fed1af55c0">ug::Util::CreateLinearSolver</a> (nlohmann::json &amp;desc, SolverUtil&lt; TDomain, TAlgebra &gt; solverutil)</td></tr>
-<tr class="separator:a7ae0ec87def80d64c9a4c4fed1af55c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3b736d6ca38d28a09ecb042ddeb6451"><td class="memTemplParams" colspan="2">template&lt;typename TAlgebra &gt; </td></tr>
-<tr class="memitem:ae3b736d6ca38d28a09ecb042ddeb6451"><td class="memTemplItemLeft" align="right" valign="top"><a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; StandardLineSearch&lt; typename <a class="elRef" href="../group__lib__algebra.html#gaf11c2aa408d075d1f6fa6e217f6afe13">TAlgebra::vector_type</a> &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug_1_1_util.html#ae3b736d6ca38d28a09ecb042ddeb6451">ug::Util::CreateLineSearch</a> (nlohmann::json &amp;desc)</td></tr>
-<tr class="separator:ae3b736d6ca38d28a09ecb042ddeb6451"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab542283518622c1c47e0be08a55d47d4"><td class="memTemplParams" colspan="2">template&lt;typename TDomain , typename TAlgebra &gt; </td></tr>
-<tr class="memitem:ab542283518622c1c47e0be08a55d47d4"><td class="memTemplItemLeft" align="right" valign="top"><a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; IPreconditioner&lt; TAlgebra &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug_1_1_util.html#ab542283518622c1c47e0be08a55d47d4">ug::Util::CreatePreconditioner</a> (nlohmann::json &amp;desc, SolverUtil&lt; TDomain, TAlgebra &gt; &amp;solverutil)</td></tr>
-<tr class="separator:ab542283518622c1c47e0be08a55d47d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a195564664c3334e36b4da1a1b4e6fe7b"><td class="memTemplParams" colspan="2">template&lt;typename TDomain , typename TAlgebra &gt; </td></tr>
-<tr class="memitem:a195564664c3334e36b4da1a1b4e6fe7b"><td class="memTemplItemLeft" align="right" valign="top"><a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; SolverUtil&lt; TDomain, TAlgebra &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug_1_1_util.html#a195564664c3334e36b4da1a1b4e6fe7b">ug::Util::CreateSolver</a> (nlohmann::json &amp;solverDesc, SolverUtil&lt; TDomain, TAlgebra &gt; solverutil)</td></tr>
-<tr class="separator:a195564664c3334e36b4da1a1b4e6fe7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada68ff6250ac36dcb5759f5352c1001a"><td class="memTemplParams" colspan="2">template&lt;typename TDomain , typename TAlgebra &gt; </td></tr>
-<tr class="memitem:ada68ff6250ac36dcb5759f5352c1001a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug_1_1_util.html#ada68ff6250ac36dcb5759f5352c1001a">ug::Util::PrepateSolverUtil</a> (nlohmann::json &amp;desc, nlohmann::json &amp;solverutil)</td></tr>
-<tr class="separator:ada68ff6250ac36dcb5759f5352c1001a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_38c8d24aef3972a7f87b834274e76e31.html">plugins</a></li><li class="navelem"><a class="el" href="dir_9906d5926353439783a00de9957fe9c7.html">Util</a></li><li class="navelem"><a class="el" href="solver__util_8h.html">solver_util.h</a></li>
-    <li class="footer">Generated on Mon Dec 2 2024 07:53:03 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Dec 9 2024 01:18:43 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

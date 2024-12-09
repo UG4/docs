@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"parallel__scaling__sample_8lua.html#ad2464918eb8162cae4af3f470845f0d9":[2,0,0,4,1,8],
 "parallel__scaling__sample_8lua.html#ad4fbf81e2b8edcf308af665d00fce7d5":[2,0,0,4,1,1],
 "parallel__scaling__sample_8lua.html#adc4fa7e571ed99911f8e131c40623738":[2,0,0,4,1,10],
 "parallel__scaling__sample_8lua.html#aee7fb211ac6a51e616ab337567830376":[2,0,0,4,1,2],

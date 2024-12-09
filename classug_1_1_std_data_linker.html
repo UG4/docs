@@ -399,6 +399,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:ab31458c10620c6e8c993e8126e97f21f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_std_data_linker.html#ab31458c10620c6e8c993e8126e97f21f">local_ip_series_added</a> (const size_t seriesID)</td></tr>
 <tr class="memdesc:ab31458c10620c6e8c993e8126e97f21f"><td class="mdescLeft">&#160;</td><td class="mdescRight">requests series id's from input data  <a href="classug_1_1_std_data_linker.html#ab31458c10620c6e8c993e8126e97f21f">More...</a><br /></td></tr>
 <tr class="separator:ab31458c10620c6e8c993e8126e97f21f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a301b07ad910d5a4df39d0c502f1acdef"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_std_data_linker.html#a301b07ad910d5a4df39d0c502f1acdef">local_ip_series_to_be_cleared</a> ()</td></tr>
+<tr class="memdesc:a301b07ad910d5a4df39d0c502f1acdef"><td class="mdescLeft">&#160;</td><td class="mdescRight">requests cleaning of the ip series in the data inputs  <a href="classug_1_1_std_data_linker.html#a301b07ad910d5a4df39d0c502f1acdef">More...</a><br /></td></tr>
+<tr class="separator:a301b07ad910d5a4df39d0c502f1acdef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a0e5f5ac8cb381abb99186124259fc4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_std_data_linker.html#a1a0e5f5ac8cb381abb99186124259fc4">local_ips_changed</a> (const size_t seriesID, const size_t newNumIP)</td></tr>
 <tr class="memdesc:a1a0e5f5ac8cb381abb99186124259fc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">forwards the local positions to the data inputs  <a href="classug_1_1_std_data_linker.html#a1a0e5f5ac8cb381abb99186124259fc4">More...</a><br /></td></tr>
 <tr class="separator:a1a0e5f5ac8cb381abb99186124259fc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -425,9 +428,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a569138cd9d5fd03d4ae57593697742ed inherit pro_methods_classug_1_1_dependent_user_data"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_dependent_user_data.html#a569138cd9d5fd03d4ae57593697742ed">extract_fct_grp</a> ()</td></tr>
 <tr class="memdesc:a569138cd9d5fd03d4ae57593697742ed inherit pro_methods_classug_1_1_dependent_user_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">extracts the function group  <a href="classug_1_1_dependent_user_data.html#a569138cd9d5fd03d4ae57593697742ed">More...</a><br /></td></tr>
 <tr class="separator:a569138cd9d5fd03d4ae57593697742ed inherit pro_methods_classug_1_1_dependent_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d8a22a58845a655a33e6e2fadec3a0c inherit pro_methods_classug_1_1_dependent_user_data"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_dependent_user_data.html#a3d8a22a58845a655a33e6e2fadec3a0c">local_ip_series_to_be_cleared</a> ()</td></tr>
-<tr class="memdesc:a3d8a22a58845a655a33e6e2fadec3a0c inherit pro_methods_classug_1_1_dependent_user_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">implement callback, invoked when local ips are cleared  <a href="classug_1_1_dependent_user_data.html#a3d8a22a58845a655a33e6e2fadec3a0c">More...</a><br /></td></tr>
-<tr class="separator:a3d8a22a58845a655a33e6e2fadec3a0c inherit pro_methods_classug_1_1_dependent_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1852843a3d2f055377a6438ec4e4881d inherit pro_methods_classug_1_1_dependent_user_data"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_dependent_user_data.html#a1852843a3d2f055377a6438ec4e4881d">resize_deriv_array</a> ()</td></tr>
 <tr class="memdesc:a1852843a3d2f055377a6438ec4e4881d inherit pro_methods_classug_1_1_dependent_user_data"><td class="mdescLeft">&#160;</td><td class="mdescRight">resizes the derivative arrays for current number of ips.  <a href="classug_1_1_dependent_user_data.html#a1852843a3d2f055377a6438ec4e4881d">More...</a><br /></td></tr>
 <tr class="separator:a1852843a3d2f055377a6438ec4e4881d inherit pro_methods_classug_1_1_dependent_user_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1156,6 +1156,36 @@ template&lt;typename TImpl , typename TData , int dim&gt; </div>
 
 </div>
 </div>
+<a id="a301b07ad910d5a4df39d0c502f1acdef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a301b07ad910d5a4df39d0c502f1acdef">&#9670;&nbsp;</a></span>local_ip_series_to_be_cleared()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TImpl , typename TData , int dim&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_std_data_linker.html">ug::StdDataLinker</a>&lt; TImpl, TData, <a class="elRef" href="../plugins/group__small__strain__mechanics.html#ga48fe27c9a0dffdcc67e1a84f77f632fc">dim</a> &gt;::local_ip_series_to_be_cleared</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>requests cleaning of the ip series in the data inputs </p>
+
+<p>Reimplemented from <a class="el" href="classug_1_1_dependent_user_data.html#a3d8a22a58845a655a33e6e2fadec3a0c">ug::DependentUserData&lt; TData, dim &gt;</a>.</p>
+
+<p class="reference">References <a class="el" href="classug_1_1_dependent_user_data.html#a3d8a22a58845a655a33e6e2fadec3a0c">ug::DependentUserData&lt; TData, dim &gt;::local_ip_series_to_be_cleared()</a>, and <a class="el" href="group__ugbase__common.html#ga0b928ef153b78f1b5e025638cf28f841">UG_ASSERT</a>.</p>
+
+</div>
+</div>
 <a id="a1a0e5f5ac8cb381abb99186124259fc4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1a0e5f5ac8cb381abb99186124259fc4">&#9670;&nbsp;</a></span>local_ips_changed()</h2>
 
@@ -1783,7 +1813,7 @@ template&lt;typename TImpl , typename TData , int dim&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_std_data_linker.html">StdDataLinker</a></li>
-    <li class="footer">Generated on Mon Dec 2 2024 07:54:01 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Dec 9 2024 01:19:42 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
