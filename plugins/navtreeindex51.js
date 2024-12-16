@@ -1,5 +1,8 @@
 var NAVTREEINDEX51 =
 {
+"structug_1_1_electromagnetism_1_1_nedelec_dirichlet_b_c_1_1_t_user_data_b_c.html#aacdcc8821412098da9e73ef8c9880cac":[3,0,0,4,17,1,1],
+"structug_1_1_electromagnetism_1_1_nedelec_dirichlet_b_c_1_1_t_user_data_b_c.html#ac17730000571d2808b85ddc204956567":[3,0,0,4,17,1,0],
+"structug_1_1_electromagnetism_1_1_nedelec_dirichlet_b_c_1_1_t_user_data_b_c.html#ac743d5dcc8e03ca85b8da70cf9e835d4":[3,0,0,4,17,1,4],
 "structug_1_1_electromagnetism_1_1_nedelec_dirichlet_b_c_1_1_t_user_data_b_c.html#af74ca1228bb624c3530aa51590758989":[3,0,0,4,17,1,2],
 "structug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_aux_laplace_loc_ass_1_1_register_local_discr.html":[3,0,0,4,22,0,0],
 "structug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_aux_laplace_loc_ass_1_1_register_local_discr.html#a0d59de9ba088fba70934a5ced8d22fa7":[3,0,0,4,22,0,0,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX51 =
 "structug_1_1_richards_1_1_functionality.html#a69d6f3c6f063294f0bf905e45be73e65":[1,0,0,2,1,1],
 "structug_1_1_richards_1_1_functionality.html#a7704dd1025f1bb3804353536038470bf":[1,0,0,2,1,0],
 "structug_1_1_richards_1_1_functionality.html#ab8ace83f0893c7b5b17aa723b9bd7979":[1,0,0,2,1,4],
-"structug_1_1_richards_1_1_haverkamp_parameters.html":[3,0,0,12,12],
-"structug_1_1_richards_1_1_haverkamp_parameters.html#a0ec6e91b90084872764e00536e154691":[3,0,0,12,12,2],
-"structug_1_1_richards_1_1_haverkamp_parameters.html#a1058fe5ca454c3ccd11628dae26650dd":[3,0,0,12,12,3],
-"structug_1_1_richards_1_1_haverkamp_parameters.html#a181758e1218efaeaf2b60bc563a7ef9b":[3,0,0,12,12,6]
+"structug_1_1_richards_1_1_haverkamp_parameters.html":[3,0,0,12,12]
 };

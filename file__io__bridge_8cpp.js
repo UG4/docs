@@ -6,6 +6,5 @@ var file__io__bridge_8cpp =
     [ "SaveGrid", "file__io__bridge_8cpp.html#a21d5494c858ad2881458d2fc7ac7ab37", null ],
     [ "SaveGrid", "file__io__bridge_8cpp.html#a8605d38a52b723588c95d807eea58a61", null ],
     [ "SaveGrid", "file__io__bridge_8cpp.html#a8ba0f9b92c7d81efed5935d6022f74e2", null ],
-    [ "SaveGridHierarchy", "file__io__bridge_8cpp.html#a6f94b3d71d0b681fad9fa58093abee13", null ],
-    [ "SetVTURegionOfInterestIdentifier", "file__io__bridge_8cpp.html#af9e740eb57d1dd96e3a3f16d75f51653", null ]
+    [ "SaveGridHierarchy", "file__io__bridge_8cpp.html#a6f94b3d71d0b681fad9fa58093abee13", null ]
 ];

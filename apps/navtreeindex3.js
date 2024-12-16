@@ -1,5 +1,7 @@
 var NAVTREEINDEX3 =
 {
+"group__bridge.html#gae18e8612d92af9806d9ca750e885a145":[1,0,5,0,12],
+"group__bridge.html#gaf83b797d5d85935b49cf108334cb98bc":[1,0,5,0,33],
 "group__bridge.html#gaf97f8230ab8fb2586d72ebc469414ccb":[1,0,5,0,47],
 "group__bridge.html#gafb07aa5000f0acfdae8c9f5b05d4619f":[1,0,5,0,38],
 "group__constr__lin__it__bridge.html":[1,0,5,0,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX3 =
 "group__lib__disc__domain.html#gafce0e95ec0580874d9c5383bee9d9255":[1,0,2,1,80],
 "group__lib__disc__domain.html#gafd4b6d9a9dffa527eea364d39ea56321":[1,0,2,1,30],
 "group__lib__disc__domain.html#gafe0d2648375a93cc2cec78f3c0f238c6":[1,0,2,1,49],
-"group__lib__disc__domain.html#gaff7229b5d622bfe7df1d58134ff7cef9":[1,0,2,1,16],
-"group__lib__disc__elem__disc.html":[1,0,2,4],
-"group__lib__disc__local__finite__elements.html":[1,0,2,2]
+"group__lib__disc__domain.html#gaff7229b5d622bfe7df1d58134ff7cef9":[1,0,2,1,16]
 };

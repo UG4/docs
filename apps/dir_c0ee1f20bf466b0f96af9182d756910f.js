@@ -6,6 +6,7 @@ var dir_c0ee1f20bf466b0f96af9182d756910f =
     [ "elder_user_data.lua", "elder__user__data_8lua.html", "elder__user__data_8lua" ],
     [ "electromagnetism_pan.lua", "electromagnetism__pan_8lua.html", "electromagnetism__pan_8lua" ],
     [ "error_estimation.lua", "error__estimation_8lua.html", "error__estimation_8lua" ],
+    [ "henry_stat.lua", "henry__stat_8lua.html", "henry__stat_8lua" ],
     [ "laplace-hpc.lua", "laplace-hpc_8lua.html", "laplace-hpc_8lua" ],
     [ "laplace.lua", "laplace_8lua.html", "laplace_8lua" ],
     [ "lua-programming.lua", "lua-programming_8lua.html", "lua-programming_8lua" ],

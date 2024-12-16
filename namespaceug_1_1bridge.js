@@ -478,7 +478,6 @@ var namespaceug_1_1bridge =
     [ "SetLuaNamespaceInTable", "namespaceug_1_1bridge.html#a56c0f4d3b5d0b186522512a7fb61f6ac", null ],
     [ "SetMinSecondsUntilProgress", "group__util__bridge.html#gaf8b34fe7e938c44d1ba6e628afb524f4", null ],
     [ "SetOtherCompletions", "group__ugbase__ugshell.html#ga2b66195e2e169307b8256221dcbfbde0", null ],
-    [ "SetVTURegionOfInterestIdentifier", "namespaceug_1_1bridge.html#af9e740eb57d1dd96e3a3f16d75f51653", null ],
     [ "SmartMultipleDerivedImpl", "group__test__bridge.html#gad9898e5c83cae6c07d526db62d0da01e", null ],
     [ "SmartTestArrived", "group__test__bridge.html#ga8cad331c73d92732dc430927e0810266", null ],
     [ "SmartTestFunc", "group__test__bridge.html#ga2a7d4c240e5fb4beff8e62d7260909fa", null ],

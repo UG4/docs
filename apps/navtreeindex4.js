@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"group__lib__disc__elem__disc.html":[1,0,2,4],
+"group__lib__disc__local__finite__elements.html":[1,0,2,2],
 "group__lib__disc__user__data.html":[1,0,2,5],
 "group__lib__disc__user__data.html#ga0c13413883d80ba95c87e6b16ac851d6":[1,0,2,5,1],
 "group__lib__disc__user__data.html#gaba6756fe0f7d1c2e07bfb9989a586868":[1,0,2,5,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "group__lib__grid__algorithms__polychain__util.html#ggaed934cbb2fbb8eec0e5d7ac21f825089ac282117d4f9a3be4dc2b99cb096aaa44":[1,0,3,0,13,6],
 "group__lib__grid__algorithms__polychain__util.html#ggaed934cbb2fbb8eec0e5d7ac21f825089ad65712d1a009372f7f990be85365d5fb":[1,0,3,0,13,8],
 "group__lib__grid__algorithms__polychain__util.html#ggaed934cbb2fbb8eec0e5d7ac21f825089af645db00b5566d136c5fec7136cf834e":[1,0,3,0,13,11],
-"group__lib__grid__algorithms__refinement.html":[1,0,3,0,0],
-"group__lib__grid__algorithms__refinement.html#ga245c1129777edebab6bcd6973b62d6f2":[1,0,3,0,0,1],
-"group__lib__grid__algorithms__refinement.html#ga513fee55d18afaa35651a60d9fe052bb":[1,0,3,0,0,3]
+"group__lib__grid__algorithms__refinement.html":[1,0,3,0,0]
 };

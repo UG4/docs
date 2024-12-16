@@ -168,7 +168,8 @@ var menudata={children:[
 {text:"r",url:"namespacemembers_eval_r.html#index_r"},
 {text:"s",url:"namespacemembers_eval_s.html#index_s"},
 {text:"t",url:"namespacemembers_eval_t.html#index_t"},
-{text:"v",url:"namespacemembers_eval_v.html#index_v"}]}]}]},
+{text:"v",url:"namespacemembers_eval_v.html#index_v"},
+{text:"x",url:"namespacemembers_eval_x.html#index_x"}]}]}]},
 {text:"Classes",url:"annotated.html",children:[
 {text:"Class List",url:"annotated.html"},
 {text:"Class Index",url:"classes.html"},

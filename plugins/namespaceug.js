@@ -258,6 +258,12 @@ var namespaceug =
       [ "MAX_NUM_INDS_OUT", "../namespaceug_1_1shared__rules.html#a575886ba79e23006f4f98f89af220f69", null ]
     ] ],
     [ "SmallStrainMechanics", "namespaceug_1_1_small_strain_mechanics.html", "namespaceug_1_1_small_strain_mechanics" ],
+    [ "support", null, [
+      [ "FracTypVol", "../namespaceug_1_1support.html#a84a74201593567ee9981dfedf1ca15d4", null ],
+      [ "SingleFrac", "../namespaceug_1_1support.html#a84a74201593567ee9981dfedf1ca15d4a6f2917d4641e9e9f8875b03feeb40e2d", null ],
+      [ "TEnd", "../namespaceug_1_1support.html#a84a74201593567ee9981dfedf1ca15d4a4882f3a24cb7c4a6164f19dd40a16a09", null ],
+      [ "XCross", "../namespaceug_1_1support.html#a84a74201593567ee9981dfedf1ca15d4a40ef831c51ef73c190f6beb1db139c83", null ]
+    ] ],
     [ "swc_types", null, [
       [ "swc_type", "../namespaceug_1_1swc__types.html#ac605df888f99072c0c3a8f05f225164a", null ],
       [ "SWC_APIC", "../namespaceug_1_1swc__types.html#ac605df888f99072c0c3a8f05f225164aa64b80a4d82c2271fee87eed526601d92", null ],
@@ -509,7 +515,7 @@ var namespaceug =
     [ "APosition2", "../namespaceug.html#a8324eb93a6b7e33af18011e8e0ef85b7", null ],
     [ "APosition3", "../namespaceug.html#ad38e28b4b879f177dbc510a781f65fe2", null ],
     [ "ATexCoord", "../namespaceug.html#a27f3a5dcf86f63aa57fd90078806aedc", null ],
-    [ "AttVrtVec", "../namespaceug.html#afea2e243970a36eb10e1e0b59cd15dbc", null ],
+    [ "AttVrtVec", "../namespaceug.html#aeac7eec82c16beb168dc3f646319f388", null ],
     [ "AUInt", "../namespaceug.html#a24b225807cdbeeacbb4efd9faf6480ef", null ],
     [ "AVector1", "../namespaceug.html#a83ef16a440af49879c33c409aa8684e3", null ],
     [ "AVector2", "../namespaceug.html#a6cd57149d89ec64f62a6d2bf9375caef", null ],
@@ -783,6 +789,8 @@ var namespaceug =
     [ "ArrayEraseEntry", "../group__ugbase__common__types.html#gaa9e78ead2fb8ccbc5cb3f5dba04d3f2a", null ],
     [ "ArrayReplaceEntry", "../group__ugbase__common__types.html#ga51526bd32cbbade9c2a5f62725db2dc1", null ],
     [ "ArraySwapWithLast", "../group__ugbase__common__types.html#ga1402d7900279fd4b556ea2d15a587dba", null ],
+    [ "ArteExpandFracs3D::establishNewVertices< false, ArteExpandFracs3D::VrtxFracProptsStatus::oneFracSuDoAtt >", "../namespaceug.html#a9e1f267cd691a6d7340e8287dccd3926", null ],
+    [ "ArteExpandFracs3D::establishNewVertices< true, ArteExpandFracs3D::VrtxFracProptsStatus::oneFracSuDoAtt >", "../namespaceug.html#a1ab6a9bd26fec453926ff0720c03c56a", null ],
     [ "AspectRatio", "../namespaceug.html#a46f23c78373713e9cea67afcc5e76c87", null ],
     [ "AspectRatio", "../namespaceug.html#ae0e0d793732440d61139051cb9fa7248", null ],
     [ "AssembleInjectionByAverageOfChildren", "../namespaceug.html#ac3c364523c7f5b39cd256875fac9822c", null ],
@@ -1604,6 +1612,7 @@ var namespaceug =
     [ "ExpandFractures2dArte", "../namespaceug.html#a5cc577abe71a408d7593b97f59fee17a", null ],
     [ "ExpandFractures3d", "../namespaceug.html#a72f483f975464faf7ae35d0dc239b87d", null ],
     [ "ExpandFractures3d", "../namespaceug.html#a7590b56787a7aac08577dddeaf9c9cc1", null ],
+    [ "ExpandFractures3dArte", "../namespaceug.html#addf4e1242f0a62799cce4a8426600201", null ],
     [ "expandSingleFractureAtGivenSide", "../namespaceug.html#a2698a76d1f6ccd5cec223ed7f608efb9", null ],
     [ "expandSingleFractureAtGivenSide", "../namespaceug.html#a54aad73d3b8169e562a3cb14a70f253b", null ],
     [ "expandSingleFractureAtGivenSide< VecVertexOfFaceInfo >", "../namespaceug.html#a064048f58c197b314b26cbf994c76c3b", null ],
