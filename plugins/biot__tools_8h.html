@@ -92,7 +92,6 @@ $(document).ready(function(){initNavTree('biot__tools_8h.html',''); initResizabl
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">biot_tools.h File Reference</div>  </div>
@@ -109,7 +108,6 @@ $(document).ready(function(){initNavTree('biot__tools_8h.html',''); initResizabl
 <code>#include &quot;<a class="el" href="convection__diffusion__fv1_8h_source.html">../ConvectionDiffusion/fv1/convection_diffusion_fv1.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="small__strain__mech_8h_source.html">../SmallStrainMechanics/small_strain_mech.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="hooke_8h_source.html">../SmallStrainMechanics/material_laws/hooke.h</a>&quot;</code><br />
-<code>#include &lt;nlohmann/json.hpp&gt;</code><br />
 </div>
 <p><a href="biot__tools_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -136,11 +134,6 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceug_1_1_poroelasticity"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug_1_1_poroelasticity.html">ug::Poroelasticity</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a7b98d12c6a67cf3d928646021baa1195"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="biot__tools_8h.html#a7b98d12c6a67cf3d928646021baa1195">WITH_JSON</a></td></tr>
-<tr class="separator:a7b98d12c6a67cf3d928646021baa1195"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ab42ed4779d518e945bc1b0fe1557ab31"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug_1_1_poroelasticity.html#ab42ed4779d518e945bc1b0fe1557ab31">ug::Poroelasticity::BesselJ0</a> (double x)</td></tr>
@@ -151,39 +144,14 @@ Functions</h2></td></tr>
 <tr class="memitem:a5a7f203571609508c82539e1f98ad9fc"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug_1_1_poroelasticity.html#a5a7f203571609508c82539e1f98ad9fc">ug::Poroelasticity::DefaultCharTime</a> (const BiotSubsetParameters &amp;<a class="el" href="_biogas_8lua.html#a57f1028d958bb73c4e3c64e2077342fc">p</a>, double length=1.0)</td></tr>
 <tr class="memdesc:a5a7f203571609508c82539e1f98ad9fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute characteristic time.  <a href="namespaceug_1_1_poroelasticity.html#a5a7f203571609508c82539e1f98ad9fc">More...</a><br /></td></tr>
 <tr class="separator:a5a7f203571609508c82539e1f98ad9fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad020aa8bbe40bcd7cf6530a5c7b60779"><td class="memTemplParams" colspan="2">template&lt;typename TDomain , typename TAlgebra &gt; </td></tr>
-<tr class="memitem:ad020aa8bbe40bcd7cf6530a5c7b60779"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug_1_1_poroelasticity.html#ad020aa8bbe40bcd7cf6530a5c7b60779">ug::Poroelasticity::from_json</a> (const nlohmann::json &amp;j, BiotProblem&lt; TDomain, TAlgebra &gt; &amp;<a class="el" href="_biogas_8lua.html#a57f1028d958bb73c4e3c64e2077342fc">p</a>)</td></tr>
-<tr class="separator:ad020aa8bbe40bcd7cf6530a5c7b60779"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6631bddf062ec02a3b76098c77549a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug_1_1_poroelasticity.html#af6631bddf062ec02a3b76098c77549a4">ug::Poroelasticity::from_json</a> (const nlohmann::json &amp;j, BiotSubsetParameters &amp;<a class="el" href="_biogas_8lua.html#a57f1028d958bb73c4e3c64e2077342fc">p</a>)</td></tr>
-<tr class="separator:af6631bddf062ec02a3b76098c77549a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49d24731d9a90ca270bb15e189a2cab6"><td class="memTemplParams" colspan="2">template&lt;typename TDomain , typename TAlgebra &gt; </td></tr>
-<tr class="memitem:a49d24731d9a90ca270bb15e189a2cab6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug_1_1_poroelasticity.html#a49d24731d9a90ca270bb15e189a2cab6">ug::Poroelasticity::to_json</a> (nlohmann::json &amp;j, const BiotProblem&lt; TDomain, TAlgebra &gt; &amp;<a class="el" href="_biogas_8lua.html#a57f1028d958bb73c4e3c64e2077342fc">p</a>)</td></tr>
-<tr class="separator:a49d24731d9a90ca270bb15e189a2cab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa22d05173de49556aa9aa580aa8a3d9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceug_1_1_poroelasticity.html#aa22d05173de49556aa9aa580aa8a3d9c">ug::Poroelasticity::to_json</a> (nlohmann::json &amp;j, const BiotSubsetParameters &amp;<a class="el" href="_biogas_8lua.html#a57f1028d958bb73c4e3c64e2077342fc">p</a>)</td></tr>
-<tr class="separator:aa22d05173de49556aa9aa580aa8a3d9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a7b98d12c6a67cf3d928646021baa1195"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b98d12c6a67cf3d928646021baa1195">&#9670;&nbsp;</a></span>WITH_JSON</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define WITH_JSON</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_38c8d24aef3972a7f87b834274e76e31.html">plugins</a></li><li class="navelem"><a class="el" href="dir_a13c998afb869ffaf3c01c34ed5ea949.html">Poroelasticity</a></li><li class="navelem"><a class="el" href="biot__tools_8h.html">biot_tools.h</a></li>
-    <li class="footer">Generated on Mon Jan 6 2025 01:14:39 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Jan 13 2025 01:15:30 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

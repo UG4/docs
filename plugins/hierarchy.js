@@ -16,6 +16,7 @@ var hierarchy =
     [ "ug::Poroelasticity::BiotProblem< TDomain, TAlgebra >", "classug_1_1_poroelasticity_1_1_biot_problem.html", [
       [ "ug::Poroelasticity::BarryMercerProblem< TDomain, TAlgebra >", "classug_1_1_poroelasticity_1_1_barry_mercer_problem.html", null ]
     ] ],
+    [ "ug::Poroelasticity::BiotProjection< TDomain, TAlgebra >", "classug_1_1_poroelasticity_1_1_biot_projection.html", null ],
     [ "ug::Poroelasticity::BiotSubsetParameters", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html", null ],
     [ "ug::promesh::Box", "classug_1_1promesh_1_1_box.html", null ],
     [ "ug::Richards::BrooksCoreyFunctions", "structug_1_1_richards_1_1_brooks_corey_functions.html", null ],

@@ -5,6 +5,7 @@ var classug_1_1_poroelasticity_1_1_biot_elem_disc_factory =
     [ "BiotElemDiscFactory", "classug_1_1_poroelasticity_1_1_biot_elem_disc_factory.html#a60063812c9a0875ea924f163f0c9449a", null ],
     [ "config", "classug_1_1_poroelasticity_1_1_biot_elem_disc_factory.html#af92120b047468548ad9776a4f8191bb0", null ],
     [ "create_elem_discs", "classug_1_1_poroelasticity_1_1_biot_elem_disc_factory.html#ae2e2af9408547bd97b6c9fc1deb22696", null ],
+    [ "create_elem_discs_for_consistency", "classug_1_1_poroelasticity_1_1_biot_elem_disc_factory.html#aa3a9ac4646057ced653b8642236a77bf", null ],
     [ "dim", "classug_1_1_poroelasticity_1_1_biot_elem_disc_factory.html#a6d0ffe13a8beff2b2dde838f50990b5b", null ],
     [ "m_config", "classug_1_1_poroelasticity_1_1_biot_elem_disc_factory.html#a2027ef874e9beccca2f5d92967b15afa", null ]
 ];

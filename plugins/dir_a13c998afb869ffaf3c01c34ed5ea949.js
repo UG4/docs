@@ -15,6 +15,7 @@ var dir_a13c998afb869ffaf3c01c34ed5ea949 =
       [ "BarryMercerRefPressure", "classug_1_1_poroelasticity_1_1_barry_mercer_ref_pressure.html", "classug_1_1_poroelasticity_1_1_barry_mercer_ref_pressure" ]
     ] ],
     [ "biot_plugin.cpp", "biot__plugin_8cpp.html", "biot__plugin_8cpp" ],
+    [ "biot_projection.h", "biot__projection_8h.html", "biot__projection_8h" ],
     [ "biot_tools.cpp", "biot__tools_8cpp.html", "biot__tools_8cpp" ],
     [ "biot_tools.h", "biot__tools_8h.html", "biot__tools_8h" ]
 ];

@@ -230,13 +230,9 @@ var namespaceug =
       [ "CrashFct", "../plugins/group___poroelasticity.html#gadaacb3046cd41721ccbbeae8005e3e2c", null ],
       [ "CrashFctFatal", "../plugins/group___poroelasticity.html#gafd138de2a8ef9c15591db16f5100140c", null ],
       [ "DefaultCharTime", "../plugins/namespaceug_1_1_poroelasticity.html#a5a7f203571609508c82539e1f98ad9fc", null ],
-      [ "from_json", "../plugins/namespaceug_1_1_poroelasticity.html#ad020aa8bbe40bcd7cf6530a5c7b60779", null ],
-      [ "from_json", "../plugins/namespaceug_1_1_poroelasticity.html#af6631bddf062ec02a3b76098c77549a4", null ],
       [ "PluginCrashes", "../plugins/group___poroelasticity.html#gac8ccd0dc21b30d63ca74b8d1a1c52529", null ],
       [ "PluginCrashesFatal", "../plugins/group___poroelasticity.html#ga9f2ccb1e80c13966f2a3ee602a7039c7", null ],
-      [ "PluginSaysHello", "../plugins/group___poroelasticity.html#gaced709fdff7cea2f32ce02ee24bbe7c7", null ],
-      [ "to_json", "../plugins/namespaceug_1_1_poroelasticity.html#a49d24731d9a90ca270bb15e189a2cab6", null ],
-      [ "to_json", "../plugins/namespaceug_1_1_poroelasticity.html#aa22d05173de49556aa9aa580aa8a3d9c", null ]
+      [ "PluginSaysHello", "../plugins/group___poroelasticity.html#gaced709fdff7cea2f32ce02ee24bbe7c7", null ]
     ] ],
     [ "prism_rules", "namespaceug_1_1prism__rules.html", [
       [ "CollapseEdge", "namespaceug_1_1prism__rules.html#a4e402d1504601e8d1f92a9396fae4200", null ],

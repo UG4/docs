@@ -161,6 +161,7 @@ var annotated_dup =
         [ "BiotElemDisc", "classug_1_1_poroelasticity_1_1_biot_elem_disc.html", "classug_1_1_poroelasticity_1_1_biot_elem_disc" ],
         [ "BiotElemDiscFactory", "classug_1_1_poroelasticity_1_1_biot_elem_disc_factory.html", "classug_1_1_poroelasticity_1_1_biot_elem_disc_factory" ],
         [ "BiotProblem", "classug_1_1_poroelasticity_1_1_biot_problem.html", "classug_1_1_poroelasticity_1_1_biot_problem" ],
+        [ "BiotProjection", "classug_1_1_poroelasticity_1_1_biot_projection.html", "classug_1_1_poroelasticity_1_1_biot_projection" ],
         [ "BiotSubsetParameters", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html", "classug_1_1_poroelasticity_1_1_biot_subset_parameters" ],
         [ "Functionality", "structug_1_1_poroelasticity_1_1_functionality.html", "structug_1_1_poroelasticity_1_1_functionality" ],
         [ "FunctionalityFor2D", "structug_1_1_poroelasticity_1_1_functionality_for2_d.html", "structug_1_1_poroelasticity_1_1_functionality_for2_d" ]

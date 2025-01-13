@@ -16,7 +16,6 @@ var classug_1_1_poroelasticity_1_1_biot_subset_parameters =
     [ "set_mu", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#a00e8aded29b9a17144303a35d16519c3", null ],
     [ "set_phi", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#a3cb13a5c9bece8480f49d07e61f5cf04", null ],
     [ "set_subsets", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#a5b0ec4683a340c672c439cd51cf7ad1a", null ],
-    [ "from_json", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#a13cc83c768335c936280d9e60b05cce9", null ],
     [ "m_alpha", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#a108840b7621cd63a802b7fe873d6e705", null ],
     [ "m_beta_uzawa", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#a4c5768ba6b75eaf61d215e7b40aced07", null ],
     [ "m_kappa", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html#aa251cb297ae8596a23080190c27ee281", null ],

@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('classug_1_1_poroelasticity_1_1_biot_pr
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classug_1_1_poroelasticity_1_1_biot_problem-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt; Class Template Reference</div>  </div>
+<div class="title">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt; Class Template Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -130,17 +130,24 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a83b1b7c4ab998427975f3bf1d8a42cae"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a83b1b7c4ab998427975f3bf1d8a42cae">add_boundary_conditions</a> (<a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a117a187b13725f6fc94f9992af1e5dfd">TDomainDisc</a> &gt; dd, bool bSteadyStateMechanics=true)</td></tr>
-<tr class="memdesc:a83b1b7c4ab998427975f3bf1d8a42cae"><td class="mdescLeft">&#160;</td><td class="mdescRight">This add all boundary conditions.  <a href="classug_1_1_poroelasticity_1_1_biot_problem.html#a83b1b7c4ab998427975f3bf1d8a42cae">More...</a><br /></td></tr>
+<tr class="memdesc:a83b1b7c4ab998427975f3bf1d8a42cae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add all boundary conditions.  <a href="classug_1_1_poroelasticity_1_1_biot_problem.html#a83b1b7c4ab998427975f3bf1d8a42cae">More...</a><br /></td></tr>
 <tr class="separator:a83b1b7c4ab998427975f3bf1d8a42cae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40b92a53fd48b8d8ac79f5b0dfdf8e97"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a40b92a53fd48b8d8ac79f5b0dfdf8e97">add_boundary_conditions_p</a> (<a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a117a187b13725f6fc94f9992af1e5dfd">TDomainDisc</a> &gt; dd)=0</td></tr>
+<tr class="memdesc:a40b92a53fd48b8d8ac79f5b0dfdf8e97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add boundary conditions for pressure.  <a href="classug_1_1_poroelasticity_1_1_biot_problem.html#a40b92a53fd48b8d8ac79f5b0dfdf8e97">More...</a><br /></td></tr>
+<tr class="separator:a40b92a53fd48b8d8ac79f5b0dfdf8e97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c2d49de19c42c34c35c9423d33b3cd7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a4c2d49de19c42c34c35c9423d33b3cd7">add_boundary_conditions_u</a> (<a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a117a187b13725f6fc94f9992af1e5dfd">TDomainDisc</a> &gt; dd)=0</td></tr>
+<tr class="memdesc:a4c2d49de19c42c34c35c9423d33b3cd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add boundary conditions for deformation.  <a href="classug_1_1_poroelasticity_1_1_biot_problem.html#a4c2d49de19c42c34c35c9423d33b3cd7">More...</a><br /></td></tr>
+<tr class="separator:a4c2d49de19c42c34c35c9423d33b3cd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4fab6ec5143bc0c5f199193937a1bd3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#ad4fab6ec5143bc0c5f199193937a1bd3">add_elem_discs</a> (<a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a117a187b13725f6fc94f9992af1e5dfd">TDomainDisc</a> &gt; dd, bool bSteadyStateMechanics=true)</td></tr>
-<tr class="memdesc:ad4fab6ec5143bc0c5f199193937a1bd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adding all elem discs to domain disc.  <a href="classug_1_1_poroelasticity_1_1_biot_problem.html#ad4fab6ec5143bc0c5f199193937a1bd3">More...</a><br /></td></tr>
 <tr class="separator:ad4fab6ec5143bc0c5f199193937a1bd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae69a503880f87c39a9a631b2e25cca18"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#ae69a503880f87c39a9a631b2e25cca18">add_elem_discs_general</a> (<a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a117a187b13725f6fc94f9992af1e5dfd">TDomainDisc</a> &gt; dd, bool bSteadyStateMechanics=true, bool bIdentityFlow=false)</td></tr>
+<tr class="memdesc:ae69a503880f87c39a9a631b2e25cca18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adding all elem discs to domain disc.  <a href="classug_1_1_poroelasticity_1_1_biot_problem.html#ae69a503880f87c39a9a631b2e25cca18">More...</a><br /></td></tr>
+<tr class="separator:ae69a503880f87c39a9a631b2e25cca18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e5f0bca8f4316e35519eb79a9ddd441"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a9e5f0bca8f4316e35519eb79a9ddd441">add_elem_discs_with_static_pressure</a> (<a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a117a187b13725f6fc94f9992af1e5dfd">TDomainDisc</a> &gt; dd)</td></tr>
+<tr class="separator:a9e5f0bca8f4316e35519eb79a9ddd441"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63e8d608fe83275b46b1ef0691f90f49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a63e8d608fe83275b46b1ef0691f90f49">add_subset_parameters</a> (const <a class="el" href="classug_1_1_poroelasticity_1_1_biot_subset_parameters.html">BiotSubsetParameters</a> &amp;<a class="el" href="_biogas_8lua.html#a57f1028d958bb73c4e3c64e2077342fc">p</a>)</td></tr>
 <tr class="memdesc:a63e8d608fe83275b46b1ef0691f90f49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add subset parameters.  <a href="classug_1_1_poroelasticity_1_1_biot_problem.html#a63e8d608fe83275b46b1ef0691f90f49">More...</a><br /></td></tr>
 <tr class="separator:a63e8d608fe83275b46b1ef0691f90f49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98a7b8ef8b551ca4b39e4adf4862974a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a98a7b8ef8b551ca4b39e4adf4862974a">add_subset_parameters</a> (const char *&amp;json_string)</td></tr>
-<tr class="memdesc:a98a7b8ef8b551ca4b39e4adf4862974a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows adding descriptions.  <a href="classug_1_1_poroelasticity_1_1_biot_problem.html#a98a7b8ef8b551ca4b39e4adf4862974a">More...</a><br /></td></tr>
-<tr class="separator:a98a7b8ef8b551ca4b39e4adf4862974a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc7869ac46b86da7f40e71c6d26f0a2b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#acc7869ac46b86da7f40e71c6d26f0a2b">add_uzawa_discs</a> (<a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a117a187b13725f6fc94f9992af1e5dfd">TDomainDisc</a> &gt; dd, bool bSteadyStateMechanics=true)</td></tr>
 <tr class="memdesc:acc7869ac46b86da7f40e71c6d26f0a2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add stabilization to domain disc.  <a href="classug_1_1_poroelasticity_1_1_biot_problem.html#acc7869ac46b86da7f40e71c6d26f0a2b">More...</a><br /></td></tr>
 <tr class="separator:acc7869ac46b86da7f40e71c6d26f0a2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -458,9 +465,77 @@ template&lt;typename TDomain , typename TAlgebra &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>This add all boundary conditions. </p>
+<p>Add all boundary conditions. </p>
 
-<p>Reimplemented in <a class="el" href="classug_1_1_poroelasticity_1_1_barry_mercer_problem.html#ac6d33bb88ae6fbdfc18cc167828ecc68">ug::Poroelasticity::BarryMercerProblem&lt; TDomain, TAlgebra &gt;</a>.</p>
+<p class="reference">References <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a40b92a53fd48b8d8ac79f5b0dfdf8e97">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::add_boundary_conditions_p()</a>, and <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a4c2d49de19c42c34c35c9423d33b3cd7">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::add_boundary_conditions_u()</a>.</p>
+
+</div>
+</div>
+<a id="a40b92a53fd48b8d8ac79f5b0dfdf8e97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40b92a53fd48b8d8ac79f5b0dfdf8e97">&#9670;&nbsp;</a></span>add_boundary_conditions_p()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TDomain , typename TAlgebra &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html">ug::Poroelasticity::BiotProblem</a>&lt; TDomain, TAlgebra &gt;::add_boundary_conditions_p </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a117a187b13725f6fc94f9992af1e5dfd">TDomainDisc</a> &gt;&#160;</td>
+          <td class="paramname"><em>dd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add boundary conditions for pressure. </p>
+
+<p>Implemented in <a class="el" href="classug_1_1_poroelasticity_1_1_barry_mercer_problem.html#a5da614c34dfa436bb2ae3adc3de0bf6f">ug::Poroelasticity::BarryMercerProblem&lt; TDomain, TAlgebra &gt;</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a83b1b7c4ab998427975f3bf1d8a42cae">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::add_boundary_conditions()</a>.</p>
+
+</div>
+</div>
+<a id="a4c2d49de19c42c34c35c9423d33b3cd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c2d49de19c42c34c35c9423d33b3cd7">&#9670;&nbsp;</a></span>add_boundary_conditions_u()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TDomain , typename TAlgebra &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html">ug::Poroelasticity::BiotProblem</a>&lt; TDomain, TAlgebra &gt;::add_boundary_conditions_u </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a117a187b13725f6fc94f9992af1e5dfd">TDomainDisc</a> &gt;&#160;</td>
+          <td class="paramname"><em>dd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add boundary conditions for deformation. </p>
+
+<p>Implemented in <a class="el" href="classug_1_1_poroelasticity_1_1_barry_mercer_problem.html#a7351d09ca3b9489c0b1f2acef56f0173">ug::Poroelasticity::BarryMercerProblem&lt; TDomain, TAlgebra &gt;</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a83b1b7c4ab998427975f3bf1d8a42cae">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::add_boundary_conditions()</a>.</p>
 
 </div>
 </div>
@@ -500,13 +575,91 @@ template&lt;typename TDomain , typename TAlgebra &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Adding all elem discs to domain disc. </p>
-
 <p>Reimplemented in <a class="el" href="classug_1_1_poroelasticity_1_1_barry_mercer_problem.html#a02a55f837a6a64e5febd89e561561272">ug::Poroelasticity::BarryMercerProblem&lt; TDomain, TAlgebra &gt;</a>.</p>
 
-<p class="reference">References <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a6f5cb34d4ef903817c7c4f96d1cf45a2">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::config()</a>, <a class="el" href="classug_1_1_poroelasticity_1_1_biot_elem_disc_factory.html#ae2e2af9408547bd97b6c9fc1deb22696">ug::Poroelasticity::BiotElemDiscFactory&lt; TDomain &gt;::create_elem_discs()</a>, <a class="el" href="structug_1_1_poroelasticity_1_1_biot_disc_config.html#a65aeba566a673ace63355e7b014385b7">ug::Poroelasticity::BiotDiscConfig::m_bSteadyStateMechanics</a>, and <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#aae8a1116b2a9e704c7e959aaba82000c">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::m_params</a>.</p>
+<p class="reference">References <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#ae69a503880f87c39a9a631b2e25cca18">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::add_elem_discs_general()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classug_1_1_poroelasticity_1_1_barry_mercer_problem.html#a02a55f837a6a64e5febd89e561561272">ug::Poroelasticity::BarryMercerProblem&lt; TDomain, TAlgebra &gt;::add_elem_discs()</a>.</p>
+
+</div>
+</div>
+<a id="ae69a503880f87c39a9a631b2e25cca18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae69a503880f87c39a9a631b2e25cca18">&#9670;&nbsp;</a></span>add_elem_discs_general()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TDomain , typename TAlgebra &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html">ug::Poroelasticity::BiotProblem</a>&lt; TDomain, TAlgebra &gt;::add_elem_discs_general </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a117a187b13725f6fc94f9992af1e5dfd">TDomainDisc</a> &gt;&#160;</td>
+          <td class="paramname"><em>dd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>bSteadyStateMechanics</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>bIdentityFlow</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Adding all elem discs to domain disc. </p>
+
+<p class="reference">References <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a6f5cb34d4ef903817c7c4f96d1cf45a2">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::config()</a>, <a class="el" href="classug_1_1_poroelasticity_1_1_biot_elem_disc_factory.html#ae2e2af9408547bd97b6c9fc1deb22696">ug::Poroelasticity::BiotElemDiscFactory&lt; TDomain &gt;::create_elem_discs()</a>, <a class="el" href="structug_1_1_poroelasticity_1_1_biot_disc_config.html#a65aeba566a673ace63355e7b014385b7">ug::Poroelasticity::BiotDiscConfig::m_bSteadyStateMechanics</a>, <a class="el" href="structug_1_1_poroelasticity_1_1_biot_disc_config.html#a4311325306bc8aec0034aa91d723a4e4">ug::Poroelasticity::BiotDiscConfig::m_identityFlow</a>, and <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#aae8a1116b2a9e704c7e959aaba82000c">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::m_params</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#ad4fab6ec5143bc0c5f199193937a1bd3">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::add_elem_discs()</a>, and <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a9e5f0bca8f4316e35519eb79a9ddd441">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::add_elem_discs_with_static_pressure()</a>.</p>
+
+</div>
+</div>
+<a id="a9e5f0bca8f4316e35519eb79a9ddd441"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e5f0bca8f4316e35519eb79a9ddd441">&#9670;&nbsp;</a></span>add_elem_discs_with_static_pressure()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TDomain , typename TAlgebra &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html">ug::Poroelasticity::BiotProblem</a>&lt; TDomain, TAlgebra &gt;::add_elem_discs_with_static_pressure </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a117a187b13725f6fc94f9992af1e5dfd">TDomainDisc</a> &gt;&#160;</td>
+          <td class="paramname"><em>dd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#ae69a503880f87c39a9a631b2e25cca18">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::add_elem_discs_general()</a>.</p>
 
 </div>
 </div>
@@ -555,7 +708,7 @@ template&lt;typename TDomain , typename TAlgebra &gt; </div>
 </div>
 </div>
 <a id="a63e8d608fe83275b46b1ef0691f90f49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a63e8d608fe83275b46b1ef0691f90f49">&#9670;&nbsp;</a></span>add_subset_parameters() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a63e8d608fe83275b46b1ef0691f90f49">&#9670;&nbsp;</a></span>add_subset_parameters()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -583,38 +736,6 @@ template&lt;typename TDomain , typename TAlgebra &gt; </div>
 <p>Add subset parameters. </p>
 
 <p class="reference">References <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#aae8a1116b2a9e704c7e959aaba82000c">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::m_params</a>, and <a class="el" href="_biogas_8lua.html#a57f1028d958bb73c4e3c64e2077342fc">p</a>.</p>
-
-</div>
-</div>
-<a id="a98a7b8ef8b551ca4b39e4adf4862974a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98a7b8ef8b551ca4b39e4adf4862974a">&#9670;&nbsp;</a></span>add_subset_parameters() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename TDomain , typename TAlgebra &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html">ug::Poroelasticity::BiotProblem</a>&lt; TDomain, TAlgebra &gt;::add_subset_parameters </td>
-          <td>(</td>
-          <td class="paramtype">const char *&amp;&#160;</td>
-          <td class="paramname"><em>json_string</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Allows adding descriptions. </p>
-
-<p class="reference">References <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#aae8a1116b2a9e704c7e959aaba82000c">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::m_params</a>.</p>
 
 </div>
 </div>
@@ -687,7 +808,7 @@ template&lt;typename TDomain , typename TAlgebra &gt; </div>
 
 <p class="reference">References <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a199f946fb5441e61eeecdee4a6022626">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::m_config</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#ad4fab6ec5143bc0c5f199193937a1bd3">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::add_elem_discs()</a>, <a class="el" href="classug_1_1_poroelasticity_1_1_barry_mercer_problem.html#a02a55f837a6a64e5febd89e561561272">ug::Poroelasticity::BarryMercerProblem&lt; TDomain, TAlgebra &gt;::add_elem_discs()</a>, <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a4fd034ac2529379f404eaf8321b1355e">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::add_stab_discs()</a>, <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#acc7869ac46b86da7f40e71c6d26f0a2b">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::add_uzawa_discs()</a>, <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#ab10bbe21f9c8ffb0b99b1e51d4740253">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::get_porder()</a>, and <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#ab2a019aab20f6caa0c62e732b501692f">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::get_uorder()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classug_1_1_poroelasticity_1_1_barry_mercer_problem.html#a02a55f837a6a64e5febd89e561561272">ug::Poroelasticity::BarryMercerProblem&lt; TDomain, TAlgebra &gt;::add_elem_discs()</a>, <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#ae69a503880f87c39a9a631b2e25cca18">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::add_elem_discs_general()</a>, <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a4fd034ac2529379f404eaf8321b1355e">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::add_stab_discs()</a>, <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#acc7869ac46b86da7f40e71c6d26f0a2b">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::add_uzawa_discs()</a>, <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#ab10bbe21f9c8ffb0b99b1e51d4740253">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::get_porder()</a>, and <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#ab2a019aab20f6caa0c62e732b501692f">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::get_uorder()</a>.</p>
 
 </div>
 </div>
@@ -1060,7 +1181,7 @@ template&lt;typename TDomain , typename TAlgebra &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#ad4fab6ec5143bc0c5f199193937a1bd3">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::add_elem_discs()</a>, <a class="el" href="classug_1_1_poroelasticity_1_1_barry_mercer_problem.html#a02a55f837a6a64e5febd89e561561272">ug::Poroelasticity::BarryMercerProblem&lt; TDomain, TAlgebra &gt;::add_elem_discs()</a>, <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a4fd034ac2529379f404eaf8321b1355e">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::add_stab_discs()</a>, <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a63e8d608fe83275b46b1ef0691f90f49">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::add_subset_parameters()</a>, <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#acc7869ac46b86da7f40e71c6d26f0a2b">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::add_uzawa_discs()</a>, <a class="el" href="classug_1_1_poroelasticity_1_1_barry_mercer_problem.html#a2dbcc905fb7ad67ffdafcf437d372c07">ug::Poroelasticity::BarryMercerProblem&lt; TDomain, TAlgebra &gt;::default_beta()</a>, <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a5e9b456c7881c56dee836276b177ea58">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::get_char_time()</a>, <a class="el" href="classug_1_1_poroelasticity_1_1_barry_mercer_problem.html#a00c98072ab9389f1ee1aab234da918b7">ug::Poroelasticity::BarryMercerProblem&lt; TDomain, TAlgebra &gt;::post_processing()</a>, and <a class="el" href="classug_1_1_poroelasticity_1_1_barry_mercer_problem.html#afa8b4104aeec1906a5e41637236899f2">ug::Poroelasticity::BarryMercerProblem&lt; TDomain, TAlgebra &gt;::set_default_parameters()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classug_1_1_poroelasticity_1_1_barry_mercer_problem.html#a02a55f837a6a64e5febd89e561561272">ug::Poroelasticity::BarryMercerProblem&lt; TDomain, TAlgebra &gt;::add_elem_discs()</a>, <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#ae69a503880f87c39a9a631b2e25cca18">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::add_elem_discs_general()</a>, <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a4fd034ac2529379f404eaf8321b1355e">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::add_stab_discs()</a>, <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a63e8d608fe83275b46b1ef0691f90f49">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::add_subset_parameters()</a>, <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#acc7869ac46b86da7f40e71c6d26f0a2b">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::add_uzawa_discs()</a>, <a class="el" href="classug_1_1_poroelasticity_1_1_barry_mercer_problem.html#a2dbcc905fb7ad67ffdafcf437d372c07">ug::Poroelasticity::BarryMercerProblem&lt; TDomain, TAlgebra &gt;::default_beta()</a>, <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#a5e9b456c7881c56dee836276b177ea58">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::get_char_time()</a>, <a class="el" href="classug_1_1_poroelasticity_1_1_barry_mercer_problem.html#a00c98072ab9389f1ee1aab234da918b7">ug::Poroelasticity::BarryMercerProblem&lt; TDomain, TAlgebra &gt;::post_processing()</a>, and <a class="el" href="classug_1_1_poroelasticity_1_1_barry_mercer_problem.html#afa8b4104aeec1906a5e41637236899f2">ug::Poroelasticity::BarryMercerProblem&lt; TDomain, TAlgebra &gt;::set_default_parameters()</a>.</p>
 
 </div>
 </div>
@@ -1073,7 +1194,7 @@ template&lt;typename TDomain , typename TAlgebra &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="namespaceug_1_1_poroelasticity.html">Poroelasticity</a></li><li class="navelem"><a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html">BiotProblem</a></li>
-    <li class="footer">Generated on Mon Jan 6 2025 01:14:41 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Jan 13 2025 01:15:32 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

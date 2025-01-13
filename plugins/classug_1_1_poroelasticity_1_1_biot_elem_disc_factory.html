@@ -119,6 +119,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a202b8d2dd134f15484b00397a134d15f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2e2af9408547bd97b6c9fc1deb22696"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_poroelasticity_1_1_biot_elem_disc_factory.html#aa6f0896a81bf9b0103cd8bf4a28406dc">TBiotDisc</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_poroelasticity_1_1_biot_elem_disc_factory.html#ae2e2af9408547bd97b6c9fc1deb22696">create_elem_discs</a> (const <a class="el" href="classug_1_1_poroelasticity_1_1_biot_subset_parameters.html">BiotSubsetParameters</a> &amp;param) const</td></tr>
 <tr class="separator:ae2e2af9408547bd97b6c9fc1deb22696"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3a9ac4646057ced653b8642236a77bf"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_poroelasticity_1_1_biot_elem_disc_factory.html#aa6f0896a81bf9b0103cd8bf4a28406dc">TBiotDisc</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_poroelasticity_1_1_biot_elem_disc_factory.html#aa3a9ac4646057ced653b8642236a77bf">create_elem_discs_for_consistency</a> (const <a class="el" href="classug_1_1_poroelasticity_1_1_biot_subset_parameters.html">BiotSubsetParameters</a> &amp;param) const</td></tr>
+<tr class="separator:aa3a9ac4646057ced653b8642236a77bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -298,9 +300,39 @@ template&lt;typename TDomain &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="classug_1_1_poroelasticity_1_1_biot_elem_disc_factory.html#a2027ef874e9beccca2f5d92967b15afa">ug::Poroelasticity::BiotElemDiscFactory&lt; TDomain &gt;::m_config</a>, and <a class="elRef" href="../smart__pointer_8h.html#a8ba0055baeb80cdf31c501403f7f302f">make_sp()</a>.</p>
+<p class="reference">References <a class="el" href="classug_1_1_poroelasticity_1_1_biot_elem_disc_factory.html#a2027ef874e9beccca2f5d92967b15afa">ug::Poroelasticity::BiotElemDiscFactory&lt; TDomain &gt;::m_config</a>, <a class="el" href="structug_1_1_poroelasticity_1_1_biot_disc_config.html#a4311325306bc8aec0034aa91d723a4e4">ug::Poroelasticity::BiotDiscConfig::m_identityFlow</a>, and <a class="elRef" href="../smart__pointer_8h.html#a8ba0055baeb80cdf31c501403f7f302f">make_sp()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#ad4fab6ec5143bc0c5f199193937a1bd3">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::add_elem_discs()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classug_1_1_poroelasticity_1_1_biot_problem.html#ae69a503880f87c39a9a631b2e25cca18">ug::Poroelasticity::BiotProblem&lt; TDomain, TAlgebra &gt;::add_elem_discs_general()</a>.</p>
+
+</div>
+</div>
+<a id="aa3a9ac4646057ced653b8642236a77bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3a9ac4646057ced653b8642236a77bf">&#9670;&nbsp;</a></span>create_elem_discs_for_consistency()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TDomain &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt;<a class="el" href="classug_1_1_poroelasticity_1_1_biot_elem_disc_factory.html#aa6f0896a81bf9b0103cd8bf4a28406dc">TBiotDisc</a>&gt; <a class="el" href="classug_1_1_poroelasticity_1_1_biot_elem_disc_factory.html">ug::Poroelasticity::BiotElemDiscFactory</a>&lt; TDomain &gt;::create_elem_discs_for_consistency </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classug_1_1_poroelasticity_1_1_biot_subset_parameters.html">BiotSubsetParameters</a> &amp;&#160;</td>
+          <td class="paramname"><em>param</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="classug_1_1_poroelasticity_1_1_biot_elem_disc_factory.html#a2027ef874e9beccca2f5d92967b15afa">ug::Poroelasticity::BiotElemDiscFactory&lt; TDomain &gt;::m_config</a>, and <a class="elRef" href="../smart__pointer_8h.html#a8ba0055baeb80cdf31c501403f7f302f">make_sp()</a>.</p>
 
 </div>
 </div>
@@ -351,7 +383,7 @@ template&lt;typename TDomain &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classug_1_1_poroelasticity_1_1_biot_elem_disc_factory.html#af92120b047468548ad9776a4f8191bb0">ug::Poroelasticity::BiotElemDiscFactory&lt; TDomain &gt;::config()</a>, and <a class="el" href="classug_1_1_poroelasticity_1_1_biot_elem_disc_factory.html#ae2e2af9408547bd97b6c9fc1deb22696">ug::Poroelasticity::BiotElemDiscFactory&lt; TDomain &gt;::create_elem_discs()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classug_1_1_poroelasticity_1_1_biot_elem_disc_factory.html#af92120b047468548ad9776a4f8191bb0">ug::Poroelasticity::BiotElemDiscFactory&lt; TDomain &gt;::config()</a>, <a class="el" href="classug_1_1_poroelasticity_1_1_biot_elem_disc_factory.html#ae2e2af9408547bd97b6c9fc1deb22696">ug::Poroelasticity::BiotElemDiscFactory&lt; TDomain &gt;::create_elem_discs()</a>, and <a class="el" href="classug_1_1_poroelasticity_1_1_biot_elem_disc_factory.html#aa3a9ac4646057ced653b8642236a77bf">ug::Poroelasticity::BiotElemDiscFactory&lt; TDomain &gt;::create_elem_discs_for_consistency()</a>.</p>
 
 </div>
 </div>
@@ -364,7 +396,7 @@ template&lt;typename TDomain &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="namespaceug_1_1_poroelasticity.html">Poroelasticity</a></li><li class="navelem"><a class="el" href="classug_1_1_poroelasticity_1_1_biot_elem_disc_factory.html">BiotElemDiscFactory</a></li>
-    <li class="footer">Generated on Mon Jan 6 2025 01:14:41 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Jan 13 2025 01:15:32 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

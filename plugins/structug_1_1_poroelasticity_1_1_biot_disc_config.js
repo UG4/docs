@@ -9,6 +9,7 @@ var structug_1_1_poroelasticity_1_1_biot_disc_config =
     [ "set_stabilization", "structug_1_1_poroelasticity_1_1_biot_disc_config.html#ab7b26f1214dbae3d47fb645963f6767e", null ],
     [ "m_bSteadyStateMechanics", "structug_1_1_poroelasticity_1_1_biot_disc_config.html#a65aeba566a673ace63355e7b014385b7", null ],
     [ "m_dStab", "structug_1_1_poroelasticity_1_1_biot_disc_config.html#a7d6e5ecd13c4d794d9464879c1076422", null ],
+    [ "m_identityFlow", "structug_1_1_poroelasticity_1_1_biot_disc_config.html#a4311325306bc8aec0034aa91d723a4e4", null ],
     [ "m_pCmp", "structug_1_1_poroelasticity_1_1_biot_disc_config.html#aa9b5e46eb30c423135487634d22bef05", null ],
     [ "m_pOrder", "structug_1_1_poroelasticity_1_1_biot_disc_config.html#a973d5567f91174d46b55e7d1f0f65f52", null ],
     [ "m_uCmp", "structug_1_1_poroelasticity_1_1_biot_disc_config.html#aeb3afd9bed222c4a3123f750a226faeb", null ],

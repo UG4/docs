@@ -533,9 +533,9 @@ $(document).ready(function(){initNavTree('van__genuchten_8h_source.html',''); in
 <div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160; </div>
 <div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;<span class="preprocessor">#ifdef UG_JSON</span></div>
 <div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160; </div>
-<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160; <span class="keywordtype">void</span> <a class="code" href="namespaceug_1_1_poroelasticity.html#aa22d05173de49556aa9aa580aa8a3d9c">to_json</a>(JSONType&amp; j, <span class="keyword">const</span> <a class="code" href="structug_1_1_richards_1_1_haverkamp_parameters.html">HaverkampParameters</a>&amp; <a class="code" href="_biogas_8lua.html#a57f1028d958bb73c4e3c64e2077342fc">p</a>);</div>
+<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160; <span class="keywordtype">void</span> to_json(JSONType&amp; j, <span class="keyword">const</span> <a class="code" href="structug_1_1_richards_1_1_haverkamp_parameters.html">HaverkampParameters</a>&amp; <a class="code" href="_biogas_8lua.html#a57f1028d958bb73c4e3c64e2077342fc">p</a>);</div>
 <div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160; </div>
-<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="namespaceug_1_1_poroelasticity.html#af6631bddf062ec02a3b76098c77549a4">from_json</a>(<span class="keyword">const</span> JSONType&amp; j, <a class="code" href="structug_1_1_richards_1_1_haverkamp_parameters.html">HaverkampParameters</a>&amp; <a class="code" href="_biogas_8lua.html#a57f1028d958bb73c4e3c64e2077342fc">p</a>);</div>
+<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;  <span class="keywordtype">void</span> from_json(<span class="keyword">const</span> JSONType&amp; j, <a class="code" href="structug_1_1_richards_1_1_haverkamp_parameters.html">HaverkampParameters</a>&amp; <a class="code" href="_biogas_8lua.html#a57f1028d958bb73c4e3c64e2077342fc">p</a>);</div>
 <div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160; </div>
 <div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160; </div>
@@ -710,10 +710,10 @@ $(document).ready(function(){initNavTree('van__genuchten_8h_source.html',''); in
 <div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;  <span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;  <span class="keyword">struct </span>adl_serializer&lt;<a class="code" href="namespaceug.html">ug</a>::Richards::VanGenuchtenModel&gt;</div>
 <div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;  {</div>
-<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;       <span class="keyword">static</span> <a class="code" href="classug_1_1_richards_1_1_van_genuchten_model.html">ug::Richards::VanGenuchtenModel</a> <a class="code" href="namespaceug_1_1_poroelasticity.html#af6631bddf062ec02a3b76098c77549a4">from_json</a>(<span class="keyword">const</span> json&amp; j)</div>
+<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;       <span class="keyword">static</span> <a class="code" href="classug_1_1_richards_1_1_van_genuchten_model.html">ug::Richards::VanGenuchtenModel</a> from_json(<span class="keyword">const</span> json&amp; j)</div>
 <div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;       { <span class="keywordflow">return</span> j.get&lt;<span class="keyword">typename</span> <a class="code" href="structug_1_1_richards_1_1_van_genuchten_parameters.html">ug::Richards::VanGenuchtenParameters</a>&gt;(); }; <span class="comment">// initialize from model }</span></div>
 <div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160; </div>
-<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;       <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="namespaceug_1_1_poroelasticity.html#aa22d05173de49556aa9aa580aa8a3d9c">to_json</a>(json&amp; j, <span class="keyword">typename</span> <a class="code" href="classug_1_1_richards_1_1_van_genuchten_model.html">ug::Richards::VanGenuchtenModel</a> m)</div>
+<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;       <span class="keyword">static</span> <span class="keywordtype">void</span> to_json(json&amp; j, <span class="keyword">typename</span> <a class="code" href="classug_1_1_richards_1_1_van_genuchten_model.html">ug::Richards::VanGenuchtenModel</a> m)</div>
 <div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;       { j = m.<a class="code" href="structug_1_1_richards_1_1_i_parameterized_model.html#a4b3e1a7dd4277b29690de6a20595cbed">get_parameters</a>();}</div>
 <div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;   };</div>
 <div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;};</div>
@@ -788,8 +788,6 @@ $(document).ready(function(){initNavTree('van__genuchten_8h_source.html',''); in
 <div class="ttc" id="agroup__ugbase__common_html_ga43687df88af405f6ac7058dd3639993d"><div class="ttname"><a href="../group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a></div><div class="ttdeci">#define UG_THROW(msg)</div></div>
 <div class="ttc" id="agroup__ugbase__common_html_gaf349a0d1e8189254086eb3267fd4f460"><div class="ttname"><a href="../group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a></div><div class="ttdeci">double number</div></div>
 <div class="ttc" id="ajson__basics_8hh_html"><div class="ttname"><a href="json__basics_8hh.html">json_basics.hh</a></div></div>
-<div class="ttc" id="anamespaceug_1_1_poroelasticity_html_aa22d05173de49556aa9aa580aa8a3d9c"><div class="ttname"><a href="namespaceug_1_1_poroelasticity.html#aa22d05173de49556aa9aa580aa8a3d9c">ug::Poroelasticity::to_json</a></div><div class="ttdeci">void to_json(nlohmann::json &amp;j, const BiotSubsetParameters &amp;p)</div><div class="ttdef"><b>Definition:</b> biot_tools.cpp:57</div></div>
-<div class="ttc" id="anamespaceug_1_1_poroelasticity_html_af6631bddf062ec02a3b76098c77549a4"><div class="ttname"><a href="namespaceug_1_1_poroelasticity.html#af6631bddf062ec02a3b76098c77549a4">ug::Poroelasticity::from_json</a></div><div class="ttdeci">void from_json(const nlohmann::json &amp;j, BiotSubsetParameters &amp;p)</div><div class="ttdef"><b>Definition:</b> biot_tools.cpp:69</div></div>
 <div class="ttc" id="anamespaceug_1_1_richards_html_a0c432d619f1bd7fc44a4f18a9713b15d"><div class="ttname"><a href="namespaceug_1_1_richards.html#a0c432d619f1bd7fc44a4f18a9713b15d">ug::Richards::UGCheckValues</a></div><div class="ttdeci">void UGCheckValues(const dual &amp;number)</div><div class="ttdef"><b>Definition:</b> van_genuchten.h:41</div></div>
 <div class="ttc" id="anamespaceug_1_1_richards_html_a504b9ad931ac4a2622c01d7042d54750"><div class="ttname"><a href="namespaceug_1_1_richards.html#a504b9ad931ac4a2622c01d7042d54750">ug::Richards::dual</a></div><div class="ttdeci">autodiff::dual dual</div><div class="ttdef"><b>Definition:</b> van_genuchten.h:37</div></div>
 <div class="ttc" id="anamespaceug_html"><div class="ttname"><a href="namespaceug.html">ug</a></div></div>
@@ -835,7 +833,7 @@ $(document).ready(function(){initNavTree('van__genuchten_8h_source.html',''); in
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_38c8d24aef3972a7f87b834274e76e31.html">plugins</a></li><li class="navelem"><a class="el" href="dir_287333163026f6956dbf6ea879b025f1.html">Richards</a></li><li class="navelem"><a class="el" href="van__genuchten_8h.html">van_genuchten.h</a></li>
-    <li class="footer">Generated on Mon Jan 6 2025 01:14:39 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Jan 13 2025 01:15:30 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

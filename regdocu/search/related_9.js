@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['luauserdata_35172',['LuaUserData',['../../classug_1_1_lua_user_data_factory.html#ab88d918b98087b59604ba197bdfbcbb8',1,'ug::LuaUserDataFactory']]],
-  ['luauserdatafactory_35173',['LuaUserDataFactory',['../../classug_1_1_lua_user_data.html#aff58af467c486626a978fd38524fe9c8',1,'ug::LuaUserData']]]
+  ['luauserdata_35176',['LuaUserData',['../../classug_1_1_lua_user_data_factory.html#ab88d918b98087b59604ba197bdfbcbb8',1,'ug::LuaUserDataFactory']]],
+  ['luauserdatafactory_35177',['LuaUserDataFactory',['../../classug_1_1_lua_user_data.html#aff58af467c486626a978fd38524fe9c8',1,'ug::LuaUserData']]]
 ];

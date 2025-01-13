@@ -12,6 +12,7 @@ var namespaceug_1_1_poroelasticity =
     [ "BiotElemDisc", "classug_1_1_poroelasticity_1_1_biot_elem_disc.html", "classug_1_1_poroelasticity_1_1_biot_elem_disc" ],
     [ "BiotElemDiscFactory", "classug_1_1_poroelasticity_1_1_biot_elem_disc_factory.html", "classug_1_1_poroelasticity_1_1_biot_elem_disc_factory" ],
     [ "BiotProblem", "classug_1_1_poroelasticity_1_1_biot_problem.html", "classug_1_1_poroelasticity_1_1_biot_problem" ],
+    [ "BiotProjection", "classug_1_1_poroelasticity_1_1_biot_projection.html", "classug_1_1_poroelasticity_1_1_biot_projection" ],
     [ "BiotSubsetParameters", "classug_1_1_poroelasticity_1_1_biot_subset_parameters.html", "classug_1_1_poroelasticity_1_1_biot_subset_parameters" ],
     [ "Functionality", "structug_1_1_poroelasticity_1_1_functionality.html", "structug_1_1_poroelasticity_1_1_functionality" ],
     [ "FunctionalityFor2D", "structug_1_1_poroelasticity_1_1_functionality_for2_d.html", "structug_1_1_poroelasticity_1_1_functionality_for2_d" ],
@@ -20,11 +21,7 @@ var namespaceug_1_1_poroelasticity =
     [ "CrashFct", "group___poroelasticity.html#gadaacb3046cd41721ccbbeae8005e3e2c", null ],
     [ "CrashFctFatal", "group___poroelasticity.html#gafd138de2a8ef9c15591db16f5100140c", null ],
     [ "DefaultCharTime", "namespaceug_1_1_poroelasticity.html#a5a7f203571609508c82539e1f98ad9fc", null ],
-    [ "from_json", "namespaceug_1_1_poroelasticity.html#ad020aa8bbe40bcd7cf6530a5c7b60779", null ],
-    [ "from_json", "namespaceug_1_1_poroelasticity.html#af6631bddf062ec02a3b76098c77549a4", null ],
     [ "PluginCrashes", "group___poroelasticity.html#gac8ccd0dc21b30d63ca74b8d1a1c52529", null ],
     [ "PluginCrashesFatal", "group___poroelasticity.html#ga9f2ccb1e80c13966f2a3ee602a7039c7", null ],
-    [ "PluginSaysHello", "group___poroelasticity.html#gaced709fdff7cea2f32ce02ee24bbe7c7", null ],
-    [ "to_json", "namespaceug_1_1_poroelasticity.html#a49d24731d9a90ca270bb15e189a2cab6", null ],
-    [ "to_json", "namespaceug_1_1_poroelasticity.html#aa22d05173de49556aa9aa580aa8a3d9c", null ]
+    [ "PluginSaysHello", "group___poroelasticity.html#gaced709fdff7cea2f32ce02ee24bbe7c7", null ]
 ];

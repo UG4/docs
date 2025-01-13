@@ -12,6 +12,7 @@ var classug_1_1_poroelasticity_1_1_biot_elem_disc =
     [ "displacement_disc", "classug_1_1_poroelasticity_1_1_biot_elem_disc.html#a026db1e9f9a9c2eb15fd26ae3147cda5", null ],
     [ "divergence", "classug_1_1_poroelasticity_1_1_biot_elem_disc.html#a42c33c2f103355a1e6dc97dd4517c81d", null ],
     [ "pressure_disc", "classug_1_1_poroelasticity_1_1_biot_elem_disc.html#a2bb726dc2c99b8d26f680dedc6bfac0c", null ],
+    [ "SetPressureDiscIdentity", "classug_1_1_poroelasticity_1_1_biot_elem_disc.html#af1e909c1c34d8cf0db34fc1f8bebb054", null ],
     [ "compressionLinker", "classug_1_1_poroelasticity_1_1_biot_elem_disc.html#a39fde13b8d3cc78259ae9d2ada3578df", null ],
     [ "dim", "classug_1_1_poroelasticity_1_1_biot_elem_disc.html#a0db4982cbc8dd9428af4ce2bf69d4637", null ],
     [ "displacementEqDisc", "classug_1_1_poroelasticity_1_1_biot_elem_disc.html#a02e5c2b667b3a161c56999431bb586e7", null ],
