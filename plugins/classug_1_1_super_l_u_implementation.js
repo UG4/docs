@@ -9,7 +9,7 @@ var classug_1_1_super_l_u_implementation =
     [ "dgssvB", "classug_1_1_super_l_u_implementation.html#a676bd2b93e530f35fbb914535be75b4a", null ],
     [ "get_options", "classug_1_1_super_l_u_implementation.html#ac1e4ab320b7bdf5c9804b7c83704dc56", null ],
     [ "init", "classug_1_1_super_l_u_implementation.html#af2e9e56166b4130fe49dd2624492e741", null ],
-    [ "name", "classug_1_1_super_l_u_implementation.html#ad910169df7251434d2067db047434e1f", null ],
+    [ "name", "classug_1_1_super_l_u_implementation.html#af785581f7126c1c3a80c9e948bcdbb00", null ],
     [ "colind", "classug_1_1_super_l_u_implementation.html#a847fdbeafc351cf11eb33bf6bf050d6e", null ],
     [ "config", "classug_1_1_super_l_u_implementation.html#a742245a36e485b9ef47d011fb3c347f6", null ],
     [ "m_bInited", "classug_1_1_super_l_u_implementation.html#ab717146ce6cc29279de94a3678838400", null ],

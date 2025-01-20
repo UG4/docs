@@ -1,11 +1,11 @@
 var block__gauss__seidel_8h =
 [
-    [ "BlockGaussSeidel", "classug_1_1_block_gauss_seidel.html", "classug_1_1_block_gauss_seidel" ],
-    [ "BlockGaussSeidelIterative", "classug_1_1_block_gauss_seidel_iterative.html", "classug_1_1_block_gauss_seidel_iterative" ],
-    [ "IBlockJacobiPreconditioner", "classug_1_1_i_block_jacobi_preconditioner.html", "classug_1_1_i_block_jacobi_preconditioner" ],
-    [ "SparseBlockGaussSeidel", "classug_1_1_sparse_block_gauss_seidel.html", "classug_1_1_sparse_block_gauss_seidel" ],
-    [ "SparseBlockGaussSeidel2", "classug_1_1_sparse_block_gauss_seidel2.html", "classug_1_1_sparse_block_gauss_seidel2" ],
-    [ "StrongNegativeConnectionsByBlockNorm", "classug_1_1_strong_negative_connections_by_block_norm.html", "classug_1_1_strong_negative_connections_by_block_norm" ],
+    [ "ug::BlockGaussSeidel< TAlgebra, backward, forward >", "classug_1_1_block_gauss_seidel.html", "classug_1_1_block_gauss_seidel" ],
+    [ "ug::BlockGaussSeidelIterative< TAlgebra, backward, forward >", "classug_1_1_block_gauss_seidel_iterative.html", "classug_1_1_block_gauss_seidel_iterative" ],
+    [ "ug::IBlockJacobiPreconditioner< TAlgebra >", "classug_1_1_i_block_jacobi_preconditioner.html", "classug_1_1_i_block_jacobi_preconditioner" ],
+    [ "ug::SparseBlockGaussSeidel< TAlgebra, backward, forward >", "classug_1_1_sparse_block_gauss_seidel.html", "classug_1_1_sparse_block_gauss_seidel" ],
+    [ "ug::SparseBlockGaussSeidel2< TAlgebra, backward, forward >", "classug_1_1_sparse_block_gauss_seidel2.html", "classug_1_1_sparse_block_gauss_seidel2" ],
+    [ "ug::StrongNegativeConnectionsByBlockNorm", "classug_1_1_strong_negative_connections_by_block_norm.html", "classug_1_1_strong_negative_connections_by_block_norm" ],
     [ "CopyOffDiagEntries", "block__gauss__seidel_8h.html#a9848321077958787a12565e0bc0f9b78", null ],
     [ "CreateStrongConnectionGraphForSystems", "block__gauss__seidel_8h.html#af679ef316b4ad9a8bc0c499db07db6cc", null ],
     [ "GetBlockGSCorrection", "block__gauss__seidel_8h.html#a79e4b29a2eaa5b92c1c452404801612b", null ],

@@ -11,12 +11,7 @@ var dir_b0538a14208cacfdb4f78355b238afd2 =
     [ "suffix_tag.h", "suffix__tag_8h.html", "suffix__tag_8h" ],
     [ "util.h", "bridge_2util_8h.html", "bridge_2util_8h" ],
     [ "util_algebra_dependent.h", "util__algebra__dependent_8h.html", "util__algebra__dependent_8h" ],
-    [ "util_domain_algebra_dependent.h", "util__domain__algebra__dependent_8h.html", [
-      [ "RegAlgebra", "structug_1_1bridge_1_1_register_domain_algebra_dependent_1_1_reg_algebra.html", "structug_1_1bridge_1_1_register_domain_algebra_dependent_1_1_reg_algebra" ],
-      [ "RegEnd", "structug_1_1bridge_1_1_register_domain_algebra_dependent_1_1_reg_end.html", "structug_1_1bridge_1_1_register_domain_algebra_dependent_1_1_reg_end" ],
-      [ "RegNextDomain", "structug_1_1bridge_1_1_register_domain_algebra_dependent_1_1_reg_next_domain.html", "structug_1_1bridge_1_1_register_domain_algebra_dependent_1_1_reg_next_domain" ],
-      [ "RegNextDomainAlgebra", "structug_1_1bridge_1_1_register_domain_algebra_dependent_1_1_reg_next_domain_algebra.html", "structug_1_1bridge_1_1_register_domain_algebra_dependent_1_1_reg_next_domain_algebra" ]
-    ] ],
+    [ "util_domain_algebra_dependent.h", "util__domain__algebra__dependent_8h.html", "util__domain__algebra__dependent_8h" ],
     [ "util_domain_dependent.h", "util__domain__dependent_8h.html", "util__domain__dependent_8h" ],
     [ "util_overloaded.h", "util__overloaded_8h.html", "util__overloaded_8h" ]
 ];

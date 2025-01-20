@@ -5,7 +5,7 @@ var classug_1_1_energy_conv_check =
     [ "EnergyConvCheck", "classug_1_1_energy_conv_check.html#a2cd6736667fa21d22a6a82b6f7878b81", null ],
     [ "EnergyConvCheck", "classug_1_1_energy_conv_check.html#a10706f1e37f4a55f7803c51b618aaf42", null ],
     [ "EnergyConvCheck", "classug_1_1_energy_conv_check.html#aa79f244cfb7deabafb3dbcbd484ee3e4", null ],
-    [ "clone", "classug_1_1_energy_conv_check.html#afe1b9c65c4155a122637fd6657ba0baa", null ],
+    [ "clone", "classug_1_1_energy_conv_check.html#a04ed2e55ff5a3b4c4b0d40714b97a7fc", null ],
     [ "config_string", "classug_1_1_energy_conv_check.html#a77adef8a17d9431ef038ee589236d8e0", null ],
     [ "energy_norm", "classug_1_1_energy_conv_check.html#a380508ee8bc163fbf430e5f27ac15551", null ],
     [ "set_linear_operator", "classug_1_1_energy_conv_check.html#a8827856f930b92bc171ab55c34c450ad", null ],

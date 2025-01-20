@@ -10,7 +10,7 @@ var classug_1_1_h1_energy_component_space =
     [ "H1EnergyComponentSpace", "classug_1_1_h1_energy_component_space.html#a44e28e684453737f598e074b17eb4833", null ],
     [ "~H1EnergyComponentSpace", "classug_1_1_h1_energy_component_space.html#aabe64d511058fb2b02fbeab9033b5a36", null ],
     [ "distance2", "classug_1_1_h1_energy_component_space.html#a7888d215291bdb02e5a8c0671b6d786b", null ],
-    [ "get_weight", "classug_1_1_h1_energy_component_space.html#aa62435f318d3018e49425a594493afe2", null ],
+    [ "get_weight", "classug_1_1_h1_energy_component_space.html#a5ce2359326666231c55138259f5425dc", null ],
     [ "norm2", "classug_1_1_h1_energy_component_space.html#a5adfe0743a80f05dd8354637f4bd8429", null ],
     [ "set_velocity", "classug_1_1_h1_energy_component_space.html#ae016dde52d3cfc9f9e61f3dce638da8e", null ],
     [ "set_weight", "classug_1_1_h1_energy_component_space.html#a5a76c2baf3067884868dd38b0c6cb4a1", null ],

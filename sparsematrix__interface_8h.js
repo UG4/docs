@@ -1,6 +1,6 @@
 var sparsematrix__interface_8h =
 [
-    [ "SparseMatrix", "class_sparse_matrix.html", "class_sparse_matrix" ],
+    [ "SparseMatrix< T >", "class_sparse_matrix.html", "class_sparse_matrix" ],
     [ "value_type", "sparsematrix__interface_8h.html#a265a253612b46abed17c61b0a5e5ce30", null ],
     [ "begin_row", "sparsematrix__interface_8h.html#a6b29d0abb0e1864ab81f18514f13b778", null ],
     [ "CreateAsMultiplyOf", "sparsematrix__interface_8h.html#a4230ebfcf8291c26f48b7a6eecab10aa", null ],

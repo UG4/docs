@@ -1,8 +1,8 @@
 var distribution_8cpp =
 [
-    [ "ComPol_SynchronizeDistInfos", "classug_1_1_com_pol___synchronize_dist_infos.html", "classug_1_1_com_pol___synchronize_dist_infos" ],
-    [ "DistInfoSupplier", "classug_1_1_dist_info_supplier.html", "classug_1_1_dist_info_supplier" ],
-    [ "TargetProcInfo", "structug_1_1_target_proc_info.html", "structug_1_1_target_proc_info" ],
+    [ "ug::ComPol_SynchronizeDistInfos< TLayout >", "classug_1_1_com_pol___synchronize_dist_infos.html", "classug_1_1_com_pol___synchronize_dist_infos" ],
+    [ "ug::DistInfoSupplier", "classug_1_1_dist_info_supplier.html", "classug_1_1_dist_info_supplier" ],
+    [ "ug::TargetProcInfo", "structug_1_1_target_proc_info.html", "structug_1_1_target_proc_info" ],
     [ "ADistInfo", "distribution_8cpp.html#a704769f12b7c1c3659c24e2bb3bef135", null ],
     [ "AddGlobalAttachmentsToSerializer", "distribution_8cpp.html#aeb7264296a8e39a80403492d0f0cc8fb", null ],
     [ "AddTargetProcToDistInfos", "distribution_8cpp.html#aa29bf31c2e6916eae1d184f2cfcef04e", null ],

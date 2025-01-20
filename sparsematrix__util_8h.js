@@ -12,7 +12,7 @@ var sparsematrix__util_8h =
     [ "CreateAsMultiplyOf", "sparsematrix__util_8h.html#ga9a6a6e8f6a05082613a1870297e7ea8a", null ],
     [ "DeserializeMatrix", "sparsematrix__util_8h.html#gaef5b964b912673a04dd75cb4d6c06f3d", null ],
     [ "GetDenseDoubleFromSparse", "sparsematrix__util_8h.html#ga9ed0739a5937e2adeadf74439e187b01", null ],
-    [ "GetDenseFromSparse", "sparsematrix__util_8h.html#ga25765881ec0229d2f6b0a2cde2202f59", null ],
+    [ "GetDenseFromSparse", "sparsematrix__util_8h.html#ga5c8c76f18ba97b9ddbd666db20a17905", null ],
     [ "GetDoubleFromSparseBlock", "sparsematrix__util_8h.html#ga04e1b55e8160dd71a6bde7371d655af4", null ],
     [ "GetDoubleSize", "sparsematrix__util_8h.html#ga066c012e62162f3245b680048351bee9", null ],
     [ "GetDoubleSparseFromBlockSparse", "sparsematrix__util_8h.html#ga476f78fff8ccd5c4fd626f4925f3a67b", null ],

@@ -17,7 +17,7 @@ var classug_1_1_undirected_matrix =
     [ "in_degree", "classug_1_1_undirected_matrix.html#af76adbb531735c0094d0e601ad1d08fa", null ],
     [ "num_cols", "classug_1_1_undirected_matrix.html#ade31e58f16df669338aabf43cf5fea85", null ],
     [ "num_rows", "classug_1_1_undirected_matrix.html#a1e8924ce48b204fec52d75af4b602226", null ],
-    [ "operator=", "classug_1_1_undirected_matrix.html#a3eed295ec65f688958d71f7cb22181d4", null ],
+    [ "operator=", "classug_1_1_undirected_matrix.html#a1e9f16d950ddf1d08f3e3fc31805da4e", null ],
     [ "out_degree", "classug_1_1_undirected_matrix.html#a80d8b5d34bfc9a3596327456e76fa4fb", null ],
     [ "refresh", "classug_1_1_undirected_matrix.html#a089ab951c218e4f119c3eb4d5bc3a078", null ],
     [ "_extra_fill", "classug_1_1_undirected_matrix.html#a280263fe7f116ca583f8d8bb787b3c0f", null ],

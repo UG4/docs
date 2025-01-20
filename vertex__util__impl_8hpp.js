@@ -10,7 +10,7 @@ var vertex__util__impl_8hpp =
     [ "CalculateVertexNormal", "vertex__util__impl_8hpp.html#ga8c98c2d1d058d59c32717dd75d97055c", null ],
     [ "ContainsPoint", "vertex__util__impl_8hpp.html#ga6714b9ccee3ac300ae8bb4493ede02e1", null ],
     [ "FindVertexByCoordinate", "vertex__util__impl_8hpp.html#gad0385a01ac0f134d52a1398e6d826066", null ],
-    [ "MergeMultipleVertices", "vertex__util__impl_8hpp.html#ga526c91d80e4f634cac8d617a52199afa", null ],
+    [ "MergeMultipleVertices", "vertex__util__impl_8hpp.html#ga87445b0511103b996aa4295eddd665ce", null ],
     [ "MoveVertices", "vertex__util__impl_8hpp.html#ga56cb44dd0a306072b484b980e6949468", null ],
     [ "RemoveDoubles", "vertex__util__impl_8hpp.html#ga0ef4b61a6c2f18a940efa1cf74d7e47d", null ],
     [ "RemoveDoubles", "vertex__util__impl_8hpp.html#ga3624945d6c779bbfb5d470d874016da9", null ],

@@ -6,10 +6,7 @@ var dir_24cf78865389c4de552fbb5220e16a9a =
     [ "constrained_linear_iterator_bridge.cpp", "constrained__linear__iterator__bridge_8cpp.html", "constrained__linear__iterator__bridge_8cpp" ],
     [ "eigensolver_bridge.cpp", "eigensolver__bridge_8cpp.html", "eigensolver__bridge_8cpp" ],
     [ "gpu_bridge.cpp", "gpu__bridge_8cpp.html", "gpu__bridge_8cpp" ],
-    [ "matrix_diagonal.h", "matrix__diagonal_8h.html", [
-      [ "MatrixDiagonal", "classug_1_1_matrix_diagonal.html", "classug_1_1_matrix_diagonal" ],
-      [ "MatrixDiagonalInverse", "classug_1_1_matrix_diagonal_inverse.html", "classug_1_1_matrix_diagonal_inverse" ]
-    ] ],
+    [ "matrix_diagonal.h", "matrix__diagonal_8h.html", "matrix__diagonal_8h" ],
     [ "obstacle_bridge.cpp", "obstacle__bridge_8cpp.html", "obstacle__bridge_8cpp" ],
     [ "ordering_bridge.cpp", "algebra__bridges_2ordering__bridge_8cpp.html", "algebra__bridges_2ordering__bridge_8cpp" ],
     [ "pilut_bridge.cpp", "pilut__bridge_8cpp.html", "pilut__bridge_8cpp" ],

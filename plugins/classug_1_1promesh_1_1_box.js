@@ -1,7 +1,7 @@
 var classug_1_1promesh_1_1_box =
 [
-    [ "get_max", "classug_1_1promesh_1_1_box.html#af6b1660de4dbfe84eadf39d89e11c24f", null ],
-    [ "get_min", "classug_1_1promesh_1_1_box.html#ab5106c6f0a33836e52c531c15c3f64cf", null ],
+    [ "get_max", "classug_1_1promesh_1_1_box.html#a3312752526c788df4ba6f22e67493c38", null ],
+    [ "get_min", "classug_1_1promesh_1_1_box.html#a0e00ce90ec213a82ad665e2eddcf4595", null ],
     [ "global_to_local", "classug_1_1promesh_1_1_box.html#ae25b9c17cb8a1afefbddd02d0a07ccdf", null ],
     [ "local_to_global", "classug_1_1promesh_1_1_box.html#ac2c374338d3d2061a41a6a81ff38ff6f", null ],
     [ "set_max", "classug_1_1promesh_1_1_box.html#a396be3e19a92da5b1e7980c238a10ca0", null ],

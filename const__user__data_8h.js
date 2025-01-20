@@ -1,9 +1,9 @@
 var const__user__data_8h =
 [
-    [ "StdConstData", "classug_1_1_std_const_data.html", "classug_1_1_std_const_data" ],
-    [ "CreateConstUserData", "const__user__data_8h.html#gadcd0da79673727ce5df46410cb169771", null ],
-    [ "CreateConstUserData", "const__user__data_8h.html#ga0c13413883d80ba95c87e6b16ac851d6", null ],
-    [ "CreateConstUserData", "const__user__data_8h.html#gada5fa74060d0d90f9648af78302f39de", null ],
-    [ "CreateConstUserData", "const__user__data_8h.html#gaba6756fe0f7d1c2e07bfb9989a586868", null ],
-    [ "CreateConstUserData", "const__user__data_8h.html#gae6d23ec825399ff84c5cf8e481217481", null ]
+    [ "ug::StdConstData< TImpl, TData, dim >", "classug_1_1_std_const_data.html", "classug_1_1_std_const_data" ],
+    [ "CreateConstUserData", "const__user__data_8h.html#ga08d6b871463f5962ad5dd41a13f2d0cf", null ],
+    [ "CreateConstUserData", "const__user__data_8h.html#ga7fffe02442843821ce9284d382bbd988", null ],
+    [ "CreateConstUserData", "const__user__data_8h.html#ga833f1b1fa74fa9caeaa0eee40cde1895", null ],
+    [ "CreateConstUserData", "const__user__data_8h.html#ga4846b6960bcd7aa247339a7109783ef3", null ],
+    [ "CreateConstUserData", "const__user__data_8h.html#gac3480aa99c03d8ad5b4da42bcbd1f445", null ]
 ];

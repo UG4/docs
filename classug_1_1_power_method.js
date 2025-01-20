@@ -9,7 +9,7 @@ var classug_1_1_power_method =
     [ "B_norm", "classug_1_1_power_method.html#a65ef166508b44d84699b592acf5587c7", null ],
     [ "calculate_max_eigenvalue", "classug_1_1_power_method.html#a6f22dc68921fdb077dd6d86b4b9dd2ca", null ],
     [ "calculate_min_eigenvalue", "classug_1_1_power_method.html#a656b5a28088d676bd24d5bed2294ea50", null ],
-    [ "create_approximation_vector", "classug_1_1_power_method.html#ae7365e7a894ad886a9fb48bae38350d9", null ],
+    [ "create_approximation_vector", "classug_1_1_power_method.html#aca901ca9406442daca44705ebbb83f4d", null ],
     [ "get_iterations", "classug_1_1_power_method.html#a67ef49b84eb51b385b1ed13eeb71ce8a", null ],
     [ "get_max_eigenvalue", "classug_1_1_power_method.html#ac7fea2dfe21fee16ee999b69885d0fca", null ],
     [ "get_min_eigenvalue", "classug_1_1_power_method.html#a415ab67f4492c82e531f9de48b9bd2ec", null ],

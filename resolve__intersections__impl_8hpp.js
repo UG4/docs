@@ -1,7 +1,7 @@
 var resolve__intersections__impl_8hpp =
 [
-    [ "Record", "structug_1_1impl_1_1_project_vertices_to_close_edges_1_1_record.html", "structug_1_1impl_1_1_project_vertices_to_close_edges_1_1_record" ],
-    [ "CalculateBoundingSphere", "resolve__intersections__impl_8hpp.html#aa2627d5e313188b7ffb609ea714435d7", null ],
+    [ "ug::impl::ProjectVerticesToCloseEdges::Record", "structug_1_1impl_1_1_project_vertices_to_close_edges_1_1_record.html", "structug_1_1impl_1_1_project_vertices_to_close_edges_1_1_record" ],
+    [ "CalculateBoundingSphere", "resolve__intersections__impl_8hpp.html#a454f39f6ce5bc5f25f6d6a46ed0b0bf2", null ],
     [ "DebugSave", "resolve__intersections__impl_8hpp.html#ae00e6e1ddef614bd617a1e1581099e21", null ],
     [ "DebugSave2d", "resolve__intersections__impl_8hpp.html#a099b0e80e8a659c256e8bf3b45f1ffb0", null ],
     [ "FindClosestVertexInArray", "resolve__intersections__impl_8hpp.html#a72f9fa62951340ecf3157f20b41a8379", null ],

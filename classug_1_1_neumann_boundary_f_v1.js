@@ -22,6 +22,7 @@ var classug_1_1_neumann_boundary_f_v1 =
     [ "register_all_funcs", "classug_1_1_neumann_boundary_f_v1.html#a488c7463af406251513a60d4cd117151", null ],
     [ "register_func", "classug_1_1_neumann_boundary_f_v1.html#ad005866dadf16c85ddfc19e5fef3d6d4", null ],
     [ "update_subset_groups", "classug_1_1_neumann_boundary_f_v1.html#afd06af88b8501c9dfa2241ae65d6b66a", null ],
+    [ "update_subset_groups", "classug_1_1_neumann_boundary_f_v1.html#ac99c8670184429f2ff1746be50bc45b5", null ],
     [ "_C_", "classug_1_1_neumann_boundary_f_v1.html#afdd61c98566b41dedb3198eb65ee517c", null ],
     [ "dim", "classug_1_1_neumann_boundary_f_v1.html#a5ec3f11142aabc72b4072bbd9302f863", null ],
     [ "m_si", "classug_1_1_neumann_boundary_f_v1.html#a0211885a8cbf94e12600d9b091e44440", null ],

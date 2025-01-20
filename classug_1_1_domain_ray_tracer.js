@@ -8,7 +8,7 @@ var classug_1_1_domain_ray_tracer =
     [ "init", "classug_1_1_domain_ray_tracer.html#ad75d0f6d6f8f425c5a6cb5fcae16ef53", null ],
     [ "num_trace_points", "classug_1_1_domain_ray_tracer.html#aa9fd6e2c7cdcd7f6756f7837f5747575", null ],
     [ "set_small", "classug_1_1_domain_ray_tracer.html#ab3e1691a136e2345af53031064d38dc9", null ],
-    [ "trace_point", "classug_1_1_domain_ray_tracer.html#a703977d1fcb2a06982dd1ecd59f21a50", null ],
+    [ "trace_point", "classug_1_1_domain_ray_tracer.html#a701ee58cd33fa06632027f8d616edc08", null ],
     [ "trace_point_x", "classug_1_1_domain_ray_tracer.html#a7c7a2186a5613edda75ee8878aae54f7", null ],
     [ "trace_point_y", "classug_1_1_domain_ray_tracer.html#a31a62e7094a21a39133012b42175756c", null ],
     [ "trace_point_z", "classug_1_1_domain_ray_tracer.html#a30ea31dc6cb8a9bf2ebec2d35153f9e9", null ],

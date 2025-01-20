@@ -1,11 +1,11 @@
 var classug_1_1_binary_stream_buffer =
 [
     [ "BinaryStreamBuffer", "classug_1_1_binary_stream_buffer.html#a58606ff866e3ddeb1010319321cb6fc5", null ],
-    [ "buffer", "classug_1_1_binary_stream_buffer.html#a2fc62129e102e6e8164d21458c47919c", null ],
-    [ "buffer", "classug_1_1_binary_stream_buffer.html#a9f53ace63ceb3dee7efe3130a4c4732c", null ],
+    [ "buffer", "classug_1_1_binary_stream_buffer.html#aa0857a982aad4d98f61e30b97ac470e1", null ],
+    [ "buffer", "classug_1_1_binary_stream_buffer.html#a9489ce7da32d37c4a447ccf9ac77cfee", null ],
     [ "clear", "classug_1_1_binary_stream_buffer.html#a8c790a27936607729360e75e16a43e61", null ],
-    [ "end", "classug_1_1_binary_stream_buffer.html#a92afb7da39f7f982834ff90632f466fc", null ],
-    [ "end", "classug_1_1_binary_stream_buffer.html#aa127e30b42b6e7cc6f321d1d8e240534", null ],
+    [ "end", "classug_1_1_binary_stream_buffer.html#ad51f17f9ac1c445276e86f4c6a15f6a9", null ],
+    [ "end", "classug_1_1_binary_stream_buffer.html#a17986710c5450a11c1b344599c26c0ed", null ],
     [ "get_read_pos", "classug_1_1_binary_stream_buffer.html#a63ec0737424e4e7e4694577f772345f6", null ],
     [ "overflow", "classug_1_1_binary_stream_buffer.html#aca9821dcb5e1eeb366c737b84f7f16a4", null ],
     [ "read_jump", "classug_1_1_binary_stream_buffer.html#ae66eda922af4f5994ae2007955eae06e", null ],

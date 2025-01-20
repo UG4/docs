@@ -13,7 +13,7 @@ var classug_1_1_simple_time_integrator =
     [ "apply_multi_stage", "classug_1_1_simple_time_integrator.html#aea2ec3982ec05f1af19e2f84a80704df", null ],
     [ "apply_single_stage", "classug_1_1_simple_time_integrator.html#a2a73bb097ffc8db1143c9ed8c3039b31", null ],
     [ "get_consistency_error", "classug_1_1_simple_time_integrator.html#a030cccef5a410fb442d346ed9e5512e4", null ],
-    [ "get_derivative", "classug_1_1_simple_time_integrator.html#a7ae018b157c2e378e88d4fe811f1485b", null ],
+    [ "get_derivative", "classug_1_1_simple_time_integrator.html#af78c1e1804871742a78546e7f2559896", null ],
     [ "hasTerminated", "classug_1_1_simple_time_integrator.html#a31bce047abf243a1bf7150df61716d77", null ],
     [ "set_banach_space", "classug_1_1_simple_time_integrator.html#a198686e4edd742f36cb2a1dcd1ff53cc", null ],
     [ "set_derivative", "classug_1_1_simple_time_integrator.html#a3384949fb77c8daf1aa5ea59aed82871", null ],

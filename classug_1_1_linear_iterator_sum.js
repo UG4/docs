@@ -5,10 +5,10 @@ var classug_1_1_linear_iterator_sum =
     [ "LinearIteratorSum", "classug_1_1_linear_iterator_sum.html#a8557d568246f9f77fc1653e485d55cfc", null ],
     [ "apply", "classug_1_1_linear_iterator_sum.html#ab11fbafeb33fd03c109f943f46fef7d3", null ],
     [ "apply_update_defect", "classug_1_1_linear_iterator_sum.html#affdb1ffe1dbf88a3112dd3611c307726", null ],
-    [ "clone", "classug_1_1_linear_iterator_sum.html#a9947ec800340a64726ade66e6017d9f5", null ],
+    [ "clone", "classug_1_1_linear_iterator_sum.html#ac0b4313659911edeab6aefc9111db6f0", null ],
     [ "init", "classug_1_1_linear_iterator_sum.html#ab6f2ee3c6302cd76e2863fcee4d77cda", null ],
     [ "init", "classug_1_1_linear_iterator_sum.html#a2d8cce028db95eb4c9d1228e5de72f8e", null ],
-    [ "name", "classug_1_1_linear_iterator_sum.html#a87589b42e41ba3f2bc1703e72cc17704", null ],
+    [ "name", "classug_1_1_linear_iterator_sum.html#acda5ea21c2d198411481371f6cda7f4f", null ],
     [ "m_spOp", "classug_1_1_linear_iterator_sum.html#ae6a2b007fa1548659f6c1106e906fcd8", null ],
     [ "m_vIterator", "classug_1_1_linear_iterator_sum.html#ae4e5cc1ae6b7e5ffe5bec77276beff95", null ]
 ];

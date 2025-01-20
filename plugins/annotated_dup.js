@@ -1,7 +1,7 @@
 var annotated_dup =
 [
     [ "ug", "namespaceug.html", [
-      [ "bridge", "namespaceug_1_1bridge.html", [
+      [ "bridge", null, [
         [ "SuperLUBridge", "namespaceug_1_1bridge_1_1_super_l_u_bridge.html", [
           [ "Functionality", "structug_1_1bridge_1_1_super_l_u_bridge_1_1_functionality.html", "structug_1_1bridge_1_1_super_l_u_bridge_1_1_functionality" ]
         ] ],

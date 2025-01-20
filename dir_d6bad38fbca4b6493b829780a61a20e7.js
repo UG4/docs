@@ -13,12 +13,6 @@ var dir_d6bad38fbca4b6493b829780a61a20e7 =
     [ "extrude.cpp", "extrude_8cpp.html", "extrude_8cpp" ],
     [ "extrude.h", "extrude_8h.html", "extrude_8h" ],
     [ "extrusion.h", "extrusion_8h.html", null ],
-    [ "support.h", "support_8h.html", [
-      [ "CrossingVertexInfo", "classug_1_1_crossing_vertex_info.html", "classug_1_1_crossing_vertex_info" ],
-      [ "MatrixTwoIndices", "classug_1_1_matrix_two_indices.html", "classug_1_1_matrix_two_indices" ],
-      [ "T_min", "classug_1_1_t__min.html", "classug_1_1_t__min" ],
-      [ "VertexFractureProperties", "classug_1_1_vertex_fracture_properties.html", "classug_1_1_vertex_fracture_properties" ],
-      [ "VertexFractureTriple", "classug_1_1_vertex_fracture_triple.html", "classug_1_1_vertex_fracture_triple" ]
-    ] ],
+    [ "support.h", "support_8h.html", "support_8h" ],
     [ "support3D.h", "support3_d_8h.html", "support3_d_8h" ]
 ];

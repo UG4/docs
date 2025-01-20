@@ -6,7 +6,7 @@ var classug_1_1_periodic_boundary_manager_1_1_group =
     [ "unique_pairs", "classug_1_1_periodic_boundary_manager_1_1_group.html#a1711660ce7b8df98fc2065595ab3c1e6", null ],
     [ "Group", "classug_1_1_periodic_boundary_manager_1_1_group.html#a2063e0bc6d609ea93cfc8acb581e6b90", null ],
     [ "add_slave", "classug_1_1_periodic_boundary_manager_1_1_group.html#aa2b5587a3e00c1d6f687eb796f4ae9dc", null ],
-    [ "get_slaves", "classug_1_1_periodic_boundary_manager_1_1_group.html#a379cc13989688b9fef1de3755ce7facb", null ],
+    [ "get_slaves", "classug_1_1_periodic_boundary_manager_1_1_group.html#a7c4d1788c8dc44fbbccb36f4982ded55", null ],
     [ "m_master", "classug_1_1_periodic_boundary_manager_1_1_group.html#a072cbaf2df05c7b3b938e8186f03664c", null ],
     [ "m_slaves", "classug_1_1_periodic_boundary_manager_1_1_group.html#a20b153603b8216ff9d43c24fd425974b", null ]
 ];

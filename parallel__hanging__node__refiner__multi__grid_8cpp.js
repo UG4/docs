@@ -1,7 +1,7 @@
 var parallel__hanging__node__refiner__multi__grid_8cpp =
 [
-    [ "ComPol_AdjustType", "classug_1_1_com_pol___adjust_type.html", "classug_1_1_com_pol___adjust_type" ],
-    [ "ComPol_BroadcastCoarsenMarks", "classug_1_1_com_pol___broadcast_coarsen_marks.html", "classug_1_1_com_pol___broadcast_coarsen_marks" ],
+    [ "ug::ComPol_AdjustType< TLayout >", "classug_1_1_com_pol___adjust_type.html", "classug_1_1_com_pol___adjust_type" ],
+    [ "ug::ComPol_BroadcastCoarsenMarks< TLayout >", "classug_1_1_com_pol___broadcast_coarsen_marks.html", "classug_1_1_com_pol___broadcast_coarsen_marks" ],
     [ "ReplaceByConstrained", "parallel__hanging__node__refiner__multi__grid_8cpp.html#abd23e57a9e6fb2f1dbe562d9aebcbff7", null ],
     [ "ReplaceByConstrained", "parallel__hanging__node__refiner__multi__grid_8cpp.html#a96aaa24def956b0933363f9b38bf4339", null ],
     [ "ReplaceByConstrained", "parallel__hanging__node__refiner__multi__grid_8cpp.html#a42b7a41bf2f57a95e049f75b71d42f4f", null ],

@@ -9,7 +9,7 @@ var classboost_1_1_s_m__edge__weight__map =
     [ "SM_edge_weight_map", "classboost_1_1_s_m__edge__weight__map.html#a93825211937db22fa1fec45fd95d8920", null ],
     [ "SM_edge_weight_map", "classboost_1_1_s_m__edge__weight__map.html#a294705444bd2a35eb28ff20efc85f980", null ],
     [ "SM_edge_weight_map", "classboost_1_1_s_m__edge__weight__map.html#a82499eb2dcd486119690ec8ec96436de", null ],
-    [ "operator=", "classboost_1_1_s_m__edge__weight__map.html#a8d7512b32ef763f5e2602ee3b8899a79", null ],
+    [ "operator=", "classboost_1_1_s_m__edge__weight__map.html#aafb095049c2dd8c70065546feb990f44", null ],
     [ "operator[]", "classboost_1_1_s_m__edge__weight__map.html#a9841a9622088ee24e525cb2246462a8e", null ],
     [ "_g", "classboost_1_1_s_m__edge__weight__map.html#aabd26468fde88370bcfd14b363c6c3c6", null ]
 ];

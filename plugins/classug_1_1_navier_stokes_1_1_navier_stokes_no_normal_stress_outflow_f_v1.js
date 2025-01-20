@@ -24,6 +24,8 @@ var classug_1_1_navier_stokes_1_1_navier_stokes_no_normal_stress_outflow_f_v1 =
     [ "dim", "classug_1_1_navier_stokes_1_1_navier_stokes_no_normal_stress_outflow_f_v1.html#ad945e05f89dcd1043115e20761ab6710", null ],
     [ "m_imDensity", "classug_1_1_navier_stokes_1_1_navier_stokes_no_normal_stress_outflow_f_v1.html#a0d2443ffd30eba67d4866d2b4e40520a", null ],
     [ "m_imKinViscosity", "classug_1_1_navier_stokes_1_1_navier_stokes_no_normal_stress_outflow_f_v1.html#a6b202fbec98a535bd6c16261f4eea91a", null ],
+    [ "m_spMaster", "classug_1_1_navier_stokes_1_1_navier_stokes_no_normal_stress_outflow_f_v1.html#a79864773385b665ab2850b19855f1727", null ],
+    [ "m_vBndSubSetIndex", "classug_1_1_navier_stokes_1_1_navier_stokes_no_normal_stress_outflow_f_v1.html#a6b1f959067b07b5fe99113403f8d074a", null ],
     [ "m_vGloIP", "classug_1_1_navier_stokes_1_1_navier_stokes_no_normal_stress_outflow_f_v1.html#af939ff7964539fc13acec1f1731a905e", null ],
     [ "m_vLocIP", "classug_1_1_navier_stokes_1_1_navier_stokes_no_normal_stress_outflow_f_v1.html#a860f8deeec2cf5bf1f2046674528e6bf", null ]
 ];

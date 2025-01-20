@@ -9,6 +9,6 @@ var classboost_1_1sparse__matrix__index__map =
     [ "sparse_matrix_index_map", "classboost_1_1sparse__matrix__index__map.html#adc0abb6becc362f076388b69fe866aff", null ],
     [ "sparse_matrix_index_map", "classboost_1_1sparse__matrix__index__map.html#a9472c31dd0a22f8dee4388bcc979dea6", null ],
     [ "sparse_matrix_index_map", "classboost_1_1sparse__matrix__index__map.html#af8caae17687852af240e99709aef59db", null ],
-    [ "operator=", "classboost_1_1sparse__matrix__index__map.html#acd1657594ad300388853ec2cd0e7d437", null ],
+    [ "operator=", "classboost_1_1sparse__matrix__index__map.html#a4013353d127d0d99ee288783cbc3293a", null ],
     [ "operator[]", "classboost_1_1sparse__matrix__index__map.html#ada4fe705db36168d93f1adee292fac84", null ]
 ];

@@ -7,8 +7,6 @@ var dir_ddbc46a4ddd0bdb2290ac7ec55089202 =
     [ "limex_plugin.h", "limex__plugin_8h.html", "limex__plugin_8h" ],
     [ "limex_pybind.cpp", "limex__pybind_8cpp.html", null ],
     [ "limex_tools.h", "limex__tools_8h.html", "limex__tools_8h" ],
-    [ "newton_limex.h", "newton__limex_8h.html", [
-      [ "LimexNewtonSolver", "classug_1_1_limex_newton_solver.html", "classug_1_1_limex_newton_solver" ]
-    ] ],
+    [ "newton_limex.h", "newton__limex_8h.html", "newton__limex_8h" ],
     [ "newton_limex_impl.h", "newton__limex__impl_8h.html", "newton__limex__impl_8h" ]
 ];

@@ -1,11 +1,11 @@
 var parallel__grid__layout_8h =
 [
-    [ "GridLayoutMap", "classug_1_1_grid_layout_map.html", "classug_1_1_grid_layout_map" ],
-    [ "type_traits< ug::Edge >", "structpcl_1_1type__traits_3_01ug_1_1_edge_01_4.html", "structpcl_1_1type__traits_3_01ug_1_1_edge_01_4" ],
-    [ "type_traits< ug::Face >", "structpcl_1_1type__traits_3_01ug_1_1_face_01_4.html", "structpcl_1_1type__traits_3_01ug_1_1_face_01_4" ],
-    [ "type_traits< ug::Vertex >", "structpcl_1_1type__traits_3_01ug_1_1_vertex_01_4.html", "structpcl_1_1type__traits_3_01ug_1_1_vertex_01_4" ],
-    [ "type_traits< ug::Volume >", "structpcl_1_1type__traits_3_01ug_1_1_volume_01_4.html", "structpcl_1_1type__traits_3_01ug_1_1_volume_01_4" ],
-    [ "Types", "structug_1_1_grid_layout_map_1_1_types.html", "structug_1_1_grid_layout_map_1_1_types" ],
+    [ "ug::GridLayoutMap", "classug_1_1_grid_layout_map.html", "classug_1_1_grid_layout_map" ],
+    [ "pcl::type_traits< ug::Edge >", "structpcl_1_1type__traits_3_01ug_1_1_edge_01_4.html", "structpcl_1_1type__traits_3_01ug_1_1_edge_01_4" ],
+    [ "pcl::type_traits< ug::Face >", "structpcl_1_1type__traits_3_01ug_1_1_face_01_4.html", "structpcl_1_1type__traits_3_01ug_1_1_face_01_4" ],
+    [ "pcl::type_traits< ug::Vertex >", "structpcl_1_1type__traits_3_01ug_1_1_vertex_01_4.html", "structpcl_1_1type__traits_3_01ug_1_1_vertex_01_4" ],
+    [ "pcl::type_traits< ug::Volume >", "structpcl_1_1type__traits_3_01ug_1_1_volume_01_4.html", "structpcl_1_1type__traits_3_01ug_1_1_volume_01_4" ],
+    [ "ug::GridLayoutMap::Types< TType >", "structug_1_1_grid_layout_map_1_1_types.html", "structug_1_1_grid_layout_map_1_1_types" ],
     [ "EdgeLayout", "parallel__grid__layout_8h.html#a5780f0d452ed1f189ed9d55eac7bac4f", null ],
     [ "FaceLayout", "parallel__grid__layout_8h.html#a253cf405cc6783226a146e77c68e1468", null ],
     [ "VertexLayout", "parallel__grid__layout_8h.html#acb8ccdb0be856c1b9db92585c5512181", null ],

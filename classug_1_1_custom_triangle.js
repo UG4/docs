@@ -5,7 +5,7 @@ var classug_1_1_custom_triangle =
     [ "CustomTriangle", "classug_1_1_custom_triangle.html#ae1e4712582862a88ba6024cd8c409390", null ],
     [ "collapse_edge", "classug_1_1_custom_triangle.html#a615f5bf02ed142f34316699ed961a5d5", null ],
     [ "collapse_edges", "classug_1_1_custom_triangle.html#a552881b94b0c8ff92debefad1448be95", null ],
-    [ "create_empty_instance", "classug_1_1_custom_triangle.html#acbd74824d398b49ce5aca7440e79b34a", null ],
+    [ "create_empty_instance", "classug_1_1_custom_triangle.html#abd6bc586fee1925edaddf9f2fb13ffa4", null ],
     [ "create_faces_by_edge_split", "classug_1_1_custom_triangle.html#aa34056884035f732e92272d86124ccfd", null ],
     [ "edge_desc", "classug_1_1_custom_triangle.html#aa72de50d2eed7c78756faa41fcce6797", null ],
     [ "edge_desc", "classug_1_1_custom_triangle.html#ab2c3147ed9ffbce6424608a9dd97474d", null ],
@@ -15,7 +15,7 @@ var classug_1_1_custom_triangle =
     [ "reference_object_id", "classug_1_1_custom_triangle.html#a9ef1334984da7eaf2ea0e3dce1241025", null ],
     [ "refine", "classug_1_1_custom_triangle.html#a5a1552c099310df0bf372dddfb9f8424", null ],
     [ "set_vertex", "classug_1_1_custom_triangle.html#a20e3e7713252adca3f6b087a11314f5c", null ],
-    [ "vertex", "classug_1_1_custom_triangle.html#ac5059768b9528b54980af2aaa8685211", null ],
+    [ "vertex", "classug_1_1_custom_triangle.html#a39c6849a397118cda610f0a7573e04d0", null ],
     [ "vertices", "classug_1_1_custom_triangle.html#aaf933ea2115a6fd6d3c343b96c5b3b42", null ],
     [ "m_vertices", "classug_1_1_custom_triangle.html#ad4962c7af062e2913d909c484278d557", null ],
     [ "NUM_VERTICES", "classug_1_1_custom_triangle.html#ade9295d748ce99b96afc778997a91e0b", null ]

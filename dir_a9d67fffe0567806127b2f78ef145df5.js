@@ -10,7 +10,5 @@ var dir_a9d67fffe0567806127b2f78ef145df5 =
     [ "marking_utils.h", "marking__utils_8h.html", "marking__utils_8h" ],
     [ "marking_utils_impl.h", "marking__utils__impl_8h.html", "marking__utils__impl_8h" ],
     [ "multi_index.h", "multi__index_8h.html", "multi__index_8h" ],
-    [ "revision_counter.h", "revision__counter_8h.html", [
-      [ "RevisionCounter", "classug_1_1_revision_counter.html", "classug_1_1_revision_counter" ]
-    ] ]
+    [ "revision_counter.h", "revision__counter_8h.html", "revision__counter_8h" ]
 ];

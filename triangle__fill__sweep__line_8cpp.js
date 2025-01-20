@@ -1,7 +1,7 @@
 var triangle__fill__sweep__line_8cpp =
 [
-    [ "SweepLineEdge", "structug_1_1_sweep_line_edge.html", "structug_1_1_sweep_line_edge" ],
-    [ "SweepLineVertex", "structug_1_1_sweep_line_vertex.html", "structug_1_1_sweep_line_vertex" ],
+    [ "ug::SweepLineEdge", "structug_1_1_sweep_line_edge.html", "structug_1_1_sweep_line_edge" ],
+    [ "ug::SweepLineVertex", "structug_1_1_sweep_line_vertex.html", "structug_1_1_sweep_line_vertex" ],
     [ "MapEdgeCuts", "triangle__fill__sweep__line_8cpp.html#a8a0e95aed39e1d8bc8955090eec4604e", null ],
     [ "SweepLineEdgeIter", "triangle__fill__sweep__line_8cpp.html#a395fd061d1b9b931ed2b7b452abccba9", null ],
     [ "SweepLineEdgeList", "triangle__fill__sweep__line_8cpp.html#a20cba55ea7ffe811839328ce7d012420", null ],
@@ -21,7 +21,7 @@ var triangle__fill__sweep__line_8cpp =
     [ "cmp_slv", "triangle__fill__sweep__line_8cpp.html#a5b119e217b25e7f0cfe7ec369f5092f4", null ],
     [ "CreateSweepLineStructs", "triangle__fill__sweep__line_8cpp.html#af4fb57fde4b3d6a3118c05b6321a8a57", null ],
     [ "EdgeExists", "triangle__fill__sweep__line_8cpp.html#a9ec90f862e1734448c453f25cd3bbc95", null ],
-    [ "GetEdgeOnTheLeft", "triangle__fill__sweep__line_8cpp.html#a5b25cf6e350c61fb0afcfcb005dca0d0", null ],
+    [ "GetEdgeOnTheLeft", "triangle__fill__sweep__line_8cpp.html#a14e6736791cc4c1af593a81f14e1c0ea", null ],
     [ "PrintDebugInfos", "triangle__fill__sweep__line_8cpp.html#a4c76f06a67c56f7ca609732c587bd862", null ],
     [ "SweepLine_CreateMonotones", "triangle__fill__sweep__line_8cpp.html#a8c4fb5af2a07e39e6ce90d4db0b0a211", null ],
     [ "SweepLineEdgeIntersectsSweepLine", "triangle__fill__sweep__line_8cpp.html#addacf99037760a66d26a261a8c85280b", null ],

@@ -1,6 +1,6 @@
 var selector__interface_8h =
 [
-    [ "ISelector", "classug_1_1_i_selector.html", "classug_1_1_i_selector" ],
+    [ "ug::ISelector", "classug_1_1_i_selector.html", "classug_1_1_i_selector" ],
     [ "SelectorElements", "selector__interface_8h.html#ga0532dd6cb7a3062be04f96262a998b94", [
       [ "SE_NONE", "selector__interface_8h.html#gga0532dd6cb7a3062be04f96262a998b94a1e32571648d9a87639e8fdcb5db0c344", null ],
       [ "SE_VERTEX", "selector__interface_8h.html#gga0532dd6cb7a3062be04f96262a998b94a1a4ed2c55105f5be18fe3a3577fb08db", null ],

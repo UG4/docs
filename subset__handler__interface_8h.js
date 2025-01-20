@@ -1,8 +1,8 @@
 var subset__handler__interface_8h =
 [
-    [ "ISubsetHandler", "classug_1_1_i_subset_handler.html", "classug_1_1_i_subset_handler" ],
-    [ "SubsetInfo", "structug_1_1_subset_info.html", "structug_1_1_subset_info" ],
-    [ "traits", "structug_1_1_i_subset_handler_1_1traits.html", "structug_1_1_i_subset_handler_1_1traits" ],
+    [ "ug::ISubsetHandler", "classug_1_1_i_subset_handler.html", "classug_1_1_i_subset_handler" ],
+    [ "ug::SubsetInfo", "structug_1_1_subset_info.html", "structug_1_1_subset_info" ],
+    [ "ug::ISubsetHandler::traits< TElem >", "structug_1_1_i_subset_handler_1_1traits.html", "structug_1_1_i_subset_handler_1_1traits" ],
     [ "SubsetHandlerElements", "subset__handler__interface_8h.html#ga14ada64191067f5b189b5e291b06892f", [
       [ "SHE_NONE", "subset__handler__interface_8h.html#gga14ada64191067f5b189b5e291b06892fa264c579b61beb735311dce6a8ac2556e", null ],
       [ "SHE_VERTEX", "subset__handler__interface_8h.html#gga14ada64191067f5b189b5e291b06892faa121f94be8b867f809d7526df88af36f", null ],

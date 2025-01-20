@@ -1,9 +1,9 @@
 var grid__function__util_8h =
 [
-    [ "GridFunctionDebugWriter", "classug_1_1_grid_function_debug_writer.html", "classug_1_1_grid_function_debug_writer" ],
-    [ "GridFunctionPositionProvider", "classug_1_1_grid_function_position_provider.html", "classug_1_1_grid_function_position_provider" ],
-    [ "GridFunctionVectorWriter", "classug_1_1_grid_function_vector_writer.html", "classug_1_1_grid_function_vector_writer" ],
-    [ "GridFunctionVectorWriterDirichlet0", "classug_1_1_grid_function_vector_writer_dirichlet0.html", "classug_1_1_grid_function_vector_writer_dirichlet0" ],
+    [ "ug::GridFunctionDebugWriter< TDomain, TAlgebra >", "classug_1_1_grid_function_debug_writer.html", "classug_1_1_grid_function_debug_writer" ],
+    [ "ug::GridFunctionPositionProvider< TGridFunction >", "classug_1_1_grid_function_position_provider.html", "classug_1_1_grid_function_position_provider" ],
+    [ "ug::GridFunctionVectorWriter< TGridFunction, TVector >", "classug_1_1_grid_function_vector_writer.html", "classug_1_1_grid_function_vector_writer" ],
+    [ "ug::GridFunctionVectorWriterDirichlet0< TGridFunction >", "classug_1_1_grid_function_vector_writer_dirichlet0.html", "classug_1_1_grid_function_vector_writer_dirichlet0" ],
     [ "AdjustMeanValue", "grid__function__util_8h.html#ab21b61e186d65a67fcf95ce8320337c2", null ],
     [ "AdjustMeanValue", "grid__function__util_8h.html#a29aeedb6af29e25a04f683c5795dec0e", null ],
     [ "AdjustMeanValue", "grid__function__util_8h.html#aa351eaac294a80d17f03ead2a1216826", null ],

@@ -4,7 +4,7 @@ var classug_1_1_piecewise_constant_l_s_f_s =
     [ "continuous", "classug_1_1_piecewise_constant_l_s_f_s.html#a737b9ff7717d090a1bc81a09e08b1a57", null ],
     [ "exact_position_available", "classug_1_1_piecewise_constant_l_s_f_s.html#ad9ae4a14a7462c96014b4f5ec1bd4a9b", null ],
     [ "grad", "classug_1_1_piecewise_constant_l_s_f_s.html#adf84a54f7763be291b7adc58065f078a", null ],
-    [ "local_dof", "classug_1_1_piecewise_constant_l_s_f_s.html#a0138f245f5b0324c8076d260aebaed16", null ],
+    [ "local_dof", "classug_1_1_piecewise_constant_l_s_f_s.html#ae28ab254bc3efd024bad825f2d340cbb", null ],
     [ "num_dof", "classug_1_1_piecewise_constant_l_s_f_s.html#ad3c1051e4471a8a722c07f5bfb7fb848", null ],
     [ "num_dof", "classug_1_1_piecewise_constant_l_s_f_s.html#a6feb66fe67e7d86819543d3f635d3cc1", null ],
     [ "num_sh", "classug_1_1_piecewise_constant_l_s_f_s.html#adc1019f9c892a1d5f0f7e67d47e857cb", null ],

@@ -4,7 +4,7 @@ var classug_1_1_multiple_err_est_data =
     [ "~MultipleErrEstData", "classug_1_1_multiple_err_est_data.html#a9630a95c2d397153fcae54ae846b13ee", null ],
     [ "add", "classug_1_1_multiple_err_est_data.html#ac0f9dfe044a9efe00afc5174b9d508b2", null ],
     [ "alloc_err_est_data", "classug_1_1_multiple_err_est_data.html#a06eaedc786aef50a7a9b51785ed2c68e", null ],
-    [ "get", "classug_1_1_multiple_err_est_data.html#a896fbfb40efbbf17e8ad25debc2999cf", null ],
+    [ "get", "classug_1_1_multiple_err_est_data.html#a18a2365c887c6e3ada501c9c58c3af3d", null ],
     [ "get_elem_error_indicator", "classug_1_1_multiple_err_est_data.html#a0475ece5f00a2d0db32a7590be3aebb0", null ],
     [ "num", "classug_1_1_multiple_err_est_data.html#ab6866c2bfe85c3e4e0494893c479be50", null ],
     [ "release_err_est_data", "classug_1_1_multiple_err_est_data.html#a49c3f63dd18ff79a6c6c83b7c8c1dbbd", null ],

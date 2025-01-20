@@ -7,9 +7,9 @@ var classug_1_1_g_p_u_sparse_matrix_1_1row__iterator =
     [ "operator!=", "classug_1_1_g_p_u_sparse_matrix_1_1row__iterator.html#afb226f4e24626dfa51b61d0c7e0894fc", null ],
     [ "operator++", "classug_1_1_g_p_u_sparse_matrix_1_1row__iterator.html#a6b099ac412a2a4dbd087477f04f808fa", null ],
     [ "operator+=", "classug_1_1_g_p_u_sparse_matrix_1_1row__iterator.html#a184b218c795e1d049c6fd98566520409", null ],
-    [ "operator->", "classug_1_1_g_p_u_sparse_matrix_1_1row__iterator.html#ab77d1ffa11e974368cd0e9db35c60ecc", null ],
+    [ "operator->", "classug_1_1_g_p_u_sparse_matrix_1_1row__iterator.html#a89f196ab08b6494bcfe2c779bdff3ab3", null ],
     [ "operator==", "classug_1_1_g_p_u_sparse_matrix_1_1row__iterator.html#a9145ad24c70e616784879fbda74bc428", null ],
-    [ "value", "classug_1_1_g_p_u_sparse_matrix_1_1row__iterator.html#af314cb548ce6337384f9f0f039b2cc40", null ],
+    [ "value", "classug_1_1_g_p_u_sparse_matrix_1_1row__iterator.html#aec88b6a6fdf80d409ba360b89bd50f71", null ],
     [ "A", "classug_1_1_g_p_u_sparse_matrix_1_1row__iterator.html#a24e86434d8114bc0c114e2c62f0eb63d", null ],
     [ "i", "classug_1_1_g_p_u_sparse_matrix_1_1row__iterator.html#a1e7081887f4fbfada9c0526685475f50", null ],
     [ "row", "classug_1_1_g_p_u_sparse_matrix_1_1row__iterator.html#a8351d5a0621009fc45c96b9e235ee0dc", null ]

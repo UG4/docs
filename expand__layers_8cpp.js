@@ -1,6 +1,6 @@
 var expand__layers_8cpp =
 [
-    [ "AttachmentUnequal", "classug_1_1_attachment_unequal.html", "classug_1_1_attachment_unequal" ],
+    [ "ug::AttachmentUnequal< TElem, TAttachmentAccessor >", "classug_1_1_attachment_unequal.html", "classug_1_1_attachment_unequal" ],
     [ "CalculateCreaseNormal", "expand__layers_8cpp.html#ad732eae1983c8c3187337d1fb690d429", null ],
     [ "CalculateCreaseNormal", "expand__layers_8cpp.html#ad4308003b1bcbd1af40626d00447bb88", null ],
     [ "DistributeExpansionMarks3D", "expand__layers_8cpp.html#a57abf95963a57af5e27eccb2dcec0ec6", null ],

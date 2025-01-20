@@ -11,7 +11,7 @@ var classug_1_1_gauss_seidel_base =
     [ "GaussSeidelBase", "classug_1_1_gauss_seidel_base.html#a13e94dbeade95a9687784952aa710ff5", null ],
     [ "enable_consistent_interfaces", "classug_1_1_gauss_seidel_base.html#a10a891434aad1b9da61b1591eead5a50", null ],
     [ "enable_overlap", "classug_1_1_gauss_seidel_base.html#a0eb70a7431dd88b727e5597e394a5982", null ],
-    [ "name", "classug_1_1_gauss_seidel_base.html#a8b376a3d456e23afb54db1ad4bdd2885", null ],
+    [ "name", "classug_1_1_gauss_seidel_base.html#a0dfbb505a4b15be16067f45ea2c2b85b", null ],
     [ "postprocess", "classug_1_1_gauss_seidel_base.html#aaff493fe89a94373fd456608ce485ff9", null ],
     [ "preprocess", "classug_1_1_gauss_seidel_base.html#ab9f60018ba3d3c2b0d8744e1f9cdb013", null ],
     [ "set_ordering_algorithm", "classug_1_1_gauss_seidel_base.html#a3e62c884af283dba8bd2ab31602defb2", null ],

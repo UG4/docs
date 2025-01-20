@@ -7,10 +7,10 @@ var classug_1_1_geom_provider =
     [ "~GeomProvider", "classug_1_1_geom_provider.html#a974e3f10e1bb615c76601d329b19db7c", null ],
     [ "clear", "classug_1_1_geom_provider.html#ae78158c6cf5d9694fd8ba61e6d383e1f", null ],
     [ "clear_geoms", "classug_1_1_geom_provider.html#a815cf7893ee14d6de713b7f01ad11d32", null ],
-    [ "get", "classug_1_1_geom_provider.html#aac4c8498fd84252443e54b129d9a1578", null ],
-    [ "get", "classug_1_1_geom_provider.html#a6053c958f19b0c55fb59d99d771d124f", null ],
-    [ "get_class", "classug_1_1_geom_provider.html#a490098b9598cc16228e44a9cbf236441", null ],
-    [ "inst", "classug_1_1_geom_provider.html#aa9759bba4186c7b27b97cecfe910400d", null ],
+    [ "get", "classug_1_1_geom_provider.html#a939d141bbaee7dbec87bad97ad224567", null ],
+    [ "get", "classug_1_1_geom_provider.html#a17d2c4f0ab4e686e489ea13df4e76006", null ],
+    [ "get_class", "classug_1_1_geom_provider.html#a53d07c60d4671cf1ffa2b3548f846e35", null ],
+    [ "inst", "classug_1_1_geom_provider.html#a3c0b8f9f747f5e5d4cdbfae1dc9106b7", null ],
     [ "m_mLFEIDandOrder", "classug_1_1_geom_provider.html#af39528216fb909ff32847f3e0b44a3c4", null ],
     [ "staticLocalData", "classug_1_1_geom_provider.html#a942648536b324e0119f436041639527c", null ]
 ];

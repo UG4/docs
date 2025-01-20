@@ -1,6 +1,6 @@
 var simple__grid_8h =
 [
-    [ "SimpleGrid", "classug_1_1_simple_grid.html", "classug_1_1_simple_grid" ],
+    [ "ug::SimpleGrid", "classug_1_1_simple_grid.html", "classug_1_1_simple_grid" ],
     [ "CalculateTriangleNormal", "simple__grid_8h.html#a13246041639f023594d8252be109e7b3", null ],
     [ "CalculateTriangleNormals", "simple__grid_8h.html#a3434fb321ab0acb210381e81118ba4df", null ],
     [ "CollapseEdge", "simple__grid_8h.html#a4d67947109517ac4b9bfea7d561b026e", null ],

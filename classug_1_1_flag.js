@@ -3,7 +3,7 @@ var classug_1_1_flag =
     [ "Flag", "classug_1_1_flag.html#a129958d5c9811422e61a8c307fffbf2e", null ],
     [ "Flag", "classug_1_1_flag.html#a5fb6022ed3d55cf027900f29a41aa723", null ],
     [ "Flag", "classug_1_1_flag.html#afd74e25c66160c7c230be0405ee95e95", null ],
-    [ "add", "classug_1_1_flag.html#acfd86bdc88b6f9eaaf5513f381f892dc", null ],
+    [ "add", "classug_1_1_flag.html#a3590ba07525b486250827dfa26393ef0", null ],
     [ "contains", "classug_1_1_flag.html#ae7beeff1f8ee38c766a309b109429a94", null ],
     [ "contains", "classug_1_1_flag.html#adee2e0016136155a203d7da6551b89b2", null ],
     [ "get", "classug_1_1_flag.html#ad3e010ecb13d5f31edfcde166a933c2d", null ],
@@ -20,7 +20,7 @@ var classug_1_1_flag =
     [ "operator|=", "classug_1_1_flag.html#a4ba92076ab8fc467f9b173dab8b8cf6d", null ],
     [ "partially_contains", "classug_1_1_flag.html#a836bdb7bc37211acc1677ca067ae2740", null ],
     [ "partially_contains", "classug_1_1_flag.html#afa07425be884eaf32ba814f0de518dbb", null ],
-    [ "remove", "classug_1_1_flag.html#ad80548fa3a158b44fd1d345743d921ef", null ],
-    [ "set", "classug_1_1_flag.html#a5cacf1d92d1cb9c2f46099b4abda752b", null ],
+    [ "remove", "classug_1_1_flag.html#a28017b9c4d9bf447767d1d330e626ce6", null ],
+    [ "set", "classug_1_1_flag.html#ac8e44677aaa33cc8fbd5717804aecf17", null ],
     [ "m_value", "classug_1_1_flag.html#a64f7143b1bea10e68cd8e7fa3ace554e", null ]
 ];

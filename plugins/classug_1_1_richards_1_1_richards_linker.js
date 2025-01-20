@@ -13,8 +13,8 @@ var classug_1_1_richards_1_1_richards_linker =
     [ "eval_and_deriv", "classug_1_1_richards_1_1_richards_linker.html#acd157f92ef8284579b883f69788f4302", null ],
     [ "evaluate", "classug_1_1_richards_1_1_richards_linker.html#a2dd12a23bf0ffd6b3263e84460fe4bcd", null ],
     [ "evaluate", "classug_1_1_richards_1_1_richards_linker.html#aace5eaad71aeb03aaaef0f3a1da5a23e", null ],
-    [ "model", "classug_1_1_richards_1_1_richards_linker.html#a98d6b77e4b19ff5e107622c72ee7fc10", null ],
-    [ "model", "classug_1_1_richards_1_1_richards_linker.html#ab60bd656c95a5676a04732194452c849", null ],
+    [ "model", "classug_1_1_richards_1_1_richards_linker.html#a60b00dc585025f9ee9aec23116318b48", null ],
+    [ "model", "classug_1_1_richards_1_1_richards_linker.html#ad649e6f8a9659663b6dbf49341908416", null ],
     [ "set_capillary", "classug_1_1_richards_1_1_richards_linker.html#a710a008c4df1538526be462f0ecb2caf", null ],
     [ "m_model", "classug_1_1_richards_1_1_richards_linker.html#ac52d8d42e7ebcf3fd3ce5144271fbd5c", null ]
 ];

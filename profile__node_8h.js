@@ -1,7 +1,7 @@
 var profile__node_8h =
 [
-    [ "UGProfileNode", "classug_1_1_u_g_profile_node.html", "classug_1_1_u_g_profile_node" ],
-    [ "UGProfileNodeNull", "classug_1_1_u_g_profile_node_null.html", "classug_1_1_u_g_profile_node_null" ],
+    [ "ug::UGProfileNode", "classug_1_1_u_g_profile_node.html", "classug_1_1_u_g_profile_node" ],
+    [ "ug::UGProfileNodeNull", "classug_1_1_u_g_profile_node_null.html", "classug_1_1_u_g_profile_node_null" ],
     [ "PROFILER_NULL_NODE", "profile__node_8h.html#addbf280a40ba17d40f3f1ea669f966ec", null ],
     [ "GetProfileNode", "profile__node_8h.html#a6beb412116260af4df9f97ca52f2f7aa", null ],
     [ "GetProfileNode", "profile__node_8h.html#af74492c698186cd05268c8e494f74697", null ],

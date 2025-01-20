@@ -6,7 +6,7 @@ var classug_1_1_lua_callback_observer =
     [ "LuaCallbackObserver", "classug_1_1_lua_callback_observer.html#afc1b77daaf33f241a3616bba0c906098", null ],
     [ "LuaCallbackObserver", "classug_1_1_lua_callback_observer.html#af784501d75c2c1f0cd19a684de2fe506", null ],
     [ "~LuaCallbackObserver", "classug_1_1_lua_callback_observer.html#a2167e2aeae55c0fbb606eb59d383dd32", null ],
-    [ "get_current_solution", "classug_1_1_lua_callback_observer.html#a5d9dbf7a2c3641dd1266f0c19392f71f", null ],
+    [ "get_current_solution", "classug_1_1_lua_callback_observer.html#aa15853328eff31298e5b59acdb7c6d37", null ],
     [ "set_callback", "classug_1_1_lua_callback_observer.html#aa1cfe970fdb1a23bac02555d141a716e", null ],
     [ "step_process", "classug_1_1_lua_callback_observer.html#aff397cbf6fc9c7506c971f7b92b1a57c", null ],
     [ "m_lua_callback", "classug_1_1_lua_callback_observer.html#a9cc6ae99b45add28b60f887cd17a25df", null ],

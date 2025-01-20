@@ -42,7 +42,7 @@ var classug_1_1_vector =
     [ "size", "classug_1_1_vector.html#aeca20819c353309f4deb66dfce8b0633", null ],
     [ "virtual_clone", "classug_1_1_vector.html#a8118eced463a0fdd3c55b9f6b533aa17", null ],
     [ "virtual_clone_without_values", "classug_1_1_vector.html#a06cfe18b7eee43befcba9080cc896d97", null ],
-    [ "operator<<", "classug_1_1_vector.html#a3e66f577a64868d887019c6569f83a5f", null ],
+    [ "operator<<", "classug_1_1_vector.html#a2fe63266c1b99a7cab1ffd0c5362b5fb", null ],
     [ "m_capacity", "classug_1_1_vector.html#a62b17429d05759299876e5e04a3429e1", null ],
     [ "m_size", "classug_1_1_vector.html#aed9bf9c442eb740f1fadc19b5184d2cb", null ],
     [ "values", "classug_1_1_vector.html#ad8045b2a91dca6de7af0bbac15fe0e1c", null ]

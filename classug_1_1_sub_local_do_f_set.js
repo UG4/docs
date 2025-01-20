@@ -2,7 +2,7 @@ var classug_1_1_sub_local_do_f_set =
 [
     [ "SubLocalDoFSet", "classug_1_1_sub_local_do_f_set.html#a95a9c4cfe4b7acf27d958f9610064dd4", null ],
     [ "exact_position_available", "classug_1_1_sub_local_do_f_set.html#a69aa416e8f25364d18a70a7d7aa9b456", null ],
-    [ "local_dof", "classug_1_1_sub_local_do_f_set.html#a103cb939d552aba6c3dc2bad66db089a", null ],
+    [ "local_dof", "classug_1_1_sub_local_do_f_set.html#a9ea705828b499b9d34b1d76336acd4bb", null ],
     [ "num_dof", "classug_1_1_sub_local_do_f_set.html#a67b78f65b0e8b52b7685c9ad915be9e2", null ],
     [ "num_sh", "classug_1_1_sub_local_do_f_set.html#a50a926962f0d6edd4e024ce3f98bbaa5", null ],
     [ "position", "classug_1_1_sub_local_do_f_set.html#a876064f07b404187f251c7e76d7c31c3", null ],

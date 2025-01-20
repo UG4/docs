@@ -13,7 +13,7 @@ var edge__length__adjustment_8cpp =
     [ "PerformCollapses", "edge__length__adjustment_8cpp.html#a8143756bcee8a194df52befac38875da", null ],
     [ "PerformSplits", "edge__length__adjustment_8cpp.html#ac2c1713e83977eeb3322c7cd4cb31c92", null ],
     [ "PerformSwaps", "edge__length__adjustment_8cpp.html#a6d6016a593c67ce9962909b0db441202", null ],
-    [ "TryCollapse", "edge__length__adjustment_8cpp.html#a805486111a1d81df475536251c7a6688", null ],
+    [ "TryCollapse", "edge__length__adjustment_8cpp.html#a58e303dfed883e935896cb88a12ddeae", null ],
     [ "TrySplit", "edge__length__adjustment_8cpp.html#a2c1b8ee1c15c3e6f5d83acb1ceaf7d6e", null ],
     [ "TrySwap", "edge__length__adjustment_8cpp.html#a69c278429b11b102a864fff5fe5ef8c6", null ]
 ];

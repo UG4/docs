@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['zeroaverage_20479',['ZeroAverage',['../classug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_zero_average.html',1,'ug::Electromagnetism::NedelecLoopCurrent']]],
-  ['zraytracer_20480',['ZRayTracer',['../../classug_1_1_z_ray_tracer.html',1,'ug']]]
+  ['zeroaverage_0',['ZeroAverage',['../classug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_zero_average.html',1,'ug::Electromagnetism::NedelecLoopCurrent']]],
+  ['zraytracer_1',['ZRayTracer',['../../classug_1_1_z_ray_tracer.html',1,'ug']]]
 ];

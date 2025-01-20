@@ -14,7 +14,7 @@ var classug_1_1_u_g_profile_node =
     [ "get_avg_self_time_ms", "classug_1_1_u_g_profile_node.html#a4166bbc01eb092345e9b2520382b441b", null ],
     [ "get_avg_total_time", "classug_1_1_u_g_profile_node.html#ae1d3af89d42a3f7764c29de84fe1358d", null ],
     [ "get_avg_total_time_ms", "classug_1_1_u_g_profile_node.html#ab0a6ed6b83f39038b31c1e726b34d606", null ],
-    [ "get_root", "classug_1_1_u_g_profile_node.html#aad4ed432565e71b8e9ed374b306be429", null ],
+    [ "get_root", "classug_1_1_u_g_profile_node.html#a9754253653690539768f36cf3e2409e5", null ],
     [ "get_self_mem", "classug_1_1_u_g_profile_node.html#a5eeb621af1acb11c2ef36736be4e7910", null ],
     [ "get_total_mem", "classug_1_1_u_g_profile_node.html#a93dfb1b4f90758e784ab93ff349f717d", null ],
     [ "groups", "classug_1_1_u_g_profile_node.html#a3abc77f9488410b9d4acd687d429c57e", null ],

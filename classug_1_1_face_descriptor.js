@@ -10,7 +10,7 @@ var classug_1_1_face_descriptor =
     [ "operator=", "classug_1_1_face_descriptor.html#ac9bc8d1155194669ffa2c80f6f33e9ba", null ],
     [ "set_num_vertices", "classug_1_1_face_descriptor.html#a5671fc960e79a48bfcb85724e789b498", null ],
     [ "set_vertex", "classug_1_1_face_descriptor.html#adea79f793190321746f6953e994f5a5f", null ],
-    [ "vertex", "classug_1_1_face_descriptor.html#a304e8f1a4b9d18d02440cc48870f30f7", null ],
+    [ "vertex", "classug_1_1_face_descriptor.html#aa25250796200fac2b3e77ba8335b4051", null ],
     [ "vertices", "classug_1_1_face_descriptor.html#adde1ad99a9f1c980890ae27b51bc170e", null ],
     [ "m_numVertices", "classug_1_1_face_descriptor.html#add944809a130dc96511beaa09192555e", null ],
     [ "m_vertices", "classug_1_1_face_descriptor.html#a4df6cc5084b5b5cb023b8bde29ba9707", null ]

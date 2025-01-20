@@ -1,4 +1,4 @@
 var new__tools_8h =
 [
-    [ "GetBoundingBox", "new__tools_8h.html#gae945bef9bc93365bad9e538131d165d8", null ]
+    [ "GetBoundingBox", "new__tools_8h.html#gacc1ab01d3b5b40415d83421c5e247c09", null ]
 ];

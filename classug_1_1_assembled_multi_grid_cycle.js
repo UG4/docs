@@ -48,7 +48,7 @@ var classug_1_1_assembled_multi_grid_cycle =
     [ "lmgc", "classug_1_1_assembled_multi_grid_cycle.html#af128aead45407d55ef1d90f39a891958", null ],
     [ "log_debug_data", "classug_1_1_assembled_multi_grid_cycle.html#a91d1c4bf1684306a155f14223c082ecf", null ],
     [ "mg_stats_defect", "classug_1_1_assembled_multi_grid_cycle.html#a9640c283b88a304ceb7f7afeba584249", null ],
-    [ "name", "classug_1_1_assembled_multi_grid_cycle.html#a67adbaf8969f766679035aca5c2ad230", null ],
+    [ "name", "classug_1_1_assembled_multi_grid_cycle.html#a1be8b88630f861163f3cdfcd79b73e82", null ],
     [ "presmooth_and_restriction", "classug_1_1_assembled_multi_grid_cycle.html#ace6abf97c116ebc1c904c8861c6b4933", null ],
     [ "prolongation_and_postsmooth", "classug_1_1_assembled_multi_grid_cycle.html#aec311035951eee9f282997f979c5ad8a", null ],
     [ "set_approximation_space", "classug_1_1_assembled_multi_grid_cycle.html#a3d05905574838dcab6ce262ffb196bd7", null ],

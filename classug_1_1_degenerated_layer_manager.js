@@ -25,7 +25,7 @@ var classug_1_1_degenerated_layer_manager =
     [ "num_subsets", "classug_1_1_degenerated_layer_manager.html#ab96f668d7bc80140c9391b9b93eed21f", null ],
     [ "remove", "classug_1_1_degenerated_layer_manager.html#a20b24124c6b24dbccf0a4fb057e488d2", null ],
     [ "subset", "classug_1_1_degenerated_layer_manager.html#a59ca33ce9bdfa7450a4bee933e0cef85", null ],
-    [ "subset_grp", "classug_1_1_degenerated_layer_manager.html#a40f36bf0e4fa5f3aefdb1d50e298450e", null ],
+    [ "subset_grp", "classug_1_1_degenerated_layer_manager.html#ad09eb9131f0d397987a72ceb64c6b351", null ],
     [ "vert_mark", "classug_1_1_degenerated_layer_manager.html#afdfbfb33e638b268abac6267a7d50a7e", null ],
     [ "m_aaVertMarks", "classug_1_1_degenerated_layer_manager.html#a0369deec90dfb1f8a81a169c92f305a5", null ],
     [ "m_aVertexMarks", "classug_1_1_degenerated_layer_manager.html#aeac74c86e1874b32cf64f9f48a48f996", null ],

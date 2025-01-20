@@ -83,7 +83,7 @@ var annotated_dup =
       [ "StlMesh", "classstl__reader_1_1_stl_mesh.html", "classstl__reader_1_1_stl_mesh" ]
     ] ],
     [ "ug", "namespaceug.html", [
-      [ "bridge", "namespaceug_1_1bridge.html", [
+      [ "bridge", null, [
         [ "AdaptiveTools", "namespaceug_1_1bridge_1_1_adaptive_tools.html", [
           [ "Functionality", "structug_1_1bridge_1_1_adaptive_tools_1_1_functionality.html", "structug_1_1bridge_1_1_adaptive_tools_1_1_functionality" ]
         ] ],

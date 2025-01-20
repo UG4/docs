@@ -7,7 +7,7 @@ var classug_1_1_pyramid =
     [ "collapse_edge", "classug_1_1_pyramid.html#a6e526887a84e907cc743b26f97091406", null ],
     [ "container_section", "classug_1_1_pyramid.html#ab9a29cfbaf33d11ac8827be9902f02d7", null ],
     [ "create_edge", "classug_1_1_pyramid.html#a3fe98fc0eb61b440d20d31fa6ad4e85f", null ],
-    [ "create_empty_instance", "classug_1_1_pyramid.html#a6c6ff8e3c15cd513e3a16855f4c5e349", null ],
+    [ "create_empty_instance", "classug_1_1_pyramid.html#aa05382a11255f0189796f952a080b69c", null ],
     [ "create_face", "classug_1_1_pyramid.html#ac505b461d282a9a7161f2d7b936fac86", null ],
     [ "edge_desc", "classug_1_1_pyramid.html#a66f2089433f000f3f8ff58264dd1e218", null ],
     [ "edge_desc", "classug_1_1_pyramid.html#ae250be8f97cd6e7ccbe5c2c614b53844", null ],
@@ -27,7 +27,7 @@ var classug_1_1_pyramid =
     [ "refine", "classug_1_1_pyramid.html#a6c6363ba6f0fb26d2bc1a187dd27465d", null ],
     [ "set_vertex", "classug_1_1_pyramid.html#ad4981cdb332bd13eabf8e3f95cf4b1f4", null ],
     [ "type_match", "classug_1_1_pyramid.html#a1d1727032b0113564597b8af09cb1de4", null ],
-    [ "vertex", "classug_1_1_pyramid.html#a0118d0a24d069888d7cdba2a56e4ecf3", null ],
+    [ "vertex", "classug_1_1_pyramid.html#a340ce073a4cc286801b341a80ead3b5b", null ],
     [ "vertices", "classug_1_1_pyramid.html#a10c5ebaf8c6c914295a99e6a091d56d8", null ],
     [ "m_vertices", "classug_1_1_pyramid.html#afd3771b547d67ca4bef3116a39040b96", null ],
     [ "NUM_VERTICES", "classug_1_1_pyramid.html#a8c1711838c6638878f936015d76e6183", null ]

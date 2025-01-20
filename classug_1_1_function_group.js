@@ -17,7 +17,7 @@ var classug_1_1_function_group =
     [ "dim", "classug_1_1_function_group.html#a4334a6509992c2a64f0dae2a80671cd5", null ],
     [ "dim", "classug_1_1_function_group.html#a0d48612d645a0143b2758218b7fc8c05", null ],
     [ "empty", "classug_1_1_function_group.html#a6cfc38abd8fb4899723ef73d7459a11d", null ],
-    [ "function_pattern", "classug_1_1_function_group.html#a3d03f461ba3566f7b41bcf534f5c220e", null ],
+    [ "function_pattern", "classug_1_1_function_group.html#afe03609d1a806d867c13b5e14f646163", null ],
     [ "is_init", "classug_1_1_function_group.html#a1346f8a408180e770e3934a8c8e541fa", null ],
     [ "lfeid", "classug_1_1_function_group.html#a77db3877b5b89d3b1698f6684696990c", null ],
     [ "local_finite_element_id", "classug_1_1_function_group.html#a43e9048bd5775cdfa60625f8913764f2", null ],

@@ -1,6 +1,6 @@
 var pcl__process__communicator_8h =
 [
-    [ "CommWrapper", "structpcl_1_1_process_communicator_1_1_comm_wrapper.html", "structpcl_1_1_process_communicator_1_1_comm_wrapper" ],
+    [ "pcl::ProcessCommunicator::CommWrapper", "structpcl_1_1_process_communicator_1_1_comm_wrapper.html", "structpcl_1_1_process_communicator_1_1_comm_wrapper" ],
     [ "ProcessCommunicatorDefaults", "pcl__process__communicator_8h.html#gaea36d0e20ff31324ba10643d4e939e29", [
       [ "PCD_EMPTY", "pcl__process__communicator_8h.html#ggaea36d0e20ff31324ba10643d4e939e29a34bdbd48527517907a38b13063226c81", null ],
       [ "PCD_WORLD", "pcl__process__communicator_8h.html#ggaea36d0e20ff31324ba10643d4e939e29aa5c08b5ef97c6bd825508c3901b24c9f", null ],

@@ -12,7 +12,7 @@ var classug_1_1_analyzing_solver =
     [ "config_string", "classug_1_1_analyzing_solver.html#a23185d5b7f3b5359a9dd86fa35c4fe3d", null ],
     [ "init", "classug_1_1_analyzing_solver.html#a3816ad7c5f05d7d0e36058804ac84fe0", null ],
     [ "init", "classug_1_1_analyzing_solver.html#a4c9cb4c32ebee7de077bb3674464b3b0", null ],
-    [ "name", "classug_1_1_analyzing_solver.html#a6ff500dac45a6ff1d34f8699a3725951", null ],
+    [ "name", "classug_1_1_analyzing_solver.html#acf50b65011a5bb57b439e59dcfabce4a", null ],
     [ "supports_parallel", "classug_1_1_analyzing_solver.html#a49858832bd261bdf6809e846fc354919", null ],
     [ "m_pLinearOperatorInverse", "classug_1_1_analyzing_solver.html#aaea5a3e00537c28ea9c79b191b300c3f", null ]
 ];

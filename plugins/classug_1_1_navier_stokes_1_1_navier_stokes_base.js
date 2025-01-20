@@ -5,7 +5,7 @@ var classug_1_1_navier_stokes_1_1_navier_stokes_base =
     [ "NavierStokesBase", "classug_1_1_navier_stokes_1_1_navier_stokes_base.html#af1379e4d248b204a6ece2362e14d3bcc", null ],
     [ "NavierStokesBase", "classug_1_1_navier_stokes_1_1_navier_stokes_base.html#af6898cfdf32bab0d3428d4b70c87272e", null ],
     [ "disc_type", "classug_1_1_navier_stokes_1_1_navier_stokes_base.html#add7b0097b003b3942364d5db75de9ac3", null ],
-    [ "kinematic_viscosity", "classug_1_1_navier_stokes_1_1_navier_stokes_base.html#a1f10592e7043febcd7f983aa1571fe82", null ],
+    [ "kinematic_viscosity", "classug_1_1_navier_stokes_1_1_navier_stokes_base.html#a8ae14e21fcbae3f9e0c456ae11a84bd3", null ],
     [ "requests_local_time_series", "classug_1_1_navier_stokes_1_1_navier_stokes_base.html#a820ac51e5ec9514cf0262b3c0ffc83ff", null ],
     [ "set_exact_jacobian", "classug_1_1_navier_stokes_1_1_navier_stokes_base.html#a98fee98cbc9c333f0976820e0587899e", null ],
     [ "set_exact_jacobian", "classug_1_1_navier_stokes_1_1_navier_stokes_base.html#aed4f43bbb9489341a59f657b60e10d16", null ],

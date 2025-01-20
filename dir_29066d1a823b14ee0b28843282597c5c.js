@@ -7,26 +7,12 @@ var dir_29066d1a823b14ee0b28843282597c5c =
     [ "user_data", "dir_d86f4a34bdaa751616bc5c1cc6b129e5.html", "dir_d86f4a34bdaa751616bc5c1cc6b129e5" ],
     [ "ass_tuner.h", "ass__tuner_8h.html", "ass__tuner_8h" ],
     [ "ass_tuner_impl.h", "ass__tuner__impl_8h.html", null ],
-    [ "disc_item.h", "disc__item_8h.html", [
-      [ "IDiscretizationItem", "classug_1_1_i_discretization_item.html", "classug_1_1_i_discretization_item" ]
-    ] ],
-    [ "dom_disc_embb.h", "dom__disc__embb_8h.html", [
-      [ "IInterfaceExtrapolation", "classug_1_1_i_interface_extrapolation.html", "classug_1_1_i_interface_extrapolation" ],
-      [ "LSGFConstraint", "classug_1_1_l_s_g_f_constraint.html", "classug_1_1_l_s_g_f_constraint" ],
-      [ "LSGFDomainDiscretization", "classug_1_1_l_s_g_f_domain_discretization.html", "classug_1_1_l_s_g_f_domain_discretization" ],
-      [ "LSGFGlobAssembler", "classug_1_1_l_s_g_f_glob_assembler.html", "classug_1_1_l_s_g_f_glob_assembler" ]
-    ] ],
+    [ "disc_item.h", "disc__item_8h.html", "disc__item_8h" ],
+    [ "dom_disc_embb.h", "dom__disc__embb_8h.html", "dom__disc__embb_8h" ],
     [ "dom_disc_embb_impl.h", "dom__disc__embb__impl_8h.html", null ],
-    [ "domain_disc.h", "domain__disc_8h.html", [
-      [ "DomainDiscretization", "classug_1_1_domain_discretization.html", "classug_1_1_domain_discretization" ],
-      [ "DomainDiscretizationBase", "classug_1_1_domain_discretization_base.html", "classug_1_1_domain_discretization_base" ]
-    ] ],
+    [ "domain_disc.h", "domain__disc_8h.html", "domain__disc_8h" ],
     [ "domain_disc_impl.h", "domain__disc__impl_8h.html", "domain__disc__impl_8h" ],
-    [ "domain_disc_interface.h", "domain__disc__interface_8h.html", [
-      [ "IDomainDiscretization", "classug_1_1_i_domain_discretization.html", "classug_1_1_i_domain_discretization" ],
-      [ "IDomainErrorIndicator", "classug_1_1_i_domain_error_indicator.html", "classug_1_1_i_domain_error_indicator" ],
-      [ "IDomainMarker", "classug_1_1_i_domain_marker.html", "classug_1_1_i_domain_marker" ]
-    ] ],
+    [ "domain_disc_interface.h", "domain__disc__interface_8h.html", "domain__disc__interface_8h" ],
     [ "manifold_assemble_util.h", "manifold__assemble__util_8h.html", "manifold__assemble__util_8h" ],
     [ "subset_assemble_util.cpp", "subset__assemble__util_8cpp.html", "subset__assemble__util_8cpp" ],
     [ "subset_assemble_util.h", "subset__assemble__util_8h.html", "subset__assemble__util_8h" ]

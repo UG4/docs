@@ -1,6 +1,6 @@
 var delaunay__triangulation_8cpp =
 [
-    [ "DelaunayDebugSaver", "classug_1_1_delaunay_debug_saver.html", "classug_1_1_delaunay_debug_saver" ],
+    [ "ug::DelaunayDebugSaver", "classug_1_1_delaunay_debug_saver.html", "classug_1_1_delaunay_debug_saver" ],
     [ "DelaunayDebugSave", "delaunay__triangulation_8cpp.html#aa533cc8a254d3ee570bc982559eaa28f", null ],
     [ "DelaunayLineLineIntersection", "delaunay__triangulation_8cpp.html#a799ff0896d0a6d9f2f1f4c4f9e6f0941", null ],
     [ "EnableDelaunayDebugSave", "delaunay__triangulation_8cpp.html#a952a1e2b3b9f75756447ac81af3c221c", null ],

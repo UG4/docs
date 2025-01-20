@@ -26,7 +26,7 @@ var classug_1_1_b_g_l_parallel_matrix =
     [ "num_cols", "classug_1_1_b_g_l_parallel_matrix.html#a98ac6ab7df1457a6544781b7416b5587", null ],
     [ "num_connections", "classug_1_1_b_g_l_parallel_matrix.html#aa22fe540bd39299c04228d7f683ee19f", null ],
     [ "num_rows", "classug_1_1_b_g_l_parallel_matrix.html#a4673522c6b7e2ff5549442a69480dac2", null ],
-    [ "operator=", "classug_1_1_b_g_l_parallel_matrix.html#a1a95e2d76f8df808a07a7d4f6130b1d1", null ],
+    [ "operator=", "classug_1_1_b_g_l_parallel_matrix.html#a342f366631a1ce6c39d44b80fd0c67cb", null ],
     [ "out_degree", "classug_1_1_b_g_l_parallel_matrix.html#ad75436da6804d2b79749d892baac6266", null ],
     [ "refresh", "classug_1_1_b_g_l_parallel_matrix.html#abc13d0bddab7193fceb897cb085eec51", null ],
     [ "_ghosts", "classug_1_1_b_g_l_parallel_matrix.html#a4eac87b6440c6a67a724e0040f5a6f64", null ],

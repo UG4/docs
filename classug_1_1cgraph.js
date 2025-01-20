@@ -44,7 +44,7 @@ var classug_1_1cgraph =
     [ "symmetricize", "classug_1_1cgraph.html#aae0e7ca5e466a9166ce9c9487f1d8a91", null ],
     [ "transpose", "classug_1_1cgraph.html#aabab6ddbc1e3a177e05e7d2f5a440d20", null ],
     [ "transpose", "classug_1_1cgraph.html#aabab6ddbc1e3a177e05e7d2f5a440d20", null ],
-    [ "operator<<", "classug_1_1cgraph.html#ac404267357f03200f4d436164c8f425e", null ],
+    [ "operator<<", "classug_1_1cgraph.html#ade24418de5b8c81e01beb7c72fe393dc", null ],
     [ "cons", "classug_1_1cgraph.html#a0d2806c22e94b9144c8bc7c523dc8ed2", null ],
     [ "consmem", "classug_1_1cgraph.html#a7c4519295f58d70d954111f18dcb7499", null ],
     [ "iMaxTotalNrOfConnections", "classug_1_1cgraph.html#a41699930a66c6287985fc2922d8c26ae", null ],

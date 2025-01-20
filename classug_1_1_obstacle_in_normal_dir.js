@@ -19,6 +19,9 @@ var classug_1_1_obstacle_in_normal_dir =
     [ "restrict_obs_values", "classug_1_1_obstacle_in_normal_dir.html#ad6dd3adb6174cfb4bdd19748d3564787", null ],
     [ "transform_eulerian_coord_sys", "classug_1_1_obstacle_in_normal_dir.html#a33482446af27c892769cb93eb234a273", null ],
     [ "dim", "classug_1_1_obstacle_in_normal_dir.html#a8456c28446119bbe915d43cb738d35cf", null ],
+    [ "m_mObstacleValues", "classug_1_1_obstacle_in_normal_dir.html#a45ce8cc366d20e998c200c7831330837", null ],
     [ "m_spDD", "classug_1_1_obstacle_in_normal_dir.html#aad8f28cbe9fb17b558ccd887417b2345", null ],
-    [ "m_spDomain", "classug_1_1_obstacle_in_normal_dir.html#a1b35502f82706c0ad883cb62dc311e0e", null ]
+    [ "m_spDomain", "classug_1_1_obstacle_in_normal_dir.html#a1b35502f82706c0ad883cb62dc311e0e", null ],
+    [ "m_vActiveDofs", "classug_1_1_obstacle_in_normal_dir.html#aa18e0afd5912ecea0bfceed66a379bdc", null ],
+    [ "m_vObsSubsets", "classug_1_1_obstacle_in_normal_dir.html#a4caf54969cef1ae9ee22b112af92f5d8", null ]
 ];

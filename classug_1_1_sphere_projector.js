@@ -8,7 +8,7 @@ var classug_1_1_sphere_projector =
     [ "SphereProjector", "classug_1_1_sphere_projector.html#a5cbafd518d5d251c2d6050f312202719", null ],
     [ "SphereProjector", "classug_1_1_sphere_projector.html#a49c33eaeb88c36107dc4a517ab388085", null ],
     [ "~SphereProjector", "classug_1_1_sphere_projector.html#a9fbc1cf9c3605bd821c7d53f864953f9", null ],
-    [ "center", "classug_1_1_sphere_projector.html#a4c9e991816c07403e327e11915ff2e22", null ],
+    [ "center", "classug_1_1_sphere_projector.html#aab72f79d41e4493945dd89e7d59eed3e", null ],
     [ "influence_radius", "classug_1_1_sphere_projector.html#aeb95ff9032bab3307335455597c0cb89", null ],
     [ "new_vertex", "classug_1_1_sphere_projector.html#a3de1d62a4597d9ec0a5783a4079e6b22", null ],
     [ "new_vertex", "classug_1_1_sphere_projector.html#a21ff46e8b48c6a1b29223fc24e82788b", null ],

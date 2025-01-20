@@ -1,11 +1,7 @@
 var dir_1ecd9c8a6ac850637239ff23751379c0 =
 [
     [ "delaunay_info.cpp", "delaunay__info_8cpp.html", null ],
-    [ "delaunay_info.h", "delaunay__info_8h.html", [
-      [ "CompareFaceInfo", "structug_1_1_delaunay_info_1_1_compare_face_info.html", "structug_1_1_delaunay_info_1_1_compare_face_info" ],
-      [ "DelaunayInfo", "classug_1_1_delaunay_info.html", "classug_1_1_delaunay_info" ],
-      [ "FaceInfo", "structug_1_1_delaunay_info_1_1_face_info.html", "structug_1_1_delaunay_info_1_1_face_info" ]
-    ] ],
+    [ "delaunay_info.h", "delaunay__info_8h.html", "delaunay__info_8h" ],
     [ "delaunay_info_impl.h", "delaunay__info__impl_8h.html", null ],
     [ "delaunay_triangulation.cpp", "delaunay__triangulation_8cpp.html", "delaunay__triangulation_8cpp" ],
     [ "delaunay_triangulation.h", "delaunay__triangulation_8h.html", "delaunay__triangulation_8h" ],

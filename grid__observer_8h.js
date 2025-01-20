@@ -1,6 +1,6 @@
 var grid__observer_8h =
 [
-    [ "GridObserver", "classug_1_1_grid_observer.html", "classug_1_1_grid_observer" ],
+    [ "ug::GridObserver", "classug_1_1_grid_observer.html", "classug_1_1_grid_observer" ],
     [ "ObserverType", "grid__observer_8h.html#a9d7b99b0cc15035a08e252d50558dd23", [
       [ "OT_NONE", "grid__observer_8h.html#a9d7b99b0cc15035a08e252d50558dd23a9c8963a42a5a4c3e5e7b0822a0b555cd", null ],
       [ "OT_GRID_OBSERVER", "grid__observer_8h.html#a9d7b99b0cc15035a08e252d50558dd23a776db782be05831d10f34611c8342466", null ],

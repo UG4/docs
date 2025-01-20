@@ -14,7 +14,7 @@ var classug_1_1_k_d_tree_static =
     [ "get_next_split_dimension", "classug_1_1_k_d_tree_static.html#acdd89db846498731b22770e7a59bf4fc", null ],
     [ "get_points_in_box", "classug_1_1_k_d_tree_static.html#ab559bcbcb7379af83f53924c2da8b5af", null ],
     [ "get_points_in_box", "classug_1_1_k_d_tree_static.html#abb1af080054a86ba664b60b91c702b32", null ],
-    [ "get_root", "classug_1_1_k_d_tree_static.html#a0c46bfb564ced6fca41662c2e18ec894", null ],
+    [ "get_root", "classug_1_1_k_d_tree_static.html#afd7cb0b0cc054a5b75e2ee303106c3f9", null ],
     [ "neighbourhood", "classug_1_1_k_d_tree_static.html#ab577710843787be4641977b472547058", null ],
     [ "m_aaPos", "classug_1_1_k_d_tree_static.html#aafa6dea03aa87c7e0be35c87f73140ec", null ],
     [ "m_iSplitThreshold", "classug_1_1_k_d_tree_static.html#a37f3b209895e9634eae9a8b654b940df", null ],

@@ -1,6 +1,6 @@
 var attachment__info__traits_8h =
 [
-    [ "attachment_info_traits", "structug_1_1attachment__info__traits.html", "structug_1_1attachment__info__traits" ],
+    [ "ug::attachment_info_traits< TAttachment >", "structug_1_1attachment__info__traits.html", "structug_1_1attachment__info__traits" ],
     [ "DECLARE_ATTACHMENT_INFO_TRAITS", "attachment__info__traits_8h.html#a938fedaa412e2ee70507dbda9d876941", null ],
     [ "DECLARE_ATTACHMENT_INFO_TRAITS", "attachment__info__traits_8h.html#a32dc791233b4102b58dfdc4c11f2a385", null ],
     [ "DECLARE_ATTACHMENT_INFO_TRAITS", "attachment__info__traits_8h.html#a9b3fafd9cfc2c9c924acce829cf2bfb0", null ],

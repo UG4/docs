@@ -1,0 +1,13 @@
+var nedelec__source_8h =
+[
+    [ "ug::Electromagnetism::NedelecLoopCurrent< TDomain, TAlgebra >::AuxLaplaceLocAss", "classug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_aux_laplace_loc_ass.html", "classug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_aux_laplace_loc_ass" ],
+    [ "ug::Electromagnetism::NedelecLoopCurrent< TDomain, TAlgebra >::GetFluxOfPotential", "structug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_get_flux_of_potential.html", "structug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_get_flux_of_potential" ],
+    [ "ug::Electromagnetism::NedelecLoopCurrent< TDomain, TAlgebra >::LocLaplaceA< TElem >", "classug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_loc_laplace_a.html", "classug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_loc_laplace_a" ],
+    [ "ug::Electromagnetism::NedelecLoopCurrent< TDomain, TAlgebra >::MarkSourceEdges", "structug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_mark_source_edges.html", "structug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_mark_source_edges" ],
+    [ "ug::Electromagnetism::NedelecLoopCurrent< TDomain, TAlgebra >::OutOfSource::MarkSourceVertices", "structug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_out_of_source_1_1_mark_source_vertices.html", "structug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_out_of_source_1_1_mark_source_vertices" ],
+    [ "ug::Electromagnetism::NedelecLoopCurrent< TDomain, TAlgebra >", "classug_1_1_electromagnetism_1_1_nedelec_loop_current.html", "classug_1_1_electromagnetism_1_1_nedelec_loop_current" ],
+    [ "ug::Electromagnetism::NedelecLoopCurrent< TDomain, TAlgebra >::OutOfSource", "classug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_out_of_source.html", "classug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_out_of_source" ],
+    [ "ug::Electromagnetism::NedelecLoopCurrent< TDomain, TAlgebra >::AuxLaplaceLocAss::RegisterLocalDiscr", "structug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_aux_laplace_loc_ass_1_1_register_local_discr.html", "structug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_aux_laplace_loc_ass_1_1_register_local_discr" ],
+    [ "ug::Electromagnetism::NedelecLoopCurrent< TDomain, TAlgebra >::TSrcData", "structug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_t_src_data.html", "structug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_t_src_data" ],
+    [ "ug::Electromagnetism::NedelecLoopCurrent< TDomain, TAlgebra >::ZeroAverage", "classug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_zero_average.html", "classug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_zero_average" ]
+];

@@ -1,6 +1,6 @@
 var permutation__util_8h =
 [
-    [ "BOOL", "classug_1_1_b_o_o_l.html", "classug_1_1_b_o_o_l" ],
+    [ "ug::BOOL", "classug_1_1_b_o_o_l.html", "classug_1_1_b_o_o_l" ],
     [ "HAVE_BOOL", "permutation__util_8h.html#ae561d533c7d87c4f1e9a7714e5490c39", null ],
     [ "HAVE_IS_PERMUTATION", "permutation__util_8h.html#aa52615c85e911d1c1422a884fce87b0b", null ],
     [ "GetCuthillMcKeeOrder", "permutation__util_8h.html#a3652c628b9ec9a1234da86ff9644ba6b", null ],

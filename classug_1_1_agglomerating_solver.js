@@ -12,7 +12,7 @@ var classug_1_1_agglomerating_solver =
     [ "init", "classug_1_1_agglomerating_solver.html#a12962b642ec6d82811056df9cc67e355", null ],
     [ "init", "classug_1_1_agglomerating_solver.html#a82a9334ea51ddca1f5702f413688caa4", null ],
     [ "init_agglomerated", "classug_1_1_agglomerating_solver.html#a033fbf06999eb6918184d3978db3ec5e", null ],
-    [ "name", "classug_1_1_agglomerating_solver.html#adbf46b039e54d206c82e20fbeffa9b92", null ],
+    [ "name", "classug_1_1_agglomerating_solver.html#afc786f074da89ca7dfa4899ae9eeec04", null ],
     [ "supports_parallel", "classug_1_1_agglomerating_solver.html#ac8fa0527097012eb639349a1afc489b2", null ],
     [ "m_name", "classug_1_1_agglomerating_solver.html#abef69d40b1db8b67d9cf9da3695eff68", null ],
     [ "m_pLinOpInverse", "classug_1_1_agglomerating_solver.html#a957041f31c62ede3494d978da6c9c3b4", null ]

@@ -1,9 +1,9 @@
 var error__indicator_8h =
 [
-    [ "face_type_traits", "structug_1_1face__type__traits.html", "structug_1_1face__type__traits" ],
-    [ "face_type_traits< 1 >", "structug_1_1face__type__traits_3_011_01_4.html", "structug_1_1face__type__traits_3_011_01_4" ],
-    [ "face_type_traits< 2 >", "structug_1_1face__type__traits_3_012_01_4.html", "structug_1_1face__type__traits_3_012_01_4" ],
-    [ "face_type_traits< 3 >", "structug_1_1face__type__traits_3_013_01_4.html", "structug_1_1face__type__traits_3_013_01_4" ],
+    [ "ug::face_type_traits< dim >", "structug_1_1face__type__traits.html", "structug_1_1face__type__traits" ],
+    [ "ug::face_type_traits< 1 >", "structug_1_1face__type__traits_3_011_01_4.html", "structug_1_1face__type__traits_3_011_01_4" ],
+    [ "ug::face_type_traits< 2 >", "structug_1_1face__type__traits_3_012_01_4.html", "structug_1_1face__type__traits_3_012_01_4" ],
+    [ "ug::face_type_traits< 3 >", "structug_1_1face__type__traits_3_013_01_4.html", "structug_1_1face__type__traits_3_013_01_4" ],
     [ "ComputeGradientCrouzeixRaviart", "error__indicator_8h.html#a535bbd016b20ecae57d53e8c4e290366", null ],
     [ "computeGradientJump", "error__indicator_8h.html#ac0d24df283001c999d9546ad2baa503c", null ],
     [ "ComputeGradientLagrange1", "error__indicator_8h.html#aeb43ab6ebe4caa269368b1ba5c8388ed", null ],

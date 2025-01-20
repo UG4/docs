@@ -1,7 +1,7 @@
 var classug_1_1_base_reference_mapping =
 [
-    [ "getImpl", "classug_1_1_base_reference_mapping.html#a28c131b3410fb71fdb2782de54a6e214", null ],
-    [ "getImpl", "classug_1_1_base_reference_mapping.html#ad16a28d77175b05d8d7d2676ec63cb2d", null ],
+    [ "getImpl", "classug_1_1_base_reference_mapping.html#a38a7655bf3db8bfb1a637532fa0e7d89", null ],
+    [ "getImpl", "classug_1_1_base_reference_mapping.html#a57d8dbc57d2d10bdfacf4a7e51d88b06", null ],
     [ "global_to_local", "classug_1_1_base_reference_mapping.html#a467f2b61a487d185310e5ff6cacd9c9f", null ],
     [ "global_to_local", "classug_1_1_base_reference_mapping.html#ae39af553595ef8f16485505434490b7e", null ],
     [ "global_to_local", "classug_1_1_base_reference_mapping.html#a15e37c794c8c78c961f5af8dbd32f2a7", null ],

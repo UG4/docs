@@ -1,7 +1,7 @@
 var line__smoothers_8h =
 [
-    [ "LineGaussSeidel", "classug_1_1_line_gauss_seidel.html", "classug_1_1_line_gauss_seidel" ],
-    [ "LineVanka", "classug_1_1_line_vanka.html", "classug_1_1_line_vanka" ],
+    [ "ug::LineGaussSeidel< TDomain, TAlgebra >", "classug_1_1_line_gauss_seidel.html", "classug_1_1_line_gauss_seidel" ],
+    [ "ug::LineVanka< TDomain, TAlgebra >", "classug_1_1_line_vanka.html", "classug_1_1_line_vanka" ],
     [ "collectStretchedElementIndices", "line__smoothers_8h.html#aee78e56707ad89ce5f223d8e11e2cb08", null ],
     [ "ComparePosDimYDir", "line__smoothers_8h.html#a56ebf8288b19e32ed833448aca6b85b7", null ],
     [ "ComparePosDimZDir", "line__smoothers_8h.html#a7a4c5d9aa4d4a252502555fb8c91d6c2", null ],

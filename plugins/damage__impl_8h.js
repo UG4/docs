@@ -12,5 +12,5 @@ var damage__impl_8h =
     [ "MarkDamage", "damage__impl_8h.html#a235c418e4e58a28ca7c31ee5df3666ec", null ],
     [ "MarkDamage_OLD_AND_DEPRECATED", "damage__impl_8h.html#adc7e1e916184023723742f6e99309ce1", null ],
     [ "MarkForAdaption_ValueRangeIndicator", "damage__impl_8h.html#a235e6019224cc5b87db4f9f65ee67714", null ],
-    [ "MinMaxElementDiameter", "damage__impl_8h.html#a9e0204b93783fa8666c5c0c40f67f89f", null ]
+    [ "MinMaxElementDiameter", "damage__impl_8h.html#a48c0cc6b485012df25ee5a1a3545259e", null ]
 ];

@@ -12,7 +12,7 @@ var classug_1_1_bidirectional_matrix =
     [ "num_cols", "classug_1_1_bidirectional_matrix.html#a28595171750cdb9ea36bbcd4b8049351", null ],
     [ "num_connections", "classug_1_1_bidirectional_matrix.html#a698563a8d25a30a9bf38235882244343", null ],
     [ "num_rows", "classug_1_1_bidirectional_matrix.html#ae2357fb8d212d69294e7a073d67d6b48", null ],
-    [ "operator=", "classug_1_1_bidirectional_matrix.html#a13fc508c1c8df264553f2192ef8e966e", null ],
+    [ "operator=", "classug_1_1_bidirectional_matrix.html#a0e6b4346a522a0f3fab8697b8c90830f", null ],
     [ "out_degree", "classug_1_1_bidirectional_matrix.html#a844fe0a8733d262e738b538dd73e89d8", null ],
     [ "refresh", "classug_1_1_bidirectional_matrix.html#a52af4c7f48379a8ec017d772ace9c228", null ],
     [ "_matrix", "classug_1_1_bidirectional_matrix.html#a60d2b95dcff51b84c1acbda6f6f9deaa", null ],

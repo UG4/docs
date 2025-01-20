@@ -17,7 +17,7 @@ var classug_1_1_subset_group =
     [ "dim", "classug_1_1_subset_group.html#ad931aea39c38cb27ba7269d4950b34e5", null ],
     [ "empty", "classug_1_1_subset_group.html#a49c04ddf9f702e6a36141159874accc5", null ],
     [ "get_highest_subset_dimension", "classug_1_1_subset_group.html#aedc2ec46d5329ab7ee254db8a9d2d23e", null ],
-    [ "index_vector", "classug_1_1_subset_group.html#a40754fab750115fc589f998f123bfc1a", null ],
+    [ "index_vector", "classug_1_1_subset_group.html#a8306f2faca69c680996fd94c6341cc72", null ],
     [ "is_init", "classug_1_1_subset_group.html#a4d32af242f65707471ef72606dce1435", null ],
     [ "name", "classug_1_1_subset_group.html#a8983a613fb3ae0d2d81f70185da46c91", null ],
     [ "operator[]", "classug_1_1_subset_group.html#a5b13ec3b053f1b621f0b1a8ba8178074", null ],
@@ -29,7 +29,7 @@ var classug_1_1_subset_group =
     [ "remove", "classug_1_1_subset_group.html#ae42a7b0d9905ca2bb3ac079414ec9ca7", null ],
     [ "set_subset_handler", "classug_1_1_subset_group.html#aa8e2a64f1774b87415abcd1ca60c123c", null ],
     [ "size", "classug_1_1_subset_group.html#a94df9ed7e52055ca077c3727c2e69991", null ],
-    [ "subset_handler", "classug_1_1_subset_group.html#a9f2ba29d445f60281c6b65ccba4a1c78", null ],
+    [ "subset_handler", "classug_1_1_subset_group.html#a5fc3bfa4e7b09d109c432cde7046a293", null ],
     [ "m_pSH", "classug_1_1_subset_group.html#a532c0f857d65986d1a4192c570ab4e3a", null ],
     [ "m_vSubset", "classug_1_1_subset_group.html#ac9966561c6b29b712eec35015fc72af9", null ]
 ];

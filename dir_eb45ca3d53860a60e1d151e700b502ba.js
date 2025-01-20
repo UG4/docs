@@ -11,14 +11,7 @@ var dir_eb45ca3d53860a60e1d151e700b502ba =
     [ "local_finite_element_id.cpp", "local__finite__element__id_8cpp.html", "local__finite__element__id_8cpp" ],
     [ "local_finite_element_id.h", "local__finite__element__id_8h.html", "local__finite__element__id_8h" ],
     [ "local_finite_element_provider.cpp", "local__finite__element__provider_8cpp.html", "local__finite__element__provider_8cpp" ],
-    [ "local_finite_element_provider.h", "local__finite__element__provider_8h.html", [
-      [ "DimLocalDoFSets", "structug_1_1_local_finite_element_provider_1_1_dim_local_do_f_sets.html", "structug_1_1_local_finite_element_provider_1_1_dim_local_do_f_sets" ],
-      [ "LocalDoFSets", "structug_1_1_local_finite_element_provider_1_1_local_do_f_sets.html", "structug_1_1_local_finite_element_provider_1_1_local_do_f_sets" ],
-      [ "LocalFiniteElementProvider", "classug_1_1_local_finite_element_provider.html", "classug_1_1_local_finite_element_provider" ],
-      [ "LocalShapeFunctionSets", "structug_1_1_local_finite_element_provider_1_1_local_shape_function_sets.html", "structug_1_1_local_finite_element_provider_1_1_local_shape_function_sets" ]
-    ] ],
+    [ "local_finite_element_provider.h", "local__finite__element__provider_8h.html", "local__finite__element__provider_8h" ],
     [ "local_finite_element_provider_impl.h", "local__finite__element__provider__impl_8h.html", null ],
-    [ "local_shape_function_set.h", "local__shape__function__set_8h.html", [
-      [ "BaseLSFS", "classug_1_1_base_l_s_f_s.html", "classug_1_1_base_l_s_f_s" ]
-    ] ]
+    [ "local_shape_function_set.h", "local__shape__function__set_8h.html", "local__shape__function__set_8h" ]
 ];

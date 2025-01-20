@@ -25,7 +25,6 @@
 var menudata={children:[
 {text:"ug4",url:"index.html"},
 {text:"Modules",url:"usergroup0.html",children:[
-{text:"All",url:"modules.html"},
 {text:"ugBase",url:"group__ugbase.html"},
 {text:"libAlgebra",url:"group__lib__algebra.html"},
 {text:"libDiscretization",url:"group__lib__discretization.html"},
@@ -104,7 +103,6 @@ var menudata={children:[
 {text:"o",url:"namespacemembers_vars_o.html#index_o"},
 {text:"p",url:"namespacemembers_vars_p.html#index_p"},
 {text:"q",url:"namespacemembers_vars_q.html#index_q"},
-{text:"r",url:"namespacemembers_vars_r.html#index_r"},
 {text:"s",url:"namespacemembers_vars_s.html#index_s"},
 {text:"t",url:"namespacemembers_vars_t.html#index_t"},
 {text:"u",url:"namespacemembers_vars_u.html#index_u"},
@@ -323,7 +321,7 @@ var menudata={children:[
 {text:"u",url:"functions_eval_u.html#index_u"},
 {text:"v",url:"functions_eval_v.html#index_v"},
 {text:"x",url:"functions_eval_x.html#index_x"}]},
-{text:"Related Functions",url:"functions_rela.html",children:[
+{text:"Related Symbols",url:"functions_rela.html",children:[
 {text:"a",url:"functions_rela.html#index_a"},
 {text:"b",url:"functions_rela.html#index_b"},
 {text:"c",url:"functions_rela.html#index_c"},

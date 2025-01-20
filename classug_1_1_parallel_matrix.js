@@ -11,7 +11,7 @@ var classug_1_1_parallel_matrix =
     [ "get_storage_mask", "classug_1_1_parallel_matrix.html#a8e8ad2ca40422aeb0ae8f4d186c7c47a", null ],
     [ "get_storage_type", "classug_1_1_parallel_matrix.html#a20ca272106e6276d936b040a9350b146", null ],
     [ "has_storage_type", "classug_1_1_parallel_matrix.html#a045d9d3c48ea409b481c77015838ae61", null ],
-    [ "layouts", "classug_1_1_parallel_matrix.html#a63d7c09d03252eb4b52ac13b6d8d6227", null ],
+    [ "layouts", "classug_1_1_parallel_matrix.html#a2bf9b60680c0e392c9fed630e715a937", null ],
     [ "matmul_minus", "classug_1_1_parallel_matrix.html#a1d36cc11a21628f6a1e8875329cb0083", null ],
     [ "operator=", "classug_1_1_parallel_matrix.html#af589abc0a0cf1fca68f6e9b40721d3ad", null ],
     [ "remove_storage_type", "classug_1_1_parallel_matrix.html#af2383f35da168206df821e7c5bbb8d59", null ],

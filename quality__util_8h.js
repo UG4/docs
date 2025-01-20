@@ -1,6 +1,6 @@
 var quality__util_8h =
 [
-    [ "AspectRatioInfo", "structug_1_1_aspect_ratio_info.html", "structug_1_1_aspect_ratio_info" ],
+    [ "ug::AspectRatioInfo", "structug_1_1_aspect_ratio_info.html", "structug_1_1_aspect_ratio_info" ],
     [ "AspectRatio", "quality__util_8h.html#a46f23c78373713e9cea67afcc5e76c87", null ],
     [ "AspectRatio", "quality__util_8h.html#ae0e0d793732440d61139051cb9fa7248", null ],
     [ "GetAspectRatioHistogram", "quality__util_8h.html#ad8e23a58342f121463c2928687d53e69", null ],

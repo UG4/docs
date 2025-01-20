@@ -1,6 +1,6 @@
 var type__converter_8h =
 [
-    [ "TypeAndArray", "structug_1_1vrl_1_1_type_and_array.html", "structug_1_1vrl_1_1_type_and_array" ],
+    [ "ug::vrl::TypeAndArray", "structug_1_1vrl_1_1_type_and_array.html", "structug_1_1vrl_1_1_type_and_array" ],
     [ "JNULL", "type__converter_8h.html#a8be837cc65db843920c5bb2508208b44", null ],
     [ "boolC2J", "type__converter_8h.html#aabc0f799496105fedfe2bfb28955554b", null ],
     [ "boolean2JObject", "type__converter_8h.html#a3d9a0988266bcd7c9b01b9b5b4984e71", null ],

@@ -10,6 +10,6 @@ var classug_1_1_raster_1_1_coordinate =
     [ "operator[]", "classug_1_1_raster_1_1_coordinate.html#a4d41ca79a31b4a4d48308aa0a633f37d", null ],
     [ "operator[]", "classug_1_1_raster_1_1_coordinate.html#a00c6031bedf80ff0385731dd95fb5667", null ],
     [ "set", "classug_1_1_raster_1_1_coordinate.html#af578c0a32b1bde0591e89ea54e74fdcc", null ],
-    [ "operator<<", "classug_1_1_raster_1_1_coordinate.html#ac9f5694f8d7137b395a8a57b3d8244e4", null ],
+    [ "operator<<", "classug_1_1_raster_1_1_coordinate.html#a57d93c4c33c036571a574b2061243b47", null ],
     [ "m_coord", "classug_1_1_raster_1_1_coordinate.html#a6e8ed7704b8aa27833238c4e1d4e621e", null ]
 ];

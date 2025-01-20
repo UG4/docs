@@ -7,7 +7,7 @@ var classug_1_1_table =
     [ "add_cols", "classug_1_1_table.html#af4a44f5086832ee8008b222e7fc99782", null ],
     [ "add_rows", "classug_1_1_table.html#a18893a607d9f9889506edac9a8e5bedf", null ],
     [ "clear", "classug_1_1_table.html#a87f513155630e8efeb948d0a734ad821", null ],
-    [ "get", "classug_1_1_table.html#ab0e58b08b8e170bb2709d4d010faa393", null ],
+    [ "get", "classug_1_1_table.html#a93bd701384ff63edccf4b702a4f73428", null ],
     [ "get_col_alignment", "classug_1_1_table.html#a32283619a121b019e33e86f105a7d629", null ],
     [ "get_col_sep", "classug_1_1_table.html#aeed2fa4086b9bc078282070c97909ffe", null ],
     [ "get_row_sep", "classug_1_1_table.html#a5a447c311208afa73ec4a01d4ab2e8a7", null ],

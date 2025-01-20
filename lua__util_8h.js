@@ -1,6 +1,6 @@
 var lua__util_8h =
 [
-    [ "LuaError", "classug_1_1script_1_1_lua_error.html", "classug_1_1script_1_1_lua_error" ],
+    [ "ug::script::LuaError", "classug_1_1script_1_1_lua_error.html", "classug_1_1script_1_1_lua_error" ],
     [ "GetAbsoluteUGScriptFilename", "lua__util_8h.html#a43492666eeae184a8261111bc359718a", null ],
     [ "GetDefaultLuaState", "lua__util_8h.html#a5851f1d38307cad888e1b2067af3422e", null ],
     [ "LoadUGScript", "lua__util_8h.html#a15e674d276a56ae9abb3d7c6a5e34b27", null ],

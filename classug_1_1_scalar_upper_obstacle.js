@@ -11,5 +11,7 @@ var classug_1_1_scalar_upper_obstacle =
     [ "~ScalarUpperObstacle", "classug_1_1_scalar_upper_obstacle.html#aac007038ee97bd916bdff170f211cf5f", null ],
     [ "adjust_defect_to_constraint", "classug_1_1_scalar_upper_obstacle.html#a6ea7346b333a0a35a621549e8742b372", null ],
     [ "adjust_sol_and_cor", "classug_1_1_scalar_upper_obstacle.html#ac5249a4f09ef48579adb8ee38ea41d51", null ],
-    [ "restrict_obs_values", "classug_1_1_scalar_upper_obstacle.html#abb8bdd03b0f954d8bba9937fbb219c9b", null ]
+    [ "restrict_obs_values", "classug_1_1_scalar_upper_obstacle.html#abb8bdd03b0f954d8bba9937fbb219c9b", null ],
+    [ "m_mObstacleValues", "classug_1_1_scalar_upper_obstacle.html#a45ce8cc366d20e998c200c7831330837", null ],
+    [ "m_vActiveDofs", "classug_1_1_scalar_upper_obstacle.html#aa18e0afd5912ecea0bfceed66a379bdc", null ]
 ];

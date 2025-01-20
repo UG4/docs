@@ -34,8 +34,6 @@ var classug_1_1_arte_expand_fracs3_d =
     [ "createNewElements", "classug_1_1_arte_expand_fracs3_d.html#ac20f5f11499340998d3492971e12a6f7", null ],
     [ "detachMarkers", "classug_1_1_arte_expand_fracs3_d.html#a3a5ed1971a56aa232cd6f7b6760660b0", null ],
     [ "establishNewVertices", "classug_1_1_arte_expand_fracs3_d.html#a935c3fb50a087c62209ffaa679816d98", null ],
-    [ "establishNewVertices", "classug_1_1_arte_expand_fracs3_d.html#a209e0340945033f43e449f651c66b93a", null ],
-    [ "establishNewVertices", "classug_1_1_arte_expand_fracs3_d.html#a209e0340945033f43e449f651c66b93a", null ],
     [ "establishNewVrtBase", "classug_1_1_arte_expand_fracs3_d.html#aba2b4a865ed428acafa802c0f133239d", null ],
     [ "generateVertexInfos", "classug_1_1_arte_expand_fracs3_d.html#abe865921a50633571dc6af67991981bc", null ],
     [ "initialize", "classug_1_1_arte_expand_fracs3_d.html#a8a7aaf794c824ff0214053bd2d9317d8", null ],

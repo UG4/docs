@@ -1,6 +1,6 @@
 var object_8h =
 [
-    [ "Object", "classug_1_1node__tree_1_1_object.html", "classug_1_1node__tree_1_1_object" ],
+    [ "ug::node_tree::Object", "classug_1_1node__tree_1_1_object.html", "classug_1_1node__tree_1_1_object" ],
     [ "ObjectCode", "object_8h.html#a0c8beb970c3b3bd3868916bc380829bc", [
       [ "OC_INVALID", "object_8h.html#a0c8beb970c3b3bd3868916bc380829bcaf2a55713c25b95f00764b3f0379104fe", null ],
       [ "OC_OBJECT", "object_8h.html#a0c8beb970c3b3bd3868916bc380829bcab37655b46002dd805e368867fb2ca2e5", null ],

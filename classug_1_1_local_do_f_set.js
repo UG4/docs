@@ -2,7 +2,7 @@ var classug_1_1_local_do_f_set =
 [
     [ "~LocalDoFSet", "classug_1_1_local_do_f_set.html#a394f3b150d8e97c8b16a837e1f6c3ef5", null ],
     [ "dim", "classug_1_1_local_do_f_set.html#a73ac48263dca776e7ac251c48bc624ab", null ],
-    [ "local_dof", "classug_1_1_local_do_f_set.html#ace2b095341b3afcecd260592e46db2a0", null ],
+    [ "local_dof", "classug_1_1_local_do_f_set.html#a47e179eaab47dffba9b758d0d125ec2f", null ],
     [ "num_dof", "classug_1_1_local_do_f_set.html#a8b504fc2461b8931f805eef769265761", null ],
     [ "num_dof", "classug_1_1_local_do_f_set.html#ad993d686ba67e31759fc2cb971bf371b", null ],
     [ "num_dof", "classug_1_1_local_do_f_set.html#a00b3a79c44b67191e7d3453d0cf2ee43", null ],

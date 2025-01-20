@@ -9,10 +9,10 @@ var classug_1_1_f_v_singular_sources_and_sinks =
     [ "add_point", "classug_1_1_f_v_singular_sources_and_sinks.html#aebded461870572bbc1302040880d9d1c", null ],
     [ "init_all_line_sss", "classug_1_1_f_v_singular_sources_and_sinks.html#ad477920dc30e8b4368b198926e2e37ab", null ],
     [ "init_all_point_sss", "classug_1_1_f_v_singular_sources_and_sinks.html#a0fa19fcbf6678a741bf52a158b5e8be0", null ],
-    [ "line", "classug_1_1_f_v_singular_sources_and_sinks.html#ad500c5e0d7c24f1a0c2b25b1a53339c4", null ],
+    [ "line", "classug_1_1_f_v_singular_sources_and_sinks.html#a14d2dd60b9383b72f3a447e9cf5e24b8", null ],
     [ "num_lines", "classug_1_1_f_v_singular_sources_and_sinks.html#ad987f8fbd07b18f9aece03f4580391df", null ],
     [ "num_points", "classug_1_1_f_v_singular_sources_and_sinks.html#a9b29ccb4e24254bfdc670ed455e9e83b", null ],
-    [ "point", "classug_1_1_f_v_singular_sources_and_sinks.html#a4c30b2d5671563fd4a3effd97e7916f6", null ],
+    [ "point", "classug_1_1_f_v_singular_sources_and_sinks.html#a7a0df41e2e5c818c79ecf86899038718", null ],
     [ "ListL", "classug_1_1_f_v_singular_sources_and_sinks.html#a6b4b5916ee0f4b963e50de02490bf199", null ],
     [ "ListP", "classug_1_1_f_v_singular_sources_and_sinks.html#ac4722dfb76b6d3c1cba360712c747e17", null ]
 ];

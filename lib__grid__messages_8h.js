@@ -1,9 +1,9 @@
 var lib__grid__messages_8h =
 [
-    [ "GridMessage_Adaption", "classug_1_1_grid_message___adaption.html", "classug_1_1_grid_message___adaption" ],
-    [ "GridMessage_Creation", "classug_1_1_grid_message___creation.html", "classug_1_1_grid_message___creation" ],
-    [ "GridMessage_Distribution", "classug_1_1_grid_message___distribution.html", "classug_1_1_grid_message___distribution" ],
-    [ "GridMessage_MultiGridChanged", "classug_1_1_grid_message___multi_grid_changed.html", "classug_1_1_grid_message___multi_grid_changed" ],
+    [ "ug::GridMessage_Adaption", "classug_1_1_grid_message___adaption.html", "classug_1_1_grid_message___adaption" ],
+    [ "ug::GridMessage_Creation", "classug_1_1_grid_message___creation.html", "classug_1_1_grid_message___creation" ],
+    [ "ug::GridMessage_Distribution", "classug_1_1_grid_message___distribution.html", "classug_1_1_grid_message___distribution" ],
+    [ "ug::GridMessage_MultiGridChanged", "classug_1_1_grid_message___multi_grid_changed.html", "classug_1_1_grid_message___multi_grid_changed" ],
     [ "GridMessageAdaptionType", "lib__grid__messages_8h.html#a9388e4f3f943d31a8f4aac00f32680d7", [
       [ "GMAT_UNKNOWN", "lib__grid__messages_8h.html#a9388e4f3f943d31a8f4aac00f32680d7a38e05e27fc5e9b5693d58e9c5f7ca49a", null ],
       [ "GMAT_GLOBAL_ADAPTION_BEGINS", "lib__grid__messages_8h.html#a9388e4f3f943d31a8f4aac00f32680d7ad7ae6a956ca34f1aa707958a78e2a987", null ],

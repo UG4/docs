@@ -1,8 +1,8 @@
 var file__io__swc_8h =
 [
-    [ "FileReaderSWC", "classug_1_1_file_reader_s_w_c.html", "classug_1_1_file_reader_s_w_c" ],
-    [ "FileWriterSWC", "classug_1_1_file_writer_s_w_c.html", "classug_1_1_file_writer_s_w_c" ],
-    [ "SWCPoint", "structug_1_1swc__types_1_1_s_w_c_point.html", "structug_1_1swc__types_1_1_s_w_c_point" ],
+    [ "ug::FileReaderSWC", "classug_1_1_file_reader_s_w_c.html", "classug_1_1_file_reader_s_w_c" ],
+    [ "ug::FileWriterSWC", "classug_1_1_file_writer_s_w_c.html", "classug_1_1_file_writer_s_w_c" ],
+    [ "ug::swc_types::SWCPoint", "structug_1_1swc__types_1_1_s_w_c_point.html", "structug_1_1swc__types_1_1_s_w_c_point" ],
     [ "swc_type", "file__io__swc_8h.html#ac605df888f99072c0c3a8f05f225164a", [
       [ "SWC_UNDF", "file__io__swc_8h.html#ac605df888f99072c0c3a8f05f225164aaa0a6ebb5a1c978e45342b834cdd4de97", null ],
       [ "SWC_SOMA", "file__io__swc_8h.html#ac605df888f99072c0c3a8f05f225164aa2eb698b01360362b0f5465c3088d0efd", null ],

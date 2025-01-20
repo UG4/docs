@@ -1,7 +1,7 @@
 var geometry_8h =
 [
-    [ "Geometry", "classug_1_1_geometry.html", "classug_1_1_geometry" ],
-    [ "IGeometry", "classug_1_1_i_geometry.html", "classug_1_1_i_geometry" ],
+    [ "ug::Geometry< dim, attachmentDim >", "classug_1_1_geometry.html", "classug_1_1_geometry" ],
+    [ "ug::IGeometry< dim >", "classug_1_1_i_geometry.html", "classug_1_1_i_geometry" ],
     [ "IGeometry1d", "geometry_8h.html#a7543fe1c822026258f4345a31146d221", null ],
     [ "IGeometry2d", "geometry_8h.html#a70efeb379f061828f58ff669df2e5c0f", null ],
     [ "IGeometry3d", "geometry_8h.html#aa618da8978eeb1b4a0ba03900329a197", null ],

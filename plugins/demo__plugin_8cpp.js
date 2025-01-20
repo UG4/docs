@@ -1,6 +1,6 @@
 var demo__plugin_8cpp =
 [
-    [ "DemoClass", "classug_1_1_demo_plugin_1_1_demo_class.html", "classug_1_1_demo_plugin_1_1_demo_class" ],
+    [ "ug::DemoPlugin::DemoClass", "classug_1_1_demo_plugin_1_1_demo_class.html", "classug_1_1_demo_plugin_1_1_demo_class" ],
     [ "matrix_type", "demo__plugin_8cpp.html#a10498f9373a78e4bcc071def1baee06d", null ],
     [ "vector_type", "demo__plugin_8cpp.html#ac9b1c611e1f3622c954d4a2a604349e1", null ],
     [ "DemoMatCompSumFast", "demo__plugin_8cpp.html#a6fffede2180d74b8af5363cc5de2023e", null ],

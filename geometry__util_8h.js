@@ -1,10 +1,10 @@
 var geometry__util_8h =
 [
-    [ "ElementSideRayIntersectionWrapper", "structug_1_1_element_side_ray_intersection_wrapper.html", "structug_1_1_element_side_ray_intersection_wrapper" ],
-    [ "ElementSideRayIntersectionWrapper< TRefElem, 2, 2 >", "structug_1_1_element_side_ray_intersection_wrapper_3_01_t_ref_elem_00_012_00_012_01_4.html", "structug_1_1_element_side_ray_intersection_wrapper_3_01_t_ref_elem_00_012_00_012_01_4" ],
-    [ "ElementSideRayIntersectionWrapper< TRefElem, 3, 3 >", "structug_1_1_element_side_ray_intersection_wrapper_3_01_t_ref_elem_00_013_00_013_01_4.html", "structug_1_1_element_side_ray_intersection_wrapper_3_01_t_ref_elem_00_013_00_013_01_4" ],
-    [ "SCVFofSCVRayIntersectionWrapper", "structug_1_1_s_c_v_fof_s_c_v_ray_intersection_wrapper.html", "structug_1_1_s_c_v_fof_s_c_v_ray_intersection_wrapper" ],
-    [ "SCVFofSCVRayIntersectionWrapper< 2, 2 >", "structug_1_1_s_c_v_fof_s_c_v_ray_intersection_wrapper_3_012_00_012_01_4.html", "structug_1_1_s_c_v_fof_s_c_v_ray_intersection_wrapper_3_012_00_012_01_4" ],
+    [ "ug::ElementSideRayIntersectionWrapper< TRefElem, TWorldDim, TRefDim >", "structug_1_1_element_side_ray_intersection_wrapper.html", "structug_1_1_element_side_ray_intersection_wrapper" ],
+    [ "ug::ElementSideRayIntersectionWrapper< TRefElem, 2, 2 >", "structug_1_1_element_side_ray_intersection_wrapper_3_01_t_ref_elem_00_012_00_012_01_4.html", "structug_1_1_element_side_ray_intersection_wrapper_3_01_t_ref_elem_00_012_00_012_01_4" ],
+    [ "ug::ElementSideRayIntersectionWrapper< TRefElem, 3, 3 >", "structug_1_1_element_side_ray_intersection_wrapper_3_01_t_ref_elem_00_013_00_013_01_4.html", "structug_1_1_element_side_ray_intersection_wrapper_3_01_t_ref_elem_00_013_00_013_01_4" ],
+    [ "ug::SCVFofSCVRayIntersectionWrapper< TDim, TWorldDim >", "structug_1_1_s_c_v_fof_s_c_v_ray_intersection_wrapper.html", "structug_1_1_s_c_v_fof_s_c_v_ray_intersection_wrapper" ],
+    [ "ug::SCVFofSCVRayIntersectionWrapper< 2, 2 >", "structug_1_1_s_c_v_fof_s_c_v_ray_intersection_wrapper_3_012_00_012_01_4.html", "structug_1_1_s_c_v_fof_s_c_v_ray_intersection_wrapper_3_012_00_012_01_4" ],
     [ "ComputeElementExtensionsSq", "geometry__util_8h.html#a5ab1671ac2b1a925de8b572e85fb992c", null ],
     [ "ComputeElementExtensionsSqForEdges", "geometry__util_8h.html#ac3f54f81ecfdfd09672da988b2e77ef9", null ],
     [ "ElementExtensionsSq", "geometry__util_8h.html#a85a41776809bb75a0f90873ce3aaa917", null ],

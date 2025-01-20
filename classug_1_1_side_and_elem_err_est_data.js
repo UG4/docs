@@ -34,7 +34,7 @@ var classug_1_1_side_and_elem_err_est_data =
     [ "side_local_ips", "classug_1_1_side_and_elem_err_est_data.html#ac85ddaf7b605567e39b02a12d5e90c97", null ],
     [ "side_order", "classug_1_1_side_and_elem_err_est_data.html#a3342afc6de8b1d67f70e2b389da1b992", null ],
     [ "summarize_err_est_data", "classug_1_1_side_and_elem_err_est_data.html#a32d684e870d1d42aa96d45c89c9c7938", null ],
-    [ "surface_view", "classug_1_1_side_and_elem_err_est_data.html#aeb1d955ffee897a3df7cce268e591a9a", null ],
+    [ "surface_view", "classug_1_1_side_and_elem_err_est_data.html#a33b321c0acee09b9dcc174c709f98a13", null ],
     [ "dim", "classug_1_1_side_and_elem_err_est_data.html#aae102c135923ee457c2e45a65b5d7c2c", null ],
     [ "elemOrder", "classug_1_1_side_and_elem_err_est_data.html#a757940afeb5b354773b09e8b84a1f268", null ],
     [ "m_aaElem", "classug_1_1_side_and_elem_err_est_data.html#a88b75ddc0773666ea36a13dfe6da4076", null ],

@@ -6,7 +6,7 @@ var classug_1_1_grid_message___adaption =
     [ "adaption_ends", "classug_1_1_grid_message___adaption.html#a88c4d69d99a314068786847ff622930f", null ],
     [ "adaption_type", "classug_1_1_grid_message___adaption.html#a1ca20b81b90ed443d55f8347300ea9f9", null ],
     [ "adaptive", "classug_1_1_grid_message___adaption.html#a68762238cddfb137ef4763a45ef8f5af", null ],
-    [ "affected_elements", "classug_1_1_grid_message___adaption.html#a31ef7746e9169179aee1e3b898c60504", null ],
+    [ "affected_elements", "classug_1_1_grid_message___adaption.html#a1f8e2c9c8f1b9f7fa56a47291170f45a", null ],
     [ "coarsening", "classug_1_1_grid_message___adaption.html#abb5ad9141360137ad2678e8c4528fcec", null ],
     [ "global", "classug_1_1_grid_message___adaption.html#a46b48fc46786368ff66c6b15b2eb79a9", null ],
     [ "refinement", "classug_1_1_grid_message___adaption.html#abd4cf934a7a4d26eea6433b2615d80f0", null ],

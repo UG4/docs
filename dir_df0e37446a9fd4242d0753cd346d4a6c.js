@@ -16,12 +16,7 @@ var dir_df0e37446a9fd4242d0753cd346d4a6c =
     [ "domain.cpp", "domain_8cpp.html", null ],
     [ "domain.h", "domain_8h.html", "domain_8h" ],
     [ "domain_impl.h", "domain__impl_8h.html", null ],
-    [ "domain_traits.h", "domain__traits_8h.html", [
-      [ "domain_traits< 0 >", "structug_1_1domain__traits_3_010_01_4.html", null ],
-      [ "domain_traits< 1 >", "structug_1_1domain__traits_3_011_01_4.html", "structug_1_1domain__traits_3_011_01_4" ],
-      [ "domain_traits< 2 >", "structug_1_1domain__traits_3_012_01_4.html", "structug_1_1domain__traits_3_012_01_4" ],
-      [ "domain_traits< 3 >", "structug_1_1domain__traits_3_013_01_4.html", "structug_1_1domain__traits_3_013_01_4" ]
-    ] ],
+    [ "domain_traits.h", "domain__traits_8h.html", "domain__traits_8h" ],
     [ "domain_util.cpp", "domain__util_8cpp.html", "domain__util_8cpp" ],
     [ "domain_util.h", "domain__util_8h.html", "domain__util_8h" ],
     [ "domain_util_impl.h", "domain__util__impl_8h.html", "domain__util__impl_8h" ],

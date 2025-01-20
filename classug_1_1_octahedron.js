@@ -7,7 +7,7 @@ var classug_1_1_octahedron =
     [ "collapse_edge", "classug_1_1_octahedron.html#a21057d3baa335032cbfd718e9861049a", null ],
     [ "container_section", "classug_1_1_octahedron.html#a8051ff4cf87423363dc5cfb1256dab75", null ],
     [ "create_edge", "classug_1_1_octahedron.html#aec3aeb1c740a428250f27fd8c7a546fc", null ],
-    [ "create_empty_instance", "classug_1_1_octahedron.html#a2c03164d22e8954e996a22ff5856104d", null ],
+    [ "create_empty_instance", "classug_1_1_octahedron.html#aa2d015ca78a2d04f9f832c673c78e615", null ],
     [ "create_face", "classug_1_1_octahedron.html#ab1977483a5d16010c454969e6ee2afa2", null ],
     [ "edge_desc", "classug_1_1_octahedron.html#ad7c33c52f985e9dd206819a1452d6267", null ],
     [ "edge_desc", "classug_1_1_octahedron.html#abb94faecfd19ca0f703db97798a211bd", null ],
@@ -27,7 +27,7 @@ var classug_1_1_octahedron =
     [ "refine", "classug_1_1_octahedron.html#ae5887c36f188b416ba2e0321676ac8b0", null ],
     [ "set_vertex", "classug_1_1_octahedron.html#a192e68f4f77880ee707e84a972e97073", null ],
     [ "type_match", "classug_1_1_octahedron.html#a7824084ba9af50a1f6c2ee7552a2a707", null ],
-    [ "vertex", "classug_1_1_octahedron.html#ac42f4b2bcd315fc3a1e123c6b0b5d6f7", null ],
+    [ "vertex", "classug_1_1_octahedron.html#a3fef4563ee4c85774ba46d3aa8eb0226", null ],
     [ "vertices", "classug_1_1_octahedron.html#ab645ca12c1173fd23ffc48d348788455", null ],
     [ "m_vertices", "classug_1_1_octahedron.html#a6eb5bc2c45d89ed0f85ae6e8e02cf1a4", null ],
     [ "NUM_VERTICES", "classug_1_1_octahedron.html#a877f3be6cb7fe75cfda98d7c8513c7ea", null ]

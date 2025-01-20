@@ -12,7 +12,7 @@ var classug_1_1_composite_space =
     [ "distance", "classug_1_1_composite_space.html#aa312f413621dc1bc0ccd3b15a78558d5", null ],
     [ "distance", "classug_1_1_composite_space.html#a29122b49f3a661a21118512fcf72ec68", null ],
     [ "distance2", "classug_1_1_composite_space.html#a6832159791c05e0dae82a84c12658cc1", null ],
-    [ "get_subspaces", "classug_1_1_composite_space.html#ad1e38af92bcb59045534c8bf991ccd26", null ],
+    [ "get_subspaces", "classug_1_1_composite_space.html#a0ab5ba9f8686b05f5bb7e60a582bfd10", null ],
     [ "is_time_dependent", "classug_1_1_composite_space.html#a638d47e76548311790ab270cee686949", null ],
     [ "norm", "classug_1_1_composite_space.html#a246f1b671eafa8bebc9194a9574e20c1", null ],
     [ "norm", "classug_1_1_composite_space.html#a7da91e79da235653453354fd88307de8", null ],

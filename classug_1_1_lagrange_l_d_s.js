@@ -2,7 +2,7 @@ var classug_1_1_lagrange_l_d_s =
 [
     [ "LagrangeLDS", "classug_1_1_lagrange_l_d_s.html#af1b611540d4d298eb9c1064f95778695", null ],
     [ "exact_position_available", "classug_1_1_lagrange_l_d_s.html#a1f12279f7a6c3dd73c638ea754f9af85", null ],
-    [ "local_dof", "classug_1_1_lagrange_l_d_s.html#a4ac789cb98afd0a9e23966a92320512b", null ],
+    [ "local_dof", "classug_1_1_lagrange_l_d_s.html#a5caeb28ff700ee08fa83a659d18d24b7", null ],
     [ "num_dof", "classug_1_1_lagrange_l_d_s.html#a7917efbf8683fb2bf652e379f5f92114", null ],
     [ "num_dof", "classug_1_1_lagrange_l_d_s.html#a8c260fe955be6b6d7a09c0436085a14f", null ],
     [ "roid", "classug_1_1_lagrange_l_d_s.html#a45673186bd7b92da52c10b373dba7fe0", null ],

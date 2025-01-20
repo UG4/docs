@@ -14,7 +14,7 @@ var classug_1_1hash__iterator =
     [ "equal", "classug_1_1hash__iterator.html#af86cfbf1ce0ddea5918729c577c7ef99", null ],
     [ "increment", "classug_1_1hash__iterator.html#aa387677bcbd92f044c5f376cdf214142", null ],
     [ "operator!=", "classug_1_1hash__iterator.html#a04d8fca48a1772f505b9930ec3e664a2", null ],
-    [ "operator*", "classug_1_1hash__iterator.html#a621cd5699a93cf6b931a87f00c142c73", null ],
+    [ "operator*", "classug_1_1hash__iterator.html#a0c362981b6cb5ec50dd7af8c9c661188", null ],
     [ "operator++", "classug_1_1hash__iterator.html#ab6a3973ecb0562e3af9d8b8e3168b0f5", null ],
     [ "operator++", "classug_1_1hash__iterator.html#a62ad2ca813536aac73f33e08d731bf59", null ],
     [ "operator==", "classug_1_1hash__iterator.html#af3e7cc668fc2800228b7dd78ca8bf3fc", null ],

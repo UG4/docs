@@ -2,7 +2,7 @@ var classug_1_1_binary_stream =
 [
     [ "BinaryStream", "classug_1_1_binary_stream.html#a5fb82a736974410ff0f68ffbd0fcda84", null ],
     [ "BinaryStream", "classug_1_1_binary_stream.html#a56b104472a9b6aa8feb3a53492868e6e", null ],
-    [ "buffer", "classug_1_1_binary_stream.html#a212aaac2852f6b674ea0bf1e6eed1408", null ],
+    [ "buffer", "classug_1_1_binary_stream.html#ab7a4c715eaa6b3e36c4a16fda3ca6f31", null ],
     [ "can_read_more", "classug_1_1_binary_stream.html#a67c7ad3c68aa32071aceb4c7bed67438", null ],
     [ "clear", "classug_1_1_binary_stream.html#aceaa65d8fc76c040668e5e9d8f251b16", null ],
     [ "read_jump", "classug_1_1_binary_stream.html#aa8b59a6e89f1c8a5852d6c4bda603355", null ],

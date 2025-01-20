@@ -15,8 +15,8 @@ var class_sparse_matrix =
     [ "num_cols", "class_sparse_matrix.html#a8f1aa910e6c91d163c8ecdd56c43dcb8", null ],
     [ "num_connections", "class_sparse_matrix.html#afb0c775b0134d02d648be8018e368899", null ],
     [ "num_rows", "class_sparse_matrix.html#afb020959b37834ffd2070183866e6e4a", null ],
-    [ "operator()", "class_sparse_matrix.html#a9f20660c0a334b1b4390dbd0dce74e8e", null ],
-    [ "operator()", "class_sparse_matrix.html#a0266322fce40858d8bded312fee3f24f", null ],
+    [ "operator()", "class_sparse_matrix.html#acc0c2604b58c03224b543a11b8f7e316", null ],
+    [ "operator()", "class_sparse_matrix.html#a2566760652b1c7c715d49be47cc01a47", null ],
     [ "resize", "class_sparse_matrix.html#adb46f6547943b47ac24c3001b8ec929f", null ],
     [ "total_num_connections", "class_sparse_matrix.html#a3db87140bd3cc8a81203afd82e1ac30a", null ]
 ];

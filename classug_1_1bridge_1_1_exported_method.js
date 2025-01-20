@@ -2,7 +2,7 @@ var classug_1_1bridge_1_1_exported_method =
 [
     [ "ProxyFunc", "classug_1_1bridge_1_1_exported_method.html#afbaa92051c17729bddac4f6ace06a142", null ],
     [ "ExportedMethod", "classug_1_1bridge_1_1_exported_method.html#af530569c8bc0e948a4f6f6fdcff1fabb", null ],
-    [ "class_name", "classug_1_1bridge_1_1_exported_method.html#aadaccec0e4409488488d66aba99cb633", null ],
+    [ "class_name", "classug_1_1bridge_1_1_exported_method.html#ab5409faac2b0aeb99915e6b7eecefa72", null ],
     [ "create_parameter_stack", "classug_1_1bridge_1_1_exported_method.html#aae5be84645caea9a4d58ee439b51c530", null ],
     [ "execute", "classug_1_1bridge_1_1_exported_method.html#ad86efb0bc426535e1af3be0388f6f95e", null ],
     [ "has_custom_return", "classug_1_1bridge_1_1_exported_method.html#a40b4127b83fc2cb795db55af995cb02e", null ],

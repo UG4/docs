@@ -5,7 +5,7 @@ var classug_1_1_schur_complement_matrix_operator =
     [ "apply", "classug_1_1_schur_complement_matrix_operator.html#aac616b36f0ed49cdd42ce108384f7c0f", null ],
     [ "apply_sub", "classug_1_1_schur_complement_matrix_operator.html#aa2fa81c3fc19d69896d304b1a5a10520", null ],
     [ "calculate_matrix", "classug_1_1_schur_complement_matrix_operator.html#a6c6ad10d0b190b83f6448f4c21bdfe85", null ],
-    [ "get_matrix", "classug_1_1_schur_complement_matrix_operator.html#a59e3bd406d3572bc0e2caa4031a5c20a", null ],
+    [ "get_matrix", "classug_1_1_schur_complement_matrix_operator.html#a196d2fc224ef7ead872e8fb1aead74b7", null ],
     [ "init", "classug_1_1_schur_complement_matrix_operator.html#aabb35146d22a148df46b4b1aaef33e50", null ],
     [ "init", "classug_1_1_schur_complement_matrix_operator.html#adfcf7c337b505f18d1ec6cde491c82d6", null ],
     [ "set_op", "classug_1_1_schur_complement_matrix_operator.html#a0d02b5ae9a35cdf2662330ce409e9156", null ],

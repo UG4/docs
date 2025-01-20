@@ -7,7 +7,7 @@ var classug_1_1_tetrahedron =
     [ "collapse_edge", "classug_1_1_tetrahedron.html#a785dde8e8a31ca0a5c1930d8bc3342ad", null ],
     [ "container_section", "classug_1_1_tetrahedron.html#a38860d30be98a1a9abee432de88ae222", null ],
     [ "create_edge", "classug_1_1_tetrahedron.html#a45cfcd73d834ad61cfb1a40b5a7e3cd9", null ],
-    [ "create_empty_instance", "classug_1_1_tetrahedron.html#a49ebf3d5a6dd32854db395a5edcee1df", null ],
+    [ "create_empty_instance", "classug_1_1_tetrahedron.html#a8a4878eab06c2b02bb057329240613d2", null ],
     [ "create_face", "classug_1_1_tetrahedron.html#a613dd10d4c5c846b01da77143e8e97f4", null ],
     [ "edge_desc", "classug_1_1_tetrahedron.html#a76c7a4f62abc24b135d78df96d1de94c", null ],
     [ "edge_desc", "classug_1_1_tetrahedron.html#af184f388dbf4b2d3d5f0133c24f80068", null ],
@@ -27,7 +27,7 @@ var classug_1_1_tetrahedron =
     [ "refine", "classug_1_1_tetrahedron.html#ab1908f26e5f869cbc7b5b8737aa81fbb", null ],
     [ "set_vertex", "classug_1_1_tetrahedron.html#a1976f0ddb2c59038e0d2b0759961e9d6", null ],
     [ "type_match", "classug_1_1_tetrahedron.html#a3d30fc913d6e639284f3197198bd98b5", null ],
-    [ "vertex", "classug_1_1_tetrahedron.html#addbf0908294867171aaea9b0288b99a9", null ],
+    [ "vertex", "classug_1_1_tetrahedron.html#a8aff16147ca87c40f0161e089baa24ea", null ],
     [ "vertices", "classug_1_1_tetrahedron.html#a38f39a756d5dbca30c7324d23f904496", null ],
     [ "m_vertices", "classug_1_1_tetrahedron.html#a9f415a879331dc0a6826ecd44f89ffea", null ],
     [ "NUM_VERTICES", "classug_1_1_tetrahedron.html#ac760e5ff2565f96492aae04557f93fe4", null ]

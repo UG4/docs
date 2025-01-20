@@ -1,0 +1,4 @@
+var matrix__use__member__functions_8h =
+[
+    [ "ug::mat_operations_class< vector_t, matrix_t, MATRIX_USE_MEMBER_FUNCTIONS >", "structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___m_e_9177a9e00866ddd6f8f96e2c1a72e6ba.html", "structug_1_1mat__operations__class_3_01vector__t_00_01matrix__t_00_01_m_a_t_r_i_x___u_s_e___m_e_9177a9e00866ddd6f8f96e2c1a72e6ba" ]
+];

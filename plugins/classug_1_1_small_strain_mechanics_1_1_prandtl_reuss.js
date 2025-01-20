@@ -16,7 +16,7 @@ var classug_1_1_small_strain_mechanics_1_1_prandtl_reuss =
     [ "Hardening", "group__small__strain__mechanics.html#ga1c15f24bf53c246701135199a15f536f", null ],
     [ "Hardening_d", "group__small__strain__mechanics.html#ga9918309efed05a2b00a21a7db1220288", null ],
     [ "hardening_parameter", "group__small__strain__mechanics.html#ga0d6ff40528791a606ac7cbf9438ee7e7", null ],
-    [ "inelastic_strain_tensor", "group__small__strain__mechanics.html#gab2461d1f0649c341f84c16b255427b18", null ],
+    [ "inelastic_strain_tensor", "group__small__strain__mechanics.html#gae99848ab9d503100ba0749b62e3d6b56", null ],
     [ "init", "group__small__strain__mechanics.html#gaf8bb905dcaa4e07d2ccf5ea2e4204bf3", null ],
     [ "init_internal_vars", "group__small__strain__mechanics.html#gaf7e98caff6113fe278a44714465de52e", null ],
     [ "internal_vars", "group__small__strain__mechanics.html#gab5910fe15f1002169e03f229193ea7bb", null ],

@@ -10,8 +10,8 @@ var classug_1_1_matrix_row =
     [ "end", "classug_1_1_matrix_row.html#a0c50663c0d610f616a3d4ab60b68ae14", null ],
     [ "has_connection", "classug_1_1_matrix_row.html#a5f96d8121d6b4f10951d5964aad6452e", null ],
     [ "num_connections", "classug_1_1_matrix_row.html#a11e927f02c1f50b85aec310fddf1cd69", null ],
-    [ "operator()", "classug_1_1_matrix_row.html#a5cc5033bc4bc0791a6431fd33c7a0865", null ],
-    [ "operator()", "classug_1_1_matrix_row.html#acc8dd9d271f16f8ec0e267deb8a9e323", null ],
+    [ "operator()", "classug_1_1_matrix_row.html#a612ee21cfe2e88de88db96c732b5b7b7", null ],
+    [ "operator()", "classug_1_1_matrix_row.html#abd1a1bfc1cdf71180dd851710a64dce8", null ],
     [ "size", "classug_1_1_matrix_row.html#a58be7ba33de5fc9d74649a9da2e6dbb8", null ],
     [ "A", "classug_1_1_matrix_row.html#a56e9d646f3e5ad798f14a41089737f55", null ],
     [ "r", "classug_1_1_matrix_row.html#aec663ae2a043239138462a2e630b3d1f", null ]

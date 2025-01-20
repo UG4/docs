@@ -6,5 +6,7 @@ var classug_1_1_small_strain_mechanics_1_1_damage_law =
     [ "DamageLaw", "group__small__strain__mechanics.html#ga6ad791d65a4c32381bd63862ea8e8380", null ],
     [ "~DamageLaw", "group__small__strain__mechanics.html#gade1c12d686ad339fabce3856b6a9f016", null ],
     [ "post_process_energy_on_curr_elem", "group__small__strain__mechanics.html#gaeffb9a580f14c840e691109a90a88e49", null ],
-    [ "dim", "group__small__strain__mechanics.html#ga2b0e616f5261b35b57ded392487f64b0", null ]
+    [ "dim", "group__small__strain__mechanics.html#ga2b0e616f5261b35b57ded392487f64b0", null ],
+    [ "m_pEnergy_elem", "classug_1_1_small_strain_mechanics_1_1_damage_law.html#a15d1a7a9e102616c22ae114af45ab7d6", null ],
+    [ "m_pScaling_elem", "classug_1_1_small_strain_mechanics_1_1_damage_law.html#a7210ba581aeaa847c1ec77e410cc2994", null ]
 ];

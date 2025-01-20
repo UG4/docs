@@ -9,7 +9,7 @@ var classug_1_1_custom_vertex_group =
     [ "resize", "classug_1_1_custom_vertex_group.html#af57863a266c3725a49965aa794c39e2f", null ],
     [ "set_num_vertices", "classug_1_1_custom_vertex_group.html#ae97feb9900a392fe21b667b20ec55047", null ],
     [ "set_vertex", "classug_1_1_custom_vertex_group.html#ac8578a1c5565c32a7da1e44e9584db16", null ],
-    [ "vertex", "classug_1_1_custom_vertex_group.html#a666feaeb6acf2c8b9a937e5472c51429", null ],
+    [ "vertex", "classug_1_1_custom_vertex_group.html#ae3ce5ea79b76f9e81b5a080424863a65", null ],
     [ "vertices", "classug_1_1_custom_vertex_group.html#a48a0f936487d5577242a42937ba5d3a4", null ],
     [ "m_vrts", "classug_1_1_custom_vertex_group.html#a0435777ef114b36f3264f3b5556d5c29", null ]
 ];

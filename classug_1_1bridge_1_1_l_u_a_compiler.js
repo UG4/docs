@@ -8,7 +8,7 @@ var classug_1_1bridge_1_1_l_u_a_compiler =
     [ "createC", "classug_1_1bridge_1_1_l_u_a_compiler.html#ae220724c727f6474c5b136872613e656", null ],
     [ "createVM", "classug_1_1bridge_1_1_l_u_a_compiler.html#adbb2474aa67953a9feddca940b209ccd", null ],
     [ "is_valid", "classug_1_1bridge_1_1_l_u_a_compiler.html#af0a0b734af96bad48d9711739db5da14", null ],
-    [ "name", "classug_1_1bridge_1_1_l_u_a_compiler.html#a5beb7eb53d4133523248137ed331aab9", null ],
+    [ "name", "classug_1_1bridge_1_1_l_u_a_compiler.html#a5b4f12cc4354d0df23df648bb93629ff", null ],
     [ "num_in", "classug_1_1bridge_1_1_l_u_a_compiler.html#a65ce37d1e0f47c58390c16eeb45bb1c3", null ],
     [ "num_out", "classug_1_1bridge_1_1_l_u_a_compiler.html#aaae2a29bd26daea1823d8ac99e136005", null ],
     [ "bInitialized", "classug_1_1bridge_1_1_l_u_a_compiler.html#ad874ded1b4c802470faf6781bff4bece", null ],

@@ -5,7 +5,7 @@ var classug_1_1_subdiv_rules___p_loop =
     [ "SubdivRules_PLoop", "classug_1_1_subdiv_rules___p_loop.html#aa8d5b91122e860ae6cde729d138fbb47", null ],
     [ "calculate_beta", "classug_1_1_subdiv_rules___p_loop.html#a59c8d17b9cb4a2705ee51dd42129d4e4", null ],
     [ "get_beta", "classug_1_1_subdiv_rules___p_loop.html#aca6b7fefe2f1c28a9da6f83820160787", null ],
-    [ "inst", "classug_1_1_subdiv_rules___p_loop.html#ae0e974897a344cef2042570379a5d5c3", null ],
+    [ "inst", "classug_1_1_subdiv_rules___p_loop.html#a74a22739884617ce79a43259e4bd0311", null ],
     [ "next_ind", "classug_1_1_subdiv_rules___p_loop.html#a54265470e5720f86f54fa68ec7e723c9", null ],
     [ "operator=", "classug_1_1_subdiv_rules___p_loop.html#a5288c282e52f5efec0c68d9cb4c33fca", null ],
     [ "prev_ind", "classug_1_1_subdiv_rules___p_loop.html#aa89b3c07573d3680469f686d1af9e428", null ],

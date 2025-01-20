@@ -7,7 +7,7 @@ var classug_1_1_super_l_u_solver =
     [ "col_perm_natural", "classug_1_1_super_l_u_solver.html#a66ee7411a0c3b9af9a79093fdce64bb6", null ],
     [ "double_apply", "classug_1_1_super_l_u_solver.html#a0fb8ffa78ccde5005854b96ff147d8e4", null ],
     [ "double_init", "classug_1_1_super_l_u_solver.html#af688f581ee4203e1dac23f75c1a80103", null ],
-    [ "double_name", "classug_1_1_super_l_u_solver.html#a2f935a3b106e2165780a946ffcb495ae", null ],
+    [ "double_name", "classug_1_1_super_l_u_solver.html#afeebae0d3b25725938fd330711daef71", null ],
     [ "equil", "classug_1_1_super_l_u_solver.html#a8599e5381d1608e947b2991dd3e0b69c", null ],
     [ "print_stat", "classug_1_1_super_l_u_solver.html#a60623567e7592d9ad963b5ce3892a062", null ],
     [ "config", "classug_1_1_super_l_u_solver.html#a5ddd1d42d9071dbe1f59a7fb7bc343c0", null ],

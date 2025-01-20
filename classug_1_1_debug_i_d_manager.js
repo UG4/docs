@@ -7,7 +7,7 @@ var classug_1_1_debug_i_d_manager =
     [ "get_debug_level", "group__ugbase__common.html#ga6f196322eb8ff14ad51a1e797e27ead9", null ],
     [ "get_or_create_debug_id", "group__ugbase__common.html#ga3a842d75c4fb45cfdbf4b64f0fc9836c", null ],
     [ "get_registered_debug_IDs", "group__ugbase__common.html#ga999a7d0a3c0200c2568c21ad9862ba79", null ],
-    [ "get_registered_debug_IDs_arr", "group__ugbase__common.html#gaff7cd57711b3a2cf76f2e8d5428759a6", null ],
+    [ "get_registered_debug_IDs_arr", "group__ugbase__common.html#ga4654bc9750abb93e4e121ed0280a6007", null ],
     [ "instance", "group__ugbase__common.html#ga5332c47cfc482669ee58b7532aa9f345", null ],
     [ "register_debug_id", "group__ugbase__common.html#ga4eabfdb00615aabf4b82f35fb7a10709", null ],
     [ "set_debug_level", "group__ugbase__common.html#gad2d486c46c1d42de439861456691ba13", null ],

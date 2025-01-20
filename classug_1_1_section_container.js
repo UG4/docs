@@ -18,7 +18,7 @@ var classug_1_1_section_container =
     [ "end", "classug_1_1_section_container.html#a1f0233f09fe97c258f879ca6abc6ce89", null ],
     [ "erase", "classug_1_1_section_container.html#a194f4beff58ba3a2b8c6b6f7e8f277d8", null ],
     [ "front", "classug_1_1_section_container.html#a30af00b5d47876c94369245e79248e0e", null ],
-    [ "get_container", "classug_1_1_section_container.html#a14120e77dc59e6915e7d08f018504dff", null ],
+    [ "get_container", "classug_1_1_section_container.html#a2e4a891bf1dff77ede3d145a3ac1aede", null ],
     [ "insert", "classug_1_1_section_container.html#af0fbce0a14701aeda5dfa0551f834c02", null ],
     [ "num_elements", "classug_1_1_section_container.html#a5a095921d2cc246125998d22e42b58d2", null ],
     [ "num_elements", "classug_1_1_section_container.html#afaf001de9cb9ede5a8a5a19fc969e22e", null ],

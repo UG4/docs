@@ -7,5 +7,5 @@ var parallel__storage__type_8h =
       [ "PST_UNIQUE", "parallel__storage__type_8h.html#gga75c6ad52009fea9cf3f582261c814936ab482bd040f659913f5e4a31365367399", null ]
     ] ],
     [ "operator&", "parallel__storage__type_8h.html#acf246ffe7d57a93eccec59fc4ceed7c9", null ],
-    [ "operator<<", "parallel__storage__type_8h.html#a19c9e97336bd542e4b809f0650d6ad34", null ]
+    [ "operator<<", "parallel__storage__type_8h.html#a26c5d1bafb151b51fa2460f0173b2084", null ]
 ];

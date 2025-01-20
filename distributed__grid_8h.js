@@ -1,9 +1,9 @@
 var distributed__grid_8h =
 [
-    [ "Data", "structug_1_1_distributed_grid_manager_1_1_element_info_1_1_data.html", "structug_1_1_distributed_grid_manager_1_1_element_info_1_1_data" ],
-    [ "ElementInfo", "classug_1_1_distributed_grid_manager_1_1_element_info.html", "classug_1_1_distributed_grid_manager_1_1_element_info" ],
-    [ "Entry", "structug_1_1_distributed_grid_manager_1_1_element_info_1_1_entry.html", "structug_1_1_distributed_grid_manager_1_1_element_info_1_1_entry" ],
-    [ "ScheduledElement", "structug_1_1_distributed_grid_manager_1_1_scheduled_element.html", "structug_1_1_distributed_grid_manager_1_1_scheduled_element" ],
+    [ "ug::DistributedGridManager::ElementInfo< TGeomObj >::Data", "structug_1_1_distributed_grid_manager_1_1_element_info_1_1_data.html", "structug_1_1_distributed_grid_manager_1_1_element_info_1_1_data" ],
+    [ "ug::DistributedGridManager::ElementInfo< TGeomObj >", "classug_1_1_distributed_grid_manager_1_1_element_info.html", "classug_1_1_distributed_grid_manager_1_1_element_info" ],
+    [ "ug::DistributedGridManager::ElementInfo< TGeomObj >::Entry", "structug_1_1_distributed_grid_manager_1_1_element_info_1_1_entry.html", "structug_1_1_distributed_grid_manager_1_1_element_info_1_1_entry" ],
+    [ "ug::DistributedGridManager::ScheduledElement", "structug_1_1_distributed_grid_manager_1_1_scheduled_element.html", "structug_1_1_distributed_grid_manager_1_1_scheduled_element" ],
     [ "ElementStatusTypes", "distributed__grid_8h.html#ga6673d0e4bb103780076ba4fefd8102e5", [
       [ "ES_NONE", "distributed__grid_8h.html#gga6673d0e4bb103780076ba4fefd8102e5a8622a42d6d250233d1ff1f1407983655", null ],
       [ "ES_H_MASTER", "distributed__grid_8h.html#gga6673d0e4bb103780076ba4fefd8102e5a6c2a63beec0bc0d93c19eb3ad72560fe", null ],

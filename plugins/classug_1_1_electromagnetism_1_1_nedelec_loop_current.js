@@ -31,7 +31,7 @@ var classug_1_1_electromagnetism_1_1_nedelec_loop_current =
     [ "mark_source_edges", "classug_1_1_electromagnetism_1_1_nedelec_loop_current.html#ad1672d6200d5bdcd85d05d2e54aeec8c", null ],
     [ "set", "classug_1_1_electromagnetism_1_1_nedelec_loop_current.html#abb317d8b379bf15ec36cc616d4186982", null ],
     [ "subsets", "classug_1_1_electromagnetism_1_1_nedelec_loop_current.html#a3a0b33ae8b004025fdbd7ec338bea071", null ],
-    [ "zero_average", "classug_1_1_electromagnetism_1_1_nedelec_loop_current.html#a5860aa02d34720728fca9b3d547ce31b", null ],
+    [ "zero_average", "classug_1_1_electromagnetism_1_1_nedelec_loop_current.html#a5761baa86367fb1b550581bdf044b8e2", null ],
     [ "m_allSsGrp", "classug_1_1_electromagnetism_1_1_nedelec_loop_current.html#aec537763413d0c5b625f2865fe62f167", null ],
     [ "m_allSsNames", "classug_1_1_electromagnetism_1_1_nedelec_loop_current.html#a4c18e6d4c4aeb4fb774f13aaa132ca4b", null ],
     [ "m_auxLaplaceAss", "classug_1_1_electromagnetism_1_1_nedelec_loop_current.html#abc74817454816a6ef6a20200f46773be", null ],

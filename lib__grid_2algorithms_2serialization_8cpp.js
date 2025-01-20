@@ -1,6 +1,6 @@
 var lib__grid_2algorithms_2serialization_8cpp =
 [
-    [ "GridHeader", "structug_1_1_grid_header.html", "structug_1_1_grid_header" ],
+    [ "ug::GridHeader", "structug_1_1_grid_header.html", "structug_1_1_grid_header" ],
     [ "PROFILE_GRID_SERIALIZATION", "lib__grid_2algorithms_2serialization_8cpp.html#ad6e123a09f9c94673ad2729ba90b3af8", null ],
     [ "SRLZ_PROFILE", "lib__grid_2algorithms_2serialization_8cpp.html#a4c25b94fd36d164b693be5c37423d03d", null ],
     [ "SRLZ_PROFILE_END", "lib__grid_2algorithms_2serialization_8cpp.html#a124ec5849287d8e158611918fb6a5d73", null ],
@@ -48,7 +48,7 @@ var lib__grid_2algorithms_2serialization_8cpp =
     [ "DeserializeSelector", "lib__grid_2algorithms_2serialization_8cpp.html#gab3209c6f4efdb06242d7ec0689082ccb", null ],
     [ "DeserializeSubsetHandler", "lib__grid_2algorithms_2serialization_8cpp.html#ga6b0dbbef11451c2abae8c19787ca6bf9", null ],
     [ "DeserializeSubsetHandler", "lib__grid_2algorithms_2serialization_8cpp.html#ga0f1dd81f3cb1079f33db92c1bcbe00c3", null ],
-    [ "GetParent", "lib__grid_2algorithms_2serialization_8cpp.html#a813ae96e57e7df41bb878fbb2cab0cdb", null ],
+    [ "GetParent", "lib__grid_2algorithms_2serialization_8cpp.html#a17965fc436ca42f4e2f1a667d189100c", null ],
     [ "ReadGridHeader", "lib__grid_2algorithms_2serialization_8cpp.html#a7cc325c33e397d43d1c426b78005fcb8", null ],
     [ "ReadSelectionStatesFromStream", "lib__grid_2algorithms_2serialization_8cpp.html#aaac7c40a94125c6a61b8cf07ef5f1a76", null ],
     [ "ReadSubsetIndicesFromStream", "lib__grid_2algorithms_2serialization_8cpp.html#a7723378ab4a6a7c3fc65e75fafe0e940", null ],

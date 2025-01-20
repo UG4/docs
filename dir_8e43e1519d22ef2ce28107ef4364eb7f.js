@@ -21,9 +21,7 @@ var dir_8e43e1519d22ef2ce28107ef4364eb7f =
     [ "debug_util.cpp", "debug__util_8cpp.html", "debug__util_8cpp" ],
     [ "debug_util.h", "debug__util_8h.html", "debug__util_8h" ],
     [ "debug_util_impl.hpp", "debug__util__impl_8hpp.html", "debug__util__impl_8hpp" ],
-    [ "deg_layer_mngr.h", "deg__layer__mngr_8h.html", [
-      [ "DegeneratedLayerManager", "classug_1_1_degenerated_layer_manager.html", "classug_1_1_degenerated_layer_manager" ]
-    ] ],
+    [ "deg_layer_mngr.h", "deg__layer__mngr_8h.html", "deg__layer__mngr_8h" ],
     [ "deg_layer_mngr_impl.h", "deg__layer__mngr__impl_8h.html", null ],
     [ "duplicate.h", "duplicate_8h.html", "duplicate_8h" ],
     [ "element_angles.h", "element__angles_8h.html", "element__angles_8h" ],
@@ -64,9 +62,7 @@ var dir_8e43e1519d22ef2ce28107ef4364eb7f =
     [ "quadrilateral_util.h", "quadrilateral__util_8h.html", "quadrilateral__util_8h" ],
     [ "quality_util.cpp", "quality__util_8cpp.html", null ],
     [ "quality_util.h", "quality__util_8h.html", "quality__util_8h" ],
-    [ "raster_layer_util.cpp", "raster__layer__util_8cpp.html", [
-      [ "CellIdx", "structug_1_1_cell_idx.html", "structug_1_1_cell_idx" ]
-    ] ],
+    [ "raster_layer_util.cpp", "raster__layer__util_8cpp.html", "raster__layer__util_8cpp" ],
     [ "raster_layer_util.h", "raster__layer__util_8h.html", "raster__layer__util_8h" ],
     [ "ray_element_intersection_util.cpp", "ray__element__intersection__util_8cpp.html", "ray__element__intersection__util_8cpp" ],
     [ "ray_element_intersection_util.h", "ray__element__intersection__util_8h.html", "ray__element__intersection__util_8h" ],

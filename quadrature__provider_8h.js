@@ -1,6 +1,6 @@
 var quadrature__provider_8h =
 [
-    [ "QuadratureRuleProvider", "classug_1_1_quadrature_rule_provider.html", "classug_1_1_quadrature_rule_provider" ],
+    [ "ug::QuadratureRuleProvider< TDim >", "classug_1_1_quadrature_rule_provider.html", "classug_1_1_quadrature_rule_provider" ],
     [ "QuadType", "quadrature__provider_8h.html#a35e2e7ec4c571cf5c38889b9b274aeb0", [
       [ "BEST", "quadrature__provider_8h.html#a35e2e7ec4c571cf5c38889b9b274aeb0a200f932b77f5e7406f9afb7a70d8fb6e", null ],
       [ "GAUSS", "quadrature__provider_8h.html#a35e2e7ec4c571cf5c38889b9b274aeb0a204ce557938d6d9ab10a9f7c3d2690c0", null ],

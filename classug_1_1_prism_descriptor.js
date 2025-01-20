@@ -5,6 +5,6 @@ var classug_1_1_prism_descriptor =
     [ "PrismDescriptor", "classug_1_1_prism_descriptor.html#a1d20cab16066d6161358cee3e28b9da0", null ],
     [ "PrismDescriptor", "classug_1_1_prism_descriptor.html#ac35f08d3d4540de3f37dd5dd5bbb9289", null ],
     [ "num_vertices", "classug_1_1_prism_descriptor.html#ae8b304077af04b6027ef959162d2d900", null ],
-    [ "vertex", "classug_1_1_prism_descriptor.html#a5c19a1976e3fdb7637527cb87cb497dc", null ],
+    [ "vertex", "classug_1_1_prism_descriptor.html#a7e915d092b609224e9aad69edec89242", null ],
     [ "m_vertex", "classug_1_1_prism_descriptor.html#a7f9b9065b2335e006f09170188598b86", null ]
 ];

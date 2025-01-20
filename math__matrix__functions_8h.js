@@ -54,7 +54,7 @@ var math__matrix__functions_8h =
     [ "MatSubtract", "math__matrix__functions_8h.html#ga2be4fb5f1ce05e957d62c7e4471f3c56", null ],
     [ "MatSubtract", "math__matrix__functions_8h.html#gae4ed4910e44f9d26bf55746bb715a2a4", null ],
     [ "MaxAbsEigenvalue", "math__matrix__functions_8h.html#gae53e82604ad8fe2702939964fd2b8605", null ],
-    [ "MinAbsEigenvalue", "math__matrix__functions_8h.html#ga22e27e8c6a4a9cd0a763a5332d1b7571", null ],
+    [ "MinAbsEigenvalue", "math__matrix__functions_8h.html#ga0aa94651258468b3b64e5b6940629bfd", null ],
     [ "RightInverse", "math__matrix__functions_8h.html#gaf5871d34c2b830a8f59c1d972be20ae0", null ],
     [ "RightInverse", "math__matrix__functions_8h.html#ga499acf18dd65bf166c6badf3911cb31f", null ],
     [ "RightInverse", "math__matrix__functions_8h.html#gae15de87e87a1669393e11531ce24299a", null ],

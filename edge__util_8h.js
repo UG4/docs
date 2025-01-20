@@ -14,7 +14,7 @@ var edge__util_8h =
     [ "EdgeCollapseIsValid", "edge__util_8h.html#ga9f7b8169cfae5eb50fc502401c9d8fde", null ],
     [ "EdgeLength", "edge__util_8h.html#gae641a616a9dade33b7435c7e1f98fe0d", null ],
     [ "EdgeLengthSq", "edge__util_8h.html#ga9ac3258a67343fc5e0dec267bb84d33d", null ],
-    [ "FindShortestEdge", "edge__util_8h.html#ga5b6139da5c102d916b7e919b8f5ad501", null ],
+    [ "FindShortestEdge", "edge__util_8h.html#ga59f716225688c92e8f94757eab221d11", null ],
     [ "FixEdgeOrientation", "edge__util_8h.html#gab71f0105ef482356bab57a65bc535624", null ],
     [ "GetAssociatedFaces", "edge__util_8h.html#ga6530a13a5990c960cfd2f1f066e0be8c", null ],
     [ "GetConnectingEdge", "edge__util_8h.html#gac8adcbaa5a7de0382231d8d2a058a362", null ],

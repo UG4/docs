@@ -1,7 +1,7 @@
 var util__domain__dependent_8h =
 [
-    [ "RegEnd", "structug_1_1bridge_1_1_register_domain_dependent_1_1_reg_end.html", "structug_1_1bridge_1_1_register_domain_dependent_1_1_reg_end" ],
-    [ "RegNext", "structug_1_1bridge_1_1_register_domain_dependent_1_1_reg_next.html", "structug_1_1bridge_1_1_register_domain_dependent_1_1_reg_next" ],
+    [ "ug::bridge::RegisterDomainDependent< Functionality, List >::RegEnd", "structug_1_1bridge_1_1_register_domain_dependent_1_1_reg_end.html", "structug_1_1bridge_1_1_register_domain_dependent_1_1_reg_end" ],
+    [ "ug::bridge::RegisterDomainDependent< Functionality, List >::RegNext", "structug_1_1bridge_1_1_register_domain_dependent_1_1_reg_next.html", "structug_1_1bridge_1_1_register_domain_dependent_1_1_reg_next" ],
     [ "CompileDomainList", "util__domain__dependent_8h.html#ga737e5ca9628eb5778ac3c9778756fb7a", null ],
     [ "RegisterDomain1dDependent", "util__domain__dependent_8h.html#ga6861d6e65a40349b2d4422a31680c413", null ],
     [ "RegisterDomain2d3dDependent", "util__domain__dependent_8h.html#gade6adfb5102ef55cff87b346e4bde47c", null ],

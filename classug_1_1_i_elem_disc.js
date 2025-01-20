@@ -9,7 +9,7 @@ var classug_1_1_i_elem_disc =
     [ "add_elem_modifier", "classug_1_1_i_elem_disc.html#ad105753f70087c57fdc26dfdc760a174", null ],
     [ "clear_add_fct", "classug_1_1_i_elem_disc.html#abe66d81778fd8b0b5a715ed91e4c8972", null ],
     [ "clear_add_fct", "classug_1_1_i_elem_disc.html#a69f5810dc53bfee072a3340032641460", null ],
-    [ "get_elem_modifier", "classug_1_1_i_elem_disc.html#a0d74b1522916f896d347c8d6f8d82fc7", null ],
+    [ "get_elem_modifier", "classug_1_1_i_elem_disc.html#aa1c9119ba9fdc8023e4b5ab474c16a8b", null ],
     [ "set_default_add_fct", "classug_1_1_i_elem_disc.html#a46a8fadd6434a14bb6ec6c1378e1e759", null ],
     [ "IElemAssembleFuncs< IElemDisc< TDomain >, TDomain >", "classug_1_1_i_elem_disc.html#af17d19576c5e37adf366999d5806c6cd", null ],
     [ "IElemEstimatorFuncs< IElemDisc< TDomain >, TDomain >", "classug_1_1_i_elem_disc.html#a761d0968c37db334217ef1a4a49345a3", null ],

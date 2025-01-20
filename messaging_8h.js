@@ -1,6 +1,6 @@
 var messaging_8h =
 [
-    [ "MessageBuffer", "classug_1_1vrl_1_1_message_buffer.html", "classug_1_1vrl_1_1_message_buffer" ],
+    [ "ug::vrl::MessageBuffer", "classug_1_1vrl_1_1_message_buffer.html", "classug_1_1vrl_1_1_message_buffer" ],
     [ "COLOR_END", "messaging_8h.html#a0ef5fd78a051792b1a266b5ed90481c7", null ],
     [ "EMPHASIZE_BEGIN", "messaging_8h.html#a56a345f6cbafbe2b8c6bb6989abd89de", null ],
     [ "EMPHASIZE_END", "messaging_8h.html#a5a2bb6f6b1c0c15850485a838c6969bc", null ],

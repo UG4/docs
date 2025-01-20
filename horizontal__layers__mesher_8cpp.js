@@ -1,6 +1,6 @@
 var horizontal__layers__mesher_8cpp =
 [
-    [ "ConnectedToOneMarkedVrt", "structug_1_1_connected_to_one_marked_vrt.html", "structug_1_1_connected_to_one_marked_vrt" ],
+    [ "ug::ConnectedToOneMarkedVrt", "structug_1_1_connected_to_one_marked_vrt.html", "structug_1_1_connected_to_one_marked_vrt" ],
     [ "ExtrudeLayers", "horizontal__layers__mesher_8cpp.html#a12b454f96e5779591a62ea52bdd80955", null ],
     [ "ExtrudeLayersMixed", "horizontal__layers__mesher_8cpp.html#a12aa226211e88392b205b90b11a914d7", null ],
     [ "MeshLayerBoundaries", "horizontal__layers__mesher_8cpp.html#a73d5de36a8e11246ed60c127e1b0bb40", null ],

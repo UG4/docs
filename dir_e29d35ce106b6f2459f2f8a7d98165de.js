@@ -3,9 +3,7 @@ var dir_e29d35ce106b6f2459f2f8a7d98165de =
     [ "converter.cpp", "converter_8cpp.html", "converter_8cpp" ],
     [ "lexer.cpp", "lexer_8cpp.html", "lexer_8cpp" ],
     [ "lua_compiler.cpp", "lua__compiler_8cpp.html", "lua__compiler_8cpp" ],
-    [ "lua_compiler.h", "lua__compiler_8h.html", [
-      [ "LUACompiler", "classug_1_1bridge_1_1_l_u_a_compiler.html", "classug_1_1bridge_1_1_l_u_a_compiler" ]
-    ] ],
+    [ "lua_compiler.h", "lua__compiler_8h.html", "lua__compiler_8h" ],
     [ "lua_compiler_debug.h", "lua__compiler__debug_8h.html", null ],
     [ "lua_parser_class.cpp", "lua__parser__class_8cpp.html", "lua__parser__class_8cpp" ],
     [ "lua_parser_class.h", "lua__parser__class_8h.html", "lua__parser__class_8h" ],
@@ -19,11 +17,7 @@ var dir_e29d35ce106b6f2459f2f8a7d98165de =
     [ "parser.hpp", "parser_8hpp.html", "parser_8hpp" ],
     [ "parser_node.h", "parser__node_8h.html", "parser__node_8h" ],
     [ "system_call.cpp", "system__call_8cpp.html", null ],
-    [ "system_call.h", "system__call_8h.html", [
-      [ "SystemCall", "class_system_call.html", "class_system_call" ]
-    ] ],
+    [ "system_call.h", "system__call_8h.html", "system__call_8h" ],
     [ "vm.doxygen", "vm_8doxygen.html", null ],
-    [ "vm.h", "vm_8h.html", [
-      [ "VMAdd", "classug_1_1_v_m_add.html", "classug_1_1_v_m_add" ]
-    ] ]
+    [ "vm.h", "vm_8h.html", "vm_8h" ]
 ];

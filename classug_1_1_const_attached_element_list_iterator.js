@@ -12,8 +12,8 @@ var classug_1_1_const_attached_element_list_iterator =
     [ "operator++", "classug_1_1_const_attached_element_list_iterator.html#a8e00fa8461354a3c56401a25275bf0c1", null ],
     [ "operator--", "classug_1_1_const_attached_element_list_iterator.html#ab6e1d8610157e7eb5ab03a2752d4a205", null ],
     [ "operator--", "classug_1_1_const_attached_element_list_iterator.html#adf80542629af4542a85f11368bfdfa6f", null ],
-    [ "operator->", "classug_1_1_const_attached_element_list_iterator.html#a5e0cb1f725b25a1f37077efddd74508e", null ],
-    [ "operator=", "classug_1_1_const_attached_element_list_iterator.html#a07e42f2018ef64f0777dc39f0bb89ef5", null ],
+    [ "operator->", "classug_1_1_const_attached_element_list_iterator.html#ae0228446ee4bf005d7fffc0c07db8092", null ],
+    [ "operator=", "classug_1_1_const_attached_element_list_iterator.html#a0d44853e04825f89f48c72b2460460c1", null ],
     [ "operator==", "classug_1_1_const_attached_element_list_iterator.html#a86bc390439fe2fefc7fc849114603cee", null ],
     [ "m_aaEntry", "classug_1_1_const_attached_element_list_iterator.html#a2ba50df22886180e528b12f087d40793", null ],
     [ "m_curElem", "classug_1_1_const_attached_element_list_iterator.html#ab11d468f666e32d4404528d1abf6a12d", null ]

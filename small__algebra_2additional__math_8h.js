@@ -14,7 +14,7 @@ var small__algebra_2additional__math_8h =
     [ "matSum", "small__algebra_2additional__math_8h.html#a2b53b2968380379166d41bbb00ea88db", null ],
     [ "matTrace", "small__algebra_2additional__math_8h.html#aa4e423cea6925670a97f892c82d11299", null ],
     [ "matTrace", "small__algebra_2additional__math_8h.html#a554c2e66984899176b5448bb132ddb34", null ],
-    [ "Sum1Mat1", "small__algebra_2additional__math_8h.html#a4fa423b68c485dc0bc893639a4f7f321", null ],
+    [ "Sum1Mat1", "small__algebra_2additional__math_8h.html#ad9ed63c71d1b6c7af9a4361b16cb57fe", null ],
     [ "Sum1Mat1", "small__algebra_2additional__math_8h.html#a2d6e5ed04b5cb6fbaeee162f3b20c270", null ],
     [ "vecSum", "small__algebra_2additional__math_8h.html#a95fd362b24275b6cbff4833d272de186", null ],
     [ "vecSum", "small__algebra_2additional__math_8h.html#a95e63af34155e9b9b25f6236ffd70ae8", null ],

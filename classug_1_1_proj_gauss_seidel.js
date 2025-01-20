@@ -6,7 +6,7 @@ var classug_1_1_proj_gauss_seidel =
     [ "vector_type", "classug_1_1_proj_gauss_seidel.html#a17d4b883672786acaf87e2ca303ff5d3", null ],
     [ "ProjGaussSeidel", "classug_1_1_proj_gauss_seidel.html#a23edbf708b8f50beb6d834311c9589e5", null ],
     [ "ProjGaussSeidel", "classug_1_1_proj_gauss_seidel.html#a0e45be727ed14fb5c26adbb101afea77", null ],
-    [ "clone", "classug_1_1_proj_gauss_seidel.html#a0f4dfa785ffab1f296ae17349dafa37c", null ],
-    [ "name", "classug_1_1_proj_gauss_seidel.html#a89816e8b5424ffc5ef2e4b98bde1a995", null ],
+    [ "clone", "classug_1_1_proj_gauss_seidel.html#acbf23d557cdcb69280c9915d245a3314", null ],
+    [ "name", "classug_1_1_proj_gauss_seidel.html#acf430f71916d685e765a4363b01289ad", null ],
     [ "step", "classug_1_1_proj_gauss_seidel.html#af0f8548e035680dda3d8b7c9808f19f8", null ]
 ];

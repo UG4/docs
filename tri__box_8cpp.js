@@ -1,6 +1,6 @@
 var tri__box_8cpp =
 [
-    [ "TRI", "structug_1_1_t_r_i.html", "structug_1_1_t_r_i" ],
+    [ "ug::TRI", "structug_1_1_t_r_i.html", "structug_1_1_t_r_i" ],
     [ "CROSS", "tri__box_8cpp.html#a536deac15d685e802664b8c175def492", null ],
     [ "EPS", "tri__box_8cpp.html#a6ebf6899d6c1c8b7b9d09be872c05aae", null ],
     [ "FALSE", "tri__box_8cpp.html#aa93f0eb578d23995850d61f7d61c55c1", null ],

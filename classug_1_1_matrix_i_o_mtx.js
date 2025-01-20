@@ -4,7 +4,7 @@ var classug_1_1_matrix_i_o_mtx =
     [ "MatrixIOMtx", "classug_1_1_matrix_i_o_mtx.html#aa64e12d92e59edf5b79f5c49046ebc9e", null ],
     [ "~MatrixIOMtx", "classug_1_1_matrix_i_o_mtx.html#a18c4d3a8ba088f25cd4d837510821eb5", null ],
     [ "close_file", "classug_1_1_matrix_i_o_mtx.html#aa04619412ff5604c8b95656b2466bccb", null ],
-    [ "determine_matrix_characteristics", "classug_1_1_matrix_i_o_mtx.html#a8f3e61aed13ee46845dee3afd34dfc2b", null ],
+    [ "determine_matrix_characteristics", "classug_1_1_matrix_i_o_mtx.html#a677bd47b26f5a36f1e6b0763c310dd21", null ],
     [ "get_mat_file_name", "classug_1_1_matrix_i_o_mtx.html#ab6df49e54c7a0d75ffbb8f64908ea18d", null ],
     [ "get_num_cols", "classug_1_1_matrix_i_o_mtx.html#ad45a953bf98440255cc64468d72f43e2", null ],
     [ "get_num_lines", "classug_1_1_matrix_i_o_mtx.html#a3aefea768420247dbb8922160d5940fb", null ],

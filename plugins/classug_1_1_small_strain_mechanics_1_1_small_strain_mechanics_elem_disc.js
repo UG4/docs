@@ -28,7 +28,7 @@ var classug_1_1_small_strain_mechanics_1_1_small_strain_mechanics_elem_disc =
     [ "ex_stress_fe", "classug_1_1_small_strain_mechanics_1_1_small_strain_mechanics_elem_disc.html#a12f4ae98186792497eded325198049b6", null ],
     [ "fsh_elem_loop", "classug_1_1_small_strain_mechanics_1_1_small_strain_mechanics_elem_disc.html#af62337ca776b37fbf58e97dc1392e530", null ],
     [ "fsh_timestep_elem", "classug_1_1_small_strain_mechanics_1_1_small_strain_mechanics_elem_disc.html#a2a660d2b5815971d8aefa0ea5e21c8ce", null ],
-    [ "get_material_law", "classug_1_1_small_strain_mechanics_1_1_small_strain_mechanics_elem_disc.html#a6eb914e36a490f53bd59ec25307d7738", null ],
+    [ "get_material_law", "classug_1_1_small_strain_mechanics_1_1_small_strain_mechanics_elem_disc.html#a8276f880cc7d687f97daf57ae2242cfb", null ],
     [ "get_quad_order", "classug_1_1_small_strain_mechanics_1_1_small_strain_mechanics_elem_disc.html#aaadcbb951d5b474d77f6247a76890408", null ],
     [ "init_state_variables", "classug_1_1_small_strain_mechanics_1_1_small_strain_mechanics_elem_disc.html#a2b864e55226faa3cbb0e549baf9ef44b", null ],
     [ "lin_def_pressure", "classug_1_1_small_strain_mechanics_1_1_small_strain_mechanics_elem_disc.html#a7e7020d229cf52a7399d74be78d8411e", null ],

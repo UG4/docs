@@ -9,7 +9,7 @@ var classug_1_1_volume_descriptor =
     [ "operator=", "classug_1_1_volume_descriptor.html#a6a48a7270367277a1af375874e0f1755", null ],
     [ "set_num_vertices", "classug_1_1_volume_descriptor.html#ab60768126bb470249334fc56a5c6b331", null ],
     [ "set_vertex", "classug_1_1_volume_descriptor.html#a1a18dbc15bbcd8624fe98e99ef049d59", null ],
-    [ "vertex", "classug_1_1_volume_descriptor.html#af8ead83b88fd0f7c82e23b1239df9388", null ],
+    [ "vertex", "classug_1_1_volume_descriptor.html#a8b88317aa17bdf9f3abf39ff5ccaa2b4", null ],
     [ "vertices", "classug_1_1_volume_descriptor.html#a053070bb4b90f60a7497d70a0834d95f", null ],
     [ "m_numVertices", "classug_1_1_volume_descriptor.html#a9f69575a4cffbd86c826deb2400b80ed", null ],
     [ "m_vertices", "classug_1_1_volume_descriptor.html#a3e1093d7b32efe4879739f485e7db618", null ]

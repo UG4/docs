@@ -4,7 +4,7 @@ var namespaceug_1_1detail =
       [ "CallArchiveOnDerivedClass", "namespaceug_1_1detail_1_1archivar.html#a3fa15982921d2b62ea78760df16ac657", null ]
     ] ],
     [ "factory", "namespaceug_1_1detail_1_1factory.html", [
-      [ "DerivedClassFactory", "namespaceug_1_1detail_1_1factory.html#ad1de177f4040ca3287922a28274271d8", null ]
+      [ "DerivedClassFactory", "namespaceug_1_1detail_1_1factory.html#a0725605493ed6d85904c98bca4416e7e", null ]
     ] ],
     [ "quadUtil", "namespaceug_1_1detail_1_1quad_util.html", "namespaceug_1_1detail_1_1quad_util" ],
     [ "bglp_vertex_descriptor", "classug_1_1detail_1_1bglp__vertex__descriptor.html", "classug_1_1detail_1_1bglp__vertex__descriptor" ],

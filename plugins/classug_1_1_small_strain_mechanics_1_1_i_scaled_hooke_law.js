@@ -5,7 +5,7 @@ var classug_1_1_small_strain_mechanics_1_1_i_scaled_hooke_law =
     [ "this_type", "group__small__strain__mechanics.html#ga8a952a79a2da4c2e7d76a633094b6524", null ],
     [ "IScaledHookeLaw", "group__small__strain__mechanics.html#gad72b530f71a8ee3b11c5cd0cee7132c9", null ],
     [ "~IScaledHookeLaw", "group__small__strain__mechanics.html#gaf68a945731d919bca8e2c4a70672e103", null ],
-    [ "energy_on_curr_elem", "group__small__strain__mechanics.html#ga59c3c2a67b79a7f502315f7eeb0b4ece", null ],
+    [ "energy_on_curr_elem", "group__small__strain__mechanics.html#gad3c51ea61d07e9b967eda6147fd463f7", null ],
     [ "init_internal_vars", "group__small__strain__mechanics.html#gacb68cf6a86629b5c08bf5db2f5b34a3b", null ],
     [ "internal_vars", "group__small__strain__mechanics.html#gaca8a908c8fcb00b4f411dee808f28842", null ],
     [ "post_process_energy_on_curr_elem", "group__small__strain__mechanics.html#ga2962a914615553dd71c76651e56e99e9", null ],

@@ -5,7 +5,7 @@ var classug_1_1_do_f_count =
     [ "DoFCount", "classug_1_1_do_f_count.html#a97b11a09c8db507375c16626b07c47dd", null ],
     [ "add", "classug_1_1_do_f_count.html#a7cb36484b5212182b367adc4991fa961", null ],
     [ "collect_values", "classug_1_1_do_f_count.html#a44860341db8feabdc97a50a04e10846a", null ],
-    [ "grid_level", "classug_1_1_do_f_count.html#a772c279f0a773095dccb5294a73e701a", null ],
+    [ "grid_level", "classug_1_1_do_f_count.html#a01a4af601caf966a03a7959c458df431", null ],
     [ "num", "classug_1_1_do_f_count.html#af5d0ed85720e34595820cdb50cf23203", null ],
     [ "num_contains", "classug_1_1_do_f_count.html#ac73126801af606d381b84588e2157759", null ],
     [ "set_values", "classug_1_1_do_f_count.html#a7c4c4a0a9c150b5d5099c7ecac54c0e1", null ],

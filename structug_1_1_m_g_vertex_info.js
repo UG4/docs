@@ -5,7 +5,7 @@ var structug_1_1_m_g_vertex_info =
     [ "add_child", "structug_1_1_m_g_vertex_info.html#a8e090654bca771519701c1c68deb58da", null ],
     [ "add_child", "structug_1_1_m_g_vertex_info.html#aab8503bb4d3bbc178273b87d2ee2f660", null ],
     [ "add_child", "structug_1_1_m_g_vertex_info.html#a192524db4152e3d408d621ac5f07b384", null ],
-    [ "child_vertex", "structug_1_1_m_g_vertex_info.html#a200936517da28b077c297a05336df39f", null ],
+    [ "child_vertex", "structug_1_1_m_g_vertex_info.html#ad62ef10ae47a79a692de9afeaad322bb", null ],
     [ "clear_children", "structug_1_1_m_g_vertex_info.html#a1f29553e748e0cc7268f350e95bda950", null ],
     [ "has_children", "structug_1_1_m_g_vertex_info.html#ab0ac44025df06bcda6b004b810602211", null ],
     [ "num_child_vertices", "structug_1_1_m_g_vertex_info.html#a72edf2c2d8f07598675492df6e99137b", null ],

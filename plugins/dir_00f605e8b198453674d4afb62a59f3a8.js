@@ -1,9 +1,7 @@
 var dir_00f605e8b198453674d4afb62a59f3a8 =
 [
     [ "class_hierarchy_provider.cpp", "class__hierarchy__provider_8cpp.html", null ],
-    [ "class_hierarchy_provider.h", "class__hierarchy__provider_8h.html", [
-      [ "ClassHierarchyProvider", "classug_1_1_docu_gen_1_1_class_hierarchy_provider.html", "classug_1_1_docu_gen_1_1_class_hierarchy_provider" ]
-    ] ],
+    [ "class_hierarchy_provider.h", "class__hierarchy__provider_8h.html", "class__hierarchy__provider_8h" ],
     [ "clickEventHandler.txt.h", "click_event_handler_8txt_8h.html", "click_event_handler_8txt_8h" ],
     [ "completion_list_generation.cpp", "completion__list__generation_8cpp.html", "completion__list__generation_8cpp" ],
     [ "cpp_generator.cpp", "cpp__generator_8cpp.html", "cpp__generator_8cpp" ],

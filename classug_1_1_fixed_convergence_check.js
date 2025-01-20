@@ -3,7 +3,7 @@ var classug_1_1_fixed_convergence_check =
     [ "FixedConvergenceCheck", "classug_1_1_fixed_convergence_check.html#aa9b36c11f3166ad2dfacc5002ffb2f2b", null ],
     [ "~FixedConvergenceCheck", "classug_1_1_fixed_convergence_check.html#adb5454fac8a5a1cbcfc8a6b10a491b20", null ],
     [ "avg_rate", "classug_1_1_fixed_convergence_check.html#a70ee4bb86847add1d3fbbd5e5545e03c", null ],
-    [ "clone", "classug_1_1_fixed_convergence_check.html#af47e26219a0bea6346e1c62b3ba39a07", null ],
+    [ "clone", "classug_1_1_fixed_convergence_check.html#a05f5fd57510b64fc8e86dc165e9146f8", null ],
     [ "config_string", "classug_1_1_fixed_convergence_check.html#a32aaff322beada7a831a05e94235f092", null ],
     [ "defect", "classug_1_1_fixed_convergence_check.html#a48418d898d4f255481452b86f1ee9d32", null ],
     [ "get_offset", "classug_1_1_fixed_convergence_check.html#a0566135c01377dec92ebefd2959106b9", null ],

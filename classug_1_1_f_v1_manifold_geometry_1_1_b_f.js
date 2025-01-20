@@ -1,10 +1,10 @@
 var classug_1_1_f_v1_manifold_geometry_1_1_b_f =
 [
     [ "BF", "classug_1_1_f_v1_manifold_geometry_1_1_b_f.html#a2987fa85bc375dab483528f01c234640", null ],
-    [ "global_corner", "classug_1_1_f_v1_manifold_geometry_1_1_b_f.html#aade1ac74d474e2f21651773a08e66e0e", null ],
-    [ "global_ip", "classug_1_1_f_v1_manifold_geometry_1_1_b_f.html#ab585558e3adcb0661d7d315795a1c9e6", null ],
-    [ "local_corner", "classug_1_1_f_v1_manifold_geometry_1_1_b_f.html#a57a903c6bed02a35de0073081fb25834", null ],
-    [ "local_ip", "classug_1_1_f_v1_manifold_geometry_1_1_b_f.html#a7d8a933dd02feec627b7aadc407bfb16", null ],
+    [ "global_corner", "classug_1_1_f_v1_manifold_geometry_1_1_b_f.html#a1948edd044c0c802d0ea9b82d47392ec", null ],
+    [ "global_ip", "classug_1_1_f_v1_manifold_geometry_1_1_b_f.html#a439e2b013863414d92b3bf1bb8d9449b", null ],
+    [ "local_corner", "classug_1_1_f_v1_manifold_geometry_1_1_b_f.html#a3ec5530fe46e250653a1f0336cb4f8b5", null ],
+    [ "local_ip", "classug_1_1_f_v1_manifold_geometry_1_1_b_f.html#a7baffe9ecc6ab2e59d4f1aad5e5d5ec0", null ],
     [ "node_id", "classug_1_1_f_v1_manifold_geometry_1_1_b_f.html#a9018192d7ba62c561ff8cbe69851509d", null ],
     [ "num_corners", "classug_1_1_f_v1_manifold_geometry_1_1_b_f.html#a418932f051beaeb395e06ae2a6eb7ce2", null ],
     [ "num_ip", "classug_1_1_f_v1_manifold_geometry_1_1_b_f.html#a2a5b7e9f09b46c146ef720027489047d", null ],

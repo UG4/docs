@@ -1,11 +1,11 @@
 var elem__disc__interface_8h =
 [
-    [ "IElemDisc", "classug_1_1_i_elem_disc.html", "classug_1_1_i_elem_disc" ],
-    [ "IElemDiscBase", "classug_1_1_i_elem_disc_base.html", "classug_1_1_i_elem_disc_base" ],
-    [ "IElemError", "classug_1_1_i_elem_error.html", "classug_1_1_i_elem_error" ],
-    [ "IElemEstimatorFuncs", "classug_1_1_i_elem_estimator_funcs.html", "classug_1_1_i_elem_estimator_funcs" ],
-    [ "VectorProxy", "structug_1_1_vector_proxy.html", "structug_1_1_vector_proxy" ],
-    [ "VectorProxyBase", "structug_1_1_vector_proxy_base.html", "structug_1_1_vector_proxy_base" ],
+    [ "ug::IElemDisc< TDomain >", "classug_1_1_i_elem_disc.html", "classug_1_1_i_elem_disc" ],
+    [ "ug::IElemDiscBase< TDomain >", "classug_1_1_i_elem_disc_base.html", "classug_1_1_i_elem_disc_base" ],
+    [ "ug::IElemError< TDomain >", "classug_1_1_i_elem_error.html", "classug_1_1_i_elem_error" ],
+    [ "ug::IElemEstimatorFuncs< TLeaf, TDomain >", "classug_1_1_i_elem_estimator_funcs.html", "classug_1_1_i_elem_estimator_funcs" ],
+    [ "ug::VectorProxy< TVector >", "structug_1_1_vector_proxy.html", "structug_1_1_vector_proxy" ],
+    [ "ug::VectorProxyBase", "structug_1_1_vector_proxy_base.html", "structug_1_1_vector_proxy_base" ],
     [ "ElemDiscType", "elem__disc__interface_8h.html#a3adc14801b213f4f04ac881ac87e73e1", [
       [ "EDT_NONE", "elem__disc__interface_8h.html#a3adc14801b213f4f04ac881ac87e73e1a917ac78ef927579ebe0ad9b2126e56c3", null ],
       [ "EDT_ELEM", "elem__disc__interface_8h.html#a3adc14801b213f4f04ac881ac87e73e1a0afcad299eca37850a942194fd0a36a5", null ],

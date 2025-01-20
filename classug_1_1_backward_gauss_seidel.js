@@ -6,7 +6,7 @@ var classug_1_1_backward_gauss_seidel =
     [ "vector_type", "classug_1_1_backward_gauss_seidel.html#ac6ef4d28a16015cfc3c8e0425a41e860", null ],
     [ "BackwardGaussSeidel", "classug_1_1_backward_gauss_seidel.html#a7517b068a8fd58e6212a5efe36d5d8d3", null ],
     [ "BackwardGaussSeidel", "classug_1_1_backward_gauss_seidel.html#ac2726cc158bbacf4e8f52bdb1ae00b71", null ],
-    [ "clone", "classug_1_1_backward_gauss_seidel.html#ab80582d0b1c7f062cfbfa90f3774316e", null ],
-    [ "name", "classug_1_1_backward_gauss_seidel.html#a28d8e6b31825f860039ccb415bc6c41b", null ],
+    [ "clone", "classug_1_1_backward_gauss_seidel.html#aa902fa4c0ce75277de5c033526835d9e", null ],
+    [ "name", "classug_1_1_backward_gauss_seidel.html#ab086b069fa30e94a6eda1ccded04cac8", null ],
     [ "step", "classug_1_1_backward_gauss_seidel.html#af8f632059fa398882ba95b71351f4211", null ]
 ];

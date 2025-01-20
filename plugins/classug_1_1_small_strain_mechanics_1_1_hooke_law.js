@@ -4,7 +4,7 @@ var classug_1_1_small_strain_mechanics_1_1_hooke_law =
     [ "HookeLaw", "group__small__strain__mechanics.html#gaf5cde4de75ef0786469b34eaa31d0312", null ],
     [ "~HookeLaw", "group__small__strain__mechanics.html#gaee39cd002970d26070670ce661212f21", null ],
     [ "elasticityTensor", "group__small__strain__mechanics.html#ga390817b56665e12554146ad6035863cf", null ],
-    [ "elasticityTensor", "group__small__strain__mechanics.html#gaa8ab6afaf15c7403606e85429b119edb", null ],
+    [ "elasticityTensor", "group__small__strain__mechanics.html#ga7e6e9b9a8814d5b9932f47d85f6b73b7", null ],
     [ "init", "group__small__strain__mechanics.html#gaf07906d860d20ad045f1718f42778749", null ],
     [ "set_elasticity_tensor_orthotropic", "group__small__strain__mechanics.html#ga7956fa7e316ab73a6e89cf5ed9b27335", null ],
     [ "set_elasticity_tensor_orthotropic_E_G_nu", "group__small__strain__mechanics.html#ga33e7d11918813e27d5bd161ba953937b", null ],

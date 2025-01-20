@@ -7,8 +7,8 @@ var class_scalar_matrix_adapter_1_1const__row__iterator =
     [ "operator!=", "class_scalar_matrix_adapter_1_1const__row__iterator.html#ab30fdfb38b5c7e70cc95ac283ee4892b", null ],
     [ "operator++", "class_scalar_matrix_adapter_1_1const__row__iterator.html#a9aadd5e4e877ca28ffd6d893ae531ec2", null ],
     [ "operator+=", "class_scalar_matrix_adapter_1_1const__row__iterator.html#a10fb4bfd5fa0a01b349311946629f0e1", null ],
-    [ "operator->", "class_scalar_matrix_adapter_1_1const__row__iterator.html#a6247de95f7645d8b7b06bfeb94098810", null ],
+    [ "operator->", "class_scalar_matrix_adapter_1_1const__row__iterator.html#a5ab34c8cfcd6cd0c9f180675c98f20ec", null ],
     [ "operator==", "class_scalar_matrix_adapter_1_1const__row__iterator.html#a6c4f76d6eb497c12779aa74a0e36d1ca", null ],
-    [ "value", "class_scalar_matrix_adapter_1_1const__row__iterator.html#a7721bfbb18500e2015cb07227d6c6904", null ],
+    [ "value", "class_scalar_matrix_adapter_1_1const__row__iterator.html#ae13a2a361f7037fad4da51e4403606ff", null ],
     [ "iter", "class_scalar_matrix_adapter_1_1const__row__iterator.html#a569afc459dce1ae661731129252d703f", null ]
 ];

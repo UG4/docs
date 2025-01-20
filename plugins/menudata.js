@@ -25,7 +25,6 @@
 var menudata={children:[
 {text:"ug4",url:"../index.html"},
 {text:"Modules",url:"usergroup0.html",children:[
-{text:"All",url:"modules.html"},
 {text:"ugBase",url:"../group__ugbase.html"},
 {text:"libAlgebra",url:"../group__lib__algebra.html"},
 {text:"libDiscretization",url:"../group__lib__discretization.html"},

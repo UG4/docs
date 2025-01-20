@@ -9,7 +9,7 @@ var classboost_1_1bglp__matrix__index__map =
     [ "bglp_matrix_index_map", "classboost_1_1bglp__matrix__index__map.html#ad9398e953965da59c07222e68d41dd1d", null ],
     [ "bglp_matrix_index_map", "classboost_1_1bglp__matrix__index__map.html#adf777cbc5ffa569fe6a804aad1f8cf89", null ],
     [ "bglp_matrix_index_map", "classboost_1_1bglp__matrix__index__map.html#a69510a42cc364725322f832e000abfb0", null ],
-    [ "operator=", "classboost_1_1bglp__matrix__index__map.html#a9f6430f836ceb8369a45c5d7d9560a72", null ],
+    [ "operator=", "classboost_1_1bglp__matrix__index__map.html#ad63ff40f58b8354a89bd26288d8deb4a", null ],
     [ "operator[]", "classboost_1_1bglp__matrix__index__map.html#a5fa3326f5408bd7db63972153670c5c9", null ],
     [ "operator[]", "classboost_1_1bglp__matrix__index__map.html#a5d9e7b5d15223a8b499b749d156aed82", null ]
 ];

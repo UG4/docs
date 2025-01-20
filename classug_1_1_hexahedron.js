@@ -7,7 +7,7 @@ var classug_1_1_hexahedron =
     [ "collapse_edge", "classug_1_1_hexahedron.html#af2a0539b486ca83aa014163fc1f8648e", null ],
     [ "container_section", "classug_1_1_hexahedron.html#a61a8b934ed8bf822c87f3b4f30623050", null ],
     [ "create_edge", "classug_1_1_hexahedron.html#a485268f384fa2fb23e2796d234cc9702", null ],
-    [ "create_empty_instance", "classug_1_1_hexahedron.html#a99691a9e7028cb6b93033cb4cd125754", null ],
+    [ "create_empty_instance", "classug_1_1_hexahedron.html#ab49862880860554f1c510cf9993bf1c0", null ],
     [ "create_face", "classug_1_1_hexahedron.html#a52d0e1d66c59a548c77e5da4790edbba", null ],
     [ "edge_desc", "classug_1_1_hexahedron.html#a57bd724a2b8737df2983bfc03211f348", null ],
     [ "edge_desc", "classug_1_1_hexahedron.html#a803f3e2ff8a52d7a6d03b45da9db78f5", null ],
@@ -28,7 +28,7 @@ var classug_1_1_hexahedron =
     [ "refine", "classug_1_1_hexahedron.html#a6511493b549f136e4b678720b6da8619", null ],
     [ "set_vertex", "classug_1_1_hexahedron.html#a903879bc3667e90237a91d24922dce1c", null ],
     [ "type_match", "classug_1_1_hexahedron.html#af64b698c9ad05bafee0d6a36f2f1f783", null ],
-    [ "vertex", "classug_1_1_hexahedron.html#a3738b8de752587dbe81595eaee1fb860", null ],
+    [ "vertex", "classug_1_1_hexahedron.html#ae2cb692104f742a8798417aebd989537", null ],
     [ "vertices", "classug_1_1_hexahedron.html#a3fadc0725d09f6c39f0520543d69926d", null ],
     [ "m_vertices", "classug_1_1_hexahedron.html#a5da10cbd7e0185752434e0d01307d2a4", null ],
     [ "NUM_VERTICES", "classug_1_1_hexahedron.html#a222493a44212616aaa241adb3c67eb7e", null ]

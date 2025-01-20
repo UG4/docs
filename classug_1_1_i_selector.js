@@ -54,7 +54,7 @@ var classug_1_1_i_selector =
     [ "get_selection_status", "classug_1_1_i_selector.html#a54af19195eaf790a70504417bf7f3806", null ],
     [ "get_selection_status", "classug_1_1_i_selector.html#a4d27cf8f4d9dff9d488e442d622a90cd", null ],
     [ "get_selection_status", "classug_1_1_i_selector.html#a90f43fa74091e1db9cbc0b37e2ec3cb0", null ],
-    [ "grid", "classug_1_1_i_selector.html#a331d94c5fb29966f18a3f24625be0ea5", null ],
+    [ "grid", "classug_1_1_i_selector.html#a98d9cfbeaaf87af5bd66e16cb189eaf6", null ],
     [ "grid_to_be_destroyed", "classug_1_1_i_selector.html#a0e0b40382fdc409fbf624ecc3db1f031", null ],
     [ "is_selected", "classug_1_1_i_selector.html#a114fe907dd506fb701eaadaa713e24d7", null ],
     [ "mark", "classug_1_1_i_selector.html#adbb12cdcde30a33c35b605b1287732b2", null ],

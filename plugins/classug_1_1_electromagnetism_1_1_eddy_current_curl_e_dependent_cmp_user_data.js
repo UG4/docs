@@ -6,7 +6,7 @@ var classug_1_1_electromagnetism_1_1_eddy_current_curl_e_dependent_cmp_user_data
     [ "continuous", "classug_1_1_electromagnetism_1_1_eddy_current_curl_e_dependent_cmp_user_data.html#ac72c79c0f43433a38623eca514cfb555", null ],
     [ "eval_and_deriv", "classug_1_1_electromagnetism_1_1_eddy_current_curl_e_dependent_cmp_user_data.html#a7018eea1873376fcbe3a777c07b490f4", null ],
     [ "requires_grid_fct", "classug_1_1_electromagnetism_1_1_eddy_current_curl_e_dependent_cmp_user_data.html#af8d6f10539d808dba11cc81260a0604f", null ],
-    [ "this_impl", "classug_1_1_electromagnetism_1_1_eddy_current_curl_e_dependent_cmp_user_data.html#af7f341c42fe9e45f4b0eac3848c647b0", null ],
+    [ "this_impl", "classug_1_1_electromagnetism_1_1_eddy_current_curl_e_dependent_cmp_user_data.html#aee354b361567a0a3b5ef94bf097ba1fa", null ],
     [ "dim", "classug_1_1_electromagnetism_1_1_eddy_current_curl_e_dependent_cmp_user_data.html#a53a3f372d8564f591ae855fb6debc703", null ],
     [ "m_fct", "classug_1_1_electromagnetism_1_1_eddy_current_curl_e_dependent_cmp_user_data.html#a2b87516161b84a018a3c1d2323acdfb8", null ],
     [ "m_spGF", "classug_1_1_electromagnetism_1_1_eddy_current_curl_e_dependent_cmp_user_data.html#acaa8a838120fd8b0025124ab782fc22a", null ]

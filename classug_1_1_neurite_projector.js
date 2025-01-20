@@ -41,7 +41,7 @@ var classug_1_1_neurite_projector =
     [ "quadrature_points", "classug_1_1_neurite_projector.html#ad9d44f3755381956cade6d6b41f318dd", null ],
     [ "save", "classug_1_1_neurite_projector.html#a1faa0610c3fa07c69d6040a01a3f75c5", null ],
     [ "set_geometry", "classug_1_1_neurite_projector.html#aad973cf2a87e8f3bdcd4f9cbc19f9133", null ],
-    [ "somata", "classug_1_1_neurite_projector.html#ad9dd0b887a046d2e71502567d504c161", null ],
+    [ "somata", "classug_1_1_neurite_projector.html#a8ac42997a487724bd62e542b534cda4d", null ],
     [ "surface_params_accessor", "classug_1_1_neurite_projector.html#a0989ce9a5769909e029e789770a3ccd8", null ],
     [ "surface_params_accessor", "classug_1_1_neurite_projector.html#a7ef098bb3ce3f77e196c05b162c6e3b3", null ],
     [ "boost::serialization::access", "classug_1_1_neurite_projector.html#ac98d07dd8f7b70e16ccb9a01abf56b9c", null ],

@@ -4,7 +4,7 @@ var domain__bridge_8cpp =
     [ "FaceArea", "domain__bridge_8cpp.html#ga2c0953362affe892943f4f6e06ba2af6", null ],
     [ "FaceArea", "domain__bridge_8cpp.html#ga23e9023bf9c28e7eca575f5d3eac650e", null ],
     [ "FaceArea", "domain__bridge_8cpp.html#ga92317ceec1e4b3340d0956d8709024e4", null ],
-    [ "GetElementByCoordinate", "domain__bridge_8cpp.html#ga939a5ac0f7af2f47a9e3883f823e814a", null ],
+    [ "GetElementByCoordinate", "domain__bridge_8cpp.html#gaf9e79940f13ec1ef598ec40f83e06f68", null ],
     [ "GetMaxEdgeLength", "domain__bridge_8cpp.html#gaffaaec5db9baa32b6ec12b0fbc8c6493", null ],
     [ "LoadAndRefineDomain", "domain__bridge_8cpp.html#ga85d8819fc34a36031729ae38faa669f5", null ],
     [ "MinimizeMemoryFootprint", "domain__bridge_8cpp.html#gaca4d9e8566b9013db25742651780c07a", null ],

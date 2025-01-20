@@ -3,12 +3,8 @@ var dir_763ed3e91742c64da7339b855c065f8b =
     [ "tools", "dir_90c8b690e559459740b0e677eab7f4d2.html", "dir_90c8b690e559459740b0e677eab7f4d2" ],
     [ "keys.h", "keys_8h.html", "keys_8h" ],
     [ "mesh.cpp", "mesh_8cpp.html", null ],
-    [ "mesh.h", "mesh_8h.html", [
-      [ "ElementIterator", "classug_1_1promesh_1_1_element_iterator.html", "classug_1_1promesh_1_1_element_iterator" ]
-    ] ],
-    [ "mesh_object.h", "mesh__object_8h.html", [
-      [ "MeshObject", "classug_1_1promesh_1_1_mesh_object.html", "classug_1_1promesh_1_1_mesh_object" ]
-    ] ],
+    [ "mesh.h", "mesh_8h.html", "mesh_8h" ],
+    [ "mesh_object.h", "mesh__object_8h.html", "mesh__object_8h" ],
     [ "promesh_plugin.cpp", "promesh__plugin_8cpp.html", "promesh__plugin_8cpp" ],
     [ "promesh_plugin.h", "promesh__plugin_8h.html", "promesh__plugin_8h" ],
     [ "promesh_registry.h", "promesh__registry_8h.html", "promesh__registry_8h" ],

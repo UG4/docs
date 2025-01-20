@@ -40,11 +40,11 @@ var hierarchy =
     [ "ug::SmallStrainMechanics::DamageFunctionUpdater< TDomain >", "classug_1_1_small_strain_mechanics_1_1_damage_function_updater.html", null ],
     [ "ug::DemoPlugin::DemoClass", "classug_1_1_demo_plugin_1_1_demo_class.html", null ],
     [ "ug::Electromagnetism::EddyCurrentTraits", "classug_1_1_electromagnetism_1_1_eddy_current_traits.html", [
-      [ "ug::Electromagnetism::EddyCurrentCurlEDependentCmpUserData< EddyCurrentReBofEUserData< TGridFunc >, EddyCurrentTraits::_Im_, TGridFunc >", "classug_1_1_electromagnetism_1_1_eddy_current_curl_e_dependent_cmp_user_data.html", [
-        [ "ug::Electromagnetism::EddyCurrentReBofEUserData< TGridFunc >", "classug_1_1_electromagnetism_1_1_eddy_current_re_bof_e_user_data.html", null ]
-      ] ],
       [ "ug::Electromagnetism::EddyCurrentCurlEDependentCmpUserData< EddyCurrentImBofEUserData< TGridFunc >, EddyCurrentTraits::_Re_, TGridFunc >", "classug_1_1_electromagnetism_1_1_eddy_current_curl_e_dependent_cmp_user_data.html", [
         [ "ug::Electromagnetism::EddyCurrentImBofEUserData< TGridFunc >", "classug_1_1_electromagnetism_1_1_eddy_current_im_bof_e_user_data.html", null ]
+      ] ],
+      [ "ug::Electromagnetism::EddyCurrentCurlEDependentCmpUserData< EddyCurrentReBofEUserData< TGridFunc >, EddyCurrentTraits::_Im_, TGridFunc >", "classug_1_1_electromagnetism_1_1_eddy_current_curl_e_dependent_cmp_user_data.html", [
+        [ "ug::Electromagnetism::EddyCurrentReBofEUserData< TGridFunc >", "classug_1_1_electromagnetism_1_1_eddy_current_re_bof_e_user_data.html", null ]
       ] ],
       [ "ug::Electromagnetism::EddyCurrentCurlEDependentCmpUserData< TImpl, ReIm, TGFunc >", "classug_1_1_electromagnetism_1_1_eddy_current_curl_e_dependent_cmp_user_data.html", null ],
       [ "ug::Electromagnetism::EddyCurrentHeat< TGridFunc >", "classug_1_1_electromagnetism_1_1_eddy_current_heat.html", null ],
@@ -62,8 +62,8 @@ var hierarchy =
       [ "ug::NavierStokes::FilterImplBaseClass< ConstantBoxFilter< TGridFunction >, TGridFunction >", "classug_1_1_navier_stokes_1_1_filter_impl_base_class.html", [
         [ "ug::NavierStokes::ConstantBoxFilter< TGridFunction >", "classug_1_1_navier_stokes_1_1_constant_box_filter.html", null ]
       ] ],
-      [ "ug::NavierStokes::FilterImplBaseClass< VariableBoxFilter< TGridFunction >, TGridFunction >", "classug_1_1_navier_stokes_1_1_filter_impl_base_class.html", [
-        [ "ug::NavierStokes::VariableBoxFilter< TGridFunction >", "classug_1_1_navier_stokes_1_1_variable_box_filter.html", null ]
+      [ "ug::NavierStokes::FilterImplBaseClass< ElementBoxFilter< TGridFunction >, TGridFunction >", "classug_1_1_navier_stokes_1_1_filter_impl_base_class.html", [
+        [ "ug::NavierStokes::ElementBoxFilter< TGridFunction >", "classug_1_1_navier_stokes_1_1_element_box_filter.html", null ]
       ] ],
       [ "ug::NavierStokes::FilterImplBaseClass< FV1BoxFilter< TGridFunction >, TGridFunction >", "classug_1_1_navier_stokes_1_1_filter_impl_base_class.html", [
         [ "ug::NavierStokes::FV1BoxFilter< TGridFunction >", "classug_1_1_navier_stokes_1_1_f_v1_box_filter.html", null ]
@@ -71,8 +71,8 @@ var hierarchy =
       [ "ug::NavierStokes::FilterImplBaseClass< FVCRBoxFilter< TGridFunction >, TGridFunction >", "classug_1_1_navier_stokes_1_1_filter_impl_base_class.html", [
         [ "ug::NavierStokes::FVCRBoxFilter< TGridFunction >", "classug_1_1_navier_stokes_1_1_f_v_c_r_box_filter.html", null ]
       ] ],
-      [ "ug::NavierStokes::FilterImplBaseClass< ElementBoxFilter< TGridFunction >, TGridFunction >", "classug_1_1_navier_stokes_1_1_filter_impl_base_class.html", [
-        [ "ug::NavierStokes::ElementBoxFilter< TGridFunction >", "classug_1_1_navier_stokes_1_1_element_box_filter.html", null ]
+      [ "ug::NavierStokes::FilterImplBaseClass< VariableBoxFilter< TGridFunction >, TGridFunction >", "classug_1_1_navier_stokes_1_1_filter_impl_base_class.html", [
+        [ "ug::NavierStokes::VariableBoxFilter< TGridFunction >", "classug_1_1_navier_stokes_1_1_variable_box_filter.html", null ]
       ] ],
       [ "ug::NavierStokes::FilterImplBaseClass< TImpl, TGridFunction >", "classug_1_1_navier_stokes_1_1_filter_impl_base_class.html", null ]
     ] ],
@@ -102,13 +102,13 @@ var hierarchy =
     ] ],
     [ "ug::Electromagnetism::NedelecLoopCurrent< TDomain, TAlgebra >::GetFluxOfPotential", "structug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_get_flux_of_potential.html", null ],
     [ "ug::Richards::HaverkampParameters", "structug_1_1_richards_1_1_haverkamp_parameters.html", null ],
-    [ "ug::IAssemble< class >", "../classug_1_1_i_assemble.html", [
+    [ "ug::IAssemble< typename TAlgebra >", "../classug_1_1_i_assemble.html", [
       [ "ug::ITimeDiscretization< TAlgebra >", "../classug_1_1_i_time_discretization.html", [
         [ "ug::LinearImplicitEuler< TAlgebra >", "classug_1_1_linear_implicit_euler.html", null ]
       ] ]
     ] ],
-    [ "IBanachSpace< TGridFunction::vector_type >", "../classug_1_1_i_banach_space.html", [
-      [ "ug::IGridFunctionSpace< class >", "../classug_1_1_i_grid_function_space.html", [
+    [ "ug::IBanachSpace< TGridFunction::vector_type >", "../classug_1_1_i_banach_space.html", [
+      [ "ug::IGridFunctionSpace< typename TGridFunction >", "../classug_1_1_i_grid_function_space.html", [
         [ "ug::IComponentSpace< TGridFunction >", "../classug_1_1_i_component_space.html", [
           [ "ug::SupErrorEvaluator< TGridFunction >", "classug_1_1_sup_error_evaluator.html", null ],
           [ "ug::UserDataSpace< TGridFunction, TDataInput >", "classug_1_1_user_data_space.html", null ]
@@ -119,7 +119,10 @@ var hierarchy =
       [ "ug::Electromagnetism::ComPol_MemCopy< TArray, TLayout >", "classug_1_1_electromagnetism_1_1_com_pol___mem_copy.html", null ],
       [ "ug::Electromagnetism::ComPol_MemOp< TArray, TLayout, TOp >", "classug_1_1_electromagnetism_1_1_com_pol___mem_op.html", null ]
     ] ],
-    [ "ug::IConstraint< class >", "../classug_1_1_i_constraint.html", [
+    [ "ug::IConstraint< typename TAlgebra >", "../classug_1_1_i_constraint.html", [
+      [ "ug::IDomainConstraint< TGridFunction::domain_type, TGridFunction::algebra_type >", "../classug_1_1_i_domain_constraint.html", [
+        [ "ug::DiscConstraintFVCR< TGridFunction >", "classug_1_1_disc_constraint_f_v_c_r.html", null ]
+      ] ],
       [ "ug::IDomainConstraint< TDomain, TAlgebra >", "../classug_1_1_i_domain_constraint.html", [
         [ "ug::Electromagnetism::EMDirichlet< TDomain, TAlgebra >", "classug_1_1_electromagnetism_1_1_e_m_dirichlet.html", [
           [ "ug::Electromagnetism::NedelecDirichletBC< TDomain, TAlgebra >", "classug_1_1_electromagnetism_1_1_nedelec_dirichlet_b_c.html", null ]
@@ -128,9 +131,6 @@ var hierarchy =
       [ "ug::IDomainConstraint< TDomain, TPotAlgebra >", "../classug_1_1_i_domain_constraint.html", [
         [ "ug::Electromagnetism::NedelecLoopCurrent< TDomain, TAlgebra >::OutOfSource", "classug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_out_of_source.html", null ],
         [ "ug::Electromagnetism::NedelecProject< TDomain, TAlgebra >::AuxLaplaceRHS", "classug_1_1_electromagnetism_1_1_nedelec_project_1_1_aux_laplace_r_h_s.html", null ]
-      ] ],
-      [ "ug::IDomainConstraint< TGridFunction::domain_type, TGridFunction::algebra_type >", "../classug_1_1_i_domain_constraint.html", [
-        [ "ug::DiscConstraintFVCR< TGridFunction >", "classug_1_1_disc_constraint_f_v_c_r.html", null ]
       ] ]
     ] ],
     [ "ug::IDiscretizationItem< TDomain, TAlgebra >", "../classug_1_1_i_discretization_item.html", [
@@ -142,7 +142,7 @@ var hierarchy =
       ] ],
       [ "ug::NavierStokes::NavierStokesWall< TDomain, TAlgebra >", "classug_1_1_navier_stokes_1_1_navier_stokes_wall.html", null ]
     ] ],
-    [ "IElemAssembleFuncs< IElemDisc< TDomain >, TDomain >", "../classug_1_1_i_elem_assemble_funcs.html", [
+    [ "ug::IElemAssembleFuncs< IElemDisc< TDomain >, TDomain >", "../classug_1_1_i_elem_assemble_funcs.html", [
       [ "ug::IElemDisc< TDomain >", "../classug_1_1_i_elem_disc.html", [
         [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionBase< TDomain >", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_base.html", [
           [ "ug::ConvectionDiffusionPlugin::ConvectionDiffusionFE< TDomain >", "classug_1_1_convection_diffusion_plugin_1_1_convection_diffusion_f_e.html", null ],
@@ -179,18 +179,18 @@ var hierarchy =
         [ "ug::SmallStrainMechanics::SmallStrainMechanicsElemDisc< TDomain >", "classug_1_1_small_strain_mechanics_1_1_small_strain_mechanics_elem_disc.html", null ]
       ] ]
     ] ],
-    [ "ug::IElemDiscBase< class >", "../classug_1_1_i_elem_disc_base.html", [
-      [ "ug::IElemError< class >", "../classug_1_1_i_elem_error.html", [
+    [ "ug::IElemDiscBase< typename TDomain >", "../classug_1_1_i_elem_disc_base.html", [
+      [ "ug::IElemError< typename TDomain >", "../classug_1_1_i_elem_error.html", [
         [ "ug::IElemDisc< TDomain >", "../classug_1_1_i_elem_disc.html", null ]
       ] ]
     ] ],
-    [ "IElemEstimatorFuncs< IElemDisc< TDomain >, TDomain >", "../classug_1_1_i_elem_estimator_funcs.html", [
-      [ "ug::IElemError< class >", "../classug_1_1_i_elem_error.html", null ]
+    [ "ug::IElemEstimatorFuncs< IElemDisc< TDomain >, TDomain >", "../classug_1_1_i_elem_estimator_funcs.html", [
+      [ "ug::IElemError< typename TDomain >", "../classug_1_1_i_elem_error.html", null ]
     ] ],
     [ "ug::IExternalSolverImplementation", "../classug_1_1_i_external_solver_implementation.html", [
       [ "ug::SuperLUImplementation", "classug_1_1_super_l_u_implementation.html", null ]
     ] ],
-    [ "ug::IIntegrand< class, TWorldDim >", "../classug_1_1_i_integrand.html", [
+    [ "ug::IIntegrand< typename TData, int TWorldDim >", "../classug_1_1_i_integrand.html", [
       [ "ug::StdIntegrand< number, TGridFunction::dim, DeltaSquareIntegrand< TDataIn, TGridFunction > >", "../classug_1_1_std_integrand.html", [
         [ "ug::DeltaSquareIntegrand< TDataIn, TGridFunction >", "classug_1_1_delta_square_integrand.html", null ]
       ] ]
@@ -203,21 +203,21 @@ var hierarchy =
       [ "ug::LimexNonlinearCost", "classug_1_1_limex_nonlinear_cost.html", null ]
     ] ],
     [ "ug::ILimexRefiner", "classug_1_1_i_limex_refiner.html", null ],
-    [ "ug::ILinearIterator< class, class >", "../classug_1_1_i_linear_iterator.html", [
-      [ "ILinearOperatorInverse< TAlgebra::vector_type, TAlgebra::vector_type >", "../classug_1_1_i_linear_operator_inverse.html", [
-        [ "IMatrixOperatorInverse< TAlgebra::matrix_type, TAlgebra::vector_type >", "../classug_1_1_i_matrix_operator_inverse.html", [
+    [ "ug::ILinearIterator< typename X, typename Y >", "../classug_1_1_i_linear_iterator.html", [
+      [ "ug::ILinearOperatorInverse< typename X, typename Y >", "../classug_1_1_i_linear_operator_inverse.html", [
+        [ "ug::IMatrixOperatorInverse< TAlgebra::matrix_type, TAlgebra::vector_type >", "../classug_1_1_i_matrix_operator_inverse.html", [
           [ "ug::IExternalSolver< TAlgebra >", "../classug_1_1_i_external_solver.html", [
             [ "ug::SuperLUSolver< TAlgebra >", "classug_1_1_super_l_u_solver.html", null ]
           ] ]
         ] ]
-      ] ],
-      [ "ug::Electromagnetism::TimeHarmonicNedelecHybridSmoother< TDomain, TAlgebra >", "classug_1_1_electromagnetism_1_1_time_harmonic_nedelec_hybrid_smoother.html", null ]
+      ] ]
     ] ],
-    [ "ILinearIterator< TAlgebra::vector_type >", "../classug_1_1_i_linear_iterator.html", [
+    [ "ug::ILinearIterator< TAlgebra::vector_type >", "../classug_1_1_i_linear_iterator.html", [
       [ "ug::IPreconditioner< TAlgebra >", "../classug_1_1_i_preconditioner.html", [
         [ "ug::CRILUTPreconditioner< TAlgebra >", "classug_1_1_c_r_i_l_u_t_preconditioner.html", null ],
         [ "ug::PCRILUTPreconditioner< TAlgebra >", "classug_1_1_p_c_r_i_l_u_t_preconditioner.html", null ]
-      ] ]
+      ] ],
+      [ "ug::Electromagnetism::TimeHarmonicNedelecHybridSmoother< TDomain, TAlgebra >", "classug_1_1_electromagnetism_1_1_time_harmonic_nedelec_hybrid_smoother.html", null ]
     ] ],
     [ "ug::SmallStrainMechanics::IMaterialLaw< TDomain >", "classug_1_1_small_strain_mechanics_1_1_i_material_law.html", [
       [ "ug::SmallStrainMechanics::HookeLaw< TDomain >", "classug_1_1_small_strain_mechanics_1_1_hooke_law.html", [
@@ -272,7 +272,7 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
-    [ "ug::IOperatorInverse< class, class >", "../classug_1_1_i_operator_inverse.html", [
+    [ "ug::IOperatorInverse< TAlgebra::vector_type >", "../classug_1_1_i_operator_inverse.html", [
       [ "ug::LimexNewtonSolver< TAlgebra >", "classug_1_1_limex_newton_solver.html", null ]
     ] ],
     [ "ug::Richards::IParameterizedModel< TParameter >", "structug_1_1_richards_1_1_i_parameterized_model.html", null ],
@@ -290,29 +290,29 @@ var hierarchy =
       [ "ug::Electromagnetism::NedelecProject< TDomain, TAlgebra >", "classug_1_1_electromagnetism_1_1_nedelec_project.html", null ]
     ] ],
     [ "ug::Richards::IRichardsLinker< dim >", "structug_1_1_richards_1_1_i_richards_linker.html", [
-      [ "ug::Richards::RichardsLinker< dim, HaverkampConductivityAdapter >", "classug_1_1_richards_1_1_richards_linker.html", [
-        [ "ug::Richards::HaverkampConductivity< dim >", "classug_1_1_richards_1_1_haverkamp_conductivity.html", null ]
-      ] ],
-      [ "ug::Richards::RichardsLinker< dim, vanGenuchtenSaturationAdapter >", "classug_1_1_richards_1_1_richards_linker.html", [
-        [ "ug::Richards::RichardsSaturation< dim >", "structug_1_1_richards_1_1_richards_saturation.html", null ]
-      ] ],
-      [ "ug::Richards::RichardsLinker< dim, GardnerSaturationAdapter >", "classug_1_1_richards_1_1_richards_linker.html", [
-        [ "ug::Richards::GardnerSaturation< dim >", "classug_1_1_richards_1_1_gardner_saturation.html", null ]
+      [ "ug::Richards::RichardsLinker< dim, ConductivityAdapter< ExponentialModel > >", "classug_1_1_richards_1_1_richards_linker.html", [
+        [ "ug::Richards::ExponentialConductivity< dim >", "structug_1_1_richards_1_1_exponential_conductivity.html", null ]
       ] ],
       [ "ug::Richards::RichardsLinker< dim, SaturationAdapter< ExponentialModel > >", "classug_1_1_richards_1_1_richards_linker.html", [
         [ "ug::Richards::ExponentialSaturation< dim >", "structug_1_1_richards_1_1_exponential_saturation.html", null ]
       ] ],
-      [ "ug::Richards::RichardsLinker< dim, ConductivityAdapter< ExponentialModel > >", "classug_1_1_richards_1_1_richards_linker.html", [
-        [ "ug::Richards::ExponentialConductivity< dim >", "structug_1_1_richards_1_1_exponential_conductivity.html", null ]
+      [ "ug::Richards::RichardsLinker< dim, GardnerConductivityAdapter >", "classug_1_1_richards_1_1_richards_linker.html", [
+        [ "ug::Richards::GardnerConductivity< dim >", "classug_1_1_richards_1_1_gardner_conductivity.html", null ]
       ] ],
-      [ "ug::Richards::RichardsLinker< dim, vanGenuchtenConductivityAdapter >", "classug_1_1_richards_1_1_richards_linker.html", [
-        [ "ug::Richards::RichardsConductivity< dim >", "structug_1_1_richards_1_1_richards_conductivity.html", null ]
+      [ "ug::Richards::RichardsLinker< dim, GardnerSaturationAdapter >", "classug_1_1_richards_1_1_richards_linker.html", [
+        [ "ug::Richards::GardnerSaturation< dim >", "classug_1_1_richards_1_1_gardner_saturation.html", null ]
+      ] ],
+      [ "ug::Richards::RichardsLinker< dim, HaverkampConductivityAdapter >", "classug_1_1_richards_1_1_richards_linker.html", [
+        [ "ug::Richards::HaverkampConductivity< dim >", "classug_1_1_richards_1_1_haverkamp_conductivity.html", null ]
       ] ],
       [ "ug::Richards::RichardsLinker< dim, HaverkampSaturationAdapter >", "classug_1_1_richards_1_1_richards_linker.html", [
         [ "ug::Richards::HaverkampSaturation< dim >", "classug_1_1_richards_1_1_haverkamp_saturation.html", null ]
       ] ],
-      [ "ug::Richards::RichardsLinker< dim, GardnerConductivityAdapter >", "classug_1_1_richards_1_1_richards_linker.html", [
-        [ "ug::Richards::GardnerConductivity< dim >", "classug_1_1_richards_1_1_gardner_conductivity.html", null ]
+      [ "ug::Richards::RichardsLinker< dim, vanGenuchtenConductivityAdapter >", "classug_1_1_richards_1_1_richards_linker.html", [
+        [ "ug::Richards::RichardsConductivity< dim >", "structug_1_1_richards_1_1_richards_conductivity.html", null ]
+      ] ],
+      [ "ug::Richards::RichardsLinker< dim, vanGenuchtenSaturationAdapter >", "classug_1_1_richards_1_1_richards_linker.html", [
+        [ "ug::Richards::RichardsSaturation< dim >", "structug_1_1_richards_1_1_richards_saturation.html", null ]
       ] ],
       [ "ug::Richards::RichardsLinker< dim, TFunctor >", "classug_1_1_richards_1_1_richards_linker.html", null ]
     ] ],
@@ -483,21 +483,62 @@ var hierarchy =
       [ "ug::UserData< number, dim, bool >", "../classug_1_1_user_data.html", [
         [ "ug::Richards::OnSurfaceCondition< dim >", "classug_1_1_richards_1_1_on_surface_condition.html", null ]
       ] ],
-      [ "UserData< TData, dim, void >", "../classug_1_1_user_data.html", [
-        [ "CplUserData< TData, dim, void >", "../classug_1_1_cpl_user_data.html", [
-          [ "ug::StdUserData< StdTurbulentViscosityDataFV1< TData, dim, TImpl, TGridFunction >, TData, dim >", "../classug_1_1_std_user_data.html", [
-            [ "ug::NavierStokes::StdTurbulentViscosityDataFV1< TData, dim, TImpl, TGridFunction >", "classug_1_1_navier_stokes_1_1_std_turbulent_viscosity_data_f_v1.html", null ]
+      [ "ug::ICplUserData< int dim >", "../classug_1_1_i_cpl_user_data.html", [
+        [ "ug::CplUserData< typename TData, int dim, typename TRet >", "../classug_1_1_cpl_user_data.html", [
+          [ "ug::StdUserData< StdDataLinker< TImpl, TData, dim >, TData, dim, void, DependentUserData< TData, dim > >", "../classug_1_1_std_user_data.html", [
+            [ "ug::StdDataLinker< RichardsLinker< dim, TFunctor >, number, dim >", "../classug_1_1_std_data_linker.html", [
+              [ "ug::Richards::RichardsLinker< dim, TFunctor >", "classug_1_1_richards_1_1_richards_linker.html", null ]
+            ] ],
+            [ "ug::StdDataLinker< typename TImpl, typename TData, int dim >", "../classug_1_1_std_data_linker.html", [
+              [ "ug::Richards::RichardsLinker< dim, ConductivityAdapter< ExponentialModel > >", "classug_1_1_richards_1_1_richards_linker.html", null ],
+              [ "ug::Richards::RichardsLinker< dim, SaturationAdapter< ExponentialModel > >", "classug_1_1_richards_1_1_richards_linker.html", null ],
+              [ "ug::Richards::RichardsLinker< dim, GardnerConductivityAdapter >", "classug_1_1_richards_1_1_richards_linker.html", null ],
+              [ "ug::Richards::RichardsLinker< dim, GardnerSaturationAdapter >", "classug_1_1_richards_1_1_richards_linker.html", null ],
+              [ "ug::Richards::RichardsLinker< dim, HaverkampConductivityAdapter >", "classug_1_1_richards_1_1_richards_linker.html", null ],
+              [ "ug::Richards::RichardsLinker< dim, HaverkampSaturationAdapter >", "classug_1_1_richards_1_1_richards_linker.html", null ],
+              [ "ug::Richards::RichardsLinker< dim, vanGenuchtenConductivityAdapter >", "classug_1_1_richards_1_1_richards_linker.html", null ],
+              [ "ug::Richards::RichardsLinker< dim, vanGenuchtenSaturationAdapter >", "classug_1_1_richards_1_1_richards_linker.html", null ]
+            ] ]
+          ] ],
+          [ "ug::StdUserData< StdDependentUserData< TImpl, TData, dim >, TData, dim, void, DependentUserData< TData, dim > >", "../classug_1_1_std_user_data.html", [
+            [ "ug::StdDependentUserData< TImpl, MathVector< TGFunc::dim >, TGFunc::dim >", "../classug_1_1_std_dependent_user_data.html", [
+              [ "ug::Electromagnetism::EddyCurrentCurlEDependentCmpUserData< TImpl, ReIm, TGFunc >", "classug_1_1_electromagnetism_1_1_eddy_current_curl_e_dependent_cmp_user_data.html", null ]
+            ] ],
+            [ "ug::StdDependentUserData< EddyCurrentHeat< TGridFunc >, number, TGridFunc::dim >", "../classug_1_1_std_dependent_user_data.html", [
+              [ "ug::Electromagnetism::EddyCurrentHeat< TGridFunc >", "classug_1_1_electromagnetism_1_1_eddy_current_heat.html", null ]
+            ] ],
+            [ "ug::StdDependentUserData< NedelecCurlData< TGridFunc >, MathVector< TGridFunc::dim >, TGridFunc::dim >", "../classug_1_1_std_dependent_user_data.html", [
+              [ "ug::Electromagnetism::NedelecCurlData< TGridFunc >", "classug_1_1_electromagnetism_1_1_nedelec_curl_data.html", null ]
+            ] ],
+            [ "ug::StdDependentUserData< NedelecGridFunctionData< TGridFunc >, MathVector< TGridFunc::dim >, TGridFunc::dim >", "../classug_1_1_std_dependent_user_data.html", [
+              [ "ug::Electromagnetism::NedelecGridFunctionData< TGridFunc >", "classug_1_1_electromagnetism_1_1_nedelec_grid_function_data.html", null ]
+            ] ],
+            [ "ug::StdDependentUserData< NedelecSigmaEData< TGridFunc >, MathVector< TGridFunc::dim >, TGridFunc::dim >", "../classug_1_1_std_dependent_user_data.html", [
+              [ "ug::Electromagnetism::NedelecSigmaEData< TGridFunc >", "classug_1_1_electromagnetism_1_1_nedelec_sigma_e_data.html", null ]
+            ] ],
+            [ "ug::StdDependentUserData< typename TImpl, typename TData, int dim >", "../classug_1_1_std_dependent_user_data.html", [
+              [ "ug::Electromagnetism::EddyCurrentCurlEDependentCmpUserData< EddyCurrentImBofEUserData< TGridFunc >, EddyCurrentTraits::_Re_, TGridFunc >", "classug_1_1_electromagnetism_1_1_eddy_current_curl_e_dependent_cmp_user_data.html", null ],
+              [ "ug::Electromagnetism::EddyCurrentCurlEDependentCmpUserData< EddyCurrentReBofEUserData< TGridFunc >, EddyCurrentTraits::_Im_, TGridFunc >", "classug_1_1_electromagnetism_1_1_eddy_current_curl_e_dependent_cmp_user_data.html", null ]
+            ] ]
+          ] ],
+          [ "ug::StdUserData< SeparatedPressureSource< TGridFunction >, MathVector< TGridFunction::dim >, TGridFunction::dim >", "../classug_1_1_std_user_data.html", [
+            [ "ug::NavierStokes::SeparatedPressureSource< TGridFunction >", "classug_1_1_navier_stokes_1_1_separated_pressure_source.html", null ]
+          ] ],
+          [ "ug::StdUserData< SeparatedPressureSourceInter< TGridFunction >, MathVector< TGridFunction::dim >, TGridFunction::dim >", "../classug_1_1_std_user_data.html", [
+            [ "ug::NavierStokes::SeparatedPressureSourceInter< TGridFunction >", "classug_1_1_navier_stokes_1_1_separated_pressure_source_inter.html", null ]
           ] ],
           [ "ug::StdUserData< StdTurbulentViscosityData< TData, dim, TImpl, TGridFunction >, TData, dim >", "../classug_1_1_std_user_data.html", [
             [ "ug::NavierStokes::StdTurbulentViscosityData< TData, dim, TImpl, TGridFunction >", "classug_1_1_navier_stokes_1_1_std_turbulent_viscosity_data.html", null ]
           ] ],
-          [ "StdUserData< StdGlobPosData< TImpl, TData, dim, void >, TData, dim, void >", "../classug_1_1_std_user_data.html", null ],
-          [ "ug::StdUserData< class, class, dim, class, class >", "../classug_1_1_std_user_data.html", [
-            [ "ug::NavierStokes::StdTurbulentViscosityData< number, TGridFunction::dim, CRSmagorinskyTurbViscData< TGridFunction >, TGridFunction >", "classug_1_1_navier_stokes_1_1_std_turbulent_viscosity_data.html", [
-              [ "ug::NavierStokes::CRSmagorinskyTurbViscData< TGridFunction >", "classug_1_1_navier_stokes_1_1_c_r_smagorinsky_turb_visc_data.html", null ]
-            ] ],
+          [ "ug::StdUserData< StdTurbulentViscosityDataFV1< TData, dim, TImpl, TGridFunction >, TData, dim >", "../classug_1_1_std_user_data.html", [
+            [ "ug::NavierStokes::StdTurbulentViscosityDataFV1< TData, dim, TImpl, TGridFunction >", "classug_1_1_navier_stokes_1_1_std_turbulent_viscosity_data_f_v1.html", null ]
+          ] ],
+          [ "ug::StdUserData< typename TImpl, typename TData, int dim, typename TRet, typename TBase >", "../classug_1_1_std_user_data.html", [
             [ "ug::NavierStokes::StdTurbulentViscosityData< number, TGridFunction::dim, CRDynamicTurbViscData< TGridFunction >, TGridFunction >", "classug_1_1_navier_stokes_1_1_std_turbulent_viscosity_data.html", [
               [ "ug::NavierStokes::CRDynamicTurbViscData< TGridFunction >", "classug_1_1_navier_stokes_1_1_c_r_dynamic_turb_visc_data.html", null ]
+            ] ],
+            [ "ug::NavierStokes::StdTurbulentViscosityData< number, TGridFunction::dim, CRSmagorinskyTurbViscData< TGridFunction >, TGridFunction >", "classug_1_1_navier_stokes_1_1_std_turbulent_viscosity_data.html", [
+              [ "ug::NavierStokes::CRSmagorinskyTurbViscData< TGridFunction >", "classug_1_1_navier_stokes_1_1_c_r_smagorinsky_turb_visc_data.html", null ]
             ] ],
             [ "ug::NavierStokes::StdTurbulentViscosityDataFV1< number, TGridFunction::dim, FV1DynamicTurbViscData< TGridFunction >, TGridFunction >", "classug_1_1_navier_stokes_1_1_std_turbulent_viscosity_data_f_v1.html", [
               [ "ug::NavierStokes::FV1DynamicTurbViscData< TGridFunction >", "classug_1_1_navier_stokes_1_1_f_v1_dynamic_turb_visc_data.html", null ]
@@ -505,87 +546,38 @@ var hierarchy =
             [ "ug::NavierStokes::StdTurbulentViscosityDataFV1< number, TGridFunction::dim, FV1SmagorinskyTurbViscData< TGridFunction >, TGridFunction >", "classug_1_1_navier_stokes_1_1_std_turbulent_viscosity_data_f_v1.html", [
               [ "ug::NavierStokes::FV1SmagorinskyTurbViscData< TGridFunction >", "classug_1_1_navier_stokes_1_1_f_v1_smagorinsky_turb_visc_data.html", null ]
             ] ],
-            [ "ug::StdDependentUserData< NedelecGridFunctionData< TGridFunc >, MathVector< TGridFunc::dim >, TGridFunc::dim >", "../classug_1_1_std_dependent_user_data.html", [
-              [ "ug::Electromagnetism::NedelecGridFunctionData< TGridFunc >", "classug_1_1_electromagnetism_1_1_nedelec_grid_function_data.html", null ]
-            ] ],
-            [ "ug::StdDependentUserData< NedelecCurlData< TGridFunc >, MathVector< TGridFunc::dim >, TGridFunc::dim >", "../classug_1_1_std_dependent_user_data.html", [
-              [ "ug::Electromagnetism::NedelecCurlData< TGridFunc >", "classug_1_1_electromagnetism_1_1_nedelec_curl_data.html", null ]
-            ] ],
-            [ "ug::StdDependentUserData< EddyCurrentHeat< TGridFunc >, number, TGridFunc::dim >", "../classug_1_1_std_dependent_user_data.html", [
-              [ "ug::Electromagnetism::EddyCurrentHeat< TGridFunc >", "classug_1_1_electromagnetism_1_1_eddy_current_heat.html", null ]
-            ] ],
-            [ "ug::StdDependentUserData< TImpl, MathVector< TGFunc::dim >, TGFunc::dim >", "../classug_1_1_std_dependent_user_data.html", [
-              [ "ug::Electromagnetism::EddyCurrentCurlEDependentCmpUserData< TImpl, ReIm, TGFunc >", "classug_1_1_electromagnetism_1_1_eddy_current_curl_e_dependent_cmp_user_data.html", null ]
-            ] ],
-            [ "ug::StdDependentUserData< NedelecSigmaEData< TGridFunc >, MathVector< TGridFunc::dim >, TGridFunc::dim >", "../classug_1_1_std_dependent_user_data.html", [
-              [ "ug::Electromagnetism::NedelecSigmaEData< TGridFunc >", "classug_1_1_electromagnetism_1_1_nedelec_sigma_e_data.html", null ]
-            ] ],
-            [ "ug::StdGlobPosData< BarryMercerRefPressure, number, 2, void >", "../classug_1_1_std_glob_pos_data.html", [
-              [ "ug::Poroelasticity::BarryMercerRefPressure", "classug_1_1_poroelasticity_1_1_barry_mercer_ref_pressure.html", null ]
-            ] ],
-            [ "ug::StdGlobPosData< BarryMercerRefDispY, number, 2, void >", "../classug_1_1_std_glob_pos_data.html", [
-              [ "ug::Poroelasticity::BarryMercerRefDispY", "classug_1_1_poroelasticity_1_1_barry_mercer_ref_disp_y.html", null ]
-            ] ],
             [ "ug::StdGlobPosData< BarryMercerPointSource, number, 2, void >", "../classug_1_1_std_glob_pos_data.html", [
               [ "ug::Poroelasticity::BarryMercerPointSource", "classug_1_1_poroelasticity_1_1_barry_mercer_point_source.html", null ]
             ] ],
             [ "ug::StdGlobPosData< BarryMercerRefDispX, number, 2, void >", "../classug_1_1_std_glob_pos_data.html", [
               [ "ug::Poroelasticity::BarryMercerRefDispX", "classug_1_1_poroelasticity_1_1_barry_mercer_ref_disp_x.html", null ]
-            ] ]
-          ] ]
-        ] ],
-        [ "ug::CplUserData< class, dim, class >", "../classug_1_1_cpl_user_data.html", [
-          [ "ug::StdUserData< SeparatedPressureSourceInter< TGridFunction >, MathVector< TGridFunction::dim >, TGridFunction::dim >", "../classug_1_1_std_user_data.html", [
-            [ "ug::NavierStokes::SeparatedPressureSourceInter< TGridFunction >", "classug_1_1_navier_stokes_1_1_separated_pressure_source_inter.html", null ]
-          ] ],
-          [ "ug::StdUserData< SeparatedPressureSource< TGridFunction >, MathVector< TGridFunction::dim >, TGridFunction::dim >", "../classug_1_1_std_user_data.html", [
-            [ "ug::NavierStokes::SeparatedPressureSource< TGridFunction >", "classug_1_1_navier_stokes_1_1_separated_pressure_source.html", null ]
-          ] ],
-          [ "ug::DependentUserData< class, dim >", "../classug_1_1_dependent_user_data.html", [
-            [ "StdUserData< StdDataLinker< TImpl, TData, dim >, TData, dim, void, DependentUserData< TData, dim > >", "../classug_1_1_std_user_data.html", [
-              [ "ug::StdDataLinker< RichardsLinker< dim, TFunctor >, number, dim >", "../classug_1_1_std_data_linker.html", [
-                [ "ug::Richards::RichardsLinker< dim, TFunctor >", "classug_1_1_richards_1_1_richards_linker.html", null ]
-              ] ],
-              [ "ug::StdDataLinker< class, class, dim >", "../classug_1_1_std_data_linker.html", [
-                [ "ug::Richards::RichardsLinker< dim, HaverkampConductivityAdapter >", "classug_1_1_richards_1_1_richards_linker.html", null ],
-                [ "ug::Richards::RichardsLinker< dim, vanGenuchtenSaturationAdapter >", "classug_1_1_richards_1_1_richards_linker.html", null ],
-                [ "ug::Richards::RichardsLinker< dim, GardnerSaturationAdapter >", "classug_1_1_richards_1_1_richards_linker.html", null ],
-                [ "ug::Richards::RichardsLinker< dim, SaturationAdapter< ExponentialModel > >", "classug_1_1_richards_1_1_richards_linker.html", null ],
-                [ "ug::Richards::RichardsLinker< dim, ConductivityAdapter< ExponentialModel > >", "classug_1_1_richards_1_1_richards_linker.html", null ],
-                [ "ug::Richards::RichardsLinker< dim, vanGenuchtenConductivityAdapter >", "classug_1_1_richards_1_1_richards_linker.html", null ],
-                [ "ug::Richards::RichardsLinker< dim, HaverkampSaturationAdapter >", "classug_1_1_richards_1_1_richards_linker.html", null ],
-                [ "ug::Richards::RichardsLinker< dim, GardnerConductivityAdapter >", "classug_1_1_richards_1_1_richards_linker.html", null ]
-              ] ]
             ] ],
-            [ "StdUserData< StdDependentUserData< TImpl, TData, dim >, TData, dim, void, DependentUserData< TData, dim > >", "../classug_1_1_std_user_data.html", [
-              [ "ug::StdDependentUserData< class, class, dim >", "../classug_1_1_std_dependent_user_data.html", [
-                [ "ug::Electromagnetism::EddyCurrentCurlEDependentCmpUserData< EddyCurrentReBofEUserData< TGridFunc >, EddyCurrentTraits::_Im_, TGridFunc >", "classug_1_1_electromagnetism_1_1_eddy_current_curl_e_dependent_cmp_user_data.html", null ],
-                [ "ug::Electromagnetism::EddyCurrentCurlEDependentCmpUserData< EddyCurrentImBofEUserData< TGridFunc >, EddyCurrentTraits::_Re_, TGridFunc >", "classug_1_1_electromagnetism_1_1_eddy_current_curl_e_dependent_cmp_user_data.html", null ]
-              ] ]
+            [ "ug::StdGlobPosData< BarryMercerRefDispY, number, 2, void >", "../classug_1_1_std_glob_pos_data.html", [
+              [ "ug::Poroelasticity::BarryMercerRefDispY", "classug_1_1_poroelasticity_1_1_barry_mercer_ref_disp_y.html", null ]
+            ] ],
+            [ "ug::StdGlobPosData< BarryMercerRefPressure, number, 2, void >", "../classug_1_1_std_glob_pos_data.html", [
+              [ "ug::Poroelasticity::BarryMercerRefPressure", "classug_1_1_poroelasticity_1_1_barry_mercer_ref_pressure.html", null ]
             ] ]
           ] ]
         ] ]
       ] ],
-      [ "ug::ICplUserData< dim >", "../classug_1_1_i_cpl_user_data.html", [
-        [ "CplUserData< TData, dim, void >", "../classug_1_1_cpl_user_data.html", null ],
-        [ "ug::CplUserData< class, dim, class >", "../classug_1_1_cpl_user_data.html", null ]
+      [ "ug::UserData< typename TData, int dim, typename TRet >", "../classug_1_1_user_data.html", [
+        [ "ug::CplUserData< typename TData, int dim, typename TRet >", "../classug_1_1_cpl_user_data.html", null ]
       ] ]
     ] ],
     [ "ug::Richards::VanGenuchtenFunctions", "structug_1_1_richards_1_1_van_genuchten_functions.html", null ],
     [ "ug::Richards::VanGenuchtenParameters", "structug_1_1_richards_1_1_van_genuchten_parameters.html", null ],
-    [ "ug::VectorDebugWritingObject< class >", "../classug_1_1_vector_debug_writing_object.html", [
-      [ "ug::LimexTimeIntegrator< TDomain, TAlgebra >", "classug_1_1_limex_time_integrator.html", null ]
-    ] ],
-    [ "VectorDebugWritingObject< TAlgebra::vector_type >", "../classug_1_1_vector_debug_writing_object.html", [
+    [ "ug::VectorDebugWritingObject< TAlgebra::vector_type >", "../classug_1_1_vector_debug_writing_object.html", [
       [ "ug::DebugWritingObject< TAlgebra >", "../classug_1_1_debug_writing_object.html", [
         [ "ug::Electromagnetism::TimeHarmonicNedelecHybridSmoother< TDomain, TAlgebra >", "classug_1_1_electromagnetism_1_1_time_harmonic_nedelec_hybrid_smoother.html", null ],
         [ "ug::LinearImplicitEuler< TAlgebra >", "classug_1_1_linear_implicit_euler.html", null ],
         [ "ug::SimpleTimeIntegrator< TDomain, TAlgebra >", "classug_1_1_simple_time_integrator.html", null ]
       ] ],
       [ "ug::IExternalSolver< TAlgebra >", "../classug_1_1_i_external_solver.html", null ],
-      [ "ug::DebugWritingObject< class >", "../classug_1_1_debug_writing_object.html", [
+      [ "ug::DebugWritingObject< typename TAlgebra >", "../classug_1_1_debug_writing_object.html", [
         [ "ug::IPreconditioner< TAlgebra >", "../classug_1_1_i_preconditioner.html", null ]
-      ] ]
+      ] ],
+      [ "ug::LimexTimeIntegrator< TDomain, TAlgebra >", "classug_1_1_limex_time_integrator.html", null ]
     ] ],
     [ "ug::SmallStrainMechanics::VoigtianMatrix< TDomain >", "classug_1_1_small_strain_mechanics_1_1_voigtian_matrix.html", null ],
     [ "ug::NavierStokes::WallObject< TGridFunction >", "classug_1_1_navier_stokes_1_1_wall_object.html", null ],

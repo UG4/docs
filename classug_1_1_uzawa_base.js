@@ -30,7 +30,7 @@ var classug_1_1_uzawa_base =
     [ "my_write_debug", "classug_1_1_uzawa_base.html#a4ec648e7224a7f88b1fa8fb1bb517801", null ],
     [ "my_write_debug", "classug_1_1_uzawa_base.html#a77bd321efc448ec083f85d6714d461f1", null ],
     [ "my_write_debug", "classug_1_1_uzawa_base.html#a3411b84448f97390fcf394ab2d10599d", null ],
-    [ "name", "classug_1_1_uzawa_base.html#ac3005e220c558298988b0e329fd0c99d", null ],
+    [ "name", "classug_1_1_uzawa_base.html#a0c8d31af905a79090f05848d51225956", null ],
     [ "postprocess", "classug_1_1_uzawa_base.html#a6988d0e2106b3b6b5d577ce2429d90b8", null ],
     [ "postprocess_block_iterations", "classug_1_1_uzawa_base.html#a2d5e04ddb89f89b65a8db66caf13230a", null ],
     [ "preprocess", "classug_1_1_uzawa_base.html#a4f757b4fa1d90ef9a67ad63663668345", null ],

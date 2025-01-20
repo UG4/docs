@@ -10,7 +10,7 @@ var misc__util__impl_8hpp =
     [ "ElementDiameterSq", "misc__util__impl_8hpp.html#gafaf7a762e2f5d85cb6f648f94378a90e", null ],
     [ "ElementDiameterSq", "misc__util__impl_8hpp.html#ga0c88523fb31f7e4248be26b3cb5a561e", null ],
     [ "EraseElements", "misc__util__impl_8hpp.html#ga0dac4fccc6c2cebdcac80b06096c5151", null ],
-    [ "FindClosestByCoordinate", "misc__util__impl_8hpp.html#ga1e4ced35007d8cfa2e97f09ac7ebe90b", null ],
+    [ "FindClosestByCoordinate", "misc__util__impl_8hpp.html#ga686612123ff95cfa03f09c9f5d11368b", null ],
     [ "GetDirection", "misc__util__impl_8hpp.html#ga249b69b899837528fcc807280da9f042", null ],
     [ "GetSharedSide", "misc__util__impl_8hpp.html#gaa36b2d4628383bf9b11f69e7d2af210d", null ],
     [ "MaxElementDiameter", "misc__util__impl_8hpp.html#gacbbcf6c6549ff4932d940fc31fee1d92", null ],

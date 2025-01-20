@@ -7,7 +7,7 @@ var classug_1_1_prism =
     [ "collapse_edge", "classug_1_1_prism.html#a3e624f76f2ec8cf994ba2b55420b560a", null ],
     [ "container_section", "classug_1_1_prism.html#a93104ec3cf7a74a2d169fe43b2f6dda1", null ],
     [ "create_edge", "classug_1_1_prism.html#a5e22d17effac8f81c7d5bbc6cfc191b5", null ],
-    [ "create_empty_instance", "classug_1_1_prism.html#a565cb5a99b7d20016612ad9aca9a2c1f", null ],
+    [ "create_empty_instance", "classug_1_1_prism.html#a5da54bcf48bfce041cadd10856fcb2e0", null ],
     [ "create_face", "classug_1_1_prism.html#a579bc60617f73c3b900ce65269b95cee", null ],
     [ "edge_desc", "classug_1_1_prism.html#a73ea90fc00bc39b9e943bf7aee0f8aae", null ],
     [ "edge_desc", "classug_1_1_prism.html#a115219854bf8771ed459a5d3365cedc9", null ],
@@ -28,7 +28,7 @@ var classug_1_1_prism =
     [ "refine", "classug_1_1_prism.html#a7b7cb197a3f8ffaecbc86b472a9b92c5", null ],
     [ "set_vertex", "classug_1_1_prism.html#acc8855d3ce297bbbf1c293eace9e9fc5", null ],
     [ "type_match", "classug_1_1_prism.html#a30f70e7f4e3fc367a3ffd4b73bd009b5", null ],
-    [ "vertex", "classug_1_1_prism.html#a48f43646b10cbf9c00f78fbe4dd613ca", null ],
+    [ "vertex", "classug_1_1_prism.html#a4dc9a50893d670ce8e6ab7a863eb5af0", null ],
     [ "vertices", "classug_1_1_prism.html#a828a36fabe033e276a7e8870c315973b", null ],
     [ "m_vertices", "classug_1_1_prism.html#af34b9888af9030717fa79fe05c8d4c98", null ],
     [ "NUM_VERTICES", "classug_1_1_prism.html#ab710120047218c048d388ffeb28a58e6", null ]

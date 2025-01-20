@@ -18,7 +18,7 @@ var classug_1_1_l_u =
     [ "init_lu", "classug_1_1_l_u.html#a285813da9e65e85c40773ac43a426d48", null ],
     [ "init_sparse", "classug_1_1_l_u.html#a316408ac2c7b42a4174e0da8b64ea1ae", null ],
     [ "init_var", "classug_1_1_l_u.html#af0e48b148735babde8ccff4996287963", null ],
-    [ "name", "classug_1_1_l_u.html#aa14175e4895df806c78cb26f8531207a", null ],
+    [ "name", "classug_1_1_l_u.html#a31893b36cc0ddcf16cca064d16ab72ad", null ],
     [ "print_info", "classug_1_1_l_u.html#a9093f67a886549940b21a42308b87804", null ],
     [ "set_info", "classug_1_1_l_u.html#a4bc32e9979e8a1d547ea850ea446e9ec", null ],
     [ "set_minimum_for_sparse", "classug_1_1_l_u.html#ae8884c606b8186da09aa1836edf47c0c", null ],

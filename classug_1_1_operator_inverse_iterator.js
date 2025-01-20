@@ -9,10 +9,10 @@ var classug_1_1_operator_inverse_iterator =
     [ "~OperatorInverseIterator", "classug_1_1_operator_inverse_iterator.html#add6a67d91dfc534ccfe1a9981439a439", null ],
     [ "apply", "classug_1_1_operator_inverse_iterator.html#a3cf43c14a05172189403d87946b9afed", null ],
     [ "apply_update_defect", "classug_1_1_operator_inverse_iterator.html#a6e5034ee1989d6e3281b75abe4ab5d69", null ],
-    [ "clone", "classug_1_1_operator_inverse_iterator.html#a9416c9a1976767431f0eedb2d03661d6", null ],
+    [ "clone", "classug_1_1_operator_inverse_iterator.html#a261d2fbb5995c7b9b919b0cd06df2702", null ],
     [ "init", "classug_1_1_operator_inverse_iterator.html#ad563d8a7553bb8746258d849fd2af74d", null ],
     [ "init", "classug_1_1_operator_inverse_iterator.html#a51356fc31ffde95d563fca76a6b1e554", null ],
-    [ "name", "classug_1_1_operator_inverse_iterator.html#a900e7f067f394a8e881acfd6bc8cc225", null ],
+    [ "name", "classug_1_1_operator_inverse_iterator.html#a3f1b9427824bbebbbc68e5e83c07ae6a", null ],
     [ "supports_parallel", "classug_1_1_operator_inverse_iterator.html#a34a5f6fbb44aec1dd1f97b6fd009ed2a", null ],
     [ "m_name", "classug_1_1_operator_inverse_iterator.html#a243919b70e4cbdb0959428a764d24ac5", null ],
     [ "m_opInv", "classug_1_1_operator_inverse_iterator.html#a5a7289e7f4be9c322e3f45afc3f00942", null ]

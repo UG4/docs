@@ -30,10 +30,10 @@ var classug_1_1_map_sparse_matrix =
     [ "num_cols", "classug_1_1_map_sparse_matrix.html#a8111795fdc46c710a4248aa145363824", null ],
     [ "num_connections", "classug_1_1_map_sparse_matrix.html#a4ebae804ce7573782f87c88b36e5b75a", null ],
     [ "num_rows", "classug_1_1_map_sparse_matrix.html#a9755681054506f371c11a55126e924c7", null ],
-    [ "operator()", "classug_1_1_map_sparse_matrix.html#ae7caecb870a34182ae9f4db0909c8065", null ],
-    [ "operator()", "classug_1_1_map_sparse_matrix.html#ac1399a81f3e14449e8a298b5918746c6", null ],
-    [ "operator*=", "classug_1_1_map_sparse_matrix.html#adcd9449205000820644f49df6086d188", null ],
-    [ "operator=", "classug_1_1_map_sparse_matrix.html#a5c920af64345ee3de1ffadb97472866d", null ],
+    [ "operator()", "classug_1_1_map_sparse_matrix.html#ac01741bb7f2a0c31572596f5e4e35a05", null ],
+    [ "operator()", "classug_1_1_map_sparse_matrix.html#aa63ddb2f9ee4c09b01eeef7d49f0b16b", null ],
+    [ "operator*=", "classug_1_1_map_sparse_matrix.html#ab7cbb366de892056e3180dcc1e455851", null ],
+    [ "operator=", "classug_1_1_map_sparse_matrix.html#a657d1477c214438703c4fcb663212f16", null ],
     [ "p", "classug_1_1_map_sparse_matrix.html#a383fd1d3950f01e89e39d15fc9c0ab97", null ],
     [ "pr", "classug_1_1_map_sparse_matrix.html#aca49a79a3ede47569f3fcd793943150a", null ],
     [ "print", "classug_1_1_map_sparse_matrix.html#a078892635320445619e2761203de76ad", null ],
@@ -48,7 +48,7 @@ var classug_1_1_map_sparse_matrix =
     [ "set_as_transpose_of", "classug_1_1_map_sparse_matrix.html#af353e89d2c861f2fe9d14e3705cdc2a6", null ],
     [ "set_matrix_row", "classug_1_1_map_sparse_matrix.html#ae72981f031311373f8a08ce10086e05f", null ],
     [ "total_num_connections", "classug_1_1_map_sparse_matrix.html#a394e94db987974fb1d97d0cf67d14cbb", null ],
-    [ "operator<<", "classug_1_1_map_sparse_matrix.html#a1ab8d251e4286682ecd378284e5a8d64", null ],
+    [ "operator<<", "classug_1_1_map_sparse_matrix.html#aa72d92a7b6aec5bb2ff4d0f4d59d17a6", null ],
     [ "cols", "classug_1_1_map_sparse_matrix.html#a7058256158d63b09293869ae1c6c3fa0", null ],
     [ "data", "classug_1_1_map_sparse_matrix.html#ae66e80110784338b1f1718cc87d9fa18", null ]
 ];

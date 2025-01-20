@@ -1,6 +1,6 @@
 var refinement__tools_8cpp =
 [
-    [ "AnisoElemInfo", "classug_1_1promesh_1_1_aniso_elem_info.html", "classug_1_1promesh_1_1_aniso_elem_info" ],
+    [ "ug::promesh::AnisoElemInfo", "classug_1_1promesh_1_1_aniso_elem_info.html", "classug_1_1promesh_1_1_aniso_elem_info" ],
     [ "HangingNodeRefine", "refinement__tools_8cpp.html#gaba0deb0164224a910c2920f6871ccd1a", null ],
     [ "HangingNodeRefine", "refinement__tools_8cpp.html#ga96da1aee9c8ff5fa45501f60df1e2846", null ],
     [ "InsertCenter", "refinement__tools_8cpp.html#gabff4f0f10bed40d0b067caa52e3b6593", null ],

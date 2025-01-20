@@ -36,7 +36,7 @@ var namespaceug_1_1_small_strain_mechanics =
     [ "MarkDamage_OLD_AND_DEPRECATED", "namespaceug_1_1_small_strain_mechanics.html#adc7e1e916184023723742f6e99309ce1", null ],
     [ "MarkForAdaption_PlasticElem", "namespaceug_1_1_small_strain_mechanics.html#a77eb4a5cce41d5efb3b470b8c1b66dff", null ],
     [ "MarkForAdaption_ValueRangeIndicator", "namespaceug_1_1_small_strain_mechanics.html#a235e6019224cc5b87db4f9f65ee67714", null ],
-    [ "MinMaxElementDiameter", "namespaceug_1_1_small_strain_mechanics.html#a9e0204b93783fa8666c5c0c40f67f89f", null ],
+    [ "MinMaxElementDiameter", "namespaceug_1_1_small_strain_mechanics.html#a48c0cc6b485012df25ee5a1a3545259e", null ],
     [ "normal_stresses_strains", "group__small__strain__mechanics.html#ga1a601698f3b3b36b42b739b65c4a75ad", null ],
     [ "plast_ip", "group__small__strain__mechanics.html#ga71b0fd274badcf5922cc3200697f31e9", null ],
     [ "plastic_ip_elem", "namespaceug_1_1_small_strain_mechanics.html#a95cc41a44277acecfaa123e6199fd72e", null ]

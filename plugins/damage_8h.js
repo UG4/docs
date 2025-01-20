@@ -1,9 +1,9 @@
 var damage_8h =
 [
-    [ "contrained_dim_traits< 2 >", "structug_1_1_small_strain_mechanics_1_1contrained__dim__traits_3_012_01_4.html", "structug_1_1_small_strain_mechanics_1_1contrained__dim__traits_3_012_01_4" ],
-    [ "contrained_dim_traits< 3 >", "structug_1_1_small_strain_mechanics_1_1contrained__dim__traits_3_013_01_4.html", "structug_1_1_small_strain_mechanics_1_1contrained__dim__traits_3_013_01_4" ],
-    [ "DamageFunctionUpdater", "classug_1_1_small_strain_mechanics_1_1_damage_function_updater.html", "classug_1_1_small_strain_mechanics_1_1_damage_function_updater" ],
-    [ "RelativeDensityUpdater", "classug_1_1_small_strain_mechanics_1_1_relative_density_updater.html", "classug_1_1_small_strain_mechanics_1_1_relative_density_updater" ],
+    [ "ug::SmallStrainMechanics::contrained_dim_traits< 2 >", "structug_1_1_small_strain_mechanics_1_1contrained__dim__traits_3_012_01_4.html", "structug_1_1_small_strain_mechanics_1_1contrained__dim__traits_3_012_01_4" ],
+    [ "ug::SmallStrainMechanics::contrained_dim_traits< 3 >", "structug_1_1_small_strain_mechanics_1_1contrained__dim__traits_3_013_01_4.html", "structug_1_1_small_strain_mechanics_1_1contrained__dim__traits_3_013_01_4" ],
+    [ "ug::SmallStrainMechanics::DamageFunctionUpdater< TDomain >", "classug_1_1_small_strain_mechanics_1_1_damage_function_updater.html", "classug_1_1_small_strain_mechanics_1_1_damage_function_updater" ],
+    [ "ug::SmallStrainMechanics::RelativeDensityUpdater< TDomain >", "classug_1_1_small_strain_mechanics_1_1_relative_density_updater.html", "classug_1_1_small_strain_mechanics_1_1_relative_density_updater" ],
     [ "AveragePositions", "damage_8h.html#a2b67883e0885e4a7b34ba9162930f72a", null ],
     [ "CollectStencilNeighbors_NeumannZeroBND_IndexAndDistance", "damage_8h.html#a83a18d6c54ac128e127c96eacd508855", null ],
     [ "CollectSurfaceNeighbors", "damage_8h.html#aa6bc63fa3fe1d8f2d0eaca6441148db5", null ],

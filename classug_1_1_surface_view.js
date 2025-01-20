@@ -53,7 +53,7 @@ var classug_1_1_surface_view =
     [ "refresh_surface_states", "classug_1_1_surface_view.html#a6b02b7617cf1194c2074ac6074af4285", null ],
     [ "subset_handler", "classug_1_1_surface_view.html#a93b438dfec302a902db5bce2db7f770d", null ],
     [ "subset_handler", "classug_1_1_surface_view.html#a6fd09de0c9c34a222db58b2afd581ea3", null ],
-    [ "surface_state", "classug_1_1_surface_view.html#a144609b7894a946f8cb7953312daf363", null ],
+    [ "surface_state", "classug_1_1_surface_view.html#a4488ba062a99a54e9f9ff2ed9a8bd0c7", null ],
     [ "surface_state", "classug_1_1_surface_view.html#a01902e2922b387e26870702539e09db0", null ],
     [ "surface_state", "classug_1_1_surface_view.html#ac555d4c90ab4341c5c005e980088d0f1", null ],
     [ "surface_state", "classug_1_1_surface_view.html#a64db350da86dbdc207cf5b9661217472", null ],

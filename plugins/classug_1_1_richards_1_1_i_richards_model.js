@@ -10,7 +10,7 @@ var classug_1_1_richards_1_1_i_richards_model =
     [ "get_saturation", "classug_1_1_richards_1_1_i_richards_model.html#ae51fcf9a89ec167f5a5d3c4566f935ec", null ],
     [ "get_saturations", "classug_1_1_richards_1_1_i_richards_model.html#a48d6530d5a8104b13e4647dddeb3e742", null ],
     [ "get_value_and_deriv", "classug_1_1_richards_1_1_i_richards_model.html#a2c2733320e788f39fa3d60409fc18563", null ],
-    [ "me", "classug_1_1_richards_1_1_i_richards_model.html#aa54c182ac40171d0f7e468a5fa2f5b65", null ],
-    [ "me", "classug_1_1_richards_1_1_i_richards_model.html#a998e4a79b410353ba74e9fb3f97ba044", null ],
+    [ "me", "classug_1_1_richards_1_1_i_richards_model.html#a5939d9641ff6f06448ecc48e03cc846a", null ],
+    [ "me", "classug_1_1_richards_1_1_i_richards_model.html#a3ccdca1d5b037add792ad689efe33913", null ],
     [ "Saturation", "classug_1_1_richards_1_1_i_richards_model.html#a49eee3880719dc6a9d362cd4b20604ed", null ]
 ];

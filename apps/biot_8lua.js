@@ -1,6 +1,6 @@
 var biot_8lua =
 [
-    [ "exp", "biot_8lua.html#a9ef3696f269f65222f0c4f466eb113f7", null ],
+    [ "exp", "biot_8lua.html#a26ff0a0d24214e8e896f479250e049c0", null ],
     [ "findRoots", "biot_8lua.html#abd37519bc755c0f5e8af2c4505b80a34", null ],
     [ "PDirichletSide", "biot_8lua.html#a7b9ff003ddee98eeed6c6492c068f187", null ],
     [ "Pres0", "biot_8lua.html#adcd00a3348643a8db2b432369cea7829", null ],

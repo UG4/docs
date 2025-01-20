@@ -5,6 +5,6 @@ var classug_1_1_triangle_descriptor =
     [ "TriangleDescriptor", "classug_1_1_triangle_descriptor.html#a892d00be8f95297850684f8e0d727072", null ],
     [ "num_vertices", "classug_1_1_triangle_descriptor.html#a62aff415de1e4247bdbc0debbf89f94d", null ],
     [ "set_vertex", "classug_1_1_triangle_descriptor.html#a887ad789fef80b8d4f78b26d1761fa0b", null ],
-    [ "vertex", "classug_1_1_triangle_descriptor.html#a832f22af57447400022b810dde6c6bab", null ],
+    [ "vertex", "classug_1_1_triangle_descriptor.html#a756df0c5f0ebd21395b4c27a4b7ac20c", null ],
     [ "m_vertex", "classug_1_1_triangle_descriptor.html#a7dc1f8d2b82911bf0847f23044a01709", null ]
 ];
