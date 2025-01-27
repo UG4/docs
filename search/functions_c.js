@@ -230,7 +230,7 @@ var searchData=
   ['luacallbackhelpercallback_227',['LuaCallbackHelperCallback',['../lua__callback__util_8lua.html#ab3394539f8d968778875a6e587fd9932',1,'lua_callback_util.lua']]],
   ['luacallbackobserver_228',['luacallbackobserver',['../classug_1_1_lua_callback_observer.html#afc1b77daaf33f241a3616bba0c906098',1,'ug::LuaCallbackObserver::LuaCallbackObserver()'],['../classug_1_1_lua_callback_observer.html#af784501d75c2c1f0cd19a684de2fe506',1,'ug::LuaCallbackObserver::LuaCallbackObserver(int lua_id)']]],
   ['luacallhook_229',['LuaCallHook',['../namespaceug_1_1script.html#a99049bb49a14c361808d2da28b6613a0',1,'ug::script']]],
-  ['luacallstackerror_230',['luacallstackerror',['../../plugins/namespaceug_1_1luashell.html#a7a293b8981abf334a6fd2ffb092198c3',1,'ug::luashell::LuaCallStackError()'],['../namespaceug_1_1script.html#a013f4cb6e02e5531e07037905d51b1c9',1,'ug::script::luaCallStackError()']]],
+  ['luacallstackerror_230',['luacallstackerror',['../namespaceug_1_1script.html#a013f4cb6e02e5531e07037905d51b1c9',1,'ug::script::luaCallStackError()'],['../../plugins/namespaceug_1_1luashell.html#a7a293b8981abf334a6fd2ffb092198c3',1,'ug::luashell::LuaCallStackError()']]],
   ['luaclassmethodinfo_231',['LuaClassMethodInfo',['../../plugins/namespaceug_1_1bridge_1_1_super_l_u_bridge.html#af7c803c2fcd3b248e0a9e5d4d6e810ef',1,'ug::bridge']]],
   ['luacompiler_232',['LUACompiler',['../classug_1_1bridge_1_1_l_u_a_compiler.html#a3cf97fb3b36221b5355156699a9f4d61',1,'ug::bridge::LUACompiler']]],
   ['luaconstructor_233',['LuaConstructor',['../namespaceug_1_1bridge_1_1lua.html#a2d5a2989a47d843043e9d1b5d55c31b5',1,'ug::bridge::lua']]],
