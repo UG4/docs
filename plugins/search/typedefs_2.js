@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['callback_0',['callback',['../../classug_1_1_message_hub.html#ad297d1ee47a31e8e55559a696837f6c7',1,'ug::MessageHub::Callback'],['../../structug_1_1_grid_1_1traits.html#a1bd114991c12becc6ca48862967dd9f2',1,'ug::Grid::traits::callback']]],
+  ['callback_0',['callback',['../../structug_1_1_grid_1_1traits.html#a1bd114991c12becc6ca48862967dd9f2',1,'ug::Grid::traits::callback'],['../../classug_1_1_message_hub.html#ad297d1ee47a31e8e55559a696837f6c7',1,'ug::MessageHub::Callback']]],
   ['callback_5fmap_5ft_1',['callback_map_t',['../../classug_1_1_archivar.html#a5f470c5a59ae2a778fe8528aa8a9820c',1,'ug::Archivar']]],
   ['callbackentryiterator_2',['CallbackEntryIterator',['../../classug_1_1_message_hub.html#a2dfaa01ba17cb450b78ed57fb4301d13',1,'ug::MessageHub']]],
   ['callbackentrylist_3',['CallbackEntryList',['../../classug_1_1_message_hub.html#a3e507ab57b59053770cb9a1aa7bba1db',1,'ug::MessageHub']]],

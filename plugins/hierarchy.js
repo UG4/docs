@@ -570,14 +570,14 @@ var hierarchy =
     [ "ug::VectorDebugWritingObject< TAlgebra::vector_type >", "../classug_1_1_vector_debug_writing_object.html", [
       [ "ug::DebugWritingObject< TAlgebra >", "../classug_1_1_debug_writing_object.html", [
         [ "ug::Electromagnetism::TimeHarmonicNedelecHybridSmoother< TDomain, TAlgebra >", "classug_1_1_electromagnetism_1_1_time_harmonic_nedelec_hybrid_smoother.html", null ],
+        [ "ug::LimexTimeIntegrator< TDomain, TAlgebra >", "classug_1_1_limex_time_integrator.html", null ],
         [ "ug::LinearImplicitEuler< TAlgebra >", "classug_1_1_linear_implicit_euler.html", null ],
         [ "ug::SimpleTimeIntegrator< TDomain, TAlgebra >", "classug_1_1_simple_time_integrator.html", null ]
       ] ],
       [ "ug::IExternalSolver< TAlgebra >", "../classug_1_1_i_external_solver.html", null ],
       [ "ug::DebugWritingObject< typename TAlgebra >", "../classug_1_1_debug_writing_object.html", [
         [ "ug::IPreconditioner< TAlgebra >", "../classug_1_1_i_preconditioner.html", null ]
-      ] ],
-      [ "ug::LimexTimeIntegrator< TDomain, TAlgebra >", "classug_1_1_limex_time_integrator.html", null ]
+      ] ]
     ] ],
     [ "ug::SmallStrainMechanics::VoigtianMatrix< TDomain >", "classug_1_1_small_strain_mechanics_1_1_voigtian_matrix.html", null ],
     [ "ug::NavierStokes::WallObject< TGridFunction >", "classug_1_1_navier_stokes_1_1_wall_object.html", null ],

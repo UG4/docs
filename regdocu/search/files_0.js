@@ -58,5 +58,6 @@ var searchData=
   ['attachment_5futil_5fimpl_2ehpp_55',['attachment_util_impl.hpp',['../../attachment__util__impl_8hpp.html',1,'']]],
   ['authors_2eh_56',['authors.h',['../../authors_8h.html',1,'']]],
   ['auto_5flinear_5fsolver_2eh_57',['auto_linear_solver.h',['../../auto__linear__solver_8h.html',1,'']]],
-  ['average_5fcomponent_2eh_58',['average_component.h',['../../average__component_8h.html',1,'']]]
+  ['aux_5foutput_5fobserver_2ehpp_58',['aux_output_observer.hpp',['../../plugins/aux__output__observer_8hpp.html',1,'']]],
+  ['average_5fcomponent_2eh_59',['average_component.h',['../../average__component_8h.html',1,'']]]
 ];

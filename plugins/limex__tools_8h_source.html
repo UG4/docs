@@ -106,73 +106,76 @@ $(document).ready(function(){initNavTree('limex__tools_8h_source.html',''); init
 </div><!--header-->
 <div class="contents">
 <a href="limex__tools_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/*</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"> * Copyright (c) 2014-2016:  G-CSC, Goethe University Frankfurt</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment"> * Author: Arne Naegel</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"> * SPDX-FileCopyrightText: Copyright (c) 2014-2025:  Goethe University Frankfurt</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment"> * SPDX-License-Identifier: LicenseRef-UG4-LGPL-3.0</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"> *</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment"> * This file is part of UG4.</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment"> * Author: Arne Naegel</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment"> *</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment"> * UG4 is free software: you can redistribute it and/or modify it under the</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment"> * terms of the GNU Lesser General Public License version 3 (as published by the</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment"> * Free Software Foundation) with the following additional attribution</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="comment"> * requirements (according to LGPL/GPL v3 §7):</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment"> *</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment"> * (1) The following notice must be displayed in the Appropriate Legal Notices</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="comment"> * of covered and combined works: &quot;Based on UG4 (www.ug4.org/license)&quot;.</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment"> *</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment"> * This file is part of UG4.</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment"> *</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="comment"> * UG4 is free software: you can redistribute it and/or modify it under the</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment"> * terms of the GNU Lesser General Public License version 3 (as published by the</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment"> * Free Software Foundation) with the following additional attribution</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="comment"> * requirements (according to LGPL/GPL v3 §7):</span></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment"> *</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="comment"> * (2) The following notice must be displayed at a prominent place in the</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="comment"> * terminal output of covered works: &quot;Based on UG4 (www.ug4.org/license)&quot;.</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="comment"> * (1) The following notice must be displayed in the Appropriate Legal Notices</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="comment"> * of covered and combined works: &quot;Based on UG4 (www.ug4.org/license)&quot;.</span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="comment"> *</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="comment"> * (3) The following bibliography is recommended for citation and must be</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="comment"> * preserved in all covered files:</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="comment"> * &quot;Reiter, S., Vogel, A., Heppner, I., Rupp, M., and Wittum, G. A massively</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="comment"> *   parallel geometric multigrid solver on hierarchically distributed grids.</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="comment"> *   Computing and visualization in science 16, 4 (2013), 151-164&quot;</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="comment"> * &quot;Vogel, A., Reiter, S., Rupp, M., Nägel, A., and Wittum, G. UG4 -- a novel</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="comment"> *   flexible software system for simulating pde based models on high performance</span></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="comment"> *   computers. Computing and visualization in science 16, 4 (2013), 165-179&quot;</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="comment"> *</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="comment"> * This program is distributed in the hope that it will be useful,</span></div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="comment"> * but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="comment"> * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="comment"> * GNU Lesser General Public License for more details.</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="comment"> */</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#ifndef LIMEX_TOOLS_H__</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#define LIMEX_TOOLS_H__</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="comment"> * (2) The following notice must be displayed at a prominent place in the</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="comment"> * terminal output of covered works: &quot;Based on UG4 (www.ug4.org/license)&quot;.</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="comment"> *</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="comment"> * (3) The following bibliography is recommended for citation and must be</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="comment"> * preserved in all covered files:</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="comment"> * &quot;Reiter, S., Vogel, A., Heppner, I., Rupp, M., and Wittum, G. A massively</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="comment"> *   parallel geometric multigrid solver on hierarchically distributed grids.</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="comment"> *   Computing and visualization in science 16, 4 (2013), 151-164&quot;</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="comment"> * &quot;Vogel, A., Reiter, S., Rupp, M., Nägel, A., and Wittum, G. UG4 -- a novel</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="comment"> *   flexible software system for simulating pde based models on high performance</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="comment"> *   computers. Computing and visualization in science 16, 4 (2013), 165-179&quot;</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="comment"> *</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="comment"> * This program is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="comment"> * but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="comment"> * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="comment"> * GNU Lesser General Public License for more details.</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="comment"> */</span></div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="limex__tools_8h.html#a18e0c4be60cbb1646d16e853d277706c">   36</a></span><span class="preprocessor">#define PROFILE_LIMEX</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#ifdef PROFILE_LIMEX</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="limex__tools_8h.html#a60be94f2fc24b31aa9f3c59d58f40a1f">   38</a></span><span class="preprocessor">  #define LIMEX_PROFILE_FUNC()    PROFILE_FUNC_GROUP(&quot;limex&quot;)</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="limex__tools_8h.html#a28a99b20944c70de2af6e7edf4378c2a">   39</a></span><span class="preprocessor">  #define LIMEX_PROFILE_BEGIN(name) PROFILE_BEGIN_GROUP(name, &quot;limex&quot;)</span></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="limex__tools_8h.html#a617cbde1e87332ab91fe44c02f7e190d">   40</a></span><span class="preprocessor">  #define LIMEX_PROFILE_END()   PROFILE_END()</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">  #define LIMEX_PROFILE_FUNC()</span></div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">  #define LIMEX_PROFILE_BEGIN(name)</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="preprocessor">  #define LIMEX_PROFILE_END()</span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="preprocessor">#include &quot;<a class="codeRef" href="../debug__id_8h.html">common/debug_id.h</a>&quot;</span></div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceug.html">ug</a>{</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#ifndef LIMEX_TOOLS_H__</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#define LIMEX_TOOLS_H__</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="limex__tools_8h.html#a18e0c4be60cbb1646d16e853d277706c">   39</a></span><span class="preprocessor">#define PROFILE_LIMEX</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#ifdef PROFILE_LIMEX</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="limex__tools_8h.html#a60be94f2fc24b31aa9f3c59d58f40a1f">   41</a></span><span class="preprocessor">  #define LIMEX_PROFILE_FUNC()    PROFILE_FUNC_GROUP(&quot;limex&quot;)</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="limex__tools_8h.html#a28a99b20944c70de2af6e7edf4378c2a">   42</a></span><span class="preprocessor">  #define LIMEX_PROFILE_BEGIN(name) PROFILE_BEGIN_GROUP(name, &quot;limex&quot;)</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="limex__tools_8h.html#a617cbde1e87332ab91fe44c02f7e190d">   43</a></span><span class="preprocessor">  #define LIMEX_PROFILE_END()   PROFILE_END()</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="preprocessor">  #define LIMEX_PROFILE_FUNC()</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">  #define LIMEX_PROFILE_BEGIN(name)</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="preprocessor">  #define LIMEX_PROFILE_END()</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="namespaceug.html#a98ab9180aa0564e4ce6681ca8568b617">   51</a></span><span class="keyword">extern</span> <a class="code hl_classRef" href="../classug_1_1_debug_i_d.html">DebugID</a> <a class="code hl_variable" href="namespaceug.html#a98ab9180aa0564e4ce6681ca8568b617">LIB_LIMEX</a>;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="preprocessor">#include &quot;<a class="codeRef" href="../debug__id_8h.html">common/debug_id.h</a>&quot;</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceug.html">ug</a>{</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>}</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="namespaceug.html#a98ab9180aa0564e4ce6681ca8568b617">   54</a></span><span class="keyword">extern</span> <a class="code hl_classRef" href="../classug_1_1_debug_i_d.html">DebugID</a> <a class="code hl_variable" href="namespaceug.html#a98ab9180aa0564e4ce6681ca8568b617">LIB_LIMEX</a>;</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>}</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aclassug_1_1_debug_i_d_html"><div class="ttname"><a href="../classug_1_1_debug_i_d.html">ug::DebugID</a></div></div>
 <div class="ttc" id="adebug__id_8h_html"><div class="ttname"><a href="../debug__id_8h.html">debug_id.h</a></div></div>
 <div class="ttc" id="anamespaceug_html"><div class="ttname"><a href="namespaceug.html">ug</a></div></div>
-<div class="ttc" id="anamespaceug_html_a98ab9180aa0564e4ce6681ca8568b617"><div class="ttname"><a href="namespaceug.html#a98ab9180aa0564e4ce6681ca8568b617">ug::LIB_LIMEX</a></div><div class="ttdeci">DebugID LIB_LIMEX(&quot;LIB_LIMEX&quot;)</div><div class="ttdef"><b>Definition</b> limex_tools.h:51</div></div>
+<div class="ttc" id="anamespaceug_html_a98ab9180aa0564e4ce6681ca8568b617"><div class="ttname"><a href="namespaceug.html#a98ab9180aa0564e4ce6681ca8568b617">ug::LIB_LIMEX</a></div><div class="ttdeci">DebugID LIB_LIMEX(&quot;LIB_LIMEX&quot;)</div><div class="ttdef"><b>Definition</b> limex_tools.h:54</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_38c8d24aef3972a7f87b834274e76e31.html">plugins</a></li><li class="navelem"><a class="el" href="dir_ddbc46a4ddd0bdb2290ac7ec55089202.html">Limex</a></li><li class="navelem"><a class="el" href="limex__tools_8h.html">limex_tools.h</a></li>
-    <li class="footer">Generated on Mon Feb 17 2025 01:12:56 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Feb 24 2025 01:12:46 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>
