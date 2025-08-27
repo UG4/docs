@@ -10,5 +10,7 @@ var dir_3b4c9cd7b72435c8ef37093ef766bedc =
     [ "damage_impl.h", "damage__impl_8h.html", "damage__impl_8h" ],
     [ "small_strain_mech.cpp", "small__strain__mech_8cpp.html", "small__strain__mech_8cpp" ],
     [ "small_strain_mech.h", "small__strain__mech_8h.html", null ],
-    [ "small_strain_mech_plugin.cpp", "small__strain__mech__plugin_8cpp.html", "small__strain__mech__plugin_8cpp" ]
+    [ "small_strain_mech_plugin.cpp", "small__strain__mech__plugin_8cpp.html", "small__strain__mech__plugin_8cpp" ],
+    [ "small_strain_mech_plugin.h", "small__strain__mech__plugin_8h.html", "small__strain__mech__plugin_8h" ],
+    [ "small_strain_mech_pybind.cpp", "small__strain__mech__pybind_8cpp.html", null ]
 ];

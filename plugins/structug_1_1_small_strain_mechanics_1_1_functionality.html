@@ -106,23 +106,23 @@ $(document).ready(function(){initNavTree('structug_1_1_small_strain_mechanics_1_
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ae8bea30d9d4dda6d82d1f40c6d6f7ebc" id="r_ae8bea30d9d4dda6d82d1f40c6d6f7ebc"><td class="memTemplParams" colspan="2">template&lt;typename TDomain &gt; </td></tr>
-<tr class="memitem:ae8bea30d9d4dda6d82d1f40c6d6f7ebc"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structug_1_1_small_strain_mechanics_1_1_functionality.html#ae8bea30d9d4dda6d82d1f40c6d6f7ebc">Domain</a> (<a class="elRef" href="../classug_1_1bridge_1_1_registry.html">Registry</a> &amp;reg, string grp)</td></tr>
-<tr class="separator:ae8bea30d9d4dda6d82d1f40c6d6f7ebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0945ebd4bad71d682a6cc59d280c2b0e" id="r_a0945ebd4bad71d682a6cc59d280c2b0e"><td class="memTemplParams" colspan="2">template&lt;typename TDomain , typename TAlgebra &gt; </td></tr>
-<tr class="memitem:a0945ebd4bad71d682a6cc59d280c2b0e"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structug_1_1_small_strain_mechanics_1_1_functionality.html#a0945ebd4bad71d682a6cc59d280c2b0e">DomainAlgebra</a> (<a class="elRef" href="../classug_1_1bridge_1_1_registry.html">Registry</a> &amp;reg, string grp)</td></tr>
-<tr class="separator:a0945ebd4bad71d682a6cc59d280c2b0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bff192a1253c57be036f5d642713ceb" id="r_a9bff192a1253c57be036f5d642713ceb"><td class="memTemplParams" colspan="2">template&lt;typename TDomain , typename TRegistry  = ug::bridge::Registry&gt; </td></tr>
+<tr class="memitem:a9bff192a1253c57be036f5d642713ceb"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structug_1_1_small_strain_mechanics_1_1_functionality.html#a9bff192a1253c57be036f5d642713ceb">Domain</a> (TRegistry &amp;reg, string grp)</td></tr>
+<tr class="separator:a9bff192a1253c57be036f5d642713ceb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71b33a351cfefa2f3e14127e07200cd5" id="r_a71b33a351cfefa2f3e14127e07200cd5"><td class="memTemplParams" colspan="2">template&lt;typename TDomain , typename TAlgebra , typename TRegistry  = ug::bridge::Registry&gt; </td></tr>
+<tr class="memitem:a71b33a351cfefa2f3e14127e07200cd5"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structug_1_1_small_strain_mechanics_1_1_functionality.html#a71b33a351cfefa2f3e14127e07200cd5">DomainAlgebra</a> (TRegistry &amp;reg, string grp)</td></tr>
+<tr class="separator:a71b33a351cfefa2f3e14127e07200cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class exporting the functionality of the plugin. All functionality that is to be used in scripts or visualization must be registered here. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="ae8bea30d9d4dda6d82d1f40c6d6f7ebc" name="ae8bea30d9d4dda6d82d1f40c6d6f7ebc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8bea30d9d4dda6d82d1f40c6d6f7ebc">&#9670;&#160;</a></span>Domain()</h2>
+<a id="a9bff192a1253c57be036f5d642713ceb" name="a9bff192a1253c57be036f5d642713ceb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bff192a1253c57be036f5d642713ceb">&#9670;&#160;</a></span>Domain()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDomain &gt; </div>
+template&lt;typename TDomain , typename TRegistry  = ug::bridge::Registry&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -130,7 +130,7 @@ template&lt;typename TDomain &gt; </div>
         <tr>
           <td class="memname">static void ug::SmallStrainMechanics::Functionality::Domain </td>
           <td>(</td>
-          <td class="paramtype"><a class="elRef" href="../classug_1_1bridge_1_1_registry.html">Registry</a> &amp;&#160;</td>
+          <td class="paramtype">TRegistry &amp;&#160;</td>
           <td class="paramname"><em>reg</em>, </td>
         </tr>
         <tr>
@@ -160,17 +160,17 @@ template&lt;typename TDomain &gt; </div>
   </dd>
 </dl>
 
-<p class="reference">References <a class="elRef" href="../classug_1_1bridge_1_1_registry.html#ad04cc451e9d65e1b69b2cd6865abc4b1">ug::bridge::Registry::add_class_()</a>, <a class="elRef" href="../classug_1_1bridge_1_1_registry.html#a734b80d9de5fae513508edfb49102141">ug::bridge::Registry::add_class_to_group()</a>, <a class="elRef" href="../classug_1_1bridge_1_1_registry.html#a8686a8af006e6824318d2ad38a06f3d0">ug::bridge::Registry::add_function()</a>, <a class="elRef" href="../group__bridge.html#ga601d35ee04376ba2853d4a7363aebe73">ug::bridge::GetDomainSuffix()</a>, and <a class="elRef" href="../util__overloaded_8h.html#aa2ba2a7e32b8fbf4b55cfda79a7d150c">OVERLOADED_METHOD_PTR</a>.</p>
+<p class="reference">References <a class="elRef" href="../group__bridge.html#ga601d35ee04376ba2853d4a7363aebe73">ug::bridge::GetDomainSuffix()</a>, and <a class="elRef" href="../util__overloaded_8h.html#aa2ba2a7e32b8fbf4b55cfda79a7d150c">OVERLOADED_METHOD_PTR</a>.</p>
 
 </div>
 </div>
-<a id="a0945ebd4bad71d682a6cc59d280c2b0e" name="a0945ebd4bad71d682a6cc59d280c2b0e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0945ebd4bad71d682a6cc59d280c2b0e">&#9670;&#160;</a></span>DomainAlgebra()</h2>
+<a id="a71b33a351cfefa2f3e14127e07200cd5" name="a71b33a351cfefa2f3e14127e07200cd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71b33a351cfefa2f3e14127e07200cd5">&#9670;&#160;</a></span>DomainAlgebra()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDomain , typename TAlgebra &gt; </div>
+template&lt;typename TDomain , typename TAlgebra , typename TRegistry  = ug::bridge::Registry&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -178,7 +178,7 @@ template&lt;typename TDomain , typename TAlgebra &gt; </div>
         <tr>
           <td class="memname">static void ug::SmallStrainMechanics::Functionality::DomainAlgebra </td>
           <td>(</td>
-          <td class="paramtype"><a class="elRef" href="../classug_1_1bridge_1_1_registry.html">Registry</a> &amp;&#160;</td>
+          <td class="paramtype">TRegistry &amp;&#160;</td>
           <td class="paramname"><em>reg</em>, </td>
         </tr>
         <tr>
@@ -208,7 +208,7 @@ template&lt;typename TDomain , typename TAlgebra &gt; </div>
   </dd>
 </dl>
 
-<p class="reference">References <a class="elRef" href="../classug_1_1bridge_1_1_registry.html#ad04cc451e9d65e1b69b2cd6865abc4b1">ug::bridge::Registry::add_class_()</a>, <a class="elRef" href="../classug_1_1bridge_1_1_registry.html#a734b80d9de5fae513508edfb49102141">ug::bridge::Registry::add_class_to_group()</a>, <a class="elRef" href="../classug_1_1bridge_1_1_registry.html#a8686a8af006e6824318d2ad38a06f3d0">ug::bridge::Registry::add_function()</a>, and <a class="elRef" href="../group__bridge.html#ga601d35ee04376ba2853d4a7363aebe73">ug::bridge::GetDomainSuffix()</a>.</p>
+<p class="reference">References <a class="elRef" href="../group__bridge.html#ga601d35ee04376ba2853d4a7363aebe73">ug::bridge::GetDomainSuffix()</a>.</p>
 
 </div>
 </div>
@@ -221,7 +221,7 @@ template&lt;typename TDomain , typename TAlgebra &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="namespaceug_1_1_small_strain_mechanics.html">SmallStrainMechanics</a></li><li class="navelem"><a class="el" href="structug_1_1_small_strain_mechanics_1_1_functionality.html">Functionality</a></li>
-    <li class="footer">Generated on Mon Feb 24 2025 01:12:56 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Wed Aug 27 2025 09:27:05 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

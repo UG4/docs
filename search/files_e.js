@@ -24,7 +24,7 @@ var searchData=
   ['operator_5futil_2eh_21',['operator_util.h',['../operator__util_8h.html',1,'']]],
   ['ordering_5falgorithms_2ecpp_22',['ordering_algorithms.cpp',['../ordering__algorithms_8cpp.html',1,'']]],
   ['ordering_5falgorithms_2eh_23',['ordering_algorithms.h',['../ordering__algorithms_8h.html',1,'']]],
-  ['ordering_5fbridge_2ecpp_24',['ordering_bridge.cpp',['../disc__bridges_2ordering__bridge_8cpp.html',1,'(Global Namespace)'],['../algebra__bridges_2ordering__bridge_8cpp.html',1,'(Global Namespace)']]],
+  ['ordering_5fbridge_2ecpp_24',['ordering_bridge.cpp',['../algebra__bridges_2ordering__bridge_8cpp.html',1,'(Global Namespace)'],['../disc__bridges_2ordering__bridge_8cpp.html',1,'(Global Namespace)']]],
   ['orientation_2ecpp_25',['orientation.cpp',['../orientation_8cpp.html',1,'']]],
   ['orientation_2eh_26',['orientation.h',['../orientation_8h.html',1,'']]],
   ['orientation_5futil_2ecpp_27',['orientation_util.cpp',['../orientation__util_8cpp.html',1,'']]],
@@ -44,6 +44,6 @@ var searchData=
   ['output_5futil_2elua_41',['output_util.lua',['../output__util_8lua.html',1,'']]],
   ['overlap_5fwriter_2eh_42',['overlap_writer.h',['../overlap__writer_8h.html',1,'']]],
   ['overlying_5fsubset_5ffinder_2ehpp_43',['overlying_subset_finder.hpp',['../overlying__subset__finder_8hpp.html',1,'']]],
-  ['overview_2edoxygen_44',['overview.doxygen',['../lib__algebra_2additional__pages_2overview_8doxygen.html',1,'(Global Namespace)'],['../lib__grid_2additional__pages_2overview_8doxygen.html',1,'(Global Namespace)']]],
+  ['overview_2edoxygen_44',['overview.doxygen',['../lib__grid_2additional__pages_2overview_8doxygen.html',1,'(Global Namespace)'],['../lib__algebra_2additional__pages_2overview_8doxygen.html',1,'(Global Namespace)']]],
   ['owned_5fpointer_2eh_45',['owned_pointer.h',['../owned__pointer_8h.html',1,'']]]
 ];

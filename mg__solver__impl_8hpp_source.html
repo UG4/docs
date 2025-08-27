@@ -190,12 +190,12 @@ $(document).ready(function(){initNavTree('mg__solver__impl_8hpp_source.html','')
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>  m_LocalFullRefLevel(0), m_GridLevelType(<a class="code hl_class" href="classug_1_1_grid_level.html">GridLevel</a>::LEVEL),</div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>  m_bUseRAP(false), m_bSmoothOnSurfaceRim(false),</div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>  m_bCommCompOverlap(false),</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>  m_spPreSmootherPrototype(<a class="code hl_functionRef" href="../plugins/unsat__flow__util_8lua.html#af90b68fab5a4b3975fa3f601b4730569">new</a> <a class="code hl_class" href="classug_1_1_jacobi.html">Jacobi</a>&lt;TAlgebra&gt;()),</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>  m_spPreSmootherPrototype(new <a class="code hl_class" href="classug_1_1_jacobi.html">Jacobi</a>&lt;TAlgebra&gt;()),</div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>  m_spPostSmootherPrototype(m_spPreSmootherPrototype),</div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>  m_spProjectionPrototype(<a class="code hl_variable" href="group__ugbase__common__util.html#gaaf72bcd4f74729e4a43694267e8590d8">SPNULL</a>),</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>  m_spProlongationPrototype(<a class="code hl_functionRef" href="../plugins/unsat__flow__util_8lua.html#af90b68fab5a4b3975fa3f601b4730569">new</a> <a class="code hl_class" href="classug_1_1_std_transfer.html">StdTransfer</a>&lt;TDomain,TAlgebra&gt;()),</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>  m_spProlongationPrototype(new <a class="code hl_class" href="classug_1_1_std_transfer.html">StdTransfer</a>&lt;TDomain,TAlgebra&gt;()),</div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>  m_spRestrictionPrototype(m_spProlongationPrototype),</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>  m_spBaseSolver(<a class="code hl_functionRef" href="../plugins/unsat__flow__util_8lua.html#af90b68fab5a4b3975fa3f601b4730569">new</a> <a class="code hl_class" href="classug_1_1_l_u.html">LU</a>&lt;TAlgebra&gt;()),</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>  m_spBaseSolver(new <a class="code hl_class" href="classug_1_1_l_u.html">LU</a>&lt;TAlgebra&gt;()),</div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>  m_bGatheredBaseIfAmbiguous(true),</div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>  m_bGatheredBaseUsed(true),</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>  m_ignoreInitForBaseSolver(false),</div>
@@ -217,12 +217,12 @@ $(document).ready(function(){initNavTree('mg__solver__impl_8hpp_source.html','')
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>  m_LocalFullRefLevel(0), m_GridLevelType(<a class="code hl_class" href="classug_1_1_grid_level.html">GridLevel</a>::LEVEL),</div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>  m_bUseRAP(false), m_bSmoothOnSurfaceRim(false),</div>
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>  m_bCommCompOverlap(false),</div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>  m_spPreSmootherPrototype(<a class="code hl_functionRef" href="../plugins/unsat__flow__util_8lua.html#af90b68fab5a4b3975fa3f601b4730569">new</a> <a class="code hl_class" href="classug_1_1_jacobi.html">Jacobi</a>&lt;TAlgebra&gt;()),</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>  m_spPreSmootherPrototype(new <a class="code hl_class" href="classug_1_1_jacobi.html">Jacobi</a>&lt;TAlgebra&gt;()),</div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>  m_spPostSmootherPrototype(m_spPreSmootherPrototype),</div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>  m_spProjectionPrototype(<a class="code hl_functionRef" href="../plugins/unsat__flow__util_8lua.html#af90b68fab5a4b3975fa3f601b4730569">new</a> <a class="code hl_class" href="classug_1_1_std_injection.html">StdInjection</a>&lt;TDomain,TAlgebra&gt;(m_spApproxSpace)),</div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>  m_spProlongationPrototype(<a class="code hl_functionRef" href="../plugins/unsat__flow__util_8lua.html#af90b68fab5a4b3975fa3f601b4730569">new</a> <a class="code hl_class" href="classug_1_1_std_transfer.html">StdTransfer</a>&lt;TDomain,TAlgebra&gt;()),</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>  m_spProjectionPrototype(new <a class="code hl_class" href="classug_1_1_std_injection.html">StdInjection</a>&lt;TDomain,TAlgebra&gt;(m_spApproxSpace)),</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>  m_spProlongationPrototype(new <a class="code hl_class" href="classug_1_1_std_transfer.html">StdTransfer</a>&lt;TDomain,TAlgebra&gt;()),</div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>  m_spRestrictionPrototype(m_spProlongationPrototype),</div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>  m_spBaseSolver(<a class="code hl_functionRef" href="../plugins/unsat__flow__util_8lua.html#af90b68fab5a4b3975fa3f601b4730569">new</a> <a class="code hl_class" href="classug_1_1_l_u.html">LU</a>&lt;TAlgebra&gt;()),</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>  m_spBaseSolver(new <a class="code hl_class" href="classug_1_1_l_u.html">LU</a>&lt;TAlgebra&gt;()),</div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>  m_bGatheredBaseIfAmbiguous(true),</div>
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>  m_bGatheredBaseUsed(true),</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>  m_ignoreInitForBaseSolver(false),</div>
@@ -2650,14 +2650,13 @@ $(document).ready(function(){initNavTree('mg__solver__impl_8hpp_source.html','')
 <div class="ttc" id="astructug_1_1_assembled_multi_grid_cycle_1_1_lev_data_html_af5594de054378b57108413a65c2d6b8c"><div class="ttname"><a href="structug_1_1_assembled_multi_grid_cycle_1_1_lev_data.html#af5594de054378b57108413a65c2d6b8c">ug::AssembledMultiGridCycle::LevData::vMapPatchToGlobal</a></div><div class="ttdeci">std::vector&lt; size_t &gt; vMapPatchToGlobal</div><div class="ttdoc">maps global indices (including ghosts) to patch indices (no ghosts included).</div><div class="ttdef"><b>Definition</b> mg_solver.h:437</div></div>
 <div class="ttc" id="astructug_1_1_assembled_multi_grid_cycle_1_1_surf_level_map_html"><div class="ttname"><a href="structug_1_1_assembled_multi_grid_cycle_1_1_surf_level_map.html">ug::AssembledMultiGridCycle::SurfLevelMap</a></div><div class="ttdef"><b>Definition</b> mg_solver.h:409</div></div>
 <div class="ttc" id="astructug_1_1_do_f_distribution_1_1traits_html_a1adf959619589545942590d37e893e6f"><div class="ttname"><a href="structug_1_1_do_f_distribution_1_1traits.html#a1adf959619589545942590d37e893e6f">ug::DoFDistribution::traits::const_iterator</a></div><div class="ttdeci">SurfaceView::traits&lt; TElem &gt;::const_iterator const_iterator</div><div class="ttdef"><b>Definition</b> dof_distribution.h:82</div></div>
-<div class="ttc" id="aunsat__flow__util_8lua_html_af90b68fab5a4b3975fa3f601b4730569"><div class="ttname"><a href="../plugins/unsat__flow__util_8lua.html#af90b68fab5a4b3975fa3f601b4730569">new</a></div><div class="ttdeci">function ProblemDisc new(problemDesc, dom)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_df0e37446a9fd4242d0753cd346d4a6c.html">lib_disc</a></li><li class="navelem"><a class="el" href="dir_c10c68448d12326f8404ddc397ffceaf.html">operator</a></li><li class="navelem"><a class="el" href="dir_5d5642162f6869db0471cb50f12df789.html">linear_operator</a></li><li class="navelem"><a class="el" href="dir_310683f01605b5eeef55bf99bc0525f8.html">multi_grid_solver</a></li><li class="navelem"><a class="el" href="mg__solver__impl_8hpp.html">mg_solver_impl.hpp</a></li>
-    <li class="footer">Generated on Mon Feb 24 2025 01:13:34 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Wed Aug 27 2025 09:27:47 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

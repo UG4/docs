@@ -282,6 +282,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8e87fc519dfc5bd9c3dbd20a88083cfb" id="r_a8e87fc519dfc5bd9c3dbd20a88083cfb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_limex_time_integrator.html#a8e87fc519dfc5bd9c3dbd20a88083cfb">set_space</a> (<a class="elRef" href="../class_smart_ptr.html">SmartPtr</a>&lt; <a class="elRef" href="../classug_1_1_i_grid_function_space.html">IGridFunctionSpace</a>&lt; <a class="el" href="classug_1_1_limex_time_integrator.html#a0cdf7045e0888150205f0824d7f95426">grid_function_type</a> &gt; &gt; spSpace)</td></tr>
 <tr class="memdesc:a8e87fc519dfc5bd9c3dbd20a88083cfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">set banach space (e.g. for computing consistency error)  <br /></td></tr>
 <tr class="separator:a8e87fc519dfc5bd9c3dbd20a88083cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a994de0c05d691f39b05807bde5c2a45b" id="r_a994de0c05d691f39b05807bde5c2a45b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_limex_time_integrator.html#a994de0c05d691f39b05807bde5c2a45b">set_start_step</a> (size_t step)</td></tr>
+<tr class="separator:a994de0c05d691f39b05807bde5c2a45b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27b91d11216e0039323b325b5ea2bdc3" id="r_a27b91d11216e0039323b325b5ea2bdc3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_limex_time_integrator.html#a27b91d11216e0039323b325b5ea2bdc3">set_stepsize_greedy_order_factor</a> (double sigma)</td></tr>
 <tr class="separator:a27b91d11216e0039323b325b5ea2bdc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdb06d45171e852e8ec39abbcf3284f3" id="r_afdb06d45171e852e8ec39abbcf3284f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_limex_time_integrator.html#afdb06d45171e852e8ec39abbcf3284f3">set_stepsize_reduction_factor</a> (double sigma)</td></tr>
@@ -1899,6 +1901,36 @@ template&lt;class TDomain , class TAlgebra &gt; </div>
 
 </div>
 </div>
+<a id="a994de0c05d691f39b05807bde5c2a45b" name="a994de0c05d691f39b05807bde5c2a45b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a994de0c05d691f39b05807bde5c2a45b">&#9670;&#160;</a></span>set_start_step()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TDomain , class TAlgebra &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_limex_time_integrator.html">ug::LimexTimeIntegrator</a>&lt; TDomain, TAlgebra &gt;::set_start_step </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>step</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="classug_1_1_limex_time_integrator.html#a56df8d5fd08f6c1eb580af838995efc4">ug::LimexTimeIntegrator&lt; TDomain, TAlgebra &gt;::m_limex_step</a>.</p>
+
+</div>
+</div>
 <a id="a27b91d11216e0039323b325b5ea2bdc3" name="a27b91d11216e0039323b325b5ea2bdc3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a27b91d11216e0039323b325b5ea2bdc3">&#9670;&#160;</a></span>set_stepsize_greedy_order_factor()</h2>
 
@@ -2314,6 +2346,8 @@ template&lt;class TDomain , class TAlgebra &gt; </div>
 
 <p>Current counter. </p>
 
+<p class="reference">Referenced by <a class="el" href="classug_1_1_limex_time_integrator.html#a994de0c05d691f39b05807bde5c2a45b">ug::LimexTimeIntegrator&lt; TDomain, TAlgebra &gt;::set_start_step()</a>.</p>
+
 </div>
 </div>
 <a id="a57af58296150c3750480c822c10300cc" name="a57af58296150c3750480c822c10300cc"></a>
@@ -2569,7 +2603,7 @@ template&lt;class TDomain , class TAlgebra &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_limex_time_integrator.html">LimexTimeIntegrator</a></li>
-    <li class="footer">Generated on Mon Feb 24 2025 01:12:52 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Wed Aug 27 2025 09:26:59 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

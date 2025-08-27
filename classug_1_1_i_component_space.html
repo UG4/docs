@@ -150,6 +150,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae141e4774cbb944a5dba0151d7e1932e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42fdb2741765b3993c75177790aed506" id="r_a42fdb2741765b3993c75177790aed506"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_component_space.html#a42fdb2741765b3993c75177790aed506">distance2</a> (TGridFunction &amp;uFine, TGridFunction &amp;uCoarse)=0</td></tr>
 <tr class="separator:a42fdb2741765b3993c75177790aed506"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a206e699ad5f37e09bf93030d2bb62786" id="r_a206e699ad5f37e09bf93030d2bb62786"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_component_space.html#a206e699ad5f37e09bf93030d2bb62786">function_name</a> ()</td></tr>
+<tr class="separator:a206e699ad5f37e09bf93030d2bb62786"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57943adf227c48b116511601df2b5e5f" id="r_a57943adf227c48b116511601df2b5e5f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_component_space.html#a57943adf227c48b116511601df2b5e5f">IComponentSpace</a> (const char *fctNames)</td></tr>
 <tr class="separator:a57943adf227c48b116511601df2b5e5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e52c0945deabf550caac8a9c24135c1" id="r_a4e52c0945deabf550caac8a9c24135c1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_component_space.html#a4e52c0945deabf550caac8a9c24135c1">IComponentSpace</a> (const char *fctNames, const char *ssNames, int order)</td></tr>
@@ -474,6 +476,35 @@ template&lt;typename TGridFunction &gt; </div>
 
 </div>
 </div>
+<a id="a206e699ad5f37e09bf93030d2bb62786" name="a206e699ad5f37e09bf93030d2bb62786"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a206e699ad5f37e09bf93030d2bb62786">&#9670;&#160;</a></span>function_name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TGridFunction &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string <a class="el" href="classug_1_1_i_component_space.html">ug::IComponentSpace</a>&lt; TGridFunction &gt;::function_name </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="classug_1_1_i_component_space.html#a9fab084bebc5b50a9f717c58bbc9627d">ug::IComponentSpace&lt; TGridFunction &gt;::m_fctNames</a>.</p>
+
+</div>
+</div>
 <a id="a57c0559023b451301921043f4ad3891d" name="a57c0559023b451301921043f4ad3891d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a57c0559023b451301921043f4ad3891d">&#9670;&#160;</a></span>norm()</h2>
 
@@ -591,7 +622,7 @@ template&lt;typename TGridFunction &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classug_1_1_grid_function_component_space.html#a0b3fa58ea86f825541fb6994bd995f10">ug::GridFunctionComponentSpace&lt; TGridFunction &gt;::distance2()</a>, and <a class="el" href="classug_1_1_grid_function_component_space.html#a6a61a206adadbca17fd4035d6328fe87">ug::GridFunctionComponentSpace&lt; TGridFunction &gt;::norm2()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classug_1_1_grid_function_component_space.html#a0b3fa58ea86f825541fb6994bd995f10">ug::GridFunctionComponentSpace&lt; TGridFunction &gt;::distance2()</a>, <a class="el" href="classug_1_1_i_component_space.html#a206e699ad5f37e09bf93030d2bb62786">ug::IComponentSpace&lt; TGridFunction &gt;::function_name()</a>, and <a class="el" href="classug_1_1_grid_function_component_space.html#a6a61a206adadbca17fd4035d6328fe87">ug::GridFunctionComponentSpace&lt; TGridFunction &gt;::norm2()</a>.</p>
 
 </div>
 </div>
@@ -654,7 +685,7 @@ template&lt;typename TGridFunction &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_i_component_space.html">IComponentSpace</a></li>
-    <li class="footer">Generated on Mon Feb 24 2025 01:14:01 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Wed Aug 27 2025 09:28:20 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

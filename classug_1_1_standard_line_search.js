@@ -5,6 +5,7 @@ var classug_1_1_standard_line_search =
     [ "StandardLineSearch", "classug_1_1_standard_line_search.html#a9e073fbf1e690430615c30392ed29587", null ],
     [ "StandardLineSearch", "classug_1_1_standard_line_search.html#ad9a228a572b10847b9bd989bf0cc9a5a", null ],
     [ "config_string", "classug_1_1_standard_line_search.html#a4b88cf4de30ce3bf56a69a65f85c4715", null ],
+    [ "createNewtonUpdater", "classug_1_1_standard_line_search.html#aed217c8b1ee2f810471790c7d280135e", null ],
     [ "search", "classug_1_1_standard_line_search.html#ac16690a30d88f53d01801fe5244f924c", null ],
     [ "set_accept_best", "classug_1_1_standard_line_search.html#aab4bee6541c4d52d477c4b63ec2d14e6", null ],
     [ "set_check_all", "classug_1_1_standard_line_search.html#a35269b2d5993ca349820bf4fc04cd796", null ],
@@ -15,6 +16,7 @@ var classug_1_1_standard_line_search =
     [ "set_reduce_factor", "classug_1_1_standard_line_search.html#a0d6aeff3b4fd7f78fa42f5a2045546f1", null ],
     [ "set_suff_descent_factor", "classug_1_1_standard_line_search.html#a3ba71d80af5dbae77ae2326e665a6d25", null ],
     [ "set_verbose", "classug_1_1_standard_line_search.html#a7be91acd28cdd0bd0f65c32e59c57913", null ],
+    [ "setNewtonUpdater", "classug_1_1_standard_line_search.html#a7d226a068c8f894e991d6290c694ad97", null ],
     [ "m_alpha", "classug_1_1_standard_line_search.html#a459d73da8830a07854f4ed3cad8edfd4", null ],
     [ "m_bAcceptBest", "classug_1_1_standard_line_search.html#abb8bb4c82d4d0190f960c6c4f2c8526e", null ],
     [ "m_bCheckAll", "classug_1_1_standard_line_search.html#acdd2aaa3e5c83cefcc2a69432c8c2d97", null ],
@@ -22,6 +24,7 @@ var classug_1_1_standard_line_search =
     [ "m_lambdaStart", "classug_1_1_standard_line_search.html#a20b34b4482d08b61c9f4dc521d244031", null ],
     [ "m_maxDefect", "classug_1_1_standard_line_search.html#a62c7fb58f6a9bdf7e02933b6d2e4a44b", null ],
     [ "m_maxSteps", "classug_1_1_standard_line_search.html#a22b93aa4265b5c91f9d84124e4228a6c", null ],
+    [ "m_newtonUpdater", "classug_1_1_standard_line_search.html#a03e93342b104948d8efc4b5640638e81", null ],
     [ "m_offset", "classug_1_1_standard_line_search.html#a1f02a0679006b761f7134f45914705b5", null ],
     [ "m_verbose", "classug_1_1_standard_line_search.html#ad6455c87ddf517ab636169725bb09600", null ],
     [ "s", "classug_1_1_standard_line_search.html#a42628e8c3ee006b1e5ce7d4a9e972f5e", null ]

@@ -180,6 +180,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a76725844d91a82920778642272a9f9c5" id="r_a76725844d91a82920778642272a9f9c5"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_newton_solver.html#a76725844d91a82920778642272a9f9c5">config_string</a> () const</td></tr>
 <tr class="memdesc:a76725844d91a82920778642272a9f9c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns information about configuration parameters  <br /></td></tr>
 <tr class="separator:a76725844d91a82920778642272a9f9c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa83dbd50ff9645cfe5f077d50159195f" id="r_aa83dbd50ff9645cfe5f077d50159195f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_newton_solver.html#aa83dbd50ff9645cfe5f077d50159195f">createNewtonUpdater</a> ()</td></tr>
+<tr class="separator:aa83dbd50ff9645cfe5f077d50159195f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3965462f967ee0e8ca61426b5bbfd295" id="r_a3965462f967ee0e8ca61426b5bbfd295"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_newton_solver.html#a3965462f967ee0e8ca61426b5bbfd295">disable_line_search</a> ()</td></tr>
 <tr class="separator:a3965462f967ee0e8ca61426b5bbfd295"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4328fedc27a2939f9360a66fa894834e" id="r_a4328fedc27a2939f9360a66fa894834e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_newton_solver.html#a4328fedc27a2939f9360a66fa894834e">init</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_operator.html">IOperator</a>&lt; <a class="el" href="classug_1_1_newton_solver.html#a983a625822f7c018bebf9dc5dd0c1565">vector_type</a> &gt; &gt; N)</td></tr>
@@ -217,6 +219,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3f216df006269672e5a017ff48aadbf6" id="r_a3f216df006269672e5a017ff48aadbf6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_newton_solver.html#a3f216df006269672e5a017ff48aadbf6">set_reassemble_J_freq</a> (int freq)</td></tr>
 <tr class="memdesc:a3f216df006269672e5a017ff48aadbf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the frequency of reassembling of the Jacobian (0 == 1 == in every step, i.e. classically)  <br /></td></tr>
 <tr class="separator:a3f216df006269672e5a017ff48aadbf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18c48f3f8252467bba06b90b13cf395c" id="r_a18c48f3f8252467bba06b90b13cf395c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_newton_solver.html#a18c48f3f8252467bba06b90b13cf395c">setNewtonUpdater</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_newton_updater_generic.html">NewtonUpdaterGeneric</a>&lt; <a class="el" href="classug_1_1_newton_solver.html#a983a625822f7c018bebf9dc5dd0c1565">vector_type</a> &gt; &gt; nU)</td></tr>
+<tr class="separator:a18c48f3f8252467bba06b90b13cf395c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
 <tr class="memitem:ac0ac0f1162104a817e13bc5b46b51dd9" id="r_ac0ac0f1162104a817e13bc5b46b51dd9"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_newton_solver.html#ac0ac0f1162104a817e13bc5b46b51dd9">num_newton_steps</a> () const</td></tr>
 <tr class="separator:ac0ac0f1162104a817e13bc5b46b51dd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -310,6 +314,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:aaf8f6f048508f0bd392ac1cd3772f962" id="r_aaf8f6f048508f0bd392ac1cd3772f962"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_assembled_operator.html">AssembledOperator</a>&lt; <a class="el" href="classug_1_1_newton_solver.html#ab0dbfe0b14818aa346e2bca25e3de902">algebra_type</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_newton_solver.html#aaf8f6f048508f0bd392ac1cd3772f962">m_N</a></td></tr>
 <tr class="memdesc:aaf8f6f048508f0bd392ac1cd3772f962"><td class="mdescLeft">&#160;</td><td class="mdescRight">assembling routine  <br /></td></tr>
 <tr class="separator:aaf8f6f048508f0bd392ac1cd3772f962"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad82efc19c6dd7fb4e1c897fd6f7aed46" id="r_ad82efc19c6dd7fb4e1c897fd6f7aed46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_newton_updater_generic.html">NewtonUpdaterGeneric</a>&lt; <a class="el" href="classug_1_1_newton_solver.html#a983a625822f7c018bebf9dc5dd0c1565">vector_type</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_newton_solver.html#ad82efc19c6dd7fb4e1c897fd6f7aed46">m_newtonUpdater</a></td></tr>
+<tr class="separator:ad82efc19c6dd7fb4e1c897fd6f7aed46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90bb743b0ce7d69b1f66442da2417fba" id="r_a90bb743b0ce7d69b1f66442da2417fba"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_newton_solver.html#a90bb743b0ce7d69b1f66442da2417fba">m_reassembe_J_freq</a></td></tr>
 <tr class="memdesc:a90bb743b0ce7d69b1f66442da2417fba"><td class="mdescLeft">&#160;</td><td class="mdescRight">how often to reassemble the Jacobian (0 == 1 == in every step, i.e. classically)  <br /></td></tr>
 <tr class="separator:a90bb743b0ce7d69b1f66442da2417fba"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -459,7 +465,7 @@ template&lt;typename TAlgebra &gt; </div>
 
 <p>constructor setting operator </p>
 
-<p class="reference">References <a class="elRef" href="../plugins/unsat__flow__util_8lua.html#af90b68fab5a4b3975fa3f601b4730569">new()</a>.</p>
+<p class="reference">References <a class="elRef" href="../plugins/group__small__strain__mechanics.html#gaf07906d860d20ad045f1718f42778749">init()</a>.</p>
 
 </div>
 </div>
@@ -483,7 +489,7 @@ template&lt;typename TAlgebra &gt; </div>
 
 <p>constructor using assembling </p>
 
-<p class="reference">References <a class="elRef" href="../plugins/unsat__flow__util_8lua.html#af90b68fab5a4b3975fa3f601b4730569">new()</a>.</p>
+<p class="reference">References <a class="el" href="classug_1_1_newton_solver.html#aaf8f6f048508f0bd392ac1cd3772f962">ug::NewtonSolver&lt; TAlgebra &gt;::m_N</a>, and <a class="el" href="classug_1_1_newton_solver.html#ad65c1e0d659cba32d50b4a36b79d7bfd">ug::NewtonSolver&lt; TAlgebra &gt;::m_spAss</a>.</p>
 
 </div>
 </div>
@@ -505,8 +511,6 @@ template&lt;typename TAlgebra &gt; </div>
 </div><div class="memdoc">
 
 <p>default constructor </p>
-
-<p class="reference">References <a class="elRef" href="../plugins/unsat__flow__util_8lua.html#af90b68fab5a4b3975fa3f601b4730569">new()</a>.</p>
 
 </div>
 </div>
@@ -545,8 +549,6 @@ template&lt;typename TAlgebra &gt; </div>
 </div><div class="memdoc">
 
 <p>constructor </p>
-
-<p class="reference">References <a class="elRef" href="../plugins/unsat__flow__util_8lua.html#af90b68fab5a4b3975fa3f601b4730569">new()</a>.</p>
 
 </div>
 </div>
@@ -645,7 +647,7 @@ template&lt;typename TAlgebra &gt; </div>
 
 <p>Implements <a class="el" href="classug_1_1_i_operator_inverse.html#a0be87a83a468d73d239f2713ce22624c">ug::IOperatorInverse&lt; TAlgebra::vector_type &gt;</a>.</p>
 
-<p class="reference">References <a class="el" href="smart__pointer_8h.html#a6b709a70faa21f7ccb380ed2ab159cba">make_sp()</a>, <a class="el" href="newton__impl_8h.html#ac2f6cfa8a8acce141593606dd4fa5a9b">NEWTON_PROFILE_BEGIN</a>, <a class="el" href="newton__impl_8h.html#a2de04e88b888dde4031e89254b268a46">NEWTON_PROFILE_END</a>, <a class="el" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>, <a class="el" href="group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
+<p class="reference">References <a class="el" href="smart__pointer_8h.html#a6b709a70faa21f7ccb380ed2ab159cba">make_sp()</a>, <a class="el" href="newton__impl_8h.html#ac2f6cfa8a8acce141593606dd4fa5a9b">NEWTON_PROFILE_BEGIN</a>, <a class="el" href="newton__impl_8h.html#a2de04e88b888dde4031e89254b268a46">NEWTON_PROFILE_END</a>, <a class="el" href="group__ugbase__common__util.html#gaaf72bcd4f74729e4a43694267e8590d8">SPNULL</a>, <a class="el" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>, <a class="el" href="group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
 
 </div>
 </div>
@@ -787,6 +789,35 @@ template&lt;typename TAlgebra &gt; </div>
 <p>Implements <a class="el" href="classug_1_1_i_operator_inverse.html#a945ed556de4aac0d34390c73567693ed">ug::IOperatorInverse&lt; TAlgebra::vector_type &gt;</a>.</p>
 
 <p class="reference">References <a class="el" href="namespaceug.html#a085c53799397d7f152f03ade000d2baa">ug::ConfigShift()</a>.</p>
+
+</div>
+</div>
+<a id="aa83dbd50ff9645cfe5f077d50159195f" name="aa83dbd50ff9645cfe5f077d50159195f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa83dbd50ff9645cfe5f077d50159195f">&#9670;&#160;</a></span>createNewtonUpdater()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TAlgebra &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classug_1_1_newton_solver.html">ug::NewtonSolver</a>&lt; TAlgebra &gt;::createNewtonUpdater </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="classug_1_1_newton_solver.html#ad82efc19c6dd7fb4e1c897fd6f7aed46">ug::NewtonSolver&lt; TAlgebra &gt;::m_newtonUpdater</a>, and <a class="el" href="group__ugbase__common__util.html#gaaf72bcd4f74729e4a43694267e8590d8">SPNULL</a>.</p>
 
 </div>
 </div>
@@ -1145,6 +1176,36 @@ template&lt;typename TAlgebra &gt; </div>
 
 </div>
 </div>
+<a id="a18c48f3f8252467bba06b90b13cf395c" name="a18c48f3f8252467bba06b90b13cf395c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18c48f3f8252467bba06b90b13cf395c">&#9670;&#160;</a></span>setNewtonUpdater()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TAlgebra &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classug_1_1_newton_solver.html">ug::NewtonSolver</a>&lt; TAlgebra &gt;::setNewtonUpdater </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_newton_updater_generic.html">NewtonUpdaterGeneric</a>&lt; <a class="el" href="classug_1_1_newton_solver.html#a983a625822f7c018bebf9dc5dd0c1565">vector_type</a> &gt; &gt;&#160;</td>
+          <td class="paramname"><em>nU</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="classug_1_1_newton_solver.html#ad82efc19c6dd7fb4e1c897fd6f7aed46">ug::NewtonSolver&lt; TAlgebra &gt;::m_newtonUpdater</a>.</p>
+
+</div>
+</div>
 <a id="a6a5a413c83fed58786f0fafa456174b1" name="a6a5a413c83fed58786f0fafa456174b1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6a5a413c83fed58786f0fafa456174b1">&#9670;&#160;</a></span>total_average_linear_steps()</h2>
 
@@ -1420,6 +1481,34 @@ template&lt;typename TAlgebra &gt; </div>
 
 <p>assembling routine </p>
 
+<p class="reference">Referenced by <a class="el" href="classug_1_1_newton_solver.html#aca1d6b3885523100c132eaa0c7644cb6">ug::NewtonSolver&lt; TAlgebra &gt;::NewtonSolver()</a>.</p>
+
+</div>
+</div>
+<a id="ad82efc19c6dd7fb4e1c897fd6f7aed46" name="ad82efc19c6dd7fb4e1c897fd6f7aed46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad82efc19c6dd7fb4e1c897fd6f7aed46">&#9670;&#160;</a></span>m_newtonUpdater</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TAlgebra &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt;<a class="el" href="classug_1_1_newton_updater_generic.html">NewtonUpdaterGeneric</a>&lt;<a class="el" href="classug_1_1_newton_solver.html#a983a625822f7c018bebf9dc5dd0c1565">vector_type</a>&gt; &gt; <a class="el" href="classug_1_1_newton_solver.html">ug::NewtonSolver</a>&lt; TAlgebra &gt;::m_newtonUpdater</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classug_1_1_newton_solver.html#aa83dbd50ff9645cfe5f077d50159195f">ug::NewtonSolver&lt; TAlgebra &gt;::createNewtonUpdater()</a>, and <a class="el" href="classug_1_1_newton_solver.html#a18c48f3f8252467bba06b90b13cf395c">ug::NewtonSolver&lt; TAlgebra &gt;::setNewtonUpdater()</a>.</p>
+
 </div>
 </div>
 <a id="a90bb743b0ce7d69b1f66442da2417fba" name="a90bb743b0ce7d69b1f66442da2417fba"></a>
@@ -1473,6 +1562,8 @@ template&lt;typename TAlgebra &gt; </div>
 </div><div class="memdoc">
 
 <p>assembling </p>
+
+<p class="reference">Referenced by <a class="el" href="classug_1_1_newton_solver.html#aca1d6b3885523100c132eaa0c7644cb6">ug::NewtonSolver&lt; TAlgebra &gt;::NewtonSolver()</a>.</p>
 
 </div>
 </div>
@@ -1694,7 +1785,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_newton_solver.html">NewtonSolver</a></li>
-    <li class="footer">Generated on Mon Feb 24 2025 01:14:07 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Wed Aug 27 2025 09:28:26 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

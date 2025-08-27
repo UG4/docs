@@ -8,6 +8,7 @@ var classug_1_1_i_component_space =
     [ "config_string", "classug_1_1_i_component_space.html#a185be016e24065669c506a09c129a9ad", null ],
     [ "distance", "classug_1_1_i_component_space.html#ae141e4774cbb944a5dba0151d7e1932e", null ],
     [ "distance2", "classug_1_1_i_component_space.html#a42fdb2741765b3993c75177790aed506", null ],
+    [ "function_name", "classug_1_1_i_component_space.html#a206e699ad5f37e09bf93030d2bb62786", null ],
     [ "norm", "classug_1_1_i_component_space.html#a57c0559023b451301921043f4ad3891d", null ],
     [ "norm2", "classug_1_1_i_component_space.html#a75a5d74640b32016d934a31dff12c139", null ],
     [ "dim", "classug_1_1_i_component_space.html#afe22b5916898899cc0fcad92138ae432", null ],

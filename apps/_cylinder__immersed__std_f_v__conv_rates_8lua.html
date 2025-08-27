@@ -175,7 +175,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/runner/work/docs/docs/ug4/apps/navier_stokes/MovingParticle/Fixed Particle - Cylinder Benchmark/cylinder_immersed_stdFV/conv_rates / <a class="el" href="_cylinder__immersed__std_f_v__conv_rates_8lua.html">Cylinder_immersed_stdFV_convRates.lua</a> :160-167 </p><div class="fragment"><div class="line">function <a class="code hl_functionRef" href="../../plugins/_poroelasticity_2lua_2lua-include_8lua.html#ab580902bb2a381ba37ae1847f6251d73">CreateApproxSpace</a>(dom, discType, p)</div>
+<p>location: /home/runner/work/docs/docs/ug4/apps/navier_stokes/MovingParticle/Fixed Particle - Cylinder Benchmark/cylinder_immersed_stdFV/conv_rates / <a class="el" href="_cylinder__immersed__std_f_v__conv_rates_8lua.html">Cylinder_immersed_stdFV_convRates.lua</a> :160-167 </p><div class="fragment"><div class="line">function <a class="code hl_function" href="unsat__flow__util_8lua.html#a9907b46bced12d56556e23037da378ba">CreateApproxSpace</a>(dom, discType, p)</div>
 <div class="line">  local approxSpace = ApproximationSpace(dom)</div>
 <div class="line">  <span class="keywordflow">if</span> <a class="code hl_variable" href="elder__adapt_8lua.html#a551e214afa3d78d3b8520b3f800f94de">dim</a> &gt;= 1 then approxSpace:add_fct(<span class="stringliteral">&quot;u&quot;</span>, <span class="stringliteral">&quot;Lagrange&quot;</span>, 1) <a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="line">  if <a class="code hl_variable" href="elder__adapt_8lua.html#a551e214afa3d78d3b8520b3f800f94de">dim</a> &gt;= 2 then approxSpace:add_fct(&quot;v&quot;, &quot;Lagrange&quot;, 1) <a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
@@ -183,9 +183,9 @@ Variables</h2></td></tr>
 <div class="line">  approxSpace:add_fct(&quot;p&quot;, &quot;Lagrange&quot;, 1)</div>
 <div class="line">  return approxSpace</div>
 <div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
-<div class="ttc" id="a_poroelasticity_2lua_2lua-include_8lua_html_ab580902bb2a381ba37ae1847f6251d73"><div class="ttname"><a href="../../plugins/_poroelasticity_2lua_2lua-include_8lua.html#ab580902bb2a381ba37ae1847f6251d73">CreateApproxSpace</a></div><div class="ttdeci">function util biot CreateApproxSpace(dom, dim, uorder, porder)</div></div>
 <div class="ttc" id="achannel_8lua_html_aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07"><div class="ttname"><a href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div><div class="ttdeci">function *Umax *y end</div><div class="ttdef"><b>Definition</b> channel.lua:87</div></div>
 <div class="ttc" id="aelder__adapt_8lua_html_a551e214afa3d78d3b8520b3f800f94de"><div class="ttname"><a href="elder__adapt_8lua.html#a551e214afa3d78d3b8520b3f800f94de">dim</a></div><div class="ttdeci">parameterNumber dim</div><div class="ttdef"><b>Definition</b> elder_adapt.lua:1</div></div>
+<div class="ttc" id="aunsat__flow__util_8lua_html_a9907b46bced12d56556e23037da378ba"><div class="ttname"><a href="unsat__flow__util_8lua.html#a9907b46bced12d56556e23037da378ba">CreateApproxSpace</a></div><div class="ttdeci">function ProblemDisc CreateApproxSpace()</div></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -558,7 +558,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_9654b8d08f4bba4e84b362c5fd320bee.html">apps</a></li><li class="navelem"><a class="el" href="dir_3bd393685b767e18cce7543d23bbc7c8.html">navier_stokes</a></li><li class="navelem"><a class="el" href="dir_ddcd56893d9ed2e5a29b3a3378c273b1.html">MovingParticle</a></li><li class="navelem"><a class="el" href="dir_08ac1f9905c5f90004c2ae8e3903c11c.html">Fixed Particle - Cylinder Benchmark</a></li><li class="navelem"><a class="el" href="dir_6d64f31b46625673b89e1021adfa5f4e.html">cylinder_immersed_stdFV</a></li><li class="navelem"><a class="el" href="dir_ed683abccee3d8045fbe6ccb4105072a.html">conv_rates</a></li><li class="navelem"><a class="el" href="_cylinder__immersed__std_f_v__conv_rates_8lua.html">Cylinder_immersed_stdFV_convRates.lua</a></li>
-    <li class="footer">Generated on Mon Feb 24 2025 01:13:04 for Apps by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Wed Aug 27 2025 09:27:14 for Apps by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

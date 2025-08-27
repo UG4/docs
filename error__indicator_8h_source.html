@@ -1283,13 +1283,13 @@ $(document).ready(function(){initNavTree('error__indicator_8h_source.html',''); 
 <div class="line"><a id="l01194" name="l01194"></a><span class="lineno"> 1194</span>    <a class="code hl_typedef" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>* gErrs = errs;</div>
 <div class="line"><a id="l01195" name="l01195"></a><span class="lineno"> 1195</span><span class="preprocessor">  #endif</span></div>
 <div class="line"><a id="l01196" name="l01196"></a><span class="lineno"> 1196</span> </div>
-<div class="line"><a id="l01197" name="l01197"></a><span class="lineno"> 1197</span>  <a class="code hl_typedef" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> <a class="code hl_variableRef" href="../plugins/henry-enumath_8lua.html#af449517c06c97b61d9f9c9bd735c6708">frac</a> = 1;</div>
+<div class="line"><a id="l01197" name="l01197"></a><span class="lineno"> 1197</span>  <a class="code hl_typedef" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> frac = 1;</div>
 <div class="line"><a id="l01198" name="l01198"></a><span class="lineno"> 1198</span>  <span class="keywordflow">if</span>(gErrs[1] &gt; 0)</div>
-<div class="line"><a id="l01199" name="l01199"></a><span class="lineno"> 1199</span>    <a class="code hl_variableRef" href="../plugins/henry-enumath_8lua.html#af449517c06c97b61d9f9c9bd735c6708">frac</a> = sqrt(gErrs[0] / gErrs[1]);</div>
+<div class="line"><a id="l01199" name="l01199"></a><span class="lineno"> 1199</span>    frac = sqrt(gErrs[0] / gErrs[1]);</div>
 <div class="line"><a id="l01200" name="l01200"></a><span class="lineno"> 1200</span> </div>
 <div class="line"><a id="l01201" name="l01201"></a><span class="lineno"> 1201</span><span class="comment">//  detach error field</span></div>
 <div class="line"><a id="l01202" name="l01202"></a><span class="lineno"> 1202</span>  mg.template detach_from&lt;elem_t&gt;(aError);</div>
-<div class="line"><a id="l01203" name="l01203"></a><span class="lineno"> 1203</span>  <span class="keywordflow">return</span> <a class="code hl_variableRef" href="../plugins/henry-enumath_8lua.html#af449517c06c97b61d9f9c9bd735c6708">frac</a>;</div>
+<div class="line"><a id="l01203" name="l01203"></a><span class="lineno"> 1203</span>  <span class="keywordflow">return</span> frac;</div>
 <div class="line"><a id="l01204" name="l01204"></a><span class="lineno"> 1204</span>};</div>
 </div>
 <div class="line"><a id="l01205" name="l01205"></a><span class="lineno"> 1205</span> </div>
@@ -1679,7 +1679,6 @@ $(document).ready(function(){initNavTree('error__indicator_8h_source.html',''); 
 <div class="ttc" id="agroup__vectors_html_ga92e42e49d0d212e50fc214803cf06e78"><div class="ttname"><a href="group__vectors.html#ga92e42e49d0d212e50fc214803cf06e78">ug::VecDistance</a></div><div class="ttdeci">vector_t::value_type VecDistance(const vector_t &amp;v1, const vector_t &amp;v2)</div><div class="ttdoc">returns the distance of two vector_ts.</div><div class="ttdef"><b>Definition</b> math_vector_functions_common_impl.hpp:375</div></div>
 <div class="ttc" id="agroup__vectors_html_gaa930f6a5ecca335af7d4e7f76efc49ff"><div class="ttname"><a href="group__vectors.html#gaa930f6a5ecca335af7d4e7f76efc49ff">ug::VecTwoNorm</a></div><div class="ttdeci">vector_t::value_type VecTwoNorm(const vector_t &amp;v)</div><div class="ttdef"><b>Definition</b> math_vector_functions_common_impl.hpp:577</div></div>
 <div class="ttc" id="agroup__vectors_html_gae9174d47662deb0ba119e0e21f28ec71"><div class="ttname"><a href="group__vectors.html#gae9174d47662deb0ba119e0e21f28ec71">ug::VecDot</a></div><div class="ttdeci">vector_t::value_type VecDot(const vector_t &amp;v1, const vector_t &amp;v2)</div><div class="ttdoc">returns the dot-product of two vector_ts</div><div class="ttdef"><b>Definition</b> math_vector_functions_common_impl.hpp:385</div></div>
-<div class="ttc" id="ahenry-enumath_8lua_html_af449517c06c97b61d9f9c9bd735c6708"><div class="ttname"><a href="../plugins/henry-enumath_8lua.html#af449517c06c97b61d9f9c9bd735c6708">frac</a></div><div class="ttdeci">parameterNumber frac</div></div>
 <div class="ttc" id="aintegrate_8h_html"><div class="ttname"><a href="integrate_8h.html">integrate.h</a></div></div>
 <div class="ttc" id="anamespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div><div class="ttdef"><b>Definition</b> smart_pointer.h:814</div></div>
 <div class="ttc" id="anamespaceug_html"><div class="ttname"><a href="namespaceug.html">ug</a></div><div class="ttdoc">the ug namespace</div></div>
@@ -1733,7 +1732,7 @@ $(document).ready(function(){initNavTree('error__indicator_8h_source.html',''); 
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_df0e37446a9fd4242d0753cd346d4a6c.html">lib_disc</a></li><li class="navelem"><a class="el" href="dir_2377bdc3bce2db83d3a95ac44ec5f4e1.html">function_spaces</a></li><li class="navelem"><a class="el" href="error__indicator_8h.html">error_indicator.h</a></li>
-    <li class="footer">Generated on Mon Feb 24 2025 01:13:29 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Wed Aug 27 2025 09:27:42 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

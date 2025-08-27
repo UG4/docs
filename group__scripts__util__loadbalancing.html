@@ -116,7 +116,7 @@ Functions</h2></td></tr>
 <tr class="separator:gadcdd58bc6a53aaa9d6462cc94614332f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gafc4bd16bd557cc2be2359d0703719ad8" id="r_gafc4bd16bd557cc2be2359d0703719ad8"><td class="memItemLeft" align="right" valign="top">function balancer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__scripts__util__loadbalancing.html#gafc4bd16bd557cc2be2359d0703719ad8">Rebalance</a> (domain, loadBalancer)</td></tr>
 <tr class="separator:gafc4bd16bd557cc2be2359d0703719ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab84fda95f1132f950c9dc3b53c72cf54" id="r_gab84fda95f1132f950c9dc3b53c72cf54"><td class="memItemLeft" align="right" valign="top">function balancer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__scripts__util__loadbalancing.html#gab84fda95f1132f950c9dc3b53c72cf54">RefineAndRebalanceDomain</a> (domain, <a class="elRef" href="../plugins/_parameter_estimation_2example_2example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a>, loadBalancer)</td></tr>
+<tr class="memitem:gab84fda95f1132f950c9dc3b53c72cf54" id="r_gab84fda95f1132f950c9dc3b53c72cf54"><td class="memItemLeft" align="right" valign="top">function balancer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__scripts__util__loadbalancing.html#gab84fda95f1132f950c9dc3b53c72cf54">RefineAndRebalanceDomain</a> (domain, <a class="elRef" href="../plugins/example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a>, loadBalancer)</td></tr>
 <tr class="separator:gab84fda95f1132f950c9dc3b53c72cf54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -228,7 +228,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="elRef" href="../plugins/_parameter_estimation_2example_2example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a>&#160;</td>
+          <td class="paramtype"><a class="elRef" href="../plugins/example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a>&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -247,10 +247,10 @@ Functions</h2></td></tr>
 <p>If no loadBalancer is specified, this method performs rebalancing using balancer.defaultBalancer. See balancer.Rebalance for more information. The method performs global refinement. After each refinement, rebalancing is triggered.</p>
 <p>location: /home/runner/work/docs/docs/ug4/ugcore/scripts/util / <a class="el" href="load__balancing__util_8lua.html">load_balancing_util.lua</a> :308-322 </p><div class="fragment"><div class="line">function balancer.RefineAndRebalanceDomain(domain, numRefs, loadBalancer)</div>
 <div class="line">  balancer.Rebalance(domain, loadBalancer)</div>
-<div class="line">  <span class="keywordflow">if</span> <a class="code hl_variableRef" href="../plugins/_parameter_estimation_2example_2example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a> &gt; 0 then</div>
+<div class="line">  <span class="keywordflow">if</span> <a class="code hl_variableRef" href="../plugins/example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a> &gt; 0 then</div>
 <div class="line">    refiner = GlobalDomainRefiner(domain)</div>
 <div class="line">    </div>
-<div class="line">    <span class="keywordflow">for</span> i = 1, <a class="code hl_variableRef" href="../plugins/_parameter_estimation_2example_2example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a> <span class="keywordflow">do</span></div>
+<div class="line">    <span class="keywordflow">for</span> i = 1, <a class="code hl_variableRef" href="../plugins/example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a> <span class="keywordflow">do</span></div>
 <div class="line">      TerminateAbortedRun()</div>
 <div class="line">      refiner:refine()</div>
 <div class="line">      TerminateAbortedRun()</div>
@@ -260,7 +260,7 @@ Functions</h2></td></tr>
 <div class="line">    delete(refiner)</div>
 <div class="line">  end</div>
 <div class="line">end</div>
-<div class="ttc" id="a_parameter_estimation_2example_2example__free__surface_2evaluate_8lua_html_ad2464918eb8162cae4af3f470845f0d9"><div class="ttname"><a href="../plugins/_parameter_estimation_2example_2example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a></div><div class="ttdeci">parameterNumber numRefs</div></div>
+<div class="ttc" id="aexample__free__surface_2evaluate_8lua_html_ad2464918eb8162cae4af3f470845f0d9"><div class="ttname"><a href="../plugins/example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a></div><div class="ttdeci">parameterNumber numRefs</div></div>
 <div class="ttc" id="agroup__scripts__util__loadbalancing_html_gafc4bd16bd557cc2be2359d0703719ad8"><div class="ttname"><a href="group__scripts__util__loadbalancing.html#gafc4bd16bd557cc2be2359d0703719ad8">Rebalance</a></div><div class="ttdeci">function balancer Rebalance(domain, loadBalancer)</div></div>
 </div><!-- fragment --> 
 </div>
@@ -270,7 +270,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Feb 24 2025 01:13:52 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Wed Aug 27 2025 09:28:08 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

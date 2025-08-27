@@ -166,8 +166,8 @@ $(document).ready(function(){initNavTree('domain__impl_8h_source.html',''); init
 <div class="foldopen" id="foldopen00061" data-start="{" data-end="}">
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="group__lib__disc__domain.html#ga5cb855c4e088fcd36a87fb723502e8cf">   61</a></span><a class="code hl_function" href="group__lib__disc__domain.html#ga5cb855c4e088fcd36a87fb723502e8cf">IDomain&lt;TGrid,TSubsetHandler&gt;::IDomain</a>(<span class="keywordtype">bool</span> isAdaptive)</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  :</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  m_spGrid(<a class="code hl_functionRef" href="../plugins/unsat__flow__util_8lua.html#af90b68fab5a4b3975fa3f601b4730569">new</a> TGrid(<a class="code hl_enumvalue" href="group__lib__grid.html#gga724c038eb958956818bf64b9d7c70ceba9a2391db39b3d5c4286ceee7ced3bbaa">GRIDOPT_NONE</a>)),  <span class="comment">// Note: actual options are set by the derived class (dimension dependent).</span></div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>  m_spSH(<a class="code hl_functionRef" href="../plugins/unsat__flow__util_8lua.html#af90b68fab5a4b3975fa3f601b4730569">new</a> TSubsetHandler(*m_spGrid)),</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  m_spGrid(new TGrid(<a class="code hl_enumvalue" href="group__lib__grid.html#gga724c038eb958956818bf64b9d7c70ceba9a2391db39b3d5c4286ceee7ced3bbaa">GRIDOPT_NONE</a>)),  <span class="comment">// Note: actual options are set by the derived class (dimension dependent).</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>  m_spSH(new TSubsetHandler(*m_spGrid)),</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  m_isAdaptive(isAdaptive),</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  m_adaptionIsActive(false)</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>{</div>
@@ -980,14 +980,13 @@ $(document).ready(function(){initNavTree('domain__impl_8h_source.html',''); init
 <div class="ttc" id="asmart__pointer_8h_html_a6b709a70faa21f7ccb380ed2ab159cba"><div class="ttname"><a href="smart__pointer_8h.html#a6b709a70faa21f7ccb380ed2ab159cba">make_sp</a></div><div class="ttdeci">SmartPtr&lt; T, FreePolicy &gt; make_sp(T *inst)</div><div class="ttdoc">returns a SmartPtr for the passed raw pointer</div><div class="ttdef"><b>Definition</b> smart_pointer.h:836</div></div>
 <div class="ttc" id="astructug_1_1_grid_layout_map_1_1_types_html_a168cec13dd1c9ace6dfbccc81c5bfbcf"><div class="ttname"><a href="structug_1_1_grid_layout_map_1_1_types.html#a168cec13dd1c9ace6dfbccc81c5bfbcf">ug::GridLayoutMap::Types::Layout</a></div><div class="ttdeci">pcl::MultiLevelLayout&lt; Interface &gt; Layout</div><div class="ttdef"><b>Definition</b> parallel_grid_layout.h:161</div></div>
 <div class="ttc" id="astructug_1_1_grid_layout_map_1_1_types_html_a36422370c3e5ac8bab532d568e5fe03d"><div class="ttname"><a href="structug_1_1_grid_layout_map_1_1_types.html#a36422370c3e5ac8bab532d568e5fe03d">ug::GridLayoutMap::Types::Interface</a></div><div class="ttdeci">pcl::OrderedInterface&lt; TType, std::list &gt; Interface</div><div class="ttdef"><b>Definition</b> parallel_grid_layout.h:160</div></div>
-<div class="ttc" id="aunsat__flow__util_8lua_html_af90b68fab5a4b3975fa3f601b4730569"><div class="ttname"><a href="../plugins/unsat__flow__util_8lua.html#af90b68fab5a4b3975fa3f601b4730569">new</a></div><div class="ttdeci">function ProblemDisc new(problemDesc, dom)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_df0e37446a9fd4242d0753cd346d4a6c.html">lib_disc</a></li><li class="navelem"><a class="el" href="domain__impl_8h.html">domain_impl.h</a></li>
-    <li class="footer">Generated on Mon Feb 24 2025 01:13:29 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Wed Aug 27 2025 09:27:41 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

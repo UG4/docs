@@ -428,8 +428,8 @@ module load UNITE totalview
 <p class="interli">This will start the executable <code>&lt;executable&gt;</code> to be debugged on <code>&lt;numNodes&gt;</code> nodes utilising <code>&lt;numProcs&gt;</code> processes, attaching <em>TotalView</em> to ranks <code>&lt;rank-range&gt;</code> (a space separated list of ranks, see documentation). </p>
 <p class="interli"><b>Example session</b>: </p><ol>
 <li>
-<p class="startli">Start the debugger: </p><div class="fragment"><div class="line">lltv -n 1 : -default_parallel_attach_subset=0-15 runjob -a --np 16 --ranks-per-node 16 --mapping ABCDET --<a class="code hl_variable" href="checkpoint__util_8lua.html#a7e587ebfa42129125fe2e79410a09ef8">verbose</a> 3 : ./ugshell -<a class="code hl_variable" href="command__line__util_8lua.html#a340d3719e63a0a3a4f4429ef8c8b55ea">ex</a> scaling_tests/modular_scalability_test.lua -dim 2 -grid unit_square_01/unit_square_01_quads_8x8.ugx -lsMaxIter 100 -numPreRefs 3 -lsType feti -ds famg -ns famg -numPPSD 4 -<a class="code hl_variableRef" href="../plugins/_parameter_estimation_2example_2example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a> 4</div>
-<div class="ttc" id="a_parameter_estimation_2example_2example__free__surface_2evaluate_8lua_html_ad2464918eb8162cae4af3f470845f0d9"><div class="ttname"><a href="../plugins/_parameter_estimation_2example_2example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a></div><div class="ttdeci">parameterNumber numRefs</div></div>
+<p class="startli">Start the debugger: </p><div class="fragment"><div class="line">lltv -n 1 : -default_parallel_attach_subset=0-15 runjob -a --np 16 --ranks-per-node 16 --mapping ABCDET --<a class="code hl_variable" href="checkpoint__util_8lua.html#a7e587ebfa42129125fe2e79410a09ef8">verbose</a> 3 : ./ugshell -<a class="code hl_variable" href="command__line__util_8lua.html#a340d3719e63a0a3a4f4429ef8c8b55ea">ex</a> scaling_tests/modular_scalability_test.lua -dim 2 -grid unit_square_01/unit_square_01_quads_8x8.ugx -lsMaxIter 100 -numPreRefs 3 -lsType feti -ds famg -ns famg -numPPSD 4 -<a class="code hl_variableRef" href="../plugins/example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a> 4</div>
+<div class="ttc" id="aexample__free__surface_2evaluate_8lua_html_ad2464918eb8162cae4af3f470845f0d9"><div class="ttname"><a href="../plugins/example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a></div><div class="ttdeci">parameterNumber numRefs</div></div>
 </div><!-- fragment --><p class="interli">I.e., to get the corresponding interactive debug job one can (to the authors experience so far) just add the <code>runjob</code> line of a batch job definition (as written in a LoadLeveler script; see above) after the colon of the <code>lltv</code> command <b>PLUS add the option <code>-a</code> to the <code>runjob</code> command</b>!</p>
 <p class="interli">The system answers with something like </p><div class="fragment"><div class="line">Creating LoadLeveler Job</div>
 <div class="line">Submiting LoadLeveler Interactive Job <span class="keywordflow">for</span> TotalView</div>
@@ -462,7 +462,7 @@ module load UNITE totalview
 <p class="interli"><b>Additional hints</b> </p><ul>
 <li>
 <p class="startli">As for batch jobs it is possible to shorten a command line as the one in the example by using an environment variable, e.g. </p><div class="fragment"><div class="line">UGARGS2D=<span class="stringliteral">&quot;-ex scaling_tests/modular_scalability_test.lua -dim 2 -grid unit_square_01/unit_square_01_quads_8x8.ugx -lsMaxIter 100 -numPreRefs 3 -lsType feti -ds famg -ns famg -numPPSD 4&quot;</span></div>
-<div class="line">lltv -n 1 : -default_parallel_attach_subset=0-15 runjob -a --np 16 --ranks-per-node 16 --mapping ABCDET --<a class="code hl_variable" href="checkpoint__util_8lua.html#a7e587ebfa42129125fe2e79410a09ef8">verbose</a> 3 : ./ugshell $UGARGS2D -<a class="code hl_variableRef" href="../plugins/_parameter_estimation_2example_2example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a> 4</div>
+<div class="line">lltv -n 1 : -default_parallel_attach_subset=0-15 runjob -a --np 16 --ranks-per-node 16 --mapping ABCDET --<a class="code hl_variable" href="checkpoint__util_8lua.html#a7e587ebfa42129125fe2e79410a09ef8">verbose</a> 3 : ./ugshell $UGARGS2D -<a class="code hl_variableRef" href="../plugins/example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a> 4</div>
 </div><!-- fragment --> <p class="endli"></p>
 </li>
 <li>
@@ -498,7 +498,7 @@ Click on "Run and Debug a Program" in the "Welcome" dialog box </li>
 </li>
 </ol>
 <p class="interli"><b>Example <em>DDT</em> session</b> (directly specifying the executable to debug on the command line): </p><div class="fragment"><div class="line">ddt</div>
-</div><!-- fragment --><p class="interli">Specification of executable and parameters should also work &mdash; </p><div class="fragment"><div class="line">ddt ./ugshell_debug -<a class="code hl_variable" href="command__line__util_8lua.html#a340d3719e63a0a3a4f4429ef8c8b55ea">ex</a> ../apps/scaling_tests/modular_scalability_test.lua -<a class="code hl_variableRef" href="../plugins/_parameter_estimation_2example_2example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a>  7</div>
+</div><!-- fragment --><p class="interli">Specification of executable and parameters should also work &mdash; </p><div class="fragment"><div class="line">ddt ./ugshell_debug -<a class="code hl_variable" href="command__line__util_8lua.html#a340d3719e63a0a3a4f4429ef8c8b55ea">ex</a> ../apps/scaling_tests/modular_scalability_test.lua -<a class="code hl_variableRef" href="../plugins/example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a>  7</div>
 </div><!-- fragment --><p class="interli">The mpirun parameters, e.g. <code>-mapfile TXYZ -verbose 2</code> can be placed in the fields accessible after clicking on the "Advanced" button.</p>
 <p class="endli"></p>
 </li>
@@ -538,7 +538,7 @@ Optional: Save the trace in a file for later analysis. </li>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="index.html">ug4 - Documentation</a></li><li class="navelem"><a class="el" href="page_u_g4_setup.html">Setup and Installation</a></li><li class="navelem"><a class="el" href="page_u_g4_install.html">Prerequisites and Recommended Tools</a></li><li class="navelem"><a class="el" href="page_u_g4_setup_parallel.html">Installation on Parallel Computers</a></li><li class="navelem"><a class="el" href="page_u_g4_parallel_ju_gene.html">JuGene</a></li><li class="navelem"><a class="el" href="page_u_g4_parallel_ju_queen.html">JuQueen</a></li>
-    <li class="footer">Generated on Mon Feb 24 2025 01:13:51 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Wed Aug 27 2025 09:28:08 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

@@ -206,7 +206,7 @@ I/O and scaling</h1>
  <h1><a class="anchor" id="secParallelComputingInputOutput"></a>
 Input and Output</h1>
 <p>When you're starting a lot of jobs, you can get a problem with your output. When you use ugshell like normal, and output data normally, you might overwrite the output data from one job with the output data of another. That's why, if you are using ugsubmit (<a class="el" href="pageugsubmit.html">ugsubmit - Job Scheduling on Clusters</a>) the job information is stored in a subdirectory of your current directory (or in a subdirectory of the directory you specified with the ugsubmit option -dir) and it's also executed in that subdirectory. Another solution to this problem is to rename your output files accordingly. Please also note that you want to specify an output directory for your results, see this example: </p><div class="fragment"><div class="line">outdir = util.GetParam(<span class="stringliteral">&quot;-outdir&quot;</span>, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;output directory&quot;</span>)</div>
-<div class="line">fileext = discName..<span class="stringliteral">&quot;_procs&quot;</span>..GetNumProcesses()..<span class="stringliteral">&quot;_numRefs&quot;</span>..<a class="code hl_variableRef" href="../plugins/_parameter_estimation_2example_2example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a></div>
+<div class="line">fileext = discName..<span class="stringliteral">&quot;_procs&quot;</span>..GetNumProcesses()..<span class="stringliteral">&quot;_numRefs&quot;</span>..<a class="code hl_variableRef" href="../plugins/example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a></div>
 <div class="line">GetLogAssistant():enable_file_output(true, outdir..filename)</div>
 <div class="line">...</div>
 <div class="line"><a class="code hl_function" href="lexer_8cpp.html#ad4a65b873df5c05570846b5413b41dfd">if</a> GetProcessRank() == 0 then</div>
@@ -214,7 +214,7 @@ Input and Output</h1>
 <div class="line">  WriteGridFunctionToVTK(u, outdir..<span class="stringliteral">&quot;Solution&quot;</span>)</div>
 <div class="line">  WriteProfileData(outdir..filename..<span class="stringliteral">&quot;.pdxml&quot;</span>)  </div>
 <div class="line">end</div>
-<div class="ttc" id="a_parameter_estimation_2example_2example__free__surface_2evaluate_8lua_html_ad2464918eb8162cae4af3f470845f0d9"><div class="ttname"><a href="../plugins/_parameter_estimation_2example_2example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a></div><div class="ttdeci">parameterNumber numRefs</div></div>
+<div class="ttc" id="aexample__free__surface_2evaluate_8lua_html_ad2464918eb8162cae4af3f470845f0d9"><div class="ttname"><a href="../plugins/example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a></div><div class="ttdeci">parameterNumber numRefs</div></div>
 <div class="ttc" id="agroup__scripts__util__stats_html_ga7d4f3ce67c265c9239396cd0fe88e078"><div class="ttname"><a href="group__scripts__util__stats.html#ga7d4f3ce67c265c9239396cd0fe88e078">writeFileStats</a></div><div class="ttdeci">function util writeFileStats(stats, filename, seperator)</div></div>
 <div class="ttc" id="alexer_8cpp_html_ad4a65b873df5c05570846b5413b41dfd"><div class="ttname"><a href="lexer_8cpp.html#ad4a65b873df5c05570846b5413b41dfd">if</a></div><div class="ttdeci">if(!(yy_init))</div><div class="ttdef"><b>Definition</b> lexer.cpp:997</div></div>
 </div><!-- fragment --> <dl class="section note"><dt>Note</dt><dd>Think about where you save data and where you get data from. Try if your script is also working from other directories.</dd></dl>
@@ -222,24 +222,24 @@ Input and Output</h1>
  <h1><a class="anchor" id="secBashCombination"></a>
 ugsubmit in other scripts</h1>
 <p>You can use ugsubmit <em>in</em> other scripts. Lets say you have a script myapp/myscript.lua, and you want to run this script with numRefs = 4 .. 8, parameters co2start = {0.1, 0.2, 0.3}, param2 = {-1, 0, 1}, useExtendedModel = {true, false}.</p>
-<p>First thing is you have to adjust your script (if not already done) so it takes the input from the command line, e.g. </p><div class="fragment"><div class="line">ugshell -<a class="code hl_variable" href="command__line__util_8lua.html#a340d3719e63a0a3a4f4429ef8c8b55ea">ex</a> myapp/myscript.lua -<a class="code hl_variableRef" href="../plugins/_parameter_estimation_2example_2example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a> 4 -co2start 0.2 -param2 1 -useExtendedModel</div>
+<p>First thing is you have to adjust your script (if not already done) so it takes the input from the command line, e.g. </p><div class="fragment"><div class="line">ugshell -<a class="code hl_variable" href="command__line__util_8lua.html#a340d3719e63a0a3a4f4429ef8c8b55ea">ex</a> myapp/myscript.lua -<a class="code hl_variableRef" href="../plugins/example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a> 4 -co2start 0.2 -param2 1 -useExtendedModel</div>
 </div><!-- fragment --><p>For this, you use util.HasParamOption, util.GetParam, and util.GetParamNumber, so in your script: </p><div class="fragment"><div class="line">-- beginning of the script</div>
 <div class="line">co2start = util.GetParamNumber(<span class="stringliteral">&quot;-co2start&quot;</span>, 1, <span class="stringliteral">&quot;start co2 concentration&quot;</span>) --- 1 is <span class="keywordflow">default</span> value</div>
 <div class="line">param2 = util.GetParamNumber(<span class="stringliteral">&quot;-param2&quot;</span>, 0, <span class="stringliteral">&quot;parameter 2 for the model&quot;</span>) --- 0 is <span class="keywordflow">default</span> value</div>
 <div class="line">useExtendedModel = util.HasParamOption(<span class="stringliteral">&quot;-useExtendedModel&quot;</span>, <span class="stringliteral">&quot;if true, use extended model (nonlinear)&quot;</span>) --- <span class="keyword">false</span> is <span class="keywordflow">default</span> value</div>
 <div class="line"> </div>
-<div class="line"><a class="code hl_variableRef" href="../plugins/_parameter_estimation_2example_2example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a> = util.GetParamNumber(<span class="stringliteral">&quot;-numRefs&quot;</span>, 4, <span class="stringliteral">&quot;number of refinements&quot;</span>) </div>
+<div class="line"><a class="code hl_variableRef" href="../plugins/example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a> = util.GetParamNumber(<span class="stringliteral">&quot;-numRefs&quot;</span>, 4, <span class="stringliteral">&quot;number of refinements&quot;</span>) </div>
 <div class="line"> </div>
 <div class="line">-- rest of the script</div>
 </div><!-- fragment --><p>Then you can use a bash named e.g. myLargeRun.sh script like this</p>
-<div class="fragment"><div class="line"><span class="keywordflow">for</span> <a class="code hl_variableRef" href="../plugins/_parameter_estimation_2example_2example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a> in 4 5 6 7 8</div>
+<div class="fragment"><div class="line"><span class="keywordflow">for</span> <a class="code hl_variableRef" href="../plugins/example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a> in 4 5 6 7 8</div>
 <div class="line"><span class="keywordflow">do</span></div>
 <div class="line">  <span class="keywordflow">for</span> co2start in 0.1 0.2 0.3</div>
 <div class="line">  <span class="keywordflow">do</span></div>
 <div class="line">    <span class="keywordflow">for</span> param2 in -1 0 1</div>
 <div class="line">    <span class="keywordflow">do</span></div>
-<div class="line">      ugsubmit 64 --- ugshell -<a class="code hl_variable" href="command__line__util_8lua.html#a340d3719e63a0a3a4f4429ef8c8b55ea">ex</a> myapp/myscript.lua -<a class="code hl_variableRef" href="../plugins/_parameter_estimation_2example_2example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a> $numRefs -co2start $co2start -param2 $param2 -useExtendedModel</div>
-<div class="line">      ugsubmit 64 --- ugshell -<a class="code hl_variable" href="command__line__util_8lua.html#a340d3719e63a0a3a4f4429ef8c8b55ea">ex</a> myapp/myscript.lua -<a class="code hl_variableRef" href="../plugins/_parameter_estimation_2example_2example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a> $numRefs -co2start $co2start -param2 $param2</div>
+<div class="line">      ugsubmit 64 --- ugshell -<a class="code hl_variable" href="command__line__util_8lua.html#a340d3719e63a0a3a4f4429ef8c8b55ea">ex</a> myapp/myscript.lua -<a class="code hl_variableRef" href="../plugins/example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a> $numRefs -co2start $co2start -param2 $param2 -useExtendedModel</div>
+<div class="line">      ugsubmit 64 --- ugshell -<a class="code hl_variable" href="command__line__util_8lua.html#a340d3719e63a0a3a4f4429ef8c8b55ea">ex</a> myapp/myscript.lua -<a class="code hl_variableRef" href="../plugins/example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a> $numRefs -co2start $co2start -param2 $param2</div>
 <div class="line">    done</div>
 <div class="line">  done</div>
 <div class="line">done</div>
@@ -254,7 +254,7 @@ A directory for your results</h2>
 <div class="line">mkdir $myOutDir</div>
 <div class="line"><span class="keywordflow">for</span> i in {3..6}</div>
 <div class="line"><span class="keywordflow">do</span></div>
-<div class="line">   ugsubmit 64 --- ugshell -<a class="code hl_variable" href="command__line__util_8lua.html#a340d3719e63a0a3a4f4429ef8c8b55ea">ex</a> mycheck.lua -outdir $myOutDir/ -<a class="code hl_variable" href="command__line__util_8lua.html#a5fb406e096fcd276a52add3deb58920b">logtofile</a> $myOutDir/mycheck${i} -<a class="code hl_variableRef" href="../plugins/_parameter_estimation_2example_2example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a> $i</div>
+<div class="line">   ugsubmit 64 --- ugshell -<a class="code hl_variable" href="command__line__util_8lua.html#a340d3719e63a0a3a4f4429ef8c8b55ea">ex</a> mycheck.lua -outdir $myOutDir/ -<a class="code hl_variable" href="command__line__util_8lua.html#a5fb406e096fcd276a52add3deb58920b">logtofile</a> $myOutDir/mycheck${i} -<a class="code hl_variableRef" href="../plugins/example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a> $i</div>
 <div class="line">done</div>
 <div class="ttc" id="acommand__line__util_8lua_html_a5fb406e096fcd276a52add3deb58920b"><div class="ttname"><a href="command__line__util_8lua.html#a5fb406e096fcd276a52add3deb58920b">logtofile</a></div><div class="ttdeci">parameterString logtofile</div><div class="ttdoc">Output will be written to the specified file.</div><div class="ttdef"><b>Definition</b> command_line_util.lua:351</div></div>
 </div><!-- fragment --><h2><a class="anchor" id="secParallelStats"></a>
@@ -263,7 +263,7 @@ A simple method to produce combined statistics</h2>
 <div class="line"><a class="code hl_function" href="lexer_8cpp.html#ad4a65b873df5c05570846b5413b41dfd">if</a> GetProcessRank() == 0 then</div>
 <div class="line">  stats = { </div>
 <div class="line">  { <span class="stringliteral">&quot;procs&quot;</span>, GetNumProcesses() },</div>
-<div class="line">  { <span class="stringliteral">&quot;numRefs&quot;</span>, <a class="code hl_variableRef" href="../plugins/_parameter_estimation_2example_2example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a> },</div>
+<div class="line">  { <span class="stringliteral">&quot;numRefs&quot;</span>, <a class="code hl_variableRef" href="../plugins/example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a> },</div>
 <div class="line">  { <span class="stringliteral">&quot;param1&quot;</span>, param1},</div>
 <div class="line">  { <span class="stringliteral">&quot;dim&quot;</span>, dim},</div>
 <div class="line">  { <span class="stringliteral">&quot;gridName&quot;</span>, gridName},</div>
@@ -286,7 +286,7 @@ A simple method to produce combined statistics</h2>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="index.html">ug4 - Documentation</a></li><li class="navelem"><a class="el" href="page_u_g4_usage.html">Usage</a></li><li class="navelem"><a class="el" href="page_u_g4_parallel_usage.html">Parallel Usage</a></li>
-    <li class="footer">Generated on Mon Feb 24 2025 01:13:51 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Wed Aug 27 2025 09:28:08 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

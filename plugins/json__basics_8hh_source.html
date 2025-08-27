@@ -137,7 +137,7 @@ $(document).ready(function(){initNavTree('json__basics_8hh_source.html',''); ini
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><a class="code hl_classRef" href="../class_smart_ptr.html">SmartPtr&lt;P&gt;</a> JSONSerializer(<span class="keyword">const</span> <span class="keywordtype">char</span> *jstring)</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>{</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>  <a class="code hl_defineRef" href="../group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a>(! is_json_constructible_v&lt;P&gt;, <span class="stringliteral">&quot;ERROR: Type is not constructible!&quot;</span>)</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>  <a class="code hl_classRef" href="../class_smart_ptr.html">SmartPtr</a>&lt;P&gt; data = make_sp(<a class="code hl_function" href="unsat__flow__util_8lua.html#af90b68fab5a4b3975fa3f601b4730569">new</a> P());</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>  <a class="code hl_classRef" href="../class_smart_ptr.html">SmartPtr</a>&lt;P&gt; data = make_sp(new P());</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>  nlohmann::json j = nlohmann::json::parse(jstring);</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>  j.get_to&lt;P&gt;(*data);</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>  return data;</div>
@@ -150,14 +150,13 @@ $(document).ready(function(){initNavTree('json__basics_8hh_source.html',''); ini
 <div class="ttc" id="aclass_smart_ptr_html"><div class="ttname"><a href="../class_smart_ptr.html">SmartPtr</a></div></div>
 <div class="ttc" id="agroup__ugbase__common_html_gaf0ce958f12c62aa44c231a700b830374"><div class="ttname"><a href="../group__ugbase__common.html#gaf0ce958f12c62aa44c231a700b830374">UG_COND_THROW</a></div><div class="ttdeci">#define UG_COND_THROW(cond, msg)</div></div>
 <div class="ttc" id="anamespaceug_html"><div class="ttname"><a href="namespaceug.html">ug</a></div></div>
-<div class="ttc" id="aunsat__flow__util_8lua_html_af90b68fab5a4b3975fa3f601b4730569"><div class="ttname"><a href="unsat__flow__util_8lua.html#af90b68fab5a4b3975fa3f601b4730569">new</a></div><div class="ttdeci">function ProblemDisc new(problemDesc, dom)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_38c8d24aef3972a7f87b834274e76e31.html">plugins</a></li><li class="navelem"><a class="el" href="dir_287333163026f6956dbf6ea879b025f1.html">Richards</a></li><li class="navelem"><a class="el" href="json__basics_8hh.html">json_basics.hh</a></li>
-    <li class="footer">Generated on Mon Feb 24 2025 01:12:50 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Wed Aug 27 2025 09:26:57 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

@@ -128,11 +128,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0f9bd682c1f8d93fececd9d1f29d3bb3" id="r_a0f9bd682c1f8d93fececd9d1f29d3bb3"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_line_search.html#a0f9bd682c1f8d93fececd9d1f29d3bb3">config_string</a> () const =0</td></tr>
 <tr class="memdesc:a0f9bd682c1f8d93fececd9d1f29d3bb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns information about configuration parameters  <br /></td></tr>
 <tr class="separator:a0f9bd682c1f8d93fececd9d1f29d3bb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14c5c65579f3c7320f032e2cd24df5fc" id="r_a14c5c65579f3c7320f032e2cd24df5fc"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_line_search.html#a14c5c65579f3c7320f032e2cd24df5fc">createNewtonUpdater</a> ()=0</td></tr>
+<tr class="separator:a14c5c65579f3c7320f032e2cd24df5fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd36956d20e90afc10dad80525f81fbf" id="r_afd36956d20e90afc10dad80525f81fbf"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_line_search.html#afd36956d20e90afc10dad80525f81fbf">search</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_i_operator.html">IOperator</a>&lt; <a class="el" href="classug_1_1_i_line_search.html#ac98146e92adca08b674f17356d7085f5">vector_type</a> &gt; &gt; spOp, <a class="el" href="classug_1_1_i_line_search.html#ac98146e92adca08b674f17356d7085f5">vector_type</a> &amp;u, <a class="el" href="classug_1_1_i_line_search.html#ac98146e92adca08b674f17356d7085f5">vector_type</a> &amp;<a class="elRef" href="../plugins/_biogas_8lua.html#a57f1028d958bb73c4e3c64e2077342fc">p</a>, <a class="el" href="classug_1_1_i_line_search.html#ac98146e92adca08b674f17356d7085f5">vector_type</a> &amp;d, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> defect)=0</td></tr>
 <tr class="separator:afd36956d20e90afc10dad80525f81fbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23be1dbf1f534a432692466940a8208c" id="r_a23be1dbf1f534a432692466940a8208c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_line_search.html#a23be1dbf1f534a432692466940a8208c">set_offset</a> (std::string offset)=0</td></tr>
 <tr class="memdesc:a23be1dbf1f534a432692466940a8208c"><td class="mdescLeft">&#160;</td><td class="mdescRight">set string to be printed before each output of line search  <br /></td></tr>
 <tr class="separator:a23be1dbf1f534a432692466940a8208c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa977170a3816525ad2b7bc2a8d34f720" id="r_aa977170a3816525ad2b7bc2a8d34f720"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_line_search.html#aa977170a3816525ad2b7bc2a8d34f720">setNewtonUpdater</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_newton_updater_generic.html">NewtonUpdaterGeneric</a>&lt; TVector &gt; &gt; nU)=0</td></tr>
+<tr class="separator:aa977170a3816525ad2b7bc2a8d34f720"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a748b33badf9427b058a9e839ad50b8a4" id="r_a748b33badf9427b058a9e839ad50b8a4"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_i_line_search.html#a748b33badf9427b058a9e839ad50b8a4">~ILineSearch</a> ()</td></tr>
 <tr class="memdesc:a748b33badf9427b058a9e839ad50b8a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">virtual destructor  <br /></td></tr>
 <tr class="separator:a748b33badf9427b058a9e839ad50b8a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -219,6 +223,35 @@ template&lt;typename TVector &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>std::string necessary information about configuration parameters </dd></dl>
 
 <p>Implemented in <a class="el" href="classug_1_1_standard_line_search.html#a4b88cf4de30ce3bf56a69a65f85c4715">ug::StandardLineSearch&lt; TVector &gt;</a>.</p>
+
+</div>
+</div>
+<a id="a14c5c65579f3c7320f032e2cd24df5fc" name="a14c5c65579f3c7320f032e2cd24df5fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14c5c65579f3c7320f032e2cd24df5fc">&#9670;&#160;</a></span>createNewtonUpdater()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TVector &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool <a class="el" href="classug_1_1_i_line_search.html">ug::ILineSearch</a>&lt; TVector &gt;::createNewtonUpdater </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classug_1_1_standard_line_search.html#aed217c8b1ee2f810471790c7d280135e">ug::StandardLineSearch&lt; TVector &gt;</a>.</p>
 
 </div>
 </div>
@@ -324,6 +357,36 @@ template&lt;typename TVector &gt; </div>
 
 </div>
 </div>
+<a id="aa977170a3816525ad2b7bc2a8d34f720" name="aa977170a3816525ad2b7bc2a8d34f720"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa977170a3816525ad2b7bc2a8d34f720">&#9670;&#160;</a></span>setNewtonUpdater()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TVector &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="classug_1_1_i_line_search.html">ug::ILineSearch</a>&lt; TVector &gt;::setNewtonUpdater </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_newton_updater_generic.html">NewtonUpdaterGeneric</a>&lt; TVector &gt; &gt;&#160;</td>
+          <td class="paramname"><em>nU</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classug_1_1_standard_line_search.html#a7d226a068c8f894e991d6290c694ad97">ug::StandardLineSearch&lt; TVector &gt;</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>ugbase/lib_disc/operator/non_linear_operator/<a class="el" href="line__search_8h_source.html">line_search.h</a></li>
 </ul>
@@ -333,7 +396,7 @@ template&lt;typename TVector &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_i_line_search.html">ILineSearch</a></li>
-    <li class="footer">Generated on Mon Feb 24 2025 01:14:02 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Wed Aug 27 2025 09:28:20 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

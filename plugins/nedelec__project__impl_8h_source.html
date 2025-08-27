@@ -158,10 +158,10 @@ $(document).ready(function(){initNavTree('nedelec__project__impl_8h_source.html'
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>: m_spEmMaterial (emMatherial),</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  m_spVertApproxSpace (vertApproxSpace),</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  m_bDampDVFs (true),</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  m_auxLocLaplace (<a class="code hl_function" href="unsat__flow__util_8lua.html#af90b68fab5a4b3975fa3f601b4730569">new</a> <a class="code hl_class" href="classug_1_1_electromagnetism_1_1_nedelec_project_1_1_aux_laplace_loc_ass.html">AuxLaplaceLocAss</a> (*this)),</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  m_auxLaplaceRHS (<a class="code hl_function" href="unsat__flow__util_8lua.html#af90b68fab5a4b3975fa3f601b4730569">new</a> <a class="code hl_class" href="classug_1_1_electromagnetism_1_1_nedelec_project_1_1_aux_laplace_r_h_s.html">AuxLaplaceRHS</a> (*this)),</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  m_auxLaplaceAss (<a class="code hl_function" href="unsat__flow__util_8lua.html#af90b68fab5a4b3975fa3f601b4730569">new</a> <a class="code hl_classRef" href="../classug_1_1_domain_discretization.html">DomainDiscretization</a>&lt;TDomain, <a class="code hl_structRef" href="../structug_1_1_c_p_u_algebra.html">TPotAlgebra</a>&gt; (vertApproxSpace)),</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>  m_auxLaplaceOp (<a class="code hl_function" href="unsat__flow__util_8lua.html#af90b68fab5a4b3975fa3f601b4730569">new</a> <a class="code hl_classRef" href="../classug_1_1_assembled_linear_operator.html">AssembledLinearOperator</a>&lt;<a class="code hl_structRef" href="../structug_1_1_c_p_u_algebra.html">TPotAlgebra</a>&gt; (<a class="code hl_classRef" href="../class_smart_ptr.html">SmartPtr</a>&lt;<a class="code hl_classRef" href="../classug_1_1_i_assemble.html">IAssemble</a>&lt;<a class="code hl_structRef" href="../structug_1_1_c_p_u_algebra.html">TPotAlgebra</a>&gt; &gt;(m_auxLaplaceAss))),</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  m_auxLocLaplace (new <a class="code hl_class" href="classug_1_1_electromagnetism_1_1_nedelec_project_1_1_aux_laplace_loc_ass.html">AuxLaplaceLocAss</a> (*this)),</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  m_auxLaplaceRHS (new <a class="code hl_class" href="classug_1_1_electromagnetism_1_1_nedelec_project_1_1_aux_laplace_r_h_s.html">AuxLaplaceRHS</a> (*this)),</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  m_auxLaplaceAss (new <a class="code hl_classRef" href="../classug_1_1_domain_discretization.html">DomainDiscretization</a>&lt;TDomain, <a class="code hl_structRef" href="../structug_1_1_c_p_u_algebra.html">TPotAlgebra</a>&gt; (vertApproxSpace)),</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>  m_auxLaplaceOp (new <a class="code hl_classRef" href="../classug_1_1_assembled_linear_operator.html">AssembledLinearOperator</a>&lt;<a class="code hl_structRef" href="../structug_1_1_c_p_u_algebra.html">TPotAlgebra</a>&gt; (<a class="code hl_classRef" href="../class_smart_ptr.html">SmartPtr</a>&lt;<a class="code hl_classRef" href="../classug_1_1_i_assemble.html">IAssemble</a>&lt;<a class="code hl_structRef" href="../structug_1_1_c_p_u_algebra.html">TPotAlgebra</a>&gt; &gt;(m_auxLaplaceAss))),</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  m_potSolver (potSolver)</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>{</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="comment">//  Check the parameters:</span></div>
@@ -1424,14 +1424,13 @@ $(document).ready(function(){initNavTree('nedelec__project__impl_8h_source.html'
 <div class="ttc" id="astructug_1_1_electromagnetism_1_1_nedelec_project_1_1_weak_div_html"><div class="ttname"><a href="structug_1_1_electromagnetism_1_1_nedelec_project_1_1_weak_div.html">ug::Electromagnetism::NedelecProject::WeakDiv</a></div><div class="ttdoc">Helper class for the computation the weak divergence.</div><div class="ttdef"><b>Definition</b> nedelec_project.h:203</div></div>
 <div class="ttc" id="astructug_1_1domain__traits_html"><div class="ttname"><a href="../structug_1_1domain__traits.html">ug::domain_traits</a></div></div>
 <div class="ttc" id="astructug_1_1reference__element__traits_html"><div class="ttname"><a href="../structug_1_1reference__element__traits.html">ug::reference_element_traits</a></div></div>
-<div class="ttc" id="aunsat__flow__util_8lua_html_af90b68fab5a4b3975fa3f601b4730569"><div class="ttname"><a href="unsat__flow__util_8lua.html#af90b68fab5a4b3975fa3f601b4730569">new</a></div><div class="ttdeci">function ProblemDisc new(problemDesc, dom)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_38c8d24aef3972a7f87b834274e76e31.html">plugins</a></li><li class="navelem"><a class="el" href="dir_044836140707c194a1234f9e2768b8ab.html">Electromagnetism</a></li><li class="navelem"><a class="el" href="nedelec__project__impl_8h.html">nedelec_project_impl.h</a></li>
-    <li class="footer">Generated on Mon Feb 24 2025 01:12:46 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Wed Aug 27 2025 09:26:52 for Plugins by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>
