@@ -22,7 +22,7 @@ var searchData=
   ['reference_5fmapping_5fprovider_2eh_19',['reference_mapping_provider.h',['../reference__mapping__provider_8h.html',1,'']]],
   ['reference_5fmapping_5ftest_2eh_20',['reference_mapping_test.h',['../reference__mapping__test_8h.html',1,'']]],
   ['reference_5fmapping_5ftest_5fbridge_2ecpp_21',['reference_mapping_test_bridge.cpp',['../reference__mapping__test__bridge_8cpp.html',1,'']]],
-  ['refinement_5fbridge_2ecpp_22',['refinement_bridge.cpp',['../domain__bridges_2refinement__bridge_8cpp.html',1,'(Global Namespace)'],['../grid__bridges_2refinement__bridge_8cpp.html',1,'(Global Namespace)']]],
+  ['refinement_5fbridge_2ecpp_22',['refinement_bridge.cpp',['../grid__bridges_2refinement__bridge_8cpp.html',1,'(Global Namespace)'],['../domain__bridges_2refinement__bridge_8cpp.html',1,'(Global Namespace)']]],
   ['refinement_5fmark_5futil_2eh_23',['refinement_mark_util.h',['../refinement__mark__util_8h.html',1,'']]],
   ['refinement_5fmark_5futil_5fimpl_2eh_24',['refinement_mark_util_impl.h',['../refinement__mark__util__impl_8h.html',1,'']]],
   ['refinement_5fprojector_2eh_25',['refinement_projector.h',['../refinement__projector_8h.html',1,'']]],
