@@ -430,8 +430,6 @@ var namespaceug =
     [ "ArrayReplaceEntry", "../group__ugbase__common__types.html#ga51526bd32cbbade9c2a5f62725db2dc1", null ],
     [ "ArraySwapWithLast", "../group__ugbase__common__types.html#ga1402d7900279fd4b556ea2d15a587dba", null ],
     [ "ArraySwapWithLast", "../group__ugbase__common__types.html#ga1402d7900279fd4b556ea2d15a587dba", null ],
-    [ "ArteExpandFracs3D::establishNewVertices< false, ArteExpandFracs3D::VrtxFracProptsStatus::oneFracSuDoAtt >", "../namespaceug.html#a9e1f267cd691a6d7340e8287dccd3926", null ],
-    [ "ArteExpandFracs3D::establishNewVertices< true, ArteExpandFracs3D::VrtxFracProptsStatus::oneFracSuDoAtt >", "../namespaceug.html#a1ab6a9bd26fec453926ff0720c03c56a", null ],
     [ "AspectRatio", "../namespaceug.html#a46f23c78373713e9cea67afcc5e76c87", null ],
     [ "AspectRatio", "../namespaceug.html#ae0e0d793732440d61139051cb9fa7248", null ],
     [ "AssembleInjectionByAverageOfChildren", "../namespaceug.html#ac3c364523c7f5b39cd256875fac9822c", null ],

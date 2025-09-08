@@ -359,12 +359,15 @@ var annotated_dup =
         [ "LuaError", "classug_1_1script_1_1_lua_error.html", "classug_1_1script_1_1_lua_error" ]
       ] ],
       [ "support", "namespaceug_1_1support.html", [
+        [ "AttachedBoundryElem", "classug_1_1support_1_1_attached_boundry_elem.html", "classug_1_1support_1_1_attached_boundry_elem" ],
         [ "AttachedFractElem", "classug_1_1support_1_1_attached_fract_elem.html", "classug_1_1support_1_1_attached_fract_elem" ],
         [ "AttachedFullDimElemInfo", "classug_1_1support_1_1_attached_full_dim_elem_info.html", "classug_1_1support_1_1_attached_full_dim_elem_info" ],
         [ "AttachedGeneralElem", "classug_1_1support_1_1_attached_general_elem.html", "classug_1_1support_1_1_attached_general_elem" ],
         [ "CrossingVertexInfoVol", "classug_1_1support_1_1_crossing_vertex_info_vol.html", "classug_1_1support_1_1_crossing_vertex_info_vol" ],
-        [ "VertexFracturePropertiesVol", "classug_1_1support_1_1_vertex_fracture_properties_vol.html", "classug_1_1support_1_1_vertex_fracture_properties_vol" ],
-        [ "VertexFractureTripleMF", "classug_1_1support_1_1_vertex_fracture_triple_m_f.html", "classug_1_1support_1_1_vertex_fracture_triple_m_f" ]
+        [ "EndingCrossingFractSegmentInfo", "classug_1_1support_1_1_ending_crossing_fract_segment_info.html", "classug_1_1support_1_1_ending_crossing_fract_segment_info" ],
+        [ "ManifoldDescriptor", "classug_1_1support_1_1_manifold_descriptor.html", "classug_1_1support_1_1_manifold_descriptor" ],
+        [ "SegmentSides", "classug_1_1support_1_1_segment_sides.html", "classug_1_1support_1_1_segment_sides" ],
+        [ "VertexFracturePropertiesVol", "classug_1_1support_1_1_vertex_fracture_properties_vol.html", "classug_1_1support_1_1_vertex_fracture_properties_vol" ]
       ] ],
       [ "swc_types", "namespaceug_1_1swc__types.html", [
         [ "SWCPoint", "structug_1_1swc__types_1_1_s_w_c_point.html", "structug_1_1swc__types_1_1_s_w_c_point" ]

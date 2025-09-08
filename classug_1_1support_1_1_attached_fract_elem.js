@@ -1,10 +1,12 @@
 var classug_1_1support_1_1_attached_fract_elem =
 [
-    [ "AttFractElm", "classug_1_1support_1_1_attached_fract_elem.html#a70c2bb2499bde5fa7b455297576fe0be", null ],
-    [ "AttGenElm", "classug_1_1support_1_1_attached_fract_elem.html#a578bfe14ed383f654a668dfb767c7ea3", null ],
-    [ "PairLowEl", "classug_1_1support_1_1_attached_fract_elem.html#a0c5149fc7e38eeca119d5c8d3e56d6c0", null ],
-    [ "AttachedFractElem", "classug_1_1support_1_1_attached_fract_elem.html#abc19082137f9aa5eac332f235939f6a2", null ],
-    [ "getSudo", "classug_1_1support_1_1_attached_fract_elem.html#a3bd4d3588b27bd855c43b35124999f76", null ],
-    [ "testIfEquals", "classug_1_1support_1_1_attached_fract_elem.html#ad035d184ef8c782b1d44405a8c7aada4", null ],
-    [ "m_sudo", "classug_1_1support_1_1_attached_fract_elem.html#ac9060b24189b389a99de4d1de3727eb4", null ]
+    [ "AttFractElm", "classug_1_1support_1_1_attached_fract_elem.html#ae334c247c9c371a8164a0c1c0ab2b691", null ],
+    [ "AttGenElm", "classug_1_1support_1_1_attached_fract_elem.html#a9e38af7bdf70987ed7f52ac2a032b567", null ],
+    [ "PairLowEl", "classug_1_1support_1_1_attached_fract_elem.html#aadd12e2c344085e38d5d05d9c2bfeb6d", null ],
+    [ "AttachedFractElem", "classug_1_1support_1_1_attached_fract_elem.html#a8a3fe5e333fb04b120918b5be0b139e3", null ],
+    [ "getNormalVec", "classug_1_1support_1_1_attached_fract_elem.html#adc1571b1c3a34aec2d3744464ba69104", null ],
+    [ "getSudo", "classug_1_1support_1_1_attached_fract_elem.html#a3e9aa3461dd071c7c60b75111b6dfcc5", null ],
+    [ "testIfEquals", "classug_1_1support_1_1_attached_fract_elem.html#ac1241f6ca62e4f00d177f1b56452a06c", null ],
+    [ "m_normalVec", "classug_1_1support_1_1_attached_fract_elem.html#a81732b509edc0530fa5590eb82c71c42", null ],
+    [ "m_sudo", "classug_1_1support_1_1_attached_fract_elem.html#a2004de69378661c57173ea45f844ee60", null ]
 ];

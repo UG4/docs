@@ -147,6 +147,11 @@ var namespaceug =
       [ "RecursiveRefine", "namespaceug_1_1shared__rules.html#a7ac2b679a4bd43aa6e8509c82ace36ca", null ],
       [ "MAX_NUM_INDS_OUT", "namespaceug_1_1shared__rules.html#a575886ba79e23006f4f98f89af220f69", null ]
     ] ],
+    [ "simpleMatrOps", "namespaceug_1_1simple_matr_ops.html", [
+      [ "cramerRule", "namespaceug_1_1simple_matr_ops.html#a3c8abd8b015adddab42df384ea18b925", null ],
+      [ "determinant_2x2", "namespaceug_1_1simple_matr_ops.html#ae8d7373fd08e2eaa39ed32994594170f", null ],
+      [ "determinant_3x3", "namespaceug_1_1simple_matr_ops.html#abb14ab9814a19ae36cb95f8154b818d9", null ]
+    ] ],
     [ "support", "namespaceug_1_1support.html", "namespaceug_1_1support" ],
     [ "swc_types", "namespaceug_1_1swc__types.html", "namespaceug_1_1swc__types" ],
     [ "tet_rules", "namespaceug_1_1tet__rules.html", [
@@ -2108,10 +2113,6 @@ var namespaceug =
     [ "ArrayEraseEntry", "group__ugbase__common__types.html#gaa9e78ead2fb8ccbc5cb3f5dba04d3f2a", null ],
     [ "ArrayReplaceEntry", "group__ugbase__common__types.html#ga51526bd32cbbade9c2a5f62725db2dc1", null ],
     [ "ArraySwapWithLast", "group__ugbase__common__types.html#ga1402d7900279fd4b556ea2d15a587dba", null ],
-    [ "ArteExpandFracs3D::establishNewVertices< false, ArteExpandFracs3D::VrtxFracProptsStatus::oneFracSuDoAtt >", "namespaceug.html#a9e1f267cd691a6d7340e8287dccd3926", null ],
-    [ "ArteExpandFracs3D::establishNewVertices< false, ArteExpandFracs3D::VrtxFracProptsStatus::oneFracSuDoAtt >", "namespaceug.html#a9e1f267cd691a6d7340e8287dccd3926", null ],
-    [ "ArteExpandFracs3D::establishNewVertices< true, ArteExpandFracs3D::VrtxFracProptsStatus::oneFracSuDoAtt >", "namespaceug.html#a1ab6a9bd26fec453926ff0720c03c56a", null ],
-    [ "ArteExpandFracs3D::establishNewVertices< true, ArteExpandFracs3D::VrtxFracProptsStatus::oneFracSuDoAtt >", "namespaceug.html#a1ab6a9bd26fec453926ff0720c03c56a", null ],
     [ "AspectRatio", "namespaceug.html#a46f23c78373713e9cea67afcc5e76c87", null ],
     [ "AspectRatio", "namespaceug.html#ae0e0d793732440d61139051cb9fa7248", null ],
     [ "AssembleInjectionByAverageOfChildren", "namespaceug.html#ac3c364523c7f5b39cd256875fac9822c", null ],

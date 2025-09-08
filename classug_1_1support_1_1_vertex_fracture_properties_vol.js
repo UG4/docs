@@ -10,19 +10,12 @@ var classug_1_1support_1_1_vertex_fracture_properties_vol =
     ] ],
     [ "VertexFracturePropertiesVol", "classug_1_1support_1_1_vertex_fracture_properties_vol.html#aae95c15e6dfd25f2a8f57a0c77a0daa3", null ],
     [ "adaptVrtxFracStatus", "classug_1_1support_1_1_vertex_fracture_properties_vol.html#a5e0c5e26a3efe187916468bef4b86d5d", null ],
-    [ "addAttachedFractElem", "classug_1_1support_1_1_vertex_fracture_properties_vol.html#a5485257995db7c231f1b1197029bbfda", null ],
     [ "addFractSudo", "classug_1_1support_1_1_vertex_fracture_properties_vol.html#afa28a288fa26b11970a31641b26448e7", null ],
-    [ "getAllAttachedFractElems", "classug_1_1support_1_1_vertex_fracture_properties_vol.html#a082847c3aa760310c452bc4c20894ce6", null ],
-    [ "getInfoAllFracSudosIfClosed", "classug_1_1support_1_1_vertex_fracture_properties_vol.html#a766bc8314f617dfc8af8169a5ca51fbe", null ],
-    [ "getInfoAllFracturesSameClosedState", "classug_1_1support_1_1_vertex_fracture_properties_vol.html#af8634b6975144d873359d2e2c432d723", null ],
-    [ "getIsAClosedFracture", "classug_1_1support_1_1_vertex_fracture_properties_vol.html#a0b7bb162257dd9e30d3ad949ed515ce2", null ],
     [ "getIsBndFracVertex", "classug_1_1support_1_1_vertex_fracture_properties_vol.html#a838a9005ab22721d6805bcd4ac578f1d", null ],
     [ "getNumberFracEdgesInVertex", "classug_1_1support_1_1_vertex_fracture_properties_vol.html#ad88a51d0c59a4d8458d670f5db6c5889", null ],
     [ "getSudoList", "classug_1_1support_1_1_vertex_fracture_properties_vol.html#a4d463a8f3ebecaf5da00c60c17092df6", null ],
     [ "getVrtxFracStatus", "classug_1_1support_1_1_vertex_fracture_properties_vol.html#a342f8ef3c176553af3db40434ccbdf1f", null ],
     [ "operator++", "classug_1_1support_1_1_vertex_fracture_properties_vol.html#a49189e465e99b3801758e37af171787a", null ],
-    [ "setInfoAllFractureSudosIfClosed", "classug_1_1support_1_1_vertex_fracture_properties_vol.html#aac6a07c703f44aea2a1abc64c25c894c", null ],
-    [ "setIsAClosedFracture", "classug_1_1support_1_1_vertex_fracture_properties_vol.html#a8f1792b8f76948434d7a584c2af476eb", null ],
     [ "setIsBndFracVertex", "classug_1_1support_1_1_vertex_fracture_properties_vol.html#a8e4eaa49422cac9f359fc2f93501e053", null ],
     [ "setNumberCrossingFracsInVertex", "classug_1_1support_1_1_vertex_fracture_properties_vol.html#a74c0f1111c96437cafa911501c1f447b", null ],
     [ "setSudoList", "classug_1_1support_1_1_vertex_fracture_properties_vol.html#a5ae71634d1e92e624178b7d786f6debb", null ],
@@ -31,7 +24,5 @@ var classug_1_1support_1_1_vertex_fracture_properties_vol =
     [ "m_maxStatus", "classug_1_1support_1_1_vertex_fracture_properties_vol.html#abea03c7f3cbdcda069af6881156688a1", null ],
     [ "m_numberCountedFracsInVertex", "classug_1_1support_1_1_vertex_fracture_properties_vol.html#af2dd2f9de6b3012902f83822c1054c2b", null ],
     [ "m_status", "classug_1_1support_1_1_vertex_fracture_properties_vol.html#a3a8558a5a9a00e254ff759300f71e77c", null ],
-    [ "m_sudoList", "classug_1_1support_1_1_vertex_fracture_properties_vol.html#a910bd8a88a81bbc3a34844c13e94d6f8", null ],
-    [ "m_sudosClosed", "classug_1_1support_1_1_vertex_fracture_properties_vol.html#a041dbd87fabc34cfbcddf4bed2994e59", null ],
-    [ "m_vecAttElem", "classug_1_1support_1_1_vertex_fracture_properties_vol.html#a3ff424203cba7198a33c024a2d5bccfe", null ]
+    [ "m_sudoList", "classug_1_1support_1_1_vertex_fracture_properties_vol.html#a910bd8a88a81bbc3a34844c13e94d6f8", null ]
 ];

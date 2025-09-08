@@ -99,13 +99,16 @@ $(document).ready(function(){initNavTree('namespaceug_1_1support.html',''); init
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">ug::support Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1support_1_1_attached_boundry_elem.html">AttachedBoundryElem</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1support_1_1_attached_fract_elem.html">AttachedFractElem</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1support_1_1_attached_full_dim_elem_info.html">AttachedFullDimElemInfo</a></td></tr>
@@ -114,9 +117,13 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1support_1_1_crossing_vertex_info_vol.html">CrossingVertexInfoVol</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1support_1_1_vertex_fracture_properties_vol.html">VertexFracturePropertiesVol</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1support_1_1_ending_crossing_fract_segment_info.html">EndingCrossingFractSegmentInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1support_1_1_vertex_fracture_triple_m_f.html">VertexFractureTripleMF</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1support_1_1_manifold_descriptor.html">ManifoldDescriptor</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1support_1_1_segment_sides.html">SegmentSides</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1support_1_1_vertex_fracture_properties_vol.html">VertexFracturePropertiesVol</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
@@ -126,6 +133,12 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespaceug_1_1support.html#a84a74201593567ee9981dfedf1ca15d4a40ef831c51ef73c190f6beb1db139c83">XCross</a> = 4
  }</td></tr>
 <tr class="separator:a84a74201593567ee9981dfedf1ca15d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ab36050c4a28f0c27f42a2b96dcd5a813" id="r_ab36050c4a28f0c27f42a2b96dcd5a813"><td class="memTemplParams" colspan="2">template&lt;typename ELEMTYP &gt; </td></tr>
+<tr class="memitem:ab36050c4a28f0c27f42a2b96dcd5a813"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug_1_1support.html#ab36050c4a28f0c27f42a2b96dcd5a813">addElem</a> (std::vector&lt; ELEMTYP &gt; &amp;knownElems, ELEMTYP elemToAdd)</td></tr>
+<tr class="separator:ab36050c4a28f0c27f42a2b96dcd5a813"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="a84a74201593567ee9981dfedf1ca15d4" name="a84a74201593567ee9981dfedf1ca15d4"></a>
@@ -147,13 +160,46 @@ Enumerations</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ab36050c4a28f0c27f42a2b96dcd5a813" name="ab36050c4a28f0c27f42a2b96dcd5a813"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab36050c4a28f0c27f42a2b96dcd5a813">&#9670;&#160;</a></span>addElem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ELEMTYP &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ug::support::addElem </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; ELEMTYP &gt; &amp;&#160;</td>
+          <td class="paramname"><em>knownElems</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ELEMTYP&#160;</td>
+          <td class="paramname"><em>elemToAdd</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classug_1_1_arte_expand_fracs3_d.html#a0a6ec05f246022aa6062ffdda2b40342">ug::ArteExpandFracs3D::addElem()</a>, <a class="el" href="classug_1_1support_1_1_segment_sides.html#a78fd9785e16e5dd143c2582b251c2254">ug::support::SegmentSides&lt; FULLDIM_ELEM, MANIFELM, LOWDIMELM, INDEX_TXP, VECTOR_TYP, VRTXTYP &gt;::determineListLowdimElms()</a>, <a class="el" href="classug_1_1support_1_1_segment_sides.html#a370cf63c2e0caef746aa09a6f21e78e4">ug::support::SegmentSides&lt; FULLDIM_ELEM, MANIFELM, LOWDIMELM, INDEX_TXP, VECTOR_TYP, VRTXTYP &gt;::extractLowDimElemsForSpecificSudo()</a>, and <a class="el" href="classug_1_1support_1_1_segment_sides.html#a4dcab2f955633a49a8cb09386e3788da">ug::support::SegmentSides&lt; FULLDIM_ELEM, MANIFELM, LOWDIMELM, INDEX_TXP, VECTOR_TYP, VRTXTYP &gt;::schluckFulldimElem()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="namespaceug_1_1support.html">support</a></li>
-    <li class="footer">Generated on Mon Sep 1 2025 01:30:11 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Sep 8 2025 01:20:54 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>
