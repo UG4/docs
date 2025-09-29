@@ -10,7 +10,7 @@ var searchData=
   ['octahedron_5frules_2ecpp_7',['octahedron_rules.cpp',['../../octahedron__rules_8cpp.html',1,'']]],
   ['octahedron_5frules_2eh_8',['octahedron_rules.h',['../../octahedron__rules_8h.html',1,'']]],
   ['octree_2ecpp_9',['octree.cpp',['../../octree_8cpp.html',1,'']]],
-  ['octree_2eh_10',['octree.h',['../../common_2node__tree_2octree_8h.html',1,'(Global Namespace)'],['../../lib__grid_2algorithms_2trees_2octree_8h.html',1,'(Global Namespace)']]],
+  ['octree_2eh_10',['octree.h',['../../lib__grid_2algorithms_2trees_2octree_8h.html',1,'(Global Namespace)'],['../../common_2node__tree_2octree_8h.html',1,'(Global Namespace)']]],
   ['octree_5fimpl_2ehpp_11',['octree_impl.hpp',['../../octree__impl_8hpp.html',1,'']]],
   ['old_5fgraph_2eh_12',['old_graph.h',['../../old__graph_8h.html',1,'']]],
   ['ootools_2elua_13',['ootools.lua',['../ootools_8lua.html',1,'']]],

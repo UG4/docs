@@ -1295,6 +1295,8 @@ var namespaceug =
     [ "ScalarSubVectorAdapter", "classug_1_1_scalar_sub_vector_adapter.html", "classug_1_1_scalar_sub_vector_adapter" ],
     [ "ScalarUpperObstacle", "classug_1_1_scalar_upper_obstacle.html", "classug_1_1_scalar_upper_obstacle" ],
     [ "ScaleAddLinker", "classug_1_1_scale_add_linker.html", "classug_1_1_scale_add_linker" ],
+    [ "ScaledFluxData", "classug_1_1_scaled_flux_data.html", "classug_1_1_scaled_flux_data" ],
+    [ "ScaledOutNormCmp", "classug_1_1_scaled_out_norm_cmp.html", "classug_1_1_scaled_out_norm_cmp" ],
     [ "SCCOrdering", "classug_1_1_s_c_c_ordering.html", "classug_1_1_s_c_c_ordering" ],
     [ "SchurComplementMatrixOperator", "classug_1_1_schur_complement_matrix_operator.html", "classug_1_1_schur_complement_matrix_operator" ],
     [ "SchurComplementOperator", "classug_1_1_schur_complement_operator.html", "classug_1_1_schur_complement_operator" ],

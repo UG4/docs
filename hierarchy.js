@@ -3509,11 +3509,17 @@ var hierarchy =
       [ "ug::UserData< MathVector< TDomain::dim >, TDomain::dim, void >", "classug_1_1_user_data.html", [
         [ "ug::StdUserData< OutNormCmp< TDomain >, MathVector< TDomain::dim >, TDomain::dim, void, UserData< MathVector< TDomain::dim >, TDomain::dim, void > >", "classug_1_1_std_user_data.html", [
           [ "ug::OutNormCmp< TDomain >", "classug_1_1_out_norm_cmp.html", null ]
+        ] ],
+        [ "ug::StdUserData< ScaledOutNormCmp< TDomain >, MathVector< TDomain::dim >, TDomain::dim, void, UserData< MathVector< TDomain::dim >, TDomain::dim, void > >", "classug_1_1_std_user_data.html", [
+          [ "ug::ScaledOutNormCmp< TDomain >", "classug_1_1_scaled_out_norm_cmp.html", null ]
         ] ]
       ] ],
       [ "ug::UserData< number, dim, bool >", "classug_1_1_user_data.html", null ],
       [ "ug::UserData< MathVector< 2 >, dim, void >", "classug_1_1_user_data.html", null ],
       [ "ug::UserData< number, TDomain::dim, void >", "classug_1_1_user_data.html", [
+        [ "ug::StdUserData< ScaledFluxData< TDomain >, number, TDomain::dim, void, UserData< number, TDomain::dim, void > >", "classug_1_1_std_user_data.html", [
+          [ "ug::ScaledFluxData< TDomain >", "classug_1_1_scaled_flux_data.html", null ]
+        ] ],
         [ "ug::StdUserData< SubsetIndicatorUserData< TDomain >, number, TDomain::dim, void, UserData< number, TDomain::dim, void > >", "classug_1_1_std_user_data.html", [
           [ "ug::SubsetIndicatorUserData< TDomain >", "classug_1_1_subset_indicator_user_data.html", null ]
         ] ],

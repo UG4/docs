@@ -259,7 +259,8 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename TDomain&gt;<br />
 class ug::OutNormCmp&lt; TDomain &gt;</div><p>Projection to the outer normal for a given vector user data. </p>
-<p>This class implements the <a class="el" href="classug_1_1_user_data.html" title="Type based UserData.">UserData</a> for evaluation of the normal component of vectors computed by the other user data object. The normal component is evaluation only for WDim-1-dimensional subsets - sides of WDim-dimensional elements. </p>
+<p>This class implements the <a class="el" href="classug_1_1_user_data.html" title="Type based UserData.">UserData</a> for evaluation of the normal component of vectors computed by the other user data object. The normal component is evaluation only for WDim-1-dimensional subsets - sides of WDim-dimensional elements.</p>
+<p>ToDo: Note that the <a class="el" href="classug_1_1_local_vector.html">LocalVector</a> provided for the evaluate function is not properly used. Thus, the passed <a class="el" href="classug_1_1_user_data.html" title="Type based UserData.">UserData</a> objects should not use it. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a6e2e6821a19a480d4fed555ec0e459ae" name="a6e2e6821a19a480d4fed555ec0e459ae"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6e2e6821a19a480d4fed555ec0e459ae">&#9670;&#160;</a></span>domain_type</h2>
@@ -836,7 +837,7 @@ template&lt;typename TDomain &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_out_norm_cmp.html">OutNormCmp</a></li>
-    <li class="footer">Generated on Mon Sep 22 2025 01:22:30 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Sep 29 2025 01:21:34 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>
