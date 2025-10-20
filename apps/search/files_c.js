@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['main_2ecpp_0',['main.cpp',['../../ug__shell_2main_8cpp.html',1,'(Global Namespace)'],['../../bindings_2lua_2compiler_2main_8cpp.html',1,'(Global Namespace)']]],
+  ['main_2ecpp_0',['main.cpp',['../../bindings_2lua_2compiler_2main_8cpp.html',1,'(Global Namespace)'],['../../ug__shell_2main_8cpp.html',1,'(Global Namespace)']]],
   ['main_2elua_1',['main.lua',['../main_8lua.html',1,'']]],
   ['mainoptimizer_2elua_2',['MainOptimizer.lua',['../../../plugins/_main_optimizer_8lua.html',1,'']]],
   ['mandel_2elua_3',['mandel.lua',['../mandel_8lua.html',1,'']]],
@@ -90,7 +90,7 @@ var searchData=
   ['mg_5fstats_5fimpl_2ehpp_87',['mg_stats_impl.hpp',['../../mg__stats__impl_8hpp.html',1,'']]],
   ['mini_2ecpp_88',['mini.cpp',['../../mini_8cpp.html',1,'']]],
   ['mini_2eh_89',['mini.h',['../../mini_8h.html',1,'']]],
-  ['misc_5fbridge_2ecpp_90',['misc_bridge.cpp',['../../grid__bridges_2misc__bridge_8cpp.html',1,'(Global Namespace)'],['../../misc__bridges_2misc__bridge_8cpp.html',1,'(Global Namespace)']]],
+  ['misc_5fbridge_2ecpp_90',['misc_bridge.cpp',['../../misc__bridges_2misc__bridge_8cpp.html',1,'(Global Namespace)'],['../../grid__bridges_2misc__bridge_8cpp.html',1,'(Global Namespace)']]],
   ['misc_5fbridge_2edoxygen_91',['misc_bridge.doxygen',['../../misc__bridge_8doxygen.html',1,'']]],
   ['misc_5futil_2ecpp_92',['misc_util.cpp',['../../misc__util_8cpp.html',1,'']]],
   ['misc_5futil_2eh_93',['misc_util.h',['../../misc__util_8h.html',1,'']]],
