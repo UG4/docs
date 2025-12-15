@@ -1786,7 +1786,7 @@ var searchData=
   ['m_5fstreambuf_1783',['m_streambuf',['../../classug_1_1_binary_stream.html#aecb833c9d10cbc46ff14b0c237481299',1,'ug::BinaryStream::m_streamBuf'],['../../classug_1_1_empty_o_stream.html#ad574e9c6b53e98bc0d0e6ccdd718da1b',1,'ug::EmptyOStream::m_streamBuf']]],
   ['m_5fstressev_1784',['m_stressEV',['../../../plugins/classug_1_1_small_strain_mechanics_1_1_mech_output_writer.html#a3ad2ba1cdac20c038c27a2eee424de43',1,'ug::SmallStrainMechanics::MechOutputWriter']]],
   ['m_5fstrictinheritanceenabled_1785',['m_strictInheritanceEnabled',['../../classug_1_1_bool_marker.html#aa65cf0b358a36f6fb311aae5999a38bf',1,'ug::BoolMarker']]],
-  ['m_5fstrictrelativeerror_1786',['m_strictRelativeError',['../../../plugins/classug_1_1_composite_grid_function_estimator.html#a01f796cf4c75677652dda48dcb9ee2d4',1,'ug::CompositeGridFunctionEstimator']]],
+  ['m_5fstrictrelativeerror_1786',['m_strictRelativeError',['../../../plugins/classug_1_1_composite_grid_function_estimator.html#afffe49a4d43f9cc32f74560c20701807',1,'ug::CompositeGridFunctionEstimator']]],
   ['m_5fstride_1787',['m_stride',['../../../plugins/classug_1_1_norm2_estimator.html#a293f03ba695593e8a9c2adf6f9815edc',1,'ug::Norm2Estimator::m_stride'],['../../../plugins/classug_1_1_norm_inf_estimator.html#a612ebaa128814683050f1888bcf02c83',1,'ug::NormInfEstimator::m_stride']]],
   ['m_5fstrmaterialname_1788',['m_strMaterialName',['../../classug_1_1_loader_obj_1_1_object.html#a795c4b172dbd39b04e798965b2563409',1,'ug::LoaderObj::Object']]],
   ['m_5fstrmsg_1789',['m_strMsg',['../../classug_1_1bridge_1_1_test_message.html#a049549c4a6408fe2192d98215d5c0a1e',1,'ug::bridge::TestMessage']]],
