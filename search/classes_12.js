@@ -44,7 +44,7 @@ var searchData=
   ['sectioncontainerselector_3c_20face_20_3e_41',['SectionContainerSelector&lt; Face &gt;',['../structug_1_1_section_container_selector_3_01_face_01_4.html',1,'ug']]],
   ['sectioncontainerselector_3c_20vertex_20_3e_42',['SectionContainerSelector&lt; Vertex &gt;',['../structug_1_1_section_container_selector_3_01_vertex_01_4.html',1,'ug']]],
   ['sectioncontainerselector_3c_20volume_20_3e_43',['SectionContainerSelector&lt; Volume &gt;',['../structug_1_1_section_container_selector_3_01_volume_01_4.html',1,'ug']]],
-  ['segmentsides_44',['SegmentSides',['../classug_1_1support_1_1_segment_sides.html',1,'ug::support']]],
+  ['segmentsides_44',['SegmentSides',['../classug_1_1arte_1_1support_1_1_segment_sides.html',1,'ug::arte::support']]],
   ['selectioncommpol_45',['SelectionCommPol',['../classpcl_1_1_selection_comm_pol.html',1,'pcl']]],
   ['selector_46',['Selector',['../classug_1_1_selector.html',1,'ug']]],
   ['selectorentry_47',['SelectorEntry',['../structug_1_1_grid_reader_u_g_x_1_1_selector_entry.html',1,'ug::GridReaderUGX']]],

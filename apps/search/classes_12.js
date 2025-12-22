@@ -35,7 +35,7 @@ var searchData=
   ['sectioncontainerselector_3c_20face_20_3e_32',['SectionContainerSelector&lt; Face &gt;',['../../structug_1_1_section_container_selector_3_01_face_01_4.html',1,'ug']]],
   ['sectioncontainerselector_3c_20vertex_20_3e_33',['SectionContainerSelector&lt; Vertex &gt;',['../../structug_1_1_section_container_selector_3_01_vertex_01_4.html',1,'ug']]],
   ['sectioncontainerselector_3c_20volume_20_3e_34',['SectionContainerSelector&lt; Volume &gt;',['../../structug_1_1_section_container_selector_3_01_volume_01_4.html',1,'ug']]],
-  ['segmentsides_35',['SegmentSides',['../../classug_1_1support_1_1_segment_sides.html',1,'ug::support']]],
+  ['segmentsides_35',['SegmentSides',['../../classug_1_1arte_1_1support_1_1_segment_sides.html',1,'ug::arte::support']]],
   ['selectioncommpol_36',['SelectionCommPol',['../../classpcl_1_1_selection_comm_pol.html',1,'pcl']]],
   ['selector_37',['Selector',['../../classug_1_1_selector.html',1,'ug']]],
   ['selectorentry_38',['SelectorEntry',['../../structug_1_1_grid_reader_u_g_x_1_1_selector_entry.html',1,'ug::GridReaderUGX']]],

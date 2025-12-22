@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['manifolddescriptor_0',['ManifoldDescriptor',['../../classug_1_1support_1_1_manifold_descriptor.html',1,'ug::support']]],
+  ['manifolddescriptor_0',['ManifoldDescriptor',['../../classug_1_1arte_1_1support_1_1_manifold_descriptor.html',1,'ug::arte::support']]],
   ['map_5ftype_1',['map_type',['../../classug_1_1_undirected_matrix_1_1map__type.html',1,'ug::UndirectedMatrix']]],
   ['mapping_2',['Mapping',['../../structug_1_1_neurite_projector_1_1_mapping.html',1,'ug::NeuriteProjector']]],
   ['mapsparsematrix_3',['MapSparseMatrix',['../../classug_1_1_map_sparse_matrix.html',1,'ug']]],
@@ -61,7 +61,7 @@ var searchData=
   ['matrixoperator_58',['MatrixOperator',['../../classug_1_1_matrix_operator.html',1,'ug']]],
   ['matrixoperator_3c_20talgebra_3a_3amatrix_5ftype_2c_20talgebra_3a_3avector_5ftype_20_3e_59',['MatrixOperator&lt; TAlgebra::matrix_type, TAlgebra::vector_type &gt;',['../../classug_1_1_matrix_operator.html',1,'ug']]],
   ['matrixrow_60',['MatrixRow',['../../classug_1_1_matrix_row.html',1,'ug']]],
-  ['matrixtwoindices_61',['MatrixTwoIndices',['../../classug_1_1_matrix_two_indices.html',1,'ug']]],
+  ['matrixtwoindices_61',['MatrixTwoIndices',['../../classug_1_1arte_1_1_matrix_two_indices.html',1,'ug::arte']]],
   ['matvec_5fexpression_62',['MatVec_Expression',['../../classug_1_1_mat_vec___expression.html',1,'ug']]],
   ['maxheap_63',['maxheap',['../../classug_1_1maxheap.html',1,'ug']]],
   ['maximumdistintegrand_64',['MaximumDistIntegrand',['../../classug_1_1_maximum_dist_integrand.html',1,'ug']]],

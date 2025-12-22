@@ -83,6 +83,36 @@ var annotated_dup =
       [ "StlMesh", "classstl__reader_1_1_stl_mesh.html", "classstl__reader_1_1_stl_mesh" ]
     ] ],
     [ "ug", "namespaceug.html", [
+      [ "arte", "namespaceug_1_1arte.html", [
+        [ "diamonds", "namespaceug_1_1arte_1_1diamonds.html", [
+          [ "CombiCenterVrtxSudo", "classug_1_1arte_1_1diamonds_1_1_combi_center_vrtx_sudo.html", "classug_1_1arte_1_1diamonds_1_1_combi_center_vrtx_sudo" ],
+          [ "CombiEntitiesProperties", "classug_1_1arte_1_1diamonds_1_1_combi_entities_properties.html", "classug_1_1arte_1_1diamonds_1_1_combi_entities_properties" ],
+          [ "CombiPairSingle", "classug_1_1arte_1_1diamonds_1_1_combi_pair_single.html", "classug_1_1arte_1_1diamonds_1_1_combi_pair_single" ],
+          [ "DiamondsEstablish3D", "classug_1_1arte_1_1diamonds_1_1_diamonds_establish3_d.html", "classug_1_1arte_1_1diamonds_1_1_diamonds_establish3_d" ],
+          [ "ElemGroupVrtxToBeQuenched4DiamSpace", "classug_1_1arte_1_1diamonds_1_1_elem_group_vrtx_to_be_quenched4_diam_space.html", "classug_1_1arte_1_1diamonds_1_1_elem_group_vrtx_to_be_quenched4_diam_space" ],
+          [ "ElemsToBeQuenched4DiamSpace", "classug_1_1arte_1_1diamonds_1_1_elems_to_be_quenched4_diam_space.html", "classug_1_1arte_1_1diamonds_1_1_elems_to_be_quenched4_diam_space" ],
+          [ "FulldimLowdimTwin", "classug_1_1arte_1_1diamonds_1_1_fulldim_lowdim_twin.html", "classug_1_1arte_1_1diamonds_1_1_fulldim_lowdim_twin" ],
+          [ "FullLowDimManifQuintuplet", "classug_1_1arte_1_1diamonds_1_1_full_low_dim_manif_quintuplet.html", "classug_1_1arte_1_1diamonds_1_1_full_low_dim_manif_quintuplet" ],
+          [ "VolManifVrtxCombi", "classug_1_1arte_1_1diamonds_1_1_vol_manif_vrtx_combi.html", "classug_1_1arte_1_1diamonds_1_1_vol_manif_vrtx_combi" ]
+        ] ],
+        [ "support", "namespaceug_1_1arte_1_1support.html", [
+          [ "AttachedBoundryElem", "classug_1_1arte_1_1support_1_1_attached_boundry_elem.html", "classug_1_1arte_1_1support_1_1_attached_boundry_elem" ],
+          [ "AttachedFractElem", "classug_1_1arte_1_1support_1_1_attached_fract_elem.html", "classug_1_1arte_1_1support_1_1_attached_fract_elem" ],
+          [ "AttachedFullDimElemInfo", "classug_1_1arte_1_1support_1_1_attached_full_dim_elem_info.html", "classug_1_1arte_1_1support_1_1_attached_full_dim_elem_info" ],
+          [ "AttachedGeneralElem", "classug_1_1arte_1_1support_1_1_attached_general_elem.html", "classug_1_1arte_1_1support_1_1_attached_general_elem" ],
+          [ "CrossingVertexInfoVol", "classug_1_1arte_1_1support_1_1_crossing_vertex_info_vol.html", "classug_1_1arte_1_1support_1_1_crossing_vertex_info_vol" ],
+          [ "EndingCrossingFractSegmentInfo", "classug_1_1arte_1_1support_1_1_ending_crossing_fract_segment_info.html", "classug_1_1arte_1_1support_1_1_ending_crossing_fract_segment_info" ],
+          [ "ManifoldDescriptor", "classug_1_1arte_1_1support_1_1_manifold_descriptor.html", "classug_1_1arte_1_1support_1_1_manifold_descriptor" ],
+          [ "SegmentSides", "classug_1_1arte_1_1support_1_1_segment_sides.html", "classug_1_1arte_1_1support_1_1_segment_sides" ],
+          [ "VertexFracturePropertiesVol", "classug_1_1arte_1_1support_1_1_vertex_fracture_properties_vol.html", "classug_1_1arte_1_1support_1_1_vertex_fracture_properties_vol" ]
+        ] ],
+        [ "ArteExpandFracs3D", "classug_1_1arte_1_1_arte_expand_fracs3_d.html", "classug_1_1arte_1_1_arte_expand_fracs3_d" ],
+        [ "CrossingVertexInfo", "classug_1_1arte_1_1_crossing_vertex_info.html", "classug_1_1arte_1_1_crossing_vertex_info" ],
+        [ "MatrixTwoIndices", "classug_1_1arte_1_1_matrix_two_indices.html", "classug_1_1arte_1_1_matrix_two_indices" ],
+        [ "T_min", "classug_1_1arte_1_1_t__min.html", "classug_1_1arte_1_1_t__min" ],
+        [ "VertexFractureProperties", "classug_1_1arte_1_1_vertex_fracture_properties.html", "classug_1_1arte_1_1_vertex_fracture_properties" ],
+        [ "VertexFractureTriple", "classug_1_1arte_1_1_vertex_fracture_triple.html", "classug_1_1arte_1_1_vertex_fracture_triple" ]
+      ] ],
       [ "bridge", null, [
         [ "AdaptiveTools", "namespaceug_1_1bridge_1_1_adaptive_tools.html", [
           [ "Functionality", "structug_1_1bridge_1_1_adaptive_tools_1_1_functionality.html", "structug_1_1bridge_1_1_adaptive_tools_1_1_functionality" ]
@@ -358,17 +388,6 @@ var annotated_dup =
       [ "script", "namespaceug_1_1script.html", [
         [ "LuaError", "classug_1_1script_1_1_lua_error.html", "classug_1_1script_1_1_lua_error" ]
       ] ],
-      [ "support", "namespaceug_1_1support.html", [
-        [ "AttachedBoundryElem", "classug_1_1support_1_1_attached_boundry_elem.html", "classug_1_1support_1_1_attached_boundry_elem" ],
-        [ "AttachedFractElem", "classug_1_1support_1_1_attached_fract_elem.html", "classug_1_1support_1_1_attached_fract_elem" ],
-        [ "AttachedFullDimElemInfo", "classug_1_1support_1_1_attached_full_dim_elem_info.html", "classug_1_1support_1_1_attached_full_dim_elem_info" ],
-        [ "AttachedGeneralElem", "classug_1_1support_1_1_attached_general_elem.html", "classug_1_1support_1_1_attached_general_elem" ],
-        [ "CrossingVertexInfoVol", "classug_1_1support_1_1_crossing_vertex_info_vol.html", "classug_1_1support_1_1_crossing_vertex_info_vol" ],
-        [ "EndingCrossingFractSegmentInfo", "classug_1_1support_1_1_ending_crossing_fract_segment_info.html", "classug_1_1support_1_1_ending_crossing_fract_segment_info" ],
-        [ "ManifoldDescriptor", "classug_1_1support_1_1_manifold_descriptor.html", "classug_1_1support_1_1_manifold_descriptor" ],
-        [ "SegmentSides", "classug_1_1support_1_1_segment_sides.html", "classug_1_1support_1_1_segment_sides" ],
-        [ "VertexFracturePropertiesVol", "classug_1_1support_1_1_vertex_fracture_properties_vol.html", "classug_1_1support_1_1_vertex_fracture_properties_vol" ]
-      ] ],
       [ "swc_types", "namespaceug_1_1swc__types.html", [
         [ "SWCPoint", "structug_1_1swc__types_1_1_s_w_c_point.html", "structug_1_1swc__types_1_1_s_w_c_point" ]
       ] ],
@@ -421,7 +440,6 @@ var annotated_dup =
       [ "ApproximationSpace", "classug_1_1_approximation_space.html", "classug_1_1_approximation_space" ],
       [ "Archivar", "classug_1_1_archivar.html", "classug_1_1_archivar" ],
       [ "ArchiveInfo", "structug_1_1_archive_info.html", "structug_1_1_archive_info" ],
-      [ "ArteExpandFracs3D", "classug_1_1_arte_expand_fracs3_d.html", "classug_1_1_arte_expand_fracs3_d" ],
       [ "AspectRatioInfo", "structug_1_1_aspect_ratio_info.html", "structug_1_1_aspect_ratio_info" ],
       [ "AssembledLinearOperator", "classug_1_1_assembled_linear_operator.html", "classug_1_1_assembled_linear_operator" ],
       [ "AssembledMultiGridCycle", "classug_1_1_assembled_multi_grid_cycle.html", "classug_1_1_assembled_multi_grid_cycle" ],
@@ -619,7 +637,6 @@ var annotated_dup =
       [ "crfv_traits< 3, 3 >", "structug_1_1crfv__traits_3_013_00_013_01_4.html", "structug_1_1crfv__traits_3_013_00_013_01_4" ],
       [ "crfv_traits< 3, 4 >", "structug_1_1crfv__traits_3_013_00_014_01_4.html", "structug_1_1crfv__traits_3_013_00_014_01_4" ],
       [ "CRFVGeometry", "classug_1_1_c_r_f_v_geometry.html", "classug_1_1_c_r_f_v_geometry" ],
-      [ "CrossingVertexInfo", "classug_1_1_crossing_vertex_info.html", "classug_1_1_crossing_vertex_info" ],
       [ "CrouzeixRaviartBase", "classug_1_1_crouzeix_raviart_base.html", "classug_1_1_crouzeix_raviart_base" ],
       [ "CrouzeixRaviartElemTransfer", "classug_1_1_crouzeix_raviart_elem_transfer.html", "classug_1_1_crouzeix_raviart_elem_transfer" ],
       [ "CrouzeixRaviartLSFS", "classug_1_1_crouzeix_raviart_l_s_f_s.html", null ],
@@ -1292,7 +1309,6 @@ var annotated_dup =
       [ "MatrixIOMtx", "classug_1_1_matrix_i_o_mtx.html", "classug_1_1_matrix_i_o_mtx" ],
       [ "MatrixOperator", "classug_1_1_matrix_operator.html", "classug_1_1_matrix_operator" ],
       [ "MatrixRow", "classug_1_1_matrix_row.html", "classug_1_1_matrix_row" ],
-      [ "MatrixTwoIndices", "classug_1_1_matrix_two_indices.html", "classug_1_1_matrix_two_indices" ],
       [ "MatVec_Expression", "classug_1_1_mat_vec___expression.html", "classug_1_1_mat_vec___expression" ],
       [ "maxheap", "classug_1_1maxheap.html", "classug_1_1maxheap" ],
       [ "MaximumDistIntegrand", "classug_1_1_maximum_dist_integrand.html", "classug_1_1_maximum_dist_integrand" ],
@@ -1587,7 +1603,6 @@ var annotated_dup =
       [ "SweepLineVertex", "structug_1_1_sweep_line_vertex.html", "structug_1_1_sweep_line_vertex" ],
       [ "SymmetricGaussSeidel", "classug_1_1_symmetric_gauss_seidel.html", "classug_1_1_symmetric_gauss_seidel" ],
       [ "SymP1Constraints", "classug_1_1_sym_p1_constraints.html", "classug_1_1_sym_p1_constraints" ],
-      [ "T_min", "classug_1_1_t__min.html", "classug_1_1_t__min" ],
       [ "Table", "classug_1_1_table.html", "classug_1_1_table" ],
       [ "TargetProcInfo", "structug_1_1_target_proc_info.html", "structug_1_1_target_proc_info" ],
       [ "TarHeader", "structug_1_1_tar_header.html", "structug_1_1_tar_header" ],
@@ -1676,8 +1691,6 @@ var annotated_dup =
       [ "VertexBasedSubspace", "classug_1_1_vertex_based_subspace.html", "classug_1_1_vertex_based_subspace" ],
       [ "VertexCenteredVankaSubspace", "classug_1_1_vertex_centered_vanka_subspace.html", "classug_1_1_vertex_centered_vanka_subspace" ],
       [ "VertexDescriptor", "classug_1_1_vertex_descriptor.html", "classug_1_1_vertex_descriptor" ],
-      [ "VertexFractureProperties", "classug_1_1_vertex_fracture_properties.html", "classug_1_1_vertex_fracture_properties" ],
-      [ "VertexFractureTriple", "classug_1_1_vertex_fracture_triple.html", "classug_1_1_vertex_fracture_triple" ],
       [ "VMAdd", "classug_1_1_v_m_add.html", "classug_1_1_v_m_add" ],
       [ "Volume", "classug_1_1_volume.html", "classug_1_1_volume" ],
       [ "VolumeDescriptor", "classug_1_1_volume_descriptor.html", "classug_1_1_volume_descriptor" ],

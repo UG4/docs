@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['xcross_0',['xcross',['../classug_1_1_crossing_vertex_info.html#a996a011e828e6df5fd5797ec3be2ece1a240277f98a8cdc488154ba4922a4eafa',1,'ug::CrossingVertexInfo::XCross'],['../namespaceug_1_1support.html#a84a74201593567ee9981dfedf1ca15d4a40ef831c51ef73c190f6beb1db139c83',1,'ug::support::XCross']]]
+  ['xcross_0',['xcross',['../classug_1_1arte_1_1_crossing_vertex_info.html#a777b22d2df220148aeea5022e2186330a13ebe2a41000684452dce2a72c9574d1',1,'ug::arte::CrossingVertexInfo::XCross'],['../namespaceug_1_1arte_1_1support.html#abda00b16896d2b272ba69b621d985deaafdd84123e5935e98cd2357fc9762c036',1,'ug::arte::support::XCross']]]
 ];

@@ -16,8 +16,8 @@ var searchData=
   ['is_5funassigned_13',['IS_UNASSIGNED',['../namespaceug.html#a5e5bbb984fa69d71c847b774f1bc6f99aab4243def6d67a510d539338b1feceb7',1,'ug']]],
   ['is_5fvmaster_14',['IS_VMASTER',['../namespaceug.html#a5e5bbb984fa69d71c847b774f1bc6f99a0639563c239c9b1a88df68e433b40a9d',1,'ug']]],
   ['is_5fvslave_15',['IS_VSLAVE',['../namespaceug.html#a5e5bbb984fa69d71c847b774f1bc6f99a8835d13ede455302984544494c7eec39',1,'ug']]],
-  ['isartificial_16',['isArtificial',['../classug_1_1support_1_1_manifold_descriptor.html#ab4fed97b2011ab0505705f7eb4189713a66384bcdf56f6dbf1bcc789421e0cb51',1,'ug::support::ManifoldDescriptor']]],
-  ['isboundary_17',['isBoundary',['../classug_1_1support_1_1_manifold_descriptor.html#ab4fed97b2011ab0505705f7eb4189713a452d1845468433d6a0c22bc7e996bda5',1,'ug::support::ManifoldDescriptor']]],
-  ['isfracture_18',['isFracture',['../classug_1_1support_1_1_manifold_descriptor.html#ab4fed97b2011ab0505705f7eb4189713ada2833b99bb345eb1fdd5a2d023e4204',1,'ug::support::ManifoldDescriptor']]],
+  ['isartificial_16',['isArtificial',['../classug_1_1arte_1_1support_1_1_manifold_descriptor.html#a8530b8c86671ee3fdc4bf949786d4d06a998ace9e1b84f194d562ceb05a7a719d',1,'ug::arte::support::ManifoldDescriptor']]],
+  ['isboundary_17',['isBoundary',['../classug_1_1arte_1_1support_1_1_manifold_descriptor.html#a8530b8c86671ee3fdc4bf949786d4d06a0998368f222083d7cf85d2ff203ab4b1',1,'ug::arte::support::ManifoldDescriptor']]],
+  ['isfracture_18',['isFracture',['../classug_1_1arte_1_1support_1_1_manifold_descriptor.html#a8530b8c86671ee3fdc4bf949786d4d06aacee44ff0627ffec3675f46e9bf1d6ad',1,'ug::arte::support::ManifoldDescriptor']]],
   ['isotropic_19',['ISOTROPIC',['../namespaceug.html#aa0d1867c434446dca9a9361103722df4ad5a71663e21a272df815a177123791b3',1,'ug']]]
 ];

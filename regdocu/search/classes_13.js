@@ -1,7 +1,7 @@
 var searchData=
 [
   ['t_5ffract_5felem_0',['t_fract_elem',['../../plugins/structug_1_1_convection_diffusion_plugin_1_1line__sss__marker_1_1t__fract__elem.html',1,'ug::ConvectionDiffusionPlugin::line_sss_marker']]],
-  ['t_5fmin_1',['T_min',['../../classug_1_1_t__min.html',1,'ug']]],
+  ['t_5fmin_1',['T_min',['../../classug_1_1arte_1_1_t__min.html',1,'ug::arte']]],
   ['t_5fred_5fop_5fand_2',['t_red_op_and',['../../plugins/structug_1_1_electromagnetism_1_1_time_harmonic_nedelec_hybrid_smoother_1_1t__red__op__and.html',1,'ug::Electromagnetism::TimeHarmonicNedelecHybridSmoother']]],
   ['t_5fred_5fop_5for_3',['t_red_op_or',['../../plugins/structug_1_1_electromagnetism_1_1_time_harmonic_nedelec_hybrid_smoother_1_1t__red__op__or.html',1,'ug::Electromagnetism::TimeHarmonicNedelecHybridSmoother']]],
   ['table_4',['Table',['../../classug_1_1_table.html',1,'ug']]],

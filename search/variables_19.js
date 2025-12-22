@@ -2,7 +2,7 @@ var searchData=
 [
   ['y_0',['y',['../classug_1_1_fixed_array1_3_01_t_00_013_01_4.html#ad5c648a01271c7c3be55cf2c38fbfc6c',1,'ug::FixedArray1&lt; T, 3 &gt;::y'],['../classug_1_1_fixed_array1_3_01_t_00_014_01_4.html#a1f8e97b3ae99746be7f7c6ada77140bd',1,'ug::FixedArray1&lt; T, 4 &gt;::y'],['../structug_1_1fieldutil_1_1_cell.html#a6075124e5ee15547b106f82dd3a9a57f',1,'ug::fieldutil::Cell::y'],['../structug_1_1xy.html#acc68b56ed210582b04108fa36832a5ee',1,'ug::xy::y'],['../structug_1_1xyz.html#a74a32b3504bcec7be9fa0109cbba0c8c',1,'ug::xyz::y'],['../classug_1_1_fixed_array1_3_01_t_00_012_01_4.html#ab106ca3c2e0e73b714dc82fd8ad06d1c',1,'ug::FixedArray1&lt; T, 2 &gt;::y']]],
   ['y0_1',['Y0',['../../plugins/classug_1_1_poroelasticity_1_1_barry_mercer_nondimensional.html#a8783c433716e5294eeb4ccda603aed19',1,'ug::Poroelasticity::BarryMercerNondimensional']]],
-  ['y_5fdegree_2',['y_degree',['../classug_1_1_matrix_two_indices.html#ac712eec86e40ee538896069cfe4e0ab0',1,'ug::MatrixTwoIndices']]],
+  ['y_5fdegree_2',['y_degree',['../classug_1_1arte_1_1_matrix_two_indices.html#a0f4f98e72c9d111569535e738e976cd8',1,'ug::arte::MatrixTwoIndices']]],
   ['yy_5faccept_3',['yy_accept',['../lexer_8cpp.html#aa44f2920e354fb36eb2fb293a1f45585',1,'lexer.cpp']]],
   ['yy_5fact_4',['yy_act',['../lexer_8cpp.html#a483da4c691e92dcb79c40a3514759b6b',1,'lexer.cpp']]],
   ['yy_5fat_5fbol_5',['yy_at_bol',['../structyy__buffer__state.html#a9d60c60af6e1a6f69de16871fd64f85f',1,'yy_buffer_state']]],

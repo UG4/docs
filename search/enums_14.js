@@ -6,6 +6,6 @@ var searchData=
   ['vminstruction_3',['VMInstruction',['../classug_1_1_v_m_add.html#a4cc874f6c10e7fa011f70188a803251d',1,'ug::VMAdd']]],
   ['volumecontainersections_4',['VolumeContainerSections',['../namespaceug.html#a22b7968947d8f885ad67514b318afc85',1,'ug']]],
   ['volumeoptions_5',['VolumeOptions',['../group__lib__grid.html#ga1f929733097f2c587b05fa7c1f1f6502',1,'ug']]],
-  ['vrtxfracstatus_6',['vrtxfracstatus',['../classug_1_1support_1_1_vertex_fracture_properties_vol.html#ac0909b84565365f9610886abf61f8407',1,'ug::support::VertexFracturePropertiesVol::VrtxFracStatus'],['../classug_1_1support_1_1_segment_sides.html#afaf328d4f26420579347ec8d23da414b',1,'ug::support::SegmentSides::VrtxFracStatus']]],
+  ['vrtxfracstatus_6',['vrtxfracstatus',['../classug_1_1arte_1_1support_1_1_vertex_fracture_properties_vol.html#a627ccd608a18ce5baa9c81e936f850aa',1,'ug::arte::support::VertexFracturePropertiesVol::VrtxFracStatus'],['../classug_1_1arte_1_1support_1_1_segment_sides.html#aaf20670c4187440ee7d7c926b2d7f44b',1,'ug::arte::support::SegmentSides::VrtxFracStatus']]],
   ['vtkcelltypes_7',['VTKCellTypes',['../namespaceug.html#a68986c34c2aeaec25c7e41989308c009',1,'ug']]]
 ];
