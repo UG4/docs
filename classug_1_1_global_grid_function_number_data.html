@@ -155,13 +155,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a844f5ca654f9c361c0ab2040579690ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">to full-fill UserData-Interface  <br /></td></tr>
 <tr class="separator:a844f5ca654f9c361c0ab2040579690ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfa84d42781ae57b63a2468bb6ae9538" id="r_abfa84d42781ae57b63a2468bb6ae9538"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_global_grid_function_number_data.html#abfa84d42781ae57b63a2468bb6ae9538">evaluate_global</a> (<a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> &amp;<a class="el" href="classug_1_1_cpl_user_data.html#a843476c5e8535a11e558e8bad4ca2cc6">value</a>, const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; <a class="el" href="classug_1_1_global_grid_function_number_data.html#a05688bf6ce78af15d8ffa0c7815923f6">dim</a> &gt; &amp;x) const</td></tr>
-<tr class="memdesc:abfa84d42781ae57b63a2468bb6ae9538"><td class="mdescLeft">&#160;</td><td class="mdescRight">evaluate value on all procs  <br /></td></tr>
+<tr class="memdesc:abfa84d42781ae57b63a2468bb6ae9538"><td class="mdescLeft">&#160;</td><td class="mdescRight">evaluate value on all procs, throws when no containing element is found  <br /></td></tr>
 <tr class="separator:abfa84d42781ae57b63a2468bb6ae9538"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ab4e80db531ea340a876383b7773d3e" id="r_a8ab4e80db531ea340a876383b7773d3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_global_grid_function_number_data.html#a8ab4e80db531ea340a876383b7773d3e">evaluate_global</a> (std::vector&lt; <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> &gt; vPos)</td></tr>
 <tr class="separator:a8ab4e80db531ea340a876383b7773d3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab537ca94c96a46c6dceb48864d10f964" id="r_ab537ca94c96a46c6dceb48864d10f964"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_global_grid_function_number_data.html#ab537ca94c96a46c6dceb48864d10f964">GlobalGridFunctionNumberData</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; TGridFunction &gt; spGridFct, const char *cmp)</td></tr>
 <tr class="memdesc:ab537ca94c96a46c6dceb48864d10f964"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor  <br /></td></tr>
 <tr class="separator:ab537ca94c96a46c6dceb48864d10f964"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1855a54073319bc96747bbd226a5b95b" id="r_a1855a54073319bc96747bbd226a5b95b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_global_grid_function_number_data.html#a1855a54073319bc96747bbd226a5b95b">try_evaluate_global</a> (<a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> &amp;<a class="el" href="classug_1_1_cpl_user_data.html#a843476c5e8535a11e558e8bad4ca2cc6">value</a>, const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; <a class="el" href="classug_1_1_global_grid_function_number_data.html#a05688bf6ce78af15d8ffa0c7815923f6">dim</a> &gt; &amp;x) const</td></tr>
+<tr class="separator:a1855a54073319bc96747bbd226a5b95b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c1aed1b4be57de6dafd83422742e503" id="r_a1c1aed1b4be57de6dafd83422742e503"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_global_grid_function_number_data.html#a1c1aed1b4be57de6dafd83422742e503">~GlobalGridFunctionNumberData</a> ()</td></tr>
 <tr class="separator:a1c1aed1b4be57de6dafd83422742e503"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classug_1_1_std_glob_pos_data"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classug_1_1_std_glob_pos_data')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classug_1_1_std_glob_pos_data.html">ug::StdGlobPosData&lt; TImpl, TData, dim, TRet &gt;</a></td></tr>
@@ -760,7 +762,7 @@ template&lt;typename TGridFunction , int elemDim = TGridFunction::dim&gt; </div>
 
 <p class="reference">References <a class="el" href="classug_1_1_global_grid_function_number_data.html#a844f5ca654f9c361c0ab2040579690ef">ug::GlobalGridFunctionNumberData&lt; TGridFunction, elemDim &gt;::evaluate()</a>, <a class="el" href="classug_1_1_global_grid_function_number_data.html#ac70e2fbc8b332275f36c94ba34f27600">ug::GlobalGridFunctionNumberData&lt; TGridFunction, elemDim &gt;::m_fct</a>, <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>, and <a class="el" href="classug_1_1_cpl_user_data.html#a843476c5e8535a11e558e8bad4ca2cc6">ug::CplUserData&lt; TData, dim, TRet &gt;::value()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classug_1_1_global_grid_function_number_data.html#ae29fd0e8878f65e5ad10f94f696f3758">ug::GlobalGridFunctionNumberData&lt; TGridFunction, elemDim &gt;::evaluate()</a>, <a class="el" href="classug_1_1_global_grid_function_number_data.html#a844f5ca654f9c361c0ab2040579690ef">ug::GlobalGridFunctionNumberData&lt; TGridFunction, elemDim &gt;::evaluate()</a>, and <a class="el" href="classug_1_1_global_grid_function_number_data.html#abfa84d42781ae57b63a2468bb6ae9538">ug::GlobalGridFunctionNumberData&lt; TGridFunction, elemDim &gt;::evaluate_global()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classug_1_1_global_grid_function_number_data.html#ae29fd0e8878f65e5ad10f94f696f3758">ug::GlobalGridFunctionNumberData&lt; TGridFunction, elemDim &gt;::evaluate()</a>, <a class="el" href="classug_1_1_global_grid_function_number_data.html#a844f5ca654f9c361c0ab2040579690ef">ug::GlobalGridFunctionNumberData&lt; TGridFunction, elemDim &gt;::evaluate()</a>, and <a class="el" href="classug_1_1_global_grid_function_number_data.html#a1855a54073319bc96747bbd226a5b95b">ug::GlobalGridFunctionNumberData&lt; TGridFunction, elemDim &gt;::try_evaluate_global()</a>.</p>
 
 </div>
 </div>
@@ -800,9 +802,9 @@ template&lt;typename TGridFunction , int elemDim = TGridFunction::dim&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>evaluate value on all procs </p>
+<p>evaluate value on all procs, throws when no containing element is found </p>
 
-<p class="reference">References <a class="el" href="classpcl_1_1_process_communicator.html#a708b02efa2d765daae9fee02b7b60000">pcl::ProcessCommunicator::allreduce()</a>, <a class="el" href="classug_1_1_local_finite_element_provider.html#a235ca8334a9d71b4e43449523cd7fb3f">ug::LocalFiniteElementProvider::continuous()</a>, <a class="el" href="classug_1_1_global_grid_function_number_data.html#a844f5ca654f9c361c0ab2040579690ef">ug::GlobalGridFunctionNumberData&lt; TGridFunction, elemDim &gt;::evaluate()</a>, <a class="el" href="classug_1_1_global_grid_function_number_data.html#afa9d2158a35465188ed5b538e086e8cb">ug::GlobalGridFunctionNumberData&lt; TGridFunction, elemDim &gt;::m_lfeID</a>, <a class="el" href="group__pcl.html#ga7a09a2eab069305ca735847eed023d2f">pcl::NumProcs()</a>, <a class="el" href="group__pcl.html#ga23ba716caa4857afe6a36d2a6065ea8a">PCL_RO_SUM</a>, <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>, and <a class="el" href="classug_1_1_cpl_user_data.html#a843476c5e8535a11e558e8bad4ca2cc6">ug::CplUserData&lt; TData, dim, TRet &gt;::value()</a>.</p>
+<p class="reference">References <a class="el" href="classug_1_1_global_grid_function_number_data.html#a1855a54073319bc96747bbd226a5b95b">ug::GlobalGridFunctionNumberData&lt; TGridFunction, elemDim &gt;::try_evaluate_global()</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classug_1_1_global_grid_function_number_data.html#a8ab4e80db531ea340a876383b7773d3e">ug::GlobalGridFunctionNumberData&lt; TGridFunction, elemDim &gt;::evaluate_global()</a>.</p>
 
@@ -835,6 +837,49 @@ template&lt;typename TGridFunction , int elemDim = TGridFunction::dim&gt; </div>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="classug_1_1_global_grid_function_number_data.html#a05688bf6ce78af15d8ffa0c7815923f6">ug::GlobalGridFunctionNumberData&lt; TGridFunction, elemDim &gt;::dim</a>, <a class="el" href="classug_1_1_global_grid_function_number_data.html#abfa84d42781ae57b63a2468bb6ae9538">ug::GlobalGridFunctionNumberData&lt; TGridFunction, elemDim &gt;::evaluate_global()</a>, <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>, and <a class="el" href="classug_1_1_cpl_user_data.html#a843476c5e8535a11e558e8bad4ca2cc6">ug::CplUserData&lt; TData, dim, TRet &gt;::value()</a>.</p>
+
+</div>
+</div>
+<a id="a1855a54073319bc96747bbd226a5b95b" name="a1855a54073319bc96747bbd226a5b95b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1855a54073319bc96747bbd226a5b95b">&#9670;&#160;</a></span>try_evaluate_global()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TGridFunction , int elemDim = TGridFunction::dim&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classug_1_1_global_grid_function_number_data.html">ug::GlobalGridFunctionNumberData</a>&lt; TGridFunction, elemDim &gt;::try_evaluate_global </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> &amp;&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; <a class="el" href="classug_1_1_global_grid_function_number_data.html#a05688bf6ce78af15d8ffa0c7815923f6">dim</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>x</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>evaluate value on all procs, does not throw an error if element is not found. returns truth value whether element was found or not </p>
+
+<p class="reference">References <a class="el" href="classpcl_1_1_process_communicator.html#a708b02efa2d765daae9fee02b7b60000">pcl::ProcessCommunicator::allreduce()</a>, <a class="el" href="classug_1_1_local_finite_element_provider.html#a235ca8334a9d71b4e43449523cd7fb3f">ug::LocalFiniteElementProvider::continuous()</a>, <a class="el" href="classug_1_1_global_grid_function_number_data.html#a844f5ca654f9c361c0ab2040579690ef">ug::GlobalGridFunctionNumberData&lt; TGridFunction, elemDim &gt;::evaluate()</a>, <a class="el" href="classug_1_1_global_grid_function_number_data.html#afa9d2158a35465188ed5b538e086e8cb">ug::GlobalGridFunctionNumberData&lt; TGridFunction, elemDim &gt;::m_lfeID</a>, <a class="el" href="group__pcl.html#ga23ba716caa4857afe6a36d2a6065ea8a">PCL_RO_SUM</a>, <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>, and <a class="el" href="classug_1_1_cpl_user_data.html#a843476c5e8535a11e558e8bad4ca2cc6">ug::CplUserData&lt; TData, dim, TRet &gt;::value()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classug_1_1_global_grid_function_number_data.html#abfa84d42781ae57b63a2468bb6ae9538">ug::GlobalGridFunctionNumberData&lt; TGridFunction, elemDim &gt;::evaluate_global()</a>.</p>
 
 </div>
 </div>
@@ -919,7 +964,7 @@ template&lt;typename TGridFunction , int elemDim = TGridFunction::dim&gt; </div>
 
 <p>local finite element id </p>
 
-<p class="reference">Referenced by <a class="el" href="classug_1_1_global_grid_function_number_data.html#a1d15656cb55b431f00d136a8873fd096">ug::GlobalGridFunctionNumberData&lt; TGridFunction, elemDim &gt;::continuous()</a>, <a class="el" href="classug_1_1_global_grid_function_number_data.html#a48fa8d129d10f0254f293ad9fbd741dc">ug::GlobalGridFunctionNumberData&lt; TGridFunction, elemDim &gt;::evaluate()</a>, <a class="el" href="classug_1_1_global_grid_function_number_data.html#abfa84d42781ae57b63a2468bb6ae9538">ug::GlobalGridFunctionNumberData&lt; TGridFunction, elemDim &gt;::evaluate_global()</a>, and <a class="el" href="classug_1_1_global_grid_function_number_data.html#ab537ca94c96a46c6dceb48864d10f964">ug::GlobalGridFunctionNumberData&lt; TGridFunction, elemDim &gt;::GlobalGridFunctionNumberData()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classug_1_1_global_grid_function_number_data.html#a1d15656cb55b431f00d136a8873fd096">ug::GlobalGridFunctionNumberData&lt; TGridFunction, elemDim &gt;::continuous()</a>, <a class="el" href="classug_1_1_global_grid_function_number_data.html#a48fa8d129d10f0254f293ad9fbd741dc">ug::GlobalGridFunctionNumberData&lt; TGridFunction, elemDim &gt;::evaluate()</a>, <a class="el" href="classug_1_1_global_grid_function_number_data.html#ab537ca94c96a46c6dceb48864d10f964">ug::GlobalGridFunctionNumberData&lt; TGridFunction, elemDim &gt;::GlobalGridFunctionNumberData()</a>, and <a class="el" href="classug_1_1_global_grid_function_number_data.html#a1855a54073319bc96747bbd226a5b95b">ug::GlobalGridFunctionNumberData&lt; TGridFunction, elemDim &gt;::try_evaluate_global()</a>.</p>
 
 </div>
 </div>
@@ -986,7 +1031,7 @@ template&lt;typename TGridFunction , int elemDim = TGridFunction::dim&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_global_grid_function_number_data.html">GlobalGridFunctionNumberData</a></li>
-    <li class="footer">Generated on Mon Jan 19 2026 01:43:26 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Jan 26 2026 01:46:31 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

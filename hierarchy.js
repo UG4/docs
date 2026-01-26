@@ -184,6 +184,7 @@ var hierarchy =
       [ "ug::Grid::AttachmentAccessor< Vertex, Attachment< ElemGroupVrtx2BQuenched4Diams > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ],
       [ "ug::Grid::AttachmentAccessor< Edge, Attachment< bool > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ],
       [ "ug::Grid::AttachmentAccessor< Vertex, Attachment< std::vector< IndexType > > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ],
+      [ "ug::Grid::AttachmentAccessor< Edge, Attachment< std::vector< vector3 > > >", "classug_1_1_grid_1_1_attachment_accessor.html", null ],
       [ "ug::Grid::AttachmentAccessor< Face, normal_attachment_t >", "classug_1_1_grid_1_1_attachment_accessor.html", null ],
       [ "ug::Grid::AttachmentAccessor< Volume, volume_constraint_attachment_t >", "classug_1_1_grid_1_1_attachment_accessor.html", null ]
     ] ],
@@ -249,6 +250,7 @@ var hierarchy =
     [ "ug::AttachmentAccessor< TElem::grid_base_object *, Attachment< std::vector< Face * > >, traits< Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", null ],
     [ "ug::AttachmentAccessor< TElem::grid_base_object *, Attachment< std::vector< IndexType > >, traits< Vertex >::ElementStorage >", "classug_1_1_attachment_accessor.html", null ],
     [ "ug::AttachmentAccessor< TElem::grid_base_object *, Attachment< std::vector< int > >, traits< typename TGeomBaseObj::side >::ElementStorage >", "classug_1_1_attachment_accessor.html", null ],
+    [ "ug::AttachmentAccessor< TElem::grid_base_object *, Attachment< std::vector< vector3 > >, traits< Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", null ],
     [ "ug::AttachmentAccessor< TElem::grid_base_object *, Attachment< std::vector< Vertex * > >, traits< Volume >::ElementStorage >", "classug_1_1_attachment_accessor.html", null ],
     [ "ug::AttachmentAccessor< TElem::grid_base_object *, Attachment< unsigned char >, traits< ug::Edge >::ElementStorage >", "classug_1_1_attachment_accessor.html", null ],
     [ "ug::AttachmentAccessor< TElem::grid_base_object *, Attachment< unsigned char >, traits< ug::Face >::ElementStorage >", "classug_1_1_attachment_accessor.html", null ],
@@ -288,6 +290,7 @@ var hierarchy =
         [ "ug::Grid::EdgeAttachmentAccessor< Attachment< EdgeInfo > >", "classug_1_1_grid_1_1_edge_attachment_accessor.html", null ],
         [ "ug::Grid::EdgeAttachmentAccessor< Attachment< VertxFracPropts > >", "classug_1_1_grid_1_1_edge_attachment_accessor.html", null ],
         [ "ug::Grid::EdgeAttachmentAccessor< Attachment< bool > >", "classug_1_1_grid_1_1_edge_attachment_accessor.html", null ],
+        [ "ug::Grid::EdgeAttachmentAccessor< Attachment< std::vector< vector3 > > >", "classug_1_1_grid_1_1_edge_attachment_accessor.html", null ],
         [ "ug::Grid::FaceAttachmentAccessor< Attachment< ElemInfoFace > >", "classug_1_1_grid_1_1_face_attachment_accessor.html", null ],
         [ "ug::Grid::FaceAttachmentAccessor< Attachment< int > >", "classug_1_1_grid_1_1_face_attachment_accessor.html", null ],
         [ "ug::Grid::FaceAttachmentAccessor< ug::Attachment >", "classug_1_1_grid_1_1_face_attachment_accessor.html", null ],
@@ -3497,6 +3500,7 @@ var hierarchy =
         [ "ug::Attachment< VecEndingCrossingFractureSegmentInfo >", "classug_1_1_attachment.html", null ],
         [ "ug::Attachment< ElemGroupVrtx2BQuenched4Diams >", "classug_1_1_attachment.html", null ],
         [ "ug::Attachment< std::vector< IndexType > >", "classug_1_1_attachment.html", null ],
+        [ "ug::Attachment< std::vector< vector3 > >", "classug_1_1_attachment.html", null ],
         [ "ug::Attachment< T >", "classug_1_1_attachment.html", null ]
       ] ]
     ] ],

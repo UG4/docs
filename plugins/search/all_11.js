@@ -64,7 +64,7 @@ var searchData=
   ['oldnumberdata_61',['oldnumberdata',['../../structug_1_1_dirichlet_boundary_1_1_old_number_data.html',1,'ug::DirichletBoundary::OldNumberData'],['../../structug_1_1_dirichlet_boundary_1_1_old_number_data.html#a1cc6b420809241f17f41ae3a3a08a8e3',1,'ug::DirichletBoundary::OldNumberData::OldNumberData()']]],
   ['omega_62',['omega',['../group__small__strain__mechanics.html#ga597e0ed4ab54c425f94fc55cd61d49d7',1,'ug::SmallStrainMechanics::PrandtlReuss::MaterialConstants']]],
   ['omit_5floops_63',['omit_loops',['../../namespaceug_1_1util.html#a4a63c608c457319089c64e9f12983b5f',1,'ug::util']]],
-  ['on_5fcpu_64',['on_cpu',['../../classug_1_1_g_p_u_vector.html#a5af6431bbc3eb3b0bc1b2cf06f31391c',1,'ug::GPUVector::on_cpu()'],['../../classug_1_1_g_p_u_vector.html#af65064c1583668461c563b7b842b74ada80212d3d288c24e55be1c5be374da666',1,'ug::GPUVector::ON_CPU']]],
+  ['on_5fcpu_64',['on_cpu',['../../classug_1_1_g_p_u_vector.html#af65064c1583668461c563b7b842b74ada80212d3d288c24e55be1c5be374da666',1,'ug::GPUVector::ON_CPU'],['../../classug_1_1_g_p_u_vector.html#a5af6431bbc3eb3b0bc1b2cf06f31391c',1,'ug::GPUVector::on_cpu()']]],
   ['on_5fgpu_65',['on_gpu',['../../classug_1_1_g_p_u_vector.html#af65064c1583668461c563b7b842b74ada14af82faef6b1e48896258c97da5fdec',1,'ug::GPUVector::ON_GPU'],['../../classug_1_1_g_p_u_vector.html#a093cc76a57932f2f8f8e624bd308ba6d',1,'ug::GPUVector::on_gpu()']]],
   ['on_5fgpu_5fand_5fcpu_66',['ON_GPU_AND_CPU',['../../classug_1_1_g_p_u_vector.html#af65064c1583668461c563b7b842b74ada61959b449c4b1a62fb44e36646faada4',1,'ug::GPUVector']]],
   ['one_67',['one',['../classug_1_1_richards_1_1_gardner_model.html#aff8b9357a0954271a9ce5c907e8a0d78',1,'ug::Richards::GardnerModel']]],

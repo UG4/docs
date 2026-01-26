@@ -153,9 +153,9 @@ $(document).ready(function(){initNavTree('expand__layers__arte3_d_8h_source.html
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keyword">namespace </span>arte</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>{</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="keywordtype">bool</span> <a class="code hl_function" href="namespaceug_1_1arte.html#ac3820ed4e7e289f8c3827fb2ed736107">ExpandFractures3dArte</a>( Grid&amp; grid, <a class="code hl_typedef" href="namespaceug.html#a4077697589380822c2f46b597f550f4b">SubsetHandler</a>&amp; sh,</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="keywordtype">bool</span> <a class="code hl_function" href="namespaceug_1_1arte.html#a1fcb0e33987b9792a44c017f5b9f0bd8">ExpandFractures3dArte</a>( Grid&amp; grid, <a class="code hl_typedef" href="namespaceug.html#a4077697589380822c2f46b597f550f4b">SubsetHandler</a>&amp; sh,</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>                std::vector&lt;FractureInfo&gt; <span class="keyword">const</span> &amp; fracInfos,</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>              <span class="keywordtype">bool</span> useTrianglesInDiamonds, <span class="keywordtype">bool</span> establishDiamonds );</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>              <span class="keywordtype">bool</span> diamondsOnlyPreform, <span class="keywordtype">bool</span> establishDiamonds );</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>}</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>}<span class="comment">// end of namespace</span></div>
@@ -164,7 +164,7 @@ $(document).ready(function(){initNavTree('expand__layers__arte3_d_8h_source.html
 <div class="ttc" id="aexpand__layers_8h_html"><div class="ttname"><a href="expand__layers_8h.html">expand_layers.h</a></div></div>
 <div class="ttc" id="aexpand__layers__arte_8h_html"><div class="ttname"><a href="expand__layers__arte_8h.html">expand_layers_arte.h</a></div></div>
 <div class="ttc" id="alg__base_8h_html"><div class="ttname"><a href="lg__base_8h.html">lg_base.h</a></div></div>
-<div class="ttc" id="anamespaceug_1_1arte_html_ac3820ed4e7e289f8c3827fb2ed736107"><div class="ttname"><a href="namespaceug_1_1arte.html#ac3820ed4e7e289f8c3827fb2ed736107">ug::arte::ExpandFractures3dArte</a></div><div class="ttdeci">bool ExpandFractures3dArte(Grid &amp;grid, SubsetHandler &amp;sh, std::vector&lt; FractureInfo &gt; const &amp;fracInfos, bool useTrianglesInDiamonds, bool establishDiamonds)</div><div class="ttdef"><b>Definition</b> expand_layers_arte3D.cpp:59</div></div>
+<div class="ttc" id="anamespaceug_1_1arte_html_a1fcb0e33987b9792a44c017f5b9f0bd8"><div class="ttname"><a href="namespaceug_1_1arte.html#a1fcb0e33987b9792a44c017f5b9f0bd8">ug::arte::ExpandFractures3dArte</a></div><div class="ttdeci">bool ExpandFractures3dArte(Grid &amp;grid, SubsetHandler &amp;sh, std::vector&lt; FractureInfo &gt; const &amp;fracInfos, bool diamondsOnlyPreform, bool establishDiamonds)</div><div class="ttdef"><b>Definition</b> expand_layers_arte3D.cpp:59</div></div>
 <div class="ttc" id="anamespaceug_html"><div class="ttname"><a href="namespaceug.html">ug</a></div><div class="ttdoc">the ug namespace</div></div>
 <div class="ttc" id="anamespaceug_html_a4077697589380822c2f46b597f550f4b"><div class="ttname"><a href="namespaceug.html#a4077697589380822c2f46b597f550f4b">ug::SubsetHandler</a></div><div class="ttdeci">GridSubsetHandler SubsetHandler</div><div class="ttdef"><b>Definition</b> subset_handler_grid.h:376</div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -173,7 +173,7 @@ $(document).ready(function(){initNavTree('expand__layers__arte3_d_8h_source.html
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_9cb5fcd0cbd108e4de7ac968a9e51f3d.html">lib_grid</a></li><li class="navelem"><a class="el" href="dir_8e43e1519d22ef2ce28107ef4364eb7f.html">algorithms</a></li><li class="navelem"><a class="el" href="dir_d6bad38fbca4b6493b829780a61a20e7.html">extrusion</a></li><li class="navelem"><a class="el" href="expand__layers__arte3_d_8h.html">expand_layers_arte3D.h</a></li>
-    <li class="footer">Generated on Mon Jan 19 2026 01:43:13 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Jan 26 2026 01:46:20 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

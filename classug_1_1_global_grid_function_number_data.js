@@ -10,6 +10,7 @@ var classug_1_1_global_grid_function_number_data =
     [ "evaluate", "classug_1_1_global_grid_function_number_data.html#a844f5ca654f9c361c0ab2040579690ef", null ],
     [ "evaluate_global", "classug_1_1_global_grid_function_number_data.html#abfa84d42781ae57b63a2468bb6ae9538", null ],
     [ "evaluate_global", "classug_1_1_global_grid_function_number_data.html#a8ab4e80db531ea340a876383b7773d3e", null ],
+    [ "try_evaluate_global", "classug_1_1_global_grid_function_number_data.html#a1855a54073319bc96747bbd226a5b95b", null ],
     [ "dim", "classug_1_1_global_grid_function_number_data.html#a05688bf6ce78af15d8ffa0c7815923f6", null ],
     [ "m_fct", "classug_1_1_global_grid_function_number_data.html#ac70e2fbc8b332275f36c94ba34f27600", null ],
     [ "m_lfeID", "classug_1_1_global_grid_function_number_data.html#afa9d2158a35465188ed5b538e086e8cb", null ],

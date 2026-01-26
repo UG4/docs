@@ -27,7 +27,7 @@ var namespaceug_1_1arte =
     [ "determineOrderOfFaces", "namespaceug_1_1arte.html#a59a6ccf3da1b95f7dc2e1647e89b2556", null ],
     [ "ExpandFractures2dArte", "namespaceug_1_1arte.html#a40f75f790a59443920f471d84b9b7c9f", null ],
     [ "ExpandFractures2dArte", "namespaceug_1_1arte.html#a4422c358f8183d3726d70f0f67ef4ef1", null ],
-    [ "ExpandFractures3dArte", "namespaceug_1_1arte.html#ac3820ed4e7e289f8c3827fb2ed736107", null ],
+    [ "ExpandFractures3dArte", "namespaceug_1_1arte.html#a1fcb0e33987b9792a44c017f5b9f0bd8", null ],
     [ "expandSingleFractureAtGivenSide", "namespaceug_1_1arte.html#a01700ecb5ad32fe5c974a12bae253dea", null ],
     [ "expandSingleFractureAtGivenSide", "namespaceug_1_1arte.html#a69bf67a633a6209eea5c5913c34b90e0", null ],
     [ "expandSingleFractureAtGivenSide< VecVertexOfFaceInfo >", "namespaceug_1_1arte.html#a862716831abc0e3a39dd020ffb02bc89", null ],
