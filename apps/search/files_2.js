@@ -34,7 +34,7 @@ var searchData=
   ['common_5fattachments_2ecpp_31',['common_attachments.cpp',['../../common__attachments_8cpp.html',1,'']]],
   ['common_5fattachments_2eh_32',['common_attachments.h',['../../common__attachments_8h.html',1,'']]],
   ['common_5fattachments_5fimpl_2ehpp_33',['common_attachments_impl.hpp',['../../common__attachments__impl_8hpp.html',1,'']]],
-  ['common_5fbridge_2ecpp_34',['common_bridge.cpp',['../../algebra__bridges_2common__bridge_8cpp.html',1,'(Global Namespace)'],['../../disc__bridges_2common__bridge_8cpp.html',1,'(Global Namespace)']]],
+  ['common_5fbridge_2ecpp_34',['common_bridge.cpp',['../../disc__bridges_2common__bridge_8cpp.html',1,'(Global Namespace)'],['../../algebra__bridges_2common__bridge_8cpp.html',1,'(Global Namespace)']]],
   ['common_5fcuda_2eh_35',['common_cuda.h',['../../common__cuda_8h.html',1,'']]],
   ['common_5fuser_5fdata_2eh_36',['common_user_data.h',['../../common__user__data_8h.html',1,'']]],
   ['communication_5fpolicies_2eh_37',['communication_policies.h',['../../communication__policies_8h.html',1,'']]],
