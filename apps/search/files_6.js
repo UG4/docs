@@ -106,7 +106,7 @@ var searchData=
   ['grid_5fstatistics_2ecpp_103',['grid_statistics.cpp',['../../grid__statistics_8cpp.html',1,'']]],
   ['grid_5fstatistics_2eh_104',['grid_statistics.h',['../../grid__statistics_8h.html',1,'']]],
   ['grid_5futil_2ecpp_105',['grid_util.cpp',['../../grid__util_8cpp.html',1,'']]],
-  ['grid_5futil_2eh_106',['grid_util.h',['../../grid_2grid__util_8h.html',1,'(Global Namespace)'],['../../algorithms_2grid__util_8h.html',1,'(Global Namespace)']]],
+  ['grid_5futil_2eh_106',['grid_util.h',['../../algorithms_2grid__util_8h.html',1,'(Global Namespace)'],['../../grid_2grid__util_8h.html',1,'(Global Namespace)']]],
   ['grid_5futil_5fimpl_2ehpp_107',['grid_util_impl.hpp',['../../grid__util__impl_8hpp.html',1,'']]],
   ['group_5fnode_2ecpp_108',['group_node.cpp',['../../group__node_8cpp.html',1,'']]],
   ['group_5fnode_2eh_109',['group_node.h',['../../group__node_8h.html',1,'']]],

@@ -29,7 +29,7 @@ var searchData=
   ['parallel_5fhnode_5fadjuster_2eh_26',['parallel_hnode_adjuster.h',['../../parallel__hnode__adjuster_8h.html',1,'']]],
   ['parallel_5findex_5flayout_2ecpp_27',['parallel_index_layout.cpp',['../../parallel__index__layout_8cpp.html',1,'']]],
   ['parallel_5findex_5flayout_2eh_28',['parallel_index_layout.h',['../../parallel__index__layout_8h.html',1,'']]],
-  ['parallel_5fmatrix_2eh_29',['parallel_matrix.h',['../../graph__interface_2parallel__matrix_8h.html',1,'(Global Namespace)'],['../../parallelization_2parallel__matrix_8h.html',1,'(Global Namespace)']]],
+  ['parallel_5fmatrix_2eh_29',['parallel_matrix.h',['../../parallelization_2parallel__matrix_8h.html',1,'(Global Namespace)'],['../../graph__interface_2parallel__matrix_8h.html',1,'(Global Namespace)']]],
   ['parallel_5fmatrix_5fboost_2eh_30',['parallel_matrix_boost.h',['../../parallel__matrix__boost_8h.html',1,'']]],
   ['parallel_5fmatrix_5fimpl_2eh_31',['parallel_matrix_impl.h',['../../parallel__matrix__impl_8h.html',1,'']]],
   ['parallel_5fmatrix_5foverlap_5fimpl_2eh_32',['parallel_matrix_overlap_impl.h',['../../parallel__matrix__overlap__impl_8h.html',1,'']]],
