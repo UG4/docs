@@ -483,7 +483,7 @@ var searchData=
   ['localvectortimeseries_480',['localvectortimeseries',['../classug_1_1_local_vector_time_series.html#a73b297ae12937fe095e630a50c51a020',1,'ug::LocalVectorTimeSeries::LocalVectorTimeSeries()'],['../classug_1_1_local_vector_time_series.html',1,'ug::LocalVectorTimeSeries']]],
   ['lock_481',['lock',['../classug_1_1_function_pattern.html#a8a28a1f0d5730ec9067e74b08f1de3c5',1,'ug::FunctionPattern']]],
   ['loclaplacea_482',['loclaplacea',['../../plugins/classug_1_1_electromagnetism_1_1_nedelec_project_1_1_loc_laplace_a.html',1,'ug::Electromagnetism::NedelecProject::LocLaplaceA&lt; typename TElem &gt;'],['../../plugins/classug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_loc_laplace_a.html',1,'ug::Electromagnetism::NedelecLoopCurrent::LocLaplaceA&lt; typename TElem &gt;']]],
-  ['log_483',['log',['../namespaceug_1_1vrl.html#a84f38bf12b491147582b98793b17c5d2',1,'ug::vrl::Log()'],['../group__ugbase__common.html#ga158a8c64f24645c7478298399825737f',1,'LOG:&#160;common.h']]],
+  ['log_483',['log',['../group__ugbase__common.html#ga158a8c64f24645c7478298399825737f',1,'LOG:&#160;common.h'],['../namespaceug_1_1vrl.html#a84f38bf12b491147582b98793b17c5d2',1,'ug::vrl::Log()']]],
   ['log_20util_484',['log util',['../group__lib__grid__algorithms__log__util.html',1,'']]],
   ['log_2ecpp_485',['log.cpp',['../log_8cpp.html',1,'']]],
   ['log_2eh_486',['log.h',['../log_8h.html',1,'']]],

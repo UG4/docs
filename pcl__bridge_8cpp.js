@@ -9,5 +9,6 @@ var pcl__bridge_8cpp =
     [ "PclAllProcsTrue", "pcl__bridge_8cpp.html#gac76062c750e985d7e340d922de2afe57", null ],
     [ "PclDebugBarrierAll", "pcl__bridge_8cpp.html#gae1ca4689d6f3bc285698b12e348a0a32", null ],
     [ "PclDebugBarrierEnabled", "pcl__bridge_8cpp.html#ga89ac2ae5fa7e2383cb794347f7a478a7", null ],
-    [ "RegisterBridge_PCL", "pcl__bridge_8cpp.html#gad10352be15884043646b7036d89a59f0", null ]
+    [ "RegisterBridge_PCL", "pcl__bridge_8cpp.html#gad10352be15884043646b7036d89a59f0", null ],
+    [ "ug_parallel", "pcl__bridge_8cpp.html#ga4c9504fefd61037d5dae665644eecc66", null ]
 ];

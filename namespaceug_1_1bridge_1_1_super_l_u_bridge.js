@@ -489,6 +489,7 @@ var namespaceug_1_1bridge_1_1_super_l_u_bridge =
     [ "TestPageContainer", "group__test__bridge.html#ga5bde495725fd563a08304fca9e97e15f", null ],
     [ "ToConst", "group__test__bridge.html#gadfeea9de759197636c9145eb56d7edd5", null ],
     [ "ug_cacheline", "../plugins/namespaceug_1_1bridge_1_1_super_l_u_bridge.html#abf0d813ed5335c38b5dfbf213d5fae2b", null ],
+    [ "ug_parallel", "group__pcl__bridge.html#ga4c9504fefd61037d5dae665644eecc66", null ],
     [ "ug_readline", "../plugins/namespaceug_1_1bridge_1_1_super_l_u_bridge.html#aece02a78d8b93a4be9b914ba54ba4379", null ],
     [ "UGTypeInfo", "../plugins/namespaceug_1_1bridge_1_1_super_l_u_bridge.html#a4f51483704e116de866dc77dadd3bb4c", null ],
     [ "UnregisteredParameterTest", "group__test__bridge.html#ga434a73a22258cdafe7cd7205ae76c042", null ],

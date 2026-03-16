@@ -1,5 +1,6 @@
 var NAVTREEINDEX42 =
 {
+"refinement__tools_8h.html#a00b1811fcca4dd75fdf3273159a8fa79":[4,0,1,12,0,12,3],
 "refinement__tools_8h.html#a3af1bf7eadcf1780815d9c71beb6206c":[4,0,1,12,0,12,1],
 "refinement__tools_8h.html#a3be579ee3c2017be0beac23f2114f2ea":[4,0,1,12,0,12,7],
 "refinement__tools_8h.html#a42a87ce0c50f6dc906c6c248a45d8ec6":[4,0,1,12,0,12,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX42 =
 "struct_richards_fixtures.html#ad20c80a7f30ac6262ddd7f0b885eb42d":[3,0,1,1],
 "struct_u_g_test_init.html":[3,0,2],
 "struct_u_g_test_init.html#acb5e0e90eca17e98c7fdc4910ce71c36":[3,0,2,0],
-"struct_u_g_test_init.html#ae6ed4f60b5f5e1a7bea02a90076e1a11":[3,0,2,1],
-"structug_1_1_compare_deg.html":[2,0,0,18]
+"struct_u_g_test_init.html#ae6ed4f60b5f5e1a7bea02a90076e1a11":[3,0,2,1]
 };
