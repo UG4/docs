@@ -11,7 +11,7 @@ var searchData=
   ['adaptive_5ftools_5fbridge_2ecpp_8',['adaptive_tools_bridge.cpp',['../../adaptive__tools__bridge_8cpp.html',1,'']]],
   ['adaptive_5futil_2eh_9',['adaptive_util.h',['../../plugins/adaptive__util_8h.html',1,'']]],
   ['adaptive_5futil_5fimpl_2eh_10',['adaptive_util_impl.h',['../../plugins/adaptive__util__impl_8h.html',1,'']]],
-  ['additional_5fmath_2eh_11',['additional_math.h',['../../small__algebra_2additional__math_8h.html',1,'(Global Namespace)'],['../../operator_2eigensolver_2additional__math_8h.html',1,'(Global Namespace)']]],
+  ['additional_5fmath_2eh_11',['additional_math.h',['../../operator_2eigensolver_2additional__math_8h.html',1,'(Global Namespace)'],['../../small__algebra_2additional__math_8h.html',1,'(Global Namespace)']]],
   ['agglomerating_5fsolver_2eh_12',['agglomerating_solver.h',['../../agglomerating__solver_8h.html',1,'']]],
   ['algebra_5fbridge_2ecpp_13',['algebra_bridge.cpp',['../../algebra__bridge_8cpp.html',1,'']]],
   ['algebra_5fbridge_2edoxygen_14',['algebra_bridge.doxygen',['../../algebra__bridge_8doxygen.html',1,'']]],
