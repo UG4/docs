@@ -59,7 +59,7 @@ var searchData=
   ['gpusparsematrix_5fprint_2eh_56',['gpusparsematrix_print.h',['../gpusparsematrix__print_8h.html',1,'']]],
   ['gpuvector_2eh_57',['gpuvector.h',['../gpuvector_8h.html',1,'']]],
   ['gradient_5fevaluators_2eh_58',['gradient_evaluators.h',['../gradient__evaluators_8h.html',1,'']]],
-  ['graph_2eh_59',['graph.h',['../lib__algebra_2common_2graph_2graph_8h.html',1,'(Global Namespace)'],['../lib__grid_2algorithms_2graph_2graph_8h.html',1,'(Global Namespace)']]],
+  ['graph_2eh_59',['graph.h',['../lib__grid_2algorithms_2graph_2graph_8h.html',1,'(Global Namespace)'],['../lib__algebra_2common_2graph_2graph_8h.html',1,'(Global Namespace)']]],
   ['grid_2ecpp_60',['grid.cpp',['../grid_8cpp.html',1,'']]],
   ['grid_2eh_61',['grid.h',['../grid_8h.html',1,'']]],
   ['grid_5fadaption_2ecpp_62',['grid_adaption.cpp',['../grid__adaption_8cpp.html',1,'']]],

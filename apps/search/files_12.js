@@ -48,7 +48,7 @@ var searchData=
   ['selector_5fmulti_5fgrid_5fimpl_2ehpp_45',['selector_multi_grid_impl.hpp',['../../selector__multi__grid__impl_8hpp.html',1,'']]],
   ['sequential_5fsubspace_5fcorrection_2eh_46',['sequential_subspace_correction.h',['../../sequential__subspace__correction_8h.html',1,'']]],
   ['serialization_2ecpp_47',['serialization.cpp',['../../lib__grid_2algorithms_2serialization_8cpp.html',1,'(Global Namespace)'],['../../common_2serialization_8cpp.html',1,'(Global Namespace)']]],
-  ['serialization_2eh_48',['serialization.h',['../../lib__grid_2algorithms_2serialization_8h.html',1,'(Global Namespace)'],['../../lib__algebra_2parallelization_2serialization_8h.html',1,'(Global Namespace)'],['../../common_2serialization_8h.html',1,'(Global Namespace)']]],
+  ['serialization_2eh_48',['serialization.h',['../../common_2serialization_8h.html',1,'(Global Namespace)'],['../../lib__algebra_2parallelization_2serialization_8h.html',1,'(Global Namespace)'],['../../lib__grid_2algorithms_2serialization_8h.html',1,'(Global Namespace)']]],
   ['serialization_5fimpl_2ehpp_49',['serialization_impl.hpp',['../../serialization__impl_8hpp.html',1,'']]],
   ['serialize_5finterfaces_2eh_50',['serialize_interfaces.h',['../../serialize__interfaces_8h.html',1,'']]],
   ['shadow_5fcopy_5fadjuster_2ecpp_51',['shadow_copy_adjuster.cpp',['../../shadow__copy__adjuster_8cpp.html',1,'']]],
