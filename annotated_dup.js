@@ -66,6 +66,7 @@ var annotated_dup =
       [ "Reducer", "classpcl_1_1_reducer.html", "classpcl_1_1_reducer" ],
       [ "SelectionCommPol", "classpcl_1_1_selection_comm_pol.html", "classpcl_1_1_selection_comm_pol" ],
       [ "SingleLevelLayout", "classpcl_1_1_single_level_layout.html", "classpcl_1_1_single_level_layout" ],
+      [ "SpaceTimeCommunicator", "classpcl_1_1_space_time_communicator.html", "classpcl_1_1_space_time_communicator" ],
       [ "StandardDomainDecompositionInfo", "classpcl_1_1_standard_domain_decomposition_info.html", "classpcl_1_1_standard_domain_decomposition_info" ],
       [ "type_traits", "structpcl_1_1type__traits.html", "structpcl_1_1type__traits" ],
       [ "type_traits< ug::Edge >", "structpcl_1_1type__traits_3_01ug_1_1_edge_01_4.html", "structpcl_1_1type__traits_3_01ug_1_1_edge_01_4" ],

@@ -438,7 +438,7 @@ var searchData=
   ['islittleendian_435',['IsLittleEndian',['../group__ugbase__common__util.html#gad46c11c91b1a0a1d5b55b43fc214caa0',1,'ug']]],
   ['islonger_436',['islonger',['../namespaceug.html#a29de5e930ca3774ace0a94741aa5d794',1,'ug::IsLonger(const string &amp;a, const string &amp;b)'],['../group__ugbase__common__util__strings.html#ga2fa547711a271819fc74536c532c714d',1,'ug::IsLonger(const std::string &amp;a, const std::string &amp;b)']]],
   ['isluadebug_437',['IsLUADebug',['../namespaceug_1_1script.html#a7614c3014eef3244eb73d6472931fd3a',1,'ug::script']]],
-  ['ismarked_438',['ismarked',['../classug_1_1_is_marked.html#a2fd3b46e97a296e8a4ce7790da75e7f0',1,'ug::IsMarked::IsMarked()'],['../classug_1_1arte_1_1support_1_1_attached_full_dim_elem_info.html#a9e5d5feda30c6e1c88552af75c897feb',1,'ug::arte::support::AttachedFullDimElemInfo::isMarked()']]],
+  ['ismarked_438',['ismarked',['../classug_1_1arte_1_1support_1_1_attached_full_dim_elem_info.html#a9e5d5feda30c6e1c88552af75c897feb',1,'ug::arte::support::AttachedFullDimElemInfo::isMarked()'],['../classug_1_1_is_marked.html#a2fd3b46e97a296e8a4ce7790da75e7f0',1,'ug::IsMarked::IsMarked()']]],
   ['ismemtrackerenabled_439',['IsMemTrackerEnabled',['../namespaceug.html#a3925a88ee05f0e803a12208bbb8c2a5d',1,'ug']]],
   ['isnaturalnumber_440',['IsNaturalNumber',['../math__util_8lua.html#a5d8ff6b47220ffdde2c6fa8a55796bc7',1,'math_util.lua']]],
   ['isneighboured_441',['isNeighboured',['../classug_1_1arte_1_1support_1_1_attached_general_elem.html#a8f08a25e1c6dc902913571cef65261f9',1,'ug::arte::support::AttachedGeneralElem']]],

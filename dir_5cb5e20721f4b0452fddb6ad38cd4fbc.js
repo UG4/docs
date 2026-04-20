@@ -30,5 +30,6 @@ var dir_5cb5e20721f4b0452fddb6ad38cd4fbc =
     [ "pcl_tostring.h", "pcl__tostring_8h.html", "pcl__tostring_8h" ],
     [ "pcl_util.cpp", "pcl__util_8cpp.html", "pcl__util_8cpp" ],
     [ "pcl_util.h", "pcl__util_8h.html", "pcl__util_8h" ],
-    [ "pcl_util_impl.h", "pcl__util__impl_8h.html", "pcl__util__impl_8h" ]
+    [ "pcl_util_impl.h", "pcl__util__impl_8h.html", "pcl__util__impl_8h" ],
+    [ "space_time_communicator.hpp", "space__time__communicator_8hpp.html", "space__time__communicator_8hpp" ]
 ];

@@ -355,10 +355,10 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:ac9b902c020d2478f96b7a0950e6af455" id="r_ac9b902c020d2478f96b7a0950e6af455"><td class="memTemplParams" colspan="2">template&lt;typename TElem , typename T &gt; </td></tr>
 <tr class="memitem:ac9b902c020d2478f96b7a0950e6af455"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_v_t_k_output.html#ac9b902c020d2478f96b7a0950e6af455">write_points_elementwise</a> (<a class="el" href="namespaceug.html#a0485a88619f9fa7d32977eff71294862">VTKFileWriter</a> &amp;File, <a class="el" href="classug_1_1_grid_1_1_vertex_attachment_accessor.html">Grid::VertexAttachmentAccessor</a>&lt; <a class="el" href="classug_1_1_attachment.html">Attachment</a>&lt; int &gt; &gt; &amp;aaVrtIndex, const <a class="el" href="classug_1_1_grid_1_1_vertex_attachment_accessor.html">Grid::VertexAttachmentAccessor</a>&lt; <a class="el" href="classug_1_1_attachment.html">Attachment</a>&lt; <a class="el" href="classug_1_1_math_vector.html">MathVector</a>&lt; TDim &gt; &gt; &gt; &amp;aaPos, <a class="el" href="classug_1_1_grid.html">Grid</a> &amp;grid, const T &amp;iterContainer, const int si, int &amp;n)</td></tr>
 <tr class="separator:ac9b902c020d2478f96b7a0950e6af455"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18d98ca90bd682eaf7968e900f3c9ff7" id="r_a18d98ca90bd682eaf7968e900f3c9ff7"><td class="memTemplParams" colspan="2">template&lt;typename TFunction &gt; </td></tr>
-<tr class="memitem:a18d98ca90bd682eaf7968e900f3c9ff7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_v_t_k_output.html#a18d98ca90bd682eaf7968e900f3c9ff7">write_pvtu</a> (TFunction &amp;u, const std::string &amp;filename, int si, int step, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> time)</td></tr>
-<tr class="memdesc:a18d98ca90bd682eaf7968e900f3c9ff7"><td class="mdescLeft">&#160;</td><td class="mdescRight">writes a grouping *.pvtu file  <br /></td></tr>
-<tr class="separator:a18d98ca90bd682eaf7968e900f3c9ff7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a1ea671373e882f9a6cc3dc8e5dc789" id="r_a9a1ea671373e882f9a6cc3dc8e5dc789"><td class="memTemplParams" colspan="2">template&lt;typename TFunction &gt; </td></tr>
+<tr class="memitem:a9a1ea671373e882f9a6cc3dc8e5dc789"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_v_t_k_output.html#a9a1ea671373e882f9a6cc3dc8e5dc789">write_pvtu</a> (TFunction &amp;u, const std::string &amp;filename, int si, int step, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> time, const <a class="el" href="classug_1_1_subset_group.html">SubsetGroup</a> &amp;ssGrp)</td></tr>
+<tr class="memdesc:a9a1ea671373e882f9a6cc3dc8e5dc789"><td class="mdescLeft">&#160;</td><td class="mdescRight">writes a grouping *.pvtu file  <br /></td></tr>
+<tr class="separator:a9a1ea671373e882f9a6cc3dc8e5dc789"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
 <tr class="memitem:a05d5fd30e2700029c05b06765ee03e0e" id="r_a05d5fd30e2700029c05b06765ee03e0e"><td class="memTemplParams" colspan="2">template&lt;typename TElem , typename TFunction , typename TData &gt; </td></tr>
 <tr class="memitem:a05d5fd30e2700029c05b06765ee03e0e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1_v_t_k_output.html#a05d5fd30e2700029c05b06765ee03e0e">write_nodal_data_elementwise</a> (<a class="el" href="namespaceug.html#a0485a88619f9fa7d32977eff71294862">VTKFileWriter</a> &amp;File, TFunction &amp;u, <a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> time, <a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_user_data.html">UserData</a>&lt; TData, TDim &gt; &gt; spData, <a class="el" href="classug_1_1_grid.html">Grid</a> &amp;grid, const int si)</td></tr>
@@ -5162,8 +5162,8 @@ template&lt;typename TElem , typename T &gt; </div>
 
 </div>
 </div>
-<a id="a18d98ca90bd682eaf7968e900f3c9ff7" name="a18d98ca90bd682eaf7968e900f3c9ff7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18d98ca90bd682eaf7968e900f3c9ff7">&#9670;&#160;</a></span>write_pvtu()</h2>
+<a id="a9a1ea671373e882f9a6cc3dc8e5dc789" name="a9a1ea671373e882f9a6cc3dc8e5dc789"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a1ea671373e882f9a6cc3dc8e5dc789">&#9670;&#160;</a></span>write_pvtu()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5203,7 +5203,13 @@ template&lt;typename TFunction &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a>&#160;</td>
-          <td class="paramname"><em>time</em>&#160;</td>
+          <td class="paramname"><em>time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classug_1_1_subset_group.html">SubsetGroup</a> &amp;&#160;</td>
+          <td class="paramname"><em>ssGrp</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -5220,7 +5226,7 @@ template&lt;typename TFunction &gt; </div>
 
 <p>writes a grouping *.pvtu file </p>
 
-<p class="reference">References <a class="el" href="namespaceug.html#a218336a2eadaccde97165e423b68ac1c">ug::FilenameWithoutPath()</a>, <a class="el" href="group__ugbase__common.html#ga196c4cf75549d65de84def6692f4fd43">ug::GetLogAssistant()</a>, <a class="el" href="classug_1_1_log_assistant.html#a18d88e83d358256e485eec4e51352570">ug::LogAssistant::is_output_process()</a>, <a class="el" href="checkpoint__util_8lua.html#a3c1958e225ed64db3e56badcbdcc8df7">name</a>, <a class="el" href="group__pcl.html#ga7a09a2eab069305ca735847eed023d2f">pcl::NumProcs()</a>, <a class="el" href="pcl__util_8h.html#a6eace8204d5da39e1511716f11600d2e">PCL_DEBUG_BARRIER_ALL</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
+<p class="reference">References <a class="el" href="namespaceug.html#a218336a2eadaccde97165e423b68ac1c">ug::FilenameWithoutPath()</a>, <a class="el" href="group__ugbase__common.html#ga196c4cf75549d65de84def6692f4fd43">ug::GetLogAssistant()</a>, <a class="el" href="classug_1_1_log_assistant.html#a18d88e83d358256e485eec4e51352570">ug::LogAssistant::is_output_process()</a>, <a class="el" href="checkpoint__util_8lua.html#a3c1958e225ed64db3e56badcbdcc8df7">name</a>, <a class="el" href="group__pcl.html#ga7a09a2eab069305ca735847eed023d2f">pcl::NumProcs()</a>, <a class="el" href="pcl__util_8h.html#a6eace8204d5da39e1511716f11600d2e">PCL_DEBUG_BARRIER_ALL</a>, <a class="el" href="classug_1_1_subset_group.html#a94df9ed7e52055ca077c3727c2e69991">ug::SubsetGroup::size()</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
 
 </div>
 </div>
@@ -5845,7 +5851,7 @@ template&lt;int TDim&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_v_t_k_output.html">VTKOutput</a></li>
-    <li class="footer">Generated on Mon Apr 13 2026 02:31:01 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Apr 20 2026 02:31:25 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

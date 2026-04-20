@@ -3184,6 +3184,7 @@ var hierarchy =
     [ "SortStruct< TIndex, TValue >", "struct_sort_struct.html", null ],
     [ "ug::sortStruct< T >", "structug_1_1sort_struct.html", null ],
     [ "ug::SortVertexPos< dim >", "structug_1_1_sort_vertex_pos.html", null ],
+    [ "pcl::SpaceTimeCommunicator", "classpcl_1_1_space_time_communicator.html", null ],
     [ "SparseMatrix< T >", "class_sparse_matrix.html", null ],
     [ "ug::SparseMatrix< TValueType >", "classug_1_1_sparse_matrix.html", null ],
     [ "ug::SparseMatrix< T >", "classug_1_1_sparse_matrix.html", null ],
