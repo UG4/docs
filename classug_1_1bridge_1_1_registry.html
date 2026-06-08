@@ -118,7 +118,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a215041dba2082240f568785684c83625"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classug_1_1bridge_1_1_exported_function.html">ExportedFunction</a> *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classug_1_1bridge_1_1_registry.html#a215041dba2082240f568785684c83625">add_and_get_function</a> (std::string funcName, TFunc <a class="el" href="raster__util_8lua.html#a3122a76a1df2c35b72cf89bc5cadff65">func</a>, std::string group=&quot;&quot;, std::string retValInfos=&quot;&quot;, std::string paramInfos=&quot;&quot;, std::string tooltip=&quot;&quot;, std::string help=&quot;&quot;)</td></tr>
 <tr class="memdesc:a215041dba2082240f568785684c83625"><td class="mdescLeft">&#160;</td><td class="mdescRight">Similar to add_function but returns the added function instead of the registry.  <br /></td></tr>
 <tr class="separator:a215041dba2082240f568785684c83625"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40bbfa2a89c09c07132b96972231329c" id="r_a40bbfa2a89c09c07132b96972231329c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1bridge_1_1_registry.html#a40bbfa2a89c09c07132b96972231329c">add_callback</a> (<a class="el" href="group__registry.html#ga7cdc310027b2c0bb3b0636017872fc20">FuncRegistryChanged</a> callback)</td></tr>
+<tr class="memitem:a40bbfa2a89c09c07132b96972231329c" id="r_a40bbfa2a89c09c07132b96972231329c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1bridge_1_1_registry.html#a40bbfa2a89c09c07132b96972231329c">add_callback</a> (<a class="el" href="group__registry.html#gaa891fd58995caa69fea2f4a932a61bc1">FuncRegistryChanged</a> callback)</td></tr>
 <tr class="memdesc:a40bbfa2a89c09c07132b96972231329c"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds a callback which is triggered whenever <a class="el" href="classug_1_1bridge_1_1_registry.html#ac0d25778c731fed953dedf458d53efa2" title="call this method if to forward changes of the registry to its listeners">Registry::registry_changed</a> is called.  <br /></td></tr>
 <tr class="separator:a40bbfa2a89c09c07132b96972231329c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad04cc451e9d65e1b69b2cd6865abc4b1" id="r_ad04cc451e9d65e1b69b2cd6865abc4b1"><td class="memTemplParams" colspan="2">template&lt;typename TClass &gt; </td></tr>
@@ -233,7 +233,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:aecc034991da6b4cf26a9ba95677e4961" id="r_aecc034991da6b4cf26a9ba95677e4961"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1bridge_1_1_registry.html#aecc034991da6b4cf26a9ba95677e4961">m_bForceConstructionWithSmartPtr</a></td></tr>
 <tr class="memdesc:aecc034991da6b4cf26a9ba95677e4961"><td class="mdescLeft">&#160;</td><td class="mdescRight">flag if classes must be constructed via smart-pointer  <br /></td></tr>
 <tr class="separator:aecc034991da6b4cf26a9ba95677e4961"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9f7426ff4f24810799a167edd7998c5" id="r_ab9f7426ff4f24810799a167edd7998c5"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="group__registry.html#ga7cdc310027b2c0bb3b0636017872fc20">FuncRegistryChanged</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1bridge_1_1_registry.html#ab9f7426ff4f24810799a167edd7998c5">m_callbacksRegChanged</a></td></tr>
+<tr class="memitem:ab9f7426ff4f24810799a167edd7998c5" id="r_ab9f7426ff4f24810799a167edd7998c5"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="group__registry.html#gaa891fd58995caa69fea2f4a932a61bc1">FuncRegistryChanged</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1bridge_1_1_registry.html#ab9f7426ff4f24810799a167edd7998c5">m_callbacksRegChanged</a></td></tr>
 <tr class="memdesc:ab9f7426ff4f24810799a167edd7998c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback, that are called when registry changed is invoked.  <br /></td></tr>
 <tr class="separator:ab9f7426ff4f24810799a167edd7998c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf33ddaf2097fe2bfd78947a18f1d1f7" id="r_abf33ddaf2097fe2bfd78947a18f1d1f7"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classug_1_1bridge_1_1_i_exported_class.html">IExportedClass</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1bridge_1_1_registry.html#abf33ddaf2097fe2bfd78947a18f1d1f7">m_vClass</a></td></tr>
@@ -394,7 +394,7 @@ template&lt;class TFunc &gt; </div>
         <tr>
           <td class="memname">void ug::bridge::Registry::add_callback </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__registry.html#ga7cdc310027b2c0bb3b0636017872fc20">FuncRegistryChanged</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="group__registry.html#gaa891fd58995caa69fea2f4a932a61bc1">FuncRegistryChanged</a>&#160;</td>
           <td class="paramname"><em>callback</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1290,7 +1290,7 @@ template&lt;typename TClass &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="group__registry.html#ga7cdc310027b2c0bb3b0636017872fc20">FuncRegistryChanged</a>&gt; ug::bridge::Registry::m_callbacksRegChanged</td>
+          <td class="memname">std::vector&lt;<a class="el" href="group__registry.html#gaa891fd58995caa69fea2f4a932a61bc1">FuncRegistryChanged</a>&gt; ug::bridge::Registry::m_callbacksRegChanged</td>
         </tr>
       </table>
   </td>
@@ -1395,7 +1395,7 @@ template&lt;typename TClass &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><b>bridge</b></li><li class="navelem"><a class="el" href="classug_1_1bridge_1_1_registry.html">Registry</a></li>
-    <li class="footer">Generated on Mon Jun 1 2026 03:47:15 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Jun 8 2026 03:45:21 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

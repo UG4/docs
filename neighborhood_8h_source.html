@@ -166,9 +166,9 @@ $(document).ready(function(){initNavTree('neighborhood_8h_source.html',''); init
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span><span class="keywordtype">void</span> <a class="code hl_function" href="group__lib__grid__algorithms__neighborhood__util.html#gada8aee34f6f23920bac25802273647e1">CollectNeighbors</a>(std::vector&lt;Vertex*&gt;&amp; vNeighborsOut,</div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>            Grid&amp; grid, Vertex* vrt, <a class="code hl_typedef" href="group__ugbase__common.html#ga91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> nbhType = <a class="code hl_enumvalue" href="group__lib__grid__algorithms__neighborhood__util.html#gga63180053a571de089489f4ddec67d29eadff5e68c803771e44b3b25cb5b7ccd5b">NHT_EDGE_NEIGHBORS</a>,</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>            <a class="code hl_typedef" href="structug_1_1_grid_1_1traits.html#a1bd114991c12becc6ca48862967dd9f2">Grid::edge_traits::callback</a> considerEdge  = ConsiderAll(),</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>            <a class="code hl_typedef" href="structug_1_1_grid_1_1traits.html#a1bd114991c12becc6ca48862967dd9f2">Grid::face_traits::callback</a> considerFace  = ConsiderAll(),</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>            <a class="code hl_typedef" href="structug_1_1_grid_1_1traits.html#a1bd114991c12becc6ca48862967dd9f2">Grid::volume_traits::callback</a> considerVol = ConsiderAll());</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>            <a class="code hl_typedef" href="structug_1_1_grid_1_1traits.html#a50775d2d85086fd6811de639a496a4c9">Grid::edge_traits::callback</a> considerEdge  = ConsiderAll(),</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>            <a class="code hl_typedef" href="structug_1_1_grid_1_1traits.html#a50775d2d85086fd6811de639a496a4c9">Grid::face_traits::callback</a> considerFace  = ConsiderAll(),</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>            <a class="code hl_typedef" href="structug_1_1_grid_1_1traits.html#a50775d2d85086fd6811de639a496a4c9">Grid::volume_traits::callback</a> considerVol = ConsiderAll());</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span><span class="comment">//  CollectNeighbors</span></div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
@@ -208,14 +208,14 @@ $(document).ready(function(){initNavTree('neighborhood_8h_source.html',''); init
 <div class="ttc" id="agroup__lib__grid__algorithms__neighborhood__util_html_gga63180053a571de089489f4ddec67d29eafda55ed687d9a7e72be5a55829a84768"><div class="ttname"><a href="group__lib__grid__algorithms__neighborhood__util.html#gga63180053a571de089489f4ddec67d29eafda55ed687d9a7e72be5a55829a84768">ug::NHT_ALL</a></div><div class="ttdeci">@ NHT_ALL</div><div class="ttdef"><b>Definition</b> neighborhood.h:59</div></div>
 <div class="ttc" id="agroup__ugbase__common_html_ga91ad9478d81a7aaf2593e8d9c3d06a14"><div class="ttname"><a href="group__ugbase__common.html#ga91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></div><div class="ttdeci">unsigned int uint</div><div class="ttdef"><b>Definition</b> types.h:114</div></div>
 <div class="ttc" id="anamespaceug_html"><div class="ttname"><a href="namespaceug.html">ug</a></div><div class="ttdoc">the ug namespace</div></div>
-<div class="ttc" id="astructug_1_1_grid_1_1traits_html_a1bd114991c12becc6ca48862967dd9f2"><div class="ttname"><a href="structug_1_1_grid_1_1traits.html#a1bd114991c12becc6ca48862967dd9f2">ug::Grid::traits&lt; Edge &gt;::callback</a></div><div class="ttdeci">boost::function&lt; bool(base_object *)&gt; callback</div><div class="ttdoc">callback type for the elements base type.</div><div class="ttdef"><b>Definition</b> grid.h:150</div></div>
+<div class="ttc" id="astructug_1_1_grid_1_1traits_html_a50775d2d85086fd6811de639a496a4c9"><div class="ttname"><a href="structug_1_1_grid_1_1traits.html#a50775d2d85086fd6811de639a496a4c9">ug::Grid::traits&lt; Edge &gt;::callback</a></div><div class="ttdeci">std::function&lt; bool(base_object *)&gt; callback</div><div class="ttdoc">callback type for the elements base type.</div><div class="ttdef"><b>Definition</b> grid.h:150</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_9cb5fcd0cbd108e4de7ac968a9e51f3d.html">lib_grid</a></li><li class="navelem"><a class="el" href="dir_67de3ae5db4b037e4dbbf65db91d4b1f.html">grid</a></li><li class="navelem"><a class="el" href="neighborhood_8h.html">neighborhood.h</a></li>
-    <li class="footer">Generated on Mon Jun 1 2026 03:46:50 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Jun 8 2026 03:44:53 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

@@ -156,7 +156,7 @@ $(document).ready(function(){initNavTree('load__balancing_8h_source.html',''); i
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>                TIterator begin, TIterator end,</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>                <span class="keywordtype">int</span> numCellsX, <span class="keywordtype">int</span> numCellsY, <span class="keywordtype">int</span> numCellsZ,</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>                TAAPos&amp; aaPos,</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>                <span class="keyword">typename</span> <a class="code hl_typedef" href="structug_1_1_grid_1_1traits.html#a1bd114991c12becc6ca48862967dd9f2">Grid::traits&lt;TElem&gt;::callback</a> cbConsiderElem</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>                <span class="keyword">typename</span> <a class="code hl_typedef" href="structug_1_1_grid_1_1traits.html#a50775d2d85086fd6811de639a496a4c9">Grid::traits&lt;TElem&gt;::callback</a> cbConsiderElem</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>                  = ConsiderAll(),</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>                <span class="keywordtype">int</span> bucketSubset = -1);</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
@@ -176,7 +176,7 @@ $(document).ready(function(){initNavTree('load__balancing_8h_source.html',''); i
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span><span class="keyword">template</span> &lt;<span class="keyword">class</span> TGeomBaseObj&gt;</div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span><span class="keywordtype">bool</span> <a class="code hl_function" href="namespaceug.html#a59dbc15acdc572a09c1998b241d09645">PartitionMultiGrid_MetisKway</a>(<a class="code hl_typedef" href="namespaceug.html#a4077697589380822c2f46b597f550f4b">SubsetHandler</a>&amp; shPartitionOut,</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>                  MultiGrid&amp; grid, <span class="keywordtype">int</span> numParts, <span class="keywordtype">size_t</span> baseLevel,</div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>                  boost::function&lt;<span class="keywordtype">int</span> (TGeomBaseObj*, TGeomBaseObj*)&gt;&amp; weightFct);</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>                  std::function&lt;<span class="keywordtype">int</span> (TGeomBaseObj*, TGeomBaseObj*)&gt;&amp; weightFct);</div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
 <div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span><span class="keyword">template</span> &lt;<span class="keyword">class</span> TGeomBaseObj&gt;</div>
@@ -207,7 +207,7 @@ $(document).ready(function(){initNavTree('load__balancing_8h_source.html',''); i
 <div class="ttc" id="anamespaceug_html_a59dbc15acdc572a09c1998b241d09645"><div class="ttname"><a href="namespaceug.html#a59dbc15acdc572a09c1998b241d09645">ug::PartitionMultiGrid_MetisKway</a></div><div class="ttdeci">bool PartitionMultiGrid_MetisKway(SubsetHandler &amp;shPartitionOut, MultiGrid &amp;mg, int numParts, size_t baseLevel, int hWeight, int vWeight)</div><div class="ttdoc">Partitions the elements in the multi-grid using the METIS library.</div><div class="ttdef"><b>Definition</b> load_balancing.cpp:137</div></div>
 <div class="ttc" id="anamespaceug_html_a9b919d6fab8988c440da7abd2df31538"><div class="ttname"><a href="namespaceug.html#a9b919d6fab8988c440da7abd2df31538">ug::PartitionMultiGridLevel_MetisKway</a></div><div class="ttdeci">bool PartitionMultiGridLevel_MetisKway(SubsetHandler &amp;shPartitionOut, MultiGrid &amp;mg, int numParts, size_t level)</div><div class="ttdoc">Partitions the elements in the multi-grid using the METIS library.</div><div class="ttdef"><b>Definition</b> load_balancing.cpp:327</div></div>
 <div class="ttc" id="aparallel__callbacks_8h_html"><div class="ttname"><a href="parallel__callbacks_8h.html">parallel_callbacks.h</a></div></div>
-<div class="ttc" id="astructug_1_1_grid_1_1traits_html_a1bd114991c12becc6ca48862967dd9f2"><div class="ttname"><a href="structug_1_1_grid_1_1traits.html#a1bd114991c12becc6ca48862967dd9f2">ug::Grid::traits::callback</a></div><div class="ttdeci">boost::function&lt; bool(base_object *)&gt; callback</div><div class="ttdoc">callback type for the elements base type.</div><div class="ttdef"><b>Definition</b> grid.h:150</div></div>
+<div class="ttc" id="astructug_1_1_grid_1_1traits_html_a50775d2d85086fd6811de639a496a4c9"><div class="ttname"><a href="structug_1_1_grid_1_1traits.html#a50775d2d85086fd6811de639a496a4c9">ug::Grid::traits::callback</a></div><div class="ttdeci">std::function&lt; bool(base_object *)&gt; callback</div><div class="ttdoc">callback type for the elements base type.</div><div class="ttdef"><b>Definition</b> grid.h:150</div></div>
 <div class="ttc" id="asubset__handler__grid_8h_html"><div class="ttname"><a href="subset__handler__grid_8h.html">subset_handler_grid.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -215,7 +215,7 @@ $(document).ready(function(){initNavTree('load__balancing_8h_source.html',''); i
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_9cb5fcd0cbd108e4de7ac968a9e51f3d.html">lib_grid</a></li><li class="navelem"><a class="el" href="dir_fb610924cf5d54adc79f1150f5e0edab.html">parallelization</a></li><li class="navelem"><a class="el" href="dir_7cc1a58c14e40f62afa13bc8589d2268.html">deprecated</a></li><li class="navelem"><a class="el" href="load__balancing_8h.html">load_balancing.h</a></li>
-    <li class="footer">Generated on Mon Jun 1 2026 03:46:50 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Jun 8 2026 03:44:53 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

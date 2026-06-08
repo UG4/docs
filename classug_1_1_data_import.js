@@ -1,6 +1,6 @@
 var classug_1_1_data_import =
 [
-    [ "LinDefectFunc", "classug_1_1_data_import.html#ab79a7136ded45cdad84f13f24644a916", null ],
+    [ "LinDefectFunc", "classug_1_1_data_import.html#a32b1cd01c30e1d40c8b6186fff5d83f3", null ],
     [ "DataImport", "classug_1_1_data_import.html#a7b38a9dc065ea05870e0088987df4f83", null ],
     [ "~DataImport", "classug_1_1_data_import.html#a44ffe75755067fdd9bf94698a8d327e1", null ],
     [ "add_jacobian", "classug_1_1_data_import.html#a153ebd6ade8da2fc599f17231e62b769", null ],

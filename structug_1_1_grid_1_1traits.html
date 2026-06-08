@@ -117,9 +117,9 @@ Public Types</h2></td></tr>
 <tr class="separator:a6a4053d9627daa465d66d24857a0a5a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77b8fd3f78313900ff505a7c4644b286" id="r_a77b8fd3f78313900ff505a7c4644b286"><td class="memItemLeft" align="right" valign="top">typedef TElem::grid_base_object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1_grid_1_1traits.html#a77b8fd3f78313900ff505a7c4644b286">base_object</a></td></tr>
 <tr class="separator:a77b8fd3f78313900ff505a7c4644b286"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bd114991c12becc6ca48862967dd9f2" id="r_a1bd114991c12becc6ca48862967dd9f2"><td class="memItemLeft" align="right" valign="top">typedef boost::function&lt; bool(<a class="el" href="structug_1_1_grid_1_1traits.html#a77b8fd3f78313900ff505a7c4644b286">base_object</a> *)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1_grid_1_1traits.html#a1bd114991c12becc6ca48862967dd9f2">callback</a></td></tr>
-<tr class="memdesc:a1bd114991c12becc6ca48862967dd9f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback type for the elements base type.  <br /></td></tr>
-<tr class="separator:a1bd114991c12becc6ca48862967dd9f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50775d2d85086fd6811de639a496a4c9" id="r_a50775d2d85086fd6811de639a496a4c9"><td class="memItemLeft" align="right" valign="top">typedef std::function&lt; bool(<a class="el" href="structug_1_1_grid_1_1traits.html#a77b8fd3f78313900ff505a7c4644b286">base_object</a> *)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1_grid_1_1traits.html#a50775d2d85086fd6811de639a496a4c9">callback</a></td></tr>
+<tr class="memdesc:a50775d2d85086fd6811de639a496a4c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback type for the elements base type.  <br /></td></tr>
+<tr class="separator:a50775d2d85086fd6811de639a496a4c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73e2fcb5139de065fbeba2fe75f859ae" id="r_a73e2fcb5139de065fbeba2fe75f859ae"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classug_1_1geometry__traits.html">geometry_traits</a>&lt; TElem &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1_grid_1_1traits.html#a73e2fcb5139de065fbeba2fe75f859ae">const_iterator</a></td></tr>
 <tr class="separator:a73e2fcb5139de065fbeba2fe75f859ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02d5dff43015e17046502b079990c054" id="r_a02d5dff43015e17046502b079990c054"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classug_1_1_element_storage.html">ug::ElementStorage</a>&lt; <a class="el" href="structug_1_1_grid_1_1traits.html#a77b8fd3f78313900ff505a7c4644b286">base_object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structug_1_1_grid_1_1traits.html#a02d5dff43015e17046502b079990c054">ElementStorage</a></td></tr>
@@ -183,8 +183,8 @@ template&lt;class TElem &gt; </div>
 
 </div>
 </div>
-<a id="a1bd114991c12becc6ca48862967dd9f2" name="a1bd114991c12becc6ca48862967dd9f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1bd114991c12becc6ca48862967dd9f2">&#9670;&#160;</a></span>callback</h2>
+<a id="a50775d2d85086fd6811de639a496a4c9" name="a50775d2d85086fd6811de639a496a4c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50775d2d85086fd6811de639a496a4c9">&#9670;&#160;</a></span>callback</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -192,7 +192,7 @@ template&lt;class TElem &gt; </div>
 template&lt;class TElem &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef boost::function&lt;bool (<a class="el" href="structug_1_1_grid_1_1traits.html#a77b8fd3f78313900ff505a7c4644b286">base_object</a>*)&gt; <a class="el" href="structug_1_1_grid_1_1traits.html">ug::Grid::traits</a>&lt; TElem &gt;::callback</td>
+          <td class="memname">typedef std::function&lt;bool (<a class="el" href="structug_1_1_grid_1_1traits.html#a77b8fd3f78313900ff505a7c4644b286">base_object</a>*)&gt; <a class="el" href="structug_1_1_grid_1_1traits.html">ug::Grid::traits</a>&lt; TElem &gt;::callback</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -290,7 +290,7 @@ template&lt;class TElem &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_grid.html">Grid</a></li><li class="navelem"><a class="el" href="structug_1_1_grid_1_1traits.html">traits</a></li>
-    <li class="footer">Generated on Mon Jun 1 2026 03:47:02 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Jun 8 2026 03:45:06 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

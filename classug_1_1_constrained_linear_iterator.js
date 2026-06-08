@@ -1,7 +1,7 @@
 var classug_1_1_constrained_linear_iterator =
 [
     [ "apply_update_defect_impl", "structug_1_1_constrained_linear_iterator_1_1apply__update__defect__impl.html", "structug_1_1_constrained_linear_iterator_1_1apply__update__defect__impl" ],
-    [ "apply_update_defect_impl< S, typename boost::enable_if< boost::is_base_of< IPreconditioner< TAlgebra >, S > >::type >", "structug_1_1_constrained_linear_iterator_1_1apply__update__defect__impl_3_01_s_00_01typename_01b310bc2fcf5ee106b57194deac7e3da2e.html", "structug_1_1_constrained_linear_iterator_1_1apply__update__defect__impl_3_01_s_00_01typename_01b310bc2fcf5ee106b57194deac7e3da2e" ],
+    [ "apply_update_defect_impl< S, typename std::enable_if< std::is_base_of< IPreconditioner< TAlgebra >, S >::value >::type >", "structug_1_1_constrained_linear_iterator_1_1apply__update__defect__impl_3_01_s_00_01typename_01s31da3b36b5fe7174b5ee827df104681f.html", "structug_1_1_constrained_linear_iterator_1_1apply__update__defect__impl_3_01_s_00_01typename_01s31da3b36b5fe7174b5ee827df104681f" ],
     [ "base_type", "classug_1_1_constrained_linear_iterator.html#aa5821f73910d978eb02119dbe180536f", null ],
     [ "gf_type", "classug_1_1_constrained_linear_iterator.html#a572bbc0c2494d471b2148e89993b855d", null ],
     [ "vector_type", "classug_1_1_constrained_linear_iterator.html#ab4eaafbe343ae3886a29b665aca2ef5e", null ],

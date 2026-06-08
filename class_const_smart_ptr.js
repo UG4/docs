@@ -1,5 +1,6 @@
 var class_const_smart_ptr =
 [
+    [ "element_type", "class_const_smart_ptr.html#a5fb1957395a96098210149c4a9f49963", null ],
     [ "ConstSmartPtr", "class_const_smart_ptr.html#a8a893deeb9d5d1c11c4264676cd20640", null ],
     [ "ConstSmartPtr", "class_const_smart_ptr.html#a466c9a35bf81996db31b7ba86228f849", null ],
     [ "ConstSmartPtr", "class_const_smart_ptr.html#aa6c69d94063587da1584e7bbee434342", null ],

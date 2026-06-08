@@ -125,14 +125,14 @@ Functions</h2></td></tr>
 <tr class="memdesc:gaf931eaa7c43bd6777b19c2d8e624bc0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">given a list of edges, this method collects associated vertices in a polychain  <br /></td></tr>
 <tr class="separator:gaf931eaa7c43bd6777b19c2d8e624bc0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3169521f903204a5df10d043005aa1be" id="r_ga3169521f903204a5df10d043005aa1be"><td class="memTemplParams" colspan="2">template&lt;class TEdgeIterator &gt; </td></tr>
-<tr class="memitem:ga3169521f903204a5df10d043005aa1be"><td class="memTemplItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="classug_1_1_vertex.html">Vertex</a> *, <a class="el" href="classug_1_1_edge.html">Edge</a> * &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__polychain__util.html#ga3169521f903204a5df10d043005aa1be">ug::GetFirstSectionOfPolyChain</a> (<a class="el" href="classug_1_1_grid.html">Grid</a> &amp;grid, TEdgeIterator edgesBegin, TEdgeIterator edgesEnd, <a class="el" href="structug_1_1_grid_1_1traits.html#a1bd114991c12becc6ca48862967dd9f2">Grid::edge_traits::callback</a> cbEdgeIsInPolyChain)</td></tr>
+<tr class="memitem:ga3169521f903204a5df10d043005aa1be"><td class="memTemplItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="classug_1_1_vertex.html">Vertex</a> *, <a class="el" href="classug_1_1_edge.html">Edge</a> * &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__polychain__util.html#ga3169521f903204a5df10d043005aa1be">ug::GetFirstSectionOfPolyChain</a> (<a class="el" href="classug_1_1_grid.html">Grid</a> &amp;grid, TEdgeIterator edgesBegin, TEdgeIterator edgesEnd, <a class="el" href="structug_1_1_grid_1_1traits.html#a50775d2d85086fd6811de639a496a4c9">Grid::edge_traits::callback</a> cbEdgeIsInPolyChain)</td></tr>
 <tr class="memdesc:ga3169521f903204a5df10d043005aa1be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the start-vertex and start-edge of a polygonal chain.  <br /></td></tr>
 <tr class="separator:ga3169521f903204a5df10d043005aa1be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga62c755743eeea86198da2e6346d90ac2" id="r_ga62c755743eeea86198da2e6346d90ac2"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="classug_1_1_vertex.html">Vertex</a> *, <a class="el" href="classug_1_1_edge.html">Edge</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__polychain__util.html#ga62c755743eeea86198da2e6346d90ac2">ug::GetNextSectionOfPolyChain</a> (<a class="el" href="classug_1_1_grid.html">Grid</a> &amp;grid, std::pair&lt; <a class="el" href="classug_1_1_vertex.html">Vertex</a> *, <a class="el" href="classug_1_1_edge.html">Edge</a> * &gt; lastSection, <a class="el" href="structug_1_1_grid_1_1traits.html#a1bd114991c12becc6ca48862967dd9f2">Grid::edge_traits::callback</a> cbEdgeIsInPolyChain)</td></tr>
+<tr class="memitem:ga62c755743eeea86198da2e6346d90ac2" id="r_ga62c755743eeea86198da2e6346d90ac2"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="classug_1_1_vertex.html">Vertex</a> *, <a class="el" href="classug_1_1_edge.html">Edge</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__polychain__util.html#ga62c755743eeea86198da2e6346d90ac2">ug::GetNextSectionOfPolyChain</a> (<a class="el" href="classug_1_1_grid.html">Grid</a> &amp;grid, std::pair&lt; <a class="el" href="classug_1_1_vertex.html">Vertex</a> *, <a class="el" href="classug_1_1_edge.html">Edge</a> * &gt; lastSection, <a class="el" href="structug_1_1_grid_1_1traits.html#a50775d2d85086fd6811de639a496a4c9">Grid::edge_traits::callback</a> cbEdgeIsInPolyChain)</td></tr>
 <tr class="memdesc:ga62c755743eeea86198da2e6346d90ac2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the next section in a polygonal chain.  <br /></td></tr>
 <tr class="separator:ga62c755743eeea86198da2e6346d90ac2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga14dfab30fa174708124ff9d604695ce1" id="r_ga14dfab30fa174708124ff9d604695ce1"><td class="memTemplParams" colspan="2">template&lt;class TEdgeIterator &gt; </td></tr>
-<tr class="memitem:ga14dfab30fa174708124ff9d604695ce1"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__polychain__util.html#ga14dfab30fa174708124ff9d604695ce1">ug::GetPolyChainType</a> (<a class="el" href="classug_1_1_grid.html">Grid</a> &amp;grid, TEdgeIterator edgesBegin, TEdgeIterator edgesEnd, <a class="el" href="structug_1_1_grid_1_1traits.html#a1bd114991c12becc6ca48862967dd9f2">Grid::edge_traits::callback</a> cbEdgeIsInPolyChain)</td></tr>
+<tr class="memitem:ga14dfab30fa174708124ff9d604695ce1"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__polychain__util.html#ga14dfab30fa174708124ff9d604695ce1">ug::GetPolyChainType</a> (<a class="el" href="classug_1_1_grid.html">Grid</a> &amp;grid, TEdgeIterator edgesBegin, TEdgeIterator edgesEnd, <a class="el" href="structug_1_1_grid_1_1traits.html#a50775d2d85086fd6811de639a496a4c9">Grid::edge_traits::callback</a> cbEdgeIsInPolyChain)</td></tr>
 <tr class="memdesc:ga14dfab30fa174708124ff9d604695ce1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns an or combination of constants enumerated in PolyChainTypes.  <br /></td></tr>
 <tr class="separator:ga14dfab30fa174708124ff9d604695ce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga75568f0b7fca5283caf4bd72371eaeac" id="r_ga75568f0b7fca5283caf4bd72371eaeac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__polychain__util.html#ga75568f0b7fca5283caf4bd72371eaeac">ug::SplitIrregularPolyChain</a> (<a class="el" href="namespaceug.html#a4077697589380822c2f46b597f550f4b">SubsetHandler</a> &amp;sh, int srcIndex, int targetIndex)</td></tr>
@@ -243,7 +243,7 @@ template&lt;class TEdgeIterator &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structug_1_1_grid_1_1traits.html#a1bd114991c12becc6ca48862967dd9f2">Grid::edge_traits::callback</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="structug_1_1_grid_1_1traits.html#a50775d2d85086fd6811de639a496a4c9">Grid::edge_traits::callback</a>&#160;</td>
           <td class="paramname"><em>cbEdgeIsInPolyChain</em>&#160;</td>
         </tr>
         <tr>
@@ -288,7 +288,7 @@ template&lt;class TEdgeIterator &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structug_1_1_grid_1_1traits.html#a1bd114991c12becc6ca48862967dd9f2">Grid::edge_traits::callback</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="structug_1_1_grid_1_1traits.html#a50775d2d85086fd6811de639a496a4c9">Grid::edge_traits::callback</a>&#160;</td>
           <td class="paramname"><em>cbEdgeIsInPolyChain</em>&#160;</td>
         </tr>
         <tr>
@@ -340,7 +340,7 @@ template&lt;class TEdgeIterator &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structug_1_1_grid_1_1traits.html#a1bd114991c12becc6ca48862967dd9f2">Grid::edge_traits::callback</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="structug_1_1_grid_1_1traits.html#a50775d2d85086fd6811de639a496a4c9">Grid::edge_traits::callback</a>&#160;</td>
           <td class="paramname"><em>cbEdgeIsInPolyChain</em>&#160;</td>
         </tr>
         <tr>
@@ -407,7 +407,7 @@ template&lt;class TEdgeIterator &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jun 1 2026 03:46:53 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Jun 8 2026 03:44:56 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

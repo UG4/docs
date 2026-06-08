@@ -140,100 +140,106 @@ $(document).ready(function(){initNavTree('message__hub__impl_8hpp_source.html','
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#ifndef __H__UG__message_hub_impl__</span></div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#define __H__UG__message_hub_impl__</span></div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceug.html">ug</a></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>{</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keyword">template</span> &lt;<span class="keyword">class</span> TMsg&gt;</div>
-<div class="foldopen" id="foldopen00041" data-start="{" data-end="}">
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="classug_1_1_message_hub.html#aacc3840b28371c5895f7b481da831df8">   41</a></span><a class="code hl_class" href="class_smart_ptr.html">MessageHub::SPCallbackId</a> <a class="code hl_function" href="classug_1_1_message_hub.html#aacc3840b28371c5895f7b481da831df8">MessageHub::</a></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><a class="code hl_function" href="classug_1_1_message_hub.html#aacc3840b28371c5895f7b481da831df8">register_function_callback</a>(<span class="keywordtype">void</span> (*callback)(<span class="keyword">const</span> TMsg&amp;),</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>               <span class="keywordtype">bool</span> autoFree)</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>{</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>  <span class="keyword">typedef</span> void (*FuncCallback)(<span class="keyword">const</span> <a class="code hl_class" href="classug_1_1_message_hub_1_1_i_message.html">IMessage</a>&amp;);</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>  <span class="keywordflow">return</span> register_callback_impl&lt;TMsg&gt;((FuncCallback)callback, autoFree);</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>}</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="comment">// #include &lt;boost/bind.hpp&gt; // for boost::bind</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceug.html">ug</a></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>{</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keyword">template</span> &lt;<span class="keyword">class</span> TMsg&gt;</div>
+<div class="foldopen" id="foldopen00043" data-start="{" data-end="}">
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="classug_1_1_message_hub.html#aacc3840b28371c5895f7b481da831df8">   43</a></span><a class="code hl_class" href="class_smart_ptr.html">MessageHub::SPCallbackId</a> <a class="code hl_function" href="classug_1_1_message_hub.html#aacc3840b28371c5895f7b481da831df8">MessageHub::</a></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><a class="code hl_function" href="classug_1_1_message_hub.html#aacc3840b28371c5895f7b481da831df8">register_function_callback</a>(<span class="keywordtype">void</span> (*callback)(<span class="keyword">const</span> TMsg&amp;),</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>               <span class="keywordtype">bool</span> autoFree)</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>{</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>  <span class="keyword">typedef</span> void (*FuncCallback)(<span class="keyword">const</span> <a class="code hl_class" href="classug_1_1_message_hub_1_1_i_message.html">IMessage</a>&amp;);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>  <span class="keywordflow">return</span> register_callback_impl&lt;TMsg&gt;((FuncCallback)callback, autoFree);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>}</div>
 </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="keyword">template</span> &lt;<span class="keyword">class</span> TMsg, <span class="keyword">class</span> TClass&gt;</div>
-<div class="foldopen" id="foldopen00052" data-start="{" data-end="}">
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="classug_1_1_message_hub.html#aa8adeb5bd4b0a18303bea2152e4163a1">   52</a></span><a class="code hl_class" href="class_smart_ptr.html">MessageHub::SPCallbackId</a> <a class="code hl_function" href="classug_1_1_message_hub.html#aa8adeb5bd4b0a18303bea2152e4163a1">MessageHub::</a></div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><a class="code hl_function" href="classug_1_1_message_hub.html#aa8adeb5bd4b0a18303bea2152e4163a1">register_class_callback</a>(TClass* cls,</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>            <span class="keywordtype">void</span> (TClass::*callback)(const TMsg&amp;),</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>            bool autoFree)</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>{</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  <span class="keyword">typedef</span> void (TClass::*ClassCallback)(<span class="keyword">const</span> <a class="code hl_class" href="classug_1_1_message_hub_1_1_i_message.html">IMessage</a>&amp;);</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  <span class="keywordflow">return</span> register_callback_impl&lt;TMsg&gt;(</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>          boost::bind((ClassCallback)callback, cls, _1),</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>          autoFree);</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>}</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="keyword">template</span> &lt;<span class="keyword">class</span> TMsg, <span class="keyword">class</span> TClass&gt;</div>
+<div class="foldopen" id="foldopen00054" data-start="{" data-end="}">
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="classug_1_1_message_hub.html#aa8adeb5bd4b0a18303bea2152e4163a1">   54</a></span><a class="code hl_class" href="class_smart_ptr.html">MessageHub::SPCallbackId</a> <a class="code hl_function" href="classug_1_1_message_hub.html#aa8adeb5bd4b0a18303bea2152e4163a1">MessageHub::</a></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><a class="code hl_function" href="classug_1_1_message_hub.html#aa8adeb5bd4b0a18303bea2152e4163a1">register_class_callback</a>(TClass* cls,</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>            <span class="keywordtype">void</span> (TClass::*callback)(const TMsg&amp;),</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>            bool autoFree)</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>{</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  <span class="keyword">typedef</span> void (TClass::*ClassCallback)(<span class="keyword">const</span> <a class="code hl_class" href="classug_1_1_message_hub_1_1_i_message.html">IMessage</a>&amp;);</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  <span class="keywordflow">return</span> register_callback_impl&lt;TMsg&gt;(</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>          <span class="comment">//boost::bind((ClassCallback)callback, cls, _1),</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>          [callback, cls](<span class="keyword">const</span> <a class="code hl_class" href="classug_1_1_message_hub_1_1_i_message.html">IMessage</a>&amp; msg) {</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>                <span class="keyword">auto</span> <span class="keyword">const</span>&amp; derived = <span class="keyword">static_cast&lt;</span><span class="keyword">const </span>TMsg&amp;<span class="keyword">&gt;</span>(msg);</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>            (cls-&gt;*callback)(derived);</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>            },</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>          autoFree);</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>}</div>
 </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="keyword">template</span> &lt;<span class="keyword">class</span> TMsg&gt;</div>
-<div class="foldopen" id="foldopen00066" data-start="{" data-end="}">
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="classug_1_1_message_hub.html#a40111bb2bbf3c962d21d22e661ca6ea6">   66</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="classug_1_1_message_hub.html#a40111bb2bbf3c962d21d22e661ca6ea6">MessageHub::</a></div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><a class="code hl_function" href="classug_1_1_message_hub.html#a40111bb2bbf3c962d21d22e661ca6ea6">post_message</a>(<span class="keyword">const</span> TMsg&amp; msg)</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>{</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>  <span class="keywordtype">size_t</span> <span class="keywordtype">id</span> = GetUniqueTypeID&lt;TMsg&gt;();</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="comment">//  call the callbacks</span></div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>  <a class="code hl_typedef" href="classug_1_1_message_hub.html#a3e507ab57b59053770cb9a1aa7bba1db">CallbackEntryList</a>&amp; callbacks = <a class="code hl_variable" href="classug_1_1_message_hub.html#a37160c8b1aa8a8a718411a7b6063c644">m_callbackMap</a>[id];</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  <span class="keywordflow">for</span>(CallbackEntryList::iterator iter = callbacks.begin();</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    iter != callbacks.end(); ++iter)</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>  {</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    iter-&gt;m_callback(msg);</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>  }</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>}</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="keyword">template</span> &lt;<span class="keyword">class</span> TMsg&gt;</div>
+<div class="foldopen" id="foldopen00072" data-start="{" data-end="}">
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="classug_1_1_message_hub.html#a40111bb2bbf3c962d21d22e661ca6ea6">   72</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="classug_1_1_message_hub.html#a40111bb2bbf3c962d21d22e661ca6ea6">MessageHub::</a></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><a class="code hl_function" href="classug_1_1_message_hub.html#a40111bb2bbf3c962d21d22e661ca6ea6">post_message</a>(<span class="keyword">const</span> TMsg&amp; msg)</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>{</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>  <span class="keywordtype">size_t</span> <span class="keywordtype">id</span> = GetUniqueTypeID&lt;TMsg&gt;();</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="comment">//  call the callbacks</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>  <a class="code hl_typedef" href="classug_1_1_message_hub.html#a3e507ab57b59053770cb9a1aa7bba1db">CallbackEntryList</a>&amp; callbacks = <a class="code hl_variable" href="classug_1_1_message_hub.html#a37160c8b1aa8a8a718411a7b6063c644">m_callbackMap</a>[id];</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>  <span class="keywordflow">for</span>(CallbackEntryList::iterator iter = callbacks.begin();</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    iter != callbacks.end(); ++iter)</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>  {</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    iter-&gt;m_callback(msg);</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>  }</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>}</div>
 </div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="keyword">template</span> &lt;<span class="keyword">class</span> TMsg&gt;</div>
-<div class="foldopen" id="foldopen00082" data-start="{" data-end="}">
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="classug_1_1_message_hub.html#a5745fead7134d127e4010aca5c2936dc">   82</a></span><a class="code hl_class" href="class_smart_ptr.html">MessageHub::SPCallbackId</a> <a class="code hl_function" href="classug_1_1_message_hub.html#a5745fead7134d127e4010aca5c2936dc">MessageHub::</a></div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span><a class="code hl_function" href="classug_1_1_message_hub.html#a5745fead7134d127e4010aca5c2936dc">register_callback_impl</a>(boost::function&lt;<span class="keywordtype">void</span> (<span class="keyword">const</span> <a class="code hl_class" href="classug_1_1_message_hub_1_1_i_message.html">IMessage</a>&amp;)&gt; callback,</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>             <span class="keywordtype">bool</span> autoFree)</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>{</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>  <span class="keywordtype">size_t</span> <span class="keywordtype">id</span> = GetUniqueTypeID&lt;TMsg&gt;();</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>  <a class="code hl_typedef" href="classug_1_1_message_hub.html#a3e507ab57b59053770cb9a1aa7bba1db">CallbackEntryList</a>&amp; callbacks = <a class="code hl_variable" href="classug_1_1_message_hub.html#a37160c8b1aa8a8a718411a7b6063c644">m_callbackMap</a>[id];</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>  <a class="code hl_typedef" href="classug_1_1_message_hub.html#a2dfaa01ba17cb450b78ed57fb4301d13">CallbackEntryIterator</a> cbIter = callbacks.insert(callbacks.end(),</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>                          <a class="code hl_struct" href="structug_1_1_message_hub_1_1_callback_entry.html">CallbackEntry</a>(callback, NULL));</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>  <a class="code hl_class" href="classug_1_1_message_hub_1_1_callback_id.html">CallbackId</a>* cbId = <span class="keyword">new</span> <a class="code hl_class" href="classug_1_1_message_hub_1_1_callback_id.html">CallbackId</a>(<span class="keyword">this</span>, <span class="keywordtype">id</span>, cbIter, autoFree);</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>  cbIter-&gt;m_callbackId = cbId;</div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>  <span class="keywordflow">return</span> <a class="code hl_typedef" href="classug_1_1_message_hub.html#a69978bd3e22f6b59e6b8c06157894dcf">SPCallbackId</a>(cbId);</div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>}</div>
-</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span><span class="keyword">template</span> &lt;<span class="keyword">class</span> TMsg&gt;</div>
+<div class="foldopen" id="foldopen00088" data-start="{" data-end="}">
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="classug_1_1_message_hub.html#a1f3d6658e86b0353768d9ec91ee93593">   88</a></span><a class="code hl_class" href="class_smart_ptr.html">MessageHub::SPCallbackId</a> <a class="code hl_function" href="classug_1_1_message_hub.html#a1f3d6658e86b0353768d9ec91ee93593">MessageHub::</a></div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><a class="code hl_function" href="classug_1_1_message_hub.html#a1f3d6658e86b0353768d9ec91ee93593">register_callback_impl</a>(std::function&lt;<span class="keywordtype">void</span> (<span class="keyword">const</span> <a class="code hl_class" href="classug_1_1_message_hub_1_1_i_message.html">IMessage</a>&amp;)&gt; callback,</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>             <span class="keywordtype">bool</span> autoFree)</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>{</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>  <span class="keywordtype">size_t</span> <span class="keywordtype">id</span> = GetUniqueTypeID&lt;TMsg&gt;();</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>  <a class="code hl_typedef" href="classug_1_1_message_hub.html#a3e507ab57b59053770cb9a1aa7bba1db">CallbackEntryList</a>&amp; callbacks = <a class="code hl_variable" href="classug_1_1_message_hub.html#a37160c8b1aa8a8a718411a7b6063c644">m_callbackMap</a>[id];</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>  <a class="code hl_typedef" href="classug_1_1_message_hub.html#a2dfaa01ba17cb450b78ed57fb4301d13">CallbackEntryIterator</a> cbIter = callbacks.insert(callbacks.end(),</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>                          <a class="code hl_struct" href="structug_1_1_message_hub_1_1_callback_entry.html">CallbackEntry</a>(callback, NULL));</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>  <a class="code hl_class" href="classug_1_1_message_hub_1_1_callback_id.html">CallbackId</a>* cbId = <span class="keyword">new</span> <a class="code hl_class" href="classug_1_1_message_hub_1_1_callback_id.html">CallbackId</a>(<span class="keyword">this</span>, <span class="keywordtype">id</span>, cbIter, autoFree);</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>}<span class="comment">// end of namespace</span></div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>  cbIter-&gt;m_callbackId = cbId;</div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>  <span class="keywordflow">return</span> <a class="code hl_typedef" href="classug_1_1_message_hub.html#a69978bd3e22f6b59e6b8c06157894dcf">SPCallbackId</a>(cbId);</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>}</div>
+</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>}<span class="comment">// end of namespace</span></div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aclass_smart_ptr_html"><div class="ttname"><a href="class_smart_ptr.html">SmartPtr&lt; CallbackId &gt;</a></div></div>
-<div class="ttc" id="aclassug_1_1_message_hub_1_1_callback_id_html"><div class="ttname"><a href="classug_1_1_message_hub_1_1_callback_id.html">ug::MessageHub::CallbackId</a></div><div class="ttdoc">The callback-id allows to deregister previously registered callbacks.</div><div class="ttdef"><b>Definition</b> message_hub.h:148</div></div>
-<div class="ttc" id="aclassug_1_1_message_hub_1_1_i_message_html"><div class="ttname"><a href="classug_1_1_message_hub_1_1_i_message.html">ug::MessageHub::IMessage</a></div><div class="ttdoc">This is the base class of all messages, which may be passed to callbacks.</div><div class="ttdef"><b>Definition</b> message_hub.h:133</div></div>
-<div class="ttc" id="aclassug_1_1_message_hub_html_a2dfaa01ba17cb450b78ed57fb4301d13"><div class="ttname"><a href="classug_1_1_message_hub.html#a2dfaa01ba17cb450b78ed57fb4301d13">ug::MessageHub::CallbackEntryIterator</a></div><div class="ttdeci">CallbackEntryList::iterator CallbackEntryIterator</div><div class="ttdef"><b>Definition</b> message_hub.h:103</div></div>
-<div class="ttc" id="aclassug_1_1_message_hub_html_a37160c8b1aa8a8a718411a7b6063c644"><div class="ttname"><a href="classug_1_1_message_hub.html#a37160c8b1aa8a8a718411a7b6063c644">ug::MessageHub::m_callbackMap</a></div><div class="ttdeci">CallbackMap m_callbackMap</div><div class="ttdoc">given a msg-type-id, this map returns a list of associated callbacks</div><div class="ttdef"><b>Definition</b> message_hub.h:246</div></div>
-<div class="ttc" id="aclassug_1_1_message_hub_html_a3e507ab57b59053770cb9a1aa7bba1db"><div class="ttname"><a href="classug_1_1_message_hub.html#a3e507ab57b59053770cb9a1aa7bba1db">ug::MessageHub::CallbackEntryList</a></div><div class="ttdeci">std::list&lt; CallbackEntry &gt; CallbackEntryList</div><div class="ttdef"><b>Definition</b> message_hub.h:102</div></div>
-<div class="ttc" id="aclassug_1_1_message_hub_html_a40111bb2bbf3c962d21d22e661ca6ea6"><div class="ttname"><a href="classug_1_1_message_hub.html#a40111bb2bbf3c962d21d22e661ca6ea6">ug::MessageHub::post_message</a></div><div class="ttdeci">void post_message(const TMsg &amp;msg)</div><div class="ttdoc">Posts a message to all callbacks which are registered for the given message tpye.</div><div class="ttdef"><b>Definition</b> message_hub_impl.hpp:67</div></div>
-<div class="ttc" id="aclassug_1_1_message_hub_html_a5745fead7134d127e4010aca5c2936dc"><div class="ttname"><a href="classug_1_1_message_hub.html#a5745fead7134d127e4010aca5c2936dc">ug::MessageHub::register_callback_impl</a></div><div class="ttdeci">SPCallbackId register_callback_impl(boost::function&lt; void(const IMessage &amp;)&gt; callback, bool autoFree)</div><div class="ttdoc">registers a callback given a message-id.</div><div class="ttdef"><b>Definition</b> message_hub_impl.hpp:83</div></div>
-<div class="ttc" id="aclassug_1_1_message_hub_html_a69978bd3e22f6b59e6b8c06157894dcf"><div class="ttname"><a href="classug_1_1_message_hub.html#a69978bd3e22f6b59e6b8c06157894dcf">ug::MessageHub::SPCallbackId</a></div><div class="ttdeci">SmartPtr&lt; CallbackId &gt; SPCallbackId</div><div class="ttdef"><b>Definition</b> message_hub.h:166</div></div>
-<div class="ttc" id="aclassug_1_1_message_hub_html_aa8adeb5bd4b0a18303bea2152e4163a1"><div class="ttname"><a href="classug_1_1_message_hub.html#aa8adeb5bd4b0a18303bea2152e4163a1">ug::MessageHub::register_class_callback</a></div><div class="ttdeci">SPCallbackId register_class_callback(TClass *cls, void(TClass::*callback)(const TMsg &amp;), bool autoFree=true)</div><div class="ttdoc">registers a method callback given a message-type.</div><div class="ttdef"><b>Definition</b> message_hub_impl.hpp:53</div></div>
-<div class="ttc" id="aclassug_1_1_message_hub_html_aacc3840b28371c5895f7b481da831df8"><div class="ttname"><a href="classug_1_1_message_hub.html#aacc3840b28371c5895f7b481da831df8">ug::MessageHub::register_function_callback</a></div><div class="ttdeci">SPCallbackId register_function_callback(void(*callback)(const TMsg &amp;), bool autoFree=false)</div><div class="ttdoc">registers a function callback given a message-type.</div><div class="ttdef"><b>Definition</b> message_hub_impl.hpp:42</div></div>
+<div class="ttc" id="aclassug_1_1_message_hub_1_1_callback_id_html"><div class="ttname"><a href="classug_1_1_message_hub_1_1_callback_id.html">ug::MessageHub::CallbackId</a></div><div class="ttdoc">The callback-id allows to deregister previously registered callbacks.</div><div class="ttdef"><b>Definition</b> message_hub.h:147</div></div>
+<div class="ttc" id="aclassug_1_1_message_hub_1_1_i_message_html"><div class="ttname"><a href="classug_1_1_message_hub_1_1_i_message.html">ug::MessageHub::IMessage</a></div><div class="ttdoc">This is the base class of all messages, which may be passed to callbacks.</div><div class="ttdef"><b>Definition</b> message_hub.h:132</div></div>
+<div class="ttc" id="aclassug_1_1_message_hub_html_a1f3d6658e86b0353768d9ec91ee93593"><div class="ttname"><a href="classug_1_1_message_hub.html#a1f3d6658e86b0353768d9ec91ee93593">ug::MessageHub::register_callback_impl</a></div><div class="ttdeci">SPCallbackId register_callback_impl(std::function&lt; void(const IMessage &amp;)&gt; callback, bool autoFree)</div><div class="ttdoc">registers a callback given a message-id.</div><div class="ttdef"><b>Definition</b> message_hub_impl.hpp:89</div></div>
+<div class="ttc" id="aclassug_1_1_message_hub_html_a2dfaa01ba17cb450b78ed57fb4301d13"><div class="ttname"><a href="classug_1_1_message_hub.html#a2dfaa01ba17cb450b78ed57fb4301d13">ug::MessageHub::CallbackEntryIterator</a></div><div class="ttdeci">CallbackEntryList::iterator CallbackEntryIterator</div><div class="ttdef"><b>Definition</b> message_hub.h:102</div></div>
+<div class="ttc" id="aclassug_1_1_message_hub_html_a37160c8b1aa8a8a718411a7b6063c644"><div class="ttname"><a href="classug_1_1_message_hub.html#a37160c8b1aa8a8a718411a7b6063c644">ug::MessageHub::m_callbackMap</a></div><div class="ttdeci">CallbackMap m_callbackMap</div><div class="ttdoc">given a msg-type-id, this map returns a list of associated callbacks</div><div class="ttdef"><b>Definition</b> message_hub.h:245</div></div>
+<div class="ttc" id="aclassug_1_1_message_hub_html_a3e507ab57b59053770cb9a1aa7bba1db"><div class="ttname"><a href="classug_1_1_message_hub.html#a3e507ab57b59053770cb9a1aa7bba1db">ug::MessageHub::CallbackEntryList</a></div><div class="ttdeci">std::list&lt; CallbackEntry &gt; CallbackEntryList</div><div class="ttdef"><b>Definition</b> message_hub.h:101</div></div>
+<div class="ttc" id="aclassug_1_1_message_hub_html_a40111bb2bbf3c962d21d22e661ca6ea6"><div class="ttname"><a href="classug_1_1_message_hub.html#a40111bb2bbf3c962d21d22e661ca6ea6">ug::MessageHub::post_message</a></div><div class="ttdeci">void post_message(const TMsg &amp;msg)</div><div class="ttdoc">Posts a message to all callbacks which are registered for the given message tpye.</div><div class="ttdef"><b>Definition</b> message_hub_impl.hpp:73</div></div>
+<div class="ttc" id="aclassug_1_1_message_hub_html_a69978bd3e22f6b59e6b8c06157894dcf"><div class="ttname"><a href="classug_1_1_message_hub.html#a69978bd3e22f6b59e6b8c06157894dcf">ug::MessageHub::SPCallbackId</a></div><div class="ttdeci">SmartPtr&lt; CallbackId &gt; SPCallbackId</div><div class="ttdef"><b>Definition</b> message_hub.h:165</div></div>
+<div class="ttc" id="aclassug_1_1_message_hub_html_aa8adeb5bd4b0a18303bea2152e4163a1"><div class="ttname"><a href="classug_1_1_message_hub.html#aa8adeb5bd4b0a18303bea2152e4163a1">ug::MessageHub::register_class_callback</a></div><div class="ttdeci">SPCallbackId register_class_callback(TClass *cls, void(TClass::*callback)(const TMsg &amp;), bool autoFree=true)</div><div class="ttdoc">registers a method callback given a message-type.</div><div class="ttdef"><b>Definition</b> message_hub_impl.hpp:55</div></div>
+<div class="ttc" id="aclassug_1_1_message_hub_html_aacc3840b28371c5895f7b481da831df8"><div class="ttname"><a href="classug_1_1_message_hub.html#aacc3840b28371c5895f7b481da831df8">ug::MessageHub::register_function_callback</a></div><div class="ttdeci">SPCallbackId register_function_callback(void(*callback)(const TMsg &amp;), bool autoFree=false)</div><div class="ttdoc">registers a function callback given a message-type.</div><div class="ttdef"><b>Definition</b> message_hub_impl.hpp:44</div></div>
 <div class="ttc" id="anamespaceug_html"><div class="ttname"><a href="namespaceug.html">ug</a></div><div class="ttdoc">the ug namespace</div></div>
-<div class="ttc" id="astructug_1_1_message_hub_1_1_callback_entry_html"><div class="ttname"><a href="structug_1_1_message_hub_1_1_callback_entry.html">ug::MessageHub::CallbackEntry</a></div><div class="ttdoc">The CallbackEntry holds the actual callback and the associated callback-id.</div><div class="ttdef"><b>Definition</b> message_hub.h:96</div></div>
+<div class="ttc" id="astructug_1_1_message_hub_1_1_callback_entry_html"><div class="ttname"><a href="structug_1_1_message_hub_1_1_callback_entry.html">ug::MessageHub::CallbackEntry</a></div><div class="ttdoc">The CallbackEntry holds the actual callback and the associated callback-id.</div><div class="ttdef"><b>Definition</b> message_hub.h:95</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_8c26a127a0eea13c4724b5310584fbab.html">common</a></li><li class="navelem"><a class="el" href="dir_80120806c2c1f53b064b2e13fe6efa8a.html">util</a></li><li class="navelem"><a class="el" href="message__hub__impl_8hpp.html">message_hub_impl.hpp</a></li>
-    <li class="footer">Generated on Mon Jun 1 2026 03:46:17 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Jun 8 2026 03:44:15 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

@@ -420,13 +420,13 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-types" name="pri-types"></a>
 Private Types</h2></td></tr>
-<tr class="memitem:ab0f6d48f2d67c8763b44be872dc526c0" id="r_ab0f6d48f2d67c8763b44be872dc526c0"><td class="memItemLeft" align="right" valign="top">typedef boost::function&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_cpl_user_data.html#ab0f6d48f2d67c8763b44be872dc526c0">CallbackFct</a></td></tr>
-<tr class="memdesc:ab0f6d48f2d67c8763b44be872dc526c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">registered callbacks  <br /></td></tr>
-<tr class="separator:ab0f6d48f2d67c8763b44be872dc526c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c1456cbd611b187930e551da9582510" id="r_a8c1456cbd611b187930e551da9582510"><td class="memItemLeft" align="right" valign="top">typedef std::function&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_cpl_user_data.html#a8c1456cbd611b187930e551da9582510">CallbackFct</a></td></tr>
+<tr class="memdesc:a8c1456cbd611b187930e551da9582510"><td class="mdescLeft">&#160;</td><td class="mdescRight">registered callbacks  <br /></td></tr>
+<tr class="separator:a8c1456cbd611b187930e551da9582510"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a297d28bb5dda592f5c5ef7b5fef4e73a" id="r_a297d28bb5dda592f5c5ef7b5fef4e73a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; <a class="el" href="classug_1_1_data_import.html">DataImport</a>&lt; TData, dim &gt; *, <a class="el" href="classug_1_1_cpl_user_data.html#ab0f6d48f2d67c8763b44be872dc526c0">CallbackFct</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_cpl_user_data.html#a297d28bb5dda592f5c5ef7b5fef4e73a">m_vCallback</a></td></tr>
+<tr class="memitem:a297d28bb5dda592f5c5ef7b5fef4e73a" id="r_a297d28bb5dda592f5c5ef7b5fef4e73a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; <a class="el" href="classug_1_1_data_import.html">DataImport</a>&lt; TData, dim &gt; *, <a class="el" href="classug_1_1_cpl_user_data.html#a8c1456cbd611b187930e551da9582510">CallbackFct</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_cpl_user_data.html#a297d28bb5dda592f5c5ef7b5fef4e73a">m_vCallback</a></td></tr>
 <tr class="separator:a297d28bb5dda592f5c5ef7b5fef4e73a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f6e13eedd95b7be6f7be58f91c42688" id="r_a1f6e13eedd95b7be6f7be58f91c42688"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; bool &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_cpl_user_data.html#a1f6e13eedd95b7be6f7be58f91c42688">m_vvBoolFlag</a></td></tr>
 <tr class="memdesc:a1f6e13eedd95b7be6f7be58f91c42688"><td class="mdescLeft">&#160;</td><td class="mdescRight">bool flag at ip (size: (0,...num_series-1) x (0,...,num_ip-1))  <br /></td></tr>
@@ -514,8 +514,8 @@ template&lt;typename TData , int dim, typename TRet  = void&gt; </div>
 
 </div>
 </div>
-<a id="ab0f6d48f2d67c8763b44be872dc526c0" name="ab0f6d48f2d67c8763b44be872dc526c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0f6d48f2d67c8763b44be872dc526c0">&#9670;&#160;</a></span>CallbackFct</h2>
+<a id="a8c1456cbd611b187930e551da9582510" name="a8c1456cbd611b187930e551da9582510"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c1456cbd611b187930e551da9582510">&#9670;&#160;</a></span>CallbackFct</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -526,7 +526,7 @@ template&lt;typename TData , int dim, typename TRet  = void&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">typedef boost::function&lt;void ()&gt; <a class="el" href="classug_1_1_cpl_user_data.html">ug::CplUserData</a>&lt; TData, dim, TRet &gt;::CallbackFct</td>
+          <td class="memname">typedef std::function&lt;void ()&gt; <a class="el" href="classug_1_1_cpl_user_data.html">ug::CplUserData</a>&lt; TData, dim, TRet &gt;::CallbackFct</td>
         </tr>
       </table>
   </td>
@@ -1153,7 +1153,7 @@ template&lt;typename TData , int dim, typename TRet  = void&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;std::pair&lt;<a class="el" href="classug_1_1_data_import.html">DataImport</a>&lt;TData,dim&gt;*, <a class="el" href="classug_1_1_cpl_user_data.html#ab0f6d48f2d67c8763b44be872dc526c0">CallbackFct</a>&gt; &gt; <a class="el" href="classug_1_1_cpl_user_data.html">ug::CplUserData</a>&lt; TData, dim, TRet &gt;::m_vCallback</td>
+          <td class="memname">std::vector&lt;std::pair&lt;<a class="el" href="classug_1_1_data_import.html">DataImport</a>&lt;TData,dim&gt;*, <a class="el" href="classug_1_1_cpl_user_data.html#a8c1456cbd611b187930e551da9582510">CallbackFct</a>&gt; &gt; <a class="el" href="classug_1_1_cpl_user_data.html">ug::CplUserData</a>&lt; TData, dim, TRet &gt;::m_vCallback</td>
         </tr>
       </table>
   </td>
@@ -1233,7 +1233,7 @@ template&lt;typename TData , int dim, typename TRet  = void&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_cpl_user_data.html">CplUserData</a></li>
-    <li class="footer">Generated on Mon Jun 1 2026 03:46:57 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Jun 8 2026 03:45:00 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

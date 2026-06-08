@@ -1,5 +1,6 @@
 var class_const_smart_ptr_3_01void_01_4 =
 [
+    [ "element_type", "class_const_smart_ptr_3_01void_01_4.html#a9855c248f1ea22635c43f78cb7183dd8", null ],
     [ "ConstSmartPtr", "class_const_smart_ptr_3_01void_01_4.html#a29423a980d516c0d55f1c89e47750bbb", null ],
     [ "ConstSmartPtr", "class_const_smart_ptr_3_01void_01_4.html#aafe27b8199a26864304df2cb5e41244c", null ],
     [ "ConstSmartPtr", "class_const_smart_ptr_3_01void_01_4.html#a95d11d8579f790dbbf9da4fa7e9993a3", null ],

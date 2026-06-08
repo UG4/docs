@@ -1,5 +1,7 @@
 var NAVTREEINDEX167 =
 {
+"slicing_8h.html#a6571e5fe7366eb3bbf7b98830e794963":[4,0,2,4,1,4,1],
+"slicing_8h_source.html":[4,0,2,4,1,4],
 "small__algebra_2additional__math_8h.html":[4,0,2,4,12,4],
 "small__algebra_2additional__math_8h.html#a18c22bb41c3eadf10ec366620edb604f":[4,0,2,4,12,4,9],
 "small__algebra_2additional__math_8h.html#a21cb024aee0d3c3fc583d586d83ea800":[4,0,2,4,12,4,6],
@@ -46,8 +48,8 @@ var NAVTREEINDEX167 =
 "smallalgebra__interface_8h.html#af526bb9c77c4ced2467ac7867ceb9a9e":[4,0,2,4,7,2,2],
 "smallalgebra__interface_8h_source.html":[4,0,2,4,7,2],
 "smart__pointer_8h.html":[4,0,2,2,5,64],
-"smart__pointer_8h.html#a6b709a70faa21f7ccb380ed2ab159cba":[4,0,2,2,5,64,5],
-"smart__pointer_8h.html#ad9ba0d611a8cf956607ab447c18c1345":[4,0,2,2,5,64,6],
+"smart__pointer_8h.html#a6b709a70faa21f7ccb380ed2ab159cba":[4,0,2,2,5,64,3],
+"smart__pointer_8h.html#ad9ba0d611a8cf956607ab447c18c1345":[4,0,2,2,5,64,4],
 "smart__pointer_8h_source.html":[4,0,2,2,5,64],
 "smart__ptr__vector_8h.html":[4,0,2,4,9,0,4],
 "smart__ptr__vector_8h_source.html":[4,0,2,4,9,0,4],
@@ -245,9 +247,7 @@ var NAVTREEINDEX167 =
 "struct_freq_adapt_values_1_1_freq_adapt_point.html#a82dab5a55070611c3dd22591d92c4940":[3,0,19,0,2],
 "struct_freq_adapt_values_1_1_freq_adapt_point.html#aa8bfbf34b4a9fa602b2e01c48b9ee6d9":[3,0,19,0,3],
 "struct_freq_adapt_values_1_1_freq_adapt_point.html#ae41ce370f62e3a2685aeb922c0a43673":[3,0,19,0,0],
-"structboost_1_1_b_s__traversal__tag.html":[3,0,0,2],
 "structboost_1_1_b_s__traversal__tag.html":[2,0,0,3],
-"structboost_1_1_s_m__traversal__tag.html":[3,0,0,22],
-"structboost_1_1_s_m__traversal__tag.html":[2,0,0,23],
-"structboost_1_1graph__traits_3_01ug_1_1_b_g_l_parallel_matrix_3_01ug_1_1_parallel_matrix_3_01_t_01_4_01_4_01_4.html":[3,0,0,5]
+"structboost_1_1_b_s__traversal__tag.html":[3,0,0,2],
+"structboost_1_1_s_m__traversal__tag.html":[2,0,0,21]
 };

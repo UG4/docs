@@ -125,9 +125,9 @@ $(document).ready(function(){initNavTree('classug_1_1_data_import.html',''); ini
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ab79a7136ded45cdad84f13f24644a916" id="r_ab79a7136ded45cdad84f13f24644a916"><td class="memItemLeft" align="right" valign="top">typedef boost::function&lt; void(const <a class="el" href="classug_1_1_local_vector.html">LocalVector</a> &amp;u, std::vector&lt; std::vector&lt; TData &gt; &gt; vvvLinDefect[], const size_t nip)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_data_import.html#ab79a7136ded45cdad84f13f24644a916">LinDefectFunc</a></td></tr>
-<tr class="memdesc:ab79a7136ded45cdad84f13f24644a916"><td class="mdescLeft">&#160;</td><td class="mdescRight">type of evaluation function  <br /></td></tr>
-<tr class="separator:ab79a7136ded45cdad84f13f24644a916"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32b1cd01c30e1d40c8b6186fff5d83f3" id="r_a32b1cd01c30e1d40c8b6186fff5d83f3"><td class="memItemLeft" align="right" valign="top">typedef std::function&lt; void(const <a class="el" href="classug_1_1_local_vector.html">LocalVector</a> &amp;u, std::vector&lt; std::vector&lt; TData &gt; &gt; vvvLinDefect[], const size_t nip)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_data_import.html#a32b1cd01c30e1d40c8b6186fff5d83f3">LinDefectFunc</a></td></tr>
+<tr class="memdesc:a32b1cd01c30e1d40c8b6186fff5d83f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">type of evaluation function  <br /></td></tr>
+<tr class="separator:a32b1cd01c30e1d40c8b6186fff5d83f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -317,7 +317,7 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:aa6518372153d186788656269a9164027" id="r_aa6518372153d186788656269a9164027"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_cpl_user_data.html">CplUserData</a>&lt; TData, dim &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_data_import.html#aa6518372153d186788656269a9164027">m_spUserData</a></td></tr>
 <tr class="memdesc:aa6518372153d186788656269a9164027"><td class="mdescLeft">&#160;</td><td class="mdescRight">connected <a class="el" href="classug_1_1_user_data.html" title="Type based UserData.">UserData</a>  <br /></td></tr>
 <tr class="separator:aa6518372153d186788656269a9164027"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4eb0383ab44bca0a39b83f7565e364dd" id="r_a4eb0383ab44bca0a39b83f7565e364dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_data_import.html#ab79a7136ded45cdad84f13f24644a916">LinDefectFunc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_data_import.html#a4eb0383ab44bca0a39b83f7565e364dd">m_vLinDefectFunc</a> [<a class="el" href="namespaceug.html#a1f0e19a0ec74b2ebb64238aeb498c51ba1a00fd81e9c601abf733dbcb69d0f91f">NUM_REFERENCE_OBJECTS</a>]</td></tr>
+<tr class="memitem:a4eb0383ab44bca0a39b83f7565e364dd" id="r_a4eb0383ab44bca0a39b83f7565e364dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classug_1_1_data_import.html#a32b1cd01c30e1d40c8b6186fff5d83f3">LinDefectFunc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_data_import.html#a4eb0383ab44bca0a39b83f7565e364dd">m_vLinDefectFunc</a> [<a class="el" href="namespaceug.html#a1f0e19a0ec74b2ebb64238aeb498c51ba1a00fd81e9c601abf733dbcb69d0f91f">NUM_REFERENCE_OBJECTS</a>]</td></tr>
 <tr class="memdesc:a4eb0383ab44bca0a39b83f7565e364dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">function pointers for all elem types  <br /></td></tr>
 <tr class="separator:a4eb0383ab44bca0a39b83f7565e364dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac524da7136eadca20ace9bf71d339c42" id="r_ac524da7136eadca20ace9bf71d339c42"><td class="memItemLeft" align="right" valign="top">const TData *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_data_import.html#ac524da7136eadca20ace9bf71d339c42">m_vValue</a></td></tr>
@@ -348,8 +348,8 @@ Protected Attributes</h2></td></tr>
 class ug::DataImport&lt; TData, dim &gt;</div><p>Data import. </p>
 <p>A <a class="el" href="classug_1_1_data_import.html" title="Data import.">DataImport</a> is used to import data into an ElemDisc. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="ab79a7136ded45cdad84f13f24644a916" name="ab79a7136ded45cdad84f13f24644a916"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab79a7136ded45cdad84f13f24644a916">&#9670;&#160;</a></span>LinDefectFunc</h2>
+<a id="a32b1cd01c30e1d40c8b6186fff5d83f3" name="a32b1cd01c30e1d40c8b6186fff5d83f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32b1cd01c30e1d40c8b6186fff5d83f3">&#9670;&#160;</a></span>LinDefectFunc</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -357,7 +357,7 @@ class ug::DataImport&lt; TData, dim &gt;</div><p>Data import. </p>
 template&lt;typename TData , int dim&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef boost::function&lt;void (const <a class="el" href="classug_1_1_local_vector.html">LocalVector</a>&amp; u, std::vector&lt;std::vector&lt;TData&gt; &gt; vvvLinDefect[], const size_t nip)&gt; <a class="el" href="classug_1_1_data_import.html">ug::DataImport</a>&lt; TData, dim &gt;::LinDefectFunc</td>
+          <td class="memname">typedef std::function&lt;void (const <a class="el" href="classug_1_1_local_vector.html">LocalVector</a>&amp; u, std::vector&lt;std::vector&lt;TData&gt; &gt; vvvLinDefect[], const size_t nip)&gt; <a class="el" href="classug_1_1_data_import.html">ug::DataImport</a>&lt; TData, dim &gt;::LinDefectFunc</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -462,7 +462,7 @@ template&lt;typename TData , int dim&gt; </div>
 
 <p>Implements <a class="el" href="classug_1_1_i_data_import.html#a703bc00314c7aab9d2a66216ec31a4af">ug::IDataImport&lt; dim &gt;</a>.</p>
 
-<p class="reference">References <a class="el" href="classug_1_1_local_matrix.html#a81bbdd9d3e2bdce9d37ac8f8ca7d98e4">ug::LocalMatrix::access_by_map()</a>, and <a class="el" href="group__ugbase__common.html#ga0b928ef153b78f1b5e025638cf28f841">UG_ASSERT</a>.</p>
+<p class="reference">References <a class="el" href="group__ugbase__common.html#ga0b928ef153b78f1b5e025638cf28f841">UG_ASSERT</a>.</p>
 
 </div>
 </div>
@@ -614,8 +614,6 @@ template&lt;typename TData , int dim&gt; </div>
 </div><div class="memdoc">
 
 <p>checks in debug mode the correct index </p>
-
-<p class="reference">References <a class="el" href="group__ugbase__common.html#ga0b928ef153b78f1b5e025638cf28f841">UG_ASSERT</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classug_1_1_data_import.html#a672ec7f852258705a6202e93fd62be5c">ug::DataImport&lt; TData, dim &gt;::lin_defect()</a>, and <a class="el" href="classug_1_1_data_import.html#a704c1c1c9a6d7ba0a382d02cdb30ae8f">ug::DataImport&lt; TData, dim &gt;::lin_defect()</a>.</p>
 
@@ -1918,7 +1916,7 @@ template&lt;typename TData , int dim&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classug_1_1_data_import.html#ab79a7136ded45cdad84f13f24644a916">LinDefectFunc</a> <a class="el" href="classug_1_1_data_import.html">ug::DataImport</a>&lt; TData, dim &gt;::m_vLinDefectFunc[<a class="el" href="namespaceug.html#a1f0e19a0ec74b2ebb64238aeb498c51ba1a00fd81e9c601abf733dbcb69d0f91f">NUM_REFERENCE_OBJECTS</a>]</td>
+          <td class="memname"><a class="el" href="classug_1_1_data_import.html#a32b1cd01c30e1d40c8b6186fff5d83f3">LinDefectFunc</a> <a class="el" href="classug_1_1_data_import.html">ug::DataImport</a>&lt; TData, dim &gt;::m_vLinDefectFunc[<a class="el" href="namespaceug.html#a1f0e19a0ec74b2ebb64238aeb498c51ba1a00fd81e9c601abf733dbcb69d0f91f">NUM_REFERENCE_OBJECTS</a>]</td>
         </tr>
       </table>
   </td>
@@ -2028,7 +2026,7 @@ template&lt;typename TData , int dim&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_data_import.html">DataImport</a></li>
-    <li class="footer">Generated on Mon Jun 1 2026 03:46:57 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Jun 8 2026 03:45:01 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

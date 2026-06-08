@@ -1,5 +1,7 @@
 var NAVTREEINDEX166 =
 {
+"resolve__intersections__impl_8hpp.html#af32c1177e1b1acd0784c8a9fd42153d9":[4,0,2,6,0,5,12,11],
+"resolve__intersections__impl_8hpp_source.html":[4,0,2,6,0,5,12],
 "restart__bridge_8cpp.html":[4,0,2,1,0,11],
 "restart__bridge_8cpp.html#a6198a4df8371b88e98052930c34a7615":[4,0,2,1,0,11,2],
 "restart__bridge_8cpp.html#a683ca1457bb8fda8b313121046f6fe7b":[4,0,2,1,0,11,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX166 =
 "simplify__polychain_8h.html#a6d95ea88313c70843660707a79133274":[4,0,2,6,0,5,17,1],
 "simplify__polychain_8h.html#aa91a4695a863b5ac657eec88ac920db0":[4,0,2,6,0,5,17,2],
 "simplify__polychain_8h_source.html":[4,0,2,6,0,5,17],
-"slicing_8h.html":[4,0,2,4,1,4],
-"slicing_8h.html#a6571e5fe7366eb3bbf7b98830e794963":[4,0,2,4,1,4,1],
-"slicing_8h_source.html":[4,0,2,4,1,4]
+"slicing_8h.html":[4,0,2,4,1,4]
 };

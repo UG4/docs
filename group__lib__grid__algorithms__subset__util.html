@@ -215,10 +215,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ga9a735b485f4161c00a4695d1c28cc950"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__subset__util.html#ga9a735b485f4161c00a4695d1c28cc950">ug::SeparateSubsetsByLowerDimSelection</a> (<a class="el" href="classug_1_1_grid.html">Grid</a> &amp;grid, <a class="el" href="namespaceug.html#a4077697589380822c2f46b597f550f4b">SubsetHandler</a> &amp;sh, <a class="el" href="classug_1_1_selector.html">Selector</a> &amp;sel, bool appendAtEnd=false)</td></tr>
 <tr class="memdesc:ga9a735b485f4161c00a4695d1c28cc950"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns all elements of the given type to subsets.  <br /></td></tr>
 <tr class="separator:ga9a735b485f4161c00a4695d1c28cc950"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7948368a92d94533f6daa84dc0d0150e" id="r_ga7948368a92d94533f6daa84dc0d0150e"><td class="memTemplParams" colspan="2">template&lt;class TElem &gt; </td></tr>
-<tr class="memitem:ga7948368a92d94533f6daa84dc0d0150e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__subset__util.html#ga7948368a92d94533f6daa84dc0d0150e">ug::SeparateSubsetsByLowerDimSeparators</a> (<a class="el" href="classug_1_1_grid.html">Grid</a> &amp;grid, <a class="el" href="namespaceug.html#a4077697589380822c2f46b597f550f4b">SubsetHandler</a> &amp;sh, bool appendAtEnd, boost::function&lt; bool(typename TElem::lower_dim_base_object *)&gt; cbIsSeparator)</td></tr>
-<tr class="memdesc:ga7948368a92d94533f6daa84dc0d0150e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns all elements of the given type to subsets.  <br /></td></tr>
-<tr class="separator:ga7948368a92d94533f6daa84dc0d0150e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae7d28d6c4a33346bcd60a8f422b26292" id="r_gae7d28d6c4a33346bcd60a8f422b26292"><td class="memTemplParams" colspan="2">template&lt;class TElem &gt; </td></tr>
+<tr class="memitem:gae7d28d6c4a33346bcd60a8f422b26292"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__subset__util.html#gae7d28d6c4a33346bcd60a8f422b26292">ug::SeparateSubsetsByLowerDimSeparators</a> (<a class="el" href="classug_1_1_grid.html">Grid</a> &amp;grid, <a class="el" href="namespaceug.html#a4077697589380822c2f46b597f550f4b">SubsetHandler</a> &amp;sh, bool appendAtEnd, std::function&lt; bool(typename TElem::lower_dim_base_object *)&gt; cbIsSeparator)</td></tr>
+<tr class="memdesc:gae7d28d6c4a33346bcd60a8f422b26292"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns all elements of the given type to subsets.  <br /></td></tr>
+<tr class="separator:gae7d28d6c4a33346bcd60a8f422b26292"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1fa4c1a9d07c56acff7d153b220acf4b" id="r_ga1fa4c1a9d07c56acff7d153b220acf4b"><td class="memTemplParams" colspan="2">template&lt;class TElem &gt; </td></tr>
 <tr class="memitem:ga1fa4c1a9d07c56acff7d153b220acf4b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__lib__grid__algorithms__subset__util.html#ga1fa4c1a9d07c56acff7d153b220acf4b">ug::SeparateSubsetsByLowerDimSubsets</a> (<a class="el" href="classug_1_1_grid.html">Grid</a> &amp;grid, <a class="el" href="namespaceug.html#a4077697589380822c2f46b597f550f4b">SubsetHandler</a> &amp;sh, bool appendAtEnd=false)</td></tr>
 <tr class="memdesc:ga1fa4c1a9d07c56acff7d153b220acf4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns all elements of the given type to subsets.  <br /></td></tr>
@@ -1593,8 +1593,8 @@ template&lt;class TElem &gt; </div>
 
 </div>
 </div>
-<a id="ga7948368a92d94533f6daa84dc0d0150e" name="ga7948368a92d94533f6daa84dc0d0150e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7948368a92d94533f6daa84dc0d0150e">&#9670;&#160;</a></span>SeparateSubsetsByLowerDimSeparators()</h2>
+<a id="gae7d28d6c4a33346bcd60a8f422b26292" name="gae7d28d6c4a33346bcd60a8f422b26292"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae7d28d6c4a33346bcd60a8f422b26292">&#9670;&#160;</a></span>SeparateSubsetsByLowerDimSeparators()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1622,7 +1622,7 @@ template&lt;class TElem &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">boost::function&lt; bool(typename TElem::lower_dim_base_object *)&gt;&#160;</td>
+          <td class="paramtype">std::function&lt; bool(typename TElem::lower_dim_base_object *)&gt;&#160;</td>
           <td class="paramname"><em>cbIsSeparator</em>&#160;</td>
         </tr>
         <tr>
@@ -1741,7 +1741,7 @@ template&lt;class TElem &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jun 1 2026 03:46:53 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Jun 8 2026 03:44:56 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

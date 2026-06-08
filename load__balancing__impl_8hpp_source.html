@@ -156,7 +156,7 @@ $(document).ready(function(){initNavTree('load__balancing__impl_8hpp_source.html
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>                TIterator begin, TIterator end,</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>                <span class="keywordtype">int</span> numCellsX, <span class="keywordtype">int</span> numCellsY, <span class="keywordtype">int</span> numCellsZ,</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>                TAAPos&amp; aaPos,</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>                <span class="keyword">typename</span> <a class="code hl_typedef" href="structug_1_1_grid_1_1traits.html#a1bd114991c12becc6ca48862967dd9f2">Grid::traits&lt;TElem&gt;::callback</a> cbConsiderElem,</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>                <span class="keyword">typename</span> <a class="code hl_typedef" href="structug_1_1_grid_1_1traits.html#a50775d2d85086fd6811de639a496a4c9">Grid::traits&lt;TElem&gt;::callback</a> cbConsiderElem,</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>                <span class="keywordtype">int</span> bucketSubset)</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>{</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  <span class="keyword">using namespace </span><a class="code hl_namespace" href="namespaceug.html">ug</a>;</div>
@@ -392,19 +392,19 @@ $(document).ready(function(){initNavTree('load__balancing__impl_8hpp_source.html
 <div class="ttc" id="agroup__vectors_html_ga077e98da7fcdab9eb27b3be9f365b57a"><div class="ttname"><a href="group__vectors.html#ga077e98da7fcdab9eb27b3be9f365b57a">ug::VecCopy</a></div><div class="ttdeci">void VecCopy(vector_target_t &amp;target, const vector_source_t &amp;source, typename vector_target_t::value_type fill)</div><div class="ttdoc">Copy contents between vectors of possibly different types.</div><div class="ttdef"><b>Definition</b> math_vector_functions_common_impl.hpp:56</div></div>
 <div class="ttc" id="akd__tree__static_8h_html"><div class="ttname"><a href="kd__tree__static_8h.html">kd_tree_static.h</a></div></div>
 <div class="ttc" id="aload__balancing_8h_html"><div class="ttname"><a href="load__balancing_8h.html">load_balancing.h</a></div></div>
-<div class="ttc" id="anamespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div><div class="ttdef"><b>Definition</b> smart_pointer.h:814</div></div>
+<div class="ttc" id="anamespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div><div class="ttdef"><b>Definition</b> smart_pointer.h:817</div></div>
 <div class="ttc" id="anamespaceug_html"><div class="ttname"><a href="namespaceug.html">ug</a></div><div class="ttdoc">the ug namespace</div></div>
 <div class="ttc" id="anamespaceug_html_a33c1491a216aec0f5a603a9a3dd6f758"><div class="ttname"><a href="namespaceug.html#a33c1491a216aec0f5a603a9a3dd6f758">ug::SMALL</a></div><div class="ttdeci">const number SMALL</div><div class="ttdef"><b>Definition</b> math_constants.h:41</div></div>
 <div class="ttc" id="anamespaceug_html_aa68538e06d1572d69b60616a9259d066"><div class="ttname"><a href="namespaceug.html#aa68538e06d1572d69b60616a9259d066">ug::CalculateBoundingBox</a></div><div class="ttdeci">AABox&lt; typename TAAPos::ValueType &gt; CalculateBoundingBox(Vertex *e, TAAPos aaPos)</div><div class="ttdoc">calculates the smallest axis aligned box that contains the given vertex</div><div class="ttdef"><b>Definition</b> bounding_box_util.h:43</div></div>
 <div class="ttc" id="astatic__assert_8h_html"><div class="ttname"><a href="static__assert_8h.html">static_assert.h</a></div></div>
-<div class="ttc" id="astructug_1_1_grid_1_1traits_html_a1bd114991c12becc6ca48862967dd9f2"><div class="ttname"><a href="structug_1_1_grid_1_1traits.html#a1bd114991c12becc6ca48862967dd9f2">ug::Grid::traits::callback</a></div><div class="ttdeci">boost::function&lt; bool(base_object *)&gt; callback</div><div class="ttdoc">callback type for the elements base type.</div><div class="ttdef"><b>Definition</b> grid.h:150</div></div>
+<div class="ttc" id="astructug_1_1_grid_1_1traits_html_a50775d2d85086fd6811de639a496a4c9"><div class="ttname"><a href="structug_1_1_grid_1_1traits.html#a50775d2d85086fd6811de639a496a4c9">ug::Grid::traits::callback</a></div><div class="ttdeci">std::function&lt; bool(base_object *)&gt; callback</div><div class="ttdoc">callback type for the elements base type.</div><div class="ttdef"><b>Definition</b> grid.h:150</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_9cb5fcd0cbd108e4de7ac968a9e51f3d.html">lib_grid</a></li><li class="navelem"><a class="el" href="dir_fb610924cf5d54adc79f1150f5e0edab.html">parallelization</a></li><li class="navelem"><a class="el" href="dir_7cc1a58c14e40f62afa13bc8589d2268.html">deprecated</a></li><li class="navelem"><a class="el" href="load__balancing__impl_8hpp.html">load_balancing_impl.hpp</a></li>
-    <li class="footer">Generated on Mon Jun 1 2026 03:46:50 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Jun 8 2026 03:44:53 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

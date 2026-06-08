@@ -1,5 +1,7 @@
 var NAVTREEINDEX132 =
 {
+"densematrix__impl_8h.html#a913d5c8293319da71fd97cd6e053f610":[4,0,2,4,12,2,2,2],
+"densematrix__impl_8h.html#a93d9b0f39f025526cabe56d26e965ed0":[4,0,2,4,12,2,2,4],
 "densematrix__impl_8h.html#af775ad1c153b77ad6d0f61115a9fb296":[4,0,2,4,12,2,2,3],
 "densematrix__impl_8h_source.html":[4,0,2,4,12,2,2],
 "densematrix__inverse_8h.html":[4,0,2,4,12,2,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX132 =
 "dof__distribution__info_8cpp.html":[4,0,2,5,1,4],
 "dof__distribution__info_8h.html":[4,0,2,5,1,5],
 "dof__distribution__info_8h_source.html":[4,0,2,5,1,5],
-"dof__index__storage_8cpp.html":[4,0,2,5,1,6],
-"dof__index__storage_8h.html":[4,0,2,5,1,7],
-"dof__index__storage_8h_source.html":[4,0,2,5,1,7]
+"dof__index__storage_8cpp.html":[4,0,2,5,1,6]
 };

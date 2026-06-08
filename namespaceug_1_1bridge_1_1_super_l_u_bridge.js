@@ -151,7 +151,7 @@ var namespaceug_1_1bridge_1_1_super_l_u_bridge =
     [ "Unregistered", "classug_1_1bridge_1_1_unregistered.html", "classug_1_1bridge_1_1_unregistered" ],
     [ "CompileAlgebraList", "group__bridge.html#ga97099fa000ff3521ef545b54e3b84d5c", null ],
     [ "CompileDomainList", "group__bridge.html#ga737e5ca9628eb5778ac3c9778756fb7a", null ],
-    [ "FuncRegistryChanged", "group__registry.html#ga7cdc310027b2c0bb3b0636017872fc20", null ],
+    [ "FuncRegistryChanged", "group__registry.html#gaa891fd58995caa69fea2f4a932a61bc1", null ],
     [ "SPSmartTest", "group__test__bridge.html#ga053efc712d5536853501562df089fe44", null ],
     [ "SPSmartTestDerived", "group__test__bridge.html#ga324e3bdcc373d19ef641af88630c5a6f", null ],
     [ "Add", "group__test__bridge.html#ga1095a99354d7698039ead0d4d9e9c64f", null ],

@@ -104,6 +104,7 @@ $(document).ready(function(){initNavTree('element__visitor__util_8h.html',''); i
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;functional&gt;</code><br />
 <code>#include &quot;<a class="el" href="grid_8h_source.html">grid/grid.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="metaprogramming__util_8h_source.html">common/util/metaprogramming_util.h</a>&quot;</code><br />
 </div>
@@ -117,14 +118,14 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad415dcc97a1944c7b5afd7f4d7dd8909" id="r_ad415dcc97a1944c7b5afd7f4d7dd8909"><td class="memTemplParams" colspan="2">template&lt;class TIter &gt; </td></tr>
-<tr class="memitem:ad415dcc97a1944c7b5afd7f4d7dd8909"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug.html#ad415dcc97a1944c7b5afd7f4d7dd8909">ug::VisitAll</a> (const TIter begin, const TIter end, boost::function&lt; void(typename TIter::value_type)&gt; visitorCallback)</td></tr>
-<tr class="memdesc:ad415dcc97a1944c7b5afd7f4d7dd8909"><td class="mdescLeft">&#160;</td><td class="mdescRight">Visits all elements between begin and end and executes the visitorCallback on them.  <br /></td></tr>
-<tr class="separator:ad415dcc97a1944c7b5afd7f4d7dd8909"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5afbd7735db83f7c480550d394c3b4d" id="r_af5afbd7735db83f7c480550d394c3b4d"><td class="memTemplParams" colspan="2">template&lt;class TIter &gt; </td></tr>
-<tr class="memitem:af5afbd7735db83f7c480550d394c3b4d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug.html#af5afbd7735db83f7c480550d394c3b4d">ug::VisitAreaBoundary</a> (<a class="el" href="classug_1_1_grid.html">Grid</a> &amp;g, const TIter begin, const TIter end, boost::function&lt; bool(typename TIter::value_type)&gt; cbBelongsToArea, boost::function&lt; void(typename <a class="el" href="structug_1_1_pointer2_value.html">Pointer2Value</a>&lt; typename TIter::value_type &gt;::type::side)&gt; cbVisitSide)</td></tr>
-<tr class="memdesc:af5afbd7735db83f7c480550d394c3b4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Visits all boundary elements of the area specified through the iterators.  <br /></td></tr>
-<tr class="separator:af5afbd7735db83f7c480550d394c3b4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d72b2aa2e0eac5a02c853930905e546" id="r_a2d72b2aa2e0eac5a02c853930905e546"><td class="memTemplParams" colspan="2">template&lt;class TIter &gt; </td></tr>
+<tr class="memitem:a2d72b2aa2e0eac5a02c853930905e546"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug.html#a2d72b2aa2e0eac5a02c853930905e546">ug::VisitAll</a> (const TIter begin, const TIter end, std::function&lt; void(typename TIter::value_type)&gt; visitorCallback)</td></tr>
+<tr class="memdesc:a2d72b2aa2e0eac5a02c853930905e546"><td class="mdescLeft">&#160;</td><td class="mdescRight">Visits all elements between begin and end and executes the visitorCallback on them.  <br /></td></tr>
+<tr class="separator:a2d72b2aa2e0eac5a02c853930905e546"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7af1c28fc7faa67cad33b2ec7de3b183" id="r_a7af1c28fc7faa67cad33b2ec7de3b183"><td class="memTemplParams" colspan="2">template&lt;class TIter &gt; </td></tr>
+<tr class="memitem:a7af1c28fc7faa67cad33b2ec7de3b183"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceug.html#a7af1c28fc7faa67cad33b2ec7de3b183">ug::VisitAreaBoundary</a> (<a class="el" href="classug_1_1_grid.html">Grid</a> &amp;g, const TIter begin, const TIter end, std::function&lt; bool(typename TIter::value_type)&gt; cbBelongsToArea, std::function&lt; void(typename <a class="el" href="structug_1_1_pointer2_value.html">Pointer2Value</a>&lt; typename TIter::value_type &gt;::type::side)&gt; cbVisitSide)</td></tr>
+<tr class="memdesc:a7af1c28fc7faa67cad33b2ec7de3b183"><td class="mdescLeft">&#160;</td><td class="mdescRight">Visits all boundary elements of the area specified through the iterators.  <br /></td></tr>
+<tr class="separator:a7af1c28fc7faa67cad33b2ec7de3b183"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -132,7 +133,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_9cb5fcd0cbd108e4de7ac968a9e51f3d.html">lib_grid</a></li><li class="navelem"><a class="el" href="dir_8e43e1519d22ef2ce28107ef4364eb7f.html">algorithms</a></li><li class="navelem"><a class="el" href="element__visitor__util_8h.html">element_visitor_util.h</a></li>
-    <li class="footer">Generated on Mon Jun 1 2026 03:46:52 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Jun 8 2026 03:44:55 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

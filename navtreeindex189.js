@@ -1,11 +1,5 @@
 var NAVTREEINDEX189 =
 {
-"ugshell__main_8cpp.html#a1d7092d044b7fa8d604f508f334f2b1c":[4,0,2,9,6,2],
-"ugshell__main_8cpp.html#a9852c31a31cd77d42cd88d9472247acc":[4,0,2,9,6,0],
-"ugshell__main_8h.html":[4,0,2,9,7],
-"ugshell__main_8h_source.html":[4,0,2,9,7],
-"ugsubmit_8doxygen.html":[4,0,0,3,0,2,0,3],
-"uid_8h.html":[4,0,2,2,5,76],
 "uid_8h_source.html":[4,0,2,2,5,76],
 "undirected_8h.html":[4,0,2,4,6,6],
 "undirected_8h_source.html":[4,0,2,4,6,6],

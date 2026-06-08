@@ -292,12 +292,12 @@ $(document).ready(function(){initNavTree('selection__util_8h_source.html',''); i
 <div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span> </div>
 <div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span><span class="keyword">template</span> &lt;<span class="keyword">class</span> TGeomObj&gt;</div>
 <div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span><span class="keywordtype">void</span> <a class="code hl_function" href="group__lib__grid__algorithms__selection__util.html#gaf070ea6a8b484c511d5cd5e98d446958">SelectionFill</a>(Selector&amp; sel,</div>
-<div class="line"><a id="l00359" name="l00359"></a><span class="lineno">  359</span>             <span class="keyword">typename</span> <a class="code hl_typedef" href="structug_1_1_grid_1_1traits.html#a1bd114991c12becc6ca48862967dd9f2">Grid::traits&lt;typename TGeomObj::side&gt;::callback</a> cbRegionBoundary);</div>
+<div class="line"><a id="l00359" name="l00359"></a><span class="lineno">  359</span>             <span class="keyword">typename</span> <a class="code hl_typedef" href="structug_1_1_grid_1_1traits.html#a50775d2d85086fd6811de639a496a4c9">Grid::traits&lt;typename TGeomObj::side&gt;::callback</a> cbRegionBoundary);</div>
 <div class="line"><a id="l00360" name="l00360"></a><span class="lineno">  360</span> </div>
 <div class="line"><a id="l00363" name="l00363"></a><span class="lineno">  363</span> </div>
 <div class="line"><a id="l00381" name="l00381"></a><span class="lineno">  381</span><span class="keyword">template</span> &lt;<span class="keyword">class</span> TGeomObj, <span class="keyword">class</span> TAAPos&gt;</div>
 <div class="line"><a id="l00382" name="l00382"></a><span class="lineno">  382</span><span class="keywordtype">bool</span> <a class="code hl_function" href="group__lib__grid__algorithms__selection__util.html#ga51e9480950b7c07be13b9854259703fd">SelectRegion</a>(Selector&amp; sel, <span class="keyword">const</span> <span class="keyword">typename</span> TAAPos::ValueType&amp; p, TAAPos&amp; aaPos,</div>
-<div class="line"><a id="l00383" name="l00383"></a><span class="lineno">  383</span>            <span class="keyword">typename</span> <a class="code hl_typedef" href="structug_1_1_grid_1_1traits.html#a1bd114991c12becc6ca48862967dd9f2">Grid::traits&lt;typename TGeomObj::side&gt;::callback</a> cbRegionBoundary);</div>
+<div class="line"><a id="l00383" name="l00383"></a><span class="lineno">  383</span>            <span class="keyword">typename</span> <a class="code hl_typedef" href="structug_1_1_grid_1_1traits.html#a50775d2d85086fd6811de639a496a4c9">Grid::traits&lt;typename TGeomObj::side&gt;::callback</a> cbRegionBoundary);</div>
 <div class="line"><a id="l00384" name="l00384"></a><span class="lineno">  384</span> </div>
 <div class="line"><a id="l00386" name="l00386"></a><span class="lineno">  386</span><span class="comment">//  SelectAssociatedGenealogy</span></div>
 <div class="line"><a id="l00388" name="l00388"></a><span class="lineno">  388</span> </div>
@@ -375,9 +375,9 @@ $(document).ready(function(){initNavTree('selection__util_8h_source.html',''); i
 <div class="line"><a id="l00532" name="l00532"></a><span class="lineno">  532</span> </div>
 <div class="line"><a id="l00540" name="l00540"></a><span class="lineno">  540</span><span class="keyword">template</span> &lt;<span class="keyword">class</span> TElem&gt;</div>
 <div class="line"><a id="l00541" name="l00541"></a><span class="lineno">  541</span><span class="keywordtype">void</span> <a class="code hl_function" href="group__lib__grid__algorithms__selection__util.html#ga297bcaea7f2f7c9ac2b79f831e1aac9e">SelectLinkedElements</a>(ISelector&amp; sel,</div>
-<div class="line"><a id="l00542" name="l00542"></a><span class="lineno">  542</span>      <span class="keyword">typename</span> <a class="code hl_typedef" href="structug_1_1_grid_1_1traits.html#a1bd114991c12becc6ca48862967dd9f2">Grid::traits&lt;TElem&gt;::callback</a></div>
+<div class="line"><a id="l00542" name="l00542"></a><span class="lineno">  542</span>      <span class="keyword">typename</span> <a class="code hl_typedef" href="structug_1_1_grid_1_1traits.html#a50775d2d85086fd6811de639a496a4c9">Grid::traits&lt;TElem&gt;::callback</a></div>
 <div class="line"><a id="l00543" name="l00543"></a><span class="lineno">  543</span>          cbIsSelectable = ConsiderAll(),</div>
-<div class="line"><a id="l00544" name="l00544"></a><span class="lineno">  544</span>      <span class="keyword">typename</span> <a class="code hl_typedef" href="structug_1_1_grid_1_1traits.html#a1bd114991c12becc6ca48862967dd9f2">Grid::traits&lt;typename TElem::side&gt;::callback</a></div>
+<div class="line"><a id="l00544" name="l00544"></a><span class="lineno">  544</span>      <span class="keyword">typename</span> <a class="code hl_typedef" href="structug_1_1_grid_1_1traits.html#a50775d2d85086fd6811de639a496a4c9">Grid::traits&lt;typename TElem::side&gt;::callback</a></div>
 <div class="line"><a id="l00545" name="l00545"></a><span class="lineno">  545</span>          cbIsTraversable = ConsiderAll());</div>
 <div class="line"><a id="l00546" name="l00546"></a><span class="lineno">  546</span> </div>
 <div class="line"><a id="l00547" name="l00547"></a><span class="lineno">  547</span>                 </div>
@@ -493,7 +493,7 @@ $(document).ready(function(){initNavTree('selection__util_8h_source.html',''); i
 <div class="ttc" id="anamespaceug_html_aec1d6e5a54424d3e177a33ada46bfa8f"><div class="ttname"><a href="namespaceug.html#aec1d6e5a54424d3e177a33ada46bfa8f">ug::GetSelectedElementIndices</a></div><div class="ttdeci">void GetSelectedElementIndices(const ISelector &amp;sel, std::vector&lt; size_t &gt; &amp;indsOut)</div><div class="ttdef"><b>Definition</b> selection_util.cpp:1213</div></div>
 <div class="ttc" id="aselection__util__impl_8hpp_html"><div class="ttname"><a href="selection__util__impl_8hpp.html">selection_util_impl.hpp</a></div></div>
 <div class="ttc" id="aselector__multi__grid_8h_html"><div class="ttname"><a href="selector__multi__grid_8h.html">selector_multi_grid.h</a></div></div>
-<div class="ttc" id="astructug_1_1_grid_1_1traits_html_a1bd114991c12becc6ca48862967dd9f2"><div class="ttname"><a href="structug_1_1_grid_1_1traits.html#a1bd114991c12becc6ca48862967dd9f2">ug::Grid::traits::callback</a></div><div class="ttdeci">boost::function&lt; bool(base_object *)&gt; callback</div><div class="ttdoc">callback type for the elements base type.</div><div class="ttdef"><b>Definition</b> grid.h:150</div></div>
+<div class="ttc" id="astructug_1_1_grid_1_1traits_html_a50775d2d85086fd6811de639a496a4c9"><div class="ttname"><a href="structug_1_1_grid_1_1traits.html#a50775d2d85086fd6811de639a496a4c9">ug::Grid::traits::callback</a></div><div class="ttdeci">std::function&lt; bool(base_object *)&gt; callback</div><div class="ttdoc">callback type for the elements base type.</div><div class="ttdef"><b>Definition</b> grid.h:150</div></div>
 <div class="ttc" id="aug__config_8h_html"><div class="ttname"><a href="ug__config_8h.html">ug_config.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -501,7 +501,7 @@ $(document).ready(function(){initNavTree('selection__util_8h_source.html',''); i
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_9cb5fcd0cbd108e4de7ac968a9e51f3d.html">lib_grid</a></li><li class="navelem"><a class="el" href="dir_8e43e1519d22ef2ce28107ef4364eb7f.html">algorithms</a></li><li class="navelem"><a class="el" href="selection__util_8h.html">selection_util.h</a></li>
-    <li class="footer">Generated on Mon Jun 1 2026 03:46:50 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Jun 8 2026 03:44:53 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

@@ -1,5 +1,7 @@
 var NAVTREEINDEX165 =
 {
+"projection__linker_8h.html":[4,0,2,5,10,4,1,9],
+"projection__linker_8h_source.html":[4,0,2,5,10,4,1,9],
 "projectors_8h.html":[4,0,2,6,8,0,9],
 "projectors_8h.html#a39c11c10a2efff1ddf6d32c293ed2b45":[4,0,2,6,8,0,9,1],
 "projectors_8h.html#aca1f0ff6d9bd1d5739c7fe73ecf97a86":[4,0,2,6,8,0,9,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX165 =
 "resolve__intersections__impl_8hpp.html#abd58f586cf30c647da872c5b4fb93ecf":[4,0,2,6,0,5,12,17],
 "resolve__intersections__impl_8hpp.html#abf6e3fa70c040969ac87797ab121a9ac":[4,0,2,6,0,5,12,16],
 "resolve__intersections__impl_8hpp.html#ad27c6ba35e44b1e247b79f2e61ee6937":[4,0,2,6,0,5,12,13],
-"resolve__intersections__impl_8hpp.html#ae00e6e1ddef614bd617a1e1581099e21":[4,0,2,6,0,5,12,2],
-"resolve__intersections__impl_8hpp.html#af32c1177e1b1acd0784c8a9fd42153d9":[4,0,2,6,0,5,12,11],
-"resolve__intersections__impl_8hpp_source.html":[4,0,2,6,0,5,12]
+"resolve__intersections__impl_8hpp.html#ae00e6e1ddef614bd617a1e1581099e21":[4,0,2,6,0,5,12,2]
 };
