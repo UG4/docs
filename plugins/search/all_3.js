@@ -397,7 +397,7 @@ var searchData=
   ['anisotropy_5futil_2eh_394',['anisotropy_util.h',['../../anisotropy__util_8h.html',1,'']]],
   ['anisotropy_5futil_5fimpl_2eh_395',['anisotropy_util_impl.h',['../../anisotropy__util__impl_8h.html',1,'']]],
   ['anisotropystate_396',['AnisotropyState',['../../namespaceug.html#aa0d1867c434446dca9a9361103722df4',1,'ug']]],
-  ['anormal_397',['anormal',['../../namespaceug.html#a9345601285f5628f44d20a15ab616be0',1,'ug::aNormal'],['../../namespaceug.html#a971c52fec411990d2bfb6ee27dbb0232',1,'ug::ANormal']]],
+  ['anormal_397',['anormal',['../../namespaceug.html#a971c52fec411990d2bfb6ee27dbb0232',1,'ug::ANormal'],['../../namespaceug.html#a9345601285f5628f44d20a15ab616be0',1,'ug::aNormal']]],
   ['anormal2_398',['ANormal2',['../../namespaceug.html#aec051d7b976c7790bc2194567fa5cb80',1,'ug']]],
   ['anormal3_399',['ANormal3',['../../namespaceug.html#a48e1c51ab3a08b3f7f9b20379ae637c6',1,'ug']]],
   ['anumber_400',['ANumber',['../../namespaceug.html#abd158f77e35754846b1f12596b33c2f1',1,'ug']]],
