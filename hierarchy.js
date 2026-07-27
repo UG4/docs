@@ -3521,9 +3521,9 @@ var hierarchy =
     [ "ug::UserDataInfo", "classug_1_1_user_data_info.html", [
       [ "ug::UserData< number, dim, void >", "classug_1_1_user_data.html", null ],
       [ "ug::UserData< TData, dim, void >", "classug_1_1_user_data.html", null ],
+      [ "ug::UserData< MathVector< dim >, dim, void >", "classug_1_1_user_data.html", null ],
       [ "ug::UserData< MathMatrix< N, N >, dim, void >", "classug_1_1_user_data.html", null ],
       [ "ug::UserData< MathTensor< TRank, dim >, dim, void >", "classug_1_1_user_data.html", null ],
-      [ "ug::UserData< MathVector< dim >, dim, void >", "classug_1_1_user_data.html", null ],
       [ "ug::UserData< MathVector< TDomain::dim >, dim, void >", "classug_1_1_user_data.html", null ],
       [ "ug::UserData< MathVector< TGFunc::dim >, dim, void >", "classug_1_1_user_data.html", null ],
       [ "ug::UserData< MathVector< TGridFunc::dim >, dim, void >", "classug_1_1_user_data.html", null ],
@@ -3561,11 +3561,11 @@ var hierarchy =
       [ "ug::UserData< TData, worldDim >", "classug_1_1_user_data.html", null ],
       [ "ug::ICplUserData< dim >", "classug_1_1_i_cpl_user_data.html", [
         [ "ug::CplUserData< number, dim >", "classug_1_1_cpl_user_data.html", null ],
+        [ "ug::CplUserData< MathVector< dim >, dim >", "classug_1_1_cpl_user_data.html", null ],
         [ "ug::CplUserData< MathMatrix< N, N >, dim, void >", "classug_1_1_cpl_user_data.html", null ],
         [ "ug::CplUserData< number, dim, void >", "classug_1_1_cpl_user_data.html", null ],
         [ "ug::CplUserData< MathTensor< TRank, dim >, dim, void >", "classug_1_1_cpl_user_data.html", null ],
         [ "ug::CplUserData< MathVector< dim >, dim, void >", "classug_1_1_cpl_user_data.html", null ],
-        [ "ug::CplUserData< MathVector< dim >, dim >", "classug_1_1_cpl_user_data.html", null ],
         [ "ug::CplUserData< MathVector< TDomain::dim >, dim, void >", "classug_1_1_cpl_user_data.html", null ],
         [ "ug::CplUserData< MathVector< TGFunc::dim >, dim >", "classug_1_1_cpl_user_data.html", null ],
         [ "ug::CplUserData< MathVector< TGridFunc::dim >, dim >", "classug_1_1_cpl_user_data.html", null ],
@@ -3592,6 +3592,7 @@ var hierarchy =
             [ "ug::StdUserData< StdDependentUserData< DataExport< number, dim >, number, dim >, number, dim, void, DependentUserData< number, dim > >", "classug_1_1_std_user_data.html", null ]
           ] ],
           [ "ug::DependentUserData< MathVector< dim >, dim >", "classug_1_1_dependent_user_data.html", [
+            [ "ug::StdUserData< StdDataLinker< ConsistentGravityLinker< dim >, MathVector< dim >, dim >, MathVector< dim >, dim, void, DependentUserData< MathVector< dim >, dim > >", "classug_1_1_std_user_data.html", null ],
             [ "ug::StdUserData< StdDataLinker< DarcyVelocityLinker< dim >, MathVector< dim >, dim >, MathVector< dim >, dim, void, DependentUserData< MathVector< dim >, dim > >", "classug_1_1_std_user_data.html", null ],
             [ "ug::StdUserData< StdDependentUserData< GradientDataExport< dim >, MathVector< dim >, dim >, MathVector< dim >, dim, void, DependentUserData< MathVector< dim >, dim > >", "classug_1_1_std_user_data.html", null ],
             [ "ug::StdUserData< StdDataLinker< ProjectionLinker< dim >, MathVector< dim >, dim >, MathVector< dim >, dim, void, DependentUserData< MathVector< dim >, dim > >", "classug_1_1_std_user_data.html", null ],
@@ -3683,6 +3684,9 @@ var hierarchy =
             [ "ug::StdConstData< ConstUserVector< dim, dim >, MathVector< dim >, dim >", "classug_1_1_std_const_data.html", null ],
             [ "ug::StdDataLinker< BinghamViscosityLinker< dim >, number, dim >", "classug_1_1_std_data_linker.html", [
               [ "ug::BinghamViscosityLinker< dim >", "classug_1_1_bingham_viscosity_linker.html", null ]
+            ] ],
+            [ "ug::StdDataLinker< ConsistentGravityLinker< dim >, MathVector< dim >, dim >", "classug_1_1_std_data_linker.html", [
+              [ "ug::ConsistentGravityLinker< dim >", "classug_1_1_consistent_gravity_linker.html", null ]
             ] ],
             [ "ug::StdDataLinker< DarcyVelocityLinker< dim >, MathVector< dim >, dim >", "classug_1_1_std_data_linker.html", [
               [ "ug::DarcyVelocityLinker< dim >", "classug_1_1_darcy_velocity_linker.html", null ]
@@ -3786,11 +3790,11 @@ var hierarchy =
       ] ],
       [ "ug::UserData< TData, dim, TRet >", "classug_1_1_user_data.html", [
         [ "ug::CplUserData< number, dim >", "classug_1_1_cpl_user_data.html", null ],
+        [ "ug::CplUserData< MathVector< dim >, dim >", "classug_1_1_cpl_user_data.html", null ],
         [ "ug::CplUserData< MathMatrix< N, N >, dim, void >", "classug_1_1_cpl_user_data.html", null ],
         [ "ug::CplUserData< number, dim, void >", "classug_1_1_cpl_user_data.html", null ],
         [ "ug::CplUserData< MathTensor< TRank, dim >, dim, void >", "classug_1_1_cpl_user_data.html", null ],
         [ "ug::CplUserData< MathVector< dim >, dim, void >", "classug_1_1_cpl_user_data.html", null ],
-        [ "ug::CplUserData< MathVector< dim >, dim >", "classug_1_1_cpl_user_data.html", null ],
         [ "ug::CplUserData< MathVector< TDomain::dim >, dim, void >", "classug_1_1_cpl_user_data.html", null ],
         [ "ug::CplUserData< MathVector< TGFunc::dim >, dim >", "classug_1_1_cpl_user_data.html", null ],
         [ "ug::CplUserData< MathVector< TGridFunc::dim >, dim >", "classug_1_1_cpl_user_data.html", null ],

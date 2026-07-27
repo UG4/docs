@@ -356,6 +356,7 @@ var namespaceug =
     [ "ConsistencyCheckClass", "classug_1_1_consistency_check_class.html", "classug_1_1_consistency_check_class" ],
     [ "ConsistencyCheckClassSend", "classug_1_1_consistency_check_class_send.html", "classug_1_1_consistency_check_class_send" ],
     [ "ConsistencyCheckClassSend< TVec, bool >", "classug_1_1_consistency_check_class_send_3_01_t_vec_00_01bool_01_4.html", "classug_1_1_consistency_check_class_send_3_01_t_vec_00_01bool_01_4" ],
+    [ "ConsistentGravityLinker", "classug_1_1_consistent_gravity_linker.html", "classug_1_1_consistent_gravity_linker" ],
     [ "const_localMatrix_from_mat_and_array", "classug_1_1const__local_matrix__from__mat__and__array.html", "classug_1_1const__local_matrix__from__mat__and__array" ],
     [ "const_ntree_element_iterator", "classug_1_1const__ntree__element__iterator.html", "classug_1_1const__ntree__element__iterator" ],
     [ "ConstantDamping", "classug_1_1_constant_damping.html", "classug_1_1_constant_damping" ],

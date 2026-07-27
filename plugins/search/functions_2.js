@@ -82,7 +82,7 @@ var searchData=
   ['blocksize_79',['blocksize',['../../classug_1_1_algebra_type.html#a340e0522dbcf9a7d5351c5e397ac5ab3',1,'ug::AlgebraType']]],
   ['blocksliceindexview_80',['BlockSliceIndexView',['../../classug_1_1_block_slice_index_view.html#a4933bd02ffd960bfc7a801148f564852',1,'ug::BlockSliceIndexView']]],
   ['blockvectorfiniteandnottoobig_81',['BlockVectorFiniteAndNotTooBig',['../../namespaceug.html#ac9bb311128c5fafeaa5867a2457ab150',1,'ug']]],
-  ['blur_82',['blur',['../../classug_1_1raster__kernels_1_1_blur.html#aa69fee18d35e0ebf1f156ef08077420e',1,'ug::raster_kernels::Blur::Blur()'],['../../classug_1_1_heightfield.html#ad914e80fdc13b8e03b245a0a067ce6bc',1,'ug::Heightfield::blur()'],['../../classug_1_1_raster.html#a30352e11fc7c3be065baaa27eb23d58e',1,'ug::Raster::blur()']]],
+  ['blur_82',['blur',['../../classug_1_1_raster.html#a30352e11fc7c3be065baaa27eb23d58e',1,'ug::Raster::blur()'],['../../classug_1_1raster__kernels_1_1_blur.html#aa69fee18d35e0ebf1f156ef08077420e',1,'ug::raster_kernels::Blur::Blur()'],['../../classug_1_1_heightfield.html#ad914e80fdc13b8e03b245a0a067ce6bc',1,'ug::Heightfield::blur()']]],
   ['blur_5flayers_83',['blur_layers',['../../classug_1_1_raster_layers.html#aa2ce4153c0713e1130d9ec3832f3ecd0',1,'ug::RasterLayers']]],
   ['blurfield_84',['BlurField',['../../namespaceug.html#a2a576db7b05c793d51f80b5cd85db610',1,'ug']]],
   ['bnd_5fcorners_85',['bnd_corners',['../classug_1_1_electromagnetism_1_1_nedelec_loop_current_1_1_loc_laplace_a.html#afd286d2824c16a6d93caf353146072b5',1,'ug::Electromagnetism::NedelecLoopCurrent::LocLaplaceA']]],
