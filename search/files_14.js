@@ -39,7 +39,7 @@ var searchData=
   ['user_5fdata_5futil_2elua_36',['user_data_util.lua',['../user__data__util_8lua.html',1,'']]],
   ['user_5ffunction_2eh_37',['user_function.h',['../user__function_8h.html',1,'']]],
   ['util_2edoxygen_38',['util.doxygen',['../util_8doxygen.html',1,'']]],
-  ['util_2eh_39',['util.h',['../lib__algebra_2ordering__strategies_2algorithms_2util_8h.html',1,'(Global Namespace)'],['../bridge_2util_8h.html',1,'(Global Namespace)'],['../lib__algebra_2vector__interface_2util_8h.html',1,'(Global Namespace)']]],
+  ['util_2eh_39',['util.h',['../lib__algebra_2ordering__strategies_2algorithms_2util_8h.html',1,'(Global Namespace)'],['../lib__algebra_2vector__interface_2util_8h.html',1,'(Global Namespace)'],['../bridge_2util_8h.html',1,'(Global Namespace)']]],
   ['util_5falgebra_5fdependent_2eh_40',['util_algebra_dependent.h',['../util__algebra__dependent_8h.html',1,'']]],
   ['util_5fbridge_2ecpp_41',['util_bridge.cpp',['../util__bridge_8cpp.html',1,'']]],
   ['util_5fdomain_5falgebra_5fdependent_2eh_42',['util_domain_algebra_dependent.h',['../util__domain__algebra__dependent_8h.html',1,'']]],
