@@ -163,10 +163,10 @@ Variables</h2></td></tr>
 <p>location: /home/runner/work/docs/docs/ug4/apps/Tutorials / <a class="el" href="tut03__laplace__with__exact__solver_8lua.html">tut03_laplace_with_exact_solver.lua</a> :107-110 </p><div class="fragment"><div class="line">function <a class="code hl_function" href="tut03__laplace__with__exact__solver_8lua.html#acf53ef5762cad6362e93cc78c48f637c">ourDiffTensor2d</a>(x, <a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>, <a class="code hl_variable" href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a>)</div>
 <div class="line">  <span class="keywordflow">return</span>  1, 0, </div>
 <div class="line">      0, 1</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="achannel_8lua_html_a0abc9ddee91887084fd7f38e1bcb6f7f"><div class="ttname"><a href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a></div><div class="ttdeci">function y</div><div class="ttdef"><b>Definition</b> channel.lua:79</div></div>
 <div class="ttc" id="achannel_8lua_html_a23c5666e83bbbceee94adcd0851f50c4"><div class="ttname"><a href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a></div><div class="ttdeci">function t</div><div class="ttdef"><b>Definition</b> channel.lua:79</div></div>
-<div class="ttc" id="achannel_8lua_html_aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07"><div class="ttname"><a href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div><div class="ttdeci">function *Umax *y end</div><div class="ttdef"><b>Definition</b> channel.lua:87</div></div>
+<div class="ttc" id="adeponie_8lua_html_aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07"><div class="ttname"><a href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div><div class="ttdeci">function y * end</div><div class="ttdef"><b>Definition</b> deponie.lua:16</div></div>
 <div class="ttc" id="atut03__laplace__with__exact__solver_8lua_html_acf53ef5762cad6362e93cc78c48f637c"><div class="ttname"><a href="tut03__laplace__with__exact__solver_8lua.html#acf53ef5762cad6362e93cc78c48f637c">ourDiffTensor2d</a></div><div class="ttdeci">function ourDiffTensor2d(x, y, t)</div></div>
 </div><!-- fragment --> 
 </div>
@@ -212,7 +212,7 @@ Variables</h2></td></tr>
 <div class="line">  <span class="keywordflow">return</span>  1, 0, 0,</div>
 <div class="line">      0, 1, 0,</div>
 <div class="line">      0, 0, 1</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="atut03__laplace__with__exact__solver_8lua_html_a5f0b2a4cf6f66d8caf4a7efb9ac93295"><div class="ttname"><a href="tut03__laplace__with__exact__solver_8lua.html#a5f0b2a4cf6f66d8caf4a7efb9ac93295">ourDiffTensor3d</a></div><div class="ttdeci">function ourDiffTensor3d(x, y, z, t)</div></div>
 </div><!-- fragment --> 
 </div>
@@ -251,7 +251,7 @@ Variables</h2></td></tr>
 <p>location: /home/runner/work/docs/docs/ug4/apps/Tutorials / <a class="el" href="tut03__laplace__with__exact__solver_8lua.html">tut03_laplace_with_exact_solver.lua</a> :126-129 </p><div class="fragment"><div class="line">function <a class="code hl_function" href="tut03__laplace__with__exact__solver_8lua.html#a7c0b908fbbe7496916920e05e5a72e8c">ourDirichletBnd2d</a>(x, <a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>, <a class="code hl_variable" href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a>)</div>
 <div class="line">  local <a class="code hl_variableRef" href="../../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a> = 2*math.pi</div>
 <div class="line">  <span class="keywordflow">return</span> <span class="keyword">true</span>, math.sin(s*x) + math.sin(s*<a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>)</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="a_biogas_8lua_html_a9dda901d5ee6289370201a700f88e789"><div class="ttname"><a href="../../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a></div><div class="ttdeci">parameterString s</div></div>
 <div class="ttc" id="atut03__laplace__with__exact__solver_8lua_html_a7c0b908fbbe7496916920e05e5a72e8c"><div class="ttname"><a href="tut03__laplace__with__exact__solver_8lua.html#a7c0b908fbbe7496916920e05e5a72e8c">ourDirichletBnd2d</a></div><div class="ttdeci">function ourDirichletBnd2d(x, y, t)</div></div>
 </div><!-- fragment --> 
@@ -297,7 +297,7 @@ Variables</h2></td></tr>
 <p>location: /home/runner/work/docs/docs/ug4/apps/Tutorials / <a class="el" href="tut03__laplace__with__exact__solver_8lua.html">tut03_laplace_with_exact_solver.lua</a> :131-134 </p><div class="fragment"><div class="line">function <a class="code hl_function" href="tut03__laplace__with__exact__solver_8lua.html#a381dc88b15f8b5a29736ad15f8a6aea1">ourDirichletBnd3d</a>(x, <a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>, z, <a class="code hl_variable" href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a>)</div>
 <div class="line">  local <a class="code hl_variableRef" href="../../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a> = 2*math.pi</div>
 <div class="line">  <span class="keywordflow">return</span> <span class="keyword">true</span>, math.sin(s*x) + math.sin(s*<a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>) + math.sin(s*z)</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="atut03__laplace__with__exact__solver_8lua_html_a381dc88b15f8b5a29736ad15f8a6aea1"><div class="ttname"><a href="tut03__laplace__with__exact__solver_8lua.html#a381dc88b15f8b5a29736ad15f8a6aea1">ourDirichletBnd3d</a></div><div class="ttdeci">function ourDirichletBnd3d(x, y, z, t)</div></div>
 </div><!-- fragment --> 
 </div>
@@ -336,7 +336,7 @@ Variables</h2></td></tr>
 <p>location: /home/runner/work/docs/docs/ug4/apps/Tutorials / <a class="el" href="tut03__laplace__with__exact__solver_8lua.html">tut03_laplace_with_exact_solver.lua</a> :141-144 </p><div class="fragment"><div class="line">function <a class="code hl_function" href="tut03__laplace__with__exact__solver_8lua.html#ac137d05de6e34788d4f06514216ea4c8">ourRhs2d</a>(x, <a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>, <a class="code hl_variable" href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a>)</div>
 <div class="line">  local <a class="code hl_variableRef" href="../../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a> = 2*math.pi</div>
 <div class="line">  <span class="keywordflow">return</span>  <a class="code hl_variableRef" href="../../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a>*<a class="code hl_variableRef" href="../../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a>*(math.sin(s*x) + math.sin(s*<a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>))</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="atut03__laplace__with__exact__solver_8lua_html_ac137d05de6e34788d4f06514216ea4c8"><div class="ttname"><a href="tut03__laplace__with__exact__solver_8lua.html#ac137d05de6e34788d4f06514216ea4c8">ourRhs2d</a></div><div class="ttdeci">function ourRhs2d(x, y, t)</div></div>
 </div><!-- fragment --> 
 </div>
@@ -381,7 +381,7 @@ Variables</h2></td></tr>
 <p>location: /home/runner/work/docs/docs/ug4/apps/Tutorials / <a class="el" href="tut03__laplace__with__exact__solver_8lua.html">tut03_laplace_with_exact_solver.lua</a> :146-149 </p><div class="fragment"><div class="line">function <a class="code hl_function" href="tut03__laplace__with__exact__solver_8lua.html#a5d589736f288926911d566ab10400afc">ourRhs3d</a>(x, <a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>, z, <a class="code hl_variable" href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a>)</div>
 <div class="line">  local <a class="code hl_variableRef" href="../../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a> = 2*math.pi</div>
 <div class="line">  <span class="keywordflow">return</span>  <a class="code hl_variableRef" href="../../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a>*<a class="code hl_variableRef" href="../../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a>*(math.sin(s*x) + math.sin(s*<a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>) + math.sin(s*z))</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="atut03__laplace__with__exact__solver_8lua_html_a5d589736f288926911d566ab10400afc"><div class="ttname"><a href="tut03__laplace__with__exact__solver_8lua.html#a5d589736f288926911d566ab10400afc">ourRhs3d</a></div><div class="ttdeci">function ourRhs3d(x, y, z, t)</div></div>
 </div><!-- fragment --> 
 </div>
@@ -435,7 +435,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_9654b8d08f4bba4e84b362c5fd320bee.html">apps</a></li><li class="navelem"><a class="el" href="dir_755d042f2328fa534afa8c85c6f6b421.html">Tutorials</a></li><li class="navelem"><a class="el" href="tut03__laplace__with__exact__solver_8lua.html">tut03_laplace_with_exact_solver.lua</a></li>
-    <li class="footer">Generated on Mon Aug 17 2026 01:04:55 for Apps by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Aug 24 2026 01:06:49 for Apps by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

@@ -9,6 +9,7 @@ var searchData=
   ['ereturntype_6',['eReturnType',['../classug_1_1_l_u_a_parser_class.html#a45913b53a184cc502de9138a1b687dfb',1,'ug::LUAParserClass']]],
   ['errorids_7',['ErrorIds',['../classug_1_1_message_hub.html#aefaa470a77099b175c4ddc717fc21afe',1,'ug::MessageHub']]],
   ['etransposemode_8',['eTransposeMode',['../namespaceug.html#a399a728489efaf2f8787fefbfa5bd241',1,'ug']]],
-  ['exceptiontype_9',['ExceptionType',['../namespaceug_1_1vrl_1_1threading.html#ad5d2391adf4ce478c67bf82ee1e98565',1,'ug::vrl::threading']]],
-  ['extrusionoptions_10',['ExtrusionOptions',['../group__lib__grid__algorithms__extrusion.html#ga3608a56b03762595d04e3f80a35bd370',1,'ug']]]
+  ['eval_5ftype_9',['eval_type',['../../plugins/classug_1_1_level_set_1_1_level_set_user_data.html#aad362438fe51c142dbc4e4ce127e8d0d',1,'ug::LevelSet::LevelSetUserData::eval_type'],['../../plugins/classug_1_1_level_set_1_1_level_set_user_vector_data.html#a96cf224ee2920120ec8a57457e5f402b',1,'ug::LevelSet::LevelSetUserVectorData::eval_type']]],
+  ['exceptiontype_10',['ExceptionType',['../namespaceug_1_1vrl_1_1threading.html#ad5d2391adf4ce478c67bf82ee1e98565',1,'ug::vrl::threading']]],
+  ['extrusionoptions_11',['ExtrusionOptions',['../group__lib__grid__algorithms__extrusion.html#ga3608a56b03762595d04e3f80a35bd370',1,'ug']]]
 ];

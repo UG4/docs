@@ -164,10 +164,10 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>location: /home/runner/work/docs/docs/ug4/apps/Examples / <a class="el" href="poisson_8lua.html">poisson.lua</a> :63-65 </p><div class="fragment"><div class="line">function <a class="code hl_function" href="laplace-hpc_8lua.html#aa34287dd86c61cfea4de5fb8bce66692">DirichletValue1d</a>(x, <a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>, <a class="code hl_variable" href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a>)</div>
 <div class="line">  <span class="keywordflow">return</span> <span class="keyword">true</span>, math.sin(2*math.pi*x)</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="achannel_8lua_html_a0abc9ddee91887084fd7f38e1bcb6f7f"><div class="ttname"><a href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a></div><div class="ttdeci">function y</div><div class="ttdef"><b>Definition</b> channel.lua:79</div></div>
 <div class="ttc" id="achannel_8lua_html_a23c5666e83bbbceee94adcd0851f50c4"><div class="ttname"><a href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a></div><div class="ttdeci">function t</div><div class="ttdef"><b>Definition</b> channel.lua:79</div></div>
-<div class="ttc" id="achannel_8lua_html_aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07"><div class="ttname"><a href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div><div class="ttdeci">function *Umax *y end</div><div class="ttdef"><b>Definition</b> channel.lua:87</div></div>
+<div class="ttc" id="adeponie_8lua_html_aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07"><div class="ttname"><a href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div><div class="ttdeci">function y * end</div><div class="ttdef"><b>Definition</b> deponie.lua:16</div></div>
 <div class="ttc" id="alaplace-hpc_8lua_html_aa34287dd86c61cfea4de5fb8bce66692"><div class="ttname"><a href="laplace-hpc_8lua.html#aa34287dd86c61cfea4de5fb8bce66692">DirichletValue1d</a></div><div class="ttdeci">function DirichletValue1d(x, y, t)</div></div>
 </div><!-- fragment --> 
 </div>
@@ -206,7 +206,7 @@ Variables</h2></td></tr>
 <p>location: /home/runner/work/docs/docs/ug4/apps/Examples / <a class="el" href="poisson_8lua.html">poisson.lua</a> :72-75 </p><div class="fragment"><div class="line">function <a class="code hl_function" href="laplace-hpc_8lua.html#ac3b0468a3156372cea6648e75201f337">DirichletValue2d</a>(x, <a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>, <a class="code hl_variable" href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a>)</div>
 <div class="line">  local <a class="code hl_variableRef" href="../../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a> = 2*math.pi</div>
 <div class="line">  <span class="keywordflow">return</span> <span class="keyword">true</span>, math.sin(s*x) + math.sin(s*<a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>)</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="a_biogas_8lua_html_a9dda901d5ee6289370201a700f88e789"><div class="ttname"><a href="../../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a></div><div class="ttdeci">parameterString s</div></div>
 <div class="ttc" id="alaplace-hpc_8lua_html_ac3b0468a3156372cea6648e75201f337"><div class="ttname"><a href="laplace-hpc_8lua.html#ac3b0468a3156372cea6648e75201f337">DirichletValue2d</a></div><div class="ttdeci">function DirichletValue2d(x, y, t)</div></div>
 </div><!-- fragment --> 
@@ -252,7 +252,7 @@ Variables</h2></td></tr>
 <p>location: /home/runner/work/docs/docs/ug4/apps/Examples / <a class="el" href="poisson_8lua.html">poisson.lua</a> :82-85 </p><div class="fragment"><div class="line">function <a class="code hl_function" href="laplace-hpc_8lua.html#a7cf1109b704764acf508cd56ccd9619f">DirichletValue3d</a>(x, <a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>, z, <a class="code hl_variable" href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a>)</div>
 <div class="line">  local <a class="code hl_variableRef" href="../../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a> = 2*math.pi</div>
 <div class="line">  <span class="keywordflow">return</span> <span class="keyword">true</span>, math.sin(s*x) + math.sin(s*<a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>) + math.sin(s*z)</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="alaplace-hpc_8lua_html_a7cf1109b704764acf508cd56ccd9619f"><div class="ttname"><a href="laplace-hpc_8lua.html#a7cf1109b704764acf508cd56ccd9619f">DirichletValue3d</a></div><div class="ttdeci">function DirichletValue3d(x, y, z, t)</div></div>
 </div><!-- fragment --> 
 <p class="reference">References <a class="el" href="solmech_8lua.html#a2dc7920ccb8ff3abcc25c3aa63f43c93">smoother</a>, and <a class="el" href="adrivencavity_8lua.html#a221a494317ae91f8886cc1a16fdc0811">type</a>.</p>
@@ -293,7 +293,7 @@ Variables</h2></td></tr>
 <p>location: /home/runner/work/docs/docs/ug4/apps/Examples / <a class="el" href="poisson_8lua.html">poisson.lua</a> :58-61 </p><div class="fragment"><div class="line">function <a class="code hl_function" href="laplace-hpc_8lua.html#a6ab7cc6fa279666d364eb7fdb745eb58">Source1d</a>(x, <a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>, <a class="code hl_variable" href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a>)</div>
 <div class="line">  local <a class="code hl_variableRef" href="../../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a> = 2*math.pi</div>
 <div class="line">  <span class="keywordflow">return</span> <a class="code hl_variableRef" href="../../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a>*<a class="code hl_variableRef" href="../../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a>*math.sin(s*x)</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="alaplace-hpc_8lua_html_a6ab7cc6fa279666d364eb7fdb745eb58"><div class="ttname"><a href="laplace-hpc_8lua.html#a6ab7cc6fa279666d364eb7fdb745eb58">Source1d</a></div><div class="ttdeci">function Source1d(x, y, t)</div></div>
 </div><!-- fragment --> 
 <p class="reference">References <a class="elRef" href="../parser_8cpp.html#ab352f63e4dbefc447c3fd0eba3fa120f">for()</a>.</p>
@@ -334,7 +334,7 @@ Variables</h2></td></tr>
 <p>location: /home/runner/work/docs/docs/ug4/apps/Examples / <a class="el" href="poisson_8lua.html">poisson.lua</a> :67-70 </p><div class="fragment"><div class="line">function <a class="code hl_function" href="laplace-hpc_8lua.html#ad6e9e2fa4cb5dd9c02d79f876d76934f">Source2d</a>(x, <a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>, <a class="code hl_variable" href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a>)</div>
 <div class="line">  local <a class="code hl_variableRef" href="../../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a> = 2*math.pi</div>
 <div class="line">  <span class="keywordflow">return</span> <a class="code hl_variableRef" href="../../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a>*<a class="code hl_variableRef" href="../../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a>*(math.sin(s*x) + math.sin(s*<a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>))</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="alaplace-hpc_8lua_html_ad6e9e2fa4cb5dd9c02d79f876d76934f"><div class="ttname"><a href="laplace-hpc_8lua.html#ad6e9e2fa4cb5dd9c02d79f876d76934f">Source2d</a></div><div class="ttdeci">function Source2d(x, y, t)</div></div>
 </div><!-- fragment --> 
 </div>
@@ -379,7 +379,7 @@ Variables</h2></td></tr>
 <p>location: /home/runner/work/docs/docs/ug4/apps/Examples / <a class="el" href="poisson_8lua.html">poisson.lua</a> :77-80 </p><div class="fragment"><div class="line">function <a class="code hl_function" href="laplace-hpc_8lua.html#a8070cef1775b2a550387c6c79901f76b">Source3d</a>(x, <a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>, z, <a class="code hl_variable" href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a>)</div>
 <div class="line">  local <a class="code hl_variableRef" href="../../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a> = 2*math.pi</div>
 <div class="line">  <span class="keywordflow">return</span>  <a class="code hl_variableRef" href="../../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a>*<a class="code hl_variableRef" href="../../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a>*(math.sin(s*x) + math.sin(s*<a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>) + math.sin(s*z))</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="alaplace-hpc_8lua_html_a8070cef1775b2a550387c6c79901f76b"><div class="ttname"><a href="laplace-hpc_8lua.html#a8070cef1775b2a550387c6c79901f76b">Source3d</a></div><div class="ttdeci">function Source3d(x, y, z, t)</div></div>
 </div><!-- fragment --> 
 </div>
@@ -437,7 +437,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_9654b8d08f4bba4e84b362c5fd320bee.html">apps</a></li><li class="navelem"><a class="el" href="dir_c0ee1f20bf466b0f96af9182d756910f.html">Examples</a></li><li class="navelem"><a class="el" href="poisson_8lua.html">poisson.lua</a></li>
-    <li class="footer">Generated on Mon Aug 17 2026 01:04:55 for Apps by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Aug 24 2026 01:06:49 for Apps by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

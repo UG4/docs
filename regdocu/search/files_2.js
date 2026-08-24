@@ -33,7 +33,7 @@ var searchData=
   ['common_5fattachments_5fimpl_2ehpp_30',['common_attachments_impl.hpp',['../../common__attachments__impl_8hpp.html',1,'']]],
   ['common_5fbridge_2ecpp_31',['common_bridge.cpp',['../../algebra__bridges_2common__bridge_8cpp.html',1,'(Global Namespace)'],['../../disc__bridges_2common__bridge_8cpp.html',1,'(Global Namespace)']]],
   ['common_5fcuda_2eh_32',['common_cuda.h',['../../common__cuda_8h.html',1,'']]],
-  ['common_5fuser_5fdata_2eh_33',['common_user_data.h',['../../common__user__data_8h.html',1,'']]],
+  ['common_5fuser_5fdata_2eh_33',['common_user_data.h',['../../plugins/common__user__data_8h.html',1,'(Global Namespace)'],['../../common__user__data_8h.html',1,'(Global Namespace)']]],
   ['communication_5fpolicies_2eh_34',['communication_policies.h',['../../communication__policies_8h.html',1,'']]],
   ['communication_5fscheme_2eh_35',['communication_scheme.h',['../../communication__scheme_8h.html',1,'']]],
   ['compile_5finfo_2ecpp_36',['compile_info.cpp',['../../compile__info_8cpp.html',1,'']]],

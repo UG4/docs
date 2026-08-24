@@ -165,12 +165,13 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>location: /home/runner/work/docs/docs/ug4/ugcore/scripts/util / <a class="el" href="table__desc__util_8lua.html">table_desc_util.lua</a> :44-50 </p><div class="fragment"><div class="line">function util.tableDesc.IsPreset(desc)</div>
-<div class="line">  <span class="keywordflow">if</span> type(desc) == <span class="stringliteral">&quot;userdata&quot;</span> then</div>
+<div class="line">  <span class="keywordflow">if</span> <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a>(desc) == <span class="stringliteral">&quot;userdata&quot;</span> then</div>
 <div class="line">    <span class="keywordflow">return</span> <span class="keyword">true</span></div>
 <div class="line">  <span class="keywordflow">else</span></div>
 <div class="line">    <span class="keywordflow">return</span> <span class="keyword">false</span></div>
 <div class="line">  end</div>
 <div class="line">end</div>
+<div class="ttc" id="ad3f__util_8orig_8lua_html_a0acd8d81dd6c62b6e0ddfba2ff3f4f07"><div class="ttname"><a href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a></div><div class="ttdeci">function util d3f check type(param, name, typ)</div></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -190,15 +191,15 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>location: /home/runner/work/docs/docs/ug4/ugcore/scripts/util / <a class="el" href="table__desc__util_8lua.html">table_desc_util.lua</a> :52-70 </p><div class="fragment"><div class="line">function util.tableDesc.ToNameAndDesc(descOrName)</div>
-<div class="line">  <span class="keywordflow">if</span> type(descOrName) == <span class="stringliteral">&quot;string&quot;</span> then</div>
+<div class="line">  <span class="keywordflow">if</span> <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a>(descOrName) == <span class="stringliteral">&quot;string&quot;</span> then</div>
 <div class="line">    <span class="keywordflow">return</span> descOrName, nil</div>
-<div class="line">  elseif type(descOrName) == <span class="stringliteral">&quot;table&quot;</span> then</div>
+<div class="line">  elseif <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a>(descOrName) == <span class="stringliteral">&quot;table&quot;</span> then</div>
 <div class="line">    <span class="keywordflow">if</span> descOrName.type then</div>
-<div class="line">      util.tableDesc.CondAbort(type(descOrName.type) ~= <span class="stringliteral">&quot;string&quot;</span>,</div>
+<div class="line">      util.tableDesc.CondAbort(<a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a>(descOrName.type) ~= <span class="stringliteral">&quot;string&quot;</span>,</div>
 <div class="line">                   <span class="stringliteral">&quot;&#39;type&#39; entry in table has to be of type &#39;string&#39;&quot;</span>)</div>
 <div class="line">      <span class="keywordflow">return</span> descOrName.type, descOrName</div>
 <div class="line">    elseif descOrName.name then</div>
-<div class="line">      util.tableDesc.CondAbort(type(descOrName.name) ~= <span class="stringliteral">&quot;string&quot;</span>,</div>
+<div class="line">      util.tableDesc.CondAbort(<a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a>(descOrName.name) ~= <span class="stringliteral">&quot;string&quot;</span>,</div>
 <div class="line">                   <span class="stringliteral">&quot;&#39;name&#39; entry in table has to be of type &#39;string&#39;&quot;</span>)</div>
 <div class="line">      <span class="keywordflow">return</span> descOrName.name, descOrName</div>
 <div class="line">    <span class="keywordflow">else</span></div>
@@ -219,7 +220,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_53e6fa9553ac22a5646d2a2b2d7b97a1.html">scripts</a></li><li class="navelem"><a class="el" href="dir_46f23659e18aa5fa06de6ff2c04a1a12.html">util</a></li><li class="navelem"><a class="el" href="table__desc__util_8lua.html">table_desc_util.lua</a></li>
-    <li class="footer">Generated on Mon Aug 17 2026 01:05:42 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Aug 24 2026 01:07:33 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

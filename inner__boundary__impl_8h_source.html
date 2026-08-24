@@ -187,7 +187,7 @@ $(document).ready(function(){initNavTree('inner__boundary__impl_8h_source.html',
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>{</div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>  <span class="comment">// check that Lagrange 1st order</span></div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>  <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i = 0; i &lt; vLfeID.size(); ++i)</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keywordflow">if</span>(vLfeID[i].type() != <a class="code hl_enumvalue" href="classug_1_1_l_f_e_i_d.html#af73992784d8d28c212f44ad976b17b13a87506500bee7d97436b59a02b6080dff">LFEID::LAGRANGE</a> || vLfeID[i].order() != 1)</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keywordflow">if</span>(vLfeID[i].<a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a>() != <a class="code hl_enumvalue" href="classug_1_1_l_f_e_i_d.html#af73992784d8d28c212f44ad976b17b13a87506500bee7d97436b59a02b6080dff">LFEID::LAGRANGE</a> || vLfeID[i].order() != 1)</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>      <a class="code hl_define" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>(<span class="stringliteral">&quot;FV1InnerBoundary: 1st order lagrange expected.&quot;</span>);</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>  <span class="comment">// update assemble functions</span></div>
@@ -809,6 +809,7 @@ $(document).ready(function(){initNavTree('inner__boundary__impl_8h_source.html',
 <div class="ttc" id="aclassug_1_1_side_and_elem_err_est_data_html_af31ccc07b5ed4cfa91876b37c74e9028"><div class="ttname"><a href="classug_1_1_side_and_elem_err_est_data.html#af31ccc07b5ed4cfa91876b37c74e9028">ug::SideAndElemErrEstData::num_side_ips</a></div><div class="ttdeci">size_t num_side_ips(const side_type *pSide)</div><div class="ttdoc">get number of side IPs of a specific side</div><div class="ttdef"><b>Definition</b> err_est_data_impl.h:419</div></div>
 <div class="ttc" id="aclassug_1_1geometry__traits_html"><div class="ttname"><a href="classug_1_1geometry__traits.html">ug::geometry_traits</a></div><div class="ttdef"><b>Definition</b> grid_base_object_traits.h:68</div></div>
 <div class="ttc" id="acpu__algebra__types_8h_html"><div class="ttname"><a href="cpu__algebra__types_8h.html">cpu_algebra_types.h</a></div></div>
+<div class="ttc" id="ad3f__util_8orig_8lua_html_a0acd8d81dd6c62b6e0ddfba2ff3f4f07"><div class="ttname"><a href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a></div><div class="ttdeci">function util d3f check type(param, name, typ)</div></div>
 <div class="ttc" id="afv1__geom_8h_html"><div class="ttname"><a href="fv1__geom_8h.html">fv1_geom.h</a></div></div>
 <div class="ttc" id="ageom__provider_8h_html"><div class="ttname"><a href="geom__provider_8h.html">geom_provider.h</a></div></div>
 <div class="ttc" id="agroup__lib__grid__parallelization_html_gga6673d0e4bb103780076ba4fefd8102e5af57e075dde07d984c332d66e18dca24b"><div class="ttname"><a href="group__lib__grid__parallelization.html#gga6673d0e4bb103780076ba4fefd8102e5af57e075dde07d984c332d66e18dca24b">ug::ES_H_SLAVE</a></div><div class="ttdeci">@ ES_H_SLAVE</div><div class="ttdef"><b>Definition</b> distributed_grid.h:59</div></div>
@@ -839,7 +840,7 @@ $(document).ready(function(){initNavTree('inner__boundary__impl_8h_source.html',
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_df0e37446a9fd4242d0753cd346d4a6c.html">lib_disc</a></li><li class="navelem"><a class="el" href="dir_29066d1a823b14ee0b28843282597c5c.html">spatial_disc</a></li><li class="navelem"><a class="el" href="dir_a58757cb12352b105e963c949e18885a.html">elem_disc</a></li><li class="navelem"><a class="el" href="dir_ed941202d5a9f8edfb93c55d0ef6bf61.html">inner_boundary</a></li><li class="navelem"><a class="el" href="inner__boundary__impl_8h.html">inner_boundary_impl.h</a></li>
-    <li class="footer">Generated on Mon Aug 17 2026 01:05:35 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Aug 24 2026 01:07:27 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

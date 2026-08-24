@@ -57,8 +57,9 @@ var searchData=
   ['hfv1_5ftraits_5freferencevolume_54',['hfv1_traits_ReferenceVolume',['../../structug_1_1hfv1__traits___reference_volume.html',1,'ug']]],
   ['hfv1geometry_55',['HFV1Geometry',['../../classug_1_1_h_f_v1_geometry.html',1,'ug']]],
   ['hfv1manifoldgeometry_56',['HFV1ManifoldGeometry',['../../classug_1_1_h_f_v1_manifold_geometry.html',1,'ug']]],
-  ['hlevelinfo_57',['HLevelInfo',['../../structug_1_1_process_hierarchy_1_1_h_level_info.html',1,'ug::ProcessHierarchy']]],
-  ['hookelaw_58',['HookeLaw',['../../../plugins/classug_1_1_small_strain_mechanics_1_1_hooke_law.html',1,'ug::SmallStrainMechanics']]],
-  ['horizontalalgebralayouts_59',['HorizontalAlgebraLayouts',['../../classug_1_1_horizontal_algebra_layouts.html',1,'ug']]],
-  ['horizontalanisotropyadjuster_60',['HorizontalAnisotropyAdjuster',['../../classug_1_1_horizontal_anisotropy_adjuster.html',1,'ug']]]
+  ['hiresfluxbasedlsm_57',['HiResFluxBasedLSM',['../../../plugins/classug_1_1_level_set_1_1_hi_res_flux_based_l_s_m.html',1,'ug::LevelSet']]],
+  ['hlevelinfo_58',['HLevelInfo',['../../structug_1_1_process_hierarchy_1_1_h_level_info.html',1,'ug::ProcessHierarchy']]],
+  ['hookelaw_59',['HookeLaw',['../../../plugins/classug_1_1_small_strain_mechanics_1_1_hooke_law.html',1,'ug::SmallStrainMechanics']]],
+  ['horizontalalgebralayouts_60',['HorizontalAlgebraLayouts',['../../classug_1_1_horizontal_algebra_layouts.html',1,'ug']]],
+  ['horizontalanisotropyadjuster_61',['HorizontalAnisotropyAdjuster',['../../classug_1_1_horizontal_anisotropy_adjuster.html',1,'ug']]]
 ];

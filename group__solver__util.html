@@ -142,10 +142,11 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Table based solver creation. </p>
 <p>Given a (possibly nested) solver description, e.g., </p><div class="fragment"><div class="line">solver = {</div>
-<div class="line">  type = <span class="stringliteral">&quot;bicgstab&quot;</span>,</div>
+<div class="line">  <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a> = <span class="stringliteral">&quot;bicgstab&quot;</span>,</div>
 <div class="line">  precond = <span class="stringliteral">&quot;ilu&quot;</span>,</div>
 <div class="line">  convCheck = <span class="stringliteral">&quot;standard&quot;</span></div>
 <div class="line">}</div>
+<div class="ttc" id="ad3f__util_8orig_8lua_html_a0acd8d81dd6c62b6e0ddfba2ff3f4f07"><div class="ttname"><a href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a></div><div class="ttdeci">function util d3f check type(param, name, typ)</div></div>
 </div><!-- fragment --><p> a call e.g. to util.solver.CreateSolver(solver) creates and returns the requested solver.</p>
 <p>All components may either be specified through a string-id or through a descriptor. You only have to specify those components which deviate from the defaults (solver.util.defaults), the rest will be ammended.</p>
 <p>To use a geometric multigrid preconditioner, you either have to specify an approxSpace entry in its descriptor or set 'util.solver.defaults.approxSpace' before calling any 'util.solver.Create...' method.</p>
@@ -157,7 +158,7 @@ Functions</h2></td></tr>
 </div><!-- fragment --><p><br  />
  </p><h3>Example: Creating a simple iterative jacobi solver</h3>
 <div class="fragment"><div class="line">solverDesc = {</div>
-<div class="line">  type = <span class="stringliteral">&quot;linear&quot;</span>,</div>
+<div class="line">  <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a> = <span class="stringliteral">&quot;linear&quot;</span>,</div>
 <div class="line">  precond = <span class="stringliteral">&quot;jac&quot;</span></div>
 <div class="line">}</div>
 <div class="line"> </div>
@@ -165,9 +166,9 @@ Functions</h2></td></tr>
 </div><!-- fragment --><p><br  />
  </p><h3>Example: Creating a simple iterative jacobi solver with custom parameters</h3>
 <div class="fragment"><div class="line">solverDesc = {</div>
-<div class="line">  type = <span class="stringliteral">&quot;linear&quot;</span>,</div>
+<div class="line">  <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a> = <span class="stringliteral">&quot;linear&quot;</span>,</div>
 <div class="line">  precond = {</div>
-<div class="line">    type = <span class="stringliteral">&quot;jac&quot;</span>,</div>
+<div class="line">    <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a> = <span class="stringliteral">&quot;jac&quot;</span>,</div>
 <div class="line">    damping = 0.5</div>
 <div class="line">  }</div>
 <div class="line">}</div>
@@ -177,10 +178,10 @@ Functions</h2></td></tr>
  </p><h3>Example: Creation of a bicgstab solver with geometric multigrid preconditioner</h3>
 <p>here someApproxSpace points to a previously created approximation space </p><div class="fragment"><div class="line">solverDesc = </div>
 <div class="line">{</div>
-<div class="line">  type = <span class="stringliteral">&quot;bicgstab&quot;</span>,      -- linear solver type [<span class="stringliteral">&quot;bicgstab&quot;</span>, <span class="stringliteral">&quot;cg&quot;</span>, <span class="stringliteral">&quot;linear&quot;</span>]</div>
+<div class="line">  <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a> = <span class="stringliteral">&quot;bicgstab&quot;</span>,      -- linear solver <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a> [<span class="stringliteral">&quot;bicgstab&quot;</span>, <span class="stringliteral">&quot;cg&quot;</span>, <span class="stringliteral">&quot;linear&quot;</span>]</div>
 <div class="line">  precond = </div>
 <div class="line">  { </div>
-<div class="line">    type    = <span class="stringliteral">&quot;gmg&quot;</span>,  -- preconditioner [<span class="stringliteral">&quot;gmg&quot;</span>, <span class="stringliteral">&quot;ilu&quot;</span>, <span class="stringliteral">&quot;ilut&quot;</span>, <span class="stringliteral">&quot;jac&quot;</span>, <span class="stringliteral">&quot;gs&quot;</span>, <span class="stringliteral">&quot;sgs&quot;</span>]</div>
+<div class="line">    <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a>    = <span class="stringliteral">&quot;gmg&quot;</span>,  -- preconditioner [<span class="stringliteral">&quot;gmg&quot;</span>, <span class="stringliteral">&quot;ilu&quot;</span>, <span class="stringliteral">&quot;ilut&quot;</span>, <span class="stringliteral">&quot;jac&quot;</span>, <span class="stringliteral">&quot;gs&quot;</span>, <span class="stringliteral">&quot;sgs&quot;</span>]</div>
 <div class="line">    smoother  = <span class="stringliteral">&quot;gs&quot;</span>, -- gmg-smoother [<span class="stringliteral">&quot;ilu&quot;</span>, <span class="stringliteral">&quot;ilut&quot;</span>, <span class="stringliteral">&quot;jac&quot;</span>, <span class="stringliteral">&quot;gs&quot;</span>, <span class="stringliteral">&quot;sgs&quot;</span>]</div>
 <div class="line">    cycle   = <span class="stringliteral">&quot;V&quot;</span>,    -- gmg-cycle [<span class="stringliteral">&quot;V&quot;</span>, <span class="stringliteral">&quot;F&quot;</span>, <span class="stringliteral">&quot;W&quot;</span>]</div>
 <div class="line">    preSmooth = 3,    -- <a class="code hl_typedef" href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a> presmoothing steps</div>
@@ -188,10 +189,10 @@ Functions</h2></td></tr>
 <div class="line">    rap   = <span class="keyword">false</span>,  -- comutes RAP-product instead of assembling <span class="keywordflow">if</span> <span class="keyword">true</span></div>
 <div class="line">    baseLevel = 0,    -- gmg - baselevel</div>
 <div class="line">    baseSolver  = {     -- better options are most likely <span class="stringliteral">&quot;lu&quot;</span> or <span class="stringliteral">&quot;superlu&quot;</span></div>
-<div class="line">      type    = <span class="stringliteral">&quot;bicgstab&quot;</span>,</div>
+<div class="line">      <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a>    = <span class="stringliteral">&quot;bicgstab&quot;</span>,</div>
 <div class="line">      precond   = <span class="stringliteral">&quot;gs&quot;</span>,</div>
 <div class="line">      convCheck = {</div>
-<div class="line">        type    = <span class="stringliteral">&quot;standard&quot;</span>,</div>
+<div class="line">        <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a>    = <span class="stringliteral">&quot;standard&quot;</span>,</div>
 <div class="line">        iterations  = 1000,</div>
 <div class="line">        absolute  = 1e-12,</div>
 <div class="line">        reduction = 1e-10,  -- higher values may suffice and may be much</div>
@@ -211,20 +212,20 @@ Functions</h2></td></tr>
  </p><h3>Example: Providing custom solver and preconditioner objects (advanced)</h3>
 <p>You may also provide instances of preconditioners instead of descriptor tables: </p><div class="fragment"><div class="line">solverDesc =</div>
 <div class="line">{</div>
-<div class="line">  type = <span class="stringliteral">&quot;linear&quot;</span>,</div>
+<div class="line">  <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a> = <span class="stringliteral">&quot;linear&quot;</span>,</div>
 <div class="line">  precond = ILU()   -- <span class="keywordflow">for each</span> component one can optionally supply a custom instance</div>
 <div class="line">}</div>
 <div class="line">solver = util.solver.CreateSolver(solverDesc)</div>
 </div><!-- fragment --><p><br  />
  </p><h3>Example: Accessing the created solvers and preconditioners (advanced)</h3>
 <p>For conveniance, all the methods will add an 'instance' entry to their respective descriptor tables, assigning the created solver component. If you thus setup a solver, e.g. </p><div class="fragment"><div class="line">solver = {</div>
-<div class="line">  type = <span class="stringliteral">&quot;bicgstab&quot;</span>,</div>
+<div class="line">  <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a> = <span class="stringliteral">&quot;bicgstab&quot;</span>,</div>
 <div class="line">  precond = {</div>
-<div class="line">    type = <span class="stringliteral">&quot;ilu&quot;</span></div>
+<div class="line">    <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a> = <span class="stringliteral">&quot;ilu&quot;</span></div>
 <div class="line">  }</div>
 <div class="line">}</div>
 </div><!-- fragment --><p> you may later access 'solver.instance' and 'solver.precond.instance'. Note that this is only possible if you specified a component through a descriptor. If you use the short form, e.g. </p><div class="fragment"><div class="line">solver = {</div>
-<div class="line">  type = <span class="stringliteral">&quot;bicgstab&quot;</span>,</div>
+<div class="line">  <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a> = <span class="stringliteral">&quot;bicgstab&quot;</span>,</div>
 <div class="line">  precond = <span class="stringliteral">&quot;ilu&quot;</span></div>
 <div class="line">}</div>
 </div><!-- fragment --><p> you will still be able to access 'solver.instance', but you can't access 'solver.precond.instance'.</p>
@@ -238,7 +239,7 @@ Functions</h2></td></tr>
 <p>Currently only the Newton method is available as non-linear solver.</p>
 <h3>Newton Method</h3>
 <div class="fragment"><div class="line">{</div>
-<div class="line">  type    = <span class="stringliteral">&quot;newton&quot;</span>,</div>
+<div class="line">  <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a>    = <span class="stringliteral">&quot;newton&quot;</span>,</div>
 <div class="line">  convCheck = <span class="stringliteral">&quot;standard&quot;</span>,</div>
 <div class="line">  linSolver = <span class="stringliteral">&quot;bicgstab&quot;</span>,</div>
 <div class="line">  lineSearch  = nil</div>
@@ -251,19 +252,19 @@ Functions</h2></td></tr>
 <p><b>convCheck</b> can be any convergence check listed in the <b>Convergence Checks</b> section.</p>
 <h3>Linear Solver</h3>
 <div class="fragment"><div class="line">{</div>
-<div class="line">  type    = <span class="stringliteral">&quot;linear&quot;</span>,</div>
+<div class="line">  <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a>    = <span class="stringliteral">&quot;linear&quot;</span>,</div>
 <div class="line">  precond = <span class="stringliteral">&quot;ilu&quot;</span>,</div>
 <div class="line">  convCheck = <span class="stringliteral">&quot;standard&quot;</span></div>
 <div class="line">}</div>
 </div><!-- fragment --><h3>Conjugate Gradients</h3>
 <div class="fragment"><div class="line">{</div>
-<div class="line">  type    = <span class="stringliteral">&quot;cg&quot;</span>,</div>
+<div class="line">  <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a>    = <span class="stringliteral">&quot;cg&quot;</span>,</div>
 <div class="line">  precond = <span class="stringliteral">&quot;ilu&quot;</span>,</div>
 <div class="line">  convCheck = <span class="stringliteral">&quot;standard&quot;</span></div>
 <div class="line">}</div>
 </div><!-- fragment --><h3>BiCGStab</h3>
 <div class="fragment"><div class="line">{</div>
-<div class="line">  type    = <span class="stringliteral">&quot;bicgstab&quot;</span>,</div>
+<div class="line">  <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a>    = <span class="stringliteral">&quot;bicgstab&quot;</span>,</div>
 <div class="line">  precond = <span class="stringliteral">&quot;ilu&quot;</span>,</div>
 <div class="line">  convCheck = <span class="stringliteral">&quot;standard&quot;</span></div>
 <div class="line">}</div>
@@ -272,13 +273,13 @@ Functions</h2></td></tr>
 <p>The following listing gives an overview over available preconditioners and their default parameters.</p>
 <h3>Geometric Multigrid</h3>
 <div class="fragment"><div class="line">{</div>
-<div class="line">  type              = <span class="stringliteral">&quot;gmg&quot;</span>,</div>
+<div class="line">  <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a>              = <span class="stringliteral">&quot;gmg&quot;</span>,</div>
 <div class="line">  adaptive            = <span class="keyword">false</span>,</div>
 <div class="line">  approxSpace             = nil,</div>
 <div class="line">  baseLevel             = 0,</div>
 <div class="line">  baseSolver            = <span class="stringliteral">&quot;lu&quot;</span>, -- any solver listed in the <span class="stringliteral">&#39;Solvers&#39;</span> section</div>
 <div class="line">  cycle               = <span class="stringliteral">&quot;V&quot;</span>,</div>
-<div class="line">  discretization          = nil,    -- only necessary <span class="keywordflow">if</span> the underlying matrix is not of type AssembledLinearOperator</div>
+<div class="line">  discretization          = nil,    -- only necessary <span class="keywordflow">if</span> the underlying matrix is not of <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a> AssembledLinearOperator</div>
 <div class="line">  gatheredBaseSolverIfAmbiguous       = <span class="keyword">false</span>,</div>
 <div class="line">  preSmooth             = 3,</div>
 <div class="line">  postSmooth            = 3,</div>
@@ -293,7 +294,7 @@ Functions</h2></td></tr>
 </div><!-- fragment --><p><br  />
  </p><h3>ILU</h3>
 <div class="fragment"><div class="line">{</div>
-<div class="line">  type      = <span class="stringliteral">&quot;ilu&quot;</span>,</div>
+<div class="line">  <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a>      = <span class="stringliteral">&quot;ilu&quot;</span>,</div>
 <div class="line">  beta      = 0,</div>
 <div class="line">  damping     = 1,</div>
 <div class="line">  sortEps     = 1.e-50,</div>
@@ -302,39 +303,39 @@ Functions</h2></td></tr>
 </div><!-- fragment --><p><br  />
  </p><h3>ILUT</h3>
 <div class="fragment"><div class="line">{</div>
-<div class="line">  type    = <span class="stringliteral">&quot;ilut&quot;</span>,</div>
+<div class="line">  <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a>    = <span class="stringliteral">&quot;ilut&quot;</span>,</div>
 <div class="line">  threshold   = 1e-6</div>
 <div class="line">}</div>
 </div><!-- fragment --><p><br  />
  </p><h3>Jacobi</h3>
 <div class="fragment"><div class="line">{</div>
-<div class="line">  type  = <span class="stringliteral">&quot;jac&quot;</span>,</div>
+<div class="line">  <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a>  = <span class="stringliteral">&quot;jac&quot;</span>,</div>
 <div class="line">  damping = 0.66</div>
 <div class="line">}</div>
 </div><!-- fragment --><p><br  />
  </p><h3>Gauss Seidel</h3>
 <div class="fragment"><div class="line">{</div>
-<div class="line">  type = <span class="stringliteral">&quot;gs&quot;</span></div>
+<div class="line">  <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a> = <span class="stringliteral">&quot;gs&quot;</span></div>
 <div class="line">}</div>
 </div><!-- fragment --><p><br  />
  </p><h3>Block Gauss Seidel</h3>
 <div class="fragment"><div class="line">{</div>
-<div class="line">  type = <span class="stringliteral">&quot;bgs&quot;</span></div>
+<div class="line">  <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a> = <span class="stringliteral">&quot;bgs&quot;</span></div>
 <div class="line">}</div>
 </div><!-- fragment --><p><br  />
  </p><h3>Symmetric Gauss Seidel</h3>
 <div class="fragment"><div class="line">{</div>
-<div class="line">  type = <span class="stringliteral">&quot;sgs&quot;</span></div>
+<div class="line">  <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a> = <span class="stringliteral">&quot;sgs&quot;</span></div>
 <div class="line">}</div>
 </div><!-- fragment --><p><br  />
  </p><h3>Element Gauss Seidel</h3>
 <div class="fragment"><div class="line">{</div>
-<div class="line">  type = <span class="stringliteral">&quot;egs&quot;</span></div>
+<div class="line">  <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a> = <span class="stringliteral">&quot;egs&quot;</span></div>
 <div class="line">}</div>
 </div><!-- fragment --><p><br  />
  </p><h3>Schur</h3>
 <div class="fragment"><div class="line">{</div>
-<div class="line">  type      = <span class="stringliteral">&quot;schur&quot;</span>,</div>
+<div class="line">  <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a>      = <span class="stringliteral">&quot;schur&quot;</span>,</div>
 <div class="line">  dirichletSolver = <span class="stringliteral">&quot;lu&quot;</span>,</div>
 <div class="line">  skeletonSolver    = <span class="stringliteral">&quot;lu&quot;</span></div>
 <div class="line">}</div>
@@ -343,7 +344,7 @@ Functions</h2></td></tr>
 <p>The following listing gives an overview over available convergence checks and their default parameters.</p>
 <h3>Standard convergence check</h3>
 <div class="fragment"><div class="line">{</div>
-<div class="line">  type    = <span class="stringliteral">&quot;standard&quot;</span>,</div>
+<div class="line">  <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a>    = <span class="stringliteral">&quot;standard&quot;</span>,</div>
 <div class="line">  iterations  = 100,</div>
 <div class="line">  absolute  = 1e-12,</div>
 <div class="line">  reduction = 1e-6,</div>
@@ -353,7 +354,7 @@ Functions</h2></td></tr>
  </p><h2>Transfer Operators</h2>
 <p>The following listing gives an overview over available transfer operators and their default parameters. </p><h3>Standard Transfer Operator</h3>
 <div class="fragment"><div class="line">{</div>
-<div class="line">  type        = <span class="stringliteral">&quot;std&quot;</span>,</div>
+<div class="line">  <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a>        = <span class="stringliteral">&quot;std&quot;</span>,</div>
 <div class="line">  restrictionDamp     = 1.0,</div>
 <div class="line">  prolongationDamp    = 1.0,</div>
 <div class="line">  enableP1LagrangeOptimization   = <span class="keyword">true</span>,</div>
@@ -364,7 +365,7 @@ Functions</h2></td></tr>
 <p>The following listing gives an overview over available line search methods and their default parameters.</p>
 <h3>Standard Line Search Method</h3>
 <div class="fragment"><div class="line">{</div>
-<div class="line">  type      = <span class="stringliteral">&quot;standard&quot;</span>,</div>
+<div class="line">  <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a>      = <span class="stringliteral">&quot;standard&quot;</span>,</div>
 <div class="line">  maxSteps    = 10,</div>
 <div class="line">  lambdaStart   = 1,</div>
 <div class="line">  lambdaReduce    = 0.5,</div>
@@ -376,7 +377,7 @@ Functions</h2></td></tr>
 <p>The following listing gives an overview over available MGStats objects. MGStats objects are used to record statistics on individual multigrid cycles. They add some overhead, so one should only use them for debugging.</p>
 <h3>MGStats</h3>
 <div class="fragment"><div class="line">{</div>
-<div class="line">  type    = <span class="stringliteral">&quot;standard&quot;</span>,</div>
+<div class="line">  <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a>    = <span class="stringliteral">&quot;standard&quot;</span>,</div>
 <div class="line">  filenamePrefix  = <span class="stringliteral">&quot;mgstats&quot;</span>,</div>
 <div class="line">  exitOnError = <span class="keyword">false</span>,</div>
 <div class="line">  writeErrVecs  = <span class="keyword">false</span>,</div>
@@ -665,7 +666,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>if solverDesc is a table, solverDesc.solverutil will be set to solverutil or initialized as an empty table. The method will then return solverDesc.solverutil. If solverDesc is not a table, the method returns solverutil or {}, if solverutil == nil.</p>
 <p>location: /home/runner/work/docs/docs/ug4/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :587-594 </p><div class="fragment"><div class="line">function util.solver.PrepareSolverUtil(solverDesc, solverutil)</div>
-<div class="line">  <span class="keywordflow">if</span> type(solverDesc) == <span class="stringliteral">&quot;table&quot;</span> then</div>
+<div class="line">  <span class="keywordflow">if</span> <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a>(solverDesc) == <span class="stringliteral">&quot;table&quot;</span> then</div>
 <div class="line">    solverDesc.solverutil = solverutil or solverDesc.solverutil or {}</div>
 <div class="line">    <span class="keywordflow">return</span> solverDesc.solverutil</div>
 <div class="line">  <span class="keywordflow">else</span></div>
@@ -901,6 +902,8 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>location: /home/runner/work/docs/docs/ug4/ugcore/scripts/util / <a class="el" href="solver__util_8lua.html">solver_util.lua</a> :1258-1295 </p>
 
+<p class="reference">References <a class="elRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type()</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -908,7 +911,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Aug 17 2026 01:05:42 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Aug 24 2026 01:07:34 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

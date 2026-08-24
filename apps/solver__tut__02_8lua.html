@@ -150,10 +150,10 @@ Functions</h2></td></tr>
 <p>location: /home/runner/work/docs/docs/ug4/apps/Tutorials/solver / <a class="el" href="solver__tut__02_8lua.html">solver_tut_02.lua</a> :15-18 </p><div class="fragment"><div class="line">function <a class="code hl_function" href="solver__tut__01_8lua.html#aa973d799886e2763560e86aaf13fd3da">Diffusion2d</a>(x, <a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>, <a class="code hl_variable" href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a>)</div>
 <div class="line">  <span class="keywordflow">return</span>  1, 0, </div>
 <div class="line">      0, 1</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="achannel_8lua_html_a0abc9ddee91887084fd7f38e1bcb6f7f"><div class="ttname"><a href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a></div><div class="ttdeci">function y</div><div class="ttdef"><b>Definition</b> channel.lua:79</div></div>
 <div class="ttc" id="achannel_8lua_html_a23c5666e83bbbceee94adcd0851f50c4"><div class="ttname"><a href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a></div><div class="ttdeci">function t</div><div class="ttdef"><b>Definition</b> channel.lua:79</div></div>
-<div class="ttc" id="achannel_8lua_html_aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07"><div class="ttname"><a href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div><div class="ttdeci">function *Umax *y end</div><div class="ttdef"><b>Definition</b> channel.lua:87</div></div>
+<div class="ttc" id="adeponie_8lua_html_aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07"><div class="ttname"><a href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div><div class="ttdeci">function y * end</div><div class="ttdef"><b>Definition</b> deponie.lua:16</div></div>
 <div class="ttc" id="asolver__tut__01_8lua_html_aa973d799886e2763560e86aaf13fd3da"><div class="ttname"><a href="solver__tut__01_8lua.html#aa973d799886e2763560e86aaf13fd3da">Diffusion2d</a></div><div class="ttdeci">function Diffusion2d(x, y, t)</div></div>
 </div><!-- fragment --> 
 <p class="reference">References <a class="elRef" href="../../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a>.</p>
@@ -194,7 +194,7 @@ Functions</h2></td></tr>
 <p>location: /home/runner/work/docs/docs/ug4/apps/Tutorials/solver / <a class="el" href="solver__tut__02_8lua.html">solver_tut_02.lua</a> :33-36 </p><div class="fragment"><div class="line">function <a class="code hl_function" href="laplace-hpc_8lua.html#ac3b0468a3156372cea6648e75201f337">DirichletValue2d</a>(x, <a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>, <a class="code hl_variable" href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a>)</div>
 <div class="line">  local <a class="code hl_variableRef" href="../../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a> = 2*math.pi</div>
 <div class="line">  <span class="keywordflow">return</span> <span class="keyword">true</span>, math.sin(s*x) + math.sin(s*<a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>)</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="a_biogas_8lua_html_a9dda901d5ee6289370201a700f88e789"><div class="ttname"><a href="../../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a></div><div class="ttdeci">parameterString s</div></div>
 <div class="ttc" id="alaplace-hpc_8lua_html_ac3b0468a3156372cea6648e75201f337"><div class="ttname"><a href="laplace-hpc_8lua.html#ac3b0468a3156372cea6648e75201f337">DirichletValue2d</a></div><div class="ttdeci">function DirichletValue2d(x, y, t)</div></div>
 </div><!-- fragment --> 
@@ -233,7 +233,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>location: /home/runner/work/docs/docs/ug4/apps/Tutorials/solver / <a class="el" href="solver__tut__02_8lua.html">solver_tut_02.lua</a> :24-26 </p><div class="fragment"><div class="line">function <a class="code hl_function" href="solver__tut__01_8lua.html#ac8fea7c5fc7371daebed5b0be8c31da5">ReactionRate2d</a>(x, <a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>, <a class="code hl_variable" href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a>)</div>
 <div class="line">  <span class="keywordflow">return</span>  0</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="asolver__tut__01_8lua_html_ac8fea7c5fc7371daebed5b0be8c31da5"><div class="ttname"><a href="solver__tut__01_8lua.html#ac8fea7c5fc7371daebed5b0be8c31da5">ReactionRate2d</a></div><div class="ttdeci">function ReactionRate2d(x, y, t)</div></div>
 </div><!-- fragment --> 
 </div>
@@ -272,7 +272,7 @@ Functions</h2></td></tr>
 <p>location: /home/runner/work/docs/docs/ug4/apps/Tutorials/solver / <a class="el" href="solver__tut__02_8lua.html">solver_tut_02.lua</a> :28-31 </p><div class="fragment"><div class="line">function <a class="code hl_function" href="laplace-hpc_8lua.html#ad6e9e2fa4cb5dd9c02d79f876d76934f">Source2d</a>(x, <a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>, <a class="code hl_variable" href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a>)</div>
 <div class="line">  local <a class="code hl_variableRef" href="../../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a> = 2*math.pi</div>
 <div class="line">  <span class="keywordflow">return</span> <a class="code hl_variableRef" href="../../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a>*<a class="code hl_variableRef" href="../../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a>*(math.sin(s*x) + math.sin(s*<a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>))</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="alaplace-hpc_8lua_html_ad6e9e2fa4cb5dd9c02d79f876d76934f"><div class="ttname"><a href="laplace-hpc_8lua.html#ad6e9e2fa4cb5dd9c02d79f876d76934f">Source2d</a></div><div class="ttdeci">function Source2d(x, y, t)</div></div>
 </div><!-- fragment --> 
 </div>
@@ -310,7 +310,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>location: /home/runner/work/docs/docs/ug4/apps/Tutorials/solver / <a class="el" href="solver__tut__02_8lua.html">solver_tut_02.lua</a> :20-22 </p><div class="fragment"><div class="line">function <a class="code hl_function" href="solver__tut__01_8lua.html#a5439e1c449b4a114c98df585f9d1b292">Velocity2d</a>(x, <a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>, <a class="code hl_variable" href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a>)</div>
 <div class="line">  <span class="keywordflow">return</span>  0, 0</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="asolver__tut__01_8lua_html_a5439e1c449b4a114c98df585f9d1b292"><div class="ttname"><a href="solver__tut__01_8lua.html#a5439e1c449b4a114c98df585f9d1b292">Velocity2d</a></div><div class="ttdeci">function Velocity2d(x, y, t)</div></div>
 </div><!-- fragment --> 
 <p class="reference">References <a class="elRef" href="../../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a>.</p>
@@ -323,7 +323,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_9654b8d08f4bba4e84b362c5fd320bee.html">apps</a></li><li class="navelem"><a class="el" href="dir_755d042f2328fa534afa8c85c6f6b421.html">Tutorials</a></li><li class="navelem"><a class="el" href="dir_8ca379b2616ba6cbf9fe2dbd4b7ca6da.html">solver</a></li><li class="navelem"><a class="el" href="solver__tut__02_8lua.html">solver_tut_02.lua</a></li>
-    <li class="footer">Generated on Mon Aug 17 2026 01:04:55 for Apps by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Aug 24 2026 01:06:49 for Apps by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

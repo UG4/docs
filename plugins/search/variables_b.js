@@ -1,12 +1,20 @@
 var searchData=
 [
-  ['k_5f0_0',['K_0',['../group__small__strain__mechanics.html#ga0c1a68eb982eaf062df8e852719e0bde',1,'ug::SmallStrainMechanics::PrandtlReuss::MaterialConstants']]],
-  ['k_5finf_1',['K_inf',['../group__small__strain__mechanics.html#gaa4ba8f36e768466fc69e7b6050b49026',1,'ug::SmallStrainMechanics::PrandtlReuss::MaterialConstants']]],
-  ['kappa_2',['kappa',['../group__small__strain__mechanics.html#gaa41f1fd5de168ffc19d30e3bb1130c26',1,'ug::SmallStrainMechanics::PrandtlReuss::MaterialConstants']]],
-  ['kdsd_5fcircular_3',['kdsd_circular',['../../group__lib__grid__algorithms__trees.html#ggac7c3d5a00e1647b0ce7e2b00d57fe0daabf86d51db754776172fd6f497b830b49',1,'ug::KDSD_CIRCULAR'],['../../group__lib__grid__algorithms__trees.html#ggac7c3d5a00e1647b0ce7e2b00d57fe0daabf86d51db754776172fd6f497b830b49',1,'ug::KDSD_CIRCULAR']]],
-  ['kdsd_5flargest_4',['kdsd_largest',['../../group__lib__grid__algorithms__trees.html#ggac7c3d5a00e1647b0ce7e2b00d57fe0daa7693dffed6ac342c0725e9c9f60d3e7e',1,'ug::KDSD_LARGEST'],['../../group__lib__grid__algorithms__trees.html#ggac7c3d5a00e1647b0ce7e2b00d57fe0daa7693dffed6ac342c0725e9c9f60d3e7e',1,'ug::KDSD_LARGEST']]],
-  ['kdtss_5fcircular_5',['KDTSS_CIRCULAR',['../../namespaceug.html#ae1fe76a4a3249b261c97645b045a2b6ca55fb024789a064d74e59516a64e469f8',1,'ug']]],
-  ['kdtss_5flargest_6',['KDTSS_LARGEST',['../../namespaceug.html#ae1fe76a4a3249b261c97645b045a2b6ca6e0acefa99cdaba5db7b2746e07e10a7',1,'ug']]],
-  ['key_7',['key',['../../structug_1_1_hash_1_1_entry.html#a2da28da19430df659e8eca63b5bb00c5',1,'ug::Hash::Entry']]],
-  ['ksat_8',['ksat',['../structug_1_1_richards_1_1_van_genuchten_parameters.html#ab21b572555e5b1da533d016b8b3de5ba',1,'ug::Richards::VanGenuchtenParameters::Ksat'],['../structug_1_1_richards_1_1_exponential_model_parameters.html#a8ad3cf4089b81a87e7dcdf9a30650d8b',1,'ug::Richards::ExponentialModelParameters::Ksat'],['../structug_1_1_richards_1_1_haverkamp_parameters.html#a0ec6e91b90084872764e00536e154691',1,'ug::Richards::HaverkampParameters::Ksat']]]
+  ['k_0',['K',['../classug_1_1d3f_1_1_fractal_field.html#a2dafdaa376df767c6a5715d802ef89b9',1,'ug::d3f::FractalField']]],
+  ['k_5f0_1',['K_0',['../group__small__strain__mechanics.html#ga0c1a68eb982eaf062df8e852719e0bde',1,'ug::SmallStrainMechanics::PrandtlReuss::MaterialConstants']]],
+  ['k_5finf_2',['K_inf',['../group__small__strain__mechanics.html#gaa4ba8f36e768466fc69e7b6050b49026',1,'ug::SmallStrainMechanics::PrandtlReuss::MaterialConstants']]],
+  ['kaloh_3',['KAlOH',['../namespaceug_1_1smile.html#ad8ebc71b26b6b369595bb4e3874afcf9',1,'ug::smile']]],
+  ['kaloh2_4',['KAlOH2',['../namespaceug_1_1smile.html#aa2b6c66c58e31d868e542fd1715dd9cc',1,'ug::smile']]],
+  ['kaloh3_5',['KAlOH3',['../namespaceug_1_1smile.html#aaadc958d50fd450b6799d5bd1824d222',1,'ug::smile']]],
+  ['kaloh4_6',['KAlOH4',['../namespaceug_1_1smile.html#acba915eace69e2786c9237fe675ee46d',1,'ug::smile']]],
+  ['kappa_7',['kappa',['../group__small__strain__mechanics.html#gaa41f1fd5de168ffc19d30e3bb1130c26',1,'ug::SmallStrainMechanics::PrandtlReuss::MaterialConstants']]],
+  ['kco3_8',['KCO3',['../namespaceug_1_1smile.html#aead722fd9093de0e4f6504362f099a18',1,'ug::smile']]],
+  ['kdsd_5fcircular_9',['kdsd_circular',['../../group__lib__grid__algorithms__trees.html#ggac7c3d5a00e1647b0ce7e2b00d57fe0daabf86d51db754776172fd6f497b830b49',1,'ug::KDSD_CIRCULAR'],['../../group__lib__grid__algorithms__trees.html#ggac7c3d5a00e1647b0ce7e2b00d57fe0daabf86d51db754776172fd6f497b830b49',1,'ug::KDSD_CIRCULAR']]],
+  ['kdsd_5flargest_10',['kdsd_largest',['../../group__lib__grid__algorithms__trees.html#ggac7c3d5a00e1647b0ce7e2b00d57fe0daa7693dffed6ac342c0725e9c9f60d3e7e',1,'ug::KDSD_LARGEST'],['../../group__lib__grid__algorithms__trees.html#ggac7c3d5a00e1647b0ce7e2b00d57fe0daa7693dffed6ac342c0725e9c9f60d3e7e',1,'ug::KDSD_LARGEST']]],
+  ['kdtss_5fcircular_11',['KDTSS_CIRCULAR',['../../namespaceug.html#ae1fe76a4a3249b261c97645b045a2b6ca55fb024789a064d74e59516a64e469f8',1,'ug']]],
+  ['kdtss_5flargest_12',['KDTSS_LARGEST',['../../namespaceug.html#ae1fe76a4a3249b261c97645b045a2b6ca6e0acefa99cdaba5db7b2746e07e10a7',1,'ug']]],
+  ['key_13',['key',['../../structug_1_1_hash_1_1_entry.html#a2da28da19430df659e8eca63b5bb00c5',1,'ug::Hash::Entry']]],
+  ['khco3_14',['KHCO3',['../namespaceug_1_1smile.html#a611db64d5ab9545f1e0b4dba3e1baac0',1,'ug::smile']]],
+  ['ks_15',['ks',['../structug_1_1d3f_1_1_st_venant_parameters.html#ae4cdf3d9abcd4b178c933db0d1cdd848',1,'ug::d3f::StVenantParameters']]],
+  ['ksat_16',['ksat',['../structug_1_1_richards_1_1_van_genuchten_parameters.html#ab21b572555e5b1da533d016b8b3de5ba',1,'ug::Richards::VanGenuchtenParameters::Ksat'],['../structug_1_1_richards_1_1_exponential_model_parameters.html#a8ad3cf4089b81a87e7dcdf9a30650d8b',1,'ug::Richards::ExponentialModelParameters::Ksat'],['../structug_1_1_richards_1_1_haverkamp_parameters.html#a0ec6e91b90084872764e00536e154691',1,'ug::Richards::HaverkampParameters::Ksat']]]
 ];

@@ -140,12 +140,12 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/runner/work/docs/docs/ug4/apps/unsat_flow/config / <a class="el" href="stoeckl__lens_8lua.html">stoeckl_lens.lua</a> :126-128 </p><div class="fragment"><div class="line">function <a class="code hl_function" href="henry-enumath_8lua.html#a65769ad5c34e3799d5fbddf693f93a68">HydroPressure</a>(x, <a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>)</div>
+<p>location: /home/runner/work/docs/docs/ug4/apps/unsat_flow/config / <a class="el" href="stoeckl__lens_8lua.html">stoeckl_lens.lua</a> :126-128 </p><div class="fragment"><div class="line">function <a class="code hl_function" href="d3f__plusplus__app_2henry_2henry_8lua.html#abab817789477cb2273cc042776cae442">HydroPressure</a>(x, <a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>)</div>
 <div class="line">  <span class="keywordflow">return</span> (<a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a> - 0.3) * lens_rho_c * lens_g</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="achannel_8lua_html_a0abc9ddee91887084fd7f38e1bcb6f7f"><div class="ttname"><a href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a></div><div class="ttdeci">function y</div><div class="ttdef"><b>Definition</b> channel.lua:79</div></div>
-<div class="ttc" id="achannel_8lua_html_aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07"><div class="ttname"><a href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div><div class="ttdeci">function *Umax *y end</div><div class="ttdef"><b>Definition</b> channel.lua:87</div></div>
-<div class="ttc" id="ahenry-enumath_8lua_html_a65769ad5c34e3799d5fbddf693f93a68"><div class="ttname"><a href="henry-enumath_8lua.html#a65769ad5c34e3799d5fbddf693f93a68">HydroPressure</a></div><div class="ttdeci">function HydroPressure(x, y)</div></div>
+<div class="ttc" id="ad3f__plusplus__app_2henry_2henry_8lua_html_abab817789477cb2273cc042776cae442"><div class="ttname"><a href="d3f__plusplus__app_2henry_2henry_8lua.html#abab817789477cb2273cc042776cae442">HydroPressure</a></div><div class="ttdeci">function HydroPressure(x, y, t) return -10055.25 *y end</div></div>
+<div class="ttc" id="adeponie_8lua_html_aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07"><div class="ttname"><a href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div><div class="ttdeci">function y * end</div><div class="ttdef"><b>Definition</b> deponie.lua:16</div></div>
 </div><!-- fragment --> 
 <p class="reference">References <a class="el" href="elder__adapt_8lua.html#a551e214afa3d78d3b8520b3f800f94de">dim</a>, <a class="el" href="cooler_8lua.html#abbb6d7a4fe6339ba6a47e5580c736932">grid</a>, <a class="el" href="cubeincube_8lua.html#a517d17fd575de09b31c18c9d3793d048">numPreRefs</a>, and <a class="elRef" href="../../plugins/example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a>.</p>
 
@@ -189,8 +189,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>location: /home/runner/work/docs/docs/ug4/apps/unsat_flow/config / <a class="el" href="stoeckl__lens_8lua.html">stoeckl_lens.lua</a> :148-150 </p><div class="fragment"><div class="line">function <a class="code hl_function" href="stoeckl__lens_8lua.html#a2fb99330d783158dd0c48f0ebedeb7ea">left_boundary</a>(x, <a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>, <a class="code hl_variable" href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a>, si)</div>
-<div class="line">  <span class="keywordflow">return</span> <span class="keyword">true</span>, <a class="code hl_function" href="henry-enumath_8lua.html#a65769ad5c34e3799d5fbddf693f93a68">HydroPressure</a>(x, <a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>)</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line">  <span class="keywordflow">return</span> <span class="keyword">true</span>, <a class="code hl_function" href="d3f__plusplus__app_2henry_2henry_8lua.html#abab817789477cb2273cc042776cae442">HydroPressure</a>(x, <a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>)</div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="achannel_8lua_html_a23c5666e83bbbceee94adcd0851f50c4"><div class="ttname"><a href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a></div><div class="ttdeci">function t</div><div class="ttdef"><b>Definition</b> channel.lua:79</div></div>
 <div class="ttc" id="astoeckl__lens_8lua_html_a2fb99330d783158dd0c48f0ebedeb7ea"><div class="ttname"><a href="stoeckl__lens_8lua.html#a2fb99330d783158dd0c48f0ebedeb7ea">left_boundary</a></div><div class="ttdeci">function left_boundary(x, y, t, si)</div></div>
 </div><!-- fragment --> 
@@ -238,8 +238,8 @@ Functions</h2></td></tr>
 <div class="line">    <span class="keywordflow">return</span> <span class="keyword">false</span>, 0.0</div>
 <div class="line">  <span class="keywordflow">else</span></div>
 <div class="line">    <span class="keywordflow">return</span> <span class="keyword">true</span>, recharge_rate*lens_rho -- [m^3/<a class="code hl_variableRef" href="../../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a>]</div>
-<div class="line">  <a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line">  <a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="a_biogas_8lua_html_a9dda901d5ee6289370201a700f88e789"><div class="ttname"><a href="../../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a></div><div class="ttdeci">parameterString s</div></div>
 <div class="ttc" id="astoeckl__lens_8lua_html_acd5fdf9a304a6b1579446e2efeffa53d"><div class="ttname"><a href="stoeckl__lens_8lua.html#acd5fdf9a304a6b1579446e2efeffa53d">top_boundary</a></div><div class="ttdeci">function top_boundary(x, y, t, si)</div></div>
 </div><!-- fragment --> 
@@ -289,8 +289,8 @@ Functions</h2></td></tr>
 <div class="line">    <span class="keywordflow">return</span> <span class="keyword">false</span>, 0.0</div>
 <div class="line">  <span class="keywordflow">else</span></div>
 <div class="line">    <span class="keywordflow">return</span> <span class="keyword">true</span>, 0.0</div>
-<div class="line">  <a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line">  <a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="astoeckl__lens_8lua_html_a6f7e0181a1a6940e090ba56e388ad360"><div class="ttname"><a href="stoeckl__lens_8lua.html#a6f7e0181a1a6940e090ba56e388ad360">top_boundary_c</a></div><div class="ttdeci">function top_boundary_c(x, y, t, si)</div></div>
 </div><!-- fragment --> 
 <p class="reference">References <a class="el" href="adrivencavity_8lua.html#a221a494317ae91f8886cc1a16fdc0811">type</a>.</p>
@@ -303,7 +303,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_9654b8d08f4bba4e84b362c5fd320bee.html">apps</a></li><li class="navelem"><a class="el" href="dir_7f7fd02ec630caaee50e85dfa49f5682.html">unsat_flow</a></li><li class="navelem"><a class="el" href="dir_6044d46dcfbeb635c152cb2805e4634c.html">config</a></li><li class="navelem"><a class="el" href="stoeckl__lens_8lua.html">stoeckl_lens.lua</a></li>
-    <li class="footer">Generated on Mon Aug 17 2026 01:04:55 for Apps by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Aug 24 2026 01:06:49 for Apps by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

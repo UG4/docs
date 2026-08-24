@@ -1,0 +1,25 @@
+var classug_1_1d3f_1_1river__sss__data =
+[
+    [ "river_sss_data", "classug_1_1d3f_1_1river__sss__data.html#a63d118883fdc7010331bd9e9d00ae5f2", null ],
+    [ "bottom_thickness", "classug_1_1d3f_1_1river__sss__data.html#aef4b333bf01d19d79607669c5fbf1bfb", null ],
+    [ "compute", "classug_1_1d3f_1_1river__sss__data.html#a736c594f94c8472af130a68a173c9d06", null ],
+    [ "concentration", "classug_1_1d3f_1_1river__sss__data.html#aa12746073e8477e39177a97f239538c4", null ],
+    [ "exchange_flux", "classug_1_1d3f_1_1river__sss__data.html#ab1dee97670d0b6dfd8a0d7d61380640a", null ],
+    [ "get_edge", "classug_1_1d3f_1_1river__sss__data.html#afd28c880e9c90dd6f3928b24b41be633", null ],
+    [ "intensity", "classug_1_1d3f_1_1river__sss__data.html#a4d1866e82f330654bdfa7225c9d60874", null ],
+    [ "matrix_permeability", "classug_1_1d3f_1_1river__sss__data.html#a6623b83bbd19e0a64d7e4bc10d6125af", null ],
+    [ "relative_bottom_permeability", "classug_1_1d3f_1_1river__sss__data.html#a45d646d17332ed41aa266c05f765b146", null ],
+    [ "set", "classug_1_1d3f_1_1river__sss__data.html#a82b1875f64ee385ec691cc01285b76d5", null ],
+    [ "set", "classug_1_1d3f_1_1river__sss__data.html#afcb9312733d8eb0bc5dfcd047010a9ba", null ],
+    [ "set", "classug_1_1d3f_1_1river__sss__data.html#a09d5f8f0e3182b464af84f1c4dcec8df", null ],
+    [ "set_edge", "classug_1_1d3f_1_1river__sss__data.html#a7b9efa04811d43ee9904afe0bb5bec0b", null ],
+    [ "set_matrix_permeability", "classug_1_1d3f_1_1river__sss__data.html#ac299b6003a85c28abf9bd6913e0ad951", null ],
+    [ "width", "classug_1_1d3f_1_1river__sss__data.html#add9353581968583dc4a00354d21c31d4", null ],
+    [ "m_bottom_thickness", "classug_1_1d3f_1_1river__sss__data.html#a332a940b720d58ced56a1b2add0de6f0", null ],
+    [ "m_edge", "classug_1_1d3f_1_1river__sss__data.html#a7eab4589125feb47ceb03b6bf55837ec", null ],
+    [ "m_exchange_flux", "classug_1_1d3f_1_1river__sss__data.html#a79cdeee80a368de0f884745685f2fc87", null ],
+    [ "m_matrix_permeability", "classug_1_1d3f_1_1river__sss__data.html#a1caa334fe8ca6963470abfa8fc2582e5", null ],
+    [ "m_spData", "classug_1_1d3f_1_1river__sss__data.html#a8a0a688f46601938702280f75fbd33fc", null ],
+    [ "m_values", "classug_1_1d3f_1_1river__sss__data.html#a238438cdf59210c76ca45e9cb10eb935", null ],
+    [ "m_width", "classug_1_1d3f_1_1river__sss__data.html#a692d689bc2b5b8154605540940a94f47", null ]
+];

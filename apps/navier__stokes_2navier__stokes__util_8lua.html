@@ -192,8 +192,8 @@ Functions</h2></td></tr>
 <div class="line">  gmg:set_rap(bRAP)</div>
 <div class="line">  </div>
 <div class="line">  return gmg</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
-<div class="ttc" id="achannel_8lua_html_aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07"><div class="ttname"><a href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div><div class="ttdeci">function *Umax *y end</div><div class="ttdef"><b>Definition</b> channel.lua:87</div></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="ttc" id="adeponie_8lua_html_aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07"><div class="ttname"><a href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div><div class="ttdeci">function y * end</div><div class="ttdef"><b>Definition</b> deponie.lua:16</div></div>
 <div class="ttc" id="asolmech_8lua_html_a2dc7920ccb8ff3abcc25c3aa63f43c93"><div class="ttname"><a href="solmech_8lua.html#a2dc7920ccb8ff3abcc25c3aa63f43c93">smoother</a></div><div class="ttdeci">parameterString smoother</div><div class="ttdoc">Smoother for the multigrid method. Options are 'gs' and 'ilu'.</div><div class="ttdef"><b>Definition</b> solmech.lua:4</div></div>
 </div><!-- fragment --> 
 </div>
@@ -311,25 +311,25 @@ Functions</h2></td></tr>
 <div class="line">  <span class="keywordflow">else</span></div>
 <div class="line">    numPreSmooth  = util.GetParamNumber(<span class="stringliteral">&quot;-numPreSmooth&quot;</span>, 8, <span class="stringliteral">&quot;Number pre-smoothing&quot;</span>)</div>
 <div class="line">    numPostSmooth = util.GetParamNumber(<span class="stringliteral">&quot;-numPostSmooth&quot;</span>, 8, <span class="stringliteral">&quot;Number post-smoothing&quot;</span>)</div>
-<div class="line">  <a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line">  <a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="line">  </div>
 <div class="line">  local baseLev = util.GetParamNumber(<span class="stringliteral">&quot;-baseLev&quot;</span>, 0, <span class="stringliteral">&quot;Base level&quot;</span>)</div>
 <div class="line">  local cycle =  util.GetParam(<span class="stringliteral">&quot;-cycle&quot;</span>, <span class="stringliteral">&quot;V&quot;</span>, <span class="stringliteral">&quot;gmg-cycle type&quot;</span>, {<span class="stringliteral">&quot;V&quot;</span>,<span class="stringliteral">&quot;W&quot;</span>,<span class="stringliteral">&quot;F&quot;</span>})</div>
 <div class="line">  local bRAP = util.HasParamOption(<span class="stringliteral">&quot;-rap&quot;</span>, <span class="stringliteral">&quot;use rap product as level matrices&quot;</span>)</div>
 <div class="line">  </div>
 <div class="line">  <span class="keywordflow">return</span> numPreSmooth, numPostSmooth, baseLev, cycle, bRAP</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 </div><!-- fragment --><p>location: /home/runner/work/docs/docs/ug4/apps/navier_stokes / navier_stokes_util.lua :101-106 </p><div class="fragment"><div class="line">function util.smooth.parseParams()</div>
 <div class="line">  local smooth = util.GetParam(<span class="stringliteral">&quot;-smooth&quot;</span>, <span class="stringliteral">&quot;cgs&quot;</span>, <span class="stringliteral">&quot;Smoother Type&quot;</span>, </div>
 <div class="line">          {<span class="stringliteral">&quot;jac&quot;</span>,<span class="stringliteral">&quot;ilu&quot;</span>,<span class="stringliteral">&quot;ilut&quot;</span>,<span class="stringliteral">&quot;egs&quot;</span>,<span class="stringliteral">&quot;gs&quot;</span>,<span class="stringliteral">&quot;sgs&quot;</span>, <span class="stringliteral">&quot;cgs&quot;</span>, <span class="stringliteral">&quot;ssc&quot;</span>})</div>
 <div class="line">  </div>
 <div class="line">  <span class="keywordflow">return</span> smooth</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 </div><!-- fragment --><p>location: /home/runner/work/docs/docs/ug4/apps/navier_stokes / navier_stokes_util.lua :135-139 </p><div class="fragment"><div class="line">function util.solver.parseParams()</div>
 <div class="line">  local solver = util.GetParam(<span class="stringliteral">&quot;-solver&quot;</span>, <span class="stringliteral">&quot;bicgstab&quot;</span>, <span class="stringliteral">&quot;Linear Solver Type&quot;</span>, </div>
 <div class="line">                {<span class="stringliteral">&quot;ls&quot;</span>,<span class="stringliteral">&quot;bicgstab&quot;</span>,<span class="stringliteral">&quot;cg&quot;</span>,<span class="stringliteral">&quot;lu&quot;</span>,<span class="stringliteral">&quot;schur&quot;</span>, <span class="stringliteral">&quot;gmres&quot;</span>})</div>
 <div class="line">  <span class="keywordflow">return</span> solver</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -339,7 +339,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_9654b8d08f4bba4e84b362c5fd320bee.html">apps</a></li><li class="navelem"><a class="el" href="dir_3bd393685b767e18cce7543d23bbc7c8.html">navier_stokes</a></li><li class="navelem"><a class="el" href="navier__stokes_2navier__stokes__util_8lua.html">navier_stokes_util.lua</a></li>
-    <li class="footer">Generated on Mon Aug 17 2026 01:04:55 for Apps by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Aug 24 2026 01:06:49 for Apps by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

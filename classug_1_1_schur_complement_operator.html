@@ -186,7 +186,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2e42959861875b2d719fec22984a046a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44e0f971ab2759dfcb36f65b07511956" id="r_a44e0f971ab2759dfcb36f65b07511956"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_matrix_operator.html">MatrixOperator</a>&lt; <a class="el" href="classug_1_1_schur_complement_operator.html#acc6ada31b9ceb6798fe99a7296be1cce">matrix_type</a>, <a class="el" href="classug_1_1_schur_complement_operator.html#a2bbdbb7ce709c5f8fe92e67cf27e8036">vector_type</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_schur_complement_operator.html#a44e0f971ab2759dfcb36f65b07511956">sub_operator</a> (int r, int c)</td></tr>
 <tr class="separator:a44e0f971ab2759dfcb36f65b07511956"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad672e2902ccb6df1f36edede8235af12" id="r_ad672e2902ccb6df1f36edede8235af12"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_schur_complement_operator.html#ad672e2902ccb6df1f36edede8235af12">sub_size</a> (<a class="el" href="namespaceug.html#a53bc1b6a198b441e6b26a5d748ef5261">schur_slice_desc_type</a> type)</td></tr>
+<tr class="memitem:ad672e2902ccb6df1f36edede8235af12" id="r_ad672e2902ccb6df1f36edede8235af12"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_schur_complement_operator.html#ad672e2902ccb6df1f36edede8235af12">sub_size</a> (<a class="el" href="namespaceug.html#a53bc1b6a198b441e6b26a5d748ef5261">schur_slice_desc_type</a> <a class="elRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a>)</td></tr>
 <tr class="separator:ad672e2902ccb6df1f36edede8235af12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac16ad13342b46485ee77822235e86da5" id="r_ac16ad13342b46485ee77822235e86da5"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_schur_complement_operator.html#ac16ad13342b46485ee77822235e86da5">~SchurComplementOperator</a> ()</td></tr>
 <tr class="separator:ac16ad13342b46485ee77822235e86da5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -523,7 +523,7 @@ template&lt;typename TAlgebra &gt; </div>
 
 <p>Implements <a class="el" href="classug_1_1_i_linear_operator.html#a36e0c7293b518faf08993b23e365edcb">ug::ILinearOperator&lt; TAlgebra::vector_type, TAlgebra::vector_type &gt;</a>.</p>
 
-<p class="reference">References <a class="el" href="progress_8h.html#a8fccc8f33d14aab4c9ca664855bc7b83">PROGRESS_START</a>, <a class="el" href="schur_8h.html#af2ac4486add8bdfcd45496f1368dad9b">SCHUR_PROFILE_BEGIN</a>, <a class="el" href="namespaceug.html#a6571e5fe7366eb3bbf7b98830e794963">ug::SchurDebug</a>, and <a class="el" href="group__ugbase__common.html#ga77cdb11fde48a872846a4dfd3aa9f4d2">UG_DLOG</a>.</p>
+<p class="reference">References <a class="el" href="progress_8h.html#a8fccc8f33d14aab4c9ca664855bc7b83">PROGRESS_START</a>, <a class="el" href="schur_8h.html#af2ac4486add8bdfcd45496f1368dad9b">SCHUR_PROFILE_BEGIN</a>, <a class="el" href="namespaceug.html#a6571e5fe7366eb3bbf7b98830e794963">ug::SchurDebug</a>, <a class="el" href="group__ugbase__common.html#ga77cdb11fde48a872846a4dfd3aa9f4d2">UG_DLOG</a>, and <a class="el" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>.</p>
 
 </div>
 </div>
@@ -916,7 +916,7 @@ template&lt;typename TAlgebra &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="classug_1_1_schur_complement_operator.html#a34082b876ede0956f079463f00c7acf0">ug::SchurComplementOperator&lt; TAlgebra &gt;::m_slicing</a>.</p>
+<p class="reference">References <a class="el" href="classug_1_1_schur_complement_operator.html#a34082b876ede0956f079463f00c7acf0">ug::SchurComplementOperator&lt; TAlgebra &gt;::m_slicing</a>, and <a class="elRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type()</a>.</p>
 
 </div>
 </div>
@@ -1135,7 +1135,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_schur_complement_operator.html">SchurComplementOperator</a></li>
-    <li class="footer">Generated on Mon Aug 17 2026 01:06:02 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Aug 24 2026 01:07:52 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

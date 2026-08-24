@@ -251,10 +251,11 @@ Data Export</h1>
 <p>On creation the IElemDisc must register all element types it can evalute the data for, by </p><div class="fragment"><div class="line"><span class="keyword">template</span> &lt;<span class="keyword">typename</span> TElem&gt;</div>
 <div class="line"><span class="keywordtype">void</span> register_all_assemble_functions(<span class="keywordtype">int</span> <span class="keywordtype">id</span>)</div>
 <div class="line">{</div>
-<div class="line">  <span class="keyword">typedef</span> DensityDrivenFlow T;</div>
+<div class="line">  <span class="keyword">typedef</span> <a class="code hl_functionRef" href="../plugins/d3f_2lua_2lua-include_8lua.html#a84f5996494d032574505c46d42dabe9c">DensityDrivenFlow</a> T;</div>
 <div class="line"> </div>
 <div class="line">  m_DarcyVelExport.reg_export_fct(<span class="keywordtype">id</span>, <span class="keyword">this</span>, &amp;T::template compute_darcy_export&lt;TElem&gt;);</div>
 <div class="line">}</div>
+<div class="ttc" id="ad3f_2lua_2lua-include_8lua_html_a84f5996494d032574505c46d42dabe9c"><div class="ttname"><a href="../plugins/d3f_2lua_2lua-include_8lua.html#a84f5996494d032574505c46d42dabe9c">DensityDrivenFlow</a></div><div class="ttdeci">function DensityDrivenFlow(fcts, subsets, discType)</div></div>
 </div><!-- fragment --><hr  />
  <h1><a class="anchor" id="secEvaluationOrder"></a>
 EvaluationOrder</h1>
@@ -314,7 +315,7 @@ Post process (after loop over all elements) <ol>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="index.html">ug4 - Documentation</a></li><li class="navelem"><a class="el" href="page_u_g4_development.html">Development</a></li><li class="navelem"><a class="el" href="page_l_d_introduction.html">libDiscretization</a></li>
-    <li class="footer">Generated on Mon Aug 17 2026 01:05:42 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Aug 24 2026 01:07:34 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

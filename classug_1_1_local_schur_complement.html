@@ -203,7 +203,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac75b4f7e06f8fbbd91ce3f9aca02c227" id="r_ac75b4f7e06f8fbbd91ce3f9aca02c227"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_local_schur_complement.html#ac75b4f7e06f8fbbd91ce3f9aca02c227">set_matrix</a> (<a class="el" href="class_smart_ptr.html">SmartPtr</a>&lt; <a class="el" href="classug_1_1_matrix_operator.html">MatrixOperator</a>&lt; <a class="el" href="classug_1_1_local_schur_complement.html#af51ca45ee990b90fb9518911d9a8329d">matrix_type</a>, <a class="el" href="classug_1_1_local_schur_complement.html#addb8cb2b5f401b0c5dc7800b700f0085">vector_type</a> &gt; &gt; A)</td></tr>
 <tr class="memdesc:ac75b4f7e06f8fbbd91ce3f9aca02c227"><td class="mdescLeft">&#160;</td><td class="mdescRight">set original matrix from which the local Schur complement is constructed  <br /></td></tr>
 <tr class="separator:ac75b4f7e06f8fbbd91ce3f9aca02c227"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a262b49ac7e4f860261e21cd32caef6cd" id="r_a262b49ac7e4f860261e21cd32caef6cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_local_schur_complement.html#a262b49ac7e4f860261e21cd32caef6cd">set_statistic_type</a> (std::string type)</td></tr>
+<tr class="memitem:a262b49ac7e4f860261e21cd32caef6cd" id="r_a262b49ac7e4f860261e21cd32caef6cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_local_schur_complement.html#a262b49ac7e4f860261e21cd32caef6cd">set_statistic_type</a> (std::string <a class="elRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a>)</td></tr>
 <tr class="memdesc:a262b49ac7e4f860261e21cd32caef6cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets statistic slot where next iterate should be counted  <br /></td></tr>
 <tr class="separator:a262b49ac7e4f860261e21cd32caef6cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af225abbf103bfba057709fb79fea3d6a" id="r_af225abbf103bfba057709fb79fea3d6a"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classug_1_1_local_schur_complement.html#af225abbf103bfba057709fb79fea3d6a">~LocalSchurComplement</a> ()</td></tr>
@@ -710,7 +710,7 @@ template&lt;typename TAlgebra &gt; </div>
 
 <p>prints some convergence statistic of inner solvers </p>
 
-<p class="reference">References <a class="el" href="classpcl_1_1_process_communicator.html#a708b02efa2d765daae9fee02b7b60000">pcl::ProcessCommunicator::allreduce()</a>, <a class="el" href="group__pcl.html#ga7a09a2eab069305ca735847eed023d2f">pcl::NumProcs()</a>, <a class="el" href="group__pcl.html#ga5fd16cf5b5e45e11bb34f45df303252f">PCL_DT_DOUBLE</a>, <a class="el" href="group__pcl.html#gafb0837e727561ea889dde9a8e3163e93">PCL_DT_INT</a>, <a class="el" href="group__pcl.html#ga6d762a24a3efa664b0937ed25b00049e">PCL_RO_MAX</a>, <a class="el" href="group__pcl.html#ga6f71fa21888d1128bc5c000f8b4856ec">PCL_RO_MIN</a>, <a class="el" href="group__pcl.html#ga23ba716caa4857afe6a36d2a6065ea8a">PCL_RO_SUM</a>, and <a class="el" href="group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>.</p>
+<p class="reference">References <a class="el" href="classpcl_1_1_process_communicator.html#a708b02efa2d765daae9fee02b7b60000">pcl::ProcessCommunicator::allreduce()</a>, <a class="el" href="group__pcl.html#ga7a09a2eab069305ca735847eed023d2f">pcl::NumProcs()</a>, <a class="el" href="group__pcl.html#ga5fd16cf5b5e45e11bb34f45df303252f">PCL_DT_DOUBLE</a>, <a class="el" href="group__pcl.html#gafb0837e727561ea889dde9a8e3163e93">PCL_DT_INT</a>, <a class="el" href="group__pcl.html#ga6d762a24a3efa664b0937ed25b00049e">PCL_RO_MAX</a>, <a class="el" href="group__pcl.html#ga6f71fa21888d1128bc5c000f8b4856ec">PCL_RO_MIN</a>, <a class="el" href="group__pcl.html#ga23ba716caa4857afe6a36d2a6065ea8a">PCL_RO_SUM</a>, <a class="elRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type()</a>, and <a class="el" href="group__ugbase__common.html#ga849480b16e1d7c49266a92cd5db63942">UG_LOG</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classug_1_1_f_e_t_i_solver.html#a8a5da48d7a6ed55c49a217efcf4761fb">ug::FETISolver&lt; TAlgebra &gt;::print_statistic_of_inner_solver()</a>.</p>
 
@@ -860,7 +860,7 @@ template&lt;typename TAlgebra &gt; </div>
 
 <p>sets statistic slot where next iterate should be counted </p>
 
-<p class="reference">References <a class="el" href="classug_1_1_local_schur_complement.html#a68547b497378e2f5a614ca26ed42d644">ug::LocalSchurComplement&lt; TAlgebra &gt;::m_statType</a>.</p>
+<p class="reference">References <a class="el" href="classug_1_1_local_schur_complement.html#a68547b497378e2f5a614ca26ed42d644">ug::LocalSchurComplement&lt; TAlgebra &gt;::m_statType</a>, and <a class="elRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type()</a>.</p>
 
 </div>
 </div>
@@ -1125,7 +1125,7 @@ template&lt;typename TAlgebra &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceug.html">ug</a></li><li class="navelem"><a class="el" href="classug_1_1_local_schur_complement.html">LocalSchurComplement</a></li>
-    <li class="footer">Generated on Mon Aug 17 2026 01:05:55 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Aug 24 2026 01:07:46 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

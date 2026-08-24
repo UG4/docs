@@ -1,0 +1,25 @@
+var classug_1_1d3f_1_1_val_surf_proj_data =
+[
+    [ "base_type", "classug_1_1d3f_1_1_val_surf_proj_data.html#a2cca77726f698ef4b939bc1185fa0815", null ],
+    [ "domain_type", "classug_1_1d3f_1_1_val_surf_proj_data.html#af861f2fb920ef24447c10ff064a02465", null ],
+    [ "gf_type", "classug_1_1d3f_1_1_val_surf_proj_data.html#a236b2c3dd3f472e0f3d7da9044a00371", null ],
+    [ "glob_userdata_type", "classug_1_1d3f_1_1_val_surf_proj_data.html#a278d4a295ae9dd3291ff1d9f56568458", null ],
+    [ "num_a_type", "classug_1_1d3f_1_1_val_surf_proj_data.html#a0cc069ee48e52b4cc7796a344eb202f5", null ],
+    [ "num_aa_type", "classug_1_1d3f_1_1_val_surf_proj_data.html#a18ca7f91d9aea77d42790a72efe32da7", null ],
+    [ "pos_acc_type", "classug_1_1d3f_1_1_val_surf_proj_data.html#ad8a31116ab2331a9b4af1037e11cc146", null ],
+    [ "this_type", "classug_1_1d3f_1_1_val_surf_proj_data.html#a7287b8367f2d220520eee33454f3dfb2", null ],
+    [ "ValSurfProjData", "classug_1_1d3f_1_1_val_surf_proj_data.html#acb0f54111df7d62f474f4e1d48e3519e", null ],
+    [ "continuous", "classug_1_1d3f_1_1_val_surf_proj_data.html#a833583c59af11f67368494c73738e9ca", null ],
+    [ "eval_and_deriv", "classug_1_1d3f_1_1_val_surf_proj_data.html#a2837a31c22ca7c4b19040a2a1bd9b66a", null ],
+    [ "reinit", "classug_1_1d3f_1_1_val_surf_proj_data.html#acea68906199fc973aa94ff19e8cb16b2", null ],
+    [ "requires_grid_fct", "classug_1_1d3f_1_1_val_surf_proj_data.html#a070b7b03fc24729419df1d586487470d", null ],
+    [ "set_default_value", "classug_1_1d3f_1_1_val_surf_proj_data.html#a101ab4b5efb5e5e856108b49ffadc9d0", null ],
+    [ "dim", "classug_1_1d3f_1_1_val_surf_proj_data.html#abc04d089558eb58eb3ec671210177230", null ],
+    [ "m_a_vrt_num", "classug_1_1d3f_1_1_val_surf_proj_data.html#ab14ce0fb8df02fd7a9c0e6920c32adf8", null ],
+    [ "m_default_value", "classug_1_1d3f_1_1_val_surf_proj_data.html#a657deede2b59071ee371048097d89ab8", null ],
+    [ "m_glob_userdata", "classug_1_1d3f_1_1_val_surf_proj_data.html#a6e2525b446b5338a272a8dbe70df430d", null ],
+    [ "m_spLSF", "classug_1_1d3f_1_1_val_surf_proj_data.html#a94455a87e1e5bd0c5673d4524da995dc", null ],
+    [ "m_SsGrp", "classug_1_1d3f_1_1_val_surf_proj_data.html#abb67794216f62f0d54be6dede41ac5cc", null ],
+    [ "m_vrt_val", "classug_1_1d3f_1_1_val_surf_proj_data.html#a00ff757514305642bebff7ac1b84ceae", null ],
+    [ "m_z_coord", "classug_1_1d3f_1_1_val_surf_proj_data.html#aa6d35916de6813e5afa684ee67ea1235", null ]
+];

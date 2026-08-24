@@ -42,7 +42,7 @@ var searchData=
   ['common_5fattachments_5fimpl_2ehpp_39',['common_attachments_impl.hpp',['../common__attachments__impl_8hpp.html',1,'']]],
   ['common_5fbridge_2ecpp_40',['common_bridge.cpp',['../disc__bridges_2common__bridge_8cpp.html',1,'(Global Namespace)'],['../algebra__bridges_2common__bridge_8cpp.html',1,'(Global Namespace)']]],
   ['common_5fcuda_2eh_41',['common_cuda.h',['../common__cuda_8h.html',1,'']]],
-  ['common_5fuser_5fdata_2eh_42',['common_user_data.h',['../common__user__data_8h.html',1,'']]],
+  ['common_5fuser_5fdata_2eh_42',['common_user_data.h',['../common__user__data_8h.html',1,'(Global Namespace)'],['../../plugins/common__user__data_8h.html',1,'(Global Namespace)']]],
   ['common_5futil_2elua_43',['common_util.lua',['../common__util_8lua.html',1,'']]],
   ['communication_5fpolicies_2eh_44',['communication_policies.h',['../communication__policies_8h.html',1,'']]],
   ['communication_5fscheme_2eh_45',['communication_scheme.h',['../communication__scheme_8h.html',1,'']]],

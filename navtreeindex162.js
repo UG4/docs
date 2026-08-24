@@ -1,5 +1,16 @@
 var NAVTREEINDEX162 =
 {
+"page_u_g4_profiling.html#secProfilingCPPExample":[0,7,1,5,4],
+"page_u_g4_profiling.html#secProfilingLUA":[0,7,1,5,2],
+"page_u_g4_profiling.html#secProfilingRegistry":[0,7,1,5,1],
+"page_u_g4_profiling.html#secProfilingYourCode":[0,7,1,5,3],
+"page_u_g4_profiling.html#secScriptProfiling":[0,7,1,5,5],
+"page_u_g4_registry.html":[0,8,4],
+"page_u_g4_registry.html#secParamStrings":[0,8,4,5,0],
+"page_u_g4_registry.html#secParamStringsAvaliableOptions":[0,8,4,5,1],
+"page_u_g4_registry.html#secParamStringsName":[0,8,4,5,1,0],
+"page_u_g4_registry.html#secParamStringsStyle":[0,8,4,5,1,1],
+"page_u_g4_registry.html#secSTHowToRegister":[0,8,4,0],
 "page_u_g4_registry.html#secSTHowToRegisterBaseClasses":[0,8,4,6],
 "page_u_g4_registry.html#secSTHowToRegisterClasses":[0,8,4,2],
 "page_u_g4_registry.html#secSTHowToRegisterFunctions":[0,8,4,1],
@@ -238,16 +249,5 @@ var NAVTREEINDEX162 =
 "parameter__stack_8h_source.html":[4,0,2,8,12],
 "parser_8cpp.html":[4,0,2,0,0,0,13],
 "parser_8cpp.html#a00c27c9da5ed06a830b216c8934e6b28":[4,0,2,0,0,0,13,105],
-"parser_8cpp.html#a0943f558a560b9b5fa0593d7e36496c1":[4,0,2,0,0,0,13,59],
-"parser_8cpp.html#a0943f558a560b9b5fa0593d7e36496c1":[4,0,2,0,0,0,13,60],
-"parser_8cpp.html#a0a6ff515042340dd341cf6ca8dd05f2d":[4,0,2,0,0,0,13,64],
-"parser_8cpp.html#a0c34e3be3d497abf630697f406f3cc62":[4,0,2,0,0,0,13,132],
-"parser_8cpp.html#a0e7b2e9a32347ee599bb72092eb2aab9":[4,0,2,0,0,0,13,15],
-"parser_8cpp.html#a0ea34e09602d1ede033f16ba669ef24b":[4,0,2,0,0,0,13,68],
-"parser_8cpp.html#a0ea9e3b522e448ac462274fe70e1be82":[4,0,2,0,0,0,13,129],
-"parser_8cpp.html#a1465c81f2e9dcdc181a3494ad4856982":[4,0,2,0,0,0,13,140],
-"parser_8cpp.html#a14ba2b263c446ffed1c888c4b42ae40c":[4,0,2,0,0,0,13,73],
-"parser_8cpp.html#a15c9f7bd2f0e9686df5d9df4f3314aa9":[4,0,2,0,0,0,13,107],
-"parser_8cpp.html#a15c9f7bd2f0e9686df5d9df4f3314aa9a0bc097a833a4dad0b1953ca59729f3b0":[4,0,2,0,0,0,13,107,27],
-"parser_8cpp.html#a15c9f7bd2f0e9686df5d9df4f3314aa9a1a256f39cce5443977438b58fe974b70":[4,0,2,0,0,0,13,107,30]
+"parser_8cpp.html#a0943f558a560b9b5fa0593d7e36496c1":[4,0,2,0,0,0,13,60]
 };

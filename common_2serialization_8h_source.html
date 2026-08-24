@@ -452,8 +452,8 @@ $(document).ready(function(){initNavTree('common_2serialization_8h_source.html',
 <div class="foldopen" id="foldopen00349" data-start="{" data-end="}">
 <div class="line"><a id="l00349" name="l00349"></a><span class="lineno"><a class="line" href="group__ugbase__common.html#ga646e7e1d0ec5d209058150527f8c9f45">  349</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespaceug.html#a7b02f2134ee87750f975d6139828d69d">Deserialize</a>(TIStream&amp; buf, <a class="code hl_class" href="classug_1_1_variant.html">Variant</a>&amp; v)</div>
 <div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span>{</div>
-<div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span>  <span class="keywordtype">int</span> type = Deserialize&lt;int&gt;(buf);</div>
-<div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span>  <span class="keywordflow">switch</span>(type){</div>
+<div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span>  <span class="keywordtype">int</span> <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a> = Deserialize&lt;int&gt;(buf);</div>
+<div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span>  <span class="keywordflow">switch</span>(<a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a>){</div>
 <div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="classug_1_1_variant.html#a773c534397bc5ba5fbef1080a232922cac87405e12c094d06b5b41fb071933a82">Variant::VT_INVALID</a>: v = <a class="code hl_class" href="classug_1_1_variant.html">Variant</a>(); <span class="keywordflow">break</span>;</div>
 <div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="classug_1_1_variant.html#a773c534397bc5ba5fbef1080a232922ca594ab8ff59e8662cb4506dca5b54867e">Variant::VT_BOOL</a>:    v = <a class="code hl_class" href="classug_1_1_variant.html">Variant</a>(Deserialize&lt;bool&gt;(buf)); <span class="keywordflow">break</span>;</div>
 <div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="classug_1_1_variant.html#a773c534397bc5ba5fbef1080a232922ca6c37c596428d62e3f522f510cdc9936b">Variant::VT_INT</a>:   v = <a class="code hl_class" href="classug_1_1_variant.html">Variant</a>(Deserialize&lt;int&gt;(buf)); <span class="keywordflow">break</span>;</div>
@@ -468,7 +468,7 @@ $(document).ready(function(){initNavTree('common_2serialization_8h_source.html',
 <div class="line"><a id="l00364" name="l00364"></a><span class="lineno">  364</span>    } <span class="keywordflow">break</span>;</div>
 <div class="line"><a id="l00365" name="l00365"></a><span class="lineno">  365</span> </div>
 <div class="line"><a id="l00366" name="l00366"></a><span class="lineno">  366</span>    <span class="keywordflow">default</span>:</div>
-<div class="line"><a id="l00367" name="l00367"></a><span class="lineno">  367</span>      <a class="code hl_define" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>(<span class="stringliteral">&quot;Unknown variant type in Deserialize: &quot;</span> &lt;&lt; type);</div>
+<div class="line"><a id="l00367" name="l00367"></a><span class="lineno">  367</span>      <a class="code hl_define" href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a>(<span class="stringliteral">&quot;Unknown variant type in Deserialize: &quot;</span> &lt;&lt; <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a>);</div>
 <div class="line"><a id="l00368" name="l00368"></a><span class="lineno">  368</span>      <span class="keywordflow">break</span>;</div>
 <div class="line"><a id="l00369" name="l00369"></a><span class="lineno">  369</span>  }</div>
 <div class="line"><a id="l00370" name="l00370"></a><span class="lineno">  370</span>}</div>
@@ -619,6 +619,7 @@ $(document).ready(function(){initNavTree('common_2serialization_8h_source.html',
 <div class="ttc" id="aclassug_1_1_variant_html_aae98ec66455149a4ec759b300bfd527a"><div class="ttname"><a href="classug_1_1_variant.html#aae98ec66455149a4ec759b300bfd527a">ug::Variant::to_c_string</a></div><div class="ttdeci">const char * to_c_string() const</div><div class="ttdef"><b>Definition</b> variant.cpp:307</div></div>
 <div class="ttc" id="aclassug_1_1_variant_html_aba7dbae1edb0b308414c7a907e1d6dec"><div class="ttname"><a href="classug_1_1_variant.html#aba7dbae1edb0b308414c7a907e1d6dec">ug::Variant::to_std_string</a></div><div class="ttdeci">const std::string &amp; to_std_string() const</div><div class="ttdef"><b>Definition</b> variant.cpp:320</div></div>
 <div class="ttc" id="aclassug_1_1_variant_html_af3a97a8fa38b3a68a63d43fadf5efda6"><div class="ttname"><a href="classug_1_1_variant.html#af3a97a8fa38b3a68a63d43fadf5efda6">ug::Variant::to_int</a></div><div class="ttdeci">int to_int() const</div><div class="ttdef"><b>Definition</b> variant.cpp:229</div></div>
+<div class="ttc" id="ad3f__util_8orig_8lua_html_a0acd8d81dd6c62b6e0ddfba2ff3f4f07"><div class="ttname"><a href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a></div><div class="ttdeci">function util d3f check type(param, name, typ)</div></div>
 <div class="ttc" id="agroup__ugbase__common_html_ga43687df88af405f6ac7058dd3639993d"><div class="ttname"><a href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a></div><div class="ttdeci">#define UG_THROW(msg)</div><div class="ttdef"><b>Definition</b> error.h:57</div></div>
 <div class="ttc" id="alog_8h_html"><div class="ttname"><a href="log_8h.html">log.h</a></div></div>
 <div class="ttc" id="anamespaceug_html"><div class="ttname"><a href="namespaceug.html">ug</a></div><div class="ttdoc">the ug namespace</div></div>
@@ -632,7 +633,7 @@ $(document).ready(function(){initNavTree('common_2serialization_8h_source.html',
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_8c26a127a0eea13c4724b5310584fbab.html">common</a></li><li class="navelem"><a class="el" href="common_2serialization_8h.html">serialization.h</a></li>
-    <li class="footer">Generated on Mon Aug 17 2026 01:05:19 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Aug 24 2026 01:07:11 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

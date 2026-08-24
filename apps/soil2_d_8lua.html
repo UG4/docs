@@ -149,11 +149,11 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>location: /home/runner/work/docs/docs/ug4/apps/unsat_flow/config / <a class="el" href="soil2_d_8lua.html">soil2D.lua</a> :75-78 </p><div class="fragment"><div class="line">function <a class="code hl_function" href="soil2_d_8lua.html#a93c1234f42e761fc5a4a84fcb5e03d87">MyHydrostaticP</a>(x, z, <a class="code hl_variable" href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a>, si) </div>
-<div class="line">  <span class="keywordflow">if</span> (z&lt;=5.0) then <span class="keywordflow">return</span> (5.0-z) * CONST.rhog <a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a>-- 5.0 meters below ground level</div>
-<div class="line">  <span class="keywordflow">return</span> -5000.0 -- (5.0-z) * CONST.rhog*0.0 <a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line">  <span class="keywordflow">if</span> (z&lt;=5.0) then <span class="keywordflow">return</span> (5.0-z) * CONST.rhog <a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a>-- 5.0 meters below ground level</div>
+<div class="line">  <span class="keywordflow">return</span> -5000.0 -- (5.0-z) * CONST.rhog*0.0 <a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="achannel_8lua_html_a23c5666e83bbbceee94adcd0851f50c4"><div class="ttname"><a href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a></div><div class="ttdeci">function t</div><div class="ttdef"><b>Definition</b> channel.lua:79</div></div>
-<div class="ttc" id="achannel_8lua_html_aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07"><div class="ttname"><a href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div><div class="ttdeci">function *Umax *y end</div><div class="ttdef"><b>Definition</b> channel.lua:87</div></div>
+<div class="ttc" id="adeponie_8lua_html_aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07"><div class="ttname"><a href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div><div class="ttdeci">function y * end</div><div class="ttdef"><b>Definition</b> deponie.lua:16</div></div>
 <div class="ttc" id="asoil2_d_8lua_html_a93c1234f42e761fc5a4a84fcb5e03d87"><div class="ttname"><a href="soil2_d_8lua.html#a93c1234f42e761fc5a4a84fcb5e03d87">MyHydrostaticP</a></div><div class="ttdeci">function MyHydrostaticP(x, z, t, si)</div></div>
 </div><!-- fragment --> 
 <p class="reference">References <a class="elRef" href="../../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a>.</p>
@@ -192,9 +192,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>location: /home/runner/work/docs/docs/ug4/apps/unsat_flow/config / <a class="el" href="soil2_d_8lua.html">soil2D.lua</a> :70-73 </p><div class="fragment"><div class="line">function <a class="code hl_function" href="soil2_d_8lua.html#aa3ff40898f7c306a84c5f703fcce61a7">MyTracerSource</a>(_,z,<a class="code hl_variable" href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a>)</div>
-<div class="line">  <span class="keywordflow">if</span> <a class="code hl_variable" href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a>&lt;=3.15571e+8 and z&gt;=8 then s0=3.39e-06 <span class="keywordflow">else</span> s0=0 <a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line">  <span class="keywordflow">if</span> <a class="code hl_variable" href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a>&lt;=3.15571e+8 and z&gt;=8 then s0=3.39e-06 <span class="keywordflow">else</span> s0=0 <a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="line">  <span class="keywordflow">return</span> s0</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="asoil2_d_8lua_html_aa3ff40898f7c306a84c5f703fcce61a7"><div class="ttname"><a href="soil2_d_8lua.html#aa3ff40898f7c306a84c5f703fcce61a7">MyTracerSource</a></div><div class="ttdeci">function MyTracerSource(_, z, t)</div></div>
 </div><!-- fragment --> 
 </div>
@@ -205,7 +205,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_9654b8d08f4bba4e84b362c5fd320bee.html">apps</a></li><li class="navelem"><a class="el" href="dir_7f7fd02ec630caaee50e85dfa49f5682.html">unsat_flow</a></li><li class="navelem"><a class="el" href="dir_6044d46dcfbeb635c152cb2805e4634c.html">config</a></li><li class="navelem"><a class="el" href="soil2_d_8lua.html">soil2D.lua</a></li>
-    <li class="footer">Generated on Mon Aug 17 2026 01:04:55 for Apps by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Aug 24 2026 01:06:49 for Apps by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

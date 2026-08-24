@@ -31,6 +31,8 @@ var searchData=
   ['horizontal_5fanisotropy_5fadjuster_2eh_28',['horizontal_anisotropy_adjuster.h',['../../horizontal__anisotropy__adjuster_8h.html',1,'']]],
   ['horizontal_5flayers_5fmesher_2ecpp_29',['horizontal_layers_mesher.cpp',['../../horizontal__layers__mesher_8cpp.html',1,'']]],
   ['horizontal_5flayers_5fmesher_2eh_30',['horizontal_layers_mesher.h',['../../horizontal__layers__mesher_8h.html',1,'']]],
-  ['html_5fgeneration_2ecpp_31',['html_generation.cpp',['../../plugins/html__generation_8cpp.html',1,'']]],
-  ['html_5fgeneration_2eh_32',['html_generation.h',['../../plugins/html__generation_8h.html',1,'']]]
+  ['hrfblsm_5fdiscr_2eh_31',['hrfblsm_discr.h',['../../plugins/hrfblsm__discr_8h.html',1,'']]],
+  ['hrfblsm_5fdiscr_5fimpl_2eh_32',['hrfblsm_discr_impl.h',['../../plugins/hrfblsm__discr__impl_8h.html',1,'']]],
+  ['html_5fgeneration_2ecpp_33',['html_generation.cpp',['../../plugins/html__generation_8cpp.html',1,'']]],
+  ['html_5fgeneration_2eh_34',['html_generation.h',['../../plugins/html__generation_8h.html',1,'']]]
 ];

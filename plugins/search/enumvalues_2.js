@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['fivepoint_0',['FIVEPOINT',['../classug_1_1_navier_stokes_1_1_i_navier_stokes_s_r_f_v1_stabilization.html#ad97d66b6427129fc0d2b906cd13e1c6aada78b99708665146ea93d9d63022cc39',1,'ug::NavierStokes::INavierStokesSRFV1Stabilization']]]
+  ['dirichlet_5fbc_0',['DIRICHLET_BC',['../classug_1_1_level_set_1_1_lev_set_g_fsimple_extrapolation.html#a114ce3da0b756b640ef88b9de5a91d14a6025c59890457d8a0f68dd95b597a46f',1,'ug::LevelSet::LevSetGFsimpleExtrapolation']]],
+  ['dirichlet_5fplain_5fbc_1',['DIRICHLET_PLAIN_BC',['../classug_1_1_level_set_1_1_lev_set_g_fsimple_extrapolation.html#a114ce3da0b756b640ef88b9de5a91d14a26927da0f4d28acf06ef2905a12e7e24',1,'ug::LevelSet::LevSetGFsimpleExtrapolation']]]
 ];

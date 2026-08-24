@@ -272,14 +272,15 @@ Variables</h2></td></tr>
 <p>location: /home/runner/work/docs/docs/ug4/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :76-83 </p><div class="fragment"><div class="line">function util.CheckOptionsType(<a class="code hl_variable" href="checkpoint__util_8lua.html#a3c1958e225ed64db3e56badcbdcc8df7">name</a>, options, atype)</div>
 <div class="line">   <span class="keywordflow">if</span> options ~= nil then</div>
 <div class="line">    <span class="keywordflow">for</span> i=1,#options <span class="keywordflow">do</span></div>
-<div class="line">      <a class="code hl_function" href="debug__util_8lua.html#a2f4bb62e4f0dc89b8c09f249e80c4ad7">ug_assert</a>(type(options[i]) == atype, <span class="stringliteral">&quot;ERROR in util.GetParam: passed option &#39;&quot;</span>..options[i]..</div>
+<div class="line">      <a class="code hl_function" href="debug__util_8lua.html#a2f4bb62e4f0dc89b8c09f249e80c4ad7">ug_assert</a>(<a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a>(options[i]) == atype, <span class="stringliteral">&quot;ERROR in util.GetParam: passed option &#39;&quot;</span>..options[i]..</div>
 <div class="line">              <span class="stringliteral">&quot;&#39; for &#39;&quot;</span>..<a class="code hl_variable" href="checkpoint__util_8lua.html#a3c1958e225ed64db3e56badcbdcc8df7">name</a>..<span class="stringliteral">&quot;&#39; not a &quot;</span>..atype)</div>
 <div class="line">    end</div>
 <div class="line">  end</div>
 <div class="line">end</div>
+<div class="ttc" id="ad3f__util_8orig_8lua_html_a0acd8d81dd6c62b6e0ddfba2ff3f4f07"><div class="ttname"><a href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a></div><div class="ttdeci">function util d3f check type(param, name, typ)</div></div>
 <div class="ttc" id="adebug__util_8lua_html_a2f4bb62e4f0dc89b8c09f249e80c4ad7"><div class="ttname"><a href="debug__util_8lua.html#a2f4bb62e4f0dc89b8c09f249e80c4ad7">ug_assert</a></div><div class="ttdeci">function ug_assert(condition, msg)</div></div>
 </div><!-- fragment --> 
-<p class="reference">References <a class="elRef" href="../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a>.</p>
+<p class="reference">References <a class="elRef" href="../plugins/_biogas_8lua.html#a9dda901d5ee6289370201a700f88e789">s</a>, and <a class="elRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type()</a>.</p>
 
 </div>
 </div>
@@ -526,6 +527,8 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>parameter in ugargv after ugargv[i] == name or default if 'name' was not present</dd></dl>
 <p>location: /home/runner/work/docs/docs/ug4/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :110-161 </p>
+
+<p class="reference">References <a class="elRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type()</a>.</p>
 
 </div>
 </div>
@@ -778,7 +781,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>location: /home/runner/work/docs/docs/ug4/ugcore/scripts/util / <a class="el" href="command__line__util_8lua.html">command_line_util.lua</a> :444-460 </p><div class="fragment"><div class="line">function util.GetUserParameters(params, descriptors)</div>
 <div class="line">  <span class="keywordflow">for</span> k, v in pairs(params) <span class="keywordflow">do</span></div>
-<div class="line">    local t = type(v)</div>
+<div class="line">    local t = <a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a0acd8d81dd6c62b6e0ddfba2ff3f4f07">type</a>(v)</div>
 <div class="line">    local descriptor = descriptors and descriptors[k] or <span class="stringliteral">&quot;&quot;</span></div>
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">if</span> t == <span class="stringliteral">&quot;boolean&quot;</span> then</div>
@@ -1044,7 +1047,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_53e6fa9553ac22a5646d2a2b2d7b97a1.html">scripts</a></li><li class="navelem"><a class="el" href="dir_46f23659e18aa5fa06de6ff2c04a1a12.html">util</a></li><li class="navelem"><a class="el" href="command__line__util_8lua.html">command_line_util.lua</a></li>
-    <li class="footer">Generated on Mon Aug 17 2026 01:05:42 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Aug 24 2026 01:07:33 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

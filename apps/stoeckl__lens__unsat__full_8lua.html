@@ -140,12 +140,12 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>location: /home/runner/work/docs/docs/ug4/apps/unsat_flow/config / <a class="el" href="stoeckl__lens__unsat__full_8lua.html">stoeckl_lens_unsat_full.lua</a> :15-17 </p><div class="fragment"><div class="line">function <a class="code hl_function" href="henry-enumath_8lua.html#a65769ad5c34e3799d5fbddf693f93a68">HydroPressure</a>(x, <a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>)</div>
+<p>location: /home/runner/work/docs/docs/ug4/apps/unsat_flow/config / <a class="el" href="stoeckl__lens__unsat__full_8lua.html">stoeckl_lens_unsat_full.lua</a> :15-17 </p><div class="fragment"><div class="line">function <a class="code hl_function" href="d3f__plusplus__app_2henry_2henry_8lua.html#abab817789477cb2273cc042776cae442">HydroPressure</a>(x, <a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>)</div>
 <div class="line">  <span class="keywordflow">return</span> (<a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a> - sea_level) * lens_rho_c * lens_g -- phreatic surface at <a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a> = 0.4m</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="achannel_8lua_html_a0abc9ddee91887084fd7f38e1bcb6f7f"><div class="ttname"><a href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a></div><div class="ttdeci">function y</div><div class="ttdef"><b>Definition</b> channel.lua:79</div></div>
-<div class="ttc" id="achannel_8lua_html_aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07"><div class="ttname"><a href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div><div class="ttdeci">function *Umax *y end</div><div class="ttdef"><b>Definition</b> channel.lua:87</div></div>
-<div class="ttc" id="ahenry-enumath_8lua_html_a65769ad5c34e3799d5fbddf693f93a68"><div class="ttname"><a href="henry-enumath_8lua.html#a65769ad5c34e3799d5fbddf693f93a68">HydroPressure</a></div><div class="ttdeci">function HydroPressure(x, y)</div></div>
+<div class="ttc" id="ad3f__plusplus__app_2henry_2henry_8lua_html_abab817789477cb2273cc042776cae442"><div class="ttname"><a href="d3f__plusplus__app_2henry_2henry_8lua.html#abab817789477cb2273cc042776cae442">HydroPressure</a></div><div class="ttdeci">function HydroPressure(x, y, t) return -10055.25 *y end</div></div>
+<div class="ttc" id="adeponie_8lua_html_aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07"><div class="ttname"><a href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div><div class="ttdeci">function y * end</div><div class="ttdef"><b>Definition</b> deponie.lua:16</div></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -191,8 +191,8 @@ Functions</h2></td></tr>
 <div class="line">    <span class="keywordflow">return</span> 0.0</div>
 <div class="line">  <span class="keywordflow">else</span></div>
 <div class="line">    <span class="keywordflow">return</span> pump_rate</div>
-<div class="line">  <a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line">  <a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="achannel_8lua_html_a23c5666e83bbbceee94adcd0851f50c4"><div class="ttname"><a href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a></div><div class="ttdeci">function t</div><div class="ttdef"><b>Definition</b> channel.lua:79</div></div>
 <div class="ttc" id="astoeckl__lens__unsat_8lua_html_a29a8e97d823dd8fc6479f4dc73809e7c"><div class="ttname"><a href="stoeckl__lens__unsat_8lua.html#a29a8e97d823dd8fc6479f4dc73809e7c">pumping</a></div><div class="ttdeci">function pumping(x, y, t, si)</div></div>
 </div><!-- fragment --> 
@@ -236,13 +236,13 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>location: /home/runner/work/docs/docs/ug4/apps/unsat_flow/config / <a class="el" href="stoeckl__lens__unsat__full_8lua.html">stoeckl_lens_unsat_full.lua</a> :27-34 </p><div class="fragment"><div class="line">function <a class="code hl_function" href="stoeckl__lens__unsat__full_8lua.html#a75a169b978798a24b80190103fd4f1eb">shore_boundary</a>(x, <a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>, <a class="code hl_variable" href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a>, si)</div>
-<div class="line">  hp = <a class="code hl_function" href="henry-enumath_8lua.html#a65769ad5c34e3799d5fbddf693f93a68">HydroPressure</a>(x, <a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>)</div>
+<div class="line">  hp = <a class="code hl_function" href="d3f__plusplus__app_2henry_2henry_8lua.html#abab817789477cb2273cc042776cae442">HydroPressure</a>(x, <a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>)</div>
 <div class="line">  <span class="keywordflow">if</span> <a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a> &gt; sea_level then</div>
 <div class="line">    <span class="keywordflow">return</span> <span class="keyword">false</span>, 0.0 -- no flow above sea level</div>
 <div class="line">  <span class="keywordflow">else</span></div>
 <div class="line">    <span class="keywordflow">return</span> <span class="keyword">true</span>, hp</div>
-<div class="line">  <a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line">  <a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="astoeckl__lens__unsat__full_8lua_html_a75a169b978798a24b80190103fd4f1eb"><div class="ttname"><a href="stoeckl__lens__unsat__full_8lua.html#a75a169b978798a24b80190103fd4f1eb">shore_boundary</a></div><div class="ttdeci">function shore_boundary(x, y, t, si)</div></div>
 </div><!-- fragment --> 
 <p class="reference">References <a class="el" href="elder__adapt_8lua.html#a551e214afa3d78d3b8520b3f800f94de">dim</a>, <a class="el" href="cooler_8lua.html#abbb6d7a4fe6339ba6a47e5580c736932">grid</a>, and <a class="elRef" href="../../plugins/example__free__surface_2evaluate_8lua.html#ad2464918eb8162cae4af3f470845f0d9">numRefs</a>.</p>
@@ -291,8 +291,8 @@ Functions</h2></td></tr>
 <div class="line">    <span class="keywordflow">return</span> <span class="keyword">false</span>, 0.0</div>
 <div class="line">  <span class="keywordflow">else</span></div>
 <div class="line">    <span class="keywordflow">return</span> <span class="keyword">true</span>, 1.0</div>
-<div class="line">  <a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line">  <a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="astoeckl__lens__unsat__full_8lua_html_a8f0567db11927354c7700684fdaf0b02"><div class="ttname"><a href="stoeckl__lens__unsat__full_8lua.html#a8f0567db11927354c7700684fdaf0b02">shore_boundary_c</a></div><div class="ttdeci">function shore_boundary_c(x, y, t, si)</div></div>
 </div><!-- fragment --> 
 </div>
@@ -303,7 +303,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_9654b8d08f4bba4e84b362c5fd320bee.html">apps</a></li><li class="navelem"><a class="el" href="dir_7f7fd02ec630caaee50e85dfa49f5682.html">unsat_flow</a></li><li class="navelem"><a class="el" href="dir_6044d46dcfbeb635c152cb2805e4634c.html">config</a></li><li class="navelem"><a class="el" href="stoeckl__lens__unsat__full_8lua.html">stoeckl_lens_unsat_full.lua</a></li>
-    <li class="footer">Generated on Mon Aug 17 2026 01:04:55 for Apps by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Aug 24 2026 01:06:49 for Apps by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

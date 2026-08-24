@@ -376,7 +376,7 @@ $(document).ready(function(){initNavTree('fv1__sss_8h_source.html',''); initResi
 <div class="line"><a id="l00265" name="l00265"></a><span class="lineno"><a class="line" href="classug_1_1_f_v_singular_sources_and_sinks.html#a0fa19fcbf6678a741bf52a158b5e8be0">  265</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="classug_1_1_f_v_singular_sources_and_sinks.html#a0fa19fcbf6678a741bf52a158b5e8be0">init_all_point_sss</a> ()</div>
 <div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>  {</div>
 <div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; <a class="code hl_variable" href="classug_1_1_f_v_singular_sources_and_sinks.html#ac4722dfb76b6d3c1cba360712c747e17">ListP</a>.size (); i++)</div>
-<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>      ((TPointData *) <a class="code hl_variable" href="classug_1_1_f_v_singular_sources_and_sinks.html#ac4722dfb76b6d3c1cba360712c747e17">ListP</a>[i].get())-&gt;init ();</div>
+<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>      ((TPointData *) <a class="code hl_variable" href="classug_1_1_f_v_singular_sources_and_sinks.html#ac4722dfb76b6d3c1cba360712c747e17">ListP</a>[i].<a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a1329873073db9fc316e1849de1cd8d50">get</a>())-&gt;init ();</div>
 <div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>  }</div>
 </div>
 <div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>  </div>
@@ -450,7 +450,7 @@ $(document).ready(function(){initNavTree('fv1__sss_8h_source.html',''); initResi
 <div class="line"><a id="l00339" name="l00339"></a><span class="lineno"><a class="line" href="classug_1_1_f_v_singular_sources_and_sinks.html#ad477920dc30e8b4368b198926e2e37ab">  339</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="classug_1_1_f_v_singular_sources_and_sinks.html#ad477920dc30e8b4368b198926e2e37ab">init_all_line_sss</a> ()</div>
 <div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span>  {</div>
 <div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span>    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; <a class="code hl_variable" href="classug_1_1_f_v_singular_sources_and_sinks.html#a6b4b5916ee0f4b963e50de02490bf199">ListL</a>.size (); i++)</div>
-<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>      ((TLineData *) <a class="code hl_variable" href="classug_1_1_f_v_singular_sources_and_sinks.html#a6b4b5916ee0f4b963e50de02490bf199">ListL</a>[i].get())-&gt;init ();</div>
+<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>      ((TLineData *) <a class="code hl_variable" href="classug_1_1_f_v_singular_sources_and_sinks.html#a6b4b5916ee0f4b963e50de02490bf199">ListL</a>[i].<a class="code hl_functionRef" href="../plugins/d3f__util_8orig_8lua.html#a1329873073db9fc316e1849de1cd8d50">get</a>())-&gt;init ();</div>
 <div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span>  }</div>
 </div>
 <div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span>  </div>
@@ -614,6 +614,7 @@ $(document).ready(function(){initNavTree('fv1__sss_8h_source.html',''); initResi
 <div class="ttc" id="aclassug_1_1_f_v_singular_sources_and_sinks_html_aebded461870572bbc1302040880d9d1c"><div class="ttname"><a href="classug_1_1_f_v_singular_sources_and_sinks.html#aebded461870572bbc1302040880d9d1c">ug::FVSingularSourcesAndSinks::add_point</a></div><div class="ttdeci">void add_point(SmartPtr&lt; point_sss_type &gt; point_sss)</div><div class="ttdoc">add a point source or sink</div><div class="ttdef"><b>Definition</b> fv1_sss.h:242</div></div>
 <div class="ttc" id="aclassug_1_1_grid_html"><div class="ttname"><a href="classug_1_1_grid.html">ug::Grid</a></div><div class="ttdoc">Manages the elements of a grid and their interconnection.</div><div class="ttdef"><b>Definition</b> grid.h:132</div></div>
 <div class="ttc" id="aclassug_1_1_math_vector_html"><div class="ttname"><a href="classug_1_1_math_vector.html">ug::MathVector</a></div><div class="ttdoc">a mathematical Vector with N entries.</div><div class="ttdef"><b>Definition</b> math_vector.h:97</div></div>
+<div class="ttc" id="ad3f__util_8orig_8lua_html_a1329873073db9fc316e1849de1cd8d50"><div class="ttname"><a href="../plugins/d3f__util_8orig_8lua.html#a1329873073db9fc316e1849de1cd8d50">get</a></div><div class="ttdeci">function get(x, y, z, t)</div></div>
 <div class="ttc" id="afv1__sss__impl_8h_html"><div class="ttname"><a href="fv1__sss__impl_8h.html">fv1_sss_impl.h</a></div></div>
 <div class="ttc" id="ageom__obj__util_8h_html"><div class="ttname"><a href="geom__obj__util_8h.html">geom_obj_util.h</a></div></div>
 <div class="ttc" id="agroup__ugbase__common_html_ga43687df88af405f6ac7058dd3639993d"><div class="ttname"><a href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a></div><div class="ttdeci">#define UG_THROW(msg)</div><div class="ttdef"><b>Definition</b> error.h:57</div></div>
@@ -626,7 +627,7 @@ $(document).ready(function(){initNavTree('fv1__sss_8h_source.html',''); initResi
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_df0e37446a9fd4242d0753cd346d4a6c.html">lib_disc</a></li><li class="navelem"><a class="el" href="dir_29066d1a823b14ee0b28843282597c5c.html">spatial_disc</a></li><li class="navelem"><a class="el" href="dir_ec4d003034051f6ef6bf4e9034dca541.html">disc_util</a></li><li class="navelem"><a class="el" href="fv1__sss_8h.html">fv1_sss.h</a></li>
-    <li class="footer">Generated on Mon Aug 17 2026 01:05:30 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Aug 24 2026 01:07:22 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

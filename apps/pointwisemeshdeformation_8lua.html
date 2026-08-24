@@ -149,9 +149,9 @@ Variables</h2></td></tr>
 <p>location: /home/runner/work/docs/docs/ug4/apps/navier_stokes / <a class="el" href="pointwisemeshdeformation_8lua.html">pointwisemeshdeformation.lua</a> :26-29 </p><div class="fragment"><div class="line">function <a class="code hl_function" href="pointwisemeshdeformation_8lua.html#a6f8778cfc131666378c655ff69139bbd">RescaleDomainPointwise</a>(dom)</div>
 <div class="line">  AddFunctionValuesToGridCoordinatesP1(u, <span class="stringliteral">&quot;u&quot;</span>, 0, <a class="code hl_variable" href="cooler_8lua.html#a8a048e938cde337ee9ef6b6379bdd1ef">dt</a>)</div>
 <div class="line">  AddFunctionValuesToGridCoordinatesP1(u, <span class="stringliteral">&quot;v&quot;</span>, 1, <a class="code hl_variable" href="cooler_8lua.html#a8a048e938cde337ee9ef6b6379bdd1ef">dt</a>)</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
-<div class="ttc" id="achannel_8lua_html_aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07"><div class="ttname"><a href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div><div class="ttdeci">function *Umax *y end</div><div class="ttdef"><b>Definition</b> channel.lua:87</div></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="acooler_8lua_html_a8a048e938cde337ee9ef6b6379bdd1ef"><div class="ttname"><a href="cooler_8lua.html#a8a048e938cde337ee9ef6b6379bdd1ef">dt</a></div><div class="ttdeci">parameterNumber dt</div><div class="ttdef"><b>Definition</b> cooler.lua:5</div></div>
+<div class="ttc" id="adeponie_8lua_html_aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07"><div class="ttname"><a href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div><div class="ttdeci">function y * end</div><div class="ttdef"><b>Definition</b> deponie.lua:16</div></div>
 <div class="ttc" id="apointwisemeshdeformation_8lua_html_a6f8778cfc131666378c655ff69139bbd"><div class="ttname"><a href="pointwisemeshdeformation_8lua.html#a6f8778cfc131666378c655ff69139bbd">RescaleDomainPointwise</a></div><div class="ttdeci">function RescaleDomainPointwise(dom)</div></div>
 </div><!-- fragment --> 
 </div>
@@ -189,7 +189,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>location: /home/runner/work/docs/docs/ug4/apps/navier_stokes / <a class="el" href="pointwisemeshdeformation_8lua.html">pointwisemeshdeformation.lua</a> :39-41 </p><div class="fragment"><div class="line">function <a class="code hl_function" href="error__estimation_8lua.html#a5d4af7703ef2d6f956acffb27a0bf570">source2d</a>(x,<a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>,<a class="code hl_variable" href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a>)</div>
 <div class="line">  <span class="keywordflow">return</span> <a class="code hl_function" href="pointwisemeshdeformation_8lua.html#a80c33c1732d7dd3b80b27ef1a82dcbcd">xVelocity</a>(x,<a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>,<a class="code hl_variable" href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a>), <a class="code hl_function" href="pointwisemeshdeformation_8lua.html#a0e90dedd1588e15f0819205031aee39b">yVelocity</a>(x,<a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>,<a class="code hl_variable" href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a>)</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="achannel_8lua_html_a0abc9ddee91887084fd7f38e1bcb6f7f"><div class="ttname"><a href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a></div><div class="ttdeci">function y</div><div class="ttdef"><b>Definition</b> channel.lua:79</div></div>
 <div class="ttc" id="achannel_8lua_html_a23c5666e83bbbceee94adcd0851f50c4"><div class="ttname"><a href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a></div><div class="ttdeci">function t</div><div class="ttdef"><b>Definition</b> channel.lua:79</div></div>
 <div class="ttc" id="aerror__estimation_8lua_html_a5d4af7703ef2d6f956acffb27a0bf570"><div class="ttname"><a href="error__estimation_8lua.html#a5d4af7703ef2d6f956acffb27a0bf570">source2d</a></div><div class="ttdeci">function source2d(x, y, t)</div></div>
@@ -231,7 +231,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>location: /home/runner/work/docs/docs/ug4/apps/navier_stokes / <a class="el" href="pointwisemeshdeformation_8lua.html">pointwisemeshdeformation.lua</a> :31-33 </p><div class="fragment"><div class="line">function <a class="code hl_function" href="pointwisemeshdeformation_8lua.html#a80c33c1732d7dd3b80b27ef1a82dcbcd">xVelocity</a>(x,<a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>,<a class="code hl_variable" href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a>)</div>
 <div class="line">  <span class="keywordflow">return</span> x/Integral(1.0, u, <span class="stringliteral">&quot;bottom&quot;</span>)*0.1</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -268,7 +268,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>location: /home/runner/work/docs/docs/ug4/apps/navier_stokes / <a class="el" href="pointwisemeshdeformation_8lua.html">pointwisemeshdeformation.lua</a> :35-37 </p><div class="fragment"><div class="line">function <a class="code hl_function" href="pointwisemeshdeformation_8lua.html#a0e90dedd1588e15f0819205031aee39b">yVelocity</a>(x,<a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>,<a class="code hl_variable" href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a>)</div>
 <div class="line">  <span class="keywordflow">return</span> <a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>/Integral(1.0, u, <span class="stringliteral">&quot;left&quot;</span>)*0.1</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -353,7 +353,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_9654b8d08f4bba4e84b362c5fd320bee.html">apps</a></li><li class="navelem"><a class="el" href="dir_3bd393685b767e18cce7543d23bbc7c8.html">navier_stokes</a></li><li class="navelem"><a class="el" href="pointwisemeshdeformation_8lua.html">pointwisemeshdeformation.lua</a></li>
-    <li class="footer">Generated on Mon Aug 17 2026 01:04:55 for Apps by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Aug 24 2026 01:06:49 for Apps by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

@@ -293,7 +293,8 @@ $(document).ready(function(){initNavTree('dom__disc__embb__impl_8h_source.html',
 <div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> TElem, <span class="keyword">typename</span> TIterator&gt;</div>
 <div class="foldopen" id="foldopen00217" data-start="{" data-end="}">
 <div class="line"><a id="l00217" name="l00217"></a><span class="lineno"><a class="line" href="classug_1_1_l_s_g_f_glob_assembler.html#a3c2e59289a67892c930e8b99e07ff6f2">  217</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="classug_1_1_l_s_g_f_glob_assembler.html#a3c2e59289a67892c930e8b99e07ff6f2">LSGFGlobAssembler&lt;TDomain, TAlgebra, TExtrapolation&gt;::</a></div>
-<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span><a class="code hl_function" href="classug_1_1_l_s_g_f_glob_assembler.html#a3c2e59289a67892c930e8b99e07ff6f2">AssembleMassMatrix</a>( <span class="keyword">const</span> std::vector&lt;<a class="code hl_class" href="classug_1_1_i_elem_disc.html">IElemDisc&lt;domain_type&gt;</a>*&gt;&amp; vElemDisc,</div>
+<div class="foldopen" id="foldopen00218" data-start="{" data-end="}">
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno"><a class="line" href="classug_1_1_l_s_g_f_glob_assembler.html#a3c2e59289a67892c930e8b99e07ff6f2">  218</a></span><a class="code hl_function" href="classug_1_1_l_s_g_f_glob_assembler.html#a3c2e59289a67892c930e8b99e07ff6f2">AssembleMassMatrix</a>( <span class="keyword">const</span> std::vector&lt;<a class="code hl_class" href="classug_1_1_i_elem_disc.html">IElemDisc&lt;domain_type&gt;</a>*&gt;&amp; vElemDisc,</div>
 <div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>          <a class="code hl_class" href="class_const_smart_ptr.html">ConstSmartPtr&lt;domain_type&gt;</a> spDomain,</div>
 <div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>          <a class="code hl_class" href="class_const_smart_ptr.html">ConstSmartPtr&lt;DoFDistribution&gt;</a> dd,</div>
 <div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>          TIterator iterBegin,</div>
@@ -305,7 +306,8 @@ $(document).ready(function(){initNavTree('dom__disc__embb__impl_8h_source.html',
 <div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>{</div>
 <div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span><span class="comment">//  check the dof distribution for the ghost-fluid method</span></div>
 <div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>  m_extrapol.check_dd (dd);</div>
-<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span> </div>
+<div class="foldopen" id="foldopen00230" data-start="{" data-end="}">
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno"><a class="line" href="classug_1_1_l_s_g_f_glob_assembler.html#afba7631d90017a58c93d0b5d9b286059">  230</a></span> </div>
 <div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span><span class="comment">//  check if there are any elements at all, otherwise return immediately</span></div>
 <div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>  <span class="keywordflow">if</span>(iterBegin == iterEnd) <span class="keywordflow">return</span>;</div>
 <div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span> </div>
@@ -317,7 +319,8 @@ $(document).ready(function(){initNavTree('dom__disc__embb__impl_8h_source.html',
 <div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span> </div>
 <div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span><span class="comment">//  prepare for given elem discs</span></div>
 <div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>  <span class="keywordflow">try</span></div>
-<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>  {</div>
+<div class="foldopen" id="foldopen00242" data-start="{" data-end="}">
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno"><a class="line" href="classug_1_1_l_s_g_f_glob_assembler.html#a1aaf33f065f019b225b74498df21af04">  242</a></span>  {</div>
 <div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>  <a class="code hl_class" href="classug_1_1_data_evaluator.html">DataEvaluator&lt;domain_type&gt;</a> Eval(<a class="code hl_enumvalue" href="namespaceug.html#a566d113da734983a6917fbd0febc233fad86c14b30d01f126bccfe6413ae31f85">MASS</a>,</div>
 <div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>             vElemDisc, dd-&gt;function_pattern(), bNonRegularGrid);</div>
 <div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span> </div>
@@ -330,7 +333,8 @@ $(document).ready(function(){initNavTree('dom__disc__embb__impl_8h_source.html',
 <div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span><span class="comment">//  grid level of all the elements</span></div>
 <div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>  <span class="keywordtype">int</span> g_level = dd-&gt;grid_level().level ();</div>
 <div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>  <span class="keywordflow">if</span> (g_level == <a class="code hl_enumvalue" href="classug_1_1_grid_level.html#a006da95f8fc427a94015ea5966ad074dabc4a3eee7b9cef80d852f58ec1c106b3">GridLevel::TOP</a>)</div>
-<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>    g_level = dd-&gt;multi_grid()-&gt;top_level ();</div>
+<div class="foldopen" id="foldopen00255" data-start="{" data-end="}">
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno"><a class="line" href="classug_1_1_l_s_g_f_glob_assembler.html#a66096f9873e628fb7287e924938c638c">  255</a></span>    g_level = dd-&gt;multi_grid()-&gt;top_level ();</div>
 <div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>  </div>
 <div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span><span class="comment">//  Loop over all elements</span></div>
 <div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>  <span class="keywordflow">for</span>(TIterator iter = iterBegin; iter != iterEnd; ++iter)</div>
@@ -342,7 +346,8 @@ $(document).ready(function(){initNavTree('dom__disc__embb__impl_8h_source.html',
 <div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>    <span class="keywordflow">if</span>(!spAssTuner-&gt;element_used(elem)) <span class="keywordflow">continue</span>;</div>
 <div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span> </div>
 <div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>  <span class="comment">//  get corner coordinates</span></div>
-<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>    <a class="code hl_function" href="namespaceug.html#a73622f7cd059137269f436d46d411437">FillCornerCoordinates</a>(vCornerCoords, *elem, *spDomain);</div>
+<div class="foldopen" id="foldopen00267" data-start="{" data-end="}">
+<div class="line"><a id="l00267" name="l00267"></a><span class="lineno"><a class="line" href="classug_1_1_l_s_g_f_glob_assembler.html#acc3b54b6f72f21d16b3129af958000eb">  267</a></span>    <a class="code hl_function" href="namespaceug.html#a73622f7cd059137269f436d46d411437">FillCornerCoordinates</a>(vCornerCoords, *elem, *spDomain);</div>
 <div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span> </div>
 <div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>  <span class="comment">//  check whether we are inside</span></div>
 <div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>    <span class="keywordtype">int</span> elem_status = m_extrapol.check_elem_lsf</div>
@@ -356,7 +361,8 @@ $(document).ready(function(){initNavTree('dom__disc__embb__impl_8h_source.html',
 <div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>  <span class="comment">//  adapt local algebra</span></div>
 <div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>    locU.<a class="code hl_function" href="classug_1_1_local_vector.html#abce2dcf8ef3003c039fd57a6778fefb7">resize</a>(ind); locM.<a class="code hl_function" href="classug_1_1_local_matrix.html#a9dc073bd67d38e997a89f1a0b7a6f10c">resize</a>(ind);</div>
 <div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span> </div>
-<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>  <span class="comment">//  assemble depending on whether this is an inner or an interface element</span></div>
+<div class="foldopen" id="foldopen00281" data-start="{" data-end="}">
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno"><a class="line" href="classug_1_1_l_s_g_f_glob_assembler.html#a90cff099b88296bea6ddb12213588e1a">  281</a></span>  <span class="comment">//  assemble depending on whether this is an inner or an interface element</span></div>
 <div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>    <span class="keywordflow">if</span> (elem_status &gt; 0) <span class="comment">// an inner element, usual assembling</span></div>
 <div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>    {</div>
 <div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>    <span class="comment">//  read local values of u</span></div>
@@ -368,7 +374,8 @@ $(document).ready(function(){initNavTree('dom__disc__embb__impl_8h_source.html',
 <div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>        Eval.prepare_elem(locU, elem, <span class="keywordtype">id</span>, vCornerCoords, ind, <span class="keyword">true</span>);</div>
 <div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>      }</div>
 <div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>      <a class="code hl_define" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>(<span class="stringliteral">&quot;AssembleMassMatrix: Cannot prepare element.&quot;</span>);</div>
-<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span> </div>
+<div class="foldopen" id="foldopen00293" data-start="{" data-end="}">
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno"><a class="line" href="classug_1_1_l_s_g_f_glob_assembler.html#a787ffe3812b92be5f211e8d6f0b38287">  293</a></span> </div>
 <div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>    <span class="comment">//  Assemble JM</span></div>
 <div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>      locM = 0.0;</div>
 <div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>      <span class="keywordflow">try</span></div>
@@ -398,7 +405,7 @@ $(document).ready(function(){initNavTree('dom__disc__embb__impl_8h_source.html',
 <div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span>      <span class="comment">//  prepare element</span></div>
 <div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span>        <span class="keywordflow">try</span></div>
 <div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span>        {</div>
-<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span>          Eval.prepare_elem(locU, elem, <span class="keywordtype">id</span>, vCornerCoords, ind, <span class="keyword">true</span>);</div>
+<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span>          <a class="code hl_function" href="namespaceug_1_1bridge_1_1_algebra_common.html#a83f7c909d97c1654c332f3c33624c7ac">Eval</a>.prepare_elem(locU, elem, <span class="keywordtype">id</span>, vCornerCoords, ind, <span class="keyword">true</span>);</div>
 <div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span>        }</div>
 <div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span>        <a class="code hl_define" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>(<span class="stringliteral">&quot;AssembleMassMatrix: Cannot prepare element.&quot;</span>);</div>
 <div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span> </div>
@@ -406,7 +413,7 @@ $(document).ready(function(){initNavTree('dom__disc__embb__impl_8h_source.html',
 <div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span>        locM = 0.0;</div>
 <div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span>        <span class="keywordflow">try</span></div>
 <div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span>        {</div>
-<div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span>          Eval.add_jac_M_elem(locM, locU, elem, vCornerCoords);</div>
+<div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span>          <a class="code hl_function" href="namespaceug_1_1bridge_1_1_algebra_common.html#a83f7c909d97c1654c332f3c33624c7ac">Eval</a>.add_jac_M_elem(locM, locU, elem, vCornerCoords);</div>
 <div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span>        }</div>
 <div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span>        <a class="code hl_define" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>(<span class="stringliteral">&quot;AssembleMassMatrix: Cannot compute Jacobian (M).&quot;</span>);</div>
 <div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span> </div>
@@ -425,14 +432,13 @@ $(document).ready(function(){initNavTree('dom__disc__embb__impl_8h_source.html',
 <div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span><span class="comment">//  finish element loop</span></div>
 <div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span>  <span class="keywordflow">try</span></div>
 <div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span>  {</div>
-<div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span>    Eval.finish_elem_loop();</div>
+<div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span>    <a class="code hl_function" href="namespaceug_1_1bridge_1_1_algebra_common.html#a83f7c909d97c1654c332f3c33624c7ac">Eval</a>.finish_elem_loop();</div>
 <div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span>  }</div>
 <div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span>  <a class="code hl_define" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>(<span class="stringliteral">&quot;AssembleMassMatrix: Cannot finish element loop.&quot;</span>);</div>
 <div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span> </div>
 <div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span>  }</div>
 <div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span>  <a class="code hl_define" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>(<span class="stringliteral">&quot;AssembleMassMatrix: Cannot create Data Evaluator.&quot;</span>);</div>
 <div class="line"><a id="l00356" name="l00356"></a><span class="lineno">  356</span>}</div>
-</div>
 <div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span> </div>
 <div class="line"><a id="l00373" name="l00373"></a><span class="lineno">  373</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> TDomain, <span class="keyword">typename</span> TAlgebra, <span class="keyword">typename</span> TExtrapolation&gt;</div>
 <div class="line"><a id="l00374" name="l00374"></a><span class="lineno">  374</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> TElem, <span class="keyword">typename</span> TIterator&gt;</div>
@@ -453,7 +459,8 @@ $(document).ready(function(){initNavTree('dom__disc__embb__impl_8h_source.html',
 <div class="line"><a id="l00388" name="l00388"></a><span class="lineno">  388</span> </div>
 <div class="line"><a id="l00389" name="l00389"></a><span class="lineno">  389</span><span class="comment">//  check if there are any elements at all, otherwise return immediately</span></div>
 <div class="line"><a id="l00390" name="l00390"></a><span class="lineno">  390</span>  <span class="keywordflow">if</span>(iterBegin == iterEnd) <span class="keywordflow">return</span>;</div>
-<div class="line"><a id="l00391" name="l00391"></a><span class="lineno">  391</span> </div>
+<div class="foldopen" id="foldopen00391" data-start="{" data-end="}">
+<div class="line"><a id="l00391" name="l00391"></a><span class="lineno"><a class="line" href="classug_1_1_l_s_g_f_glob_assembler.html#a03ef4e3b3af6b459697dfab578665dd7">  391</a></span> </div>
 <div class="line"><a id="l00392" name="l00392"></a><span class="lineno">  392</span><span class="comment">//  reference object id</span></div>
 <div class="line"><a id="l00393" name="l00393"></a><span class="lineno">  393</span>  <span class="keyword">static</span> <span class="keyword">const</span> <a class="code hl_enumeration" href="namespaceug.html#a1f0e19a0ec74b2ebb64238aeb498c51b">ReferenceObjectID</a> <span class="keywordtype">id</span> = <a class="code hl_class" href="classug_1_1geometry__traits.html">geometry_traits&lt;TElem&gt;::REFERENCE_OBJECT_ID</a>;</div>
 <div class="line"><a id="l00394" name="l00394"></a><span class="lineno">  394</span> </div>
@@ -464,7 +471,8 @@ $(document).ready(function(){initNavTree('dom__disc__embb__impl_8h_source.html',
 <div class="line"><a id="l00399" name="l00399"></a><span class="lineno">  399</span>  <span class="keywordflow">try</span></div>
 <div class="line"><a id="l00400" name="l00400"></a><span class="lineno">  400</span>  {</div>
 <div class="line"><a id="l00401" name="l00401"></a><span class="lineno">  401</span>  <a class="code hl_class" href="classug_1_1_data_evaluator.html">DataEvaluator&lt;domain_type&gt;</a> Eval(<a class="code hl_enumvalue" href="namespaceug.html#a566d113da734983a6917fbd0febc233fa4ad198d022d234dadd95c9382c0252be">STIFF</a> | <a class="code hl_enumvalue" href="namespaceug.html#a566d113da734983a6917fbd0febc233fa6ef832385eef343625cc2aa613f02c76">RHS</a>,</div>
-<div class="line"><a id="l00402" name="l00402"></a><span class="lineno">  402</span>             vElemDisc, dd-&gt;function_pattern(), bNonRegularGrid);</div>
+<div class="foldopen" id="foldopen00402" data-start="{" data-end="}">
+<div class="line"><a id="l00402" name="l00402"></a><span class="lineno"><a class="line" href="classug_1_1_l_s_g_f_glob_assembler.html#acf6be9edb6c63173f022e7259472e6c9">  402</a></span>             vElemDisc, dd-&gt;function_pattern(), bNonRegularGrid);</div>
 <div class="line"><a id="l00403" name="l00403"></a><span class="lineno">  403</span> </div>
 <div class="line"><a id="l00404" name="l00404"></a><span class="lineno">  404</span><span class="comment">//  prepare element loop</span></div>
 <div class="line"><a id="l00405" name="l00405"></a><span class="lineno">  405</span>  Eval.prepare_elem_loop(<span class="keywordtype">id</span>, si);</div>
@@ -475,7 +483,8 @@ $(document).ready(function(){initNavTree('dom__disc__embb__impl_8h_source.html',
 <div class="line"><a id="l00410" name="l00410"></a><span class="lineno">  410</span><span class="comment">//  grid level of all the elements</span></div>
 <div class="line"><a id="l00411" name="l00411"></a><span class="lineno">  411</span>  <span class="keywordtype">int</span> g_level = dd-&gt;grid_level().level ();</div>
 <div class="line"><a id="l00412" name="l00412"></a><span class="lineno">  412</span>  <span class="keywordflow">if</span> (g_level == <a class="code hl_enumvalue" href="classug_1_1_grid_level.html#a006da95f8fc427a94015ea5966ad074dabc4a3eee7b9cef80d852f58ec1c106b3">GridLevel::TOP</a>)</div>
-<div class="line"><a id="l00413" name="l00413"></a><span class="lineno">  413</span>    g_level = dd-&gt;multi_grid()-&gt;top_level ();</div>
+<div class="foldopen" id="foldopen00413" data-start="{" data-end="}">
+<div class="line"><a id="l00413" name="l00413"></a><span class="lineno"><a class="line" href="classug_1_1_l_s_g_f_glob_assembler.html#aa1093df9da22a8679a23c2b8f40a6d3b">  413</a></span>    g_level = dd-&gt;multi_grid()-&gt;top_level ();</div>
 <div class="line"><a id="l00414" name="l00414"></a><span class="lineno">  414</span>  </div>
 <div class="line"><a id="l00415" name="l00415"></a><span class="lineno">  415</span><span class="comment">//  Loop over all elements</span></div>
 <div class="line"><a id="l00416" name="l00416"></a><span class="lineno">  416</span>  <span class="keywordflow">for</span>(TIterator iter = iterBegin; iter != iterEnd; ++iter)</div>
@@ -581,7 +590,6 @@ $(document).ready(function(){initNavTree('dom__disc__embb__impl_8h_source.html',
 <div class="line"><a id="l00516" name="l00516"></a><span class="lineno">  516</span>  }</div>
 <div class="line"><a id="l00517" name="l00517"></a><span class="lineno">  517</span>  <a class="code hl_define" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>(<span class="stringliteral">&quot;(stationary) AssembleJacobian: Cannot create Data Evaluator.&quot;</span>);</div>
 <div class="line"><a id="l00518" name="l00518"></a><span class="lineno">  518</span>}</div>
-</div>
 <div class="line"><a id="l00519" name="l00519"></a><span class="lineno">  519</span> </div>
 <div class="line"><a id="l00538" name="l00538"></a><span class="lineno">  538</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> TDomain, <span class="keyword">typename</span> TAlgebra, <span class="keyword">typename</span> TExtrapolation&gt;</div>
 <div class="line"><a id="l00539" name="l00539"></a><span class="lineno">  539</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> TElem, <span class="keyword">typename</span> TIterator&gt;</div>
@@ -2008,10 +2016,22 @@ $(document).ready(function(){initNavTree('dom__disc__embb__impl_8h_source.html',
 <div class="line"><a id="l02067" name="l02067"></a><span class="lineno"> 2067</span>  <a class="code hl_define" href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a>(<span class="stringliteral">&quot;InitAllExports: Data Evaluator failed&quot;</span>);</div>
 <div class="line"><a id="l02068" name="l02068"></a><span class="lineno"> 2068</span>}</div>
 </div>
+</div>
 <div class="line"><a id="l02069" name="l02069"></a><span class="lineno"> 2069</span> </div>
 <div class="line"><a id="l02070" name="l02070"></a><span class="lineno"> 2070</span>} <span class="comment">// end namespace ug</span></div>
 <div class="line"><a id="l02071" name="l02071"></a><span class="lineno"> 2071</span> </div>
 <div class="line"><a id="l02072" name="l02072"></a><span class="lineno"> 2072</span><span class="comment">/* End of File */</span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 <div class="ttc" id="aclass_const_smart_ptr_html"><div class="ttname"><a href="class_const_smart_ptr.html">ConstSmartPtr</a></div><div class="ttdef"><b>Definition</b> smart_pointer.h:296</div></div>
 <div class="ttc" id="aclassug_1_1_assembling_tuner_html"><div class="ttname"><a href="classug_1_1_assembling_tuner.html">ug::AssemblingTuner</a></div><div class="ttdoc">The AssemblingTuner class combines tools to adapt the assembling routine.</div><div class="ttdef"><b>Definition</b> ass_tuner.h:90</div></div>
 <div class="ttc" id="aclassug_1_1_data_evaluator_html"><div class="ttname"><a href="classug_1_1_data_evaluator.html">ug::DataEvaluator</a></div><div class="ttdoc">Evaluation for IElemDisc.</div><div class="ttdef"><b>Definition</b> data_evaluator.h:169</div></div>
@@ -2049,6 +2069,7 @@ $(document).ready(function(){initNavTree('dom__disc__embb__impl_8h_source.html',
 <div class="ttc" id="agroup__ugbase__common_html_ga10f56dc5558c42d0e0ab5bb875c73ac7"><div class="ttname"><a href="group__ugbase__common.html#ga10f56dc5558c42d0e0ab5bb875c73ac7">UG_CATCH_THROW</a></div><div class="ttdeci">#define UG_CATCH_THROW(msg)</div><div class="ttdef"><b>Definition</b> error.h:64</div></div>
 <div class="ttc" id="agroup__ugbase__common_html_ga43687df88af405f6ac7058dd3639993d"><div class="ttname"><a href="group__ugbase__common.html#ga43687df88af405f6ac7058dd3639993d">UG_THROW</a></div><div class="ttdeci">#define UG_THROW(msg)</div><div class="ttdef"><b>Definition</b> error.h:57</div></div>
 <div class="ttc" id="agroup__ugbase__common_html_gaf349a0d1e8189254086eb3267fd4f460"><div class="ttname"><a href="group__ugbase__common.html#gaf349a0d1e8189254086eb3267fd4f460">number</a></div><div class="ttdeci">double number</div><div class="ttdef"><b>Definition</b> types.h:124</div></div>
+<div class="ttc" id="anamespaceug_1_1bridge_1_1_algebra_common_html_a83f7c909d97c1654c332f3c33624c7ac"><div class="ttname"><a href="namespaceug_1_1bridge_1_1_algebra_common.html#a83f7c909d97c1654c332f3c33624c7ac">ug::bridge::AlgebraCommon::Eval</a></div><div class="ttdeci">SmartPtr&lt; typename TAlgebra::vector_type &gt; Eval(SmartPtr&lt; VecScaleAddClass&lt; TAlgebra &gt; &gt; vsac)</div><div class="ttdef"><b>Definition</b> bridge_mat_vec_operations.h:141</div></div>
 <div class="ttc" id="anamespaceug_html"><div class="ttname"><a href="namespaceug.html">ug</a></div><div class="ttdoc">the ug namespace</div></div>
 <div class="ttc" id="anamespaceug_html_a1f0e19a0ec74b2ebb64238aeb498c51b"><div class="ttname"><a href="namespaceug.html#a1f0e19a0ec74b2ebb64238aeb498c51b">ug::ReferenceObjectID</a></div><div class="ttdeci">ReferenceObjectID</div><div class="ttdoc">these ids are used to identify the shape of a geometric object.</div><div class="ttdef"><b>Definition</b> grid_base_objects.h:74</div></div>
 <div class="ttc" id="anamespaceug_html_a263e8a5e26bb1b87ff775174409ff19ea45102873a42e38e0d0d86fd167c51ca8"><div class="ttname"><a href="namespaceug.html#a263e8a5e26bb1b87ff775174409ff19ea45102873a42e38e0d0d86fd167c51ca8">ug::PT_INSTATIONARY</a></div><div class="ttdeci">@ PT_INSTATIONARY</div><div class="ttdef"><b>Definition</b> data_evaluator.h:42</div></div>
@@ -2069,7 +2090,7 @@ $(document).ready(function(){initNavTree('dom__disc__embb__impl_8h_source.html',
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_80abd05104fe5ed4636c8ba64911e654.html">ugbase</a></li><li class="navelem"><a class="el" href="dir_df0e37446a9fd4242d0753cd346d4a6c.html">lib_disc</a></li><li class="navelem"><a class="el" href="dir_29066d1a823b14ee0b28843282597c5c.html">spatial_disc</a></li><li class="navelem"><a class="el" href="dom__disc__embb__impl_8h.html">dom_disc_embb_impl.h</a></li>
-    <li class="footer">Generated on Mon Aug 17 2026 01:05:32 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Aug 24 2026 01:07:24 for ug4 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

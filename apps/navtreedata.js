@@ -51,9 +51,9 @@ var NAVTREEINDEX =
 [
 "../group__lib__algebra.html",
 "biot2_8lua.html#a95af0b410046590de2c193b3edb9b07e",
-"drivencavity_8lua.html#a517d17fd575de09b31c18c9d3793d048",
-"levee__siltloam_8lua.html#ae2cac12bffd13d901d606e59016aaf37",
-"trench2_d__fictitious_8lua.html"
+"dirichlet_8lua.html#a83d490973b249fa183c4768ad34df023",
+"laplace-hpc_8lua.html#a6ab7cc6fa279666d364eb7fdb745eb58",
+"statbubble_8lua.html#ab53fa652b9cc45f06e21e9cbb9451167"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

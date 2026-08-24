@@ -158,8 +158,8 @@ Functions</h2></td></tr>
 <div class="line">    print(&quot;Permeability and Viscosity are given, but not hydraulic conductivity: &quot; .. tostring(case1))</div>
 <div class="line">    print(&quot;Only hydraulic conductivity is given: &quot; .. tostring(case2))</div>
 <div class="line">    assert(case1 or case2, &quot;either Ksat or permeability and viscosity must be defined&quot;)</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
-<div class="ttc" id="achannel_8lua_html_aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07"><div class="ttname"><a href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div><div class="ttdeci">function *Umax *y end</div><div class="ttdef"><b>Definition</b> channel.lua:87</div></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="ttc" id="adeponie_8lua_html_aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07"><div class="ttname"><a href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div><div class="ttdeci">function y * end</div><div class="ttdef"><b>Definition</b> deponie.lua:16</div></div>
 <div class="ttc" id="aunsat__flow__util_8lua_html_a2fa73074eba7551f213f0fe0282f403d"><div class="ttname"><a href="unsat__flow__util_8lua.html#a2fa73074eba7551f213f0fe0282f403d">lookup</a></div><div class="ttdeci">function ProblemDisc lookup(uid, param)</div></div>
 <div class="ttc" id="aunsat__flow__util_8lua_html_aa64de9c87082c9b95b9b1d65de00a591"><div class="ttname"><a href="unsat__flow__util_8lua.html#aa64de9c87082c9b95b9b1d65de00a591">assert_richards_parameters</a></div><div class="ttdeci">function ProblemDisc assert_richards_parameters(medium)</div></div>
 </div><!-- fragment --> 
@@ -187,7 +187,7 @@ Functions</h2></td></tr>
 <div class="line">    self.approxSpace:init_top_surface()</div>
 <div class="line">    self.approxSpace:print_statistic()</div>
 <div class="line">    return self.approxSpace</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="amixinglayer_8lua_html_a1b7f2af074b32393c0b48bbd03e9b7f4"><div class="ttname"><a href="mixinglayer_8lua.html#a1b7f2af074b32393c0b48bbd03e9b7f4">c</a></div><div class="ttdeci">parameterNumber c</div><div class="ttdef"><b>Definition</b> mixinglayer.lua:13</div></div>
 <div class="ttc" id="aunsat__flow__util_8lua_html_a9907b46bced12d56556e23037da378ba"><div class="ttname"><a href="unsat__flow__util_8lua.html#a9907b46bced12d56556e23037da378ba">CreateApproxSpace</a></div><div class="ttdeci">function ProblemDisc CreateApproxSpace()</div></div>
 </div><!-- fragment --> 
@@ -270,10 +270,10 @@ Functions</h2></td></tr>
 <div class="line">        elseif medium.<a class="code hl_variable" href="adrivencavity_8lua.html#a221a494317ae91f8886cc1a16fdc0811">type</a> == &quot;const&quot; then</div>
 <div class="line">            modelMap[medium.uid] = medium.value</div>
 <div class="line">            print(medium.uid .. &quot;:<a class="code hl_variable" href="mixinglayer_8lua.html#a1b7f2af074b32393c0b48bbd03e9b7f4">c</a>-&gt;&quot; .. modelMap[medium.uid])</div>
-<div class="line">        <a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
-<div class="line">    <a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line">        <a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line">    <a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="line">    return modelMap</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="aadrivencavity_8lua_html_a221a494317ae91f8886cc1a16fdc0811"><div class="ttname"><a href="adrivencavity_8lua.html#a221a494317ae91f8886cc1a16fdc0811">type</a></div><div class="ttdeci">parameterString type</div><div class="ttdef"><b>Definition</b> adrivencavity.lua:2</div></div>
 <div class="ttc" id="abiot_8lua_html_a26ff0a0d24214e8e896f479250e049c0"><div class="ttname"><a href="biot_8lua.html#a26ff0a0d24214e8e896f479250e049c0">exp</a></div><div class="ttdeci">function *y *math exp(-0.01 *t) end</div></div>
 <div class="ttc" id="aunsat__flow__util_8lua_html_af58e9b5677b17198685a4205a54b0dd6"><div class="ttname"><a href="unsat__flow__util_8lua.html#af58e9b5677b17198685a4205a54b0dd6">CreateModelMap</a></div><div class="ttdeci">function ProblemDisc CreateModelMap(paramDesc)</div></div>
@@ -320,16 +320,16 @@ Functions</h2></td></tr>
 <p>/**</p>
 <p>/** location: /home/runner/work/docs/docs/ug4/apps/unsat_flow / <a class="el" href="unsat__flow__util_8lua.html">unsat_flow_util.lua</a> :469-480 </p><div class="fragment"><div class="line">        function <a class="code hl_function" href="unsat__flow__util_8lua.html#a29dc7f3b614b18d5cea59fe591239562">dwDensityFct</a>(w)</div>
 <div class="line">            <span class="keywordflow">return</span> (-1.0 * p_w * p_s * (p_w - p_s)) / (p_s * (p_w - 1) - p_w * w) ^ 2</div>
-<div class="line">        <a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line">        <a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="line"> </div>
 <div class="line">        density = LuaUserFunctionNumber(<span class="stringliteral">&quot;DensityFct&quot;</span>, 1);</div>
 <div class="line">        density:set_deriv(0, <span class="stringliteral">&quot;dwDensityFct&quot;</span>);</div>
 <div class="line">    elseif self.problem.flow.density.type == <span class="stringliteral">&quot;const&quot;</span> then</div>
 <div class="line">        density = self.problem.flow.density.min</div>
-<div class="line">    <a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line">    <a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">return</span> density</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="aunsat__flow__util_8lua_html_a29dc7f3b614b18d5cea59fe591239562"><div class="ttname"><a href="unsat__flow__util_8lua.html#a29dc7f3b614b18d5cea59fe591239562">dwDensityFct</a></div><div class="ttdeci">function dwDensityFct(w)</div></div>
 </div><!-- fragment --> 
 <p class="reference">References <a class="elRef" href="../lexer_8cpp.html#ad4a65b873df5c05570846b5413b41dfd">if()</a>.</p>
@@ -354,14 +354,14 @@ Functions</h2></td></tr>
 <p>/**</p>
 <p>/** location: /home/runner/work/docs/docs/ug4/apps/unsat_flow / <a class="el" href="unsat__flow__util_8lua.html">unsat_flow_util.lua</a> :496-505 </p><div class="fragment"><div class="line">        function <a class="code hl_function" href="unsat__flow__util_8lua.html#a192429210f06f211bc4cfbf38934eff3">dwViscosityFct</a>(w)</div>
 <div class="line">            <span class="keywordflow">return</span> mu0 * (1.85 - 8.2 * w + 133.5 * w ^ 2)</div>
-<div class="line">        <a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line">        <a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="line"> </div>
 <div class="line">        viscosity = LuaUserFunctionNumber(<span class="stringliteral">&quot;ViscosityFct&quot;</span>, 1);</div>
 <div class="line">        viscosity:set_deriv(0, <span class="stringliteral">&quot;dwViscosityFct&quot;</span>);</div>
-<div class="line">    <a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line">    <a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">return</span> viscosity</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="aunsat__flow__util_8lua_html_a192429210f06f211bc4cfbf38934eff3"><div class="ttname"><a href="unsat__flow__util_8lua.html#a192429210f06f211bc4cfbf38934eff3">dwViscosityFct</a></div><div class="ttdeci">function dwViscosityFct(w)</div></div>
 </div><!-- fragment --> 
 <p class="reference">References <a class="elRef" href="../parser_8cpp.html#ab352f63e4dbefc447c3fd0eba3fa120f">for()</a>, and <a class="elRef" href="../lexer_8cpp.html#ad4a65b873df5c05570846b5413b41dfd">if()</a>.</p>
@@ -398,10 +398,10 @@ Functions</h2></td></tr>
 <div class="line">    <span class="keywordflow">for</span> i, <a class="code hl_variableRef" href="../../plugins/_biogas_8lua.html#a57f1028d958bb73c4e3c64e2077342fc">p</a> in ipairs(self.problem.parameter) do</div>
 <div class="line">        if p.uid == uid then</div>
 <div class="line">            value = p[param]</div>
-<div class="line">        <a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
-<div class="line">    <a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line">        <a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line">    <a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="line">    return value</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="a_biogas_8lua_html_a57f1028d958bb73c4e3c64e2077342fc"><div class="ttname"><a href="../../plugins/_biogas_8lua.html#a57f1028d958bb73c4e3c64e2077342fc">p</a></div><div class="ttdeci">parameterString p</div></div>
 </div><!-- fragment --> 
 </div>
@@ -453,8 +453,8 @@ Functions</h2></td></tr>
 <div class="line">    for i, initial in ipairs(self.problem.initial) do</div>
 <div class="line">        print(&quot;Added Initial Value &quot; .. initial.cmp .. &quot; = &quot; .. initial.value)</div>
 <div class="line">        Interpolate(initial.value, self.u, initial.cmp)</div>
-<div class="line">    <a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line">    <a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="aunsat__flow__util_8lua_html_a1133ccaedd14cadab2eea3e0e989a106"><div class="ttname"><a href="unsat__flow__util_8lua.html#a1133ccaedd14cadab2eea3e0e989a106">SetInitialData</a></div><div class="ttdeci">function ProblemDisc SetInitialData()</div></div>
 </div><!-- fragment --> 
 </div>
@@ -465,7 +465,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_9654b8d08f4bba4e84b362c5fd320bee.html">apps</a></li><li class="navelem"><a class="el" href="dir_7f7fd02ec630caaee50e85dfa49f5682.html">unsat_flow</a></li><li class="navelem"><a class="el" href="unsat__flow__util_8lua.html">unsat_flow_util.lua</a></li>
-    <li class="footer">Generated on Mon Aug 17 2026 01:04:55 for Apps by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Aug 24 2026 01:06:49 for Apps by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

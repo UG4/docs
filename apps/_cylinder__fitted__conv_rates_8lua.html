@@ -175,8 +175,8 @@ Variables</h2></td></tr>
 <div class="line"> </div>
 <div class="line">    util.rates.static.StdComputeNonLinearSolution(u, domainDisc, solver)</div>
 <div class="line">    AdjustMeanValue(u, <span class="stringliteral">&quot;p&quot;</span>)</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
-<div class="ttc" id="achannel_8lua_html_aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07"><div class="ttname"><a href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div><div class="ttdeci">function *Umax *y end</div><div class="ttdef"><b>Definition</b> channel.lua:87</div></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="ttc" id="adeponie_8lua_html_aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07"><div class="ttname"><a href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div><div class="ttdeci">function y * end</div><div class="ttdef"><b>Definition</b> deponie.lua:16</div></div>
 <div class="ttc" id="anavier__stokes_8lua_html_ad72fffe8731c3a59b920638d58031f6e"><div class="ttname"><a href="navier__stokes_8lua.html#ad72fffe8731c3a59b920638d58031f6e">ComputeNonLinearSolution</a></div><div class="ttdeci">function ComputeNonLinearSolution(u, domainDisc, solver)</div></div>
 </div><!-- fragment --> 
 </div>
@@ -214,16 +214,16 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>location: /home/runner/work/docs/docs/ug4/apps/navier_stokes/MovingParticle/Fixed Particle - Cylinder Benchmark/cylinder_fitted/conv_rates / <a class="el" href="_cylinder__fitted__conv_rates_8lua.html">Cylinder_fitted_convRates.lua</a> :142-149 </p><div class="fragment"><div class="line">function <a class="code hl_function" href="unsat__flow__util_8lua.html#a9907b46bced12d56556e23037da378ba">CreateApproxSpace</a>(dom, discType, p)</div>
 <div class="line">  local approxSpace = ApproximationSpace(dom)</div>
-<div class="line">  <span class="keywordflow">if</span> <a class="code hl_variable" href="elder__adapt_8lua.html#a551e214afa3d78d3b8520b3f800f94de">dim</a> &gt;= 1 then approxSpace:add_fct(<span class="stringliteral">&quot;u&quot;</span>, <span class="stringliteral">&quot;Lagrange&quot;</span>, 1) <a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
-<div class="line">  if <a class="code hl_variable" href="elder__adapt_8lua.html#a551e214afa3d78d3b8520b3f800f94de">dim</a> &gt;= 2 then approxSpace:add_fct(&quot;v&quot;, &quot;Lagrange&quot;, 1) <a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line">  <span class="keywordflow">if</span> <a class="code hl_variable" href="elder__adapt_8lua.html#a551e214afa3d78d3b8520b3f800f94de">dim</a> &gt;= 1 then approxSpace:add_fct(<span class="stringliteral">&quot;u&quot;</span>, <span class="stringliteral">&quot;Lagrange&quot;</span>, 1) <a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line">  if <a class="code hl_variable" href="elder__adapt_8lua.html#a551e214afa3d78d3b8520b3f800f94de">dim</a> &gt;= 2 then approxSpace:add_fct(&quot;v&quot;, &quot;Lagrange&quot;, 1) <a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="line"> </div>
 <div class="line">  approxSpace:add_fct(&quot;p&quot;, &quot;Lagrange&quot;, 1)</div>
 <div class="line">  return approxSpace</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="aelder__adapt_8lua_html_a551e214afa3d78d3b8520b3f800f94de"><div class="ttname"><a href="elder__adapt_8lua.html#a551e214afa3d78d3b8520b3f800f94de">dim</a></div><div class="ttdeci">parameterNumber dim</div><div class="ttdef"><b>Definition</b> elder_adapt.lua:1</div></div>
 <div class="ttc" id="aunsat__flow__util_8lua_html_a9907b46bced12d56556e23037da378ba"><div class="ttname"><a href="unsat__flow__util_8lua.html#a9907b46bced12d56556e23037da378ba">CreateApproxSpace</a></div><div class="ttdeci">function ProblemDisc CreateApproxSpace()</div></div>
 </div><!-- fragment --> 
-<p class="reference">References <a class="elRef" href="../lexer_8cpp.html#ad4a65b873df5c05570846b5413b41dfd">if()</a>.</p>
+<p class="reference">References <a class="elRef" href="../lexer_8cpp.html#ad4a65b873df5c05570846b5413b41dfd">if()</a>, and <a class="elRef" href="../../plugins/d3f__util_8orig_8lua.html#aad5b2e644b64783f652259ea8912e875">Viscosity()</a>.</p>
 
 </div>
 </div>
@@ -334,7 +334,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>location: /home/runner/work/docs/docs/ug4/apps/navier_stokes/MovingParticle/Fixed Particle - Cylinder Benchmark/cylinder_fitted/conv_rates / <a class="el" href="_cylinder__fitted__conv_rates_8lua.html">Cylinder_fitted_convRates.lua</a> :78-80 </p><div class="fragment"><div class="line">function <a class="code hl_function" href="bubblepipe_8lua.html#ad30cc965ffc0cbe3be9904723553ff5c">inletVel2d</a>(x, <a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>, <a class="code hl_variable" href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a>)</div>
 <div class="line">    <span class="keywordflow">return</span> 4 * Um * <a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a> * (H-<a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>) / (H*H), 0.0</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="abubblepipe_8lua_html_ad30cc965ffc0cbe3be9904723553ff5c"><div class="ttname"><a href="bubblepipe_8lua.html#ad30cc965ffc0cbe3be9904723553ff5c">inletVel2d</a></div><div class="ttdeci">function inletVel2d(x, y, t)</div></div>
 <div class="ttc" id="achannel_8lua_html_a0abc9ddee91887084fd7f38e1bcb6f7f"><div class="ttname"><a href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a></div><div class="ttdeci">function y</div><div class="ttdef"><b>Definition</b> channel.lua:79</div></div>
 <div class="ttc" id="achannel_8lua_html_a23c5666e83bbbceee94adcd0851f50c4"><div class="ttname"><a href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a></div><div class="ttdeci">function t</div><div class="ttdef"><b>Definition</b> channel.lua:79</div></div>
@@ -359,7 +359,7 @@ Variables</h2></td></tr>
 <p>/** location: /home/runner/work/docs/docs/ug4/apps/navier_stokes/MovingParticle/Fixed Particle - Cylinder Benchmark/cylinder_fitted/conv_rates / <a class="el" href="_cylinder__fitted__conv_rates_8lua.html">Cylinder_fitted_convRates.lua</a> :324-329 </p><div class="fragment"><div class="line">  <a class="code hl_function" href="cylinder_8lua.html#a6c1f5d0c561fcfbc7367a489736818ac">MaxLevelPadding</a> = function(p)</div>
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">return</span> math.floor((p)/2)</div>
-<div class="line">   <a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a>,</div>
+<div class="line">   <a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a>,</div>
 <div class="line"> </div>
 <div class="line">})</div>
 <div class="line">})</div>
@@ -400,7 +400,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>location: /home/runner/work/docs/docs/ug4/apps/navier_stokes/MovingParticle/Fixed Particle - Cylinder Benchmark/cylinder_fitted/conv_rates / <a class="el" href="_cylinder__fitted__conv_rates_8lua.html">Cylinder_fitted_convRates.lua</a> :82-84 </p><div class="fragment"><div class="line">function <a class="code hl_function" href="_cylinder__fitted__conv_rates_8lua.html#a864b560895f88c8cdc884b6b59419d3c">ZeroSolution</a>(x, <a class="code hl_variable" href="channel_8lua.html#a0abc9ddee91887084fd7f38e1bcb6f7f">y</a>, <a class="code hl_variable" href="channel_8lua.html#a23c5666e83bbbceee94adcd0851f50c4">t</a>)</div>
 <div class="line">  <span class="keywordflow">return</span> 0.0</div>
-<div class="line"><a class="code hl_variable" href="channel_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
+<div class="line"><a class="code hl_variable" href="deponie_8lua.html#aa9b48f8ebd39c7b7f6ac6b5d7fc4cb07">end</a></div>
 <div class="ttc" id="a_cylinder__fitted__conv_rates_8lua_html_a864b560895f88c8cdc884b6b59419d3c"><div class="ttname"><a href="_cylinder__fitted__conv_rates_8lua.html#a864b560895f88c8cdc884b6b59419d3c">ZeroSolution</a></div><div class="ttdeci">function ZeroSolution(x, y, t)</div></div>
 </div><!-- fragment --> 
 </div>
@@ -488,7 +488,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_9654b8d08f4bba4e84b362c5fd320bee.html">apps</a></li><li class="navelem"><a class="el" href="dir_3bd393685b767e18cce7543d23bbc7c8.html">navier_stokes</a></li><li class="navelem"><a class="el" href="dir_ddcd56893d9ed2e5a29b3a3378c273b1.html">MovingParticle</a></li><li class="navelem"><a class="el" href="dir_08ac1f9905c5f90004c2ae8e3903c11c.html">Fixed Particle - Cylinder Benchmark</a></li><li class="navelem"><a class="el" href="dir_9c69e328562766af8bb51eddf47f15e1.html">cylinder_fitted</a></li><li class="navelem"><a class="el" href="dir_eae277f6334d8a0941bafe757735bc2e.html">conv_rates</a></li><li class="navelem"><a class="el" href="_cylinder__fitted__conv_rates_8lua.html">Cylinder_fitted_convRates.lua</a></li>
-    <li class="footer">Generated on Mon Aug 17 2026 01:04:55 for Apps by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Mon Aug 24 2026 01:06:49 for Apps by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>
